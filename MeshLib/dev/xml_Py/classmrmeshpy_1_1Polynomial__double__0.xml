@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Polynomial__double__0" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Polynomial_double_0</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Polynomial__double__0_1a9eb5e56d0282dbcf62dc6e034b317b6e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Polynomial_double_0::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.n</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47296" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a340e6b2cd25c843039b83d38a651d76b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polynomial_double_0.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47299" bodyend="47300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a2e230b23f8f61d401d9fe3ec90826428" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polynomial__double__0" kindref="compound">Polynomial_double_0</ref></type>
+        <definition> Polynomial_double_0 mrmeshpy.Polynomial_double_0.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47303" bodyend="47304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a2e230b23f8f61d401d9fe3ec90826428" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polynomial__double__0" kindref="compound">Polynomial_double_0</ref></type>
+        <definition> Polynomial_double_0 mrmeshpy.Polynomial_double_0.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47307" bodyend="47308"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a20b561b2919290be8bbc1af5241ff77f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Polynomial_double_0.__call__</definition>
+        <argsstring>(self, float x)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47309" bodyend="47310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a77a1d8615c11fb4d3b70b2b2521a8774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polynomial_double_0.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47312" bodyend="47313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1ab69fc51e6730656193bb31f199e6bea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polynomial_double_0.__init__</definition>
+        <argsstring>(self, Polynomial_double_0 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polynomial__double__0" kindref="compound">Polynomial_double_0</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47315" bodyend="47318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a77a1d8615c11fb4d3b70b2b2521a8774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polynomial_double_0.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47320" bodyend="47323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1ad6d2ef67e27f8636ad476909529ff33b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polynomial__double__0" kindref="compound">Polynomial_double_0</ref></type>
+        <definition> Polynomial_double_0 mrmeshpy.Polynomial_double_0.deriv</definition>
+        <argsstring>(self)</argsstring>
+        <name>deriv</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.deriv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47324" bodyend="47325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polynomial__double__0_1a4eb024ec05d00f2e808d6c6c35347160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Polynomial_double_0.intervalMin</definition>
+        <argsstring>(self, float a, float b)</argsstring>
+        <name>intervalMin</name>
+        <qualifiedname>mrmeshpy.Polynomial_double_0.intervalMin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47326" bodyend="47327"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Polynomial&lt;double, 0&gt;
+Aliases:  Polynomial_double_0ul_0_0_0ulminus1, Polynomial_double_1ul_0_0_1ulminus1
+
+Please note that these template classes are explicitly instantiated in the corresponding .cpp files.
+The following degrees are instantiated: [2; 6].
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Polynomial_double_0</label>
+        <link refid="classmrmeshpy_1_1Polynomial__double__0"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>n</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47288" bodyend="47327"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a20b561b2919290be8bbc1af5241ff77f" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a340e6b2cd25c843039b83d38a651d76b" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a77a1d8615c11fb4d3b70b2b2521a8774" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1ab69fc51e6730656193bb31f199e6bea2" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a77a1d8615c11fb4d3b70b2b2521a8774" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1ad6d2ef67e27f8636ad476909529ff33b" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>deriv</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a4eb024ec05d00f2e808d6c6c35347160" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>intervalMin</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a9eb5e56d0282dbcf62dc6e034b317b6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>n</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a2e230b23f8f61d401d9fe3ec90826428" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Polynomial__double__0_1a2e230b23f8f61d401d9fe3ec90826428" prot="public" virt="non-virtual"><scope>mrmeshpy::Polynomial_double_0</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

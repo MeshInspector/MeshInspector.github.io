@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__BestFitGroup" kind="group">
+    <compoundname>BestFitGroup</compoundname>
+    <title>BestFit</title>
+    <innerclass refid="classMR_1_1PointAccumulator" prot="public">MR::PointAccumulator</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__BestFitGroup_1gabf09681953aae673c37c9121925a3aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::accumulatePoints</definition>
+        <argsstring>(PointAccumulator &amp;accum, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>accumulatePoints</name>
+        <qualifiedname>MR::accumulatePoints</qualifiedname>
+        <param>
+          <type>PointAccumulator &amp;</type>
+          <declname>accum</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Adds in existing <ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> all given points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="57" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="57" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BestFitGroup_1ga141cf1a05b86ed500cac08d1205ca80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::accumulateWeighedPoints</definition>
+        <argsstring>(PointAccumulator &amp;accum, const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; float &gt; &amp;weights, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>accumulateWeighedPoints</name>
+        <qualifiedname>MR::accumulateWeighedPoints</qualifiedname>
+        <param>
+          <type>PointAccumulator &amp;</type>
+          <declname>accum</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Adds in existing <ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> all given weighed points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="60" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="60" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BestFitGroup_1ga9bca49efd608d5a3ee129ae497696532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::accumulateFaceCenters</definition>
+        <argsstring>(PointAccumulator &amp;accum, const MeshPart &amp;mp, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>accumulateFaceCenters</name>
+        <qualifiedname>MR::accumulateFaceCenters</qualifiedname>
+        <param>
+          <type>PointAccumulator &amp;</type>
+          <declname>accum</declname>
+        </param>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Adds in existing <ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> all mesh face centers with the weight equal to face area. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="63" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="63" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BestFitGroup_1ga6ea5e287b2854466c0edc8429e4f3728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::accumulateLineCenters</definition>
+        <argsstring>(PointAccumulator &amp;accum, const Polyline3 &amp;pl, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>accumulateLineCenters</name>
+        <qualifiedname>MR::accumulateLineCenters</qualifiedname>
+        <param>
+          <type>PointAccumulator &amp;</type>
+          <declname>accum</declname>
+        </param>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>pl</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Adds in existing <ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> all line centers with the weight equal to the length line. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="66" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="66" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BestFitGroup_1gae9b7d5125bd93295ef7d082687d116b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::accumulatePoints</definition>
+        <argsstring>(PointAccumulator &amp;accum, const PointCloudPart &amp;pcp, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>accumulatePoints</name>
+        <qualifiedname>MR::accumulatePoints</qualifiedname>
+        <param>
+          <type>PointAccumulator &amp;</type>
+          <declname>accum</declname>
+        </param>
+        <param>
+          <type>const PointCloudPart &amp;</type>
+          <declname>pcp</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Adds in existing <ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> all points from the cloud (region) with weight 1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="69" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="69" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

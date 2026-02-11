@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1abe3a9a1e76e8c3ce263c04a23bf0d002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77823" bodyend="77826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1adf412458a0228a48a61b5da64cd59aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__contains__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77828" bodyend="77829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1ab9b7566c2c64501ff4974d66ba812642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77831" bodyend="77832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1ab0eadbe2fc4e07e2132ab9b45b4c2ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__delitem__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77833" bodyend="77834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1ae9fdde55f55c4a36e4a228d402f43fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__getitem__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77835" bodyend="77836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a98a8d51e36fb049733a394bade3c3e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77838" bodyend="77839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a51a1103450a2fb01b5292d43973d1db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float" kindref="compound">phmap_flat_hash_map_Id_VertTag_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77841" bodyend="77842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a03cc692cd105486e1adfa7c246089c15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>]</type>
+        <definition> typing.Iterator[VertId] mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77843" bodyend="77844"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a0ee4e1389427af735414c156a11ee931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77845" bodyend="77846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a8c1de7cf425e5d29559c2f47e50f21ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77847" bodyend="77850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a9c270127d265d824cdcae5785f52be21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__setitem__</definition>
+        <argsstring>(self, VertId arg0, float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77851" bodyend="77852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a09061f11f1d7db2a1bf5206078eacddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77853" bodyend="77854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a098624b63efeabc64c7b0aa80f14dcd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77855" bodyend="77856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a0e903014ad32f5368248513d6a0168c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77857" bodyend="77858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a6b8a4f6b354180b9ce46b2d8891f7906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_float.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77859" bodyend="77860"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_VertId_float
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77819" bodyend="77860"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1abe3a9a1e76e8c3ce263c04a23bf0d002" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1adf412458a0228a48a61b5da64cd59aa8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1ab9b7566c2c64501ff4974d66ba812642" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1ab0eadbe2fc4e07e2132ab9b45b4c2ce8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1ae9fdde55f55c4a36e4a228d402f43fcb" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a98a8d51e36fb049733a394bade3c3e8b" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a51a1103450a2fb01b5292d43973d1db2" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a03cc692cd105486e1adfa7c246089c15" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a0ee4e1389427af735414c156a11ee931" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a8c1de7cf425e5d29559c2f47e50f21ea" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a9c270127d265d824cdcae5785f52be21" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a09061f11f1d7db2a1bf5206078eacddb" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a098624b63efeabc64c7b0aa80f14dcd4" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a0e903014ad32f5368248513d6a0168c6" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float_1a6b8a4f6b354180b9ce46b2d8891f7906" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_float</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

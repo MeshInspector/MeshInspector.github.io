@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriangleSegmentIntersectResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriangleSegmentIntersectResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a81d8214f7d641c9b84ee2b3d49ceb7f7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangleSegmentIntersectResult::_offsetof_dIsLeftFromABC</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dIsLeftFromABC</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult._offsetof_dIsLeftFromABC</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1aef46fd405d42bfc4aa46000448074a73" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangleSegmentIntersectResult::_offsetof_doIntersect</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_doIntersect</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult._offsetof_doIntersect</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57475" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a8b4697b9f0c7ad1b91dae20f7b3bcd1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangleSegmentIntersectResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57478" bodyend="57479"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a57a44c41d7f4623025421710c766aeca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangleSegmentIntersectResult" kindref="compound">TriangleSegmentIntersectResult</ref></type>
+        <definition> TriangleSegmentIntersectResult mrmeshpy.TriangleSegmentIntersectResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57482" bodyend="57483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a57a44c41d7f4623025421710c766aeca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangleSegmentIntersectResult" kindref="compound">TriangleSegmentIntersectResult</ref></type>
+        <definition> TriangleSegmentIntersectResult mrmeshpy.TriangleSegmentIntersectResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57486" bodyend="57487"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1af3adca081b4095d0e0d70084c3ac125f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangleSegmentIntersectResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57488" bodyend="57489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a1b7fe3ae6db4b0f58411b4c5d563cfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangleSegmentIntersectResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57491" bodyend="57492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a2146ef11ac34f8e132346ba3e8f4a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangleSegmentIntersectResult.__init__</definition>
+        <argsstring>(self, TriangleSegmentIntersectResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangleSegmentIntersectResult" kindref="compound">TriangleSegmentIntersectResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57494" bodyend="57497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a8595c20a9dbcda67ff72dc0e8e76e7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangleSegmentIntersectResult.__init__</definition>
+        <argsstring>(self, bool doIntersect, bool dIsLeftFromABC)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doIntersect</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dIsLeftFromABC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57499" bodyend="57502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1ae257cf60c3dd5edd2e0e238f880a1d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangleSegmentIntersectResult.dIsLeftFromABC</definition>
+        <argsstring>(self)</argsstring>
+        <name>dIsLeftFromABC</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.dIsLeftFromABC</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether the plane with orientated triangle ABC has D point at the left
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57504" bodyend="57507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a999c16852d18828864e088e91a1072e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangleSegmentIntersectResult.dIsLeftFromABC</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>dIsLeftFromABC</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.dIsLeftFromABC</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57509" bodyend="57510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1ae544cf0203408859e5f1e623474af7f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangleSegmentIntersectResult.doIntersect</definition>
+        <argsstring>(self)</argsstring>
+        <name>doIntersect</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.doIntersect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether triangle and segment intersect
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57512" bodyend="57515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangleSegmentIntersectResult_1aa9fa94a138700cc9006c0d43d7ec5525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangleSegmentIntersectResult.doIntersect</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>doIntersect</name>
+        <qualifiedname>mrmeshpy.TriangleSegmentIntersectResult.doIntersect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57517" bodyend="57518"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriangleSegmentIntersectResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TriangleSegmentIntersectResult</label>
+        <link refid="classmrmeshpy_1_1TriangleSegmentIntersectResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dIsLeftFromABC</edgelabel>
+          <edgelabel>_offsetof_doIntersect</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57470" bodyend="57518"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1af3adca081b4095d0e0d70084c3ac125f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a8b4697b9f0c7ad1b91dae20f7b3bcd1e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a1b7fe3ae6db4b0f58411b4c5d563cfd7" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a2146ef11ac34f8e132346ba3e8f4a644" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a8595c20a9dbcda67ff72dc0e8e76e7bf" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a81d8214f7d641c9b84ee2b3d49ceb7f7" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>_offsetof_dIsLeftFromABC</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1aef46fd405d42bfc4aa46000448074a73" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>_offsetof_doIntersect</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1ae257cf60c3dd5edd2e0e238f880a1d22" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>dIsLeftFromABC</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a999c16852d18828864e088e91a1072e8" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>dIsLeftFromABC</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1ae544cf0203408859e5f1e623474af7f4" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1aa9fa94a138700cc9006c0d43d7ec5525" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a57a44c41d7f4623025421710c766aeca" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangleSegmentIntersectResult_1a57a44c41d7f4623025421710c766aeca" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangleSegmentIntersectResult</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

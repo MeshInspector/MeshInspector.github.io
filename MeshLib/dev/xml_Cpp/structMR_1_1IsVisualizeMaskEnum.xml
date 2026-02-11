@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IsVisualizeMaskEnum" kind="struct" language="C++" prot="public">
+    <compoundname>MR::IsVisualizeMaskEnum</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::false_type</basecompoundref>
+    <includes refid="MRVisualObject_8h" local="no">MRVisualObject.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>If a type derived from <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref></computeroutput> wants to extend <computeroutput>VisualizeMaskType</computeroutput>, it must create a separate enum and specialize this to <computeroutput>true</computeroutput> for it. NOTE! All those enums can start from 0, don&apos;t worry about collisions. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::IsVisualizeMaskEnum&lt; T &gt;</label>
+        <link refid="structMR_1_1IsVisualizeMaskEnum"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::false_type</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::IsVisualizeMaskEnum&lt; T &gt;</label>
+        <link refid="structMR_1_1IsVisualizeMaskEnum"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::false_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="32" bodyend="32"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

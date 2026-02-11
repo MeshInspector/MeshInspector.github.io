@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1ae412fe42986d29bcf209517f51e919fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76706" bodyend="76707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a381cbeaa22f943afb07d59e04ae06305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__call__</definition>
+        <argsstring>(self, ObjId arg0, MeshOrPoints.ProjectionResult arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints.ProjectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76708" bodyend="76709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a0b4b24e84d4448c2315111c681db5c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76711" bodyend="76712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1aa586cf0e3e4458233105dea125c85925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76714" bodyend="76715"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a4a167d0712dec2ff73bc388f1d0ff7c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self, func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult" kindref="compound">func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76717" bodyend="76718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a536ffed53e0bf25c4ceb116eed3f74f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self, typing.Callable[[ObjId, MeshOrPoints.ProjectionResult], None] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[ObjId, MeshOrPoints.ProjectionResult]</array>
+        </param>
+        <param>
+          <type>None]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76720" bodyend="76721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a43b81d50fb40c36f7e808c61c906154e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76722" bodyend="76725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a539414ad7eebfe3fc06b69ef1387f25d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76726" bodyend="76729"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76705" bodyend="76729"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1ae412fe42986d29bcf209517f51e919fc" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a381cbeaa22f943afb07d59e04ae06305" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a0b4b24e84d4448c2315111c681db5c13" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1aa586cf0e3e4458233105dea125c85925" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a4a167d0712dec2ff73bc388f1d0ff7c8" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a536ffed53e0bf25c4ceb116eed3f74f5" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a43b81d50fb40c36f7e808c61c906154e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult_1a539414ad7eebfe3fc06b69ef1387f25d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_ObjTag_MeshOrPoints_ProjectionResult</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

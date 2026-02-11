@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MREnums_8cs" kind="file" language="C#">
+    <compoundname>MREnums.cs</compoundname>
+    <innerclass refid="classMR" prot="public">MR</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="classMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" kindref="member">FilterType</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9da32a843da6ea40ab3b17a3421ccdf671b" kindref="member">Linear</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9da4984667940802dedc139aa7a430a6553" kindref="member">Discrete</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1ae7db9a854f022874d626b890ca623e82" kindref="member">WrapType</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ae7db9a854f022874d626b890ca623e82a7020426cfb0a204051be4b3053d2acc8" kindref="member">Repeat</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ae7db9a854f022874d626b890ca623e82a2403def5083f02105e7802b3b315681e" kindref="member">Mirror</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ae7db9a854f022874d626b890ca623e82a08825280e3f8137556325061ba67ff8c" kindref="member">Clamp</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1a03d4edadbdc62c017d82e673d2a01d6b" kindref="member">Reorder</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a03d4edadbdc62c017d82e673d2a01d6ba6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a03d4edadbdc62c017d82e673d2a01d6ba011f8c8ff21179c288b0492878ac5954" kindref="member">Lexicographically</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" kindref="member">AABBTree</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8" kindref="member">VertexMass</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">Unit</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a1382ee05d86c5b607841935eeb648e06" kindref="member">NeiArea</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9e" kindref="member">EdgeWeights</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">Unit</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9" kindref="member">Cotan</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kindref="member">Processing</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917caa0bfb8e59e6c13fc8d990781f77694fe" kindref="member">Continue</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917ca11a755d598c0c417f9a36758c3da7481" kindref="member">Stop</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dab" kindref="member">OrientNormals</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576daba2825d6d77d04650a6a5ffef55c198d9f" kindref="member">TowardOrigin</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576daba08b9149d45da3efbdd41811c50774bf7" kindref="member">AwayFromOrigin</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">Smart</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">OffsetMode</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" kindref="member">Smooth</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b" kindref="member">Standard</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355" kindref="member">Sharpening</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">ColoringType</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4a63af9903673bdc27b881a7444b1f9854" kindref="member">SolidColor</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4af197a1d9750657bd77f7e80b68f4e3ca" kindref="member">PrimitivesColorMap</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4a65f3aabfa1c57a829746c547782eb1ba" kindref="member">FacesColorMap</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4a27c297dc9b8643caebe6c2888f08f197" kindref="member">LinesColorMap</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4a4eec2fd5791a957e48b009cdbe2c10dd" kindref="member">VertsColorMap</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88" kindref="member">UseAABBTree</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AABB-tree<sp/>of<sp/>the<sp/>mesh<sp/>will<sp/>not<sp/>be<sp/>used,<sp/>even<sp/>if<sp/>it<sp/>is<sp/>available</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88abafd7322c6e97d25b6299b5d6fe8920b" kindref="member">No</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AABB-tree<sp/>of<sp/>the<sp/>mesh<sp/>will<sp/>be<sp/>used<sp/>even<sp/>if<sp/>it<sp/>has<sp/>to<sp/>be<sp/>constructed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">Yes</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AABB-tree<sp/>of<sp/>the<sp/>mesh<sp/>will<sp/>be<sp/>used<sp/>if<sp/>it<sp/>was<sp/>previously<sp/>constructed<sp/>and<sp/>available,<sp/>and<sp/>will<sp/>not<sp/>be<sp/>used<sp/>otherwise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a15e26f8fa2b40c5f5855790886c51a83" kindref="member">YesIfAlreadyConstructed</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04" kindref="member">GeodesicPathApprox</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04a688de737bb8774938c023e0f0a373184" kindref="member">DijkstraBiDir</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04aa9132a8a9b3c0d8c70e577b23e01e70d" kindref="member">DijkstraAStar</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04aa379190d516779f65bad72b240e81435" kindref="member">FastMarching</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13ead" kindref="member">Turn</ref><sp/>:<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada5313b10fe6ecec66888957ac38ee7f9b" kindref="member">Leftmost</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Rightmost</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>unsafe<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">?<sp/><ref refid="classMR_1af6c12a615a62c7eb3634b3b2ae26a0fe" kindref="member">asString</ref>(<ref refid="classMR" kindref="compound">MR</ref>.<ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">ColoringType</ref><sp/>ct)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[System.Runtime.InteropServices.DllImport(</highlight><highlight class="stringliteral">&quot;MeshLibC2&quot;</highlight><highlight class="normal">,<sp/>EntryPoint<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MR_asString_MR_ColoringType&quot;</highlight><highlight class="normal">,<sp/>ExactSpelling<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>*__MR_asString_MR_ColoringType(<ref refid="classMR" kindref="compound">MR</ref>.<ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">ColoringType</ref><sp/>ct);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>__c_ret<sp/>=<sp/>__MR_asString_MR_ColoringType(ct);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__c_ret<sp/>is<sp/>not<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>?<sp/>*__c_ret<sp/>:<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlaneAccumulator" kind="class" language="C++" prot="public">
+    <compoundname>MR::PlaneAccumulator</compoundname>
+    <includes refid="MRBestFit_8h" local="no">MRBestFit.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1PlaneAccumulator_1a01b1cd6902f7e5195b07ff45dd326277" prot="private" static="no" mutable="no">
+        <type>SymMatrix3d</type>
+        <definition>SymMatrix3d MR::PlaneAccumulator::mat_</definition>
+        <argsstring></argsstring>
+        <name>mat_</name>
+        <qualifiedname>MR::PlaneAccumulator::mat_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="89" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PlaneAccumulator_1a67b76e0f451ddcc537d85a02c251d2df" prot="private" static="no" mutable="no">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::PlaneAccumulator::rhs_</definition>
+        <argsstring></argsstring>
+        <name>rhs_</name>
+        <qualifiedname>MR::PlaneAccumulator::rhs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="90" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a561b80488532ac9db2b78daf77f60124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::PlaneAccumulator::addPlane</definition>
+        <argsstring>(const Plane3d &amp;pl)</argsstring>
+        <name>addPlane</name>
+        <qualifiedname>MR::PlaneAccumulator::addPlane</qualifiedname>
+        <param>
+          <type>const Plane3d &amp;</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="77" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1adffaaa076fb1e9216cb89f89f2ee3af6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PlaneAccumulator::addPlane</definition>
+        <argsstring>(const Plane3f &amp;pl)</argsstring>
+        <name>addPlane</name>
+        <qualifiedname>MR::PlaneAccumulator::addPlane</qualifiedname>
+        <param>
+          <type>const Plane3f &amp;</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1af8c3f7e07324810201d7e42c25d77fb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3d</type>
+        <definition>MRMESH_API Vector3d MR::PlaneAccumulator::findBestCrossPoint</definition>
+        <argsstring>(const Vector3d &amp;p0, double tol, int *rank=nullptr, Vector3d *space=nullptr) const</argsstring>
+        <name>findBestCrossPoint</name>
+        <qualifiedname>MR::PlaneAccumulator::findBestCrossPoint</qualifiedname>
+        <param>
+          <type>const Vector3d &amp;</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>rank</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>Vector3d *</type>
+          <declname>space</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the point that minimizes the sum of squared distances to accumulated planes; if such point is not unique then returns the one closest to p0 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>relative epsilon-tolerance for too small number detection </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output for solution matrix rank according to given tolerance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>space</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rank=1: unit normal to solution plane, rank=2: unit direction of solution line, rank=3: zero vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="85" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a0255552e85ddcbc57932a70e4eabbb28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <definition>MRMESH_API Vector3f MR::PlaneAccumulator::findBestCrossPoint</definition>
+        <argsstring>(const Vector3f &amp;p0, float tol, int *rank=nullptr, Vector3f *space=nullptr) const</argsstring>
+        <name>findBestCrossPoint</name>
+        <qualifiedname>MR::PlaneAccumulator::findBestCrossPoint</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>rank</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>Vector3f *</type>
+          <declname>space</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="86" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class to accumulate planes to find then their crossing point. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="75" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PlaneAccumulator_1a561b80488532ac9db2b78daf77f60124" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1adffaaa076fb1e9216cb89f89f2ee3af6" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1af8c3f7e07324810201d7e42c25d77fb3" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a0255552e85ddcbc57932a70e4eabbb28" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a01b1cd6902f7e5195b07ff45dd326277" prot="private" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>mat_</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a67b76e0f451ddcc537d85a02c251d2df" prot="private" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>rhs_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

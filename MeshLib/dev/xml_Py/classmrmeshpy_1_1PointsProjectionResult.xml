@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsProjectionResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsProjectionResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsProjectionResult_1a0722de4c6a6946ee3a7914eb0c3fbf1e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsProjectionResult::_offsetof_distSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distSq</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult._offsetof_distSq</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsProjectionResult_1a90097ee9bfd58cd4b5847478acdebbcf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsProjectionResult::_offsetof_vId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vId</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult._offsetof_vId</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45362" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1a4480f12abf85fb5b10a3c5fa3652c043" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsProjectionResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45365" bodyend="45366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1aa0ef75a2c7de3033153e92d80084c1c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+        <definition> PointsProjectionResult mrmeshpy.PointsProjectionResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45369" bodyend="45370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1aa0ef75a2c7de3033153e92d80084c1c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+        <definition> PointsProjectionResult mrmeshpy.PointsProjectionResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45373" bodyend="45374"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1a15241179b8233cd948d54cd693dcaa2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsProjectionResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45376" bodyend="45377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1aef39ac08d0d63b8b833ddd55e5de5c89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsProjectionResult.__init__</definition>
+        <argsstring>(self, PointsProjectionResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45379" bodyend="45382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1a625ca289fbffe9aa13f89c9748673ba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsProjectionResult.__init__</definition>
+        <argsstring>(self, float distSq, VertId vId)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>vId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45384" bodyend="45387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1ad7391aa38dd8001089d618c209d9cd4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointsProjectionResult.distSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>squared distance from pt to proj
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45389" bodyend="45392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1ad3aeed7875fa6b67d055f5e70c2c6674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsProjectionResult.distSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45394" bodyend="45395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1ac3624278c63d423f1d5131be25468869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PointsProjectionResult.vId</definition>
+        <argsstring>(self)</argsstring>
+        <name>vId</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.vId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the closest vertex in point cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45397" bodyend="45400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjectionResult_1a93842ba0a4e93b91397956281b615baa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsProjectionResult.vId</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>vId</name>
+        <qualifiedname>mrmeshpy.PointsProjectionResult.vId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45402" bodyend="45403"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointsProjectionResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointsProjectionResult</label>
+        <link refid="classmrmeshpy_1_1PointsProjectionResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_distSq</edgelabel>
+          <edgelabel>_offsetof_vId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45357" bodyend="45403"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1a4480f12abf85fb5b10a3c5fa3652c043" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1a15241179b8233cd948d54cd693dcaa2a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1aef39ac08d0d63b8b833ddd55e5de5c89" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1a625ca289fbffe9aa13f89c9748673ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1a0722de4c6a6946ee3a7914eb0c3fbf1e" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>_offsetof_distSq</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1a90097ee9bfd58cd4b5847478acdebbcf" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>_offsetof_vId</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1ad7391aa38dd8001089d618c209d9cd4c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1ad3aeed7875fa6b67d055f5e70c2c6674" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1aa0ef75a2c7de3033153e92d80084c1c0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1aa0ef75a2c7de3033153e92d80084c1c0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1ac3624278c63d423f1d5131be25468869" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>vId</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjectionResult_1a93842ba0a4e93b91397956281b615baa" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

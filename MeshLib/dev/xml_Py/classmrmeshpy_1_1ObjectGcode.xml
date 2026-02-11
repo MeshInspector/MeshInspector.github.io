@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectGcode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectGcode</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1ObjectLinesHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectLinesHolder</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1ab22e618b82508e4bccfd63e97ab31df2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectGcode.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39470" bodyend="39471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1aeb34592484cf8164e55318498c6fb1d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectGcode.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39473" bodyend="39474"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a8af251dc40ca4f08784d632bdc99ed82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectGcode.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1aa497a195c8086c0b64e0739b83741135">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39476" bodyend="39477"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39478" bodyend="39479"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a5132a88c51189570c41d37e2d6526f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__GcodeProcessor__MoveAction" kindref="compound">std_vector_GcodeProcessor_MoveAction</ref></type>
+        <definition> std_vector_GcodeProcessor_MoveAction mrmeshpy.ObjectGcode.actionList</definition>
+        <argsstring>(self)</argsstring>
+        <name>actionList</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.actionList</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get action list (produced from g-code source)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39480" bodyend="39483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a1a3257d0cef8a8dd7859cbefcd03cf5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectGcode.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39484" bodyend="39485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a8c22af6955cd46354fb8e65f58569619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectGcode.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39486" bodyend="39487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a69d90eb39a7c8f555722df8156f69463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectGcode.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1a0ce5f0f36cb7ebc31e410e151c5775c3">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39488" bodyend="39489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1ad64a9d61989c7c82fb8e106e0d3917f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.ObjectGcode.gcodeSource</definition>
+        <argsstring>(self)</argsstring>
+        <name>gcodeSource</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.gcodeSource</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39490" bodyend="39491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1af4398fac392c089fc989062c1234e25d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
+        <definition> CNCMachineSettings mrmeshpy.ObjectGcode.getCNCMachineSettings</definition>
+        <argsstring>(self)</argsstring>
+        <name>getCNCMachineSettings</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.getCNCMachineSettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39492" bodyend="39493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a0e63b729febadb43f1e13d59174f80d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ObjectGcode.getIdleColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>getIdleColor</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.getIdleColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39494" bodyend="39495"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a7ea09ad84cdca61d84505611b67484aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.ObjectGcode.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3">getInfoLines</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39496" bodyend="39497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a79b7b19a9c02de20a815b6c85930b32f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectGcode.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1a66a9da044d1ff0dafad25ee62ec981cb">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39498" bodyend="39501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a74e622f876d856c17ff6f5d670f08a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectGcode.isFeedrateGradient</definition>
+        <argsstring>(self)</argsstring>
+        <name>isFeedrateGradient</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.isFeedrateGradient</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39502" bodyend="39503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1aa249af6b971cf4b0edc3d67654c60784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__int" kindref="compound">std_vector_int</ref></type>
+        <definition> std_vector_int mrmeshpy.ObjectGcode.segmentToSourceLineMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>segmentToSourceLineMap</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.segmentToSourceLineMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get mapping of tool path polyline segment id to source line number of g-code source
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39504" bodyend="39507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a8e6b2c9143a33c0e55fe6e12f0e87339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectGcode.select</definition>
+        <argsstring>(self, bool isSelected)</argsstring>
+        <name>select</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.select</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada">select</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>selects the object, returns true if value changed, otherwise returns false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39508" bodyend="39509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1ac1cabf2e04896f205e0044177e321e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.setCNCMachineSettings</definition>
+        <argsstring>(self, CNCMachineSettings cncSettings)</argsstring>
+        <name>setCNCMachineSettings</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.setCNCMachineSettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
+          <declname>cncSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39510" bodyend="39511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a9420d89f0e9d81ef7990811e0db5c691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.setDirtyFlags</definition>
+        <argsstring>(self, int mask, bool invalidateCaches=True)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.setDirtyFlags</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1ae2cf69c6b8bbc437fac219147a738433">setDirtyFlags</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invalidateCaches</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets some dirty flags for the object (to force its visual update)
+\\param mask is a union of DirtyFlags flags
+\\param invalidateCaches whether to automatically invalidate model caches (pass false here if you manually update the caches)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39512" bodyend="39513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a1a31ac4a6867a66ac98af8ab8c3697c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.setFrontColor</definition>
+        <argsstring>(self, Color color, bool selected, ViewportId viewportId=...)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.setFrontColor</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c">setFrontColor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets color of object when it is selected/not-selected (depending on argument) in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39514" bodyend="39515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1acd193644d8f08d57339127d1088cf918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.setGcodeSource</definition>
+        <argsstring>(self, std_vector_std_string gcodeSource)</argsstring>
+        <name>setGcodeSource</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.setGcodeSource</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+          <declname>gcodeSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39516" bodyend="39517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a7d8ad04eb3cca056f8ac505f2a05f7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.setIdleColor</definition>
+        <argsstring>(self, Color color)</argsstring>
+        <name>setIdleColor</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.setIdleColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39518" bodyend="39519"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a880506f01e0ee9219a5b770e47966083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectGcode.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1aa4fb859df3557e279340755c13cad777">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39520" bodyend="39521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1ae2d55c518c5f347c08ac06f2254c8ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectGcode.switchFeedrateGradient</definition>
+        <argsstring>(self, bool isFeedrateGradientEnabled)</argsstring>
+        <name>switchFeedrateGradient</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.switchFeedrateGradient</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isFeedrateGradientEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set drawing feedrate as gradient of brightness
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39522" bodyend="39525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectGcode_1a1a21c672f5f041a5f57deafc67794e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectGcode.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectGcode.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1a3d74f153344e45ee25a3ab78a883ba4a">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39526" bodyend="39527"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectGcode
+
+an object that stores a g-code
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectGcode</label>
+        <link refid="classmrmeshpy_1_1ObjectGcode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectLinesHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectLinesHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectGcode</label>
+        <link refid="classmrmeshpy_1_1ObjectGcode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectLinesHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectLinesHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39463" bodyend="39527"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a5132a88c51189570c41d37e2d6526f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>actionList</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a1a3257d0cef8a8dd7859cbefcd03cf5a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a8c22af6955cd46354fb8e65f58569619" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a69d90eb39a7c8f555722df8156f69463" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1ad64a9d61989c7c82fb8e106e0d3917f9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>gcodeSource</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1af4398fac392c089fc989062c1234e25d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>getCNCMachineSettings</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a0e63b729febadb43f1e13d59174f80d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>getIdleColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a7ea09ad84cdca61d84505611b67484aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a79b7b19a9c02de20a815b6c85930b32f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a74e622f876d856c17ff6f5d670f08a22" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>isFeedrateGradient</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1aa249af6b971cf4b0edc3d67654c60784" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>segmentToSourceLineMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a8e6b2c9143a33c0e55fe6e12f0e87339" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1ac1cabf2e04896f205e0044177e321e82" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>setCNCMachineSettings</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a9420d89f0e9d81ef7990811e0db5c691" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a1a31ac4a6867a66ac98af8ab8c3697c3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1acd193644d8f08d57339127d1088cf918" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>setGcodeSource</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a7d8ad04eb3cca056f8ac505f2a05f7c6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>setIdleColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a880506f01e0ee9219a5b770e47966083" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1ab22e618b82508e4bccfd63e97ab31df2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1aeb34592484cf8164e55318498c6fb1d9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a8af251dc40ca4f08784d632bdc99ed82" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1ae2d55c518c5f347c08ac06f2254c8ea4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>switchFeedrateGradient</name></member>
+      <member refid="classmrmeshpy_1_1ObjectGcode_1a1a21c672f5f041a5f57deafc67794e3f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

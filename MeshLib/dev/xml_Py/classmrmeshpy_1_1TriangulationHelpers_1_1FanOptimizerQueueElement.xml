@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa755e3ea07549e72d5a9bc66127bc60b" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57693" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a2ecb0a4bc3def452443a82cd083e30bb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement::_offsetof_id</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_id</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement._offsetof_id</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ab6b1495a54d2c208f5e6e07f661361ab" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement::_offsetof_nextId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_nextId</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement._offsetof_nextId</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1addd8b5551655f375cc0fc2ade20d9dd3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement::_offsetof_prevId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_prevId</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement._offsetof_prevId</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a485bcbc3c182b702cb912ca4b205f79a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement::_offsetof_stable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stable</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement._offsetof_stable</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a88c06d87f3a6f933d55e472a01153890" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement::_offsetof_weight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_weight</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement._offsetof_weight</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57698" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa30ef8c9e6849eecda30fcf108fa3252" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57701" bodyend="57702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1afb72b6286c178f1e23dcc640aee7fba9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">TriangulationHelpers.FanOptimizerQueueElement</ref></type>
+        <definition> TriangulationHelpers.FanOptimizerQueueElement mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57705" bodyend="57706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1afb72b6286c178f1e23dcc640aee7fba9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">TriangulationHelpers.FanOptimizerQueueElement</ref></type>
+        <definition> TriangulationHelpers.FanOptimizerQueueElement mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57709" bodyend="57710"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af93c1982dda9e3eb07f4ba696c5d4f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__eq__</definition>
+        <argsstring>(self, TriangulationHelpers.FanOptimizerQueueElement other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">TriangulationHelpers.FanOptimizerQueueElement</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57711" bodyend="57712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a86d8872bdc327d9a34b1b5edec46c5b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57714" bodyend="57715"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a25976345498da42bebce079251d6f18d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</definition>
+        <argsstring>(self, TriangulationHelpers.FanOptimizerQueueElement arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">TriangulationHelpers.FanOptimizerQueueElement</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57717" bodyend="57720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a44ba4578569152655ee32e282cc809f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</definition>
+        <argsstring>(self, float weight, int id, int prevId, int nextId, bool stable)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prevId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nextId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57722" bodyend="57725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a73bc0dbd5b6c4b2e70a5480258089d2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.isOutdated</definition>
+        <argsstring>(self, std_vector_Id_VertTag neighbors)</argsstring>
+        <name>isOutdated</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.isOutdated</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57726" bodyend="57727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a488fac2beb6ea7ab0d27d7e8c8e739ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.operator</definition>
+        <argsstring>(self, TriangulationHelpers.FanOptimizerQueueElement other)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">TriangulationHelpers.FanOptimizerQueueElement</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57729" bodyend="57730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a7a5edc30c711fbd414af4ad8c12e43de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.id</definition>
+        <argsstring>(self)</argsstring>
+        <name>id</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.id</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57732" bodyend="57735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a15c00c4eea2e7a2ece4cfa17f94a9b3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.id</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>id</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.id</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57737" bodyend="57738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a7af3358c907462c231144182cf054e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.nextId</definition>
+        <argsstring>(self)</argsstring>
+        <name>nextId</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.nextId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>id of next neighbor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57740" bodyend="57743"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a48346ea20dc2a7a9c7fc2dceacbda805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.nextId</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>nextId</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.nextId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57745" bodyend="57746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a20eb7b3ec65901a38fccfa8eae16a726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.prevId</definition>
+        <argsstring>(self)</argsstring>
+        <name>prevId</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.prevId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>id of prev neighbor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57748" bodyend="57751"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a948208cd2963badceb231770278aa574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.prevId</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>prevId</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.prevId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57753" bodyend="57754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae98583947cbbbf5e8e30425770a8e7b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.stable</definition>
+        <argsstring>(self)</argsstring>
+        <name>stable</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.stable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if this flag is true, edge cannot be flipped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57756" bodyend="57759"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1adf76caae7e6f1ae9a7135b6cb798e396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.stable</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>stable</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.stable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57761" bodyend="57762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a926723ac20d9d9145195ce98f9e51427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.weight</definition>
+        <argsstring>(self)</argsstring>
+        <name>weight</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.weight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>profit of flipping this edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57764" bodyend="57767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aaec9e41a261aa0dd4a3e46c9e245d3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.weight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>weight</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement.weight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57769" bodyend="57771"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriangulationHelpers::FanOptimizerQueueElement
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement</label>
+        <link refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_id</edgelabel>
+          <edgelabel>_offsetof_nextId</edgelabel>
+          <edgelabel>_offsetof_prevId</edgelabel>
+          <edgelabel>_offsetof_stable</edgelabel>
+          <edgelabel>_offsetof_weight</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57689" bodyend="57770"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af93c1982dda9e3eb07f4ba696c5d4f3c" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa755e3ea07549e72d5a9bc66127bc60b" prot="private" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa30ef8c9e6849eecda30fcf108fa3252" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a86d8872bdc327d9a34b1b5edec46c5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a25976345498da42bebce079251d6f18d" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a44ba4578569152655ee32e282cc809f3" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a2ecb0a4bc3def452443a82cd083e30bb" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>_offsetof_id</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ab6b1495a54d2c208f5e6e07f661361ab" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>_offsetof_nextId</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1addd8b5551655f375cc0fc2ade20d9dd3" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>_offsetof_prevId</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a485bcbc3c182b702cb912ca4b205f79a" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>_offsetof_stable</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a88c06d87f3a6f933d55e472a01153890" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>_offsetof_weight</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a7a5edc30c711fbd414af4ad8c12e43de" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>id</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a15c00c4eea2e7a2ece4cfa17f94a9b3f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>id</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a73bc0dbd5b6c4b2e70a5480258089d2a" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>isOutdated</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a7af3358c907462c231144182cf054e93" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>nextId</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a48346ea20dc2a7a9c7fc2dceacbda805" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>nextId</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1afb72b6286c178f1e23dcc640aee7fba9" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1afb72b6286c178f1e23dcc640aee7fba9" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a488fac2beb6ea7ab0d27d7e8c8e739ff" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a20eb7b3ec65901a38fccfa8eae16a726" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>prevId</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a948208cd2963badceb231770278aa574" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>prevId</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae98583947cbbbf5e8e30425770a8e7b5" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>stable</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1adf76caae7e6f1ae9a7135b6cb798e396" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>stable</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a926723ac20d9d9145195ce98f9e51427" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>weight</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aaec9e41a261aa0dd4a3e46c9e245d3b2" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

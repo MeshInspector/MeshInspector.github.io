@@ -1,0 +1,771 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRObjectLinesHolder_8h" kind="file" language="C++">
+    <compoundname>MRObjectLinesHolder.h</compoundname>
+    <includes refid="MRVisualObject_8h" local="yes">MRVisualObject.h</includes>
+    <includes refid="MRXfBasedCache_8h" local="yes">MRXfBasedCache.h</includes>
+    <includedby refid="MRChangeColoringActions_8h" local="yes">MRChangeColoringActions.h</includedby>
+    <includedby refid="MRObjectGcode_8h" local="yes">MRObjectGcode.h</includedby>
+    <includedby refid="MRObjectLines_8h" local="yes">MRObjectLines.h</includedby>
+    <incdepgraph>
+      <node id="27">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="55">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MRHeapBytes.h</label>
+        <link refid="MRHeapBytes_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>MRIRenderObject.h</label>
+        <link refid="MRIRenderObject_8h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRMeshTexture.h</label>
+        <link refid="MRMeshTexture_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRObject.h</label>
+        <link refid="MRObject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRObjectLinesHolder.h</label>
+        <link refid="MRObjectLinesHolder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>MRRenderModelParameters.h</label>
+        <link refid="MRRenderModelParameters_8h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>MRUniquePtr.h</label>
+        <link refid="MRUniquePtr_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MRViewportProperty.h</label>
+        <link refid="MRViewportProperty_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVisualObject.h</label>
+        <link refid="MRVisualObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MRXfBasedCache.h</label>
+        <link refid="MRXfBasedCache_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="14">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="39">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="30">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="22">
+        <label>algorithm</label>
+      </node>
+      <node id="15">
+        <label>array</label>
+      </node>
+      <node id="42">
+        <label>boost/signals2/signal.hpp</label>
+      </node>
+      <node id="20">
+        <label>cassert</label>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="33">
+        <label>concepts</label>
+      </node>
+      <node id="9">
+        <label>cstddef</label>
+      </node>
+      <node id="24">
+        <label>cstring</label>
+      </node>
+      <node id="46">
+        <label>filesystem</label>
+      </node>
+      <node id="19">
+        <label>functional</label>
+      </node>
+      <node id="47">
+        <label>future</label>
+      </node>
+      <node id="25">
+        <label>iosfwd</label>
+      </node>
+      <node id="34">
+        <label>iterator</label>
+      </node>
+      <node id="37">
+        <label>limits</label>
+      </node>
+      <node id="45">
+        <label>map</label>
+      </node>
+      <node id="48">
+        <label>memory</label>
+      </node>
+      <node id="63">
+        <label>optional</label>
+      </node>
+      <node id="18">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="49">
+        <label>set</label>
+      </node>
+      <node id="17">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>type_traits</label>
+      </node>
+      <node id="60">
+        <label>typeindex</label>
+      </node>
+      <node id="26">
+        <label>utility</label>
+      </node>
+      <node id="16">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRChangeColoringActions.h</label>
+        <link refid="MRChangeColoringActions_8h"/>
+      </node>
+      <node id="5">
+        <label>MRChangePolylineAction.h</label>
+        <link refid="MRChangePolylineAction_8h"/>
+      </node>
+      <node id="3">
+        <label>MRObjectGcode.h</label>
+        <link refid="MRObjectGcode_8h"/>
+      </node>
+      <node id="4">
+        <label>MRObjectLines.h</label>
+        <link refid="MRObjectLines_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRObjectLinesHolder.h</label>
+        <link refid="MRObjectLinesHolder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="7">
+        <label>MRViewportGlobalBasis.h</label>
+        <link refid="MRViewportGlobalBasis_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4" prot="public">MR::IsVisualizeMaskEnum&lt; LinesVisualizePropertyType &gt;</innerclass>
+    <innerclass refid="classMR_1_1ObjectLinesHolder" prot="public">MR::ObjectLinesHolder</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="MRObjectLinesHolder_8h_1a50ba2acfd483f395e71abb80f687463e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="10" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="MRObjectLinesHolder_8h_1a97f9630458efd2e8cfccca5356bd847a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Smooth</definition>
+        <argsstring></argsstring>
+        <name>Smooth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="11" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="MRObjectLinesHolder_8h_1a3aa6973802ff89463140e58e4978b222" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Dashed</definition>
+        <argsstring></argsstring>
+        <name>Dashed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="12" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="MRObjectLinesHolder_8h_1a69c4cff6b9a1cd95c71fc56b8dd9a983" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVisualObject_8h" kindref="compound">MRVisualObject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRXfBasedCache_8h" kindref="compound">MRXfBasedCache.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/>LinesVisualizePropertyType</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="MRObjectLinesHolder_8h_1a50ba2acfd483f395e71abb80f687463e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectLinesHolder_8h_1a50ba2acfd483f395e71abb80f687463e" kindref="member">Points</ref>,</highlight></codeline>
+<codeline lineno="11" refid="MRObjectLinesHolder_8h_1a97f9630458efd2e8cfccca5356bd847a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" kindref="member">Smooth</ref>,</highlight></codeline>
+<codeline lineno="12" refid="MRObjectLinesHolder_8h_1a3aa6973802ff89463140e58e4978b222" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectLinesHolder_8h_1a3aa6973802ff89463140e58e4978b222" kindref="member">Dashed</ref>,</highlight></codeline>
+<codeline lineno="13" refid="MRObjectLinesHolder_8h_1a69c4cff6b9a1cd95c71fc56b8dd9a983" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">_count</ref><sp/>[[maybe_unused]],</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref>&lt;LinesVisualizePropertyType&gt;<sp/>:<sp/>std::true_type<sp/>{};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1ae8b74ab7c0497cec5fd2550a40addfd9" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Vector4" kindref="compound">DashPattern</ref><sp/>=<sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;uint8_t&gt;</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1ObjectLinesHolder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29" refid="classMR_1_1ObjectLinesHolder_1a0e079da74a88e5f0c8d965c012976af4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a0e079da74a88e5f0c8d965c012976af4" kindref="member">ObjectLinesHolder</ref>();</highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1ObjectLinesHolder_1aacc18afcd4ee476aca853eab342fda72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectLinesHolder_1aacc18afcd4ee476aca853eab342fda72" kindref="member">ObjectLinesHolder</ref>(<sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1ObjectLinesHolder_1a399c6bd6321c060f5c6faffab0095bed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>&amp;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a399c6bd6321c060f5c6faffab0095bed" kindref="member">operator=</ref>(<sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1ObjectLinesHolder_1a9079bd6db91f92bd4897ee3f8776b692" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a9079bd6db91f92bd4897ee3f8776b692" kindref="member">StaticTypeName</ref>()<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;LinesHolder&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1ObjectLinesHolder_1a67bbdfa8042874e1a7033f78bb96be59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a67bbdfa8042874e1a7033f78bb96be59" kindref="member">typeName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StaticTypeName();<sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classMR_1_1ObjectLinesHolder_1a866b821cbf1353875759fa45e614249f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a866b821cbf1353875759fa45e614249f" kindref="member">applyScale</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaleFactor<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classMR_1_1ObjectLinesHolder_1ab254bdde22e806161d869d150ac181b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ab254bdde22e806161d869d150ac181b8" kindref="member">hasVisualRepresentation</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classMR_1_1ObjectLinesHolder_1a8374696160d445c466b11e006c7fb4c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a8374696160d445c466b11e006c7fb4c7" kindref="member">hasModel</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bool(<sp/>polyline_<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62" kindref="member">clone</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1ObjectLinesHolder_1aa19c36b553adf089ebe87a6220248926" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1aa19c36b553adf089ebe87a6220248926" kindref="member">shallowClone</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classMR_1_1ObjectLinesHolder_1ae0b496042ca65d7b8bdb862c9e984ff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;const<sp/>Polyline3&gt;&amp;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1ae0b496042ca65d7b8bdb862c9e984ff7" kindref="member">polyline</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="46"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const<sp/></highlight><highlight class="normal">std::shared_ptr&lt;const<sp/>Polyline3&gt;&amp;<sp/></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>polyline_<sp/>);<sp/>}<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff" kindref="member">setDirtyFlags</ref>(<sp/>uint32_t<sp/>mask,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>invalidateCaches<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classMR_1_1ObjectLinesHolder_1a9211895465ab621237d8ad28b942ad42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a9211895465ab621237d8ad28b942ad42" kindref="member">setDashPattern</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">DashPattern</ref>&amp;<sp/>pattern,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>vpId<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="classMR_1_1ObjectLinesHolder_1a7b42c2e0a5a94bede326754d2b3f369c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">DashPattern</ref>&amp;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a7b42c2e0a5a94bede326754d2b3f369c" kindref="member">getDashPattern</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>vpId<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/>nullptr<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dashPattern_.get(<sp/>vpId,<sp/>isDef<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classMR_1_1ObjectLinesHolder_1a2a34d49b96c99eb2e836b6ccc26aaa22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a2a34d49b96c99eb2e836b6ccc26aaa22" kindref="member">setLineWidth</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>);</highlight></codeline>
+<codeline lineno="59" refid="classMR_1_1ObjectLinesHolder_1ad29f08547db22aca65fa19e23ac218b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ad29f08547db22aca65fa19e23ac218b7" kindref="member">getLineWidth</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lineWidth_;<sp/>}</highlight></codeline>
+<codeline lineno="60" refid="classMR_1_1ObjectLinesHolder_1a24c15e2c775fbd245769f2cbfd085c95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a24c15e2c775fbd245769f2cbfd085c95" kindref="member">setPointSize</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size<sp/>);</highlight></codeline>
+<codeline lineno="61" refid="classMR_1_1ObjectLinesHolder_1a73e673c22a3081ef1fc777c20c702125" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a73e673c22a3081ef1fc777c20c702125" kindref="member">getPointSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pointSize_;<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classMR_1_1ObjectLinesHolder_1aee2f0ca0cadeda77ed87b5834547d9f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectLinesHolder_1aee2f0ca0cadeda77ed87b5834547d9f2" kindref="member">ObjectLinesHolder</ref>(<sp/><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>&amp;<sp/>obj<sp/>)<sp/>:<sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>(<sp/>obj<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classMR_1_1ObjectLinesHolder_1a3006fc44192a071fef4bab8866b90744" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertColors&amp;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a3006fc44192a071fef4bab8866b90744" kindref="member">getVertsColorMap</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vertsColorMap_;<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classMR_1_1ObjectLinesHolder_1ace6659e797e2acb19d73486102ef01d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ace6659e797e2acb19d73486102ef01d2" kindref="member">setVertsColorMap</ref>(<sp/>VertColors<sp/>vertsColorMap<sp/>)<sp/>{<sp/>vertsColorMap_<sp/>=<sp/>std::move(<sp/>vertsColorMap<sp/>);<sp/>setDirtyFlags(<sp/><ref refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475" kindref="member">DIRTY_VERTS_COLORMAP</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classMR_1_1ObjectLinesHolder_1ab2d21946ef246e3fb5f97cdd7fc89e1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ab2d21946ef246e3fb5f97cdd7fc89e1c" kindref="member">updateVertsColorMap</ref>(<sp/>VertColors&amp;<sp/>vertsColorMap<sp/>)<sp/>{<sp/>std::swap(<sp/>vertsColorMap_,<sp/>vertsColorMap<sp/>);<sp/><sp/>setDirtyFlags(<sp/><ref refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475" kindref="member">DIRTY_VERTS_COLORMAP</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="classMR_1_1ObjectLinesHolder_1a3b4f5ecefe1873ce10840277c57f9e94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeColors&amp;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a3b4f5ecefe1873ce10840277c57f9e94" kindref="member">getLinesColorMap</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>linesColorMap_;<sp/>}</highlight></codeline>
+<codeline lineno="76" refid="classMR_1_1ObjectLinesHolder_1acd01b614fd09efea6271585ca949bfa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1acd01b614fd09efea6271585ca949bfa6" kindref="member">setLinesColorMap</ref>(<sp/>UndirectedEdgeColors<sp/>linesColorMap<sp/>)<sp/>{<sp/>linesColorMap_<sp/>=<sp/>std::move(<sp/>linesColorMap<sp/>);<sp/><sp/>setDirtyFlags(<sp/><ref refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3" kindref="member">DIRTY_PRIMITIVE_COLORMAP</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="77" refid="classMR_1_1ObjectLinesHolder_1a59e3e83d9bf413fdb9a84fedda40f08f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a59e3e83d9bf413fdb9a84fedda40f08f" kindref="member">updateLinesColorMap</ref>(<sp/>UndirectedEdgeColors&amp;<sp/>updated<sp/>)<sp/>{<sp/>std::swap(<sp/>linesColorMap_,<sp/>updated<sp/>);<sp/><sp/>setDirtyFlags(<sp/><ref refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3" kindref="member">DIRTY_PRIMITIVE_COLORMAP</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classMR_1_1ObjectLinesHolder_1a9ebf2f4fb4aaec33e52f3d1be2b2d74d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a9ebf2f4fb4aaec33e52f3d1be2b2d74d" kindref="member">supportsVisualizeProperty</ref>(<sp/><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81" refid="classMR_1_1ObjectLinesHolder_1af36a700f7b56ba0159abf2c66b58d630" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1af36a700f7b56ba0159abf2c66b58d630" kindref="member">getAllVisualizeProperties</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83" refid="classMR_1_1ObjectLinesHolder_1ab19b7af18f21594b91628233ca2421b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref>&amp;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1ab19b7af18f21594b91628233ca2421b5" kindref="member">getVisualizePropertyMask</ref>(<sp/><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classMR_1_1ObjectLinesHolder_1a8958b915eb5b7b9f6f0b7ffa704700f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a8958b915eb5b7b9f6f0b7ffa704700f5" kindref="member">copyColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>&amp;<sp/>src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap&amp;<sp/>thisToSrc<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classMR_1_1ObjectLinesHolder_1abf4784be6ef8c3ce90625490765084dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>Box3f<sp/><ref refid="classMR_1_1ObjectLinesHolder_1abf4784be6ef8c3ce90625490765084dd" kindref="member">getWorldBox</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classMR_1_1ObjectLinesHolder_1a647c62ff7baffd91938b1f79f5ad92bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a647c62ff7baffd91938b1f79f5ad92bb" kindref="member">avgEdgeLen</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="classMR_1_1ObjectLinesHolder_1a0652baca888594cfe0fb1c17bcb78dbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a0652baca888594cfe0fb1c17bcb78dbb" kindref="member">numUndirectedEdges</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="classMR_1_1ObjectLinesHolder_1a65723d5693a73384784167b2451da400" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a65723d5693a73384784167b2451da400" kindref="member">numComponents</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="classMR_1_1ObjectLinesHolder_1a8aa92410cdf7cc0bd3139eb5f31b8d11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a8aa92410cdf7cc0bd3139eb5f31b8d11" kindref="member">totalLength</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classMR_1_1ObjectLinesHolder_1a786c333d036a4aca15856725ae4e9edf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a786c333d036a4aca15856725ae4e9edf" kindref="member">resetFrontColor</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="classMR_1_1ObjectLinesHolder_1a43f918db8a7b61c206c15d844dc2f42c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Signal" kindref="compound">LinesChangedSignal</ref><sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void(<sp/>uint32_t<sp/>mask<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="112" refid="classMR_1_1ObjectLinesHolder_1a429bde334a9097fdec8c1d0ae5285f53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Signal" kindref="compound">LinesChangedSignal</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a429bde334a9097fdec8c1d0ae5285f53" kindref="member">linesChangedSignal</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="115" refid="classMR_1_1ObjectLinesHolder_1ac57e00c43da38f333bf623761dfd2c82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ac57e00c43da38f333bf623761dfd2c82" kindref="member">ObjectLinesHolder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>&amp;<sp/>other<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="classMR_1_1ObjectLinesHolder_1a11d75f9e64cd1cec71eff3f65d040259" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a11d75f9e64cd1cec71eff3f65d040259" kindref="member">swapBase_</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>other<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="classMR_1_1ObjectLinesHolder_1aab5e51bab3ad302cd30461a5ba732274" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1aab5e51bab3ad302cd30461a5ba732274" kindref="member">swapSignals_</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>other<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="classMR_1_1ObjectLinesHolder_1a60be494b7494766eee45cc3acb0db09d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a60be494b7494766eee45cc3acb0db09d" kindref="member">serializeBaseFields_</ref>(<sp/>Json::Value&amp;<sp/>root<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128" refid="classMR_1_1ObjectLinesHolder_1ac53731d4425ec9404c558b238467c3fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ac53731d4425ec9404c558b238467c3fa" kindref="member">serializeFields_</ref>(<sp/>Json::Value&amp;<sp/>root<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classMR_1_1ObjectLinesHolder_1abbacb883915ae2b416b37e7ecfbeee12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1abbacb883915ae2b416b37e7ecfbeee12" kindref="member">deserializeModel_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>progressCb<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="classMR_1_1ObjectLinesHolder_1aace1c3bef514115c4645861934321253" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1aace1c3bef514115c4645861934321253" kindref="member">deserializeBaseFields_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="classMR_1_1ObjectLinesHolder_1a91f1067311fb1cc387d342a67e4557cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a91f1067311fb1cc387d342a67e4557cb" kindref="member">deserializeFields_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="classMR_1_1ObjectLinesHolder_1a502ed4a3293b4e8466ef0eacaa0f8d9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>Box3f<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a502ed4a3293b4e8466ef0eacaa0f8d9d" kindref="member">computeBoundingBox_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="classMR_1_1ObjectLinesHolder_1a3a46ff446a508a1e4da51f1a85880461" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a3a46ff446a508a1e4da51f1a85880461" kindref="member">setupRenderObject_</ref>()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="classMR_1_1ObjectLinesHolder_1a8485f04d2b33612fd7c5f7cbfe96fb91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a8485f04d2b33612fd7c5f7cbfe96fb91" kindref="member">setAllVisualizeProperties_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref>&amp;<sp/>properties,<sp/>std::size_t&amp;<sp/>pos<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="classMR_1_1ObjectLinesHolder_1a93290385193f37f80ec2fe07e19fc8c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>std::optional&lt;size_t&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a93290385193f37f80ec2fe07e19fc8c9" kindref="member">numUndirectedEdges_</ref>;</highlight></codeline>
+<codeline lineno="147" refid="classMR_1_1ObjectLinesHolder_1ac4657e92207e28ae97a59ce816f15f2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>std::optional&lt;size_t&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1ac4657e92207e28ae97a59ce816f15f2e" kindref="member">numComponents_</ref>;</highlight></codeline>
+<codeline lineno="148" refid="classMR_1_1ObjectLinesHolder_1a2abf795e99899109737e507f19ac02a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a2abf795e99899109737e507f19ac02a7" kindref="member">avgEdgeLen_</ref>;</highlight></codeline>
+<codeline lineno="149" refid="classMR_1_1ObjectLinesHolder_1aee46157cb8a669b29f698f0ea9688264" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1aee46157cb8a669b29f698f0ea9688264" kindref="member">totalLength_</ref>;</highlight></codeline>
+<codeline lineno="150" refid="classMR_1_1ObjectLinesHolder_1af3f76f7286057cda0116754b663cf340" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty&lt;XfBasedCache&lt;Box3f&gt;</ref>&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1af3f76f7286057cda0116754b663cf340" kindref="member">worldBox_</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="classMR_1_1ObjectLinesHolder_1aebf8fd3ebbe9baca5e1890a03da63db7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors<sp/><ref refid="classMR_1_1ObjectLinesHolder_1aebf8fd3ebbe9baca5e1890a03da63db7" kindref="member">vertsColorMap_</ref>;</highlight></codeline>
+<codeline lineno="153" refid="classMR_1_1ObjectLinesHolder_1a58e224092d5971b40208e6d4a15e6862" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeColors<sp/><ref refid="classMR_1_1ObjectLinesHolder_1a58e224092d5971b40208e6d4a15e6862" kindref="member">linesColorMap_</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="classMR_1_1ObjectLinesHolder_1ac97e60fe1e8a87ff8905e571fd47bbd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1ac97e60fe1e8a87ff8905e571fd47bbd1" kindref="member">showPoints_</ref>;</highlight></codeline>
+<codeline lineno="156" refid="classMR_1_1ObjectLinesHolder_1a5e2decefeb68afc04d745403e70da92f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a5e2decefeb68afc04d745403e70da92f" kindref="member">smoothConnections_</ref>;</highlight></codeline>
+<codeline lineno="157" refid="classMR_1_1ObjectLinesHolder_1a64d69137f11ccce4e6ba7aaa0ef41237" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="classMR_1_1ObjectLinesHolder_1a64d69137f11ccce4e6ba7aaa0ef41237" kindref="member">dashed_</ref>;</highlight></codeline>
+<codeline lineno="158" refid="classMR_1_1ObjectLinesHolder_1abe70f54ddf2aae2d5784d3aac54214ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty&lt;DashPattern&gt;</ref><sp/>dashPattern_<sp/>=<sp/>DashPattern::diagonal(<sp/>20<sp/>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="classMR_1_1ObjectLinesHolder_1ab981ac159b7e944aef46d972503003e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lineWidth_{<sp/>1.0f<sp/>};</highlight></codeline>
+<codeline lineno="162" refid="classMR_1_1ObjectLinesHolder_1a8de8f6b6c5eaa17e1cfd18ffe80fda9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pointSize_{<sp/>5.f<sp/>};</highlight></codeline>
+<codeline lineno="163" refid="classMR_1_1ObjectLinesHolder_1afba90d7f156c0d8bb20a9daa74a003ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Polyline3&gt;<sp/><ref refid="classMR_1_1ObjectLinesHolder_1afba90d7f156c0d8bb20a9daa74a003ce" kindref="member">polyline_</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setDefaultColors_();</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setDefaultSceneProperties_();</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h"/>
+  </compounddef>
+</doxygen>

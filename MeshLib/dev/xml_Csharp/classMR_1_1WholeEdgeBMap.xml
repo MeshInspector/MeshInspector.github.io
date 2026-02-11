@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WholeEdgeBMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::WholeEdgeBMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_WholeEdgeBMap</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId" kindref="compound">MR.Buffer_MREdgeId_MRUndirectedEdgeId</ref></type>
+        <definition>new unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId MR.WholeEdgeBMap.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.WholeEdgeBMap.b</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6929" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6929" bodyend="6929"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WholeEdgeBMap_1a03f03500855ecf781e2b1ece5dfd3c53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.WholeEdgeBMap.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.WholeEdgeBMap.tsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6932" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6932" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a00dfdc6c8d9d0ac4237b2f7cb3caaea4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WholeEdgeBMap.WholeEdgeBMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>WholeEdgeBMap</name>
+        <qualifiedname>MR.WholeEdgeBMap.WholeEdgeBMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6951" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6951" bodyend="6955"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1ae08c1b674cabbf647ca6fdcd60ebdc0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WholeEdgeBMap.WholeEdgeBMap</definition>
+        <argsstring>()</argsstring>
+        <name>WholeEdgeBMap</name>
+        <qualifiedname>MR.WholeEdgeBMap.WholeEdgeBMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6961" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6961" bodyend="6967"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a2a06b782f9605afc5c83c0cad9a2b489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WholeEdgeBMap.WholeEdgeBMap</definition>
+        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId b, ulong tsize)</argsstring>
+        <name>WholeEdgeBMap</name>
+        <qualifiedname>MR.WholeEdgeBMap.WholeEdgeBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1WholeEdgeBMap" kindref="compound">MR.WholeEdgeBMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6972" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6972" bodyend="6979"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1ac7b40e377457e885b54a4713e4f96b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WholeEdgeBMap.WholeEdgeBMap</definition>
+        <argsstring>(MR._ByValue_WholeEdgeBMap _other)</argsstring>
+        <name>WholeEdgeBMap</name>
+        <qualifiedname>MR.WholeEdgeBMap.WholeEdgeBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_WholeEdgeBMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WholeEdgeBMap.WholeEdgeBMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6984" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6984" bodyend="6991"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a40d1133633ef416d051f0752e23cdee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1WholeEdgeBMap" kindref="compound">MR.WholeEdgeBMap</ref></type>
+        <definition>unsafe MR.WholeEdgeBMap MR.WholeEdgeBMap.assign</definition>
+        <argsstring>(MR._ByValue_WholeEdgeBMap _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.WholeEdgeBMap.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_WholeEdgeBMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.WholeEdgeBMap.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6996" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6996" bodyend="7003"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput><ref refid="classMR_1_1WholeEdgeBMap" kindref="compound">MR.WholeEdgeBMap</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_WholeEdgeBMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.WholeEdgeBMap</label>
+        <link refid="classMR_1_1WholeEdgeBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_WholeEdgeBMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_WholeEdgeBMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.WholeEdgeBMap</label>
+        <link refid="classMR_1_1WholeEdgeBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_WholeEdgeBMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6927" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6928" bodyend="7004"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WholeEdgeBMap_1a40d1133633ef416d051f0752e23cdee2" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>assign</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a03f03500855ecf781e2b1ece5dfd3c53" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a00dfdc6c8d9d0ac4237b2f7cb3caaea4" prot="package" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1ae08c1b674cabbf647ca6fdcd60ebdc0f" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a2a06b782f9605afc5c83c0cad9a2b489" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1ac7b40e377457e885b54a4713e4f96b5e" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

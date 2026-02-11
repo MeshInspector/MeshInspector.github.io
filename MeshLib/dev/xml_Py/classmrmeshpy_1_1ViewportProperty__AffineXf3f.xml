@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ViewportProperty_AffineXf3f</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a50d4aebb0f24113b0dc52f216929f6de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71465" bodyend="71466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a71175cf216cc1e4c9c043e3e0c616e81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kindref="compound">ViewportProperty_AffineXf3f</ref></type>
+        <definition> ViewportProperty_AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71469" bodyend="71470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a71175cf216cc1e4c9c043e3e0c616e81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kindref="compound">ViewportProperty_AffineXf3f</ref></type>
+        <definition> ViewportProperty_AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71473" bodyend="71474"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ac5de8cafc1e11ae3331868e7b7c3c5df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.__getitem__</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns direct access to value associated with given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71475" bodyend="71478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3ac38884065fca472ff6e7f43161fcec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71480" bodyend="71481"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3c27107e4a14a48aa23db22c958f4e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__init__</definition>
+        <argsstring>(self, AffineXf3f def_)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71483" bodyend="71484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ab285716921fd2eda73f95d99e09ef8c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__init__</definition>
+        <argsstring>(self, ViewportProperty_AffineXf3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kindref="compound">ViewportProperty_AffineXf3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71486" bodyend="71489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a6e455159f39e3d845d7adfa3d61fab63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__setitem__</definition>
+        <argsstring>(self, ViewportId arg0, AffineXf3f arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71490" bodyend="71491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ad051529b746ca35ad333689307272ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71493" bodyend="71496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ad051529b746ca35ad333689307272ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71498" bodyend="71499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a7adef732f03223e0d390bbb151497cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.get</definition>
+        <argsstring>(self, ViewportId id, bool_output isDef=None)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets property value for given viewport: specific if available otherwise default one;
+\\param isDef receives true if this viewport does not have specific value and default one is returned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71501" bodyend="71505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a608dbc9ff3e9d0ca97dfecb33ba3e7f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_AffineXf3f.reset</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for given viewport (or all viewports if !id);
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71507" bodyend="71511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a80e3e632fab76fdde008134d62bfcb54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_AffineXf3f.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for all viewports;
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71513" bodyend="71517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ab91e3ff0b39a727254b0e52e4645c9fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.set</definition>
+        <argsstring>(self, AffineXf3f def_)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71519" bodyend="71522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ae89467dfbaeca3645f2af12b050b78d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.set</definition>
+        <argsstring>(self, AffineXf3f v, ViewportId id)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets specific property value for given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71524" bodyend="71527"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ViewportProperty&lt;MR::AffineXf3f&gt;
+
+storage of some viewport-dependent property,
+which has some default value for all viewports and special values for some specific viewports
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71456" bodyend="71527"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ac5de8cafc1e11ae3331868e7b7c3c5df" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a50d4aebb0f24113b0dc52f216929f6de" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3ac38884065fca472ff6e7f43161fcec" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3c27107e4a14a48aa23db22c958f4e7e" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ab285716921fd2eda73f95d99e09ef8c9" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a6e455159f39e3d845d7adfa3d61fab63" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ad051529b746ca35ad333689307272ffa" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ad051529b746ca35ad333689307272ffa" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a7adef732f03223e0d390bbb151497cc5" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a71175cf216cc1e4c9c043e3e0c616e81" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a71175cf216cc1e4c9c043e3e0c616e81" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a608dbc9ff3e9d0ca97dfecb33ba3e7f9" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a80e3e632fab76fdde008134d62bfcb54" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ab91e3ff0b39a727254b0e52e4645c9fc" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ae89467dfbaeca3645f2af12b050b78d1" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

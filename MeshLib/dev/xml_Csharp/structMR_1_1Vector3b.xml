@@ -1,0 +1,700 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Vector3b" kind="struct" language="C#" prot="public">
+    <compoundname>MR::Vector3b</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Vector3b &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="structMR_1_1Vector3b_1a842b6a490dcfb072e1b130ffb15197c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool MR.Vector3b.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Vector3b.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="426" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="426" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="property" id="structMR_1_1Vector3b_1afb70503b65353920dfb167f4b7ff1f18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool MR.Vector3b.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Vector3b.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="430" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="430" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="property" id="structMR_1_1Vector3b_1aa80498a0cb1defc0f3b0b5cd72c9ee6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool MR.Vector3b.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.Vector3b.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="434" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="434" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="property" id="structMR_1_1Vector3b_1a13b9392da8a82b6b9e2cbf36f178d6a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Vector3b.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Vector3b.this[int e]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector3b.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="521" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="522" bodyend="532"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Vector3b_1ab34eaa9a0d645325b93506afdf333782" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Vector3b.__storage_x</definition>
+        <argsstring></argsstring>
+        <name>__storage_x</name>
+        <qualifiedname>MR.Vector3b.__storage_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="428" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Vector3b_1a0b73c88b8095f9fff562e09c79fcfcf1" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Vector3b.__storage_y</definition>
+        <argsstring></argsstring>
+        <name>__storage_y</name>
+        <qualifiedname>MR.Vector3b.__storage_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="432" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Vector3b_1ada9db8b4ed576a8e3a5305f8b8ffa900" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Vector3b.__storage_z</definition>
+        <argsstring></argsstring>
+        <name>__storage_z</name>
+        <qualifiedname>MR.Vector3b.__storage_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="436" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="436" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a5371dea21ae48ffb3977eebc0a15afc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.Vector3b.operator Vector3b</definition>
+        <argsstring>(ConstBox_Vector3b other)</argsstring>
+        <name>operator Vector3b</name>
+        <qualifiedname>MR.Vector3b.operator Vector3b</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector3b" kindref="compound">ConstBox_Vector3b</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="441" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a5bb6813010b025adcab6f05e2891ff03" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>static MR.Vector3b MR.Vector3b.diagonal</definition>
+        <argsstring>(bool a)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR.Vector3b.diagonal</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1a5bb6813010b025adcab6f05e2891ff03" kindref="member">MR.Vector3b.diagonal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="481" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="481" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a7edc33937b6c1a94e1c2423644d5a573" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>static MR.Vector3b MR.Vector3b.plusX</definition>
+        <argsstring>()</argsstring>
+        <name>plusX</name>
+        <qualifiedname>MR.Vector3b.plusX</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1a7edc33937b6c1a94e1c2423644d5a573" kindref="member">MR.Vector3b.plusX</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="491" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="491" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a64beba8d803f9874c304d2d2ed37940c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>static MR.Vector3b MR.Vector3b.plusY</definition>
+        <argsstring>()</argsstring>
+        <name>plusY</name>
+        <qualifiedname>MR.Vector3b.plusY</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1a64beba8d803f9874c304d2d2ed37940c" kindref="member">MR.Vector3b.plusY</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="501" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="501" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a5a8d52a0e2de3a85b499688259e8dd4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>static MR.Vector3b MR.Vector3b.plusZ</definition>
+        <argsstring>()</argsstring>
+        <name>plusZ</name>
+        <qualifiedname>MR.Vector3b.plusZ</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1a5a8d52a0e2de3a85b499688259e8dd4b" kindref="member">MR.Vector3b.plusZ</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="511" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="511" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a2ed9da2f61e270998e528e985bd1bff1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Vector3b.operator==</definition>
+        <argsstring>(MR.Vector3b a, MR.Vector3b b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Vector3b.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="576" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="576" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1adee1dc27f528511f195252b943e4e53b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Vector3b.operator!=</definition>
+        <argsstring>(MR.Vector3b a, MR.Vector3b b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Vector3b.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="583" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="583" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1ae3ed52b3b955c63ea3063fa03485a6e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Misc.ConstRef&lt; <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref> &gt;</type>
+        <definition>static unsafe MR.Misc.ConstRef&lt; MR.Vector3b &gt; MR.Vector3b.operator+</definition>
+        <argsstring>(MR.Vector3b a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Vector3b.operator+</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="592" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="592" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a9a3aed3d270aca235e803069dfbd189a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static unsafe MR.Vector3i MR.Vector3b.operator-</definition>
+        <argsstring>(MR.Vector3b a)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Vector3b.operator-</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="602" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="602" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1ad91c5f19d337f7b3cb0126434872fa78" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static unsafe MR.Vector3i MR.Vector3b.operator+</definition>
+        <argsstring>(MR.Vector3b a, in MR.Vector3b b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Vector3b.operator+</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="612" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="612" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1afb75d24bcdce27b96e03dbccd65af3a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static unsafe MR.Vector3i MR.Vector3b.operator-</definition>
+        <argsstring>(MR.Vector3b a, in MR.Vector3b b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Vector3b.operator-</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="625" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="625" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1ac0e37f7a162fcf7e048b65328cd73550" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static unsafe MR.Vector3i MR.Vector3b.operator*</definition>
+        <argsstring>(bool a, MR.Vector3b b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Vector3b.operator*</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="638" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="638" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a29c75b0bec996c5cad3b9f318165ab44" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static unsafe MR.Vector3i MR.Vector3b.operator*</definition>
+        <argsstring>(MR.Vector3b b, bool a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Vector3b.operator*</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="648" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="648" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a7fbadc2d462cfb3d0fb86431cd46b694" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static MR.Vector3i MR.Vector3b.operator/</definition>
+        <argsstring>(MR.Vector3b b, bool a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.Vector3b.operator/</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="658" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="658" bodyend="663"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a031eddc53985cb81f21f5851fe371bc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector3b.Vector3b</definition>
+        <argsstring>(Vector3b _other)</argsstring>
+        <name>Vector3b</name>
+        <qualifiedname>MR.Vector3b.Vector3b</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">Vector3b</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="446" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="446" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a350fd1e1e100c7b63f5f28090112b1cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector3b.Vector3b</definition>
+        <argsstring>()</argsstring>
+        <name>Vector3b</name>
+        <qualifiedname>MR.Vector3b.Vector3b</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="451" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="451" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a617ba14be3437f1e53c3055c2a9aa3de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector3b.Vector3b</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Vector3b</name>
+        <qualifiedname>MR.Vector3b.Vector3b</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Vector3b_1a031eddc53985cb81f21f5851fe371bc1" kindref="member">MR.Vector3b.Vector3b</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="461" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a91eeb25d98b031cdbfdea7ecbc4a8595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector3b.Vector3b</definition>
+        <argsstring>(bool x, bool y, bool z)</argsstring>
+        <name>Vector3b</name>
+        <qualifiedname>MR.Vector3b.Vector3b</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Vector3b_1a031eddc53985cb81f21f5851fe371bc1" kindref="member">MR.Vector3b.Vector3b</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="471" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="471" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a9373111c5738ca5a9a5a067d92a02563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref bool</type>
+        <definition>unsafe ref bool MR.Vector3b.index</definition>
+        <argsstring>(int e)</argsstring>
+        <name>index</name>
+        <qualifiedname>MR.Vector3b.index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector3b.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="537" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="537" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Vector3b.lengthSq</definition>
+        <argsstring>()</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR.Vector3b.lengthSq</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" kindref="member">MR.Vector3b.lengthSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="550" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="550" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a2fd48b7dccb844e4ecc1012be55faf33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Vector3b.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <qualifiedname>MR.Vector3b.length</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1a2fd48b7dccb844e4ecc1012be55faf33" kindref="member">MR.Vector3b.length</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="563" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="563" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a18a806d01672b139f32652e10d5f127b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>unsafe ref MR.Vector3b MR.Vector3b.addAssign</definition>
+        <argsstring>(in MR.Vector3b b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Vector3b.addAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="668" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="668" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1aa657b263878b85d134433efcb9df68f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>unsafe ref MR.Vector3b MR.Vector3b.subAssign</definition>
+        <argsstring>(in MR.Vector3b b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Vector3b.subAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="684" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="684" bodyend="695"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a6dc189733604c9e08b2dd4cb4b478511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>unsafe ref MR.Vector3b MR.Vector3b.mulAssign</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.Vector3b.mulAssign</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="700" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="700" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1ac5da583585508dac95c8d815d9836c29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>unsafe ref MR.Vector3b MR.Vector3b.divAssign</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.Vector3b.divAssign</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="713" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="713" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1ad5ef6c075ee78681286a351c42939b54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Vector3b.Equals</definition>
+        <argsstring>(MR.Vector3b b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Vector3b.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="725" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="725" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1a63ee33ca237eafbc5beb2dcf3f880720" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Vector3b.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Vector3b.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="730" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="730" bodyend="737"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>three-dimensional vector Generated from class <computeroutput><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Vector3b</label>
+        <link refid="structMR_1_1Vector3b"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.Vector3b &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Vector3b</label>
+        <link refid="structMR_1_1Vector3b"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.Vector3b &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="424" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="425" bodyend="738"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Vector3b_1ab34eaa9a0d645325b93506afdf333782" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>__storage_x</name></member>
+      <member refid="structMR_1_1Vector3b_1a0b73c88b8095f9fff562e09c79fcfcf1" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>__storage_y</name></member>
+      <member refid="structMR_1_1Vector3b_1ada9db8b4ed576a8e3a5305f8b8ffa900" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>__storage_z</name></member>
+      <member refid="structMR_1_1Vector3b_1a18a806d01672b139f32652e10d5f127b" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>addAssign</name></member>
+      <member refid="structMR_1_1Vector3b_1a5bb6813010b025adcab6f05e2891ff03" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>diagonal</name></member>
+      <member refid="structMR_1_1Vector3b_1ac5da583585508dac95c8d815d9836c29" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>divAssign</name></member>
+      <member refid="structMR_1_1Vector3b_1ad5ef6c075ee78681286a351c42939b54" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Equals</name></member>
+      <member refid="structMR_1_1Vector3b_1a63ee33ca237eafbc5beb2dcf3f880720" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Equals</name></member>
+      <member refid="structMR_1_1Vector3b_1a9373111c5738ca5a9a5a067d92a02563" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>index</name></member>
+      <member refid="structMR_1_1Vector3b_1a2fd48b7dccb844e4ecc1012be55faf33" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>length</name></member>
+      <member refid="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>lengthSq</name></member>
+      <member refid="structMR_1_1Vector3b_1a6dc189733604c9e08b2dd4cb4b478511" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>mulAssign</name></member>
+      <member refid="structMR_1_1Vector3b_1a5371dea21ae48ffb3977eebc0a15afc7" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator Vector3b</name></member>
+      <member refid="structMR_1_1Vector3b_1adee1dc27f528511f195252b943e4e53b" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Vector3b_1ac0e37f7a162fcf7e048b65328cd73550" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Vector3b_1a29c75b0bec996c5cad3b9f318165ab44" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Vector3b_1ae3ed52b3b955c63ea3063fa03485a6e1" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator+</name></member>
+      <member refid="structMR_1_1Vector3b_1ad91c5f19d337f7b3cb0126434872fa78" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator+</name></member>
+      <member refid="structMR_1_1Vector3b_1a9a3aed3d270aca235e803069dfbd189a" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator-</name></member>
+      <member refid="structMR_1_1Vector3b_1afb75d24bcdce27b96e03dbccd65af3a0" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator-</name></member>
+      <member refid="structMR_1_1Vector3b_1a7fbadc2d462cfb3d0fb86431cd46b694" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator/</name></member>
+      <member refid="structMR_1_1Vector3b_1a2ed9da2f61e270998e528e985bd1bff1" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Vector3b_1a7edc33937b6c1a94e1c2423644d5a573" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>plusX</name></member>
+      <member refid="structMR_1_1Vector3b_1a64beba8d803f9874c304d2d2ed37940c" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>plusY</name></member>
+      <member refid="structMR_1_1Vector3b_1a5a8d52a0e2de3a85b499688259e8dd4b" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>plusZ</name></member>
+      <member refid="structMR_1_1Vector3b_1aa657b263878b85d134433efcb9df68f8" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>subAssign</name></member>
+      <member refid="structMR_1_1Vector3b_1a13b9392da8a82b6b9e2cbf36f178d6a2" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>this[int e]</name></member>
+      <member refid="structMR_1_1Vector3b_1a031eddc53985cb81f21f5851fe371bc1" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Vector3b</name></member>
+      <member refid="structMR_1_1Vector3b_1a350fd1e1e100c7b63f5f28090112b1cc" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Vector3b</name></member>
+      <member refid="structMR_1_1Vector3b_1a617ba14be3437f1e53c3055c2a9aa3de" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Vector3b</name></member>
+      <member refid="structMR_1_1Vector3b_1a91eeb25d98b031cdbfdea7ecbc4a8595" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Vector3b</name></member>
+      <member refid="structMR_1_1Vector3b_1a842b6a490dcfb072e1b130ffb15197c5" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>x</name></member>
+      <member refid="structMR_1_1Vector3b_1afb70503b65353920dfb167f4b7ff1f18" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>y</name></member>
+      <member refid="structMR_1_1Vector3b_1aa80498a0cb1defc0f3b0b5cd72c9ee6c" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

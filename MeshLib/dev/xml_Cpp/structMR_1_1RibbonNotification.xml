@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonNotification" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RibbonNotification</compoundname>
+    <includes refid="MRRibbonNotification_8h" local="no">MRRibbonNotification.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1RibbonNotification_1a22ab6a5e3459fed757c4443f8d3ad51a" prot="public" static="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>using MR::RibbonNotification::OnButtonClick =  std::function&lt;void()&gt;</definition>
+        <argsstring></argsstring>
+        <name>OnButtonClick</name>
+        <qualifiedname>MR::RibbonNotification::OnButtonClick</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback for notification if it is not null, a button will be drawn, and callback will be invoked on button click </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1a40618c97689369cde22e2db71719697e" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1RibbonNotification_1a22ab6a5e3459fed757c4443f8d3ad51a" kindref="member">OnButtonClick</ref></type>
+        <definition>OnButtonClick MR::RibbonNotification::onButtonClick</definition>
+        <argsstring></argsstring>
+        <name>onButtonClick</name>
+        <qualifiedname>MR::RibbonNotification::onButtonClick</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="42" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1a156a1963010372c4c838def5344897ab" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::RibbonNotification::buttonName</definition>
+        <argsstring></argsstring>
+        <name>buttonName</name>
+        <qualifiedname>MR::RibbonNotification::buttonName</qualifiedname>
+        <initializer>= &quot;OK&quot;</initializer>
+        <briefdescription>
+<para>Name of button that will be drawn if callback is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="45" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1ae5f28ba6936128a2d39825de578e9bb2" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::RibbonNotification::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <qualifiedname>MR::RibbonNotification::header</qualifiedname>
+        <briefdescription>
+<para>Header of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="47" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1a4da1179863d307c12ec913c673695c06" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::RibbonNotification::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>MR::RibbonNotification::text</qualifiedname>
+        <briefdescription>
+<para>Text of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="49" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1a9a3ccb0e6e8a56c16b1f5b4bf1ee2490" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a3ccf27858d11d72a88bdbaf6e9d2b05d" kindref="member">NotificationType</ref></type>
+        <definition>NotificationType MR::RibbonNotification::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR::RibbonNotification::type</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1a3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875" kindref="member">NotificationType::Info</ref> }</initializer>
+        <briefdescription>
+<para>Type of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="51" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1a9f52a5c95f7b36adb01f422c470f7362" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonNotification::lifeTimeSec</definition>
+        <argsstring></argsstring>
+        <name>lifeTimeSec</name>
+        <qualifiedname>MR::RibbonNotification::lifeTimeSec</qualifiedname>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time that notification stays visible negative value means to use default one </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotification_1a2074bc13c9424073e04d319984ae6d49" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a6c80d0a515c43e830301ff170377a44e" kindref="member">NotificationTagMask</ref></type>
+        <definition>NotificationTagMask MR::RibbonNotification::tags</definition>
+        <argsstring></argsstring>
+        <name>tags</name>
+        <qualifiedname>MR::RibbonNotification::tags</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3" kindref="member">NotificationTags::All</ref></initializer>
+        <briefdescription>
+<para>it ANDs with <ref refid="classMR_1_1RibbonNotifier" kindref="compound">RibbonNotifier</ref> allowed tags to see if notification should be displayed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="56" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1RibbonNotification_1aa700fd6a10257ff9d1efe1d00dcb64dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonNotification::operator==</definition>
+        <argsstring>(const RibbonNotification &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::RibbonNotification::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonNotification" kindref="compound">RibbonNotification</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if notifications are equal to last one added, it just increment counter note that if there is present <computeroutput>onButtonClick</computeroutput> this function always returns false </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="59" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="38" bodyend="60"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonNotification_1a156a1963010372c4c838def5344897ab" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>buttonName</name></member>
+      <member refid="structMR_1_1RibbonNotification_1ae5f28ba6936128a2d39825de578e9bb2" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>header</name></member>
+      <member refid="structMR_1_1RibbonNotification_1a9f52a5c95f7b36adb01f422c470f7362" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>lifeTimeSec</name></member>
+      <member refid="structMR_1_1RibbonNotification_1a22ab6a5e3459fed757c4443f8d3ad51a" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>OnButtonClick</name></member>
+      <member refid="structMR_1_1RibbonNotification_1a40618c97689369cde22e2db71719697e" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>onButtonClick</name></member>
+      <member refid="structMR_1_1RibbonNotification_1aa700fd6a10257ff9d1efe1d00dcb64dc" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>operator==</name></member>
+      <member refid="structMR_1_1RibbonNotification_1a2074bc13c9424073e04d319984ae6d49" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>tags</name></member>
+      <member refid="structMR_1_1RibbonNotification_1a4da1179863d307c12ec913c673695c06" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>text</name></member>
+      <member refid="structMR_1_1RibbonNotification_1a9a3ccb0e6e8a56c16b1f5b4bf1ee2490" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

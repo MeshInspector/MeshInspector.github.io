@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointOnFace_8h" kind="file" language="C++">
+    <compoundname>MRPointOnFace.h</compoundname>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes local="no">iosfwd</includes>
+    <includedby refid="MRMeshIntersect_8h" local="yes">MRMeshIntersect.h</includedby>
+    <includedby refid="MRMeshMath_8h" local="yes">MRMeshMath.h</includedby>
+    <includedby refid="MRMeshMeshDistance_8h" local="yes">MRMeshMeshDistance.h</includedby>
+    <includedby refid="MRMeshProject_8h" local="yes">MRMeshProject.h</includedby>
+    <includedby refid="MRPointInAllSpaces_8h" local="no">MRPointInAllSpaces.h</includedby>
+    <includedby refid="MRPointOnObject_8h" local="yes">MRPointOnObject.h</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="23">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPointOnFace.h</label>
+        <link refid="MRPointOnFace_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>type_traits</label>
+      </node>
+      <node id="22">
+        <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9">
+        <label>MRCudaFastWindingNumber.h</label>
+        <link refid="MRCudaFastWindingNumber_8h"/>
+      </node>
+      <node id="10">
+        <label>MRCudaMeshDistanceMap.h</label>
+        <link refid="MRCudaMeshDistanceMap_8h"/>
+      </node>
+      <node id="3">
+        <label>MRCudaSolarRadiation.h</label>
+        <link refid="MRCudaSolarRadiation_8h"/>
+      </node>
+      <node id="6">
+        <label>MRAddNoise.h</label>
+        <link refid="MRAddNoise_8h"/>
+      </node>
+      <node id="7">
+        <label>MRChangeMeshAction.h</label>
+        <link refid="MRChangeMeshAction_8h"/>
+      </node>
+      <node id="11">
+        <label>MREdgePathsBuilder.h</label>
+        <link refid="MREdgePathsBuilder_8h"/>
+      </node>
+      <node id="12">
+        <label>MREmbedTerrainStructure.h</label>
+        <link refid="MREmbedTerrainStructure_8h"/>
+      </node>
+      <node id="13">
+        <label>MRMakeSphereMesh.h</label>
+        <link refid="MRMakeSphereMesh_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh.h</label>
+        <link refid="MRMesh_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMeshBoolean.h</label>
+        <link refid="MRMeshBoolean_8h"/>
+      </node>
+      <node id="16">
+        <label>MRMeshBooleanFacade.h</label>
+        <link refid="MRMeshBooleanFacade_8h"/>
+      </node>
+      <node id="18">
+        <label>MRMeshBuilder.h</label>
+        <link refid="MRMeshBuilder_8h"/>
+      </node>
+      <node id="19">
+        <label>MRMeshDecimateCallbacks.h</label>
+        <link refid="MRMeshDecimateCallbacks_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshIntersect.h</label>
+        <link refid="MRMeshIntersect_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRMeshLoadObj.h</label>
+        <link refid="MRMeshLoadObj_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMeshMath.h</label>
+        <link refid="MRMeshMath_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRMeshMeshDistance.h</label>
+        <link refid="MRMeshMeshDistance_8h"/>
+      </node>
+      <node id="30">
+        <label>MRMeshProject.h</label>
+        <link refid="MRMeshProject_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRMeshSaveObj.h</label>
+        <link refid="MRMeshSaveObj_8h"/>
+      </node>
+      <node id="22">
+        <label>MRMeshSubdivideCallbacks.h</label>
+        <link refid="MRMeshSubdivideCallbacks_8h"/>
+      </node>
+      <node id="31">
+        <label>MRMeshThickness.h</label>
+        <link refid="MRMeshThickness_8h"/>
+      </node>
+      <node id="23">
+        <label>MRPartialChangeMeshAction.h</label>
+        <link refid="MRPartialChangeMeshAction_8h"/>
+      </node>
+      <node id="24">
+        <label>MRPointCloudTriangulation.h</label>
+        <link refid="MRPointCloudTriangulation_8h"/>
+      </node>
+      <node id="1">
+        <label>MRPointOnFace.h</label>
+        <link refid="MRPointOnFace_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRPointOnObject.h</label>
+        <link refid="MRPointOnObject_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRProjectionMeshAttribute.h</label>
+        <link refid="MRProjectionMeshAttribute_8h"/>
+      </node>
+      <node id="26">
+        <label>MRTerrainTriangulation.h</label>
+        <link refid="MRTerrainTriangulation_8h"/>
+      </node>
+      <node id="14">
+        <label>MRUVSphere.h</label>
+        <link refid="MRUVSphere_8h"/>
+      </node>
+      <node id="28">
+        <label>MRUniteManyMeshes.h</label>
+        <link refid="MRUniteManyMeshes_8h"/>
+      </node>
+      <node id="17">
+        <label>MRMeshBoundarySelectionWidget.h</label>
+        <link refid="MRMeshBoundarySelectionWidget_8h"/>
+      </node>
+      <node id="35">
+        <label>MRPickPointManager.h</label>
+        <link refid="MRPickPointManager_8h"/>
+      </node>
+      <node id="32">
+        <label>MRPointInAllSpaces.h</label>
+        <link refid="MRPointInAllSpaces_8h"/>
+      </node>
+      <node id="37">
+        <label>MRSurfaceManipulationWidget.h</label>
+        <link refid="MRSurfaceManipulationWidget_8h"/>
+      </node>
+      <node id="34">
+        <label>MRSurfacePointPicker.h</label>
+        <link refid="MRSurfacePointPicker_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRTouchpadController.h</label>
+        <link refid="MRTouchpadController_8h"/>
+      </node>
+      <node id="36">
+        <label>MRViewport.h</label>
+        <link refid="MRViewport_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRViewportParametersAction.h</label>
+        <link refid="MRViewportParametersAction_8h"/>
+      </node>
+      <node id="8">
+        <label>MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+      <node id="27">
+        <label>MRToolPath.h</label>
+        <link refid="MRToolPath_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1PointOnFace" prot="public">MR::PointOnFace</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iosfwd&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1PointOnFace" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1PointOnFace_1a2ec934aa6c7847dbfbc812bcea286b53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="structMR_1_1PointOnFace_1a2ec934aa6c7847dbfbc812bcea286b53" kindref="member">face</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1PointOnFace_1a8ee455f370bca112fa98cf9f81a2e3ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1PointOnFace_1a8ee455f370bca112fa98cf9f81a2e3ad" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1PointOnFace_1a025f9557286d25c7be1c794fbb8ecafa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace_1a025f9557286d25c7be1c794fbb8ecafa" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace_1a2ec934aa6c7847dbfbc812bcea286b53" kindref="member">face</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1PointOnFace_1acabf2c49796ac6c253d2d2031fb688c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace_1a2ec934aa6c7847dbfbc812bcea286b53" kindref="member">face</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1PointOnFace_1a8637dcfb147334b89a036bd81aa65d29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="structMR_1_1PointOnFace_1a8637dcfb147334b89a036bd81aa65d29" kindref="member">operator&lt;&lt;</ref>(<sp/>std::ostream&amp;<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pof<sp/>);</highlight></codeline>
+<codeline lineno="25" refid="structMR_1_1PointOnFace_1a2fec16fae9fb716a22a7e976563c23b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::istream&amp;<sp/><ref refid="structMR_1_1PointOnFace_1a2fec16fae9fb716a22a7e976563c23b6" kindref="member">operator&gt;&gt;</ref>(<sp/>std::istream&amp;<sp/>s,<sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pof<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsToDistanceVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsToDistanceVolumeParams</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1DistanceVolumeParams" prot="public" virt="non-virtual">mrmeshpy.DistanceVolumeParams</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a0c1593d83638a2926d9c26430fdba8a0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToDistanceVolumeParams::_offsetof_minWeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minWeight</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams._offsetof_minWeight</qualifiedname>
+        <initializer>=  76</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a83100f0c82197824995c8721ca6d0473" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToDistanceVolumeParams::_offsetof_ptNormals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_ptNormals</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams._offsetof_ptNormals</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a5f265b836d863b4bd52750284ce5fc57" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToDistanceVolumeParams::_offsetof_sigma</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_sigma</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams._offsetof_sigma</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45566" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1ac0d5cb93be8591e969d9485f93805c61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceVolumeParams_1ad878e199a0bc07fa4050e8ef2cb51e8f">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45569" bodyend="45570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+        <definition> PointsToDistanceVolumeParams mrmeshpy.PointsToDistanceVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceVolumeParams_1aaf9a259daf1154fdd1abded4a0cbde2d">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45573" bodyend="45574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+        <definition> PointsToDistanceVolumeParams mrmeshpy.PointsToDistanceVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceVolumeParams_1aaf9a259daf1154fdd1abded4a0cbde2d">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45577" bodyend="45578"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a6cad2cc1e7abff51117b5e98e6f0722b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceVolumeParams_1ad878e199a0bc07fa4050e8ef2cb51e8f">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45580" bodyend="45581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aea6a486974cbd2089d2d755323de720f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, PointsToDistanceVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceVolumeParams_1ad878e199a0bc07fa4050e8ef2cb51e8f">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45583" bodyend="45586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aa87f2215a4fc542abc33f51da0a3b7af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointsToDistanceVolumeParams.minWeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>minWeight</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.minWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45588" bodyend="45591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a993fa833754841f6aaa6f6daa45fd285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToDistanceVolumeParams.minWeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minWeight</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.minWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45593" bodyend="45594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aab248134fcc962602959349b4dad1baa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.PointsToDistanceVolumeParams.ptNormals</definition>
+        <argsstring>(self)</argsstring>
+        <name>ptNormals</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.ptNormals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional input: if this pointer is set then function will use these normals instead of ones present in cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45596" bodyend="45599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a905d618065bac6da96d9b9b9c4afe873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToDistanceVolumeParams.ptNormals</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>ptNormals</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.ptNormals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45601" bodyend="45602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a8241b83db7ae80f5a02f16b2885eea83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointsToDistanceVolumeParams.sigma</definition>
+        <argsstring>(self)</argsstring>
+        <name>sigma</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.sigma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>it the distance of highest influence of a point;
+the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45604" bodyend="45608"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a51e68b62f71005ecb7bda8e0908ca093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToDistanceVolumeParams.sigma</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>sigma</name>
+        <qualifiedname>mrmeshpy.PointsToDistanceVolumeParams.sigma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45610" bodyend="45611"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointsToDistanceVolumeParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PointsToDistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.DistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1DistanceVolumeParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointsToDistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_minWeight</edgelabel>
+          <edgelabel>_offsetof_ptNormals</edgelabel>
+          <edgelabel>_offsetof_sigma</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.DistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1DistanceVolumeParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_dimensions</edgelabel>
+          <edgelabel>_offsetof_origin</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45560" bodyend="45611"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1ac0d5cb93be8591e969d9485f93805c61" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a6cad2cc1e7abff51117b5e98e6f0722b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aea6a486974cbd2089d2d755323de720f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a0c1593d83638a2926d9c26430fdba8a0" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>_offsetof_minWeight</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a83100f0c82197824995c8721ca6d0473" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>_offsetof_ptNormals</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a5f265b836d863b4bd52750284ce5fc57" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>_offsetof_sigma</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aa87f2215a4fc542abc33f51da0a3b7af" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>minWeight</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a993fa833754841f6aaa6f6daa45fd285" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>minWeight</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aab248134fcc962602959349b4dad1baa" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>ptNormals</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a905d618065bac6da96d9b9b9c4afe873" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>ptNormals</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a8241b83db7ae80f5a02f16b2885eea83" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>sigma</name></member>
+      <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a51e68b62f71005ecb7bda8e0908ca093" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToDistanceVolumeParams</scope><name>sigma</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

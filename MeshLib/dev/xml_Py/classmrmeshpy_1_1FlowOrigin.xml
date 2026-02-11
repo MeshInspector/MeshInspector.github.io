@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FlowOrigin" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FlowOrigin</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlowOrigin_1af8bdb09e8364b10cac5775a5937c9727" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlowOrigin::_offsetof_amount</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_amount</name>
+        <qualifiedname>mrmeshpy.FlowOrigin._offsetof_amount</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21079" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlowOrigin_1a205efba910f332eb1ef915673a72da35" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlowOrigin::_offsetof_point</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_point</name>
+        <qualifiedname>mrmeshpy.FlowOrigin._offsetof_point</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21080" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1a5669b06eb2970e23c27cbed55f21cb6d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowOrigin.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21083" bodyend="21084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1abe7752638790e5f478ed874d934afa09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FlowOrigin" kindref="compound">FlowOrigin</ref></type>
+        <definition> FlowOrigin mrmeshpy.FlowOrigin.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21087" bodyend="21088"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1abe7752638790e5f478ed874d934afa09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FlowOrigin" kindref="compound">FlowOrigin</ref></type>
+        <definition> FlowOrigin mrmeshpy.FlowOrigin.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21091" bodyend="21092"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1a9c82d005a3830b059cdc51727e124de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowOrigin.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21094" bodyend="21095"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1ae120ae08d5b6ffc44a3a7f6a91bcc01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowOrigin.__init__</definition>
+        <argsstring>(self, FlowOrigin arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FlowOrigin" kindref="compound">FlowOrigin</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21097" bodyend="21100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1a8191a5e2fe31d69db7bb8b3c51abebb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowOrigin.__init__</definition>
+        <argsstring>(self, MeshTriPoint point, float amount)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21102" bodyend="21105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1adcf1aa25645217639273e2aa3cf19067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FlowOrigin.amount</definition>
+        <argsstring>(self)</argsstring>
+        <name>amount</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.amount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>amount of flow, e.g. can be proportional to the horizontal area associated with the start point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21107" bodyend="21110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1a2c98331e7f59e97beaecb5a7e7822873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowOrigin.amount</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>amount</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.amount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21112" bodyend="21113"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1a6464b63a296fa375a7beee461521e976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.FlowOrigin.point</definition>
+        <argsstring>(self)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>point on the mesh, where this flow starts
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21115" bodyend="21118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowOrigin_1a3ce3866a06a6016a174894db8db49a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowOrigin.point</definition>
+        <argsstring>(self, MeshTriPoint arg1)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.FlowOrigin.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21120" bodyend="21121"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FlowOrigin
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FlowOrigin</label>
+        <link refid="classmrmeshpy_1_1FlowOrigin"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_amount</edgelabel>
+          <edgelabel>_offsetof_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21075" bodyend="21121"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a5669b06eb2970e23c27cbed55f21cb6d" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a9c82d005a3830b059cdc51727e124de5" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1ae120ae08d5b6ffc44a3a7f6a91bcc01a" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a8191a5e2fe31d69db7bb8b3c51abebb7" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1af8bdb09e8364b10cac5775a5937c9727" prot="protected" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>_offsetof_amount</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a205efba910f332eb1ef915673a72da35" prot="protected" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>_offsetof_point</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1adcf1aa25645217639273e2aa3cf19067" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>amount</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a2c98331e7f59e97beaecb5a7e7822873" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>amount</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1abe7752638790e5f478ed874d934afa09" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1abe7752638790e5f478ed874d934afa09" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a6464b63a296fa375a7beee461521e976" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1FlowOrigin_1a3ce3866a06a6016a174894db8db49a48" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowOrigin</scope><name>point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_FeatureObjectSharedProperty</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1accb350445c9018e9d8f44c00c221f49b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_FeatureObjectSharedProperty::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.element_type_byte_size</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81324" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a4b97b09b966c9ac4bffe9fe9273e7c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FeatureObjectSharedProperty.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81325" bodyend="81328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a9886ed325a502c540effa9dc8e5af409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81330" bodyend="81333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1aeda936e7352efd8fb29a40daa395834c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81335" bodyend="81338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a8243a296ba8cd3e0575da64388cedefe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.std_vector_FeatureObjectSharedProperty.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81340" bodyend="81343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a8482b4a7e5c82df5cf93e33a0ecbc46f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+        <definition> FeatureObjectSharedProperty mrmeshpy.std_vector_FeatureObjectSharedProperty.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81345" bodyend="81346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1aa617393bbd0cb7660fcb7d47d23d1a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81348" bodyend="81349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ada6bfe894751d0db1440c0e06699c796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81351" bodyend="81352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a6c9cd19e22059589c8b9d1c103a132ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__init__</definition>
+        <argsstring>(self, std_vector_FeatureObjectSharedProperty arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81354" bodyend="81355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab4b040e0166f2073a71c42589be0b48d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref>]</type>
+        <definition> typing.Iterator[FeatureObjectSharedProperty] mrmeshpy.std_vector_FeatureObjectSharedProperty.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81356" bodyend="81357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ae92bebf49401dc20e62981045ceee3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FeatureObjectSharedProperty.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81358" bodyend="81359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab2d6c18bf7086f23b495a2609a34c9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__setitem__</definition>
+        <argsstring>(self, int arg0, FeatureObjectSharedProperty arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81361" bodyend="81362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1aa29da0058fb50b8377479b5b2f80bb22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_FeatureObjectSharedProperty arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81364" bodyend="81367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ac1295a3e964eb6fc65511f71953af91f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.append</definition>
+        <argsstring>(self, FeatureObjectSharedProperty x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81368" bodyend="81371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a9da75d708fe1d243c26c4cbcb871d707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81372" bodyend="81375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a5c85a450e220e2ea8ebce02e3b20a9b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FeatureObjectSharedProperty.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81376" bodyend="81379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ad3d087a6e3df2880b45ce7b5dd533c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FeatureObjectSharedProperty.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81380" bodyend="81381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab786cae632fe509937f38adc224c1cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.extend</definition>
+        <argsstring>(self, std_vector_FeatureObjectSharedProperty L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81383" bodyend="81386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab5e3e6183e8a4c1c26fcd9718bd87249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81388" bodyend="81391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ac125e9808e2f2a935082911ff20bd1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.insert</definition>
+        <argsstring>(self, int i, FeatureObjectSharedProperty x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81392" bodyend="81395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a4ad7628360214da1aba26bc87869fb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+        <definition> FeatureObjectSharedProperty mrmeshpy.std_vector_FeatureObjectSharedProperty.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81397" bodyend="81400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1acfeca1ade0e7e9401f39b5fb2377dc6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+        <definition> FeatureObjectSharedProperty mrmeshpy.std_vector_FeatureObjectSharedProperty.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81402" bodyend="81405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a46e2d2c98a4a0d6eb2dce68d44d5e4f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FeatureObjectSharedProperty.resize</definition>
+        <argsstring>(self, int arg0, FeatureObjectSharedProperty arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81406" bodyend="81407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a8609e5a17eac36b91e1e955ddb6ddeeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FeatureObjectSharedProperty.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_FeatureObjectSharedProperty.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81408" bodyend="81409"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_FeatureObjectSharedProperty</label>
+        <link refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81323" bodyend="81409"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a4b97b09b966c9ac4bffe9fe9273e7c9f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a9886ed325a502c540effa9dc8e5af409" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1aeda936e7352efd8fb29a40daa395834c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a8243a296ba8cd3e0575da64388cedefe" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a8482b4a7e5c82df5cf93e33a0ecbc46f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1aa617393bbd0cb7660fcb7d47d23d1a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ada6bfe894751d0db1440c0e06699c796" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a6c9cd19e22059589c8b9d1c103a132ad" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab4b040e0166f2073a71c42589be0b48d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ae92bebf49401dc20e62981045ceee3bf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab2d6c18bf7086f23b495a2609a34c9e3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1aa29da0058fb50b8377479b5b2f80bb22" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ac1295a3e964eb6fc65511f71953af91f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a9da75d708fe1d243c26c4cbcb871d707" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a5c85a450e220e2ea8ebce02e3b20a9b2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1accb350445c9018e9d8f44c00c221f49b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ad3d087a6e3df2880b45ce7b5dd533c37" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab786cae632fe509937f38adc224c1cc8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ab5e3e6183e8a4c1c26fcd9718bd87249" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1ac125e9808e2f2a935082911ff20bd1c2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a4ad7628360214da1aba26bc87869fb98" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1acfeca1ade0e7e9401f39b5fb2377dc6c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a46e2d2c98a4a0d6eb2dce68d44d5e4f4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty_1a8609e5a17eac36b91e1e955ddb6ddeeb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FeatureObjectSharedProperty</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ConstantCuspParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ConstantCuspParams</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1ToolPathParams" prot="public" virt="non-virtual">mrmeshpy.ToolPathParams</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConstantCuspParams_1a1555e4515f03ab2138508505b40d6179" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConstantCuspParams::_offsetof_fromCenterToBoundary</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fromCenterToBoundary</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams._offsetof_fromCenterToBoundary</qualifiedname>
+        <initializer>=  136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10527" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstantCuspParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1ac0c30feb67c3410c09dc2928492b1923">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10530" bodyend="10531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConstantCuspParams" kindref="compound">ConstantCuspParams</ref></type>
+        <definition> ConstantCuspParams mrmeshpy.ConstantCuspParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10534" bodyend="10535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConstantCuspParams" kindref="compound">ConstantCuspParams</ref></type>
+        <definition> ConstantCuspParams mrmeshpy.ConstantCuspParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10538" bodyend="10539"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstantCuspParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1ac0c30feb67c3410c09dc2928492b1923">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10541" bodyend="10542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstantCuspParams.__init__</definition>
+        <argsstring>(self, ConstantCuspParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1ac0c30feb67c3410c09dc2928492b1923">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConstantCuspParams" kindref="compound">ConstantCuspParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10544" bodyend="10547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1a8de46eda060abb9490806a87e15dadf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ConstantCuspParams.fromCenterToBoundary</definition>
+        <argsstring>(self)</argsstring>
+        <name>fromCenterToBoundary</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.fromCenterToBoundary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true isolines will be processed from center point to the boundary (usually it means from up to down)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10549" bodyend="10552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1a2f2e389c65cb3d01d3576ec76d884af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstantCuspParams.fromCenterToBoundary</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>fromCenterToBoundary</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.fromCenterToBoundary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10554" bodyend="10555"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ConstantCuspParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ConstantCuspParams</label>
+        <link refid="classmrmeshpy_1_1ConstantCuspParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ToolPathParams</label>
+        <link refid="classmrmeshpy_1_1ToolPathParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ConstantCuspParams</label>
+        <link refid="classmrmeshpy_1_1ConstantCuspParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_fromCenterToBoundary</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ToolPathParams</label>
+        <link refid="classmrmeshpy_1_1ToolPathParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_baseFeed</edgelabel>
+          <edgelabel>_offsetof_bypassDir</edgelabel>
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_critTransitionLength</edgelabel>
+          <edgelabel>_offsetof_flatTool</edgelabel>
+          <edgelabel>_offsetof_isolines</edgelabel>
+          <edgelabel>_offsetof_millRadius</edgelabel>
+          <edgelabel>_offsetof_offsetMesh</edgelabel>
+          <edgelabel>_offsetof_plungeFeed</edgelabel>
+          <edgelabel>_offsetof_plungeLength</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10523" bodyend="10555"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1a1555e4515f03ab2138508505b40d6179" prot="protected" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>_offsetof_fromCenterToBoundary</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1a8de46eda060abb9490806a87e15dadf5" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>fromCenterToBoundary</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1a2f2e389c65cb3d01d3576ec76d884af3" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>fromCenterToBoundary</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

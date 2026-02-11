@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonIcons_1_1Icons" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonIcons::Icons</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonIcons_1_1Icons_1aed0f3941ebd4706c243f8028f00fa10b" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;ImGuiImage&gt; MR::RibbonIcons::Icons::colored</definition>
+        <argsstring></argsstring>
+        <name>colored</name>
+        <qualifiedname>MR::RibbonIcons::Icons::colored</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="43" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonIcons_1_1Icons_1a5393f41d456609657a0ec506c3d1006b" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;ImGuiImage&gt; MR::RibbonIcons::Icons::white</definition>
+        <argsstring></argsstring>
+        <name>white</name>
+        <qualifiedname>MR::RibbonIcons::Icons::white</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="44" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="42" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonIcons_1_1Icons_1aed0f3941ebd4706c243f8028f00fa10b" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::Icons</scope><name>colored</name></member>
+      <member refid="structMR_1_1RibbonIcons_1_1Icons_1a5393f41d456609657a0ec506c3d1006b" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::Icons</scope><name>white</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

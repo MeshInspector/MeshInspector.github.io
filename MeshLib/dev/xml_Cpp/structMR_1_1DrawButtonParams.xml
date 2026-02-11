@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DrawButtonParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DrawButtonParams</compoundname>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785ae" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SizeType</name>
+        <qualifiedname>MR::DrawButtonParams::SizeType</qualifiedname>
+        <enumvalue id="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3" prot="public">
+          <name>Big</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff" prot="public">
+          <name>SmallText</name>
+          <briefdescription>
+<para>button is big, underline text is divided to 2 lines (maximum) to fit width </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592" prot="public">
+          <name>Small</name>
+          <briefdescription>
+<para>button is small, text is on same line </para>
+          </briefdescription>
+          <detaileddescription>
+<para>button is small, no text present </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84dae" prot="public" static="no" strong="no">
+        <type></type>
+        <name>RootType</name>
+        <qualifiedname>MR::DrawButtonParams::RootType</qualifiedname>
+        <enumvalue id="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3" prot="public">
+          <name>Ribbon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83" prot="public">
+          <name>Toolbar</name>
+          <briefdescription>
+<para>button is on main ribbon bar </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d" prot="public">
+          <name>Header</name>
+          <briefdescription>
+<para>button is on toolbar </para>
+          </briefdescription>
+          <detaileddescription>
+<para>button is on header quick access bar </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>icon size ( = 0 - use preset according to button type), this is scale factor of cBigIcon size (should not respect system scaling) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="27" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1ad592bb614e9ec6cf631c4eb003a17103" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785ae" kindref="member">MR::DrawButtonParams::SizeType</ref></type>
+        <definition>enum MR::DrawButtonParams::SizeType MR::DrawButtonParams::Big</definition>
+        <argsstring></argsstring>
+        <name>Big</name>
+        <qualifiedname>MR::DrawButtonParams::Big</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="22" column="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1ab8f3d59cb2dfd82cae6a79ab6746ee09" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::DrawButtonParams::itemSize</definition>
+        <argsstring></argsstring>
+        <name>itemSize</name>
+        <qualifiedname>MR::DrawButtonParams::itemSize</qualifiedname>
+        <briefdescription>
+<para>type of button to draw </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="24" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1ab74f8d9df1de54c37cd0803d64f01b34" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DrawButtonParams::iconSize</definition>
+        <argsstring></argsstring>
+        <name>iconSize</name>
+        <qualifiedname>MR::DrawButtonParams::iconSize</qualifiedname>
+        <initializer>{ 0.f }</initializer>
+        <briefdescription>
+<para>size of whole item group, needed for all, this should respect system scaling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="25" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1afd107444ea803e1dded92f25f9366332" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84dae" kindref="member">MR::DrawButtonParams::RootType</ref></type>
+        <definition>enum MR::DrawButtonParams::RootType MR::DrawButtonParams::Ribbon</definition>
+        <argsstring></argsstring>
+        <name>Ribbon</name>
+        <qualifiedname>MR::DrawButtonParams::Ribbon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="31" column="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1ae484e8e2139ec5d170493607d8987a20" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DrawButtonParams::forceHovered</definition>
+        <argsstring></argsstring>
+        <name>forceHovered</name>
+        <qualifiedname>MR::DrawButtonParams::forceHovered</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true treat this item as hovered </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1acf1bfc8da08f0a97639e95b6aeacdde1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DrawButtonParams::forcePressed</definition>
+        <argsstring></argsstring>
+        <name>forcePressed</name>
+        <qualifiedname>MR::DrawButtonParams::forcePressed</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true treat this item as pressed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="36" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DrawButtonParams_1ada71047555900f3fca184da6a1aaa1f8" prot="public" static="no" mutable="no">
+        <type>bool *</type>
+        <definition>bool* MR::DrawButtonParams::isPressed</definition>
+        <argsstring></argsstring>
+        <name>isPressed</name>
+        <qualifiedname>MR::DrawButtonParams::isPressed</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>set true if item pressed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="16" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DrawButtonParams_1ad592bb614e9ec6cf631c4eb003a17103" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Big</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1ae484e8e2139ec5d170493607d8987a20" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>forceHovered</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1acf1bfc8da08f0a97639e95b6aeacdde1" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>forcePressed</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Header</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1ab74f8d9df1de54c37cd0803d64f01b34" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>iconSize</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1ada71047555900f3fca184da6a1aaa1f8" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>isPressed</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1ab8f3d59cb2dfd82cae6a79ab6746ee09" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>itemSize</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1afd107444ea803e1dded92f25f9366332" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Ribbon</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Ribbon</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84dae" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>RootType</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785ae" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>SizeType</name></member>
+      <member refid="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Toolbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a8f6cb5b92d98783be3d939434482e66f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag::T</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.T</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ad981371774294759118773e6a56e0cad" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.const_iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a173eb43829b2f572d928be583d4fea5f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a5fb53b4a343046fc38b450222554d73f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1acee05fc00148b77caff04147b81340a4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6452" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a766b8e5b5eef65080040fd9441acd3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></type>
+        <definition> NoDefInit_Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__getitem__</definition>
+        <argsstring>(self, Id_ICPElemtTag i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6454" bodyend="6455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a766b8e5b5eef65080040fd9441acd3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></type>
+        <definition> NoDefInit_Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__getitem__</definition>
+        <argsstring>(self, Id_ICPElemtTag i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6457" bodyend="6458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1acd708d98f0970ab7f4a9108416a57f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6460" bodyend="6461"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1acf350062c4e7d609b6ee6f519131e11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6463" bodyend="6464"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a00be498c3b3b1e18f16b08963581445a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref>]</type>
+        <definition> typing.Iterator[NoDefInit_Id_ICPElemtTag] mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6465" bodyend="6466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ad924d9bc165239765fdf198d30cb9584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__setitem__</definition>
+        <argsstring>(self, Id_ICPElemtTag arg0, NoDefInit_Id_ICPElemtTag arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6467" bodyend="6468"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ac4d27ada21f2e89f5f65c78951598337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+        <definition> Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6469" bodyend="6472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1aa9de719b721b7df95973c35be065651f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+        <definition> Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6473" bodyend="6476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ad8a49f593b75f3a151154079f3896220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6477" bodyend="6478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a99d65f631c62cf0f79c352a925bc9881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6479" bodyend="6480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ae75ae50a87fb00a8ecba30a5dae9dea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></type>
+        <definition> NoDefInit_Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6482" bodyend="6483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ae75ae50a87fb00a8ecba30a5dae9dea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag" kindref="compound">NoDefInit_Id_ICPElemtTag</ref></type>
+        <definition> NoDefInit_Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6485" bodyend="6486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a84bc91a4b1d1c71421dbcf6a5de636e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6487" bodyend="6488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1af0f7ca331eff145042c5a7d6087266bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+        <definition> Id_ICPElemtTag mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6489" bodyend="6492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1aa28be17f96b961cfec1f99e4480072f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6493" bodyend="6496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1aac71b02492e9afa0334af95c3a36d610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6497" bodyend="6498"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a313807ac5af689e897846e6f2e733c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6499" bodyend="6500"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;
+
+
+ \\brief std::vector&lt;V&gt;-like container that is
+  1) resized without initialization of its elements,
+  2) much simplified: no push_back and many other methods
+ \\tparam V type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6436" bodyend="6500"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a766b8e5b5eef65080040fd9441acd3ea" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a766b8e5b5eef65080040fd9441acd3ea" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1acd708d98f0970ab7f4a9108416a57f94" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1acf350062c4e7d609b6ee6f519131e11e" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a00be498c3b3b1e18f16b08963581445a" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ad924d9bc165239765fdf198d30cb9584" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ac4d27ada21f2e89f5f65c78951598337" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1aa9de719b721b7df95973c35be065651f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ad8a49f593b75f3a151154079f3896220" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a99d65f631c62cf0f79c352a925bc9881" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ad981371774294759118773e6a56e0cad" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>const_iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a173eb43829b2f572d928be583d4fea5f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ae75ae50a87fb00a8ecba30a5dae9dea7" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1ae75ae50a87fb00a8ecba30a5dae9dea7" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a84bc91a4b1d1c71421dbcf6a5de636e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1af0f7ca331eff145042c5a7d6087266bf" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1aa28be17f96b961cfec1f99e4480072f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a5fb53b4a343046fc38b450222554d73f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1acee05fc00148b77caff04147b81340a4" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1aac71b02492e9afa0334af95c3a36d610" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a313807ac5af689e897846e6f2e733c86" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag_1a8f6cb5b92d98783be3d939434482e66f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

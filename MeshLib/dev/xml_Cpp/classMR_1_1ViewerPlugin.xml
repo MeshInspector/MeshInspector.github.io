@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewerPlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewerPlugin</compoundname>
+    <derivedcompoundref refid="classMR_1_1DemoPlugin" prot="public" virt="non-virtual">MR::DemoPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ImGuiMenu" prot="public" virt="non-virtual">MR::ImGuiMenu</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SaveOnClosePlugin" prot="public" virt="non-virtual">MR::SaveOnClosePlugin</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="non-virtual">MR::StateBasePlugin</derivedcompoundref>
+    <includes refid="MRViewerPlugin_8h" local="no">MRViewerPlugin.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+        <definition>Viewer* MR::ViewerPlugin::viewer</definition>
+        <argsstring></argsstring>
+        <name>viewer</name>
+        <qualifiedname>MR::ViewerPlugin::viewer</qualifiedname>
+        <initializer>= &amp;<ref refid="namespaceMR_1a3e7c908172571071d6796d054d25a4f4" kindref="member">getViewerInstance</ref>()</initializer>
+        <briefdescription>
+<para>Pointer to the main <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" line="46" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual MR::ViewerPlugin::~ViewerPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~ViewerPlugin</name>
+        <qualifiedname>MR::ViewerPlugin::~ViewerPlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" line="29" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerPlugin::init</definition>
+        <argsstring>(Viewer *_viewer)</argsstring>
+        <name>init</name>
+        <qualifiedname>MR::ViewerPlugin::init</qualifiedname>
+        <reimplementedby refid="classMR_1_1DemoPlugin_1a6be2d6bfd3895d3f759775a2843ed7fe">init</reimplementedby>
+        <reimplementedby refid="classMR_1_1ImGuiMenu_1acf26f479a1c27455aadd05900f3832bd">init</reimplementedby>
+        <reimplementedby refid="classMR_1_1RibbonMenu_1a75ae516e9ba2cc3916a137c3b723da57">init</reimplementedby>
+        <reimplementedby refid="classMR_1_1SaveOnClosePlugin_1acd23d814e2dac0931459aee0b97440b3">init</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>_viewer</declname>
+        </param>
+        <briefdescription>
+<para>This function is called when the viewer is initialized (no mesh will be loaded at this stage) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" line="34" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerPlugin_1a764e7d792fea63f8186ed87f2560578f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerPlugin::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>MR::ViewerPlugin::shutdown</qualifiedname>
+        <reimplementedby refid="classMR_1_1DemoPlugin_1afd0d013177b9745090ea82dd3e6321e7">shutdown</reimplementedby>
+        <reimplementedby refid="classMR_1_1ImGuiMenu_1ae8ea9f87c7bb3f33454eacc1a708eae8">shutdown</reimplementedby>
+        <reimplementedby refid="classMR_1_1RibbonMenu_1a304f2add3b4e9221b6accdcf46c2bb68">shutdown</reimplementedby>
+        <reimplementedby refid="classMR_1_1SaveOnClosePlugin_1aac82fa6173a5c41f046e06e39465445e">shutdown</reimplementedby>
+        <reimplementedby refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13">shutdown</reimplementedby>
+        <briefdescription>
+<para>This function is called before shutdown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" line="40" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract class for plugins All plugins MUST have this class as their parent and may implement any/all the callbacks marked <computeroutput>virtual</computeroutput> here.</para>
+<para>/////For an example of a basic plugins see plugins/skeleton.h</para>
+<para>Return value of callbacks: returning true to any of the callbacks tells <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> that the event has been handled and that it should not be passed to other plugins or to other internal functions of <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::DemoPlugin</label>
+        <link refid="classMR_1_1DemoPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ImGuiMenu</label>
+        <link refid="classMR_1_1ImGuiMenu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RibbonMenu</label>
+        <link refid="classMR_1_1RibbonMenu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::SaveOnClosePlugin</label>
+        <link refid="classMR_1_1SaveOnClosePlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+      <node id="17">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="1">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h" bodystart="27" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::ViewerPlugin</scope><name>init</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1a764e7d792fea63f8186ed87f2560578f" prot="public" virt="virtual"><scope>MR::ViewerPlugin</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::ViewerPlugin</scope><name>viewer</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::ViewerPlugin</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

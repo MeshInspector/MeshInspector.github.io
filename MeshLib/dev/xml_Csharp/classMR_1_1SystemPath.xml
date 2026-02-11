@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SystemPath" kind="class" language="C#" prot="public">
+    <compoundname>MR::SystemPath</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SystemPath</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a446512093ff2d5b21d8b6b0af743616d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SystemPath.SystemPath</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SystemPath</name>
+        <qualifiedname>MR.SystemPath.SystemPath</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="170" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="170" bodyend="170"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a3d788aca4435006d0e0002dddb2b420f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SystemPath.SystemPath</definition>
+        <argsstring>()</argsstring>
+        <name>SystemPath</name>
+        <qualifiedname>MR.SystemPath.SystemPath</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="175" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="175" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a05bf38a7b3fdcdb08b0bb22ab64fff7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SystemPath.SystemPath</definition>
+        <argsstring>(MR.Const_SystemPath _other)</argsstring>
+        <name>SystemPath</name>
+        <qualifiedname>MR.SystemPath.SystemPath</qualifiedname>
+        <param>
+          <type>MR.Const_SystemPath</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SystemPath.SystemPath</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="185" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="185" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a3d2c817b1d5b33a38be99347dbd828d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SystemPath.SystemPath</definition>
+        <argsstring>(SystemPath _other)</argsstring>
+        <name>SystemPath</name>
+        <qualifiedname>MR.SystemPath.SystemPath</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SystemPath" kindref="compound">SystemPath</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SystemPath.SystemPath</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="196" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1ad6ace37dfb22f3359ace67aa5e3a9ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SystemPath" kindref="compound">MR.SystemPath</ref></type>
+        <definition>unsafe MR.SystemPath MR.SystemPath.assign</definition>
+        <argsstring>(MR.Const_SystemPath _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SystemPath.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SystemPath</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SystemPath.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="201" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="201" bodyend="208"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>system directory path manager Generated from class <computeroutput><ref refid="classMR_1_1SystemPath" kindref="compound">MR.SystemPath</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SystemPath</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SystemPath</label>
+        <link refid="classMR_1_1SystemPath"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SystemPath &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SystemPath</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SystemPath</label>
+        <link refid="classMR_1_1SystemPath"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SystemPath &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="168" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="169" bodyend="209"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SystemPath_1ad6ace37dfb22f3359ace67aa5e3a9ca1" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>assign</name></member>
+      <member refid="classMR_1_1SystemPath_1a446512093ff2d5b21d8b6b0af743616d" prot="package" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>
+      <member refid="classMR_1_1SystemPath_1a3d788aca4435006d0e0002dddb2b420f" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>
+      <member refid="classMR_1_1SystemPath_1a05bf38a7b3fdcdb08b0bb22ab64fff7f" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>
+      <member refid="classMR_1_1SystemPath_1a3d2c817b1d5b33a38be99347dbd828d9" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

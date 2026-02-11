@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriangulationHelpers_1_1Settings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriangulationHelpers::Settings</compoundname>
+    <includes refid="MRPointCloudTriangulationHelpers_8h" local="no">MRPointCloudTriangulationHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1aeadcc460fdb58725f5fd22d6457ea9b2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::TriangulationHelpers::Settings::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::radius</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initial radius of search for neighbours, it can be increased automatically; if radius is positive then numNeis must be zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a45558230d0bcbdc7e5d3da4e7f7b3ab7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::TriangulationHelpers::Settings::numNeis</definition>
+        <argsstring></argsstring>
+        <name>numNeis</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::numNeis</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initially selects given number of nearest neighbours; if numNeis is positive then radius must be zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="111" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1adaecbf29331f6b90ae2a11acaa0c153a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::TriangulationHelpers::Settings::critAngle</definition>
+        <argsstring></argsstring>
+        <name>critAngle</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::critAngle</qualifiedname>
+        <initializer>= PI2_F</initializer>
+        <briefdescription>
+<para>max allowed angle for triangles in fan </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="114" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a341b31c3cef2ea814252e40a6dfbc8aa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::TriangulationHelpers::Settings::boundaryAngle</definition>
+        <argsstring></argsstring>
+        <name>boundaryAngle</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::boundaryAngle</qualifiedname>
+        <initializer>= 0.9f * PI_F</initializer>
+        <briefdescription>
+<para>the vertex is considered as boundary if its neighbor ring has angle more than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1adfa09c4f869d92627a0ca88966af3bef" prot="public" static="no" mutable="no">
+        <type>const VertNormals *</type>
+        <definition>const VertNormals* MR::TriangulationHelpers::Settings::orientedNormals</definition>
+        <argsstring></argsstring>
+        <name>orientedNormals</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::orientedNormals</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if oriented normals are known, they will be used for neighbor points selection except for the ones indicated by untrustedNormals </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="121" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a86643849d573e87b6dd3e459323b97a3" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::TriangulationHelpers::Settings::untrustedNormals</definition>
+        <argsstring></argsstring>
+        <name>untrustedNormals</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::untrustedNormals</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="122" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a49d74151d155a2c96be9eb811e05757d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::TriangulationHelpers::Settings::automaticRadiusIncrease</definition>
+        <argsstring></argsstring>
+        <name>automaticRadiusIncrease</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::automaticRadiusIncrease</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>automatic increase of the radius if points outside can make triangles from original radius not-Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="125" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a04d78b046a3cb5a0456ca15052617648" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::TriangulationHelpers::Settings::maxRemoves</definition>
+        <argsstring></argsstring>
+        <name>maxRemoves</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::maxRemoves</qualifiedname>
+        <initializer>= INT_MAX</initializer>
+        <briefdescription>
+<para>the maximum number of optimization steps (removals) in local triangulation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="128" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a6f5bf92c6fb3063c2d70ea917ba4a458" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; VertId &gt; *</type>
+        <definition>std::vector&lt;VertId&gt;* MR::TriangulationHelpers::Settings::allNeighbors</definition>
+        <argsstring></argsstring>
+        <name>allNeighbors</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::allNeighbors</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output of considered neighbor points after filtering but before triangulation/optimization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="131" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1ad5edcde965a734c44ce7cb176b8784c2" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* MR::TriangulationHelpers::Settings::actualRadius</definition>
+        <argsstring></argsstring>
+        <name>actualRadius</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::actualRadius</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output: actual radius of neighbor search (after increase if any) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="134" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1Settings_1a97127b609f58b4ac11085781558f55f6" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> *</type>
+        <definition>const PointCloud* MR::TriangulationHelpers::Settings::searchNeighbors</definition>
+        <argsstring></argsstring>
+        <name>searchNeighbors</name>
+        <qualifiedname>MR::TriangulationHelpers::Settings::searchNeighbors</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::PointCloud</label>
+        <link refid="structMR_1_1PointCloud"/>
+      </node>
+      <node id="1">
+        <label>MR::TriangulationHelpers::Settings</label>
+        <link refid="structMR_1_1TriangulationHelpers_1_1Settings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>searchNeighbors</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="104" bodyend="138"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1ad5edcde965a734c44ce7cb176b8784c2" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>actualRadius</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a6f5bf92c6fb3063c2d70ea917ba4a458" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>allNeighbors</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a49d74151d155a2c96be9eb811e05757d" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>automaticRadiusIncrease</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a341b31c3cef2ea814252e40a6dfbc8aa" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>boundaryAngle</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1adaecbf29331f6b90ae2a11acaa0c153a" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>critAngle</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a04d78b046a3cb5a0456ca15052617648" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>maxRemoves</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a45558230d0bcbdc7e5d3da4e7f7b3ab7" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>numNeis</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1adfa09c4f869d92627a0ca88966af3bef" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>orientedNormals</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1aeadcc460fdb58725f5fd22d6457ea9b2" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>radius</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a97127b609f58b4ac11085781558f55f6" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>searchNeighbors</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1a86643849d573e87b6dd3e459323b97a3" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>untrustedNormals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

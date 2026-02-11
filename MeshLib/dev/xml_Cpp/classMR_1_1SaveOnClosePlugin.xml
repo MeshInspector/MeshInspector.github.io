@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SaveOnClosePlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::SaveOnClosePlugin</compoundname>
+    <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
+    <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener, InterruptCloseListener &gt;</basecompoundref>
+    <includes refid="MRSaveOnClose_8h" local="no">MRSaveOnClose.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SaveOnClosePlugin_1aa9c50e906abc81d5db0abb34a9ce6e4c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveOnClosePlugin::initialized_</definition>
+        <argsstring></argsstring>
+        <name>initialized_</name>
+        <qualifiedname>MR::SaveOnClosePlugin::initialized_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SaveOnClosePlugin_1a469d16f1bff9fc97421f85fcde8f737d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveOnClosePlugin::shouldClose_</definition>
+        <argsstring></argsstring>
+        <name>shouldClose_</name>
+        <qualifiedname>MR::SaveOnClosePlugin::shouldClose_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="21" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SaveOnClosePlugin_1ae4139c3222b09a562333caf459d7e055" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveOnClosePlugin::showCloseModal_</definition>
+        <argsstring></argsstring>
+        <name>showCloseModal_</name>
+        <qualifiedname>MR::SaveOnClosePlugin::showCloseModal_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SaveOnClosePlugin_1a3b7539c88a24677b7bad805b0965fd03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SaveOnClosePlugin::activeModalHighlightTimer_</definition>
+        <argsstring></argsstring>
+        <name>activeModalHighlightTimer_</name>
+        <qualifiedname>MR::SaveOnClosePlugin::activeModalHighlightTimer_</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>how long active modal will blink in seconds </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SaveOnClosePlugin_1acd23d814e2dac0931459aee0b97440b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SaveOnClosePlugin::init</definition>
+        <argsstring>(Viewer *_viewer) override</argsstring>
+        <name>init</name>
+        <qualifiedname>MR::SaveOnClosePlugin::init</qualifiedname>
+        <reimplements refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794">init</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>_viewer</declname>
+        </param>
+        <briefdescription>
+<para>This function is called when the viewer is initialized (no mesh will be loaded at this stage) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="13" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SaveOnClosePlugin_1aac82fa6173a5c41f046e06e39465445e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SaveOnClosePlugin::shutdown</definition>
+        <argsstring>() override</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>MR::SaveOnClosePlugin::shutdown</qualifiedname>
+        <reimplements refid="classMR_1_1ViewerPlugin_1a764e7d792fea63f8186ed87f2560578f">shutdown</reimplements>
+        <briefdescription>
+<para>This function is called before shutdown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="14" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1SaveOnClosePlugin_1a910af9ab044513672ec4ae3f4a01e03c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::SaveOnClosePlugin::preDraw_</definition>
+        <argsstring>() override</argsstring>
+        <name>preDraw_</name>
+        <qualifiedname>MR::SaveOnClosePlugin::preDraw_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="17" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SaveOnClosePlugin_1acc8cf95e0293dc70c367f87fab3910dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::SaveOnClosePlugin::interruptClose_</definition>
+        <argsstring>() override</argsstring>
+        <name>interruptClose_</name>
+        <qualifiedname>MR::SaveOnClosePlugin::interruptClose_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="18" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this plugin will show a message to the user if she closes the application when something is modified </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Connectables...</label>
+      </node>
+      <node id="3">
+        <label>MR::MultiListener&lt; PreDrawListener, InterruptCloseListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SaveOnClosePlugin</label>
+        <link refid="classMR_1_1SaveOnClosePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Connectables...</label>
+      </node>
+      <node id="4">
+        <label>MR::MultiListener&lt; PreDrawListener, InterruptCloseListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SaveOnClosePlugin</label>
+        <link refid="classMR_1_1SaveOnClosePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SaveOnClosePlugin_1a3b7539c88a24677b7bad805b0965fd03" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>activeModalHighlightTimer_</name></member>
+      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>connect</name></member>
+      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>disconnect</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1acd23d814e2dac0931459aee0b97440b3" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>init</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1aa9c50e906abc81d5db0abb34a9ce6e4c" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>initialized_</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1acc8cf95e0293dc70c367f87fab3910dc" prot="private" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>interruptClose_</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1a910af9ab044513672ec4ae3f4a01e03c" prot="private" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>preDraw_</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1a469d16f1bff9fc97421f85fcde8f737d" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>shouldClose_</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1ae4139c3222b09a562333caf459d7e055" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>showCloseModal_</name></member>
+      <member refid="classMR_1_1SaveOnClosePlugin_1aac82fa6173a5c41f046e06e39465445e" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>viewer</name></member>
+      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>~MultiListener</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

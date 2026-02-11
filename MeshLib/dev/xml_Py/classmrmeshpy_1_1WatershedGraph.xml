@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1WatershedGraph" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::WatershedGraph</compoundname>
+    <innerclass refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" prot="public">mrmeshpy::WatershedGraph::BasinInfo</innerclass>
+    <innerclass refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" prot="public">mrmeshpy::WatershedGraph::BdInfo</innerclass>
+    <innerclass refid="classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint" prot="public">mrmeshpy::WatershedGraph::OverflowPoint</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a529441c42d889bfa18c8a0b944fec77c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WatershedGraph.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74181" bodyend="74182"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1adf232ea255ab4607114cbb5e05595531" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WatershedGraph.__init__</definition>
+        <argsstring>(self, Mesh mesh, Vector_int_FaceId face2basin, int numBasins)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__int__FaceId" kindref="compound">Vector_int_FaceId</ref></type>
+          <declname>face2basin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBasins</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74184" bodyend="74187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1ab07c4e2ea320c40b72cdde1b20b56676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WatershedGraph.__init__</definition>
+        <argsstring>(self, WatershedGraph arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WatershedGraph" kindref="compound">WatershedGraph</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74189" bodyend="74192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1ab6babb1eaba19b87f707b06f93b65b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
+        <definition> WatershedGraph.BasinInfo mrmeshpy.WatershedGraph.basinInfo</definition>
+        <argsstring>(self, GraphVertId v)</argsstring>
+        <name>basinInfo</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.basinInfo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns data associated with given basin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74194" bodyend="74197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1ab6babb1eaba19b87f707b06f93b65b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
+        <definition> WatershedGraph.BasinInfo mrmeshpy.WatershedGraph.basinInfo</definition>
+        <argsstring>(self, GraphVertId v)</argsstring>
+        <name>basinInfo</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.basinInfo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74199" bodyend="74200"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a2c9e83ee31f89e4601e4de67686fc60a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+        <definition> WatershedGraph.BdInfo mrmeshpy.WatershedGraph.bdInfo</definition>
+        <argsstring>(self, GraphEdgeId e)</argsstring>
+        <name>bdInfo</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.bdInfo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns data associated with given boundary between basins
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74202" bodyend="74205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a2c9e83ee31f89e4601e4de67686fc60a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+        <definition> WatershedGraph.BdInfo mrmeshpy.WatershedGraph.bdInfo</definition>
+        <argsstring>(self, GraphEdgeId e)</argsstring>
+        <name>bdInfo</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.bdInfo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74207" bodyend="74208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a96c04081c36f5a5ce1d41b8926b5cfc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.WatershedGraph.computeBasinVolume</definition>
+        <argsstring>(self, GraphVertId basin, float waterLevel)</argsstring>
+        <name>computeBasinVolume</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.computeBasinVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>waterLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns water volume in basin when its surface reaches given level, which must be in between
+the lowest basin level and the lowest level on basin&apos;s boundary
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74209" bodyend="74213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a83b1a7323fdcf21c626983a5a476b4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[<ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref>, float]</type>
+        <definition> tuple[GraphEdgeId, float] mrmeshpy.WatershedGraph.findLowestBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>findLowestBd</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.findLowestBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the lowest boundary between basins and its height, which is defined
+as the minimal different between lowest boundary point and lowest point in a basin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74214" bodyend="74218"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a227f20d19081bcf43a20999194a72bab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.WatershedGraph.flowsFinallyTo</definition>
+        <argsstring>(self, GraphVertId v, bool exceptOutside=False)</argsstring>
+        <name>flowsFinallyTo</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.flowsFinallyTo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>exceptOutside</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the basin where the flow from this basin finally goes (it can be self id if the basin is not full yet);
+\\param exceptOutside if true then the method returns the basin that receives water flow from (v) just before outside
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74219" bodyend="74223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1aa4bb05a3bb764f6080a1a045874b8b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.WatershedGraph.flowsTo</definition>
+        <argsstring>(self, GraphVertId v)</argsstring>
+        <name>flowsTo</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.flowsTo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the basin where the flow from this basin goes next (it can be self id if the basin is not full yet)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74224" bodyend="74227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a9ead2fc1d0d8042a7e76515fde18bdcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+        <definition> Vector_FaceBitSet_GraphVertId mrmeshpy.WatershedGraph.getAllBasinFaces</definition>
+        <argsstring>(self, bool joinOverflowBasins=False)</argsstring>
+        <name>getAllBasinFaces</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getAllBasinFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>joinOverflowBasins</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the mesh faces of each valid basin;
+\\param joinOverflowBasins if true then overflowing basins will be merged in the target basins (except for overflow in outside)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74228" bodyend="74232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1adb4ad47cb9d77fd9716f25eb3e13734e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.WatershedGraph.getBasinFaces</definition>
+        <argsstring>(self, GraphVertId basin)</argsstring>
+        <name>getBasinFaces</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getBasinFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the mesh faces of given basin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74233" bodyend="74236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1aa3634199d13bf9734ce91bee2467184b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.WatershedGraph.getBasinFacesBelowLevel</definition>
+        <argsstring>(self, GraphVertId basin, float waterLevel)</argsstring>
+        <name>getBasinFacesBelowLevel</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getBasinFacesBelowLevel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>waterLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the mesh faces of given basin with at least one vertex below given level
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74237" bodyend="74240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a0853df977484ef1331de47d0a6e21f53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.WatershedGraph.getHeightAt</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>getHeightAt</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getHeightAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns height at given vertex or FLT_MAX if the vertex is invalid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74241" bodyend="74244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a93b031440f1057d8fd8a5131f5a84b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.WatershedGraph.getInterBasinEdges</definition>
+        <argsstring>(self, bool joinOverflowBasins=False)</argsstring>
+        <name>getInterBasinEdges</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getInterBasinEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>joinOverflowBasins</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the mesh edges between current basins
+\\param joinOverflowBasins if true then overflowing basins will be merged in the target basins (except for overflow in outside)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74245" bodyend="74249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a7652c44ce16ba203e1e2bbec8d6f295f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint" kindref="compound">std_vector_WatershedGraph_OverflowPoint</ref></type>
+        <definition> std_vector_WatershedGraph_OverflowPoint mrmeshpy.WatershedGraph.getOverflowPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>getOverflowPoints</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getOverflowPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all overflow points in the graph
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74250" bodyend="74253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a762393061130678d6f7ad52e9f08a2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.WatershedGraph.getRootBasin</definition>
+        <argsstring>(self, GraphVertId v)</argsstring>
+        <name>getRootBasin</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.getRootBasin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for valid basin returns self id; for invalid basin returns the id of basin it was merged in
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74254" bodyend="74257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1ac40020011c202e25abdf21d570e5016e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph" kindref="compound">Graph</ref></type>
+        <definition> Graph mrmeshpy.WatershedGraph.graph</definition>
+        <argsstring>(self)</argsstring>
+        <name>graph</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.graph</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns underlying graph where each basin is a vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74258" bodyend="74261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a0ecd3cafa5d89ff10d301dceeeaae65e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId" kindref="compound">Vector_GraphVertId_GraphVertId</ref></type>
+        <definition> Vector_GraphVertId_GraphVertId mrmeshpy.WatershedGraph.iniBasin2Tgt</definition>
+        <argsstring>(self, bool joinOverflowBasins=False)</argsstring>
+        <name>iniBasin2Tgt</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.iniBasin2Tgt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>joinOverflowBasins</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes a map from initial basin id to a valid basin in which it was merged
+\\param joinOverflowBasins if true then overflowing basins will be merged in the target basins (except for overflow in outside)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74262" bodyend="74266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a5a9b7b982fbd32b0f4e506d281f765e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.WatershedGraph.merge</definition>
+        <argsstring>(self, GraphVertId v0, GraphVertId v1)</argsstring>
+        <name>merge</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.merge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>merges basin v1 into basin v0, v1 is deleted after that, returns v0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74267" bodyend="74270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a9836028898c50d7b012550163170176a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.WatershedGraph.mergeViaBd</definition>
+        <argsstring>(self, GraphEdgeId bd)</argsstring>
+        <name>mergeViaBd</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.mergeViaBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>bd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>merges two basins sharing given boundary, returns remaining basin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74271" bodyend="74274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a5ec0ca924b9632eb2196966d1b447233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.WatershedGraph.numBasins</definition>
+        <argsstring>(self)</argsstring>
+        <name>numBasins</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.numBasins</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the current number of basins (excluding special &quot;outside&quot; basin)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74275" bodyend="74278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1acdcc3d8c419b78c9f797ea1e2745a32c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.WatershedGraph.outsideId</definition>
+        <argsstring>(self)</argsstring>
+        <name>outsideId</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.outsideId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns special &quot;basin&quot; representing outside areas of the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74279" bodyend="74282"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1ac70eea5d2e0828ff13f0fc99cf558dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WatershedGraph.setParentsToRoots</definition>
+        <argsstring>(self)</argsstring>
+        <name>setParentsToRoots</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.setParentsToRoots</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replaces parent of each basin with its computed root;
+this speeds up following calls to getRootBasin()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74283" bodyend="74287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WatershedGraph_1a28761005e6b0bc29cfee189b016adbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.WatershedGraph.totalArea</definition>
+        <argsstring>(self)</argsstring>
+        <name>totalArea</name>
+        <qualifiedname>mrmeshpy.WatershedGraph.totalArea</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns total precipitation area
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74288" bodyend="74291"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::WatershedGraph
+
+graphs representing rain basins on the mesh
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73951" bodyend="74291"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a529441c42d889bfa18c8a0b944fec77c" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1adf232ea255ab4607114cbb5e05595531" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1ab07c4e2ea320c40b72cdde1b20b56676" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1ab6babb1eaba19b87f707b06f93b65b7d" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>basinInfo</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1ab6babb1eaba19b87f707b06f93b65b7d" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>basinInfo</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a2c9e83ee31f89e4601e4de67686fc60a" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>bdInfo</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a2c9e83ee31f89e4601e4de67686fc60a" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>bdInfo</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a96c04081c36f5a5ce1d41b8926b5cfc5" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>computeBasinVolume</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a83b1a7323fdcf21c626983a5a476b4ea" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>findLowestBd</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a227f20d19081bcf43a20999194a72bab" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>flowsFinallyTo</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1aa4bb05a3bb764f6080a1a045874b8b1c" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>flowsTo</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a9ead2fc1d0d8042a7e76515fde18bdcd" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getAllBasinFaces</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1adb4ad47cb9d77fd9716f25eb3e13734e" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getBasinFaces</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1aa3634199d13bf9734ce91bee2467184b" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a0853df977484ef1331de47d0a6e21f53" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getHeightAt</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a93b031440f1057d8fd8a5131f5a84b31" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getInterBasinEdges</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a7652c44ce16ba203e1e2bbec8d6f295f" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getOverflowPoints</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a762393061130678d6f7ad52e9f08a2c5" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>getRootBasin</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1ac40020011c202e25abdf21d570e5016e" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>graph</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a0ecd3cafa5d89ff10d301dceeeaae65e" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>iniBasin2Tgt</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a5a9b7b982fbd32b0f4e506d281f765e5" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>merge</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a9836028898c50d7b012550163170176a" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>mergeViaBd</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a5ec0ca924b9632eb2196966d1b447233" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>numBasins</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1acdcc3d8c419b78c9f797ea1e2745a32c" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>outsideId</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1ac70eea5d2e0828ff13f0fc99cf558dfd" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>setParentsToRoots</name></member>
+      <member refid="classmrmeshpy_1_1WatershedGraph_1a28761005e6b0bc29cfee189b016adbd3" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph</scope><name>totalArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

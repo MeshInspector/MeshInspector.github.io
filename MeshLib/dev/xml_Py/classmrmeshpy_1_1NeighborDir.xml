@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NeighborDir" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NeighborDir</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NeighborDir_1af9ab1ff2264896cacd68e94abc4523c0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NeighborDir::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.NeighborDir.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NeighborDir" kindref="compound">NeighborDir</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NeighborDir_1a143d0aff34654ee32730d21f0eb69ab1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NeighborDir::X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>mrmeshpy.NeighborDir.X</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NeighborDir" kindref="compound">NeighborDir</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NeighborDir_1a6a95fa3cda1694daf3b5afa024210573" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NeighborDir::Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>mrmeshpy.NeighborDir.Y</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NeighborDir" kindref="compound">NeighborDir</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NeighborDir_1a08f2a5226fdc0b6787baa1d55e34894e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NeighborDir::Z</definition>
+        <argsstring></argsstring>
+        <name>Z</name>
+        <qualifiedname>mrmeshpy.NeighborDir.Z</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NeighborDir" kindref="compound">NeighborDir</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36671" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NeighborDir_1a8496b06131accec2e4f3f50c7d71f388" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NeighborDir::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1NeighborDir" kindref="compound">NeighborDir</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36672" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a75da84f8fe09f79e4620b345cbec0998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.NeighborDir.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36673" bodyend="36674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a81614a8491635f5620fa6ae62c439c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NeighborDir.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36675" bodyend="36676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a222ac50850d4aab682fb5cad66db663c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NeighborDir.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36677" bodyend="36678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a10f810fc3d8b03e5842ae999667916dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NeighborDir.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36679" bodyend="36680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a901af6bd866bb3a9376c239ddc69fc89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NeighborDir.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36681" bodyend="36682"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a1702a9cd76d367722a3b85e4b89a1b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NeighborDir.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36683" bodyend="36684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1aada8cd4c1da7d0dc6cb7c1e8933d878e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.NeighborDir.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36685" bodyend="36686"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1ab462f0af0bab81649f388374448fcb4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NeighborDir.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36687" bodyend="36688"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a0a3cc3545be89de4f0dd4bc454cf62f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NeighborDir.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36689" bodyend="36690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1ae3586b2da449ddcc6dd3cd6d9803eac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NeighborDir.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.NeighborDir.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36691" bodyend="36692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1ad35217410752386703c267b9acab7133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NeighborDir.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.NeighborDir.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36694" bodyend="36695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NeighborDir_1a1f2c2bd03c4d409d86874ccc1efbe3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NeighborDir.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.NeighborDir.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36697" bodyend="36698"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  X
+
+  Y
+
+  Z
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NeighborDir</label>
+        <link refid="classmrmeshpy_1_1NeighborDir"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>X</edgelabel>
+          <edgelabel>Y</edgelabel>
+          <edgelabel>Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36656" bodyend="36698"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a75da84f8fe09f79e4620b345cbec0998" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a81614a8491635f5620fa6ae62c439c41" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a222ac50850d4aab682fb5cad66db663c" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a10f810fc3d8b03e5842ae999667916dd" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a901af6bd866bb3a9376c239ddc69fc89" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a1702a9cd76d367722a3b85e4b89a1b47" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a8496b06131accec2e4f3f50c7d71f388" prot="private" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1aada8cd4c1da7d0dc6cb7c1e8933d878e" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1ab462f0af0bab81649f388374448fcb4c" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a0a3cc3545be89de4f0dd4bc454cf62f6" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1ae3586b2da449ddcc6dd3cd6d9803eac4" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1af9ab1ff2264896cacd68e94abc4523c0" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1ad35217410752386703c267b9acab7133" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a1f2c2bd03c4d409d86874ccc1efbe3d8" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a143d0aff34654ee32730d21f0eb69ab1" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>X</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a6a95fa3cda1694daf3b5afa024210573" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>Y</name></member>
+      <member refid="classmrmeshpy_1_1NeighborDir_1a08f2a5226fdc0b6787baa1d55e34894e" prot="public" virt="non-virtual"><scope>mrmeshpy::NeighborDir</scope><name>Z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

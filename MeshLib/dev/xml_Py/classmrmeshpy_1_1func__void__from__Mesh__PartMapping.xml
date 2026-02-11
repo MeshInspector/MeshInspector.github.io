@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_void_from_Mesh_PartMapping</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1a808eab6d0a7013cdab65dd073a0f3128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Mesh_PartMapping.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76906" bodyend="76907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1afeaa30a1c21bd6c91fcc8fcc9a388003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Mesh_PartMapping.__call__</definition>
+        <argsstring>(self, Mesh arg0, PartMapping arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76908" bodyend="76909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1acd1141c4d2685a42121aa0a57679d592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Mesh_PartMapping.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76911" bodyend="76912"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1ad2e0eb13126777bbff24186f0dc7df69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Mesh_PartMapping.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76914" bodyend="76915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1af9eecebde32f4df0359684dd7ef38c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Mesh_PartMapping.__init__</definition>
+        <argsstring>(self, func_void_from_Mesh_PartMapping arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping" kindref="compound">func_void_from_Mesh_PartMapping</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76917" bodyend="76918"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1abf9c0edffb97bd5126b770dd3afeff26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Mesh_PartMapping.__init__</definition>
+        <argsstring>(self, typing.Callable[[Mesh, PartMapping], None] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[Mesh, PartMapping]</array>
+        </param>
+        <param>
+          <type>None]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76920" bodyend="76921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1aad867b9ded548fe3a693d61aa093826d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Mesh_PartMapping.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76922" bodyend="76925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1a51fe73c40e62d7257384da711e2e4874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Mesh_PartMapping.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_void_from_Mesh_PartMapping.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76926" bodyend="76929"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76905" bodyend="76929"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1a808eab6d0a7013cdab65dd073a0f3128" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1afeaa30a1c21bd6c91fcc8fcc9a388003" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1acd1141c4d2685a42121aa0a57679d592" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1ad2e0eb13126777bbff24186f0dc7df69" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1af9eecebde32f4df0359684dd7ef38c7d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1abf9c0edffb97bd5126b770dd3afeff26" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1aad867b9ded548fe3a693d61aa093826d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping_1a51fe73c40e62d7257384da711e2e4874" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Mesh_PartMapping</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

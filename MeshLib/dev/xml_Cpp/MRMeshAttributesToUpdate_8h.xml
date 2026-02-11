@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshAttributesToUpdate_8h" kind="file" language="C++">
+    <compoundname>MRMeshAttributesToUpdate.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includedby refid="MRMeshDecimateCallbacks_8h" local="yes">MRMeshDecimateCallbacks.h</includedby>
+    <includedby refid="MRMeshSubdivideCallbacks_8h" local="yes">MRMeshSubdivideCallbacks.h</includedby>
+    <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRProjectionMeshAttribute.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMeshAttributesToUpdate.h</label>
+        <link refid="MRMeshAttributesToUpdate_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRMeshAttributesToUpdate.h</label>
+        <link refid="MRMeshAttributesToUpdate_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshDecimateCallbacks.h</label>
+        <link refid="MRMeshDecimateCallbacks_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshSubdivideCallbacks.h</label>
+        <link refid="MRMeshSubdivideCallbacks_8h"/>
+      </node>
+      <node id="4">
+        <label>MRProjectionMeshAttribute.h</label>
+        <link refid="MRProjectionMeshAttribute_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1MeshAttributesToUpdate" prot="public">MR::MeshAttributesToUpdate</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structMR_1_1MeshAttributesToUpdate" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="structMR_1_1MeshAttributesToUpdate_1aca8eecaf6d18987308450e4834bb50cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertUVCoords*<sp/><ref refid="structMR_1_1MeshAttributesToUpdate_1aca8eecaf6d18987308450e4834bb50cd" kindref="member">uvCoords</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1MeshAttributesToUpdate_1a161c46fbd4edb96386ef840eb0fe9fc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors*<sp/><ref refid="structMR_1_1MeshAttributesToUpdate_1a161c46fbd4edb96386ef840eb0fe9fc7" kindref="member">colorMap</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1MeshAttributesToUpdate_1aee9a5a30ffb7f9f758de6307f4916794" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TexturePerFace*<sp/><ref refid="structMR_1_1MeshAttributesToUpdate_1aee9a5a30ffb7f9f758de6307f4916794" kindref="member">texturePerFace</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1MeshAttributesToUpdate_1a7b265a7a8c17525854733647c2bf3363" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceColors*<sp/><ref refid="structMR_1_1MeshAttributesToUpdate_1a7b265a7a8c17525854733647c2bf3363" kindref="member">faceColors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshAttributesToUpdate.h"/>
+  </compounddef>
+</doxygen>

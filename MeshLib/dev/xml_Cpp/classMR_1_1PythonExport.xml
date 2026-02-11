@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PythonExport" kind="class" language="C++" prot="public">
+    <compoundname>MR::PythonExport</compoundname>
+    <includes refid="MRPython_8h" local="no">MRPython.h</includes>
+    <innerclass refid="structMR_1_1PythonExport_1_1ModuleData" prot="public">MR::PythonExport::ModuleData</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Priority</name>
+        <qualifiedname>MR::PythonExport::Priority</qualifiedname>
+        <enumvalue id="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a" prot="public">
+          <name>Declaration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689" prot="public">
+          <name>Implementation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="176" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="177" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" prot="public" static="no">
+        <type>std::function&lt; void(pybind11::module_ &amp;m)&gt;</type>
+        <definition>using MR::PythonExport::PythonRegisterFuncton =  std::function&lt;void( pybind11::module_&amp; m )&gt;</definition>
+        <argsstring></argsstring>
+        <name>PythonRegisterFuncton</name>
+        <qualifiedname>MR::PythonExport::PythonRegisterFuncton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="174" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1PythonExport_1a2553f1d2794ce1fdfaa893e69cc64836" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, <ref refid="structMR_1_1PythonExport_1_1ModuleData" kindref="compound">ModuleData</ref> &gt;</type>
+        <definition>std::unordered_map&lt;std::string, ModuleData&gt; MR::PythonExport::moduleData_</definition>
+        <argsstring></argsstring>
+        <name>moduleData_</name>
+        <qualifiedname>MR::PythonExport::moduleData_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="216" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PythonExport_1abfb182152c405649c53c0c632868b0c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRPYTHON_API <ref refid="classMR_1_1PythonExport" kindref="compound">PythonExport</ref> &amp;</type>
+        <definition>static MRPYTHON_API PythonExport &amp; MR::PythonExport::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>MR::PythonExport::instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="172" column="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PythonExport_1a595ac26b1d2a27a14a95bbc5a1963532" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PythonExport::addFunc</definition>
+        <argsstring>(const std::string &amp;moduleName, PythonRegisterFuncton func, Priority priority)</argsstring>
+        <name>addFunc</name>
+        <qualifiedname>MR::PythonExport::addFunc</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>moduleName</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" kindref="member">PythonRegisterFuncton</ref></type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" kindref="member">Priority</ref></type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="189" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="189" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PythonExport_1a1105f4987df7b1b8d9d469115a831880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PythonExport::setInitFuncPtr</definition>
+        <argsstring>(const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))</argsstring>
+        <name>setInitFuncPtr</name>
+        <qualifiedname>MR::PythonExport::setInitFuncPtr</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>moduleName</declname>
+        </param>
+        <param>
+          <type>PyObject *(*)(void)</type>
+          <declname>initFncPointer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="194" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="194" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PythonExport_1a1ae0ff73c0d87a6c897bf89610cabb81" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::array&lt; std::vector&lt; <ref refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" kindref="member">PythonRegisterFuncton</ref> &gt;, size_t(<ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Priority::Count</ref>)&gt; &amp;</type>
+        <definition>const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; MR::PythonExport::functions</definition>
+        <argsstring>(const std::string &amp;moduleName) const</argsstring>
+        <name>functions</name>
+        <qualifiedname>MR::PythonExport::functions</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>moduleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="199" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="199" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PythonExport_1a67924d9cb7f431bc9894a456c513156f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::unordered_map&lt; std::string, <ref refid="structMR_1_1PythonExport_1_1ModuleData" kindref="compound">ModuleData</ref> &gt; &amp;</type>
+        <definition>const std::unordered_map&lt; std::string, ModuleData &gt; &amp; MR::PythonExport::modules</definition>
+        <argsstring>() const</argsstring>
+        <name>modules</name>
+        <qualifiedname>MR::PythonExport::modules</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="208" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="208" bodyend="211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1PythonExport_1a2922335b87834109b7fd5dac2da8a898" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::PythonExport::PythonExport</definition>
+        <argsstring>()=default</argsstring>
+        <name>PythonExport</name>
+        <qualifiedname>MR::PythonExport::PythonExport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="213" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PythonExport_1aeec7d003270fdcb4510389e4ac227562" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::PythonExport::~PythonExport</definition>
+        <argsstring>()=default</argsstring>
+        <name>~PythonExport</name>
+        <qualifiedname>MR::PythonExport::~PythonExport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="214" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="170" bodyend="217"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PythonExport_1a595ac26b1d2a27a14a95bbc5a1963532" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>addFunc</name></member>
+      <member refid="classMR_1_1PythonExport_1a1ae0ff73c0d87a6c897bf89610cabb81" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>functions</name></member>
+      <member refid="classMR_1_1PythonExport_1abfb182152c405649c53c0c632868b0c2" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>instance</name></member>
+      <member refid="classMR_1_1PythonExport_1a2553f1d2794ce1fdfaa893e69cc64836" prot="private" virt="non-virtual"><scope>MR::PythonExport</scope><name>moduleData_</name></member>
+      <member refid="classMR_1_1PythonExport_1a67924d9cb7f431bc9894a456c513156f" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>modules</name></member>
+      <member refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>Priority</name></member>
+      <member refid="classMR_1_1PythonExport_1a2922335b87834109b7fd5dac2da8a898" prot="private" virt="non-virtual"><scope>MR::PythonExport</scope><name>PythonExport</name></member>
+      <member refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>PythonRegisterFuncton</name></member>
+      <member refid="classMR_1_1PythonExport_1a1105f4987df7b1b8d9d469115a831880" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>setInitFuncPtr</name></member>
+      <member refid="classMR_1_1PythonExport_1aeec7d003270fdcb4510389e4ac227562" prot="private" virt="non-virtual"><scope>MR::PythonExport</scope><name>~PythonExport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

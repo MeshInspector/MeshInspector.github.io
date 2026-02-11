@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetContourIndex" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetContourIndex</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContourIndex_1abe2ae2e51eb4ccead9bca5eb824e2f5d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContourIndex::_offsetof_contourId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_contourId</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex._offsetof_contourId</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41096" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContourIndex_1a4128660f941a59da5d230771fd848e66" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContourIndex::_offsetof_vertId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertId</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex._offsetof_vertId</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41097" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a03f2cacbf4dd55b3401e486f17d12e5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContourIndex.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41100" bodyend="41101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a2ae37a10b7115d575b7f1ef0652bfef6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition> OffsetContourIndex mrmeshpy.OffsetContourIndex.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41104" bodyend="41105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a2ae37a10b7115d575b7f1ef0652bfef6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition> OffsetContourIndex mrmeshpy.OffsetContourIndex.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41108" bodyend="41109"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a86ae0a7ec781856bf110242d202a8e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContourIndex.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41111" bodyend="41112"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a213c3af248977b2dca97166c4d5e4c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContourIndex.__init__</definition>
+        <argsstring>(self, OffsetContourIndex arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41114" bodyend="41117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1af5e36b447476b07a196dee32a298cdbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContourIndex.__init__</definition>
+        <argsstring>(self, int contourId, int vertId)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>contourId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41119" bodyend="41122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a506c7a79611584fdb115e5fb6b23c44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetContourIndex.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41123" bodyend="41124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1ab94a28f68e6e9380027519b83c28d425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContourIndex.contourId</definition>
+        <argsstring>(self)</argsstring>
+        <name>contourId</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.contourId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>-1 means unknown index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41126" bodyend="41129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a22ea697847fad3aa4e3193333900f07a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContourIndex.contourId</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>contourId</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.contourId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41131" bodyend="41132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a83d8a7fcc8e16d9d7dfef51c4fa5cb43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContourIndex.vertId</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertId</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.vertId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>-1 means unknown index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41134" bodyend="41137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContourIndex_1a38d72ba1ed412d043bc1104168f311f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContourIndex.vertId</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>vertId</name>
+        <qualifiedname>mrmeshpy.OffsetContourIndex.vertId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41139" bodyend="41140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OffsetContourIndex
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetContourIndex</label>
+        <link refid="classmrmeshpy_1_1OffsetContourIndex"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_contourId</edgelabel>
+          <edgelabel>_offsetof_vertId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41092" bodyend="41140"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a03f2cacbf4dd55b3401e486f17d12e5e" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a86ae0a7ec781856bf110242d202a8e68" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a213c3af248977b2dca97166c4d5e4c76" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1af5e36b447476b07a196dee32a298cdbf" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1abe2ae2e51eb4ccead9bca5eb824e2f5d" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>_offsetof_contourId</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a4128660f941a59da5d230771fd848e66" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>_offsetof_vertId</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1ab94a28f68e6e9380027519b83c28d425" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>contourId</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a22ea697847fad3aa4e3193333900f07a" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>contourId</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a2ae37a10b7115d575b7f1ef0652bfef6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a2ae37a10b7115d575b7f1ef0652bfef6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a506c7a79611584fdb115e5fb6b23c44b" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a83d8a7fcc8e16d9d7dfef51c4fa5cb43" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>vertId</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContourIndex_1a38d72ba1ed412d043bc1104168f311f9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContourIndex</scope><name>vertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

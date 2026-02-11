@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlanarTriangulation::IntersectionsMap</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a9e57510cc8b745dcfbbf6e04c6fba846" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::PlanarTriangulation::IntersectionsMap::shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionsMap::shift</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para>shift of index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="52" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a2c09afe7b89e565c7c7549b9cbabf2f0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1PlanarTriangulation_1a15dafb65753964c596e32bd173142aba" kindref="member">ContourIdMap</ref></type>
+        <definition>ContourIdMap MR::PlanarTriangulation::IntersectionsMap::map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionsMap::map</qualifiedname>
+        <briefdescription>
+<para>map[id-shift] = {lower intersection edge, upper intersection edge} </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="54" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>struct to map new vertices (only appear on intersections) of the outline to it&apos;s edges </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="50" bodyend="55"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a2c09afe7b89e565c7c7549b9cbabf2f0" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>map</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a9e57510cc8b745dcfbbf6e04c6fba846" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>shift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

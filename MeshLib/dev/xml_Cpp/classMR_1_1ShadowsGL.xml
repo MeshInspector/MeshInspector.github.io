@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ShadowsGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::ShadowsGL</compoundname>
+    <includes refid="MRShadowsGL_8h" local="no">MRShadowsGL.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1ab98bf8d9ab5f4a8ee99afa09be05ec3f" prot="private" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ShadowsGL::shadowShift_</definition>
+        <argsstring></argsstring>
+        <name>shadowShift_</name>
+        <qualifiedname>MR::ShadowsGL::shadowShift_</qualifiedname>
+        <initializer>= Vector2f( 0.0, 0.0 )</initializer>
+        <briefdescription>
+<para>shift in screen space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="42" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a039201a9c846ae2add0583c7e32f5c4b" prot="private" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::ShadowsGL::shadowColor_</definition>
+        <argsstring></argsstring>
+        <name>shadowColor_</name>
+        <qualifiedname>MR::ShadowsGL::shadowColor_</qualifiedname>
+        <initializer>= Vector4f( <ref refid="structMR_1_1Color_1a7a15e2053da20914d242d21eb1486f30" kindref="member">Color::yellow</ref>() )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="43" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a2d537aa3b471f8a601a2eceac4b2cb72" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ShadowsGL::blurRadius_</definition>
+        <argsstring></argsstring>
+        <name>blurRadius_</name>
+        <qualifiedname>MR::ShadowsGL::blurRadius_</qualifiedname>
+        <initializer>{ 40.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="44" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a28feee6b43b58046c1ed775c8328cddc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ShadowsGL::quality_</definition>
+        <argsstring></argsstring>
+        <name>quality_</name>
+        <qualifiedname>MR::ShadowsGL::quality_</qualifiedname>
+        <initializer>{ 0.25f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="46" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a9d2259da4db9c6e82f47711f9d991ae5" prot="private" static="no" mutable="no">
+        <type>boost::signals2::connection</type>
+        <definition>boost::signals2::connection MR::ShadowsGL::preDrawConnection_</definition>
+        <argsstring></argsstring>
+        <name>preDrawConnection_</name>
+        <qualifiedname>MR::ShadowsGL::preDrawConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="57" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a19d0519418eb5906b09f3fdefbcdb6fe" prot="private" static="no" mutable="no">
+        <type>boost::signals2::connection</type>
+        <definition>boost::signals2::connection MR::ShadowsGL::postDrawConnection_</definition>
+        <argsstring></argsstring>
+        <name>postDrawConnection_</name>
+        <qualifiedname>MR::ShadowsGL::postDrawConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="58" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a90e5033a6bcc4494adbd7421a55ed7e0" prot="private" static="no" mutable="no">
+        <type>boost::signals2::connection</type>
+        <definition>boost::signals2::connection MR::ShadowsGL::postResizeConnection_</definition>
+        <argsstring></argsstring>
+        <name>postResizeConnection_</name>
+        <qualifiedname>MR::ShadowsGL::postResizeConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="59" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a5357282c769752c656bd12228da222ca" prot="private" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::ShadowsGL::sceneSize_</definition>
+        <argsstring></argsstring>
+        <name>sceneSize_</name>
+        <qualifiedname>MR::ShadowsGL::sceneSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="61" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1ae93de5cb698e8ee6f0e13b2831bb5120" prot="private" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::ShadowsGL::lowSize_</definition>
+        <argsstring></argsstring>
+        <name>lowSize_</name>
+        <qualifiedname>MR::ShadowsGL::lowSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="62" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a05d183a9c55ce05998e6b82a207e28d4" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1QuadTextureVertexObject" kindref="compound">QuadTextureVertexObject</ref></type>
+        <definition>QuadTextureVertexObject MR::ShadowsGL::quadObject_</definition>
+        <argsstring></argsstring>
+        <name>quadObject_</name>
+        <qualifiedname>MR::ShadowsGL::quadObject_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="64" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1acd2e34d99fa9c15561564a2ed9a1abec" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1FramebufferData" kindref="compound">FramebufferData</ref></type>
+        <definition>FramebufferData MR::ShadowsGL::sceneFramebuffer_</definition>
+        <argsstring></argsstring>
+        <name>sceneFramebuffer_</name>
+        <qualifiedname>MR::ShadowsGL::sceneFramebuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="66" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a8a630feed4b5e16e5388d3dff5f6e515" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1FramebufferData" kindref="compound">FramebufferData</ref></type>
+        <definition>FramebufferData MR::ShadowsGL::lowSizeFramebuffer_</definition>
+        <argsstring></argsstring>
+        <name>lowSizeFramebuffer_</name>
+        <qualifiedname>MR::ShadowsGL::lowSizeFramebuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="67" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1ac683fcfed794f34445c1eb39ae01b771" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1FramebufferData" kindref="compound">FramebufferData</ref></type>
+        <definition>FramebufferData MR::ShadowsGL::convolutionXFramebuffer_</definition>
+        <argsstring></argsstring>
+        <name>convolutionXFramebuffer_</name>
+        <qualifiedname>MR::ShadowsGL::convolutionXFramebuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="68" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ShadowsGL_1a69f27dbbbbff85cba2122d43489d3621" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ShadowsGL::enabled_</definition>
+        <argsstring></argsstring>
+        <name>enabled_</name>
+        <qualifiedname>MR::ShadowsGL::enabled_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="70" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a41c74b52ccad8c211d2b8e3dc639e4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ShadowsGL::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(ShadowsGL)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::ShadowsGL::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ShadowsGL" kindref="compound">ShadowsGL</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="18" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a0fe291e46a58cddf57661fe94f5a2a47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::ShadowsGL::~ShadowsGL</definition>
+        <argsstring>()</argsstring>
+        <name>~ShadowsGL</name>
+        <qualifiedname>MR::ShadowsGL::~ShadowsGL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="19" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1aa49107de3327a7c3585b3d42b97fbfb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ShadowsGL::enable</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>enable</name>
+        <qualifiedname>MR::ShadowsGL::enable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>subscribe to viewer events on enable, unsubscribe on disable </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="22" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1afbfb18c734f6d41741dcdd84a9031e95" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ShadowsGL::isEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>isEnabled</name>
+        <qualifiedname>MR::ShadowsGL::isEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a37112847b6740a4ff382b4ea87a89fa9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Vector2f &amp;</type>
+        <definition>const Vector2f &amp; MR::ShadowsGL::getShadowShift</definition>
+        <argsstring>() const</argsstring>
+        <name>getShadowShift</name>
+        <qualifiedname>MR::ShadowsGL::getShadowShift</qualifiedname>
+        <briefdescription>
+<para>shift in screen space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="26" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a1f96229c0027acb80974fbeccb9fff4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ShadowsGL::setShadowShift</definition>
+        <argsstring>(const Vector2f &amp;shift)</argsstring>
+        <name>setShadowShift</name>
+        <qualifiedname>MR::ShadowsGL::setShadowShift</qualifiedname>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>shift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="27" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a04bd8703025b9a6312dff0a43be1c871" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Vector4f &amp;</type>
+        <definition>const Vector4f &amp; MR::ShadowsGL::getShadowColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getShadowColor</name>
+        <qualifiedname>MR::ShadowsGL::getShadowColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="29" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a9d6d931d3b779b456540569abbceb962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ShadowsGL::setShadowColor</definition>
+        <argsstring>(const Vector4f &amp;color)</argsstring>
+        <name>setShadowColor</name>
+        <qualifiedname>MR::ShadowsGL::setShadowColor</qualifiedname>
+        <param>
+          <type>const Vector4f &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="30" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1aab09524b5ecb1b890bfb298e7ce253ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ShadowsGL::getBlurRadius</definition>
+        <argsstring>() const</argsstring>
+        <name>getBlurRadius</name>
+        <qualifiedname>MR::ShadowsGL::getBlurRadius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="32" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a48bc9b48164b58c3865f8c4b80dfea15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ShadowsGL::setBlurRadius</definition>
+        <argsstring>(float radius)</argsstring>
+        <name>setBlurRadius</name>
+        <qualifiedname>MR::ShadowsGL::setBlurRadius</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="33" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a0f442b02859f8ff90f016b8bb644095a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ShadowsGL::getQuality</definition>
+        <argsstring>() const</argsstring>
+        <name>getQuality</name>
+        <qualifiedname>MR::ShadowsGL::getQuality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>value that describes blur quality, blur texture downscaling coefficient (0,1] 1 - is maximum quality, but it can affect performance on embedded systems 0.25 - recommended value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1af9db8ab9dcc3eb53d435f5c2da5425f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ShadowsGL::setQuality</definition>
+        <argsstring>(float quality)</argsstring>
+        <name>setQuality</name>
+        <qualifiedname>MR::ShadowsGL::setQuality</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="39" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a7a9865affab7f33bb5fdcd6147bc2432" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::preDraw_</definition>
+        <argsstring>()</argsstring>
+        <name>preDraw_</name>
+        <qualifiedname>MR::ShadowsGL::preDraw_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a450bc9a7825ef4cbd4ad5be29ac2ae43" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::postDraw_</definition>
+        <argsstring>()</argsstring>
+        <name>postDraw_</name>
+        <qualifiedname>MR::ShadowsGL::postDraw_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a816e9c2e952853be715efb4d64137812" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::postResize_</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>postResize_</name>
+        <qualifiedname>MR::ShadowsGL::postResize_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a7180a41bfe4290617bcd9719714b67a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::drawLowSize_</definition>
+        <argsstring>()</argsstring>
+        <name>drawLowSize_</name>
+        <qualifiedname>MR::ShadowsGL::drawLowSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1acbacb42835940ad7d977bfdb296757c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::convolveX_</definition>
+        <argsstring>()</argsstring>
+        <name>convolveX_</name>
+        <qualifiedname>MR::ShadowsGL::convolveX_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a11c673624ff01dac150fbf8f19b9f22e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::convolveY_</definition>
+        <argsstring>()</argsstring>
+        <name>convolveY_</name>
+        <qualifiedname>MR::ShadowsGL::convolveY_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1af19d7d45c062332fae1db2eea0abe889" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::drawShadow_</definition>
+        <argsstring>(bool convX)</argsstring>
+        <name>drawShadow_</name>
+        <qualifiedname>MR::ShadowsGL::drawShadow_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>convX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShadowsGL_1a4819d4cc62a7f6b5512217ecc0364419" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ShadowsGL::drawTexture_</definition>
+        <argsstring>(bool scene, bool downsample)</argsstring>
+        <name>drawTexture_</name>
+        <qualifiedname>MR::ShadowsGL::drawTexture_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>downsample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="55" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows do draw shadows for objects in scene draws scene into texture buffer, than make shadow from: draw shadow and than draw texture with scene </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="16" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ShadowsGL_1a2d537aa3b471f8a601a2eceac4b2cb72" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>blurRadius_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1ac683fcfed794f34445c1eb39ae01b771" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolutionXFramebuffer_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1acbacb42835940ad7d977bfdb296757c7" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolveX_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a11c673624ff01dac150fbf8f19b9f22e" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolveY_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a7180a41bfe4290617bcd9719714b67a4" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawLowSize_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1af19d7d45c062332fae1db2eea0abe889" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawShadow_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a4819d4cc62a7f6b5512217ecc0364419" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawTexture_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1aa49107de3327a7c3585b3d42b97fbfb1" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enable</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a69f27dbbbbff85cba2122d43489d3621" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enabled_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1aab09524b5ecb1b890bfb298e7ce253ab" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getBlurRadius</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a0f442b02859f8ff90f016b8bb644095a" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getQuality</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a04bd8703025b9a6312dff0a43be1c871" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getShadowColor</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a37112847b6740a4ff382b4ea87a89fa9" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getShadowShift</name></member>
+      <member refid="classMR_1_1ShadowsGL_1afbfb18c734f6d41741dcdd84a9031e95" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>isEnabled</name></member>
+      <member refid="classMR_1_1ShadowsGL_1ae93de5cb698e8ee6f0e13b2831bb5120" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>lowSize_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a8a630feed4b5e16e5388d3dff5f6e515" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>lowSizeFramebuffer_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a41c74b52ccad8c211d2b8e3dc639e4aa" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a450bc9a7825ef4cbd4ad5be29ac2ae43" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postDraw_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a19d0519418eb5906b09f3fdefbcdb6fe" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postDrawConnection_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a816e9c2e952853be715efb4d64137812" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postResize_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a90e5033a6bcc4494adbd7421a55ed7e0" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postResizeConnection_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a7a9865affab7f33bb5fdcd6147bc2432" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>preDraw_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a9d2259da4db9c6e82f47711f9d991ae5" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>preDrawConnection_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a05d183a9c55ce05998e6b82a207e28d4" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>quadObject_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a28feee6b43b58046c1ed775c8328cddc" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>quality_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1acd2e34d99fa9c15561564a2ed9a1abec" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>sceneFramebuffer_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a5357282c769752c656bd12228da222ca" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>sceneSize_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a48bc9b48164b58c3865f8c4b80dfea15" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setBlurRadius</name></member>
+      <member refid="classMR_1_1ShadowsGL_1af9db8ab9dcc3eb53d435f5c2da5425f0" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setQuality</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a9d6d931d3b779b456540569abbceb962" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowColor</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a1f96229c0027acb80974fbeccb9fff4d" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowShift</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a039201a9c846ae2add0583c7e32f5c4b" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowColor_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1ab98bf8d9ab5f4a8ee99afa09be05ec3f" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowShift_</name></member>
+      <member refid="classMR_1_1ShadowsGL_1a0fe291e46a58cddf57661fe94f5a2a47" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>~ShadowsGL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

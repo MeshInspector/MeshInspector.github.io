@@ -1,0 +1,1039 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Palette" kind="class" language="C++" prot="public">
+    <compoundname>MR::Palette</compoundname>
+    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <innerclass refid="structMR_1_1Palette_1_1Label" prot="public">MR::Palette::Label</innerclass>
+    <innerclass refid="structMR_1_1Palette_1_1Parameters" prot="public">MR::Palette::Parameters</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Palette_1aaa660bef4a51b8a0247fa7eafccfcfba" prot="public" static="yes" mutable="no">
+        <type>MRVIEWER_API const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>MRVIEWER_API const std::vector&lt;Color&gt; MR::Palette::DefaultColors</definition>
+        <argsstring></argsstring>
+        <name>DefaultColors</name>
+        <qualifiedname>MR::Palette::DefaultColors</qualifiedname>
+        <briefdescription>
+<para>preset palette colors: from blue via green to red </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="30" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1Palette_1a543277b2ce6f8d3148cfdd076ea9ff08" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Palette::drawDelayFrames_</definition>
+        <argsstring></argsstring>
+        <name>drawDelayFrames_</name>
+        <qualifiedname>MR::Palette::drawDelayFrames_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is called automatically by <computeroutput>getValidVerts()</computeroutput> and <computeroutput><ref refid="classMR_1_1Palette_1a4e8533e0a7c440a59618e0d78262570e" kindref="member">getUVcoords()</ref>, so usually you don&apos;t need to call this manually. / Call this after</computeroutput><ref refid="classMR_1_1Palette_1a7896773ea69981587644c20af439a0f4" kindref="member">setNumHistogramBuckets()</ref>`. MRVIEWER_API void updateStats( const VertScalars&amp; values, const VertBitSet&amp; region, const VertPredicate&amp; vertPredicate );</para>
+<para>/ Create uniform labels /</para>
+<para>creates labels for each color boundary (for a discrete palette) MRVIEWER_API std::vector&lt;Label&gt; createUniformLabels() const;</para>
+<para>struct <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> { / If this is empty, the histogram is disabled. std::vector&lt;int&gt; buckets; / The buckets for out-of-range elements. int beforeBucket = 0; int afterBucket = 0; / The sum of all values in <computeroutput>buckets</computeroutput> and <computeroutput>{low,high}Bucket</computeroutput>. int numEntries = 0; / The max value in <computeroutput>buckets</computeroutput> (but ignoring <computeroutput>{low,high}Bucket</computeroutput>). int maxEntry = 0;</para>
+<para>/ <computeroutput>reset()</computeroutput> sets this to true, and <computeroutput>finalize()</computeroutput> sets this to false. bool needsUpdate = true;</para>
+<para>MRVIEWER_API void reset(); MRVIEWER_API void addValue( float value ); / Call once after all <computeroutput>addValue()</computeroutput> calls. MRVIEWER_API void finalize(); };</para>
+<para>/ The normal histogram, if enabled (check with <computeroutput><ref refid="classMR_1_1Palette_1a6df9cc35fb5487a429976faa9595db65" kindref="member">isHistogramEnabled()</ref></computeroutput>). [[nodiscard]] const <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> &amp;getHistogramValues() { return histogram_; } / This one has the size matching <computeroutput><ref refid="classMR_1_1Palette_1a3cad2a58f4942e33d68b162a1f7fd2d5" kindref="member">getParameters()</ref>.discretization</computeroutput>. Only has meaningful values if enabled, check with <computeroutput><ref refid="classMR_1_1Palette_1a4d11ef17d4e0570ebe96390df4509bd2" kindref="member">isDiscretizationPercentagesEnabled()</ref></computeroutput>. [[nodiscard]] const <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> &amp;getDiscrHistogramValues() const { return histogramDiscr_; }</para>
+<para>/ <computeroutput><ref refid="classMR_1_1Palette_1a0e327c983c4976ba67d475ce981b76c8" kindref="member">draw()</ref></computeroutput> will do nothing the next time it&apos;s called this many times. / This function does <computeroutput>n = max(n, numFrames);</computeroutput>, it can never decrease <computeroutput>n</computeroutput>. MRVIEWER_API void setDrawDelayFrames( int numFrames );</para>
+<para>private: void setRangeLimits_( const std::vector&lt;float&gt;&amp; ranges );</para>
+<para>void updateDiscretizatedColors_(); <ref refid="structMR_1_1Color" kindref="compound">Color</ref> getBaseColor_( float val );</para>
+<para>/ What color we assume the pallete is drawn on top of. Typically should be the viewport background color. const <ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp; getBackgroundColor_() const;</para>
+<para>/ set labels with equal distance between void setUniformLabels_(); / make labels with equal distance between void makeUniformLabels_( std::vector&lt;Label&gt;&amp; labels ) const; / first label is equal to min value, last - to the max val / don&apos;t use with MinMaxNegPos mode void setZeroCentredLabels_();</para>
+<para>void updateCustomLabels_();</para>
+<para>void sortLabels_( std::vector&lt;Label&gt;&amp; labels ) const;</para>
+<para>void updateLegendLimits_( const MinMaxf&amp; limits ); void updateLegendLimitIndexes_();</para>
+<para>std::vector&lt;Label&gt; customLabels_; std::vector&lt;Label&gt; labels_; bool showLabels_ = false;</para>
+<para>/ Returns the adjusted label, or null if it should be skipped. /<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>onlyTopHalf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, draws only top half of the palette and labels stretched to whole window /</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>storage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>will sometimes be used as storage for the return value. Don&apos;t read <computeroutput>storage</computeroutput> directly after the call. You can pass any string, it&apos;ll be cleared. const char* getAdjustedLabelText_( std::size_t labelIndex, bool onlyTopHalf, std::string&amp; storage ) const;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+/ Computes the max label pixel width. float getMaxLabelWidth_( bool onlyTopHalf = false ) const;</para>
+<para>struct StyleVariables { / Top-left window padding. ImVec2 windowPaddingA; / Bottom-right window padding. ImVec2 windowPaddingB; / Spacing between the labels and the colored rect. float labelToColoredRectSpacing {}; / The min width of the colored rect. float minColoredRectWidth {}; }; StyleVariables getStyleVariables_( float scaling ) const;</para>
+<para>/ stores OpenGL textures. Change useDiscrete_ to switch between them <ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref> texture_;</para>
+<para>/ texture positions of min and max values float texStart_ = 0, texEnd_ = 1;</para>
+<para><ref refid="structMR_1_1Palette_1_1Parameters" kindref="compound">Parameters</ref> parameters_;</para>
+<para>bool isWindowOpen_ = false;</para>
+<para>bool useCustomLabels_ = false;</para>
+<para>int maxLabelCount_ = 0;</para>
+<para>float prevMaxLabelWidth_ = 0.0f;</para>
+<para>MinMaxi legendLimitIndexes_ = { 0, 7 }; MinMaxf relativeLimits_ = { 0.f, 1.f };</para>
+<para>/ This one is of a user-defined size. <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> histogram_;</para>
+<para>/ This one has size matching <computeroutput>parameters_.discretization</computeroutput>. <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> histogramDiscr_;</para>
+<para>/ Whether we should actually update <computeroutput>histogramDiscr_</computeroutput>. bool enableHistogramDiscr_ = false;</para>
+<para>/ If positive, <computeroutput><ref refid="classMR_1_1Palette_1a0e327c983c4976ba67d475ce981b76c8" kindref="member">draw()</ref></computeroutput> will do nothing the next time it&apos;s called this many times. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="310" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Palette_1ac69f97944a537d356ce690f83e509f65" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>static const std::vector&lt; Color &gt; &amp; MR::Palette::BlueGreenRedColors</definition>
+        <argsstring>()</argsstring>
+        <name>BlueGreenRedColors</name>
+        <qualifiedname>MR::Palette::BlueGreenRedColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="31" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a50926dd1bf08562983f3b26d745c961b" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>static MRVIEWER_API const std::vector&lt; Color &gt; &amp; MR::Palette::GreenRedColors</definition>
+        <argsstring>()</argsstring>
+        <name>GreenRedColors</name>
+        <qualifiedname>MR::Palette::GreenRedColors</qualifiedname>
+        <briefdescription>
+<para>simpler palette colors: from green to red </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="34" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1acc92fd7c8a6d16880c0bfcd6e76ab536" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API VertPredicate</type>
+        <definition>static MRVIEWER_API VertPredicate MR::Palette::predFromBitSet</definition>
+        <argsstring>(const VertBitSet *bits)</argsstring>
+        <name>predFromBitSet</name>
+        <qualifiedname>MR::Palette::predFromBitSet</qualifiedname>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If <computeroutput>bits</computeroutput> is non-zero, captures the pointer and returns a predicate that checks against this bitset. Otherwise returns null. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="133" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a1e4aa8e46a3709d8d7d4a228cde69c11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::Palette::resizeCallback_</definition>
+        <argsstring>(ImGuiSizeCallbackData *data)</argsstring>
+        <name>resizeCallback_</name>
+        <qualifiedname>MR::Palette::resizeCallback_</qualifiedname>
+        <param>
+          <type>ImGuiSizeCallbackData *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="312" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Palette_1a16b8a71ea5f75f665b1fa1c24368dba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::Palette::Palette</definition>
+        <argsstring>(const std::vector&lt; Color &gt; &amp;colors)</argsstring>
+        <name>Palette</name>
+        <qualifiedname>MR::Palette::Palette</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+          <declname>colors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="36" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1aee6fa3cea3a5b3449207a8a888addd49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setBaseColors</definition>
+        <argsstring>(const std::vector&lt; Color &gt; &amp;colors)</argsstring>
+        <name>setBaseColors</name>
+        <qualifiedname>MR::Palette::setBaseColors</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+          <declname>colors</declname>
+        </param>
+        <briefdescription>
+<para>Set base palette colors colors.size() should be more or equal 2 for discrete palette using vector of colors calculated by mixing the base colors i.e. base {blue, red} -&gt; discrete 3 {blue, 0.5*blue + 0.5*red, red}. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="43" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a7d6dd19e47f31c6e502113f4b413ff77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setRangeMinMax</definition>
+        <argsstring>(float min, float max)</argsstring>
+        <name>setRangeMinMax</name>
+        <qualifiedname>MR::Palette::setRangeMinMax</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>set range limits for palette (need for find color by value) all palette colors are evenly distributed between min and max </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="48" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1aa4516e9a134ac39f12c28ba08bc1b7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setRangeMinMaxNegPos</definition>
+        <argsstring>(float minNeg, float maxNeg, float minPos, float maxPos)</argsstring>
+        <name>setRangeMinMaxNegPos</name>
+        <qualifiedname>MR::Palette::setRangeMinMaxNegPos</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>minNeg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNeg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minPos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPos</declname>
+        </param>
+        <briefdescription>
+<para>set range limits for palette (need for find color by value) two half palette colors are evenly distributed between MinNeg / MaxNeg and MinPos / MaxPos for values between MaxNeg / MinPos return one color (from center palette) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="54" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a95993f62dda52bd555e9902cb0663a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setDiscretizationNumber</definition>
+        <argsstring>(int discretization)</argsstring>
+        <name>setDiscretizationNumber</name>
+        <qualifiedname>MR::Palette::setDiscretizationNumber</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>discretization</declname>
+        </param>
+        <briefdescription>
+<para>set number of different colors for discrete palette </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="57" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a1db62c44796f0e849665e352c9d02f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setFilterType</definition>
+        <argsstring>(FilterType type)</argsstring>
+        <name>setFilterType</name>
+        <qualifiedname>MR::Palette::setFilterType</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1a6b6dd7eadc1056fc5ffd8af1810d925a" kindref="member">FilterType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>set palette type (linear / discrete) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="59" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a0e327c983c4976ba67d475ce981b76c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::draw</definition>
+        <argsstring>(const std::string &amp;windowName, const ImVec2 &amp;pose, const ImVec2 &amp;size, bool onlyTopHalf=false)</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::Palette::draw</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>windowName</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>pose</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyTopHalf</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws vertical legend with labels in <ref refid="namespaceImGui" kindref="compound">ImGui</ref> window with given name Discrete: bar consists of single colored rectangles for each initial color Linear (default): color is changing from one to another during initial color list <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>onlyTopHalf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, draws only top half of the palette and labels stretched to whole window </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="65" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a342d665441236e2eced9976b08c7e025" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::draw</definition>
+        <argsstring>(ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;size, const Color &amp;labelBgColor, bool onlyTopHalf=false) const</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::Palette::draw</qualifiedname>
+        <param>
+          <type>ImDrawList *</type>
+          <declname>drawList</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>labelBgColor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyTopHalf</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws vertical legend with labels in existing window or scene Discrete: bar consists of single colored rectangles for each initial color Linear (default): color is changing from one to another during initial color list <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>onlyTopHalf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, draws only top half of the palette and labels stretched to whole window </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>labelBgColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>label background color </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="72" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a41bdb34995dc77edd7d35db3036db6c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::draw</definition>
+        <argsstring>(ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;size, bool onlyTopHalf=false) const</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::Palette::draw</qualifiedname>
+        <param>
+          <type>ImDrawList *</type>
+          <declname>drawList</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyTopHalf</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="73" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1ac45bdaf4d2808a25a9b6aa7739030f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::resetLabels</definition>
+        <argsstring>()</argsstring>
+        <name>resetLabels</name>
+        <qualifiedname>MR::Palette::resetLabels</qualifiedname>
+        <briefdescription>
+<para>reset labels to standard view </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="89" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a50944144ea783bb242d09a0601738ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setCustomLabels</definition>
+        <argsstring>(const std::vector&lt; Label &gt; &amp;labels)</argsstring>
+        <name>setCustomLabels</name>
+        <qualifiedname>MR::Palette::setCustomLabels</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Palette_1_1Label" kindref="compound">Label</ref> &gt; &amp;</type>
+          <declname>labels</declname>
+        </param>
+        <briefdescription>
+<para>set labels manually </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="91" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1ade857d7d072e37d2311598da53b2ae73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setLabelsVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>setLabelsVisible</name>
+        <qualifiedname>MR::Palette::setLabelsVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>set labels visible </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="93" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a1a549aec745f16e9336ae7fcf4271d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::Palette::loadFromJson</definition>
+        <argsstring>(const Json::Value &amp;root)</argsstring>
+        <name>loadFromJson</name>
+        <qualifiedname>MR::Palette::loadFromJson</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setup palette data from JsonValue <simplesect kind="return"><para>return true if loading successful </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="98" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a79ec1bbcff59caf42691d6cea60db1b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::saveCurrentToJson</definition>
+        <argsstring>(Json::Value &amp;root) const</argsstring>
+        <name>saveCurrentToJson</name>
+        <qualifiedname>MR::Palette::saveCurrentToJson</qualifiedname>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>Serialize this palette data to JsonValue. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="100" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a993b22e2c8c190cfe6473013283f6c04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>MRVIEWER_API Color MR::Palette::getColor</definition>
+        <argsstring>(float relativeValue) const</argsstring>
+        <name>getColor</name>
+        <qualifiedname>MR::Palette::getColor</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>relativeValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return color according relative value and setting filter type <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>relativeValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- value scaled from ragne [min, max] to [0; 1] Discrete: returns color for given value Linear: get interpolated color from the init vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="107" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1ae4429356ab627f21dea626ec383a24fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::Palette::getInvalidColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getInvalidColor</name>
+        <qualifiedname>MR::Palette::getInvalidColor</qualifiedname>
+        <briefdescription>
+<para>return invalid color </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1ae63655ed30c3149a56edf240748a9f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API VertColors</type>
+        <definition>MRVIEWER_API VertColors MR::Palette::getVertColors</definition>
+        <argsstring>(const VertScalars &amp;values, const VertBitSet &amp;region, const VertBitSet *valids, const VertBitSet *validsForStats)</argsstring>
+        <name>getVertColors</name>
+        <qualifiedname>MR::Palette::getVertColors</qualifiedname>
+        <param>
+          <type>const VertScalars &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>valids</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>validsForStats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get colors for given vert value <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>only these vertices will be processed </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valids</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given then defines subregion with valid values, and invalid values will get gray color </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="114" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a10dfbdae3b19c43baa0235a41667e4a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref> &amp;</type>
+        <definition>const MeshTexture &amp; MR::Palette::getTexture</definition>
+        <argsstring>() const</argsstring>
+        <name>getTexture</name>
+        <qualifiedname>MR::Palette::getTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="116" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a0713134025e93fe779411c27b522ce50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::Palette::getRelativePos</definition>
+        <argsstring>(float val) const</argsstring>
+        <name>getRelativePos</name>
+        <qualifiedname>MR::Palette::getRelativePos</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>get relative position in [0,1], where 0 is for minimum and 1 is for maximum </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="119" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1adccdea8021d31637354ec45f848bb7a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1a6f8b9797e8968735a685a81d8a6064d6" kindref="member">UVCoord</ref></type>
+        <definition>UVCoord MR::Palette::getUVcoord</definition>
+        <argsstring>(float val, bool valid=true) const</argsstring>
+        <name>getUVcoord</name>
+        <qualifiedname>MR::Palette::getUVcoord</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>valid</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get UV coordinate in palette for given value <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true - return coordinate of palette&apos;s color, false - return coordinate of gray </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="123" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="123" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a4e8533e0a7c440a59618e0d78262570e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API VertUVCoords</type>
+        <definition>MRVIEWER_API VertUVCoords MR::Palette::getUVcoords</definition>
+        <argsstring>(const VertScalars &amp;values, const VertBitSet &amp;region, const VertPredicate &amp;valids={}, const VertPredicate &amp;validsForStats={})</argsstring>
+        <name>getUVcoords</name>
+        <qualifiedname>MR::Palette::getUVcoords</qualifiedname>
+        <param>
+          <type>const VertScalars &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const VertPredicate &amp;</type>
+          <declname>valids</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const VertPredicate &amp;</type>
+          <declname>validsForStats</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get UV coordinates in palette for given values <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>only these vertices will be processed </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valids</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given then defines subregion with valid values, and invalid values will get gray color </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>validsIfHistogram</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If specified, replaces <computeroutput>valids</computeroutput> for the purposes of creating the histogram and computing the percentages of vertices in different discretization steps. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="139" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1ab242ee951ea58ca0e4a9312253bf3184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VertUVCoords</type>
+        <definition>VertUVCoords MR::Palette::getUVcoords</definition>
+        <argsstring>(const VertScalars &amp;values, const VertBitSet &amp;region, const VertBitSet *valids, const VertBitSet *validsForStats=nullptr)</argsstring>
+        <name>getUVcoords</name>
+        <qualifiedname>MR::Palette::getUVcoords</qualifiedname>
+        <param>
+          <type>const VertScalars &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>valids</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>validsForStats</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="141" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a3cad2a58f4942e33d68b162a1f7fd2d5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Palette_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
+        <definition>const Parameters &amp; MR::Palette::getParameters</definition>
+        <argsstring>() const</argsstring>
+        <name>getParameters</name>
+        <qualifiedname>MR::Palette::getParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a6c9a23975c5ee94598c7710c0812415b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Palette::getRangeMin</definition>
+        <argsstring>() const</argsstring>
+        <name>getRangeMin</name>
+        <qualifiedname>MR::Palette::getRangeMin</qualifiedname>
+        <briefdescription>
+<para>returns minimum value in the palette&apos;s range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="158" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1ac4e7906af8dbc34bddc17c0e1e7878a9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Palette::getRangeMax</definition>
+        <argsstring>() const</argsstring>
+        <name>getRangeMax</name>
+        <qualifiedname>MR::Palette::getRangeMax</qualifiedname>
+        <briefdescription>
+<para>returns maximum value in the palette&apos;s range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="161" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a0f6bd2b1af38efa4b6e8ef7206071a6f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Palette::getRangeSq</definition>
+        <argsstring>() const</argsstring>
+        <name>getRangeSq</name>
+        <qualifiedname>MR::Palette::getRangeSq</qualifiedname>
+        <briefdescription>
+<para>returns minimum squared value, not smaller than all squared values of palette&apos;s range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="164" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1aeb6af41eb56a4e97b810798d655510dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::string</type>
+        <definition>MRVIEWER_API std::string MR::Palette::getStringValue</definition>
+        <argsstring>(float value) const</argsstring>
+        <name>getStringValue</name>
+        <qualifiedname>MR::Palette::getStringValue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>returns formated string for this value of palette </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="167" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a10a9188c6a6137b814291dc2e1d2073a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::Palette::getMaxLabelCount</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxLabelCount</name>
+        <qualifiedname>MR::Palette::getMaxLabelCount</qualifiedname>
+        <briefdescription>
+<para>returns maximal label count </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="169" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a72d1c43c3aad43836eb3c088ae61e428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setMaxLabelCount</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setMaxLabelCount</name>
+        <qualifiedname>MR::Palette::setMaxLabelCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets maximal label count </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="171" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a55fe096aec459b2721c9b619f977f4b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setLegendLimits</definition>
+        <argsstring>(const MinMaxf &amp;limits)</argsstring>
+        <name>setLegendLimits</name>
+        <qualifiedname>MR::Palette::setLegendLimits</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a2bd3b23d498c69cd04c544b6c7068f3a" kindref="member">MinMaxf</ref> &amp;</type>
+          <declname>limits</declname>
+        </param>
+        <briefdescription>
+<para>set legend limits. if min &gt; max - limits are disabled </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="174" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a6df9cc35fb5487a429976faa9595db65" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Palette::isHistogramEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>isHistogramEnabled</name>
+        <qualifiedname>MR::Palette::isHistogramEnabled</qualifiedname>
+        <briefdescription>
+<para><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref>: </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a17a77a955a9bb1de3a362b7d9867afb4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::Palette::getNumHistogramBuckets</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumHistogramBuckets</name>
+        <qualifiedname>MR::Palette::getNumHistogramBuckets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="180" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a7896773ea69981587644c20af439a0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Palette::setNumHistogramBuckets</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setNumHistogramBuckets</name>
+        <qualifiedname>MR::Palette::setNumHistogramBuckets</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pass zero to disable the histogram. Pass <computeroutput><ref refid="classMR_1_1Palette_1a9118290947382258ebf670ae4ed5db23" kindref="member">getDefaultNumHistogramBuckets()</ref></computeroutput> or any other number to enable it. This should probably be odd, to have a bucket for zero in the middle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="183" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a9118290947382258ebf670ae4ed5db23" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::Palette::getDefaultNumHistogramBuckets</definition>
+        <argsstring>() const</argsstring>
+        <name>getDefaultNumHistogramBuckets</name>
+        <qualifiedname>MR::Palette::getDefaultNumHistogramBuckets</qualifiedname>
+        <briefdescription>
+<para>Returns the recommended argument for <computeroutput><ref refid="classMR_1_1Palette_1a7896773ea69981587644c20af439a0f4" kindref="member">setNumHistogramBuckets()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="185" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a4d11ef17d4e0570ebe96390df4509bd2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Palette::isDiscretizationPercentagesEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>isDiscretizationPercentagesEnabled</name>
+        <qualifiedname>MR::Palette::isDiscretizationPercentagesEnabled</qualifiedname>
+        <briefdescription>
+<para>Should we maintain the percentages of distances in each discretization step? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="189" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Palette_1a70655aa3bd1218427ca2534cb2fc1ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Palette::enableDiscretizationPercentages</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>enableDiscretizationPercentages</name>
+        <qualifiedname>MR::Palette::enableDiscretizationPercentages</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="190" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="190" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class to hold one dimension texture with value to UV mapping. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Discrete mode will draw rectangle for each color Continuous mode will draw interpolated color </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="27" bodyend="313"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Palette_1ac69f97944a537d356ce690f83e509f65" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>BlueGreenRedColors</name></member>
+      <member refid="classMR_1_1Palette_1aaa660bef4a51b8a0247fa7eafccfcfba" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>DefaultColors</name></member>
+      <member refid="classMR_1_1Palette_1a0e327c983c4976ba67d475ce981b76c8" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>draw</name></member>
+      <member refid="classMR_1_1Palette_1a342d665441236e2eced9976b08c7e025" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>draw</name></member>
+      <member refid="classMR_1_1Palette_1a41bdb34995dc77edd7d35db3036db6c4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>draw</name></member>
+      <member refid="classMR_1_1Palette_1a543277b2ce6f8d3148cfdd076ea9ff08" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>drawDelayFrames_</name></member>
+      <member refid="classMR_1_1Palette_1a70655aa3bd1218427ca2534cb2fc1ddc" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>enableDiscretizationPercentages</name></member>
+      <member refid="classMR_1_1Palette_1a993b22e2c8c190cfe6473013283f6c04" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getColor</name></member>
+      <member refid="classMR_1_1Palette_1a9118290947382258ebf670ae4ed5db23" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getDefaultNumHistogramBuckets</name></member>
+      <member refid="classMR_1_1Palette_1ae4429356ab627f21dea626ec383a24fa" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getInvalidColor</name></member>
+      <member refid="classMR_1_1Palette_1a10a9188c6a6137b814291dc2e1d2073a" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getMaxLabelCount</name></member>
+      <member refid="classMR_1_1Palette_1a17a77a955a9bb1de3a362b7d9867afb4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getNumHistogramBuckets</name></member>
+      <member refid="classMR_1_1Palette_1a3cad2a58f4942e33d68b162a1f7fd2d5" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getParameters</name></member>
+      <member refid="classMR_1_1Palette_1ac4e7906af8dbc34bddc17c0e1e7878a9" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRangeMax</name></member>
+      <member refid="classMR_1_1Palette_1a6c9a23975c5ee94598c7710c0812415b" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRangeMin</name></member>
+      <member refid="classMR_1_1Palette_1a0f6bd2b1af38efa4b6e8ef7206071a6f" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRangeSq</name></member>
+      <member refid="classMR_1_1Palette_1a0713134025e93fe779411c27b522ce50" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRelativePos</name></member>
+      <member refid="classMR_1_1Palette_1aeb6af41eb56a4e97b810798d655510dc" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getStringValue</name></member>
+      <member refid="classMR_1_1Palette_1a10dfbdae3b19c43baa0235a41667e4a4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getTexture</name></member>
+      <member refid="classMR_1_1Palette_1adccdea8021d31637354ec45f848bb7a3" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getUVcoord</name></member>
+      <member refid="classMR_1_1Palette_1a4e8533e0a7c440a59618e0d78262570e" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getUVcoords</name></member>
+      <member refid="classMR_1_1Palette_1ab242ee951ea58ca0e4a9312253bf3184" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getUVcoords</name></member>
+      <member refid="classMR_1_1Palette_1ae63655ed30c3149a56edf240748a9f4e" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getVertColors</name></member>
+      <member refid="classMR_1_1Palette_1a50926dd1bf08562983f3b26d745c961b" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>GreenRedColors</name></member>
+      <member refid="classMR_1_1Palette_1a4d11ef17d4e0570ebe96390df4509bd2" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>isDiscretizationPercentagesEnabled</name></member>
+      <member refid="classMR_1_1Palette_1a6df9cc35fb5487a429976faa9595db65" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>isHistogramEnabled</name></member>
+      <member refid="classMR_1_1Palette_1a1a549aec745f16e9336ae7fcf4271d88" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>loadFromJson</name></member>
+      <member refid="classMR_1_1Palette_1a16b8a71ea5f75f665b1fa1c24368dba3" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>Palette</name></member>
+      <member refid="classMR_1_1Palette_1acc92fd7c8a6d16880c0bfcd6e76ab536" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>predFromBitSet</name></member>
+      <member refid="classMR_1_1Palette_1ac45bdaf4d2808a25a9b6aa7739030f56" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>resetLabels</name></member>
+      <member refid="classMR_1_1Palette_1a1e4aa8e46a3709d8d7d4a228cde69c11" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>resizeCallback_</name></member>
+      <member refid="classMR_1_1Palette_1a79ec1bbcff59caf42691d6cea60db1b7" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>saveCurrentToJson</name></member>
+      <member refid="classMR_1_1Palette_1aee6fa3cea3a5b3449207a8a888addd49" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setBaseColors</name></member>
+      <member refid="classMR_1_1Palette_1a50944144ea783bb242d09a0601738ace" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setCustomLabels</name></member>
+      <member refid="classMR_1_1Palette_1a95993f62dda52bd555e9902cb0663a68" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setDiscretizationNumber</name></member>
+      <member refid="classMR_1_1Palette_1a1db62c44796f0e849665e352c9d02f61" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setFilterType</name></member>
+      <member refid="classMR_1_1Palette_1ade857d7d072e37d2311598da53b2ae73" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setLabelsVisible</name></member>
+      <member refid="classMR_1_1Palette_1a55fe096aec459b2721c9b619f977f4b2" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setLegendLimits</name></member>
+      <member refid="classMR_1_1Palette_1a72d1c43c3aad43836eb3c088ae61e428" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setMaxLabelCount</name></member>
+      <member refid="classMR_1_1Palette_1a7896773ea69981587644c20af439a0f4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setNumHistogramBuckets</name></member>
+      <member refid="classMR_1_1Palette_1a7d6dd19e47f31c6e502113f4b413ff77" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setRangeMinMax</name></member>
+      <member refid="classMR_1_1Palette_1aa4516e9a134ac39f12c28ba08bc1b7e8" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setRangeMinMaxNegPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

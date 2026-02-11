@@ -1,0 +1,1439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FeatureObject" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::FeatureObject</compoundname>
+    <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::length &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1LineObject" prot="public" virt="non-virtual">MR::LineObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PlaneObject" prot="public" virt="non-virtual">MR::PlaneObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PointObject" prot="public" virt="non-virtual">MR::PointObject</derivedcompoundref>
+    <includes refid="MRFeatureObject_8h" local="no">MRFeatureObject.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1abd213076dcde954e6f1f26d06fa6d2fa" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::FeatureObject::subfeatureVisibility_</definition>
+        <argsstring></argsstring>
+        <name>subfeatureVisibility_</name>
+        <qualifiedname>MR::FeatureObject::subfeatureVisibility_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="168" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1ac252edfceb31c314bc08c0ba5fac11b3" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::FeatureObject::detailsOnNameTag_</definition>
+        <argsstring></argsstring>
+        <name>detailsOnNameTag_</name>
+        <qualifiedname>MR::FeatureObject::detailsOnNameTag_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="169" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1aced598f63c94fa32b11e140c3aec72fa" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; Matrix3f &gt;</type>
+        <definition>ViewportProperty&lt;Matrix3f&gt; MR::FeatureObject::r_</definition>
+        <argsstring></argsstring>
+        <name>r_</name>
+        <qualifiedname>MR::FeatureObject::r_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decomposition of the transformation matrix xf.A into a rotation and scaling matrix.Updated automatically in the <ref refid="classMR_1_1FeatureObject_1a29cbd04bca216b622c6526ea818d86cb" kindref="member">setXf()</ref> method This cache need for fast calculation of feature properties w/o expensive transformation matrix QR decomposition. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="173" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1ab1290c5fd9953439f5f8416adcd4ab38" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; Matrix3f &gt;</type>
+        <definition>ViewportProperty&lt;Matrix3f&gt; MR::FeatureObject::s_</definition>
+        <argsstring></argsstring>
+        <name>s_</name>
+        <qualifiedname>MR::FeatureObject::s_</qualifiedname>
+        <briefdescription>
+<para>rotation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="174" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1a1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;, 2 &gt;</type>
+        <definition>std::array&lt;ViewportProperty&lt;Color&gt;, 2&gt; MR::FeatureObject::decorationsColor_</definition>
+        <argsstring></argsstring>
+        <name>decorationsColor_</name>
+        <qualifiedname>MR::FeatureObject::decorationsColor_</qualifiedname>
+        <briefdescription>
+<para>scale </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is used for subfeatures. The index is for <computeroutput><ref refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" kindref="member">isSelected()</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="177" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1ad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::pointSize_</definition>
+        <argsstring></argsstring>
+        <name>pointSize_</name>
+        <qualifiedname>MR::FeatureObject::pointSize_</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>Those apply only to some features: </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Point size and line width, for primary rendering rather than subfeatures. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="182" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1a3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::lineWidth_</definition>
+        <argsstring></argsstring>
+        <name>lineWidth_</name>
+        <qualifiedname>MR::FeatureObject::lineWidth_</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="183" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1a361a7ce85014e2c6232445612aa34c60" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::subPointSize_</definition>
+        <argsstring></argsstring>
+        <name>subPointSize_</name>
+        <qualifiedname>MR::FeatureObject::subPointSize_</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>Point size and line width, for subfeatures rather than primary rendering. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="186" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1ac8ea614a47b17098054cd1859b24f70c" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::subLineWidth_</definition>
+        <argsstring></argsstring>
+        <name>subLineWidth_</name>
+        <qualifiedname>MR::FeatureObject::subLineWidth_</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="187" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1a51043725ded5e5baa3695f7a0b95f4ff" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::mainFeatureAlpha_</definition>
+        <argsstring></argsstring>
+        <name>mainFeatureAlpha_</name>
+        <qualifiedname>MR::FeatureObject::mainFeatureAlpha_</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>Per-component alpha multipliers. The global alpha is multiplied by thise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="190" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1ad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::subAlphaPoints_</definition>
+        <argsstring></argsstring>
+        <name>subAlphaPoints_</name>
+        <qualifiedname>MR::FeatureObject::subAlphaPoints_</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="191" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1ae9eae47d979450ea334ee34d89bd931e" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::subAlphaLines_</definition>
+        <argsstring></argsstring>
+        <name>subAlphaLines_</name>
+        <qualifiedname>MR::FeatureObject::subAlphaLines_</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="192" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FeatureObject_1aee2b783554996a1934193cd74d782dbf" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FeatureObject::subAlphaMesh_</definition>
+        <argsstring></argsstring>
+        <name>subAlphaMesh_</name>
+        <qualifiedname>MR::FeatureObject::subAlphaMesh_</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="193" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a62768ed0a589fb3f6a1cf4f8f429b4b8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static constexpr const char * MR::FeatureObject::StaticTypeName</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>MR::FeatureObject::StaticTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="95" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ac2bd99e374a0de7542c00533e8b6c2a0" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static constexpr const char * MR::FeatureObject::StaticClassName</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>MR::FeatureObject::StaticClassName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="98" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a001841653b1a522e6fcf188a2d80d0f8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static constexpr const char * MR::FeatureObject::StaticClassNameInPlural</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>MR::FeatureObject::StaticClassNameInPlural</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="101" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a45535da24d737a00a9262dd1fbe8525f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * MR::FeatureObject::typeName</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR::FeatureObject::typeName</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
+        <reimplementedby refid="classMR_1_1CircleObject_1a7dd05445d9524f457b174b86526f7917">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1ConeObject_1a907b47dc446af6c29603325828130005">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1CylinderObject_1a51bf3dd6a9699a55576c099b57d39990">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1LineObject_1afe5e0bae23cb23a4485ddd95a2cb16ca">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1a49f838bc215720ee037d22734a7cc987">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointObject_1af0d333f53e5214cef1fed176a67585a3">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1SphereObject_1a3fe2e258e75828338f7c6f90cd70b09e">typeName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="96" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a9d50ec94a6a058376bf8e02827f5121c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::FeatureObject::className</definition>
+        <argsstring>() const override</argsstring>
+        <name>className</name>
+        <qualifiedname>MR::FeatureObject::className</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08">className</reimplements>
+        <reimplementedby refid="classMR_1_1CircleObject_1a991beec8b2a8e873d3c1325a07e90050">className</reimplementedby>
+        <reimplementedby refid="classMR_1_1ConeObject_1a3cfa63d59fc70663772e67762abdd3a0">className</reimplementedby>
+        <reimplementedby refid="classMR_1_1CylinderObject_1a7849ae40e1bbec939b323878b4c5697a">className</reimplementedby>
+        <reimplementedby refid="classMR_1_1LineObject_1a44ca95a2452204b8e1b876b5ec08bac6">className</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1a98b7c1739d2de8f0ac5e63dda69aa51a">className</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointObject_1a909db6f8e5efa3ddf0efa68e104ca751">className</reimplementedby>
+        <reimplementedby refid="classMR_1_1SphereObject_1ad57d28fe2b4725637d8d33cf7e113f18">className</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="99" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a873cf4c43be4dfcce9768ae68ad3ae44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::FeatureObject::classNameInPlural</definition>
+        <argsstring>() const override</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR::FeatureObject::classNameInPlural</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7">classNameInPlural</reimplements>
+        <reimplementedby refid="classMR_1_1CircleObject_1aa13f61ce686ebbd95f164568642be551">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classMR_1_1ConeObject_1aa4c317887a4c55672bcca1fa1534b2b7">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classMR_1_1CylinderObject_1ae3e5d192041a079d62a7e67b0e9eaa52">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classMR_1_1LineObject_1aabcbd98619f36f8d3a704ec1cd0c52ab">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1abb12c84edcc027ddd9f16410a1440744">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointObject_1a3a456c548afa275a1449d71e800dc5e2">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classMR_1_1SphereObject_1a097e487aba59a6996fc2b21658af0fd2">classNameInPlural</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="102" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a67f4c8131f16d91de68c6ac590d31fa4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::vector&lt; <ref refid="structMR_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref> &gt; &amp;</type>
+        <definition>virtual const std::vector&lt; FeatureObjectSharedProperty &gt; &amp; MR::FeatureObject::getAllSharedProperties</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>MR::FeatureObject::getAllSharedProperties</qualifiedname>
+        <reimplementedby refid="classMR_1_1CircleObject_1a96496ee95759ab735c258bd759a95719">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classMR_1_1ConeObject_1a9f478343ae57720fcf7c3c78f01011c4">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classMR_1_1CylinderObject_1a326ffd8733d424beefe54194841a3f47">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classMR_1_1LineObject_1af5103fab67c0756c33a92cc84aa629ec">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1a24f8b27c6d0022718676df94dce0d36e">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointObject_1a9e2e061a111ddbe853c098d2fd55f750">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classMR_1_1SphereObject_1acce34bc20a869d63c5301aec1204533e">getAllSharedProperties</reimplementedby>
+        <briefdescription>
+<para>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="105" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa371d414660e743cb7ffe960edbd7f7b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::FeatureObject::supportsVisualizeProperty</definition>
+        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR::FeatureObject::supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966">supportsVisualizeProperty</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="107" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a023edd409ca58f579708564c89b70ac4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
+        <definition>MRMESH_API AllVisualizeProperties MR::FeatureObject::getAllVisualizeProperties</definition>
+        <argsstring>() const override</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR::FeatureObject::getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d">getAllVisualizeProperties</reimplements>
+        <briefdescription>
+<para>get all visualize properties masks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="108" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a10e19e3693a5f3a1e46ff0a9539f211e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
+        <definition>MRMESH_API const ViewportMask &amp; MR::FeatureObject::getVisualizePropertyMask</definition>
+        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR::FeatureObject::getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee">getVisualizePropertyMask</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="109" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1accfacb42ebe37f4692a510c02fa02fca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::FeatureObject::serializeFields_</definition>
+        <argsstring>(Json::Value &amp;root) const override</argsstring>
+        <name>serializeFields_</name>
+        <qualifiedname>MR::FeatureObject::serializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
+        <reimplementedby refid="classMR_1_1LineObject_1a70dc397b963d30654e48c48ef0dbc910">serializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1a5758ae41f2198f2a1bbfb3004a14fd4d">serializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointObject_1aeb16ff07a3bf800cb981d3d78a999a0d">serializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1SphereObject_1aad300c4270da25b21556235725b4b8c3">serializeFields_</reimplementedby>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="111" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::FeatureObject::deserializeFields_</definition>
+        <argsstring>(const Json::Value &amp;root) override</argsstring>
+        <name>deserializeFields_</name>
+        <qualifiedname>MR::FeatureObject::deserializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="112" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ad59d121c1a25c1218815462882d6bf8b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="structMR_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition>virtual FeatureObjectProjectPointResult MR::FeatureObject::projectPoint</definition>
+        <argsstring>(const Vector3f &amp;point, ViewportId id={}) const =0</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR::FeatureObject::projectPoint</qualifiedname>
+        <reimplementedby refid="classMR_1_1CircleObject_1a04d619d722a2253079706d64e5c9ef70">projectPoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1ConeObject_1ae6cc2d16f39a5d0cb5a6cc9535843b84">projectPoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1CylinderObject_1aa240c28d57cb4b047afc1d454d81ac1a">projectPoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1LineObject_1a9fca667f6075eb37172033584ecd5dd7">projectPoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1ac98d0d88cdcb00df8c1f9846e73b48d6">projectPoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointObject_1a06050ab20411667b9ec0718bd29b8047">projectPoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1SphereObject_1a6855908d00df90d26fda3844b6a422df">projectPoint</reimplementedby>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Since a point on an abstract feature is difficult to uniquely parameterize, the projection function simultaneously returns the normal to the surface at the projection point. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="117" column="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ae682c2765f3ef072c5552729523be1fa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; Vector3f &gt;</type>
+        <definition>MRMESH_API std::optional&lt; Vector3f &gt; MR::FeatureObject::getNormal</definition>
+        <argsstring>(const Vector3f &amp;point) const</argsstring>
+        <name>getNormal</name>
+        <qualifiedname>MR::FeatureObject::getNormal</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="118" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a29cbd04bca216b622c6526ea818d86cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::FeatureObject::setXf</definition>
+        <argsstring>(const AffineXf3f &amp;xf, ViewportId id={}) override</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR::FeatureObject::setXf</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e">setXf</reimplements>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="120" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ab59d5f621e961a8874c5176e4b4ab355" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::FeatureObject::resetXf</definition>
+        <argsstring>(ViewportId id={}) override</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR::FeatureObject::resetXf</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6">resetXf</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>forgets specific transform in given viewport (or forgets all specific transforms for {} input) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="121" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a9156046dada7ff2cd440abcec27fa98b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <definition>virtual MRMESH_API Vector3f MR::FeatureObject::getBasePoint</definition>
+        <argsstring>(ViewportId id={}) const</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>MR::FeatureObject::getBasePoint</qualifiedname>
+        <reimplementedby refid="classMR_1_1ConeObject_1a03cbbb3c2194467c85bf870c09f08e72">getBasePoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1CylinderObject_1aa11a33a292eebe7910f992da9e93a089">getBasePoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1LineObject_1ad98fd6479ccf7baec6d3bf47dcdc93d3">getBasePoint</reimplementedby>
+        <reimplementedby refid="classMR_1_1PlaneObject_1afdd7cf68a88b16d914629c4ea468470c">getBasePoint</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Returns point considered as base for the feature. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="124" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a9b258943b501bd224607d6a5a8a5fc8a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix3f</type>
+        <definition>Matrix3f MR::FeatureObject::getRotationMatrix</definition>
+        <argsstring>(ViewportId id={}, bool *isDef=nullptr) const</argsstring>
+        <name>getRotationMatrix</name>
+        <qualifiedname>MR::FeatureObject::getRotationMatrix</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>isDef</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The cached orthonormalized rotation matrix. <computeroutput>isDef</computeroutput> receives false if matrix is overridden for this specific viewport. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="128" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a4812ae385ef5a66bbcc0779f54025502" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix3f</type>
+        <definition>Matrix3f MR::FeatureObject::getScaleShearMatrix</definition>
+        <argsstring>(ViewportId id={}, bool *isDef=nullptr) const</argsstring>
+        <name>getScaleShearMatrix</name>
+        <qualifiedname>MR::FeatureObject::getScaleShearMatrix</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>isDef</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The cached scale and shear matrix. The main diagnoal stores the scale, and some other elements store the shearing. <computeroutput>isDef</computeroutput> receives false if matrix is overridden for this specific viewport. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="131" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1afa41398b2369e2bbe90b107c3de0bbe6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <definition>MRMESH_API const Color &amp; MR::FeatureObject::getDecorationsColor</definition>
+        <argsstring>(bool selected, ViewportId viewportId={}, bool *isDef=nullptr) const</argsstring>
+        <name>getDecorationsColor</name>
+        <qualifiedname>MR::FeatureObject::getDecorationsColor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>isDef</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This color is used for subfeatures. <computeroutput>isDef</computeroutput> receives false if matrix is overridden for this specific viewport. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="135" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a40915fb0e5451adfd6f78c69047664a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setDecorationsColor</definition>
+        <argsstring>(const Color &amp;color, bool selected, ViewportId viewportId={})</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR::FeatureObject::setDecorationsColor</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="136" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a38e30bc9c390d73d9e302ef1e6f6238f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>virtual MRMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::FeatureObject::getDecorationsColorForAllViewports</definition>
+        <argsstring>(bool selected) const</argsstring>
+        <name>getDecorationsColorForAllViewports</name>
+        <qualifiedname>MR::FeatureObject::getDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="137" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1abedf621fc54044d44c55d0a494edc86c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setDecorationsColorForAllViewports</definition>
+        <argsstring>(ViewportProperty&lt; Color &gt; val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR::FeatureObject::setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="138" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a17576a887b5a637765fb98d40ed7f097" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getPointSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR::FeatureObject::getPointSize</qualifiedname>
+        <briefdescription>
+<para>Point size and line width, for primary rendering rather than subfeatures. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="141" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getLineWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>MR::FeatureObject::getLineWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="142" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a84e601e7bc1ee93ea6ec700eb616548f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR::FeatureObject::setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="143" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a1db924c7ae13b6068667a75a0f74ba50" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR::FeatureObject::setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="144" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a3866d143290905194a7c4e8da338c253" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getSubfeaturePointSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getSubfeaturePointSize</name>
+        <qualifiedname>MR::FeatureObject::getSubfeaturePointSize</qualifiedname>
+        <briefdescription>
+<para>Point size and line width, for subfeatures rather than primary rendering. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="147" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ab8151a43482e95baea8f44d1a94bc61d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getSubfeatureLineWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getSubfeatureLineWidth</name>
+        <qualifiedname>MR::FeatureObject::getSubfeatureLineWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="148" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ad4ff45224612c828ae56427661a0f00e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR::FeatureObject::setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="149" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1af90cf28a65ce4f4698111d77e6e39a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR::FeatureObject::setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="150" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a0ebee580bd79fb6dbee2bd1292b93b50" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getMainFeatureAlpha</definition>
+        <argsstring>() const</argsstring>
+        <name>getMainFeatureAlpha</name>
+        <qualifiedname>MR::FeatureObject::getMainFeatureAlpha</qualifiedname>
+        <briefdescription>
+<para>Per-component alpha multipliers. The global alpha is multiplied by thise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="153" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1afbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getSubfeatureAlphaPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>getSubfeatureAlphaPoints</name>
+        <qualifiedname>MR::FeatureObject::getSubfeatureAlphaPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="154" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ac1944db120f70185200d4915fce0a660" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getSubfeatureAlphaLines</definition>
+        <argsstring>() const</argsstring>
+        <name>getSubfeatureAlphaLines</name>
+        <qualifiedname>MR::FeatureObject::getSubfeatureAlphaLines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="155" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a352152a4f6da671401876ef2e98e978d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>virtual MRMESH_API float MR::FeatureObject::getSubfeatureAlphaMesh</definition>
+        <argsstring>() const</argsstring>
+        <name>getSubfeatureAlphaMesh</name>
+        <qualifiedname>MR::FeatureObject::getSubfeatureAlphaMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="156" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aed449e8d3a06fe9d8f70ba93a73cc104" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR::FeatureObject::setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="157" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa0fe2e6df916bd424a5d77ef19379672" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR::FeatureObject::setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="158" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a2da9794b73ce4ddae136ccb8992cc690" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR::FeatureObject::setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="159" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ade84e20ad9c7be039362059db188055d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::FeatureObject::setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR::FeatureObject::setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="160" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a537fbe1f37e55b900de3e7427c41e7b4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::FeatureObject::FeatureObject</definition>
+        <argsstring>(int numDimensions)</argsstring>
+        <name>FeatureObject</name>
+        <qualifiedname>MR::FeatureObject::FeatureObject</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numDimensions</declname>
+        </param>
+        <briefdescription>
+<para><computeroutput>numDimensions</computeroutput> is 0 for points, 1 for lines, 2 for surface meshes. We don&apos;t use 3 at the moment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="164" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1af250eb819d6902646ee5f5ea33d5b679" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::FeatureObject::setAllVisualizeProperties_</definition>
+        <argsstring>(const AllVisualizeProperties &amp;properties, std::size_t &amp;pos) override</argsstring>
+        <name>setAllVisualizeProperties_</name>
+        <qualifiedname>MR::FeatureObject::setAllVisualizeProperties_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a5ec593dbd42519c53e6ebe322386f9a6">setAllVisualizeProperties_</reimplements>
+        <param>
+          <type>const <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref> &amp;</type>
+          <declname>properties</declname>
+        </param>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="166" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>An interface class which allows feature objects to share setters and getters on their main properties, for convenient presentation in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::length &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::CircleObject</label>
+        <link refid="classMR_1_1CircleObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ConeObject</label>
+        <link refid="classMR_1_1ConeObject"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::CylinderObject</label>
+        <link refid="classMR_1_1CylinderObject"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::LineObject</label>
+        <link refid="classMR_1_1LineObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="13">
+        <label>MR::PlaneObject</label>
+        <link refid="classMR_1_1PlaneObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::PointObject</label>
+        <link refid="classMR_1_1PointObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::SphereObject</label>
+        <link refid="classMR_1_1SphereObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>detailsOnNameTag_</edgelabel>
+          <edgelabel>subfeatureVisibility_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>r_</edgelabel>
+          <edgelabel>s_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="7">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="11">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; Matrix3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="10">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="93" bodyend="194"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>ambientStrength_</name></member>
+      <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>ancillary_</name></member>
+      <member refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>asType</name></member>
+      <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>asType</name></member>
+      <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>backFacesColor_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>children</name></member>
+      <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>children</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>children_</name></member>
+      <member refid="classMR_1_1FeatureObject_1a9d50ec94a6a058376bf8e02827f5121c" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>className</name></member>
+      <member refid="classMR_1_1FeatureObject_1a873cf4c43be4dfcce9768ae68ad3ae44" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>clipByPlane_</name></member>
+      <member refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>coloringType_</name></member>
+      <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1FeatureObject_1a1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>decorationsColor_</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>depthTest_</name></member>
+      <member refid="classMR_1_1FeatureObject_1aee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1FeatureObject_1ac252edfceb31c314bc08c0ba5fac11b3" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>detailsOnNameTag_</name></member>
+      <member refid="classMR_1_1FeatureObject_1a537fbe1f37e55b900de3e7427c41e7b4" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>FeatureObject</name></member>
+      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1FeatureObject_1a67f4c8131f16d91de68c6ac590d31fa4" prot="public" virt="pure-virtual"><scope>MR::FeatureObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1FeatureObject_1a023edd409ca58f579708564c89b70ac4" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1FeatureObject_1a9156046dada7ff2cd440abcec27fa98b" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1FeatureObject_1afa41398b2369e2bbe90b107c3de0bbe6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1FeatureObject_1a38e30bc9c390d73d9e302ef1e6f6238f" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1FeatureObject_1a40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1FeatureObject_1a0ebee580bd79fb6dbee2bd1292b93b50" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1FeatureObject_1ae682c2765f3ef072c5552729523be1fa" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1FeatureObject_1a17576a887b5a637765fb98d40ed7f097" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1FeatureObject_1a9b258943b501bd224607d6a5a8a5fc8a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1FeatureObject_1a4812ae385ef5a66bbcc0779f54025502" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1FeatureObject_1ac1944db120f70185200d4915fce0a660" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1FeatureObject_1a352152a4f6da671401876ef2e98e978d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1FeatureObject_1afbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1FeatureObject_1ab8151a43482e95baea8f44d1a94bc61d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1FeatureObject_1a3866d143290905194a7c4e8da338c253" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1FeatureObject_1a10e19e3693a5f3a1e46ff0a9539f211e" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalAlpha_</name></member>
+      <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>invertNormals_</name></member>
+      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1FeatureObject_1a3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>lineWidth_</name></member>
+      <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>locked_</name></member>
+      <member refid="classMR_1_1FeatureObject_1a51043725ded5e5baa3695f7a0b95f4ff" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>mainFeatureAlpha_</name></member>
+      <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>name_</name></member>
+      <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>needRedraw_</name></member>
+      <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::FeatureObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::FeatureObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::FeatureObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>parent</name></member>
+      <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>parent</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>parent_</name></member>
+      <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>parentLocked_</name></member>
+      <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>pickable_</name></member>
+      <member refid="classMR_1_1FeatureObject_1ad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>pointSize_</name></member>
+      <member refid="classMR_1_1FeatureObject_1ad59d121c1a25c1218815462882d6bf8b" prot="public" virt="pure-virtual"><scope>MR::FeatureObject</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1FeatureObject_1aced598f63c94fa32b11e140c3aec72fa" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>r_</name></member>
+      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>renderObj_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1FeatureObject_1ab59d5f621e961a8874c5176e4b4ab355" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1FeatureObject_1ab1290c5fd9953439f5f8416adcd4ab38" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>s_</name></member>
+      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>selected_</name></member>
+      <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>selectedColor_</name></member>
+      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="classMR_1_1FeatureObject_1accfacb42ebe37f4692a510c02fa02fca" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1FeatureObject_1af250eb819d6902646ee5f5ea33d5b679" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1FeatureObject_1a40915fb0e5451adfd6f78c69047664a9" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1FeatureObject_1abedf621fc54044d44c55d0a494edc86c" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1FeatureObject_1a1db924c7ae13b6068667a75a0f74ba50" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1FeatureObject_1aed449e8d3a06fe9d8f70ba93a73cc104" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1FeatureObject_1a84e601e7bc1ee93ea6ec700eb616548f" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1FeatureObject_1a2da9794b73ce4ddae136ccb8992cc690" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1FeatureObject_1ade84e20ad9c7be039362059db188055d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa0fe2e6df916bd424a5d77ef19379672" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1FeatureObject_1af90cf28a65ce4f4698111d77e6e39a85" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1FeatureObject_1ad4ff45224612c828ae56427661a0f00e" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1FeatureObject_1a29cbd04bca216b622c6526ea818d86cb" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>shininess_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>showName_</name></member>
+      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>specularStrength_</name></member>
+      <member refid="classMR_1_1FeatureObject_1ac2bd99e374a0de7542c00533e8b6c2a0" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>StaticClassName</name></member>
+      <member refid="classMR_1_1FeatureObject_1a001841653b1a522e6fcf188a2d80d0f8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classMR_1_1FeatureObject_1a62768ed0a589fb3f6a1cf4f8f429b4b8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>StaticTypeName</name></member>
+      <member refid="classMR_1_1FeatureObject_1ae9eae47d979450ea334ee34d89bd931e" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>subAlphaLines_</name></member>
+      <member refid="classMR_1_1FeatureObject_1aee2b783554996a1934193cd74d782dbf" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>subAlphaMesh_</name></member>
+      <member refid="classMR_1_1FeatureObject_1ad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>subAlphaPoints_</name></member>
+      <member refid="classMR_1_1FeatureObject_1abd213076dcde954e6f1f26d06fa6d2fa" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>subfeatureVisibility_</name></member>
+      <member refid="classMR_1_1FeatureObject_1ac8ea614a47b17098054cd1859b24f70c" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>subLineWidth_</name></member>
+      <member refid="classMR_1_1FeatureObject_1a361a7ce85014e2c6232445612aa34c60" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>subPointSize_</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa371d414660e743cb7ffe960edbd7f7b" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>tags_</name></member>
+      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1FeatureObject_1a45535da24d737a00a9262dd1fbe8525f" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>unselectedColor_</name></member>
+      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>visibilityMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>worldXfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::FeatureObject</scope><name>xf_</name></member>
+      <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>XfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>~Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>~VisualObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

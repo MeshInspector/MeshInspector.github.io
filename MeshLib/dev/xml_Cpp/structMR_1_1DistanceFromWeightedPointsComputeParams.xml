@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DistanceFromWeightedPointsComputeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DistanceFromWeightedPointsComputeParams</compoundname>
+    <basecompoundref refid="structMR_1_1DistanceFromWeightedPointsParams" prot="public" virt="non-virtual">MR::DistanceFromWeightedPointsParams</basecompoundref>
+    <includes refid="MRClosestWeightedPoint_8h" local="no">MRClosestWeightedPoint.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsComputeParams_1adddd26b61e807f48c6420f32cb322d21" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DistanceFromWeightedPointsComputeParams::minBidirDist</definition>
+        <argsstring></argsstring>
+        <name>minBidirDist</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsComputeParams::minBidirDist</qualifiedname>
+        <initializer>= -FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stop searching as soon as any point within this weighted distance is found, ignored if bidirectionalMode=false, because in one-directional mode, weighted distance approximation not only decreases </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="105" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsComputeParams_1a1f9b9b98c5a65f0baaaa7de96b1c030c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DistanceFromWeightedPointsComputeParams::maxBidirDist</definition>
+        <argsstring></argsstring>
+        <name>maxBidirDist</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsComputeParams::maxBidirDist</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>default 0 here does not work for negative distances </para>
+        </briefdescription>
+        <detaileddescription>
+<para>find the closest point only if weighted bidirectional distance to it is less than given value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="108" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::DistanceFromWeightedPointsComputeParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::DistanceFromWeightedPointsParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::DistanceFromWeightedPointsComputeParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::DistanceFromWeightedPointsParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="102" bodyend="109"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a443641ce50f2d662bdd033199017d2c2" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>bidirectionalMode</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsComputeParams_1a1f9b9b98c5a65f0baaaa7de96b1c030c" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a2167c5cb63bc5340893e5ba8381e5de4" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>maxWeight</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1ad08ccac9ccc26dcee3fa49c052003500" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>maxWeightGrad</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsComputeParams_1adddd26b61e807f48c6420f32cb322d21" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>minBidirDist</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a18407dd8e4524c66ba05a120168bbf92" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>minWeight</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a1eaf010a7c663adafe798fdd9007fe6c" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>pointWeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMarkedContour_8h" kind="file" language="C++">
+    <compoundname>MRMarkedContour.h</compoundname>
+    <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="14">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMarkedContour.h</label>
+        <link refid="MRMarkedContour_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="27">
+        <label>algorithm</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="28">
+        <label>cmath</label>
+      </node>
+      <node id="21">
+        <label>concepts</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="29">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="22">
+        <label>iosfwd</label>
+      </node>
+      <node id="23">
+        <label>iterator</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="17">
+        <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1MarkedContour3f" prot="public">MR::MarkedContour3f</innerclass>
+    <innerclass refid="structMR_1_1SplineSettings" prot="public">MR::SplineSettings</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1MarkedContour3f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1MarkedContour3f_1a78abdca0c2ecab9e15c2bfc6583dea1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/><ref refid="structMR_1_1MarkedContour3f_1a78abdca0c2ecab9e15c2bfc6583dea1c" kindref="member">contour</ref>;</highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1MarkedContour3f_1af4a0eb3a1b2a34ed0c90d37d6e36baa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref><sp/><ref refid="structMR_1_1MarkedContour3f_1af4a0eb3a1b2a34ed0c90d37d6e36baa2" kindref="member">marks</ref>;<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespaceMR_1acd259cc34db34b6aee3060c1baf8822d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a250501cf8de3c016cf374b34455c335f" kindref="member">isClosed</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref>&amp;<sp/>c<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c.<ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size</ref>()<sp/>&gt;<sp/>1<sp/>&amp;&amp;<sp/>c.front()<sp/>==<sp/>c.back();<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1a209bfc652faa16c46df5315c189242b1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="namespaceMR_1a209bfc652faa16c46df5315c189242b1" kindref="member">markedContour</ref>(<sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>in<sp/>)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sz<sp/>=<sp/>in.size();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref>{<sp/>.<ref refid="structMR_1_1MarkedContour3f_1a78abdca0c2ecab9e15c2bfc6583dea1c" kindref="member">contour</ref><sp/>=<sp/>std::move(<sp/>in<sp/>),<sp/>.marks<sp/>=<sp/><ref refid="namespaceMR_1a0644533afbeab941be3a4178a8feb4fe" kindref="member">BitSet</ref>(<sp/>sz,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="namespaceMR_1abbe4ed3e93ef2ac23bd9eac49139758a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="namespaceMR_1abbe4ed3e93ef2ac23bd9eac49139758a" kindref="member">markedFirstLast</ref>(<sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>in<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sz<sp/>=<sp/>in.size();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/>res{<sp/>.<ref refid="structMR_1_1MarkedContour3f_1a78abdca0c2ecab9e15c2bfc6583dea1c" kindref="member">contour</ref><sp/>=<sp/>std::move(<sp/>in<sp/>),<sp/>.marks<sp/>=<sp/><ref refid="namespaceMR_1a0644533afbeab941be3a4178a8feb4fe" kindref="member">BitSet</ref>(<sp/>sz,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>res.marks.set(<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>res.marks.set(<sp/>sz<sp/>-<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespaceMR_1abbeba581eae8db84f0123a17c064c055" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="namespaceMR_1abbeba581eae8db84f0123a17c064c055" kindref="member">resample</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/>&amp;<sp/>in,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minStep,<sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>*<sp/>normals<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="namespaceMR_1a658ce22569ca9a5d8cb0d41cbb4c33e3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="namespaceMR_1a658ce22569ca9a5d8cb0d41cbb4c33e3" kindref="member">makeSpline</ref>(<sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/>in,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>markStability<sp/>=<sp/>1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>*<sp/>normals<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="namespaceMR_1aafc7415ee574cd3909c1ba0489b08f15" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="namespaceMR_1a658ce22569ca9a5d8cb0d41cbb4c33e3" kindref="member">makeSpline</ref>(<sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>&amp;<sp/>normals,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>markStability<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structMR_1_1SplineSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SplineSettings" kindref="compound">SplineSettings</ref></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56" refid="structMR_1_1SplineSettings_1a44a44b80a4845cea1a439df65b616c4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SplineSettings_1a44a44b80a4845cea1a439df65b616c4e" kindref="member">samplingStep</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="structMR_1_1SplineSettings_1a7f3e029be9ca17a1b73f53ca166fe2ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SplineSettings_1a7f3e029be9ca17a1b73f53ca166fe2ca" kindref="member">controlStability</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1SplineSettings_1ae191af78be4cbd6a213f4296abadbaab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SplineSettings_1ae191af78be4cbd6a213f4296abadbaab" kindref="member">iterations</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1SplineSettings_1aa8f49a77bae9cc6a69e8bef44cf7afda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>*<sp/><ref refid="structMR_1_1SplineSettings_1aa8f49a77bae9cc6a69e8bef44cf7afda" kindref="member">normals</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="structMR_1_1SplineSettings_1af076810565cee0720087fb452c2967f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SplineSettings_1af076810565cee0720087fb452c2967f9" kindref="member">normalsAffectShape</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="namespaceMR_1a7fdb7eb094811ed5d74ac5dbb128319f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="namespaceMR_1a658ce22569ca9a5d8cb0d41cbb4c33e3" kindref="member">makeSpline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>&amp;<sp/>controlPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SplineSettings" kindref="compound">SplineSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h"/>
+  </compounddef>
+</doxygen>

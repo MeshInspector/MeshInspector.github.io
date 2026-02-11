@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IntersectionPrecomputes2" kind="struct" language="C++" prot="public">
+    <compoundname>MR::IntersectionPrecomputes2</compoundname>
+    <includes refid="MRIntersectionPrecomputes2_8h" local="no">MRIntersectionPrecomputes2.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1aa9162110be6b5840cd870eb551a292fd" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt;T&gt; MR::IntersectionPrecomputes2&lt; T &gt;::invDir</definition>
+        <argsstring></argsstring>
+        <name>invDir</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::invDir</qualifiedname>
+        <briefdescription>
+<para>{1 / dir} </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="37" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a97745f96da021de236ed1d33cc89c73f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::IntersectionPrecomputes2&lt; T &gt;::maxDimIdxY</definition>
+        <argsstring></argsstring>
+        <name>maxDimIdxY</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::maxDimIdxY</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[0]max, [1]next, [2]next-next f.e. {1,2} =&gt; {1,0} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="40" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a4570f366fea168e1a0346c51fe5108c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::IntersectionPrecomputes2&lt; T &gt;::idxX</definition>
+        <argsstring></argsstring>
+        <name>idxX</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::idxX</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="41" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a802abc712cfba3867b04a4f8a9ba4f60" prot="public" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::IntersectionPrecomputes2&lt; T &gt;::sign</definition>
+        <argsstring></argsstring>
+        <name>sign</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::sign</qualifiedname>
+        <briefdescription>
+<para>stores signs of direction vector; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="44" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a5f59c134b3ba556dea499973669c2f5f" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::IntersectionPrecomputes2&lt; T &gt;::Sx</definition>
+        <argsstring></argsstring>
+        <name>Sx</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::Sx</qualifiedname>
+        <briefdescription>
+<para>precomputed factors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="47" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntersectionPrecomputes2_1a48da57b1568b50155d61042128d457de" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::IntersectionPrecomputes2&lt; T &gt;::Sy</definition>
+        <argsstring></argsstring>
+        <name>Sy</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::Sy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="47" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1IntersectionPrecomputes2_1a8dc8336a41d3f8aa6342f55f92aaba1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::IntersectionPrecomputes2&lt; T &gt;::IntersectionPrecomputes2</definition>
+        <argsstring>()=default</argsstring>
+        <name>IntersectionPrecomputes2</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::IntersectionPrecomputes2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="48" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1IntersectionPrecomputes2_1a5f4ae33fcf963d2ccab283fcadff212b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::IntersectionPrecomputes2&lt; T &gt;::IntersectionPrecomputes2</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;dir)</argsstring>
+        <name>IntersectionPrecomputes2</name>
+        <qualifiedname>MR::IntersectionPrecomputes2::IntersectionPrecomputes2</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="49" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>stores useful precomputed values for presented direction vector</para>
+<para>allows to avoid repeatable computations during intersection finding </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="664" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a4570f366fea168e1a0346c51fe5108c8" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>idxX</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a8dc8336a41d3f8aa6342f55f92aaba1b" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>IntersectionPrecomputes2</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a5f4ae33fcf963d2ccab283fcadff212b" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>IntersectionPrecomputes2</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1aa9162110be6b5840cd870eb551a292fd" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>invDir</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a97745f96da021de236ed1d33cc89c73f" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>maxDimIdxY</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a802abc712cfba3867b04a4f8a9ba4f60" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>sign</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a5f59c134b3ba556dea499973669c2f5f" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>Sx</name></member>
+      <member refid="structMR_1_1IntersectionPrecomputes2_1a48da57b1568b50155d61042128d457de" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes2</scope><name>Sy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

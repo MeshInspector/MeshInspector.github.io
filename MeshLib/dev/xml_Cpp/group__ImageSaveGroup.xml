@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__ImageSaveGroup" kind="group">
+    <compoundname>ImageSaveGroup</compoundname>
+    <title>Image Save</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__ImageSaveGroup_1ga0657c5aa66364149969648ed210c529a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::ImageSave::toBmp</definition>
+        <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
+        <name>toBmp</name>
+        <qualifiedname>MR::ImageSave::toBmp</qualifiedname>
+        <param>
+          <type>const Image &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>saves in .bmp format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="22" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="22" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ImageSaveGroup_1gaf5aa523593e91cde08bf181b7aa9b2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::ImageSave::toAnySupportedFormat</definition>
+        <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR::ImageSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const Image &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and save image to it <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="25" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="25" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1afcc9bf0205b7f729958c4380736eed26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77705" bodyend="77708"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a2dbd2991cc8e681751e15b8da16228b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__contains__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77710" bodyend="77711"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a860bd0133a9c15c3aa9dbcccad588f41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77713" bodyend="77714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a983c488649a17f6250507de97c127b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__delitem__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77715" bodyend="77716"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a272ca60af4ef1d8db54e4f088b896065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FlowAggregator_1_1Flows" kindref="compound">FlowAggregator.Flows</ref></type>
+        <definition> FlowAggregator.Flows mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__getitem__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77717" bodyend="77718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a4fe9c3fa4d30b75165b9b4217591c59f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77720" bodyend="77721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a0cc16bf8e5f7198b63937d05ca27d57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77723" bodyend="77724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1af5007fb4b4e1fb3a8353105ad6ef6a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>]</type>
+        <definition> typing.Iterator[VertId] mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77725" bodyend="77726"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a83350a04b80e2b466d5f486cf476369e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77727" bodyend="77728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1aba3ecdf9238496ad29ffa607826f81ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__setitem__</definition>
+        <argsstring>(self, VertId arg0, FlowAggregator.Flows arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FlowAggregator_1_1Flows" kindref="compound">FlowAggregator.Flows</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77729" bodyend="77730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1abd70e7c6d40ce7f7e9b9a874554c41c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77731" bodyend="77732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a122588fdb73a01be041e5f2e07b42c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77733" bodyend="77734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1ad66fcfb47fe3ad0f32cc149654c9abd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77735" bodyend="77736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a7600a8541a709a343dc4a69f3b820705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77737" bodyend="77738"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_VertId_FlowAggregator_Flows
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77701" bodyend="77738"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1afcc9bf0205b7f729958c4380736eed26" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a2dbd2991cc8e681751e15b8da16228b8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a860bd0133a9c15c3aa9dbcccad588f41" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a983c488649a17f6250507de97c127b89" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a272ca60af4ef1d8db54e4f088b896065" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a4fe9c3fa4d30b75165b9b4217591c59f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a0cc16bf8e5f7198b63937d05ca27d57d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1af5007fb4b4e1fb3a8353105ad6ef6a4a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a83350a04b80e2b466d5f486cf476369e" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1aba3ecdf9238496ad29ffa607826f81ad" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1abd70e7c6d40ce7f7e9b9a874554c41c8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a122588fdb73a01be041e5f2e07b42c0c" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1ad66fcfb47fe3ad0f32cc149654c9abd5" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows_1a7600a8541a709a343dc4a69f3b820705" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

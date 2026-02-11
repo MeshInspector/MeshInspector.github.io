@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType" kind="concept">
+    <compoundname>MR::UI::detail::ValidBoundForTargetType</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Bound</type>
+      </param>
+      <param>
+        <type>typename Target</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename Bound, typename Target&gt;
+concept <ref refid="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType" kindref="compound">MR::UI::detail::ValidBoundForTargetType</ref> = 
+        std::same_as&lt;Bound, Target&gt; ||
+        ( VectorTraits&lt;Bound&gt;::size == 1 &amp;&amp; std::same_as&lt;typename VectorTraits&lt;Bound&gt;::BaseType, typename VectorTraits&lt;Target&gt;::BaseType&gt; )    </initializer>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Whether <computeroutput>Bound</computeroutput> is a valid min/max bound for <computeroutput>Target</computeroutput>. That is, either the same type, or if <computeroutput>Target</computeroutput> is a vector, <computeroutput>Bound</computeroutput> can also be a scalar of the same type. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="359" column="5"/>
+  </compounddef>
+</doxygen>

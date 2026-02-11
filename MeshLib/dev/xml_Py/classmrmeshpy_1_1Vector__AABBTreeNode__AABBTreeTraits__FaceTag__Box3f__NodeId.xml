@@ -1,0 +1,1030 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a274270fbfda853377034585cb086552d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62268" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab90487ce57cddf28e197a198beaf6157" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a17745ab7ed8d682dd944c587186f1d48" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a44a2eda711421a93ec03c1fc8eae295e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62271" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6f58ec62870fa5f4c7ae23e296d0ba6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62274" bodyend="62275"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a024807b84c4eabd1cb78e003704b1592" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId" kindref="compound">Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</ref></type>
+        <definition> Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62278" bodyend="62279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a024807b84c4eabd1cb78e003704b1592" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId" kindref="compound">Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</ref></type>
+        <definition> Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62282" bodyend="62283"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a9219d753edc64a2940846494f75af1b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__getitem__</definition>
+        <argsstring>(self, NodeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62285" bodyend="62286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a9219d753edc64a2940846494f75af1b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__getitem__</definition>
+        <argsstring>(self, NodeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62288" bodyend="62289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a478690f61c8fb733a8ad597a81804bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62291" bodyend="62294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1af177402979c9167a24fc715136845cde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62296" bodyend="62299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a55d3c095897b73cff6c1cbf89c083813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</definition>
+        <argsstring>(self, int size, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62301" bodyend="62304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a10fe802a156121dc4a15a255bb7f14a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</definition>
+        <argsstring>(self, std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62306" bodyend="62309"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab3f4ff74ef4c7c5a3f59732a22b2aec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</definition>
+        <argsstring>(self, Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId" kindref="compound">Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62311" bodyend="62314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7c783c0e0242e3fa85272ea94517f429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref>]</type>
+        <definition> typing.Iterator[AABBTreeNode_AABBTreeTraits_FaceTag_Box3f] mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62315" bodyend="62316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a54faa7f7f67d3effdbfcab04100c8765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__setitem__</definition>
+        <argsstring>(self, NodeId arg0, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62317" bodyend="62318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7fb87e3459f10c851bc3459d46998535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.autoResizeAt</definition>
+        <argsstring>(self, NodeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62319" bodyend="62322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a0cca83bd6e2878b73d5600d06474dc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.autoResizeSet</definition>
+        <argsstring>(self, NodeId pos, int len, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62324" bodyend="62328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1afa42303213eac9e35c929c8d2a70de85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.autoResizeSet</definition>
+        <argsstring>(self, NodeId i, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62330" bodyend="62333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a366e08858fb1b7a3394474fedd30e4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62335" bodyend="62336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a366e08858fb1b7a3394474fedd30e4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62338" bodyend="62339"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1af4b51643a348e7e4b09c19bebe238162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62340" bodyend="62343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a9512610d3273b6584a09ccc14a51e604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62344" bodyend="62347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a1e4ea226a087affe762ac0a892763a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62348" bodyend="62349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1abdb8a1779c6ac589b49de82e71245be8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62350" bodyend="62351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab7b5ae1a4bfe29dcc6fb96d1b059264f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62353" bodyend="62354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab7b5ae1a4bfe29dcc6fb96d1b059264f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62356" bodyend="62357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6114940ebf20e7b90a71a6cb9958ec4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62358" bodyend="62359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a18bf7e3b5a22ce86c48dc478fc3333ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62360" bodyend="62361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a619a6a6933b1886327260518d2e2d080" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62362" bodyend="62365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6a59690fd66003861c705b6dd9e1ba57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62367" bodyend="62368"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6a59690fd66003861c705b6dd9e1ba57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62370" bodyend="62371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1aa843570fcbdb3657cfc16dde9791947f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62372" bodyend="62375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ad2189f4663070c9714fde73cc5833d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62376" bodyend="62377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a22d4ad41ded0c061b4d8261aafee2185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.push_back</definition>
+        <argsstring>(self, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62379" bodyend="62380"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a22d4ad41ded0c061b4d8261aafee2185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.push_back</definition>
+        <argsstring>(self, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62382" bodyend="62383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab0ca404a5d703187ac1761a9996beb07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62384" bodyend="62385"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a960e40cdb6749c48e85fbe42e587f330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62387" bodyend="62388"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a12ba1f0c2eb2aa9c0c67d03e1274e0ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resize</definition>
+        <argsstring>(self, int newSize, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62390" bodyend="62391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a8403988b56d767cde08833c9a6d3cc7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62393" bodyend="62396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a23a4c39584fee63a126e5cb0a5fa7ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62398" bodyend="62401"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ac1b9e1ad99fecefffeb02de88d02db45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62402" bodyend="62403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a136d51f882f54ac6e5c28ca4ed2272ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.swap</definition>
+        <argsstring>(self, Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId" kindref="compound">Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62404" bodyend="62405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7f0329819d41cdd5c4a533206b3f14d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+        <definition> std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62407" bodyend="62410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a525aaaf24f10f752b53153af0f658a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.vec_</definition>
+        <argsstring>(self, std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62412" bodyend="62413"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;, MR::NodeId&gt;
+Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</label>
+        <link refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62257" bodyend="62413"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a9219d753edc64a2940846494f75af1b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a9219d753edc64a2940846494f75af1b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6f58ec62870fa5f4c7ae23e296d0ba6b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a478690f61c8fb733a8ad597a81804bd1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1af177402979c9167a24fc715136845cde" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a55d3c095897b73cff6c1cbf89c083813" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a10fe802a156121dc4a15a255bb7f14a8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab3f4ff74ef4c7c5a3f59732a22b2aec1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7c783c0e0242e3fa85272ea94517f429" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a54faa7f7f67d3effdbfcab04100c8765" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a274270fbfda853377034585cb086552d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7fb87e3459f10c851bc3459d46998535" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a0cca83bd6e2878b73d5600d06474dc75" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1afa42303213eac9e35c929c8d2a70de85" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a366e08858fb1b7a3394474fedd30e4ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a366e08858fb1b7a3394474fedd30e4ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1af4b51643a348e7e4b09c19bebe238162" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a9512610d3273b6584a09ccc14a51e604" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a1e4ea226a087affe762ac0a892763a34" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1abdb8a1779c6ac589b49de82e71245be8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab90487ce57cddf28e197a198beaf6157" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab7b5ae1a4bfe29dcc6fb96d1b059264f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab7b5ae1a4bfe29dcc6fb96d1b059264f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6114940ebf20e7b90a71a6cb9958ec4e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a18bf7e3b5a22ce86c48dc478fc3333ff" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a619a6a6933b1886327260518d2e2d080" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6a59690fd66003861c705b6dd9e1ba57" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a6a59690fd66003861c705b6dd9e1ba57" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1aa843570fcbdb3657cfc16dde9791947f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a024807b84c4eabd1cb78e003704b1592" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a024807b84c4eabd1cb78e003704b1592" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ad2189f4663070c9714fde73cc5833d8b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a22d4ad41ded0c061b4d8261aafee2185" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a22d4ad41ded0c061b4d8261aafee2185" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a17745ab7ed8d682dd944c587186f1d48" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ab0ca404a5d703187ac1761a9996beb07" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a960e40cdb6749c48e85fbe42e587f330" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a12ba1f0c2eb2aa9c0c67d03e1274e0ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a8403988b56d767cde08833c9a6d3cc7a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a23a4c39584fee63a126e5cb0a5fa7ff0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ac1b9e1ad99fecefffeb02de88d02db45" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a136d51f882f54ac6e5c28ca4ed2272ce" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a44a2eda711421a93ec03c1fc8eae295e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7f0329819d41cdd5c4a533206b3f14d3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a525aaaf24f10f752b53153af0f658a91" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

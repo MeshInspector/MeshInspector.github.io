@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GraphVertBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::GraphVertBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_GraphVertBitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1abb5029c7a24a2ed025d25da8f79ae425" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.GraphVertBitSet.operator MR.BitSet</definition>
+        <argsstring>(GraphVertBitSet self)</argsstring>
+        <name>operator MR.BitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.operator MR.BitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9800" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9800" bodyend="9807"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1adb4f630e54e0198854c2dd47fa5d072c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9809" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9809" bodyend="9809"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9814" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9814" bodyend="9819"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a340b527ea4abbf4951921f9ac7f06fdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(MR._ByValue_GraphVertBitSet _other)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type>MR._ByValue_GraphVertBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GraphVertBitSet.GraphVertBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9824" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9824" bodyend="9830"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a4fe28eb54792fca4ce7dd22a77f4cc2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(Const_GraphVertBitSet _other)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type>Const_GraphVertBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GraphVertBitSet.GraphVertBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9835" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9835" bodyend="9835"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a59f02e8529c4fe82c2357064b90cab9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(GraphVertBitSet _other)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GraphVertBitSet.GraphVertBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9840" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9840" bodyend="9840"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a66fff3d23b7da7257c459e132ed80f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR.GraphVertBitSet.GraphVertBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9847" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9847" bodyend="9853"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a28093ce51fa51d117b15367612871085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(MR.Const_BitSet src)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_BitSet</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.GraphVertBitSet.GraphVertBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9859" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9859" bodyend="9865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a77b2209a53a267fbf5460cb26fdc6309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GraphVertBitSet.GraphVertBitSet</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.BitSet &gt; src)</argsstring>
+        <name>GraphVertBitSet</name>
+        <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref> &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.GraphVertBitSet.GraphVertBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9871" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9871" bodyend="9877"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ad52b2bf7ebe2af06b80a706cd2c40667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.assign</definition>
+        <argsstring>(MR._ByValue_GraphVertBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.GraphVertBitSet.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_GraphVertBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9882" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9882" bodyend="9889"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a0714920639964d9b49e1d5055f7f64cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.set</definition>
+        <argsstring>(MR.GraphVertId n, ulong len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.GraphVertBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a0714920639964d9b49e1d5055f7f64cf" kindref="member">MR.GraphVertBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9894" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9894" bodyend="9899"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a34259a85ecd45e7424bfe57f6c019f57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.set</definition>
+        <argsstring>(MR.GraphVertId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.GraphVertBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a0714920639964d9b49e1d5055f7f64cf" kindref="member">MR.GraphVertBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9904" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9904" bodyend="9909"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a8649ddabf768a485742e21347d1cbf9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.set</definition>
+        <argsstring>(MR.GraphVertId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.GraphVertBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a0714920639964d9b49e1d5055f7f64cf" kindref="member">MR.GraphVertBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9914" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9914" bodyend="9919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a293e6391cfe842f3f6b34530dfb3b01e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.set</definition>
+        <argsstring>()</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.GraphVertBitSet.set</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a0714920639964d9b49e1d5055f7f64cf" kindref="member">MR.GraphVertBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9924" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9924" bodyend="9929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a44507b87624f184299f377d98316fc01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.reset</definition>
+        <argsstring>(MR.GraphVertId n, ulong len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.GraphVertBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a44507b87624f184299f377d98316fc01" kindref="member">MR.GraphVertBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9934" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9934" bodyend="9939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a09a0fad4ddad27702abbc7d5e5f34a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.reset</definition>
+        <argsstring>(MR.GraphVertId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.GraphVertBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a44507b87624f184299f377d98316fc01" kindref="member">MR.GraphVertBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9944" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9944" bodyend="9949"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a0e6319ff6938c481162a486c0a03533d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.GraphVertBitSet.reset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a44507b87624f184299f377d98316fc01" kindref="member">MR.GraphVertBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9954" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9954" bodyend="9959"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a529e19056b619eef4b1a8680e7767c32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.flip</definition>
+        <argsstring>(MR.GraphVertId n, ulong len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.GraphVertBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a529e19056b619eef4b1a8680e7767c32" kindref="member">MR.GraphVertBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9964" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9964" bodyend="9969"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a7f75feb32512109f7a92222d59a21fa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.flip</definition>
+        <argsstring>(MR.GraphVertId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.GraphVertBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a529e19056b619eef4b1a8680e7767c32" kindref="member">MR.GraphVertBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9974" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9974" bodyend="9979"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a10a701ac5d9f975216c1ea8dffe3c913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.GraphVertBitSet.flip</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a529e19056b619eef4b1a8680e7767c32" kindref="member">MR.GraphVertBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9984" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9984" bodyend="9989"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ad17f3d2cb10a7e994bdaf77997a3f76f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.GraphVertBitSet.testSet</definition>
+        <argsstring>(MR.GraphVertId n, bool? val=null)</argsstring>
+        <name>testSet</name>
+        <qualifiedname>MR.GraphVertBitSet.testSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9995" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9995" bodyend="10001"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a1e2feabcd0469bbde4409df30a591b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.bitandAssign</definition>
+        <argsstring>(MR.Const_GraphVertBitSet b)</argsstring>
+        <name>bitandAssign</name>
+        <qualifiedname>MR.GraphVertBitSet.bitandAssign</qualifiedname>
+        <param>
+          <type>MR.Const_GraphVertBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.operator&amp;=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10006" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10006" bodyend="10014"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a4e815e7273e747548e4806539961ad36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.bitorAssign</definition>
+        <argsstring>(MR.Const_GraphVertBitSet b)</argsstring>
+        <name>bitorAssign</name>
+        <qualifiedname>MR.GraphVertBitSet.bitorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_GraphVertBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.operator|=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10019" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10019" bodyend="10027"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a766035ed1a4aa01b59075acdf8319e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.xorAssign</definition>
+        <argsstring>(MR.Const_GraphVertBitSet b)</argsstring>
+        <name>xorAssign</name>
+        <qualifiedname>MR.GraphVertBitSet.xorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_GraphVertBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.operator^=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10032" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10032" bodyend="10040"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a5c3bd48f8e59bf57ba2b25230167011c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.subAssign</definition>
+        <argsstring>(MR.Const_GraphVertBitSet b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.GraphVertBitSet.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_GraphVertBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10045" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10045" bodyend="10053"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ae90e1379ecf592287b61c267763a8200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
+        <definition>unsafe MR.GraphVertBitSet MR.GraphVertBitSet.subtract</definition>
+        <argsstring>(MR.Const_GraphVertBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>MR.GraphVertBitSet.subtract</qualifiedname>
+        <param>
+          <type>MR.Const_GraphVertBitSet</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1ae90e1379ecf592287b61c267763a8200" kindref="member">MR.GraphVertBitSet.subtract</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10059" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10059" bodyend="10064"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1addeae56acf6aa04ad08a3ed3c42a04d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.autoResizeSet</definition>
+        <argsstring>(MR.GraphVertId pos, ulong len, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.GraphVertBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1addeae56acf6aa04ad08a3ed3c42a04d7" kindref="member">MR.GraphVertBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10070" bodyend="10076"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ac7f93b9bbe7d531c878a630dd4ed4e6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.autoResizeSet</definition>
+        <argsstring>(MR.GraphVertId pos, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.GraphVertBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1addeae56acf6aa04ad08a3ed3c42a04d7" kindref="member">MR.GraphVertBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10082" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10082" bodyend="10088"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1aea47cb80961bdee39897918f0afab5a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.GraphVertBitSet.autoResizeTestSet</definition>
+        <argsstring>(MR.GraphVertId pos, bool? val=null)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>MR.GraphVertBitSet.autoResizeTestSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1aea47cb80961bdee39897918f0afab5a0" kindref="member">MR.GraphVertBitSet.autoResizeTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10094" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10094" bodyend="10100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ac0c45dab0d964cd288170298667cf89a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.reserve</definition>
+        <argsstring>(ulong numBits)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.GraphVertBitSet.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1ac0c45dab0d964cd288170298667cf89a" kindref="member">MR.GraphVertBitSet.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10105" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10105" bodyend="10110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1aa65b7b0f501b4f8e242d41da51e30d43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.resize</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.GraphVertBitSet.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1aa65b7b0f501b4f8e242d41da51e30d43" kindref="member">MR.GraphVertBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10116" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10116" bodyend="10122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a45840a30155a1704e54fa082902e76a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.GraphVertBitSet.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a45840a30155a1704e54fa082902e76a0" kindref="member">MR.GraphVertBitSet.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10127" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10127" bodyend="10132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a55d45eea411cef7840f37e185ef5680f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.GraphVertBitSet.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertBitSet.shrink_to_fit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10137" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10137" bodyend="10142"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ae92d6192ecd9446edcd96687078eab59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.GraphVertBitSet.uncheckedTestSet</definition>
+        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <name>uncheckedTestSet</name>
+        <qualifiedname>MR.GraphVertBitSet.uncheckedTestSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1ae92d6192ecd9446edcd96687078eab59" kindref="member">MR.GraphVertBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10148" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10148" bodyend="10154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a9a34851c82e1e842a5b552bd395309eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.reverse</definition>
+        <argsstring>()</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR.GraphVertBitSet.reverse</qualifiedname>
+        <briefdescription>
+<para>changes the order of bits on the opposite Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a9a34851c82e1e842a5b552bd395309eb" kindref="member">MR.GraphVertBitSet.reverse</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10160" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10160" bodyend="10165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1ace10780e9f152ec23d30572bfadfd900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.pushBack</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.GraphVertBitSet.pushBack</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR.GraphVertBitSet.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10171" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10171" bodyend="10176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a37340bd572f1da41fa9a40bad60beb11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.GraphVertBitSet.popBack</qualifiedname>
+        <briefdescription>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR.GraphVertBitSet.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10182" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10182" bodyend="10187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1a2c3a638202e3f9c22abf62b6a46080ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GraphVertBitSet.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.GraphVertBitSet.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a2c3a638202e3f9c22abf62b6a46080ab" kindref="member">MR.GraphVertBitSet.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10193" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10193" bodyend="10198"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_GraphVertBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.GraphVertBitSet</label>
+        <link refid="classMR_1_1GraphVertBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_GraphVertBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_GraphVertBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.GraphVertBitSet</label>
+        <link refid="classMR_1_1GraphVertBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_GraphVertBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9797" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9798" bodyend="10199"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GraphVertBitSet_1ad52b2bf7ebe2af06b80a706cd2c40667" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1addeae56acf6aa04ad08a3ed3c42a04d7" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1ac7f93b9bbe7d531c878a630dd4ed4e6f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1aea47cb80961bdee39897918f0afab5a0" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a1e2feabcd0469bbde4409df30a591b97" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>bitandAssign</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a4e815e7273e747548e4806539961ad36" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a45840a30155a1704e54fa082902e76a0" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a529e19056b619eef4b1a8680e7767c32" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a7f75feb32512109f7a92222d59a21fa3" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a10a701ac5d9f975216c1ea8dffe3c913" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1adb4f630e54e0198854c2dd47fa5d072c" prot="package" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a340b527ea4abbf4951921f9ac7f06fdc" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a4fe28eb54792fca4ce7dd22a77f4cc2c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a59f02e8529c4fe82c2357064b90cab9c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a66fff3d23b7da7257c459e132ed80f7d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a28093ce51fa51d117b15367612871085" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a77b2209a53a267fbf5460cb26fdc6309" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1abb5029c7a24a2ed025d25da8f79ae425" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator MR.BitSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a37340bd572f1da41fa9a40bad60beb11" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>popBack</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1ace10780e9f152ec23d30572bfadfd900" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1ac0c45dab0d964cd288170298667cf89a" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a44507b87624f184299f377d98316fc01" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a09a0fad4ddad27702abbc7d5e5f34a42" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a0e6319ff6938c481162a486c0a03533d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1aa65b7b0f501b4f8e242d41da51e30d43" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a2c3a638202e3f9c22abf62b6a46080ab" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a9a34851c82e1e842a5b552bd395309eb" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>reverse</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a0714920639964d9b49e1d5055f7f64cf" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a34259a85ecd45e7424bfe57f6c019f57" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a8649ddabf768a485742e21347d1cbf9c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a293e6391cfe842f3f6b34530dfb3b01e" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a55d45eea411cef7840f37e185ef5680f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a5c3bd48f8e59bf57ba2b25230167011c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1ae90e1379ecf592287b61c267763a8200" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1ad17f3d2cb10a7e994bdaf77997a3f76f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>testSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1ae92d6192ecd9446edcd96687078eab59" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1GraphVertBitSet_1a766035ed1a4aa01b59075acdf8319e96" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>xorAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

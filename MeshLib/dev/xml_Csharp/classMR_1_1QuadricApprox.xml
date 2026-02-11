@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1QuadricApprox" kind="class" language="C#" prot="public">
+    <compoundname>MR::QuadricApprox</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_QuadricApprox</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a257cbb8d46cdd833debac994dd07d198" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadricApprox.QuadricApprox</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>QuadricApprox</name>
+        <qualifiedname>MR.QuadricApprox.QuadricApprox</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1aa07acaf6a7203a853fb3621c82b3126f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadricApprox.QuadricApprox</definition>
+        <argsstring>()</argsstring>
+        <name>QuadricApprox</name>
+        <qualifiedname>MR.QuadricApprox.QuadricApprox</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a34ee226b675faccfae73d4db1eec4762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadricApprox.QuadricApprox</definition>
+        <argsstring>(MR._ByValue_QuadricApprox _other)</argsstring>
+        <name>QuadricApprox</name>
+        <qualifiedname>MR.QuadricApprox.QuadricApprox</qualifiedname>
+        <param>
+          <type>MR._ByValue_QuadricApprox</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.QuadricApprox.QuadricApprox</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a49efd6c5e9fb9e266d51f81b4b62263f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.QuadricApprox.QuadricApprox</definition>
+        <argsstring>(Const_QuadricApprox _other)</argsstring>
+        <name>QuadricApprox</name>
+        <qualifiedname>MR.QuadricApprox.QuadricApprox</qualifiedname>
+        <param>
+          <type>Const_QuadricApprox</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.QuadricApprox.QuadricApprox</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a6e228b814d0429216ed181687efc6248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.QuadricApprox.QuadricApprox</definition>
+        <argsstring>(QuadricApprox _other)</argsstring>
+        <name>QuadricApprox</name>
+        <qualifiedname>MR.QuadricApprox.QuadricApprox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1QuadricApprox" kindref="compound">QuadricApprox</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.QuadricApprox.QuadricApprox</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="100" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a5ea57604d1b7bac5738d513da0b4b676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1QuadricApprox" kindref="compound">MR.QuadricApprox</ref></type>
+        <definition>unsafe MR.QuadricApprox MR.QuadricApprox.assign</definition>
+        <argsstring>(MR._ByValue_QuadricApprox _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.QuadricApprox.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_QuadricApprox</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.QuadricApprox.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="105" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.QuadricApprox.addPoint</definition>
+        <argsstring>(in MR.Vector3d point, double? weight=null)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.QuadricApprox.addPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>weight</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Adds point to accumulation with weight Generated from method <computeroutput><ref refid="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" kindref="member">MR.QuadricApprox.addPoint</ref></computeroutput>. Parameter <computeroutput>weight</computeroutput> defaults to <computeroutput>1.0</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="119" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Accumulate points and make best quadric approximation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><formula id="1">$ a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z $</formula> Generated from class <computeroutput><ref refid="classMR_1_1QuadricApprox" kindref="compound">MR.QuadricApprox</ref></computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_QuadricApprox</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.QuadricApprox</label>
+        <link refid="classMR_1_1QuadricApprox"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_QuadricApprox &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_QuadricApprox</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.QuadricApprox</label>
+        <link refid="classMR_1_1QuadricApprox"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_QuadricApprox &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="68" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a5ea57604d1b7bac5738d513da0b4b676" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>assign</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a257cbb8d46cdd833debac994dd07d198" prot="package" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+      <member refid="classMR_1_1QuadricApprox_1aa07acaf6a7203a853fb3621c82b3126f" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a34ee226b675faccfae73d4db1eec4762" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a49efd6c5e9fb9e266d51f81b4b62263f" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a6e228b814d0429216ed181687efc6248" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

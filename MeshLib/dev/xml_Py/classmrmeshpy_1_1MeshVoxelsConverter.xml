@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshVoxelsConverter" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshVoxelsConverter</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVoxelsConverter_1a10ff7761c085f8f960bdaa161f5baf7a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVoxelsConverter::_offsetof_adaptivity</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_adaptivity</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter._offsetof_adaptivity</qualifiedname>
+        <initializer>=  44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVoxelsConverter_1a13b1294198d3fe4a0c208161d4f3ec8c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVoxelsConverter::_offsetof_callBack</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callBack</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter._offsetof_callBack</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVoxelsConverter_1ac07d46798eccc89d510dcaa69e74324c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVoxelsConverter::_offsetof_offsetVoxels</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetVoxels</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter._offsetof_offsetVoxels</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVoxelsConverter_1a2ecffc8c1aee4c6e6f94d7f63fafa8bc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVoxelsConverter::_offsetof_surfaceOffset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_surfaceOffset</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter._offsetof_surfaceOffset</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVoxelsConverter_1af01ba9fe3f41ee2219b8046a0f326ecd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVoxelsConverter::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter._offsetof_voxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35636" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1aaa7648faa3f0b0adc63dfb9678261f73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35640" bodyend="35641"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1afcbfb7124a7521a67e4288f09c0d3189" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref></type>
+        <definition> MeshVoxelsConverter mrmeshpy.MeshVoxelsConverter.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35644" bodyend="35645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1afcbfb7124a7521a67e4288f09c0d3189" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref></type>
+        <definition> MeshVoxelsConverter mrmeshpy.MeshVoxelsConverter.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35648" bodyend="35649"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a0dc1748576a5e77cf24091f4017fba1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.MeshVoxelsConverter.__call__</definition>
+        <argsstring>(self, MeshPart mp, AffineXf3f xf=...)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35651" bodyend="35652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1ac1ccc37ac815c57ba8272919f3218acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.MeshVoxelsConverter.__call__</definition>
+        <argsstring>(self, ObjectMesh obj)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35654" bodyend="35655"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a35577849fecd9a753e9417c1266d937d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshVoxelsConverter.__call__</definition>
+        <argsstring>(self, FloatGrid grid)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35657" bodyend="35658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a9d3382e2261fe573381bb1a909dfe687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35660" bodyend="35661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a2a537cbb10e8bdcb7088d9c72a02d2f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.__init__</definition>
+        <argsstring>(self, MeshVoxelsConverter arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35663" bodyend="35666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1ad2f0c782b238e1c2211ca4d682220e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.__init__</definition>
+        <argsstring>(self, float voxelSize, float surfaceOffset, func_bool_from_float callBack, float offsetVoxels, float adaptivity)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>surfaceOffset</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callBack</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetVoxels</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>adaptivity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35668" bodyend="35671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a5d7fbc34fe307e5e0cf427a11aa814e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshVoxelsConverter.adaptivity</definition>
+        <argsstring>(self)</argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.adaptivity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[0, 1] ratio of combining small triangles into bigger ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35673" bodyend="35676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a94d79807e39565599eaeb7f083663780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.adaptivity</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.adaptivity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35678" bodyend="35679"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a4644780ca72cffd9942370584d6ec1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshVoxelsConverter.offsetVoxels</definition>
+        <argsstring>(self)</argsstring>
+        <name>offsetVoxels</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.offsetVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the value is in voxels (not in meters!), 0 for no-offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35681" bodyend="35684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a9b25ae74c5f23878c61dd9231e459b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.offsetVoxels</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offsetVoxels</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.offsetVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35686" bodyend="35687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a94ba226fb47480589606c64af9a452a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshVoxelsConverter.surfaceOffset</definition>
+        <argsstring>(self)</argsstring>
+        <name>surfaceOffset</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.surfaceOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>number voxels around surface to calculate distance in (should be positive)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35689" bodyend="35692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1af5e15f2d0601730acc8ef2877b7df923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.surfaceOffset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>surfaceOffset</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.surfaceOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35694" bodyend="35695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a4a61ca6638b26a9b50668b14ad936576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshVoxelsConverter.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>both in and from
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35697" bodyend="35700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVoxelsConverter_1a78c7d60db8112be6b8caed1f145e56e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVoxelsConverter.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshVoxelsConverter.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35702" bodyend="35703"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshVoxelsConverter
+
+converter of meshes in or from signed distance volumetric representation
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshVoxelsConverter</label>
+        <link refid="classmrmeshpy_1_1MeshVoxelsConverter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_adaptivity</edgelabel>
+          <edgelabel>_offsetof_callBack</edgelabel>
+          <edgelabel>_offsetof_offsetVoxels</edgelabel>
+          <edgelabel>_offsetof_surfaceOffset</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35626" bodyend="35703"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a0dc1748576a5e77cf24091f4017fba1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1ac1ccc37ac815c57ba8272919f3218acb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a35577849fecd9a753e9417c1266d937d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1aaa7648faa3f0b0adc63dfb9678261f73" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a9d3382e2261fe573381bb1a909dfe687" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a2a537cbb10e8bdcb7088d9c72a02d2f8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1ad2f0c782b238e1c2211ca4d682220e87" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a10ff7761c085f8f960bdaa161f5baf7a" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>_offsetof_adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a13b1294198d3fe4a0c208161d4f3ec8c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>_offsetof_callBack</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1ac07d46798eccc89d510dcaa69e74324c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>_offsetof_offsetVoxels</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a2ecffc8c1aee4c6e6f94d7f63fafa8bc" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>_offsetof_surfaceOffset</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1af01ba9fe3f41ee2219b8046a0f326ecd" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a5d7fbc34fe307e5e0cf427a11aa814e0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a94d79807e39565599eaeb7f083663780" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a4644780ca72cffd9942370584d6ec1ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>offsetVoxels</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a9b25ae74c5f23878c61dd9231e459b01" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>offsetVoxels</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1afcbfb7124a7521a67e4288f09c0d3189" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1afcbfb7124a7521a67e4288f09c0d3189" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a94ba226fb47480589606c64af9a452a4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>surfaceOffset</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1af5e15f2d0601730acc8ef2877b7df923" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>surfaceOffset</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a4a61ca6638b26a9b50668b14ad936576" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshVoxelsConverter_1a78c7d60db8112be6b8caed1f145e56e8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVoxelsConverter</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

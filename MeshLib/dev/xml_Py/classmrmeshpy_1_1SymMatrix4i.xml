@@ -1,0 +1,968 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SymMatrix4i" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SymMatrix4i</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1a4fe15682072313f1ef207c4cad8032ef" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55339" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1ad3d9b18c94eaee8baafdd27c92b6af41" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_ww</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_ww</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_ww</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1afc5c4ee693be84590d07f9e7c5068b0d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_xw</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_xw</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1aafff69963eb4baf71e140257affa282f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_xx</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xx</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_xx</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1aa09a664f85f68a14b8d60413acc776e8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_xy</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xy</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_xy</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1ac484446328214eabbfb1539de5ae17ae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_xz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_xz</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1ab9274052377d50e1a36ea83294165e48" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_yw</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_yw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_yw</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1a29825d4d71a1fa890941fd6244c8523a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_yy</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_yy</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_yy</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1a29e60c35d740b7070ccf45bc87456b05" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_yz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_yz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_yz</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1ab5f39e9bd1c954ba988d75d3a9162dc4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_zw</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_zw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_zw</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix4i_1aaf01c7e7c402c4a6e4561a169ee0c9f0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix4i::_offsetof_zz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_zz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i._offsetof_zz</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55349" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a416f0fd03bec1c23389c241fef4e8e9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SymMatrix4i.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55351" bodyend="55352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a1957e8304594b836c1223026d58af3eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55355" bodyend="55356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a04e4ab0d4231b7e18ee25e2c987f8270" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.diagonal</definition>
+        <argsstring>(int diagVal)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.diagonal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>diagVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55358" bodyend="55359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1aabf6f3a9433b367253b29e9cf47d7299" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.identity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55361" bodyend="55362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a4f4238c8bebd02adc73d1554aa0829e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55365" bodyend="55366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a4f4238c8bebd02adc73d1554aa0829e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55369" bodyend="55370"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a87209bfc2d1281d05fb0d45b903c10bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.__iadd__</definition>
+        <argsstring>(self, SymMatrix4i b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55371" bodyend="55372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a70f1ef0aac8fabb1524824e4e3797746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.__imatmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55373" bodyend="55374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1ac0bbfd5c51f96b00fc094e7ec4773c5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55376" bodyend="55377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1af0b88effd50ece80f5d7c1f9c5a3955a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.__init__</definition>
+        <argsstring>(self, SymMatrix4i arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55379" bodyend="55382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1adbdb0348fbdb5b7006fc7691668ea4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.__isub__</definition>
+        <argsstring>(self, SymMatrix4i b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55383" bodyend="55384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1adc3ad31d88ca959e7bc5ed56c519827a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix4i" kindref="compound">SymMatrix4i</ref></type>
+        <definition> SymMatrix4i mrmeshpy.SymMatrix4i.__itruediv__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55385" bodyend="55386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a04939409fe3777a90e30de9a861ffdde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.normSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>normSq</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.normSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the squared norm of the matrix, which is equal to the sum of 16 squared elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55387" bodyend="55390"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1aabe9a481bc0dc2ef507b48c3a5b7dd64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.trace</definition>
+        <argsstring>(self)</argsstring>
+        <name>trace</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.trace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes trace of the matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55391" bodyend="55394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a730eb82651741ca2bfcb3f8599c1738f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.ww</definition>
+        <argsstring>(self)</argsstring>
+        <name>ww</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.ww</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55396" bodyend="55399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a26c175cd7b54d10976ad65311b104cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.ww</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>ww</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.ww</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55401" bodyend="55402"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a116c83e39b3132a240a52dc12e356c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.xw</definition>
+        <argsstring>(self)</argsstring>
+        <name>xw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xw</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55404" bodyend="55407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a8292f28f8d54a3172c6db8f87d2eca92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.xw</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xw</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55409" bodyend="55410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a53bc50d50c609cc75a758c53970b62f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.xx</definition>
+        <argsstring>(self)</argsstring>
+        <name>xx</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xx</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55412" bodyend="55415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1ae1b14e994020043b2dfe332ae6cfe183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.xx</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xx</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xx</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55417" bodyend="55418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a8ae765a7fd1802bd1b2c6cdb18ecfb73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.xy</definition>
+        <argsstring>(self)</argsstring>
+        <name>xy</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55420" bodyend="55423"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a5c29c3bd278f533300cf2e9aa1c9e207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.xy</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xy</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55425" bodyend="55426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a35cf217ce1dc14f5d4b6ee4efc5f3213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.xz</definition>
+        <argsstring>(self)</argsstring>
+        <name>xz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55428" bodyend="55431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1aa3019c347866a0badb2e6e8f097a6c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.xz</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.xz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55433" bodyend="55434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a9bb90fa95c6e7c0b8841795583609b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.yw</definition>
+        <argsstring>(self)</argsstring>
+        <name>yw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.yw</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55436" bodyend="55439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a314c35fb49e2f8c7ae0f1d7235c4b00b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.yw</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>yw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.yw</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55441" bodyend="55442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1ac27bcdea6c51ebba075539fd52626de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.yy</definition>
+        <argsstring>(self)</argsstring>
+        <name>yy</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.yy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55444" bodyend="55447"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a7e66a15c2890d66d9ccd659b61eaa52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.yy</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>yy</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.yy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55449" bodyend="55450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1aedc013ae33fcab9e3c8f30527ffe4fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.yz</definition>
+        <argsstring>(self)</argsstring>
+        <name>yz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.yz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55452" bodyend="55455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a6e209c2c1079d672cddaef4fca845c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.yz</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>yz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.yz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55457" bodyend="55458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a319f120561810efc5b9e67267f34cbd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.zw</definition>
+        <argsstring>(self)</argsstring>
+        <name>zw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.zw</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55460" bodyend="55463"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1ab357a8bf281b4f3585746af7f95db043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.zw</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>zw</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.zw</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55465" bodyend="55466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1a6c1c813430db3c36fd893e820df7e464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix4i.zz</definition>
+        <argsstring>(self)</argsstring>
+        <name>zz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.zz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55468" bodyend="55471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix4i_1ac0575c81cb573609d3844eb9ee3ccb7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix4i.zz</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>zz</name>
+        <qualifiedname>mrmeshpy.SymMatrix4i.zz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55473" bodyend="55474"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SymMatrix4i
+Aliases:  Vector4_int_SymMatrixType
+
+symmetric 4x4 matrix
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SymMatrix4i</label>
+        <link refid="classmrmeshpy_1_1SymMatrix4i"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_ww</edgelabel>
+          <edgelabel>_offsetof_xw</edgelabel>
+          <edgelabel>_offsetof_xx</edgelabel>
+          <edgelabel>_offsetof_xy</edgelabel>
+          <edgelabel>_offsetof_xz</edgelabel>
+          <edgelabel>_offsetof_yw</edgelabel>
+          <edgelabel>_offsetof_yy</edgelabel>
+          <edgelabel>_offsetof_yz</edgelabel>
+          <edgelabel>_offsetof_zw</edgelabel>
+          <edgelabel>_offsetof_zz</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55332" bodyend="55474"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a416f0fd03bec1c23389c241fef4e8e9a" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a4fe15682072313f1ef207c4cad8032ef" prot="private" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a87209bfc2d1281d05fb0d45b903c10bc" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a70f1ef0aac8fabb1524824e4e3797746" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a1957e8304594b836c1223026d58af3eb" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ac0bbfd5c51f96b00fc094e7ec4773c5c" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1af0b88effd50ece80f5d7c1f9c5a3955a" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1adbdb0348fbdb5b7006fc7691668ea4a1" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1adc3ad31d88ca959e7bc5ed56c519827a" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ad3d9b18c94eaee8baafdd27c92b6af41" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_ww</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1afc5c4ee693be84590d07f9e7c5068b0d" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_xw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aafff69963eb4baf71e140257affa282f" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_xx</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aa09a664f85f68a14b8d60413acc776e8" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_xy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ac484446328214eabbfb1539de5ae17ae" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_xz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ab9274052377d50e1a36ea83294165e48" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_yw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a29825d4d71a1fa890941fd6244c8523a" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_yy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a29e60c35d740b7070ccf45bc87456b05" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_yz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ab5f39e9bd1c954ba988d75d3a9162dc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_zw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aaf01c7e7c402c4a6e4561a169ee0c9f0" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>_offsetof_zz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a04e4ab0d4231b7e18ee25e2c987f8270" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>diagonal</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aabf6f3a9433b367253b29e9cf47d7299" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>identity</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a04939409fe3777a90e30de9a861ffdde" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>normSq</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a4f4238c8bebd02adc73d1554aa0829e8" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a4f4238c8bebd02adc73d1554aa0829e8" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aabe9a481bc0dc2ef507b48c3a5b7dd64" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>trace</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a730eb82651741ca2bfcb3f8599c1738f" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>ww</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a26c175cd7b54d10976ad65311b104cb5" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>ww</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a116c83e39b3132a240a52dc12e356c63" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a8292f28f8d54a3172c6db8f87d2eca92" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a53bc50d50c609cc75a758c53970b62f2" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xx</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ae1b14e994020043b2dfe332ae6cfe183" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xx</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a8ae765a7fd1802bd1b2c6cdb18ecfb73" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a5c29c3bd278f533300cf2e9aa1c9e207" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a35cf217ce1dc14f5d4b6ee4efc5f3213" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aa3019c347866a0badb2e6e8f097a6c8e" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>xz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a9bb90fa95c6e7c0b8841795583609b7d" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>yw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a314c35fb49e2f8c7ae0f1d7235c4b00b" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>yw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ac27bcdea6c51ebba075539fd52626de7" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>yy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a7e66a15c2890d66d9ccd659b61eaa52d" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>yy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1aedc013ae33fcab9e3c8f30527ffe4fd2" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>yz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a6e209c2c1079d672cddaef4fca845c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>yz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a319f120561810efc5b9e67267f34cbd4" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>zw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ab357a8bf281b4f3585746af7f95db043" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>zw</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1a6c1c813430db3c36fd893e820df7e464" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>zz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix4i_1ac0575c81cb573609d3844eb9ee3ccb7d" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i</scope><name>zz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

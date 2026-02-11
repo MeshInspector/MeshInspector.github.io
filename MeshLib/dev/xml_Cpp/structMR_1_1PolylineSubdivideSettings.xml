@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineSubdivideSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineSubdivideSettings</compoundname>
+    <includes refid="MRPolylineSubdivide_8h" local="no">MRPolylineSubdivide.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a508f0caa9ead99ba37cd6a62babca39f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PolylineSubdivideSettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::maxEdgeLen</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Subdivision is stopped when all edges are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1afd93804f4deac58fb3c9851426d2d9a3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::PolylineSubdivideSettings::maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::maxEdgeSplits</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+<para>Maximum number of edge splits allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="19" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a90d24e3763062fee365e69daf9f74b23" prot="public" static="no" mutable="no">
+        <type>VertBitSet *</type>
+        <definition>VertBitSet* MR::PolylineSubdivideSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Region on polyline to be subdivided: both edge vertices must be there to allow spitting, it is updated during the operation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a41c3020ba21d66919d363b5e261b2666" prot="public" static="no" mutable="no">
+        <type>VertBitSet *</type>
+        <definition>VertBitSet* MR::PolylineSubdivideSettings::newVerts</definition>
+        <argsstring></argsstring>
+        <name>newVerts</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::newVerts</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>New vertices appeared during subdivision will be added here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1abaf36082a394e79118a87b09054964e3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PolylineSubdivideSettings::useCurvature</definition>
+        <argsstring></argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::useCurvature</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This option works best for natural lines, where all segments have similar size, and no sharp angles in between </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a99ce30c33108d826ab31a84dcfb796e9" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(VertId)&gt;</type>
+        <definition>std::function&lt;void(VertId)&gt; MR::PolylineSubdivideSettings::onVertCreated</definition>
+        <argsstring></argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::onVertCreated</qualifiedname>
+        <briefdescription>
+<para>this function is called each time a new vertex has been created </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="29" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a6fb7e5a3cc422db6b191956e2e931bff" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
+        <definition>std::function&lt;void(EdgeId e1, EdgeId e)&gt; MR::PolylineSubdivideSettings::onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is split into (e1-&gt;e) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="31" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1afd1b05e15df328d6581de39d05ef0ba2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::PolylineSubdivideSettings::progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR::PolylineSubdivideSettings::progressCallback</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="33" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1a508f0caa9ead99ba37cd6a62babca39f" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1afd93804f4deac58fb3c9851426d2d9a3" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1a41c3020ba21d66919d363b5e261b2666" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1a6fb7e5a3cc422db6b191956e2e931bff" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1a99ce30c33108d826ab31a84dcfb796e9" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1afd1b05e15df328d6581de39d05ef0ba2" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1a90d24e3763062fee365e69daf9f74b23" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1PolylineSubdivideSettings_1abaf36082a394e79118a87b09054964e3" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>useCurvature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

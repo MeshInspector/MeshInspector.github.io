@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1InTreePathBuilder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::InTreePathBuilder</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InTreePathBuilder_1a98db02a499d6452c5a72800904f8f2e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InTreePathBuilder.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InTreePathBuilder.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24161" bodyend="24162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InTreePathBuilder_1a8de6f1c08d21befd71792d02f506e5b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InTreePathBuilder.__init__</definition>
+        <argsstring>(self, MeshTopology topology, UndirectedEdgeBitSet treeEdges)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InTreePathBuilder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>treeEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24164" bodyend="24165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InTreePathBuilder_1a875a29568cdc704a426c40c4fac559b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InTreePathBuilder.__init__</definition>
+        <argsstring>(self, InTreePathBuilder arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InTreePathBuilder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1InTreePathBuilder" kindref="compound">InTreePathBuilder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24167" bodyend="24170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InTreePathBuilder_1a163050bb9d58f0a490e2ba9b0a8427c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__EdgeTag" kindref="compound">std_vector_Id_EdgeTag</ref></type>
+        <definition> std_vector_Id_EdgeTag mrmeshpy.InTreePathBuilder.build</definition>
+        <argsstring>(self, VertId start, VertId finish)</argsstring>
+        <name>build</name>
+        <qualifiedname>mrmeshpy.InTreePathBuilder.build</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>finish</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the path in tree from start vertex to finish vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24171" bodyend="24174"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::InTreePathBuilder
+
+given a spanning tree of edges in the mesh (or forest in case of several connected components),
+prepares to build quickly a path along tree edges between any two vertices
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24152" bodyend="24174"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1InTreePathBuilder_1a98db02a499d6452c5a72800904f8f2e4" prot="public" virt="non-virtual"><scope>mrmeshpy::InTreePathBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InTreePathBuilder_1a8de6f1c08d21befd71792d02f506e5b9" prot="public" virt="non-virtual"><scope>mrmeshpy::InTreePathBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InTreePathBuilder_1a875a29568cdc704a426c40c4fac559b5" prot="public" virt="non-virtual"><scope>mrmeshpy::InTreePathBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InTreePathBuilder_1a163050bb9d58f0a490e2ba9b0a8427c6" prot="public" virt="non-virtual"><scope>mrmeshpy::InTreePathBuilder</scope><name>build</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

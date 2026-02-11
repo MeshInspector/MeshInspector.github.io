@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BendTextAlongCurveParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BendTextAlongCurveParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad7f32786e3cd387f95a6664ee8cd6309" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_fontBasedSizeCalc</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fontBasedSizeCalc</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_fontBasedSizeCalc</qualifiedname>
+        <initializer>=  116</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2971" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a02410d1b9aee4db9d5d42ec0dd37b2b1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_fontHeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fontHeight</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_fontHeight</qualifiedname>
+        <initializer>=  108</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1af5295d77699880a7ee80a3bce1904b9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_periodicCurve</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_periodicCurve</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_periodicCurve</qualifiedname>
+        <initializer>=  117</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2973" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a0c8a1e809b204c8505d624e6ebc01b47" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_pivotBoxPoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pivotBoxPoint</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_pivotBoxPoint</qualifiedname>
+        <initializer>=  100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2974" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad8b4b9a2e8f48f51f513a4894c293f34" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_pivotCurveTime</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pivotCurveTime</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_pivotCurveTime</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2975" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1aeb9702557ef2027d41690bb524348763" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_stretch</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stretch</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_stretch</qualifiedname>
+        <initializer>=  118</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2976" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a64d315fd33f7dd88ec4d545d30c8f071" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_surfaceOffset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_surfaceOffset</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_surfaceOffset</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2977" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad484154ff655f29c0d5422888639b732" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendTextAlongCurveParams::_offsetof_symbolMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_symbolMesh</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams._offsetof_symbolMesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2978" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a6f29455bd96a8c2e19a3e83ddd1b9df1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2981" bodyend="2982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad850cac032b0395603187496ffe220e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BendTextAlongCurveParams" kindref="compound">BendTextAlongCurveParams</ref></type>
+        <definition> BendTextAlongCurveParams mrmeshpy.BendTextAlongCurveParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2985" bodyend="2986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad850cac032b0395603187496ffe220e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BendTextAlongCurveParams" kindref="compound">BendTextAlongCurveParams</ref></type>
+        <definition> BendTextAlongCurveParams mrmeshpy.BendTextAlongCurveParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2989" bodyend="2990"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a0485a070f510a3220a507eb1138deb23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2992" bodyend="2993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a3b6cbb91582e5ea3c1387c7c3b7011da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.__init__</definition>
+        <argsstring>(self, BendTextAlongCurveParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BendTextAlongCurveParams" kindref="compound">BendTextAlongCurveParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2995" bodyend="2998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a4d336b3b2af61ac0a632db7b72310046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.__init__</definition>
+        <argsstring>(self, SymbolMeshParams symbolMesh, float pivotCurveTime, Vector2f pivotBoxPoint, float fontHeight, float surfaceOffset, bool fontBasedSizeCalc, bool periodicCurve, bool stretch)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+          <declname>symbolMesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pivotCurveTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>pivotBoxPoint</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fontHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>surfaceOffset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fontBasedSizeCalc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>periodicCurve</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stretch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3000" bodyend="3003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a84519ec24abfcc5cd7001e72d9a00e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BendTextAlongCurveParams.fontBasedSizeCalc</definition>
+        <argsstring>(self)</argsstring>
+        <name>fontBasedSizeCalc</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.fontBasedSizeCalc</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3005" bodyend="3008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a26c9a290d5ec9788f337f68a4c8f87f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.fontBasedSizeCalc</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>fontBasedSizeCalc</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.fontBasedSizeCalc</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3010" bodyend="3011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a1d9f501fe66600459b871b6f6e4b6c54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BendTextAlongCurveParams.fontHeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>fontHeight</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.fontHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Font height, meters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3013" bodyend="3016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad010e430eeb58700109a443c223fede0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.fontHeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>fontHeight</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.fontHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3018" bodyend="3019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a6a95cb8ba295759ccdead32bc39c35db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BendTextAlongCurveParams.periodicCurve</definition>
+        <argsstring>(self)</argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.periodicCurve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3021" bodyend="3024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a7420ea367c37d3413619d187fb4e13fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.periodicCurve</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.periodicCurve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3026" bodyend="3027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a438ededd281363afbdfe69e4cef2a6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.BendTextAlongCurveParams.pivotBoxPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.pivotBoxPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Position of the curve(pivotCurveTime) in the test&apos; bounding box:
+(0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3029" bodyend="3033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a309310d47897e85901e441324bb930db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.pivotBoxPoint</definition>
+        <argsstring>(self, Vector2f arg1)</argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.pivotBoxPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3035" bodyend="3036"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a01b838e8b60db2cee7c3abb96ae3c509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BendTextAlongCurveParams.pivotCurveTime</definition>
+        <argsstring>(self)</argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.pivotCurveTime</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Position on the curve, where bounding box&apos;s pivot point is mapped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3038" bodyend="3041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a9de460416049d863b11c06c77db39892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.pivotCurveTime</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.pivotCurveTime</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3043" bodyend="3044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a08205262dcaec7155e2b851d70cc5998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BendTextAlongCurveParams.stretch</definition>
+        <argsstring>(self)</argsstring>
+        <name>stretch</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.stretch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>stretch whole text along curve to fit in unit curve range
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3046" bodyend="3049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a8350660a5a9649fa2609d36c4ec486ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.stretch</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>stretch</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.stretch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3051" bodyend="3052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1af39b8b6ff296f4f25826639a0e41a186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BendTextAlongCurveParams.surfaceOffset</definition>
+        <argsstring>(self)</argsstring>
+        <name>surfaceOffset</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.surfaceOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Text mesh inside and outside offset of curve&apos;s surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3054" bodyend="3057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1ad17d7a6e994d3168f1515d154bc1a92d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.surfaceOffset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>surfaceOffset</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.surfaceOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3059" bodyend="3060"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1abaf7e87ec73f46e0bf53ef22a79843d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+        <definition> SymbolMeshParams mrmeshpy.BendTextAlongCurveParams.symbolMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>symbolMesh</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.symbolMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>parameters of contours to mesh conversion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3062" bodyend="3065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendTextAlongCurveParams_1a8ea764d51cf4fb3ee497968ef64e5f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendTextAlongCurveParams.symbolMesh</definition>
+        <argsstring>(self, SymbolMeshParams arg1)</argsstring>
+        <name>symbolMesh</name>
+        <qualifiedname>mrmeshpy.BendTextAlongCurveParams.symbolMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3067" bodyend="3068"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BendTextAlongCurveParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BendTextAlongCurveParams</label>
+        <link refid="classmrmeshpy_1_1BendTextAlongCurveParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_fontBasedSizeCalc</edgelabel>
+          <edgelabel>_offsetof_fontHeight</edgelabel>
+          <edgelabel>_offsetof_periodicCurve</edgelabel>
+          <edgelabel>_offsetof_pivotBoxPoint</edgelabel>
+          <edgelabel>_offsetof_pivotCurveTime</edgelabel>
+          <edgelabel>_offsetof_stretch</edgelabel>
+          <edgelabel>_offsetof_surfaceOffset</edgelabel>
+          <edgelabel>_offsetof_symbolMesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2967" bodyend="3068"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a6f29455bd96a8c2e19a3e83ddd1b9df1" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a0485a070f510a3220a507eb1138deb23" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a3b6cbb91582e5ea3c1387c7c3b7011da" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a4d336b3b2af61ac0a632db7b72310046" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad7f32786e3cd387f95a6664ee8cd6309" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_fontBasedSizeCalc</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a02410d1b9aee4db9d5d42ec0dd37b2b1" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_fontHeight</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1af5295d77699880a7ee80a3bce1904b9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_periodicCurve</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a0c8a1e809b204c8505d624e6ebc01b47" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_pivotBoxPoint</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad8b4b9a2e8f48f51f513a4894c293f34" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_pivotCurveTime</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1aeb9702557ef2027d41690bb524348763" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_stretch</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a64d315fd33f7dd88ec4d545d30c8f071" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_surfaceOffset</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad484154ff655f29c0d5422888639b732" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>_offsetof_symbolMesh</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a84519ec24abfcc5cd7001e72d9a00e28" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>fontBasedSizeCalc</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a26c9a290d5ec9788f337f68a4c8f87f8" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>fontBasedSizeCalc</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a1d9f501fe66600459b871b6f6e4b6c54" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>fontHeight</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad010e430eeb58700109a443c223fede0" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>fontHeight</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad850cac032b0395603187496ffe220e0" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad850cac032b0395603187496ffe220e0" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a6a95cb8ba295759ccdead32bc39c35db" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a7420ea367c37d3413619d187fb4e13fe" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a438ededd281363afbdfe69e4cef2a6ad" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a309310d47897e85901e441324bb930db" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a01b838e8b60db2cee7c3abb96ae3c509" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a9de460416049d863b11c06c77db39892" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a08205262dcaec7155e2b851d70cc5998" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>stretch</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a8350660a5a9649fa2609d36c4ec486ef" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>stretch</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1af39b8b6ff296f4f25826639a0e41a186" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>surfaceOffset</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1ad17d7a6e994d3168f1515d154bc1a92d" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>surfaceOffset</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1abaf7e87ec73f46e0bf53ef22a79843d2" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>symbolMesh</name></member>
+      <member refid="classmrmeshpy_1_1BendTextAlongCurveParams_1a8ea764d51cf4fb3ee497968ef64e5f18" prot="public" virt="non-virtual"><scope>mrmeshpy::BendTextAlongCurveParams</scope><name>symbolMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

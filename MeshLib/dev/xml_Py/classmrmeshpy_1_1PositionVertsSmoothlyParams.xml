@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PositionVertsSmoothlyParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PositionVertsSmoothlyParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a1b935596d6bf76a42da1ca5690f57e1d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionVertsSmoothlyParams::_offsetof_edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeWeights</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams._offsetof_edgeWeights</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a468a1dbbcf92a5d70f74b75a5ecaae1d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionVertsSmoothlyParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams._offsetof_region</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a254a4b2afad0000f0404af59f8c70e91" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionVertsSmoothlyParams::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams._offsetof_stabilizer</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ac39bf8cbd89c9e8b3d8acbe9e7e2aed2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionVertsSmoothlyParams::_offsetof_vertShifts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertShifts</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams._offsetof_vertShifts</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47865" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3054b877692e2a6b39b3fb4797095c3e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionVertsSmoothlyParams::_offsetof_vertStabilizers</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertStabilizers</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams._offsetof_vertStabilizers</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47866" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a30611fe26c744b6f2c2f111db370f83a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47869" bodyend="47870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3fb5658844a4ab86093be8ebfdcc8fef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref></type>
+        <definition> PositionVertsSmoothlyParams mrmeshpy.PositionVertsSmoothlyParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47873" bodyend="47874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3fb5658844a4ab86093be8ebfdcc8fef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref></type>
+        <definition> PositionVertsSmoothlyParams mrmeshpy.PositionVertsSmoothlyParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47877" bodyend="47878"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a4ce7694db0a012e278a548fc06963213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47880" bodyend="47881"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ad2bb0877451ea53954ba22f4b3925471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.__init__</definition>
+        <argsstring>(self, PositionVertsSmoothlyParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PositionVertsSmoothlyParams" kindref="compound">PositionVertsSmoothlyParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47883" bodyend="47886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a8138f23da96814eed3eebfd94bb678e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.__init__</definition>
+        <argsstring>(self, VertBitSet region, VertCoords vertShifts, float stabilizer, func_float_from_Id_VertTag vertStabilizers, func_float_from_Id_UndirectedEdgeTag edgeWeights)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>vertShifts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+          <declname>vertStabilizers</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+          <declname>edgeWeights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47888" bodyend="47891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a4e153569572928d9b6ae0a1491b3b5f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+        <definition> func_float_from_Id_UndirectedEdgeTag mrmeshpy.PositionVertsSmoothlyParams.edgeWeights</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.edgeWeights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if specified then it is used for edge weights instead of default 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47893" bodyend="47896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1af18bd5e0debef86072b4770320ecb130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.edgeWeights</definition>
+        <argsstring>(self, func_float_from_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.edgeWeights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47898" bodyend="47899"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ab85516693d51e30da33bffe3de6e7c79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PositionVertsSmoothlyParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>which vertices on mesh are smoothed, nullptr means all vertices;
+it must not include all vertices of a mesh connected component unless stabilizer &gt; 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47901" bodyend="47905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a0e9d3863d02c121bd6438244bdff36a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47907" bodyend="47908"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ab1e0b2e3fc19c879a98b25efad3e59d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PositionVertsSmoothlyParams.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the more the value, the bigger attraction of each vertex to its original position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47910" bodyend="47913"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a7ee6f5b233894c5f435bac3b541b6a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47915" bodyend="47916"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a8c97645d26575cb1ff2299b2324469f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.PositionVertsSmoothlyParams.vertShifts</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertShifts</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.vertShifts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional additional shifts of each vertex relative to smooth position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47918" bodyend="47921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3d6811ef57d1e864eddefe3715164d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.vertShifts</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>vertShifts</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.vertShifts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47923" bodyend="47924"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a5603abab8726208b4f26335137d71c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+        <definition> func_float_from_Id_VertTag mrmeshpy.PositionVertsSmoothlyParams.vertStabilizers</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertStabilizers</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.vertStabilizers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if specified then it is used instead of \\p stabilizer
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47926" bodyend="47929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionVertsSmoothlyParams_1abd4ca3c9e08a4af467f061a2c8b3acf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionVertsSmoothlyParams.vertStabilizers</definition>
+        <argsstring>(self, func_float_from_Id_VertTag arg1)</argsstring>
+        <name>vertStabilizers</name>
+        <qualifiedname>mrmeshpy.PositionVertsSmoothlyParams.vertStabilizers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47931" bodyend="47932"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PositionVertsSmoothlyParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PositionVertsSmoothlyParams</label>
+        <link refid="classmrmeshpy_1_1PositionVertsSmoothlyParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_edgeWeights</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_stabilizer</edgelabel>
+          <edgelabel>_offsetof_vertShifts</edgelabel>
+          <edgelabel>_offsetof_vertStabilizers</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47858" bodyend="47932"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a30611fe26c744b6f2c2f111db370f83a" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a4ce7694db0a012e278a548fc06963213" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ad2bb0877451ea53954ba22f4b3925471" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a8138f23da96814eed3eebfd94bb678e8" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a1b935596d6bf76a42da1ca5690f57e1d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>_offsetof_edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a468a1dbbcf92a5d70f74b75a5ecaae1d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a254a4b2afad0000f0404af59f8c70e91" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ac39bf8cbd89c9e8b3d8acbe9e7e2aed2" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>_offsetof_vertShifts</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3054b877692e2a6b39b3fb4797095c3e" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>_offsetof_vertStabilizers</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a4e153569572928d9b6ae0a1491b3b5f2" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1af18bd5e0debef86072b4770320ecb130" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3fb5658844a4ab86093be8ebfdcc8fef" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3fb5658844a4ab86093be8ebfdcc8fef" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ab85516693d51e30da33bffe3de6e7c79" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a0e9d3863d02c121bd6438244bdff36a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1ab1e0b2e3fc19c879a98b25efad3e59d1" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a7ee6f5b233894c5f435bac3b541b6a3c" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a8c97645d26575cb1ff2299b2324469f6" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>vertShifts</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a3d6811ef57d1e864eddefe3715164d0a" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>vertShifts</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1a5603abab8726208b4f26335137d71c25" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>vertStabilizers</name></member>
+      <member refid="classmrmeshpy_1_1PositionVertsSmoothlyParams_1abd4ca3c9e08a4af467f061a2c8b3acf3" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionVertsSmoothlyParams</scope><name>vertStabilizers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

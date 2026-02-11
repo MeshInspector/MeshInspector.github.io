@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WriteRawTiffParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WriteRawTiffParams</compoundname>
+    <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WriteRawTiffParams_1ae3407cfb581b97a1d15af1dcda46f310" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref></type>
+        <definition>BaseTiffParameters MR::WriteRawTiffParams::baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>MR::WriteRawTiffParams::baseParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="80" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WriteRawTiffParams_1aaed0d8c11f3aa7212b03821592cd28f0" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::WriteRawTiffParams::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::WriteRawTiffParams::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional transformation data written to GeoTIFF&apos;s ModelTransformationTag </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="82" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WriteRawTiffParams_1a1317e078308acc1053202597ce0c7fc5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::WriteRawTiffParams::noData</definition>
+        <argsstring></argsstring>
+        <name>noData</name>
+        <qualifiedname>MR::WriteRawTiffParams::noData</qualifiedname>
+        <briefdescription>
+<para>optional NoData value written to GDAL_NODATA </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="84" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseTiffParameters</label>
+        <link refid="structMR_1_1BaseTiffParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::WriteRawTiffParams</label>
+        <link refid="structMR_1_1WriteRawTiffParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="79" bodyend="85"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WriteRawTiffParams_1ae3407cfb581b97a1d15af1dcda46f310" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>baseParams</name></member>
+      <member refid="structMR_1_1WriteRawTiffParams_1a1317e078308acc1053202597ce0c7fc5" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>noData</name></member>
+      <member refid="structMR_1_1WriteRawTiffParams_1aaed0d8c11f3aa7212b03821592cd28f0" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshExtrude_8h" kind="file" language="C++">
+    <compoundname>MRMeshExtrude.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMeshExtrude.h</label>
+        <link refid="MRMeshExtrude_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshExtrude_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="11" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshExtrude_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="12" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshExtrude_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="13" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshExtrude_8h_1a4b90f49d08ad220afcccf3e064a60cdd" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref></type>
+        <definition>typedef struct MR_phmap_flat_hash_map_MR_VertId_MR_VertId MR_phmap_flat_hash_map_MR_VertId_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="14" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" prot="public" static="no">
+        <type>struct <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref></type>
+        <definition>typedef struct MR_MakeDegenerateBandAroundRegionParams MR_MakeDegenerateBandAroundRegionParams</definition>
+        <argsstring></argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="20" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshExtrude_8h_1af55877e1fb7246ddfce49998ed9bc68d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API MR_FaceBitSet *const  * MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="26" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="26" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1aa2f68b4cc54cf356c8c8e9f51e5d11fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MakeDegenerateBandAroundRegionParams_Set_outNewFaces</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this, MR_FaceBitSet *value)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Set_outNewFaces</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outNewFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="33" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1ade3cbb63a21ef23bb2380676fa2207c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API MR_FaceBitSet ** MR_MakeDegenerateBandAroundRegionParams_GetMutable_outNewFaces</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_GetMutable_outNewFaces</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="39" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="39" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1aa78c6641dca1ff402b075fb6b441bd5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet *const  * MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outExtrudedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="45" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="45" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1af8a121ad62e65d58cc24606eecb1c936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MakeDegenerateBandAroundRegionParams_Set_outExtrudedEdges</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this, MR_UndirectedEdgeBitSet *value)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Set_outExtrudedEdges</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outExtrudedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outExtrudedEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outExtrudedEdges</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a1cd283dbf673d2f082dbd23ac062bdca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet ** MR_MakeDegenerateBandAroundRegionParams_GetMutable_outExtrudedEdges</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_GetMutable_outExtrudedEdges</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outExtrudedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="58" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="58" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1ad415c8c69e696c2c3be8cdfa63b649b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *const *</type>
+        <definition>MRC_API float *const  * MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>maxEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="64" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="64" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1ae491d5d6271af8b87d9a79701703b797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MakeDegenerateBandAroundRegionParams_Set_maxEdgeLength</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this, float *value)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Set_maxEdgeLength</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>maxEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxEdgeLength</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLength</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a1d242455e8d600989702e71b152f5538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float **</type>
+        <definition>MRC_API float ** MR_MakeDegenerateBandAroundRegionParams_GetMutable_maxEdgeLength</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_GetMutable_maxEdgeLength</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>maxEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="77" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="77" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a953614c73ea204cb08dd790659471a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref> *const *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_VertId_MR_VertId *const  * MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="83" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="83" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a70a0d8fbcc2efc09f7b9b7cd3b7138e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MakeDegenerateBandAroundRegionParams_Set_new2OldMap</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this, MR_phmap_flat_hash_map_MR_VertId_MR_VertId *value)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Set_new2OldMap</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2OldMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2OldMap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a12cf272a3ed69ce82f3d023786909240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref> **</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_VertId_MR_VertId ** MR_MakeDegenerateBandAroundRegionParams_GetMutable_new2OldMap</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_GetMutable_new2OldMap</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="96" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="96" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1af82b7937c1f7cd144e69b2204e70b476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="100" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="100" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a3455364bc18401d2978549c09277bb17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshExtrude_8h_1aacd12a726e41e3d598b9534ee761bd14" kindref="member">MR_MakeDegenerateBandAroundRegionParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshExtrude_8h_1a7844faa9a1327dc510227431f14aea84" kindref="member">MR_MakeDegenerateBandAroundRegionParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshExtrude_8h_1aebb8dc69377fb0b2b63043bc905987f8" kindref="member">MR_MakeDegenerateBandAroundRegionParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="105" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="105" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a4c28b45f4813a5058e5294c071e1aa3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</definition>
+        <argsstring>(MR_FaceBitSet *outNewFaces, MR_UndirectedEdgeBitSet *outExtrudedEdges, float *maxEdgeLength, MR_phmap_flat_hash_map_MR_VertId_MR_VertId *new2OldMap)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>outNewFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>outExtrudedEdges</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>maxEdgeLength</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref> *</type>
+          <declname>new2OldMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> elementwise. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outExtrudedEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxEdgeLength</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2OldMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="114" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="114" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1aebb8dc69377fb0b2b63043bc905987f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API const MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_OffsetPtr</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="118" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="118" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a7844faa9a1327dc510227431f14aea84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="122" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="122" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1ada5b9846a4ca6c72706a3784fe2fdd07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_other)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MakeDegenerateBandAroundRegionParams::MakeDegenerateBandAroundRegionParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="128" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="128" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MakeDegenerateBandAroundRegionParams_Destroy</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MakeDegenerateBandAroundRegionParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="131" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1aacd12a726e41e3d598b9534ee761bd14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MakeDegenerateBandAroundRegionParams_DestroyArray</definition>
+        <argsstring>(const MR_MakeDegenerateBandAroundRegionParams *_this)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MakeDegenerateBandAroundRegionParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="134" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1aedfe80446ac3010dad9b824eee76e537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+        <definition>MRC_API MR_MakeDegenerateBandAroundRegionParams * MR_MakeDegenerateBandAroundRegionParams_AssignFromAnother</definition>
+        <argsstring>(MR_MakeDegenerateBandAroundRegionParams *_this, const MR_MakeDegenerateBandAroundRegionParams *_other)</argsstring>
+        <name>MR_MakeDegenerateBandAroundRegionParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MakeDegenerateBandAroundRegionParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="142" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="142" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshExtrude_8h_1a39d2b29b3ecfd98e0dbc9567bb79d00d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_makeDegenerateBandAroundRegion</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_FaceBitSet *region, const MR_MakeDegenerateBandAroundRegionParams *params)</argsstring>
+        <name>MR_makeDegenerateBandAroundRegion</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Create a band of degenerate faces along the border of the specified region and the rest of the mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The function is useful for extruding the region without changing the existing faces and creating holes</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the target mesh </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the region required to be separated by a band of degenerate faces </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output parameters Generated from function <computeroutput>MR::makeDegenerateBandAroundRegion</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h" declline="157" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRMeshExtrude_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRMeshExtrude_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRMeshExtrude_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMeshExtrude_8h_1a4b90f49d08ad220afcccf3e064a60cdd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref><sp/><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_MR_VertId_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>holds<sp/>together<sp/>settings<sp/>for<sp/>makeDegenerateBandAroundRegion</highlight></codeline>
+<codeline lineno="20" refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>output<sp/>newly<sp/>generated<sp/>faces</highlight></codeline>
+<codeline lineno="26" refid="MRMeshExtrude_8h_1af55877e1fb7246ddfce49998ed9bc68d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshExtrude_8h_1af55877e1fb7246ddfce49998ed9bc68d" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>output<sp/>newly<sp/>generated<sp/>faces</highlight></codeline>
+<codeline lineno="33" refid="MRMeshExtrude_8h_1aa2f68b4cc54cf356c8c8e9f51e5d11fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1aa2f68b4cc54cf356c8c8e9f51e5d11fc" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Set_outNewFaces</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>output<sp/>newly<sp/>generated<sp/>faces</highlight></codeline>
+<codeline lineno="39" refid="MRMeshExtrude_8h_1ade3cbb63a21ef23bb2380676fa2207c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshExtrude_8h_1ade3cbb63a21ef23bb2380676fa2207c5" kindref="member">MR_MakeDegenerateBandAroundRegionParams_GetMutable_outNewFaces</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>output<sp/>edges<sp/>orthogonal<sp/>to<sp/>the<sp/>boundary</highlight></codeline>
+<codeline lineno="45" refid="MRMeshExtrude_8h_1aa78c6641dca1ff402b075fb6b441bd5f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshExtrude_8h_1aa78c6641dca1ff402b075fb6b441bd5f" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>output<sp/>edges<sp/>orthogonal<sp/>to<sp/>the<sp/>boundary</highlight></codeline>
+<codeline lineno="52" refid="MRMeshExtrude_8h_1af8a121ad62e65d58cc24606eecb1c936" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1af8a121ad62e65d58cc24606eecb1c936" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Set_outExtrudedEdges</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>output<sp/>edges<sp/>orthogonal<sp/>to<sp/>the<sp/>boundary</highlight></codeline>
+<codeline lineno="58" refid="MRMeshExtrude_8h_1a1cd283dbf673d2f082dbd23ac062bdca" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshExtrude_8h_1a1cd283dbf673d2f082dbd23ac062bdca" kindref="member">MR_MakeDegenerateBandAroundRegionParams_GetMutable_outExtrudedEdges</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>return<sp/>legth<sp/>of<sp/>the<sp/>longest<sp/>edges<sp/>from<sp/>the<sp/>boundary<sp/>of<sp/>the<sp/>region</highlight></codeline>
+<codeline lineno="64" refid="MRMeshExtrude_8h_1ad415c8c69e696c2c3be8cdfa63b649b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshExtrude_8h_1ad415c8c69e696c2c3be8cdfa63b649b0" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>return<sp/>legth<sp/>of<sp/>the<sp/>longest<sp/>edges<sp/>from<sp/>the<sp/>boundary<sp/>of<sp/>the<sp/>region</highlight></codeline>
+<codeline lineno="71" refid="MRMeshExtrude_8h_1ae491d5d6271af8b87d9a79701703b797" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae491d5d6271af8b87d9a79701703b797" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Set_maxEdgeLength</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>return<sp/>legth<sp/>of<sp/>the<sp/>longest<sp/>edges<sp/>from<sp/>the<sp/>boundary<sp/>of<sp/>the<sp/>region</highlight></codeline>
+<codeline lineno="77" refid="MRMeshExtrude_8h_1a1d242455e8d600989702e71b152f5538" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>**<ref refid="MRMeshExtrude_8h_1a1d242455e8d600989702e71b152f5538" kindref="member">MR_MakeDegenerateBandAroundRegionParams_GetMutable_maxEdgeLength</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>map<sp/>of<sp/>new<sp/>vertices<sp/>to<sp/>old<sp/>ones</highlight></codeline>
+<codeline lineno="83" refid="MRMeshExtrude_8h_1a953614c73ea204cb08dd790659471a39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshExtrude_8h_1a953614c73ea204cb08dd790659471a39" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>map<sp/>of<sp/>new<sp/>vertices<sp/>to<sp/>old<sp/>ones</highlight></codeline>
+<codeline lineno="90" refid="MRMeshExtrude_8h_1a70a0d8fbcc2efc09f7b9b7cd3b7138e8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1a70a0d8fbcc2efc09f7b9b7cd3b7138e8" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Set_new2OldMap</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(optional)<sp/>map<sp/>of<sp/>new<sp/>vertices<sp/>to<sp/>old<sp/>ones</highlight></codeline>
+<codeline lineno="96" refid="MRMeshExtrude_8h_1a12cf272a3ed69ce82f3d023786909240" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref><sp/>**<ref refid="MRMeshExtrude_8h_1a12cf272a3ed69ce82f3d023786909240" kindref="member">MR_MakeDegenerateBandAroundRegionParams_GetMutable_new2OldMap</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRMeshExtrude_8h_1af82b7937c1f7cd144e69b2204e70b476" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1af82b7937c1f7cd144e69b2204e70b476" kindref="member">MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRMeshExtrude_8h_1a3455364bc18401d2978549c09277bb17" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1a3455364bc18401d2978549c09277bb17" kindref="member">MR_MakeDegenerateBandAroundRegionParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRMeshExtrude_8h_1a4c28b45f4813a5058e5294c071e1aa3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1a4c28b45f4813a5058e5294c071e1aa3f" kindref="member">MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</ref>(<ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outNewFaces,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outExtrudedEdges,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*maxEdgeLength,<sp/><ref refid="MRBitSet_8h_1a4b90f49d08ad220afcccf3e064a60cdd" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</ref><sp/>*new2OldMap);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRMeshExtrude_8h_1aebb8dc69377fb0b2b63043bc905987f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1aebb8dc69377fb0b2b63043bc905987f8" kindref="member">MR_MakeDegenerateBandAroundRegionParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMeshExtrude_8h_1a7844faa9a1327dc510227431f14aea84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1a7844faa9a1327dc510227431f14aea84" kindref="member">MR_MakeDegenerateBandAroundRegionParams_OffsetMutablePtr</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRMeshExtrude_8h_1ada5b9846a4ca6c72706a3784fe2fdd07" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1ada5b9846a4ca6c72706a3784fe2fdd07" kindref="member">MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRMeshExtrude_8h_1aacd12a726e41e3d598b9534ee761bd14" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1aacd12a726e41e3d598b9534ee761bd14" kindref="member">MR_MakeDegenerateBandAroundRegionParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRMeshExtrude_8h_1aedfe80446ac3010dad9b824eee76e537" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*<ref refid="MRMeshExtrude_8h_1aedfe80446ac3010dad9b824eee76e537" kindref="member">MR_MakeDegenerateBandAroundRegionParams_AssignFromAnother</ref>(<ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRMeshExtrude_8h_1a39d2b29b3ecfd98e0dbc9567bb79d00d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1a39d2b29b3ecfd98e0dbc9567bb79d00d" kindref="member">MR_makeDegenerateBandAroundRegion</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshExtrude_8h_1ae6d6541454dfea770db08a45a78dac80" kindref="member">MR_MakeDegenerateBandAroundRegionParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshExtrude.h"/>
+  </compounddef>
+</doxygen>

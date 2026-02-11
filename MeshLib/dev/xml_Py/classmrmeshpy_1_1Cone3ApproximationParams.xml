@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Cone3ApproximationParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Cone3ApproximationParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3ApproximationParams_1ae8666155afd78dfc4501ca33acf2cac8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3ApproximationParams::_offsetof_coneFitterType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_coneFitterType</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams._offsetof_coneFitterType</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3ApproximationParams_1aa3ffd7df07f23792aebd3c9c4fb2cf5a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3ApproximationParams::_offsetof_hemisphereSearchPhiResolution</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_hemisphereSearchPhiResolution</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams._offsetof_hemisphereSearchPhiResolution</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3ApproximationParams_1a7dca09f26effb52f71dbabae6edfbb28" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3ApproximationParams::_offsetof_hemisphereSearchThetaResolution</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_hemisphereSearchThetaResolution</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams._offsetof_hemisphereSearchThetaResolution</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3ApproximationParams_1a344c57290c4a2381e09f2ea54470c31c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3ApproximationParams::_offsetof_levenbergMarquardtMaxIteration</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_levenbergMarquardtMaxIteration</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams._offsetof_levenbergMarquardtMaxIteration</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3ApproximationParams_1a4cf5677de1bc80b31b628f0687c13545" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3ApproximationParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10190" bodyend="10191"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3ApproximationParams_1afe92fd60a0da07300fe6dc710985da91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Cone3ApproximationParams" kindref="compound">Cone3ApproximationParams</ref></type>
+        <definition> Cone3ApproximationParams mrmeshpy.Cone3ApproximationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10194" bodyend="10195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3ApproximationParams_1afe92fd60a0da07300fe6dc710985da91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Cone3ApproximationParams" kindref="compound">Cone3ApproximationParams</ref></type>
+        <definition> Cone3ApproximationParams mrmeshpy.Cone3ApproximationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10198" bodyend="10199"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3ApproximationParams_1aded8cf277ea80dd3d42c8231d862194f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3ApproximationParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10201" bodyend="10202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3ApproximationParams_1ab1e44ba06f1716083bb035c7ea62ff70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3ApproximationParams.__init__</definition>
+        <argsstring>(self, Cone3ApproximationParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Cone3ApproximationParams" kindref="compound">Cone3ApproximationParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10204" bodyend="10207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3ApproximationParams_1ab270661943b8e218a1c495d335d34942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3ApproximationParams.__init__</definition>
+        <argsstring>(self, int levenbergMarquardtMaxIteration, ConeFitterType coneFitterType, int hemisphereSearchPhiResolution, int hemisphereSearchThetaResolution)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3ApproximationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>levenbergMarquardtMaxIteration</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConeFitterType" kindref="compound">ConeFitterType</ref></type>
+          <declname>coneFitterType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hemisphereSearchPhiResolution</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hemisphereSearchThetaResolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10209" bodyend="10212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cone3ApproximationParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Cone3ApproximationParams</label>
+        <link refid="classmrmeshpy_1_1Cone3ApproximationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_coneFitterType</edgelabel>
+          <edgelabel>_offsetof_hemisphereSearchPhiResolution</edgelabel>
+          <edgelabel>_offsetof_hemisphereSearchThetaResolution</edgelabel>
+          <edgelabel>_offsetof_levenbergMarquardtMaxIteration</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10176" bodyend="10212"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1a4cf5677de1bc80b31b628f0687c13545" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1aded8cf277ea80dd3d42c8231d862194f" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1ab1e44ba06f1716083bb035c7ea62ff70" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1ab270661943b8e218a1c495d335d34942" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1ae8666155afd78dfc4501ca33acf2cac8" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>_offsetof_coneFitterType</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1aa3ffd7df07f23792aebd3c9c4fb2cf5a" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>_offsetof_hemisphereSearchPhiResolution</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1a7dca09f26effb52f71dbabae6edfbb28" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>_offsetof_hemisphereSearchThetaResolution</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1a344c57290c4a2381e09f2ea54470c31c" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>_offsetof_levenbergMarquardtMaxIteration</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1afe92fd60a0da07300fe6dc710985da91" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Cone3ApproximationParams_1afe92fd60a0da07300fe6dc710985da91" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3ApproximationParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

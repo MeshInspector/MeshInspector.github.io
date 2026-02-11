@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshToVolumeParams::Type</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1ab6f890e21107c30a7ea2d9952c21804d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToVolumeParams.Type::Signed</definition>
+        <argsstring></argsstring>
+        <name>Signed</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.Signed</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type" kindref="compound">MeshToVolumeParams.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a7d7c8ea2cad7d0d234a86f46dd4d6a69" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToVolumeParams.Type::Unsigned</definition>
+        <argsstring></argsstring>
+        <name>Unsigned</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.Unsigned</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type" kindref="compound">MeshToVolumeParams.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34668" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1ab82060329abd079747cd59bb34ce8d89" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToVolumeParams.Type::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type" kindref="compound">MeshToVolumeParams.Type</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34669" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a194dd45600a3f9135318b4fab5e79c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshToVolumeParams.Type.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34670" bodyend="34671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1ac6fe12736580bdfd0bdb130fdb0238ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshToVolumeParams.Type.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34672" bodyend="34673"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1aaa007f222cc9af5f66453c41e1034604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshToVolumeParams.Type.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34674" bodyend="34675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a1fe4cc3bf04b1167c313bcdb5183d261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshToVolumeParams.Type.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34676" bodyend="34677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a7ba4dc69823a8118bf4c2564694cd84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToVolumeParams.Type.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34678" bodyend="34679"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a90a5d20b151b2986c81b40bb4c352aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshToVolumeParams.Type.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34680" bodyend="34681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a132dd7c5b9d60a87b8667219e6afa0c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshToVolumeParams.Type.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34682" bodyend="34683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a7c486c57755370d99d05624bd5aaa785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshToVolumeParams.Type.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34684" bodyend="34685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1aeba480f3b7d38b77f0149ca28c65e045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToVolumeParams.Type.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34686" bodyend="34687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a967d4261123617458a2181237e4f55e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshToVolumeParams.Type.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34688" bodyend="34689"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a6bc5632542fd333b2188a48f2e8d5907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshToVolumeParams.Type.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34691" bodyend="34692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a53874281d44e5aa688454fb7d7b55540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshToVolumeParams.Type.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MeshToVolumeParams.Type.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34694" bodyend="34696"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Signed : only closed meshes can be converted with signed type
+
+  Unsigned : this type leads to shell like iso-surfaces
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshToVolumeParams.Type</label>
+        <link refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Signed</edgelabel>
+          <edgelabel>Unsigned</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34659" bodyend="34695"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a194dd45600a3f9135318b4fab5e79c47" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1ac6fe12736580bdfd0bdb130fdb0238ba" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1aaa007f222cc9af5f66453c41e1034604" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a1fe4cc3bf04b1167c313bcdb5183d261" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a7ba4dc69823a8118bf4c2564694cd84b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a90a5d20b151b2986c81b40bb4c352aaa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1ab82060329abd079747cd59bb34ce8d89" prot="private" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a132dd7c5b9d60a87b8667219e6afa0c6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a7c486c57755370d99d05624bd5aaa785" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1aeba480f3b7d38b77f0149ca28c65e045" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a967d4261123617458a2181237e4f55e2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a6bc5632542fd333b2188a48f2e8d5907" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1ab6f890e21107c30a7ea2d9952c21804d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>Signed</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a7d7c8ea2cad7d0d234a86f46dd4d6a69" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>Unsigned</name></member>
+      <member refid="classmrmeshpy_1_1MeshToVolumeParams_1_1Type_1a53874281d44e5aa688454fb7d7b55540" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToVolumeParams::Type</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

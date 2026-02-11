@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BasinVolumeCalculator" kind="class" language="C#" prot="public">
+    <compoundname>MR::BasinVolumeCalculator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BasinVolumeCalculator</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a127efedf5d6a3e9d7c57106db193ddba" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BasinVolumeCalculator.BasinVolumeCalculator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BasinVolumeCalculator</name>
+        <qualifiedname>MR.BasinVolumeCalculator.BasinVolumeCalculator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="75" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a8d77f30c1f6ea3c71ef7a3e6de27bcd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BasinVolumeCalculator.BasinVolumeCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>BasinVolumeCalculator</name>
+        <qualifiedname>MR.BasinVolumeCalculator.BasinVolumeCalculator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a041a9bdbcb4dffe144abcdc5f8ac4959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BasinVolumeCalculator.BasinVolumeCalculator</definition>
+        <argsstring>(MR.Const_BasinVolumeCalculator _other)</argsstring>
+        <name>BasinVolumeCalculator</name>
+        <qualifiedname>MR.BasinVolumeCalculator.BasinVolumeCalculator</qualifiedname>
+        <param>
+          <type>MR.Const_BasinVolumeCalculator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BasinVolumeCalculator.BasinVolumeCalculator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1ae9131c762d09dc9659c4991a05192901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BasinVolumeCalculator.BasinVolumeCalculator</definition>
+        <argsstring>(BasinVolumeCalculator _other)</argsstring>
+        <name>BasinVolumeCalculator</name>
+        <qualifiedname>MR.BasinVolumeCalculator.BasinVolumeCalculator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BasinVolumeCalculator" kindref="compound">BasinVolumeCalculator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BasinVolumeCalculator.BasinVolumeCalculator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a85df21425cae0c59cf9d924d17524f3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BasinVolumeCalculator" kindref="compound">MR.BasinVolumeCalculator</ref></type>
+        <definition>unsafe MR.BasinVolumeCalculator MR.BasinVolumeCalculator.assign</definition>
+        <argsstring>(MR.Const_BasinVolumeCalculator _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BasinVolumeCalculator.assign</qualifiedname>
+        <param>
+          <type>MR.Const_BasinVolumeCalculator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BasinVolumeCalculator.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="106" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a92f9bdf4461453d1bc6500d4a5463652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.BasinVolumeCalculator.addTerrainTri</definition>
+        <argsstring>(MR.Std.Array_MRVector3f_3 t, float level)</argsstring>
+        <name>addTerrainTri</name>
+        <qualifiedname>MR.BasinVolumeCalculator.addTerrainTri</qualifiedname>
+        <param>
+          <type>MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>pass every triangle of the basin here, and the water level; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the triangle is at least partially below the water level and influences on the volume Generated from method <computeroutput><ref refid="classMR_1_1BasinVolumeCalculator_1a92f9bdf4461453d1bc6500d4a5463652" kindref="member">MR.BasinVolumeCalculator.addTerrainTri</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="120" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>the class to compute the volume of water some basin can accumulate, considering that water upper surface has constant z-level Generated from class <computeroutput><ref refid="classMR_1_1BasinVolumeCalculator" kindref="compound">MR.BasinVolumeCalculator</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BasinVolumeCalculator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BasinVolumeCalculator</label>
+        <link refid="classMR_1_1BasinVolumeCalculator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BasinVolumeCalculator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BasinVolumeCalculator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BasinVolumeCalculator</label>
+        <link refid="classMR_1_1BasinVolumeCalculator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BasinVolumeCalculator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="74" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a92f9bdf4461453d1bc6500d4a5463652" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>addTerrainTri</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a85df21425cae0c59cf9d924d17524f3b" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>assign</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a127efedf5d6a3e9d7c57106db193ddba" prot="package" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a8d77f30c1f6ea3c71ef7a3e6de27bcd6" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a041a9bdbcb4dffe144abcdc5f8ac4959" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1ae9131c762d09dc9659c4991a05192901" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

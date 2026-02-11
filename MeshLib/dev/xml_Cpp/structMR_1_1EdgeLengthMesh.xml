@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgeLengthMesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgeLengthMesh</compoundname>
+    <includes refid="MREdgeLengthMesh_8h" local="no">MREdgeLengthMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1EdgeLengthMesh_1a8354d05ed17b358631b7af8e742c2773" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MeshTopology MR::EdgeLengthMesh::topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR::EdgeLengthMesh::topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="14" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1EdgeLengthMesh_1ae600eca420be35f1622258bf5830453c" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeScalars</type>
+        <definition>UndirectedEdgeScalars MR::EdgeLengthMesh::edgeLengths</definition>
+        <argsstring></argsstring>
+        <name>edgeLengths</name>
+        <qualifiedname>MR::EdgeLengthMesh::edgeLengths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="15" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1EdgeLengthMesh_1abf01cf2eeeb414bf371f5d2ba5d8d880" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref></type>
+        <definition>static MRMESH_API EdgeLengthMesh MR::EdgeLengthMesh::fromMesh</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>fromMesh</name>
+        <qualifiedname>MR::EdgeLengthMesh::fromMesh</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>construct <ref refid="structMR_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref> from an ordinary mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="18" column="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1EdgeLengthMesh_1abdc61c2dae8f243c3682e0dfc637f536" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::EdgeLengthMesh::leftCotan</definition>
+        <argsstring>(EdgeId e) const</argsstring>
+        <name>leftCotan</name>
+        <qualifiedname>MR::EdgeLengthMesh::leftCotan</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="22" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeLengthMesh_1a3b8d293f6ee11394128c078fc11bead8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::EdgeLengthMesh::cotan</definition>
+        <argsstring>(UndirectedEdgeId ue) const</argsstring>
+        <name>cotan</name>
+        <qualifiedname>MR::EdgeLengthMesh::cotan</qualifiedname>
+        <param>
+          <type>UndirectedEdgeId</type>
+          <declname>ue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="26" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeLengthMesh_1a73fbab03758bfea01536569e133dd307" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::EdgeLengthMesh::isDelone</definition>
+        <argsstring>(UndirectedEdgeId ue, float threshold=0) const</argsstring>
+        <name>isDelone</name>
+        <qualifiedname>MR::EdgeLengthMesh::isDelone</qualifiedname>
+        <param>
+          <type>UndirectedEdgeId</type>
+          <declname>ue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given edge satisfies Delaunay conditions, returns false if the edge needs to be flipped to satisfy Delaunay conditions, passing negative threshold makes more edges satisfy Delaunay conditions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="31" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeLengthMesh_1a167ce08d19e1c861f1c9a08360456195" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; float &gt;</type>
+        <definition>MRMESH_API std::optional&lt; float &gt; MR::EdgeLengthMesh::edgeLengthAfterFlip</definition>
+        <argsstring>(EdgeId e) const</argsstring>
+        <name>edgeLengthAfterFlip</name>
+        <qualifiedname>MR::EdgeLengthMesh::edgeLengthAfterFlip</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given the edge with left and right triangular faces, which form together a quadrangle, returns the length of geodesic line on original mesh between the vertices of the quadrangle opposite to given edge; returns std::nullopt if the geodesic line does not go fully inside the quadrangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="36" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeLengthMesh_1a1b96a29808fed26956890232f3996c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::EdgeLengthMesh::flipEdge</definition>
+        <argsstring>(EdgeId e)</argsstring>
+        <name>flipEdge</name>
+        <qualifiedname>MR::EdgeLengthMesh::flipEdge</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle; the length of e becomes equal to the length of geodesic line between its new ends on original mesh; does not flip and returns false if the geodesic line does not go fully inside the quadrangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="42" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::EdgeLengthMesh</label>
+        <link refid="structMR_1_1EdgeLengthMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" bodystart="13" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structMR_1_1EdgeLengthMesh_1a3b8d293f6ee11394128c078fc11bead8" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>cotan</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1a167ce08d19e1c861f1c9a08360456195" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengthAfterFlip</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1ae600eca420be35f1622258bf5830453c" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengths</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1a1b96a29808fed26956890232f3996c95" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>flipEdge</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1abf01cf2eeeb414bf371f5d2ba5d8d880" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>fromMesh</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1a73fbab03758bfea01536569e133dd307" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>isDelone</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1abdc61c2dae8f243c3682e0dfc637f536" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>leftCotan</name></member>
+      <member refid="structMR_1_1EdgeLengthMesh_1a8354d05ed17b358631b7af8e742c2773" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>topology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

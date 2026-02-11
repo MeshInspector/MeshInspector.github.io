@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PlaneObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PlaneObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1FeatureObject" prot="public" virt="non-virtual">mrmeshpy.FeatureObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1afcbad577026c593a96ccb00ae84a80df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PlaneObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.PlaneObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43943" bodyend="43944"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1aafd17b254a522618853d770e0f251270" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PlaneObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.PlaneObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43946" bodyend="43947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a52d2fc888aaf4cda55361f8c80cea733" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PlaneObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.PlaneObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43949" bodyend="43950"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlaneObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple plane object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43952" bodyend="43955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlaneObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best plane to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43957" bodyend="43960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a71c9a77364aea5823222f8711cfa7aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.PlaneObject.calcLocalBasis</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>calcLocalBasis</name>
+        <qualifiedname>mrmeshpy.PlaneObject.calcLocalBasis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates normalized directions of X,Y axis of the plane and normal as Z
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43961" bodyend="43964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a8ccdad7dffc69a2a55488cbaca487680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PlaneObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.PlaneObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43965" bodyend="43966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1ac0b446132b2fcbf3c29a92fa5a056ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PlaneObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.PlaneObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43967" bodyend="43968"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a8d6883e2122d697941f9a6773135213f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.PlaneObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.PlaneObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43969" bodyend="43970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1aabb3bfd5423a22f7c0e587b424149a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.PlaneObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43971" bodyend="43972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a3f1eb67e2107843e489b2c04369915c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PlaneObject.getBasePoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getBasePoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc">getBasePoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns point considered as base for the feature
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43973" bodyend="43976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a26aec51e4d269d639b6371b070e78921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PlaneObject.getCenter</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates center from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43977" bodyend="43980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1afe02ed185e0905b9e913d9d038508638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PlaneObject.getNormal</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getNormal</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getNormal</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a80d467fec3bbe81b1c9edc5acbd6c622">getNormal</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates normal from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43981" bodyend="43984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a307f9f9bee653de77457d8bb7c3562ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PlaneObject.getSize</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getSize</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates plane size from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43985" bodyend="43988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a17f05051446cb8a88271b2e0217cae0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PlaneObject.getSizeX</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getSizeX</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getSizeX</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43989" bodyend="43990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1acf084a9cd135d239d39955731c744f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PlaneObject.getSizeY</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getSizeY</name>
+        <qualifiedname>mrmeshpy.PlaneObject.getSizeY</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43991" bodyend="43992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a140df2fe67e3eaac85e2fbda05779512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.PlaneObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.PlaneObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43993" bodyend="43994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a4649479df37e55cf42d22be20ae6abae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.setCenter</definition>
+        <argsstring>(self, Vector3f center, ViewportId id=...)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>mrmeshpy.PlaneObject.setCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43995" bodyend="43998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a7c5e5c97396e57af0a3fb4f6b23cb8ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.setNormal</definition>
+        <argsstring>(self, Vector3f normal, ViewportId id=...)</argsstring>
+        <name>setNormal</name>
+        <qualifiedname>mrmeshpy.PlaneObject.setNormal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given normal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43999" bodyend="44002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a3f03d432e698e5ea07bba07e4292289a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.setSize</definition>
+        <argsstring>(self, float size, ViewportId id=...)</argsstring>
+        <name>setSize</name>
+        <qualifiedname>mrmeshpy.PlaneObject.setSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to scale size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44003" bodyend="44006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a8efd237637ad78a60a6bb4f515cc1c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.setSizeX</definition>
+        <argsstring>(self, float size, ViewportId id=...)</argsstring>
+        <name>setSizeX</name>
+        <qualifiedname>mrmeshpy.PlaneObject.setSizeX</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44007" bodyend="44008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1ade618cd6b8dac3821a9c05322e2e3cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneObject.setSizeY</definition>
+        <argsstring>(self, float size, ViewportId id=...)</argsstring>
+        <name>setSizeY</name>
+        <qualifiedname>mrmeshpy.PlaneObject.setSizeY</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44009" bodyend="44010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1a31dea42dba989d6f4b0e1a438c674290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.PlaneObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.PlaneObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44011" bodyend="44012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneObject_1ae0abbb8c5a7ec816b0741e6f4b346c61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PlaneObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.PlaneObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44013" bodyend="44014"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PlaneObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Plane.type
+
+Object to show plane feature
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PlaneObject</label>
+        <link refid="classmrmeshpy_1_1PlaneObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PlaneObject</label>
+        <link refid="classmrmeshpy_1_1PlaneObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43935" bodyend="44014"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a71c9a77364aea5823222f8711cfa7aa7" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>calcLocalBasis</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a8ccdad7dffc69a2a55488cbaca487680" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1ac0b446132b2fcbf3c29a92fa5a056ed1" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a8d6883e2122d697941f9a6773135213f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1aabb3bfd5423a22f7c0e587b424149a1a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a3f1eb67e2107843e489b2c04369915c4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a26aec51e4d269d639b6371b070e78921" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1afe02ed185e0905b9e913d9d038508638" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getNormal</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a307f9f9bee653de77457d8bb7c3562ce" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSize</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a17f05051446cb8a88271b2e0217cae0f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSizeX</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1acf084a9cd135d239d39955731c744f1c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>getSizeY</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a140df2fe67e3eaac85e2fbda05779512" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a4649479df37e55cf42d22be20ae6abae" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a7c5e5c97396e57af0a3fb4f6b23cb8ce" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setNormal</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a3f03d432e698e5ea07bba07e4292289a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSize</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a8efd237637ad78a60a6bb4f515cc1c7d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSizeX</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1ade618cd6b8dac3821a9c05322e2e3cd0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>setSizeY</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a31dea42dba989d6f4b0e1a438c674290" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1afcbad577026c593a96ccb00ae84a80df" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1aafd17b254a522618853d770e0f251270" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1a52d2fc888aaf4cda55361f8c80cea733" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1PlaneObject_1ae0abbb8c5a7ec816b0741e6f4b346c61" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

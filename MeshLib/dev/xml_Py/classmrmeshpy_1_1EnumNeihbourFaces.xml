@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EnumNeihbourFaces" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EnumNeihbourFaces</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourFaces_1aaf3de18756501d7f15b0a696189c6be4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourFaces.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourFaces.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16162" bodyend="16163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourFaces_1a7acda6d4f65673f0ff37c4f940c50cdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EnumNeihbourFaces" kindref="compound">EnumNeihbourFaces</ref></type>
+        <definition> EnumNeihbourFaces mrmeshpy.EnumNeihbourFaces.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourFaces.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16166" bodyend="16167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourFaces_1a7acda6d4f65673f0ff37c4f940c50cdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EnumNeihbourFaces" kindref="compound">EnumNeihbourFaces</ref></type>
+        <definition> EnumNeihbourFaces mrmeshpy.EnumNeihbourFaces.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourFaces.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16170" bodyend="16171"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourFaces_1adc945e4f4ebbe3d55892d7522d58663f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourFaces.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourFaces.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16173" bodyend="16174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourFaces_1aa2f17b54bcb6012f8c6db2fb8eeeeea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourFaces.__init__</definition>
+        <argsstring>(self, EnumNeihbourFaces arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourFaces.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EnumNeihbourFaces" kindref="compound">EnumNeihbourFaces</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16176" bodyend="16179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourFaces_1ae1f6c135bf3d4ea6c2d88372adc4d1e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourFaces.run</definition>
+        <argsstring>(self, MeshTopology topology, VertId start, func_bool_from_Id_FaceTag pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourFaces.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__FaceTag" kindref="compound">func_bool_from_Id_FaceTag</ref></type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>invokes given predicate for faces starting from all incident to \\param start,
+and continuing to all immediate neighbours in depth-first order until the predicate returns false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16180" bodyend="16184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EnumNeihbourFaces
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16156" bodyend="16184"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EnumNeihbourFaces_1aaf3de18756501d7f15b0a696189c6be4" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourFaces_1adc945e4f4ebbe3d55892d7522d58663f" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourFaces_1aa2f17b54bcb6012f8c6db2fb8eeeeea9" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourFaces_1a7acda6d4f65673f0ff37c4f940c50cdd" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourFaces</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourFaces_1a7acda6d4f65673f0ff37c4f940c50cdd" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourFaces</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourFaces_1ae1f6c135bf3d4ea6c2d88372adc4d1e5" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourFaces</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

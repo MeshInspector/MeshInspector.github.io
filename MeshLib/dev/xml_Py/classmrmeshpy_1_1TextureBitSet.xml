@@ -1,0 +1,1248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TextureBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TextureBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56131" bodyend="56132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af84e5d62b39dacebf1a4bbe0ef569c85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56134" bodyend="56137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56140" bodyend="56141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56144" bodyend="56145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1abeb6a5aa6812a8c78f92e7b935269d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__and__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56146" bodyend="56147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a2f8ae29589c2aa2bde6ccdd1830ffd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__iand__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56148" bodyend="56149"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56151" bodyend="56152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56154" bodyend="56157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56159" bodyend="56162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56164" bodyend="56167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.__init__</definition>
+        <argsstring>(self, TextureBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56169" bodyend="56172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a037760267dc5c133da70d212d3bf1d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__ior__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56173" bodyend="56174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a2c91ad89ed4ecd241aca6b3b760f2799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__isub__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56175" bodyend="56176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a6c98feae275ecf3ffd17c59d4703538b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref>]</type>
+        <definition> typing.Iterator[TextureId] mrmeshpy.TextureBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56177" bodyend="56178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a2cde06c67ddce2ba7409acd18542ba21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__ixor__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56179" bodyend="56180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af0b6ac70b88b380f3f51a8a7f158da8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__or__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56181" bodyend="56182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a74578d9e7e34e5132036206163480bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TextureBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56183" bodyend="56184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aa6b5555229b9cd4e6d018a10f61c39fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__sub__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56185" bodyend="56186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a12052dc58db7c1d117a7b38a84b2adb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.__xor__</definition>
+        <argsstring>(self, TextureBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56187" bodyend="56188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aad305548e8acd90eaa55b268aaa6acd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.autoResizeSet</definition>
+        <argsstring>(self, TextureId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56190" bodyend="56191"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a6fd8bc9b807c3b74d2ac7c566f4fe4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TextureBitSet.autoResizeSet</definition>
+        <argsstring>(self, TextureId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56193" bodyend="56194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a0b5f3d39211515c61af61310eeb9dc37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TextureBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, TextureId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56195" bodyend="56196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a3753414617e9a26eea32b10de5aed8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56197" bodyend="56200"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a17263eef564572fda45dddc9fc0b0641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56201" bodyend="56202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a9957234c232f285d0ce2a97a053f78a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56203" bodyend="56204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a571502dc19850d5c31a328eef68e03dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56205" bodyend="56206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a030744dec45f9c89270cfbe2ca9b69ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.find_next</definition>
+        <argsstring>(self, TextureId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56207" bodyend="56208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1afdbc239023298d7e7cd7dd9300e80c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.flip</definition>
+        <argsstring>(self, TextureId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56210" bodyend="56211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1adccb3c4dcb26e5eb01a7d49605b25128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.flip</definition>
+        <argsstring>(self, TextureId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56213" bodyend="56214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a501ca697c0df73930a2a118138b599cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56216" bodyend="56217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a8a97c0795ff1c65a6ede2a8d6b1ac31d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.getMapping</definition>
+        <argsstring>(self, Vector_TextureId_TextureId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__TextureId__TextureId" kindref="compound">Vector_TextureId_TextureId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56219" bodyend="56220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a15344ecdefe72a6475c625f9905b57e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.getMapping</definition>
+        <argsstring>(self, BMap_TextureId_TextureId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BMap__TextureId__TextureId" kindref="compound">BMap_TextureId_TextureId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56222" bodyend="56223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aa669eae6d2e96b2aeef7fa818ecb4e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_TextureTag_Id_TextureTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag" kindref="compound">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56225" bodyend="56226"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a433e68781317128861352427daa207c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.getMapping</definition>
+        <argsstring>(self, Vector_TextureId_TextureId map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__TextureId__TextureId" kindref="compound">Vector_TextureId_TextureId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56228" bodyend="56229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ad24538355393557fcda8e508b5c4beb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_TextureTag_Id_TextureTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag" kindref="compound">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56231" bodyend="56232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af44b693e531b0c5f121697aa0430fe81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TextureBitSet.intersects</definition>
+        <argsstring>(self, TextureBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56233" bodyend="56236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a990726a1ac1e9b03de824784c3f5afa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TextureBitSet.is_subset_of</definition>
+        <argsstring>(self, TextureBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56237" bodyend="56240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ac84d2dab038b85454efab1df371e2761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.TextureBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56241" bodyend="56244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ada471c16cc241b7c0750e4ef9bca3a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.reset</definition>
+        <argsstring>(self, TextureId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56246" bodyend="56247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1aa8836fe022efa67fbad2b76b16a25be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.reset</definition>
+        <argsstring>(self, TextureId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56249" bodyend="56250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a1f69f227e20b60bb4b4e68f0f9aa522c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56252" bodyend="56253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ab0b40f2395c04e20404dd41cd2b91660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.set</definition>
+        <argsstring>(self, TextureId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56255" bodyend="56256"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a4a3ad5a71f947bedd344e8ec4844e54a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.set</definition>
+        <argsstring>(self, TextureId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56258" bodyend="56259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ac37bd5a1bb9b4c8c333033254b583e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.set</definition>
+        <argsstring>(self, TextureId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56261" bodyend="56262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1a6c61e0c3e1d79dd280b352a43c68e6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56264" bodyend="56265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1af2381fbf286b2b3a6f77dede3bf802f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+        <definition> TextureBitSet mrmeshpy.TextureBitSet.subtract</definition>
+        <argsstring>(self, TextureBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56266" bodyend="56269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1ae306f19b6c69bd70c59b38ac37510115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TextureBitSet.test</definition>
+        <argsstring>(self, TextureId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56270" bodyend="56271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TextureBitSet_1abf373ba71c247cb91271cd64d29eae3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TextureBitSet.test_set</definition>
+        <argsstring>(self, TextureId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.TextureBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56272" bodyend="56273"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TextureBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.TextureBitSet</label>
+        <link refid="classmrmeshpy_1_1TextureBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TextureBitSet</label>
+        <link refid="classmrmeshpy_1_1TextureBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56122" bodyend="56273"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1abeb6a5aa6812a8c78f92e7b935269d26" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a2f8ae29589c2aa2bde6ccdd1830ffd88" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a037760267dc5c133da70d212d3bf1d1d" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a2c91ad89ed4ecd241aca6b3b760f2799" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a6c98feae275ecf3ffd17c59d4703538b" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a2cde06c67ddce2ba7409acd18542ba21" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1af0b6ac70b88b380f3f51a8a7f158da8a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a74578d9e7e34e5132036206163480bb6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1aa6b5555229b9cd4e6d018a10f61c39fd" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a12052dc58db7c1d117a7b38a84b2adb2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1aad305548e8acd90eaa55b268aaa6acd6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a6fd8bc9b807c3b74d2ac7c566f4fe4ff" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a0b5f3d39211515c61af61310eeb9dc37" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a3753414617e9a26eea32b10de5aed8ae" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1af84e5d62b39dacebf1a4bbe0ef569c85" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a17263eef564572fda45dddc9fc0b0641" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a9957234c232f285d0ce2a97a053f78a3" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a571502dc19850d5c31a328eef68e03dc" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a030744dec45f9c89270cfbe2ca9b69ed" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1afdbc239023298d7e7cd7dd9300e80c70" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1adccb3c4dcb26e5eb01a7d49605b25128" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a501ca697c0df73930a2a118138b599cc" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a8a97c0795ff1c65a6ede2a8d6b1ac31d" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a15344ecdefe72a6475c625f9905b57e6" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1aa669eae6d2e96b2aeef7fa818ecb4e93" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a433e68781317128861352427daa207c0" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1ad24538355393557fcda8e508b5c4beb4" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1af44b693e531b0c5f121697aa0430fe81" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a990726a1ac1e9b03de824784c3f5afa2" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1ac84d2dab038b85454efab1df371e2761" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1ada471c16cc241b7c0750e4ef9bca3a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1aa8836fe022efa67fbad2b76b16a25be7" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a1f69f227e20b60bb4b4e68f0f9aa522c" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1ab0b40f2395c04e20404dd41cd2b91660" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a4a3ad5a71f947bedd344e8ec4844e54a" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1ac37bd5a1bb9b4c8c333033254b583e0b" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1a6c61e0c3e1d79dd280b352a43c68e6d3" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1af2381fbf286b2b3a6f77dede3bf802f4" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1ae306f19b6c69bd70c59b38ac37510115" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1TextureBitSet_1abf373ba71c247cb91271cd64d29eae3f" prot="public" virt="non-virtual"><scope>mrmeshpy::TextureBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeOnePointInPolylineAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeOnePointInPolylineAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangePolylineAction_8h" local="no">MRChangePolylineAction.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1ChangeOnePointInPolylineAction_1aef7c7a81af0f8a8b89d020602c31298d" prot="public" static="no">
+        <type><ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
+        <definition>using MR::ChangeOnePointInPolylineAction::Obj =  ObjectLines</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::Obj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="182" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangeOnePointInPolylineAction_1a4c61c3a146db041e6a26923b7237d01e" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectLines&gt; MR::ChangeOnePointInPolylineAction::objPoints_</definition>
+        <argsstring></argsstring>
+        <name>objPoints_</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::objPoints_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="240" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeOnePointInPolylineAction_1ab03c4dc5a7f04714c262f7b245d002a1" prot="private" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::ChangeOnePointInPolylineAction::pointId_</definition>
+        <argsstring></argsstring>
+        <name>pointId_</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::pointId_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="241" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeOnePointInPolylineAction_1a068785506d5c51c368f4e12f3be62726" prot="private" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::ChangeOnePointInPolylineAction::safeCoords_</definition>
+        <argsstring></argsstring>
+        <name>safeCoords_</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::safeCoords_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="242" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeOnePointInPolylineAction_1a30253dcc845b3a27ad8176da68a7886a" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeOnePointInPolylineAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="244" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1ad3c95f6ed93a9497f7a959a770ecc788" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</definition>
+        <argsstring>(std::string name, const std::shared_ptr&lt; ObjectLines &gt; &amp;obj, VertId pointId)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>pointId</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember point&apos;s coordinates before making any changes in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="185" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="185" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a85c6de61b6597e042e5aef9c02ecf52b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</definition>
+        <argsstring>(std::string name, const std::shared_ptr&lt; ObjectLines &gt; &amp;obj, VertId pointId, const Vector3f &amp;newCoords)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>pointId</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>newCoords</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember point&apos;s coordinates and immediate set new coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="199" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="199" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a60545394635e0a3adb2be644e7bdafee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangeOnePointInPolylineAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="208" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a38ca71433b431c0f9253e2140cea35ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ChangeOnePointInPolylineAction::action</definition>
+        <argsstring>(HistoryAction::Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="213" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="213" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a6fa396d1c46311032a718c9eaf3f34bc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ChangeOnePointInPolylineAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="234" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="234" bodyend="237"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1ae85085ed6aab508626ce4cbe86fc6663" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::ChangeOnePointInPolylineAction::setObjectDirty</definition>
+        <argsstring>(const std::shared_ptr&lt; ObjectLines &gt; &amp;obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR::ChangeOnePointInPolylineAction::setObjectDirty</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="228" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="228" bodyend="232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Undo action that modifies one point&apos;s coordinates inside ObjectPolyline </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeOnePointInPolylineAction</label>
+        <link refid="classMR_1_1ChangeOnePointInPolylineAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeOnePointInPolylineAction</label>
+        <link refid="classMR_1_1ChangeOnePointInPolylineAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="180" bodyend="245"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a38ca71433b431c0f9253e2140cea35ef" prot="public" virt="virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1ad3c95f6ed93a9497f7a959a770ecc788" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a85c6de61b6597e042e5aef9c02ecf52b" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a6fa396d1c46311032a718c9eaf3f34bc" prot="public" virt="virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a60545394635e0a3adb2be644e7bdafee" prot="public" virt="virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a30253dcc845b3a27ad8176da68a7886a" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>name_</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1aef7c7a81af0f8a8b89d020602c31298d" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>Obj</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a4c61c3a146db041e6a26923b7237d01e" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>objPoints_</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1ab03c4dc5a7f04714c262f7b245d002a1" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>pointId_</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a068785506d5c51c368f4e12f3be62726" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>safeCoords_</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1ae85085ed6aab508626ce4cbe86fc6663" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

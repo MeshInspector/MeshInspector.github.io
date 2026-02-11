@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__PixelId" kind="struct" language="C++" prot="public">
+    <compoundname>MR_PixelId</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__PixelId_1a4f7ba4cb445851a50c1820d6e588ddf0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_PixelId::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>MR_PixelId::id_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="66" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generated from class <computeroutput>MR::PixelId</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&lt;MR::PixelId&gt;</computeroutput> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="65" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structMR__PixelId_1a4f7ba4cb445851a50c1820d6e588ddf0" prot="public" virt="non-virtual"><scope>MR_PixelId</scope><name>id_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

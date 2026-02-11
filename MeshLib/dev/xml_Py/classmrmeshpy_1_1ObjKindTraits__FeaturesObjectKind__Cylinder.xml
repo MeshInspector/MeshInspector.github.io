@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a2aabbd8fb75b19c84e6004b4292eaf74" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.name</qualifiedname>
+        <initializer>=  &apos;Cylinder&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1ad4ca7f7622fd3cad07d8f13234ea63a4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1CylinderObject" kindref="compound">CylinderObject</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38482" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1ac6efa9e63f19a484462545b54dee62b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38485" bodyend="38486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7f0b827f9b0bc38eda5006ea1edbd6ff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder" kindref="compound">ObjKindTraits_FeaturesObjectKind_Cylinder</ref></type>
+        <definition> ObjKindTraits_FeaturesObjectKind_Cylinder mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38489" bodyend="38490"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7f0b827f9b0bc38eda5006ea1edbd6ff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder" kindref="compound">ObjKindTraits_FeaturesObjectKind_Cylinder</ref></type>
+        <definition> ObjKindTraits_FeaturesObjectKind_Cylinder mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38493" bodyend="38494"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7ec87be1af24c5c8d0f45ebf959f41b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38496" bodyend="38497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a6d97443d51ac31b0f67b45c25932e150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</definition>
+        <argsstring>(self, ObjKindTraits_FeaturesObjectKind_Cylinder arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder" kindref="compound">ObjKindTraits_FeaturesObjectKind_Cylinder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38499" bodyend="38502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7ec87be1af24c5c8d0f45ebf959f41b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38504" bodyend="38507"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjKindTraits&lt;MR::FeaturesObjectKind::Cylinder&gt;
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cylinder</label>
+        <link refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38477" bodyend="38507"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1ac6efa9e63f19a484462545b54dee62b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7ec87be1af24c5c8d0f45ebf959f41b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a6d97443d51ac31b0f67b45c25932e150" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7ec87be1af24c5c8d0f45ebf959f41b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a2aabbd8fb75b19c84e6004b4292eaf74" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7f0b827f9b0bc38eda5006ea1edbd6ff" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1a7f0b827f9b0bc38eda5006ea1edbd6ff" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder_1ad4ca7f7622fd3cad07d8f13234ea63a4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cylinder</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

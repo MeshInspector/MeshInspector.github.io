@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonNotifier::DrawNotificationSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1afc6c38072f8fd0e454046e702f1a4334" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonNotifier::DrawNotificationSettings::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>MR::RibbonNotifier::DrawNotificationSettings::index</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="116" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1a2d3ad8b9408a4823507819ae6700744c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonNotifier::DrawNotificationSettings::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>MR::RibbonNotifier::DrawNotificationSettings::width</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="117" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1a5ae772bef108f292b67ab9808e1f5f7b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonNotifier::DrawNotificationSettings::historyMode</definition>
+        <argsstring></argsstring>
+        <name>historyMode</name>
+        <qualifiedname>MR::RibbonNotifier::DrawNotificationSettings::historyMode</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="118" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1a784b69e04514b3402e2c89b958f35a8a" prot="public" static="no" mutable="no">
+        <type>Vector2f *</type>
+        <definition>Vector2f* MR::RibbonNotifier::DrawNotificationSettings::currentPos</definition>
+        <argsstring></argsstring>
+        <name>currentPos</name>
+        <qualifiedname>MR::RibbonNotifier::DrawNotificationSettings::currentPos</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="119" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="114" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="115" bodyend="120"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1a784b69e04514b3402e2c89b958f35a8a" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>currentPos</name></member>
+      <member refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1a5ae772bef108f292b67ab9808e1f5f7b" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>historyMode</name></member>
+      <member refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1afc6c38072f8fd0e454046e702f1a4334" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>index</name></member>
+      <member refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings_1a2d3ad8b9408a4823507819ae6700744c" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

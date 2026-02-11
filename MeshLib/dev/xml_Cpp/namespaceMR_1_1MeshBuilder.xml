@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1MeshBuilder" kind="namespace" language="C++">
+    <compoundname>MR::MeshBuilder</compoundname>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1BuildSettings" prot="public">MR::MeshBuilder::BuildSettings</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1equalVector3f" prot="public">MR::MeshBuilder::equalVector3f</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1MeshPiece" prot="public">MR::MeshBuilder::MeshPiece</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1Triangle" prot="public">MR::MeshBuilder::Triangle</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1UniteCloseParams" prot="public">MR::MeshBuilder::UniteCloseParams</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1VertDuplication" prot="public">MR::MeshBuilder::VertDuplication</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1VertexIdentifier" prot="public">MR::MeshBuilder::VertexIdentifier</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1VertSpan" prot="public">MR::MeshBuilder::VertSpan</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1ad94b16318381f04c306f214d07b59c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MRMESH_API MeshTopology MR::MeshBuilder::fromTriangles</definition>
+        <argsstring>(const Triangulation &amp;t, const BuildSettings &amp;settings={}, ProgressCallback progressCb={})</argsstring>
+        <name>fromTriangles</name>
+        <qualifiedname>MR::MeshBuilder::fromTriangles</qualifiedname>
+        <param>
+          <type>const Triangulation &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>construct mesh topology from a set of triangles with given ids; if skippedTris is given then it receives all input triangles not added in the resulting topology </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="37" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="37" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1a66c0589162941f3fb069c0c629d26137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::MeshBuilder::duplicateNonManifoldVertices</definition>
+        <argsstring>(Triangulation &amp;t, FaceBitSet *region=nullptr, std::vector&lt; VertDuplication &gt; *dups=nullptr, VertId lastValidVert={})</argsstring>
+        <name>duplicateNonManifoldVertices</name>
+        <qualifiedname>MR::MeshBuilder::duplicateNonManifoldVertices</qualifiedname>
+        <param>
+          <type>Triangulation &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structMR_1_1MeshBuilder_1_1VertDuplication" kindref="compound">VertDuplication</ref> &gt; *</type>
+          <declname>dups</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>lastValidVert</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified) <computeroutput>lastValidVert</computeroutput> is needed if <computeroutput>region</computeroutput> or <computeroutput>t</computeroutput> does not contain full mesh, then first duplicated vertex will have <computeroutput>lastValidVert+1</computeroutput> index return number of duplicated vertices </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="48" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="48" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1aa308a697fa44ab178932733fdab79f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MRMESH_API MeshTopology MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices</definition>
+        <argsstring>(Triangulation &amp;t, std::vector&lt; VertDuplication &gt; *dups=nullptr, const BuildSettings &amp;settings={})</argsstring>
+        <name>fromTrianglesDuplicatingNonManifoldVertices</name>
+        <qualifiedname>MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
+        <param>
+          <type>Triangulation &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structMR_1_1MeshBuilder_1_1VertDuplication" kindref="compound">VertDuplication</ref> &gt; *</type>
+          <declname>dups</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>construct mesh topology from a set of triangles with given ids; unlike simple <ref refid="namespaceMR_1_1MeshBuilder_1ad94b16318381f04c306f214d07b59c3d" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices; triangulation is modified to introduce duplicates </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="54" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="54" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1a787b6d63581b071cba69cde55f211cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>MRMESH_API Mesh MR::MeshBuilder::fromPointTriples</definition>
+        <argsstring>(const std::vector&lt; Triangle3f &gt; &amp;posTriples)</argsstring>
+        <name>fromPointTriples</name>
+        <qualifiedname>MR::MeshBuilder::fromPointTriples</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="namespaceMR_1ac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref> &gt; &amp;</type>
+          <declname>posTriples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>construct mesh from point triples; all coinciding points are given the same VertId in the result </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="61" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="61" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1ac89608a8862a7f497172398df6ccaf30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MRMESH_API MeshTopology MR::MeshBuilder::fromDisjointMeshPieces</definition>
+        <argsstring>(const Triangulation &amp;t, VertId maxVertId, const std::vector&lt; MeshPiece &gt; &amp;pieces, const BuildSettings &amp;settings={})</argsstring>
+        <name>fromDisjointMeshPieces</name>
+        <qualifiedname>MR::MeshBuilder::fromDisjointMeshPieces</qualifiedname>
+        <param>
+          <type>const Triangulation &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>maxVertId</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MeshPiece</ref> &gt; &amp;</type>
+          <declname>pieces</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>construct mesh topology in parallel from given disjoint mesh pieces (which do not have any shared vertex) and some additional triangles (in settings) that join the pieces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="74" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="74" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1a338de61ac0a911470d50fe0f14af05d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::MeshBuilder::addTriangles</definition>
+        <argsstring>(MeshTopology &amp;res, const Triangulation &amp;t, const BuildSettings &amp;settings={})</argsstring>
+        <name>addTriangles</name>
+        <qualifiedname>MR::MeshBuilder::addTriangles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>const Triangulation &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds triangles in the existing topology, given face indecies must be free; settings.region on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="81" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="81" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1affd71ea7a77ed4c02be34778c0923804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::MeshBuilder::addTriangles</definition>
+        <argsstring>(MeshTopology &amp;res, std::vector&lt; VertId &gt; &amp;vertTriples, FaceBitSet *createdFaces=nullptr)</argsstring>
+        <name>addTriangles</name>
+        <qualifiedname>MR::MeshBuilder::addTriangles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; VertId &gt; &amp;</type>
+          <declname>vertTriples</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>createdFaces</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds triangles in the existing topology, auto selecting face ids for them; vertTriples on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="85" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="85" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1ab4643e01cde45551cee54cc59f539e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MRMESH_API MeshTopology MR::MeshBuilder::fromFaceSoup</definition>
+        <argsstring>(const std::vector&lt; VertId &gt; &amp;verts, const Vector&lt; VertSpan, FaceId &gt; &amp;faces, const BuildSettings &amp;settings={}, ProgressCallback progressCb={})</argsstring>
+        <name>fromFaceSoup</name>
+        <qualifiedname>MR::MeshBuilder::fromFaceSoup</qualifiedname>
+        <param>
+          <type>const std::vector&lt; VertId &gt; &amp;</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">VertSpan</ref>, FaceId &gt; &amp;</type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>&lt; this set receives indices of added triangles </para>
+        </briefdescription>
+        <detaileddescription>
+<para>construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="89" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="89" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1adbca7caa523fcdb27f944a48e8ed220a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::MeshBuilder::uniteCloseVertices</definition>
+        <argsstring>(Mesh &amp;mesh, float closeDist, bool uniteOnlyBd=true, VertMap *optionalVertOldToNew=nullptr)</argsstring>
+        <name>uniteCloseVertices</name>
+        <qualifiedname>MR::MeshBuilder::uniteCloseVertices</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>closeDist</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>uniteOnlyBd</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>VertMap *</type>
+          <declname>optionalVertOldToNew</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the function finds groups of mesh vertices located closer to each other than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>closeDist</parametername>
+<parametername>and</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unites such vertices in one; then the mesh is rebuilt from the remaining triangles </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>optionalVertOldToNew</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the mapping of vertices: before -&gt; after </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uniteOnlyBd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the number of vertices united, 0 means no change in the mesh </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="118" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="118" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshBuilder_1aa50e77069b62348920b62f3484a265a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::MeshBuilder::uniteCloseVertices</definition>
+        <argsstring>(Mesh &amp;mesh, const UniteCloseParams &amp;params={})</argsstring>
+        <name>uniteCloseVertices</name>
+        <qualifiedname>MR::MeshBuilder::uniteCloseVertices</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">UniteCloseParams</ref> &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the function finds groups of mesh vertices located closer to each other than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params.closeDist</parametername>
+<parametername>and</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unites such vertices in one; then the mesh is rebuilt from the remaining triangles </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the number of vertices united, 0 means no change in the mesh </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="124" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" declline="124" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Building topologies by triangles. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This namespace provides API for building meshes.</para>
+<para>Simple example with key steps <programlisting><codeline><highlight class="normal">MR::Triangulation<sp/>t;</highlight></codeline>
+<codeline><highlight class="normal">t.push_back({0_v,1_v,2_v});<sp/></highlight></codeline>
+<codeline><highlight class="normal">t.push_back({2_v,1_v,3_v});<sp/></highlight></codeline>
+<codeline><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>topology<sp/>=<sp/><ref refid="namespaceMR_1_1MeshBuilder_1ad94b16318381f04c306f214d07b59c3d" kindref="member">MR::MeshBuilder::fromTriangles</ref>(t);</highlight></codeline>
+</programlisting></para>
+<para><simplesect kind="warning"><para>Vertices of triangles should have consistent bypass direction</para>
+</simplesect>
+<simplesect kind="note"><para>It is better to store topology directly in mesh</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="12" column="1"/>
+  </compounddef>
+</doxygen>

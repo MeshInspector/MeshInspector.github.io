@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__float__from__Id__VertTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_float_from_Id_VertTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1a3ec35a1104d02deac3d28d5b99d18294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_Id_VertTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76187" bodyend="76188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1ae91a91c2d71df9701472a9f74b613a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.func_float_from_Id_VertTag.__call__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76189" bodyend="76190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1a7a9cff999fed34aa2deec033d6dc2895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_Id_VertTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76192" bodyend="76193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1a069bf0a1d1c01339ae036dc929269ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_Id_VertTag.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76195" bodyend="76196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1ac1a3bbbd2d442cb1221dca2ef54f77d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_Id_VertTag.__init__</definition>
+        <argsstring>(self, func_float_from_Id_VertTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76198" bodyend="76199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1a5045223e4e4f833d33339395882b0ce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_Id_VertTag.__init__</definition>
+        <argsstring>(self, typing.Callable[[VertId], float] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[VertId]</array>
+        </param>
+        <param>
+          <type>float]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76201" bodyend="76202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1aea6333245d2c1163f03d3e2fd76a90cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_Id_VertTag.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76203" bodyend="76206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__Id__VertTag_1af3b07446f53d222028a819e4a65fe7fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_Id_VertTag.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_float_from_Id_VertTag.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76207" bodyend="76210"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76186" bodyend="76210"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1a3ec35a1104d02deac3d28d5b99d18294" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1ae91a91c2d71df9701472a9f74b613a1a" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1a7a9cff999fed34aa2deec033d6dc2895" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1a069bf0a1d1c01339ae036dc929269ffa" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1ac1a3bbbd2d442cb1221dca2ef54f77d6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1a5045223e4e4f833d33339395882b0ce0" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1aea6333245d2c1163f03d3e2fd76a90cf" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__Id__VertTag_1af3b07446f53d222028a819e4a65fe7fb" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_Id_VertTag</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

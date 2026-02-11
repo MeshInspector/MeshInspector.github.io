@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PdfBuildinFont" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PdfBuildinFont</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a4ee703335324621cf57e55b30d356bbb" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1ab46fd78dba0dca24027450503ae7ff69" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::Courier</definition>
+        <argsstring></argsstring>
+        <name>Courier</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.Courier</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43059" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a2e6e6b4a0132277db763925854f45e27" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::CourierBold</definition>
+        <argsstring></argsstring>
+        <name>CourierBold</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.CourierBold</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43060" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a0bf9993ecabcbf36b3c5a9ab10308ece" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::CourierBoldOblique</definition>
+        <argsstring></argsstring>
+        <name>CourierBoldOblique</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.CourierBoldOblique</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43061" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1adb306f8b85c98ce3d6c5b42006ebf932" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::CourierOblique</definition>
+        <argsstring></argsstring>
+        <name>CourierOblique</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.CourierOblique</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43062" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1ac11dade611801b64b0fef5ab3bd0c2e9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::Helvetica</definition>
+        <argsstring></argsstring>
+        <name>Helvetica</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.Helvetica</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43063" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a4dd8274578600dead58c723690537f8b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::HelveticaBold</definition>
+        <argsstring></argsstring>
+        <name>HelveticaBold</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.HelveticaBold</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43064" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1ad6c35c0e5cb114f46f45985ed8ebaac4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::HelveticaBoldOblique</definition>
+        <argsstring></argsstring>
+        <name>HelveticaBoldOblique</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.HelveticaBoldOblique</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43065" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a3e85921d25e8bd4b32ee6aa0a36b730a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::HelveticaOblique</definition>
+        <argsstring></argsstring>
+        <name>HelveticaOblique</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.HelveticaOblique</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43066" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a5421c99c401a5b3872ba8f38550bf006" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.Symbol</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43067" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a2ffca19d0637e5c38e6847019dbe9fd3" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::TimesBold</definition>
+        <argsstring></argsstring>
+        <name>TimesBold</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.TimesBold</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43068" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1adcc08ec93c908b53086c9d71e6e759bd" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::TimesBoldItalic</definition>
+        <argsstring></argsstring>
+        <name>TimesBoldItalic</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.TimesBoldItalic</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43069" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1ae8cbdc08ed2ff981bd24f8e3619601df" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::TimesItalic</definition>
+        <argsstring></argsstring>
+        <name>TimesItalic</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.TimesItalic</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43070" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1ab83b31c656b8f181a6f2568dc3b65284" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::TimesRoman</definition>
+        <argsstring></argsstring>
+        <name>TimesRoman</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.TimesRoman</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43071" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1aec9e9c8f20d59f6fa4d1f7e84b8038fd" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::ZapfDingbats</definition>
+        <argsstring></argsstring>
+        <name>ZapfDingbats</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.ZapfDingbats</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43072" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PdfBuildinFont_1a6fb89fa78d97c176e503a37bb0531e48" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PdfBuildinFont::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43073" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a36eb7deb41641f2ee47e86af3bc5ea2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PdfBuildinFont.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43074" bodyend="43075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a046b0b95fda4e9996b02f7fc0a93c739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PdfBuildinFont.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43076" bodyend="43077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a697554566792ee5d1662b4d09c52c24b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PdfBuildinFont.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43078" bodyend="43079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a00f7045e34eae511c8feea40b2268ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PdfBuildinFont.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43080" bodyend="43081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1ade765eaa5026c9c1c8bf3fb01c56dd91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PdfBuildinFont.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43082" bodyend="43083"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a33a3cee769ea91d713e78807083647b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PdfBuildinFont.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43084" bodyend="43085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a4eb68a9562937e30dc7f54c262227ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PdfBuildinFont.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43086" bodyend="43087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1aa51ddceb01d3f7ea1b77096b48def4c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PdfBuildinFont.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43088" bodyend="43089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a8ff2da891c438bc83e91797aa9a00de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PdfBuildinFont.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43090" bodyend="43091"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a4e4da9ccae03e2f4f1e1f00f5dcf433b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PdfBuildinFont.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43092" bodyend="43093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1a19ecfc6c0b4ddfbcc035516aae01cca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PdfBuildinFont.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43095" bodyend="43096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PdfBuildinFont_1ab4a97b612575b56c0bce941f491ef329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PdfBuildinFont.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.PdfBuildinFont.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43098" bodyend="43099"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Courier
+
+  CourierBold
+
+  CourierOblique
+
+  CourierBoldOblique
+
+  Helvetica
+
+  HelveticaBold
+
+  HelveticaOblique
+
+  HelveticaBoldOblique
+
+  TimesRoman
+
+  TimesBold
+
+  TimesItalic
+
+  TimesBoldItalic
+
+  Symbol
+
+  ZapfDingbats
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PdfBuildinFont</label>
+        <link refid="classmrmeshpy_1_1PdfBuildinFont"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>Courier</edgelabel>
+          <edgelabel>CourierBold</edgelabel>
+          <edgelabel>CourierBoldOblique</edgelabel>
+          <edgelabel>CourierOblique</edgelabel>
+          <edgelabel>Helvetica</edgelabel>
+          <edgelabel>HelveticaBold</edgelabel>
+          <edgelabel>HelveticaBoldOblique</edgelabel>
+          <edgelabel>HelveticaOblique</edgelabel>
+          <edgelabel>Symbol</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43024" bodyend="43099"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a36eb7deb41641f2ee47e86af3bc5ea2a" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a046b0b95fda4e9996b02f7fc0a93c739" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a697554566792ee5d1662b4d09c52c24b" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a00f7045e34eae511c8feea40b2268ffb" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ade765eaa5026c9c1c8bf3fb01c56dd91" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a33a3cee769ea91d713e78807083647b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a6fb89fa78d97c176e503a37bb0531e48" prot="private" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a4eb68a9562937e30dc7f54c262227ffb" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1aa51ddceb01d3f7ea1b77096b48def4c0" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a8ff2da891c438bc83e91797aa9a00de4" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a4e4da9ccae03e2f4f1e1f00f5dcf433b" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a4ee703335324621cf57e55b30d356bbb" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ab46fd78dba0dca24027450503ae7ff69" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>Courier</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a2e6e6b4a0132277db763925854f45e27" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>CourierBold</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a0bf9993ecabcbf36b3c5a9ab10308ece" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>CourierBoldOblique</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1adb306f8b85c98ce3d6c5b42006ebf932" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>CourierOblique</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ac11dade611801b64b0fef5ab3bd0c2e9" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>Helvetica</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a4dd8274578600dead58c723690537f8b" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>HelveticaBold</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ad6c35c0e5cb114f46f45985ed8ebaac4" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>HelveticaBoldOblique</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a3e85921d25e8bd4b32ee6aa0a36b730a" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>HelveticaOblique</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a19ecfc6c0b4ddfbcc035516aae01cca4" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a5421c99c401a5b3872ba8f38550bf006" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>Symbol</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1a2ffca19d0637e5c38e6847019dbe9fd3" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>TimesBold</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1adcc08ec93c908b53086c9d71e6e759bd" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>TimesBoldItalic</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ae8cbdc08ed2ff981bd24f8e3619601df" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>TimesItalic</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ab83b31c656b8f181a6f2568dc3b65284" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>TimesRoman</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1ab4a97b612575b56c0bce941f491ef329" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1PdfBuildinFont_1aec9e9c8f20d59f6fa4d1f7e84b8038fd" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>ZapfDingbats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

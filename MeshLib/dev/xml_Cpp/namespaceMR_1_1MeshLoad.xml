@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1MeshLoad" kind="namespace" language="C++">
+    <compoundname>MR::MeshLoad</compoundname>
+    <innerclass refid="structMR_1_1MeshLoad_1_1MeshLoader" prot="public">MR::MeshLoad::MeshLoader</innerclass>
+    <innerclass refid="structMR_1_1MeshLoad_1_1NamedMesh" prot="public">MR::MeshLoad::NamedMesh</innerclass>
+    <innerclass refid="structMR_1_1MeshLoad_1_1ObjLoadSettings" prot="public">MR::MeshLoad::ObjLoadSettings</innerclass>
+    <sectiondef kind="typedef">
+      <member refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" kind="typedef"><name>MeshFileLoader</name></member>
+      <member refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kind="typedef"><name>MeshStreamLoader</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1ab8244b145886f1cf25efcd9d04e05901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Mesh &gt; MR::MeshLoad::fromCtm</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>MR::MeshLoad::fromCtm</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads from .ctm file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="21" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="21" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a529ea8e184e964d8d3d75f866acbbfd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Mesh &gt; MR::MeshLoad::fromCtm</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>MR::MeshLoad::fromCtm</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="22" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="22" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1abbf7faeb36062c71f04bafb9137d97bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Mesh &gt; MR::MeshLoad::fromStep</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromStep</name>
+        <qualifiedname>MR::MeshLoad::fromStep</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>load mesh data from STEP file using OpenCASCADE </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="17" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="17" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a18cc94bfc1baa02c861e6023774fcd8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Mesh &gt; MR::MeshLoad::fromStep</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromStep</name>
+        <qualifiedname>MR::MeshLoad::fromStep</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="18" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="18" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1abe5065ffde4d1425331b865265807b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; std::shared_ptr&lt; Object &gt; &gt; MR::MeshLoad::fromSceneStepFile</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromSceneStepFile</name>
+        <qualifiedname>MR::MeshLoad::fromSceneStepFile</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>load scene from STEP file using OpenCASCADE </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="21" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="21" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1adad8cf91a6a24357a4abdeffc053e6cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; std::shared_ptr&lt; Object &gt; &gt; MR::MeshLoad::fromSceneStepFile</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromSceneStepFile</name>
+        <qualifiedname>MR::MeshLoad::fromSceneStepFile</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="22" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="22" declcolumn="25"/>
+      </memberdef>
+      <member refid="group__MeshLoadGroup_1ga0230084d7f2168e0171883198494ca0a" kind="function"><name>fromMrmesh</name></member>
+      <member refid="group__MeshLoadGroup_1ga4725e7b67ed74363c6782045a4122ed9" kind="function"><name>fromMrmesh</name></member>
+      <member refid="group__MeshLoadGroup_1ga9dacefdac7728d37b984dcab6ed88bf3" kind="function"><name>fromOff</name></member>
+      <member refid="group__MeshLoadGroup_1gaf2da62e6f9eb917bd0def906f852e597" kind="function"><name>fromOff</name></member>
+      <member refid="group__MeshLoadGroup_1ga132c2f040df5ba0e5b7c26b62a687a64" kind="function"><name>fromObj</name></member>
+      <member refid="group__MeshLoadGroup_1gac407c8e26de276d27c9bbb8fe40eade0" kind="function"><name>fromObj</name></member>
+      <member refid="group__MeshLoadGroup_1ga1b2267cc39cb8d9f8cc2942df5a0b12b" kind="function"><name>fromAnyStl</name></member>
+      <member refid="group__MeshLoadGroup_1ga49f8924ac46a8d5087ce59fb9be4ecfe" kind="function"><name>fromAnyStl</name></member>
+      <member refid="group__MeshLoadGroup_1ga800a25cbcfacd411f62b7c5f66035242" kind="function"><name>fromBinaryStl</name></member>
+      <member refid="group__MeshLoadGroup_1ga08e50aacade413e567cd3bc388b51163" kind="function"><name>fromBinaryStl</name></member>
+      <member refid="group__MeshLoadGroup_1gaf50c150b1dd81fc6068b1ceff67e4fdf" kind="function"><name>fromASCIIStl</name></member>
+      <member refid="group__MeshLoadGroup_1ga48e8ba7fe63a7dd81cac9f267a869133" kind="function"><name>fromASCIIStl</name></member>
+      <member refid="group__MeshLoadGroup_1ga1cb0c1de8fa23fcac57b58ccd15c147a" kind="function"><name>fromPly</name></member>
+      <member refid="group__MeshLoadGroup_1ga288b39c5cb10846a9c11e14ca00ada85" kind="function"><name>fromPly</name></member>
+      <member refid="group__MeshLoadGroup_1ga1335c7ebd417b7e14d4a7fbec71b1e16" kind="function"><name>fromDxf</name></member>
+      <member refid="group__MeshLoadGroup_1ga6c226ac764bb215351691358c90e3eef" kind="function"><name>fromDxf</name></member>
+      <member refid="group__MeshLoadGroup_1gac9118492a6cd095ff8e563c0987fc477" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__MeshLoadGroup_1ga7aaa3a9fdc4e9ca9e86331c938c43fcd" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__MeshLoadGroup_1ga1609740c1af4ee05a62c65f39f25323a" kind="function"><name>telemetryLogSize</name></member>
+      <member refid="group__MeshLoadObjGroup_1gab52f28ac17e79efc94fc00389e683c02" kind="function"><name>fromSceneObjFile</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga0a0e35247ea58005627d346e49a5de82" kind="function"><name>fromSceneObjFile</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga11ad7be5532b39f13f4f6df8f2b49fe7" kind="function"><name>fromSceneObjFile</name></member>
+      <member refid="group__MeshLoadObjGroup_1gae5d6ebb9bff1143f8f529031d34001f2" kind="function"><name>loadObjectFromObj</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>compatibility names </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="17" column="1"/>
+  </compounddef>
+</doxygen>

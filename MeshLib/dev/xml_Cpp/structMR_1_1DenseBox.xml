@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DenseBox" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DenseBox</compoundname>
+    <includes refid="MRDenseBox_8h" local="no">MRDenseBox.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structMR_1_1DenseBox_1a6086c46946d7a35114b263a9dd4d59e2" prot="private" static="no" mutable="no">
+        <type>Box3f</type>
+        <definition>Box3f MR::DenseBox::box_</definition>
+        <argsstring></argsstring>
+        <name>box_</name>
+        <qualifiedname>MR::DenseBox::box_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenseBox_1a1c3177d2c1f2acad7079fcc81e9bc6de" prot="private" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::DenseBox::basisXf_</definition>
+        <argsstring></argsstring>
+        <name>basisXf_</name>
+        <qualifiedname>MR::DenseBox::basisXf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="55" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenseBox_1ae54bd88edd9807412b8b7dd6f347fff6" prot="private" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::DenseBox::basisXfInv_</definition>
+        <argsstring></argsstring>
+        <name>basisXfInv_</name>
+        <qualifiedname>MR::DenseBox::basisXfInv_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="56" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a7c79113a97744efd6bcbc544553fe582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DenseBox::DenseBox</definition>
+        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>DenseBox</name>
+        <qualifiedname>MR::DenseBox::DenseBox</qualifiedname>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include given points into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="17" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1ad18654ddb91781bc8e4d1417ce19a08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DenseBox::DenseBox</definition>
+        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; float &gt; &amp;weights, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>DenseBox</name>
+        <qualifiedname>MR::DenseBox::DenseBox</qualifiedname>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include given weighed points into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="19" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a38590d0d422769798b0be5129be63d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DenseBox::DenseBox</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>DenseBox</name>
+        <qualifiedname>MR::DenseBox::DenseBox</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include mesh part into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="21" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1aee07541d158133fc4c85e7170de4d3e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DenseBox::DenseBox</definition>
+        <argsstring>(const PointCloud &amp;points, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>DenseBox</name>
+        <qualifiedname>MR::DenseBox::DenseBox</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include point into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="23" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1aac374ad90e2a96d261ba863c1d6f46e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DenseBox::DenseBox</definition>
+        <argsstring>(const Polyline3 &amp;line, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>DenseBox</name>
+        <qualifiedname>MR::DenseBox::DenseBox</qualifiedname>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include line into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="25" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a7efc7b0a63b1e8c7737349454066d83f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <definition>MRMESH_API Vector3f MR::DenseBox::center</definition>
+        <argsstring>() const</argsstring>
+        <name>center</name>
+        <qualifiedname>MR::DenseBox::center</qualifiedname>
+        <briefdescription>
+<para>returns center of dense box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="28" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1ae15fa3079fbe1aae94cb52176e59e802" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <definition>MRMESH_API Vector3f MR::DenseBox::corner</definition>
+        <argsstring>(const Vector3b &amp;index) const</argsstring>
+        <name>corner</name>
+        <qualifiedname>MR::DenseBox::corner</qualifiedname>
+        <param>
+          <type>const Vector3b &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns corner of dense box, each index value means: false - min, true - max example: {false, false, flase} - min point, {true, true, true} - max point </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="31" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1ad6e0ec24db49e4d651459703603a3e4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::DenseBox::contains</definition>
+        <argsstring>(const Vector3f &amp;pt) const</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR::DenseBox::contains</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns true if dense box contains given point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="33" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a0ea02f370dc76e349984c62b5a3f6557" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Box3f &amp;</type>
+        <definition>const Box3f &amp; MR::DenseBox::box</definition>
+        <argsstring>() const</argsstring>
+        <name>box</name>
+        <qualifiedname>MR::DenseBox::box</qualifiedname>
+        <briefdescription>
+<para>Access members. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>return box in its space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="38" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a941ca605a35dc828fc9b0e7c5358c7e9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const AffineXf3f &amp;</type>
+        <definition>const AffineXf3f &amp; MR::DenseBox::basisXf</definition>
+        <argsstring>() const</argsstring>
+        <name>basisXf</name>
+        <qualifiedname>MR::DenseBox::basisXf</qualifiedname>
+        <briefdescription>
+<para>transform box space to world space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="40" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a1d968d6262ca4a19b4f5610ef49dfdee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const AffineXf3f &amp;</type>
+        <definition>const AffineXf3f &amp; MR::DenseBox::basisXfInv</definition>
+        <argsstring>() const</argsstring>
+        <name>basisXfInv</name>
+        <qualifiedname>MR::DenseBox::basisXfInv</qualifiedname>
+        <briefdescription>
+<para>transform world space to box space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="42" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="structMR_1_1DenseBox_1aee8123ab811e77321069f3d08c790b94" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::DenseBox::init_</definition>
+        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; float &gt; *weights=nullptr, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>init_</name>
+        <qualifiedname>MR::DenseBox::init_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; *</type>
+          <declname>weights</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include given points into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a5df205af7e02e059dd8686549f7a1708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::DenseBox::init_</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>init_</name>
+        <qualifiedname>MR::DenseBox::init_</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include mesh part into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a719c140bf1ea5e824566ae7a79718287" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::DenseBox::init_</definition>
+        <argsstring>(const PointCloud &amp;points, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>init_</name>
+        <qualifiedname>MR::DenseBox::init_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include point into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DenseBox_1a225c67e0c484f0fde15f39d9782478aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::DenseBox::init_</definition>
+        <argsstring>(const Polyline3 &amp;line, const AffineXf3f *xf=nullptr)</argsstring>
+        <name>init_</name>
+        <qualifiedname>MR::DenseBox::init_</qualifiedname>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Include line into this dense box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="52" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure to hold and work with dense box</para>
+<para>Scalar operations that are not provided in this struct can be called via <computeroutput><ref refid="structMR_1_1DenseBox_1a0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref></computeroutput> For example <computeroutput><ref refid="structMR_1_1DenseBox_1a0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size()</ref></computeroutput>, <computeroutput><ref refid="structMR_1_1DenseBox_1a0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.diagonal()</computeroutput> or <computeroutput><ref refid="structMR_1_1DenseBox_1a0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="namespaceMR_1a83e40508b3f05b594da19748c1da2d05" kindref="member">volume()</ref></computeroutput> Non const operations are not allowed for dense box because it can spoil density </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="15" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DenseBox_1a941ca605a35dc828fc9b0e7c5358c7e9" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXf</name></member>
+      <member refid="structMR_1_1DenseBox_1a1c3177d2c1f2acad7079fcc81e9bc6de" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXf_</name></member>
+      <member refid="structMR_1_1DenseBox_1a1d968d6262ca4a19b4f5610ef49dfdee" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXfInv</name></member>
+      <member refid="structMR_1_1DenseBox_1ae54bd88edd9807412b8b7dd6f347fff6" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXfInv_</name></member>
+      <member refid="structMR_1_1DenseBox_1a0ea02f370dc76e349984c62b5a3f6557" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>box</name></member>
+      <member refid="structMR_1_1DenseBox_1a6086c46946d7a35114b263a9dd4d59e2" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>box_</name></member>
+      <member refid="structMR_1_1DenseBox_1a7efc7b0a63b1e8c7737349454066d83f" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>center</name></member>
+      <member refid="structMR_1_1DenseBox_1ad6e0ec24db49e4d651459703603a3e4d" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>contains</name></member>
+      <member refid="structMR_1_1DenseBox_1ae15fa3079fbe1aae94cb52176e59e802" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>corner</name></member>
+      <member refid="structMR_1_1DenseBox_1a7c79113a97744efd6bcbc544553fe582" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="structMR_1_1DenseBox_1ad18654ddb91781bc8e4d1417ce19a08e" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="structMR_1_1DenseBox_1a38590d0d422769798b0be5129be63d55" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="structMR_1_1DenseBox_1aee07541d158133fc4c85e7170de4d3e7" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="structMR_1_1DenseBox_1aac374ad90e2a96d261ba863c1d6f46e2" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="structMR_1_1DenseBox_1aee8123ab811e77321069f3d08c790b94" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+      <member refid="structMR_1_1DenseBox_1a5df205af7e02e059dd8686549f7a1708" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+      <member refid="structMR_1_1DenseBox_1a719c140bf1ea5e824566ae7a79718287" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+      <member refid="structMR_1_1DenseBox_1a225c67e0c484f0fde15f39d9782478aa" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

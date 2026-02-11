@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RingIterator__MRNextEdgeSameLeft" kind="class" language="C#" prot="public">
+    <compoundname>MR::RingIterator_MRNextEdgeSameLeft</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_RingIterator_MRNextEdgeSameLeft</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1af03db6ae8bb39817b6151302b516541f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.RingIterator_MRNextEdgeSameLeft.operator MR.NextEdgeSameLeft</definition>
+        <argsstring>(RingIterator_MRNextEdgeSameLeft self)</argsstring>
+        <name>operator MR.NextEdgeSameLeft</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.operator MR.NextEdgeSameLeft</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RingIterator__MRNextEdgeSameLeft" kindref="compound">RingIterator_MRNextEdgeSameLeft</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="402" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="402" bodyend="409"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a922f1015cab88fecfcdd780a9453dc71" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>RingIterator_MRNextEdgeSameLeft</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="411" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="411" bodyend="411"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a911a32456b2233ff9eef353741724118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</definition>
+        <argsstring>(MR.Const_RingIterator_MRNextEdgeSameLeft _other)</argsstring>
+        <name>RingIterator_MRNextEdgeSameLeft</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</qualifiedname>
+        <param>
+          <type>MR.Const_RingIterator_MRNextEdgeSameLeft</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="416" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="416" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a52162cb83ff6dbc36867fe908b395e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</definition>
+        <argsstring>(RingIterator_MRNextEdgeSameLeft _other)</argsstring>
+        <name>RingIterator_MRNextEdgeSameLeft</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RingIterator__MRNextEdgeSameLeft" kindref="compound">RingIterator_MRNextEdgeSameLeft</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="427" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="427" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1aafbf5c9d22cd444baf860cea8f67a6c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.EdgeId edge, bool first)</argsstring>
+        <name>RingIterator_MRNextEdgeSameLeft</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>edge</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>first</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="432" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="432" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1aba8c28ef75f1e2fc3dfe61bffae7fe77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RingIterator__MRNextEdgeSameLeft" kindref="compound">MR.RingIterator_MRNextEdgeSameLeft</ref></type>
+        <definition>unsafe MR.RingIterator_MRNextEdgeSameLeft MR.RingIterator_MRNextEdgeSameLeft.assign</definition>
+        <argsstring>(MR.Const_RingIterator_MRNextEdgeSameLeft _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.assign</qualifiedname>
+        <param>
+          <type>MR.Const_RingIterator_MRNextEdgeSameLeft</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="443" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="443" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a9bafc467c0c98fd3a782a97fac937b71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.RingIterator_MRNextEdgeSameLeft.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="455" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="455" bodyend="460"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_RingIterator_MRNextEdgeSameLeft</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RingIterator_MRNextEdgeSameLeft</label>
+        <link refid="classMR_1_1RingIterator__MRNextEdgeSameLeft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_RingIterator_MRNextEdgeSameLeft</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RingIterator_MRNextEdgeSameLeft</label>
+        <link refid="classMR_1_1RingIterator__MRNextEdgeSameLeft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="399" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="400" bodyend="461"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1aba8c28ef75f1e2fc3dfe61bffae7fe77" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>assign</name></member>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a9bafc467c0c98fd3a782a97fac937b71" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>incr</name></member>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1af03db6ae8bb39817b6151302b516541f" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>operator MR.NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a922f1015cab88fecfcdd780a9453dc71" prot="package" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a911a32456b2233ff9eef353741724118" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a52162cb83ff6dbc36867fe908b395e71" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1aafbf5c9d22cd444baf860cea8f67a6c8" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

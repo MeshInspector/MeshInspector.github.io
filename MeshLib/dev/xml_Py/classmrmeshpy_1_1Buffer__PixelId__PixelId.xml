@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Buffer__PixelId__PixelId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Buffer_PixelId_PixelId</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ac520f704752e2cde25fa2d8b51349fb7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_PixelId_PixelId::T</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.T</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aa4ffb6015fb8b5393128d1fe15f135c3" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_PixelId_PixelId::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.const_iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a52a0fd2ffd2da613a3a83b4ff4b96b55" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_PixelId_PixelId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ab502d69cbf3b904c0c9f557428065868" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_PixelId_PixelId::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ad148cb358fe0f1ba4fe4ebf2abf2300b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_PixelId_PixelId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6647" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a9bae70b1b366b742ab81d98c27ec1bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></type>
+        <definition> NoDefInit_PixelId mrmeshpy.Buffer_PixelId_PixelId.__getitem__</definition>
+        <argsstring>(self, PixelId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6649" bodyend="6650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a9bae70b1b366b742ab81d98c27ec1bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></type>
+        <definition> NoDefInit_PixelId mrmeshpy.Buffer_PixelId_PixelId.__getitem__</definition>
+        <argsstring>(self, PixelId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6652" bodyend="6653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a7a848a214604b2b205ba5384c73155dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_PixelId_PixelId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6655" bodyend="6656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1acc82aef18d941179e43ebaf2bee11adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_PixelId_PixelId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6658" bodyend="6659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a6e68a6ef71c753187693bc770f76cc2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref>]</type>
+        <definition> typing.Iterator[NoDefInit_PixelId] mrmeshpy.Buffer_PixelId_PixelId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6660" bodyend="6661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a5eef823d8747c29a68a6e7801fd77c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_PixelId_PixelId.__setitem__</definition>
+        <argsstring>(self, PixelId arg0, NoDefInit_PixelId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6662" bodyend="6663"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a78cbd8423db136ef361c9325c5571df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.Buffer_PixelId_PixelId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6664" bodyend="6667"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a84621b6526cfca47d8c7991d530be4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.Buffer_PixelId_PixelId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6668" bodyend="6671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a8f7ac03532bebef57de290bde5b7e908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_PixelId_PixelId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6672" bodyend="6673"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1af44a536d95e1e2002457c5850fc06615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_PixelId_PixelId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6674" bodyend="6675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aaf1993b831d2aee0b9cac88bf1caec56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></type>
+        <definition> NoDefInit_PixelId mrmeshpy.Buffer_PixelId_PixelId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6677" bodyend="6678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aaf1993b831d2aee0b9cac88bf1caec56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__PixelId" kindref="compound">NoDefInit_PixelId</ref></type>
+        <definition> NoDefInit_PixelId mrmeshpy.Buffer_PixelId_PixelId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6680" bodyend="6681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a21ee1f5bbedaafe9d62962deb2d72031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Buffer_PixelId_PixelId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6682" bodyend="6683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aeee769871d4e1693ee72ee7acd315ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.Buffer_PixelId_PixelId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6684" bodyend="6687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ab09c88dbed2463db146963d540ff835f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_PixelId_PixelId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6688" bodyend="6691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a517b8738425f1edbfd080c01e5badcdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_PixelId_PixelId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6692" bodyend="6693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a982ae7396b3099897da981b3eeb5a962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_PixelId_PixelId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Buffer_PixelId_PixelId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6694" bodyend="6695"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Buffer&lt;MR::PixelId, MR::PixelId&gt;
+
+
+ \\brief std::vector&lt;V&gt;-like container that is
+  1) resized without initialization of its elements,
+  2) much simplified: no push_back and many other methods
+ \\tparam V type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6631" bodyend="6695"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a9bae70b1b366b742ab81d98c27ec1bd1" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a9bae70b1b366b742ab81d98c27ec1bd1" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a7a848a214604b2b205ba5384c73155dc" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1acc82aef18d941179e43ebaf2bee11adb" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a6e68a6ef71c753187693bc770f76cc2a" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a5eef823d8747c29a68a6e7801fd77c2d" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a78cbd8423db136ef361c9325c5571df3" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a84621b6526cfca47d8c7991d530be4e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a8f7ac03532bebef57de290bde5b7e908" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1af44a536d95e1e2002457c5850fc06615" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aa4ffb6015fb8b5393128d1fe15f135c3" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>const_iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a52a0fd2ffd2da613a3a83b4ff4b96b55" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aaf1993b831d2aee0b9cac88bf1caec56" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aaf1993b831d2aee0b9cac88bf1caec56" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a21ee1f5bbedaafe9d62962deb2d72031" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1aeee769871d4e1693ee72ee7acd315ace" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ab09c88dbed2463db146963d540ff835f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ab502d69cbf3b904c0c9f557428065868" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ad148cb358fe0f1ba4fe4ebf2abf2300b" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a517b8738425f1edbfd080c01e5badcdd" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1a982ae7396b3099897da981b3eeb5a962" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__PixelId__PixelId_1ac520f704752e2cde25fa2d8b51349fb7" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_PixelId_PixelId</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ICP" kind="class" language="C++" prot="public">
+    <compoundname>MR::ICP</compoundname>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ICP_1ab6fc4b50aa9caa98755ba4e1b62e3f2d" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+        <definition>MeshOrPointsXf MR::ICP::flt_</definition>
+        <argsstring></argsstring>
+        <name>flt_</name>
+        <qualifiedname>MR::ICP::flt_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="270" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ICP_1a4b0a185c72915330bc57a2aa250e5bd8" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+        <definition>MeshOrPointsXf MR::ICP::ref_</definition>
+        <argsstring></argsstring>
+        <name>ref_</name>
+        <qualifiedname>MR::ICP::ref_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="271" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ICP_1a7548578d38592d23a3c0058a10c5ca86" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref></type>
+        <definition>ICPProperties MR::ICP::prop_</definition>
+        <argsstring></argsstring>
+        <name>prop_</name>
+        <qualifiedname>MR::ICP::prop_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="273" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ICP_1ac9ea5c5be89d6d0ac867a3c800b3d576" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref></type>
+        <definition>PointPairs MR::ICP::flt2refPairs_</definition>
+        <argsstring></argsstring>
+        <name>flt2refPairs_</name>
+        <qualifiedname>MR::ICP::flt2refPairs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="275" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ICP_1aba64c8a5a357b2f567a3318251ca1efc" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref></type>
+        <definition>PointPairs MR::ICP::ref2fltPairs_</definition>
+        <argsstring></argsstring>
+        <name>ref2fltPairs_</name>
+        <qualifiedname>MR::ICP::ref2fltPairs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="276" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ICP_1a875ef39dad82165cac8ec237876a1b5c" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref></type>
+        <definition>ICPExitType MR::ICP::resultType_</definition>
+        <argsstring></argsstring>
+        <name>resultType_</name>
+        <qualifiedname>MR::ICP::resultType_</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94" kindref="member">ICPExitType::NotStarted</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="278" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="278" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ICP_1aa764e0eb401923bc323db14e29174fc6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ICP::iter_</definition>
+        <argsstring></argsstring>
+        <name>iter_</name>
+        <qualifiedname>MR::ICP::iter_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="283" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ICP_1abf8abfc1336998ff9b7f0baff945f17f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ICP::ICP</definition>
+        <argsstring>(const MeshOrPoints &amp;flt, const MeshOrPoints &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR::ICP::ICP</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref> &amp;</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>fltSamples</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>refSamples</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> framework with given sample points on both objects <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>floating object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fltXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from floating object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from reference object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fltSamples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples on floating object to find projections on the reference object during the algorithm </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refSamples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples on reference object to find projections on the floating object during the algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="195" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="195" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1aca4490fa0871ec586b8cdb403a73cba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ICP::ICP</definition>
+        <argsstring>(const MeshOrPointsXf &amp;flt, const MeshOrPointsXf &amp;ref, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR::ICP::ICP</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref> &amp;</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>fltSamples</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>refSamples</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="197" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1aeeebad873ae2a9669d93fc0063a7d823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ICP::ICP</definition>
+        <argsstring>(const MeshOrPoints &amp;flt, const MeshOrPoints &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, float samplingVoxelSize)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR::ICP::ICP</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref> &amp;</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> framework with automatic points sampling on both objects <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>floating object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fltXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from floating object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from reference object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samplingVoxelSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>approximate distance between samples on each of two objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="205" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="205" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ae577ff855840dbf373087da916d01fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ICP::ICP</definition>
+        <argsstring>(const MeshOrPointsXf &amp;flt, const MeshOrPointsXf &amp;ref, float samplingVoxelSize)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR::ICP::ICP</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref> &amp;</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="207" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a432cc96b69c08b035a5c6bf6bf8919da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::setParams</definition>
+        <argsstring>(const ICPProperties &amp;prop)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>MR::ICP::setParams</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref> &amp;</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+<para>tune algorithm params before run <ref refid="classMR_1_1ICP_1a3f40555a05bfe2e6e231d81811b6baa7" kindref="member">calculateTransformation()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="210" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a24aedd24a0e67bee11231cdf423fafcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setCosineLimit</definition>
+        <argsstring>(const float cos)</argsstring>
+        <name>setCosineLimit</name>
+        <qualifiedname>MR::ICP::setCosineLimit</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>cos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="211" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1af226a6c2f4724b14d1427eac21236263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setDistanceLimit</definition>
+        <argsstring>(const float dist)</argsstring>
+        <name>setDistanceLimit</name>
+        <qualifiedname>MR::ICP::setDistanceLimit</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="212" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a82d109dc700457986de7a786d6000429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setBadIterCount</definition>
+        <argsstring>(const int iter)</argsstring>
+        <name>setBadIterCount</name>
+        <qualifiedname>MR::ICP::setBadIterCount</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="213" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1af7075821af276952c330c5171ffc772c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setFarDistFactor</definition>
+        <argsstring>(const float factor)</argsstring>
+        <name>setFarDistFactor</name>
+        <qualifiedname>MR::ICP::setFarDistFactor</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="214" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a4f146d207e9738307404735d50df2c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setFltSamples</definition>
+        <argsstring>(const VertBitSet &amp;fltSamples)</argsstring>
+        <name>setFltSamples</name>
+        <qualifiedname>MR::ICP::setFltSamples</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>fltSamples</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on floating object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="217" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a7306dd698567c8bfa4b7c01a5eb5881f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::sampleFltPoints</definition>
+        <argsstring>(float samplingVoxelSize)</argsstring>
+        <name>sampleFltPoints</name>
+        <qualifiedname>MR::ICP::sampleFltPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="218" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a71d2c3ad12814f1fc80c984f56f97ab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setRefSamples</definition>
+        <argsstring>(const VertBitSet &amp;refSamples)</argsstring>
+        <name>setRefSamples</name>
+        <qualifiedname>MR::ICP::setRefSamples</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>refSamples</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on reference object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="221" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a46b29e7fe70c13a2bc3b83971e92b564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::sampleRefPoints</definition>
+        <argsstring>(float samplingVoxelSize)</argsstring>
+        <name>sampleRefPoints</name>
+        <qualifiedname>MR::ICP::sampleRefPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="222" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a56cde0df43df6f53274400daea013890" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::samplePoints</definition>
+        <argsstring>(float samplingVoxelSize)</argsstring>
+        <name>samplePoints</name>
+        <qualifiedname>MR::ICP::samplePoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on both objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="225" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="225" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1abd481b32d31b8f82a05f815143b28820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
+        <definition>MR_BIND_IGNORE void MR::ICP::recomputeBitSet</definition>
+        <argsstring>(float fltSamplingVoxelSize)</argsstring>
+        <name>recomputeBitSet</name>
+        <qualifiedname>MR::ICP::recomputeBitSet</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>fltSamplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="227" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="227" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ab88edcca6724a83490260b5136044e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setXfs</definition>
+        <argsstring>(const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf)</argsstring>
+        <name>setXfs</name>
+        <qualifiedname>MR::ICP::setXfs</qualifiedname>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>refXf</declname>
+        </param>
+        <briefdescription>
+<para>sets to-world transformations both for floating and reference objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="230" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a648f51132c41c3a5914156ba001be0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::setFloatXf</definition>
+        <argsstring>(const AffineXf3f &amp;fltXf)</argsstring>
+        <name>setFloatXf</name>
+        <qualifiedname>MR::ICP::setFloatXf</qualifiedname>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>fltXf</declname>
+        </param>
+        <briefdescription>
+<para>sets to-world transformation for the floating object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="233" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1af17a6cc396cbd9fef3d4f6b0d57646be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> AffineXf3f</type>
+        <definition>MRMESH_API AffineXf3f MR::ICP::autoSelectFloatXf</definition>
+        <argsstring>()</argsstring>
+        <name>autoSelectFloatXf</name>
+        <qualifiedname>MR::ICP::autoSelectFloatXf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>automatically selects initial transformation for the floating object based on covariance matrices of both floating and reference objects; applies the transformation to the floating object and returns it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="238" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ab1c8fb3d4bbd3f143c7af4c10fd3cefa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ICP::updatePointPairs</definition>
+        <argsstring>()</argsstring>
+        <name>updatePointPairs</name>
+        <qualifiedname>MR::ICP::updatePointPairs</qualifiedname>
+        <briefdescription>
+<para>recompute point pairs after manual change of transformations or parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="241" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a3b44361c18aeb9ceab9d26c86c5939ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref> &amp;</type>
+        <definition>const ICPProperties &amp; MR::ICP::getParams</definition>
+        <argsstring>() const</argsstring>
+        <name>getParams</name>
+        <qualifiedname>MR::ICP::getParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="243" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="243" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ae72751da7183b696497da8a66bf7e256" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>MRMESH_API std::string MR::ICP::getStatusInfo</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatusInfo</name>
+        <qualifiedname>MR::ICP::getStatusInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="245" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a13f3b74f82ce6db64eeb57d6a5c043e5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::ICP::getNumSamples</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumSamples</name>
+        <qualifiedname>MR::ICP::getNumSamples</qualifiedname>
+        <briefdescription>
+<para>returns status info string </para>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the number of samples able to form pairs </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="248" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a65b7b6725dccffc2b4ed1ff739c1b43c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::ICP::getNumActivePairs</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActivePairs</name>
+        <qualifiedname>MR::ICP::getNumActivePairs</qualifiedname>
+        <briefdescription>
+<para>computes the number of active point pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="251" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="251" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ae230860d711e0bc5b25d98ee5d0e9e41" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::ICP::getMeanSqDistToPoint</definition>
+        <argsstring>() const</argsstring>
+        <name>getMeanSqDistToPoint</name>
+        <qualifiedname>MR::ICP::getMeanSqDistToPoint</qualifiedname>
+        <briefdescription>
+<para>computes root-mean-square deviation between points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="254" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ad235353480650c74fddf9b25b125ca02" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::ICP::getMeanSqDistToPlane</definition>
+        <argsstring>() const</argsstring>
+        <name>getMeanSqDistToPlane</name>
+        <qualifiedname>MR::ICP::getMeanSqDistToPlane</qualifiedname>
+        <briefdescription>
+<para>computes root-mean-square deviation from points to target planes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="257" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a615de191aaa0811f84bcd43de0798d0d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref> &amp;</type>
+        <definition>const PointPairs &amp; MR::ICP::getFlt2RefPairs</definition>
+        <argsstring>() const</argsstring>
+        <name>getFlt2RefPairs</name>
+        <qualifiedname>MR::ICP::getFlt2RefPairs</qualifiedname>
+        <briefdescription>
+<para>returns current pairs formed from samples on floating object and projections on reference object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="260" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="260" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a5ae6b714ad76474375e6365bb6a882a6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref> &amp;</type>
+        <definition>const PointPairs &amp; MR::ICP::getRef2FltPairs</definition>
+        <argsstring>() const</argsstring>
+        <name>getRef2FltPairs</name>
+        <qualifiedname>MR::ICP::getRef2FltPairs</qualifiedname>
+        <briefdescription>
+<para>returns current pairs formed from samples on reference object and projections on floating object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="263" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="263" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a3f40555a05bfe2e6e231d81811b6baa7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> AffineXf3f</type>
+        <definition>MRMESH_API AffineXf3f MR::ICP::calculateTransformation</definition>
+        <argsstring>()</argsstring>
+        <name>calculateTransformation</name>
+        <qualifiedname>MR::ICP::calculateTransformation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>runs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; <simplesect kind="return"><para>adjusted transformation of the floating object to match reference object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="267" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ICP_1aa8b47068555e697a4aa11d9d09b42d48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::deactivatefarDistPairs_</definition>
+        <argsstring>()</argsstring>
+        <name>deactivatefarDistPairs_</name>
+        <qualifiedname>MR::ICP::deactivatefarDistPairs_</qualifiedname>
+        <briefdescription>
+<para>deactivate pairs that does not meet farDistFactor criterion </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="281" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a07fa3e5142a0e6d3bfdd592d7a04eb8a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ICP::p2ptIter_</definition>
+        <argsstring>()</argsstring>
+        <name>p2ptIter_</name>
+        <qualifiedname>MR::ICP::p2ptIter_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="284" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a14578981138986a9062afaaa0424635e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ICP::p2plIter_</definition>
+        <argsstring>()</argsstring>
+        <name>p2plIter_</name>
+        <qualifiedname>MR::ICP::p2plIter_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="285" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a22fe04dcfe683298b72ffe3e5609fa3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::calcGen_</definition>
+        <argsstring>(float(ICP::*dist)() const, bool(ICP::*iter)())</argsstring>
+        <name>calcGen_</name>
+        <qualifiedname>MR::ICP::calcGen_</qualifiedname>
+        <param>
+          <type>float(ICP::*)() const</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>bool(ICP::*)()</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="287" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1af5bac876a2c70d546bd3172d0c819ced" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::calcP2Pt_</definition>
+        <argsstring>()</argsstring>
+        <name>calcP2Pt_</name>
+        <qualifiedname>MR::ICP::calcP2Pt_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="288" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a59fb7b1c85f1d625049062ede2237ed4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::calcP2Pl_</definition>
+        <argsstring>()</argsstring>
+        <name>calcP2Pl_</name>
+        <qualifiedname>MR::ICP::calcP2Pl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="289" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a2919e6c1f1b78a1b0e6e9513744013bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ICP::calcCombined_</definition>
+        <argsstring>()</argsstring>
+        <name>calcCombined_</name>
+        <qualifiedname>MR::ICP::calcCombined_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="290" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-examples/MeshICP.dox.cpp"></programlisting> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="186" bodyend="291"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ICP_1af17a6cc396cbd9fef3d4f6b0d57646be" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
+      <member refid="classMR_1_1ICP_1a2919e6c1f1b78a1b0e6e9513744013bd" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcCombined_</name></member>
+      <member refid="classMR_1_1ICP_1a22fe04dcfe683298b72ffe3e5609fa3a" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcGen_</name></member>
+      <member refid="classMR_1_1ICP_1a59fb7b1c85f1d625049062ede2237ed4" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcP2Pl_</name></member>
+      <member refid="classMR_1_1ICP_1af5bac876a2c70d546bd3172d0c819ced" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcP2Pt_</name></member>
+      <member refid="classMR_1_1ICP_1a3f40555a05bfe2e6e231d81811b6baa7" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>calculateTransformation</name></member>
+      <member refid="classMR_1_1ICP_1aa8b47068555e697a4aa11d9d09b42d48" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>deactivatefarDistPairs_</name></member>
+      <member refid="classMR_1_1ICP_1ac9ea5c5be89d6d0ac867a3c800b3d576" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>flt2refPairs_</name></member>
+      <member refid="classMR_1_1ICP_1ab6fc4b50aa9caa98755ba4e1b62e3f2d" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>flt_</name></member>
+      <member refid="classMR_1_1ICP_1a615de191aaa0811f84bcd43de0798d0d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getFlt2RefPairs</name></member>
+      <member refid="classMR_1_1ICP_1ad235353480650c74fddf9b25b125ca02" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPlane</name></member>
+      <member refid="classMR_1_1ICP_1ae230860d711e0bc5b25d98ee5d0e9e41" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPoint</name></member>
+      <member refid="classMR_1_1ICP_1a65b7b6725dccffc2b4ed1ff739c1b43c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classMR_1_1ICP_1a13f3b74f82ce6db64eeb57d6a5c043e5" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getNumSamples</name></member>
+      <member refid="classMR_1_1ICP_1a3b44361c18aeb9ceab9d26c86c5939ef" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getParams</name></member>
+      <member refid="classMR_1_1ICP_1a5ae6b714ad76474375e6365bb6a882a6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getRef2FltPairs</name></member>
+      <member refid="classMR_1_1ICP_1ae72751da7183b696497da8a66bf7e256" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getStatusInfo</name></member>
+      <member refid="classMR_1_1ICP_1abf8abfc1336998ff9b7f0baff945f17f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1aca4490fa0871ec586b8cdb403a73cba7" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1aeeebad873ae2a9669d93fc0063a7d823" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1ae577ff855840dbf373087da916d01fc5" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1aa764e0eb401923bc323db14e29174fc6" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>iter_</name></member>
+      <member refid="classMR_1_1ICP_1a14578981138986a9062afaaa0424635e" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>p2plIter_</name></member>
+      <member refid="classMR_1_1ICP_1a07fa3e5142a0e6d3bfdd592d7a04eb8a" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>p2ptIter_</name></member>
+      <member refid="classMR_1_1ICP_1a7548578d38592d23a3c0058a10c5ca86" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>prop_</name></member>
+      <member refid="classMR_1_1ICP_1abd481b32d31b8f82a05f815143b28820" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>recomputeBitSet</name></member>
+      <member refid="classMR_1_1ICP_1aba64c8a5a357b2f567a3318251ca1efc" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>ref2fltPairs_</name></member>
+      <member refid="classMR_1_1ICP_1a4b0a185c72915330bc57a2aa250e5bd8" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>ref_</name></member>
+      <member refid="classMR_1_1ICP_1a875ef39dad82165cac8ec237876a1b5c" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>resultType_</name></member>
+      <member refid="classMR_1_1ICP_1a7306dd698567c8bfa4b7c01a5eb5881f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleFltPoints</name></member>
+      <member refid="classMR_1_1ICP_1a56cde0df43df6f53274400daea013890" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>samplePoints</name></member>
+      <member refid="classMR_1_1ICP_1a46b29e7fe70c13a2bc3b83971e92b564" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleRefPoints</name></member>
+      <member refid="classMR_1_1ICP_1a82d109dc700457986de7a786d6000429" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setBadIterCount</name></member>
+      <member refid="classMR_1_1ICP_1a24aedd24a0e67bee11231cdf423fafcc" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setCosineLimit</name></member>
+      <member refid="classMR_1_1ICP_1af226a6c2f4724b14d1427eac21236263" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setDistanceLimit</name></member>
+      <member refid="classMR_1_1ICP_1af7075821af276952c330c5171ffc772c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setFarDistFactor</name></member>
+      <member refid="classMR_1_1ICP_1a648f51132c41c3a5914156ba001be0b0" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setFloatXf</name></member>
+      <member refid="classMR_1_1ICP_1a4f146d207e9738307404735d50df2c02" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setFltSamples</name></member>
+      <member refid="classMR_1_1ICP_1a432cc96b69c08b035a5c6bf6bf8919da" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setParams</name></member>
+      <member refid="classMR_1_1ICP_1a71d2c3ad12814f1fc80c984f56f97ab5" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setRefSamples</name></member>
+      <member refid="classMR_1_1ICP_1ab88edcca6724a83490260b5136044e36" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setXfs</name></member>
+      <member refid="classMR_1_1ICP_1ab1c8fb3d4bbd3f143c7af4c10fd3cefa" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>updatePointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

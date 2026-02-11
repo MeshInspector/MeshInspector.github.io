@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshLoadSettings_8h" kind="file" language="C++">
+    <compoundname>MRMeshLoadSettings.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
+    <includes local="no">optional</includes>
+    <includedby refid="MRCtm_8h" local="no">MRCtm.h</includedby>
+    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRIOFormatsRegistry.h</includedby>
+    <includedby refid="MRMeshLoad_8h" local="yes">MRMeshLoad.h</includedby>
+    <includedby refid="MRMeshLoadObj_8h" local="yes">MRMeshLoadObj.h</includedby>
+    <includedby refid="MRMisonLoad_8h" local="yes">MRMisonLoad.h</includedby>
+    <includedby refid="MRObjectLoad_8h" local="yes">MRObjectLoad.h</includedby>
+    <includedby refid="MRStep_8h" local="no">MRStep.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMeshLoadSettings.h</label>
+        <link refid="MRMeshLoadSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="15">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>MROpenRawVoxelsPlugin.h</label>
+        <link refid="MROpenRawVoxelsPlugin_8h"/>
+      </node>
+      <node id="2">
+        <label>MRCtm.h</label>
+        <link refid="MRCtm_8h"/>
+      </node>
+      <node id="11">
+        <label>MRStep.h</label>
+        <link refid="MRStep_8h"/>
+      </node>
+      <node id="3">
+        <label>MRIOFormatsRegistry.h</label>
+        <link refid="MRIOFormatsRegistry_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMeshLoad.h</label>
+        <link refid="MRMeshLoad_8h"/>
+      </node>
+      <node id="8">
+        <label>MRMeshLoadObj.h</label>
+        <link refid="MRMeshLoadObj_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMeshLoadSettings.h</label>
+        <link refid="MRMeshLoadSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMisonLoad.h</label>
+        <link refid="MRMisonLoad_8h"/>
+      </node>
+      <node id="10">
+        <label>MRObjectLoad.h</label>
+        <link refid="MRObjectLoad_8h"/>
+      </node>
+      <node id="4">
+        <label>MRVoxelsLoad.h</label>
+        <link refid="MRVoxelsLoad_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRVoxelsSave.h</label>
+        <link refid="MRVoxelsSave_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1MeshLoadSettings" prot="public">MR::MeshLoadSettings</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1MeshLoadSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1MeshLoadSettings_1a49a42dcc4e94c7c1824987b168d150b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Edges&gt;*<sp/><ref refid="structMR_1_1MeshLoadSettings_1a49a42dcc4e94c7c1824987b168d150b9" kindref="member">edges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1MeshLoadSettings_1a3d2dec2482a716804af51ed748ebcebc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors*<sp/><ref refid="structMR_1_1MeshLoadSettings_1a3d2dec2482a716804af51ed748ebcebc" kindref="member">colors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1MeshLoadSettings_1a7dbfff2eb5c5cb545df805be2ba90d72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceColors*<sp/><ref refid="structMR_1_1MeshLoadSettings_1a7dbfff2eb5c5cb545df805be2ba90d72" kindref="member">faceColors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1MeshLoadSettings_1a230e016c84aafc3886deeb6fd2b33455" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertUVCoords*<sp/><ref refid="structMR_1_1MeshLoadSettings_1a230e016c84aafc3886deeb6fd2b33455" kindref="member">uvCoords</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1MeshLoadSettings_1aeb2eb22ddf375f8cac7a36b6ec756c94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertNormals*<sp/><ref refid="structMR_1_1MeshLoadSettings_1aeb2eb22ddf375f8cac7a36b6ec756c94" kindref="member">normals</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1MeshLoadSettings_1aea5bd8460c5fbf0c62840a46e0eb2011" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>*<sp/><ref refid="structMR_1_1MeshLoadSettings_1aea5bd8460c5fbf0c62840a46e0eb2011" kindref="member">texture</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1MeshLoadSettings_1a6fdcf8fdd76f70d7403ea886ed944019" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/><ref refid="structMR_1_1MeshLoadSettings_1a6fdcf8fdd76f70d7403ea886ed944019" kindref="member">skippedFaceCount</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1MeshLoadSettings_1a1fdd9db8e441e5ff1bcee3e9d4b664a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/><ref refid="structMR_1_1MeshLoadSettings_1a1fdd9db8e441e5ff1bcee3e9d4b664a7" kindref="member">duplicatedVertexCount</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1MeshLoadSettings_1ae3778a9ff6574570228d2a4ae6b546c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1MeshLoadSettings_1ae3778a9ff6574570228d2a4ae6b546c0" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1MeshLoadSettings_1a60b5f4bc63d35b0ef8261da4de65917d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1MeshLoadSettings_1a60b5f4bc63d35b0ef8261da4de65917d" kindref="member">callback</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1MeshLoadSettings_1adf9210a3db4a2bdb4ccfb7e14f428246" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings_1adf9210a3db4a2bdb4ccfb7e14f428246" kindref="member">telemetrySignal</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h"/>
+  </compounddef>
+</doxygen>

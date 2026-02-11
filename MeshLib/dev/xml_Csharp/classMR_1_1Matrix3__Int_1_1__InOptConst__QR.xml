@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Matrix3__Int_1_1__InOptConst__QR" kind="class" language="C#" prot="public">
+    <compoundname>MR::Matrix3_Int::_InOptConst_QR</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1Matrix3__Int_1_1__InOptConst__QR_1a4df04d3d184e87a28ba61d8131ad3ea5" prot="public" static="no" mutable="no">
+        <type>Const_QR?</type>
+        <definition>Const_QR? MR.Matrix3_Int._InOptConst_QR.Opt</definition>
+        <argsstring></argsstring>
+        <name>Opt</name>
+        <qualifiedname>MR.Matrix3_Int._InOptConst_QR.Opt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="1431" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="1431" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This is used for optional parameters of class <computeroutput><ref refid="classMR_1_1Matrix3__Int_1_1QR" kindref="compound">QR</ref></computeroutput> with default arguments. This is only used const parameters. For non-const ones we have <computeroutput><ref refid="classMR_1_1Matrix3__Int_1_1__InOptMut__QR" kindref="compound">_InOptMut_QR</ref></computeroutput>. Usage: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Pass <computeroutput>null</computeroutput> to use the default argument.</para>
+</listitem><listitem><para>Pass <computeroutput>new()</computeroutput> to pass no object.</para>
+</listitem><listitem><para>Pass an instance of <computeroutput><ref refid="classMR_1_1Matrix3__Int_1_1QR" kindref="compound">QR</ref></computeroutput>/<computeroutput>Const_QR</computeroutput> to pass it to the function. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Matrix3_Int._InOptConst_QR</label>
+        <link refid="classMR_1_1Matrix3__Int_1_1__InOptConst__QR"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Opt</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Matrix3_Int.Const_QR</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_QR &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="1429" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="1430" bodyend="1436"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Matrix3__Int_1_1__InOptConst__QR_1a4df04d3d184e87a28ba61d8131ad3ea5" prot="public" virt="non-virtual"><scope>MR::Matrix3_Int::_InOptConst_QR</scope><name>Opt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

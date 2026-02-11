@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshToDirectionVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshToDirectionVolumeParams</compoundname>
+    <includes refid="MRMeshToDistanceVolume_8h" local="no">MRMeshToDistanceVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshToDirectionVolumeParams_1abc2ad86ead41f3e878ed25f71acf4882" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition>DistanceVolumeParams MR::MeshToDirectionVolumeParams::vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR::MeshToDirectionVolumeParams::vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="49" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshToDirectionVolumeParams_1ae40d1d140cfa8187507172fe40598193" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+        <definition>DistanceToMeshOptions MR::MeshToDirectionVolumeParams::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR::MeshToDirectionVolumeParams::dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="50" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshToDirectionVolumeParams_1abe274cb37fde7b021b46a400ec6ce767" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;IPointsToMeshProjector&gt; MR::MeshToDirectionVolumeParams::projector</definition>
+        <argsstring></argsstring>
+        <name>projector</name>
+        <qualifiedname>MR::MeshToDirectionVolumeParams::projector</qualifiedname>
+        <briefdescription>
+<para>note that signMode is ignored in this algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="51" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::DistanceToMeshOptions</label>
+        <link refid="structMR_1_1DistanceToMeshOptions"/>
+      </node>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshToDirectionVolumeParams</label>
+        <link refid="structMR_1_1MeshToDirectionVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vol</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="48" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshToDirectionVolumeParams_1ae40d1d140cfa8187507172fe40598193" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>dist</name></member>
+      <member refid="structMR_1_1MeshToDirectionVolumeParams_1abe274cb37fde7b021b46a400ec6ce767" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>projector</name></member>
+      <member refid="structMR_1_1MeshToDirectionVolumeParams_1abc2ad86ead41f3e878ed25f71acf4882" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

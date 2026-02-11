@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GcodeLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::GcodeLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1GcodeLoad_1a7f161958fe23f743dabaeb8a40798bab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.GcodeLoad.fromGcode</definition>
+        <argsstring>(string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <name>fromGcode</name>
+        <qualifiedname>MR.GcodeLoad.fromGcode</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads from *.gcode file (or any text file) Generated from function <computeroutput><ref refid="classMR_1_1GcodeLoad_1a7f161958fe23f743dabaeb8a40798bab" kindref="member">MR.GcodeLoad.fromGcode</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" line="10" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeLoad_1a556ea384720c825658d2ff0a8552c914" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.GcodeLoad.fromGcode</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <name>fromGcode</name>
+        <qualifiedname>MR.GcodeLoad.fromGcode</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1GcodeLoad_1a7f161958fe23f743dabaeb8a40798bab" kindref="member">MR.GcodeLoad.fromGcode</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" line="28" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeLoad_1aef325950746dac2e04f8e5b4e5aba2db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.GcodeLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.GcodeLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads mesh from it Generated from function <computeroutput><ref refid="classMR_1_1GcodeLoad_1aef325950746dac2e04f8e5b4e5aba2db" kindref="member">MR.GcodeLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" line="43" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" bodystart="43" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeLoad_1ae5bdc2dcacf612a76d10b1c8406456af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.GcodeLoad.fromAnySupportedFormat</definition>
+        <argsstring>(MR.Std.Istream in_, string extension, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.GcodeLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>extension in <computeroutput>*.ext</computeroutput> format Generated from function <computeroutput><ref refid="classMR_1_1GcodeLoad_1aef325950746dac2e04f8e5b4e5aba2db" kindref="member">MR.GcodeLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" line="62" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" bodystart="62" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeLoad.cs" bodystart="4" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GcodeLoad_1aef325950746dac2e04f8e5b4e5aba2db" prot="public" virt="non-virtual"><scope>MR::GcodeLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1GcodeLoad_1ae5bdc2dcacf612a76d10b1c8406456af" prot="public" virt="non-virtual"><scope>MR::GcodeLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1GcodeLoad_1a7f161958fe23f743dabaeb8a40798bab" prot="public" virt="non-virtual"><scope>MR::GcodeLoad</scope><name>fromGcode</name></member>
+      <member refid="classMR_1_1GcodeLoad_1a556ea384720c825658d2ff0a8552c914" prot="public" virt="non-virtual"><scope>MR::GcodeLoad</scope><name>fromGcode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

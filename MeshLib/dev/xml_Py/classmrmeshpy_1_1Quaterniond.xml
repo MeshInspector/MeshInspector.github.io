@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Quaterniond" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Quaterniond</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Quaterniond_1a8e15354c45a694354f158ab3ee4dc2e9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Quaterniond::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.Quaterniond._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Quaterniond_1a0afb0635b146c8cc810d370d37b03227" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Quaterniond::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.Quaterniond._offsetof_b</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Quaterniond_1accfab241ef5527d5d7349de449b58885" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Quaterniond::_offsetof_c</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_c</name>
+        <qualifiedname>mrmeshpy.Quaterniond._offsetof_c</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Quaterniond_1a2f4911763c1513928f06e1aed92987b6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Quaterniond::_offsetof_d</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_d</name>
+        <qualifiedname>mrmeshpy.Quaterniond._offsetof_d</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48683" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a4c64674b5e01811260be9b630ade707f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48686" bodyend="48687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1af8209a286d2352e396039cce6a14d9ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.lerp</definition>
+        <argsstring>(Quaterniond q0, Quaterniond q1, float t)</argsstring>
+        <name>lerp</name>
+        <qualifiedname>mrmeshpy.Quaterniond.lerp</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+          <declname>q0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+          <declname>q1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48689" bodyend="48692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1aa517cea259053ca501042e7ffa325043" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Quaterniond.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48695" bodyend="48696"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1aa517cea259053ca501042e7ffa325043" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Quaterniond.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48699" bodyend="48700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1aec669d0f9a64b954fe96d63e158d64c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.slerp</definition>
+        <argsstring>(Quaterniond q0, Quaterniond q1, float t)</argsstring>
+        <name>slerp</name>
+        <qualifiedname>mrmeshpy.Quaterniond.slerp</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+          <declname>q0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+          <declname>q1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48703" bodyend="48706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a8a2d892b7273f546e5751fa70a8e1660" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+        <definition> Matrix3d mrmeshpy.Quaterniond.slerp</definition>
+        <argsstring>(Matrix3d m0, Matrix3d m1, float t)</argsstring>
+        <name>slerp</name>
+        <qualifiedname>mrmeshpy.Quaterniond.slerp</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+          <declname>m0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48709" bodyend="48712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ae1d9988b13765482ec31af9c18856d79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.Quaterniond.slerp</definition>
+        <argsstring>(AffineXf3d xf0, AffineXf3d xf1, float t, Vector3d p=...)</argsstring>
+        <name>slerp</name>
+        <qualifiedname>mrmeshpy.Quaterniond.slerp</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+          <declname>xf0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+          <declname>xf1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation;
+p is the only point that will have straight line movement during interpolation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48715" bodyend="48719"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1aa2a225ce57a80cba705987d891103815" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Quaterniond.__call__</definition>
+        <argsstring>(self, Vector3d p)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for unit quaternion returns the rotation of point p, which is faster to compute for single point;
+for multiple points it is faster to create matrix representation and apply it to the points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48720" bodyend="48724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a26e4d603fca7035607828065e003a9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.__imatmul__</definition>
+        <argsstring>(self, float s)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48725" bodyend="48726"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a3a0b878af1589f582cc7eabbf8a6206e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48728" bodyend="48729"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a2bf3f83bc943aa910102d20734d842de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self, float a, float b, float c, float d)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48731" bodyend="48732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a889f2bf72625444bb168446b71ac92b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self, Vector3d axis, float angle)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>\\related Quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48734" bodyend="48737"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a18bb8ef0ec2dc0d4d0171c5fa6afaed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self, float real, Vector3d im)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>real</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>im</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48739" bodyend="48740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ab96c102ccfed4240150e1eb10af532d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self, Matrix3d m)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48742" bodyend="48743"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a812e7cac9f9c9006b160ebb39e7087cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self, Vector3d from_, Vector3d to)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>from_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds shorter arc rotation quaternion from one vector to another
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48745" bodyend="48748"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a43967780f5dc345811424854803101ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.__init__</definition>
+        <argsstring>(self, Quaterniond arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48750" bodyend="48753"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1aba4eb3b6bb705c1972a1acbb3e2d8df9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.__itruediv__</definition>
+        <argsstring>(self, float s)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48754" bodyend="48755"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ab774e57cf796ffea33aadbff524d5ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.__neg__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__neg__</name>
+        <qualifiedname>mrmeshpy.Quaterniond.__neg__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48756" bodyend="48759"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a9245362695713a4ed47766d2ab8a6301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.angle</definition>
+        <argsstring>(self)</argsstring>
+        <name>angle</name>
+        <qualifiedname>mrmeshpy.Quaterniond.angle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns angle of rotation encoded in this quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48760" bodyend="48763"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a20fa668a268622be3df610c91feb2904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Quaterniond.axis</definition>
+        <argsstring>(self)</argsstring>
+        <name>axis</name>
+        <qualifiedname>mrmeshpy.Quaterniond.axis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns axis of rotation encoded in this quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48764" bodyend="48767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ad2a0e2a9e1cea8709f2c54bf1297a9a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.conjugate</definition>
+        <argsstring>(self)</argsstring>
+        <name>conjugate</name>
+        <qualifiedname>mrmeshpy.Quaterniond.conjugate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes conjugate quaternion, which for unit quaternions encodes the opposite rotation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48768" bodyend="48771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a87fa12b2b7ba9d00aecf0320e5b46c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Quaterniond.im</definition>
+        <argsstring>(self)</argsstring>
+        <name>im</name>
+        <qualifiedname>mrmeshpy.Quaterniond.im</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns imaginary part of the quaternion as a vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48772" bodyend="48775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a167e886dd3398064991dedb7e88dab93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.inverse</definition>
+        <argsstring>(self)</argsstring>
+        <name>inverse</name>
+        <qualifiedname>mrmeshpy.Quaterniond.inverse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes reciprocal quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48776" bodyend="48779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a13cfaee2a82a257d0723b2b59f0d3c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.norm</definition>
+        <argsstring>(self)</argsstring>
+        <name>norm</name>
+        <qualifiedname>mrmeshpy.Quaterniond.norm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48780" bodyend="48781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ac3b54aee07ec37711340f317d26a98d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.normSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>normSq</name>
+        <qualifiedname>mrmeshpy.Quaterniond.normSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48782" bodyend="48783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ac97b768498cc24ff9e96e363f6f55e2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.normalize</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalize</name>
+        <qualifiedname>mrmeshpy.Quaterniond.normalize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scales this quaternion to make its norm unit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48784" bodyend="48787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a5ee68e4c76495104eea79ac6038fc2ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Quaterniond" kindref="compound">Quaterniond</ref></type>
+        <definition> Quaterniond mrmeshpy.Quaterniond.normalized</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalized</name>
+        <qualifiedname>mrmeshpy.Quaterniond.normalized</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48788" bodyend="48789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a6328247751a9ffa380c8b43848050579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.a</definition>
+        <argsstring>(self)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.Quaterniond.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>real part of the quaternion
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48791" bodyend="48794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1ac8e2ddcfae51d677ab780408691792e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.a</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.Quaterniond.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48796" bodyend="48797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a7c5c89ead3dfe79d840afce7fa60532e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.Quaterniond.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>imaginary part: b*i + c*j + d*k
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48799" bodyend="48802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a845316af0b30508c148272b51fb2f57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.b</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.Quaterniond.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48804" bodyend="48805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1aa1e300333515682cba36512cb6f4b7ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.c</definition>
+        <argsstring>(self)</argsstring>
+        <name>c</name>
+        <qualifiedname>mrmeshpy.Quaterniond.c</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>imaginary part: b*i + c*j + d*k
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48807" bodyend="48810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a490b647bd1f906d4c37f5ad04cc40fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.c</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>c</name>
+        <qualifiedname>mrmeshpy.Quaterniond.c</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48812" bodyend="48813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1add65ffb928a031552e6a1e156f29f1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Quaterniond.d</definition>
+        <argsstring>(self)</argsstring>
+        <name>d</name>
+        <qualifiedname>mrmeshpy.Quaterniond.d</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>imaginary part: b*i + c*j + d*k
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48815" bodyend="48818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Quaterniond_1a9fdb96f8e169a555257b0b64415089be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Quaterniond.d</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>d</name>
+        <qualifiedname>mrmeshpy.Quaterniond.d</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48820" bodyend="48821"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Quaterniond
+
+Represents a quaternion following the notations from
+https://en.wikipedia.org/wiki/Quaternion
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Quaterniond</label>
+        <link refid="classmrmeshpy_1_1Quaterniond"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_c</edgelabel>
+          <edgelabel>_offsetof_d</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48673" bodyend="48821"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Quaterniond_1aa2a225ce57a80cba705987d891103815" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a26e4d603fca7035607828065e003a9b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a4c64674b5e01811260be9b630ade707f" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a3a0b878af1589f582cc7eabbf8a6206e" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a2bf3f83bc943aa910102d20734d842de" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a889f2bf72625444bb168446b71ac92b8" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a18bb8ef0ec2dc0d4d0171c5fa6afaed0" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ab96c102ccfed4240150e1eb10af532d0" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a812e7cac9f9c9006b160ebb39e7087cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a43967780f5dc345811424854803101ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1aba4eb3b6bb705c1972a1acbb3e2d8df9" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ab774e57cf796ffea33aadbff524d5ebc" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>__neg__</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a8e15354c45a694354f158ab3ee4dc2e9" prot="protected" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a0afb0635b146c8cc810d370d37b03227" prot="protected" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1accfab241ef5527d5d7349de449b58885" prot="protected" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>_offsetof_c</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a2f4911763c1513928f06e1aed92987b6" prot="protected" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>_offsetof_d</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a6328247751a9ffa380c8b43848050579" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ac8e2ddcfae51d677ab780408691792e0" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a9245362695713a4ed47766d2ab8a6301" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>angle</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a20fa668a268622be3df610c91feb2904" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>axis</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a7c5c89ead3dfe79d840afce7fa60532e" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a845316af0b30508c148272b51fb2f57d" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1aa1e300333515682cba36512cb6f4b7ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>c</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a490b647bd1f906d4c37f5ad04cc40fb8" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>c</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ad2a0e2a9e1cea8709f2c54bf1297a9a0" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>conjugate</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1add65ffb928a031552e6a1e156f29f1b2" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>d</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a9fdb96f8e169a555257b0b64415089be" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>d</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a87fa12b2b7ba9d00aecf0320e5b46c4f" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>im</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a167e886dd3398064991dedb7e88dab93" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>inverse</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1af8209a286d2352e396039cce6a14d9ee" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>lerp</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a13cfaee2a82a257d0723b2b59f0d3c04" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>norm</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ac97b768498cc24ff9e96e363f6f55e2a" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>normalize</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a5ee68e4c76495104eea79ac6038fc2ab" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>normalized</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ac3b54aee07ec37711340f317d26a98d2" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>normSq</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1aa517cea259053ca501042e7ffa325043" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1aa517cea259053ca501042e7ffa325043" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1aec669d0f9a64b954fe96d63e158d64c8" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>slerp</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1a8a2d892b7273f546e5751fa70a8e1660" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>slerp</name></member>
+      <member refid="classmrmeshpy_1_1Quaterniond_1ae1d9988b13765482ec31af9c18856d79" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaterniond</scope><name>slerp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

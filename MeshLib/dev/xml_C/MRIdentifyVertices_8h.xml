@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRIdentifyVertices_8h" kind="file" language="C++">
+    <compoundname>MRIdentifyVertices.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRIdentifyVertices.h</label>
+        <link refid="MRIdentifyVertices_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" prot="public" static="no">
+        <type>struct <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref></type>
+        <definition>typedef struct MR_Triangulation MR_Triangulation</definition>
+        <argsstring></argsstring>
+        <name>MR_Triangulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
+        <type>struct MR_Vector3f</type>
+        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" prot="public" static="no">
+        <type>struct <ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref></type>
+        <definition>typedef struct MR_std_vector_std_array_MR_Vector3f_3 MR_std_vector_std_array_MR_Vector3f_3</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_array_MR_Vector3f_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="16" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" prot="public" static="no">
+        <type>struct <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref></type>
+        <definition>typedef struct MR_MeshBuilder_equalVector3f MR_MeshBuilder_equalVector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshBuilder_equalVector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this makes bit-wise comparison of two Vector3f&apos;s thus making two NaNs equal Generated from class <computeroutput>MR::MeshBuilder::equalVector3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="22" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" prot="public" static="no">
+        <type>struct <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref></type>
+        <definition>typedef struct MR_MeshBuilder_VertexIdentifier MR_MeshBuilder_VertexIdentifier</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this class is responsible for giving a unique id to each vertex with distinct coordinates NOTE: the points are considered non-identical if they have the same values but have zero values with different signs (e.g. (0; 0; 1) and (-0; 0; 1)) use <computeroutput>Vector3::unsignZeroValues</computeroutput> method to get rid of signed zero values if you&apos;re unsure of their absence Generated from class <computeroutput>MR::MeshBuilder::VertexIdentifier</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="30" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a8ef21402875301db263a86257ded80e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_equalVector3f * MR_MeshBuilder_equalVector3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIdentifyVertices_8h_1ab4925dacfec1ada9789ba7651f5ff3b9" kindref="member">MR_MeshBuilder_equalVector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="34" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="34" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a71c46a4754a0bc56a4d3e51ee988a12a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_equalVector3f * MR_MeshBuilder_equalVector3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRIdentifyVertices_8h_1ad11c48e91b06c96e81aeb72de6233bc0" kindref="member">MR_MeshBuilder_equalVector3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRIdentifyVertices_8h_1a8535e8fd267d233a4327a9cf99173ec8" kindref="member">MR_MeshBuilder_equalVector3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRIdentifyVertices_8h_1a01b37e88abf89292dba2b6a199b15a70" kindref="member">MR_MeshBuilder_equalVector3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="39" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="39" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a01b37e88abf89292dba2b6a199b15a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_equalVector3f * MR_MeshBuilder_equalVector3f_OffsetPtr</definition>
+        <argsstring>(const MR_MeshBuilder_equalVector3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="43" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="43" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a8535e8fd267d233a4327a9cf99173ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_equalVector3f * MR_MeshBuilder_equalVector3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshBuilder_equalVector3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="47" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="47" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1ad7890472dfaba96ab16a800b2eb61566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_equalVector3f * MR_MeshBuilder_equalVector3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_MeshBuilder_equalVector3f *_other)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshBuilder::equalVector3f::equalVector3f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIdentifyVertices_8h_1ab4925dacfec1ada9789ba7651f5ff3b9" kindref="member">MR_MeshBuilder_equalVector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="53" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="53" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1ab4925dacfec1ada9789ba7651f5ff3b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_equalVector3f_Destroy</definition>
+        <argsstring>(const MR_MeshBuilder_equalVector3f *_this)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_equalVector3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="56" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1ad11c48e91b06c96e81aeb72de6233bc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_equalVector3f_DestroyArray</definition>
+        <argsstring>(const MR_MeshBuilder_equalVector3f *_this)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_equalVector3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1adca0052cd68b84c009372b031ca02ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_equalVector3f * MR_MeshBuilder_equalVector3f_AssignFromAnother</definition>
+        <argsstring>(MR_MeshBuilder_equalVector3f *_this, const MR_MeshBuilder_equalVector3f *_other)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::equalVector3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="67" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="67" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a81acc9cbc2e412128eac97676f7c106c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_MeshBuilder_equalVector3f_call</definition>
+        <argsstring>(const MR_MeshBuilder_equalVector3f *_this, const MR_Vector3f *a, const MR_Vector3f *b)</argsstring>
+        <name>MR_MeshBuilder_equalVector3f_call</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::equalVector3f::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1abe1100da10e4b920d325b25d1e886328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertexIdentifier * MR_MeshBuilder_VertexIdentifier_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIdentifyVertices_8h_1afb88d509037479ef3b3991bf08fbd2e4" kindref="member">MR_MeshBuilder_VertexIdentifier_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="77" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="77" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a4560f99c7acbb8b45004a0020d382f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertexIdentifier * MR_MeshBuilder_VertexIdentifier_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRIdentifyVertices_8h_1a7220a5636c817b17592058239267bbb4" kindref="member">MR_MeshBuilder_VertexIdentifier_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRIdentifyVertices_8h_1a65d1aca30d2a98e8a3799ba1571c678c" kindref="member">MR_MeshBuilder_VertexIdentifier_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRIdentifyVertices_8h_1ad380f51c931ef0c2b0cc2d315c5f194e" kindref="member">MR_MeshBuilder_VertexIdentifier_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="82" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="82" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1ad380f51c931ef0c2b0cc2d315c5f194e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_VertexIdentifier * MR_MeshBuilder_VertexIdentifier_OffsetPtr</definition>
+        <argsstring>(const MR_MeshBuilder_VertexIdentifier *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="86" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="86" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a65d1aca30d2a98e8a3799ba1571c678c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertexIdentifier * MR_MeshBuilder_VertexIdentifier_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshBuilder_VertexIdentifier *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="90" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="90" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a404b1dd694d751c368a873b2da9a1057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertexIdentifier * MR_MeshBuilder_VertexIdentifier_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_MeshBuilder_VertexIdentifier *_other)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshBuilder::VertexIdentifier::VertexIdentifier</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIdentifyVertices_8h_1afb88d509037479ef3b3991bf08fbd2e4" kindref="member">MR_MeshBuilder_VertexIdentifier_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="95" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="95" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1afb88d509037479ef3b3991bf08fbd2e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertexIdentifier_Destroy</definition>
+        <argsstring>(const MR_MeshBuilder_VertexIdentifier *_this)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_VertexIdentifier</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a7220a5636c817b17592058239267bbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertexIdentifier_DestroyArray</definition>
+        <argsstring>(const MR_MeshBuilder_VertexIdentifier *_this)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_VertexIdentifier</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a5a60d87571e1ca3020d3be6ab4100bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertexIdentifier * MR_MeshBuilder_VertexIdentifier_AssignFromAnother</definition>
+        <argsstring>(MR_MeshBuilder_VertexIdentifier *_this, MR_PassBy _other_pass_by, MR_MeshBuilder_VertexIdentifier *_other)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::VertexIdentifier::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="108" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="108" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a3a0829fd7c7f9800884f5c7f04780173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertexIdentifier_reserve</definition>
+        <argsstring>(MR_MeshBuilder_VertexIdentifier *_this, MR_uint64_t numTris)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_reserve</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>numTris</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepare identification of vertices from given this number of triangles Generated from method <computeroutput>MR::MeshBuilder::VertexIdentifier::reserve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="113" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1a8e10632621faad62f3f70ee412b6631d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertexIdentifier_addTriangles</definition>
+        <argsstring>(MR_MeshBuilder_VertexIdentifier *_this, const MR_std_vector_std_array_MR_Vector3f_3 *buffer)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_addTriangles</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>identifies vertices from a chunk of triangles Generated from method <computeroutput>MR::MeshBuilder::VertexIdentifier::addTriangles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>buffer</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="119" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1acd7273f24095dc6ab44ae472a01ff4d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_MeshBuilder_VertexIdentifier_numTris</definition>
+        <argsstring>(const MR_MeshBuilder_VertexIdentifier *_this)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_numTris</name>
+        <param>
+          <type>const <ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of triangles added so far Generated from method <computeroutput>MR::MeshBuilder::VertexIdentifier::numTris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="124" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
+        <definition>MRC_API MR_Triangulation * MR_MeshBuilder_VertexIdentifier_takeTriangulation</definition>
+        <argsstring>(MR_MeshBuilder_VertexIdentifier *_this)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_takeTriangulation</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>obtains triangulation with vertex ids Generated from method <computeroutput>MR::MeshBuilder::VertexIdentifier::takeTriangulation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a06c924beb0ba47c9c1935f25f75f1937" kindref="member">MR_Triangulation_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="130" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="130" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIdentifyVertices_8h_1ad05b3c0af4b060e91c9e655168de4000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_VertCoords * MR_MeshBuilder_VertexIdentifier_takePoints</definition>
+        <argsstring>(MR_MeshBuilder_VertexIdentifier *_this)</argsstring>
+        <name>MR_MeshBuilder_VertexIdentifier_takePoints</name>
+        <param>
+          <type><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>obtains coordinates of unique points in the order of vertex ids Generated from method <computeroutput>MR::MeshBuilder::VertexIdentifier::takePoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1ae3e5b113c183c12e3130be9227a248e5" kindref="member">MR_VertCoords_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" line="136" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h" declline="136" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRIdentifyVertices_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRIdentifyVertices_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRIdentifyVertices_8h_1a8ef21402875301db263a86257ded80e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a8ef21402875301db263a86257ded80e7" kindref="member">MR_MeshBuilder_equalVector3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRIdentifyVertices_8h_1a71c46a4754a0bc56a4d3e51ee988a12a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a71c46a4754a0bc56a4d3e51ee988a12a" kindref="member">MR_MeshBuilder_equalVector3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRIdentifyVertices_8h_1a01b37e88abf89292dba2b6a199b15a70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a01b37e88abf89292dba2b6a199b15a70" kindref="member">MR_MeshBuilder_equalVector3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRIdentifyVertices_8h_1a8535e8fd267d233a4327a9cf99173ec8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a8535e8fd267d233a4327a9cf99173ec8" kindref="member">MR_MeshBuilder_equalVector3f_OffsetMutablePtr</ref>(<ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRIdentifyVertices_8h_1ad7890472dfaba96ab16a800b2eb61566" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad7890472dfaba96ab16a800b2eb61566" kindref="member">MR_MeshBuilder_equalVector3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRIdentifyVertices_8h_1ab4925dacfec1ada9789ba7651f5ff3b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1ab4925dacfec1ada9789ba7651f5ff3b9" kindref="member">MR_MeshBuilder_equalVector3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRIdentifyVertices_8h_1ad11c48e91b06c96e81aeb72de6233bc0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1ad11c48e91b06c96e81aeb72de6233bc0" kindref="member">MR_MeshBuilder_equalVector3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRIdentifyVertices_8h_1adca0052cd68b84c009372b031ca02ede" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1adca0052cd68b84c009372b031ca02ede" kindref="member">MR_MeshBuilder_equalVector3f_AssignFromAnother</ref>(<ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRIdentifyVertices_8h_1a81acc9cbc2e412128eac97676f7c106c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a81acc9cbc2e412128eac97676f7c106c" kindref="member">MR_MeshBuilder_equalVector3f_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afd14403d2dcbf2ac0f1ea34074b8d386" kindref="member">MR_MeshBuilder_equalVector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRIdentifyVertices_8h_1abe1100da10e4b920d325b25d1e886328" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1abe1100da10e4b920d325b25d1e886328" kindref="member">MR_MeshBuilder_VertexIdentifier_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRIdentifyVertices_8h_1a4560f99c7acbb8b45004a0020d382f26" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a4560f99c7acbb8b45004a0020d382f26" kindref="member">MR_MeshBuilder_VertexIdentifier_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRIdentifyVertices_8h_1ad380f51c931ef0c2b0cc2d315c5f194e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad380f51c931ef0c2b0cc2d315c5f194e" kindref="member">MR_MeshBuilder_VertexIdentifier_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRIdentifyVertices_8h_1a65d1aca30d2a98e8a3799ba1571c678c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a65d1aca30d2a98e8a3799ba1571c678c" kindref="member">MR_MeshBuilder_VertexIdentifier_OffsetMutablePtr</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRIdentifyVertices_8h_1a404b1dd694d751c368a873b2da9a1057" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a404b1dd694d751c368a873b2da9a1057" kindref="member">MR_MeshBuilder_VertexIdentifier_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRIdentifyVertices_8h_1afb88d509037479ef3b3991bf08fbd2e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1afb88d509037479ef3b3991bf08fbd2e4" kindref="member">MR_MeshBuilder_VertexIdentifier_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRIdentifyVertices_8h_1a7220a5636c817b17592058239267bbb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a7220a5636c817b17592058239267bbb4" kindref="member">MR_MeshBuilder_VertexIdentifier_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRIdentifyVertices_8h_1a5a60d87571e1ca3020d3be6ab4100bc7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1a5a60d87571e1ca3020d3be6ab4100bc7" kindref="member">MR_MeshBuilder_VertexIdentifier_AssignFromAnother</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRIdentifyVertices_8h_1a3a0829fd7c7f9800884f5c7f04780173" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a3a0829fd7c7f9800884f5c7f04780173" kindref="member">MR_MeshBuilder_VertexIdentifier_reserve</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>numTris);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRIdentifyVertices_8h_1a8e10632621faad62f3f70ee412b6631d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a8e10632621faad62f3f70ee412b6631d" kindref="member">MR_MeshBuilder_VertexIdentifier_addTriangles</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRIdentifyVertices_8h_1acd7273f24095dc6ab44ae472a01ff4d5" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRIdentifyVertices_8h_1acd7273f24095dc6ab44ae472a01ff4d5" kindref="member">MR_MeshBuilder_VertexIdentifier_numTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" kindref="member">MR_MeshBuilder_VertexIdentifier_takeTriangulation</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRIdentifyVertices_8h_1ad05b3c0af4b060e91c9e655168de4000" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad05b3c0af4b060e91c9e655168de4000" kindref="member">MR_MeshBuilder_VertexIdentifier_takePoints</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIdentifyVertices.h"/>
+  </compounddef>
+</doxygen>

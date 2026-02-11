@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FloatGrid" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FloatGrid</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a3097020b2da84f644bb50051877091f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FloatGrid.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20904" bodyend="20905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a126c16dc81f26204d49e494f63a37cf4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.deepCopy</definition>
+        <argsstring>(FloatGrid other)</argsstring>
+        <name>deepCopy</name>
+        <qualifiedname>mrmeshpy.FloatGrid.deepCopy</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20907" bodyend="20908"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a91c72e8dd49986f2d41d9d11941de957" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FloatGrid.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20911" bodyend="20912"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a91c72e8dd49986f2d41d9d11941de957" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FloatGrid.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20915" bodyend="20916"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a97da2b2a4aedddd97bfeb4fa9ffeac3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.__add__</definition>
+        <argsstring>(self, FloatGrid b)</argsstring>
+        <name>__add__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__add__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>union operation on two signed distance fields
+\\note this operation returns new FloatGrid keeping a,b untouched
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20917" bodyend="20921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a22537f0de907d25250815f19138f3527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FloatGrid.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20922" bodyend="20923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a9cbd1cf3fe41605439de149f7d85b4e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.__iadd__</definition>
+        <argsstring>(self, FloatGrid b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>union operation on two signed distance fields
+\\note this operation consumes FloatGrid b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20924" bodyend="20928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a5fd50ea3ebb83b159536750077600258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.__imatmul__</definition>
+        <argsstring>(self, FloatGrid b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>intersection operation on two signed distance fields
+\\note this operation consumes FloatGrid b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20929" bodyend="20933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a693cc3ecb69f830944278ec251b20b34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FloatGrid.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20935" bodyend="20936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a354678b2a8bab9d550dc8e19911b64e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FloatGrid.__init__</definition>
+        <argsstring>(self, OpenVdbFloatGrid ptr)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref></type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20938" bodyend="20939"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a9de7e052222cc74ace4897453d810129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FloatGrid.__init__</definition>
+        <argsstring>(self, FloatGrid arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20941" bodyend="20944"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a67c91e7ca53b966374d1ffc6db73783c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.__isub__</definition>
+        <argsstring>(self, FloatGrid b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>difference operation on two signed distance fields
+\\note this operation consumes FloatGrid b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20945" bodyend="20949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a06f650d0acde3024182267db8a06358e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref></type>
+        <definition> OpenVdbFloatGrid mrmeshpy.FloatGrid.__mul__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20951" bodyend="20952"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1ae8e2748e1f1d78d64f88edbc7950b318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.__mul__</definition>
+        <argsstring>(self, FloatGrid b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>intersection operation on two signed distance fields
+\\note this operation returns new FloatGrid keeping a,b untouched
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20954" bodyend="20958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1ac9689a4407e5386c94905b2a622cb331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.FloatGrid.__sub__</definition>
+        <argsstring>(self, FloatGrid b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.FloatGrid.__sub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>difference operation on two signed distance fields
+\\note this operation returns new FloatGrid keeping a,b untouched
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20959" bodyend="20963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a697a388ac48d3296578fe9d08d65e8ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref></type>
+        <definition> OpenVdbFloatGrid mrmeshpy.FloatGrid.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.FloatGrid.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20964" bodyend="20965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a11f7e64b2760190bb4c0720db548d321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref></type>
+        <definition> OpenVdbFloatGrid mrmeshpy.FloatGrid.operatorminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminus</name>
+        <qualifiedname>mrmeshpy.FloatGrid.operatorminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20966" bodyend="20967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a19b1d29626d25e69940431770c01bafd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FloatGrid.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.FloatGrid.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20968" bodyend="20969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a892ee1750ee3b67983cb8ffee62b3890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FloatGrid.swap</definition>
+        <argsstring>(self, FloatGrid other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.FloatGrid.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20970" bodyend="20971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGrid_1a67e2f8d75baa0f30a47181e3498e03da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref></type>
+        <definition> OpenVdbFloatGrid mrmeshpy.FloatGrid.toVdb</definition>
+        <argsstring>(self)</argsstring>
+        <name>toVdb</name>
+        <qualifiedname>mrmeshpy.FloatGrid.toVdb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20972" bodyend="20973"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FloatGrid
+
+wrapper class that helps mrbind to avoid excess MRVDBFloatGrid.h includes
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20896" bodyend="20973"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a97da2b2a4aedddd97bfeb4fa9ffeac3f" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a22537f0de907d25250815f19138f3527" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a9cbd1cf3fe41605439de149f7d85b4e9" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a5fd50ea3ebb83b159536750077600258" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a3097020b2da84f644bb50051877091f2" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a693cc3ecb69f830944278ec251b20b34" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a354678b2a8bab9d550dc8e19911b64e2" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a9de7e052222cc74ace4897453d810129" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a67c91e7ca53b966374d1ffc6db73783c" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a06f650d0acde3024182267db8a06358e" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1ae8e2748e1f1d78d64f88edbc7950b318" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1ac9689a4407e5386c94905b2a622cb331" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a126c16dc81f26204d49e494f63a37cf4" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>deepCopy</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a697a388ac48d3296578fe9d08d65e8ee" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a91c72e8dd49986f2d41d9d11941de957" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a91c72e8dd49986f2d41d9d11941de957" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a11f7e64b2760190bb4c0720db548d321" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>operatorminus</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a19b1d29626d25e69940431770c01bafd" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a892ee1750ee3b67983cb8ffee62b3890" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1FloatGrid_1a67e2f8d75baa0f30a47181e3498e03da" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGrid</scope><name>toVdb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

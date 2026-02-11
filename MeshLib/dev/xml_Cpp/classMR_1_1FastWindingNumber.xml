@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FastWindingNumber" kind="class" language="C++" prot="public">
+    <compoundname>MR::FastWindingNumber</compoundname>
+    <basecompoundref refid="classMR_1_1IFastWindingNumber" prot="public" virt="non-virtual">MR::IFastWindingNumber</basecompoundref>
+    <includes refid="MRFastWindingNumber_8h" local="no">MRFastWindingNumber.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1FastWindingNumber_1af77abe1fbfbd40c8bd6dcaf35db1aa14" prot="private" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+        <definition>const Mesh&amp; MR::FastWindingNumber::mesh_</definition>
+        <argsstring></argsstring>
+        <name>mesh_</name>
+        <qualifiedname>MR::FastWindingNumber::mesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="71" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FastWindingNumber_1aa47491aa7ed9a5fdef4a5324c9979280" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> &amp;</type>
+        <definition>const AABBTree&amp; MR::FastWindingNumber::tree_</definition>
+        <argsstring></argsstring>
+        <name>tree_</name>
+        <qualifiedname>MR::FastWindingNumber::tree_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="72" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FastWindingNumber_1a7be8f8dc0a1453e22e0da8a063c5662d" prot="private" static="no" mutable="no">
+        <type>const Dipoles &amp;</type>
+        <definition>const Dipoles&amp; MR::FastWindingNumber::dipoles_</definition>
+        <argsstring></argsstring>
+        <name>dipoles_</name>
+        <qualifiedname>MR::FastWindingNumber::dipoles_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="73" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1a6af89b7c93e4591719b2ffd0eeeffd07" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::FastWindingNumber::FastWindingNumber</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>FastWindingNumber</name>
+        <qualifiedname>MR::FastWindingNumber::FastWindingNumber</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructs this from AABB tree of given mesh; this remains valid only if tree is valid </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="59" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1af82a0cdae2d3f0021d770000203f1c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::FastWindingNumber::calcFromVector</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, float beta, FaceId skipFace, const ProgressCallback &amp;cb) override</argsstring>
+        <name>calcFromVector</name>
+        <qualifiedname>MR::FastWindingNumber::calcFromVector</qualifiedname>
+        <reimplements refid="classMR_1_1IFastWindingNumber_1a44bf69fbb5b7c37e5a0ff132a6137581">calcFromVector</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>skipFace</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>see methods&apos; descriptions in <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="62" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1ada34ead58fe4909d1eca8f4abd41743d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::FastWindingNumber::calcSelfIntersections</definition>
+        <argsstring>(FaceBitSet &amp;res, float beta, const ProgressCallback &amp;cb) override</argsstring>
+        <name>calcSelfIntersections</name>
+        <qualifiedname>MR::FastWindingNumber::calcSelfIntersections</qualifiedname>
+        <reimplements refid="classMR_1_1IFastWindingNumber_1a9a9a27eb86c9d023a286bcf963c03cb3">calcSelfIntersections</reimplements>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>calculates winding numbers for all centers of mesh&apos;s triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting bit set</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="63" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1a186f894c032c3bdf71d61355cbe9056d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::FastWindingNumber::calcFromGrid</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const ProgressCallback &amp;cb) override</argsstring>
+        <name>calcFromGrid</name>
+        <qualifiedname>MR::FastWindingNumber::calcFromGrid</qualifiedname>
+        <reimplements refid="classMR_1_1IFastWindingNumber_1a368a1a0534476d08756358a07bcce617">calcFromGrid</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>calculates winding numbers in each point from a three-dimensional grid </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting winding numbers, will be resized automatically</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dims</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dimensions of the grid</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridToMeshXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="64" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1a67a65bbf1fec70506c8d72c72446d653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::FastWindingNumber::calcWithDistances</definition>
+        <argsstring>(const Vector3f &amp;p, const DistanceToMeshOptions &amp;options)</argsstring>
+        <name>calcWithDistances</name>
+        <qualifiedname>MR::FastWindingNumber::calcWithDistances</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="65" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1aca960465c3521aa3c3a87ca39dc7d94a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::FastWindingNumber::calcFromGridWithDistances</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const DistanceToMeshOptions &amp;options, const ProgressCallback &amp;cb) override</argsstring>
+        <name>calcFromGridWithDistances</name>
+        <qualifiedname>MR::FastWindingNumber::calcFromGridWithDistances</qualifiedname>
+        <reimplements refid="classMR_1_1IFastWindingNumber_1aeb59990afd6d9382244508e9e250972d">calcFromGridWithDistances</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting signed distances, will be resized automatically</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dims</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dimensions of the grid</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="66" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1FastWindingNumber_1aa9edda8988faaa5628273baa36cadccd" prot="private" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::FastWindingNumber::calc_</definition>
+        <argsstring>(const Vector3f &amp;q, float beta, FaceId skipFace={}) const</argsstring>
+        <name>calc_</name>
+        <qualifiedname>MR::FastWindingNumber::calc_</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>skipFace</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="69" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the class for fast approximate computation of winding number for a mesh (using its AABB tree)</para>
+<para>Note, this used to be <computeroutput>[[nodiscard]]</computeroutput>, but GCC 12 doesn&apos;t understand both <computeroutput>[[...]]</computeroutput> and <computeroutput>__attribute__(...)</computeroutput> on the same class. A possible fix is to change <computeroutput>MRMESH_CLASS</computeroutput> globally to <computeroutput>[[__gnu__::__visibility__(&quot;default&quot;)]]</computeroutput>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FastWindingNumber</label>
+        <link refid="classMR_1_1FastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IFastWindingNumber</label>
+        <link refid="classMR_1_1IFastWindingNumber"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FastWindingNumber</label>
+        <link refid="classMR_1_1FastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IFastWindingNumber</label>
+        <link refid="classMR_1_1IFastWindingNumber"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="54" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="55" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FastWindingNumber_1aa9edda8988faaa5628273baa36cadccd" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calc_</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1a186f894c032c3bdf71d61355cbe9056d" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGrid</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1aca960465c3521aa3c3a87ca39dc7d94a" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1af82a0cdae2d3f0021d770000203f1c3d" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromVector</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1ada34ead58fe4909d1eca8f4abd41743d" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1a67a65bbf1fec70506c8d72c72446d653" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calcWithDistances</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1a7be8f8dc0a1453e22e0da8a063c5662d" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>dipoles_</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1a6af89b7c93e4591719b2ffd0eeeffd07" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>FastWindingNumber</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1af77abe1fbfbd40c8bd6dcaf35db1aa14" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>mesh_</name></member>
+      <member refid="classMR_1_1FastWindingNumber_1aa47491aa7ed9a5fdef4a5324c9979280" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>tree_</name></member>
+      <member refid="classMR_1_1IFastWindingNumber_1aefefcab706e99f050565aa3492015547" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>~IFastWindingNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

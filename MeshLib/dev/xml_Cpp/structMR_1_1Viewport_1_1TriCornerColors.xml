@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Viewport_1_1TriCornerColors" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Viewport::TriCornerColors</compoundname>
+    <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Viewport_1_1TriCornerColors_1a52ef91aaa0208aa1e90b238eef7bbee9" prot="public" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::Viewport::TriCornerColors::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::Viewport::TriCornerColors::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="137" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Viewport_1_1TriCornerColors_1a4bb6813b4c01f5510e20837676efa7ae" prot="public" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::Viewport::TriCornerColors::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::Viewport::TriCornerColors::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="137" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Viewport_1_1TriCornerColors_1a06e3dd2db55e7e7ba53ba5b07c8ae542" prot="public" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::Viewport::TriCornerColors::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>MR::Viewport::TriCornerColors::c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="137" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="135" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="136" bodyend="138"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Viewport_1_1TriCornerColors_1a52ef91aaa0208aa1e90b238eef7bbee9" prot="public" virt="non-virtual"><scope>MR::Viewport::TriCornerColors</scope><name>a</name></member>
+      <member refid="structMR_1_1Viewport_1_1TriCornerColors_1a4bb6813b4c01f5510e20837676efa7ae" prot="public" virt="non-virtual"><scope>MR::Viewport::TriCornerColors</scope><name>b</name></member>
+      <member refid="structMR_1_1Viewport_1_1TriCornerColors_1a06e3dd2db55e7e7ba53ba5b07c8ae542" prot="public" virt="non-virtual"><scope>MR::Viewport::TriCornerColors</scope><name>c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

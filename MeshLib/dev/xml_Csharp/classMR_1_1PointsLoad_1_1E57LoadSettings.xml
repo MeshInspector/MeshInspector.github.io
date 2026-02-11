@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointsLoad_1_1E57LoadSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointsLoad::E57LoadSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.PointsLoad.Const_E57LoadSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a8bafbe80e2489d0df62df79696df2574" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.PointsLoad.E57LoadSettings.combineAllObjects</definition>
+        <argsstring></argsstring>
+        <name>combineAllObjects</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.combineAllObjects</qualifiedname>
+        <briefdescription>
+<para>true =&gt; if input file has more than one cloud, they all will be combined in one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="126" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1acba567a6102f19497bae5288ff8af181" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.PointsLoad.E57LoadSettings.identityXf</definition>
+        <argsstring></argsstring>
+        <name>identityXf</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.identityXf</qualifiedname>
+        <briefdescription>
+<para>true =&gt; return only identity transforms, applying them to points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="129" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a7661828b0f38ec12960e5bae66a73997" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.PointsLoad.E57LoadSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.progress</qualifiedname>
+        <briefdescription>
+<para>progress report and cancellation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="132" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a6b432bf27761ea4e45bbec12fc0ad28a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>E57LoadSettings</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="151" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="151" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a2a7b4284ac938087d0e8e0dec0b6b796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>E57LoadSettings</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="161" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="161" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a089a3eadcfa25ec3b9848a83708c0528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
+        <argsstring>(bool combineAllObjects, bool identityXf, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <name>E57LoadSettings</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>identityXf</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">MR.PointsLoad.E57LoadSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="172" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="172" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a87dec0d9c8b299770db52298d4ad4380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
+        <argsstring>(MR.PointsLoad._ByValue_E57LoadSettings _other)</argsstring>
+        <name>E57LoadSettings</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
+        <param>
+          <type>MR.PointsLoad._ByValue_E57LoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsLoad.E57LoadSettings.E57LoadSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="184" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="184" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a08480788429e31262956bb1b0d539ed8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
+        <argsstring>(Const_E57LoadSettings _other)</argsstring>
+        <name>E57LoadSettings</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
+        <param>
+          <type>Const_E57LoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsLoad.E57LoadSettings.E57LoadSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="196" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1accbe2616798eafeddd7f45a81f044326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
+        <argsstring>(E57LoadSettings _other)</argsstring>
+        <name>E57LoadSettings</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">E57LoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsLoad.E57LoadSettings.E57LoadSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="201" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1aa51c297a135d0f818bba7a1d6121386e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">MR.PointsLoad.E57LoadSettings</ref></type>
+        <definition>unsafe MR.PointsLoad.E57LoadSettings MR.PointsLoad.E57LoadSettings.assign</definition>
+        <argsstring>(MR.PointsLoad._ByValue_E57LoadSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointsLoad.E57LoadSettings.assign</qualifiedname>
+        <param>
+          <type>MR.PointsLoad._ByValue_E57LoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointsLoad.E57LoadSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="206" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="206" bodyend="213"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">MR.PointsLoad.E57LoadSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_E57LoadSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointsLoad.E57LoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1E57LoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_E57LoadSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_E57LoadSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointsLoad.E57LoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1E57LoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_E57LoadSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="123" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="124" bodyend="214"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1aa51c297a135d0f818bba7a1d6121386e" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a8bafbe80e2489d0df62df79696df2574" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>combineAllObjects</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a6b432bf27761ea4e45bbec12fc0ad28a" prot="package" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a2a7b4284ac938087d0e8e0dec0b6b796" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a089a3eadcfa25ec3b9848a83708c0528" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a87dec0d9c8b299770db52298d4ad4380" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a08480788429e31262956bb1b0d539ed8" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1accbe2616798eafeddd7f45a81f044326" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1acba567a6102f19497bae5288ff8af181" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>identityXf</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a7661828b0f38ec12960e5bae66a73997" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

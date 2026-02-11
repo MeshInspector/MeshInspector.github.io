@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Pdf_1_1Cell" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Pdf::Cell</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1Cell_1_1Empty" prot="public">mrmeshpy::Pdf::Cell::Empty</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1Cell_1a9f6015a31e2fae107c0e45dc64491af8" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty" kindref="compound">std_variant_int_float_bool_std_string_Pdf_Cell_Empty</ref></type>
+        <definition>std_variant_int_float_bool_std_string_Pdf_Cell_Empty mrmeshpy.Pdf.Cell::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.Value</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty" kindref="compound">std_variant_int_float_bool_std_string_Pdf_Cell_Empty</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42598" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1Cell_1a0142b125d5aa9a22ca79d559c56500f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.Cell.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42601" bodyend="42602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1Cell_1afe039f1f2e7629a543848be26cd6609b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1Cell" kindref="compound">Pdf.Cell</ref></type>
+        <definition> Pdf.Cell mrmeshpy.Pdf.Cell.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42605" bodyend="42606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1Cell_1afe039f1f2e7629a543848be26cd6609b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1Cell" kindref="compound">Pdf.Cell</ref></type>
+        <definition> Pdf.Cell mrmeshpy.Pdf.Cell.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42609" bodyend="42610"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1Cell_1a700a6863095981bb2e59fda339757e20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.Cell.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42612" bodyend="42613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1Cell_1afd91901bc925ffb641db456fb0fa7444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.Cell.__init__</definition>
+        <argsstring>(self, Pdf.Cell arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1Cell" kindref="compound">Pdf.Cell</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42615" bodyend="42618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1Cell_1a829de4e3c0562b927ecf6ef68d010d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Pdf.Cell.toString</definition>
+        <argsstring>(self, str fmtStr=&apos;&quot;{}&quot;&apos;)</argsstring>
+        <name>toString</name>
+        <qualifiedname>mrmeshpy.Pdf.Cell.toString</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>fmtStr</declname>
+          <defval>&apos;&quot;{}&quot;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get strang from contained value
+\\param fmtStr format string like fmt::format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42619" bodyend="42624"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Pdf::Cell
+
+Table part
+class to convert values to string with set format
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Pdf.Cell</label>
+        <link refid="classmrmeshpy_1_1Pdf_1_1Cell"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty</label>
+        <link refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42560" bodyend="42623"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1a0142b125d5aa9a22ca79d559c56500f1" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1a700a6863095981bb2e59fda339757e20" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1afd91901bc925ffb641db456fb0fa7444" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1afe039f1f2e7629a543848be26cd6609b" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1afe039f1f2e7629a543848be26cd6609b" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1a829de4e3c0562b927ecf6ef68d010d31" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>toString</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1Cell_1a9f6015a31e2fae107c0e45dc64491af8" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::Cell</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

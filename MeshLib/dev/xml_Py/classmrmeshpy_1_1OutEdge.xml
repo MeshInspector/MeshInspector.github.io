@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OutEdge" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OutEdge</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1a473b95dffd17c1341833e395bef0c1ff" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.OutEdge.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1a3cc267d9b90af81337ad77f3a5e7ac2a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::Invalid</definition>
+        <argsstring></argsstring>
+        <name>Invalid</name>
+        <qualifiedname>mrmeshpy.OutEdge.Invalid</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1a43aeb0eb481916c725dbf272660e054e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::MinusX</definition>
+        <argsstring></argsstring>
+        <name>MinusX</name>
+        <qualifiedname>mrmeshpy.OutEdge.MinusX</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41764" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1ac4e799a37880f1d7f1766f38c093c942" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::MinusY</definition>
+        <argsstring></argsstring>
+        <name>MinusY</name>
+        <qualifiedname>mrmeshpy.OutEdge.MinusY</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1acdcc962432eee6c7714e28085624164e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::MinusZ</definition>
+        <argsstring></argsstring>
+        <name>MinusZ</name>
+        <qualifiedname>mrmeshpy.OutEdge.MinusZ</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41766" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1ac81319c79d37d8fd0a24a3ffcb6288f5" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::PlusX</definition>
+        <argsstring></argsstring>
+        <name>PlusX</name>
+        <qualifiedname>mrmeshpy.OutEdge.PlusX</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1ab5de102887d9cf060e7e2d2e89570aca" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::PlusY</definition>
+        <argsstring></argsstring>
+        <name>PlusY</name>
+        <qualifiedname>mrmeshpy.OutEdge.PlusY</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1a428fcf893bb23bb7efe43174e61c5c2b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::PlusZ</definition>
+        <argsstring></argsstring>
+        <name>PlusZ</name>
+        <qualifiedname>mrmeshpy.OutEdge.PlusZ</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41769" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutEdge_1a9dffad2c9b349056ac933bf9a11a7ce8" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutEdge::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41770" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a70e02683a08a0c99f194683052648f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OutEdge.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41771" bodyend="41772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a5680b64f6a1384fe19f94bfbc2de21ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutEdge.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41773" bodyend="41774"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a3f86e9114a86feecfedf96edde55b112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutEdge.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41775" bodyend="41776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a3656fcb1d48f637c88e0f04fcf27832d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutEdge.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41777" bodyend="41778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1ab8f3b8521865a9fad8800c2b076d154b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutEdge.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41779" bodyend="41780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a81ec82413aeda9c6be165ad9039fb3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutEdge.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41781" bodyend="41782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1add8a1b291b5df461455f6f0b5c50bc88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OutEdge.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41783" bodyend="41784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a094b197691f2b6ba588984280fba805f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OutEdge.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41785" bodyend="41786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a4852015f0feebcfb0f6e94de51b77fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutEdge.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41787" bodyend="41788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a63f35eabb5c1ddd192fe0ef1de7c8d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OutEdge.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.OutEdge.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41789" bodyend="41790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1af1fac52b3979466f46e4f9a27494294d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OutEdge.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.OutEdge.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41792" bodyend="41793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutEdge_1a60da098eb83264d2b74d8800a5f714ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutEdge.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.OutEdge.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41795" bodyend="41796"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Invalid
+
+  PlusZ
+
+  MinusZ
+
+  PlusY
+
+  MinusY
+
+  PlusX
+
+  MinusX
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OutEdge</label>
+        <link refid="classmrmeshpy_1_1OutEdge"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>Invalid</edgelabel>
+          <edgelabel>MinusX</edgelabel>
+          <edgelabel>MinusY</edgelabel>
+          <edgelabel>MinusZ</edgelabel>
+          <edgelabel>PlusX</edgelabel>
+          <edgelabel>PlusY</edgelabel>
+          <edgelabel>PlusZ</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41742" bodyend="41796"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OutEdge_1a70e02683a08a0c99f194683052648f90" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a5680b64f6a1384fe19f94bfbc2de21ce" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a3f86e9114a86feecfedf96edde55b112" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a3656fcb1d48f637c88e0f04fcf27832d" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1ab8f3b8521865a9fad8800c2b076d154b" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a81ec82413aeda9c6be165ad9039fb3ea" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a9dffad2c9b349056ac933bf9a11a7ce8" prot="private" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1add8a1b291b5df461455f6f0b5c50bc88" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a094b197691f2b6ba588984280fba805f" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a4852015f0feebcfb0f6e94de51b77fe2" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a63f35eabb5c1ddd192fe0ef1de7c8d2c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a473b95dffd17c1341833e395bef0c1ff" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a3cc267d9b90af81337ad77f3a5e7ac2a" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>Invalid</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a43aeb0eb481916c725dbf272660e054e" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>MinusX</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1ac4e799a37880f1d7f1766f38c093c942" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>MinusY</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1acdcc962432eee6c7714e28085624164e" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>MinusZ</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1af1fac52b3979466f46e4f9a27494294d" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1ac81319c79d37d8fd0a24a3ffcb6288f5" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>PlusX</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1ab5de102887d9cf060e7e2d2e89570aca" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>PlusY</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a428fcf893bb23bb7efe43174e61c5c2b" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>PlusZ</name></member>
+      <member refid="classmrmeshpy_1_1OutEdge_1a60da098eb83264d2b74d8800a5f714ca" prot="public" virt="non-virtual"><scope>mrmeshpy::OutEdge</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

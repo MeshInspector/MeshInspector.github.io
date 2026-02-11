@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertCoords2" kind="class" language="C#" prot="public">
+    <compoundname>MR::VertCoords2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertCoords2</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VertCoords2_1a131f0cbe29fc24c6096a85cba51ad409" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRVector2f</type>
+        <definition>new unsafe MR.Std.Vector_MRVector2f MR.VertCoords2.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.VertCoords2.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9968" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9968" bodyend="9968"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VertCoords2_1a92fd879a847a83328b71f59214501f8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe new ref MR.Vector2f MR.VertCoords2.this[MR.VertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VertId i]</name>
+        <qualifiedname>MR.VertCoords2.this[MR.VertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertCoords2.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10142" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10143" bodyend="10150"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a41340b7f76fc98f440cb22fe7818cd74" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9987" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9987" bodyend="9991"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertCoords2.VertCoords2</definition>
+        <argsstring>()</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9997" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9997" bodyend="10003"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1ad89f3c42e003e2ba0809adbacd620acd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(MR._ByValue_VertCoords2 _other)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10008" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10008" bodyend="10015"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1adaa0487c4c1c3799d1e36965100e6dca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(Const_VertCoords2 _other)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type>Const_VertCoords2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10020" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10020" bodyend="10020"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1abe5b3af8656fdf6de0c4ba6e8e5e14c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(VertCoords2 _other)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10025" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10025" bodyend="10025"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a5614734a46f4781e6e39de6a1974464d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10031" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10031" bodyend="10037"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a97e137aa34f7db251c48221641271198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(ulong size, in MR.Vector2f val)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10043" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10043" bodyend="10052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a66ae4671710b56451610c3153bf856af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertCoords2.VertCoords2</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt; vec)</argsstring>
+        <name>VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10058" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10058" bodyend="10065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a68519e07909e81d305a82580ecb1f7c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+        <definition>unsafe MR.VertCoords2 MR.VertCoords2.assign</definition>
+        <argsstring>(MR._ByValue_VertCoords2 _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VertCoords2.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertCoords2.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10076" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10076" bodyend="10083"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1aabcbc68f1b6c63df5a75554f462820c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.VertCoords2.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1aabcbc68f1b6c63df5a75554f462820c6" kindref="member">MR.VertCoords2.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10088" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10088" bodyend="10093"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a068fe44e8af98304a6ba32ba5ea8eaf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.VertCoords2.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a068fe44e8af98304a6ba32ba5ea8eaf7" kindref="member">MR.VertCoords2.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10098" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10098" bodyend="10103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a73aaf208c238d9928fb4601ac0fe5b8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.resize</definition>
+        <argsstring>(ulong newSize, in MR.Vector2f t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.VertCoords2.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a068fe44e8af98304a6ba32ba5ea8eaf7" kindref="member">MR.VertCoords2.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10108" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10108" bodyend="10116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1adef75a1360f189262d723fee9d706996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.resizeNoInit</definition>
+        <argsstring>(ulong targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>MR.VertCoords2.resizeNoInit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1adef75a1360f189262d723fee9d706996" kindref="member">MR.VertCoords2.resizeNoInit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10122" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10122" bodyend="10127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1af5a4ccb59b855eb3a5ddf621b0c3466c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.VertCoords2.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1af5a4ccb59b855eb3a5ddf621b0c3466c" kindref="member">MR.VertCoords2.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10132" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10132" bodyend="10137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a3ea196885f13933d8a146514328199b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.VertCoords2.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a3ea196885f13933d8a146514328199b5" kindref="member">MR.VertCoords2.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10156" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10156" bodyend="10161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a32430548032f19d6f9c3f3e57cb93aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, in MR.Vector2f value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.VertCoords2.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a3ea196885f13933d8a146514328199b5" kindref="member">MR.VertCoords2.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10167" bodyend="10175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a85a8e9e5cbe979765bfb3be101e48a5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.autoResizeSet</definition>
+        <argsstring>(MR.VertId pos, ulong len, MR.Vector2f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.VertCoords2.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a85a8e9e5cbe979765bfb3be101e48a5a" kindref="member">MR.VertCoords2.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10182" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10182" bodyend="10187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a989a4bbd353c1c20e8d2bee93c506409" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.autoResizeSet</definition>
+        <argsstring>(MR.VertId i, MR.Vector2f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.VertCoords2.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a85a8e9e5cbe979765bfb3be101e48a5a" kindref="member">MR.VertCoords2.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10193" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10193" bodyend="10198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a630ae1fab321aaafc2e5a9639b8f89b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref MR.Vector2f MR.VertCoords2.autoResizeAt</definition>
+        <argsstring>(MR.VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.VertCoords2.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a630ae1fab321aaafc2e5a9639b8f89b5" kindref="member">MR.VertCoords2.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10204" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10204" bodyend="10209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a5d1835badbb72cec6c936371e0d56bd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.pushBack</definition>
+        <argsstring>(in MR.Vector2f t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VertCoords2.pushBack</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertCoords2.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10214" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10214" bodyend="10222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a0d7d7b01387246c92bbd5243824c6ea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, in MR.Vector2f t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VertCoords2.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertCoords2.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10227" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10227" bodyend="10235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a0b1c87cd191d0581d2981f2cb8c8051a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.VertCoords2.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertCoords2.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10240" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10240" bodyend="10245"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a6fda58d2bdbe71decb2b0975858d6a38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref MR.Vector2f MR.VertCoords2.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.VertCoords2.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertCoords2.emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10250" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10250" bodyend="10255"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a2f1cd1bb8ebf6c68dbefb9d08772d5dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe new ref MR.Vector2f MR.VertCoords2.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.VertCoords2.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a2f1cd1bb8ebf6c68dbefb9d08772d5dd" kindref="member">MR.VertCoords2.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10260" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10260" bodyend="10265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1acc81fc3f9c550aaa072d6f270464a42e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe new ref MR.Vector2f MR.VertCoords2.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.VertCoords2.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1acc81fc3f9c550aaa072d6f270464a42e" kindref="member">MR.VertCoords2.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10270" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10270" bodyend="10275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a0da9a7f80cba7f78cbef374948a87847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; MR.Vector2f &gt; MR.VertCoords2.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.VertCoords2.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a0da9a7f80cba7f78cbef374948a87847" kindref="member">MR.VertCoords2.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10280" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10280" bodyend="10286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a96b3c9467f0f926929ddfa0dc76b60fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertCoords2.swap</definition>
+        <argsstring>(MR.VertCoords2 b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.VertCoords2.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertCoords2_1a96b3c9467f0f926929ddfa0dc76b60fb" kindref="member">MR.VertCoords2.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10291" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10291" bodyend="10296"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1VertCoords2_1a8d2ce0f86fce0501de5c749abcdf556b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.VertCoords2.operator VertCoords2</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt; vec)</argsstring>
+        <name>operator VertCoords2</name>
+        <qualifiedname>MR.VertCoords2.operator VertCoords2</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.VertCoords2.VertCoords2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10071" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10071" bodyend="10071"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VertCoords2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertCoords2</label>
+        <link refid="classMR_1_1VertCoords2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertCoords2 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_VertCoords2 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VertCoords2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertCoords2</label>
+        <link refid="classMR_1_1VertCoords2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertCoords2 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_VertCoords2 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9965" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9966" bodyend="10297"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VertCoords2_1a68519e07909e81d305a82580ecb1f7c2" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>assign</name></member>
+      <member refid="classMR_1_1VertCoords2_1a630ae1fab321aaafc2e5a9639b8f89b5" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1VertCoords2_1a85a8e9e5cbe979765bfb3be101e48a5a" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VertCoords2_1a989a4bbd353c1c20e8d2bee93c506409" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VertCoords2_1acc81fc3f9c550aaa072d6f270464a42e" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>back</name></member>
+      <member refid="classMR_1_1VertCoords2_1aabcbc68f1b6c63df5a75554f462820c6" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>clear</name></member>
+      <member refid="classMR_1_1VertCoords2_1a0da9a7f80cba7f78cbef374948a87847" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>data</name></member>
+      <member refid="classMR_1_1VertCoords2_1a6fda58d2bdbe71decb2b0975858d6a38" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1VertCoords2_1a2f1cd1bb8ebf6c68dbefb9d08772d5dd" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>front</name></member>
+      <member refid="classMR_1_1VertCoords2_1a8d2ce0f86fce0501de5c749abcdf556b" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>operator VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1a0b1c87cd191d0581d2981f2cb8c8051a" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>popBack</name></member>
+      <member refid="classMR_1_1VertCoords2_1a5d1835badbb72cec6c936371e0d56bd8" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VertCoords2_1a0d7d7b01387246c92bbd5243824c6ea5" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VertCoords2_1af5a4ccb59b855eb3a5ddf621b0c3466c" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>reserve</name></member>
+      <member refid="classMR_1_1VertCoords2_1a068fe44e8af98304a6ba32ba5ea8eaf7" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertCoords2_1a73aaf208c238d9928fb4601ac0fe5b8d" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertCoords2_1adef75a1360f189262d723fee9d706996" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1VertCoords2_1a3ea196885f13933d8a146514328199b5" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VertCoords2_1a32430548032f19d6f9c3f3e57cb93aa6" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VertCoords2_1a96b3c9467f0f926929ddfa0dc76b60fb" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>swap</name></member>
+      <member refid="classMR_1_1VertCoords2_1a92fd879a847a83328b71f59214501f8d" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>this[MR.VertId i]</name></member>
+      <member refid="classMR_1_1VertCoords2_1a131f0cbe29fc24c6096a85cba51ad409" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>vec</name></member>
+      <member refid="classMR_1_1VertCoords2_1a41340b7f76fc98f440cb22fe7818cd74" prot="package" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1ad89f3c42e003e2ba0809adbacd620acd" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1adaa0487c4c1c3799d1e36965100e6dca" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1abe5b3af8656fdf6de0c4ba6e8e5e14c0" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1a5614734a46f4781e6e39de6a1974464d" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1a97e137aa34f7db251c48221641271198" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+      <member refid="classMR_1_1VertCoords2_1a66ae4671710b56451610c3153bf856af" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>VertCoords2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

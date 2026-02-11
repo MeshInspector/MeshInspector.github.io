@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LinesSave" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LinesSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1a4023be58804b366a89b183c392642e8a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toAnySupportedFormat</definition>
+        <argsstring>(Polyline3 polyline, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.LinesSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and saves polyline in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26201" bodyend="26204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1aa2996c5b3261fb955a166af2db7bb53b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toAnySupportedFormat</definition>
+        <argsstring>(Polyline3 polyline, str extension, typing.Any out, SaveSettings settings=...)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.LinesSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>extension in `*.ext` format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26207" bodyend="26210"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1aa0ed43c7c5556c6ac32bdb1423858635" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toDxf</definition>
+        <argsstring>(Polyline3 polyline, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toDxf</name>
+        <qualifiedname>mrmeshpy.LinesSave.toDxf</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .dxf file;
+SaveSettings::onlyValidPoints = false is ignored
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26213" bodyend="26217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1a0413801619201570b7d2548a373a314f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toDxf</definition>
+        <argsstring>(Polyline3 polyline, typing.Any out, SaveSettings settings=...)</argsstring>
+        <name>toDxf</name>
+        <qualifiedname>mrmeshpy.LinesSave.toDxf</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26220" bodyend="26221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1ae50a656b98929920bcba40c85fb28b62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toMrLines</definition>
+        <argsstring>(Polyline3 polyline, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toMrLines</name>
+        <qualifiedname>mrmeshpy.LinesSave.toMrLines</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .mrlines file;
+SaveSettings::onlyValidPoints = true is ignored
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26224" bodyend="26228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1a76571ce90e4b70a20b96789c9a6208de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toMrLines</definition>
+        <argsstring>(Polyline3 polyline, typing.Any out, SaveSettings settings=...)</argsstring>
+        <name>toMrLines</name>
+        <qualifiedname>mrmeshpy.LinesSave.toMrLines</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26231" bodyend="26232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1ad73c0de75fc366ff9d87fe04fd454557" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toPly</definition>
+        <argsstring>(Polyline3 polyline, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>mrmeshpy.LinesSave.toPly</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .ply file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26235" bodyend="26238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1ae086c7341d1b5098bc837b3228db38f3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toPly</definition>
+        <argsstring>(Polyline3 polyline, typing.Any out, SaveSettings settings=...)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>mrmeshpy.LinesSave.toPly</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26241" bodyend="26242"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1a2b6083069c17ef021e7c7b78524bae53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toPts</definition>
+        <argsstring>(Polyline3 polyline, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toPts</name>
+        <qualifiedname>mrmeshpy.LinesSave.toPts</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .pts file;
+SaveSettings::onlyValidPoints = false is ignored
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26245" bodyend="26249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesSave_1a13487472daeda7104e6ada6329d4f597" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesSave.toPts</definition>
+        <argsstring>(Polyline3 polyline, typing.Any out, SaveSettings settings=...)</argsstring>
+        <name>toPts</name>
+        <qualifiedname>mrmeshpy.LinesSave.toPts</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26252" bodyend="26253"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26195" bodyend="26253"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LinesSave_1a4023be58804b366a89b183c392642e8a" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1aa2996c5b3261fb955a166af2db7bb53b" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1aa0ed43c7c5556c6ac32bdb1423858635" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toDxf</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1a0413801619201570b7d2548a373a314f" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toDxf</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1ae50a656b98929920bcba40c85fb28b62" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toMrLines</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1a76571ce90e4b70a20b96789c9a6208de" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toMrLines</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1ad73c0de75fc366ff9d87fe04fd454557" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toPly</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1ae086c7341d1b5098bc837b3228db38f3" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toPly</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1a2b6083069c17ef021e7c7b78524bae53" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toPts</name></member>
+      <member refid="classmrmeshpy_1_1LinesSave_1a13487472daeda7104e6ada6329d4f597" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesSave</scope><name>toPts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

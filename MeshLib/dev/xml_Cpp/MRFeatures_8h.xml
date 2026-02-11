@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFeatures_8h" kind="file" language="C++">
+    <compoundname>MRFeatures.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="yes">MRMesh/MRAffineXf.h</includes>
+    <includes refid="MRCone3_8h" local="yes">MRMesh/MRCone3.h</includes>
+    <includes refid="MRCylinder3_8h" local="yes">MRMesh/MRCylinder3.h</includes>
+    <includes refid="MRPlane3_8h" local="yes">MRMesh/MRPlane3.h</includes>
+    <includes refid="MRSphere_8h" local="yes">MRMesh/MRSphere.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
+    <includes local="no">cassert</includes>
+    <includes local="no">optional</includes>
+    <includes local="no">variant</includes>
+    <includedby refid="MRSubfeatures_8h" local="yes">MRSubfeatures.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>MRMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRCone3.h</label>
+        <link refid="MRCone3_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="27">
+        <label>MRMesh/MRCylinder3.h</label>
+        <link refid="MRCylinder3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRFeatures.h</label>
+        <link refid="MRFeatures_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRLine.h</label>
+        <link refid="MRLine_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRLine3.h</label>
+        <link refid="MRLine3_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRMesh/MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRMesh/MRSphere.h</label>
+        <link refid="MRSphere_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="22">
+        <label>algorithm</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="20">
+        <label>cstddef</label>
+      </node>
+      <node id="24">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="14">
+        <label>iosfwd</label>
+      </node>
+      <node id="30">
+        <label>optional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="25">
+        <label>utility</label>
+      </node>
+      <node id="31">
+        <label>variant</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRFeatures.h</label>
+        <link refid="MRFeatures_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRSubfeatures.h</label>
+        <link refid="MRSubfeatures_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRVisualSubfeatures.h</label>
+        <link refid="MRVisualSubfeatures_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1Features_1_1Primitives_1_1Plane" prot="public">MR::Features::Primitives::Plane</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" prot="public">MR::Features::Primitives::ConeSegment</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1MeasureResult" prot="public">MR::Features::MeasureResult</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public">MR::Features::MeasureResult::BasicPart</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" prot="public">MR::Features::MeasureResult::Distance</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" prot="public">MR::Features::MeasureResult::Angle</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary" prot="public">MR::Features::Traits::Unary</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Unary&lt; Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4" prot="public">MR::Features::Traits::Unary&lt; Primitives::ConeSegment &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4" prot="public">MR::Features::Traits::Unary&lt; Primitives::Plane &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary" prot="public">MR::Features::Traits::Binary</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Sphere, Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::ConeSegment &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Plane &gt;</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Features">MR::Features</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Features_1_1Primitives">MR::Features::Primitives</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Features_1_1Traits">MR::Features::Traits</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRAffineXf_8h" kindref="compound">MRMesh/MRAffineXf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRCone3_8h" kindref="compound">MRMesh/MRCone3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRCylinder3_8h" kindref="compound">MRMesh/MRCylinder3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPlane3_8h" kindref="compound">MRMesh/MRPlane3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSphere_8h" kindref="compound">MRMesh/MRSphere.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FeatureObject;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1_1Features" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Features" kindref="compound">MR::Features</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1_1Features_1_1Primitives" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Primitives</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"></codeline>
+<codeline lineno="30" refid="namespaceMR_1_1Features_1_1Primitives_1a37df2f34cbcd3fec213859b3ca57d3b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref><sp/>=<sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere3&lt;float&gt;</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="structMR_1_1Features_1_1Primitives_1_1Plane" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a17291dba0d3768973959e35d4105ceea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a17291dba0d3768973959e35d4105ceea" kindref="member">center</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="structMR_1_1Features_1_1Primitives_1_1Plane_1aaef9e3698f1254ac0f28afb12046695d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane_1aaef9e3698f1254ac0f28afb12046695d" kindref="member">normal</ref><sp/>=<sp/>Vector3f(<sp/>1,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a7e5d4af61b0fcde8d7631027f240b57a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a7e5d4af61b0fcde8d7631027f240b57a" kindref="member">intersectWithPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref>&amp;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a4fede0e0dd7626dce7467556c551aa40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a4fede0e0dd7626dce7467556c551aa40" kindref="member">intersectWithLine</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref>&amp;<sp/>line<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a8ad7586da649f116dbeefd965f5ff897" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a8ad7586da649f116dbeefd965f5ff897" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"></codeline>
+<codeline lineno="62" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a40eff23fbea04d4a72390fda48c04bfd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a40eff23fbea04d4a72390fda48c04bfd" kindref="member">referencePoint</ref>;</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f603438a2e12d81289b9696c05cdcd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f603438a2e12d81289b9696c05cdcd4" kindref="member">dir</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a6d82dd73c4e7a2c5455773425fb17871" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a6d82dd73c4e7a2c5455773425fb17871" kindref="member">positiveSideRadius</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1abf9a80b6307631742a88be4930217ef9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1abf9a80b6307631742a88be4930217ef9" kindref="member">negativeSideRadius</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" kindref="member">positiveLength</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aa12508a43caab5ab1a44e29db684592d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aa12508a43caab5ab1a44e29db684592d" kindref="member">negativeLength</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aed7a509cc23a908a6cf803007694eabf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aed7a509cc23a908a6cf803007694eabf" kindref="member">hollow</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a0a599e730d0a62e6972fecbb9a4e13b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a0a599e730d0a62e6972fecbb9a4e13b1" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ad0e22f8a9ddce47d6aab63cfe35ab6bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ad0e22f8a9ddce47d6aab63cfe35ab6bd" kindref="member">isZeroRadius</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a6d82dd73c4e7a2c5455773425fb17871" kindref="member">positiveSideRadius</ref><sp/>==<sp/>0<sp/>&amp;&amp;<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1abf9a80b6307631742a88be4930217ef9" kindref="member">negativeSideRadius</ref><sp/>==<sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="82" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1afa5b6dc1d9e1f98cbec052e8d506d20a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1afa5b6dc1d9e1f98cbec052e8d506d20a" kindref="member">isCircle</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" kindref="member">positiveLength</ref><sp/>==<sp/>-<ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aa12508a43caab5ab1a44e29db684592d" kindref="member">negativeLength</ref><sp/>&amp;&amp;<sp/>std::isfinite(<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" kindref="member">positiveLength</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a246d93a7bb2aaa83191d515884303ecb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a246d93a7bb2aaa83191d515884303ecb" kindref="member">length</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" kindref="member">positiveLength</ref><sp/>+<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aa12508a43caab5ab1a44e29db684592d" kindref="member">negativeLength</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f96764db5c4750b318539f5c7ccf9b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f96764db5c4750b318539f5c7ccf9b3" kindref="member">centerPoint</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aeda0b75106e0df9b044fe33c1adb7044" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aeda0b75106e0df9b044fe33c1adb7044" kindref="member">extendToInfinity</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>negative<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a3fbdf03d9ba7e87339fb77edbc8699d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a3fbdf03d9ba7e87339fb77edbc8699d9" kindref="member">extendToInfinity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a52d74c8c1581a73964681c4273172f52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a52d74c8c1581a73964681c4273172f52" kindref="member">untruncateCone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac00c1b10d86e8726d41cd48ce17c9ebf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac00c1b10d86e8726d41cd48ce17c9ebf" kindref="member">axis</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a31365626f0397b521d1712b59fb2a466" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a31365626f0397b521d1712b59fb2a466" kindref="member">basePoint</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>negative<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aadc4bfd4025c567372583450899716ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aadc4bfd4025c567372583450899716ae" kindref="member">basePlane</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>negative<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108" refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a4148dbcf1b8080fed62d67986a18dee1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a4148dbcf1b8080fed62d67986a18dee1" kindref="member">baseCircle</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>negative<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Variant</ref><sp/>=<sp/>std::variant&lt;Sphere,<sp/>ConeSegment,<sp/>Plane&gt;;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref><sp/><ref refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" kindref="member">toPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>point,<sp/>0<sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="117" refid="namespaceMR_1_1Features_1a4b8fe8c172363793d31c8bbc29e9fdb2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref><sp/><ref refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" kindref="member">toPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Sphere3f&amp;<sp/>sphere<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sphere;<sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="namespaceMR_1_1Features_1a4701a0fae7580c7711140ac3823a2ad1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" kindref="member">toPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>line<sp/>);</highlight></codeline>
+<codeline lineno="120" refid="namespaceMR_1_1Features_1ade193da66da564733854a43102ee2ff9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" kindref="member">toPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3f&amp;<sp/>segm<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="namespaceMR_1_1Features_1a8181371796e19bd3d28cc3300b6aa1bb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" kindref="member">toPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a1e1eeb9ec9e53f13003c0882dc66eaef" kindref="member">Cylinder3f</ref>&amp;<sp/>cyl<sp/>)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>halfLen<sp/>=<sp/>cyl.length<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.referencePoint<sp/>=<sp/>cyl.<ref refid="structMR_1_1Sphere_1ac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref>(),</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.dir<sp/>=<sp/>cyl.direction().normalized(),</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.positiveSideRadius<sp/>=<sp/>cyl.radius,<sp/>.negativeSideRadius<sp/>=<sp/>cyl.radius,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.positiveLength<sp/>=<sp/>halfLen,<sp/>.negativeLength<sp/>=<sp/>halfLen,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132" refid="namespaceMR_1_1Features_1aa06970e4aa6f9508425ab48758238239" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1acbd075b92fa1a44ed1751506cecb9b3a" kindref="member">toPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aacddd8dea45c1f5082893fce7fb5755d" kindref="member">Cone3f</ref>&amp;<sp/>cone<sp/>)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.referencePoint<sp/>=<sp/>cone.<ref refid="structMR_1_1Sphere_1ac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref>(),</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.dir<sp/>=<sp/>cone.direction().normalized(),</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.positiveSideRadius<sp/>=<sp/>std::tan(<sp/>cone.angle<sp/>)<sp/>*<sp/>cone.height,<sp/>.negativeSideRadius<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.positiveLength<sp/>=<sp/>cone.height,<sp/>.negativeLength<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="namespaceMR_1_1Features_1a5868f629eb5b33654ac9c296f89ab859" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1a5868f629eb5b33654ac9c296f89ab859" kindref="member">primitiveCircle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="namespaceMR_1a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555" kindref="member">normal</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rad<sp/>);</highlight></codeline>
+<codeline lineno="145" refid="namespaceMR_1_1Features_1a2d7396ae23e2d25cae0b7fc52fd0700e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1a2d7396ae23e2d25cae0b7fc52fd0700e" kindref="member">primitiveCylinder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rad<sp/>);</highlight></codeline>
+<codeline lineno="147" refid="namespaceMR_1_1Features_1a8d70d3465b40dfe88c3a3fb7210afee0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1a8d70d3465b40dfe88c3a3fb7210afee0" kindref="member">primitiveCone</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rad<sp/>);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="namespaceMR_1_1Features_1aeeb9d21a824a2dd94d682b54ab1862d2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Primitives::Variant&gt;<sp/><ref refid="namespaceMR_1_1Features_1aeeb9d21a824a2dd94d682b54ab1862d2" kindref="member">primitiveFromObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="152" refid="namespaceMR_1_1Features_1ab8f22bea18d05dc887187f02a89188a6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Primitives::Variant&gt;<sp/><ref refid="namespaceMR_1_1Features_1ab8f22bea18d05dc887187f02a89188a6" kindref="member">primitiveFromObjectWithWorldXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="155" refid="namespaceMR_1_1Features_1a49fd9207c07aaf09dab5aa90ea742cbb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::shared_ptr&lt;FeatureObject&gt;<sp/><ref refid="namespaceMR_1_1Features_1a49fd9207c07aaf09dab5aa90ea742cbb" kindref="member">primitiveToObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/>primitive,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>infiniteExtent<sp/>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="namespaceMR_1_1Features_1a786882f4d1d08a909e121d587762bc7d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1Features_1a786882f4d1d08a909e121d587762bc7d" kindref="member">transformPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/>primitive<sp/>);</highlight></codeline>
+<codeline lineno="160" refid="namespaceMR_1_1Features_1a6bccfd9503d10be206552d1b68cafd59" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1Features_1a786882f4d1d08a909e121d587762bc7d" kindref="member">transformPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>primitive<sp/>);</highlight></codeline>
+<codeline lineno="161" refid="namespaceMR_1_1Features_1ae44995ca46fc9d43471041459ff5b491" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref><sp/><ref refid="namespaceMR_1_1Features_1a786882f4d1d08a909e121d587762bc7d" kindref="member">transformPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&amp;<sp/>primitive<sp/>);</highlight></codeline>
+<codeline lineno="162" refid="namespaceMR_1_1Features_1a65e870c3bf2b91e5fdaf05b63c27009a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1Features_1a786882f4d1d08a909e121d587762bc7d" kindref="member">transformPrimitive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/><sp/><sp/><sp/><sp/>primitive<sp/>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="structMR_1_1Features_1_1MeasureResult" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167" refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" kindref="member">Status</ref></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6" kindref="member">ok</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb" kindref="member">notImplemented</ref>,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f" kindref="member">badFeaturePair</ref>,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2" kindref="member">badRelativeLocation</ref>,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c" kindref="member">notFinite</ref>,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">BasicPart</ref></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="183" refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" kindref="member">Status</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" kindref="member">status</ref><sp/>=<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb" kindref="member">Status::notImplemented</ref>;</highlight></codeline>
+<codeline lineno="184" refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a7985af9aca32411b60aec8f8e6178e92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" kindref="member">status</ref><sp/>==<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6" kindref="member">Status::ok</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Distance</ref><sp/>:<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">BasicPart</ref></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1abc2ecf316c1affc7c259c7b438753dbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1abc2ecf316c1affc7c259c7b438753dbb" kindref="member">distance</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a63df7d9b2bc70ecaf640167b54487acc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a63df7d9b2bc70ecaf640167b54487acc" kindref="member">closestPointA</ref>;</highlight></codeline>
+<codeline lineno="193" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aac200a7d9f4713275d0ceb4ed127773b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aac200a7d9f4713275d0ceb4ed127773b" kindref="member">closestPointB</ref>;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a8670c18dcc3043de2c9724f9e7412b45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a8670c18dcc3043de2c9724f9e7412b45" kindref="member">closestPointFor</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b<sp/>?<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aac200a7d9f4713275d0ceb4ed127773b" kindref="member">closestPointB</ref><sp/>:<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a63df7d9b2bc70ecaf640167b54487acc" kindref="member">closestPointA</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a332150131bda07c1cc0ccb728695b123" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a332150131bda07c1cc0ccb728695b123" kindref="member">distanceAlongAxis</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aa226d42d5a35c9f64e1e15313df72d2c" kindref="member">distanceAlongAxisAbs</ref>(<sp/>i<sp/>)<sp/>*<sp/>(<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1abc2ecf316c1affc7c259c7b438753dbb" kindref="member">distance</ref><sp/>&lt;<sp/>0<sp/>?<sp/>-1<sp/>:<sp/>1<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="198" refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aa226d42d5a35c9f64e1e15313df72d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aa226d42d5a35c9f64e1e15313df72d2c" kindref="member">distanceAlongAxisAbs</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::abs(<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a63df7d9b2bc70ecaf640167b54487acc" kindref="member">closestPointA</ref>[i]<sp/>-<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aac200a7d9f4713275d0ceb4ed127773b" kindref="member">closestPointB</ref>[i]<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="201" refid="structMR_1_1Features_1_1MeasureResult_1a618a5c8cc475ae385a15f69aa6316d10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Distance</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1a618a5c8cc475ae385a15f69aa6316d10" kindref="member">distance</ref>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="structMR_1_1Features_1_1MeasureResult_1a31415c50f3b3e2ee62b2778114b20ec9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Distance</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1a31415c50f3b3e2ee62b2778114b20ec9" kindref="member">centerDistance</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Angle</ref><sp/>:<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">BasicPart</ref></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a104e267ea283036c060f8d2f3ad3cfc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a104e267ea283036c060f8d2f3ad3cfc0" kindref="member">pointA</ref>;</highlight></codeline>
+<codeline lineno="210" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a625702bc7bbc1dc9e21bd6786bb901ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a625702bc7bbc1dc9e21bd6786bb901ad" kindref="member">pointB</ref>;</highlight></codeline>
+<codeline lineno="211" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a91b56f3de892d527f62012a689981635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a91b56f3de892d527f62012a689981635" kindref="member">pointFor</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b<sp/>?<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a625702bc7bbc1dc9e21bd6786bb901ad" kindref="member">pointB</ref><sp/>:<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a104e267ea283036c060f8d2f3ad3cfc0" kindref="member">pointA</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a6f5eba0221416eca918dea71f64ad70d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a6f5eba0221416eca918dea71f64ad70d" kindref="member">dirA</ref>;<sp/></highlight></codeline>
+<codeline lineno="214" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1ae7cbce0a25261174c06274fcaffe2a0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1ae7cbce0a25261174c06274fcaffe2a0f" kindref="member">dirB</ref>;<sp/></highlight></codeline>
+<codeline lineno="215" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a188d4fb553903ae07ec08a2ea1e1746d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Vector3f<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a188d4fb553903ae07ec08a2ea1e1746d" kindref="member">dirFor</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b<sp/>?<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1ae7cbce0a25261174c06274fcaffe2a0f" kindref="member">dirB</ref><sp/>:<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a6f5eba0221416eca918dea71f64ad70d" kindref="member">dirA</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a8c60a4e655bfc8c747e9c0d53c5761a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a8c60a4e655bfc8c747e9c0d53c5761a9" kindref="member">isSurfaceNormalA</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="219" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1aed8c3331e8b7c2fd1ab738f49d87f5ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1aed8c3331e8b7c2fd1ab738f49d87f5ce" kindref="member">isSurfaceNormalB</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1aca66ca9ce428b369a304aca13a2cd25c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1aca66ca9ce428b369a304aca13a2cd25c" kindref="member">isSurfaceNormalFor</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b<sp/>?<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1aed8c3331e8b7c2fd1ab738f49d87f5ce" kindref="member">isSurfaceNormalB</ref><sp/>:<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a8c60a4e655bfc8c747e9c0d53c5761a9" kindref="member">isSurfaceNormalA</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a3fe4c9665a94e2143038345808dc1586" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a3fe4c9665a94e2143038345808dc1586" kindref="member">computeAngleInRadians</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="225" refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Angle</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="structMR_1_1Features_1_1MeasureResult_1ae91b71d479c6bb30a6e9b3068dd1d0c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Primitives::Variant&gt;<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ae91b71d479c6bb30a6e9b3068dd1d0c2" kindref="member">intersections</ref>;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="structMR_1_1Features_1_1MeasureResult_1a0682477036fb2befa7ff871bab780be2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1a0682477036fb2befa7ff871bab780be2" kindref="member">swapObjects</ref>();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="234" refid="namespaceMR_1_1Features_1a6ef217cccdf314a4441a435f229650af" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string_view<sp/><ref refid="namespaceMR_1_1Features_1a6ef217cccdf314a4441a435f229650af" kindref="member">toString</ref>(<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" kindref="member">MeasureResult::Status</ref><sp/>status<sp/>);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="namespaceMR_1_1Features_1_1Traits" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Traits</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="241" refid="structMR_1_1Features_1_1Traits_1_1Unary" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Unary" kindref="compound">Unary</ref><sp/>{};</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="243" refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Unary" kindref="compound">Unary</ref>&lt;Primitives::<ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref>&gt;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="245" refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4_1a79f0e6f0a85464a7427e82777f24552d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4_1a79f0e6f0a85464a7427e82777f24552d" kindref="member">name</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&amp;<sp/>prim<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="248" refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Unary" kindref="compound">Unary</ref>&lt;Primitives::ConeSegment&gt;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="250" refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4_1a5c925dcac2e6ec9e5b0423871da7b408" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4_1a5c925dcac2e6ec9e5b0423871da7b408" kindref="member">name</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&amp;<sp/>prim<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="253" refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Unary" kindref="compound">Unary</ref>&lt;Primitives::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>&gt;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="255" refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4_1ad9c9fcc3b4b9a008d957235987cea8a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4_1ad9c9fcc3b4b9a008d957235987cea8a5" kindref="member">name</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&amp;<sp/>prim<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>A,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
+<codeline lineno="259" refid="structMR_1_1Features_1_1Traits_1_1Binary" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref><sp/>{};</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>A,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
+<codeline lineno="264" refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" kindref="compound">MeasureSupportedOneWay</ref><sp/>=<sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Binary&lt;A,<sp/>B&gt;&amp;<sp/>t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>A&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>B&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>t.measure(<sp/>a,<sp/>b<sp/>)<sp/>}<sp/>-&gt;<sp/>std::same_as&lt;MeasureResult&gt;;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="271" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref>&lt;Primitives::<ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref>,<sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&gt;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="273" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4_1a9c244f51235da14d2ff3e28d232e0015" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4_1a9c244f51235da14d2ff3e28d232e0015" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="276" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref>&lt;Primitives::ConeSegment,<sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&gt;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="278" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4_1a385a1aa67d30c28d96c3b353b2301288" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4_1a385a1aa67d30c28d96c3b353b2301288" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="281" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref>&lt;Primitives::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>,<sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&gt;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="283" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4_1a21b9de9268120c982f8c3838220d8cc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4_1a21b9de9268120c982f8c3838220d8cc7" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Primitives::Sphere</ref>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="288" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref>&lt;Primitives::ConeSegment,<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&gt;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="290" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4_1add83e086e536d8cc99b74f9f37fb2672" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4_1add83e086e536d8cc99b74f9f37fb2672" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="293" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref>&lt;Primitives::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>,<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&gt;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4_1a182d33e799ffdd3e42408fedd13b3720" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4_1a182d33e799ffdd3e42408fedd13b3720" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="300" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Binary</ref>&lt;Primitives::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>,<sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&gt;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="302" refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4_1a21d958650e567c81e194e8d73d8b2107" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4_1a21d958650e567c81e194e8d73d8b2107" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="309" refid="namespaceMR_1_1Features_1a1f7d6b7fed16c703a284c2013da802e2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::string<sp/><ref refid="namespaceMR_1_1Features_1a1f7d6b7fed16c703a284c2013da802e2" kindref="member">name</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>primitive<sp/>)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Unary" kindref="compound">Traits::Unary&lt;T&gt;</ref>{}.name(<sp/>primitive<sp/>);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="314" refid="namespaceMR_1_1Features_1a64ffcca649e7365b125b54b414b4e3a1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="namespaceMR_1_1Features_1a1f7d6b7fed16c703a284c2013da802e2" kindref="member">name</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/>var<sp/>);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>A,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
+<codeline lineno="318" refid="conceptMR_1_1Features_1_1MeasureSupported" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1Features_1_1MeasureSupported" kindref="compound">MeasureSupported</ref><sp/>=<sp/><ref refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" kindref="compound">Traits::MeasureSupportedOneWay&lt;A, B&gt;</ref><sp/>||<sp/><ref refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" kindref="compound">Traits::MeasureSupportedOneWay&lt;B, A&gt;</ref>;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>A,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/><ref refid="conceptMR_1_1Features_1_1MeasureSupported" kindref="compound">MeasureSupported&lt;A, B&gt;</ref></highlight></codeline>
+<codeline lineno="323" refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>A&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>B&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/><ref refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" kindref="compound">Traits::MeasureSupportedOneWay&lt;A, B&gt;</ref><sp/>)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/>ret<sp/>=<sp/><ref refid="structMR_1_1Features_1_1Traits_1_1Binary" kindref="compound">Traits::Binary&lt;A, B&gt;</ref>{}.measure(<sp/>a,<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">*<sp/>dist<sp/>:<sp/>{<sp/>&amp;ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a618a5c8cc475ae385a15f69aa6316d10" kindref="member">distance</ref>,<sp/>&amp;ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a31415c50f3b3e2ee62b2778114b20ec9" kindref="member">centerDistance</ref><sp/>}<sp/>)</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>*dist<sp/>&amp;&amp;<sp/>(<sp/>!std::isfinite(<sp/>dist-&gt;distance<sp/>)<sp/>||<sp/>!dist-&gt;closestPointA.isFinite()<sp/>||<sp/>!dist-&gt;closestPointB.isFinite()<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dist-&gt;status<sp/>=<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2" kindref="member">MeasureResult::Status::badRelativeLocation</ref>;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>*dist<sp/>)</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>[&amp;]{</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>(<sp/>dist-&gt;closestPointB<sp/>-<sp/>dist-&gt;closestPointA<sp/>).<ref refid="MRObjectDimensionsEnum_8h_1af9d495c1655d813d553030485d00fea7" kindref="member">length</ref>();</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>std::abs(<sp/>dist-&gt;distance<sp/>);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::abs(<sp/>a<sp/>-<sp/>b<sp/>)<sp/>&lt;=<sp/>std::max(<sp/>std::min(<sp/>a,<sp/>b<sp/>),<sp/>0.01f<sp/>)<sp/>*<sp/>0.001f;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}()<sp/>);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref><sp/>&amp;&amp;<sp/>(<sp/>!ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a104e267ea283036c060f8d2f3ad3cfc0" kindref="member">pointA</ref>.isFinite()<sp/>||<sp/>!ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a625702bc7bbc1dc9e21bd6786bb901ad" kindref="member">pointB</ref>.isFinite()<sp/>||<sp/>!ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a6f5eba0221416eca918dea71f64ad70d" kindref="member">dirA</ref>.isFinite()<sp/>||<sp/>!ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1ae7cbce0a25261174c06274fcaffe2a0f" kindref="member">dirB</ref>.isFinite()<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" kindref="member">status</ref><sp/>=<sp/><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2" kindref="member">MeasureResult::Status::badRelativeLocation</ref>;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref><sp/>&lt;=<sp/>(<sp/>std::abs(<sp/>1<sp/>-<sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1a6f5eba0221416eca918dea71f64ad70d" kindref="member">dirA</ref>.length()<sp/>)<sp/>&lt;<sp/>0.0001f<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref><sp/>&lt;=<sp/>(<sp/>std::abs(<sp/>1<sp/>-<sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" kindref="member">angle</ref>.<ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle_1ae7cbce0a25261174c06274fcaffe2a0f" kindref="member">dirB</ref>.length()<sp/>)<sp/>&lt;<sp/>0.0001f<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/><ref refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" kindref="compound">Traits::MeasureSupportedOneWay&lt;B, A&gt;</ref>,<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>should<sp/>never<sp/>fail.&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/>ret<sp/>=<sp/>(<sp/><ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref><sp/>)(<sp/>b,<sp/>a<sp/>);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structMR_1_1Features_1_1MeasureResult_1a0682477036fb2befa7ff871bab780be2" kindref="member">swapObjects</ref>();</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="364"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="366"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
+<codeline lineno="367" refid="namespaceMR_1_1Features_1ada065f0f7c5b74946d5ae2826df2bf0d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>B&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/>[&amp;](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>elem<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref>)(<sp/>elem,<sp/>b<sp/>);<sp/>},<sp/>a<sp/>);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="372"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>A&gt;</highlight></codeline>
+<codeline lineno="373" refid="namespaceMR_1_1Features_1a8ae032d9a48f5e4e7669748c12b6f05c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>A&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/>[&amp;](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>elem<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref>)(<sp/>a,<sp/>elem<sp/>);<sp/>},<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="378" refid="namespaceMR_1_1Features_1acba878d0a966299305f4db971b3896b7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref><sp/><ref refid="namespaceMR_1_1Features_1a39b347d1c16a0e596d16c09cc7839ded" kindref="member">measure</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h"/>
+  </compounddef>
+</doxygen>

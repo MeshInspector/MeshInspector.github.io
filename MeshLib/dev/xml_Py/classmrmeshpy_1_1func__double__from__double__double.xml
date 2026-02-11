@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__double__from__double__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_double_from_double_double</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1a03d76a374b3287154fb57a7a35cd19d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_double_from_double_double.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76112" bodyend="76113"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1addcf21ef47b96832b56ce9e67ca9668d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.func_double_from_double_double.__call__</definition>
+        <argsstring>(self, float arg0, float arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76114" bodyend="76115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1a0673a80cfdff0a0c638eaf070e174ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_double_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76117" bodyend="76118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1a17721040d9cec82c532255f55f069096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_double_double.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76120" bodyend="76121"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1a69bebce180a724657832c1b8c8845cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_double_double.__init__</definition>
+        <argsstring>(self, func_double_from_double_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__double__double" kindref="compound">func_double_from_double_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76123" bodyend="76124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1aabe589ecacf6702aeea1e7ba4a252ecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_double_double.__init__</definition>
+        <argsstring>(self, typing.Callable[[float, float], float] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[float, float]</array>
+        </param>
+        <param>
+          <type>float]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76126" bodyend="76127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1a7e14a6a00ae5a0f35fd0bcff770eb2ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_double_from_double_double.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76128" bodyend="76131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__double__double_1ab0b14e2683666b324ad48be888a55f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_double_from_double_double.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_double_from_double_double.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76132" bodyend="76135"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76111" bodyend="76135"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1a03d76a374b3287154fb57a7a35cd19d3" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1addcf21ef47b96832b56ce9e67ca9668d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1a0673a80cfdff0a0c638eaf070e174ad0" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1a17721040d9cec82c532255f55f069096" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1a69bebce180a724657832c1b8c8845cbb" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1aabe589ecacf6702aeea1e7ba4a252ecf" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1a7e14a6a00ae5a0f35fd0bcff770eb2ad" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__double__double_1ab0b14e2683666b324ad48be888a55f5b" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_double_double</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

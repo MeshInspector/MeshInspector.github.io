@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsLoad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsLoad</compoundname>
+    <innerclass refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings" prot="public">mrmeshpy::PointsLoad::E57LoadSettings</innerclass>
+    <innerclass refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud" prot="public">mrmeshpy::PointsLoad::NamedCloud</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a044fc5412217fd36140c7d944792cd79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromAnySupportedFormat</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and loads points from it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45196" bodyend="45199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1ad56601f7a01631872d32ce3ca0b3feab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromAnySupportedFormat</definition>
+        <argsstring>(typing.Any in_, str extension, PointsLoadSettings settings=...)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>extension in `*.ext` format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45202" bodyend="45205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a8c8ec5afe4c33cd4efeaccc92753ce15" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromCtm</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromCtm</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .ctm file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45208" bodyend="45211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1aca912e8555e5cf989d255b67286734d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromCtm</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromCtm</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45214" bodyend="45215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a1e62b559c5b4b67b86c244825200d14f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromDxf</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromDxf</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45218" bodyend="45219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a6902e7be4da03ee8a4321f32f3cb63d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromDxf</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromDxf</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45222" bodyend="45223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a2d99c63bb0559ee1bcab50640142ccf7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromE57</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromE57</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromE57</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .e57 file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45226" bodyend="45229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a4f6d2d68dc8d1073f851da58e4743a38" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromE57</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromE57</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromE57</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45232" bodyend="45233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1ada358ec811e864af1ac0a526c882bd40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromLas</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromLas</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromLas</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .las file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45236" bodyend="45239"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a5d10abe3f3986c4053901f9db2d495ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromLas</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromLas</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromLas</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45242" bodyend="45243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1aebde280d5721c53dcfd5c44fa665bc10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromObj</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromObj</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .obj file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45246" bodyend="45249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a359d072f966f965774925086fc9535da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromObj</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromObj</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45252" bodyend="45253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a766b74cb4a6914e8f3681b52fc234b63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromPly</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromPly</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .ply file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45256" bodyend="45259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a1dec40b58ef229c5269b04e09a58f3e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromPly</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromPly</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45262" bodyend="45263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1ae5714aca853aed863487f5a6071dc5ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromPts</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromPts</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromPts</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from Laser scan plain data format (.pts) file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45266" bodyend="45269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a605e1428e8afe7d441f7e62741c11fab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromPts</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromPts</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromPts</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45272" bodyend="45273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a2d41e106c766f3e23cbb49bbfe2d3cb7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud" kindref="compound">std_vector_PointsLoad_NamedCloud</ref></type>
+        <definition> std_vector_PointsLoad_NamedCloud mrmeshpy.PointsLoad.fromSceneE57File</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoad.E57LoadSettings settings=...)</argsstring>
+        <name>fromSceneE57File</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromSceneE57File</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">PointsLoad.E57LoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45275" bodyend="45276"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a609af78a01c3c211627c149742fed1d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromText</definition>
+        <argsstring>(os.PathLike|str|bytes file, PointsLoadSettings settings=...)</argsstring>
+        <name>fromText</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromText</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .csv, .asc, .xyz, .txt file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45279" bodyend="45282"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1a066cb2b52b9c776b91c3b3f56064d97d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointsLoad.fromText</definition>
+        <argsstring>(typing.Any in_, PointsLoadSettings settings=...)</argsstring>
+        <name>fromText</name>
+        <qualifiedname>mrmeshpy.PointsLoad.fromText</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45285" bodyend="45286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1afbdc724e07c4e520c4e515868ff9973b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedObjects" kindref="compound">LoadedObjects</ref></type>
+        <definition> LoadedObjects mrmeshpy.PointsLoad.loadObjectFromE57</definition>
+        <argsstring>(os.PathLike|str|bytes path, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>loadObjectFromE57</name>
+        <qualifiedname>mrmeshpy.PointsLoad.loadObjectFromE57</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45288" bodyend="45289"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45095" bodyend="45289"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a044fc5412217fd36140c7d944792cd79" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1ad56601f7a01631872d32ce3ca0b3feab" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a8c8ec5afe4c33cd4efeaccc92753ce15" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromCtm</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1aca912e8555e5cf989d255b67286734d6" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromCtm</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a1e62b559c5b4b67b86c244825200d14f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromDxf</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a6902e7be4da03ee8a4321f32f3cb63d0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromDxf</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a2d99c63bb0559ee1bcab50640142ccf7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromE57</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a4f6d2d68dc8d1073f851da58e4743a38" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromE57</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1ada358ec811e864af1ac0a526c882bd40" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromLas</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a5d10abe3f3986c4053901f9db2d495ef" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromLas</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1aebde280d5721c53dcfd5c44fa665bc10" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromObj</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a359d072f966f965774925086fc9535da" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromObj</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a766b74cb4a6914e8f3681b52fc234b63" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromPly</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a1dec40b58ef229c5269b04e09a58f3e9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromPly</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1ae5714aca853aed863487f5a6071dc5ad" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromPts</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a605e1428e8afe7d441f7e62741c11fab" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromPts</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a2d41e106c766f3e23cbb49bbfe2d3cb7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromSceneE57File</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a609af78a01c3c211627c149742fed1d2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromText</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1a066cb2b52b9c776b91c3b3f56064d97d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>fromText</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1afbdc724e07c4e520c4e515868ff9973b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad</scope><name>loadObjectFromE57</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__ImageLoadGroup" kind="group">
+    <compoundname>ImageLoadGroup</compoundname>
+    <title>Image Load</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__ImageLoadGroup_1gad0427ed61cb0d0f0200d126cac01cc2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Image &gt;</type>
+        <definition>MRMESH_API Expected&lt; Image &gt; MR::ImageLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::ImageLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads image from it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageLoad.h" line="20" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageLoad.h" declline="20" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

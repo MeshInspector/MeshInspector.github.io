@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonButtonDrawer" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonButtonDrawer</compoundname>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <innerclass refid="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth" prot="public">MR::RibbonButtonDrawer::ButtonItemWidth</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TextureType</name>
+        <qualifiedname>MR::RibbonButtonDrawer::TextureType</qualifiedname>
+        <enumvalue id="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086" prot="public">
+          <name>Mono</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368a5e59525cb7d1d1cd93be0b9f36e9d09a" prot="public">
+          <name>Gradient</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f" prot="public">
+          <name>RainbowRect</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="54" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="55" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonButtonDrawer_1a99bf04f39837fad31c2955207e492e2e" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt;, const std::string &amp;)&gt;</type>
+        <definition>std::function&lt;void( std::shared_ptr&lt;RibbonMenuItem&gt;, const std::string&amp; )&gt; MR::RibbonButtonDrawer::onPressAction_</definition>
+        <argsstring></argsstring>
+        <name>onPressAction_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::onPressAction_</qualifiedname>
+        <initializer>= []( std::shared_ptr&lt;<ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref>&gt;, const std::string&amp; ) {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="112" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonButtonDrawer_1a4d3a3b3e0ebfb43275b9c79f5d46cc60" prot="private" static="no" mutable="no">
+        <type>std::function&lt; std::string(std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt;)&gt;</type>
+        <definition>std::function&lt;std::string( std::shared_ptr&lt;RibbonMenuItem&gt; )&gt; MR::RibbonButtonDrawer::getRequirements_</definition>
+        <argsstring></argsstring>
+        <name>getRequirements_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::getRequirements_</qualifiedname>
+        <initializer>= []( std::shared_ptr&lt;<ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref>&gt; ) { return std::string(); }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="113" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonButtonDrawer_1a42e8a7903e874e627485a0f5dc950c55" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> *</type>
+        <definition>RibbonMenu* MR::RibbonButtonDrawer::menu_</definition>
+        <argsstring></argsstring>
+        <name>menu_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::menu_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="114" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonButtonDrawer_1ac25c03a90f16685ab2fb8922bfeaaec4" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1ShortcutManager" kindref="compound">ShortcutManager</ref> *</type>
+        <definition>const ShortcutManager* MR::RibbonButtonDrawer::shortcutManager_</definition>
+        <argsstring></argsstring>
+        <name>shortcutManager_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::shortcutManager_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="115" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonButtonDrawer_1a225f4a55ebe82ad9ee05b916eb319db0" prot="private" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>std::optional&lt;Color&gt; MR::RibbonButtonDrawer::monochrome_</definition>
+        <argsstring></argsstring>
+        <name>monochrome_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::monochrome_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="117" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonButtonDrawer_1a47851245ca6b04cd1316e0d92176cb02" prot="private" static="yes" mutable="no">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="classMR_1_1ImGuiImage" kindref="compound">MR::ImGuiImage</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::unique_ptr&lt;MR::ImGuiImage&gt; &gt; MR::RibbonButtonDrawer::textures_</definition>
+        <argsstring></argsstring>
+        <name>textures_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::textures_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="119" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1aaf522f84deade12174104cfd9ab2c384" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::RibbonButtonDrawer::InitGradientTexture</definition>
+        <argsstring>()</argsstring>
+        <name>InitGradientTexture</name>
+        <qualifiedname>MR::RibbonButtonDrawer::InitGradientTexture</qualifiedname>
+        <briefdescription>
+<para>Creates GL texture for gradient <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> (called on theme apply) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="53" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a83dd3384388f9328b4a90cf1a166a111" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::unique_ptr&lt; <ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> &gt; &amp;</type>
+        <definition>static MRVIEWER_API std::unique_ptr&lt; ImGuiImage &gt; &amp; MR::RibbonButtonDrawer::GetTexture</definition>
+        <argsstring>(TextureType type)</argsstring>
+        <name>GetTexture</name>
+        <qualifiedname>MR::RibbonButtonDrawer::GetTexture</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368" kindref="member">TextureType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="61" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a9b54da453af494ce3c80120f8463f0ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>static MRVIEWER_API bool MR::RibbonButtonDrawer::CustomCollapsingHeader</definition>
+        <argsstring>(const char *label, ImGuiTreeNodeFlags flags=0, int issueCount=0)</argsstring>
+        <name>CustomCollapsingHeader</name>
+        <qualifiedname>MR::RibbonButtonDrawer::CustomCollapsingHeader</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>ImGuiTreeNodeFlags</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>issueCount</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>draw custom collapsing header if issueCount is greater than zero, so many red dots will be displayed after text </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="70" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a954e453eee79988e5bc9e09da649f469" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::RibbonButtonDrawer::GradientCheckboxItem</definition>
+        <argsstring>(const MenuItemInfo &amp;item, bool *value) const</argsstring>
+        <name>GradientCheckboxItem</name>
+        <qualifiedname>MR::RibbonButtonDrawer::GradientCheckboxItem</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>draw gradient checkbox with icon (for menu item) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="65" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a873e857624709ee46ec0487169fd1e87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth" kindref="compound">ButtonItemWidth</ref></type>
+        <definition>MRVIEWER_API ButtonItemWidth MR::RibbonButtonDrawer::calcItemWidth</definition>
+        <argsstring>(const MenuItemInfo &amp;item, DrawButtonParams::SizeType sizeType) const</argsstring>
+        <name>calcItemWidth</name>
+        <qualifiedname>MR::RibbonButtonDrawer::calcItemWidth</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1DrawButtonParams_1a6ce094bc1bb74eb56ca44d849b1785ae" kindref="member">DrawButtonParams::SizeType</ref></type>
+          <declname>sizeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="77" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a88e9dab920cc65df3ceeb3332d6508e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonButtonDrawer::drawButtonItem</definition>
+        <argsstring>(const MenuItemInfo &amp;item, const DrawButtonParams &amp;params) const</argsstring>
+        <name>drawButtonItem</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawButtonItem</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DrawButtonParams" kindref="compound">DrawButtonParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>draw item button </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="80" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a32b4290ad470a7d955b0f93bce2918bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonButtonDrawer::drawCustomButtonItem</definition>
+        <argsstring>(const MenuItemInfo &amp;item, const CustomButtonParameters &amp;customParam, const DrawButtonParams &amp;params) const</argsstring>
+        <name>drawCustomButtonItem</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawCustomButtonItem</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1CustomButtonParameters" kindref="compound">CustomButtonParameters</ref> &amp;</type>
+          <declname>customParam</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DrawButtonParams" kindref="compound">DrawButtonParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>draw item button </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="83" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1ad76d42588ec2c9279d8695185fcd1f61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonButtonDrawer::drawButtonIcon</definition>
+        <argsstring>(const MenuItemInfo &amp;item, const DrawButtonParams &amp;params) const</argsstring>
+        <name>drawButtonIcon</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawButtonIcon</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DrawButtonParams" kindref="compound">DrawButtonParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>draw item button icon </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="87" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a7dcb89a2ff2cb713fa0e6636eaca71af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::RibbonButtonDrawer::drawTabArrowButton</definition>
+        <argsstring>(const char *icon, const ImVec2 &amp;size, float iconSize)</argsstring>
+        <name>drawTabArrowButton</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawTabArrowButton</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>icon</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iconSize</declname>
+        </param>
+        <briefdescription>
+<para>draw custom styled button </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="90" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a176f5a0226543fa3cfcb61d2a040de9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonButtonDrawer::setMonochrome</definition>
+        <argsstring>(const std::optional&lt; Color &gt; &amp;color)</argsstring>
+        <name>setMonochrome</name>
+        <qualifiedname>MR::RibbonButtonDrawer::setMonochrome</qualifiedname>
+        <param>
+          <type>const std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>if set color then instead of multicolored icons will be drawn with this color </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="93" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a746679f0d740ce76f1180b8e1c572570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::setOnPressAction</definition>
+        <argsstring>(std::function&lt; void(std::shared_ptr&lt; RibbonMenuItem &gt;, const std::string &amp;)&gt; action)</argsstring>
+        <name>setOnPressAction</name>
+        <qualifiedname>MR::RibbonButtonDrawer::setOnPressAction</qualifiedname>
+        <param>
+          <type>std::function&lt; void(std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt;, const std::string &amp;)&gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>set reaction on press item button </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="96" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a5b4dc1d1236d8173cf3d4d5d54a2ef77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::setGetterRequirements</definition>
+        <argsstring>(std::function&lt; std::string(std::shared_ptr&lt; RibbonMenuItem &gt;)&gt; getterRequirements)</argsstring>
+        <name>setGetterRequirements</name>
+        <qualifiedname>MR::RibbonButtonDrawer::setGetterRequirements</qualifiedname>
+        <param>
+          <type>std::function&lt; std::string(std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt;)&gt;</type>
+          <declname>getterRequirements</declname>
+        </param>
+        <briefdescription>
+<para>set function to get requirements for activate item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="98" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a9e8e2cf8f70aa2833fcb03ec85ca1dc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::setMenu</definition>
+        <argsstring>(RibbonMenu *menu)</argsstring>
+        <name>setMenu</name>
+        <qualifiedname>MR::RibbonButtonDrawer::setMenu</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> *</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="100" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a787e77ac1e137bc2009adcb16e36b721" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::setShortcutManager</definition>
+        <argsstring>(const ShortcutManager *shortcutManager)</argsstring>
+        <name>setShortcutManager</name>
+        <qualifiedname>MR::RibbonButtonDrawer::setShortcutManager</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ShortcutManager" kindref="compound">ShortcutManager</ref> *</type>
+          <declname>shortcutManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="101" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1aa5a084b37f1b48fd5dc902412372f975" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::RibbonButtonDrawer::pushRibbonButtonColors</definition>
+        <argsstring>(bool enabled, bool active, bool forceHovered, DrawButtonParams::RootType rootType) const</argsstring>
+        <name>pushRibbonButtonColors</name>
+        <qualifiedname>MR::RibbonButtonDrawer::pushRibbonButtonColors</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceHovered</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1DrawButtonParams_1a438f2e3dfbe178d1558df0f1b9f84dae" kindref="member">DrawButtonParams::RootType</ref></type>
+          <declname>rootType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns num of pushed colors requires to pop it afterwards </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="105" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a59ccb7c0dff73185bf2695900e4cac42" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::drawButtonDropItem_</definition>
+        <argsstring>(const MenuItemInfo &amp;item, const DrawButtonParams &amp;params) const</argsstring>
+        <name>drawButtonDropItem_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawButtonDropItem_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DrawButtonParams" kindref="compound">DrawButtonParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="108" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a7b2b912583e0651ff2a2bb6276645a6a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::drawDropList_</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;baseDropItem) const</argsstring>
+        <name>drawDropList_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawDropList_</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>baseDropItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="109" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonButtonDrawer_1a6194bfda0e440073099f62ff9d9f0076" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonButtonDrawer::drawTooltip_</definition>
+        <argsstring>(const MenuItemInfo &amp;item, const std::string &amp;requirements) const</argsstring>
+        <name>drawTooltip_</name>
+        <qualifiedname>MR::RibbonButtonDrawer::drawTooltip_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>requirements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="110" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class for drawing ribbon menu buttons </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="50" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a873e857624709ee46ec0487169fd1e87" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>calcItemWidth</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a9b54da453af494ce3c80120f8463f0ef" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>CustomCollapsingHeader</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a59ccb7c0dff73185bf2695900e4cac42" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonDropItem_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1ad76d42588ec2c9279d8695185fcd1f61" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonIcon</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a88e9dab920cc65df3ceeb3332d6508e3" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawButtonItem</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a32b4290ad470a7d955b0f93bce2918bb" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawCustomButtonItem</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a7b2b912583e0651ff2a2bb6276645a6a" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawDropList_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a7dcb89a2ff2cb713fa0e6636eaca71af" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawTabArrowButton</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a6194bfda0e440073099f62ff9d9f0076" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>drawTooltip_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a4d3a3b3e0ebfb43275b9c79f5d46cc60" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>getRequirements_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a83dd3384388f9328b4a90cf1a166a111" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>GetTexture</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a954e453eee79988e5bc9e09da649f469" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>GradientCheckboxItem</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1aaf522f84deade12174104cfd9ab2c384" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>InitGradientTexture</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a42e8a7903e874e627485a0f5dc950c55" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>menu_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a225f4a55ebe82ad9ee05b916eb319db0" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>monochrome_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a99bf04f39837fad31c2955207e492e2e" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>onPressAction_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1aa5a084b37f1b48fd5dc902412372f975" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>pushRibbonButtonColors</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a5b4dc1d1236d8173cf3d4d5d54a2ef77" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setGetterRequirements</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a9e8e2cf8f70aa2833fcb03ec85ca1dc5" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setMenu</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a176f5a0226543fa3cfcb61d2a040de9b" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setMonochrome</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a746679f0d740ce76f1180b8e1c572570" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setOnPressAction</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a787e77ac1e137bc2009adcb16e36b721" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>setShortcutManager</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1ac25c03a90f16685ab2fb8922bfeaaec4" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>shortcutManager_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a47851245ca6b04cd1316e0d92176cb02" prot="private" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>textures_</name></member>
+      <member refid="classMR_1_1RibbonButtonDrawer_1a23c5f0f08b0b93d907d363936c36f368" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>TextureType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

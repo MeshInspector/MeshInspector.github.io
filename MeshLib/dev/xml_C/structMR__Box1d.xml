@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Box1d" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Box1d</compoundname>
+    <includes refid="MRBox_8h" local="no">MRBox.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Box1d_1a7e42b4155a63d410cc9610b9987a2da7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR_Box1d::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR_Box1d::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="55" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Box1d_1ac025e345cad888dcc82109a70438504a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR_Box1d::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR_Box1d::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="56" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput>MR::Box1d</computeroutput>. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="54" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structMR__Box1d_1ac025e345cad888dcc82109a70438504a" prot="public" virt="non-virtual"><scope>MR_Box1d</scope><name>max</name></member>
+      <member refid="structMR__Box1d_1a7e42b4155a63d410cc9610b9987a2da7" prot="public" virt="non-virtual"><scope>MR_Box1d</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

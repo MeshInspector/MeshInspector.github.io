@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a640de9b135b5ed039fc98c40f6ad6658" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectComparableWithReference.ComparisonTolerance::_offsetof_negative</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_negative</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance._offsetof_negative</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a1a066fbc1135559b7b0cfed2397d2932" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectComparableWithReference.ComparisonTolerance::_offsetof_positive</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_positive</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance._offsetof_positive</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39283" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a168f3a8896fa36c1da7c5f4f61f278e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39286" bodyend="39287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab2779940ab10272d84d6aca477e424e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonTolerance mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39290" bodyend="39291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab2779940ab10272d84d6aca477e424e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonTolerance mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39294" bodyend="39295"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1af4a3ca7a8eaf84bcdfc061d997ffe89d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39297" bodyend="39298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a33f56f470b947e08cb860ce080edf027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</definition>
+        <argsstring>(self, ObjectComparableWithReference.ComparisonTolerance arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39300" bodyend="39303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aa507b3406445eab6f16b03aeb96b20ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</definition>
+        <argsstring>(self, float positive, float negative)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>positive</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>negative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39305" bodyend="39308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a575837257fe60de3e02ec4d442a58eca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.negative</definition>
+        <argsstring>(self)</argsstring>
+        <name>negative</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.negative</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>How much smaller can this value be compared to the reference?
+This number should normally be zero or negative.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39310" bodyend="39314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1af65ae036aa26c078086ec0dde6246410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.negative</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>negative</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.negative</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39316" bodyend="39317"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a428d2644dd8a196fbbde049127448b1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.positive</definition>
+        <argsstring>(self)</argsstring>
+        <name>positive</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.positive</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>How much larger can this value be compared to the reference?
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39319" bodyend="39322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aa7ae4471e6beb884f834a6cefd466f63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.positive</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>positive</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance.positive</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39324" bodyend="39326"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectComparableWithReference::ComparisonTolerance
+
+Tolerances:
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectComparableWithReference.ComparisonTolerance</label>
+        <link refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_negative</edgelabel>
+          <edgelabel>_offsetof_positive</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39276" bodyend="39325"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a168f3a8896fa36c1da7c5f4f61f278e8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1af4a3ca7a8eaf84bcdfc061d997ffe89d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a33f56f470b947e08cb860ce080edf027" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aa507b3406445eab6f16b03aeb96b20ff" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a640de9b135b5ed039fc98c40f6ad6658" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>_offsetof_negative</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a1a066fbc1135559b7b0cfed2397d2932" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>_offsetof_positive</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a575837257fe60de3e02ec4d442a58eca" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>negative</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1af65ae036aa26c078086ec0dde6246410" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>negative</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab2779940ab10272d84d6aca477e424e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab2779940ab10272d84d6aca477e424e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a428d2644dd8a196fbbde049127448b1b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>positive</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aa7ae4471e6beb884f834a6cefd466f63" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</scope><name>positive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

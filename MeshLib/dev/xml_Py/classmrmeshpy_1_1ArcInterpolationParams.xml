@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ArcInterpolationParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ArcInterpolationParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ArcInterpolationParams_1a8206e5e739c18da749efa92f256379c7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ArcInterpolationParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams._offsetof_cb</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ArcInterpolationParams_1abdcd57697573dec272db21d127efb162" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ArcInterpolationParams::_offsetof_eps</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_eps</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams._offsetof_eps</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1704" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ArcInterpolationParams_1af660df6d7f007a31fd2d730bfac0daa1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ArcInterpolationParams::_offsetof_maxRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxRadius</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams._offsetof_maxRadius</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1705" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a3b375afda9095f3164c4e612fc9d26cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1708" bodyend="1709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a45af5765c8c08e437c7c677b3091216e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ArcInterpolationParams" kindref="compound">ArcInterpolationParams</ref></type>
+        <definition> ArcInterpolationParams mrmeshpy.ArcInterpolationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1712" bodyend="1713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a45af5765c8c08e437c7c677b3091216e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ArcInterpolationParams" kindref="compound">ArcInterpolationParams</ref></type>
+        <definition> ArcInterpolationParams mrmeshpy.ArcInterpolationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1716" bodyend="1717"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a0caba0d0ed1cee2c6ed0d6223146713a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1719" bodyend="1720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a9b15df55ddef5d5fb5a58d3aa85bbf77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.__init__</definition>
+        <argsstring>(self, ArcInterpolationParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ArcInterpolationParams" kindref="compound">ArcInterpolationParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1722" bodyend="1725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a99d04f524e0687c50267bfd2a89f2d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.__init__</definition>
+        <argsstring>(self, float eps, float maxRadius, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxRadius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1727" bodyend="1730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a18ad9e0e8d78981a74c80841ba4482e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.ArcInterpolationParams.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for reporting on progress
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1732" bodyend="1735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a5f94a4853b087ff34dd65220fda2ddfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1737" bodyend="1738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a00e879b2b21c69335921107567e759fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ArcInterpolationParams.eps</definition>
+        <argsstring>(self)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal deviation of arc from given path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1740" bodyend="1743"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1a3cc08bf83d4911c805183623babd08bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.eps</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1745" bodyend="1746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1af5b45ce2806d9a04c0e230e6c39a955b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ArcInterpolationParams.maxRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxRadius</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.maxRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal radius of the arc
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1748" bodyend="1751"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ArcInterpolationParams_1ac58a25a93d50eaf6b0d06f14ea12f3ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ArcInterpolationParams.maxRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxRadius</name>
+        <qualifiedname>mrmeshpy.ArcInterpolationParams.maxRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1753" bodyend="1754"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ArcInterpolationParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ArcInterpolationParams</label>
+        <link refid="classmrmeshpy_1_1ArcInterpolationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_eps</edgelabel>
+          <edgelabel>_offsetof_maxRadius</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1699" bodyend="1754"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a3b375afda9095f3164c4e612fc9d26cd" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a0caba0d0ed1cee2c6ed0d6223146713a" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a9b15df55ddef5d5fb5a58d3aa85bbf77" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a99d04f524e0687c50267bfd2a89f2d46" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a8206e5e739c18da749efa92f256379c7" prot="protected" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1abdcd57697573dec272db21d127efb162" prot="protected" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>_offsetof_eps</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1af660df6d7f007a31fd2d730bfac0daa1" prot="protected" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>_offsetof_maxRadius</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a18ad9e0e8d78981a74c80841ba4482e0" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a5f94a4853b087ff34dd65220fda2ddfb" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a00e879b2b21c69335921107567e759fb" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a3cc08bf83d4911c805183623babd08bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1af5b45ce2806d9a04c0e230e6c39a955b" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>maxRadius</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1ac58a25a93d50eaf6b0d06f14ea12f3ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>maxRadius</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a45af5765c8c08e437c7c677b3091216e" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ArcInterpolationParams_1a45af5765c8c08e437c7c677b3091216e" prot="public" virt="non-virtual"><scope>mrmeshpy::ArcInterpolationParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

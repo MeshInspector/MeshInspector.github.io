@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoCtor__VertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoCtor_VertId</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NoCtor__VertId_1ac425400984b8546499abf6e6d3b0927c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.NoCtor_VertId::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__VertId" kindref="compound">NoDefInit_VertId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__VertId_1a7cfd41a5400bc131c5be7e1777310e9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_VertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37204" bodyend="37205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__VertId_1a6ee5f8cedea7bf1170b8269419d66f62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoCtor__VertId" kindref="compound">NoCtor_VertId</ref></type>
+        <definition> NoCtor_VertId mrmeshpy.NoCtor_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37208" bodyend="37209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__VertId_1a6ee5f8cedea7bf1170b8269419d66f62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoCtor__VertId" kindref="compound">NoCtor_VertId</ref></type>
+        <definition> NoCtor_VertId mrmeshpy.NoCtor_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37212" bodyend="37213"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__VertId_1a02bbe27d17fea9997ef3961803f60cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_VertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37215" bodyend="37216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__VertId_1a674961af123a5ec0fb1e58b05fe58fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_VertId.__init__</definition>
+        <argsstring>(self, NoCtor_VertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoCtor__VertId" kindref="compound">NoCtor_VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37218" bodyend="37221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__VertId_1a02bbe27d17fea9997ef3961803f60cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_VertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37223" bodyend="37226"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoCtor&lt;MR::VertId&gt;
+
+for our complex types, return wrapped type with default constructor doing nothing
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37195" bodyend="37226"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1a7cfd41a5400bc131c5be7e1777310e9e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1a02bbe27d17fea9997ef3961803f60cba" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1a674961af123a5ec0fb1e58b05fe58fc9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1a02bbe27d17fea9997ef3961803f60cba" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1a6ee5f8cedea7bf1170b8269419d66f62" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1a6ee5f8cedea7bf1170b8269419d66f62" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__VertId_1ac425400984b8546499abf6e6d3b0927c" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_VertId</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneColors_1_1Type" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneColors::Type</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a2ab21ac7fc3bbb2eadd11a984d2ac1fd" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::BackFaces</definition>
+        <argsstring></argsstring>
+        <name>BackFaces</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.BackFaces</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a168e5420bb8a72fddc989e204c113f44" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a25b299ed3734e47820e70b7659f9bc91" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::Edges</definition>
+        <argsstring></argsstring>
+        <name>Edges</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.Edges</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a0dbc5033c129943a4d3734daabae04af" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::FeatureBackFaces</definition>
+        <argsstring></argsstring>
+        <name>FeatureBackFaces</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.FeatureBackFaces</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aee0da29049b162a4fead7173a3fcb754" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::Labels</definition>
+        <argsstring></argsstring>
+        <name>Labels</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.Labels</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a2f85cb8c47e74176c0cb223ffb86bea7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::LabelsBad</definition>
+        <argsstring></argsstring>
+        <name>LabelsBad</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.LabelsBad</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a34a8de4259459a3119e27dfe2a35aa30" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::LabelsGood</definition>
+        <argsstring></argsstring>
+        <name>LabelsGood</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.LabelsGood</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aee2531c840169fd8a2612d1c8626420d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.Points</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a05dc6dc5db44144c92d9cbb25f96ed13" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedEdges</definition>
+        <argsstring></argsstring>
+        <name>SelectedEdges</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedEdges</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a08d1c95a36c0f9763b2180a701ef6dd4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedFaces</definition>
+        <argsstring></argsstring>
+        <name>SelectedFaces</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedFaces</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aab6870600b462e052046f7707505c525" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedFeatureDecorations</definition>
+        <argsstring></argsstring>
+        <name>SelectedFeatureDecorations</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedFeatureDecorations</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a1ff8c0c8f7801b4e8f94f47f00ea9b47" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedFeatures</definition>
+        <argsstring></argsstring>
+        <name>SelectedFeatures</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedFeatures</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a00546c8356a6ef60a4a9f7280d5151a1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedMeasurements</definition>
+        <argsstring></argsstring>
+        <name>SelectedMeasurements</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedMeasurements</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50898" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a4077bdd295d16c27e49f837ac0615d12" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedObjectDistanceMap</definition>
+        <argsstring></argsstring>
+        <name>SelectedObjectDistanceMap</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedObjectDistanceMap</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aafd6c7e7193c27a5cea6187306fb318e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedObjectLines</definition>
+        <argsstring></argsstring>
+        <name>SelectedObjectLines</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedObjectLines</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1affbe14c595cb5e044641c3d933392363" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedObjectMesh</definition>
+        <argsstring></argsstring>
+        <name>SelectedObjectMesh</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedObjectMesh</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a47c502732b9a8369132ebd01615aef34" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedObjectPoints</definition>
+        <argsstring></argsstring>
+        <name>SelectedObjectPoints</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedObjectPoints</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50902" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a700b0c0609981e735a70849c42464651" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedObjectVoxels</definition>
+        <argsstring></argsstring>
+        <name>SelectedObjectVoxels</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedObjectVoxels</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50903" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a367ce72f91cacde774889ddf7343e8a1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedPoints</definition>
+        <argsstring></argsstring>
+        <name>SelectedPoints</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedPoints</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50904" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a037ee9c8072b5c0840a4504ef9f7b229" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::SelectedTemporaryMeasurements</definition>
+        <argsstring></argsstring>
+        <name>SelectedTemporaryMeasurements</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.SelectedTemporaryMeasurements</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a566f485ebe8d9061ad6e211ff99ca25b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedFeatureDecorations</definition>
+        <argsstring></argsstring>
+        <name>UnselectedFeatureDecorations</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedFeatureDecorations</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a5bbad7446b940927127c30c396ac8c3d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedFeatures</definition>
+        <argsstring></argsstring>
+        <name>UnselectedFeatures</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedFeatures</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a3a49f2b4bbb6ea086e5859cec22388ae" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedMeasurements</definition>
+        <argsstring></argsstring>
+        <name>UnselectedMeasurements</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedMeasurements</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aab9c2e2d360509fc2e3054beabdc207f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedMeasurementsX</definition>
+        <argsstring></argsstring>
+        <name>UnselectedMeasurementsX</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedMeasurementsX</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aa7d1272c7e5dffa97223690ee2ed2933" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedMeasurementsY</definition>
+        <argsstring></argsstring>
+        <name>UnselectedMeasurementsY</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedMeasurementsY</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1aa103cf3454dd881aaf5df7858ebc6278" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedMeasurementsZ</definition>
+        <argsstring></argsstring>
+        <name>UnselectedMeasurementsZ</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedMeasurementsZ</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a021e81ba2927802fd23a8540a2cdab3d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedObjectDistanceMap</definition>
+        <argsstring></argsstring>
+        <name>UnselectedObjectDistanceMap</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedObjectDistanceMap</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1ae45e6a524e0d836427dfac4200871604" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedObjectLines</definition>
+        <argsstring></argsstring>
+        <name>UnselectedObjectLines</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedObjectLines</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a4ab503d5a4cfcbdb25f3476dcf0e92dd" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedObjectMesh</definition>
+        <argsstring></argsstring>
+        <name>UnselectedObjectMesh</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedObjectMesh</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a4b7eaa19e86a8a295d48c3f308a85334" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedObjectPoints</definition>
+        <argsstring></argsstring>
+        <name>UnselectedObjectPoints</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedObjectPoints</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a2a4ff60d142a40f0f11b0190c5583662" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedObjectVoxels</definition>
+        <argsstring></argsstring>
+        <name>UnselectedObjectVoxels</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedObjectVoxels</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1a7bda9e747668a2aa5fe1857b8caeef13" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::UnselectedTemporaryMeasurements</definition>
+        <argsstring></argsstring>
+        <name>UnselectedTemporaryMeasurements</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.UnselectedTemporaryMeasurements</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50917" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneColors_1_1Type_1acbec1509bba1f9f2debd57bda06e6902" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneColors.Type::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50918" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a459b2c084883f07bc510ad23ff55776c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneColors.Type.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50919" bodyend="50920"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a11a5742a5ba33c1a4e929347775b0cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneColors.Type.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50921" bodyend="50922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a7abde826a347b235c8435e7cd2f63482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneColors.Type.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50923" bodyend="50924"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a8980318ee994dfe51f01375985cfcef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneColors.Type.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50925" bodyend="50926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a14488e9ba23f0e500667b7f55569f7f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneColors.Type.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50927" bodyend="50928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a13af04245a7f0e7a973386f24609bd5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneColors.Type.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50929" bodyend="50930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a367db3da7a44078cbfb2c432f2b06957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneColors.Type.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50931" bodyend="50932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1ac245d04d7b4adcbb4ca20a10b58aad64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneColors.Type.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50933" bodyend="50934"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a40f27cbd0c8c33c2b5f0eb9c42b09656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneColors.Type.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50935" bodyend="50936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a80fb745d3db0460bd2b0b0c4cec4572b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneColors.Type.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50937" bodyend="50938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1a1ce0fa367b31afc0254e7049bd346e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneColors.Type.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50940" bodyend="50941"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1_1Type_1acf66342c85caf4e0b48804c5db34116b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneColors.Type.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SceneColors.Type.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50943" bodyend="50945"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  SelectedObjectMesh
+
+  UnselectedObjectMesh
+
+  SelectedObjectPoints
+
+  UnselectedObjectPoints
+
+  SelectedObjectLines
+
+  UnselectedObjectLines
+
+  SelectedObjectVoxels
+
+  UnselectedObjectVoxels
+
+  SelectedObjectDistanceMap
+
+  UnselectedObjectDistanceMap
+
+  BackFaces
+
+  Labels
+
+  LabelsGood : Typically green.
+
+  LabelsBad : Typically red.
+
+  Edges
+
+  Points
+
+  SelectedFaces
+
+  SelectedEdges
+
+  SelectedPoints
+
+  SelectedFeatures
+
+  UnselectedFeatures
+
+  FeatureBackFaces
+
+  SelectedFeatureDecorations
+
+  UnselectedFeatureDecorations
+
+  SelectedMeasurements
+
+  UnselectedMeasurements
+
+  UnselectedMeasurementsX
+
+  UnselectedMeasurementsY
+
+  UnselectedMeasurementsZ
+
+  SelectedTemporaryMeasurements
+
+  UnselectedTemporaryMeasurements
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SceneColors.Type</label>
+        <link refid="classmrmeshpy_1_1SceneColors_1_1Type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BackFaces</edgelabel>
+          <edgelabel>Count</edgelabel>
+          <edgelabel>Edges</edgelabel>
+          <edgelabel>FeatureBackFaces</edgelabel>
+          <edgelabel>Labels</edgelabel>
+          <edgelabel>LabelsBad</edgelabel>
+          <edgelabel>LabelsGood</edgelabel>
+          <edgelabel>Points</edgelabel>
+          <edgelabel>SelectedEdges</edgelabel>
+          <edgelabel>SelectedFaces</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50818" bodyend="50944"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a459b2c084883f07bc510ad23ff55776c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a11a5742a5ba33c1a4e929347775b0cf9" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a7abde826a347b235c8435e7cd2f63482" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a8980318ee994dfe51f01375985cfcef0" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a14488e9ba23f0e500667b7f55569f7f6" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a13af04245a7f0e7a973386f24609bd5c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1acbec1509bba1f9f2debd57bda06e6902" prot="private" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a367db3da7a44078cbfb2c432f2b06957" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1ac245d04d7b4adcbb4ca20a10b58aad64" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a40f27cbd0c8c33c2b5f0eb9c42b09656" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a80fb745d3db0460bd2b0b0c4cec4572b" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a2ab21ac7fc3bbb2eadd11a984d2ac1fd" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>BackFaces</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a168e5420bb8a72fddc989e204c113f44" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a25b299ed3734e47820e70b7659f9bc91" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>Edges</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a0dbc5033c129943a4d3734daabae04af" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>FeatureBackFaces</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aee0da29049b162a4fead7173a3fcb754" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>Labels</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a2f85cb8c47e74176c0cb223ffb86bea7" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>LabelsBad</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a34a8de4259459a3119e27dfe2a35aa30" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>LabelsGood</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a1ce0fa367b31afc0254e7049bd346e3f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aee2531c840169fd8a2612d1c8626420d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>Points</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a05dc6dc5db44144c92d9cbb25f96ed13" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a08d1c95a36c0f9763b2180a701ef6dd4" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aab6870600b462e052046f7707505c525" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedFeatureDecorations</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a1ff8c0c8f7801b4e8f94f47f00ea9b47" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedFeatures</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a00546c8356a6ef60a4a9f7280d5151a1" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedMeasurements</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a4077bdd295d16c27e49f837ac0615d12" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedObjectDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aafd6c7e7193c27a5cea6187306fb318e" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedObjectLines</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1affbe14c595cb5e044641c3d933392363" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedObjectMesh</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a47c502732b9a8369132ebd01615aef34" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedObjectPoints</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a700b0c0609981e735a70849c42464651" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedObjectVoxels</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a367ce72f91cacde774889ddf7343e8a1" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a037ee9c8072b5c0840a4504ef9f7b229" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>SelectedTemporaryMeasurements</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a566f485ebe8d9061ad6e211ff99ca25b" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedFeatureDecorations</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a5bbad7446b940927127c30c396ac8c3d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedFeatures</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a3a49f2b4bbb6ea086e5859cec22388ae" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedMeasurements</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aab9c2e2d360509fc2e3054beabdc207f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedMeasurementsX</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aa7d1272c7e5dffa97223690ee2ed2933" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedMeasurementsY</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1aa103cf3454dd881aaf5df7858ebc6278" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedMeasurementsZ</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a021e81ba2927802fd23a8540a2cdab3d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedObjectDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1ae45e6a524e0d836427dfac4200871604" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedObjectLines</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a4ab503d5a4cfcbdb25f3476dcf0e92dd" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedObjectMesh</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a4b7eaa19e86a8a295d48c3f308a85334" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedObjectPoints</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a2a4ff60d142a40f0f11b0190c5583662" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedObjectVoxels</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a7bda9e747668a2aa5fe1857b8caeef13" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>UnselectedTemporaryMeasurements</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1acf66342c85caf4e0b48804c5db34116b" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

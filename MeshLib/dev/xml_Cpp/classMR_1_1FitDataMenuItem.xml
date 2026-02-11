@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FitDataMenuItem" kind="class" language="C++" prot="public">
+    <compoundname>MR::FitDataMenuItem</compoundname>
+    <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FitDataMenuItem_1a5ece3d38ce2753b84d1bc92efed82fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::FitDataMenuItem::FitDataMenuItem</definition>
+        <argsstring>()</argsstring>
+        <name>FitDataMenuItem</name>
+        <qualifiedname>MR::FitDataMenuItem::FitDataMenuItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="26" column="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FitDataMenuItem_1a1e842984bba308a1465a05732ef8f5d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::FitDataMenuItem::action</definition>
+        <argsstring>() override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::FitDataMenuItem::action</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
+        <briefdescription>
+<para>returns true if state of item changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="27" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FitDataMenuItem_1a18e396a118622b2e22e8b84924b92997" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::FitDataMenuItem::isAvailable</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::FitDataMenuItem::isAvailable</qualifiedname>
+        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="28" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FitDataMenuItem</label>
+        <link refid="classMR_1_1FitDataMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FitDataMenuItem</label>
+        <link refid="classMR_1_1FitDataMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="24" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FitDataMenuItem_1a1e842984bba308a1465a05732ef8f5d3" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>action</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>blocking</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>dropItems</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>dropList_</name></member>
+      <member refid="classMR_1_1FitDataMenuItem_1a5ece3d38ce2753b84d1bc92efed82fdf" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>FitDataMenuItem</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>isActive</name></member>
+      <member refid="classMR_1_1FitDataMenuItem_1a18e396a118622b2e22e8b84924b92997" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>name</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>type</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::FitDataMenuItem</scope><name>type_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>uiName</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::FitDataMenuItem</scope><name>~RibbonMenuItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

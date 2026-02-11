@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface_1_1Kind" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface::Kind</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a5081df1223fdaf2174ab32bcc6dbe19e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.Kind::Cellular</definition>
+        <argsstring></argsstring>
+        <name>Cellular</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.Cellular</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1Kind" kindref="compound">FillingSurface.Kind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a83e74333ca0ea32c281a00e48b292958" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.Kind::TPMS</definition>
+        <argsstring></argsstring>
+        <name>TPMS</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.TPMS</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1Kind" kindref="compound">FillingSurface.Kind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19651" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a1b867547c4cc3492816219aba463650e" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.Kind::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FillingSurface_1_1Kind" kindref="compound">FillingSurface.Kind</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19652" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1af31bab37148c53558619a15aa414625a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.Kind.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19653" bodyend="19654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a1f4fbfb8604528ecee34218ddccac8f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.Kind.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19655" bodyend="19656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a349fc08b329216b1a22bbda1c5524b56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.Kind.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19657" bodyend="19658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a7a72d3878f3a7e0c3c75d1effaa9e462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.Kind.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19659" bodyend="19660"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1aebd88172f706d9fa7a23132fa3b232eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.Kind.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19661" bodyend="19662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a4b673766289a07bccdf3c51ce152d0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.Kind.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19663" bodyend="19664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a1cbc474694e9490c00f677f41d5c7707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.Kind.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19665" bodyend="19666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1ae9d98108aa3aff7b6e870e76c05fe09d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillingSurface.Kind.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19667" bodyend="19668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a43be7515590e0e483399a2b1e210d150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.Kind.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19669" bodyend="19670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1ad71446e6dca1ff5903be4439f7528a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillingSurface.Kind.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19671" bodyend="19672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1a21ff29ed1734d8edc60f10197ac6c97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillingSurface.Kind.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19674" bodyend="19675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1Kind_1ab45c2131f0f125250aa4b3a175af61a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.Kind.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FillingSurface.Kind.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19677" bodyend="19679"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  TPMS
+
+  Cellular
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillingSurface.Kind</label>
+        <link refid="classmrmeshpy_1_1FillingSurface_1_1Kind"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Cellular</edgelabel>
+          <edgelabel>TPMS</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19642" bodyend="19678"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1af31bab37148c53558619a15aa414625a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a1f4fbfb8604528ecee34218ddccac8f3" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a349fc08b329216b1a22bbda1c5524b56" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a7a72d3878f3a7e0c3c75d1effaa9e462" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1aebd88172f706d9fa7a23132fa3b232eb" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a4b673766289a07bccdf3c51ce152d0c7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a1b867547c4cc3492816219aba463650e" prot="private" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a1cbc474694e9490c00f677f41d5c7707" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1ae9d98108aa3aff7b6e870e76c05fe09d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a43be7515590e0e483399a2b1e210d150" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1ad71446e6dca1ff5903be4439f7528a97" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a5081df1223fdaf2174ab32bcc6dbe19e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>Cellular</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a21ff29ed1734d8edc60f10197ac6c97a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1a83e74333ca0ea32c281a00e48b292958" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>TPMS</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1Kind_1ab45c2131f0f125250aa4b3a175af61a2" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::Kind</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

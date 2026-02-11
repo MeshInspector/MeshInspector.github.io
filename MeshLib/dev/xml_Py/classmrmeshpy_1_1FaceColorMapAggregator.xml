@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FaceColorMapAggregator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FaceColorMapAggregator</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1ac66efe51fd618d2df07bde0ce307cfdb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16605" bodyend="16606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a39ce798fbd3eb9ada8ce5e9e990b397f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceColorMapAggregator" kindref="compound">FaceColorMapAggregator</ref></type>
+        <definition> FaceColorMapAggregator mrmeshpy.FaceColorMapAggregator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16609" bodyend="16610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a39ce798fbd3eb9ada8ce5e9e990b397f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceColorMapAggregator" kindref="compound">FaceColorMapAggregator</ref></type>
+        <definition> FaceColorMapAggregator mrmeshpy.FaceColorMapAggregator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16613" bodyend="16614"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a5b304faaa7ba4049dee3a177a1a169a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16616" bodyend="16617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1ac018c1f11eebdbeee799ee132a7e6cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.__init__</definition>
+        <argsstring>(self, FaceColorMapAggregator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceColorMapAggregator" kindref="compound">FaceColorMapAggregator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16619" bodyend="16622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a9fe284506fd494e02d6f1d6bcca2713e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+        <definition> FaceColors mrmeshpy.FaceColorMapAggregator.aggregate</definition>
+        <argsstring>(self, FaceBitSet elementBitSet)</argsstring>
+        <name>aggregate</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.aggregate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>elementBitSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get aggregated color map for active elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16623" bodyend="16626"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a807487f56a48218bd859f414376ae6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.erase</definition>
+        <argsstring>(self, int i, int n=1)</argsstring>
+        <name>erase</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.erase</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>erase n color map from #i 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16627" bodyend="16630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a132c0b50884a992a3d5a81d770bfd48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FaceColorMapAggregator.getColorMapNumber</definition>
+        <argsstring>(self)</argsstring>
+        <name>getColorMapNumber</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.getColorMapNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get number of accumulated color maps
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16631" bodyend="16634"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1ad3e5d293bec97c01d940c95e116e0459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap" kindref="compound">ColorMapAggregator_FaceTag_PartialColorMap</ref></type>
+        <definition> ColorMapAggregator_FaceTag_PartialColorMap mrmeshpy.FaceColorMapAggregator.getPartialColorMap</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getPartialColorMap</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.getPartialColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get partial color map map by index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16635" bodyend="16638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1afe602f9e89bf6b78d29901041a05c34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.insert</definition>
+        <argsstring>(self, int i, ColorMapAggregator_FaceTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap" kindref="compound">ColorMapAggregator_FaceTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>insert color map before element #i (0 - minimum priority)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16639" bodyend="16642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1acc99188133d5a05e8f801b927e4bd752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.pushBack</definition>
+        <argsstring>(self, ColorMapAggregator_FaceTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.pushBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap" kindref="compound">ColorMapAggregator_FaceTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>add color map after all (more priority)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16643" bodyend="16646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a54af0b06b7dbd7e5ce0c0ef74e383c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.replace</definition>
+        <argsstring>(self, int i, ColorMapAggregator_FaceTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>replace</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.replace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__FaceTag__PartialColorMap" kindref="compound">ColorMapAggregator_FaceTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replace color map in #i position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16647" bodyend="16650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1aa8710f787e6570a86389bdcfc6bce059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset all accumulated color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16651" bodyend="16654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a05fc0ffd0b2fc4ab2cea6bebaa571344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.setDefaultColor</definition>
+        <argsstring>(self, Color color)</argsstring>
+        <name>setDefaultColor</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.setDefaultColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set default (background) color
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16655" bodyend="16658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColorMapAggregator_1a1a5929985f21ac71968ce4f5abf04648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceColorMapAggregator.setMode</definition>
+        <argsstring>(self, ColorMapAggregator_FaceTag_AggregateMode mode)</argsstring>
+        <name>setMode</name>
+        <qualifiedname>mrmeshpy.FaceColorMapAggregator.setMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode" kindref="compound">ColorMapAggregator_FaceTag_AggregateMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set color map aggregating mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16659" bodyend="16662"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FaceColorMapAggregator
+
+
+ @brief Class for aggregate several color map in one
+ Color maps are aggregated according order</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16594" bodyend="16662"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1ac66efe51fd618d2df07bde0ce307cfdb" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a5b304faaa7ba4049dee3a177a1a169a4" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1ac018c1f11eebdbeee799ee132a7e6cb7" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a9fe284506fd494e02d6f1d6bcca2713e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>aggregate</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a807487f56a48218bd859f414376ae6d3" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>erase</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a132c0b50884a992a3d5a81d770bfd48f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1ad3e5d293bec97c01d940c95e116e0459" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>getPartialColorMap</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1afe602f9e89bf6b78d29901041a05c34e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a39ce798fbd3eb9ada8ce5e9e990b397f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a39ce798fbd3eb9ada8ce5e9e990b397f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1acc99188133d5a05e8f801b927e4bd752" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>pushBack</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a54af0b06b7dbd7e5ce0c0ef74e383c8c" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>replace</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1aa8710f787e6570a86389bdcfc6bce059" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a05fc0ffd0b2fc4ab2cea6bebaa571344" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>setDefaultColor</name></member>
+      <member refid="classmrmeshpy_1_1FaceColorMapAggregator_1a1a5929985f21ac71968ce4f5abf04648" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColorMapAggregator</scope><name>setMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

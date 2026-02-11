@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Laplacian_1_1Equation" kind="struct" language="C++" prot="private">
+    <compoundname>MR::Laplacian::Equation</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Laplacian_1_1Equation_1ac49676256c0a075cbcbda2e7a6a20a80" prot="public" static="no" mutable="no">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::Laplacian::Equation::rhs</definition>
+        <argsstring></argsstring>
+        <name>rhs</name>
+        <qualifiedname>MR::Laplacian::Equation::rhs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="91" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Laplacian_1_1Equation_1a80ea927affaa2c1249bf4cab2cccf794" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::Laplacian::Equation::centerCoeff</definition>
+        <argsstring></argsstring>
+        <name>centerCoeff</name>
+        <qualifiedname>MR::Laplacian::Equation::centerCoeff</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>equation right hand side </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="92" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Laplacian_1_1Equation_1a2e8fa73a7fb3e83c7ce12823130c0e80" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Laplacian::Equation::firstElem</definition>
+        <argsstring></argsstring>
+        <name>firstElem</name>
+        <qualifiedname>MR::Laplacian::Equation::firstElem</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>coefficient on matrix diagonal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="93" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>for all vertices in the region </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="90" bodyend="94"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Laplacian_1_1Equation_1a80ea927affaa2c1249bf4cab2cccf794" prot="public" virt="non-virtual"><scope>MR::Laplacian::Equation</scope><name>centerCoeff</name></member>
+      <member refid="structMR_1_1Laplacian_1_1Equation_1a2e8fa73a7fb3e83c7ce12823130c0e80" prot="public" virt="non-virtual"><scope>MR::Laplacian::Equation</scope><name>firstElem</name></member>
+      <member refid="structMR_1_1Laplacian_1_1Equation_1ac49676256c0a075cbcbda2e7a6a20a80" prot="public" virt="non-virtual"><scope>MR::Laplacian::Equation</scope><name>rhs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

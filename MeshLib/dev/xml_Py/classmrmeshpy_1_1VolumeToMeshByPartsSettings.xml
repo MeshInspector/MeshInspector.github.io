@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VolumeToMeshByPartsSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VolumeToMeshByPartsSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a4b27ecefd3117a5d7c9eff40728d23bd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeToMeshByPartsSettings::_offsetof_maxVolumePartMemoryUsage</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxVolumePartMemoryUsage</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings._offsetof_maxVolumePartMemoryUsage</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1aed633c9344ceea86abc087f3a357711f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeToMeshByPartsSettings::_offsetof_stripeOverlap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stripeOverlap</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings._offsetof_stripeOverlap</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72450" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a5215dd3bcc5b34ae65d41b994007018f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeToMeshByPartsSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72453" bodyend="72454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a1ba3ed996e00b7c7bb16639506f94605" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings" kindref="compound">VolumeToMeshByPartsSettings</ref></type>
+        <definition> VolumeToMeshByPartsSettings mrmeshpy.VolumeToMeshByPartsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72457" bodyend="72458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a1ba3ed996e00b7c7bb16639506f94605" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings" kindref="compound">VolumeToMeshByPartsSettings</ref></type>
+        <definition> VolumeToMeshByPartsSettings mrmeshpy.VolumeToMeshByPartsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72461" bodyend="72462"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1ae5b0c52bd5e265c7192847fe1771849a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeToMeshByPartsSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72464" bodyend="72465"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a95c7a0c315ec3b1bea0c178cc465d402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeToMeshByPartsSettings.__init__</definition>
+        <argsstring>(self, VolumeToMeshByPartsSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings" kindref="compound">VolumeToMeshByPartsSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72467" bodyend="72470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a609a22a93d6fb9b651da39d1afec2cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeToMeshByPartsSettings.__init__</definition>
+        <argsstring>(self, int maxVolumePartMemoryUsage, int stripeOverlap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxVolumePartMemoryUsage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stripeOverlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72472" bodyend="72475"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a4a61719aae532482329f9c5324a185d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeToMeshByPartsSettings.maxVolumePartMemoryUsage</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxVolumePartMemoryUsage</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.maxVolumePartMemoryUsage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>256 MiB
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72477" bodyend="72480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a1b1fce631ffb00dd161dd21da4079d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeToMeshByPartsSettings.maxVolumePartMemoryUsage</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxVolumePartMemoryUsage</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.maxVolumePartMemoryUsage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72482" bodyend="72483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a66bfb472e994c2ca72ae9f888ada1c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeToMeshByPartsSettings.stripeOverlap</definition>
+        <argsstring>(self)</argsstring>
+        <name>stripeOverlap</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.stripeOverlap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>overlap in voxels between two parts
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72485" bodyend="72488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a6847f02f962f463e0b75b67e04000577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeToMeshByPartsSettings.stripeOverlap</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>stripeOverlap</name>
+        <qualifiedname>mrmeshpy.VolumeToMeshByPartsSettings.stripeOverlap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72490" bodyend="72491"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VolumeToMeshByPartsSettings
+
+
+ \\struct MR::VolumeToMeshByPartsSettings
+ \\brief Parameters&apos; structure for MR::volumeToMeshByParts
+
+ \\sa \\ref volumeToMeshByParts</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VolumeToMeshByPartsSettings</label>
+        <link refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxVolumePartMemoryUsage</edgelabel>
+          <edgelabel>_offsetof_stripeOverlap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72438" bodyend="72491"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a5215dd3bcc5b34ae65d41b994007018f" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1ae5b0c52bd5e265c7192847fe1771849a" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a95c7a0c315ec3b1bea0c178cc465d402" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a609a22a93d6fb9b651da39d1afec2cab" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a4b27ecefd3117a5d7c9eff40728d23bd" prot="protected" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>_offsetof_maxVolumePartMemoryUsage</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1aed633c9344ceea86abc087f3a357711f" prot="protected" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>_offsetof_stripeOverlap</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a4a61719aae532482329f9c5324a185d9" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a1b1fce631ffb00dd161dd21da4079d6d" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a1ba3ed996e00b7c7bb16639506f94605" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a1ba3ed996e00b7c7bb16639506f94605" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a66bfb472e994c2ca72ae9f888ada1c36" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>stripeOverlap</name></member>
+      <member refid="classmrmeshpy_1_1VolumeToMeshByPartsSettings_1a6847f02f962f463e0b75b67e04000577" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeToMeshByPartsSettings</scope><name>stripeOverlap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

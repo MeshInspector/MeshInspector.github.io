@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IntersectionPrecomputes__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IntersectionPrecomputes_double</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a611c18cd21d5267065dfaac60d7c01d4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_Sx</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_Sx</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_Sx</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1ab2493034344143d0c9c7646a2c868d77" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_Sy</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_Sy</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_Sy</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a3814095628518304df0ee3ad86d17310" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_Sz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_Sz</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_Sz</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a8e035c3ba4716f758178ce9ae78e3334" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_idxX</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_idxX</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_idxX</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a84ded52b39f8e758faaa91d35fdf5809" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_idxY</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_idxY</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_idxY</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a5165733c5b91c4efaa52e57bbe148195" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_invDir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_invDir</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_invDir</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a69f68fc2f2d9c618c8e38b2052110084" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_maxDimIdxZ</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDimIdxZ</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_maxDimIdxZ</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a40a20b216331020f6f5bee93653d49c8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IntersectionPrecomputes_double::_offsetof_sign</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_sign</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double._offsetof_sign</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24414" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1afd3a5990e1085cc70babb36fe968584f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24419" bodyend="24420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a5871880725d506d9eb92f8da4e5d0baa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IntersectionPrecomputes__double" kindref="compound">IntersectionPrecomputes_double</ref></type>
+        <definition> IntersectionPrecomputes_double mrmeshpy.IntersectionPrecomputes_double.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24423" bodyend="24424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a5871880725d506d9eb92f8da4e5d0baa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IntersectionPrecomputes__double" kindref="compound">IntersectionPrecomputes_double</ref></type>
+        <definition> IntersectionPrecomputes_double mrmeshpy.IntersectionPrecomputes_double.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24427" bodyend="24428"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a77f312c312487b8202be613cfa6a953f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24430" bodyend="24431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a3889d7b8f4f560c4a120adcf7e5a248e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.__init__</definition>
+        <argsstring>(self, Vector3d dir)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24433" bodyend="24434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a12718a24471eaae0d563d4d65de7e392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.__init__</definition>
+        <argsstring>(self, IntersectionPrecomputes_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IntersectionPrecomputes__double" kindref="compound">IntersectionPrecomputes_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24436" bodyend="24439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1ad8eb89097dfdd92fdf71647b2ad30bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.IntersectionPrecomputes_double.Sx</definition>
+        <argsstring>(self)</argsstring>
+        <name>Sx</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.Sx</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>precomputed factors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24441" bodyend="24444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a91a1adcc9ec7daca235ac1ae96acd1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.Sx</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>Sx</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.Sx</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24446" bodyend="24447"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1ad019590c5f4b50e95d55395407b838cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.IntersectionPrecomputes_double.Sy</definition>
+        <argsstring>(self)</argsstring>
+        <name>Sy</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.Sy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>precomputed factors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24449" bodyend="24452"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a3a33352626bc7e30af70c43202d56824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.Sy</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>Sy</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.Sy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24454" bodyend="24455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1ac83e1d2e481aaee9375699919a52db55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.IntersectionPrecomputes_double.Sz</definition>
+        <argsstring>(self)</argsstring>
+        <name>Sz</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.Sz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>precomputed factors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24457" bodyend="24460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1ab98c9b5520a658903c0c741e258cef8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.Sz</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>Sz</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.Sz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24462" bodyend="24463"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1ad29aab5849c5537da4838c73551ebceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.IntersectionPrecomputes_double.invDir</definition>
+        <argsstring>(self)</argsstring>
+        <name>invDir</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.invDir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>{1 / dir}
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24465" bodyend="24468"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a558c8c461175b26f37f4995350af7229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.invDir</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>invDir</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.invDir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24470" bodyend="24471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a738a69e97c292226705aca25b48ea6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.IntersectionPrecomputes_double.maxDimIdxZ</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDimIdxZ</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.maxDimIdxZ</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[0]max, [1]next, [2]next-next
+f.e. {1,2,-3} =&gt; {2,1,0}
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24473" bodyend="24477"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a85338a4a9b616cc5ee22cdf67d5acd93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.maxDimIdxZ</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxDimIdxZ</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.maxDimIdxZ</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24479" bodyend="24480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1a8ca87215503d43d1ab44c3eeb9c2bf02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.IntersectionPrecomputes_double.sign</definition>
+        <argsstring>(self)</argsstring>
+        <name>sign</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.sign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>stores signs of direction vector;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24482" bodyend="24485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IntersectionPrecomputes__double_1acd0f71097f7646b1b2cee2565d8587fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IntersectionPrecomputes_double.sign</definition>
+        <argsstring>(self, Vector3i arg1)</argsstring>
+        <name>sign</name>
+        <qualifiedname>mrmeshpy.IntersectionPrecomputes_double.sign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24487" bodyend="24488"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IntersectionPrecomputes&lt;double&gt;
+
+stores useful precomputed values for presented direction vector
+\\details allows to avoid repeatable computations during intersection finding
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.IntersectionPrecomputes_double</label>
+        <link refid="classmrmeshpy_1_1IntersectionPrecomputes__double"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_Sx</edgelabel>
+          <edgelabel>_offsetof_Sy</edgelabel>
+          <edgelabel>_offsetof_Sz</edgelabel>
+          <edgelabel>_offsetof_idxX</edgelabel>
+          <edgelabel>_offsetof_idxY</edgelabel>
+          <edgelabel>_offsetof_invDir</edgelabel>
+          <edgelabel>_offsetof_maxDimIdxZ</edgelabel>
+          <edgelabel>_offsetof_sign</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24400" bodyend="24488"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1afd3a5990e1085cc70babb36fe968584f" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a77f312c312487b8202be613cfa6a953f" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a3889d7b8f4f560c4a120adcf7e5a248e" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a12718a24471eaae0d563d4d65de7e392" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a8e035c3ba4716f758178ce9ae78e3334" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_idxX</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a84ded52b39f8e758faaa91d35fdf5809" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_idxY</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a5165733c5b91c4efaa52e57bbe148195" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_invDir</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a69f68fc2f2d9c618c8e38b2052110084" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_maxDimIdxZ</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a40a20b216331020f6f5bee93653d49c8" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_sign</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a611c18cd21d5267065dfaac60d7c01d4" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_Sx</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1ab2493034344143d0c9c7646a2c868d77" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_Sy</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a3814095628518304df0ee3ad86d17310" prot="protected" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>_offsetof_Sz</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1ad29aab5849c5537da4838c73551ebceb" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>invDir</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a558c8c461175b26f37f4995350af7229" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>invDir</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a738a69e97c292226705aca25b48ea6f4" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>maxDimIdxZ</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a85338a4a9b616cc5ee22cdf67d5acd93" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>maxDimIdxZ</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a5871880725d506d9eb92f8da4e5d0baa" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a5871880725d506d9eb92f8da4e5d0baa" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a8ca87215503d43d1ab44c3eeb9c2bf02" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>sign</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1acd0f71097f7646b1b2cee2565d8587fe" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>sign</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1ad8eb89097dfdd92fdf71647b2ad30bf5" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>Sx</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a91a1adcc9ec7daca235ac1ae96acd1bc" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>Sx</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1ad019590c5f4b50e95d55395407b838cf" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>Sy</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1a3a33352626bc7e30af70c43202d56824" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>Sy</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1ac83e1d2e481aaee9375699919a52db55" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>Sz</name></member>
+      <member refid="classmrmeshpy_1_1IntersectionPrecomputes__double_1ab98c9b5520a658903c0c741e258cef8e" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_double</scope><name>Sz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ContoursDistanceMapOptions" kind="class" language="C#" prot="public">
+    <compoundname>MR::ContoursDistanceMapOptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ContoursDistanceMapOptions</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a6d074bce2d249c09d57169e69a7bfa6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.ContoursDistanceMapOptions.SignedDetectionMethod</type>
+        <definition>new unsafe ref MR.ContoursDistanceMapOptions.SignedDetectionMethod MR.ContoursDistanceMapOptions.signMethod</definition>
+        <argsstring></argsstring>
+        <name>signMethod</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.signMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1253" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a9958b2991e7e53c2d488f08d17ce7411" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_ContoursDistanceMapOffset</type>
+        <definition>new unsafe MR.? Const_ContoursDistanceMapOffset MR.ContoursDistanceMapOptions.offsetParameters</definition>
+        <argsstring></argsstring>
+        <name>offsetParameters</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.offsetParameters</qualifiedname>
+        <briefdescription>
+<para>optional input offset for each edges of polyline, find more on <computeroutput><ref refid="classMR_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref></computeroutput> structure description </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1256" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1257" bodyend="1266"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a98127a8a9257577346dd20f1168b28b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_PixelBitSet</type>
+        <definition>new unsafe MR.? Const_PixelBitSet MR.ContoursDistanceMapOptions.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.region</qualifiedname>
+        <briefdescription>
+<para>if pointer is valid, then only these pixels will be filled </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1269" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1270" bodyend="1279"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a2cc9ddb5b4e9eabae1fc029ac683de72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Std.? Vector_MRUndirectedEdgeId</type>
+        <definition>new unsafe MR.Std.? Vector_MRUndirectedEdgeId MR.ContoursDistanceMapOptions.outClosestEdges</definition>
+        <argsstring></argsstring>
+        <name>outClosestEdges</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.outClosestEdges</qualifiedname>
+        <briefdescription>
+<para>optional output vector of closest polyline edge per each pixel of distance map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1282" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1283" bodyend="1292"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1af7e6825439852f3f7847ee0c5b9e74ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ContoursDistanceMapOptions.minDist</definition>
+        <argsstring></argsstring>
+        <name>minDist</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.minDist</qualifiedname>
+        <briefdescription>
+<para>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1295" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a785961a92e79e3c451e60768fa24c1e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ContoursDistanceMapOptions.maxDist</definition>
+        <argsstring></argsstring>
+        <name>maxDist</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.maxDist</qualifiedname>
+        <briefdescription>
+<para>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1298" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1298" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOptions_1a233fe0b8b4dde704d9d575b2d68e9c22" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ContoursDistanceMapOptions</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1302" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1302" bodyend="1306"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOptions_1af42db461c4fd4174d62cfe5a4787444c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</definition>
+        <argsstring>()</argsstring>
+        <name>ContoursDistanceMapOptions</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1312" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1312" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOptions_1a46b27893e644fa77d30a93d08dc5d9c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</definition>
+        <argsstring>(MR.ContoursDistanceMapOptions.SignedDetectionMethod signMethod, MR.Const_ContoursDistanceMapOffset? offsetParameters, MR.Const_PixelBitSet? region, MR.Std.Vector_MRUndirectedEdgeId? outClosestEdges, float minDist, float maxDist)</argsstring>
+        <name>ContoursDistanceMapOptions</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
+        <param>
+          <type>MR.ContoursDistanceMapOptions.SignedDetectionMethod</type>
+          <declname>signMethod</declname>
+        </param>
+        <param>
+          <type>MR.Const_ContoursDistanceMapOffset?</type>
+          <declname>offsetParameters</declname>
+        </param>
+        <param>
+          <type>MR.Const_PixelBitSet?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRUndirectedEdgeId?</type>
+          <declname>outClosestEdges</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minDist</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ContoursDistanceMapOptions" kindref="compound">MR.ContoursDistanceMapOptions</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1323" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1323" bodyend="1332"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOptions_1af1d2dbdb1c301d14976127663503624f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</definition>
+        <argsstring>(MR.Const_ContoursDistanceMapOptions _other)</argsstring>
+        <name>ContoursDistanceMapOptions</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
+        <param>
+          <type>MR.Const_ContoursDistanceMapOptions</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1337" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1337" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOptions_1ac9aac37a098984a0a62ee867c7826ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</definition>
+        <argsstring>(ContoursDistanceMapOptions _other)</argsstring>
+        <name>ContoursDistanceMapOptions</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1349" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1349" bodyend="1349"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOptions_1ab64288b2a90187e2b08835b93334e280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ContoursDistanceMapOptions" kindref="compound">MR.ContoursDistanceMapOptions</ref></type>
+        <definition>unsafe MR.ContoursDistanceMapOptions MR.ContoursDistanceMapOptions.assign</definition>
+        <argsstring>(MR.Const_ContoursDistanceMapOptions _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ContoursDistanceMapOptions.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ContoursDistanceMapOptions</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ContoursDistanceMapOptions.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1354" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1354" bodyend="1361"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ContoursDistanceMapOptions" kindref="compound">MR.ContoursDistanceMapOptions</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ContoursDistanceMapOptions</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ContoursDistanceMapOptions</label>
+        <link refid="classMR_1_1ContoursDistanceMapOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ContoursDistanceMapOptions &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ContoursDistanceMapOptions</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ContoursDistanceMapOptions</label>
+        <link refid="classMR_1_1ContoursDistanceMapOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ContoursDistanceMapOptions &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1251" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1252" bodyend="1362"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1ab64288b2a90187e2b08835b93334e280" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>assign</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a233fe0b8b4dde704d9d575b2d68e9c22" prot="package" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1af42db461c4fd4174d62cfe5a4787444c" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a46b27893e644fa77d30a93d08dc5d9c9" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1af1d2dbdb1c301d14976127663503624f" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1ac9aac37a098984a0a62ee867c7826ba3" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a785961a92e79e3c451e60768fa24c1e6" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>maxDist</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1af7e6825439852f3f7847ee0c5b9e74ff" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>minDist</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a9958b2991e7e53c2d488f08d17ce7411" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>offsetParameters</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a2cc9ddb5b4e9eabae1fc029ac683de72" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>outClosestEdges</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a98127a8a9257577346dd20f1168b28b6" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>region</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOptions_1a6d074bce2d249c09d57169e69a7bfa6c" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>signMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

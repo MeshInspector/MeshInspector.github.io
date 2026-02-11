@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1RenderDimensions" kind="namespace" language="C++">
+    <compoundname>MR::RenderDimensions</compoundname>
+    <innerclass refid="structMR_1_1RenderDimensions_1_1AngleParams" prot="public">MR::RenderDimensions::AngleParams</innerclass>
+    <innerclass refid="classMR_1_1RenderDimensions_1_1AngleTask" prot="public">MR::RenderDimensions::AngleTask</innerclass>
+    <innerclass refid="structMR_1_1RenderDimensions_1_1CommonParams" prot="public">MR::RenderDimensions::CommonParams</innerclass>
+    <innerclass refid="structMR_1_1RenderDimensions_1_1LengthParams" prot="public">MR::RenderDimensions::LengthParams</innerclass>
+    <innerclass refid="classMR_1_1RenderDimensions_1_1LengthTask" prot="public">MR::RenderDimensions::LengthTask</innerclass>
+    <innerclass refid="structMR_1_1RenderDimensions_1_1PointParams" prot="public">MR::RenderDimensions::PointParams</innerclass>
+    <innerclass refid="classMR_1_1RenderDimensions_1_1PointTask" prot="public">MR::RenderDimensions::PointTask</innerclass>
+    <innerclass refid="structMR_1_1RenderDimensions_1_1RadiusParams" prot="public">MR::RenderDimensions::RadiusParams</innerclass>
+    <innerclass refid="classMR_1_1RenderDimensions_1_1RadiusTask" prot="public">MR::RenderDimensions::RadiusTask</innerclass>
+    <innerclass refid="structMR_1_1RenderDimensions_1_1Tolerance" prot="public">MR::RenderDimensions::Tolerance</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="16" column="1"/>
+  </compounddef>
+</doxygen>

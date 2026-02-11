@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DividePointCloudOptionalOutput" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DividePointCloudOptionalOutput</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a95661f1ed72bcf49aae516d2b55c6b8a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePointCloudOptionalOutput::_offsetof_otherOutVmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherOutVmap</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput._offsetof_otherOutVmap</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14093" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a953b2ada57ffff31a3fc0f19a2fbdc24" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePointCloudOptionalOutput::_offsetof_otherPart</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherPart</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput._offsetof_otherPart</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a3f8f4ded9f4046ce1d7dee5ac790fa1b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePointCloudOptionalOutput::_offsetof_outVmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outVmap</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput._offsetof_outVmap</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14095" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a48ee40331c9198795eca1bf08ed1d94e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14098" bodyend="14099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a04036f14358496d845d64f9b9cfdca4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref></type>
+        <definition> DividePointCloudOptionalOutput mrmeshpy.DividePointCloudOptionalOutput.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14102" bodyend="14103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a04036f14358496d845d64f9b9cfdca4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref></type>
+        <definition> DividePointCloudOptionalOutput mrmeshpy.DividePointCloudOptionalOutput.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14106" bodyend="14107"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1ad9eefab8083bbc761a275b9b173b7f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14109" bodyend="14110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1ae7e51d3a043e055c6db5a7b3c233aa43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.__init__</definition>
+        <argsstring>(self, DividePointCloudOptionalOutput arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14112" bodyend="14115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a5d069b82935a5f828b5aeb0becd4519f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.__init__</definition>
+        <argsstring>(self, VertMap outVmap, PointCloud otherPart, VertMap otherOutVmap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>otherOutVmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14117" bodyend="14120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a0b6fd3b41f3b7419de30ea697d030e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.DividePointCloudOptionalOutput.otherOutVmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherOutVmap</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.otherOutVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out map from input points to other part output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14122" bodyend="14125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a0815ffc484bd918fe185f2a7a92489e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.otherOutVmap</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>otherOutVmap</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.otherOutVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14127" bodyend="14128"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1af08ccafc84d85d2a35c7dee09ebdada6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.DividePointCloudOptionalOutput.otherPart</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherPart</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.otherPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out other part of the point cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14130" bodyend="14133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1acba65f4e7da0c4343b99093018d09c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.otherPart</definition>
+        <argsstring>(self, PointCloud arg1)</argsstring>
+        <name>otherPart</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.otherPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14135" bodyend="14136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1af84c653d15d9ba460b6b9918030fb6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.DividePointCloudOptionalOutput.outVmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>outVmap</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.outVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out map from input points to output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14138" bodyend="14141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a01fc832cb6c1d57d1d6d7d6c16a7675f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePointCloudOptionalOutput.outVmap</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>outVmap</name>
+        <qualifiedname>mrmeshpy.DividePointCloudOptionalOutput.outVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14143" bodyend="14144"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DividePointCloudOptionalOutput
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DividePointCloudOptionalOutput</label>
+        <link refid="classmrmeshpy_1_1DividePointCloudOptionalOutput"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_otherOutVmap</edgelabel>
+          <edgelabel>_offsetof_otherPart</edgelabel>
+          <edgelabel>_offsetof_outVmap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14089" bodyend="14144"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a48ee40331c9198795eca1bf08ed1d94e" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1ad9eefab8083bbc761a275b9b173b7f52" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1ae7e51d3a043e055c6db5a7b3c233aa43" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a5d069b82935a5f828b5aeb0becd4519f" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a95661f1ed72bcf49aae516d2b55c6b8a" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>_offsetof_otherOutVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a953b2ada57ffff31a3fc0f19a2fbdc24" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>_offsetof_otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a3f8f4ded9f4046ce1d7dee5ac790fa1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>_offsetof_outVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a04036f14358496d845d64f9b9cfdca4c" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a04036f14358496d845d64f9b9cfdca4c" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a0b6fd3b41f3b7419de30ea697d030e31" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>otherOutVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a0815ffc484bd918fe185f2a7a92489e7" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>otherOutVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1af08ccafc84d85d2a35c7dee09ebdada6" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1acba65f4e7da0c4343b99093018d09c08" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1af84c653d15d9ba460b6b9918030fb6dd" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>outVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePointCloudOptionalOutput_1a01fc832cb6c1d57d1d6d7d6c16a7675f" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePointCloudOptionalOutput</scope><name>outVmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

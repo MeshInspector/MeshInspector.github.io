@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SpacingSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SpacingSettings</compoundname>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRPositionVertsSmoothly.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SpacingSettings_1ac011fc95d61ece99cc3358e1236104d9" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::SpacingSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::SpacingSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>vertices to be moved by the algorithm, nullptr means all valid vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="46" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpacingSettings_1a49adf144c8f1f64aafce1e6927f03dc0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ab7a3fa3c0bf9137f59a3a494350314d1" kindref="member">UndirectedEdgeMetric</ref></type>
+        <definition>UndirectedEdgeMetric MR::SpacingSettings::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR::SpacingSettings::dist</qualifiedname>
+        <briefdescription>
+<para>target distance of each edge in the mesh (for at least one edge&apos;s vertex in the region) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="49" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpacingSettings_1ad568a8496f9ca1e1732124e9fa159cd5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SpacingSettings::numIters</definition>
+        <argsstring></argsstring>
+        <name>numIters</name>
+        <qualifiedname>MR::SpacingSettings::numIters</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>must be defined by the caller </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm is iterative, the more iterations the closer result to exact solution </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="52" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpacingSettings_1a612a52253b770197ad7b0ddea8224c14" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SpacingSettings::stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR::SpacingSettings::stabilizer</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>too small number here can lead to instability, too large - to slow convergence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="55" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpacingSettings_1a5443622562ccec60fb967801e5c0ad46" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SpacingSettings::maxSumNegW</definition>
+        <argsstring></argsstring>
+        <name>maxSumNegW</name>
+        <qualifiedname>MR::SpacingSettings::maxSumNegW</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+<para>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpacingSettings_1a65572ad8925a4fe549d886d23dc4b2e5" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref></type>
+        <definition>FacePredicate MR::SpacingSettings::isInverted</definition>
+        <argsstring></argsstring>
+        <name>isInverted</name>
+        <qualifiedname>MR::SpacingSettings::isInverted</qualifiedname>
+        <briefdescription>
+<para>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="61" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="44" bodyend="62"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SpacingSettings_1a49adf144c8f1f64aafce1e6927f03dc0" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>dist</name></member>
+      <member refid="structMR_1_1SpacingSettings_1a65572ad8925a4fe549d886d23dc4b2e5" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>isInverted</name></member>
+      <member refid="structMR_1_1SpacingSettings_1a5443622562ccec60fb967801e5c0ad46" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>maxSumNegW</name></member>
+      <member refid="structMR_1_1SpacingSettings_1ad568a8496f9ca1e1732124e9fa159cd5" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>numIters</name></member>
+      <member refid="structMR_1_1SpacingSettings_1ac011fc95d61ece99cc3358e1236104d9" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1SpacingSettings_1a612a52253b770197ad7b0ddea8224c14" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>stabilizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

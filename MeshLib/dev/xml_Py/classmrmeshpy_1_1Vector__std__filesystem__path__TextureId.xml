@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_std_filesystem_path_TextureId</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1aa4c0acf93476cf7ae61a149e91c39655" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_std_filesystem_path_TextureId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68798" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a5c249452023a7ca1c28267371d42d4e7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_std_filesystem_path_TextureId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68799" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1ad9e6268b826fe8c90e517ca51997b354" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68802" bodyend="68803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a7ed1ae1ad5ec10d60659d788500bc273" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+        <definition> Vector_std_filesystem_path_TextureId mrmeshpy.Vector_std_filesystem_path_TextureId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68806" bodyend="68807"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a7ed1ae1ad5ec10d60659d788500bc273" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+        <definition> Vector_std_filesystem_path_TextureId mrmeshpy.Vector_std_filesystem_path_TextureId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68810" bodyend="68811"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1ae62277285df162ea7678e3f89e31590c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_std_filesystem_path_TextureId.__eq__</definition>
+        <argsstring>(self, Vector_std_filesystem_path_TextureId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68812" bodyend="68813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a96a9ae7fff26c1811f304c0ceae76975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.__getitem__</definition>
+        <argsstring>(self, TextureId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68815" bodyend="68816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a96a9ae7fff26c1811f304c0ceae76975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.__getitem__</definition>
+        <argsstring>(self, TextureId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68818" bodyend="68819"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a39dffe501cb9c1f12e6d269c56da1454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68821" bodyend="68824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a0a374724ce5794029693fc366a5bdf22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68826" bodyend="68829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a4abe31a9b966ada0219b9f0b169e6ed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</definition>
+        <argsstring>(self, int size, os.PathLike|str|bytes val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68831" bodyend="68834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a24a5ce7548dd09bef2609324327f94a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</definition>
+        <argsstring>(self, std_vector_std_filesystem_path vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68836" bodyend="68839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a91789358846daeecf963381f75b16a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</definition>
+        <argsstring>(self, Vector_std_filesystem_path_TextureId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68841" bodyend="68844"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af906a84b6cd8a768e8a54e78b4bd7518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[pathlib.Path]</type>
+        <definition> typing.Iterator[pathlib.Path] mrmeshpy.Vector_std_filesystem_path_TextureId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68845" bodyend="68846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1aed373261ba70383020de1aac1d9e173f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_std_filesystem_path_TextureId.__ne__</definition>
+        <argsstring>(self, Vector_std_filesystem_path_TextureId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68847" bodyend="68848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a7794c1808919fccd42c77d7e96184d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.__setitem__</definition>
+        <argsstring>(self, TextureId arg0, os.PathLike|str|bytes arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68849" bodyend="68850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a6fa5c99aa847683151c856d326e18e43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.autoResizeAt</definition>
+        <argsstring>(self, TextureId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68851" bodyend="68854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a4b5f9355323265f6e144f06c33e55b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.autoResizeSet</definition>
+        <argsstring>(self, TextureId pos, int len, os.PathLike|str|bytes val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68856" bodyend="68860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a1d1183c983bdd92944c625683894864e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.autoResizeSet</definition>
+        <argsstring>(self, TextureId i, os.PathLike|str|bytes val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68862" bodyend="68865"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a73a1af4cad26035a244bb48bdd2e1734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68867" bodyend="68868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a73a1af4cad26035a244bb48bdd2e1734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68870" bodyend="68871"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1afcaf2a1c3108977a5f8eab2ddfe092ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.Vector_std_filesystem_path_TextureId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68872" bodyend="68875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af08ad595f12e4b42de009d2ca69f0254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.Vector_std_filesystem_path_TextureId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68876" bodyend="68879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1abd9dbce8018d98eb5235ef801362f310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_std_filesystem_path_TextureId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68880" bodyend="68881"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a91e4caa168aa172ac0b51b729b108cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68882" bodyend="68883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a6f7f293ed015e1fc08f932c6ee249e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68885" bodyend="68886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a6f7f293ed015e1fc08f932c6ee249e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68888" bodyend="68889"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a88ae752eca264859622d5b5e91b9f7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68890" bodyend="68891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1ab3b4eb3ed41f0bce738d8d9b7c47896d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_std_filesystem_path_TextureId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68892" bodyend="68893"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a0593a9e7352463b9f6d2d14b84dec717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.Vector_std_filesystem_path_TextureId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68894" bodyend="68897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af40dab31690f4d2869f9cc39cf571477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68899" bodyend="68900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af40dab31690f4d2869f9cc39cf571477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68902" bodyend="68903"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a1b13a774e90ab8bd29011e8cd8a93756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_std_filesystem_path_TextureId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68904" bodyend="68907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a4fa8e56bf4260f227fcbe2870565cbdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68908" bodyend="68909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a2791e814331cb670e7cd04edab836823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.push_back</definition>
+        <argsstring>(self, os.PathLike|str|bytes t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68911" bodyend="68912"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a2791e814331cb670e7cd04edab836823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.push_back</definition>
+        <argsstring>(self, os.PathLike|str|bytes t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68914" bodyend="68915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a5eeaf4dc153b67f2c81c35b69e0968af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68916" bodyend="68917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a91680e29318a9febbd0e13a73950ddd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68919" bodyend="68920"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af0ef5b2663c5b60027cf2112c3c1c3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.resize</definition>
+        <argsstring>(self, int newSize, os.PathLike|str|bytes t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68922" bodyend="68923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a777f7d23ad18d24265c2bab7fcdcf861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68925" bodyend="68928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a180b87ce5589283cf889a5bbd727ee99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, os.PathLike|str|bytes value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68930" bodyend="68933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a406eb0a083ba1e7b89dd0bb954e84c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_std_filesystem_path_TextureId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68934" bodyend="68935"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a437931c3ff329920c14eecd39e58687e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.swap</definition>
+        <argsstring>(self, Vector_std_filesystem_path_TextureId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68936" bodyend="68937"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a34643a1ea62c14625e9ee634ef66ad69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
+        <definition> std_vector_std_filesystem_path mrmeshpy.Vector_std_filesystem_path_TextureId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68939" bodyend="68942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1afbb7223446970318ce2bc056aad2e5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_filesystem_path_TextureId.vec_</definition>
+        <argsstring>(self, std_vector_std_filesystem_path arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_std_filesystem_path_TextureId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68944" bodyend="68945"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;std::filesystem::path, MR::TextureId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_std_filesystem_path_TextureId</label>
+        <link refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68788" bodyend="68945"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1ae62277285df162ea7678e3f89e31590c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a96a9ae7fff26c1811f304c0ceae76975" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a96a9ae7fff26c1811f304c0ceae76975" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1aa4c0acf93476cf7ae61a149e91c39655" prot="private" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1ad9e6268b826fe8c90e517ca51997b354" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a39dffe501cb9c1f12e6d269c56da1454" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a0a374724ce5794029693fc366a5bdf22" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a4abe31a9b966ada0219b9f0b169e6ed3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a24a5ce7548dd09bef2609324327f94a4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a91789358846daeecf963381f75b16a45" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af906a84b6cd8a768e8a54e78b4bd7518" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1aed373261ba70383020de1aac1d9e173f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a7794c1808919fccd42c77d7e96184d60" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a5c249452023a7ca1c28267371d42d4e7" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a6fa5c99aa847683151c856d326e18e43" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a4b5f9355323265f6e144f06c33e55b29" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a1d1183c983bdd92944c625683894864e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a73a1af4cad26035a244bb48bdd2e1734" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a73a1af4cad26035a244bb48bdd2e1734" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1afcaf2a1c3108977a5f8eab2ddfe092ff" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af08ad595f12e4b42de009d2ca69f0254" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1abd9dbce8018d98eb5235ef801362f310" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a91e4caa168aa172ac0b51b729b108cb3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a6f7f293ed015e1fc08f932c6ee249e61" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a6f7f293ed015e1fc08f932c6ee249e61" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a88ae752eca264859622d5b5e91b9f7c6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1ab3b4eb3ed41f0bce738d8d9b7c47896d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a0593a9e7352463b9f6d2d14b84dec717" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af40dab31690f4d2869f9cc39cf571477" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af40dab31690f4d2869f9cc39cf571477" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a1b13a774e90ab8bd29011e8cd8a93756" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a7ed1ae1ad5ec10d60659d788500bc273" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a7ed1ae1ad5ec10d60659d788500bc273" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a4fa8e56bf4260f227fcbe2870565cbdf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a2791e814331cb670e7cd04edab836823" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a2791e814331cb670e7cd04edab836823" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a5eeaf4dc153b67f2c81c35b69e0968af" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a91680e29318a9febbd0e13a73950ddd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af0ef5b2663c5b60027cf2112c3c1c3e9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a777f7d23ad18d24265c2bab7fcdcf861" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a180b87ce5589283cf889a5bbd727ee99" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a406eb0a083ba1e7b89dd0bb954e84c38" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a437931c3ff329920c14eecd39e58687e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a34643a1ea62c14625e9ee634ef66ad69" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1afbb7223446970318ce2bc056aad2e5c1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_filesystem_path_TextureId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

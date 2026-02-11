@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CloseToMeshVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CloseToMeshVolumeParams</compoundname>
+    <includes refid="MRMeshToDistanceVolume_8h" local="no">MRMeshToDistanceVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1CloseToMeshVolumeParams_1ae50cd523db6683576e077cac3e7f6257" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::CloseToMeshVolumeParams::closeDist</definition>
+        <argsstring></argsstring>
+        <name>closeDist</name>
+        <qualifiedname>MR::CloseToMeshVolumeParams::closeDist</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1CloseToMeshVolumeParams_1a1ce839bd011c48c41fab0722461d05c7" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition>DistanceVolumeParams MR::CloseToMeshVolumeParams::vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR::CloseToMeshVolumeParams::vol</qualifiedname>
+        <briefdescription>
+<para>dimensions, location, and scaling in world space of the expected volume </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="33" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1CloseToMeshVolumeParams_1a912eb4321109c0c29dd007c45898abe5" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::CloseToMeshVolumeParams::meshToWorld</definition>
+        <argsstring></argsstring>
+        <name>meshToWorld</name>
+        <qualifiedname>MR::CloseToMeshVolumeParams::meshToWorld</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional transformation from mesh space to world space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="36" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::CloseToMeshVolumeParams</label>
+        <link refid="structMR_1_1CloseToMeshVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vol</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="28" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CloseToMeshVolumeParams_1ae50cd523db6683576e077cac3e7f6257" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>closeDist</name></member>
+      <member refid="structMR_1_1CloseToMeshVolumeParams_1a912eb4321109c0c29dd007c45898abe5" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>meshToWorld</name></member>
+      <member refid="structMR_1_1CloseToMeshVolumeParams_1a1ce839bd011c48c41fab0722461d05c7" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

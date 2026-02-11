@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OffsetParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OffsetParameters</compoundname>
+    <basecompoundref refid="structMR_1_1BaseShellParameters" prot="public" virt="non-virtual">MR::BaseShellParameters</basecompoundref>
+    <derivedcompoundref refid="structMR_1_1SharpOffsetParameters" prot="public" virt="non-virtual">MR::SharpOffsetParameters</derivedcompoundref>
+    <includes refid="MROffset_8h" local="no">MROffset.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1OffsetParameters_1aa411170d1cc5cc475f3caeab0a525e26" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309" kindref="member">SignDetectionMode</ref></type>
+        <definition>SignDetectionMode MR::OffsetParameters::signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>signDetectionMode</name>
+        <qualifiedname>MR::OffsetParameters::signDetectionMode</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode::OpenVDB</ref></initializer>
+        <briefdescription>
+<para>determines the method to compute distance sign </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetParameters_1a17a5a45fd3d4de2eba7280f9071ac737" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::OffsetParameters::closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>MR::OffsetParameters::closeHolesInHoleWindingNumber</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>whether to construct closed mesh in signMode = <ref refid="namespaceMR_1a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68" kindref="member">SignDetectionModeShort::HoleWindingNumber</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetParameters_1aa99164027d422577e04d9f14f605b51c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::OffsetParameters::windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR::OffsetParameters::windingNumberThreshold</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode::HoleWindingRule</ref>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="39" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetParameters_1ad18e4a01d5b80daf7231296013920c10" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::OffsetParameters::windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR::OffsetParameters::windingNumberBeta</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode::HoleWindingRule</ref>: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="43" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetParameters_1a6599d762d28d8ca7118f3b4dba6602d2" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;IFastWindingNumber&gt; MR::OffsetParameters::fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR::OffsetParameters::fwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used this only used if signDetectionMode == <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode::HoleWindingRule</ref>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="48" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetParameters_1abd9bbd0481fadc99967608720c11fee4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::OffsetParameters::memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>memoryEfficient</name>
+        <qualifiedname>MR::OffsetParameters::memoryEfficient</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use FunctionVolume for voxel grid representation:<itemizedlist>
+<listitem><para>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</para>
+</listitem><listitem><para>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode::OpenVDB</ref>, or b) <ref refid="structMR_1_1OffsetParameters_1a6599d762d28d8ca7118f3b4dba6602d2" kindref="member">fwn</ref> is provided (CUDA computations require full memory storage) used only by <ref refid="namespaceMR_1a2feac3a50eec5b2f2d371d843f869f27" kindref="member">mcOffsetMesh</ref> and <ref refid="namespaceMR_1ac1a0e7e32c8d591b83f66462ad4f89ef" kindref="member">sharpOffsetMesh</ref> methods </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="57" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseShellParameters</label>
+        <link refid="structMR_1_1BaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>MR::GeneralOffsetParameters</label>
+        <link refid="structMR_1_1GeneralOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::OffsetParameters</label>
+        <link refid="structMR_1_1OffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SharpOffsetParameters</label>
+        <link refid="structMR_1_1SharpOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseShellParameters</label>
+        <link refid="structMR_1_1BaseShellParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::OffsetParameters</label>
+        <link refid="structMR_1_1OffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="29" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BaseShellParameters_1a21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>callBack</name></member>
+      <member refid="structMR_1_1OffsetParameters_1a17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="structMR_1_1OffsetParameters_1a6599d762d28d8ca7118f3b4dba6602d2" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>fwn</name></member>
+      <member refid="structMR_1_1OffsetParameters_1abd9bbd0481fadc99967608720c11fee4" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="structMR_1_1OffsetParameters_1aa411170d1cc5cc475f3caeab0a525e26" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="structMR_1_1BaseShellParameters_1a0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>voxelSize</name></member>
+      <member refid="structMR_1_1OffsetParameters_1ad18e4a01d5b80daf7231296013920c10" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="structMR_1_1OffsetParameters_1aa99164027d422577e04d9f14f605b51c" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

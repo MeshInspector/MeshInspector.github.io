@@ -1,0 +1,1300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshComponents" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshComponents</compoundname>
+    <innerclass refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams" prot="public">MR::MeshComponents::ExpandToComponentsParams</innerclass>
+    <innerclass refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" prot="public">MR::MeshComponents::LargeByAreaComponentsSettings</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>FaceIncidence</name>
+        <qualifiedname>MR.MeshComponents.FaceIncidence</qualifiedname>
+        <enumvalue id="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" prot="public">
+          <name>PerEdge</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>face can have neighbor only via edge </para>
+          </briefdescription>
+          <detaileddescription>
+<para>face can have neighbor via vertex </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029" prot="public">
+          <name>PerVertex</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Face incidence type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="8" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a79b1217081d0495f8acdfe0ed5eef1d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getComponent</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.FaceId id, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getComponent</name>
+        <qualifiedname>MR.MeshComponents.getComponent</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns one connected component containing given face, not effective to call more than once, if several components are needed use getAllComponents Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a79b1217081d0495f8acdfe0ed5eef1d3" kindref="member">MR.MeshComponents.getComponent</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="644" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="644" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a7ffcd23e1cfec8742a9c957167fa2309" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>static unsafe MR.VertBitSet MR.MeshComponents.getComponentVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.VertId id, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getComponentVerts</name>
+        <qualifiedname>MR.MeshComponents.getComponentVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns one connected component containing given vertex, not effective to call more than once, if several components are needed use getAllComponentsVerts Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a7ffcd23e1cfec8742a9c957167fa2309" kindref="member">MR.MeshComponents.getComponentVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="657" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="657" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a9543db83319e58a395e05677c4ad2d66" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>static unsafe MR.VertBitSet MR.MeshComponents.getLargestComponentVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getLargestComponentVerts</name>
+        <qualifiedname>MR.MeshComponents.getLargestComponentVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the largest by number of elements component Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a9543db83319e58a395e05677c4ad2d66" kindref="member">MR.MeshComponents.getLargestComponentVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="668" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="668" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a763f99071c909da92c284171e2b0e9ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>static unsafe MR.VertBitSet MR.MeshComponents.getLargeComponentVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, int minVerts, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getLargeComponentVerts</name>
+        <qualifiedname>MR.MeshComponents.getLargeComponentVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minVerts</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the union of vertex connected components, each having at least </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertices Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a763f99071c909da92c284171e2b0e9ee" kindref="member">MR.MeshComponents.getLargeComponentVerts</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="679" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="679" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1ad296f69ab97903119a0505f29f6b1dde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getLargestComponent</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null, float? minArea=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</argsstring>
+        <name>getLargestComponent</name>
+        <qualifiedname>MR.MeshComponents.getLargestComponent</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>minArea</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>numSmallerComponents</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the largest by surface area component or empty set if its area is smaller than </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minArea</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ad296f69ab97903119a0505f29f6b1dde" kindref="member">MR.MeshComponents.getLargestComponent</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. Parameter <computeroutput>minArea</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="692" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="692" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.Const_FaceBitSet seeds, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getComponents</name>
+        <qualifiedname>MR.MeshComponents.getComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns union of connected components, each of which contains at least one seed face Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kindref="member">MR.MeshComponents.getComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="709" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="709" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1aaf1f2ad3338974c769944918055d4d05" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getComponents</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_FaceBitSet seeds, MR.Const_FaceBitSet? region=null, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getComponents</name>
+        <qualifiedname>MR.MeshComponents.getComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kindref="member">MR.MeshComponents.getComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="721" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="721" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a2769cc1bbe61c2a15813033e795f068b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getLargeByAreaComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, float minArea, MR.Const_UndirectedEdgeBitSet? isCompBd)</argsstring>
+        <name>getLargeByAreaComponents</name>
+        <qualifiedname>MR.MeshComponents.getLargeByAreaComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+        </param>
+        <briefdescription>
+<para>returns the union of connected components, each having at least given area Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2769cc1bbe61c2a15813033e795f068b" kindref="member">MR.MeshComponents.getLargeByAreaComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="733" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="733" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a9c1c9e6ca528c52d4bee3628219808d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getLargeByAreaComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.UnionFind_MRFaceId unionFind, float minArea, MR.UndirectedEdgeBitSet? outBdEdgesBetweenLargeComps=null)</argsstring>
+        <name>getLargeByAreaComponents</name>
+        <qualifiedname>MR.MeshComponents.getLargeByAreaComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UnionFind__MRFaceId" kindref="compound">MR.UnionFind_MRFaceId</ref></type>
+          <declname>unionFind</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>outBdEdgesBetweenLargeComps</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>given prepared union-find structure returns the union of connected components, each having at least given area Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2769cc1bbe61c2a15813033e795f068b" kindref="member">MR.MeshComponents.getLargeByAreaComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="744" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="744" bodyend="749"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a1e8c081fae74fe2929d40ea02416a878" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.expandToComponents</definition>
+        <argsstring>(MR.Const_MeshPart mp, MR.Const_FaceBitSet seeds, MR.MeshComponents.Const_ExpandToComponentsParams? params_=null)</argsstring>
+        <name>expandToComponents</name>
+        <qualifiedname>MR.MeshComponents.expandToComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>MR.MeshComponents.Const_ExpandToComponentsParams?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>expands given seeds to whole components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a1e8c081fae74fe2929d40ea02416a878" kindref="member">MR.MeshComponents.expandToComponents</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="756" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="756" bodyend="764"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a2e851fcd586d64867abf8a87867cb44e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFaceBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRFaceBitSet MR.MeshComponents.getNLargeByAreaComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.MeshComponents.Const_LargeByAreaComponentsSettings settings)</argsstring>
+        <name>getNLargeByAreaComponents</name>
+        <qualifiedname>MR.MeshComponents.getNLargeByAreaComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>MR.MeshComponents.Const_LargeByAreaComponentsSettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>returns requested number of largest by area connected components in descending by area order Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2e851fcd586d64867abf8a87867cb44e" kindref="member">MR.MeshComponents.getNLargeByAreaComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="770" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="770" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a79604abaf1363bfe2b0860148c6deefc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.MeshComponents.getLargeByAreaSmoothComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, float minArea, float angleFromPlanar, MR.UndirectedEdgeBitSet? outBdEdgesBetweenLargeComps=null)</argsstring>
+        <name>getLargeByAreaSmoothComponents</name>
+        <qualifiedname>MR.MeshComponents.getLargeByAreaSmoothComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleFromPlanar</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>outBdEdgesBetweenLargeComps</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the union of connected components, each having at least given area, and any two faces in a connected component have a path along the surface across the edges, where surface does not deviate from plane more than on given angle Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a79604abaf1363bfe2b0860148c6deefc" kindref="member">MR.MeshComponents.getLargeByAreaSmoothComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="782" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="782" bodyend="787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a8647cc2019144552f51a6d3992e76196" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>static unsafe MR.VertBitSet MR.MeshComponents.getComponentsVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertBitSet seeds, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getComponentsVerts</name>
+        <qualifiedname>MR.MeshComponents.getComponentsVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns union of connected components, each of which contains at least one seed vert Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a8647cc2019144552f51a6d3992e76196" kindref="member">MR.MeshComponents.getComponentsVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="793" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="793" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a39ec5eba81547ecbcf6cb91beb8f3b74" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.MeshComponents.getNumComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getNumComponents</name>
+        <qualifiedname>MR.MeshComponents.getNumComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the number of connected components in mesh part Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a39ec5eba81547ecbcf6cb91beb8f3b74" kindref="member">MR.MeshComponents.getNumComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="805" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="805" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFaceBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRFaceBitSet MR.MeshComponents.getAllComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.MeshComponents.getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets all connected components of mesh part </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="819" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="819" bodyend="825"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1aff1256cad28929e76abb10573de91d0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_StdVectorMRFaceBitSet_Int</type>
+        <definition>static unsafe MR.Std.Pair_StdVectorMRFaceBitSet_Int MR.MeshComponents.getAllComponents</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, int maxComponentCount, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.MeshComponents.getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets all connected components of mesh part \detail if components number more than the maxComponentCount, they will be combined into groups of the same size </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="835" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="835" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1ad62c0fb68093309e3cbcb38829bebc8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFaceBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRFaceBitSet MR.MeshComponents.getAllComponents</definition>
+        <argsstring>(MR.Face2RegionMap componentsMap, int componentsCount, MR.Const_FaceBitSet region, int maxComponentCount)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.MeshComponents.getAllComponents</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Face2RegionMap" kindref="compound">MR.Face2RegionMap</ref></type>
+          <declname>componentsMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>componentsCount</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components from components map ( <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> =&gt; <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>components bitsets vector Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="850" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="850" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRFace2RegionMap_Int</type>
+        <definition>static unsafe MR.Std.Pair_MRFace2RegionMap_Int MR.MeshComponents.getAllComponentsMap</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getAllComponentsMap</name>
+        <qualifiedname>MR.MeshComponents.getAllComponentsMap</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets all connected components of mesh part as </para>
+        </briefdescription>
+        <detaileddescription>
+<para><orderedlist>
+<listitem><para>the mapping: <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> -&gt; Component ID in [0, 1, 2, ...)</para>
+</listitem><listitem><para>the total number of components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" kindref="member">MR.MeshComponents.getAllComponentsMap</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="864" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="864" bodyend="870"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1aed02141179803d699651fdacf8f89eca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__Double__MRRegionId" kindref="compound">MR.Vector_Double_MRRegionId</ref></type>
+        <definition>static unsafe MR.Vector_Double_MRRegionId MR.MeshComponents.getRegionAreas</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.Const_Face2RegionMap regionMap, int numRegions)</argsstring>
+        <name>getRegionAreas</name>
+        <qualifiedname>MR.MeshComponents.getRegionAreas</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>MR.Const_Face2RegionMap</type>
+          <declname>regionMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numRegions</declname>
+        </param>
+        <briefdescription>
+<para>computes the area of each region given via the map Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aed02141179803d699651fdacf8f89eca" kindref="member">MR.MeshComponents.getRegionAreas</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="876" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="876" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a199fc88b00417d91bd653cdde4d0ca9b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRFaceBitSet_Int</type>
+        <definition>static unsafe MR.Std.Pair_MRFaceBitSet_Int MR.MeshComponents.getLargeByAreaRegions</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.Const_Face2RegionMap regionMap, int numRegions, float minArea)</argsstring>
+        <name>getLargeByAreaRegions</name>
+        <qualifiedname>MR.MeshComponents.getLargeByAreaRegions</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>MR.Const_Face2RegionMap</type>
+          <declname>regionMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numRegions</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <briefdescription>
+<para>returns </para>
+        </briefdescription>
+        <detaileddescription>
+<para><orderedlist>
+<listitem><para>the union of all regions with area &gt;= minArea</para>
+</listitem><listitem><para>the number of such regions Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a199fc88b00417d91bd653cdde4d0ca9b" kindref="member">MR.MeshComponents.getLargeByAreaRegions</ref></computeroutput>. </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="889" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="889" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1abaf4e2238bea5affab163db810434c8d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRVertBitSet MR.MeshComponents.getAllComponentsVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getAllComponentsVerts</name>
+        <qualifiedname>MR.MeshComponents.getAllComponentsVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets all connected components of mesh part Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1abaf4e2238bea5affab163db810434c8d" kindref="member">MR.MeshComponents.getAllComponentsVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="900" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="900" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a657d8d0d5d69361451bbc8ae759d153d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRVertBitSet MR.MeshComponents.getAllComponentsVertsSeparatedByPath</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MREdgePoint path)</argsstring>
+        <name>getAllComponentsVertsSeparatedByPath</name>
+        <qualifiedname>MR.MeshComponents.getAllComponentsVertsSeparatedByPath</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components, separating vertices by given path (either closed or from boundary to boundary) Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a657d8d0d5d69361451bbc8ae759d153d" kindref="member">MR.MeshComponents.getAllComponentsVertsSeparatedByPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="911" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="911" bodyend="916"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a0a69a62fb5599e60533a77ea4671b034" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRVertBitSet MR.MeshComponents.getAllComponentsVertsSeparatedByPaths</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgePoint paths)</argsstring>
+        <name>getAllComponentsVertsSeparatedByPaths</name>
+        <qualifiedname>MR.MeshComponents.getAllComponentsVertsSeparatedByPaths</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgePoint</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components, separating vertices by given paths (either closed or from boundary to boundary) Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a0a69a62fb5599e60533a77ea4671b034" kindref="member">MR.MeshComponents.getAllComponentsVertsSeparatedByPaths</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="922" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="922" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a66b427dad06792d08db7374b54b4bee2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MREdgeBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MREdgeBitSet MR.MeshComponents.getAllComponentsEdges</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_EdgeBitSet edges)</argsstring>
+        <name>getAllComponentsEdges</name>
+        <qualifiedname>MR.MeshComponents.getAllComponentsEdges</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_EdgeBitSet</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>subdivides given edges on connected components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a66b427dad06792d08db7374b54b4bee2" kindref="member">MR.MeshComponents.getAllComponentsEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="933" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="933" bodyend="938"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1ad0b4a162d9d663045f37e23f2a2f6898" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRUndirectedEdgeBitSet MR.MeshComponents.getAllComponentsUndirectedEdges</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_UndirectedEdgeBitSet edges)</argsstring>
+        <name>getAllComponentsUndirectedEdges</name>
+        <qualifiedname>MR.MeshComponents.getAllComponentsUndirectedEdges</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>subdivides given edges on connected components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ad0b4a162d9d663045f37e23f2a2f6898" kindref="member">MR.MeshComponents.getAllComponentsUndirectedEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="944" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="944" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a8d43aaffe07559d56de9cfa53b753c70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.MeshComponents.hasFullySelectedComponent</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertBitSet selection)</argsstring>
+        <name>hasFullySelectedComponent</name>
+        <qualifiedname>MR.MeshComponents.hasFullySelectedComponent</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+<para>returns true if all vertices of a mesh connected component are present in selection Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a8d43aaffe07559d56de9cfa53b753c70" kindref="member">MR.MeshComponents.hasFullySelectedComponent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="955" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="955" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a16162d3313122042d66d508deba30e7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.MeshComponents.hasFullySelectedComponent</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertBitSet selection)</argsstring>
+        <name>hasFullySelectedComponent</name>
+        <qualifiedname>MR.MeshComponents.hasFullySelectedComponent</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a8d43aaffe07559d56de9cfa53b753c70" kindref="member">MR.MeshComponents.hasFullySelectedComponent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="965" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="965" bodyend="970"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1acbf116452fe4c2bb1c56d5c6c8378244" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshComponents.excludeFullySelectedComponents</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.VertBitSet selection)</argsstring>
+        <name>excludeFullySelectedComponents</name>
+        <qualifiedname>MR.MeshComponents.excludeFullySelectedComponents</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+<para>if all vertices of a mesh connected component are present in selection, excludes these vertices Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1acbf116452fe4c2bb1c56d5c6c8378244" kindref="member">MR.MeshComponents.excludeFullySelectedComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="976" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="976" bodyend="981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a1484e1a796b6b0f82bd0d3fb6376dfd5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRFaceId" kindref="compound">MR.UnionFind_MRFaceId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRFaceId MR.MeshComponents.getUnionFindStructureFaces</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getUnionFindStructureFaces</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureFaces</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for faces with different options of face-connectivity Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a1484e1a796b6b0f82bd0d3fb6376dfd5" kindref="member">MR.MeshComponents.getUnionFindStructureFaces</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="988" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="988" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a04c7c5e051ff8c22e676d9d70d4cabe8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRFaceId" kindref="compound">MR.UnionFind_MRFaceId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRFaceId MR.MeshComponents.getUnionFindStructureFaces</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_FaceBitSet? region=null, MR.MeshComponents.FaceIncidence? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getUnionFindStructureFaces</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureFaces</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kindref="member">MR.MeshComponents.FaceIncidence</ref>?</type>
+          <declname>incidence</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a1484e1a796b6b0f82bd0d3fb6376dfd5" kindref="member">MR.MeshComponents.getUnionFindStructureFaces</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1000" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1000" bodyend="1006"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a804a779343d560f1212e1cb399111378" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRFaceId" kindref="compound">MR.UnionFind_MRFaceId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRFaceId MR.MeshComponents.getUnionFindStructureFacesPerEdge</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getUnionFindStructureFacesPerEdge</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureFacesPerEdge</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a804a779343d560f1212e1cb399111378" kindref="member">MR.MeshComponents.getUnionFindStructureFacesPerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1013" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1013" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a9b83d2e49f44ec32363ccacb95303bbc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRFaceId" kindref="compound">MR.UnionFind_MRFaceId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRFaceId MR.MeshComponents.getUnionFindStructureFacesPerEdge</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_FaceBitSet? region=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</argsstring>
+        <name>getUnionFindStructureFacesPerEdge</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureFacesPerEdge</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>isCompBd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a804a779343d560f1212e1cb399111378" kindref="member">MR.MeshComponents.getUnionFindStructureFacesPerEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1023" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1023" bodyend="1028"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1aca0cb57a48734e7ac53cd9386bc49f0e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aca0cb57a48734e7ac53cd9386bc49f0e" kindref="member">MR.MeshComponents.getUnionFindStructureVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1034" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1034" bodyend="1039"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a852203d1cd0b57737b3a41cb3b5ed1d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aca0cb57a48734e7ac53cd9386bc49f0e" kindref="member">MR.MeshComponents.getUnionFindStructureVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1044" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1044" bodyend="1049"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a4a4cc8556e708bf35bbb7e2050bef892" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_EdgeBitSet edges)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_EdgeBitSet</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, considering connections by given edges only Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aca0cb57a48734e7ac53cd9386bc49f0e" kindref="member">MR.MeshComponents.getUnionFindStructureVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1055" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1055" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a95ad6ef458d4159fc0bb7e93fddf22f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_UndirectedEdgeBitSet edges)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, considering connections by given undirected edges only Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aca0cb57a48734e7ac53cd9386bc49f0e" kindref="member">MR.MeshComponents.getUnionFindStructureVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1066" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1066" bodyend="1071"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1aec19942d8f38f30de6030ae817c6af1d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVertsEx</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_UndirectedEdgeBitSet ignoreEdges)</argsstring>
+        <name>getUnionFindStructureVertsEx</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVertsEx</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>ignoreEdges</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, considering connections by all edges excluding given ones Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aec19942d8f38f30de6030ae817c6af1d" kindref="member">MR.MeshComponents.getUnionFindStructureVertsEx</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1077" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1077" bodyend="1082"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a5e3ca9d24f770ba0ce2107f69f099787" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVertsSeparatedByPath</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MREdgePoint path, MR.VertBitSet? outPathVerts=null)</argsstring>
+        <name>getUnionFindStructureVertsSeparatedByPath</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVertsSeparatedByPath</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>?</type>
+          <declname>outPathVerts</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, separating vertices by given path (either closed or from boundary to boundary) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outPathVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this set receives all vertices passed by the path Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a5e3ca9d24f770ba0ce2107f69f099787" kindref="member">MR.MeshComponents.getUnionFindStructureVertsSeparatedByPath</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1089" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1089" bodyend="1094"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a299a0282f79f470067ecc4761e03a031" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.MeshComponents.getUnionFindStructureVertsSeparatedByPaths</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgePoint paths, MR.VertBitSet? outPathVerts=null)</argsstring>
+        <name>getUnionFindStructureVertsSeparatedByPaths</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureVertsSeparatedByPaths</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgePoint</type>
+          <declname>paths</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>?</type>
+          <declname>outPathVerts</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a299a0282f79f470067ecc4761e03a031" kindref="member">MR.MeshComponents.getUnionFindStructureVertsSeparatedByPaths</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1099" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1099" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a5f11ba23046224aa2bec4adfe349a749" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId" kindref="compound">MR.UnionFind_MRUndirectedEdgeId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRUndirectedEdgeId MR.MeshComponents.getUnionFindStructureUndirectedEdges</definition>
+        <argsstring>(MR.Const_Mesh mesh, bool? allPointToRoots=null)</argsstring>
+        <name>getUnionFindStructureUndirectedEdges</name>
+        <qualifiedname>MR.MeshComponents.getUnionFindStructureUndirectedEdges</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>allPointToRoots</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for all undirected edges in </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allPointToRoots</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, then every element in the structure will point directly to the root of its respective component Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a5f11ba23046224aa2bec4adfe349a749" kindref="member">MR.MeshComponents.getUnionFindStructureUndirectedEdges</ref></computeroutput>. Parameter <computeroutput>allPointToRoots</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1112" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1112" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a848142f2974fa51ba99153efe3ccdfd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet MR.MeshComponents.getComponentsUndirectedEdges</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_UndirectedEdgeBitSet seeds)</argsstring>
+        <name>getComponentsUndirectedEdges</name>
+        <qualifiedname>MR.MeshComponents.getComponentsUndirectedEdges</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>seeds</declname>
+        </param>
+        <briefdescription>
+<para>returns union of connected components, each of which contains at least one seed edge Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a848142f2974fa51ba99153efe3ccdfd7" kindref="member">MR.MeshComponents.getComponentsUndirectedEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1124" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="1124" bodyend="1129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="4" bodyend="1130"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshComponents_1acbf116452fe4c2bb1c56d5c6c8378244" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>excludeFullySelectedComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a1e8c081fae74fe2929d40ea02416a878" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>expandToComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>FaceIncidence</name></member>
+      <member refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1aff1256cad28929e76abb10573de91d0b" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1ad62c0fb68093309e3cbcb38829bebc8e" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a66b427dad06792d08db7374b54b4bee2" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponentsEdges</name></member>
+      <member refid="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponentsMap</name></member>
+      <member refid="classMR_1_1MeshComponents_1ad0b4a162d9d663045f37e23f2a2f6898" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponentsUndirectedEdges</name></member>
+      <member refid="classMR_1_1MeshComponents_1abaf4e2238bea5affab163db810434c8d" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponentsVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a657d8d0d5d69361451bbc8ae759d153d" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPath</name></member>
+      <member refid="classMR_1_1MeshComponents_1a0a69a62fb5599e60533a77ea4671b034" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPaths</name></member>
+      <member refid="classMR_1_1MeshComponents_1a79b1217081d0495f8acdfe0ed5eef1d3" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getComponent</name></member>
+      <member refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1aaf1f2ad3338974c769944918055d4d05" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a848142f2974fa51ba99153efe3ccdfd7" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getComponentsUndirectedEdges</name></member>
+      <member refid="classMR_1_1MeshComponents_1a8647cc2019144552f51a6d3992e76196" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getComponentsVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a7ffcd23e1cfec8742a9c957167fa2309" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getComponentVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a2769cc1bbe61c2a15813033e795f068b" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargeByAreaComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a9c1c9e6ca528c52d4bee3628219808d9" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargeByAreaComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a199fc88b00417d91bd653cdde4d0ca9b" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargeByAreaRegions</name></member>
+      <member refid="classMR_1_1MeshComponents_1a79604abaf1363bfe2b0860148c6deefc" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargeByAreaSmoothComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a763f99071c909da92c284171e2b0e9ee" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargeComponentVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1ad296f69ab97903119a0505f29f6b1dde" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargestComponent</name></member>
+      <member refid="classMR_1_1MeshComponents_1a9543db83319e58a395e05677c4ad2d66" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getLargestComponentVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a2e851fcd586d64867abf8a87867cb44e" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getNLargeByAreaComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1a39ec5eba81547ecbcf6cb91beb8f3b74" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getNumComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1aed02141179803d699651fdacf8f89eca" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getRegionAreas</name></member>
+      <member refid="classMR_1_1MeshComponents_1a1484e1a796b6b0f82bd0d3fb6376dfd5" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1a04c7c5e051ff8c22e676d9d70d4cabe8" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1a804a779343d560f1212e1cb399111378" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
+      <member refid="classMR_1_1MeshComponents_1a9b83d2e49f44ec32363ccacb95303bbc" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
+      <member refid="classMR_1_1MeshComponents_1a5f11ba23046224aa2bec4adfe349a749" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureUndirectedEdges</name></member>
+      <member refid="classMR_1_1MeshComponents_1aca0cb57a48734e7ac53cd9386bc49f0e" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a852203d1cd0b57737b3a41cb3b5ed1d1" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a4a4cc8556e708bf35bbb7e2050bef892" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1a95ad6ef458d4159fc0bb7e93fddf22f5" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
+      <member refid="classMR_1_1MeshComponents_1aec19942d8f38f30de6030ae817c6af1d" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVertsEx</name></member>
+      <member refid="classMR_1_1MeshComponents_1a5e3ca9d24f770ba0ce2107f69f099787" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPath</name></member>
+      <member refid="classMR_1_1MeshComponents_1a299a0282f79f470067ecc4761e03a031" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPaths</name></member>
+      <member refid="classMR_1_1MeshComponents_1a8d43aaffe07559d56de9cfa53b753c70" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
+      <member refid="classMR_1_1MeshComponents_1a16162d3313122042d66d508deba30e7b" prot="public" virt="non-virtual"><scope>MR::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

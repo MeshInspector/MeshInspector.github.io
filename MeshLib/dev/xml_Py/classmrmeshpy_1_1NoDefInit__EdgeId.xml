@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoDefInit__EdgeId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoDefInit_EdgeId</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1EdgeId" prot="public" virt="non-virtual">mrmeshpy.EdgeId</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_EdgeId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37330" bodyend="37331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__EdgeId_1abf63209c7124b1bfb43f479b7cc57668" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__EdgeId" kindref="compound">NoDefInit_EdgeId</ref></type>
+        <definition> NoDefInit_EdgeId mrmeshpy.NoDefInit_EdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_EdgeId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgeId_1ad05b8de169c80e41bb08fc41574bc2c7">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37334" bodyend="37335"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__EdgeId_1abf63209c7124b1bfb43f479b7cc57668" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__EdgeId" kindref="compound">NoDefInit_EdgeId</ref></type>
+        <definition> NoDefInit_EdgeId mrmeshpy.NoDefInit_EdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_EdgeId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgeId_1ad05b8de169c80e41bb08fc41574bc2c7">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37338" bodyend="37339"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_EdgeId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37341" bodyend="37342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_EdgeId.__init__</definition>
+        <argsstring>(self, NoDefInit_EdgeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__EdgeId" kindref="compound">NoDefInit_EdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37344" bodyend="37347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__EdgeId_1a86f2b2dd93062a20d160ad32be317f64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NoDefInit_EdgeId.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgeId_1aab59afad0d09e4a5738863555c3f2f93">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37348" bodyend="37349"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoDefInit&lt;MR::EdgeId&gt;
+Aliases:  NoDefInit_Id_EdgeTag, Buffer_Id_EdgeTag_Id_EdgeTag_reference, Buffer_Id_EdgeTag_UndirectedEdgeId_T, Buffer_Id_EdgeTag_UndirectedEdgeId_iterator, Buffer_Id_EdgeTag_Id_EdgeTag_T, Buffer_Id_EdgeTag_Id_EdgeTag_const_reference, Buffer_Id_EdgeTag_UndirectedEdgeId_T, NoDefInit_Id_EdgeTag, Buffer_Id_EdgeTag_Id_EdgeTag_T, Buffer_Id_EdgeTag_Id_EdgeTag_iterator, Buffer_Id_EdgeTag_UndirectedEdgeId_reference, Buffer_Id_EdgeTag_UndirectedEdgeId_T, NoCtor_Id_EdgeTag_type, Buffer_Id_EdgeTag_UndirectedEdgeId_const_reference, Buffer_Id_EdgeTag_UndirectedEdgeId_const_iterator, Buffer_Id_EdgeTag_Id_EdgeTag_const_iterator, std_unique_ptr_NoDefInit_Id_EdgeTag_pointer, Buffer_Id_EdgeTag_Id_EdgeTag_T, NoDefInit_Id_EdgeTag
+
+this class is similar to T, but does not make default initialization of the fields for best performance
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.NoDefInit_EdgeId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__EdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.EdgeId</label>
+        <link refid="classmrmeshpy_1_1EdgeId"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NoDefInit_EdgeId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__EdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.EdgeId</label>
+        <link refid="classmrmeshpy_1_1EdgeId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37321" bodyend="37349"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a86f2b2dd93062a20d160ad32be317f64" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1abf63209c7124b1bfb43f479b7cc57668" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1abf63209c7124b1bfb43f479b7cc57668" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

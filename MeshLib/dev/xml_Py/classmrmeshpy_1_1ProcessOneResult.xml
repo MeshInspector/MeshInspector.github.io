@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ProcessOneResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ProcessOneResult</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ProcessOneResult_1abd353151684c41bb9b60a3a2054ebf22" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ProcessOneResult::ContinueProcessing</definition>
+        <argsstring></argsstring>
+        <name>ContinueProcessing</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.ContinueProcessing</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ProcessOneResult" kindref="compound">ProcessOneResult</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ProcessOneResult_1a5865d9a7c246db16498ed86c6e200020" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ProcessOneResult::StopProcessing</definition>
+        <argsstring></argsstring>
+        <name>StopProcessing</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.StopProcessing</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ProcessOneResult" kindref="compound">ProcessOneResult</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48242" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ProcessOneResult_1ae7575056e1917456d57f0f1909091dbc" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ProcessOneResult::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1ProcessOneResult" kindref="compound">ProcessOneResult</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48243" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a3d57329548be27146bc80413c128b538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ProcessOneResult.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48244" bodyend="48245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1ab126aa1392f7140ba746c047e89e9f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ProcessOneResult.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48246" bodyend="48247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a217dc836a4966c5affa7f5a560a79358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ProcessOneResult.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48248" bodyend="48249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a8207333701ef02a696e3038b39c58146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ProcessOneResult.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48250" bodyend="48251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a4fdf32b9ee839d11077abe7c664c7939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ProcessOneResult.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48252" bodyend="48253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a28ed482951c3bb50cff9560316920f0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ProcessOneResult.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48254" bodyend="48255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1ac871562ca027f934a9b85a7d988b835f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ProcessOneResult.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48256" bodyend="48257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a971ceeefafce8a1a74dd8f4c95313ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ProcessOneResult.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48258" bodyend="48259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a34c86bb1f12cc84dd9826788b2018d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ProcessOneResult.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48260" bodyend="48261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1ae88343f02fd2f6d81e01f954c3c620b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ProcessOneResult.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48262" bodyend="48263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a397f8ced01f64dc7f0fe867c6221e193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ProcessOneResult.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48265" bodyend="48266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ProcessOneResult_1a03f5b118c2d901bdf32f4f93049548e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ProcessOneResult.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ProcessOneResult.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48268" bodyend="48269"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  StopProcessing
+
+  ContinueProcessing
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ProcessOneResult</label>
+        <link refid="classmrmeshpy_1_1ProcessOneResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ContinueProcessing</edgelabel>
+          <edgelabel>StopProcessing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48233" bodyend="48269"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a3d57329548be27146bc80413c128b538" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1ab126aa1392f7140ba746c047e89e9f19" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a217dc836a4966c5affa7f5a560a79358" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a8207333701ef02a696e3038b39c58146" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a4fdf32b9ee839d11077abe7c664c7939" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a28ed482951c3bb50cff9560316920f0a" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1ae7575056e1917456d57f0f1909091dbc" prot="private" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1ac871562ca027f934a9b85a7d988b835f" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a971ceeefafce8a1a74dd8f4c95313ee3" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a34c86bb1f12cc84dd9826788b2018d8e" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1ae88343f02fd2f6d81e01f954c3c620b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1abd353151684c41bb9b60a3a2054ebf22" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>ContinueProcessing</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a397f8ced01f64dc7f0fe867c6221e193" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a5865d9a7c246db16498ed86c6e200020" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>StopProcessing</name></member>
+      <member refid="classmrmeshpy_1_1ProcessOneResult_1a03f5b118c2d901bdf32f4f93049548e8" prot="public" virt="non-virtual"><scope>mrmeshpy::ProcessOneResult</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

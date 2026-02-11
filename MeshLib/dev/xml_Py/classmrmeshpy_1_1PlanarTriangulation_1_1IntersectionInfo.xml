@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PlanarTriangulation::IntersectionInfo</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1aa55405ec501d689272e6230e90a36050" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.IntersectionInfo::_offsetof_lDest</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lDest</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo._offsetof_lDest</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a8ebc04cc8aaccbc6a2e969f684b99a38" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.IntersectionInfo::_offsetof_lOrg</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lOrg</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo._offsetof_lOrg</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a4d1573d38dc8efb0d4452ae5fb07a9ed" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.IntersectionInfo::_offsetof_lRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lRatio</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo._offsetof_lRatio</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1acef73849695c3b67e3e13f40c8b18021" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.IntersectionInfo::_offsetof_uDest</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uDest</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo._offsetof_uDest</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1acea948441a43571a7fa3fc3b75f70629" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.IntersectionInfo::_offsetof_uOrg</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uOrg</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo._offsetof_uOrg</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1af6ce849123285b3d678aecbfc78b033f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.IntersectionInfo::_offsetof_uRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uRatio</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo._offsetof_uRatio</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43488" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a480fb39750c24a1dbecebc7bcc3ffcd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43491" bodyend="43492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a69d355179c3948f8307f03a50ef9c7c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">PlanarTriangulation.IntersectionInfo</ref></type>
+        <definition> PlanarTriangulation.IntersectionInfo mrmeshpy.PlanarTriangulation.IntersectionInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43495" bodyend="43496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a69d355179c3948f8307f03a50ef9c7c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">PlanarTriangulation.IntersectionInfo</ref></type>
+        <definition> PlanarTriangulation.IntersectionInfo mrmeshpy.PlanarTriangulation.IntersectionInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43499" bodyend="43500"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1acd91edcc7f26c117b26c62761be3151b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43502" bodyend="43503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1af35745a0f5ce2ac2da83deeb47386b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</definition>
+        <argsstring>(self, PlanarTriangulation.IntersectionInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">PlanarTriangulation.IntersectionInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43505" bodyend="43508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1adc648358fd5f0c7dacabd71220221c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</definition>
+        <argsstring>(self, VertId lOrg, VertId lDest, VertId uOrg, VertId uDest, float lRatio, float uRatio)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>lOrg</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>lDest</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>uOrg</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>uDest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>uRatio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43510" bodyend="43513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1ad9444d854dfa6d0983eca2851762c967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PlanarTriangulation.IntersectionInfo.isIntersection</definition>
+        <argsstring>(self)</argsstring>
+        <name>isIntersection</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.isIntersection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43514" bodyend="43515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a69de1e62d16c5353063300f4495af668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PlanarTriangulation.IntersectionInfo.lDest</definition>
+        <argsstring>(self)</argsstring>
+        <name>lDest</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.lDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if lDest is invalid then lOrg is id of input vertex
+ids of lower intersection edge vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43517" bodyend="43521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a7c822a92eec4fbe3af874669b4df6bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.lDest</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>lDest</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.lDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43523" bodyend="43524"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a60d18a711543be4d24e65d0a11260840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PlanarTriangulation.IntersectionInfo.lOrg</definition>
+        <argsstring>(self)</argsstring>
+        <name>lOrg</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.lOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if lDest is invalid then lOrg is id of input vertex
+ids of lower intersection edge vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43526" bodyend="43530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a813684ad257ddd9bb3dc7fc9d484d06c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.lOrg</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>lOrg</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.lOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43532" bodyend="43533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a3dc76b2920dc48510da4b9108c4525fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PlanarTriangulation.IntersectionInfo.lRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>lRatio</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.lRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ratio of intersection
+0.0 -&gt; point is lOrg
+1.0 -&gt; point is lDest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43535" bodyend="43540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1ae6a7b5d93da1b82a9f3cd6b7f2e470f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.lRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>lRatio</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.lRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43542" bodyend="43543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a31aaa468e715afb3057f443455f67953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PlanarTriangulation.IntersectionInfo.uDest</definition>
+        <argsstring>(self)</argsstring>
+        <name>uDest</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.uDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ids of upper intersection edge vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43545" bodyend="43548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1aa35d2c1b74385cf050a71ca152400e3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.uDest</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>uDest</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.uDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43550" bodyend="43551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a1633cec7f02b79a5a4b841c02b4e33ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PlanarTriangulation.IntersectionInfo.uOrg</definition>
+        <argsstring>(self)</argsstring>
+        <name>uOrg</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.uOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ids of upper intersection edge vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43553" bodyend="43556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1ae18a7e16d8c1a625c80faa90d802bf4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.uOrg</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>uOrg</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.uOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43558" bodyend="43559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a71a3eed8b29498c1a46e34ada319b4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PlanarTriangulation.IntersectionInfo.uRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>uRatio</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.uRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>0.0 -&gt; point is uOrg
+1.0 -&gt; point is uDest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43561" bodyend="43565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1abaa0f79c2ae7e222fa77123ab1376da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.IntersectionInfo.uRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>uRatio</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.IntersectionInfo.uRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43567" bodyend="43569"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PlanarTriangulation::IntersectionInfo
+
+Info about intersection point for mapping
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PlanarTriangulation.IntersectionInfo</label>
+        <link refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_lDest</edgelabel>
+          <edgelabel>_offsetof_lOrg</edgelabel>
+          <edgelabel>_offsetof_lRatio</edgelabel>
+          <edgelabel>_offsetof_uDest</edgelabel>
+          <edgelabel>_offsetof_uOrg</edgelabel>
+          <edgelabel>_offsetof_uRatio</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43477" bodyend="43568"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a480fb39750c24a1dbecebc7bcc3ffcd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1acd91edcc7f26c117b26c62761be3151b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1af35745a0f5ce2ac2da83deeb47386b7e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1adc648358fd5f0c7dacabd71220221c07" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1aa55405ec501d689272e6230e90a36050" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>_offsetof_lDest</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a8ebc04cc8aaccbc6a2e969f684b99a38" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>_offsetof_lOrg</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a4d1573d38dc8efb0d4452ae5fb07a9ed" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>_offsetof_lRatio</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1acef73849695c3b67e3e13f40c8b18021" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>_offsetof_uDest</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1acea948441a43571a7fa3fc3b75f70629" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>_offsetof_uOrg</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1af6ce849123285b3d678aecbfc78b033f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>_offsetof_uRatio</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1ad9444d854dfa6d0983eca2851762c967" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>isIntersection</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a69de1e62d16c5353063300f4495af668" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>lDest</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a7c822a92eec4fbe3af874669b4df6bfd" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>lDest</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a60d18a711543be4d24e65d0a11260840" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>lOrg</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a813684ad257ddd9bb3dc7fc9d484d06c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>lOrg</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a3dc76b2920dc48510da4b9108c4525fe" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>lRatio</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1ae6a7b5d93da1b82a9f3cd6b7f2e470f1" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>lRatio</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a69d355179c3948f8307f03a50ef9c7c8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a69d355179c3948f8307f03a50ef9c7c8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a31aaa468e715afb3057f443455f67953" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>uDest</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1aa35d2c1b74385cf050a71ca152400e3c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>uDest</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a1633cec7f02b79a5a4b841c02b4e33ac" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>uOrg</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1ae18a7e16d8c1a625c80faa90d802bf4c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>uOrg</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1a71a3eed8b29498c1a46e34ada319b4bd" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>uRatio</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo_1abaa0f79c2ae7e222fa77123ab1376da3" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::IntersectionInfo</scope><name>uRatio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

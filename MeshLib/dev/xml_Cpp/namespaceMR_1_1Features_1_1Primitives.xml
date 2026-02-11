@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Features_1_1Primitives" kind="namespace" language="C++">
+    <compoundname>MR::Features::Primitives</compoundname>
+    <innerclass refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" prot="public">MR::Features::Primitives::ConeSegment</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Primitives_1_1Plane" prot="public">MR::Features::Primitives::Plane</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1Features_1_1Primitives_1a37df2f34cbcd3fec213859b3ca57d3b6" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a7581b60d25c8b6509c76ce12a7545c35" kindref="member">Sphere3</ref>&lt; float &gt;</type>
+        <definition>using MR::Features::Primitives::Sphere =  Sphere3&lt;float&gt;</definition>
+        <argsstring></argsstring>
+        <name>Sphere</name>
+        <qualifiedname>MR::Features::Primitives::Sphere</qualifiedname>
+        <briefdescription>
+<para>Doubles as a point when the radius is zero. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" prot="public" static="no">
+        <type>std::variant&lt; <ref refid="namespaceMR_1_1Features_1_1Primitives_1a37df2f34cbcd3fec213859b3ca57d3b6" kindref="member">Sphere</ref>, <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref>, <ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref> &gt;</type>
+        <definition>using MR::Features::Primitives::Variant =  std::variant&lt;Sphere, ConeSegment, Plane&gt;</definition>
+        <argsstring></argsstring>
+        <name>Variant</name>
+        <qualifiedname>MR::Features::Primitives::Variant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="111" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="22" column="1"/>
+  </compounddef>
+</doxygen>

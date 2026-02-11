@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ImageLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::ImageLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromJpeg</definition>
+        <argsstring>(string path, bool? ignoreDecompressErrors=null)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>MR.ImageLoad.fromJpeg</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads from .jpg format </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ignoreDecompressErrors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true do not return decompression error if the header was read sucessfully Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" kindref="member">MR.ImageLoad.fromJpeg</ref></computeroutput>. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="11" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="11" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1a117630cca65d923dd7e238a3f96f06b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromJpeg</definition>
+        <argsstring>(MR.Std.Istream in_, bool? ignoreDecompressErrors=null)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>MR.ImageLoad.fromJpeg</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" kindref="member">MR.ImageLoad.fromJpeg</ref></computeroutput>. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="30" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1a65e9088b1260fec65a15e8fbfa453e66" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromJpeg</definition>
+        <argsstring>(byte? data, ulong size, bool? ignoreDecompressErrors=null)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>MR.ImageLoad.fromJpeg</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" kindref="member">MR.ImageLoad.fromJpeg</ref></computeroutput>. Parameter <computeroutput>ignoreDecompressErrors</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="45" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="45" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1a7cb8d2013ef28608cca6f70b1fd0f771" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromPng</definition>
+        <argsstring>(string path)</argsstring>
+        <name>fromPng</name>
+        <qualifiedname>MR.ImageLoad.fromPng</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>loads from .png format Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1a7cb8d2013ef28608cca6f70b1fd0f771" kindref="member">MR.ImageLoad.fromPng</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" bodystart="9" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1a77661532c50b71c965e3bdf7960dce7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromPng</definition>
+        <argsstring>(MR.Std.Istream in_)</argsstring>
+        <name>fromPng</name>
+        <qualifiedname>MR.ImageLoad.fromPng</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1a7cb8d2013ef28608cca6f70b1fd0f771" kindref="member">MR.ImageLoad.fromPng</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" line="26" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1a74c98160927bc8cc7f5d5b065db7b147" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromTiff</definition>
+        <argsstring>(string path)</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR.ImageLoad.fromTiff</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>loads from .tiff format Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1a74c98160927bc8cc7f5d5b065db7b147" kindref="member">MR.ImageLoad.fromTiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="9" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1ad1494ca8b7d8a6d0c11896779b7b6bfa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string path)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.ImageLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads image from it Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1ad1494ca8b7d8a6d0c11896779b7b6bfa" kindref="member">MR.ImageLoad.fromAnySupportedFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageLoad.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageLoad.cs" bodystart="9" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageLoad.cs" bodystart="4" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ImageLoad_1ad1494ca8b7d8a6d0c11896779b7b6bfa" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classMR_1_1ImageLoad_1a117630cca65d923dd7e238a3f96f06b5" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classMR_1_1ImageLoad_1a65e9088b1260fec65a15e8fbfa453e66" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classMR_1_1ImageLoad_1a7cb8d2013ef28608cca6f70b1fd0f771" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromPng</name></member>
+      <member refid="classMR_1_1ImageLoad_1a77661532c50b71c965e3bdf7960dce7b" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromPng</name></member>
+      <member refid="classMR_1_1ImageLoad_1a74c98160927bc8cc7f5d5b065db7b147" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

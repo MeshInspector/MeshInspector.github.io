@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OutlierParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OutlierParams</compoundname>
+    <includes refid="MROutlierPoints_8h" local="no">MROutlierPoints.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1OutlierParams_1ae7fcf0f64db2a7e109689f6722285abd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::OutlierParams::maxClusterSize</definition>
+        <argsstring></argsstring>
+        <name>maxClusterSize</name>
+        <qualifiedname>MR::OutlierParams::maxClusterSize</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+<para>Maximum points in the outlier component. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="16" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OutlierParams_1a9561ff72aba23dad165d0922967bf343" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::OutlierParams::maxNeighbors</definition>
+        <argsstring></argsstring>
+        <name>maxNeighbors</name>
+        <qualifiedname>MR::OutlierParams::maxNeighbors</qualifiedname>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>Maximum number of adjacent points for an outlier point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="18" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OutlierParams_1a2e3bfef94b01f500d4471c14cd7e2660" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::OutlierParams::minHeight</definition>
+        <argsstring></argsstring>
+        <name>minHeight</name>
+        <qualifiedname>MR::OutlierParams::minHeight</qualifiedname>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OutlierParams_1a77f329cbd855532e38b3482d07260251" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::OutlierParams::minAngle</definition>
+        <argsstring></argsstring>
+        <name>minAngle</name>
+        <qualifiedname>MR::OutlierParams::minAngle</qualifiedname>
+        <initializer>= PI_F / 3.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of various criteria for detecting outlier points. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structMR_1_1OutlierParams_1ae7fcf0f64db2a7e109689f6722285abd" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>maxClusterSize</name></member>
+      <member refid="structMR_1_1OutlierParams_1a9561ff72aba23dad165d0922967bf343" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>maxNeighbors</name></member>
+      <member refid="structMR_1_1OutlierParams_1a77f329cbd855532e38b3482d07260251" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>minAngle</name></member>
+      <member refid="structMR_1_1OutlierParams_1a2e3bfef94b01f500d4471c14cd7e2660" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>minHeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

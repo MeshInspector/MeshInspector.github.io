@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ProgressBar" kind="namespace" language="C++">
+    <compoundname>MR::ProgressBar</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1ProgressBar_1a096de280a40715b2c4db2b4ccfeb821d" prot="public" static="no">
+        <type>std::function&lt; std::function&lt; void()&gt;() &gt;</type>
+        <definition>using MR::ProgressBar::TaskWithMainThreadPostProcessing =  std::function&lt; std::function&lt;void()&gt;() &gt;</definition>
+        <argsstring></argsstring>
+        <name>TaskWithMainThreadPostProcessing</name>
+        <qualifiedname>MR::ProgressBar::TaskWithMainThreadPostProcessing</qualifiedname>
+        <briefdescription>
+<para>function that returns post-processing function to be called in main <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> thread </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1aa25a776012fb8df34ee05b32461a2157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <qualifiedname>MR::ProgressBar::setup</qualifiedname>
+        <briefdescription>
+<para>this function should be called only once for each frame (it is called in MR::Menu (<ref refid="classMR_1_1RibbonMenu" kindref="compound">MR::RibbonMenu</ref>)) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="18" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="18" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a3b821f82af9dc3569878e8352c4c333c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::onFrameEnd</definition>
+        <argsstring>()</argsstring>
+        <name>onFrameEnd</name>
+        <qualifiedname>MR::ProgressBar::onFrameEnd</qualifiedname>
+        <briefdescription>
+<para>call this function on frame end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="21" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="21" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1ad694eb3ebaed27434a4adc6f85c929e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::order</definition>
+        <argsstring>(const char *name, const std::function&lt; void()&gt; &amp;task, int taskCount=1)</argsstring>
+        <name>order</name>
+        <qualifiedname>MR::ProgressBar::order</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::function&lt; void()&gt; &amp;</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>taskCount</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this shall be called in order to start concurrent task execution with progress bar display please call <ref refid="namespaceMR_1_1ProgressBar_1aa25a776012fb8df34ee05b32461a2157" kindref="member">setup()</ref> first, otherwise this function just execute task directly </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="25" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="25" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a7d0e6075106a9a6b38e64db60695d5e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::orderWithMainThreadPostProcessing</definition>
+        <argsstring>(const char *name, TaskWithMainThreadPostProcessing task, int taskCount=1)</argsstring>
+        <name>orderWithMainThreadPostProcessing</name>
+        <qualifiedname>MR::ProgressBar::orderWithMainThreadPostProcessing</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1_1ProgressBar_1a096de280a40715b2c4db2b4ccfeb821d" kindref="member">TaskWithMainThreadPostProcessing</ref></type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>taskCount</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in this version the task returns a function to be executed in main thread please call <ref refid="namespaceMR_1_1ProgressBar_1aa25a776012fb8df34ee05b32461a2157" kindref="member">setup()</ref> first, otherwise this function just execute task directly </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="29" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="29" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a839e7d4663be090de8691580d7227c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::orderWithManualFinish</definition>
+        <argsstring>(const char *name, std::function&lt; void()&gt; task, int taskCount=1)</argsstring>
+        <name>orderWithManualFinish</name>
+        <qualifiedname>MR::ProgressBar::orderWithManualFinish</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::function&lt; void()&gt;</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>taskCount</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the task is spawned by the progress bar but the <computeroutput>finish</computeroutput> method is called from a callback please call <ref refid="namespaceMR_1_1ProgressBar_1aa25a776012fb8df34ee05b32461a2157" kindref="member">setup()</ref> first, otherwise this function just execute task directly </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="33" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="33" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a17865bb846061f43e17a0ad267ca598a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ProgressBar::isCanceled</definition>
+        <argsstring>()</argsstring>
+        <name>isCanceled</name>
+        <qualifiedname>MR::ProgressBar::isCanceled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="35" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="35" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1abd6ace0900add6a59ee1539dffc5d961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ProgressBar::isFinished</definition>
+        <argsstring>()</argsstring>
+        <name>isFinished</name>
+        <qualifiedname>MR::ProgressBar::isFinished</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="37" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="37" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a2128baeb61b280fe1a9fce7857599070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::ProgressBar::getProgress</definition>
+        <argsstring>()</argsstring>
+        <name>getProgress</name>
+        <qualifiedname>MR::ProgressBar::getProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="39" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a5e2f2d57df60a5d91c509ce0f4a65d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::ProgressBar::getLastOperationTime</definition>
+        <argsstring>()</argsstring>
+        <name>getLastOperationTime</name>
+        <qualifiedname>MR::ProgressBar::getLastOperationTime</qualifiedname>
+        <briefdescription>
+<para>returns time of last operation in seconds, returns -1.0f if no operation was performed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="42" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="42" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1ab66618d001f8cbce3e0a07b2b4dde0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const std::string &amp;</type>
+        <definition>MRVIEWER_API const std::string &amp; MR::ProgressBar::getLastOperationTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getLastOperationTitle</name>
+        <qualifiedname>MR::ProgressBar::getLastOperationTitle</qualifiedname>
+        <briefdescription>
+<para>returns title of the last operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="45" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="45" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1aa2bbcde88ff779122f16150fa6de08eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::nextTask</definition>
+        <argsstring>()</argsstring>
+        <name>nextTask</name>
+        <qualifiedname>MR::ProgressBar::nextTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="47" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="47" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a01e2c488a5c5dea28c7203cfbfbfd0f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::nextTask</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>nextTask</name>
+        <qualifiedname>MR::ProgressBar::nextTask</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="48" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="48" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1ae692760ee83b399be6653c81468172ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::setTaskCount</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setTaskCount</name>
+        <qualifiedname>MR::ProgressBar::setTaskCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="50" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="50" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a08670326b3d5427ad65c0583c83ff4ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::forceSetTaskName</definition>
+        <argsstring>(std::string taskName)</argsstring>
+        <name>forceSetTaskName</name>
+        <qualifiedname>MR::ProgressBar::forceSetTaskName</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>taskName</declname>
+        </param>
+        <briefdescription>
+<para>set the current task&apos;s name without auto-updating progress value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="53" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="53" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1aa2b9b5f5b7a526d0721702a144530d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::resetTaskName</definition>
+        <argsstring>()</argsstring>
+        <name>resetTaskName</name>
+        <qualifiedname>MR::ProgressBar::resetTaskName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="54" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="54" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1af847e27a1f34b2b07a29272ef2fb9e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <qualifiedname>MR::ProgressBar::finish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="56" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="56" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a88739d4c0d7055aa89a69172041cb925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ProgressBar::isOrdered</definition>
+        <argsstring>()</argsstring>
+        <name>isOrdered</name>
+        <qualifiedname>MR::ProgressBar::isOrdered</qualifiedname>
+        <briefdescription>
+<para>returns true if progress bar was ordered and not finished </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="59" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a1abb6f1a99317df23eca0b7dab5ca9d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ProgressBar::setProgress</definition>
+        <argsstring>(float p)</argsstring>
+        <name>setProgress</name>
+        <qualifiedname>MR::ProgressBar::setProgress</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets new progress value (ignoring tasks) in [0,1], which must be not smaller than the previous value; returns false if the user has pressed Cancel button; thread-safe </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="64" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="64" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a2682696e53c15a5fbb804436938b94ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ProgressBar::callBackSetProgress</definition>
+        <argsstring>(float p)</argsstring>
+        <name>callBackSetProgress</name>
+        <qualifiedname>MR::ProgressBar::callBackSetProgress</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets new progress value of the current task in [0,1], which must be not smaller than the previous value; enables drawing Cancel button in Progress dialog, and returns false if the user has pressed it; thread-safe </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="69" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="69" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1a481e32fa95706159e765a2da757f57c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ProgressBar::simpleCallBackSetProgress</definition>
+        <argsstring>(float p)</argsstring>
+        <name>simpleCallBackSetProgress</name>
+        <qualifiedname>MR::ProgressBar::simpleCallBackSetProgress</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets new progress value of the current task in [0,1], which must be not smaller than the previous value; disables drawing Cancel button in Progress dialog, always returns true; thread-safe </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="74" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="74" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ProgressBar_1ae694b1e02bb163d667aaca266f472606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ProgressBar::printTimingTree</definition>
+        <argsstring>(double minTimeSec=0.1)</argsstring>
+        <name>printTimingTree</name>
+        <qualifiedname>MR::ProgressBar::printTimingTree</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>minTimeSec</declname>
+          <defval>0.1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prints time tree of progress bar thread <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minTimeSec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>omit printing records with time spent less than given value in seconds </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="78" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" declline="78" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Utilities to show application progress bar for long operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

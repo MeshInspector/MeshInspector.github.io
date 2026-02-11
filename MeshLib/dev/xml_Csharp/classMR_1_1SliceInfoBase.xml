@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SliceInfoBase" kind="class" language="C#" prot="public">
+    <compoundname>MR::SliceInfoBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SliceInfoBase</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SliceInfoBase_1a67156548e00f20b96a17a74fa0a099e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.SliceInfoBase.instanceNum</definition>
+        <argsstring></argsstring>
+        <name>instanceNum</name>
+        <qualifiedname>MR.SliceInfoBase.instanceNum</qualifiedname>
+        <briefdescription>
+<para>instance number </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="128" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SliceInfoBase_1a5ef4b84b3b7b579553f468b2134b91d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.SliceInfoBase.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.SliceInfoBase.z</qualifiedname>
+        <briefdescription>
+<para>layer height </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="131" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SliceInfoBase_1ac22c20d95109a16b908078f5895b917e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.SliceInfoBase.fileNum</definition>
+        <argsstring></argsstring>
+        <name>fileNum</name>
+        <qualifiedname>MR.SliceInfoBase.fileNum</qualifiedname>
+        <briefdescription>
+<para>file index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="134" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SliceInfoBase_1acfa1083612567515c5d0a1cb5f2a612e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SliceInfoBase.SliceInfoBase</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SliceInfoBase</name>
+        <qualifiedname>MR.SliceInfoBase.SliceInfoBase</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="138" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="138" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SliceInfoBase_1a6d4c7fbed4f65e807ae5be0db2074311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SliceInfoBase.SliceInfoBase</definition>
+        <argsstring>()</argsstring>
+        <name>SliceInfoBase</name>
+        <qualifiedname>MR.SliceInfoBase.SliceInfoBase</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="148" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="148" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SliceInfoBase_1ae118a1cc82fc59d928616819c655a94e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SliceInfoBase.SliceInfoBase</definition>
+        <argsstring>(int instanceNum, double z, int fileNum)</argsstring>
+        <name>SliceInfoBase</name>
+        <qualifiedname>MR.SliceInfoBase.SliceInfoBase</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>instanceNum</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fileNum</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SliceInfoBase" kindref="compound">MR.SliceInfoBase</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="159" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="159" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SliceInfoBase_1a46ed85c82a7f7aa8d41dd0133cf3289d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SliceInfoBase.SliceInfoBase</definition>
+        <argsstring>(MR.Const_SliceInfoBase _other)</argsstring>
+        <name>SliceInfoBase</name>
+        <qualifiedname>MR.SliceInfoBase.SliceInfoBase</qualifiedname>
+        <param>
+          <type>MR.Const_SliceInfoBase</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SliceInfoBase.SliceInfoBase</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="170" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SliceInfoBase_1ae9dcdaa280dc5cc300c30b9cc1298695" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SliceInfoBase.SliceInfoBase</definition>
+        <argsstring>(SliceInfoBase _other)</argsstring>
+        <name>SliceInfoBase</name>
+        <qualifiedname>MR.SliceInfoBase.SliceInfoBase</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SliceInfoBase.SliceInfoBase</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="182" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SliceInfoBase_1a387bc1e52063db74bfcffe0a7d3488b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SliceInfoBase" kindref="compound">MR.SliceInfoBase</ref></type>
+        <definition>unsafe MR.SliceInfoBase MR.SliceInfoBase.assign</definition>
+        <argsstring>(MR.Const_SliceInfoBase _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SliceInfoBase.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SliceInfoBase</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SliceInfoBase.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="187" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="187" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>slice information </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1_1SliceInfo" kindref="compound">SliceInfo</ref> Generated from class <computeroutput><ref refid="classMR_1_1SliceInfoBase" kindref="compound">MR.SliceInfoBase</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SliceInfo" kindref="compound">MR.SliceInfo</ref></computeroutput> This is the non-const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SliceInfoBase</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SliceInfoBase</label>
+        <link refid="classMR_1_1SliceInfoBase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SliceInfoBase &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SliceInfoBase</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SliceInfoBase</label>
+        <link refid="classMR_1_1SliceInfoBase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SliceInfoBase &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="125" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="126" bodyend="195"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SliceInfoBase_1a387bc1e52063db74bfcffe0a7d3488b5" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>assign</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1ac22c20d95109a16b908078f5895b917e" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>fileNum</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1a67156548e00f20b96a17a74fa0a099e5" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>instanceNum</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1acfa1083612567515c5d0a1cb5f2a612e" prot="package" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>SliceInfoBase</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1a6d4c7fbed4f65e807ae5be0db2074311" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>SliceInfoBase</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1ae118a1cc82fc59d928616819c655a94e" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>SliceInfoBase</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1a46ed85c82a7f7aa8d41dd0133cf3289d" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>SliceInfoBase</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1ae9dcdaa280dc5cc300c30b9cc1298695" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>SliceInfoBase</name></member>
+      <member refid="classMR_1_1SliceInfoBase_1a5ef4b84b3b7b579553f468b2134b91d0" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

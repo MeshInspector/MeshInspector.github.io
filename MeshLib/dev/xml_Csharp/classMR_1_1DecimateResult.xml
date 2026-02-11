@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DecimateResult" kind="class" language="C#" prot="private">
+    <compoundname>MR::DecimateResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimateResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1DecimateResult_1ade919f12c7cec4bf8a5d694bb01349a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DecimateResult.vertsDeleted</definition>
+        <argsstring></argsstring>
+        <name>vertsDeleted</name>
+        <qualifiedname>MR.DecimateResult.vertsDeleted</qualifiedname>
+        <briefdescription>
+<para>&lt; Number deleted verts. Same as the number of performed collapses </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Number deleted faces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1052" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateResult_1aced91d188a3ac295b24ea646bc1b209c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DecimateResult.facesDeleted</definition>
+        <argsstring></argsstring>
+        <name>facesDeleted</name>
+        <qualifiedname>MR.DecimateResult.facesDeleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1055" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateResult_1a9c657ab91f569e655fccca5e33e67b2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateResult.errorIntroduced</definition>
+        <argsstring></argsstring>
+        <name>errorIntroduced</name>
+        <qualifiedname>MR.DecimateResult.errorIntroduced</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for <ref refid="classMR_1add28113e16217d08b03c89236a144146a67b5bfba24e72d549786f512b318c243" kindref="member">DecimateStrategy.MinimizeError</ref>: estimated distance deviation of decimated mesh from the original mesh for <ref refid="classMR_1add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b" kindref="member">DecimateStrategy.ShortestEdgeFirst</ref>: the shortest remaining edge in the mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1061" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1061" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateResult_1a527166116e334bc77c78ef5ce736cda5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateResult.cancelled</definition>
+        <argsstring></argsstring>
+        <name>cancelled</name>
+        <qualifiedname>MR.DecimateResult.cancelled</qualifiedname>
+        <briefdescription>
+<para>whether the algorithm was cancelled by the callback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1064" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1064" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1DecimateResult_1ab174e653d202ae003543aad076190972" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateResult.DecimateResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DecimateResult</name>
+        <qualifiedname>MR.DecimateResult.DecimateResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1068" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1068" bodyend="1072"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DecimateResult_1a64552392c8ee7167f138222085aa9f03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateResult.DecimateResult</definition>
+        <argsstring>()</argsstring>
+        <name>DecimateResult</name>
+        <qualifiedname>MR.DecimateResult.DecimateResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1078" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1078" bodyend="1084"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateResult_1a877bdbe5430fac08446a155fbf450e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateResult.DecimateResult</definition>
+        <argsstring>(int vertsDeleted, int facesDeleted, float errorIntroduced, bool cancelled)</argsstring>
+        <name>DecimateResult</name>
+        <qualifiedname>MR.DecimateResult.DecimateResult</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vertsDeleted</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>facesDeleted</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>errorIntroduced</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.DecimateResult</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1089" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1089" bodyend="1095"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateResult_1a1485417101447b1de97b0f684c956034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateResult.DecimateResult</definition>
+        <argsstring>(MR.Const_DecimateResult _other)</argsstring>
+        <name>DecimateResult</name>
+        <qualifiedname>MR.DecimateResult.DecimateResult</qualifiedname>
+        <param>
+          <type>MR.Const_DecimateResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DecimateResult.DecimateResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1100" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateResult_1ab39a6cda23e5c59ade07c3e4dff2ffcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DecimateResult.DecimateResult</definition>
+        <argsstring>(DecimateResult _other)</argsstring>
+        <name>DecimateResult</name>
+        <qualifiedname>MR.DecimateResult.DecimateResult</qualifiedname>
+        <param>
+          <type>DecimateResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DecimateResult.DecimateResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1112" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1112" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateResult_1a4907b767f454c980b94fb8385a459c6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.DecimateResult</type>
+        <definition>unsafe MR.DecimateResult MR.DecimateResult.assign</definition>
+        <argsstring>(MR.Const_DecimateResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.DecimateResult.assign</qualifiedname>
+        <param>
+          <type>MR.Const_DecimateResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.DecimateResult.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1117" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1117" bodyend="1124"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Results of <ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">MR.decimateMesh</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>decimateParallelMesh </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1a78a4954ee826bfe1a85dfb7dcba166e0" kindref="member">resolveMeshDegenerations</ref> Generated from class <computeroutput>MR.DecimateResult</computeroutput>. This is the const half of the class.</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>decimateParallelMesh </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1a78a4954ee826bfe1a85dfb7dcba166e0" kindref="member">resolveMeshDegenerations</ref> Generated from class <computeroutput>MR.DecimateResult</computeroutput>. This is the non-const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DecimateResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DecimateResult</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DecimateResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DecimateResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DecimateResult</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DecimateResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1049" column="11"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DecimateResult_1a4907b767f454c980b94fb8385a459c6b" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1DecimateResult_1a527166116e334bc77c78ef5ce736cda5" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>cancelled</name></member>
+      <member refid="classMR_1_1DecimateResult_1ab174e653d202ae003543aad076190972" prot="package" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
+      <member refid="classMR_1_1DecimateResult_1a64552392c8ee7167f138222085aa9f03" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
+      <member refid="classMR_1_1DecimateResult_1a877bdbe5430fac08446a155fbf450e3a" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
+      <member refid="classMR_1_1DecimateResult_1a1485417101447b1de97b0f684c956034" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
+      <member refid="classMR_1_1DecimateResult_1ab39a6cda23e5c59ade07c3e4dff2ffcb" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
+      <member refid="classMR_1_1DecimateResult_1a9c657ab91f569e655fccca5e33e67b2e" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>errorIntroduced</name></member>
+      <member refid="classMR_1_1DecimateResult_1aced91d188a3ac295b24ea646bc1b209c" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>facesDeleted</name></member>
+      <member refid="classMR_1_1DecimateResult_1ade919f12c7cec4bf8a5d694bb01349a4" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>vertsDeleted</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SignDetectionMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SignDetectionMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SignDetectionMode_1aae1964ab7dc74f2d9cc82a4b0d2e97b4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SignDetectionMode::HoleWindingRule</definition>
+        <argsstring></argsstring>
+        <name>HoleWindingRule</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.HoleWindingRule</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SignDetectionMode_1a0097324f14e399c9d9662ed6d501a012" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SignDetectionMode::OpenVDB</definition>
+        <argsstring></argsstring>
+        <name>OpenVDB</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.OpenVDB</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SignDetectionMode_1ae1820cf53c750b370b64c62ef98be74f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SignDetectionMode::ProjectionNormal</definition>
+        <argsstring></argsstring>
+        <name>ProjectionNormal</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.ProjectionNormal</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SignDetectionMode_1af635190fc536189bcb4ca4355dabd4b0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SignDetectionMode::Unsigned</definition>
+        <argsstring></argsstring>
+        <name>Unsigned</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.Unsigned</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SignDetectionMode_1a8b6e70f3f4e49b0d2b51b8e1ef37cc38" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SignDetectionMode::WindingRule</definition>
+        <argsstring></argsstring>
+        <name>WindingRule</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.WindingRule</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52138" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SignDetectionMode_1a825d7f5f9712f8e1ba8de89b6dab24c7" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SignDetectionMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52139" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1aee995f4042b63f3e5941a614b57c744b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SignDetectionMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52140" bodyend="52141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a4c4d0743cbe3949b093365eb6c0d9348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SignDetectionMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52142" bodyend="52143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1abe57f8407e218615c5df16a5bee17af7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SignDetectionMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52144" bodyend="52145"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a4fa8c391313f9d39b276b3f7438dfeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SignDetectionMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52146" bodyend="52147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1aa87f56ce6facb703e190f71c8adda329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SignDetectionMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52148" bodyend="52149"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a07e65387ed04738c3081c587c9e31eea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SignDetectionMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52150" bodyend="52151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a9940adfea0e47fbadd1b09e8a5f6a5f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SignDetectionMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52152" bodyend="52153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a0d12a1f66cd6a1a296e75590b86d7895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SignDetectionMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52154" bodyend="52155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a23400abd3fe311af9c2fdb3e2f5921c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SignDetectionMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52156" bodyend="52157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a80a2dddb286b880430d3a6878d36cb47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SignDetectionMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52158" bodyend="52159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1aed5fd40f8dba7007d3e187bc12753d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SignDetectionMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52161" bodyend="52162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SignDetectionMode_1a11cf9a7318a659517b84f6590f92d32c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SignDetectionMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SignDetectionMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52164" bodyend="52165"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Unsigned : unsigned distance, useful for bidirectional `Shell` offset
+
+  OpenVDB : sign detection from OpenVDB library, which is good and fast if input geometry is closed
+
+  ProjectionNormal : the sign is determined based on pseudonormal in closest mesh point (unsafe in case of self-intersections)
+
+  WindingRule : ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh;
+this mode is slow, and it does NOT have CUDA acceleration at this moment
+
+  HoleWindingRule : computes robust winding number generalization with support of holes and self-intersections in mesh,
+it is the slowest sign detection mode, but it CAN be accelerated with CUDA if this mode activated e.g. in OffsetParameters.fwn
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SignDetectionMode</label>
+        <link refid="classmrmeshpy_1_1SignDetectionMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HoleWindingRule</edgelabel>
+          <edgelabel>OpenVDB</edgelabel>
+          <edgelabel>ProjectionNormal</edgelabel>
+          <edgelabel>Unsigned</edgelabel>
+          <edgelabel>WindingRule</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52118" bodyend="52165"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1aee995f4042b63f3e5941a614b57c744b" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a4c4d0743cbe3949b093365eb6c0d9348" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1abe57f8407e218615c5df16a5bee17af7" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a4fa8c391313f9d39b276b3f7438dfeab" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1aa87f56ce6facb703e190f71c8adda329" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a07e65387ed04738c3081c587c9e31eea" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a825d7f5f9712f8e1ba8de89b6dab24c7" prot="private" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a9940adfea0e47fbadd1b09e8a5f6a5f9" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a0d12a1f66cd6a1a296e75590b86d7895" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a23400abd3fe311af9c2fdb3e2f5921c7" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a80a2dddb286b880430d3a6878d36cb47" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1aae1964ab7dc74f2d9cc82a4b0d2e97b4" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>HoleWindingRule</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1aed5fd40f8dba7007d3e187bc12753d44" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a0097324f14e399c9d9662ed6d501a012" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>OpenVDB</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1ae1820cf53c750b370b64c62ef98be74f" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>ProjectionNormal</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1af635190fc536189bcb4ca4355dabd4b0" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>Unsigned</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a11cf9a7318a659517b84f6590f92d32c" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1SignDetectionMode_1a8b6e70f3f4e49b0d2b51b8e1ef37cc38" prot="public" virt="non-virtual"><scope>mrmeshpy::SignDetectionMode</scope><name>WindingRule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

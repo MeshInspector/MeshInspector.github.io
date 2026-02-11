@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SymMatrix3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::SymMatrix3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SymMatrix3f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SymMatrix3f_1a733fbb8093fd6847e9dccc648e6fed57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SymMatrix3f.xx</definition>
+        <argsstring></argsstring>
+        <name>xx</name>
+        <qualifiedname>MR.SymMatrix3f.xx</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1355" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix3f_1a0db37ea6a400205e0ef61ddc25559d9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SymMatrix3f.xy</definition>
+        <argsstring></argsstring>
+        <name>xy</name>
+        <qualifiedname>MR.SymMatrix3f.xy</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1358" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix3f_1abbd5b6f8549dd4164d585d5f9f7d9786" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SymMatrix3f.xz</definition>
+        <argsstring></argsstring>
+        <name>xz</name>
+        <qualifiedname>MR.SymMatrix3f.xz</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1361" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix3f_1a327921b8e9c94672fb833243ef43790d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SymMatrix3f.yy</definition>
+        <argsstring></argsstring>
+        <name>yy</name>
+        <qualifiedname>MR.SymMatrix3f.yy</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1364" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix3f_1ab78f00faff832755583204caa435475c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SymMatrix3f.yz</definition>
+        <argsstring></argsstring>
+        <name>yz</name>
+        <qualifiedname>MR.SymMatrix3f.yz</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1367" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix3f_1a840cc23c29077353366fef80dc41d75f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SymMatrix3f.zz</definition>
+        <argsstring></argsstring>
+        <name>zz</name>
+        <qualifiedname>MR.SymMatrix3f.zz</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1370" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1370" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1a5a641e277d697c7810ec6c0a7b0a6657" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SymMatrix3f.SymMatrix3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SymMatrix3f</name>
+        <qualifiedname>MR.SymMatrix3f.SymMatrix3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1374" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1374" bodyend="1378"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1a543345a279cd6536a044dbfb88f863ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SymMatrix3f.SymMatrix3f</definition>
+        <argsstring>()</argsstring>
+        <name>SymMatrix3f</name>
+        <qualifiedname>MR.SymMatrix3f.SymMatrix3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1384" bodyend="1390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1a6fa99283cb74033e1488f9f70eb4e8ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SymMatrix3f.SymMatrix3f</definition>
+        <argsstring>(MR.Const_SymMatrix3f _other)</argsstring>
+        <name>SymMatrix3f</name>
+        <qualifiedname>MR.SymMatrix3f.SymMatrix3f</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SymMatrix3f.SymMatrix3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1395" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1395" bodyend="1402"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1a031fea5a09b80da42e7bcb6ddac3ff0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SymMatrix3f.SymMatrix3f</definition>
+        <argsstring>(SymMatrix3f _other)</argsstring>
+        <name>SymMatrix3f</name>
+        <qualifiedname>MR.SymMatrix3f.SymMatrix3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SymMatrix3f" kindref="compound">SymMatrix3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SymMatrix3f.SymMatrix3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1407" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1407" bodyend="1407"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1ad7354e3b0a694b2ab27f0b3a97541502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix3f" kindref="compound">MR.SymMatrix3f</ref></type>
+        <definition>unsafe MR.SymMatrix3f MR.SymMatrix3f.assign</definition>
+        <argsstring>(MR.Const_SymMatrix3f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SymMatrix3f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix3f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1412" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1412" bodyend="1419"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1abb8da426bde56a6afb19fca32958d05e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix3f" kindref="compound">MR.SymMatrix3f</ref></type>
+        <definition>unsafe MR.SymMatrix3f MR.SymMatrix3f.addAssign</definition>
+        <argsstring>(MR.Const_SymMatrix3f b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.SymMatrix3f.addAssign</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix3f</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix3f.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1424" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1424" bodyend="1432"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1a5f4c126c82402e449fdfd41468aafe20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix3f" kindref="compound">MR.SymMatrix3f</ref></type>
+        <definition>unsafe MR.SymMatrix3f MR.SymMatrix3f.subAssign</definition>
+        <argsstring>(MR.Const_SymMatrix3f b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.SymMatrix3f.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix3f</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix3f.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1437" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1437" bodyend="1445"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1a6bae5a449ac7a8c748fadee9476fd85d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix3f" kindref="compound">MR.SymMatrix3f</ref></type>
+        <definition>unsafe MR.SymMatrix3f MR.SymMatrix3f.mulAssign</definition>
+        <argsstring>(float b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.SymMatrix3f.mulAssign</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix3f.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1450" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1450" bodyend="1458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix3f_1aa6ee91f3dc324b2c0be742ec6813804d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix3f" kindref="compound">MR.SymMatrix3f</ref></type>
+        <definition>unsafe MR.SymMatrix3f MR.SymMatrix3f.divAssign</definition>
+        <argsstring>(float b)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.SymMatrix3f.divAssign</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix3f.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1463" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1463" bodyend="1471"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>symmetric 3x3 matrix Generated from class <computeroutput><ref refid="classMR_1_1SymMatrix3f" kindref="compound">MR.SymMatrix3f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SymMatrix3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SymMatrix3f</label>
+        <link refid="classMR_1_1SymMatrix3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SymMatrix3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SymMatrix3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SymMatrix3f</label>
+        <link refid="classMR_1_1SymMatrix3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SymMatrix3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" line="1352" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix3.cs" bodystart="1353" bodyend="1472"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SymMatrix3f_1abb8da426bde56a6afb19fca32958d05e" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1ad7354e3b0a694b2ab27f0b3a97541502" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1aa6ee91f3dc324b2c0be742ec6813804d" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a6bae5a449ac7a8c748fadee9476fd85d" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a5f4c126c82402e449fdfd41468aafe20" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a5a641e277d697c7810ec6c0a7b0a6657" prot="package" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>SymMatrix3f</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a543345a279cd6536a044dbfb88f863ee" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>SymMatrix3f</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a6fa99283cb74033e1488f9f70eb4e8ed" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>SymMatrix3f</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a031fea5a09b80da42e7bcb6ddac3ff0b" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>SymMatrix3f</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a733fbb8093fd6847e9dccc648e6fed57" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>xx</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a0db37ea6a400205e0ef61ddc25559d9e" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>xy</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1abbd5b6f8549dd4164d585d5f9f7d9786" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>xz</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a327921b8e9c94672fb833243ef43790d" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>yy</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1ab78f00faff832755583204caa435475c" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>yz</name></member>
+      <member refid="classMR_1_1SymMatrix3f_1a840cc23c29077353366fef80dc41d75f" prot="public" virt="non-virtual"><scope>MR::SymMatrix3f</scope><name>zz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

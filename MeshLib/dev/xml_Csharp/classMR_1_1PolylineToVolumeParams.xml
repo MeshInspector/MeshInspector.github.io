@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PolylineToVolumeParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::PolylineToVolumeParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineToVolumeParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PolylineToVolumeParams_1a20d7b400d76738bf61baac3e707ecff8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></type>
+        <definition>new unsafe MR.DistanceVolumeParams MR.PolylineToVolumeParams.vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR.PolylineToVolumeParams.vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="427" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="427" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PolylineToVolumeParams_1a9232689f1bb30d1ff175ff8c39c298bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1DistanceToMeshOptions" kindref="compound">MR.DistanceToMeshOptions</ref></type>
+        <definition>new unsafe MR.DistanceToMeshOptions MR.PolylineToVolumeParams.dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR.PolylineToVolumeParams.dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="429" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="429" bodyend="429"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1a7bc6152c8856adc255f87c77e3eab42f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineToVolumeParams.PolylineToVolumeParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PolylineToVolumeParams</name>
+        <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="455" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="455" bodyend="459"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1a11a91eb488db80bccf9ad2cf249357e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineToVolumeParams.PolylineToVolumeParams</definition>
+        <argsstring>()</argsstring>
+        <name>PolylineToVolumeParams</name>
+        <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="465" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="465" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1a0cc9a2b39e4f5c92c321058e1e11053b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineToVolumeParams.PolylineToVolumeParams</definition>
+        <argsstring>(MR._ByValue_DistanceVolumeParams vol, MR.Const_DistanceToMeshOptions dist)</argsstring>
+        <name>PolylineToVolumeParams</name>
+        <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_DistanceVolumeParams</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceToMeshOptions</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PolylineToVolumeParams" kindref="compound">MR.PolylineToVolumeParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="476" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="476" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1af796a8406b0827e0bef6f2e7bc6f318c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineToVolumeParams.PolylineToVolumeParams</definition>
+        <argsstring>(MR._ByValue_PolylineToVolumeParams _other)</argsstring>
+        <name>PolylineToVolumeParams</name>
+        <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_PolylineToVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineToVolumeParams.PolylineToVolumeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="489" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="489" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1afbb1245bf3ef775a3482a9b035a1386f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PolylineToVolumeParams.PolylineToVolumeParams</definition>
+        <argsstring>(Const_PolylineToVolumeParams _other)</argsstring>
+        <name>PolylineToVolumeParams</name>
+        <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
+        <param>
+          <type>Const_PolylineToVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineToVolumeParams.PolylineToVolumeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="501" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="501" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1ac2ec5e5b10cf4365301b8eb7e6ad234f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PolylineToVolumeParams.PolylineToVolumeParams</definition>
+        <argsstring>(PolylineToVolumeParams _other)</argsstring>
+        <name>PolylineToVolumeParams</name>
+        <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineToVolumeParams" kindref="compound">PolylineToVolumeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineToVolumeParams.PolylineToVolumeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="506" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="506" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineToVolumeParams_1a495c915c75b27f6a306a6008bc00bd12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PolylineToVolumeParams" kindref="compound">MR.PolylineToVolumeParams</ref></type>
+        <definition>unsafe MR.PolylineToVolumeParams MR.PolylineToVolumeParams.assign</definition>
+        <argsstring>(MR._ByValue_PolylineToVolumeParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PolylineToVolumeParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PolylineToVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PolylineToVolumeParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="511" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="511" bodyend="518"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Settings to conversion polyline to volume Generated from class <computeroutput><ref refid="classMR_1_1PolylineToVolumeParams" kindref="compound">MR.PolylineToVolumeParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PolylineToVolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PolylineToVolumeParams</label>
+        <link refid="classMR_1_1PolylineToVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PolylineToVolumeParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PolylineToVolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PolylineToVolumeParams</label>
+        <link refid="classMR_1_1PolylineToVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PolylineToVolumeParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="425" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="426" bodyend="519"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PolylineToVolumeParams_1a495c915c75b27f6a306a6008bc00bd12" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1a9232689f1bb30d1ff175ff8c39c298bb" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>dist</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1a7bc6152c8856adc255f87c77e3eab42f" prot="package" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1a11a91eb488db80bccf9ad2cf249357e8" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1a0cc9a2b39e4f5c92c321058e1e11053b" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1af796a8406b0827e0bef6f2e7bc6f318c" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1afbb1245bf3ef775a3482a9b035a1386f" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1ac2ec5e5b10cf4365301b8eb7e6ad234f" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToVolumeParams_1a20d7b400d76738bf61baac3e707ecff8" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

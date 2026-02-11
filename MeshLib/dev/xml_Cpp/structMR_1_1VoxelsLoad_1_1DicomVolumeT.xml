@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsLoad_1_1DicomVolumeT" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsLoad::DicomVolumeT</compoundname>
+    <includes refid="MRDicom_8h" local="no">MRDicom.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1DicomVolumeT_1a9d975baef9f26c3a77c6769d4b760ac7" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::VoxelsLoad::DicomVolumeT&lt; T &gt;::vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR::VoxelsLoad::DicomVolumeT::vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="60" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1DicomVolumeT_1a41a585b4f3781b67e22daa8ff5b9479d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::VoxelsLoad::DicomVolumeT&lt; T &gt;::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::VoxelsLoad::DicomVolumeT::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="61" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1DicomVolumeT_1a5159934791ea7584f07b333cd28777b3" prot="public" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::VoxelsLoad::DicomVolumeT&lt; T &gt;::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::VoxelsLoad::DicomVolumeT::xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="62" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="59" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VoxelsLoad_1_1DicomVolumeT_1a41a585b4f3781b67e22daa8ff5b9479d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolumeT</scope><name>name</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1DicomVolumeT_1a9d975baef9f26c3a77c6769d4b760ac7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolumeT</scope><name>vol</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1DicomVolumeT_1a5159934791ea7584f07b333cd28777b3" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolumeT</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

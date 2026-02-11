@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRICPEnums_8h" kind="file" language="C++">
+    <compoundname>MRICPEnums.h</compoundname>
+    <includedby refid="MRICP_8h" local="yes">MRICP.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRICP.h</label>
+        <link refid="MRICP_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRICPEnums.h</label>
+        <link refid="MRICPEnums_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMultiwayICP.h</label>
+        <link refid="MRMultiwayICP_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="namespaceMR_1adc079b022ca7581fe4f508ab8f6a80ec" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1adc079b022ca7581fe4f508ab8f6a80ec" kindref="member">ICPMethod</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1adc079b022ca7581fe4f508ab8f6a80eca55f4b4a94111759e08b3acb1acd12b8c" kindref="member">Combined</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9" kindref="member">PointToPoint</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed" kindref="member">PointToPlane</ref><sp/>=<sp/>2<sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677" kindref="member">ICPMode</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677ae69bfcbc43792e36c9ef6daf8e9af890" kindref="member">RigidScale</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef" kindref="member">AnyRigidXf</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677a9dc639d68610e7c72efff69db6d60b18" kindref="member">OrthogonalAxis</ref>,<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae" kindref="member">FixedAxis</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce" kindref="member">TranslationOnly</ref><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94" kindref="member">NotStarted</ref>,<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83a7602769fc0edb10e4b5187dd3ddf5e4e" kindref="member">NotFoundSolution</ref>,<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83a89d18cc81de326d8fc836491777795e0" kindref="member">MaxIterations</ref>,<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83ab6583dfe420a7ba81fa4f7740bd340df" kindref="member">MaxBadIterations</ref>,<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83a233f67a0fc7747cbc3ba87d8708b3791" kindref="member">StopMsdReached</ref><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICPEnums.h"/>
+  </compounddef>
+</doxygen>

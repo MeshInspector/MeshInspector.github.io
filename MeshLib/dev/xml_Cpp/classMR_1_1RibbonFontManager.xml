@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonFontManager" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonFontManager</compoundname>
+    <includes refid="MRRibbonFontManager_8h" local="no">MRRibbonFontManager.h</includes>
+    <innerclass refid="structMR_1_1RibbonFontManager_1_1FontData" prot="private">MR::RibbonFontManager::FontData</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>FontType</name>
+        <qualifiedname>MR::RibbonFontManager::FontType</qualifiedname>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592" prot="public">
+          <name>Small</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4ab1ca34f82e83c52b010f86955f264e05" prot="public">
+          <name>Middle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4a57da4df095766e2b4e9012d34ae8e221" prot="public">
+          <name>SemiBold</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8" prot="public">
+          <name>Icons</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3" prot="public">
+          <name>Big</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c" prot="public">
+          <name>BigSemiBold</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0" prot="public">
+          <name>Headline</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384" prot="public">
+          <name>Monospace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Font types used in current design. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="17" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>FontFile</name>
+        <qualifiedname>MR::RibbonFontManager::FontFile</qualifiedname>
+        <enumvalue id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345" prot="public">
+          <name>Regular</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e" prot="public">
+          <name>RegularSC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccba57da4df095766e2b4e9012d34ae8e221" prot="public">
+          <name>SemiBold</name>
+          <briefdescription>
+<para>Regular with Simple Chinese. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384" prot="public">
+          <name>Monospace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8" prot="public">
+          <name>Icons</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Unique fonts that are used for different FontTypes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1RibbonFontManager_1ab37a19ee9fe77c068e749dc7e8dfd6b2" prot="public" static="no">
+        <type>std::array&lt; std::filesystem::path, size_t(<ref refid="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccbae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">FontFile::Count</ref>)&gt;</type>
+        <definition>using MR::RibbonFontManager::FontFilePaths =  std::array&lt;std::filesystem::path, size_t( FontFile::Count )&gt;</definition>
+        <argsstring></argsstring>
+        <name>FontFilePaths</name>
+        <qualifiedname>MR::RibbonFontManager::FontFilePaths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonFontManager_1a1e5882ffe75768b0e54649771ddbd4ff" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonFontManager_1ab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref></type>
+        <definition>FontFilePaths MR::RibbonFontManager::fontPaths_</definition>
+        <argsstring></argsstring>
+        <name>fontPaths_</name>
+        <qualifiedname>MR::RibbonFontManager::fontPaths_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="77" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonFontManager_1af86da660c66ca55bb28b31e9f1b9e5d5" prot="private" static="no" mutable="no">
+        <type>std::array&lt; FontData, size_t(<ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">FontType::Count</ref>)&gt;</type>
+        <definition>std::array&lt;FontData, size_t( FontType::Count )&gt; MR::RibbonFontManager::fonts_</definition>
+        <argsstring></argsstring>
+        <name>fonts_</name>
+        <qualifiedname>MR::RibbonFontManager::fonts_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="84" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1acf93e10106173992a8391b7e12038700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonFontManager::RibbonFontManager</definition>
+        <argsstring>()</argsstring>
+        <name>RibbonFontManager</name>
+        <qualifiedname>MR::RibbonFontManager::RibbonFontManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="43" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1aef885272e89706ec05cb6ab51b2eb47b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonFontManager::loadAllFonts</definition>
+        <argsstring>(ImWchar *charRanges)</argsstring>
+        <name>loadAllFonts</name>
+        <qualifiedname>MR::RibbonFontManager::loadAllFonts</qualifiedname>
+        <param>
+          <type>ImWchar *</type>
+          <declname>charRanges</declname>
+        </param>
+        <briefdescription>
+<para>load all fonts using in ribbon menu </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="46" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1ad3f9e2f7788079bfaece40298c022f53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API ImFont *</type>
+        <definition>MRVIEWER_API ImFont * MR::RibbonFontManager::getFontByType</definition>
+        <argsstring>(FontType type) const</argsstring>
+        <name>getFontByType</name>
+        <qualifiedname>MR::RibbonFontManager::getFontByType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>get font by font type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="49" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1af67d4ecfff6fa832444a2a214a3f471a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::filesystem::path</type>
+        <definition>MRVIEWER_API std::filesystem::path MR::RibbonFontManager::getMenuFontPath</definition>
+        <argsstring>() const</argsstring>
+        <name>getMenuFontPath</name>
+        <qualifiedname>MR::RibbonFontManager::getMenuFontPath</qualifiedname>
+        <briefdescription>
+<para>get ribbon menu font path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="54" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1aa5736661718edce158b7b07f4beca13e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1RibbonFontManager_1ab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref> &amp;</type>
+        <definition>const FontFilePaths &amp; MR::RibbonFontManager::getAllFontPaths</definition>
+        <argsstring>() const</argsstring>
+        <name>getAllFontPaths</name>
+        <qualifiedname>MR::RibbonFontManager::getAllFontPaths</qualifiedname>
+        <briefdescription>
+<para>returns list of all font paths </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="57" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a7ea173f1a1a258e47371b455d842de8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonFontManager::setNewFontPaths</definition>
+        <argsstring>(const FontFilePaths &amp;paths)</argsstring>
+        <name>setNewFontPaths</name>
+        <qualifiedname>MR::RibbonFontManager::setNewFontPaths</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1RibbonFontManager_1ab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref> &amp;</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets new fonts paths note that it will trigger reload font </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="61" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a0d99ef9d5a6b87aaad1197070ab64af0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>static MRVIEWER_API float MR::RibbonFontManager::getFontSizeByType</definition>
+        <argsstring>(FontType type)</argsstring>
+        <name>getFontSizeByType</name>
+        <qualifiedname>MR::RibbonFontManager::getFontSizeByType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>get font size by font type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="51" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a518edbd9a7eae398440e4c334020dcf5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API ImFont *</type>
+        <definition>static MRVIEWER_API ImFont * MR::RibbonFontManager::getFontByTypeStatic</definition>
+        <argsstring>(FontType type)</argsstring>
+        <name>getFontByTypeStatic</name>
+        <qualifiedname>MR::RibbonFontManager::getFontByTypeStatic</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get font by font type (need to avoid dynamic cast menu to ribbon menu) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="65" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a5007fb2bb8bb0c50e9b8141d7c7b8a1d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="namespaceMR_1a21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref></type>
+        <definition>static MRVIEWER_API FontAndSize MR::RibbonFontManager::getFontAndSizeByTypeStatic</definition>
+        <argsstring>(FontType type)</argsstring>
+        <name>getFontAndSizeByTypeStatic</name>
+        <qualifiedname>MR::RibbonFontManager::getFontAndSizeByTypeStatic</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get font by font type (need to avoid dynamic cast menu to ribbon menu) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="69" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a0d18d71db7c19b02d1b5ad1bfe8f2aa8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::RibbonFontManager::initFontManagerInstance</definition>
+        <argsstring>(RibbonFontManager *ribbonFontManager)</argsstring>
+        <name>initFontManagerInstance</name>
+        <qualifiedname>MR::RibbonFontManager::initFontManagerInstance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref> *</type>
+          <declname>ribbonFontManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialize static holder for easier access to ribbon fonts (need to avoid dynamic cast menu to ribbon menu) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="73" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a48958524a6911a821df8d9ece3ce6c8e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref> *&amp;</type>
+        <definition>static RibbonFontManager *&amp; MR::RibbonFontManager::getFontManagerInstance_</definition>
+        <argsstring>()</argsstring>
+        <name>getFontManagerInstance_</name>
+        <qualifiedname>MR::RibbonFontManager::getFontManagerInstance_</qualifiedname>
+        <briefdescription>
+<para>get pointer to instance of this class (if it exists) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="87" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1ad1013f4757f1d8d8ad9ee4f01ae4609d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonFontManager::updateFontsScaledOffset_</definition>
+        <argsstring>()</argsstring>
+        <name>updateFontsScaledOffset_</name>
+        <qualifiedname>MR::RibbonFontManager::updateFontsScaledOffset_</qualifiedname>
+        <briefdescription>
+<para>calculates font glyph shift </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="90" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontManager_1a51990006b68808337e04835ea87a45e1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonFontManager::loadFont_</definition>
+        <argsstring>(FontType type, const ImWchar *ranges)</argsstring>
+        <name>loadFont_</name>
+        <qualifiedname>MR::RibbonFontManager::loadFont_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const ImWchar *</type>
+          <declname>ranges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="92" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="12" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccb" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>FontFile</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1ab37a19ee9fe77c068e749dc7e8dfd6b2" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>FontFilePaths</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a1e5882ffe75768b0e54649771ddbd4ff" prot="private" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>fontPaths_</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1af86da660c66ca55bb28b31e9f1b9e5d5" prot="private" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>fonts_</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>FontType</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1aa5736661718edce158b7b07f4beca13e" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getAllFontPaths</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a5007fb2bb8bb0c50e9b8141d7c7b8a1d" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getFontAndSizeByTypeStatic</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1ad3f9e2f7788079bfaece40298c022f53" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getFontByType</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a518edbd9a7eae398440e4c334020dcf5" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getFontByTypeStatic</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a48958524a6911a821df8d9ece3ce6c8e" prot="private" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getFontManagerInstance_</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a0d99ef9d5a6b87aaad1197070ab64af0" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getFontSizeByType</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1af67d4ecfff6fa832444a2a214a3f471a" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>getMenuFontPath</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a0d18d71db7c19b02d1b5ad1bfe8f2aa8" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>initFontManagerInstance</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1aef885272e89706ec05cb6ab51b2eb47b" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>loadAllFonts</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a51990006b68808337e04835ea87a45e1" prot="private" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>loadFont_</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1acf93e10106173992a8391b7e12038700" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>RibbonFontManager</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1a7ea173f1a1a258e47371b455d842de8e" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>setNewFontPaths</name></member>
+      <member refid="classMR_1_1RibbonFontManager_1ad1013f4757f1d8d8ad9ee4f01ae4609d" prot="private" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>updateFontsScaledOffset_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

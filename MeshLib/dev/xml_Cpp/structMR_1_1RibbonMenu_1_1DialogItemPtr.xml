@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonMenu_1_1DialogItemPtr" kind="struct" language="C++" prot="protected">
+    <compoundname>MR::RibbonMenu::DialogItemPtr</compoundname>
+    <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1DialogItemPtr_1aeb25a7d0ddadeeeda6f7ca36d711642b" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;RibbonMenuItem&gt; MR::RibbonMenu::DialogItemPtr::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <qualifiedname>MR::RibbonMenu::DialogItemPtr::item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="179" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1DialogItemPtr_1a81cacb5c7aa2d35d0b873c9a48145777" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::DialogItemPtr::dialogPositionFixed</definition>
+        <argsstring></argsstring>
+        <name>dialogPositionFixed</name>
+        <qualifiedname>MR::RibbonMenu::DialogItemPtr::dialogPositionFixed</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>this flag is needed to correctly fix position of <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> dialog (temporary, while plugin dialogs are floating in viewport) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="181" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="177" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="178" bodyend="182"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonMenu_1_1DialogItemPtr_1a81cacb5c7aa2d35d0b873c9a48145777" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DialogItemPtr</scope><name>dialogPositionFixed</name></member>
+      <member refid="structMR_1_1RibbonMenu_1_1DialogItemPtr_1aeb25a7d0ddadeeeda6f7ca36d711642b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DialogItemPtr</scope><name>item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

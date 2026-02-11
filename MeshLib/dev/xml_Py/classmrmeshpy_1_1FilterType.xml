@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FilterType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FilterType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FilterType_1a67291d8fe4412bcb4cbcb1a74c2ac583" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FilterType::Discrete</definition>
+        <argsstring></argsstring>
+        <name>Discrete</name>
+        <qualifiedname>mrmeshpy.FilterType.Discrete</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FilterType" kindref="compound">FilterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FilterType_1ad70a7f599460b1afa38190be85c5dfa7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FilterType::Linear</definition>
+        <argsstring></argsstring>
+        <name>Linear</name>
+        <qualifiedname>mrmeshpy.FilterType.Linear</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FilterType" kindref="compound">FilterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19890" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FilterType_1ab6da97060eb8f22c1e9141215103d891" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FilterType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FilterType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FilterType" kindref="compound">FilterType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19891" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a6aa791e30c54a36995ef23f625095123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FilterType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FilterType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19892" bodyend="19893"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a2adf5512e56f803e54a5e3cf888a111a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FilterType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FilterType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19894" bodyend="19895"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1afc582bba5e28563ac00664a7a08a871d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FilterType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FilterType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19896" bodyend="19897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a6de9688b9c9a1db644983f488cc48d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FilterType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FilterType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19898" bodyend="19899"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a401f0848423622632d0a42cc9073b4ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FilterType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FilterType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19900" bodyend="19901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a9506265edc0716e4a82d3b9187f096a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FilterType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FilterType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19902" bodyend="19903"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1ab071689ce8550cd765bc48a23aa47099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FilterType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FilterType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19904" bodyend="19905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a9c1c5ae85d5c29a28a7ac95d3bfa7593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FilterType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FilterType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19906" bodyend="19907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1aff58d67c24d81be46204316954496e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FilterType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FilterType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19908" bodyend="19909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a3b5f1385658cb8e2d24684ef5af3a7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FilterType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FilterType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19910" bodyend="19911"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1a2fe8cb1fc0fc03e976386223458c69be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FilterType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FilterType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19913" bodyend="19914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FilterType_1ac4bc61d46e6d3d0a20f3f5e413c9c1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FilterType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FilterType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19916" bodyend="19917"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Linear
+
+  Discrete
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FilterType</label>
+        <link refid="classmrmeshpy_1_1FilterType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Discrete</edgelabel>
+          <edgelabel>Linear</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19881" bodyend="19917"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FilterType_1a6aa791e30c54a36995ef23f625095123" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a2adf5512e56f803e54a5e3cf888a111a" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1afc582bba5e28563ac00664a7a08a871d" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a6de9688b9c9a1db644983f488cc48d4f" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a401f0848423622632d0a42cc9073b4ae" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a9506265edc0716e4a82d3b9187f096a9" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1ab6da97060eb8f22c1e9141215103d891" prot="private" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1ab071689ce8550cd765bc48a23aa47099" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a9c1c5ae85d5c29a28a7ac95d3bfa7593" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1aff58d67c24d81be46204316954496e0c" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a3b5f1385658cb8e2d24684ef5af3a7e8" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a67291d8fe4412bcb4cbcb1a74c2ac583" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>Discrete</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1ad70a7f599460b1afa38190be85c5dfa7" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>Linear</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1a2fe8cb1fc0fc03e976386223458c69be" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FilterType_1ac4bc61d46e6d3d0a20f3f5e413c9c1d3" prot="public" virt="non-virtual"><scope>mrmeshpy::FilterType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

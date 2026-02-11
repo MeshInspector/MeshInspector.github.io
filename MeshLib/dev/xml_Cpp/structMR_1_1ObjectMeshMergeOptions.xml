@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjectMeshMergeOptions" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjectMeshMergeOptions</compoundname>
+    <includes refid="MRObjectMesh_8h" local="no">MRObjectMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshMergeOptions_1a768ff92a1b363f68475e9d27cfc1688a" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; AffineXf3f &gt; *</type>
+        <definition>const std::vector&lt;AffineXf3f&gt;* MR::ObjectMeshMergeOptions::overrideXfs</definition>
+        <argsstring></argsstring>
+        <name>overrideXfs</name>
+        <qualifiedname>MR::ObjectMeshMergeOptions::overrideXfs</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>if not nullptr: merged object will take overridden transform for each object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" line="62" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>options to better control <ref refid="namespaceMR_1ad8bfcdd27aa7037f5d7fa7b17f725c21" kindref="member">MR::merge</ref> function </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" line="59" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" bodystart="60" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjectMeshMergeOptions_1a768ff92a1b363f68475e9d27cfc1688a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>overrideXfs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

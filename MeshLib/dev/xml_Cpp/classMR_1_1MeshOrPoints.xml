@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshOrPoints" kind="class" language="C++" prot="public">
+    <compoundname>MR::MeshOrPoints</compoundname>
+    <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
+    <innerclass refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" prot="public">MR::MeshOrPoints::ProjectionResult</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" prot="public" static="no">
+        <type>std::function&lt; bool(const Vector3f &amp;p, <ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref> &amp;res)&gt;</type>
+        <definition>using MR::MeshOrPoints::LimitedProjectorFunc =  std::function&lt;bool( const Vector3f&amp; p, ProjectionResult&amp; res )&gt;</definition>
+        <argsstring></argsstring>
+        <name>LimitedProjectorFunc</name>
+        <qualifiedname>MR::MeshOrPoints::LimitedProjectorFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1MeshOrPoints_1af2ba45f302b3ec1eb683fd80dee114cc" prot="private" static="no" mutable="no">
+        <type>std::variant&lt; MeshPart, <ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref> &gt;</type>
+        <definition>std::variant&lt;MeshPart, PointCloudPart&gt; MR::MeshOrPoints::var_</definition>
+        <argsstring></argsstring>
+        <name>var_</name>
+        <qualifiedname>MR::MeshOrPoints::var_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="101" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a4b19905136ab6d31a445cc3884ab0c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshOrPoints::MeshOrPoints</definition>
+        <argsstring>(const MeshPart &amp;mp)</argsstring>
+        <name>MeshOrPoints</name>
+        <qualifiedname>MR::MeshOrPoints::MeshOrPoints</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a1ef5bfca52ac8e1892322d7cf4585b5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshOrPoints::MeshOrPoints</definition>
+        <argsstring>(const PointCloudPart &amp;pcp)</argsstring>
+        <name>MeshOrPoints</name>
+        <qualifiedname>MR::MeshOrPoints::MeshOrPoints</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref> &amp;</type>
+          <declname>pcp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1af9cbf91d93d22bcc4e487a573b2b8067" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshOrPoints::MeshOrPoints</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>MeshOrPoints</name>
+        <qualifiedname>MR::MeshOrPoints::MeshOrPoints</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>these constructors are redundant for C++, but important for python bindings </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1abe1af15504d425b2e6633291ccae6828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshOrPoints::MeshOrPoints</definition>
+        <argsstring>(const PointCloud &amp;pc)</argsstring>
+        <name>MeshOrPoints</name>
+        <qualifiedname>MR::MeshOrPoints::MeshOrPoints</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a058b67c8a42bd8837a6bbe4be06bd4cf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const MeshPart *</type>
+        <definition>const MeshPart * MR::MeshOrPoints::asMeshPart</definition>
+        <argsstring>() const</argsstring>
+        <name>asMeshPart</name>
+        <qualifiedname>MR::MeshOrPoints::asMeshPart</qualifiedname>
+        <briefdescription>
+<para>if this object holds a mesh part then returns pointer on it, otherwise returns nullptr </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="28" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a309a7ce32b89e73177a05d07a93d3103" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref> *</type>
+        <definition>const PointCloudPart * MR::MeshOrPoints::asPointCloudPart</definition>
+        <argsstring>() const</argsstring>
+        <name>asPointCloudPart</name>
+        <qualifiedname>MR::MeshOrPoints::asPointCloudPart</qualifiedname>
+        <briefdescription>
+<para>if this object holds a point cloud part then returns pointer on it, otherwise returns nullptr </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="31" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="161" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a735838d295350004f02283f8429fa620" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
+        <definition>MRMESH_API Box3f MR::MeshOrPoints::getObjBoundingBox</definition>
+        <argsstring>() const</argsstring>
+        <name>getObjBoundingBox</name>
+        <qualifiedname>MR::MeshOrPoints::getObjBoundingBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh); implemented via obj.getAABBTree() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="35" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1aec797ad241ba4410f73274ba5e52c51e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::MeshOrPoints::cacheAABBTree</definition>
+        <argsstring>() const</argsstring>
+        <name>cacheAABBTree</name>
+        <qualifiedname>MR::MeshOrPoints::cacheAABBTree</qualifiedname>
+        <briefdescription>
+<para>if <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> is already built does nothing otherwise builds and caches it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="38" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1af68f336dca5c1cbf834ab0c65fc38036" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
+        <definition>MRMESH_API Box3f MR::MeshOrPoints::computeBoundingBox</definition>
+        <argsstring>(const AffineXf3f *toWorld=nullptr) const</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR::MeshOrPoints::computeBoundingBox</qualifiedname>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>toWorld</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="42" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1abbcab0078d3323160184019e7850bceb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::MeshOrPoints::accumulate</definition>
+        <argsstring>(PointAccumulator &amp;accum, const AffineXf3f *xf=nullptr) const</argsstring>
+        <name>accumulate</name>
+        <qualifiedname>MR::MeshOrPoints::accumulate</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> &amp;</type>
+          <declname>accum</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Adds in existing <ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref> the elements of the contained object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="45" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1aa0eded9546a4d5a192d0222adb7ebc21" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; VertBitSet &gt;</type>
+        <definition>MRMESH_API std::optional&lt; VertBitSet &gt; MR::MeshOrPoints::pointsGridSampling</definition>
+        <argsstring>(float voxelSize, size_t maxVoxels=500000, const ProgressCallback &amp;cb={}) const</argsstring>
+        <name>pointsGridSampling</name>
+        <qualifiedname>MR::MeshOrPoints::pointsGridSampling</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>maxVoxels</declname>
+          <defval>500000</defval>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs sampling of vertices or points; subdivides bounding box of the object on voxels of approximately given size and returns at most one vertex per voxel; voxelSize is automatically increased to avoid more voxels than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxVoxels;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if voxelSize == 0 then all valid points are returned; returns std::nullopt if it was terminated by the callback </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="52" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a6c2fe1dcde2dbadeef24818952755317" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const VertCoords &amp;</type>
+        <definition>MRMESH_API const VertCoords &amp; MR::MeshOrPoints::points</definition>
+        <argsstring>() const</argsstring>
+        <name>points</name>
+        <qualifiedname>MR::MeshOrPoints::points</qualifiedname>
+        <briefdescription>
+<para>gives access to points-vector (which can include invalid points as well) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="56" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a825ff27e36144d02b12f1880d863e32b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const VertBitSet &amp;</type>
+        <definition>MRMESH_API const VertBitSet &amp; MR::MeshOrPoints::validPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>validPoints</name>
+        <qualifiedname>MR::MeshOrPoints::validPoints</qualifiedname>
+        <briefdescription>
+<para>gives access to bit set of valid points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="59" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a864d2d2aec501a7ccac038912909bef9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::function&lt; Vector3f(VertId)&gt;</type>
+        <definition>MRMESH_API std::function&lt; Vector3f(VertId)&gt; MR::MeshOrPoints::normals</definition>
+        <argsstring>() const</argsstring>
+        <name>normals</name>
+        <qualifiedname>MR::MeshOrPoints::normals</qualifiedname>
+        <briefdescription>
+<para>returns normals generating function: VertId-&gt;normal (or empty for point cloud without normals) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="62" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a1e980c7ce8ce348fcb921d6e1feb63c6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::function&lt; float(VertId)&gt;</type>
+        <definition>MRMESH_API std::function&lt; float(VertId)&gt; MR::MeshOrPoints::weights</definition>
+        <argsstring>() const</argsstring>
+        <name>weights</name>
+        <qualifiedname>MR::MeshOrPoints::weights</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns weights generating function: VertId-&gt;float: for mesh it is double area of surrounding triangles, and for point cloud - nothing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="66" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1a0281d9d51c1ee7b1b2dbd57c5e97414c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::function&lt; <ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref>(const Vector3f &amp;)&gt;</type>
+        <definition>MRMESH_API std::function&lt; ProjectionResult(const Vector3f &amp;)&gt; MR::MeshOrPoints::projector</definition>
+        <argsstring>() const</argsstring>
+        <name>projector</name>
+        <qualifiedname>MR::MeshOrPoints::projector</qualifiedname>
+        <briefdescription>
+<para>returns a function that finds projection (closest) points on this: Vector3f-&gt;<ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="92" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOrPoints_1adbd1b394a6735a416ceeb13ef4ac86eb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">LimitedProjectorFunc</ref></type>
+        <definition>MRMESH_API LimitedProjectorFunc MR::MeshOrPoints::limitedProjector</definition>
+        <argsstring>() const</argsstring>
+        <name>limitedProjector</name>
+        <qualifiedname>MR::MeshOrPoints::limitedProjector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns a function that updates previously known projection (closest) points on this, the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input The function returns true if the update has taken place. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="98" column="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class can hold either mesh part or point cloud. It is used for generic algorithms operating with either of them </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="18" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshOrPoints_1abbcab0078d3323160184019e7850bceb" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>accumulate</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a058b67c8a42bd8837a6bbe4be06bd4cf" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>asMeshPart</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a309a7ce32b89e73177a05d07a93d3103" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>asPointCloudPart</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1aec797ad241ba4410f73274ba5e52c51e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>cacheAABBTree</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1af68f336dca5c1cbf834ab0c65fc38036" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a735838d295350004f02283f8429fa620" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>getObjBoundingBox</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1adbd1b394a6735a416ceeb13ef4ac86eb" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>limitedProjector</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>LimitedProjectorFunc</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a4b19905136ab6d31a445cc3884ab0c1e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a1ef5bfca52ac8e1892322d7cf4585b5b" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1af9cbf91d93d22bcc4e487a573b2b8067" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1abe1af15504d425b2e6633291ccae6828" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a864d2d2aec501a7ccac038912909bef9" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>normals</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a6c2fe1dcde2dbadeef24818952755317" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>points</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1aa0eded9546a4d5a192d0222adb7ebc21" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>pointsGridSampling</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a0281d9d51c1ee7b1b2dbd57c5e97414c" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>projector</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a825ff27e36144d02b12f1880d863e32b" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>validPoints</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1af2ba45f302b3ec1eb683fd80dee114cc" prot="private" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>var_</name></member>
+      <member refid="classMR_1_1MeshOrPoints_1a1e980c7ce8ce348fcb921d6e1feb63c6" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

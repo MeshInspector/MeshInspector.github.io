@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DoubleOffsetSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DoubleOffsetSettings</compoundname>
+    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1a2ea174fec10de72e248dbb0a5e1073d8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DoubleOffsetSettings::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::DoubleOffsetSettings::voxelSize</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the size of voxel in intermediate voxel grid representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="158" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1ab41301545b4f7cbc6d8c531442b1965c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DoubleOffsetSettings::offsetA</definition>
+        <argsstring></argsstring>
+        <name>offsetA</name>
+        <qualifiedname>MR::DoubleOffsetSettings::offsetA</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the amount of first offset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="161" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1a53b1276a0dd7d52159b86fe6633c89f4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DoubleOffsetSettings::offsetB</definition>
+        <argsstring></argsstring>
+        <name>offsetB</name>
+        <qualifiedname>MR::DoubleOffsetSettings::offsetB</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the amount of second offset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="164" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1aa5cfa224b05a400e1911699259e1b549" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DoubleOffsetSettings::adaptivity</definition>
+        <argsstring></argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>MR::DoubleOffsetSettings::adaptivity</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="167" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1a1cadab99fc35f1301c687dea94206707" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;IFastWindingNumber&gt; MR::DoubleOffsetSettings::fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR::DoubleOffsetSettings::fwn</qualifiedname>
+        <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="170" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1a6efd8487cfb1467ad4247b7cea3fc74c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DoubleOffsetSettings::windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR::DoubleOffsetSettings::windingNumberThreshold</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1aee042c47f37e1c7b083569430a185ce3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DoubleOffsetSettings::windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR::DoubleOffsetSettings::windingNumberBeta</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DoubleOffsetSettings_1a7338b38b26ada80c399b32ba147f7ac1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::DoubleOffsetSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::DoubleOffsetSettings::progress</qualifiedname>
+        <briefdescription>
+<para>to report algorithm&apos;s progress and to cancel it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="180" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="156" bodyend="181"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DoubleOffsetSettings_1aa5cfa224b05a400e1911699259e1b549" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>adaptivity</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1a1cadab99fc35f1301c687dea94206707" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>fwn</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1ab41301545b4f7cbc6d8c531442b1965c" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>offsetA</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1a53b1276a0dd7d52159b86fe6633c89f4" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>offsetB</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1a7338b38b26ada80c399b32ba147f7ac1" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1a2ea174fec10de72e248dbb0a5e1073d8" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>voxelSize</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1aee042c47f37e1c7b083569430a185ce3" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="structMR_1_1DoubleOffsetSettings_1a6efd8487cfb1467ad4247b7cea3fc74c" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

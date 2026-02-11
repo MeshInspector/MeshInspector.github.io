@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeBoundarySelectionHistoryAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeBoundarySelectionHistoryAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1aeab5e009a950591d4004c74d8a38b2d1" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeBoundarySelectionHistoryAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="156" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1a5780218115e938759c21ee8472c84ae2" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1BoundarySelectionWidget" kindref="compound">BoundarySelectionWidget</ref> &amp;</type>
+        <definition>BoundarySelectionWidget&amp; MR::ChangeBoundarySelectionHistoryAction::widget_</definition>
+        <argsstring></argsstring>
+        <name>widget_</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::widget_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="157" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1a964349d34d1fa3b4003c62f031195e8a" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMeshHolder&gt; MR::ChangeBoundarySelectionHistoryAction::prevSelectedHoleObject_</definition>
+        <argsstring></argsstring>
+        <name>prevSelectedHoleObject_</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::prevSelectedHoleObject_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="158" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1aea0d4d195b739777c19523bb91780ba0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMeshHolder&gt; MR::ChangeBoundarySelectionHistoryAction::nextSelectedHoleObject_</definition>
+        <argsstring></argsstring>
+        <name>nextSelectedHoleObject_</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::nextSelectedHoleObject_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="159" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1ae26b3535b72d82fa01ecff56b0eb3f0e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ChangeBoundarySelectionHistoryAction::prevSelectedHoleIndex_</definition>
+        <argsstring></argsstring>
+        <name>prevSelectedHoleIndex_</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::prevSelectedHoleIndex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="160" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1a2a13c46ae8b35f24e4d21f52b9015143" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ChangeBoundarySelectionHistoryAction::nextSelectedHoleIndex_</definition>
+        <argsstring></argsstring>
+        <name>nextSelectedHoleIndex_</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::nextSelectedHoleIndex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="161" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1ab6b0066b48e0db5030ebf1cdeeec5d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeBoundarySelectionHistoryAction::ChangeBoundarySelectionHistoryAction</definition>
+        <argsstring>(std::string name, BoundarySelectionWidget &amp;widget, std::shared_ptr&lt; ObjectMeshHolder &gt; object, int index)</argsstring>
+        <name>ChangeBoundarySelectionHistoryAction</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::ChangeBoundarySelectionHistoryAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BoundarySelectionWidget" kindref="compound">BoundarySelectionWidget</ref> &amp;</type>
+          <declname>widget</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> &gt;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="145" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1a87cb69e6e43f31608ba18d1577ce6303" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeBoundarySelectionHistoryAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+<para><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="149" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1a7d6c878105bdd69d6bbb3524c5fc8243" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MR::ChangeBoundarySelectionHistoryAction::action</definition>
+        <argsstring>(Type type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="151" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeBoundarySelectionHistoryAction_1afaf2a1dbc8066a04913ea855a9488ca1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t MR::ChangeBoundarySelectionHistoryAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangeBoundarySelectionHistoryAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="153" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeBoundarySelectionHistoryAction</label>
+        <link refid="classMR_1_1ChangeBoundarySelectionHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeBoundarySelectionHistoryAction</label>
+        <link refid="classMR_1_1ChangeBoundarySelectionHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="143" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a7d6c878105bdd69d6bbb3524c5fc8243" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1ab6b0066b48e0db5030ebf1cdeeec5d4f" prot="public" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>ChangeBoundarySelectionHistoryAction</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1afaf2a1dbc8066a04913ea855a9488ca1" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a87cb69e6e43f31608ba18d1577ce6303" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1aeab5e009a950591d4004c74d8a38b2d1" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>name_</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a2a13c46ae8b35f24e4d21f52b9015143" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>nextSelectedHoleIndex_</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1aea0d4d195b739777c19523bb91780ba0" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>nextSelectedHoleObject_</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1ae26b3535b72d82fa01ecff56b0eb3f0e" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>prevSelectedHoleIndex_</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a964349d34d1fa3b4003c62f031195e8a" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>prevSelectedHoleObject_</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a5780218115e938759c21ee8472c84ae2" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>widget_</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

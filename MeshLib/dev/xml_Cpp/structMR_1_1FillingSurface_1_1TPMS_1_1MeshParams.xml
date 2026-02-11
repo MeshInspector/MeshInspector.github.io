@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillingSurface::TPMS::MeshParams</compoundname>
+    <basecompoundref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" prot="public" virt="non-virtual">MR::FillingSurface::TPMS::VolumeParams</basecompoundref>
+    <includes refid="MRFillingSurface_8h" local="no">MRFillingSurface.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a6124f92134e89389bcb88b08b0a0ca1b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FillingSurface::TPMS::MeshParams::iso</definition>
+        <argsstring></argsstring>
+        <name>iso</name>
+        <qualifiedname>MR::FillingSurface::TPMS::MeshParams::iso</qualifiedname>
+        <initializer>= 0.6f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="48" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a23e21cd3fa7230a5847e45b9d3d9c99a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FillingSurface::TPMS::MeshParams::decimate</definition>
+        <argsstring></argsstring>
+        <name>decimate</name>
+        <qualifiedname>MR::FillingSurface::TPMS::MeshParams::decimate</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="49" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FillingSurface::TPMS::MeshParams</label>
+        <link refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FillingSurface::TPMS::VolumeParams</label>
+        <link refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FillingSurface::TPMS::MeshParams</label>
+        <link refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FillingSurface::TPMS::VolumeParams</label>
+        <link refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a23e21cd3fa7230a5847e45b9d3d9c99a" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>decimate</name></member>
+      <member refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aceded37dcd711c7cd1f2aed01f5e21a6" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>frequency</name></member>
+      <member refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a6124f92134e89389bcb88b08b0a0ca1b" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>iso</name></member>
+      <member refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a99c86ed6bab979519ec1b5ce2410ee6c" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>resolution</name></member>
+      <member refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ab212b169498c626b1686c8bd5897e773" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DepthFunction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DepthFunction</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1a6be27a8c9c9823082331fb328717dcfe" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::Always</definition>
+        <argsstring></argsstring>
+        <name>Always</name>
+        <qualifiedname>mrmeshpy.DepthFunction.Always</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1ae5583f684e8cc35d3f6fbe4cf18cfaf7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <qualifiedname>mrmeshpy.DepthFunction.Default</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1a50e45a76463b3c6989a23080622554db" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::Equal</definition>
+        <argsstring></argsstring>
+        <name>Equal</name>
+        <qualifiedname>mrmeshpy.DepthFunction.Equal</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1a74544b8a0235a69847a6ecb5824c8f85" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::Greater</definition>
+        <argsstring></argsstring>
+        <name>Greater</name>
+        <qualifiedname>mrmeshpy.DepthFunction.Greater</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1afc0c8b8c58f50c7d3b1928bc3caa7542" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::GreaterOrEqual</definition>
+        <argsstring></argsstring>
+        <name>GreaterOrEqual</name>
+        <qualifiedname>mrmeshpy.DepthFunction.GreaterOrEqual</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1aaa7bf10ad24f3245526a02237fbef7ba" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::Less</definition>
+        <argsstring></argsstring>
+        <name>Less</name>
+        <qualifiedname>mrmeshpy.DepthFunction.Less</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12704" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1ae0c8e3d2d26bd4f4bbe6d14173447b80" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::LessOrEqual</definition>
+        <argsstring></argsstring>
+        <name>LessOrEqual</name>
+        <qualifiedname>mrmeshpy.DepthFunction.LessOrEqual</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1abebcab8f3ded5fc9b83cea15568b83f2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::Never</definition>
+        <argsstring></argsstring>
+        <name>Never</name>
+        <qualifiedname>mrmeshpy.DepthFunction.Never</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12706" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1a80546d4075f13ec78e8967a28d6485d4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::NotEqual</definition>
+        <argsstring></argsstring>
+        <name>NotEqual</name>
+        <qualifiedname>mrmeshpy.DepthFunction.NotEqual</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12707" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DepthFunction_1a0b506d9ebb63aa10148b90f8a1f245b8" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DepthFunction::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12708" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1ad227d62addfecbd68d0c0c8c6c95d8a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__and__</definition>
+        <argsstring>(self, DepthFunction b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__and__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12709" bodyend="12710"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1af019ab3f10ef4254101411e19d2cd33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DepthFunction.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12711" bodyend="12712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a80eb933acbe6565f2182de999588391a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DepthFunction.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12713" bodyend="12714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a981d93d7ca589681f88570c315a3ed63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DepthFunction.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12715" bodyend="12716"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a4079f3c1d887b90ef0e17abc4a51a727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__iand__</definition>
+        <argsstring>(self, DepthFunction b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__iand__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12717" bodyend="12718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a6597ba905cad3815cf48d90dee6c50e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__imatmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12719" bodyend="12720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a2015c49672a0a24dacd9d6e2bb106d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DepthFunction.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12721" bodyend="12722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1aee6f01be92e5247d427cf8fcda04df55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DepthFunction.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12723" bodyend="12724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a75bcfe2bbf1608e35eba63212f24b1b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DepthFunction.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12725" bodyend="12726"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a4b53a0e4e3f63c3e626404778d24c90c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__invert__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__invert__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__invert__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12727" bodyend="12728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a8fa22621b4273fbaad57f91a0f6ecf1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__ior__</definition>
+        <argsstring>(self, DepthFunction b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__ior__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12729" bodyend="12730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1aa7aa77494fe64daa71f6ea3377200622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__mul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12731" bodyend="12732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a7ddbfc7ec591e66354f88c55639d7f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DepthFunction.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12733" bodyend="12734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a340b9095d28b9d91d0e896da59df1db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__or__</definition>
+        <argsstring>(self, DepthFunction b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__or__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12735" bodyend="12736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1ad6033df47f66a9a98cc8380fe578d03d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DepthFunction.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12737" bodyend="12738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a32f8e3b66a50aae7c2e86ee5d0d38a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DepthFunction" kindref="compound">DepthFunction</ref></type>
+        <definition> DepthFunction mrmeshpy.DepthFunction.__rmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12739" bodyend="12740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1afcb30f7a3bc140d125011b11b0cd043d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DepthFunction.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12741" bodyend="12742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1af89049017ae24f7c183017265fda532b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DepthFunction.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.DepthFunction.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12743" bodyend="12744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1aaef97926e9f5278828ea4a6929d1de14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DepthFunction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.DepthFunction.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12746" bodyend="12747"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DepthFunction_1a013eb5add510c8e7c23bce9275b21753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DepthFunction.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.DepthFunction.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12749" bodyend="12750"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Never
+
+  Less
+
+  Equal
+
+  Greater
+
+  LessOrEqual
+
+  GreaterOrEqual
+
+  NotEqual
+
+  Always
+
+  Default : usually &quot;Less&quot; but may differ for different object types
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DepthFunction</label>
+        <link refid="classmrmeshpy_1_1DepthFunction"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Always</edgelabel>
+          <edgelabel>Default</edgelabel>
+          <edgelabel>Equal</edgelabel>
+          <edgelabel>Greater</edgelabel>
+          <edgelabel>GreaterOrEqual</edgelabel>
+          <edgelabel>Less</edgelabel>
+          <edgelabel>LessOrEqual</edgelabel>
+          <edgelabel>Never</edgelabel>
+          <edgelabel>NotEqual</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12677" bodyend="12750"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DepthFunction_1ad227d62addfecbd68d0c0c8c6c95d8a0" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1af019ab3f10ef4254101411e19d2cd33f" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a80eb933acbe6565f2182de999588391a" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a981d93d7ca589681f88570c315a3ed63" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a4079f3c1d887b90ef0e17abc4a51a727" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a6597ba905cad3815cf48d90dee6c50e4" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a2015c49672a0a24dacd9d6e2bb106d4c" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1aee6f01be92e5247d427cf8fcda04df55" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a75bcfe2bbf1608e35eba63212f24b1b5" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a4b53a0e4e3f63c3e626404778d24c90c" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__invert__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a8fa22621b4273fbaad57f91a0f6ecf1a" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a0b506d9ebb63aa10148b90f8a1f245b8" prot="private" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1aa7aa77494fe64daa71f6ea3377200622" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a7ddbfc7ec591e66354f88c55639d7f20" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a340b9095d28b9d91d0e896da59df1db8" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1ad6033df47f66a9a98cc8380fe578d03d" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a32f8e3b66a50aae7c2e86ee5d0d38a74" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1afcb30f7a3bc140d125011b11b0cd043d" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1af89049017ae24f7c183017265fda532b" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a6be27a8c9c9823082331fb328717dcfe" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>Always</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1ae5583f684e8cc35d3f6fbe4cf18cfaf7" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>Default</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a50e45a76463b3c6989a23080622554db" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>Equal</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a74544b8a0235a69847a6ecb5824c8f85" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>Greater</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1afc0c8b8c58f50c7d3b1928bc3caa7542" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>GreaterOrEqual</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1aaa7bf10ad24f3245526a02237fbef7ba" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>Less</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1ae0c8e3d2d26bd4f4bbe6d14173447b80" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>LessOrEqual</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1aaef97926e9f5278828ea4a6929d1de14" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1abebcab8f3ded5fc9b83cea15568b83f2" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>Never</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a80546d4075f13ec78e8967a28d6485d4" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>NotEqual</name></member>
+      <member refid="classmrmeshpy_1_1DepthFunction_1a013eb5add510c8e7c23bce9275b21753" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

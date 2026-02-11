@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::WeightedShell::ParametersBase</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric" prot="public" virt="non-virtual">mrmeshpy.WeightedShell.ParametersMetric</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" prot="public" virt="non-virtual">mrmeshpy.WeightedShell.ParametersRegions</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a255fd84d0e6a31967889b535eea1ad8b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.ParametersBase::_offsetof_numLayers</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_numLayers</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase._offsetof_numLayers</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a83f2ffef7c61f3640e62169c15a77583" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.ParametersBase::_offsetof_offset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offset</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase._offsetof_offset</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1afad57b9bf3d7e46fc37565ccf45c8b56" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.ParametersBase::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase._offsetof_progress</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a61219184ddeebc28f1a92880709176f3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.ParametersBase::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase._offsetof_voxelSize</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74336" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a273826f1b18954eb98fec4324c3317e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74339" bodyend="74340"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ab135e45902111d6bca59f5d51ec75551" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" kindref="compound">WeightedShell.ParametersBase</ref></type>
+        <definition> WeightedShell.ParametersBase mrmeshpy.WeightedShell.ParametersBase.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a172c68cb351b04525dd234521ee25a8e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a172c68cb351b04525dd234521ee25a8e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74343" bodyend="74344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ab135e45902111d6bca59f5d51ec75551" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" kindref="compound">WeightedShell.ParametersBase</ref></type>
+        <definition> WeightedShell.ParametersBase mrmeshpy.WeightedShell.ParametersBase.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a172c68cb351b04525dd234521ee25a8e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a172c68cb351b04525dd234521ee25a8e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a72dbe3c619eadeca3edb29675b9d83c0">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74347" bodyend="74348"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a58c914e518fc37266fd95d4eb99cdef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74350" bodyend="74351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a17d001bababe881e536282b3a0eff7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.__init__</definition>
+        <argsstring>(self, WeightedShell.ParametersBase arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" kindref="compound">WeightedShell.ParametersBase</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74353" bodyend="74356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a9d02e97a48c74697e006ff77deae70cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.__init__</definition>
+        <argsstring>(self, float offset, float voxelSize, float numLayers, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>numLayers</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74358" bodyend="74361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1aef8cfda6e20f57b0465199c2e6e295c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.WeightedShell.ParametersBase.numLayers</definition>
+        <argsstring>(self)</argsstring>
+        <name>numLayers</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.numLayers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>number of voxels to compute near the offset (should be left default unless used for debugging)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74363" bodyend="74366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a997dc8d3f1e3c94f6124bc772e111d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.numLayers</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>numLayers</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.numLayers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74368" bodyend="74369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1abe571c0246244d48c6dd663878b471d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.WeightedShell.ParametersBase.offset</definition>
+        <argsstring>(self)</argsstring>
+        <name>offset</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.offset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>build iso-surface of minimal distance to points corresponding to this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74371" bodyend="74374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ac25aeb4ffa8984fca3466b567b93364d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.offset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offset</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.offset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74376" bodyend="74377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1aa660ef1107b9f1ae201fe81035c5e5e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.WeightedShell.ParametersBase.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74379" bodyend="74382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a9d258574c52e5f830dbfb52e54cf8b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74384" bodyend="74385"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a4bbab34047ebfa5bc48eebbbf608d8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.WeightedShell.ParametersBase.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Size of voxel in grid conversions;
+The user is responsible for setting some positive value here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74387" bodyend="74391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a7a556f60afafc2c9d588559cdf996cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersBase.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74393" bodyend="74395"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::WeightedShell::ParametersBase
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.WeightedShell.ParametersBase</label>
+        <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.WeightedShell.ParametersMetric</label>
+        <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.WeightedShell.ParametersRegions</label>
+        <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.WeightedShell.ParametersBase</label>
+        <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_numLayers</edgelabel>
+          <edgelabel>_offsetof_offset</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74329" bodyend="74394"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a273826f1b18954eb98fec4324c3317e2" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a58c914e518fc37266fd95d4eb99cdef6" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a17d001bababe881e536282b3a0eff7bc" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a9d02e97a48c74697e006ff77deae70cc" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a255fd84d0e6a31967889b535eea1ad8b" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>_offsetof_numLayers</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a83f2ffef7c61f3640e62169c15a77583" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>_offsetof_offset</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1afad57b9bf3d7e46fc37565ccf45c8b56" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a61219184ddeebc28f1a92880709176f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1aef8cfda6e20f57b0465199c2e6e295c6" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>numLayers</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a997dc8d3f1e3c94f6124bc772e111d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>numLayers</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1abe571c0246244d48c6dd663878b471d4" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ac25aeb4ffa8984fca3466b567b93364d" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ab135e45902111d6bca59f5d51ec75551" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1ab135e45902111d6bca59f5d51ec75551" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1aa660ef1107b9f1ae201fe81035c5e5e2" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a9d258574c52e5f830dbfb52e54cf8b6c" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a4bbab34047ebfa5bc48eebbbf608d8b7" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a7a556f60afafc2c9d588559cdf996cd2" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

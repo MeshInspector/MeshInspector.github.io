@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ProjectAttributeParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::ProjectAttributeParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ProjectAttributeParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ProjectAttributeParams_1a0cca373f3d575e5ed3d60bdb1c5f20f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MR.MeshProjectionTransforms</ref></type>
+        <definition>new unsafe MR.MeshProjectionTransforms MR.ProjectAttributeParams.xfs</definition>
+        <argsstring></argsstring>
+        <name>xfs</name>
+        <qualifiedname>MR.ProjectAttributeParams.xfs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="114" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ProjectAttributeParams_1a42fe2d84844f85dafd2e64cc05ae56b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ProjectAttributeParams.progressCb</definition>
+        <argsstring></argsstring>
+        <name>progressCb</name>
+        <qualifiedname>MR.ProjectAttributeParams.progressCb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="116" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1a4dd9869847118e2a58071a0d42c15d24" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ProjectAttributeParams.ProjectAttributeParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ProjectAttributeParams</name>
+        <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="142" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="142" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ProjectAttributeParams.ProjectAttributeParams</definition>
+        <argsstring>()</argsstring>
+        <name>ProjectAttributeParams</name>
+        <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1a87931817869fb0b1d17efdc0a1410b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ProjectAttributeParams.ProjectAttributeParams</definition>
+        <argsstring>(MR.Const_MeshProjectionTransforms xfs, MR.Std._ByValue_Function_BoolFuncFromFloat progressCb)</argsstring>
+        <name>ProjectAttributeParams</name>
+        <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
+        <param>
+          <type>MR.Const_MeshProjectionTransforms</type>
+          <declname>xfs</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progressCb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">MR.ProjectAttributeParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="163" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1ad34b6a556754b0bdbb6ba57dbd0208e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ProjectAttributeParams.ProjectAttributeParams</definition>
+        <argsstring>(MR._ByValue_ProjectAttributeParams _other)</argsstring>
+        <name>ProjectAttributeParams</name>
+        <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_ProjectAttributeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ProjectAttributeParams.ProjectAttributeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1afe5ce7b16eed1d97890e462dab0492cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ProjectAttributeParams.ProjectAttributeParams</definition>
+        <argsstring>(Const_ProjectAttributeParams _other)</argsstring>
+        <name>ProjectAttributeParams</name>
+        <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
+        <param>
+          <type>Const_ProjectAttributeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ProjectAttributeParams.ProjectAttributeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="188" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1a6ee38240f2db4be1ab7f8f6b49969ede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ProjectAttributeParams.ProjectAttributeParams</definition>
+        <argsstring>(ProjectAttributeParams _other)</argsstring>
+        <name>ProjectAttributeParams</name>
+        <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ProjectAttributeParams.ProjectAttributeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="193" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1a7d8d513236da5749aeb778a9f09b33c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">MR.ProjectAttributeParams</ref></type>
+        <definition>unsafe MR.ProjectAttributeParams MR.ProjectAttributeParams.assign</definition>
+        <argsstring>(MR._ByValue_ProjectAttributeParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ProjectAttributeParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ProjectAttributeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ProjectAttributeParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="198" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="198" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this structure contains transformation for projection from one mesh to another and progress callback Generated from class <computeroutput><ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">MR.ProjectAttributeParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ProjectAttributeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ProjectAttributeParams</label>
+        <link refid="classMR_1_1ProjectAttributeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ProjectAttributeParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ProjectAttributeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ProjectAttributeParams</label>
+        <link refid="classMR_1_1ProjectAttributeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ProjectAttributeParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="112" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="113" bodyend="206"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ProjectAttributeParams_1a7d8d513236da5749aeb778a9f09b33c0" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a42fe2d84844f85dafd2e64cc05ae56b8" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a4dd9869847118e2a58071a0d42c15d24" prot="package" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a87931817869fb0b1d17efdc0a1410b28" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1ad34b6a556754b0bdbb6ba57dbd0208e5" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1afe5ce7b16eed1d97890e462dab0492cd" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a6ee38240f2db4be1ab7f8f6b49969ede" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1a0cca373f3d575e5ed3d60bdb1c5f20f5" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>xfs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

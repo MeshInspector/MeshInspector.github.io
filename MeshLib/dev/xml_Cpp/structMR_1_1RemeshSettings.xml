@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RemeshSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RemeshSettings</compoundname>
+    <includes refid="MRMeshDecimate_8h" local="no">MRMeshDecimate.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a4742691117b65ee01c742f25180e17a7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RemeshSettings::targetEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>targetEdgeLen</name>
+        <qualifiedname>MR::RemeshSettings::targetEdgeLen</qualifiedname>
+        <initializer>= 0.001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="262" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a535de126a9bef655d8a832a7bba54e46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RemeshSettings::maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR::RemeshSettings::maxEdgeSplits</qualifiedname>
+        <initializer>= 10&apos;000&apos;000</initializer>
+        <briefdescription>
+<para>Maximum number of edge splits allowed during subdivision. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="264" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a719cad8f8428301214682399c497bbc1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RemeshSettings::maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR::RemeshSettings::maxAngleChangeAfterFlip</qualifiedname>
+        <initializer>= 30 * PI_F / 180.0f</initializer>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="266" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1acd587d4e1482c17b18ae9c92898b7392" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RemeshSettings::frozenBoundary</definition>
+        <argsstring></argsstring>
+        <name>frozenBoundary</name>
+        <qualifiedname>MR::RemeshSettings::frozenBoundary</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allows or prohibits splitting and/or collapse boundary edges it recommended to keep default value here for better quality </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="269" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1ac40df80c94fefeea4585f945fb040012" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RemeshSettings::maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>MR::RemeshSettings::maxBdShift</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximal shift of a boundary during one edge collapse only makes sense if <computeroutput>frozenBoundary=false</computeroutput> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="272" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a58fc77c6b836083eab39f95b271080e8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RemeshSettings::useCurvature</definition>
+        <argsstring></argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>MR::RemeshSettings::useCurvature</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="275" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1aff741cea660285206a52e31c24f659f3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RemeshSettings::maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR::RemeshSettings::maxSplittableTriAspectRatio</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if frozenBoundary==true, otherwise many narrow triangles can appear near border </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="279" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1ad7ab1e7054f884efcbe1327815ffd678" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RemeshSettings::finalRelaxIters</definition>
+        <argsstring></argsstring>
+        <name>finalRelaxIters</name>
+        <qualifiedname>MR::RemeshSettings::finalRelaxIters</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations of final relaxation of mesh vertices; few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="282" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a193b9ba70e3770ddb3e240625ebb00f9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RemeshSettings::finalRelaxNoShrinkage</definition>
+        <argsstring></argsstring>
+        <name>finalRelaxNoShrinkage</name>
+        <qualifiedname>MR::RemeshSettings::finalRelaxNoShrinkage</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true prevents the surface from shrinkage after many iterations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="284" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1aba67372080b3650ca0d9a939e8b5526a" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::RemeshSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::RemeshSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Region on mesh to be changed, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="286" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1af94f082b1d13804c4460f447afcda26a" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::RemeshSettings::notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR::RemeshSettings::notFlippable</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation; also the vertices incident to these edges are excluded from relaxation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="289" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1aed5e02a684c4323c9ad3143c3dfdb24d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RemeshSettings::packMesh</definition>
+        <argsstring></argsstring>
+        <name>packMesh</name>
+        <qualifiedname>MR::RemeshSettings::packMesh</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>whether to pack mesh at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="291" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a6a29eef43f96e620bbdc1a55778d04b4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RemeshSettings::projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>MR::RemeshSettings::projectOnOriginalMesh</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing); this does not affect the vertices moved on other stages of the processing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="294" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a2302742bd2200fd6a5f9e078015705c1" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
+        <definition>std::function&lt;void(EdgeId e1, EdgeId e)&gt; MR::RemeshSettings::onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR::RemeshSettings::onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="296" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1a22c46bdff64005e21bccd666e13e7f01" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId e, EdgeId e1)&gt;</type>
+        <definition>std::function&lt;void(EdgeId e, EdgeId e1)&gt; MR::RemeshSettings::onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>MR::RemeshSettings::onEdgeDel</qualifiedname>
+        <briefdescription>
+<para>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="298" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1ae47bb1dc61a019d8b23cdfd9d0343018" prot="public" static="no" mutable="no">
+        <type>std::function&lt; bool(EdgeId edgeToCollapse, const Vector3f &amp;newEdgeOrgPos)&gt;</type>
+        <definition>std::function&lt;bool( EdgeId edgeToCollapse, const Vector3f&amp; newEdgeOrgPos )&gt; MR::RemeshSettings::preCollapse</definition>
+        <argsstring></argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>MR::RemeshSettings::preCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="305" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RemeshSettings_1ac65eb4c2e1f090a756362df72b272d6e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::RemeshSettings::progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR::RemeshSettings::progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="307" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="259" bodyend="308"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RemeshSettings_1ad7ab1e7054f884efcbe1327815ffd678" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>finalRelaxIters</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a193b9ba70e3770ddb3e240625ebb00f9" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>finalRelaxNoShrinkage</name></member>
+      <member refid="structMR_1_1RemeshSettings_1acd587d4e1482c17b18ae9c92898b7392" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>frozenBoundary</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a719cad8f8428301214682399c497bbc1" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="structMR_1_1RemeshSettings_1ac40df80c94fefeea4585f945fb040012" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxBdShift</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a535de126a9bef655d8a832a7bba54e46" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="structMR_1_1RemeshSettings_1aff741cea660285206a52e31c24f659f3" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="structMR_1_1RemeshSettings_1af94f082b1d13804c4460f447afcda26a" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>notFlippable</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a22c46bdff64005e21bccd666e13e7f01" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>onEdgeDel</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a2302742bd2200fd6a5f9e078015705c1" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="structMR_1_1RemeshSettings_1aed5e02a684c4323c9ad3143c3dfdb24d" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>packMesh</name></member>
+      <member refid="structMR_1_1RemeshSettings_1ae47bb1dc61a019d8b23cdfd9d0343018" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>preCollapse</name></member>
+      <member refid="structMR_1_1RemeshSettings_1ac65eb4c2e1f090a756362df72b272d6e" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>progressCallback</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a6a29eef43f96e620bbdc1a55778d04b4" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="structMR_1_1RemeshSettings_1aba67372080b3650ca0d9a939e8b5526a" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a4742691117b65ee01c742f25180e17a7" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>targetEdgeLen</name></member>
+      <member refid="structMR_1_1RemeshSettings_1a58fc77c6b836083eab39f95b271080e8" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>useCurvature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

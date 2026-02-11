@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1StitchHolesParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::StitchHolesParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1StitchHolesParams_1ae655680a452d0b14fd41e9aeb848df54" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.StitchHolesParams::_offsetof_metric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_metric</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams._offsetof_metric</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1StitchHolesParams_1ad51d739758a4605607cbaac6e4483206" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.StitchHolesParams::_offsetof_outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outNewFaces</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams._offsetof_outNewFaces</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53213" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a660cd6d18cee5a7d68bc27c3027a977b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.StitchHolesParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53216" bodyend="53217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a445378b0ce361b5ccd5780f77656b7b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></type>
+        <definition> StitchHolesParams mrmeshpy.StitchHolesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53220" bodyend="53221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a445378b0ce361b5ccd5780f77656b7b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></type>
+        <definition> StitchHolesParams mrmeshpy.StitchHolesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53224" bodyend="53225"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1ae4581b0d9b9528fdf4399723d03c890e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.StitchHolesParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53227" bodyend="53228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a42d8064219d2b75d5c948793804b97eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.StitchHolesParams.__init__</definition>
+        <argsstring>(self, StitchHolesParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53230" bodyend="53233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1af85f4d634a1bbe5619be4c72c3908edc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.StitchHolesParams.__init__</definition>
+        <argsstring>(self, FillHoleMetric metric, FaceBitSet outNewFaces)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>outNewFaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53235" bodyend="53238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a96b1b683216d46071341ee6fcae641ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+        <definition> FillHoleMetric mrmeshpy.StitchHolesParams.metric</definition>
+        <argsstring>(self)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Specifies triangulation metric\\n
+default for MR::buildCylinderBetweenTwoHoles: getComplexStitchMetric
+\\sa \\ref FillHoleMetric
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53240" bodyend="53245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1aa9263fcdd3fbf8cb197b3a998e197cd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.StitchHolesParams.metric</definition>
+        <argsstring>(self, FillHoleMetric arg1)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53247" bodyend="53248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a359d46a5b8d0e13d8cf2d4cbffeb5d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.StitchHolesParams.outNewFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.outNewFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If not nullptr accumulate new faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53250" bodyend="53253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1StitchHolesParams_1a19570f6ab1308b13d150c25ee857b646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.StitchHolesParams.outNewFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>mrmeshpy.StitchHolesParams.outNewFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53255" bodyend="53256"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::StitchHolesParams
+
+\\struct MR::StitchHolesParams
+\\brief Parameters structure for MR::buildCylinderBetweenTwoHoles\\n
+Structure has some options to control MR::buildCylinderBetweenTwoHoles
+
+\\sa \\ref buildCylinderBetweenTwoHoles
+\\sa \\ref FillHoleMetric
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.StitchHolesParams</label>
+        <link refid="classmrmeshpy_1_1StitchHolesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_metric</edgelabel>
+          <edgelabel>_offsetof_outNewFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53201" bodyend="53256"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a660cd6d18cee5a7d68bc27c3027a977b" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1ae4581b0d9b9528fdf4399723d03c890e" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a42d8064219d2b75d5c948793804b97eb" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1af85f4d634a1bbe5619be4c72c3908edc" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1ae655680a452d0b14fd41e9aeb848df54" prot="protected" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>_offsetof_metric</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1ad51d739758a4605607cbaac6e4483206" prot="protected" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>_offsetof_outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a96b1b683216d46071341ee6fcae641ba" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1aa9263fcdd3fbf8cb197b3a998e197cd5" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a445378b0ce361b5ccd5780f77656b7b4" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a445378b0ce361b5ccd5780f77656b7b4" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a359d46a5b8d0e13d8cf2d4cbffeb5d1a" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1StitchHolesParams_1a19570f6ab1308b13d150c25ee857b646" prot="public" virt="non-virtual"><scope>mrmeshpy::StitchHolesParams</scope><name>outNewFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

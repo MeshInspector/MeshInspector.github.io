@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonMenuUIConfig" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RibbonMenuUIConfig</compoundname>
+    <includes refid="MRRibbonMenuUIConfig_8h" local="no">MRRibbonMenuUIConfig.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1a596b3cd3ab9f14700dc1c54b3d7cdac3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a22296ecc4055b81ffe5ec6f0a8ad79d7" kindref="member">RibbonTopPanelLayoutMode</ref></type>
+        <definition>RibbonTopPanelLayoutMode MR::RibbonMenuUIConfig::topLayout</definition>
+        <argsstring></argsstring>
+        <name>topLayout</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::topLayout</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1a22296ecc4055b81ffe5ec6f0a8ad79d7a9a8369bcaa71173baa02f88bbf53b8fc" kindref="member">RibbonTopPanelLayoutMode::RibbonWithTabs</ref> }</initializer>
+        <briefdescription>
+<para>how to show top panel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1a859a05b1d76e85de81ee694b3b0dd341" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::centerRibbonItems</definition>
+        <argsstring></argsstring>
+        <name>centerRibbonItems</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::centerRibbonItems</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>if true - items on selected tab will be centered to have equal spacing from left and right (ignored top panel is hidden) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="17" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1ada3dc6fefe89d1d4909cbf31a7aae2ce" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::drawScenePanel</definition>
+        <argsstring></argsstring>
+        <name>drawScenePanel</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::drawScenePanel</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+<para>if false - panel with scene tree, information and transform will be hidden </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1ad18443e86e7f3e8dee09d47d835657d6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::drawToolbar</definition>
+        <argsstring></argsstring>
+        <name>drawToolbar</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::drawToolbar</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+<para>if false - toolbar will be hidden (ignored if top panel is hidden) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1ad25116ab1883c906d084fc3b87abde3a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::drawViewportTags</definition>
+        <argsstring></argsstring>
+        <name>drawViewportTags</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::drawViewportTags</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+<para>if false - window with viewport label and id will be hidden </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="21" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1a6ef8462bce49279a9ec938eb5cc74d8e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::drawNotifications</definition>
+        <argsstring></argsstring>
+        <name>drawNotifications</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::drawNotifications</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+<para>if false - no notifications are drawn on screen </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1ae6822db982eca1e5929cebbf20f784a9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::drawSearchBar</definition>
+        <argsstring></argsstring>
+        <name>drawSearchBar</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::drawSearchBar</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+<para>if false - hides search bar at the header panel of ribbon </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonMenuUIConfig_1a03e35b23d40e46fa4358fad1f6745421" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::RibbonMenuUIConfig::helpLink</definition>
+        <argsstring></argsstring>
+        <name>helpLink</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::helpLink</qualifiedname>
+        <initializer>= &quot;https:/// meshinspector.com/inapphelp/&quot;</initializer>
+        <briefdescription>
+<para>help btn leads to this page, if empty - no help btn is drawn </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1RibbonMenuUIConfig_1ab79facceed1e2c0b1f3a9daddcb6548e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuUIConfig::operator==</definition>
+        <argsstring>(const RibbonMenuUIConfig &amp;) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::RibbonMenuUIConfig::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="26" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="15" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1a859a05b1d76e85de81ee694b3b0dd341" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>centerRibbonItems</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1a6ef8462bce49279a9ec938eb5cc74d8e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>drawNotifications</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1ada3dc6fefe89d1d4909cbf31a7aae2ce" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>drawScenePanel</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1ae6822db982eca1e5929cebbf20f784a9" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>drawSearchBar</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1ad18443e86e7f3e8dee09d47d835657d6" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>drawToolbar</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1ad25116ab1883c906d084fc3b87abde3a" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>drawViewportTags</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1a03e35b23d40e46fa4358fad1f6745421" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>helpLink</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1ab79facceed1e2c0b1f3a9daddcb6548e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>operator==</name></member>
+      <member refid="structMR_1_1RibbonMenuUIConfig_1a596b3cd3ab9f14700dc1c54b3d7cdac3" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>topLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

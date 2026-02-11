@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CircleObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CircleObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a0f0ba8d62269b10bbff9b36246f7a7d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CircleObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.CircleObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9278" bodyend="9279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a6079d61654468dae4b8cb6b1a99399aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CircleObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.CircleObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9281" bodyend="9282"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1af4cb33c6d31ac2a34d0ab305e0dcbe06" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CircleObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.CircleObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9284" bodyend="9285"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1ad0e48950b1d06ccdde14433a4958b3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CircleObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CircleObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple sphere object with center in zero and radius - 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9287" bodyend="9290"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a6c2cc6bd88924946089ae0df20600f0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CircleObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CircleObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best sphere to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9292" bodyend="9295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1abead0b7f35e9df9a59edf120b387a397" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CircleObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.CircleObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9296" bodyend="9297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a53aab371be8dbe4e23e0992212f032e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CircleObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.CircleObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9298" bodyend="9299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a4e27ddaeda8f7c07c2b23ceef768daf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.CircleObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.CircleObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9300" bodyend="9301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a8dbd2151dcd63a76abeeaf6f60d22c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.CircleObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.CircleObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9302" bodyend="9303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a9e1d5bfa40c949c3cb0870f861b72539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CircleObject.getCenter</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>mrmeshpy.CircleObject.getCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates center from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9304" bodyend="9307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1aef12a3f27bc5636a57a5bae1a80a489a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CircleObject.getNormal</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getNormal</name>
+        <qualifiedname>mrmeshpy.CircleObject.getNormal</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a80d467fec3bbe81b1c9edc5acbd6c622">getNormal</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates normal from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9308" bodyend="9311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a608d18733c2254e34d3b61ce1e7928e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CircleObject.getRadius</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getRadius</name>
+        <qualifiedname>mrmeshpy.CircleObject.getRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates radius from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9312" bodyend="9315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a0db412d548c9274b8584e4900492241e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.CircleObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.CircleObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9316" bodyend="9317"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a4b06b84541e1d9a8a93744ee85bbe12c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CircleObject.setCenter</definition>
+        <argsstring>(self, Vector3f center, ViewportId id=...)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>mrmeshpy.CircleObject.setCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9318" bodyend="9321"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a2f2feee75941d80578c9383983a7e008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CircleObject.setNormal</definition>
+        <argsstring>(self, Vector3f normal, ViewportId id=...)</argsstring>
+        <name>setNormal</name>
+        <qualifiedname>mrmeshpy.CircleObject.setNormal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given normal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9322" bodyend="9325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a5bacf2f449651bfec36d031089d9f1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CircleObject.setRadius</definition>
+        <argsstring>(self, float radius, ViewportId id=...)</argsstring>
+        <name>setRadius</name>
+        <qualifiedname>mrmeshpy.CircleObject.setRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given radius
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9326" bodyend="9329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a3cf97dad78bfa4d75340504a970a0c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.CircleObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.CircleObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9330" bodyend="9331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CircleObject_1a391c0bfd1a55b06b1de0f33874ddf0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CircleObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.CircleObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9332" bodyend="9333"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CircleObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Circle.type
+
+Object to show sphere feature, position and radius are controlled by xf
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.CircleObject</label>
+        <link refid="classmrmeshpy_1_1CircleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CircleObject</label>
+        <link refid="classmrmeshpy_1_1CircleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9270" bodyend="9333"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CircleObject_1ad0e48950b1d06ccdde14433a4958b3ff" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a6c2cc6bd88924946089ae0df20600f0a" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1abead0b7f35e9df9a59edf120b387a397" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a53aab371be8dbe4e23e0992212f032e1" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a4e27ddaeda8f7c07c2b23ceef768daf6" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a8dbd2151dcd63a76abeeaf6f60d22c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a9e1d5bfa40c949c3cb0870f861b72539" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1aef12a3f27bc5636a57a5bae1a80a489a" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>getNormal</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a608d18733c2254e34d3b61ce1e7928e6" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>getRadius</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a0db412d548c9274b8584e4900492241e" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a4b06b84541e1d9a8a93744ee85bbe12c" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a2f2feee75941d80578c9383983a7e008" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>setNormal</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a5bacf2f449651bfec36d031089d9f1c0" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>setRadius</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a3cf97dad78bfa4d75340504a970a0c2c" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a0f0ba8d62269b10bbff9b36246f7a7d4" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a6079d61654468dae4b8cb6b1a99399aa" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1af4cb33c6d31ac2a34d0ab305e0dcbe06" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1CircleObject_1a391c0bfd1a55b06b1de0f33874ddf0de" prot="public" virt="non-virtual"><scope>mrmeshpy::CircleObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__double__4" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_double_4</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1a5c7747838729e55ff2e65eaedc436704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.std_array_double_4.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78375" bodyend="78376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1a82a2051faa164df143930eb759681130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_double_4.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78378" bodyend="78379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1a74d179b7f9ccc914a044c56f90c6a2ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_double_4.__init__</definition>
+        <argsstring>(self, std_array_double_4 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__double__4" kindref="compound">std_array_double_4</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78381" bodyend="78382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1a554d9d8186945e6b3eb098a5f7c42cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_double_4.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 4elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78384" bodyend="78387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1a21f447cc2ed7487a28d701f6f3783cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[float]</type>
+        <definition> typing.Iterator[float] mrmeshpy.std_array_double_4.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78388" bodyend="78389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1acafba1b36b60ae558744d9baa9951fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_double_4.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78390" bodyend="78391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1ac9543ee8e20bd49133dc0d891d240138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_array_double_4.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78392" bodyend="78393"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__double__4_1af8fc659c32cc70311aeb3b35b3cb8207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_double_4.__setitem__</definition>
+        <argsstring>(self, int arg0, float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_double_4.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78394" bodyend="78395"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_array_CubicBezierCurve_Vector3d_T_4, std_array_CubicBezierCurve_Vector2d_T_4
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78371" bodyend="78395"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1a5c7747838729e55ff2e65eaedc436704" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1a82a2051faa164df143930eb759681130" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1a74d179b7f9ccc914a044c56f90c6a2ca" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1a554d9d8186945e6b3eb098a5f7c42cb3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1a21f447cc2ed7487a28d701f6f3783cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1acafba1b36b60ae558744d9baa9951fc0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1ac9543ee8e20bd49133dc0d891d240138" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__double__4_1af8fc659c32cc70311aeb3b35b3cb8207" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_double_4</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

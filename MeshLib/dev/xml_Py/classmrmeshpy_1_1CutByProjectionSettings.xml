@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CutByProjectionSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CutByProjectionSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CutByProjectionSettings_1ac0c9d0d3e7e7f7781d641bd4e059fc2a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CutByProjectionSettings::_offsetof_cont2mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cont2mesh</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings._offsetof_cont2mesh</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CutByProjectionSettings_1ace3cb8ce6ccfb4472d9159fa3efb3599" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CutByProjectionSettings::_offsetof_direction</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_direction</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings._offsetof_direction</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11199" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1aeb5853bee1da3f7d60bfe4fa7268af31" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutByProjectionSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11202" bodyend="11203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1a66347ad75407262971e6f4506a90f6fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></type>
+        <definition> CutByProjectionSettings mrmeshpy.CutByProjectionSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11206" bodyend="11207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1a66347ad75407262971e6f4506a90f6fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></type>
+        <definition> CutByProjectionSettings mrmeshpy.CutByProjectionSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11210" bodyend="11211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1a3326f5582f2c2e5d7b9a123d9a30fee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutByProjectionSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11213" bodyend="11214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1aa92c5e0bbeead696c6c11777d7e28aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutByProjectionSettings.__init__</definition>
+        <argsstring>(self, CutByProjectionSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11216" bodyend="11219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1abbd9dd91405f18a97b97b46ef410755b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutByProjectionSettings.__init__</definition>
+        <argsstring>(self, Vector3f direction, AffineXf3f cont2mesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>cont2mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11221" bodyend="11224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1ac091801bd19fbcbd9d55e7b5660a7797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.CutByProjectionSettings.cont2mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>cont2mesh</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.cont2mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if set - used to transform contours form its local space to mesh local space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11226" bodyend="11229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1a8cffdf325b1e35c753cf760d354778d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutByProjectionSettings.cont2mesh</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>cont2mesh</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.cont2mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11231" bodyend="11232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1adbb807633393e6e798e6171ca3466c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CutByProjectionSettings.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>direction of projection (in mesh space)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11234" bodyend="11237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutByProjectionSettings_1a016d2dcf81e87467992889764e437734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutByProjectionSettings.direction</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.CutByProjectionSettings.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11239" bodyend="11240"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CutByProjectionSettings
+
+Settings structurer for cutMeshByProjection function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CutByProjectionSettings</label>
+        <link refid="classmrmeshpy_1_1CutByProjectionSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cont2mesh</edgelabel>
+          <edgelabel>_offsetof_direction</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11192" bodyend="11240"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1aeb5853bee1da3f7d60bfe4fa7268af31" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1a3326f5582f2c2e5d7b9a123d9a30fee2" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1aa92c5e0bbeead696c6c11777d7e28aca" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1abbd9dd91405f18a97b97b46ef410755b" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1ac0c9d0d3e7e7f7781d641bd4e059fc2a" prot="protected" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>_offsetof_cont2mesh</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1ace3cb8ce6ccfb4472d9159fa3efb3599" prot="protected" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>_offsetof_direction</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1ac091801bd19fbcbd9d55e7b5660a7797" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>cont2mesh</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1a8cffdf325b1e35c753cf760d354778d2" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>cont2mesh</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1adbb807633393e6e798e6171ca3466c07" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1a016d2dcf81e87467992889764e437734" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1a66347ad75407262971e6f4506a90f6fc" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CutByProjectionSettings_1a66347ad75407262971e6f4506a90f6fc" prot="public" virt="non-virtual"><scope>mrmeshpy::CutByProjectionSettings</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

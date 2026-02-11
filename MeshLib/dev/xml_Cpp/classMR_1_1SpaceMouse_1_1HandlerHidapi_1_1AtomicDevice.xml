@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice" kind="class" language="C++" prot="private">
+    <compoundname>MR::SpaceMouse::HandlerHidapi::AtomicDevice</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1a55daf3b15dd3f548de75b4425e2cfac3" prot="private" static="no" mutable="yes">
+        <type>std::mutex</type>
+        <definition>std::mutex MR::SpaceMouse::HandlerHidapi::AtomicDevice::mutex_</definition>
+        <argsstring></argsstring>
+        <name>mutex_</name>
+        <qualifiedname>MR::SpaceMouse::HandlerHidapi::AtomicDevice::mutex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="62" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1af61886addca12657d182733da50cefc6" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1SpaceMouse_1_1Device" kindref="compound">Device</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Device&gt; MR::SpaceMouse::HandlerHidapi::AtomicDevice::device_</definition>
+        <argsstring></argsstring>
+        <name>device_</name>
+        <qualifiedname>MR::SpaceMouse::HandlerHidapi::AtomicDevice::device_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="63" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1a9c60f75791944faf265e22eb274d263d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::HandlerHidapi::AtomicDevice::resetDevice</definition>
+        <argsstring>(VendorId vId=0, ProductId pId=0)</argsstring>
+        <name>resetDevice</name>
+        <qualifiedname>MR::SpaceMouse::HandlerHidapi::AtomicDevice::resetDevice</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref></type>
+          <declname>vId</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" kindref="member">ProductId</ref></type>
+          <declname>pId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="54" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1ae994d9ff5c3a8a999dd61e2469b70373" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::HandlerHidapi::AtomicDevice::parseRaw</definition>
+        <argsstring>(const DataPacketRaw &amp;packet, int packet_length, Action &amp;action) const</argsstring>
+        <name>parseRaw</name>
+        <qualifiedname>MR::SpaceMouse::HandlerHidapi::AtomicDevice::parseRaw</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1_1SpaceMouse_1afea9877496a4f6098c6687dbbae1ac62" kindref="member">DataPacketRaw</ref> &amp;</type>
+          <declname>packet</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>packet_length</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1SpaceMouse_1_1Action" kindref="compound">Action</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>update (rewrite its data) SpaceMouseAction if DataPacketRaw is not empty </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="57" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1aaef7815a7a344c6e7e7b434b66231974" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::HandlerHidapi::AtomicDevice::process</definition>
+        <argsstring>(const Action &amp;action)</argsstring>
+        <name>process</name>
+        <qualifiedname>MR::SpaceMouse::HandlerHidapi::AtomicDevice::process</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1SpaceMouse_1_1Action" kindref="compound">Action</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="59" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1aa7794bf3491894a3b19664df048e2859" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::HandlerHidapi::AtomicDevice::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::SpaceMouse::HandlerHidapi::AtomicDevice::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="60" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="51" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" bodystart="52" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1af61886addca12657d182733da50cefc6" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi::AtomicDevice</scope><name>device_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1a55daf3b15dd3f548de75b4425e2cfac3" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi::AtomicDevice</scope><name>mutex_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1ae994d9ff5c3a8a999dd61e2469b70373" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi::AtomicDevice</scope><name>parseRaw</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1aaef7815a7a344c6e7e7b434b66231974" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi::AtomicDevice</scope><name>process</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1a9c60f75791944faf265e22eb274d263d" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi::AtomicDevice</scope><name>resetDevice</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1aa7794bf3491894a3b19664df048e2859" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi::AtomicDevice</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

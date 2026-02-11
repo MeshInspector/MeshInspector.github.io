@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Vector__MRModelPointsData__MRObjId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Vector_MRModelPointsData_MRObjId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRModelPointsData_MRObjId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a874541fdfddb05a557b502b66a5f1f27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRModelPointsData</type>
+        <definition>new unsafe MR.Std.Vector_MRModelPointsData MR.Vector_MRModelPointsData_MRObjId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27441" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27441" bodyend="27441"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a846731aa58eb872bea3399c3d7145c83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></type>
+        <definition>unsafe new MR.ModelPointsData MR.Vector_MRModelPointsData_MRObjId.this[MR.ObjId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.ObjId i]</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.this[MR.ObjId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27599" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27600" bodyend="27607"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1ae7d770871399269c96654c8192f3b9aa" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27460" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27460" bodyend="27464"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1acf80979b252d930868d21948e89651d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27470" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27470" bodyend="27476"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a1f9436e6242fab72015e140d1c775a53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(MR._ByValue_Vector_MRModelPointsData_MRObjId _other)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRModelPointsData_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27481" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27481" bodyend="27488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1ad58df0270728aacb109dce6168060bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(Const_Vector_MRModelPointsData_MRObjId _other)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRModelPointsData_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27493" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27493" bodyend="27493"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3350abf24bff1aa2018a40a90acecb13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(Vector_MRModelPointsData_MRObjId _other)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRModelPointsData__MRObjId" kindref="compound">Vector_MRModelPointsData_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27498" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27498" bodyend="27498"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1af75e65911e970a907222e8a9649a4cca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27504" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27504" bodyend="27510"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1ac85ac2f68c4ba6bac8868091afc18e21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(ulong size, MR.Const_ModelPointsData val)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_ModelPointsData</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27516" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27516" bodyend="27523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1acebb32ea913651014ed73713d6002650" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt; vec)</argsstring>
+        <name>Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27529" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27529" bodyend="27536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8c97bae63e15350543703a84c31374ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRModelPointsData__MRObjId" kindref="compound">MR.Vector_MRModelPointsData_MRObjId</ref></type>
+        <definition>unsafe MR.Vector_MRModelPointsData_MRObjId MR.Vector_MRModelPointsData_MRObjId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRModelPointsData_MRObjId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRModelPointsData_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27547" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27547" bodyend="27554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a0c8e9db26bd81fb3e25a74f88294a526" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27559" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27559" bodyend="27564"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a5841bfff0e72269e4dece9d81c47114c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27569" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27569" bodyend="27574"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a2f994e76b226b29aec0b2a3a1f5a7f87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.resize</definition>
+        <argsstring>(ulong newSize, MR.Const_ModelPointsData t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_ModelPointsData</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27579" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27579" bodyend="27584"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a9f498c36b5f74633247f27b980db9c99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::reserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27589" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27589" bodyend="27594"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a55a43e2ace2ee44ed01d106be792b36f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27613" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27613" bodyend="27618"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1ae29e13c37ccc13430167f40fd9dc26be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Const_ModelPointsData value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_ModelPointsData</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27624" bodyend="27629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a2bad4a08ed10ee20c2ecc743b2e7ff2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.autoResizeSet</definition>
+        <argsstring>(MR.ObjId pos, ulong len, MR.Const_ModelPointsData val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Const_ModelPointsData</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27636" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27636" bodyend="27641"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a34e4034fdc4fa8991b8d3224bde594ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.autoResizeSet</definition>
+        <argsstring>(MR.ObjId i, MR.Const_ModelPointsData val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Const_ModelPointsData</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27647" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27647" bodyend="27652"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a650399bf822ebbc01f32a0789302fccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></type>
+        <definition>unsafe MR.ModelPointsData MR.Vector_MRModelPointsData_MRObjId.autoResizeAt</definition>
+        <argsstring>(MR.ObjId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::autoResizeAt</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27658" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27658" bodyend="27663"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a597bc2c521327dce2a4c173403a3d3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.pushBack</definition>
+        <argsstring>(MR.Const_ModelPointsData t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Const_ModelPointsData</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27668" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27668" bodyend="27673"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a83696e177286c0abbcda476d7c6600ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.ModelPointsData &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27678" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27678" bodyend="27683"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a86de214a4158fb5156796ccbed229f18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27688" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27688" bodyend="27693"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8b4ab461fefaa331b1c241e58d8413c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></type>
+        <definition>unsafe MR.ModelPointsData MR.Vector_MRModelPointsData_MRObjId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27698" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27698" bodyend="27703"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3bc8e7e3788a419086829ad3012d0d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></type>
+        <definition>unsafe new MR.ModelPointsData MR.Vector_MRModelPointsData_MRObjId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::front</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27708" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27708" bodyend="27713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a6f50f5b301d68b615c86919961c54c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></type>
+        <definition>unsafe new MR.ModelPointsData MR.Vector_MRModelPointsData_MRObjId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27718" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27718" bodyend="27723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1aabc1931f4d5f2b95656ef233f16507ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></type>
+        <definition>unsafe new MR.? ModelPointsData MR.Vector_MRModelPointsData_MRObjId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::data</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27728" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27728" bodyend="27734"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a287960efa623ef51e478c33db4bfe718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRModelPointsData_MRObjId.swap</definition>
+        <argsstring>(MR.Vector_MRModelPointsData_MRObjId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRModelPointsData__MRObjId" kindref="compound">MR.Vector_MRModelPointsData_MRObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::swap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27739" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27739" bodyend="27744"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1ab2cce8a5f273ab55febc591c40024d61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Vector_MRModelPointsData_MRObjId.operator Vector_MRModelPointsData_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt; vec)</argsstring>
+        <name>operator Vector_MRModelPointsData_MRObjId</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.operator Vector_MRModelPointsData_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27542" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27542" bodyend="27542"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Vector_MRModelPointsData_MRObjId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRModelPointsData_MRObjId</label>
+        <link refid="classMR_1_1Vector__MRModelPointsData__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRModelPointsData_MRObjId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Vector_MRModelPointsData_MRObjId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRModelPointsData_MRObjId</label>
+        <link refid="classMR_1_1Vector__MRModelPointsData__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRModelPointsData_MRObjId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27438" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27439" bodyend="27745"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8c97bae63e15350543703a84c31374ff" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a650399bf822ebbc01f32a0789302fccd" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a2bad4a08ed10ee20c2ecc743b2e7ff2b" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a34e4034fdc4fa8991b8d3224bde594ba" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a6f50f5b301d68b615c86919961c54c20" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a0c8e9db26bd81fb3e25a74f88294a526" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1aabc1931f4d5f2b95656ef233f16507ca" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8b4ab461fefaa331b1c241e58d8413c2" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3bc8e7e3788a419086829ad3012d0d04" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ab2cce8a5f273ab55febc591c40024d61" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>operator Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a86de214a4158fb5156796ccbed229f18" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a597bc2c521327dce2a4c173403a3d3e7" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a83696e177286c0abbcda476d7c6600ff" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a9f498c36b5f74633247f27b980db9c99" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a5841bfff0e72269e4dece9d81c47114c" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a2f994e76b226b29aec0b2a3a1f5a7f87" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a55a43e2ace2ee44ed01d106be792b36f" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ae29e13c37ccc13430167f40fd9dc26be" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a287960efa623ef51e478c33db4bfe718" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a846731aa58eb872bea3399c3d7145c83" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>this[MR.ObjId i]</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a874541fdfddb05a557b502b66a5f1f27" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ae7d770871399269c96654c8192f3b9aa" prot="package" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1acf80979b252d930868d21948e89651d7" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a1f9436e6242fab72015e140d1c775a53" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ad58df0270728aacb109dce6168060bfa" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3350abf24bff1aa2018a40a90acecb13" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1af75e65911e970a907222e8a9649a4cca" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ac85ac2f68c4ba6bac8868091afc18e21" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1acebb32ea913651014ed73713d6002650" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Vector_MRModelPointsData_MRObjId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

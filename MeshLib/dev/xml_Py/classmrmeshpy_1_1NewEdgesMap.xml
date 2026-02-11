@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NewEdgesMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NewEdgesMap</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NewEdgesMap_1a7331ec1a7bf23556e999faaca5a72f98" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NewEdgesMap::_offsetof_map</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_map</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap._offsetof_map</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NewEdgesMap_1a03f042ebc9afe8995a485ad0d3d24275" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NewEdgesMap::_offsetof_splitEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_splitEdges</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap._offsetof_splitEdges</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36746" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a1edc39cf9a1974950140f295b991dc63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NewEdgesMap.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36749" bodyend="36750"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a912faae20a50392238f9634c1aeec828" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></type>
+        <definition> NewEdgesMap mrmeshpy.NewEdgesMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36753" bodyend="36754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a912faae20a50392238f9634c1aeec828" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></type>
+        <definition> NewEdgesMap mrmeshpy.NewEdgesMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36757" bodyend="36758"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a15686abe68974f9fd7644251e5f8d958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NewEdgesMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36760" bodyend="36761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a0393071f2a87ebb56e0bfbe586004dc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NewEdgesMap.__init__</definition>
+        <argsstring>(self, NewEdgesMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36763" bodyend="36766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a7d563c8646ac6495f850481cd50f5150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NewEdgesMap.__init__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet splitEdges, phmap_flat_hash_map_Id_UndirectedEdgeTag_int map)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>splitEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__int" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_int</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36768" bodyend="36771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1ab0628778ccfd7a641ad2d2a2c5cc6471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__int" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_int</ref></type>
+        <definition> phmap_flat_hash_map_Id_UndirectedEdgeTag_int mrmeshpy.NewEdgesMap.map</definition>
+        <argsstring>(self)</argsstring>
+        <name>map</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.map</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maps every edge appeared during subdivision to an original edge before mesh subdivision;
+for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part;
+for splitEdges[key]=false, the value is an original triangle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36773" bodyend="36778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a95716ec9a2d6e3143c3d56e5bdf9a81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NewEdgesMap.map</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_int arg1)</argsstring>
+        <name>map</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.map</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__int" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_int</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36780" bodyend="36781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1a0448826dd31ba6fe3b0fa364bd25017c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.NewEdgesMap.splitEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>splitEdges</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.splitEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision;
+false here is both for unmodified edges and for new edges introduced within original triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36783" bodyend="36787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NewEdgesMap_1aca55a27bf600694a290e85ca3e2a3274" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NewEdgesMap.splitEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>splitEdges</name>
+        <qualifiedname>mrmeshpy.NewEdgesMap.splitEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36789" bodyend="36790"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NewEdgesMap
+
+Map structure to find primitives of old topology by edges introduced in cutMesh
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NewEdgesMap</label>
+        <link refid="classmrmeshpy_1_1NewEdgesMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_map</edgelabel>
+          <edgelabel>_offsetof_splitEdges</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36739" bodyend="36790"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a1edc39cf9a1974950140f295b991dc63" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a15686abe68974f9fd7644251e5f8d958" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a0393071f2a87ebb56e0bfbe586004dc6" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a7d563c8646ac6495f850481cd50f5150" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a7331ec1a7bf23556e999faaca5a72f98" prot="protected" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>_offsetof_map</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a03f042ebc9afe8995a485ad0d3d24275" prot="protected" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>_offsetof_splitEdges</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1ab0628778ccfd7a641ad2d2a2c5cc6471" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>map</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a95716ec9a2d6e3143c3d56e5bdf9a81e" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>map</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a912faae20a50392238f9634c1aeec828" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a912faae20a50392238f9634c1aeec828" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1a0448826dd31ba6fe3b0fa364bd25017c" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>splitEdges</name></member>
+      <member refid="classmrmeshpy_1_1NewEdgesMap_1aca55a27bf600694a290e85ca3e2a3274" prot="public" virt="non-virtual"><scope>mrmeshpy::NewEdgesMap</scope><name>splitEdges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

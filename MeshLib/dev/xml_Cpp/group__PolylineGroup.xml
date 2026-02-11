@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__PolylineGroup" kind="group">
+    <compoundname>PolylineGroup</compoundname>
+    <title>Polyline</title>
+    <innerclass refid="structMR_1_1Polyline" prot="public">MR::Polyline</innerclass>
+    <innerclass refid="classMR_1_1PolylineUndirectedEdgeIterator" prot="public">MR::PolylineUndirectedEdgeIterator</innerclass>
+    <innerclass refid="classMR_1_1PolylineTopology" prot="public">MR::PolylineTopology</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__PolylineGroup_1ga349201f5ba6a4ad7fe91d113e0d0d2ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::relax</definition>
+        <argsstring>(Polyline&lt; V &gt; &amp;polyline, const RelaxParams &amp;params={}, ProgressCallback cb={})</argsstring>
+        <name>relax</name>
+        <qualifiedname>MR::relax</qualifiedname>
+        <param>
+          <type>Polyline&lt; V &gt; &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const RelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole polyline ( or some region if it is specified ) <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineRelax.h" line="15" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineRelax.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PolylineGroup_1gaf8d65b66fff9354b3bc66388ced2283c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::relaxKeepArea</definition>
+        <argsstring>(Polyline&lt; V &gt; &amp;polyline, const RelaxParams &amp;params={}, ProgressCallback cb={})</argsstring>
+        <name>relaxKeepArea</name>
+        <qualifiedname>MR::relaxKeepArea</qualifiedname>
+        <param>
+          <type>Polyline&lt; V &gt; &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const RelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole polyline ( or some region if it is specified ) do not really keeps area but tries hard <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineRelax.h" line="21" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineRelax.h" declline="21" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

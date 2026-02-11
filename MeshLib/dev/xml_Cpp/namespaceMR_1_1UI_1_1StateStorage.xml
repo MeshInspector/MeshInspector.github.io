@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1UI_1_1StateStorage" kind="namespace" language="C++">
+    <compoundname>MR::UI::StateStorage</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1StateStorage_1a3638eb4d405379f7ea1bda54b46284b2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::UI::StateStorage::readBool</definition>
+        <argsstring>(std::string_view key, bool defaultValue=false)</argsstring>
+        <name>readBool</name>
+        <qualifiedname>MR::UI::StateStorage::readBool</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultValue</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="38" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" declline="38" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1StateStorage_1a654e0febe730841dfa2856e4eae81e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::StateStorage::writeBool</definition>
+        <argsstring>(std::string_view key, bool value)</argsstring>
+        <name>writeBool</name>
+        <qualifiedname>MR::UI::StateStorage::writeBool</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="39" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" declline="39" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Use this to store state across frames. Like what <computeroutput>CollapsingHeader()</computeroutput> uses to store it&apos;s open/close state. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="35" column="1"/>
+  </compounddef>
+</doxygen>

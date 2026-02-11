@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjectMeshData" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjectMeshData</compoundname>
+    <includes refid="MRObjectMeshData_8h" local="no">MRObjectMeshData.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1ab37aa2308b1d163cba441684f134762a" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Mesh&gt; MR::ObjectMeshData::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::ObjectMeshData::mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="15" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1a3468a5628a794f6eb642ab775f4f4769" prot="public" static="no" mutable="no">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::ObjectMeshData::selectedFaces</definition>
+        <argsstring></argsstring>
+        <name>selectedFaces</name>
+        <qualifiedname>MR::ObjectMeshData::selectedFaces</qualifiedname>
+        <briefdescription>
+<para>selection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="18" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1a9fa8423381196714eb8c09a119d9100a" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet</type>
+        <definition>UndirectedEdgeBitSet MR::ObjectMeshData::selectedEdges</definition>
+        <argsstring></argsstring>
+        <name>selectedEdges</name>
+        <qualifiedname>MR::ObjectMeshData::selectedEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="19" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1a3a3a9e8e30929bf38302f1e9c6176c35" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet</type>
+        <definition>UndirectedEdgeBitSet MR::ObjectMeshData::creases</definition>
+        <argsstring></argsstring>
+        <name>creases</name>
+        <qualifiedname>MR::ObjectMeshData::creases</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="21" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1adf02aa6045febefa4bf078f43e512ee9" prot="public" static="no" mutable="no">
+        <type>VertColors</type>
+        <definition>VertColors MR::ObjectMeshData::vertColors</definition>
+        <argsstring></argsstring>
+        <name>vertColors</name>
+        <qualifiedname>MR::ObjectMeshData::vertColors</qualifiedname>
+        <briefdescription>
+<para>colors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="24" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1a25ec108c32cc11b19a998c2aab325055" prot="public" static="no" mutable="no">
+        <type>FaceColors</type>
+        <definition>FaceColors MR::ObjectMeshData::faceColors</definition>
+        <argsstring></argsstring>
+        <name>faceColors</name>
+        <qualifiedname>MR::ObjectMeshData::faceColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="25" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1a709805a7a77dd5dbd24c880b043761f9" prot="public" static="no" mutable="no">
+        <type>VertUVCoords</type>
+        <definition>VertUVCoords MR::ObjectMeshData::uvCoordinates</definition>
+        <argsstring></argsstring>
+        <name>uvCoordinates</name>
+        <qualifiedname>MR::ObjectMeshData::uvCoordinates</qualifiedname>
+        <briefdescription>
+<para>textures </para>
+        </briefdescription>
+        <detaileddescription>
+<para>vertices coordinates in texture </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="28" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectMeshData_1aecc56cbf3bf02c4177ba5a773b807776" prot="public" static="no" mutable="no">
+        <type>TexturePerFace</type>
+        <definition>TexturePerFace MR::ObjectMeshData::texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>texturePerFace</name>
+        <qualifiedname>MR::ObjectMeshData::texturePerFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="29" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ObjectMeshData_1ae2138d0f4aa888b995a052230ca48a40" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+        <definition>MRMESH_API ObjectMeshData MR::ObjectMeshData::clone</definition>
+        <argsstring>() const</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR::ObjectMeshData::clone</qualifiedname>
+        <briefdescription>
+<para>returns copy of this object with mesh cloned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="32" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjectMeshData_1a479a0806f9e83ea1a7a1ad5aa4bc28cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::ObjectMeshData::heapBytes</definition>
+        <argsstring>() const</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ObjectMeshData::heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="35" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>mesh and its per-element attributes for <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMeshData.h" bodystart="14" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjectMeshData_1ae2138d0f4aa888b995a052230ca48a40" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>clone</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1a3a3a9e8e30929bf38302f1e9c6176c35" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>creases</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1a25ec108c32cc11b19a998c2aab325055" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>faceColors</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1a479a0806f9e83ea1a7a1ad5aa4bc28cd" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>heapBytes</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1ab37aa2308b1d163cba441684f134762a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>mesh</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1a9fa8423381196714eb8c09a119d9100a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>selectedEdges</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1a3468a5628a794f6eb642ab775f4f4769" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>selectedFaces</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1aecc56cbf3bf02c4177ba5a773b807776" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>texturePerFace</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1a709805a7a77dd5dbd24c880b043761f9" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>uvCoordinates</name></member>
+      <member refid="structMR_1_1ObjectMeshData_1adf02aa6045febefa4bf078f43e512ee9" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>vertColors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

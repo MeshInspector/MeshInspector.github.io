@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillHoleItem" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillHoleItem</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleItem_1a96dddd0589ae900b89a855fb0f1a1e1d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleItem::_offsetof_edgeCode1</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeCode1</name>
+        <qualifiedname>mrmeshpy.FillHoleItem._offsetof_edgeCode1</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19021" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleItem_1abe36357be859da399c1296dddc1fe56d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleItem::_offsetof_edgeCode2</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeCode2</name>
+        <qualifiedname>mrmeshpy.FillHoleItem._offsetof_edgeCode2</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19022" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1aefaf65b4c42dca3ef75247da43ae4bdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleItem.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19025" bodyend="19026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1a575fb314e320e2888e9b064f3364532c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></type>
+        <definition> FillHoleItem mrmeshpy.FillHoleItem.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19029" bodyend="19030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1a575fb314e320e2888e9b064f3364532c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></type>
+        <definition> FillHoleItem mrmeshpy.FillHoleItem.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19033" bodyend="19034"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1a2b0003611ab03e413f8ed73cf270f378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleItem.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19036" bodyend="19037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1aed594d7c0e12c4f3d2e5c86b8a0c158f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleItem.__init__</definition>
+        <argsstring>(self, FillHoleItem arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19039" bodyend="19042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1a5d85af6e7893e6c996389825a805b3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleItem.__init__</definition>
+        <argsstring>(self, int edgeCode1, int edgeCode2)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>edgeCode1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>edgeCode2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19044" bodyend="19047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1a4072c5d0afd281a237821400da0abfae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleItem.edgeCode1</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeCode1</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.edgeCode1</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not-negative number then it is edgeid;
+otherwise it refers to the edge created recently
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19049" bodyend="19053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1ad9144a30f9539793c0e282587e2244fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleItem.edgeCode1</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>edgeCode1</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.edgeCode1</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19055" bodyend="19056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1ac9f441cd5931d34bba743fcf47bc1f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleItem.edgeCode2</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeCode2</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.edgeCode2</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not-negative number then it is edgeid;
+otherwise it refers to the edge created recently
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19058" bodyend="19062"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleItem_1a43a011924c891e53daf18beeddf5a8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleItem.edgeCode2</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>edgeCode2</name>
+        <qualifiedname>mrmeshpy.FillHoleItem.edgeCode2</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19064" bodyend="19065"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FillHoleItem
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillHoleItem</label>
+        <link refid="classmrmeshpy_1_1FillHoleItem"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_edgeCode1</edgelabel>
+          <edgelabel>_offsetof_edgeCode2</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19017" bodyend="19065"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1aefaf65b4c42dca3ef75247da43ae4bdd" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a2b0003611ab03e413f8ed73cf270f378" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1aed594d7c0e12c4f3d2e5c86b8a0c158f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a5d85af6e7893e6c996389825a805b3d9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a96dddd0589ae900b89a855fb0f1a1e1d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>_offsetof_edgeCode1</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1abe36357be859da399c1296dddc1fe56d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>_offsetof_edgeCode2</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a4072c5d0afd281a237821400da0abfae" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>edgeCode1</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1ad9144a30f9539793c0e282587e2244fc" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>edgeCode1</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1ac9f441cd5931d34bba743fcf47bc1f38" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>edgeCode2</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a43a011924c891e53daf18beeddf5a8ad" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>edgeCode2</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a575fb314e320e2888e9b064f3364532c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleItem_1a575fb314e320e2888e9b064f3364532c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleItem</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

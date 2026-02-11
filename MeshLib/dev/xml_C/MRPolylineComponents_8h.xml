@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPolylineComponents_8h" kind="file" language="C++">
+    <compoundname>MRPolylineComponents.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPolylineComponents.h</label>
+        <link refid="MRPolylineComponents_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
+        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="13" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
+        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="14" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a02d1fe1568aa3e29e692594602ba76bd" prot="public" static="no">
+        <type>struct <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref></type>
+        <definition>typedef struct MR_PolylineTopology MR_PolylineTopology</definition>
+        <argsstring></argsstring>
+        <name>MR_PolylineTopology</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="15" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="16" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref></type>
+        <definition>typedef struct MR_UnionFind_MR_UndirectedEdgeId MR_UnionFind_MR_UndirectedEdgeId</definition>
+        <argsstring></argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="17" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref></type>
+        <definition>typedef struct MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="18" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_std_vector_MR_UndirectedEdgeBitSet MR_std_vector_MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="19" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref></type>
+        <definition>typedef struct MR_PolylineComponents_LargeByLengthComponentsSettings MR_PolylineComponents_LargeByLengthComponentsSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="24" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPolylineComponents_8h_1ab7aebc5565c5c5651f359d4f88353d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_PolylineComponents_getNumComponents</definition>
+        <argsstring>(const MR_PolylineTopology *topology)</argsstring>
+        <name>MR_PolylineComponents_getNumComponents</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of connected components in polyline Generated from function <computeroutput>MR::PolylineComponents::getNumComponents</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="29" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="29" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a71c65b3d8a9877f368a5b8e0ffd954b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet * MR_PolylineComponents_getComponent</definition>
+        <argsstring>(const MR_PolylineTopology *topology, MR_UndirectedEdgeId id)</argsstring>
+        <name>MR_PolylineComponents_getComponent</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns one connected component containing given undirected edge id, not effective to call more than once, if several components are needed use getAllComponents Generated from function <computeroutput>MR::PolylineComponents::getComponent</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a5f5b1d2e5d4d71fe8be1eddbe649ca16" kindref="member">MR_UndirectedEdgeBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="36" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="36" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a593b6767c2a25b151672012fccdbd3ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UndirectedEdgeBitSet * MR_PolylineComponents_getAllComponents_1</definition>
+        <argsstring>(const MR_PolylineTopology *topology)</argsstring>
+        <name>MR_PolylineComponents_getAllComponents_1</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of polyline topology <simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <computeroutput>MR::PolylineComponents::getAllComponents</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="43" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="43" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a6beb5d289540e14f999a5b29b17844b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_PolylineComponents_getAllComponents_2</definition>
+        <argsstring>(const MR_PolylineTopology *topology, int maxComponentCount)</argsstring>
+        <name>MR_PolylineComponents_getAllComponents_2</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of polyline topology \detail if components number more than the maxComponentCount, they will be combined into groups of the same size <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput>MR::PolylineComponents::getAllComponents</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="52" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="52" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1aff309b97257bed1d41107db0ee6b4d85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_PolylineComponents_LargeByLengthComponentsSettings_Get_maxLargeComponents</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Get_maxLargeComponents</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return at most given number of largest by length connected components Returns a pointer to a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>maxLargeComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="58" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="58" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a41cc33c60d7fd8fdef8a79feb601da95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Set_maxLargeComponents</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this, int value)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Set_maxLargeComponents</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return at most given number of largest by length connected components Modifies a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>maxLargeComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxLargeComponents</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a9d18ad9135dd2ee81680ee1d48331dac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_maxLargeComponents</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_maxLargeComponents</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return at most given number of largest by length connected components Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>maxLargeComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a079545ca863e461a470374792a2ddda3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *const *</type>
+        <definition>MRC_API int *const  * MR_PolylineComponents_LargeByLengthComponentsSettings_Get_numSmallerComponents</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Get_numSmallerComponents</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: the number of components in addition to returned ones Returns a pointer to a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>numSmallerComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="76" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="76" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a57c666b8b8a33969862e0e1261b9751f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Set_numSmallerComponents</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this, int *value)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Set_numSmallerComponents</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: the number of components in addition to returned ones Modifies a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>numSmallerComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>numSmallerComponents</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>numSmallerComponents</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1ac71161fd8b0b8471f52ee24f1ab95f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int **</type>
+        <definition>MRC_API int ** MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_numSmallerComponents</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_numSmallerComponents</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: the number of components in addition to returned ones Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>numSmallerComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="89" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="89" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1ac4b6580a5117a930780dc54764d244a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PolylineComponents_LargeByLengthComponentsSettings_Get_minLength</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Get_minLength</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>do not consider a component large if its length is below this value Returns a pointer to a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>minLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="95" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a92999bbc56d8852fb16968183191599c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Set_minLength</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this, float value)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Set_minLength</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>do not consider a component large if its length is below this value Modifies a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>minLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minLength</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a1c5aea7c56ec2daf0cdf05311c8b63f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_minLength</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_minLength</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>do not consider a component large if its length is below this value Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> named <computeroutput>minLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="107" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="107" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a59a442267619797719b5dd5fd3367241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineComponents_8h_1a9cf4d93b5c1bc774c385b91a7130a511" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="111" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="111" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1af6b5f2378cb405be3160ca54e61b2617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPolylineComponents_8h_1a578dfeb0a8074d81a7bb8837d3199a74" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPolylineComponents_8h_1a31bbdea92b1e012b6a3a2f198ed76287" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPolylineComponents_8h_1a76f935c1086a5942632f022a3a2ebbb1" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="116" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="116" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a9601e368db0a47df19536fedb6255363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom</definition>
+        <argsstring>(int maxLargeComponents, int *numSmallerComponents, float minLength)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom</name>
+        <param>
+          <type>int</type>
+          <declname>maxLargeComponents</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>numSmallerComponents</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>numSmallerComponents</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineComponents_8h_1a9cf4d93b5c1bc774c385b91a7130a511" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="122" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="122" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a76f935c1086a5942632f022a3a2ebbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API const MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="126" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="126" declcolumn="69"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a31bbdea92b1e012b6a3a2f198ed76287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="130" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="130" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a4a12162e3bb7d9822d5fdaae6b33b2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFromAnother</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *_other)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings::LargeByLengthComponentsSettings</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineComponents_8h_1a9cf4d93b5c1bc774c385b91a7130a511" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="136" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="136" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a9cf4d93b5c1bc774c385b91a7130a511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineComponents_LargeByLengthComponentsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a578dfeb0a8074d81a7bb8837d3199a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray</definition>
+        <argsstring>(const MR_PolylineComponents_LargeByLengthComponentsSettings *_this)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineComponents_LargeByLengthComponentsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="142" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a2e9e19137dfd351ec708e4443dc6eb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+        <definition>MRC_API MR_PolylineComponents_LargeByLengthComponentsSettings * MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother</definition>
+        <argsstring>(MR_PolylineComponents_LargeByLengthComponentsSettings *_this, const MR_PolylineComponents_LargeByLengthComponentsSettings *_other)</argsstring>
+        <name>MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PolylineComponents::LargeByLengthComponentsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="150" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="150" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1ae285a807c061e6a3376d20260e5c2015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UndirectedEdgeBitSet * MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f</definition>
+        <argsstring>(const MR_Polyline2 *polyline, const MR_PolylineComponents_LargeByLengthComponentsSettings *settings)</argsstring>
+        <name>MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput>MR::PolylineComponents::getNLargeByLengthComponents&lt;MR::Vector2f&gt;</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="157" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="157" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1ae02822fd85c05d30ba2d0aa384c434ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UndirectedEdgeBitSet * MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f</definition>
+        <argsstring>(const MR_Polyline3 *polyline, const MR_PolylineComponents_LargeByLengthComponentsSettings *settings)</argsstring>
+        <name>MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput>MR::PolylineComponents::getNLargeByLengthComponents&lt;MR::Vector3f&gt;</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="164" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="164" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1a59e9a38ea898e08f2d879d72d4fbd68d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_PolylineComponents_getUnionFindStructure</definition>
+        <argsstring>(const MR_PolylineTopology *topology)</argsstring>
+        <name>MR_PolylineComponents_getUnionFindStructure</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets union-find structure for given polyline Generated from function <computeroutput>MR::PolylineComponents::getUnionFindStructure</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="170" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="170" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1abb5804599978d3bd7d2752407b4cbeec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet * MR_PolylineComponents_getLargestComponent_MR_Vector2f</definition>
+        <argsstring>(const MR_Polyline2 *polyline, const float *minLength, int *numSmallerComponents)</argsstring>
+        <name>MR_PolylineComponents_getLargestComponent_MR_Vector2f</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>minLength</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>numSmallerComponents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns largest by length component Generated from function <computeroutput>MR::PolylineComponents::getLargestComponent&lt;MR::Vector2f&gt;</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>minLength</computeroutput> has a default argument: <computeroutput>0</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>numSmallerComponents</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a5f5b1d2e5d4d71fe8be1eddbe649ca16" kindref="member">MR_UndirectedEdgeBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="178" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="178" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineComponents_8h_1ac25dbffb348b1f5fd6f200da02ef14d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet * MR_PolylineComponents_getLargestComponent_MR_Vector3f</definition>
+        <argsstring>(const MR_Polyline3 *polyline, const float *minLength, int *numSmallerComponents)</argsstring>
+        <name>MR_PolylineComponents_getLargestComponent_MR_Vector3f</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>minLength</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>numSmallerComponents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns largest by length component Generated from function <computeroutput>MR::PolylineComponents::getLargestComponent&lt;MR::Vector3f&gt;</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>minLength</computeroutput> has a default argument: <computeroutput>0</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>numSmallerComponents</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a5f5b1d2e5d4d71fe8be1eddbe649ca16" kindref="member">MR_UndirectedEdgeBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="186" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" declline="186" declcolumn="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRPolylineComponents_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRPolylineComponents_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRPolylineComponents_8h_1a02d1fe1568aa3e29e692594602ba76bd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRPolylineComponents_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRPolylineComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRPolylineComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UndirectedEdgeBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRPolylineComponents_8h_1ab7aebc5565c5c5651f359d4f88353d32" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRPolylineComponents_8h_1ab7aebc5565c5c5651f359d4f88353d32" kindref="member">MR_PolylineComponents_getNumComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRPolylineComponents_8h_1a71c65b3d8a9877f368a5b8e0ffd954b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a71c65b3d8a9877f368a5b8e0ffd954b1" kindref="member">MR_PolylineComponents_getComponent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRPolylineComponents_8h_1a593b6767c2a25b151672012fccdbd3ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a593b6767c2a25b151672012fccdbd3ac" kindref="member">MR_PolylineComponents_getAllComponents_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRPolylineComponents_8h_1a6beb5d289540e14f999a5b29b17844b9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a6beb5d289540e14f999a5b29b17844b9" kindref="member">MR_PolylineComponents_getAllComponents_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxComponentCount);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRPolylineComponents_8h_1aff309b97257bed1d41107db0ee6b4d85" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineComponents_8h_1aff309b97257bed1d41107db0ee6b4d85" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Get_maxLargeComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRPolylineComponents_8h_1a41cc33c60d7fd8fdef8a79feb601da95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a41cc33c60d7fd8fdef8a79feb601da95" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Set_maxLargeComponents</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRPolylineComponents_8h_1a9d18ad9135dd2ee81680ee1d48331dac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineComponents_8h_1a9d18ad9135dd2ee81680ee1d48331dac" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_maxLargeComponents</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRPolylineComponents_8h_1a079545ca863e461a470374792a2ddda3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineComponents_8h_1a079545ca863e461a470374792a2ddda3" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Get_numSmallerComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRPolylineComponents_8h_1a57c666b8b8a33969862e0e1261b9751f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a57c666b8b8a33969862e0e1261b9751f" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Set_numSmallerComponents</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRPolylineComponents_8h_1ac71161fd8b0b8471f52ee24f1ab95f7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<ref refid="MRPolylineComponents_8h_1ac71161fd8b0b8471f52ee24f1ab95f7f" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_numSmallerComponents</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRPolylineComponents_8h_1ac4b6580a5117a930780dc54764d244a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineComponents_8h_1ac4b6580a5117a930780dc54764d244a3" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Get_minLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRPolylineComponents_8h_1a92999bbc56d8852fb16968183191599c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a92999bbc56d8852fb16968183191599c" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Set_minLength</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRPolylineComponents_8h_1a1c5aea7c56ec2daf0cdf05311c8b63f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineComponents_8h_1a1c5aea7c56ec2daf0cdf05311c8b63f2" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_minLength</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRPolylineComponents_8h_1a59a442267619797719b5dd5fd3367241" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a59a442267619797719b5dd5fd3367241" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRPolylineComponents_8h_1af6b5f2378cb405be3160ca54e61b2617" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1af6b5f2378cb405be3160ca54e61b2617" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRPolylineComponents_8h_1a9601e368db0a47df19536fedb6255363" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a9601e368db0a47df19536fedb6255363" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxLargeComponents,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numSmallerComponents,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minLength);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRPolylineComponents_8h_1a76f935c1086a5942632f022a3a2ebbb1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a76f935c1086a5942632f022a3a2ebbb1" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRPolylineComponents_8h_1a31bbdea92b1e012b6a3a2f198ed76287" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a31bbdea92b1e012b6a3a2f198ed76287" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRPolylineComponents_8h_1a4a12162e3bb7d9822d5fdaae6b33b2d1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a4a12162e3bb7d9822d5fdaae6b33b2d1" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRPolylineComponents_8h_1a9cf4d93b5c1bc774c385b91a7130a511" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a9cf4d93b5c1bc774c385b91a7130a511" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRPolylineComponents_8h_1a578dfeb0a8074d81a7bb8837d3199a74" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a578dfeb0a8074d81a7bb8837d3199a74" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRPolylineComponents_8h_1a2e9e19137dfd351ec708e4443dc6eb00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a2e9e19137dfd351ec708e4443dc6eb00" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother</ref>(<ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRPolylineComponents_8h_1ae285a807c061e6a3376d20260e5c2015" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineComponents_8h_1ae285a807c061e6a3376d20260e5c2015" kindref="member">MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRPolylineComponents_8h_1ae02822fd85c05d30ba2d0aa384c434ce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineComponents_8h_1ae02822fd85c05d30ba2d0aa384c434ce" kindref="member">MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRPolylineComponents_8h_1a59e9a38ea898e08f2d879d72d4fbd68d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRPolylineComponents_8h_1a59e9a38ea898e08f2d879d72d4fbd68d" kindref="member">MR_PolylineComponents_getUnionFindStructure</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRPolylineComponents_8h_1abb5804599978d3bd7d2752407b4cbeec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineComponents_8h_1abb5804599978d3bd7d2752407b4cbeec" kindref="member">MR_PolylineComponents_getLargestComponent_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*minLength,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numSmallerComponents);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRPolylineComponents_8h_1ac25dbffb348b1f5fd6f200da02ef14d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineComponents_8h_1ac25dbffb348b1f5fd6f200da02ef14d0" kindref="member">MR_PolylineComponents_getLargestComponent_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*minLength,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numSmallerComponents);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h"/>
+  </compounddef>
+</doxygen>

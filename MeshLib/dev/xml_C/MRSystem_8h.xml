@@ -1,0 +1,754 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSystem_8h" kind="file" language="C++">
+    <compoundname>MRSystem.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRSystem.h</label>
+        <link refid="MRSystem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSystem_8h_1a006d61fd2048bba5b5622d42cbe72526" prot="public" static="no">
+        <type>struct <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref></type>
+        <definition>typedef struct MR_std_filesystem_path MR_std_filesystem_path</definition>
+        <argsstring></argsstring>
+        <name>MR_std_filesystem_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="13" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" prot="public" static="no">
+        <type>struct <ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref></type>
+        <definition>typedef struct MR_std_function_void MR_std_function_void</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="14" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSystem_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" prot="public" static="no">
+        <type>struct <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref></type>
+        <definition>typedef struct MR_SystemMemory MR_SystemMemory</definition>
+        <argsstring></argsstring>
+        <name>MR_SystemMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::SystemMemory</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="20" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSystem_8h_1a194122b50524a35b6173d07b76c6bee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SetCurrentThreadName</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>MR_SetCurrentThreadName</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::SetCurrentThreadName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="24" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="24" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a2cf96490566ebace32c25bdeaf337d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <definition>MRC_API MR_std_filesystem_path * MR_getUserConfigDir</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_getUserConfigDir</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::getUserConfigDir</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="29" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="29" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a3c0fa8ad45de39c222ce798912032f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <definition>MRC_API MR_std_filesystem_path * MR_getUserConfigFilePath</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_getUserConfigFilePath</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::getUserConfigFilePath</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="34" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="34" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a0c335e0bb34f13011ed92f045cff2b03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <definition>MRC_API MR_std_filesystem_path * MR_GetTempDirectory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_GetTempDirectory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::GetTempDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="39" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="39" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1ac25d6d94ea946d7e1df8c5e01263b651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <definition>MRC_API MR_std_filesystem_path * MR_GetHomeDirectory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_GetHomeDirectory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::GetHomeDirectory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_filesystem_path_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="44" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="44" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a877a907ee82d0e1a8741225e178e45c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const char *</type>
+        <definition>MRC_API const char * MR_GetMRVersionString</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_GetMRVersionString</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::GetMRVersionString</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="48" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="48" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a9a2c431b1f94c26e2b5dbbf80fc20980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_OpenLink</definition>
+        <argsstring>(const char *url, const char *url_end)</argsstring>
+        <name>MR_OpenLink</name>
+        <param>
+          <type>const char *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>url_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::OpenLink</computeroutput>. Parameter <computeroutput>url</computeroutput> can not be null. If <computeroutput>url_end</computeroutput> is null, then <computeroutput>url</computeroutput> is assumed to be null-terminated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="54" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1af029fd236b83fe541a46e91cd19ab95d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_OpenDocument</definition>
+        <argsstring>(const char *path, const char *path_end)</argsstring>
+        <name>MR_OpenDocument</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::OpenDocument</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a1586290577baacf2cfea38be130eb60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_GetCpuId</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_GetCpuId</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::GetCpuId</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="64" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="64" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a763282bac1d140525911aa5346e1fe25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_GetDetailedOSName</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_GetDetailedOSName</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::GetDetailedOSName</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="69" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="69" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1afa5ff2cec02b5e4df57d3abdbc5a01d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_getOSNoSpaces</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_getOSNoSpaces</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::getOSNoSpaces</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="74" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="74" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a3d8c37d97792056381beaf3626103760" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_setNewHandlerIfNeeded</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_setNewHandlerIfNeeded</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::setNewHandlerIfNeeded</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1adf06857533c49bb6393404d4ea300537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_getCurrentStacktrace</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_getCurrentStacktrace</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns string representation of the current stacktrace Generated from function <computeroutput>MR::getCurrentStacktrace</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="83" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="83" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a9f6ecd03b803f0dd72e782e86b36983f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const MR_uint64_t *</type>
+        <definition>MRC_API const MR_uint64_t * MR_SystemMemory_Get_physicalTotal</definition>
+        <argsstring>(const MR_SystemMemory *_this)</argsstring>
+        <name>MR_SystemMemory_Get_physicalTotal</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>total amount of physical memory in the system, in bytes (0 if no info) Returns a pointer to a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalTotal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="89" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="89" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a202e539393e82fcc682812bf7422b928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SystemMemory_Set_physicalTotal</definition>
+        <argsstring>(MR_SystemMemory *_this, MR_uint64_t value)</argsstring>
+        <name>MR_SystemMemory_Set_physicalTotal</name>
+        <param>
+          <type><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>total amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalTotal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>physicalTotal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>physicalTotal</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="96" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a4bdca0396d657b44e59bfdc662495969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t *</type>
+        <definition>MRC_API MR_uint64_t * MR_SystemMemory_GetMutable_physicalTotal</definition>
+        <argsstring>(MR_SystemMemory *_this)</argsstring>
+        <name>MR_SystemMemory_GetMutable_physicalTotal</name>
+        <param>
+          <type><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>total amount of physical memory in the system, in bytes (0 if no info) Returns a mutable pointer to a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalTotal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="102" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="102" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a4f2ed771a1fab6aaec0ea9b651b59f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const MR_uint64_t *</type>
+        <definition>MRC_API const MR_uint64_t * MR_SystemMemory_Get_physicalAvailable</definition>
+        <argsstring>(const MR_SystemMemory *_this)</argsstring>
+        <name>MR_SystemMemory_Get_physicalAvailable</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>available amount of physical memory in the system, in bytes (0 if no info) Returns a pointer to a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalAvailable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="108" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="108" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a49739f3061b0a5d6b8d2b22395e32825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SystemMemory_Set_physicalAvailable</definition>
+        <argsstring>(MR_SystemMemory *_this, MR_uint64_t value)</argsstring>
+        <name>MR_SystemMemory_Set_physicalAvailable</name>
+        <param>
+          <type><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>available amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalAvailable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>physicalAvailable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>physicalAvailable</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="115" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a7a830721f661e3b954af22650bd8bb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t *</type>
+        <definition>MRC_API MR_uint64_t * MR_SystemMemory_GetMutable_physicalAvailable</definition>
+        <argsstring>(MR_SystemMemory *_this)</argsstring>
+        <name>MR_SystemMemory_GetMutable_physicalAvailable</name>
+        <param>
+          <type><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>available amount of physical memory in the system, in bytes (0 if no info) Returns a mutable pointer to a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalAvailable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="121" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="121" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a8f17b377f30210981bdbbb7e91e0bd96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_SystemMemory_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SystemMemory_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="125" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="125" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a4dff9d00dd7107720378fc2939815f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_SystemMemory_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SystemMemory_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSystem_8h_1a178344f70409b0a8db4916244bae17de" kindref="member">MR_SystemMemory_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSystem_8h_1abd784214971391452aa30a4a8b4f0045" kindref="member">MR_SystemMemory_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSystem_8h_1ab784844f12a8fe7d8d9812bab91ec762" kindref="member">MR_SystemMemory_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="130" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="130" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a3760303843a9a0a9045c15262c0228c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_SystemMemory_ConstructFrom</definition>
+        <argsstring>(MR_uint64_t physicalTotal, MR_uint64_t physicalAvailable)</argsstring>
+        <name>MR_SystemMemory_ConstructFrom</name>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>physicalTotal</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>physicalAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SystemMemory</computeroutput> elementwise. The reference to the parameter <computeroutput>physicalTotal</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>physicalAvailable</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="137" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="137" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1ab784844f12a8fe7d8d9812bab91ec762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API const MR_SystemMemory * MR_SystemMemory_OffsetPtr</definition>
+        <argsstring>(const MR_SystemMemory *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SystemMemory_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="141" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="141" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1abd784214971391452aa30a4a8b4f0045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_SystemMemory_OffsetMutablePtr</definition>
+        <argsstring>(MR_SystemMemory *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SystemMemory_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="145" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="145" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a34ff570c4c9bc0b771a6cf8f75002347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_SystemMemory_ConstructFromAnother</definition>
+        <argsstring>(const MR_SystemMemory *_other)</argsstring>
+        <name>MR_SystemMemory_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SystemMemory::SystemMemory</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="151" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="151" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SystemMemory_Destroy</definition>
+        <argsstring>(const MR_SystemMemory *_this)</argsstring>
+        <name>MR_SystemMemory_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SystemMemory</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a178344f70409b0a8db4916244bae17de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SystemMemory_DestroyArray</definition>
+        <argsstring>(const MR_SystemMemory *_this)</argsstring>
+        <name>MR_SystemMemory_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SystemMemory</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="157" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1ab046039cc735f33626f910489400f17a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_SystemMemory_AssignFromAnother</definition>
+        <argsstring>(MR_SystemMemory *_this, const MR_SystemMemory *_other)</argsstring>
+        <name>MR_SystemMemory_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SystemMemory::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="165" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="165" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1acbdc598c7ca798b4161d5bfb2f991317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref> *</type>
+        <definition>MRC_API MR_SystemMemory * MR_getSystemMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_getSystemMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return information about memory available in the system Generated from function <computeroutput>MR::getSystemMemory</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="170" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="170" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_setupLoggerByDefault</definition>
+        <argsstring>(const MR_std_function_void *customLogSinkAdder)</argsstring>
+        <name>MR_setupLoggerByDefault</name>
+        <param>
+          <type>const <ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref> *</type>
+          <declname>customLogSinkAdder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) add custom sink if provided 5) print stacktrace on crash (not in wasm) log level - trace Generated from function <computeroutput>MR::setupLoggerByDefault</computeroutput>. Parameter <computeroutput>customLogSinkAdder</computeroutput> is a single object. Parameter <computeroutput>customLogSinkAdder</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" declline="182" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRSystem_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRSystem_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>debug<sp/>name<sp/>for<sp/>the<sp/>current<sp/>thread</highlight></codeline>
+<codeline lineno="24" refid="MRSystem_8h_1a194122b50524a35b6173d07b76c6bee2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a194122b50524a35b6173d07b76c6bee2" kindref="member">MR_SetCurrentThreadName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>path<sp/>to<sp/>the<sp/>folder<sp/>with<sp/>user<sp/>config<sp/>file(s)</highlight></codeline>
+<codeline lineno="29" refid="MRSystem_8h_1a2cf96490566ebace32c25bdeaf337d57" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1a2cf96490566ebace32c25bdeaf337d57" kindref="member">MR_getUserConfigDir</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>path<sp/>of<sp/>config<sp/>file<sp/>in<sp/>APPDATA</highlight></codeline>
+<codeline lineno="34" refid="MRSystem_8h_1a3c0fa8ad45de39c222ce798912032f71" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1a3c0fa8ad45de39c222ce798912032f71" kindref="member">MR_getUserConfigFilePath</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>temp<sp/>directory</highlight></codeline>
+<codeline lineno="39" refid="MRSystem_8h_1a0c335e0bb34f13011ed92f045cff2b03" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1a0c335e0bb34f13011ed92f045cff2b03" kindref="member">MR_GetTempDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>home<sp/>directory</highlight></codeline>
+<codeline lineno="44" refid="MRSystem_8h_1ac25d6d94ea946d7e1df8c5e01263b651" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1ac25d6d94ea946d7e1df8c5e01263b651" kindref="member">MR_GetHomeDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>version<sp/>of<sp/>MR</highlight></codeline>
+<codeline lineno="48" refid="MRSystem_8h_1a877a907ee82d0e1a8741225e178e45c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRSystem_8h_1a877a907ee82d0e1a8741225e178e45c7" kindref="member">MR_GetMRVersionString</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Opens<sp/>given<sp/>link<sp/>in<sp/>default<sp/>browser</highlight></codeline>
+<codeline lineno="54" refid="MRSystem_8h_1a9a2c431b1f94c26e2b5dbbf80fc20980" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a9a2c431b1f94c26e2b5dbbf80fc20980" kindref="member">MR_OpenLink</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*url,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*url_end);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Opens<sp/>given<sp/>file<sp/>(or<sp/>directory)<sp/>in<sp/>associated<sp/>application</highlight></codeline>
+<codeline lineno="59" refid="MRSystem_8h_1af029fd236b83fe541a46e91cd19ab95d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1af029fd236b83fe541a46e91cd19ab95d" kindref="member">MR_OpenDocument</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>identification<sp/>of<sp/>the<sp/>CPU</highlight></codeline>
+<codeline lineno="64" refid="MRSystem_8h_1a1586290577baacf2cfea38be130eb60e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1a1586290577baacf2cfea38be130eb60e" kindref="member">MR_GetCpuId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>with<sp/>OS<sp/>name<sp/>with<sp/>details</highlight></codeline>
+<codeline lineno="69" refid="MRSystem_8h_1a763282bac1d140525911aa5346e1fe25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1a763282bac1d140525911aa5346e1fe25" kindref="member">MR_GetDetailedOSName</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>identification<sp/>of<sp/>the<sp/>OS</highlight></codeline>
+<codeline lineno="74" refid="MRSystem_8h_1afa5ff2cec02b5e4df57d3abdbc5a01d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1afa5ff2cec02b5e4df57d3abdbc5a01d2" kindref="member">MR_getOSNoSpaces</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>new<sp/>handler<sp/>for<sp/>operator<sp/>new<sp/>if<sp/>needed<sp/>for<sp/>some<sp/>platforms</highlight></codeline>
+<codeline lineno="78" refid="MRSystem_8h_1a3d8c37d97792056381beaf3626103760" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a3d8c37d97792056381beaf3626103760" kindref="member">MR_setNewHandlerIfNeeded</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRSystem_8h_1adf06857533c49bb6393404d4ea300537" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1adf06857533c49bb6393404d4ea300537" kindref="member">MR_getCurrentStacktrace</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRSystem_8h_1a9f6ecd03b803f0dd72e782e86b36983f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRSystem_8h_1a9f6ecd03b803f0dd72e782e86b36983f" kindref="member">MR_SystemMemory_Get_physicalTotal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRSystem_8h_1a202e539393e82fcc682812bf7422b928" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a202e539393e82fcc682812bf7422b928" kindref="member">MR_SystemMemory_Set_physicalTotal</ref>(<ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRSystem_8h_1a4bdca0396d657b44e59bfdc662495969" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRSystem_8h_1a4bdca0396d657b44e59bfdc662495969" kindref="member">MR_SystemMemory_GetMutable_physicalTotal</ref>(<ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRSystem_8h_1a4f2ed771a1fab6aaec0ea9b651b59f6d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRSystem_8h_1a4f2ed771a1fab6aaec0ea9b651b59f6d" kindref="member">MR_SystemMemory_Get_physicalAvailable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRSystem_8h_1a49739f3061b0a5d6b8d2b22395e32825" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a49739f3061b0a5d6b8d2b22395e32825" kindref="member">MR_SystemMemory_Set_physicalAvailable</ref>(<ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRSystem_8h_1a7a830721f661e3b954af22650bd8bb2e" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRSystem_8h_1a7a830721f661e3b954af22650bd8bb2e" kindref="member">MR_SystemMemory_GetMutable_physicalAvailable</ref>(<ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRSystem_8h_1a8f17b377f30210981bdbbb7e91e0bd96" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1a8f17b377f30210981bdbbb7e91e0bd96" kindref="member">MR_SystemMemory_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRSystem_8h_1a4dff9d00dd7107720378fc2939815f8c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1a4dff9d00dd7107720378fc2939815f8c" kindref="member">MR_SystemMemory_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRSystem_8h_1a3760303843a9a0a9045c15262c0228c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1a3760303843a9a0a9045c15262c0228c3" kindref="member">MR_SystemMemory_ConstructFrom</ref>(MR_uint64_t<sp/>physicalTotal,<sp/>MR_uint64_t<sp/>physicalAvailable);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRSystem_8h_1ab784844f12a8fe7d8d9812bab91ec762" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1ab784844f12a8fe7d8d9812bab91ec762" kindref="member">MR_SystemMemory_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRSystem_8h_1abd784214971391452aa30a4a8b4f0045" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1abd784214971391452aa30a4a8b4f0045" kindref="member">MR_SystemMemory_OffsetMutablePtr</ref>(<ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRSystem_8h_1a34ff570c4c9bc0b771a6cf8f75002347" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1a34ff570c4c9bc0b771a6cf8f75002347" kindref="member">MR_SystemMemory_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRSystem_8h_1a178344f70409b0a8db4916244bae17de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a178344f70409b0a8db4916244bae17de" kindref="member">MR_SystemMemory_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRSystem_8h_1ab046039cc735f33626f910489400f17a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1ab046039cc735f33626f910489400f17a" kindref="member">MR_SystemMemory_AssignFromAnother</ref>(<ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRSystem_8h_1acbdc598c7ca798b4161d5bfb2f991317" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1acbdc598c7ca798b4161d5bfb2f991317" kindref="member">MR_getSystemMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" kindref="member">MR_setupLoggerByDefault</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/>*customLogSinkAdder);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h"/>
+  </compounddef>
+</doxygen>

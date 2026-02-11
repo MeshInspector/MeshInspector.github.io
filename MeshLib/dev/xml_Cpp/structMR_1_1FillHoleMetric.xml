@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillHoleMetric" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillHoleMetric</compoundname>
+    <includes refid="MRMeshMetrics_8h" local="no">MRMeshMetrics.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FillHoleMetric_1acc8ef5c37515d91d9c3cb3fbcaa1fd22" prot="public" static="no" mutable="no">
+        <type><ref refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kindref="member">FillTriangleMetric</ref></type>
+        <definition>FillTriangleMetric MR::FillHoleMetric::triangleMetric</definition>
+        <argsstring></argsstring>
+        <name>triangleMetric</name>
+        <qualifiedname>MR::FillHoleMetric::triangleMetric</qualifiedname>
+        <briefdescription>
+<para>is called for each triangle, if it is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="42" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleMetric_1a3048bcf785194be02ce20b5d6e6bfd61" prot="public" static="no" mutable="no">
+        <type><ref refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kindref="member">FillEdgeMetric</ref></type>
+        <definition>FillEdgeMetric MR::FillHoleMetric::edgeMetric</definition>
+        <argsstring></argsstring>
+        <name>edgeMetric</name>
+        <qualifiedname>MR::FillHoleMetric::edgeMetric</qualifiedname>
+        <briefdescription>
+<para>is called for each edge, if it is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="44" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleMetric_1a7b6a69b1fc9a24862156d40b44ff814c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" kindref="member">FillCombineMetric</ref></type>
+        <definition>FillCombineMetric MR::FillHoleMetric::combineMetric</definition>
+        <argsstring></argsstring>
+        <name>combineMetric</name>
+        <qualifiedname>MR::FillHoleMetric::combineMetric</qualifiedname>
+        <briefdescription>
+<para>is called to combine metrics from different candidates, if it is not set it just summarizes input </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="46" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<linebreak/>
+. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions<linebreak/>
+ <simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga1f8991ed600a3fc8cec5258a75d5edb5" kindref="member">getCircumscribedMetric</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gaa490c6225ad37e5491af1ed61365e774" kindref="member">getPlaneFillMetric</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga2bc1cb5bc1aba5dea400fb1ea6cc8a63" kindref="member">getEdgeLengthFillMetric</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga21177488c5c69bed8eba38677306be0b" kindref="member">getEdgeLengthStitchMetric</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga254a08307d5300b9bc3843d7c8acf653" kindref="member">getComplexStitchMetric</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gac972786878ec37756f5a95814b657a05" kindref="member">fillHole</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="39" column="1"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FillHoleMetric_1a7b6a69b1fc9a24862156d40b44ff814c" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>combineMetric</name></member>
+      <member refid="structMR_1_1FillHoleMetric_1a3048bcf785194be02ce20b5d6e6bfd61" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>edgeMetric</name></member>
+      <member refid="structMR_1_1FillHoleMetric_1acc8ef5c37515d91d9c3cb3fbcaa1fd22" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>triangleMetric</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

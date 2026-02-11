@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshMeshDistanceResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshMeshDistanceResult</compoundname>
+    <includes refid="MRMeshMeshDistance_8h" local="no">MRMeshMeshDistance.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition>PointOnFace MR::MeshMeshDistanceResult::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::MeshMeshDistanceResult::a</qualifiedname>
+        <briefdescription>
+<para>two closest points: from meshes A and B respectively </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="18" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition>PointOnFace MR::MeshMeshDistanceResult::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::MeshMeshDistanceResult::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="18" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1a31d5db7464e13bf1f300593e515875c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MeshMeshDistanceResult::distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR::MeshMeshDistanceResult::distSq</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>squared distance between a and b </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MeshMeshDistanceResult</label>
+        <link refid="structMR_1_1MeshMeshDistanceResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>a</edgelabel>
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PointOnFace</label>
+        <link refid="structMR_1_1PointOnFace"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" bodystart="16" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>a</name></member>
+      <member refid="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>b</name></member>
+      <member refid="structMR_1_1MeshMeshDistanceResult_1a31d5db7464e13bf1f300593e515875c9" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>distSq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

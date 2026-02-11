@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__HistoryGroup" kind="group">
+    <compoundname>HistoryGroup</compoundname>
+    <title>History group</title>
+    <innerclass refid="classMR_1_1ChangeObjectColorAction" prot="public">MR::ChangeObjectColorAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeFacesColorMapAction" prot="public">MR::ChangeFacesColorMapAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeLinesColorMapAction" prot="public">MR::ChangeLinesColorMapAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeColoringType" prot="public">MR::ChangeColoringType</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshAction" prot="public">MR::ChangeMeshAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshUVCoordsAction" prot="public">MR::ChangeMeshUVCoordsAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeTextureAction" prot="public">MR::ChangeTextureAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshPointsAction" prot="public">MR::ChangeMeshPointsAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshTopologyAction" prot="public">MR::ChangeMeshTopologyAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshTexturePerFaceAction" prot="public">MR::ChangeMeshTexturePerFaceAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshDataAction" prot="public">MR::ChangeMeshDataAction</innerclass>
+    <innerclass refid="classMR_1_1PartialChangeMeshDataAction" prot="public">MR::PartialChangeMeshDataAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeNameAction" prot="public">MR::ChangeNameAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeObjectAction" prot="public">MR::ChangeObjectAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeVisualizePropertyAction" prot="public">MR::ChangeVisualizePropertyAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeObjectSelectedAction" prot="public">MR::ChangeObjectSelectedAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeObjectVisibilityAction" prot="public">MR::ChangeObjectVisibilityAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePointCloudAction" prot="public">MR::ChangePointCloudAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePointCloudPointsAction" prot="public">MR::ChangePointCloudPointsAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeOnePointInCloudAction" prot="public">MR::ChangeOnePointInCloudAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePointCloudNormalsAction" prot="public">MR::ChangePointCloudNormalsAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeOneNormalInCloudAction" prot="public">MR::ChangeOneNormalInCloudAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePolylineAction" prot="public">MR::ChangePolylineAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePolylinePointsAction" prot="public">MR::ChangePolylinePointsAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePolylineTopologyAction" prot="public">MR::ChangePolylineTopologyAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeOnePointInPolylineAction" prot="public">MR::ChangeOnePointInPolylineAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeScaleAction" prot="public">MR::ChangeScaleAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeSceneAction" prot="public">MR::ChangeSceneAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeSceneObjectsOrder" prot="public">MR::ChangeSceneObjectsOrder</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshFaceSelectionAction" prot="public">MR::ChangeMeshFaceSelectionAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshEdgeSelectionAction" prot="public">MR::ChangeMeshEdgeSelectionAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeMeshCreasesAction" prot="public">MR::ChangeMeshCreasesAction</innerclass>
+    <innerclass refid="classMR_1_1ChangePointPointSelectionAction" prot="public">MR::ChangePointPointSelectionAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeValue" prot="public">MR::ChangeValue</innerclass>
+    <innerclass refid="classMR_1_1ChangeVertsColorMapAction" prot="public">MR::ChangeVertsColorMapAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeXfAction" prot="public">MR::ChangeXfAction</innerclass>
+    <innerclass refid="classMR_1_1CombinedHistoryAction" prot="public">MR::CombinedHistoryAction</innerclass>
+    <innerclass refid="classMR_1_1HistoryAction" prot="public">MR::HistoryAction</innerclass>
+    <innerclass refid="structMR_1_1CmpOld" prot="public">MR::CmpOld</innerclass>
+    <innerclass refid="structMR_1_1SetNew" prot="public">MR::SetNew</innerclass>
+    <innerclass refid="classMR_1_1PartialChangeMeshAction" prot="public">MR::PartialChangeMeshAction</innerclass>
+    <innerclass refid="classMR_1_1PartialChangeMeshPointsAction" prot="public">MR::PartialChangeMeshPointsAction</innerclass>
+    <innerclass refid="classMR_1_1PartialChangeMeshTopologyAction" prot="public">MR::PartialChangeMeshTopologyAction</innerclass>
+    <innerclass refid="classMR_1_1HistoryStore" prot="public">MR::HistoryStore</innerclass>
+    <innerclass refid="classMR_1_1ViewportParametersAction" prot="public">MR::ViewportParametersAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeIsoAction" prot="public">MR::ChangeIsoAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeDualMarchingCubesAction" prot="public">MR::ChangeDualMarchingCubesAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeActiveBoxAction" prot="public">MR::ChangeActiveBoxAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeSurfaceAction" prot="public">MR::ChangeSurfaceAction</innerclass>
+    <innerclass refid="classMR_1_1ChangeGridAction" prot="public">MR::ChangeGridAction</innerclass>
+    <innerclass refid="classMR_1_1ChangVoxelSelectionAction" prot="public">MR::ChangVoxelSelectionAction</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" prot="public" static="no">
+        <type>ObjectVoxels</type>
+        <definition>using MR::ChangVoxelSelectionAction::Obj =  ObjectVoxels</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::Obj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>CmpOld</type>
+        <definition>CmpOld MR::cmpOld</definition>
+        <argsstring></argsstring>
+        <name>cmpOld</name>
+        <qualifiedname>MR::cmpOld</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="17" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>SetNew</type>
+        <definition>SetNew MR::setNew</definition>
+        <argsstring></argsstring>
+        <name>setNew</name>
+        <qualifiedname>MR::setNew</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="21" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__HistoryGroup_1ga0cc628db3ee48e266c212223bb7e7c22" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; ViewportId, Viewport::Parameters &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;ViewportId, Viewport::Parameters&gt; &gt; MR::ViewportParametersAction::saveParameters_</definition>
+        <argsstring></argsstring>
+        <name>saveParameters_</name>
+        <qualifiedname>MR::ViewportParametersAction::saveParameters_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="52" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__HistoryGroup_1gac68687f06583aae672d38f0ba7b6c11a" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ViewportParametersAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ViewportParametersAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="54" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__HistoryGroup_1gae1b709f99f76a6e3464071cb56642a42" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangVoxelSelectionAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="57" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__HistoryGroup_1ga46098df8eaeeaa4a63b6718a366f6af4" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; Obj &gt;</type>
+        <definition>std::shared_ptr&lt;Obj&gt; MR::ChangVoxelSelectionAction::objVoxels_</definition>
+        <argsstring></argsstring>
+        <name>objVoxels_</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::objVoxels_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__HistoryGroup_1ga93a11f9143eeb19f2d1692094b89117c" prot="private" static="no" mutable="no">
+        <type>VoxelBitSet</type>
+        <definition>VoxelBitSet MR::ChangVoxelSelectionAction::selection_</definition>
+        <argsstring></argsstring>
+        <name>selection_</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::selection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="59" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__HistoryGroup_1ga07eb725cd57069bb90b37cc3970a4c40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewportParametersAction::ViewportParametersAction</definition>
+        <argsstring>(std::string name, ViewportMask viewports=ViewportMask::all())</argsstring>
+        <name>ViewportParametersAction</name>
+        <qualifiedname>MR::ViewportParametersAction::ViewportParametersAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ViewportMask</type>
+          <declname>viewports</declname>
+          <defval>ViewportMask::all()</defval>
+        </param>
+        <briefdescription>
+<para>Use this constructor to remember viewport configuration before making changes in it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ViewportParametersAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ViewportParametersAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="28" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewportParametersAction::action</definition>
+        <argsstring>(HistoryAction::Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ViewportParametersAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type>HistoryAction::Type</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Assume user does not change viewports number</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="33" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ViewportParametersAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ViewportParametersAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="46" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction</definition>
+        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Obj &gt; &amp;objVoxels)</argsstring>
+        <name>ChangVoxelSelectionAction</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; Obj &gt; &amp;</type>
+          <declname>objVoxels</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s face selection before making any changes in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="19" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangVoxelSelectionAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="28" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1gaebcfdaaba426fea5c32f5ca836a7085f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ChangVoxelSelectionAction::action</definition>
+        <argsstring>(Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type>Type</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1ga639784e559a258dafd067f1e374d0ae2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VoxelBitSet &amp;</type>
+        <definition>const VoxelBitSet &amp; MR::ChangVoxelSelectionAction::selection</definition>
+        <argsstring>() const</argsstring>
+        <name>selection</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::selection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1ga54f4bbe409819b2a781e9d559f22298e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::ChangVoxelSelectionAction::setObjectDirty</definition>
+        <argsstring>(const std::shared_ptr&lt; Obj &gt; &amp;)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::setObjectDirty</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; Obj &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>empty because set dirty is inside selectFaces </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="48" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="48" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__HistoryGroup_1ga970e3207174343bffc6f631586e4f59d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ChangVoxelSelectionAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangVoxelSelectionAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="51" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

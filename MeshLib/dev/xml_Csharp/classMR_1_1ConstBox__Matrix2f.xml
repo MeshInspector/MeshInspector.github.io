@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConstBox__Matrix2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::ConstBox_Matrix2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR::Misc::Object&lt; ConstBox_Matrix2f &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ConstBox_Matrix2f &gt;</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Box__Matrix2f" prot="public" virt="non-virtual">MR.Box_Matrix2f</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ConstBox__Matrix2f_1aaecf47a7f638c7ebdb00d5287dee9cc2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>ref readonly MR.Vector2f MR.ConstBox_Matrix2f.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3030" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ConstBox__Matrix2f_1a99aeb6cbb899a37919906637d213ccb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>ref readonly MR.Vector2f MR.ConstBox_Matrix2f.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3032" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3032" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ConstBox__Matrix2f_1a472d6979274dce628ea2c11992ca95cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.ConstBox_Matrix2f.this[int row]</definition>
+        <argsstring></argsstring>
+        <name>this[int row]</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.this[int row]</qualifiedname>
+        <briefdescription>
+<para>row access Generated from method <computeroutput>MR.Matrix2f.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3205" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3206" bodyend="3213"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1ac0df7c7ce0a00d3d94bab9cbf2de4729" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_Matrix2f.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3019" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3019" bodyend="3025"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a569ec9c41ec23a570df1a69ad118d879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_Matrix2f.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3026" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3026" bodyend="3026"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a1e050c5b1b702f6d9b0c6a1a12971657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Matrix2f.ConstBox_Matrix2f</definition>
+        <argsstring>(Matrix2f other)</argsstring>
+        <name>ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.ConstBox_Matrix2f</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix2f" kindref="compound">Matrix2f</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3037" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3037" bodyend="3037"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1ade3222498101bec98d3f9a9d7f2af25b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Matrix2f.ConstBox_Matrix2f</definition>
+        <argsstring>(ConstBox_Matrix2f _other)</argsstring>
+        <name>ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.ConstBox_Matrix2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">ConstBox_Matrix2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3048" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3048" bodyend="3052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a2101d36376bf2b57ad9c3825ab0a065d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Matrix2f.ConstBox_Matrix2f</definition>
+        <argsstring>()</argsstring>
+        <name>ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.ConstBox_Matrix2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3057" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3057" bodyend="3063"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a76133905a2c12016ab0e50e1c2be9e7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Matrix2f.ConstBox_Matrix2f</definition>
+        <argsstring>(in MR.Vector2f x, in MR.Vector2f y)</argsstring>
+        <name>ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.ConstBox_Matrix2f</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>initializes matrix from its 2 rows Generated from constructor <computeroutput><ref refid="structMR_1_1Matrix2f_1af9d88978b640f18514a554396f113731" kindref="member">MR.Matrix2f.Matrix2f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3069" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3069" bodyend="3081"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a5bd55763123577534d8b3d5d879b1b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.ConstBox_Matrix2f.col</definition>
+        <argsstring>(int i)</argsstring>
+        <name>col</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.col</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>column access Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a7059115b42cca92c737c51930d7264da" kindref="member">MR.Matrix2f.col</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3219" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3219" bodyend="3224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1aa1638339d3c33db4af3a7a383b0c81ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.ConstBox_Matrix2f.trace</definition>
+        <argsstring>()</argsstring>
+        <name>trace</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.trace</qualifiedname>
+        <briefdescription>
+<para>computes trace of the matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1aa7cc40f3d9922c2be53fd991d2a6b1fb" kindref="member">MR.Matrix2f.trace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3230" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3230" bodyend="3235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a2263f4f8f403a24eced244e86c5e9c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.ConstBox_Matrix2f.normSq</definition>
+        <argsstring>()</argsstring>
+        <name>normSq</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.normSq</qualifiedname>
+        <briefdescription>
+<para>compute sum of squared matrix elements Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1ad99b0740df6a08deef01315a961fc6dc" kindref="member">MR.Matrix2f.normSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3241" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3241" bodyend="3246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a56f9d6349cd24d4e1c75cfd03e8521ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.ConstBox_Matrix2f.norm</definition>
+        <argsstring>()</argsstring>
+        <name>norm</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.norm</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a96a5bf082db5ec8ba77eaa4c2966e342" kindref="member">MR.Matrix2f.norm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3251" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3251" bodyend="3256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1ac405bc41274fd0cd89a5e7c97229aedd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.ConstBox_Matrix2f.det</definition>
+        <argsstring>()</argsstring>
+        <name>det</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.det</qualifiedname>
+        <briefdescription>
+<para>computes determinant of the matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a9cdaccb78b71e0a0f841447a0f10cd20" kindref="member">MR.Matrix2f.det</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3262" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3262" bodyend="3267"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a9b03285542c04d05e59c4e625ca0cefe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>unsafe MR.Matrix2f MR.ConstBox_Matrix2f.inverse</definition>
+        <argsstring>()</argsstring>
+        <name>inverse</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.inverse</qualifiedname>
+        <briefdescription>
+<para>computes inverse matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1ac29de16d3fd427977832008c53154e5b" kindref="member">MR.Matrix2f.inverse</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3273" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3273" bodyend="3278"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a4ff7b09852999c54125871ae5023e98a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>unsafe MR.Matrix2f MR.ConstBox_Matrix2f.transposed</definition>
+        <argsstring>()</argsstring>
+        <name>transposed</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.transposed</qualifiedname>
+        <briefdescription>
+<para>computes transposed matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a16bd572fea39ecc39c91bf39b387d8a1" kindref="member">MR.Matrix2f.transposed</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3284" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3284" bodyend="3289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a6e5595c2148589dfee835167b8b4db96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_Matrix2f.Equals</definition>
+        <argsstring>(MR.ConstBox_Matrix2f? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3393" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3393" bodyend="3398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1ab06b6a1fcedae8fbd9ae3acd2bc754c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_Matrix2f.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3400" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3400" bodyend="3407"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a8cea955b5cd06b391382d1fef88ead6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ConstBox_Matrix2f.~ConstBox_Matrix2f</definition>
+        <argsstring>()</argsstring>
+        <name>~ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.~ConstBox_Matrix2f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3027" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3027" bodyend="3027"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1adfa7b68ed71c6644cb40e4119fab4237" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_Matrix2f.operator ConstBox_Matrix2f</definition>
+        <argsstring>(Matrix2f other)</argsstring>
+        <name>operator ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator ConstBox_Matrix2f</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix2f" kindref="compound">Matrix2f</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">ConstBox_Matrix2f</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Matrix2f" kindref="compound">Box_Matrix2f</ref></computeroutput> intentionally doesn&apos;t. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3041" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3041" bodyend="3041"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a9d20ec77d538044a594112a4d2862c22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static MR.Matrix2f MR.ConstBox_Matrix2f.zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.zero</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a4ec2110d79eab0599f79900faa26e32f" kindref="member">MR.Matrix2f.zero</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3086" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3086" bodyend="3091"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a039720260ee3cb59dd3ce80f2168b209" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static MR.Matrix2f MR.ConstBox_Matrix2f.identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.identity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a5400ab3cf3cf2433f518a8b846e6d7d6" kindref="member">MR.Matrix2f.identity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3096" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3096" bodyend="3101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a243f19ed7ed889b89c14b44fe29848fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static MR.Matrix2f MR.ConstBox_Matrix2f.scale</definition>
+        <argsstring>(float s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.scale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>returns a matrix that scales uniformly Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a6347f45a3b4dd47f2754c3c9437761a9" kindref="member">MR.Matrix2f.scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3107" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3107" bodyend="3112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a1cb7ad11ab651e3dff13142a92ffad9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static MR.Matrix2f MR.ConstBox_Matrix2f.scale</definition>
+        <argsstring>(float sx, float sy)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.scale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>sx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sy</declname>
+        </param>
+        <briefdescription>
+<para>returns a matrix that has its own scale along each axis Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a6347f45a3b4dd47f2754c3c9437761a9" kindref="member">MR.Matrix2f.scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3118" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3118" bodyend="3123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a13d54500561d65663569b68a42b830fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.scale</definition>
+        <argsstring>(in MR.Vector2f s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.scale</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a6347f45a3b4dd47f2754c3c9437761a9" kindref="member">MR.Matrix2f.scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3128" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3128" bodyend="3136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1accd421a6e90284b4b3ab67473d50998f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static MR.Matrix2f MR.ConstBox_Matrix2f.rotation</definition>
+        <argsstring>(float angle)</argsstring>
+        <name>rotation</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.rotation</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+<para>creates matrix representing rotation around origin on given angle Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a5810a473517ff3f57b47402d753e06b1" kindref="member">MR.Matrix2f.rotation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3142" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3142" bodyend="3147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1ac7fde3ce1fe585100aace6d8410cf786" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.rotation</definition>
+        <argsstring>(in MR.Vector2f from, in MR.Vector2f to)</argsstring>
+        <name>rotation</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.rotation</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>creates matrix representing rotation that after application to (from) makes (to) vector Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a5810a473517ff3f57b47402d753e06b1" kindref="member">MR.Matrix2f.rotation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3153" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3153" bodyend="3164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a289cc543a8efde2efe566757132cc97d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.fromRows</definition>
+        <argsstring>(in MR.Vector2f x, in MR.Vector2f y)</argsstring>
+        <name>fromRows</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.fromRows</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>constructs a matrix from its 2 rows Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a99fdf210a7109c16e68f944d3ff53a4f" kindref="member">MR.Matrix2f.fromRows</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3170" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3170" bodyend="3181"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a7a2b4736b4eb3c20d140a10004e5f040" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.fromColumns</definition>
+        <argsstring>(in MR.Vector2f x, in MR.Vector2f y)</argsstring>
+        <name>fromColumns</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.fromColumns</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>constructs a matrix from its 2 columns; use this method to get the matrix that transforms basis vectors ( plusX, plusY ) into vectors ( x, y ) respectively Generated from method <computeroutput><ref refid="structMR_1_1Matrix2f_1a1378f9a730ff2c9f09c10ae580951aa7" kindref="member">MR.Matrix2f.fromColumns</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3188" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3188" bodyend="3199"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1adfb9327eea2c882ea8c3824262eec444" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Matrix2f.operator==</definition>
+        <argsstring>(MR.ConstBox_Matrix2f a, MR.ConstBox_Matrix2f b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3294" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3294" bodyend="3299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1aa32533016bb91457ef9868675ba6c909" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Matrix2f.operator!=</definition>
+        <argsstring>(MR.ConstBox_Matrix2f a, MR.ConstBox_Matrix2f b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3301" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3301" bodyend="3304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a437898550e67ff1a60bd280e4b1e35dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.operator+</definition>
+        <argsstring>(MR.ConstBox_Matrix2f a, in MR.Matrix2f b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3310" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3310" bodyend="3318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1ae7ba5fe918ea45a2c50298090dc8e7d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.operator-</definition>
+        <argsstring>(MR.ConstBox_Matrix2f a, in MR.Matrix2f b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3323" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3323" bodyend="3331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a70c85ab2e64fdb0457c8de39a9cae791" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.operator*</definition>
+        <argsstring>(float a, MR.ConstBox_Matrix2f b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator*</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3336" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3336" bodyend="3341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a32fcf5dfe4982faa3303562b1fe5f3d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.operator*</definition>
+        <argsstring>(MR.ConstBox_Matrix2f b, float a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3346" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3346" bodyend="3351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a44389dce015f59fdc848d086ab3a05cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.operator/</definition>
+        <argsstring>(ConstBox_Matrix2f b, float a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">ConstBox_Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3356" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3356" bodyend="3361"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a36ddef1d78ffe441cd9584b65e9c691f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>static unsafe MR.Vector2f MR.ConstBox_Matrix2f.operator*</definition>
+        <argsstring>(MR.ConstBox_Matrix2f a, in MR.Vector2f b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>x = a * b Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3367" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3367" bodyend="3375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a0d100c4b07ef40388dba3f500d54a613" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>static unsafe MR.Matrix2f MR.ConstBox_Matrix2f.operator*</definition>
+        <argsstring>(MR.ConstBox_Matrix2f a, in MR.Matrix2f b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix2f" kindref="compound">MR.ConstBox_Matrix2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>product of two matrices Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3381" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3381" bodyend="3389"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix2f_1a36b3fc0c2d85314113994f209ce7e951" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Matrix2f.ConstBox_Matrix2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ConstBox_Matrix2f</name>
+        <qualifiedname>MR.ConstBox_Matrix2f.ConstBox_Matrix2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3043" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3043" bodyend="3043"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>arbitrary 2x2 matrix Generated from class <computeroutput><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></computeroutput>. This is the const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ConstBox_Matrix2f</label>
+        <link refid="classMR_1_1ConstBox__Matrix2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Box_Matrix2f</label>
+        <link refid="classMR_1_1Box__Matrix2f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Misc::Object&lt; ConstBox_Matrix2f &gt;</label>
+      </node>
+      <node id="3">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System::IEquatable&lt; MR.ConstBox_Matrix2f &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ConstBox_Matrix2f</label>
+        <link refid="classMR_1_1ConstBox__Matrix2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Misc::Object&lt; ConstBox_Matrix2f &gt;</label>
+      </node>
+      <node id="3">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System::IEquatable&lt; MR.ConstBox_Matrix2f &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" line="3008" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix2.cs" bodystart="3009" bodyend="3408"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a5bd55763123577534d8b3d5d879b1b27" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>col</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a1e050c5b1b702f6d9b0c6a1a12971657" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>ConstBox_Matrix2f</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a36b3fc0c2d85314113994f209ce7e951" prot="package" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>ConstBox_Matrix2f</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1ade3222498101bec98d3f9a9d7f2af25b" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>ConstBox_Matrix2f</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a2101d36376bf2b57ad9c3825ab0a065d" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>ConstBox_Matrix2f</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a76133905a2c12016ab0e50e1c2be9e7d" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>ConstBox_Matrix2f</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1ac405bc41274fd0cd89a5e7c97229aedd" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>det</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1ac0df7c7ce0a00d3d94bab9cbf2de4729" prot="protected" virt="virtual"><scope>MR::ConstBox_Matrix2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a569ec9c41ec23a570df1a69ad118d879" prot="public" virt="virtual"><scope>MR::ConstBox_Matrix2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a6e5595c2148589dfee835167b8b4db96" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1ab06b6a1fcedae8fbd9ae3acd2bc754c3" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a7a2b4736b4eb3c20d140a10004e5f040" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>fromColumns</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a289cc543a8efde2efe566757132cc97d" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>fromRows</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a039720260ee3cb59dd3ce80f2168b209" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>identity</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a9b03285542c04d05e59c4e625ca0cefe" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>inverse</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a56f9d6349cd24d4e1c75cfd03e8521ab" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>norm</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a2263f4f8f403a24eced244e86c5e9c1b" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>normSq</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1adfa7b68ed71c6644cb40e4119fab4237" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator ConstBox_Matrix2f</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1aa32533016bb91457ef9868675ba6c909" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a70c85ab2e64fdb0457c8de39a9cae791" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a32fcf5dfe4982faa3303562b1fe5f3d3" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a36ddef1d78ffe441cd9584b65e9c691f" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a0d100c4b07ef40388dba3f500d54a613" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a437898550e67ff1a60bd280e4b1e35dc" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1ae7ba5fe918ea45a2c50298090dc8e7d2" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator-</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a44389dce015f59fdc848d086ab3a05cd" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator/</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1adfb9327eea2c882ea8c3824262eec444" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1accd421a6e90284b4b3ab67473d50998f" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>rotation</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1ac7fde3ce1fe585100aace6d8410cf786" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>rotation</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a243f19ed7ed889b89c14b44fe29848fa" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>scale</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a1cb7ad11ab651e3dff13142a92ffad9d" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>scale</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a13d54500561d65663569b68a42b830fb" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>scale</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a472d6979274dce628ea2c11992ca95cc" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>this[int row]</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1aa1638339d3c33db4af3a7a383b0c81ed" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>trace</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a4ff7b09852999c54125871ae5023e98a" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>transposed</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1aaecf47a7f638c7ebdb00d5287dee9cc2" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>x</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a99aeb6cbb899a37919906637d213ccb5" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>y</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a9d20ec77d538044a594112a4d2862c22" prot="public" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>zero</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix2f_1a8cea955b5cd06b391382d1fef88ead6c" prot="private" virt="non-virtual"><scope>MR::ConstBox_Matrix2f</scope><name>~ConstBox_Matrix2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

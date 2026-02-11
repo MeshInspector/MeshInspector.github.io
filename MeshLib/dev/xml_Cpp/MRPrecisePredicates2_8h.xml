@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPrecisePredicates2_8h" kind="file" language="C++">
+    <compoundname>MRPrecisePredicates2.h</compoundname>
+    <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes local="no">array</includes>
+    <includes local="no">functional</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPrecisePredicates2.h</label>
+        <link refid="MRPrecisePredicates2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>cstddef</label>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="20">
+        <label>iosfwd</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>type_traits</label>
+      </node>
+      <node id="21">
+        <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1PreciseVertCoord" prot="public">MR::PreciseVertCoord</innerclass>
+    <innerclass refid="structMR_1_1PreciseVertCoords2" prot="public">MR::PreciseVertCoords2</innerclass>
+    <innerclass refid="structMR_1_1SegmentSegmentIntersectResult" prot="public">MR::SegmentSegmentIntersectResult</innerclass>
+    <innerclass refid="structMR_1_1CoordinateConverters2" prot="public">MR::CoordinateConverters2</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1PreciseVertCoord" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PreciseVertCoord" kindref="compound">PreciseVertCoord</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1PreciseVertCoord_1a06f1bfc70a05a9294afb6050626e61dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PreciseVertCoord_1a06f1bfc70a05a9294afb6050626e61dd" kindref="member">id</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1PreciseVertCoord_1a547304af4a3486eb429f7737c6f9fc3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PreciseVertCoord_1a547304af4a3486eb429f7737c6f9fc3e" kindref="member">pt</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1ab32707ab055efa8d14815955fdfbcadd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ab32707ab055efa8d14815955fdfbcadd" kindref="member">smaller</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PreciseVertCoord" kindref="compound">PreciseVertCoord</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PreciseVertCoord" kindref="compound">PreciseVertCoord</ref>&amp;<sp/>r<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>l.<ref refid="structMR_1_1PreciseVertCoord_1a547304af4a3486eb429f7737c6f9fc3e" kindref="member">pt</ref><sp/>&lt;<sp/>r.<ref refid="structMR_1_1PreciseVertCoord_1a547304af4a3486eb429f7737c6f9fc3e" kindref="member">pt</ref><sp/>||<sp/>(<sp/>l.<ref refid="structMR_1_1PreciseVertCoord_1a547304af4a3486eb429f7737c6f9fc3e" kindref="member">pt</ref><sp/>==<sp/>r.<ref refid="structMR_1_1PreciseVertCoord_1a547304af4a3486eb429f7737c6f9fc3e" kindref="member">pt</ref><sp/>&amp;&amp;<sp/>r.<ref refid="structMR_1_1PreciseVertCoord_1a06f1bfc70a05a9294afb6050626e61dd" kindref="member">id</ref><sp/>&lt;<sp/>l.<ref refid="structMR_1_1PreciseVertCoord_1a06f1bfc70a05a9294afb6050626e61dd" kindref="member">id</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1a04b9e51953d898cf85e76c05d426366a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a04b9e51953d898cf85e76c05d426366a" kindref="member">ccw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="namespaceMR_1a748634eee611373365c3a338f0259d7e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a04b9e51953d898cf85e76c05d426366a" kindref="member">ccw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>c<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a04b9e51953d898cf85e76c05d426366a" kindref="member">ccw</ref>(<sp/>a<sp/>-<sp/>c,<sp/>b<sp/>-<sp/>c<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1PreciseVertCoords2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PreciseVertCoords2" kindref="compound">PreciseVertCoords2</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1PreciseVertCoords2_1a6ffb69d89938c4fc7d7cf12857c89f25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PreciseVertCoords2_1a6ffb69d89938c4fc7d7cf12857c89f25" kindref="member">id</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37" refid="structMR_1_1PreciseVertCoords2_1a5d5322f95eb294c6584a9f15f247fcd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="structMR_1_1PreciseVertCoords2_1a5d5322f95eb294c6584a9f15f247fcd7" kindref="member">pt</ref>;<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="namespaceMR_1adebe37534b9bb6c1ccc995df1839c432" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a04b9e51953d898cf85e76c05d426366a" kindref="member">ccw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords2,<sp/>3&gt;<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="43" refid="namespaceMR_1aadc1b40eb80e70a7e20d00559456217d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a04b9e51953d898cf85e76c05d426366a" kindref="member">ccw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PreciseVertCoords2" kindref="compound">PreciseVertCoords2</ref>*<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="namespaceMR_1a9a7e0ce0f1abfc4c495e78fa9b09057e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a9a7e0ce0f1abfc4c495e78fa9b09057e" kindref="member">smaller2</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords2,<sp/>4&gt;<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="namespaceMR_1a6626f7c315e4aae48380b5c214af0e42" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6626f7c315e4aae48380b5c214af0e42" kindref="member">orientParaboloid3d</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>c<sp/>);</highlight></codeline>
+<codeline lineno="55" refid="namespaceMR_1a565f119f21a7b73c4af0da283afb6c30" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6626f7c315e4aae48380b5c214af0e42" kindref="member">orientParaboloid3d</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>d<sp/>)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6626f7c315e4aae48380b5c214af0e42" kindref="member">orientParaboloid3d</ref>(<sp/>a<sp/>-<sp/>d,<sp/>b<sp/>-<sp/>d,<sp/>c<sp/>-<sp/>d<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="namespaceMR_1a084e4f0b1325cc3f6db691c8f4a79afb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a084e4f0b1325cc3f6db691c8f4a79afb" kindref="member">inCircle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords2,<sp/>4&gt;&amp;<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="60" refid="namespaceMR_1ae880209b92fb93b18e8e7c41b3ba6aea" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a084e4f0b1325cc3f6db691c8f4a79afb" kindref="member">inCircle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PreciseVertCoords2" kindref="compound">PreciseVertCoords2</ref>*<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structMR_1_1SegmentSegmentIntersectResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SegmentSegmentIntersectResult" kindref="compound">SegmentSegmentIntersectResult</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1SegmentSegmentIntersectResult_1ad55a194e9fc76257f3bb95f35d4495c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SegmentSegmentIntersectResult_1ad55a194e9fc76257f3bb95f35d4495c5" kindref="member">doIntersect</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65" refid="structMR_1_1SegmentSegmentIntersectResult_1ad789dc6d1f5c42fae9b48164fcf8e824" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SegmentSegmentIntersectResult_1ad789dc6d1f5c42fae9b48164fcf8e824" kindref="member">cIsLeftFromAB</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1SegmentSegmentIntersectResult_1a80259f73338ce5812b3cd0466379f9b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SegmentSegmentIntersectResult_1ad55a194e9fc76257f3bb95f35d4495c5" kindref="member">doIntersect</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="namespaceMR_1a10729a0925102f48ab56d783b191699c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1SegmentSegmentIntersectResult" kindref="compound">SegmentSegmentIntersectResult</ref><sp/><ref refid="namespaceMR_1a10729a0925102f48ab56d783b191699c" kindref="member">doSegmentSegmentIntersect</ref>(</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords2,<sp/>4&gt;<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="namespaceMR_1a9966302a175074e0eccc6f6af09819e3" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a9966302a175074e0eccc6f6af09819e3" kindref="member">ConvertToIntVector2</ref><sp/>=<sp/>std::function&lt;Vector2i(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="78" refid="namespaceMR_1a99bc296c2e6fee9ad9798298d3e942ab" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a99bc296c2e6fee9ad9798298d3e942ab" kindref="member">ConvertToFloatVector2</ref><sp/>=<sp/>std::function&lt;Vector2f(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="80" refid="structMR_1_1CoordinateConverters2" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82" refid="structMR_1_1CoordinateConverters2_1aec74867bf6fa21b7d48dfabf36194f8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a9966302a175074e0eccc6f6af09819e3" kindref="member">ConvertToIntVector2</ref><sp/><ref refid="structMR_1_1CoordinateConverters2_1aec74867bf6fa21b7d48dfabf36194f8c" kindref="member">toInt</ref>{};</highlight></codeline>
+<codeline lineno="83" refid="structMR_1_1CoordinateConverters2_1a7914d773b759411e23efd36b3c2fcc46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a99bc296c2e6fee9ad9798298d3e942ab" kindref="member">ConvertToFloatVector2</ref><sp/><ref refid="structMR_1_1CoordinateConverters2_1a7914d773b759411e23efd36b3c2fcc46" kindref="member">toFloat</ref>{};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="namespaceMR_1a60a0c2f417f93c5b7146c1ea63680d02" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a60a0c2f417f93c5b7146c1ea63680d02" kindref="member">segmentIntersectionOrder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords2,<sp/>6&gt;<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="namespaceMR_1a1dd7d1f303aba49ee7b9f4e984261bd7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector2i<sp/><ref refid="namespaceMR_1a1dd7d1f303aba49ee7b9f4e984261bd7" kindref="member">findSegmentSegmentIntersectionPrecise</ref>(</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>d<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="namespaceMR_1a5f3df64863abc3404145b3343176c230" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector2f<sp/><ref refid="namespaceMR_1a1dd7d1f303aba49ee7b9f4e984261bd7" kindref="member">findSegmentSegmentIntersectionPrecise</ref>(</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>d,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref><sp/>converters<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h"/>
+  </compounddef>
+</doxygen>

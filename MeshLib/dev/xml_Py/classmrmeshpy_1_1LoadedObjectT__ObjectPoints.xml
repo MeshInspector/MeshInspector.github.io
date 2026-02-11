@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LoadedObjectT_ObjectPoints</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1afb05bf4f2f698f3121dc16e6cf73c4ae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LoadedObjectT_ObjectPoints::_offsetof_lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lengthUnit</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints._offsetof_lengthUnit</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1ac11df69a7348070955793e42d9f175d0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LoadedObjectT_ObjectPoints::_offsetof_obj</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_obj</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints._offsetof_obj</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a67bfb066ce86838eb31e453a7ff1ba86" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LoadedObjectT_ObjectPoints::_offsetof_warnings</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_warnings</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints._offsetof_warnings</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26462" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1ae4b994ec0af77e348bbf80d447018e3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectPoints.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26466" bodyend="26467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a3ce6cd3910a1a059fb39ab1431dbdb79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints" kindref="compound">LoadedObjectT_ObjectPoints</ref></type>
+        <definition> LoadedObjectT_ObjectPoints mrmeshpy.LoadedObjectT_ObjectPoints.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26470" bodyend="26471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a3ce6cd3910a1a059fb39ab1431dbdb79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints" kindref="compound">LoadedObjectT_ObjectPoints</ref></type>
+        <definition> LoadedObjectT_ObjectPoints mrmeshpy.LoadedObjectT_ObjectPoints.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26474" bodyend="26475"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1afc962b418feb871ee6ab1c5abe523e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectPoints.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26477" bodyend="26478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a756342ca2ead13f275ab328de9e12065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectPoints.__init__</definition>
+        <argsstring>(self, LoadedObjectT_ObjectPoints arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints" kindref="compound">LoadedObjectT_ObjectPoints</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26480" bodyend="26483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a6d3c6ad40f2b696c8764049aec1bf572" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectPoints.__init__</definition>
+        <argsstring>(self, ObjectPoints obj, str warnings, std_optional_LengthUnit lengthUnit)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>warnings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>lengthUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26485" bodyend="26488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a77429b160a37d827e7af3fb5ecf2d92a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+        <definition> std_optional_LengthUnit mrmeshpy.LoadedObjectT_ObjectPoints.lengthUnit</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>units of object coordinates and transformations (if known)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26490" bodyend="26493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a9864d084f3b7ffe30b49e710f53dbe3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectPoints.lengthUnit</definition>
+        <argsstring>(self, std_optional_LengthUnit arg1)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26495" bodyend="26496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1ab8e180d5460c111e7e46ac8cc650e80e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LoadedObjectT_ObjectPoints.warnings</definition>
+        <argsstring>(self)</argsstring>
+        <name>warnings</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.warnings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>either empty or ends with &apos;\\n&apos;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26498" bodyend="26501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a11bb638cf958c51b262b182fb9c52dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectPoints.warnings</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>warnings</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectPoints.warnings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26503" bodyend="26504"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::LoadedObjectT&lt;MR::ObjectPoints&gt;
+Aliases:  LoadedObjectPoints
+
+result of loading (e.g. from a file) as one object (with possible subobjects)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LoadedObjectT_ObjectPoints</label>
+        <link refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_lengthUnit</edgelabel>
+          <edgelabel>_offsetof_obj</edgelabel>
+          <edgelabel>_offsetof_warnings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26453" bodyend="26504"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1ae4b994ec0af77e348bbf80d447018e3c" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1afc962b418feb871ee6ab1c5abe523e11" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a756342ca2ead13f275ab328de9e12065" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a6d3c6ad40f2b696c8764049aec1bf572" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1afb05bf4f2f698f3121dc16e6cf73c4ae" prot="protected" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1ac11df69a7348070955793e42d9f175d0" prot="protected" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>_offsetof_obj</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a67bfb066ce86838eb31e453a7ff1ba86" prot="protected" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>_offsetof_warnings</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a77429b160a37d827e7af3fb5ecf2d92a" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a9864d084f3b7ffe30b49e710f53dbe3d" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a3ce6cd3910a1a059fb39ab1431dbdb79" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a3ce6cd3910a1a059fb39ab1431dbdb79" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1ab8e180d5460c111e7e46ac8cc650e80e" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>warnings</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectPoints_1a11bb638cf958c51b262b182fb9c52dab" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectPoints</scope><name>warnings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

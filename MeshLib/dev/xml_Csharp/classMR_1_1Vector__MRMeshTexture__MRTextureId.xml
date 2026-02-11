@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Vector__MRMeshTexture__MRTextureId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Vector_MRMeshTexture_MRTextureId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRMeshTexture_MRTextureId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable&lt; MR.MeshTexture &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a57bab41c80439a32f562570ecffa789c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRMeshTexture</type>
+        <definition>new unsafe MR.Std.Vector_MRMeshTexture MR.Vector_MRMeshTexture_MRTextureId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24100" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24100" bodyend="24100"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ac34893f309d0684bd6c1bbf86772b9cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>unsafe new MR.MeshTexture MR.Vector_MRMeshTexture_MRTextureId.this[MR.TextureId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.TextureId i]</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.this[MR.TextureId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24258" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24259" bodyend="24266"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a36fdc621df5632f3965d01392a21ba71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.MeshTexture &gt; MR.Vector_MRMeshTexture_MRTextureId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24089" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24089" bodyend="24092"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1abf4a361ebe47c48daafe8eb3708ca992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24129" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24129" bodyend="24135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aba1eaf76ca9d50f517c6602c17ada1df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshTexture_MRTextureId _other)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshTexture_MRTextureId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24140" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24140" bodyend="24147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a9aa0e5113e8db8b214e19a6129d562f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(Const_Vector_MRMeshTexture_MRTextureId _other)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRMeshTexture_MRTextureId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24152" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24152" bodyend="24152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ad6d16753af69fe950ee1ba19209eb156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(Vector_MRMeshTexture_MRTextureId _other)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24157" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24157" bodyend="24157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a1478b190afa1fb96f2590a3ae0cf517d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24163" bodyend="24169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ad7fb85cf7d98c6e8e208dfb588359e0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(ulong size, MR.Const_MeshTexture val)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTexture</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24175" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24175" bodyend="24182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a576eb90c835f2655def90e5c0a226feb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRMeshTexture &gt; vec)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRMeshTexture &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24188" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24188" bodyend="24195"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aabb469c1fad56ba9229300d48b2b64c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId MR.Vector_MRMeshTexture_MRTextureId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshTexture_MRTextureId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshTexture_MRTextureId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24206" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24206" bodyend="24213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ada30ad49e2e1f39a23ba013bb1503345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24218" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24218" bodyend="24223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aa64eb8cf123aeea4b81a6b1b09c4f254" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24228" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24228" bodyend="24233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1adb011bd051779d9d4bd240ad90e5698a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.resize</definition>
+        <argsstring>(ulong newSize, MR.Const_MeshTexture t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTexture</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24238" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24238" bodyend="24243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a91dc5adb78740ab72f9a26a115f9adbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::reserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24248" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24248" bodyend="24253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a367d97b29a20cd6516add9d55d30f627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24272" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24272" bodyend="24277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a26e0c0bef2ca04065274ebd90490d340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Const_MeshTexture value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTexture</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24283" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24283" bodyend="24288"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ae0a62d7e63b4642824821d867a586281" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.autoResizeSet</definition>
+        <argsstring>(MR.TextureId pos, ulong len, MR._ByValue_MeshTexture val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24295" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24295" bodyend="24300"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a01b5455f4d83c611fc263fd66e5e9cc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.autoResizeSet</definition>
+        <argsstring>(MR.TextureId i, MR._ByValue_MeshTexture val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24306" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24306" bodyend="24311"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a8fb874ff0a319b33ae4d1455af017c29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>unsafe MR.MeshTexture MR.Vector_MRMeshTexture_MRTextureId.autoResizeAt</definition>
+        <argsstring>(MR.TextureId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::autoResizeAt</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24317" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24317" bodyend="24322"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aff51ee23045284d6ba36a0a40ac25e82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.pushBack</definition>
+        <argsstring>(MR.Const_MeshTexture t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTexture</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24327" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24327" bodyend="24332"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ac921dc28d38416d019f6cb4530186d37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.MeshTexture &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24337" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24337" bodyend="24342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a8463fdf1bf06389e874ec5a719e2735b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24347" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24347" bodyend="24352"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a112d66bff8851a9dabcbb72b8a6c6f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>unsafe MR.MeshTexture MR.Vector_MRMeshTexture_MRTextureId.emplaceBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.MeshTexture &gt; args)</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.emplaceBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref> &gt;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::emplace_back&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24357" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24357" bodyend="24362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a6115f23479c1453bb65d922287a8811b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>unsafe MR.MeshTexture MR.Vector_MRMeshTexture_MRTextureId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24367" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24367" bodyend="24372"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a46f9f756131fbb6eb8ef5cb852544530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>unsafe new MR.MeshTexture MR.Vector_MRMeshTexture_MRTextureId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::front</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24377" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24377" bodyend="24382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a09ac62a266b211f94c47a62b431a9e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>unsafe new MR.MeshTexture MR.Vector_MRMeshTexture_MRTextureId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24387" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24387" bodyend="24392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a5c3014eecdd6421980f8e72afceddf0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+        <definition>unsafe new MR.? MeshTexture MR.Vector_MRMeshTexture_MRTextureId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::data</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24397" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24397" bodyend="24403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a5743797638809bc4d4926e6299fe0faf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRMeshTexture_MRTextureId.swap</definition>
+        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::swap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24408" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24408" bodyend="24413"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a1a53cc2c4d7ebe0809129ed7cc2da351" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_MRMeshTexture_MRTextureId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24094" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24094" bodyend="24097"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ae95c3325806a862d7f39cd243c27a2b2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24119" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24119" bodyend="24123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a86e9d4a2eab5f7722d952b6aad09da4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Vector_MRMeshTexture_MRTextureId.operator Vector_MRMeshTexture_MRTextureId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRMeshTexture &gt; vec)</argsstring>
+        <name>operator Vector_MRMeshTexture_MRTextureId</name>
+        <qualifiedname>MR.Vector_MRMeshTexture_MRTextureId.operator Vector_MRMeshTexture_MRTextureId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRMeshTexture &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24201" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24201" bodyend="24201"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Vector_MRMeshTexture_MRTextureId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEnumerable&lt; MR.Const_MeshTexture &gt;</label>
+      </node>
+      <node id="6">
+        <label>IEnumerable&lt; MR.MeshTexture &gt;</label>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRMeshTexture_MRTextureId</label>
+        <link refid="classMR_1_1Vector__MRMeshTexture__MRTextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRMeshTexture_MRTextureId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Vector_MRMeshTexture_MRTextureId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEnumerable&lt; MR.Const_MeshTexture &gt;</label>
+      </node>
+      <node id="6">
+        <label>IEnumerable&lt; MR.MeshTexture &gt;</label>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRMeshTexture_MRTextureId</label>
+        <link refid="classMR_1_1Vector__MRMeshTexture__MRTextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRMeshTexture_MRTextureId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24033" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24034" bodyend="24414"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aabb469c1fad56ba9229300d48b2b64c9" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a8fb874ff0a319b33ae4d1455af017c29" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ae0a62d7e63b4642824821d867a586281" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a01b5455f4d83c611fc263fd66e5e9cc7" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a09ac62a266b211f94c47a62b431a9e76" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>back</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ada30ad49e2e1f39a23ba013bb1503345" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a5c3014eecdd6421980f8e72afceddf0c" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>data</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a112d66bff8851a9dabcbb72b8a6c6f2a" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a6115f23479c1453bb65d922287a8811b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a46f9f756131fbb6eb8ef5cb852544530" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a36fdc621df5632f3965d01392a21ba71" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a1a53cc2c4d7ebe0809129ed7cc2da351" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a86e9d4a2eab5f7722d952b6aad09da4a" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>operator Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a8463fdf1bf06389e874ec5a719e2735b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aff51ee23045284d6ba36a0a40ac25e82" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ac921dc28d38416d019f6cb4530186d37" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a91dc5adb78740ab72f9a26a115f9adbc" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aa64eb8cf123aeea4b81a6b1b09c4f254" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1adb011bd051779d9d4bd240ad90e5698a" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a367d97b29a20cd6516add9d55d30f627" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a26e0c0bef2ca04065274ebd90490d340" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a5743797638809bc4d4926e6299fe0faf" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ac34893f309d0684bd6c1bbf86772b9cc" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>this[MR.TextureId i]</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a57bab41c80439a32f562570ecffa789c" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ae95c3325806a862d7f39cd243c27a2b2" prot="package" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1abf4a361ebe47c48daafe8eb3708ca992" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1aba1eaf76ca9d50f517c6602c17ada1df" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a9aa0e5113e8db8b214e19a6129d562f1" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ad6d16753af69fe950ee1ba19209eb156" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a1478b190afa1fb96f2590a3ae0cf517d" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ad7fb85cf7d98c6e8e208dfb588359e0c" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+      <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a576eb90c835f2655def90e5c0a226feb" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshTexture_MRTextureId</scope><name>Vector_MRMeshTexture_MRTextureId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

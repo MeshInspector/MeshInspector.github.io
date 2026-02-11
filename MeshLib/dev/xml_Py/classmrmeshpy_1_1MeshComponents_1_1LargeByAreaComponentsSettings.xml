@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a467b67cbda6e74d8ac5151aa781f14fe" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.LargeByAreaComponentsSettings::_offsetof_isCompBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isCompBd</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings._offsetof_isCompBd</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31790" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a88a6dc5d45ca0778acd2cb634ae2cf04" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.LargeByAreaComponentsSettings::_offsetof_maxLargeComponents</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxLargeComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings._offsetof_maxLargeComponents</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a1be7fcdff272d339df818562ca6ce098" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.LargeByAreaComponentsSettings::_offsetof_minArea</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minArea</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings._offsetof_minArea</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a03c5de31acab50af7fc52526e836f7ae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.LargeByAreaComponentsSettings::_offsetof_numSmallerComponents</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_numSmallerComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings._offsetof_numSmallerComponents</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31793" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a6e9ee55549c04eb84d8c7c3d57f8e82a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31796" bodyend="31797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a49fc804fdc567233705d45065a7aa29b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kindref="compound">MeshComponents.LargeByAreaComponentsSettings</ref></type>
+        <definition> MeshComponents.LargeByAreaComponentsSettings mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31800" bodyend="31801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a49fc804fdc567233705d45065a7aa29b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kindref="compound">MeshComponents.LargeByAreaComponentsSettings</ref></type>
+        <definition> MeshComponents.LargeByAreaComponentsSettings mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31804" bodyend="31805"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a1213ebe52748764be9785e0bb4abaa53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31807" bodyend="31808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a68616931523ebaec7cfb7dfff4ce2d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</definition>
+        <argsstring>(self, MeshComponents.LargeByAreaComponentsSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kindref="compound">MeshComponents.LargeByAreaComponentsSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31810" bodyend="31813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a5332f34a58fab11185088753c113f194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</definition>
+        <argsstring>(self, int maxLargeComponents, int_output numSmallerComponents, float minArea, UndirectedEdgeBitSet isCompBd)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxLargeComponents</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>numSmallerComponents</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>isCompBd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31815" bodyend="31818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a95aa1c98a907fedf28ab7221916e544c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.isCompBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>isCompBd</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.isCompBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional predicate of boundaries between components
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31820" bodyend="31823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1aadf4a88bdda595c679407d996e8e2278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.isCompBd</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>isCompBd</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.isCompBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31825" bodyend="31826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a49f00d767f4045a84b0a2d5cf39d15bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.maxLargeComponents</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxLargeComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.maxLargeComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return at most given number of largest by area connected components
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31828" bodyend="31831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1ad157fc1d6313fd359a6888e0eaf377ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.maxLargeComponents</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxLargeComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.maxLargeComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31833" bodyend="31834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a356a865baf04d3a862cfc0a3cf62c506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.minArea</definition>
+        <argsstring>(self)</argsstring>
+        <name>minArea</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.minArea</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>do not consider a component large if its area is below this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31836" bodyend="31839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a46bfe907162577bffee5d299ff4ec5e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.minArea</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minArea</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.minArea</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31841" bodyend="31842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a7d09e3c59ab6d409741277eeb6cc0d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.numSmallerComponents</definition>
+        <argsstring>(self)</argsstring>
+        <name>numSmallerComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.numSmallerComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: the number of components in addition to returned ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31844" bodyend="31847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a4589e3f070ad147ed96e8561cd01678a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.numSmallerComponents</definition>
+        <argsstring>(self, int_output arg1)</argsstring>
+        <name>numSmallerComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings.numSmallerComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31849" bodyend="31851"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshComponents::LargeByAreaComponentsSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings</label>
+        <link refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_isCompBd</edgelabel>
+          <edgelabel>_offsetof_maxLargeComponents</edgelabel>
+          <edgelabel>_offsetof_minArea</edgelabel>
+          <edgelabel>_offsetof_numSmallerComponents</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31786" bodyend="31850"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a6e9ee55549c04eb84d8c7c3d57f8e82a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a1213ebe52748764be9785e0bb4abaa53" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a68616931523ebaec7cfb7dfff4ce2d73" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a5332f34a58fab11185088753c113f194" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a467b67cbda6e74d8ac5151aa781f14fe" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>_offsetof_isCompBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a88a6dc5d45ca0778acd2cb634ae2cf04" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>_offsetof_maxLargeComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a1be7fcdff272d339df818562ca6ce098" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>_offsetof_minArea</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a03c5de31acab50af7fc52526e836f7ae" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>_offsetof_numSmallerComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a95aa1c98a907fedf28ab7221916e544c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>isCompBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1aadf4a88bdda595c679407d996e8e2278" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>isCompBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a49f00d767f4045a84b0a2d5cf39d15bd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>maxLargeComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1ad157fc1d6313fd359a6888e0eaf377ba" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>maxLargeComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a356a865baf04d3a862cfc0a3cf62c506" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>minArea</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a46bfe907162577bffee5d299ff4ec5e4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>minArea</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a7d09e3c59ab6d409741277eeb6cc0d93" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>numSmallerComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a4589e3f070ad147ed96e8561cd01678a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>numSmallerComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a49fc804fdc567233705d45065a7aa29b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a49fc804fdc567233705d45065a7aa29b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

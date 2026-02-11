@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1CachedTextSize" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::CachedTextSize</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1CachedTextSize_1ad31fcee8885480c212111d933cfa10d6" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; ImVec2 &gt;</type>
+        <definition>std::optional&lt;ImVec2&gt; MR::UI::CachedTextSize::cachedSize</definition>
+        <argsstring></argsstring>
+        <name>cachedSize</name>
+        <qualifiedname>MR::UI::CachedTextSize::cachedSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="330" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="329" bodyend="331"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1CachedTextSize_1ad31fcee8885480c212111d933cfa10d6" prot="public" virt="non-virtual"><scope>MR::UI::CachedTextSize</scope><name>cachedSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

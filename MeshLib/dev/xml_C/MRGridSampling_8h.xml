@@ -1,0 +1,858 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRGridSampling_8h" kind="file" language="C++">
+    <compoundname>MRGridSampling.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includedby refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRGridSampling.h</label>
+        <link refid="MRGridSampling_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRGridSampling.h</label>
+        <link refid="MRGridSampling_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMultiwayICP.h</label>
+        <link refid="MRMultiwayICP_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR__ObjVertId" prot="public">MR_ObjVertId</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRGridSampling_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
+        <type>struct MR_AffineXf3f</type>
+        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AffineXf3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
+        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref></type>
+        <definition>typedef struct MR_PointCloudPart MR_PointCloudPart</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloudPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="15" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" prot="public" static="no">
+        <type>struct <ref refid="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" kindref="member">MR_Vector_MR_ModelPointsData_MR_ObjId</ref></type>
+        <definition>typedef struct MR_Vector_MR_ModelPointsData_MR_ObjId MR_Vector_MR_ModelPointsData_MR_ObjId</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector_MR_ModelPointsData_MR_ObjId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="16" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" prot="public" static="no">
+        <type>struct <ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_std_optional_MR_VertBitSet MR_std_optional_MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="20" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" prot="public" static="no">
+        <type>struct <ref refid="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" kindref="member">MR_std_optional_std_vector_MR_ObjVertId</ref></type>
+        <definition>typedef struct MR_std_optional_std_vector_MR_ObjVertId MR_std_optional_std_vector_MR_ObjVertId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_std_vector_MR_ObjVertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="21" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" prot="public" static="no">
+        <type>struct <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref></type>
+        <definition>typedef struct MR_ModelPointsData MR_ModelPointsData</definition>
+        <argsstring></argsstring>
+        <name>MR_ModelPointsData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>structure to contain pointers to model data Generated from class <computeroutput>MR::ModelPointsData</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="27" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRGridSampling_8h_1a88b00e6d4801cafab9a50d688eeb649d" prot="public" static="no">
+        <type>struct MR_ObjVertId</type>
+        <definition>typedef struct MR_ObjVertId MR_ObjVertId</definition>
+        <argsstring></argsstring>
+        <name>MR_ObjVertId</name>
+        <briefdescription>
+<para>Generated from class <computeroutput>MR::ObjVertId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="34" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRGridSampling_8h_1a3879ec626e3e85b712ed8443e4f85f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertBitSet * MR_verticesGridSampling</definition>
+        <argsstring>(const MR_MeshPart *mp, float voxelSize, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_verticesGridSampling</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs sampling of mesh vertices; subdivides mesh bounding box on voxels of approximately given size and returns at most one vertex per voxel; if voxelSize&lt;=0 then returns all region vertices as samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput>MR::verticesGridSampling</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="45" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="45" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a974495544a1ec874cd7b2f125451a697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertBitSet * MR_pointGridSampling</definition>
+        <argsstring>(const MR_PointCloudPart *pcp, float voxelSize, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_pointGridSampling</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref> *</type>
+          <declname>pcp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs sampling of cloud points; subdivides point cloud bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all valid points as samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput>MR::pointGridSampling</computeroutput>. Parameter <computeroutput>pcp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="56" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="56" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1aa2975b306b91ad383d7388c3e0018074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *const *</type>
+        <definition>MRC_API const MR_VertCoords *const  * MR_ModelPointsData_Get_points</definition>
+        <argsstring>(const MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_Get_points</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>all points of model Returns a pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="62" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="62" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a9bc4372df3d0ccb458496f6bb1a89e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ModelPointsData_Set_points</definition>
+        <argsstring>(MR_ModelPointsData *_this, const MR_VertCoords *value)</argsstring>
+        <name>MR_ModelPointsData_Set_points</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>all points of model Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>points</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1af542913d49e81ef7147a30e24d777758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> **</type>
+        <definition>MRC_API const MR_VertCoords ** MR_ModelPointsData_GetMutable_points</definition>
+        <argsstring>(MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_GetMutable_points</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>all points of model Returns a mutable pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="75" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="75" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a2288a246b8dae2a90518c6a860a8d0fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_VertBitSet *const  * MR_ModelPointsData_Get_validPoints</definition>
+        <argsstring>(const MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_Get_validPoints</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>bitset of valid points Returns a pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="81" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="81" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a8e6d4c0954345385964d8cc5f52fc1fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ModelPointsData_Set_validPoints</definition>
+        <argsstring>(MR_ModelPointsData *_this, const MR_VertBitSet *value)</argsstring>
+        <name>MR_ModelPointsData_Set_validPoints</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>bitset of valid points Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>validPoints</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>validPoints</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a38d5cf8cfe14753fcce06fb25c229b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <definition>MRC_API const MR_VertBitSet ** MR_ModelPointsData_GetMutable_validPoints</definition>
+        <argsstring>(MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_GetMutable_validPoints</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>bitset of valid points Returns a mutable pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="94" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a14954ed166fe585b5facb221461a08d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_ModelPointsData_Get_xf</definition>
+        <argsstring>(const MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>model world xf Returns a pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="100" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="100" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a6d6912fcf2dc44c575f4a89dc8c085c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ModelPointsData_Set_xf</definition>
+        <argsstring>(MR_ModelPointsData *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_ModelPointsData_Set_xf</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>model world xf Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1aeea0fa629e1e3bd104b4d80c6578b25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_ModelPointsData_GetMutable_xf</definition>
+        <argsstring>(MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>model world xf Returns a mutable pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="113" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="113" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a1ebd3a051e1769b596ad7bc6594aed0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_ObjId * MR_ModelPointsData_Get_fakeObjId</definition>
+        <argsstring>(const MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_Get_fakeObjId</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if present this value will override ObjId in result ObjVertId Returns a pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>fakeObjId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="119" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="119" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1acd9cb6e0e4675dd9c3ea290ed75502ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ModelPointsData_Set_fakeObjId</definition>
+        <argsstring>(MR_ModelPointsData *_this, MR_ObjId value)</argsstring>
+        <name>MR_ModelPointsData_Set_fakeObjId</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if present this value will override ObjId in result ObjVertId Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>fakeObjId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fakeObjId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fakeObjId</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="126" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="126" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1afa9e45fd83491b1b319e9c6a7cc10fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_ObjId * MR_ModelPointsData_GetMutable_fakeObjId</definition>
+        <argsstring>(MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_GetMutable_fakeObjId</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if present this value will override ObjId in result ObjVertId Returns a mutable pointer to a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>fakeObjId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="132" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="132" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1acb45295c8d33834154d2cbedd377c761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API MR_ModelPointsData * MR_ModelPointsData_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ModelPointsData_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" kindref="member">MR_ModelPointsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="136" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="136" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1af5d01eaff3b6228230b2a272a08c71dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API MR_ModelPointsData * MR_ModelPointsData_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ModelPointsData_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRGridSampling_8h_1a7aa1bcade099df009b57ec477aa24123" kindref="member">MR_ModelPointsData_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRGridSampling_8h_1af2d490fecd07707eadbc5437f703ddf0" kindref="member">MR_ModelPointsData_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRGridSampling_8h_1a5ba7cf2e15dee1d4978b451718b0a739" kindref="member">MR_ModelPointsData_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="141" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="141" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1aa242dffb5720c5a918baed3b8b9a5164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API MR_ModelPointsData * MR_ModelPointsData_ConstructFrom</definition>
+        <argsstring>(const MR_VertCoords *points, const MR_VertBitSet *validPoints, const MR_AffineXf3f *xf, MR_ObjId fakeObjId)</argsstring>
+        <name>MR_ModelPointsData_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref></type>
+          <declname>fakeObjId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::ModelPointsData</computeroutput> elementwise. The reference to the parameter <computeroutput>points</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>validPoints</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fakeObjId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" kindref="member">MR_ModelPointsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="150" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="150" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a5ba7cf2e15dee1d4978b451718b0a739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API const MR_ModelPointsData * MR_ModelPointsData_OffsetPtr</definition>
+        <argsstring>(const MR_ModelPointsData *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ModelPointsData_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="154" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="154" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1af2d490fecd07707eadbc5437f703ddf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API MR_ModelPointsData * MR_ModelPointsData_OffsetMutablePtr</definition>
+        <argsstring>(MR_ModelPointsData *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ModelPointsData_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="158" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="158" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1acf54aaaf709b588fbc79f73646590be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API MR_ModelPointsData * MR_ModelPointsData_ConstructFromAnother</definition>
+        <argsstring>(const MR_ModelPointsData *_other)</argsstring>
+        <name>MR_ModelPointsData_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ModelPointsData::ModelPointsData</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" kindref="member">MR_ModelPointsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="164" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="164" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ModelPointsData_Destroy</definition>
+        <argsstring>(const MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_Destroy</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ModelPointsData</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a7aa1bcade099df009b57ec477aa24123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ModelPointsData_DestroyArray</definition>
+        <argsstring>(const MR_ModelPointsData *_this)</argsstring>
+        <name>MR_ModelPointsData_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ModelPointsData</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="170" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a0e8d765baec698879692d306507b03a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+        <definition>MRC_API MR_ModelPointsData * MR_ModelPointsData_AssignFromAnother</definition>
+        <argsstring>(MR_ModelPointsData *_this, const MR_ModelPointsData *_other)</argsstring>
+        <name>MR_ModelPointsData_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ModelPointsData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="178" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="178" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a6f15ec00f1a884ccad91775a6f30457f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref></type>
+        <definition>MRC_API MR_ObjVertId MR_ObjVertId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ObjVertId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="181" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="181" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1ae2acf3f0581afe41155c648c40fb715f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref> *</type>
+        <definition>MRC_API MR_ObjVertId * MR_ObjVertId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ObjVertId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput>MR_FreeArray()</computeroutput>. Use <computeroutput>MR_ObjVertId_OffsetMutablePtr()</computeroutput> and <computeroutput>MR_ObjVertId_OffsetPtr()</computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="186" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="186" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1a75e38fb96745ddd8b4d0decb15cb8ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_ObjVertId</definition>
+        <argsstring>(const MR_ObjVertId *_1, const MR_ObjVertId *_2)</argsstring>
+        <name>MR_equal_MR_ObjVertId</name>
+        <param>
+          <type>const <ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref> *</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_2</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="191" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRGridSampling_8h_1afb31c2252fa17c7f21236df05f753448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" kindref="member">MR_std_optional_std_vector_MR_ObjVertId</ref> *</type>
+        <definition>MRC_API MR_std_optional_std_vector_MR_ObjVertId * MR_multiModelGridSampling</definition>
+        <argsstring>(const MR_Vector_MR_ModelPointsData_MR_ObjId *models, float voxelSize, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_multiModelGridSampling</name>
+        <param>
+          <type>const <ref refid="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" kindref="member">MR_Vector_MR_ModelPointsData_MR_ObjId</ref> *</type>
+          <declname>models</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs sampling of several models respecting their world transformations subdivides models bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all points from all models as samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput>MR::multiModelGridSampling</computeroutput>. Parameter <computeroutput>models</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_std_vector_MR_ObjVertId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="202" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" declline="202" declcolumn="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRGridSampling_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRGridSampling_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRGridSampling_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloudPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" kindref="member">MR_Vector_MR_ModelPointsData_MR_ObjId</ref><sp/><ref refid="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" kindref="member">MR_Vector_MR_ModelPointsData_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRGridSampling_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRGridSampling_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRGridSampling_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRGridSampling_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref><sp/><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" kindref="member">MR_std_optional_std_vector_MR_ObjVertId</ref><sp/><ref refid="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" kindref="member">MR_std_optional_std_vector_MR_ObjVertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_std_vector_MR_ObjVertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="structMR__ObjVertId" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="structMR__ObjVertId_1a6de37a93e460841b4edc20c46b5435c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/><ref refid="structMR__ObjVertId_1a6de37a93e460841b4edc20c46b5435c0" kindref="member">objId</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structMR__ObjVertId_1a5194402ad6a70672d7753e5afd7a4fcb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="structMR__ObjVertId_1a5194402ad6a70672d7753e5afd7a4fcb" kindref="member">vId</ref>;</highlight></codeline>
+<codeline lineno="34" refid="MRGridSampling_8h_1a88b00e6d4801cafab9a50d688eeb649d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRGridSampling_8h_1a88b00e6d4801cafab9a50d688eeb649d" kindref="member">MR_ObjVertId</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRGridSampling_8h_1a3879ec626e3e85b712ed8443e4f85f08" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref><sp/>*<ref refid="MRGridSampling_8h_1a3879ec626e3e85b712ed8443e4f85f08" kindref="member">MR_verticesGridSampling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRGridSampling_8h_1a974495544a1ec874cd7b2f125451a697" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref><sp/>*<ref refid="MRGridSampling_8h_1a974495544a1ec874cd7b2f125451a697" kindref="member">MR_pointGridSampling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac5ebecc1cdf4196d4d2ddaeeb82a0771" kindref="member">MR_PointCloudPart</ref><sp/>*pcp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRGridSampling_8h_1aa2975b306b91ad383d7388c3e0018074" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRGridSampling_8h_1aa2975b306b91ad383d7388c3e0018074" kindref="member">MR_ModelPointsData_Get_points</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRGridSampling_8h_1a9bc4372df3d0ccb458496f6bb1a89e63" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1a9bc4372df3d0ccb458496f6bb1a89e63" kindref="member">MR_ModelPointsData_Set_points</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRGridSampling_8h_1af542913d49e81ef7147a30e24d777758" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>**<ref refid="MRGridSampling_8h_1af542913d49e81ef7147a30e24d777758" kindref="member">MR_ModelPointsData_GetMutable_points</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRGridSampling_8h_1a2288a246b8dae2a90518c6a860a8d0fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRGridSampling_8h_1a2288a246b8dae2a90518c6a860a8d0fe" kindref="member">MR_ModelPointsData_Get_validPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRGridSampling_8h_1a8e6d4c0954345385964d8cc5f52fc1fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1a8e6d4c0954345385964d8cc5f52fc1fc" kindref="member">MR_ModelPointsData_Set_validPoints</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRGridSampling_8h_1a38d5cf8cfe14753fcce06fb25c229b38" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRGridSampling_8h_1a38d5cf8cfe14753fcce06fb25c229b38" kindref="member">MR_ModelPointsData_GetMutable_validPoints</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRGridSampling_8h_1a14954ed166fe585b5facb221461a08d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRGridSampling_8h_1a14954ed166fe585b5facb221461a08d1" kindref="member">MR_ModelPointsData_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRGridSampling_8h_1a6d6912fcf2dc44c575f4a89dc8c085c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1a6d6912fcf2dc44c575f4a89dc8c085c3" kindref="member">MR_ModelPointsData_Set_xf</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRGridSampling_8h_1aeea0fa629e1e3bd104b4d80c6578b25c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRGridSampling_8h_1aeea0fa629e1e3bd104b4d80c6578b25c" kindref="member">MR_ModelPointsData_GetMutable_xf</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRGridSampling_8h_1a1ebd3a051e1769b596ad7bc6594aed0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="MRGridSampling_8h_1a1ebd3a051e1769b596ad7bc6594aed0b" kindref="member">MR_ModelPointsData_Get_fakeObjId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRGridSampling_8h_1acd9cb6e0e4675dd9c3ea290ed75502ac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1acd9cb6e0e4675dd9c3ea290ed75502ac" kindref="member">MR_ModelPointsData_Set_fakeObjId</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this,<sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRGridSampling_8h_1afa9e45fd83491b1b319e9c6a7cc10fac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="MRGridSampling_8h_1afa9e45fd83491b1b319e9c6a7cc10fac" kindref="member">MR_ModelPointsData_GetMutable_fakeObjId</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRGridSampling_8h_1acb45295c8d33834154d2cbedd377c761" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1acb45295c8d33834154d2cbedd377c761" kindref="member">MR_ModelPointsData_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRGridSampling_8h_1af5d01eaff3b6228230b2a272a08c71dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1af5d01eaff3b6228230b2a272a08c71dd" kindref="member">MR_ModelPointsData_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRGridSampling_8h_1aa242dffb5720c5a918baed3b8b9a5164" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1aa242dffb5720c5a918baed3b8b9a5164" kindref="member">MR_ModelPointsData_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>fakeObjId);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRGridSampling_8h_1a5ba7cf2e15dee1d4978b451718b0a739" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1a5ba7cf2e15dee1d4978b451718b0a739" kindref="member">MR_ModelPointsData_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRGridSampling_8h_1af2d490fecd07707eadbc5437f703ddf0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1af2d490fecd07707eadbc5437f703ddf0" kindref="member">MR_ModelPointsData_OffsetMutablePtr</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRGridSampling_8h_1acf54aaaf709b588fbc79f73646590be1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1acf54aaaf709b588fbc79f73646590be1" kindref="member">MR_ModelPointsData_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" kindref="member">MR_ModelPointsData_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRGridSampling_8h_1a7aa1bcade099df009b57ec477aa24123" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1a7aa1bcade099df009b57ec477aa24123" kindref="member">MR_ModelPointsData_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRGridSampling_8h_1a0e8d765baec698879692d306507b03a1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*<ref refid="MRGridSampling_8h_1a0e8d765baec698879692d306507b03a1" kindref="member">MR_ModelPointsData_AssignFromAnother</ref>(<ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ae8ceab23dca7dddaf285e74ae09d207c" kindref="member">MR_ModelPointsData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRGridSampling_8h_1a6f15ec00f1a884ccad91775a6f30457f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref><sp/><ref refid="MRGridSampling_8h_1a6f15ec00f1a884ccad91775a6f30457f" kindref="member">MR_ObjVertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRGridSampling_8h_1ae2acf3f0581afe41155c648c40fb715f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref><sp/>*<ref refid="MRGridSampling_8h_1ae2acf3f0581afe41155c648c40fb715f" kindref="member">MR_ObjVertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRGridSampling_8h_1a75e38fb96745ddd8b4d0decb15cb8ebc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1a75e38fb96745ddd8b4d0decb15cb8ebc" kindref="member">MR_equal_MR_ObjVertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref><sp/>*_2);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRGridSampling_8h_1afb31c2252fa17c7f21236df05f753448" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSampling_8h_1ae1286432b335d8b4c779dca862ef8e52" kindref="member">MR_std_optional_std_vector_MR_ObjVertId</ref><sp/>*<ref refid="MRGridSampling_8h_1afb31c2252fa17c7f21236df05f753448" kindref="member">MR_multiModelGridSampling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSampling_8h_1ac02da2bc53860b2b70f391049eac5e2a" kindref="member">MR_Vector_MR_ModelPointsData_MR_ObjId</ref><sp/>*models,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h"/>
+  </compounddef>
+</doxygen>

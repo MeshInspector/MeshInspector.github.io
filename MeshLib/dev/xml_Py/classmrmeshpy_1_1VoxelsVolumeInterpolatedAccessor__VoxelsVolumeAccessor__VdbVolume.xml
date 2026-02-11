@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1aa924989830824974e93c211aa6280825" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume::VolumeType</definition>
+        <argsstring></argsstring>
+        <name>VolumeType</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.VolumeType</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73896" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1a727d2024da43ca3c49e2d40e22edba82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.__init__</definition>
+        <argsstring>(self, VdbVolume volume, VoxelsVolumeAccessor_VdbVolume accessor)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume" kindref="compound">VoxelsVolumeAccessor_VdbVolume</ref></type>
+          <declname>accessor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>create an accessor instance that stores references to volume and its accessor
+the volume should not modified while it is accessed by this class
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73898" bodyend="73902"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1ad86b9c939b934d0700df1b15a010207f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.__init__</definition>
+        <argsstring>(self, VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume other, VoxelsVolumeAccessor_VdbVolume accessor)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume" kindref="compound">VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</ref></type>
+          <declname>other</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume" kindref="compound">VoxelsVolumeAccessor_VdbVolume</ref></type>
+          <declname>accessor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a copying-like constructor with explicitly provided accessor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73904" bodyend="73907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1a30eb8c5e4f6d1851878ed2e1b241b4f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.get</definition>
+        <argsstring>(self, Vector3f pos)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get value at specified coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73908" bodyend="73911"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelsVolumeInterpolatedAccessor&lt;MR::VoxelsVolumeAccessor&lt;MR::VdbVolume&gt;&gt;
+
+helper class for generalized access to voxel volume data with trilinear interpolation
+coordinate: 0       voxelSize
+            |       |
+            I---*---I---*---I---
+            |       |       |
+value:     [0]     [1]     [2] ...
+note: this class is as thread-safe as the underlying Accessor
+e.g. VoxelsVolumeAccessor&lt;VdbVolume&gt; is not thread-safe (but several instances on same volume is thread-safe)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73883" bodyend="73911"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1a727d2024da43ca3c49e2d40e22edba82" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1ad86b9c939b934d0700df1b15a010207f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1a30eb8c5e4f6d1851878ed2e1b241b4f8" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1aa924989830824974e93c211aa6280825" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</scope><name>VolumeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

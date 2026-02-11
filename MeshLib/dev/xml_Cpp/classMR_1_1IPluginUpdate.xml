@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IPluginUpdate" kind="class" language="C++" prot="public">
+    <compoundname>MR::IPluginUpdate</compoundname>
+    <derivedcompoundref refid="classMR_1_1PluginCloseOnChangeMesh" prot="public" virt="virtual">MR::PluginCloseOnChangeMesh</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PluginCloseOnChangePointCloud" prot="public" virt="virtual">MR::PluginCloseOnChangePointCloud</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PluginCloseOnEscPressed" prot="public" virt="virtual">MR::PluginCloseOnEscPressed</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PluginCloseOnSelectedObjectRemove" prot="public" virt="virtual">MR::PluginCloseOnSelectedObjectRemove</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PluginUpdateOnChangeMeshPart" prot="public" virt="virtual">MR::PluginUpdateOnChangeMeshPart</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="virtual">MR::StateBasePlugin</derivedcompoundref>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::IPluginUpdate::~IPluginUpdate</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IPluginUpdate</name>
+        <qualifiedname>MR::IPluginUpdate::~IPluginUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="14" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::IPluginUpdate::preDrawUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>preDrawUpdate</name>
+        <qualifiedname>MR::IPluginUpdate::preDrawUpdate</qualifiedname>
+        <reimplementedby refid="classMR_1_1PluginUpdateOnChangeMeshPart_1ab8919af457390e1c709327e3828a8c6b">preDrawUpdate</reimplementedby>
+        <briefdescription>
+<para>called each frame in before drawDialog </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="16" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::IPluginUpdate::onPluginEnable_</definition>
+        <argsstring>()</argsstring>
+        <name>onPluginEnable_</name>
+        <qualifiedname>MR::IPluginUpdate::onPluginEnable_</qualifiedname>
+        <reimplementedby refid="classMR_1_1PluginCloseOnChangeMesh_1a2e05f59d67c502229f3a2a2e919886fc">onPluginEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnChangePointCloud_1a3569c689e004637d73b414f0440e0046">onPluginEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnSelectedObjectRemove_1a4be1eca9d7909ac4a5cbe2b48ceee2f2">onPluginEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a9767c4ad35864bc85b2f759c2aad5888">onPluginEnable_</reimplementedby>
+        <briefdescription>
+<para>called when plugin started </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="19" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::IPluginUpdate::onPluginDisable_</definition>
+        <argsstring>()</argsstring>
+        <name>onPluginDisable_</name>
+        <qualifiedname>MR::IPluginUpdate::onPluginDisable_</qualifiedname>
+        <reimplementedby refid="classMR_1_1PluginCloseOnChangeMesh_1af521c98fca4b1537e06ebf161605954d">onPluginDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnChangePointCloud_1ae215a7b0b1f5259e0bc87855f0b2e740">onPluginDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnSelectedObjectRemove_1a3692cfee7d26f636f2487f01cfa6afc8">onPluginDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a5c3907d5d352c381ea77f8c3081e136d">onPluginDisable_</reimplementedby>
+        <briefdescription>
+<para>called when plugin stops </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="21" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::IPluginUpdate::shouldClose_</definition>
+        <argsstring>() const</argsstring>
+        <name>shouldClose_</name>
+        <qualifiedname>MR::IPluginUpdate::shouldClose_</qualifiedname>
+        <reimplementedby refid="classMR_1_1PluginCloseOnChangeMesh_1a8a6dc440df682b00feb1b9fd10eab31a">shouldClose_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnChangePointCloud_1acc66fd5a6484e6733be7dd12f9e13e4f">shouldClose_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnEscPressed_1a1cbeb11bd052199cb41ec5ae88ea4971">shouldClose_</reimplementedby>
+        <reimplementedby refid="classMR_1_1PluginCloseOnSelectedObjectRemove_1a174d0cc22e4a0b69220109e026efaf7f">shouldClose_</reimplementedby>
+        <briefdescription>
+<para>called each frame, return true to close plugin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="23" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Interface for automatically update StatePlugins internal data. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::BinaryOperations</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="11">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PluginCloseOnChangeMesh</label>
+        <link refid="classMR_1_1PluginCloseOnChangeMesh"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::PluginCloseOnChangePointCloud</label>
+        <link refid="classMR_1_1PluginCloseOnChangePointCloud"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::PluginCloseOnEscPressed</label>
+        <link refid="classMR_1_1PluginCloseOnEscPressed"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::PluginCloseOnSelectedObjectRemove</label>
+        <link refid="classMR_1_1PluginCloseOnSelectedObjectRemove"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::PluginUpdateOnChangeMeshPart</label>
+        <link refid="classMR_1_1PluginUpdateOnChangeMeshPart"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="12" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::IPluginUpdate</scope><name>onPluginDisable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::IPluginUpdate</scope><name>onPluginEnable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::IPluginUpdate</scope><name>preDrawUpdate</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::IPluginUpdate</scope><name>shouldClose_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::IPluginUpdate</scope><name>~IPluginUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

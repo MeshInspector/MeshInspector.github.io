@@ -1,0 +1,1573 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectLinesHolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::ObjectLinesHolder</compoundname>
+    <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectGcode" prot="public" virt="non-virtual">MR::ObjectGcode</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectLines" prot="public" virt="non-virtual">MR::ObjectLines</derivedcompoundref>
+    <includes refid="MRObjectLinesHolder_8h" local="no">MRObjectLinesHolder.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1ObjectLinesHolder_1a43f918db8a7b61c206c15d844dc2f42c" prot="public" static="no">
+        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void(uint32_t mask)&gt;</type>
+        <definition>using MR::ObjectLinesHolder::LinesChangedSignal =  Signal&lt;void( uint32_t mask )&gt;</definition>
+        <argsstring></argsstring>
+        <name>LinesChangedSignal</name>
+        <qualifiedname>MR::ObjectLinesHolder::LinesChangedSignal</qualifiedname>
+        <briefdescription>
+<para>signal about lines changing, triggered in setDirtyFlag </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="111" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a429bde334a9097fdec8c1d0ae5285f53" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ObjectLinesHolder_1a43f918db8a7b61c206c15d844dc2f42c" kindref="member">LinesChangedSignal</ref></type>
+        <definition>LinesChangedSignal MR::ObjectLinesHolder::linesChangedSignal</definition>
+        <argsstring></argsstring>
+        <name>linesChangedSignal</name>
+        <qualifiedname>MR::ObjectLinesHolder::linesChangedSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="112" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a93290385193f37f80ec2fe07e19fc8c9" prot="protected" static="no" mutable="yes">
+        <type>std::optional&lt; size_t &gt;</type>
+        <definition>std::optional&lt;size_t&gt; MR::ObjectLinesHolder::numUndirectedEdges_</definition>
+        <argsstring></argsstring>
+        <name>numUndirectedEdges_</name>
+        <qualifiedname>MR::ObjectLinesHolder::numUndirectedEdges_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="146" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1ac4657e92207e28ae97a59ce816f15f2e" prot="protected" static="no" mutable="yes">
+        <type>std::optional&lt; size_t &gt;</type>
+        <definition>std::optional&lt;size_t&gt; MR::ObjectLinesHolder::numComponents_</definition>
+        <argsstring></argsstring>
+        <name>numComponents_</name>
+        <qualifiedname>MR::ObjectLinesHolder::numComponents_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="147" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a2abf795e99899109737e507f19ac02a7" prot="protected" static="no" mutable="yes">
+        <type>std::optional&lt; float &gt;</type>
+        <definition>std::optional&lt;float&gt; MR::ObjectLinesHolder::avgEdgeLen_</definition>
+        <argsstring></argsstring>
+        <name>avgEdgeLen_</name>
+        <qualifiedname>MR::ObjectLinesHolder::avgEdgeLen_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="148" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1aee46157cb8a669b29f698f0ea9688264" prot="protected" static="no" mutable="yes">
+        <type>std::optional&lt; float &gt;</type>
+        <definition>std::optional&lt;float&gt; MR::ObjectLinesHolder::totalLength_</definition>
+        <argsstring></argsstring>
+        <name>totalLength_</name>
+        <qualifiedname>MR::ObjectLinesHolder::totalLength_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="149" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1af3f76f7286057cda0116754b663cf340" prot="protected" static="no" mutable="yes">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="classMR_1_1XfBasedCache" kindref="compound">XfBasedCache</ref>&lt; Box3f &gt; &gt;</type>
+        <definition>ViewportProperty&lt;XfBasedCache&lt;Box3f&gt; &gt; MR::ObjectLinesHolder::worldBox_</definition>
+        <argsstring></argsstring>
+        <name>worldBox_</name>
+        <qualifiedname>MR::ObjectLinesHolder::worldBox_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="150" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1aebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" static="no" mutable="no">
+        <type>VertColors</type>
+        <definition>VertColors MR::ObjectLinesHolder::vertsColorMap_</definition>
+        <argsstring></argsstring>
+        <name>vertsColorMap_</name>
+        <qualifiedname>MR::ObjectLinesHolder::vertsColorMap_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="152" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a58e224092d5971b40208e6d4a15e6862" prot="protected" static="no" mutable="no">
+        <type>UndirectedEdgeColors</type>
+        <definition>UndirectedEdgeColors MR::ObjectLinesHolder::linesColorMap_</definition>
+        <argsstring></argsstring>
+        <name>linesColorMap_</name>
+        <qualifiedname>MR::ObjectLinesHolder::linesColorMap_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="153" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1ac97e60fe1e8a87ff8905e571fd47bbd1" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLinesHolder::showPoints_</definition>
+        <argsstring></argsstring>
+        <name>showPoints_</name>
+        <qualifiedname>MR::ObjectLinesHolder::showPoints_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="155" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a5e2decefeb68afc04d745403e70da92f" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLinesHolder::smoothConnections_</definition>
+        <argsstring></argsstring>
+        <name>smoothConnections_</name>
+        <qualifiedname>MR::ObjectLinesHolder::smoothConnections_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="156" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLinesHolder::dashed_</definition>
+        <argsstring></argsstring>
+        <name>dashed_</name>
+        <qualifiedname>MR::ObjectLinesHolder::dashed_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="157" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1abe70f54ddf2aae2d5784d3aac54214ca" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="namespaceMR_1ae8b74ab7c0497cec5fd2550a40addfd9" kindref="member">DashPattern</ref> &gt;</type>
+        <definition>ViewportProperty&lt;DashPattern&gt; MR::ObjectLinesHolder::dashPattern_</definition>
+        <argsstring></argsstring>
+        <name>dashPattern_</name>
+        <qualifiedname>MR::ObjectLinesHolder::dashPattern_</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Vector4_1aae32c22644b25c26b237f41ac439da53" kindref="member">DashPattern::diagonal</ref>( 20 )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="158" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1ab981ac159b7e944aef46d972503003e7" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectLinesHolder::lineWidth_</definition>
+        <argsstring></argsstring>
+        <name>lineWidth_</name>
+        <qualifiedname>MR::ObjectLinesHolder::lineWidth_</qualifiedname>
+        <initializer>{ 1.0f }</initializer>
+        <briefdescription>
+<para>width on lines on screen in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="161" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1a8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectLinesHolder::pointSize_</definition>
+        <argsstring></argsstring>
+        <name>pointSize_</name>
+        <qualifiedname>MR::ObjectLinesHolder::pointSize_</qualifiedname>
+        <initializer>{ 5.f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="162" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLinesHolder_1afba90d7f156c0d8bb20a9daa74a003ce" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; Polyline3 &gt;</type>
+        <definition>std::shared_ptr&lt;Polyline3&gt; MR::ObjectLinesHolder::polyline_</definition>
+        <argsstring></argsstring>
+        <name>polyline_</name>
+        <qualifiedname>MR::ObjectLinesHolder::polyline_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="163" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a0e079da74a88e5f0c8d965c012976af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ObjectLinesHolder::ObjectLinesHolder</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR::ObjectLinesHolder::ObjectLinesHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="29" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aacc18afcd4ee476aca853eab342fda72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectLinesHolder::ObjectLinesHolder</definition>
+        <argsstring>(ObjectLinesHolder &amp;&amp;)=default</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR::ObjectLinesHolder::ObjectLinesHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a399c6bd6321c060f5c6faffab0095bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> &amp;</type>
+        <definition>ObjectLinesHolder &amp; MR::ObjectLinesHolder::operator=</definition>
+        <argsstring>(ObjectLinesHolder &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::ObjectLinesHolder::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="31" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a67bbdfa8042874e1a7033f78bb96be59" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * MR::ObjectLinesHolder::typeName</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR::ObjectLinesHolder::typeName</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1ac27e546bf2d66d45930837b6dd37cd9e">typeName</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectLines_1a069fc0b9496c10738c79ed84e458c729">typeName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="34" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a866b821cbf1353875759fa45e614249f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::applyScale</definition>
+        <argsstring>(float scaleFactor) override</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR::ObjectLinesHolder::applyScale</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4">applyScale</reimplements>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="36" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ab254bdde22e806161d869d150ac181b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>virtual MRMESH_API bool MR::ObjectLinesHolder::hasVisualRepresentation</definition>
+        <argsstring>() const override</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR::ObjectLinesHolder::hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d">hasVisualRepresentation</reimplements>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="38" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8374696160d445c466b11e006c7fb4c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::ObjectLinesHolder::hasModel</definition>
+        <argsstring>() const override</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR::ObjectLinesHolder::hasModel</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693">hasModel</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="40" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectLinesHolder::clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR::ObjectLinesHolder::clone</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1adb08022f8d2a8019b625e6e28e6fd32c">clone</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectLines_1ada224fb3ab391e048a38ca259d333c09">clone</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clones this object only, without its children, making new object the owner of all copied resources </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="42" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aa19c36b553adf089ebe87a6220248926" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectLinesHolder::shallowClone</definition>
+        <argsstring>() const override</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR::ObjectLinesHolder::shallowClone</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1aba7a233ed2aaa7ce653e88e8795ffa84">shallowClone</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectLines_1aff95536683320ad3bdc54a759afe5e7b">shallowClone</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clones this object only, without its children, making new object to share resources with this object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="43" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ae0b496042ca65d7b8bdb862c9e984ff7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::shared_ptr&lt; const Polyline3 &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; const Polyline3 &gt; &amp; MR::ObjectLinesHolder::polyline</definition>
+        <argsstring>() const</argsstring>
+        <name>polyline</name>
+        <qualifiedname>MR::ObjectLinesHolder::polyline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="45" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="45" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::setDirtyFlags</definition>
+        <argsstring>(uint32_t mask, bool invalidateCaches=true) override</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR::ObjectLinesHolder::setDirtyFlags</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74">setDirtyFlags</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1abd8d7ffd2cdeeac5474265b72f7a8ad7">setDirtyFlags</reimplementedby>
+        <param>
+          <type>uint32_t</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invalidateCaches</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>reinterpret_cast to avoid making a copy of shared_ptr </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="48" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a9211895465ab621237d8ad28b942ad42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::setDashPattern</definition>
+        <argsstring>(const DashPattern &amp;pattern, ViewportId vpId={})</argsstring>
+        <name>setDashPattern</name>
+        <qualifiedname>MR::ObjectLinesHolder::setDashPattern</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1ae8b74ab7c0497cec5fd2550a40addfd9" kindref="member">DashPattern</ref> &amp;</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>vpId</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>specify dash pattern in pixels [0] - dash [1] - space [2] - dash [3] - space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="55" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a7b42c2e0a5a94bede326754d2b3f369c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="namespaceMR_1ae8b74ab7c0497cec5fd2550a40addfd9" kindref="member">DashPattern</ref> &amp;</type>
+        <definition>virtual const DashPattern &amp; MR::ObjectLinesHolder::getDashPattern</definition>
+        <argsstring>(ViewportId vpId={}, bool *isDef=nullptr) const</argsstring>
+        <name>getDashPattern</name>
+        <qualifiedname>MR::ObjectLinesHolder::getDashPattern</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>vpId</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>isDef</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="56" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a2a34d49b96c99eb2e836b6ccc26aaa22" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::setLineWidth</definition>
+        <argsstring>(float width)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR::ObjectLinesHolder::setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="58" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ad29f08547db22aca65fa19e23ac218b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float MR::ObjectLinesHolder::getLineWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>MR::ObjectLinesHolder::getLineWidth</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4_1a9e22538e171b9585e1f1b983e11c34c9">getLineWidth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="59" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a24c15e2c775fbd245769f2cbfd085c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::setPointSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR::ObjectLinesHolder::setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="60" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a73e673c22a3081ef1fc777c20c702125" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float MR::ObjectLinesHolder::getPointSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR::ObjectLinesHolder::getPointSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="61" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aee2f0ca0cadeda77ed87b5834547d9f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectLinesHolder::ObjectLinesHolder</definition>
+        <argsstring>(ProtectedStruct, const ObjectLinesHolder &amp;obj)</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR::ObjectLinesHolder::ObjectLinesHolder</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62" kindref="member">clone()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="64" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a3006fc44192a071fef4bab8866b90744" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VertColors &amp;</type>
+        <definition>const VertColors &amp; MR::ObjectLinesHolder::getVertsColorMap</definition>
+        <argsstring>() const</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>MR::ObjectLinesHolder::getVertsColorMap</qualifiedname>
+        <briefdescription>
+<para>returns per-vertex colors of the object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="67" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ace6659e797e2acb19d73486102ef01d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ObjectLinesHolder::setVertsColorMap</definition>
+        <argsstring>(VertColors vertsColorMap)</argsstring>
+        <name>setVertsColorMap</name>
+        <qualifiedname>MR::ObjectLinesHolder::setVertsColorMap</qualifiedname>
+        <param>
+          <type>VertColors</type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>sets per-vertex colors of the object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="70" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ObjectLinesHolder::updateVertsColorMap</definition>
+        <argsstring>(VertColors &amp;vertsColorMap)</argsstring>
+        <name>updateVertsColorMap</name>
+        <qualifiedname>MR::ObjectLinesHolder::updateVertsColorMap</qualifiedname>
+        <param>
+          <type>VertColors &amp;</type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>swaps per-vertex colors of the object with given argument </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="73" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a3b4f5ecefe1873ce10840277c57f9e94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const UndirectedEdgeColors &amp;</type>
+        <definition>const UndirectedEdgeColors &amp; MR::ObjectLinesHolder::getLinesColorMap</definition>
+        <argsstring>() const</argsstring>
+        <name>getLinesColorMap</name>
+        <qualifiedname>MR::ObjectLinesHolder::getLinesColorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="75" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1acd01b614fd09efea6271585ca949bfa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ObjectLinesHolder::setLinesColorMap</definition>
+        <argsstring>(UndirectedEdgeColors linesColorMap)</argsstring>
+        <name>setLinesColorMap</name>
+        <qualifiedname>MR::ObjectLinesHolder::setLinesColorMap</qualifiedname>
+        <param>
+          <type>UndirectedEdgeColors</type>
+          <declname>linesColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="76" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a59e3e83d9bf413fdb9a84fedda40f08f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ObjectLinesHolder::updateLinesColorMap</definition>
+        <argsstring>(UndirectedEdgeColors &amp;updated)</argsstring>
+        <name>updateLinesColorMap</name>
+        <qualifiedname>MR::ObjectLinesHolder::updateLinesColorMap</qualifiedname>
+        <param>
+          <type>UndirectedEdgeColors &amp;</type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="77" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a9ebf2f4fb4aaec33e52f3d1be2b2d74d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::ObjectLinesHolder::supportsVisualizeProperty</definition>
+        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR::ObjectLinesHolder::supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966">supportsVisualizeProperty</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="79" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1af36a700f7b56ba0159abf2c66b58d630" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
+        <definition>MRMESH_API AllVisualizeProperties MR::ObjectLinesHolder::getAllVisualizeProperties</definition>
+        <argsstring>() const override</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR::ObjectLinesHolder::getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d">getAllVisualizeProperties</reimplements>
+        <briefdescription>
+<para>get all visualize properties masks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="81" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ab19b7af18f21594b91628233ca2421b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
+        <definition>MRMESH_API const ViewportMask &amp; MR::ObjectLinesHolder::getVisualizePropertyMask</definition>
+        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR::ObjectLinesHolder::getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee">getVisualizePropertyMask</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0">getVisualizePropertyMask</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="83" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8958b915eb5b7b9f6f0b7ffa704700f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::copyColors</definition>
+        <argsstring>(const ObjectLinesHolder &amp;src, const VertMap &amp;thisToSrc)</argsstring>
+        <name>copyColors</name>
+        <qualifiedname>MR::ObjectLinesHolder::copyColors</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const VertMap &amp;</type>
+          <declname>thisToSrc</declname>
+        </param>
+        <briefdescription>
+<para>copies vertex colors from given source object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>using given map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisToSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="86" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1abf4784be6ef8c3ce90625490765084dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
+        <definition>virtual MRMESH_API Box3f MR::ObjectLinesHolder::getWorldBox</definition>
+        <argsstring>(ViewportId={}) const override</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR::ObjectLinesHolder::getWorldBox</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314">getWorldBox</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns cached bounding box of this point object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" kindref="member">getBoundingBox()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="90" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>virtual MRMESH_API size_t MR::ObjectLinesHolder::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ObjectLinesHolder::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111">heapBytes</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1a4dc4a82d21db1be6d2baf57046389e33">heapBytes</reimplementedby>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="93" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a647c62ff7baffd91938b1f79f5ad92bb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::ObjectLinesHolder::avgEdgeLen</definition>
+        <argsstring>() const</argsstring>
+        <name>avgEdgeLen</name>
+        <qualifiedname>MR::ObjectLinesHolder::avgEdgeLen</qualifiedname>
+        <briefdescription>
+<para>returns cached average edge length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="96" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a0652baca888594cfe0fb1c17bcb78dbb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::ObjectLinesHolder::numUndirectedEdges</definition>
+        <argsstring>() const</argsstring>
+        <name>numUndirectedEdges</name>
+        <qualifiedname>MR::ObjectLinesHolder::numUndirectedEdges</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of undirected edges in the polyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="99" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a65723d5693a73384784167b2451da400" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::ObjectLinesHolder::numComponents</definition>
+        <argsstring>() const</argsstring>
+        <name>numComponents</name>
+        <qualifiedname>MR::ObjectLinesHolder::numComponents</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of components in the polyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="102" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8aa92410cdf7cc0bd3139eb5f31b8d11" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::ObjectLinesHolder::totalLength</definition>
+        <argsstring>() const</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>MR::ObjectLinesHolder::totalLength</qualifiedname>
+        <briefdescription>
+<para>return cached total length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="105" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a786c333d036a4aca15856725ae4e9edf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ObjectLinesHolder::resetFrontColor</definition>
+        <argsstring>() override</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR::ObjectLinesHolder::resetFrontColor</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b">resetFrontColor</reimplements>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="108" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a9079bd6db91f92bd4897ee3f8776b692" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static constexpr const char * MR::ObjectLinesHolder::StaticTypeName</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>MR::ObjectLinesHolder::StaticTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="33" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ac57e00c43da38f333bf623761dfd2c82" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectLinesHolder::ObjectLinesHolder</definition>
+        <argsstring>(const ObjectLinesHolder &amp;other)=default</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR::ObjectLinesHolder::ObjectLinesHolder</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="115" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a11d75f9e64cd1cec71eff3f65d040259" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::swapBase_</definition>
+        <argsstring>(Object &amp;other) override</argsstring>
+        <name>swapBase_</name>
+        <qualifiedname>MR::ObjectLinesHolder::swapBase_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1a3369ad296b25670f64dcd09ff243e020">swapBase_</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectLines_1a527fce3c91b8dc02284dab71a95d2ea7">swapBase_</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="118" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aab5e51bab3ad302cd30461a5ba732274" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::swapSignals_</definition>
+        <argsstring>(Object &amp;other) override</argsstring>
+        <name>swapSignals_</name>
+        <qualifiedname>MR::ObjectLinesHolder::swapSignals_</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680">swapSignals_</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1abc258a705dc3d897b54a0c3327d98fc5">swapSignals_</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>swaps signals, used in <computeroutput>swap</computeroutput> function to return back signals after <computeroutput>swapBase_</computeroutput> pls call Parent::swapSignals_ first when overriding this function </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="122" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a60be494b7494766eee45cc3acb0db09d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ObjectLinesHolder::serializeBaseFields_</definition>
+        <argsstring>(Json::Value &amp;root) const</argsstring>
+        <name>serializeBaseFields_</name>
+        <qualifiedname>MR::ObjectLinesHolder::serializeBaseFields_</qualifiedname>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>we serialize polyline as text so separate polyline serialization and base fields serialization serializeBaseFields_ serializes Parent fields and base fields of <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="126" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ac53731d4425ec9404c558b238467c3fa" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::serializeFields_</definition>
+        <argsstring>(Json::Value &amp;root) const override</argsstring>
+        <name>serializeFields_</name>
+        <qualifiedname>MR::ObjectLinesHolder::serializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1a79f589a038123b0475af33b9b0d43d2a">serializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectLines_1ada9a662dc02f094a109afa99afda0e43">serializeFields_</reimplementedby>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>serializeFields_: serializeBaseFields_ plus polyline serialization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="128" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1abbacb883915ae2b416b37e7ecfbeee12" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::ObjectLinesHolder::deserializeModel_</definition>
+        <argsstring>(const std::filesystem::path &amp;path, ProgressCallback progressCb={}) override</argsstring>
+        <name>deserializeModel_</name>
+        <qualifiedname>MR::ObjectLinesHolder::deserializeModel_</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9">deserializeModel_</reimplements>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Reads model from file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="130" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aace1c3bef514115c4645861934321253" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ObjectLinesHolder::deserializeBaseFields_</definition>
+        <argsstring>(const Json::Value &amp;root)</argsstring>
+        <name>deserializeBaseFields_</name>
+        <qualifiedname>MR::ObjectLinesHolder::deserializeBaseFields_</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>we serialize polyline as text so separate polyline serialization and base fields serialization deserializeBaseFields_ deserialize Parent fields and base fields of <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="134" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a91f1067311fb1cc387d342a67e4557cb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::deserializeFields_</definition>
+        <argsstring>(const Json::Value &amp;root) override</argsstring>
+        <name>deserializeFields_</name>
+        <qualifiedname>MR::ObjectLinesHolder::deserializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
+        <reimplementedby refid="classMR_1_1ObjectGcode_1afb1505e4eeef2688ab210b77314480ea">deserializeFields_</reimplementedby>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>deserializeFields_: deserializeBaseFields_ plus polyline deserialization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="137" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a502ed4a3293b4e8466ef0eacaa0f8d9d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
+        <definition>virtual MRMESH_API Box3f MR::ObjectLinesHolder::computeBoundingBox_</definition>
+        <argsstring>() const override</argsstring>
+        <name>computeBoundingBox_</name>
+        <qualifiedname>MR::ObjectLinesHolder::computeBoundingBox_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b">computeBoundingBox_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="139" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a3a46ff446a508a1e4da51f1a85880461" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ObjectLinesHolder::setupRenderObject_</definition>
+        <argsstring>() const override</argsstring>
+        <name>setupRenderObject_</name>
+        <qualifiedname>MR::ObjectLinesHolder::setupRenderObject_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="141" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8485f04d2b33612fd7c5f7cbfe96fb91" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::ObjectLinesHolder::setAllVisualizeProperties_</definition>
+        <argsstring>(const AllVisualizeProperties &amp;properties, std::size_t &amp;pos) override</argsstring>
+        <name>setAllVisualizeProperties_</name>
+        <qualifiedname>MR::ObjectLinesHolder::setAllVisualizeProperties_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a5ec593dbd42519c53e6ebe322386f9a6">setAllVisualizeProperties_</reimplements>
+        <param>
+          <type>const <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref> &amp;</type>
+          <declname>properties</declname>
+        </param>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="144" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8c460b85e5145a984b0ed194e901f158" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ObjectLinesHolder::setDefaultColors_</definition>
+        <argsstring>()</argsstring>
+        <name>setDefaultColors_</name>
+        <qualifiedname>MR::ObjectLinesHolder::setDefaultColors_</qualifiedname>
+        <briefdescription>
+<para>this is private function to set default colors of this type (<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>) in constructor only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="167" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a4205065108344881a4dc050d2255bff7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ObjectLinesHolder::setDefaultSceneProperties_</definition>
+        <argsstring>()</argsstring>
+        <name>setDefaultSceneProperties_</name>
+        <qualifiedname>MR::ObjectLinesHolder::setDefaultSceneProperties_</qualifiedname>
+        <briefdescription>
+<para>set default scene-related properties </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="170" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>an object that stores a lines </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="5">
+        <label>MR::ObjectGcode</label>
+        <link refid="classMR_1_1ObjectGcode"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ObjectLines</label>
+        <link refid="classMR_1_1ObjectLines"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectLinesHolder</label>
+        <link refid="classMR_1_1ObjectLinesHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectLinesHolder</label>
+        <link refid="classMR_1_1ObjectLinesHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>linesChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>worldBox_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>dashed_</edgelabel>
+          <edgelabel>showPoints_</edgelabel>
+          <edgelabel>smoothConnections_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>dashPattern_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::Signal&lt; void(uint32_t mask)&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="7">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="11">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="16">
+        <label>MR::ViewportProperty&lt; MR::Vector4 &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="15">
+        <label>MR::ViewportProperty&lt; MR::XfBasedCache&lt; Box3f &gt; &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="14">
+        <label>boost::signals2::signal&lt; void(uint32_t mask) &gt;</label>
+      </node>
+      <node id="10">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLinesHolder.h" bodystart="27" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>addTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ambientStrength_</name></member>
+      <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ancillary_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a866b821cbf1353875759fa45e614249f" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>asType</name></member>
+      <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>asType</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a647c62ff7baffd91938b1f79f5ad92bb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a2abf795e99899109737e507f19ac02a7" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>avgEdgeLen_</name></member>
+      <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>backFacesColor_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>children</name></member>
+      <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>children</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>children_</name></member>
+      <member refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>className</name></member>
+      <member refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>clipByPlane_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>coloringType_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a502ed4a3293b4e8466ef0eacaa0f8d9d" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8958b915eb5b7b9f6f0b7ffa704700f5" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>copyColors</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>dashed_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1abe70f54ddf2aae2d5784d3aac54214ca" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>dashPattern_</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>depthTest_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aace1c3bef514115c4645861934321253" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>deserializeBaseFields_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a91f1067311fb1cc387d342a67e4557cb" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1abbacb883915ae2b416b37e7ecfbeee12" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af36a700f7b56ba0159abf2c66b58d630" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a7b42c2e0a5a94bede326754d2b3f369c" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getDashPattern</name></member>
+      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a3b4f5ecefe1873ce10840277c57f9e94" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getLinesColorMap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ad29f08547db22aca65fa19e23ac218b7" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a73e673c22a3081ef1fc777c20c702125" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a3006fc44192a071fef4bab8866b90744" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ab19b7af18f21594b91628233ca2421b5" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1abf4784be6ef8c3ce90625490765084dd" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalAlpha_</name></member>
+      <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8374696160d445c466b11e006c7fb4c7" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ab254bdde22e806161d869d150ac181b8" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>invertNormals_</name></member>
+      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a43f918db8a7b61c206c15d844dc2f42c" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>LinesChangedSignal</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a429bde334a9097fdec8c1d0ae5285f53" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>linesChangedSignal</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a58e224092d5971b40208e6d4a15e6862" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>linesColorMap_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ab981ac159b7e944aef46d972503003e7" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>lineWidth_</name></member>
+      <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>locked_</name></member>
+      <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>name</name></member>
+      <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>name_</name></member>
+      <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>needRedraw_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a65723d5693a73384784167b2451da400" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ac4657e92207e28ae97a59ce816f15f2e" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numComponents_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a0652baca888594cfe0fb1c17bcb78dbb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a93290385193f37f80ec2fe07e19fc8c9" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numUndirectedEdges_</name></member>
+      <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a0e079da74a88e5f0c8d965c012976af4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aacc18afcd4ee476aca853eab342fda72" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aee2f0ca0cadeda77ed87b5834547d9f2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ac57e00c43da38f333bf623761dfd2c82" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a399c6bd6321c060f5c6faffab0095bed" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>parent</name></member>
+      <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>parent</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>parent_</name></member>
+      <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>parentLocked_</name></member>
+      <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>pickable_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>pointSize_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ae0b496042ca65d7b8bdb862c9e984ff7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>polyline</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1afba90d7f156c0d8bb20a9daa74a003ce" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>polyline_</name></member>
+      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>renderObj_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a786c333d036a4aca15856725ae4e9edf" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>selected_</name></member>
+      <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>selectedColor_</name></member>
+      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a60be494b7494766eee45cc3acb0db09d" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>serializeBaseFields_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ac53731d4425ec9404c558b238467c3fa" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8485f04d2b33612fd7c5f7cbfe96fb91" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a9211895465ab621237d8ad28b942ad42" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setDashPattern</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8c460b85e5145a984b0ed194e901f158" prot="private" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setDefaultColors_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a4205065108344881a4dc050d2255bff7" prot="private" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setDefaultSceneProperties_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1acd01b614fd09efea6271585ca949bfa6" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setLinesColorMap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a2a34d49b96c99eb2e836b6ccc26aaa22" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setName</name></member>
+      <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a24c15e2c775fbd245769f2cbfd085c95" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a3a46ff446a508a1e4da51f1a85880461" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ace6659e797e2acb19d73486102ef01d2" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setVertsColorMap</name></member>
+      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aa19c36b553adf089ebe87a6220248926" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>shininess_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>showName_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ac97e60fe1e8a87ff8905e571fd47bbd1" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>showPoints_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a5e2decefeb68afc04d745403e70da92f" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>smoothConnections_</name></member>
+      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>specularStrength_</name></member>
+      <member refid="classMR_1_1VisualObject_1aada7c90048febb2b7885af4b99e67f0e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>StaticClassName</name></member>
+      <member refid="classMR_1_1VisualObject_1a98cd3516a6d384fb7370afbc397cf704" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a9079bd6db91f92bd4897ee3f8776b692" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>StaticTypeName</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a9ebf2f4fb4aaec33e52f3d1be2b2d74d" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>swap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a11d75f9e64cd1cec71eff3f65d040259" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aab5e51bab3ad302cd30461a5ba732274" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>tags</name></member>
+      <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>tags_</name></member>
+      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8aa92410cdf7cc0bd3139eb5f31b8d11" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>totalLength</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aee46157cb8a669b29f698f0ea9688264" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>totalLength_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a67bbdfa8042874e1a7033f78bb96be59" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>typeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>unselectedColor_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a59e3e83d9bf413fdb9a84fedda40f08f" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>updateLinesColorMap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>vertsColorMap_</name></member>
+      <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>visibilityMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af3f76f7286057cda0116754b663cf340" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldBox_</name></member>
+      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldXfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>xf</name></member>
+      <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>xf_</name></member>
+      <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>XfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>~Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>~VisualObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

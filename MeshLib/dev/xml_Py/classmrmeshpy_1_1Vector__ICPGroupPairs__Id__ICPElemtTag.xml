@@ -1,0 +1,1030 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ad284d81bb60d1d22f115d7b99912cc6e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64351" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a062b6cbe22948d542967780af1644ab1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a4e22584efa0e5aa5f217d5420266cdd7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a449cd7f4be6847dd811413a6b6ca725b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64354" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1af7247ddf1ba8d970a9128af7a20b83a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64357" bodyend="64358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1adecc0c1a2585f344fcc9b75da6a68c94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kindref="compound">Vector_ICPGroupPairs_Id_ICPElemtTag</ref></type>
+        <definition> Vector_ICPGroupPairs_Id_ICPElemtTag mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64361" bodyend="64362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1adecc0c1a2585f344fcc9b75da6a68c94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kindref="compound">Vector_ICPGroupPairs_Id_ICPElemtTag</ref></type>
+        <definition> Vector_ICPGroupPairs_Id_ICPElemtTag mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64365" bodyend="64366"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__getitem__</definition>
+        <argsstring>(self, Id_ICPElemtTag i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64368" bodyend="64369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__getitem__</definition>
+        <argsstring>(self, Id_ICPElemtTag i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64371" bodyend="64372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a09b4445ff89197a0eefea99741e8d14d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64374" bodyend="64377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac497c6fabe9aca833226b949beb6d2aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64379" bodyend="64382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3c9a02f7e3a7d2aed859be059411edec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self, int size, ICPGroupPairs val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64384" bodyend="64387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a98f1c032424b1afc102edb0e13c25a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self, std_vector_ICPGroupPairs vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__ICPGroupPairs" kindref="compound">std_vector_ICPGroupPairs</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64389" bodyend="64392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1abc98b8a241c9bf460c69b1d6f441c2d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self, Vector_ICPGroupPairs_Id_ICPElemtTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kindref="compound">Vector_ICPGroupPairs_Id_ICPElemtTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64394" bodyend="64397"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8658eac7a369e028bdbf910cb4fbcebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref>]</type>
+        <definition> typing.Iterator[ICPGroupPairs] mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64398" bodyend="64399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a43fbf84f4640e9e0910ece07cf513d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__setitem__</definition>
+        <argsstring>(self, Id_ICPElemtTag arg0, ICPGroupPairs arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64400" bodyend="64401"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8fba3862a1b7f4ece0b8cd7de9e372eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.autoResizeAt</definition>
+        <argsstring>(self, Id_ICPElemtTag i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64402" bodyend="64405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac486a2c5bb4b8ef684c2603548d7ad41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.autoResizeSet</definition>
+        <argsstring>(self, Id_ICPElemtTag pos, int len, ICPGroupPairs val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64407" bodyend="64411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7642f133c9d110be2b37c52c5fe23149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.autoResizeSet</definition>
+        <argsstring>(self, Id_ICPElemtTag i, ICPGroupPairs val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64413" bodyend="64416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac466b2e81dcfda119af3e89b20f2265e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64418" bodyend="64419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac466b2e81dcfda119af3e89b20f2265e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64421" bodyend="64422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a27d8c637015003d252868ac50699658e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+        <definition> Id_ICPElemtTag mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64423" bodyend="64426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1af7eca4a2240a053c44d38a678f1ef9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+        <definition> Id_ICPElemtTag mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64427" bodyend="64430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a2c56962e70dd606e5afba94a562aeb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64431" bodyend="64432"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a0321e35d36008de1f1151da4ee2d8e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64433" bodyend="64434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a97dac9457a0e9acf72f7e94de681e698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64436" bodyend="64437"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a97dac9457a0e9acf72f7e94de681e698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64439" bodyend="64440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a6d1f221d232eca910de96dc786824847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64441" bodyend="64442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7cb76684b9acc486e8d848cf3932a7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64443" bodyend="64444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a1ecbc3b3d84e4a20d12c2262a893f3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+        <definition> Id_ICPElemtTag mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64445" bodyend="64448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a225d07249b2b8d4d575ba12f83f04fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64450" bodyend="64451"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a225d07249b2b8d4d575ba12f83f04fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+        <definition> ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64453" bodyend="64454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3a31825b1a997e20bffa62593a112481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64455" bodyend="64458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7dfbc29a5d2c94a44c511a4809848ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64459" bodyend="64460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aef96adc79e79d69fcdb890d46b7de474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.push_back</definition>
+        <argsstring>(self, ICPGroupPairs t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64462" bodyend="64463"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aef96adc79e79d69fcdb890d46b7de474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.push_back</definition>
+        <argsstring>(self, ICPGroupPairs t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64465" bodyend="64466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3131e20cd81f12c9453f7896d8680be5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64467" bodyend="64468"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a177d2b7cf582ab955e528f36a68fa03b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64470" bodyend="64471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a42ed4e7921ce0b800718e00bbcb3a952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resize</definition>
+        <argsstring>(self, int newSize, ICPGroupPairs t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64473" bodyend="64474"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a140b19682bf4dc6ddfe883768e55ae73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64476" bodyend="64479"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8ba43be6ae5b1872ae4d6379f2818b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, ICPGroupPairs value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64481" bodyend="64484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aac94494931fe94eb676ddbdd8337128c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64485" bodyend="64486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a268ec49726967f14a9bc43b3f0839eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.swap</definition>
+        <argsstring>(self, Vector_ICPGroupPairs_Id_ICPElemtTag b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kindref="compound">Vector_ICPGroupPairs_Id_ICPElemtTag</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64487" bodyend="64488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac030375f7aa1e60cd57136c4c9573fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ICPGroupPairs" kindref="compound">std_vector_ICPGroupPairs</ref></type>
+        <definition> std_vector_ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64490" bodyend="64493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a10ac5dc000f5a0df5cb9244a23319ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</definition>
+        <argsstring>(self, std_vector_ICPGroupPairs arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__ICPGroupPairs" kindref="compound">std_vector_ICPGroupPairs</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64495" bodyend="64496"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::ICPGroupPairs, MR::Id&lt;MR::ICPElemtTag&gt;&gt;
+Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.reference, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.const_reference, Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.value_type, std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_value_type, std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_reference
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag</label>
+        <link refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64340" bodyend="64496"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1af7247ddf1ba8d970a9128af7a20b83a3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a09b4445ff89197a0eefea99741e8d14d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac497c6fabe9aca833226b949beb6d2aa" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3c9a02f7e3a7d2aed859be059411edec" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a98f1c032424b1afc102edb0e13c25a8b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1abc98b8a241c9bf460c69b1d6f441c2d2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8658eac7a369e028bdbf910cb4fbcebe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a43fbf84f4640e9e0910ece07cf513d40" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ad284d81bb60d1d22f115d7b99912cc6e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8fba3862a1b7f4ece0b8cd7de9e372eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac486a2c5bb4b8ef684c2603548d7ad41" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7642f133c9d110be2b37c52c5fe23149" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac466b2e81dcfda119af3e89b20f2265e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac466b2e81dcfda119af3e89b20f2265e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a27d8c637015003d252868ac50699658e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1af7eca4a2240a053c44d38a678f1ef9c8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a2c56962e70dd606e5afba94a562aeb7c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a0321e35d36008de1f1151da4ee2d8e0c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a062b6cbe22948d542967780af1644ab1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a97dac9457a0e9acf72f7e94de681e698" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a97dac9457a0e9acf72f7e94de681e698" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a6d1f221d232eca910de96dc786824847" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7cb76684b9acc486e8d848cf3932a7d0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a1ecbc3b3d84e4a20d12c2262a893f3ec" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a225d07249b2b8d4d575ba12f83f04fdf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a225d07249b2b8d4d575ba12f83f04fdf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3a31825b1a997e20bffa62593a112481" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1adecc0c1a2585f344fcc9b75da6a68c94" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1adecc0c1a2585f344fcc9b75da6a68c94" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7dfbc29a5d2c94a44c511a4809848ebe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aef96adc79e79d69fcdb890d46b7de474" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aef96adc79e79d69fcdb890d46b7de474" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a4e22584efa0e5aa5f217d5420266cdd7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3131e20cd81f12c9453f7896d8680be5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a177d2b7cf582ab955e528f36a68fa03b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a42ed4e7921ce0b800718e00bbcb3a952" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a140b19682bf4dc6ddfe883768e55ae73" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8ba43be6ae5b1872ae4d6379f2818b4b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aac94494931fe94eb676ddbdd8337128c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a268ec49726967f14a9bc43b3f0839eb0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a449cd7f4be6847dd811413a6b6ca725b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac030375f7aa1e60cd57136c4c9573fac" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a10ac5dc000f5a0df5cb9244a23319ea0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewportId" kind="struct" language="C#" prot="public">
+    <compoundname>MR::ViewportId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ViewportId &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ViewportId_1abb7c089b30566451e561be532b2d95e7" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint MR.ViewportId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.ViewportId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="235" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="235" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a6b60b72ccf0801792ab2ffa9ecf3228e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ViewportId.operator ViewportId</definition>
+        <argsstring>(ConstBox_ViewportId other)</argsstring>
+        <name>operator ViewportId</name>
+        <qualifiedname>MR.ViewportId.operator ViewportId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ViewportId" kindref="compound">ConstBox_ViewportId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="240" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1ace3e8bedacb8ae58e84c349c1c70e6e2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ViewportId.operator bool</definition>
+        <argsstring>(MR.ViewportId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.ViewportId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.ViewportId.operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="270" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="270" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a025634de6a9cd12753a64a3f8d67c08c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ViewportId.operator==</definition>
+        <argsstring>(MR.ViewportId _this, MR.ViewportId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ViewportId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ViewportId.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="306" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="306" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1afd129185fb8829629e75c021215d594d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ViewportId.operator!=</definition>
+        <argsstring>(MR.ViewportId _this, MR.ViewportId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ViewportId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="313" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="313" bodyend="316"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a2c6ae209f8a5ce23b6cff913c0cfc528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ViewportId.ViewportId</definition>
+        <argsstring>(ViewportId _other)</argsstring>
+        <name>ViewportId</name>
+        <qualifiedname>MR.ViewportId.ViewportId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="245" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="245" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a731c5b6145bdb4129a69d0b9e482c289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ViewportId.ViewportId</definition>
+        <argsstring>()</argsstring>
+        <name>ViewportId</name>
+        <qualifiedname>MR.ViewportId.ViewportId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="250" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="250" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a765a48e8003bf876cabd56b165485066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ViewportId.ViewportId</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>ViewportId</name>
+        <qualifiedname>MR.ViewportId.ViewportId</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1ViewportId_1a2c6ae209f8a5ce23b6cff913c0cfc528" kindref="member">MR.ViewportId.ViewportId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="260" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="260" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a679ad2472fe19231ef94828987b1487e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe uint</type>
+        <definition>readonly unsafe uint MR.ViewportId.value</definition>
+        <argsstring>()</argsstring>
+        <name>value</name>
+        <qualifiedname>MR.ViewportId.value</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ViewportId_1a679ad2472fe19231ef94828987b1487e" kindref="member">MR.ViewportId.value</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="280" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="280" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a13a6c8e3ebc0a40ea822429240dd7e79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.ViewportId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.ViewportId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ViewportId_1a13a6c8e3ebc0a40ea822429240dd7e79" kindref="member">MR.ViewportId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="293" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="293" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a8b4785fd1237dfdf25bd5242b2729fe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.ViewportId.less</definition>
+        <argsstring>(MR.ViewportId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.ViewportId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ViewportId.operator&lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="321" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="321" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a2fa847afaaee317bbbc3a6f4b88b1304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+        <definition>readonly unsafe MR.ViewportId MR.ViewportId.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>MR.ViewportId.next</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ViewportId_1a2fa847afaaee317bbbc3a6f4b88b1304" kindref="member">MR.ViewportId.next</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="334" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="334" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1ad948ed327789e686ef231074d1b7b4c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+        <definition>readonly unsafe MR.ViewportId MR.ViewportId.prev</definition>
+        <argsstring>()</argsstring>
+        <name>prev</name>
+        <qualifiedname>MR.ViewportId.prev</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ViewportId_1ad948ed327789e686ef231074d1b7b4c1" kindref="member">MR.ViewportId.prev</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="347" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="347" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a628c73b88cf7a0520c8c3345d83df0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ViewportId.Equals</definition>
+        <argsstring>(MR.ViewportId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ViewportId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="359" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ViewportId_1a1d311513f671e09f80fd819d253a175f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ViewportId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ViewportId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="364" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="364" bodyend="371"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores unique identifier of a viewport, which is power of two; id=0 has a special meaning of default viewport in some contexts Generated from class <computeroutput><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ViewportId</label>
+        <link refid="structMR_1_1ViewportId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.ViewportId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ViewportId</label>
+        <link refid="structMR_1_1ViewportId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.ViewportId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="232" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="233" bodyend="372"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ViewportId_1a628c73b88cf7a0520c8c3345d83df0c2" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1ViewportId_1a1d311513f671e09f80fd819d253a175f" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1ViewportId_1abb7c089b30566451e561be532b2d95e7" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>id</name></member>
+      <member refid="structMR_1_1ViewportId_1a8b4785fd1237dfdf25bd5242b2729fe5" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>less</name></member>
+      <member refid="structMR_1_1ViewportId_1a2fa847afaaee317bbbc3a6f4b88b1304" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>next</name></member>
+      <member refid="structMR_1_1ViewportId_1ace3e8bedacb8ae58e84c349c1c70e6e2" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1ViewportId_1a6b60b72ccf0801792ab2ffa9ecf3228e" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator ViewportId</name></member>
+      <member refid="structMR_1_1ViewportId_1afd129185fb8829629e75c021215d594d" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1ViewportId_1a025634de6a9cd12753a64a3f8d67c08c" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator==</name></member>
+      <member refid="structMR_1_1ViewportId_1ad948ed327789e686ef231074d1b7b4c1" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>prev</name></member>
+      <member refid="structMR_1_1ViewportId_1a13a6c8e3ebc0a40ea822429240dd7e79" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>valid</name></member>
+      <member refid="structMR_1_1ViewportId_1a679ad2472fe19231ef94828987b1487e" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>value</name></member>
+      <member refid="structMR_1_1ViewportId_1a2c6ae209f8a5ce23b6cff913c0cfc528" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>ViewportId</name></member>
+      <member refid="structMR_1_1ViewportId_1a731c5b6145bdb4129a69d0b9e482c289" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>ViewportId</name></member>
+      <member refid="structMR_1_1ViewportId_1a765a48e8003bf876cabd56b165485066" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>ViewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

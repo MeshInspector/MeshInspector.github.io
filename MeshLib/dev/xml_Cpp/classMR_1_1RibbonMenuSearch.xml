@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenuSearch" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenuSearch</compoundname>
+    <includes refid="MRRibbonMenuSearch_8h" local="no">MRRibbonMenuSearch.h</includes>
+    <innerclass refid="structMR_1_1RibbonMenuSearch_1_1Parameters" prot="public">MR::RibbonMenuSearch::Parameters</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1aebc64b96bc8c8dbcf6ef65641e9a5e4d" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void()&gt;</type>
+        <definition>Signal&lt;void()&gt; MR::RibbonMenuSearch::onFocusSignal</definition>
+        <argsstring></argsstring>
+        <name>onFocusSignal</name>
+        <qualifiedname>MR::RibbonMenuSearch::onFocusSignal</qualifiedname>
+        <briefdescription>
+<para>this signal is emitted when search bar is focused </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="51" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a9f8e00b4931028438808d8fc56c7a367" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void(std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt;)&gt;</type>
+        <definition>Signal&lt;void( std::shared_ptr&lt;RibbonMenuItem&gt; )&gt; MR::RibbonMenuSearch::onToolActivateSignal</definition>
+        <argsstring></argsstring>
+        <name>onToolActivateSignal</name>
+        <qualifiedname>MR::RibbonMenuSearch::onToolActivateSignal</qualifiedname>
+        <briefdescription>
+<para>this signal is emitted when tool is activated within search </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="53" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a8dd34636f0606b3d5832c0b4c12ddd1f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::RibbonMenuSearch::searchLine_</definition>
+        <argsstring></argsstring>
+        <name>searchLine_</name>
+        <qualifiedname>MR::RibbonMenuSearch::searchLine_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="65" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a79bf9beed65c6c8ae7cb76efe2ee9e52" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult" kindref="compound">RibbonSchemaHolder::SearchResult</ref> &gt;</type>
+        <definition>std::vector&lt;RibbonSchemaHolder::SearchResult&gt; MR::RibbonMenuSearch::searchResult_</definition>
+        <argsstring></argsstring>
+        <name>searchResult_</name>
+        <qualifiedname>MR::RibbonMenuSearch::searchResult_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="66" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a63de21060c468d9dc0567c581dc0526f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight" kindref="compound">RibbonSchemaHolder::SearchResultWeight</ref> &gt;</type>
+        <definition>std::vector&lt;RibbonSchemaHolder::SearchResultWeight&gt; MR::RibbonMenuSearch::searchResultWeight_</definition>
+        <argsstring></argsstring>
+        <name>searchResultWeight_</name>
+        <qualifiedname>MR::RibbonMenuSearch::searchResultWeight_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="67" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a653360c634db6b3a347a8220fa660f2b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult" kindref="compound">RibbonSchemaHolder::SearchResult</ref> &gt;</type>
+        <definition>std::vector&lt;RibbonSchemaHolder::SearchResult&gt; MR::RibbonMenuSearch::recentItems_</definition>
+        <argsstring></argsstring>
+        <name>recentItems_</name>
+        <qualifiedname>MR::RibbonMenuSearch::recentItems_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="68" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a79acf7650d854c533507fd6ee3b891c0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonMenuSearch::hightlightedSearchItem_</definition>
+        <argsstring></argsstring>
+        <name>hightlightedSearchItem_</name>
+        <qualifiedname>MR::RibbonMenuSearch::hightlightedSearchItem_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="69" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a7b82b98265cbae9189ed1e0b7b8a211b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonMenuSearch::captionCount_</definition>
+        <argsstring></argsstring>
+        <name>captionCount_</name>
+        <qualifiedname>MR::RibbonMenuSearch::captionCount_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="70" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a0b4837e8857c47375053b8b76869c2fa" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::isSmallUI_</definition>
+        <argsstring></argsstring>
+        <name>isSmallUI_</name>
+        <qualifiedname>MR::RibbonMenuSearch::isSmallUI_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="73" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1acb9a4678bb1914f52ca40c8daedb83ff" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::active_</definition>
+        <argsstring></argsstring>
+        <name>active_</name>
+        <qualifiedname>MR::RibbonMenuSearch::active_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="74" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a96e4ada9806982884779f1b79d895e25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::prevFrameActive_</definition>
+        <argsstring></argsstring>
+        <name>prevFrameActive_</name>
+        <qualifiedname>MR::RibbonMenuSearch::prevFrameActive_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="75" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a91e32fc5cada025e1255f661f8b559d9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::isSmallUILast_</definition>
+        <argsstring></argsstring>
+        <name>isSmallUILast_</name>
+        <qualifiedname>MR::RibbonMenuSearch::isSmallUILast_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="76" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a7b255bcbb0208bcb31a862636f36d3c9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::mainInputFocused_</definition>
+        <argsstring></argsstring>
+        <name>mainInputFocused_</name>
+        <qualifiedname>MR::RibbonMenuSearch::mainInputFocused_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="77" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a6b22d89d94492c95694c234dd3672789" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::blockSearchBtn_</definition>
+        <argsstring></argsstring>
+        <name>blockSearchBtn_</name>
+        <qualifiedname>MR::RibbonMenuSearch::blockSearchBtn_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1a728f91ccb153dc612cbb1909e81998ed" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::setInputFocus_</definition>
+        <argsstring></argsstring>
+        <name>setInputFocus_</name>
+        <qualifiedname>MR::RibbonMenuSearch::setInputFocus_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="79" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1abfe6a9ccf7a8ee8b355122ac0d12c266" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a55cd176bca8ea774ad922ad2876e0f0d" kindref="member">RequirementsFunction</ref></type>
+        <definition>RequirementsFunction MR::RibbonMenuSearch::requirementsFunc_</definition>
+        <argsstring></argsstring>
+        <name>requirementsFunc_</name>
+        <qualifiedname>MR::RibbonMenuSearch::requirementsFunc_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="80" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenuSearch_1aad781a2f97ec70bf8644180b868e73ae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::showResultWeight_</definition>
+        <argsstring></argsstring>
+        <name>showResultWeight_</name>
+        <qualifiedname>MR::RibbonMenuSearch::showResultWeight_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="82" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a9e21069323068b3d3e37691e3e2bdb09" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * MR::RibbonMenuSearch::windowName</definition>
+        <argsstring>() const</argsstring>
+        <name>windowName</name>
+        <qualifiedname>MR::RibbonMenuSearch::windowName</qualifiedname>
+        <briefdescription>
+<para>returns search imgui popup window name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="20" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1ac74ec292a21908372b2925b5aa868cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenuSearch::pushRecentItem</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</argsstring>
+        <name>pushRecentItem</name>
+        <qualifiedname>MR::RibbonMenuSearch::pushRecentItem</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>add item to recent items list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="22" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1af63422eb95c89c1f0593b3c8f5dc00d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenuSearch::drawMenuUI</definition>
+        <argsstring>(const Parameters &amp;params)</argsstring>
+        <name>drawMenuUI</name>
+        <qualifiedname>MR::RibbonMenuSearch::drawMenuUI</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonMenuSearch_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>draws search elements and window with its logic </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="31" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1ac091dc76627f29a6d704646a477f55c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenuSearch::setSmallUI</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setSmallUI</name>
+        <qualifiedname>MR::RibbonMenuSearch::setSmallUI</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>set draw mode (true - small button, false - input string ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1abb54fa525352a97793f4948df5292ba7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::RibbonMenuSearch::getWidthMenuUI</definition>
+        <argsstring>() const</argsstring>
+        <name>getWidthMenuUI</name>
+        <qualifiedname>MR::RibbonMenuSearch::getWidthMenuUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get width ui element in top panel return unscaled value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="38" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1afcef0eec09d9ab66c4eceebbb8b15d73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::RibbonMenuSearch::getSearchStringWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getSearchStringWidth</name>
+        <qualifiedname>MR::RibbonMenuSearch::getSearchStringWidth</qualifiedname>
+        <briefdescription>
+<para>get search string width (+ item spacing) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="41" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1ab0a9a0a890de308d579a6b1226cdbc6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenuSearch::activate</definition>
+        <argsstring>()</argsstring>
+        <name>activate</name>
+        <qualifiedname>MR::RibbonMenuSearch::activate</qualifiedname>
+        <briefdescription>
+<para>activate search from outside (i.e. shortcut) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="44" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a9c0a860e85f2d55494f4829c2720efa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenuSearch::setRequirementsFunc</definition>
+        <argsstring>(const RequirementsFunction &amp;requirementsFunc)</argsstring>
+        <name>setRequirementsFunc</name>
+        <qualifiedname>MR::RibbonMenuSearch::setRequirementsFunc</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a55cd176bca8ea774ad922ad2876e0f0d" kindref="member">RequirementsFunction</ref> &amp;</type>
+          <declname>requirementsFunc</declname>
+        </param>
+        <briefdescription>
+<para>set function to get a requirements line for some tool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="47" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="47" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a27d388167c8d6121fa720b521a4d0440" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::smallSearchButton_</definition>
+        <argsstring>()</argsstring>
+        <name>smallSearchButton_</name>
+        <qualifiedname>MR::RibbonMenuSearch::smallSearchButton_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a59e2f2a11416b7a30ecf559bd0957f8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenuSearch::drawWindow_</definition>
+        <argsstring>(const Parameters &amp;params)</argsstring>
+        <name>drawWindow_</name>
+        <qualifiedname>MR::RibbonMenuSearch::drawWindow_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonMenuSearch_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a59d883949a64346e0e826fe82d3b6c89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenuSearch::deactivateSearch_</definition>
+        <argsstring>()</argsstring>
+        <name>deactivateSearch_</name>
+        <qualifiedname>MR::RibbonMenuSearch::deactivateSearch_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a09711b539fd586bfe3dadc85b8ce8b4e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenuSearch::searchInputText_</definition>
+        <argsstring>(const char *label, std::string &amp;str)</argsstring>
+        <name>searchInputText_</name>
+        <qualifiedname>MR::RibbonMenuSearch::searchInputText_</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenuSearch_1a0167a22968bcc69ff8326b550483dadd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenuSearch::updateSearchResult_</definition>
+        <argsstring>()</argsstring>
+        <name>updateSearchResult_</name>
+        <qualifiedname>MR::RibbonMenuSearch::updateSearchResult_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="63" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>separate class for search in ribbon menu </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RibbonMenuSearch</label>
+        <link refid="classMR_1_1RibbonMenuSearch"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>onFocusSignal</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>onToolActivateSignal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;)&gt;</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="5">
+        <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="17" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonMenuSearch_1ab0a9a0a890de308d579a6b1226cdbc6b" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>activate</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1acb9a4678bb1914f52ca40c8daedb83ff" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>active_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a6b22d89d94492c95694c234dd3672789" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>blockSearchBtn_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a7b82b98265cbae9189ed1e0b7b8a211b" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>captionCount_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a59d883949a64346e0e826fe82d3b6c89" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>deactivateSearch_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1af63422eb95c89c1f0593b3c8f5dc00d8" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>drawMenuUI</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a59e2f2a11416b7a30ecf559bd0957f8e" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>drawWindow_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1afcef0eec09d9ab66c4eceebbb8b15d73" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>getSearchStringWidth</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1abb54fa525352a97793f4948df5292ba7" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>getWidthMenuUI</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a79acf7650d854c533507fd6ee3b891c0" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>hightlightedSearchItem_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a0b4837e8857c47375053b8b76869c2fa" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>isSmallUI_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a91e32fc5cada025e1255f661f8b559d9" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>isSmallUILast_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a7b255bcbb0208bcb31a862636f36d3c9" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>mainInputFocused_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1aebc64b96bc8c8dbcf6ef65641e9a5e4d" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>onFocusSignal</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a9f8e00b4931028438808d8fc56c7a367" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>onToolActivateSignal</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a96e4ada9806982884779f1b79d895e25" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>prevFrameActive_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1ac74ec292a21908372b2925b5aa868cf8" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>pushRecentItem</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a653360c634db6b3a347a8220fa660f2b" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>recentItems_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1abfe6a9ccf7a8ee8b355122ac0d12c266" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>requirementsFunc_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a09711b539fd586bfe3dadc85b8ce8b4e" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>searchInputText_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a8dd34636f0606b3d5832c0b4c12ddd1f" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>searchLine_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a79bf9beed65c6c8ae7cb76efe2ee9e52" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>searchResult_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a63de21060c468d9dc0567c581dc0526f" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>searchResultWeight_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a728f91ccb153dc612cbb1909e81998ed" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>setInputFocus_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a9c0a860e85f2d55494f4829c2720efa6" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>setRequirementsFunc</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1ac091dc76627f29a6d704646a477f55c5" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>setSmallUI</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1aad781a2f97ec70bf8644180b868e73ae" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>showResultWeight_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a27d388167c8d6121fa720b521a4d0440" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>smallSearchButton_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a0167a22968bcc69ff8326b550483dadd" prot="private" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>updateSearchResult_</name></member>
+      <member refid="classMR_1_1RibbonMenuSearch_1a9e21069323068b3d3e37691e3e2bdb09" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch</scope><name>windowName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="conceptMR_1_1UnitEnum" kind="concept">
+    <compoundname>MR::UnitEnum</compoundname>
+    <includes refid="MRUnitInfo_8h" local="no">MRUnitInfo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename T&gt;
+concept <ref refid="conceptMR_1_1UnitEnum" kindref="compound">MR::UnitEnum</ref> = 
+    true <ref refid="MRUnitInfo_8h_1a51e60d4d94856e5e896a7a222e68986e" kindref="member">DETAIL_MR_UNIT_ENUMS</ref>(<ref refid="MRUnitInfo_8h_1a0bd0e9453da08815bd042baada75c822" kindref="member">MR_X</ref>)    </initializer>
+    <briefdescription>
+<para>Whether <computeroutput>E</computeroutput> is one of the unit enums: NoUnit, LengthUnit, AngleUnit, ... </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" line="124" column="1"/>
+  </compounddef>
+</doxygen>

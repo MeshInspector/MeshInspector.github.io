@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineTraits__Vector3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineTraits_Vector3f</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1a764fb640649a2dee0a1d7805eb1578a5" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.PolylineTraits_Vector3f::Polyline</definition>
+        <argsstring></argsstring>
+        <name>Polyline</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.Polyline</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1aa864183b0d2c96b53b1d617a5561e7f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTraits_Vector3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47156" bodyend="47157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1accbe9fd546ebb2c037afd0d440de32c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineTraits__Vector3f" kindref="compound">PolylineTraits_Vector3f</ref></type>
+        <definition> PolylineTraits_Vector3f mrmeshpy.PolylineTraits_Vector3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47160" bodyend="47161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1accbe9fd546ebb2c037afd0d440de32c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineTraits__Vector3f" kindref="compound">PolylineTraits_Vector3f</ref></type>
+        <definition> PolylineTraits_Vector3f mrmeshpy.PolylineTraits_Vector3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47164" bodyend="47165"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1a8adbf9ba374a5d35fbf8137d9473a7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTraits_Vector3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47167" bodyend="47168"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1afdd58e41a4e99ce7d335db08e39ea0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTraits_Vector3f.__init__</definition>
+        <argsstring>(self, PolylineTraits_Vector3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTraits__Vector3f" kindref="compound">PolylineTraits_Vector3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47170" bodyend="47173"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTraits__Vector3f_1a8adbf9ba374a5d35fbf8137d9473a7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTraits_Vector3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTraits_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47175" bodyend="47178"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineTraits&lt;MR::Vector3f&gt;
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47149" bodyend="47178"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1aa864183b0d2c96b53b1d617a5561e7f8" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1a8adbf9ba374a5d35fbf8137d9473a7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1afdd58e41a4e99ce7d335db08e39ea0a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1a8adbf9ba374a5d35fbf8137d9473a7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1accbe9fd546ebb2c037afd0d440de32c1" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1accbe9fd546ebb2c037afd0d440de32c1" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTraits__Vector3f_1a764fb640649a2dee0a1d7805eb1578a5" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTraits_Vector3f</scope><name>Polyline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

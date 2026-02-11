@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMeasurementIndicators::TextResult</compoundname>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1aedf388b3b7cae8fc76288a5c9a3a2989" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::TextResult::textCornerA</definition>
+        <argsstring></argsstring>
+        <name>textCornerA</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextResult::textCornerA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="309" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a94e287dc6994cec0b2e49f8d3d2d87fe" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::TextResult::textCornerB</definition>
+        <argsstring></argsstring>
+        <name>textCornerB</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextResult::textCornerB</qualifiedname>
+        <briefdescription>
+<para>The narrow rect right around the text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="310" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a5f94555831e1f94892d9ff939f618dd9" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::TextResult::bgCornerA</definition>
+        <argsstring></argsstring>
+        <name>bgCornerA</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextResult::bgCornerA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="311" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a3db8a74d097eec16f3625ff3865dea29" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::TextResult::bgCornerB</definition>
+        <argsstring></argsstring>
+        <name>bgCornerB</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextResult::bgCornerB</qualifiedname>
+        <briefdescription>
+<para>The padded rect of the text background. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="312" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="308" bodyend="313"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a5f94555831e1f94892d9ff939f618dd9" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextResult</scope><name>bgCornerA</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a3db8a74d097eec16f3625ff3865dea29" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextResult</scope><name>bgCornerB</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1aedf388b3b7cae8fc76288a5c9a3a2989" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextResult</scope><name>textCornerA</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a94e287dc6994cec0b2e49f8d3d2d87fe" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextResult</scope><name>textCornerB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

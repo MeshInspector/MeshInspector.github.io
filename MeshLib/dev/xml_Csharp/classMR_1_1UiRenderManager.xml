@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UiRenderManager" kind="class" language="C#" prot="public">
+    <compoundname>MR::UiRenderManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UiRenderManager</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1afb5b161d7a73af4ee6ef0e9fde27e7f9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UiRenderManager.UiRenderManager</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UiRenderManager</name>
+        <qualifiedname>MR.UiRenderManager.UiRenderManager</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1527" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1527" bodyend="1527"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UiRenderManager.UiRenderManager</definition>
+        <argsstring>()</argsstring>
+        <name>UiRenderManager</name>
+        <qualifiedname>MR.UiRenderManager.UiRenderManager</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1532" bodyend="1537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1ad9bed7ddb2465983085a24bca3f4732a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UiRenderManager.UiRenderManager</definition>
+        <argsstring>(MR._ByValue_UiRenderManager _other)</argsstring>
+        <name>UiRenderManager</name>
+        <qualifiedname>MR.UiRenderManager.UiRenderManager</qualifiedname>
+        <param>
+          <type>MR._ByValue_UiRenderManager</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UiRenderManager.UiRenderManager</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1542" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1542" bodyend="1548"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a27071fd392f5b50c23f213920f541d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UiRenderManager.UiRenderManager</definition>
+        <argsstring>(Const_UiRenderManager _other)</argsstring>
+        <name>UiRenderManager</name>
+        <qualifiedname>MR.UiRenderManager.UiRenderManager</qualifiedname>
+        <param>
+          <type>Const_UiRenderManager</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UiRenderManager.UiRenderManager</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1553" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1553" bodyend="1553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a1950cb2e8b76cd2f258d768d5fa5ae75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UiRenderManager.UiRenderManager</definition>
+        <argsstring>(UiRenderManager _other)</argsstring>
+        <name>UiRenderManager</name>
+        <qualifiedname>MR.UiRenderManager.UiRenderManager</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UiRenderManager.UiRenderManager</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1558" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1558" bodyend="1558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a0cdd389be09e58c5d5068a1e2fbfb54c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UiRenderManager" kindref="compound">MR.UiRenderManager</ref></type>
+        <definition>unsafe MR.UiRenderManager MR.UiRenderManager.assign</definition>
+        <argsstring>(MR._ByValue_UiRenderManager _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UiRenderManager.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UiRenderManager</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UiRenderManager.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1563" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1563" bodyend="1570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a7afb07d5a7227a2937f8d64ad35fb75d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UiRenderManager.preRenderViewport</definition>
+        <argsstring>(MR.ViewportId viewport)</argsstring>
+        <name>preRenderViewport</name>
+        <qualifiedname>MR.UiRenderManager.preRenderViewport</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UiRenderManager_1a7afb07d5a7227a2937f8d64ad35fb75d" kindref="member">MR.UiRenderManager.preRenderViewport</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1576" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1576" bodyend="1581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a76bec50407215c004e3216a60eb1a81c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UiRenderManager.postRenderViewport</definition>
+        <argsstring>(MR.ViewportId viewport)</argsstring>
+        <name>postRenderViewport</name>
+        <qualifiedname>MR.UiRenderManager.postRenderViewport</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UiRenderManager_1a76bec50407215c004e3216a60eb1a81c" kindref="member">MR.UiRenderManager.postRenderViewport</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1587" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1587" bodyend="1592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.BasicUiRenderTask.BackwardPassParams</type>
+        <definition>unsafe MR.BasicUiRenderTask.BackwardPassParams MR.UiRenderManager.beginBackwardPass</definition>
+        <argsstring>(MR.ViewportId viewport, MR.Std.Vector_StdSharedPtrMRBasicUiRenderTask tasks)</argsstring>
+        <name>beginBackwardPass</name>
+        <qualifiedname>MR.UiRenderManager.beginBackwardPass</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdSharedPtrMRBasicUiRenderTask</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" kindref="member">MR.UiRenderManager.beginBackwardPass</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1599" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1599" bodyend="1604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UiRenderManager_1a5cbfbea4de891528083bc996df0549dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UiRenderManager.finishBackwardPass</definition>
+        <argsstring>(MR.ViewportId viewport, MR.BasicUiRenderTask.Const_BackwardPassParams params_)</argsstring>
+        <name>finishBackwardPass</name>
+        <qualifiedname>MR.UiRenderManager.finishBackwardPass</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type>MR.BasicUiRenderTask.Const_BackwardPassParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UiRenderManager_1a5cbfbea4de891528083bc996df0549dd" kindref="member">MR.UiRenderManager.finishBackwardPass</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1610" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1610" bodyend="1615"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1UiRenderManager" kindref="compound">MR.UiRenderManager</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UiRenderManager</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UiRenderManager</label>
+        <link refid="classMR_1_1UiRenderManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UiRenderManager &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UiRenderManager</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UiRenderManager</label>
+        <link refid="classMR_1_1UiRenderManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UiRenderManager &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1525" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1526" bodyend="1616"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UiRenderManager_1a0cdd389be09e58c5d5068a1e2fbfb54c" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>assign</name></member>
+      <member refid="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>beginBackwardPass</name></member>
+      <member refid="classMR_1_1UiRenderManager_1a5cbfbea4de891528083bc996df0549dd" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>finishBackwardPass</name></member>
+      <member refid="classMR_1_1UiRenderManager_1a76bec50407215c004e3216a60eb1a81c" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>postRenderViewport</name></member>
+      <member refid="classMR_1_1UiRenderManager_1a7afb07d5a7227a2937f8d64ad35fb75d" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>preRenderViewport</name></member>
+      <member refid="classMR_1_1UiRenderManager_1afb5b161d7a73af4ee6ef0e9fde27e7f9" prot="package" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>UiRenderManager</name></member>
+      <member refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>UiRenderManager</name></member>
+      <member refid="classMR_1_1UiRenderManager_1ad9bed7ddb2465983085a24bca3f4732a" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>UiRenderManager</name></member>
+      <member refid="classMR_1_1UiRenderManager_1a27071fd392f5b50c23f213920f541d4c" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>UiRenderManager</name></member>
+      <member refid="classMR_1_1UiRenderManager_1a1950cb2e8b76cd2f258d768d5fa5ae75" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>UiRenderManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

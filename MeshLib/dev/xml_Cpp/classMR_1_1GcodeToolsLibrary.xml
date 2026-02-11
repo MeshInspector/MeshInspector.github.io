@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GcodeToolsLibrary" kind="class" language="C++" prot="public">
+    <compoundname>MR::GcodeToolsLibrary</compoundname>
+    <includes refid="MRToolsLibrary_8h" local="no">MRToolsLibrary.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a20927a270a59ac8319be9d1c1df678c6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::GcodeToolsLibrary::libraryName_</definition>
+        <argsstring></argsstring>
+        <name>libraryName_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::libraryName_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="53" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a743be925e838e9b2804bcf9fa959d1bf" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; MR::GcodeToolsLibrary::filesList_</definition>
+        <argsstring></argsstring>
+        <name>filesList_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::filesList_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="54" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a86a8325ed1650d7684f3cf51e1fa42ac" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::GcodeToolsLibrary::selectedFileName_</definition>
+        <argsstring></argsstring>
+        <name>selectedFileName_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::selectedFileName_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1acd23da2efb178dbb0721f6ed104dc153" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::GcodeToolsLibrary::toolMesh_</definition>
+        <argsstring></argsstring>
+        <name>toolMesh_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::toolMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="56" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a8914f75ae68482156f1c0639d32ad7be" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::GcodeToolsLibrary::defaultToolMesh_</definition>
+        <argsstring></argsstring>
+        <name>defaultToolMesh_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::defaultToolMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="57" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a2a8391f14964cf286111dac0308618cf" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;EndMillTool&gt; MR::GcodeToolsLibrary::endMillTool_</definition>
+        <argsstring></argsstring>
+        <name>endMillTool_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::endMillTool_</qualifiedname>
+        <briefdescription>
+<para>default mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1ac153ebfe7964723103ce8feb04c4bdae" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GcodeToolsLibrary::autoSize_</definition>
+        <argsstring></argsstring>
+        <name>autoSize_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::autoSize_</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="59" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a6bf606ae01680c2ee165c3a24f7d3335" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::GcodeToolsLibrary::createToolDialogIsOpen_</definition>
+        <argsstring></argsstring>
+        <name>createToolDialogIsOpen_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolDialogIsOpen_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>object specific size for automatic resize default object </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Create Tool dialog state </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="62" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1aa20095a6eb347db610d84cbc41ea04f1" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::GcodeToolsLibrary::createToolName_</definition>
+        <argsstring></argsstring>
+        <name>createToolName_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolName_</qualifiedname>
+        <initializer>= &quot;Flat End Mill D2&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="63" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a57744d3d4b3dcd57adfe262cc456ca9c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::GcodeToolsLibrary::createToolType_</definition>
+        <argsstring></argsstring>
+        <name>createToolType_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolType_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="64" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a7a90385ba83305034ff3585c4ec6ab66" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GcodeToolsLibrary::createToolLength_</definition>
+        <argsstring></argsstring>
+        <name>createToolLength_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolLength_</qualifiedname>
+        <initializer>= 8.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="65" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1ac66c75436551b8c849c1a0245d23888a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GcodeToolsLibrary::createToolDiameter_</definition>
+        <argsstring></argsstring>
+        <name>createToolDiameter_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolDiameter_</qualifiedname>
+        <initializer>= 2.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="66" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a6618b4727ffe167581745457d477da71" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GcodeToolsLibrary::createToolCornerRadius_</definition>
+        <argsstring></argsstring>
+        <name>createToolCornerRadius_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolCornerRadius_</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1a60d2129c541d8c74409dc6aef959f3e5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GcodeToolsLibrary::createToolCuttingAngle_</definition>
+        <argsstring></argsstring>
+        <name>createToolCuttingAngle_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolCuttingAngle_</qualifiedname>
+        <initializer>= 90.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="68" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GcodeToolsLibrary_1aed4134f617677d26bb28809ac7fc74d6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GcodeToolsLibrary::createToolEndDiameter_</definition>
+        <argsstring></argsstring>
+        <name>createToolEndDiameter_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::createToolEndDiameter_</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="69" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a602053a5eb257238e0adc6f7c4a7c8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::GcodeToolsLibrary::GcodeToolsLibrary</definition>
+        <argsstring>(const std::string &amp;libraryName)</argsstring>
+        <name>GcodeToolsLibrary</name>
+        <qualifiedname>MR::GcodeToolsLibrary::GcodeToolsLibrary</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>libraryName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="17" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a5474fc576f9fa84ee1d57d476553bcbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::GcodeToolsLibrary::drawInterface</definition>
+        <argsstring>()</argsstring>
+        <name>drawInterface</name>
+        <qualifiedname>MR::GcodeToolsLibrary::drawInterface</qualifiedname>
+        <briefdescription>
+<para>draw interface for interacting with storage (based on <ref refid="namespaceMR_1_1UI_1a820aa2a94b65ad7536194e8527f89a12" kindref="member">UI::combo</ref>) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="20" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a8c33b66d774fd733e5666c6fa0db1cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::GcodeToolsLibrary::drawCreateToolDialog</definition>
+        <argsstring>()</argsstring>
+        <name>drawCreateToolDialog</name>
+        <qualifiedname>MR::GcodeToolsLibrary::drawCreateToolDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>draw dialog for creating end mill tools must be called outside any BeginCustomStatePlugin/EndCustomStatePlugin blocks </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="24" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a491da975eada25f78297b3c3befecf79" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
+        <definition>MRVIEWER_API const std::shared_ptr&lt; ObjectMesh &gt; &amp; MR::GcodeToolsLibrary::getToolObject</definition>
+        <argsstring>()</argsstring>
+        <name>getToolObject</name>
+        <qualifiedname>MR::GcodeToolsLibrary::getToolObject</qualifiedname>
+        <briefdescription>
+<para>get selected tool as <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="27" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1ae33089c9019e6ce8f918a7291f9e4d89" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; EndMillTool &gt; &amp; MR::GcodeToolsLibrary::getEndMillTool</definition>
+        <argsstring>() const</argsstring>
+        <name>getEndMillTool</name>
+        <qualifiedname>MR::GcodeToolsLibrary::getEndMillTool</qualifiedname>
+        <briefdescription>
+<para>get selected tool as <ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref> (if available) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="30" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a545ff3b6a5d9cdf2987f1dbd3ece6769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GcodeToolsLibrary::setAutoSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setAutoSize</name>
+        <qualifiedname>MR::GcodeToolsLibrary::setAutoSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>set object specific size for automatic resize default object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="33" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a78fa2db6a9a074d299373390967d97e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::GcodeToolsLibrary::getFolder_</definition>
+        <argsstring>()</argsstring>
+        <name>getFolder_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::getFolder_</qualifiedname>
+        <briefdescription>
+<para>storage folder </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="37" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a098eaffdb4137063be94810a5cec0257" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GcodeToolsLibrary::updateFilesList_</definition>
+        <argsstring>()</argsstring>
+        <name>updateFilesList_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::updateFilesList_</qualifiedname>
+        <briefdescription>
+<para>get valid files in storage folder </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a528d4a4874ad406032e58ec6d32e682e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GcodeToolsLibrary::addNewToolFromFile_</definition>
+        <argsstring>()</argsstring>
+        <name>addNewToolFromFile_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::addNewToolFromFile_</qualifiedname>
+        <briefdescription>
+<para>add new tool in storage from file with mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="41" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a349cef9e1963e049caa0348a3c36e55d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GcodeToolsLibrary::addNewToolFromMesh_</definition>
+        <argsstring>(const std::shared_ptr&lt; ObjectMesh &gt; &amp;objMesh)</argsstring>
+        <name>addNewToolFromMesh_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::addNewToolFromMesh_</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
+          <declname>objMesh</declname>
+        </param>
+        <briefdescription>
+<para>add new tool in storage from exist <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a6caa0229a5a8da3fd4cba9829ed4aff1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GcodeToolsLibrary::addNewTool_</definition>
+        <argsstring>(const std::string &amp;name, const EndMillTool &amp;tool)</argsstring>
+        <name>addNewTool_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::addNewTool_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref> &amp;</type>
+          <declname>tool</declname>
+        </param>
+        <briefdescription>
+<para>add new end mill tool in storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a7f4beb2c7913db113817eb784a34a063" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GcodeToolsLibrary::removeSelectedTool_</definition>
+        <argsstring>()</argsstring>
+        <name>removeSelectedTool_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::removeSelectedTool_</qualifiedname>
+        <briefdescription>
+<para>remove the selected tool from storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1a9a20a5410d6d9efdd71e2651e30f8148" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GcodeToolsLibrary::drawSelectMeshPopup_</definition>
+        <argsstring>()</argsstring>
+        <name>drawSelectMeshPopup_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::drawSelectMeshPopup_</qualifiedname>
+        <briefdescription>
+<para>draw popup with ObjectMeshes available for adding </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeToolsLibrary_1aaabaaec020cd535ad6633bd83e6e7627" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::GcodeToolsLibrary::loadFromFile_</definition>
+        <argsstring>(const std::string &amp;filename)</argsstring>
+        <name>loadFromFile_</name>
+        <qualifiedname>MR::GcodeToolsLibrary::loadFromFile_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>choose mesh from storage (and load it) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="51" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class for storing CNC tools </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="15" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a6caa0229a5a8da3fd4cba9829ed4aff1" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewTool_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a528d4a4874ad406032e58ec6d32e682e" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewToolFromFile_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a349cef9e1963e049caa0348a3c36e55d" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewToolFromMesh_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1ac153ebfe7964723103ce8feb04c4bdae" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>autoSize_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a6618b4727ffe167581745457d477da71" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolCornerRadius_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a60d2129c541d8c74409dc6aef959f3e5" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolCuttingAngle_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a6bf606ae01680c2ee165c3a24f7d3335" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolDialogIsOpen_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1ac66c75436551b8c849c1a0245d23888a" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolDiameter_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1aed4134f617677d26bb28809ac7fc74d6" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolEndDiameter_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a7a90385ba83305034ff3585c4ec6ab66" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolLength_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1aa20095a6eb347db610d84cbc41ea04f1" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolName_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a57744d3d4b3dcd57adfe262cc456ca9c" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>createToolType_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a8914f75ae68482156f1c0639d32ad7be" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>defaultToolMesh_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a8c33b66d774fd733e5666c6fa0db1cda" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawCreateToolDialog</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a5474fc576f9fa84ee1d57d476553bcbd" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawInterface</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a9a20a5410d6d9efdd71e2651e30f8148" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>drawSelectMeshPopup_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a2a8391f14964cf286111dac0308618cf" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>endMillTool_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a743be925e838e9b2804bcf9fa959d1bf" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>filesList_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a602053a5eb257238e0adc6f7c4a7c8da" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>GcodeToolsLibrary</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1ae33089c9019e6ce8f918a7291f9e4d89" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getEndMillTool</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a78fa2db6a9a074d299373390967d97e3" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getFolder_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a491da975eada25f78297b3c3befecf79" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>getToolObject</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a20927a270a59ac8319be9d1c1df678c6" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>libraryName_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1aaabaaec020cd535ad6633bd83e6e7627" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>loadFromFile_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a7f4beb2c7913db113817eb784a34a063" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>removeSelectedTool_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a86a8325ed1650d7684f3cf51e1fa42ac" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>selectedFileName_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a545ff3b6a5d9cdf2987f1dbd3ece6769" prot="public" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>setAutoSize</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1acd23da2efb178dbb0721f6ed104dc153" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>toolMesh_</name></member>
+      <member refid="classMR_1_1GcodeToolsLibrary_1a098eaffdb4137063be94810a5cec0257" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>updateFilesList_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

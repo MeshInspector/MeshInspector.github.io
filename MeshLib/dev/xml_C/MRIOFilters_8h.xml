@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRIOFilters_8h" kind="file" language="C++">
+    <compoundname>MRIOFilters.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRIOFilters.h</label>
+        <link refid="MRIOFilters_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" prot="public" static="no">
+        <type>struct <ref refid="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" kindref="member">MR_std_optional_MR_IOFilter</ref></type>
+        <definition>typedef struct MR_std_optional_MR_IOFilter MR_std_optional_MR_IOFilter</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_IOFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="13" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIOFilters_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" prot="public" static="no">
+        <type>struct <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref></type>
+        <definition>typedef struct MR_std_vector_MR_IOFilter MR_std_vector_MR_IOFilter</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_IOFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="15" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" prot="public" static="no">
+        <type>struct <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref></type>
+        <definition>typedef struct MR_IOFilter MR_IOFilter</definition>
+        <argsstring></argsstring>
+        <name>MR_IOFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::IOFilter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="20" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRIOFilters_8h_1ac975be571195e81baf95cff90e7757a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_IOFilter_Get_name</definition>
+        <argsstring>(const MR_IOFilter *_this)</argsstring>
+        <name>MR_IOFilter_Get_name</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IOFilter</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="25" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="25" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a77747768035ba180e868e47b63c5c0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IOFilter_Set_name</definition>
+        <argsstring>(MR_IOFilter *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_IOFilter_Set_name</name>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IOFilter</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="33" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a9bf05632dedbc7ff81a61a19eb3bd558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_IOFilter_GetMutable_name</definition>
+        <argsstring>(MR_IOFilter *_this)</argsstring>
+        <name>MR_IOFilter_GetMutable_name</name>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IOFilter</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="38" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1ad2bef6712b1e3e440d1438a50f840bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_IOFilter_Get_extensions</definition>
+        <argsstring>(const MR_IOFilter *_this)</argsstring>
+        <name>MR_IOFilter_Get_extensions</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IOFilter</computeroutput> named <computeroutput>extensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="44" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="44" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a40e2f519c741409b74ce6fe29b70c2a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IOFilter_Set_extensions</definition>
+        <argsstring>(MR_IOFilter *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_IOFilter_Set_extensions</name>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IOFilter</computeroutput> named <computeroutput>extensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>extensions</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>extensions</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a5e37578122855e4646679c2ad394ee25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_IOFilter_GetMutable_extensions</definition>
+        <argsstring>(MR_IOFilter *_this)</argsstring>
+        <name>MR_IOFilter_GetMutable_extensions</name>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IOFilter</computeroutput> named <computeroutput>extensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="59" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="59" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a62d7123b152ccc540ac8bb51b7b99308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_IOFilter * MR_IOFilter_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_IOFilter_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIOFilters_8h_1a061c1e7e893cc6e485085a6bc7a7f750" kindref="member">MR_IOFilter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="63" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="63" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a0ff21a3eec49323ca49b6e8750108cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_IOFilter * MR_IOFilter_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_IOFilter_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRIOFilters_8h_1a8a54fc9cf744cb56a1ae0e783f3780d9" kindref="member">MR_IOFilter_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRIOFilters_8h_1a31ee871896561ebce027e7a7c3731c05" kindref="member">MR_IOFilter_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRIOFilters_8h_1a5aea41e4382b4966a6183cd9329f1584" kindref="member">MR_IOFilter_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="68" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a5aea41e4382b4966a6183cd9329f1584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API const MR_IOFilter * MR_IOFilter_OffsetPtr</definition>
+        <argsstring>(const MR_IOFilter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IOFilter_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="72" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="72" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a31ee871896561ebce027e7a7c3731c05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_IOFilter * MR_IOFilter_OffsetMutablePtr</definition>
+        <argsstring>(MR_IOFilter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IOFilter_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="76" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="76" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a19955a216f516bc84337f522d7972a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_IOFilter * MR_IOFilter_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_IOFilter *_other)</argsstring>
+        <name>MR_IOFilter_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IOFilter::IOFilter</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIOFilters_8h_1a061c1e7e893cc6e485085a6bc7a7f750" kindref="member">MR_IOFilter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="81" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a7acfca90cf53c8ae98eebf0395444028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_IOFilter * MR_IOFilter_Construct</definition>
+        <argsstring>(const char *_name, const char *_name_end, const char *_ext, const char *_ext_end)</argsstring>
+        <name>MR_IOFilter_Construct</name>
+        <param>
+          <type>const char *</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>_name_end</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>_ext</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>_ext_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IOFilter::IOFilter</computeroutput>. Parameter <computeroutput>_name</computeroutput> can not be null. If <computeroutput>_name_end</computeroutput> is null, then <computeroutput>_name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>_name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>_ext</computeroutput> can not be null. If <computeroutput>_ext_end</computeroutput> is null, then <computeroutput>_ext</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>_ext</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIOFilters_8h_1a061c1e7e893cc6e485085a6bc7a7f750" kindref="member">MR_IOFilter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="91" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="91" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a061c1e7e893cc6e485085a6bc7a7f750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IOFilter_Destroy</definition>
+        <argsstring>(const MR_IOFilter *_this)</argsstring>
+        <name>MR_IOFilter_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_IOFilter</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a8a54fc9cf744cb56a1ae0e783f3780d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IOFilter_DestroyArray</definition>
+        <argsstring>(const MR_IOFilter *_this)</argsstring>
+        <name>MR_IOFilter_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_IOFilter</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="97" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a77c87fc5fce76a6150e78cc9efeb719c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_IOFilter * MR_IOFilter_AssignFromAnother</definition>
+        <argsstring>(MR_IOFilter *_this, MR_PassBy _other_pass_by, MR_IOFilter *_other)</argsstring>
+        <name>MR_IOFilter_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::IOFilter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="104" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a4592e102b7a22bcaf93da3ce33082470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_IOFilter_isSupportedExtension</definition>
+        <argsstring>(const MR_IOFilter *_this, const char *ext, const char *ext_end)</argsstring>
+        <name>MR_IOFilter_isSupportedExtension</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ext</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ext_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::IOFilter::isSupportedExtension</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ext</computeroutput> can not be null. If <computeroutput>ext_end</computeroutput> is null, then <computeroutput>ext</computeroutput> is assumed to be null-terminated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="110" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a7e3a7e3f734c8be6fbf505d8b2ad32af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_IOFilter * MR_bitor_std_vector_MR_IOFilter</definition>
+        <argsstring>(const MR_std_vector_MR_IOFilter *a, const MR_std_vector_MR_IOFilter *b)</argsstring>
+        <name>MR_bitor_std_vector_MR_IOFilter</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns union of input filters Generated from function <computeroutput>MR::operator|</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_IOFilter_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="117" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="117" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIOFilters_8h_1a2641f6512c03a36c739fc1010c6db1c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" kindref="member">MR_std_optional_MR_IOFilter</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_IOFilter * MR_findFilter</definition>
+        <argsstring>(const MR_std_vector_MR_IOFilter *filters, const char *extension, const char *extension_end)</argsstring>
+        <name>MR_findFilter</name>
+        <param>
+          <type>const <ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref> *</type>
+          <declname>filters</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>extension_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>find a corresponding filter for a given extension Generated from function <computeroutput>MR::findFilter</computeroutput>. Parameter <computeroutput>filters</computeroutput> can not be null. It is a single object. Parameter <computeroutput>extension</computeroutput> can not be null. If <computeroutput>extension_end</computeroutput> is null, then <computeroutput>extension</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_IOFilter_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" line="125" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h" declline="125" declcolumn="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" kindref="member">MR_std_optional_MR_IOFilter</ref><sp/><ref refid="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" kindref="member">MR_std_optional_MR_IOFilter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_IOFilter.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRIOFilters_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_IOFilter.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRIOFilters_8h_1ac975be571195e81baf95cff90e7757a9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRIOFilters_8h_1ac975be571195e81baf95cff90e7757a9" kindref="member">MR_IOFilter_Get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRIOFilters_8h_1a77747768035ba180e868e47b63c5c0de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a77747768035ba180e868e47b63c5c0de" kindref="member">MR_IOFilter_Set_name</ref>(<ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRIOFilters_8h_1a9bf05632dedbc7ff81a61a19eb3bd558" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRIOFilters_8h_1a9bf05632dedbc7ff81a61a19eb3bd558" kindref="member">MR_IOFilter_GetMutable_name</ref>(<ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&quot;*.ext&quot;<sp/>or<sp/>&quot;*.ext1;*.ext2;*.ext3&quot;</highlight></codeline>
+<codeline lineno="44" refid="MRIOFilters_8h_1ad2bef6712b1e3e440d1438a50f840bf2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRIOFilters_8h_1ad2bef6712b1e3e440d1438a50f840bf2" kindref="member">MR_IOFilter_Get_extensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&quot;*.ext&quot;<sp/>or<sp/>&quot;*.ext1;*.ext2;*.ext3&quot;</highlight></codeline>
+<codeline lineno="53" refid="MRIOFilters_8h_1a40e2f519c741409b74ce6fe29b70c2a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a40e2f519c741409b74ce6fe29b70c2a6" kindref="member">MR_IOFilter_Set_extensions</ref>(<ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&quot;*.ext&quot;<sp/>or<sp/>&quot;*.ext1;*.ext2;*.ext3&quot;</highlight></codeline>
+<codeline lineno="59" refid="MRIOFilters_8h_1a5e37578122855e4646679c2ad394ee25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRIOFilters_8h_1a5e37578122855e4646679c2ad394ee25" kindref="member">MR_IOFilter_GetMutable_extensions</ref>(<ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRIOFilters_8h_1a62d7123b152ccc540ac8bb51b7b99308" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a62d7123b152ccc540ac8bb51b7b99308" kindref="member">MR_IOFilter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRIOFilters_8h_1a0ff21a3eec49323ca49b6e8750108cad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a0ff21a3eec49323ca49b6e8750108cad" kindref="member">MR_IOFilter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRIOFilters_8h_1a5aea41e4382b4966a6183cd9329f1584" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a5aea41e4382b4966a6183cd9329f1584" kindref="member">MR_IOFilter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRIOFilters_8h_1a31ee871896561ebce027e7a7c3731c05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a31ee871896561ebce027e7a7c3731c05" kindref="member">MR_IOFilter_OffsetMutablePtr</ref>(<ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRIOFilters_8h_1a19955a216f516bc84337f522d7972a43" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a19955a216f516bc84337f522d7972a43" kindref="member">MR_IOFilter_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRIOFilters_8h_1a7acfca90cf53c8ae98eebf0395444028" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a7acfca90cf53c8ae98eebf0395444028" kindref="member">MR_IOFilter_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_ext,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_ext_end);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRIOFilters_8h_1a061c1e7e893cc6e485085a6bc7a7f750" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a061c1e7e893cc6e485085a6bc7a7f750" kindref="member">MR_IOFilter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRIOFilters_8h_1a8a54fc9cf744cb56a1ae0e783f3780d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a8a54fc9cf744cb56a1ae0e783f3780d9" kindref="member">MR_IOFilter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRIOFilters_8h_1a77c87fc5fce76a6150e78cc9efeb719c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a77c87fc5fce76a6150e78cc9efeb719c" kindref="member">MR_IOFilter_AssignFromAnother</ref>(<ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRIOFilters_8h_1a4592e102b7a22bcaf93da3ce33082470" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a4592e102b7a22bcaf93da3ce33082470" kindref="member">MR_IOFilter_isSupportedExtension</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1a86edf3ec5c251b6d45c75d48abe44d7b" kindref="member">MR_IOFilter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ext,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ext_end);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRIOFilters_8h_1a7e3a7e3f734c8be6fbf505d8b2ad32af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a7e3a7e3f734c8be6fbf505d8b2ad32af" kindref="member">MR_bitor_std_vector_MR_IOFilter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRIOFilters_8h_1a2641f6512c03a36c739fc1010c6db1c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIOFilters_8h_1a6f9457ad555cbcec459fa345ec845f0f" kindref="member">MR_std_optional_MR_IOFilter</ref><sp/>*<ref refid="MRIOFilters_8h_1a2641f6512c03a36c739fc1010c6db1c6" kindref="member">MR_findFilter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIOFilters_8h_1ac9eb9a9e1e6066f522661733a7c739df" kindref="member">MR_std_vector_MR_IOFilter</ref><sp/>*filters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extension,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extension_end);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOFilters.h"/>
+  </compounddef>
+</doxygen>

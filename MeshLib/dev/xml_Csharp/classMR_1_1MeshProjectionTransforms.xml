@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshProjectionTransforms" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshProjectionTransforms</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshProjectionTransforms</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshProjectionTransforms_1a0bb6e8cf8f8c3f7eeb72aa019f5ecfc3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.MeshProjectionTransforms.rigidXfPoint</definition>
+        <argsstring></argsstring>
+        <name>rigidXfPoint</name>
+        <qualifiedname>MR.MeshProjectionTransforms.rigidXfPoint</qualifiedname>
+        <briefdescription>
+<para>&lt; this xf is applied to point to move it into projection space </para>
+        </briefdescription>
+        <detaileddescription>
+<para>this xf is applied to AABB tree to move it into projection space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="399" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="400" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshProjectionTransforms_1a8a8866c79ad2da34fc9e2ea41a57f855" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.MeshProjectionTransforms.nonRigidXfTree</definition>
+        <argsstring></argsstring>
+        <name>nonRigidXfTree</name>
+        <qualifiedname>MR.MeshProjectionTransforms.nonRigidXfTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="412" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="413" bodyend="422"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshProjectionTransforms_1af218d70980b3b3c871a2f5bf5992ed79" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshProjectionTransforms.MeshProjectionTransforms</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshProjectionTransforms</name>
+        <qualifiedname>MR.MeshProjectionTransforms.MeshProjectionTransforms</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="426" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="426" bodyend="430"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshProjectionTransforms_1a2cbf72c55d1022d7cd6d70b760c80186" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshProjectionTransforms.MeshProjectionTransforms</definition>
+        <argsstring>()</argsstring>
+        <name>MeshProjectionTransforms</name>
+        <qualifiedname>MR.MeshProjectionTransforms.MeshProjectionTransforms</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="436" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="436" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshProjectionTransforms_1a3c9a86fd036f439ff8f39543d517dc0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshProjectionTransforms.MeshProjectionTransforms</definition>
+        <argsstring>(MR.AffineXf3f? rigidXfPoint, MR.AffineXf3f? nonRigidXfTree)</argsstring>
+        <name>MeshProjectionTransforms</name>
+        <qualifiedname>MR.MeshProjectionTransforms.MeshProjectionTransforms</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>rigidXfPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>nonRigidXfTree</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MR.MeshProjectionTransforms</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="447" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="447" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshProjectionTransforms_1a2e18186d90a07ce796be6800c10b77b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshProjectionTransforms.MeshProjectionTransforms</definition>
+        <argsstring>(MR.Const_MeshProjectionTransforms _other)</argsstring>
+        <name>MeshProjectionTransforms</name>
+        <qualifiedname>MR.MeshProjectionTransforms.MeshProjectionTransforms</qualifiedname>
+        <param>
+          <type>MR.Const_MeshProjectionTransforms</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshProjectionTransforms.MeshProjectionTransforms</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="460" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="460" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshProjectionTransforms_1af0268f5a9d643447694303101feb8bb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshProjectionTransforms.MeshProjectionTransforms</definition>
+        <argsstring>(MeshProjectionTransforms _other)</argsstring>
+        <name>MeshProjectionTransforms</name>
+        <qualifiedname>MR.MeshProjectionTransforms.MeshProjectionTransforms</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MeshProjectionTransforms</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshProjectionTransforms.MeshProjectionTransforms</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="472" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="472" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshProjectionTransforms_1a64aa7f05b3996015abedc6dca49c2b2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MR.MeshProjectionTransforms</ref></type>
+        <definition>unsafe MR.MeshProjectionTransforms MR.MeshProjectionTransforms.assign</definition>
+        <argsstring>(MR.Const_MeshProjectionTransforms _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshProjectionTransforms.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MeshProjectionTransforms</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshProjectionTransforms.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="477" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="477" bodyend="484"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MR.MeshProjectionTransforms</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshProjectionTransforms</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshProjectionTransforms</label>
+        <link refid="classMR_1_1MeshProjectionTransforms"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshProjectionTransforms &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshProjectionTransforms</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshProjectionTransforms</label>
+        <link refid="classMR_1_1MeshProjectionTransforms"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshProjectionTransforms &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="396" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="397" bodyend="485"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshProjectionTransforms_1a64aa7f05b3996015abedc6dca49c2b2e" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1af218d70980b3b3c871a2f5bf5992ed79" prot="package" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1a2cbf72c55d1022d7cd6d70b760c80186" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1a3c9a86fd036f439ff8f39543d517dc0f" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1a2e18186d90a07ce796be6800c10b77b8" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1af0268f5a9d643447694303101feb8bb8" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1a8a8866c79ad2da34fc9e2ea41a57f855" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>nonRigidXfTree</name></member>
+      <member refid="classMR_1_1MeshProjectionTransforms_1a0bb6e8cf8f8c3f7eeb72aa019f5ecfc3" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>rigidXfPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DecimatePolylineResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DecimatePolylineResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineResult_1a711c3321dc3258e2d5c77ebe6d3be0df" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineResult::_offsetof_errorIntroduced</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_errorIntroduced</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult._offsetof_errorIntroduced</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineResult_1a6f38bc32be30629f6de1d834498354f5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineResult::_offsetof_vertsDeleted</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertsDeleted</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult._offsetof_vertsDeleted</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11586" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1ac342dc975775877fc024ce2a4dbee80c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11589" bodyend="11590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1ad81a0937cff178aad3115f081c2899d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref></type>
+        <definition> DecimatePolylineResult mrmeshpy.DecimatePolylineResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11593" bodyend="11594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1ad81a0937cff178aad3115f081c2899d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref></type>
+        <definition> DecimatePolylineResult mrmeshpy.DecimatePolylineResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11597" bodyend="11598"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1aacb87ff1b314a78ea758ddba11be9937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11600" bodyend="11601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1aadebc6bf0edaacce6b1622286c83a4a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineResult.__init__</definition>
+        <argsstring>(self, DecimatePolylineResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11603" bodyend="11606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1a73cd2527f9784ef5cee3553e520e6e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineResult.__init__</definition>
+        <argsstring>(self, int vertsDeleted, float errorIntroduced)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertsDeleted</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>errorIntroduced</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11608" bodyend="11611"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1ad521b16cfeb877a7e727b009848030a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimatePolylineResult.errorIntroduced</definition>
+        <argsstring>(self)</argsstring>
+        <name>errorIntroduced</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.errorIntroduced</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Max different (as distance) between original contour and result contour
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11613" bodyend="11616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1adf5b213c3a7aa27f31f35e37f1ad2837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineResult.errorIntroduced</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>errorIntroduced</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.errorIntroduced</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11618" bodyend="11619"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1a2ccb1054da31c5b8718e560f0fd5cdea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePolylineResult.vertsDeleted</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertsDeleted</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.vertsDeleted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Number deleted verts. Same as the number of performed collapses
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11621" bodyend="11624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineResult_1aebd6a5d97460cd2621c69014b1b69965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineResult.vertsDeleted</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>vertsDeleted</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineResult.vertsDeleted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11626" bodyend="11627"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DecimatePolylineResult
+
+
+ \\struct MR::DecimatePolylineResult
+ \\brief Results of MR::decimateContour</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DecimatePolylineResult</label>
+        <link refid="classmrmeshpy_1_1DecimatePolylineResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_errorIntroduced</edgelabel>
+          <edgelabel>_offsetof_vertsDeleted</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11576" bodyend="11627"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1ac342dc975775877fc024ce2a4dbee80c" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1aacb87ff1b314a78ea758ddba11be9937" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1aadebc6bf0edaacce6b1622286c83a4a9" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1a73cd2527f9784ef5cee3553e520e6e07" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1a711c3321dc3258e2d5c77ebe6d3be0df" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>_offsetof_errorIntroduced</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1a6f38bc32be30629f6de1d834498354f5" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>_offsetof_vertsDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1ad521b16cfeb877a7e727b009848030a8" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>errorIntroduced</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1adf5b213c3a7aa27f31f35e37f1ad2837" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>errorIntroduced</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1ad81a0937cff178aad3115f081c2899d7" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1ad81a0937cff178aad3115f081c2899d7" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1a2ccb1054da31c5b8718e560f0fd5cdea" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>vertsDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineResult_1aebd6a5d97460cd2621c69014b1b69965" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineResult</scope><name>vertsDeleted</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMenu_1_1TagEditorState" kind="struct" language="C++" prot="protected">
+    <compoundname>MR::ImGuiMenu::TagEditorState</compoundname>
+    <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1TagEditorState_1abaec0c0a0a46426ec7ec96e959e4f421" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ImGuiMenu::TagEditorState::initName</definition>
+        <argsstring></argsstring>
+        <name>initName</name>
+        <qualifiedname>MR::ImGuiMenu::TagEditorState::initName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="156" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1TagEditorState_1ac6de01ecc7438107c57d834ed8291c86" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ImGuiMenu::TagEditorState::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ImGuiMenu::TagEditorState::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="157" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1TagEditorState_1afb6faf8bc0849a0b80ae509cdf5c4b25" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMenu::TagEditorState::initHasFrontColor</definition>
+        <argsstring></argsstring>
+        <name>initHasFrontColor</name>
+        <qualifiedname>MR::ImGuiMenu::TagEditorState::initHasFrontColor</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="158" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1TagEditorState_1aea360d36502bf0c3741c65d73b499f83" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMenu::TagEditorState::hasFrontColor</definition>
+        <argsstring></argsstring>
+        <name>hasFrontColor</name>
+        <qualifiedname>MR::ImGuiMenu::TagEditorState::hasFrontColor</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="159" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1TagEditorState_1a5b721362d61f02d9a0561a2dc185b2be" prot="public" static="no" mutable="no">
+        <type>ImVec4</type>
+        <definition>ImVec4 MR::ImGuiMenu::TagEditorState::selectedColor</definition>
+        <argsstring></argsstring>
+        <name>selectedColor</name>
+        <qualifiedname>MR::ImGuiMenu::TagEditorState::selectedColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="160" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1TagEditorState_1af8e9809b70542f1e9563256ecc1ce30a" prot="public" static="no" mutable="no">
+        <type>ImVec4</type>
+        <definition>ImVec4 MR::ImGuiMenu::TagEditorState::unselectedColor</definition>
+        <argsstring></argsstring>
+        <name>unselectedColor</name>
+        <qualifiedname>MR::ImGuiMenu::TagEditorState::unselectedColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="161" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>state for the Edit Tag modal dialog </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="154" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="155" bodyend="162"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMenu_1_1TagEditorState_1aea360d36502bf0c3741c65d73b499f83" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>hasFrontColor</name></member>
+      <member refid="structMR_1_1ImGuiMenu_1_1TagEditorState_1afb6faf8bc0849a0b80ae509cdf5c4b25" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>initHasFrontColor</name></member>
+      <member refid="structMR_1_1ImGuiMenu_1_1TagEditorState_1abaec0c0a0a46426ec7ec96e959e4f421" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>initName</name></member>
+      <member refid="structMR_1_1ImGuiMenu_1_1TagEditorState_1ac6de01ecc7438107c57d834ed8291c86" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>name</name></member>
+      <member refid="structMR_1_1ImGuiMenu_1_1TagEditorState_1a5b721362d61f02d9a0561a2dc185b2be" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>selectedColor</name></member>
+      <member refid="structMR_1_1ImGuiMenu_1_1TagEditorState_1af8e9809b70542f1e9563256ecc1ce30a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>unselectedColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

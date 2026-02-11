@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsLoad::LoadingTiffSettings</compoundname>
+    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxelsLoad.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1aafca990d1d688a3f2f9ce8ba0a67a3c5" prot="public" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::VoxelsLoad::LoadingTiffSettings::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="97" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a39c8477a2a590bcaef5179d861b7f1de" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::VoxelsLoad::LoadingTiffSettings::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::voxelSize</qualifiedname>
+        <initializer>= { 1.0f, 1.0f, 1.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="98" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a162c946b965977a5048ed85b3b7d1293" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1VoxelsLoad_1a5a3e4b96e9ddb9678f554fe8a8d56a19" kindref="member">GridType</ref></type>
+        <definition>GridType MR::VoxelsLoad::LoadingTiffSettings::gridType</definition>
+        <argsstring></argsstring>
+        <name>gridType</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::gridType</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1_1VoxelsLoad_1a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" kindref="member">GridType::DenseGrid</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="99" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ad7f6150701181ada771a2322643a89dd" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::VoxelsLoad::LoadingTiffSettings::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="100" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="96" bodyend="101"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ad7f6150701181ada771a2322643a89dd" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>cb</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1aafca990d1d688a3f2f9ce8ba0a67a3c5" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>dir</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a162c946b965977a5048ed85b3b7d1293" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>gridType</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a39c8477a2a590bcaef5179d861b7f1de" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

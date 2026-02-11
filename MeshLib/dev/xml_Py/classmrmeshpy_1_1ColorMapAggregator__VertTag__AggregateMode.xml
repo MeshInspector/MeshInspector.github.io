@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a69c0b139d6d8285703f3946cdde6bcd7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ColorMapAggregator_VertTag_AggregateMode::Blending</definition>
+        <argsstring></argsstring>
+        <name>Blending</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.Blending</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode" kindref="compound">ColorMapAggregator_VertTag_AggregateMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9777" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a5169127de74311d96f8a94d507d71d17" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ColorMapAggregator_VertTag_AggregateMode::Overlay</definition>
+        <argsstring></argsstring>
+        <name>Overlay</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.Overlay</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode" kindref="compound">ColorMapAggregator_VertTag_AggregateMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9778" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a13345c12167f2f2b6b2951bdc9b7123f" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ColorMapAggregator_VertTag_AggregateMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode" kindref="compound">ColorMapAggregator_VertTag_AggregateMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9779" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a82db5971bdca28090dbf312750c72b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9780" bodyend="9781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1af7bd9b55b6e5ee0c515f897dd8de7cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9782" bodyend="9783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a422ae52f683659f98e0559e73da73247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9784" bodyend="9785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a3afe9651fa18576def98aeac9cdddf40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9786" bodyend="9787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a7a53ebb77079b8fb6526e11dbace8de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9788" bodyend="9789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1ac956b6a3276916cf0f95d6876e05e015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9790" bodyend="9791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a6c8b3080ee132a90409b16462871972a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9792" bodyend="9793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a4643bd98cefad720d4c27c4eedcb2488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9794" bodyend="9795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a0ebab9033f095eb3eda6ecce34799f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9796" bodyend="9797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a9b4e7854aa197a14a5b780a4b48a9506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9798" bodyend="9799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a0da05588b84b322c0df86f0f0a259a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9801" bodyend="9802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1ad255a2bef4009814f4ddfbd39eb1c59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9804" bodyend="9805"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Overlay
+
+  Blending : result element color is element color of more priority color map (or default color, if there isn&apos;t color map for this element)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ColorMapAggregator_VertTag_AggregateMode</label>
+        <link refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Blending</edgelabel>
+          <edgelabel>Overlay</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9769" bodyend="9805"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a82db5971bdca28090dbf312750c72b73" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1af7bd9b55b6e5ee0c515f897dd8de7cee" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a422ae52f683659f98e0559e73da73247" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a3afe9651fa18576def98aeac9cdddf40" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a7a53ebb77079b8fb6526e11dbace8de1" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1ac956b6a3276916cf0f95d6876e05e015" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a13345c12167f2f2b6b2951bdc9b7123f" prot="private" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a6c8b3080ee132a90409b16462871972a" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a4643bd98cefad720d4c27c4eedcb2488" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a0ebab9033f095eb3eda6ecce34799f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a9b4e7854aa197a14a5b780a4b48a9506" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a69c0b139d6d8285703f3946cdde6bcd7" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>Blending</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a0da05588b84b322c0df86f0f0a259a08" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1a5169127de74311d96f8a94d507d71d17" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>Overlay</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode_1ad255a2bef4009814f4ddfbd39eb1c59d" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_AggregateMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

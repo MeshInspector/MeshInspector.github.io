@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ZeroOnMove__MRUint64T" kind="class" language="C#" prot="public">
+    <compoundname>MR::ZeroOnMove_MRUint64T</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ZeroOnMove_MRUint64T</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ZeroOnMove__MRUint64T_1a5e0179f3451e133a49d24c00451f1090" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.ZeroOnMove_MRUint64T.val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>MR.ZeroOnMove_MRUint64T.val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9882" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9882" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__MRUint64T_1a6348b3a444deae063add0bffeac9c985" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ZeroOnMove_MRUint64T.ZeroOnMove_MRUint64T</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ZeroOnMove_MRUint64T</name>
+        <qualifiedname>MR.ZeroOnMove_MRUint64T.ZeroOnMove_MRUint64T</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9886" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9886" bodyend="9890"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__MRUint64T_1a5bc69bca30a42f8985b0657bbd340288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ZeroOnMove_MRUint64T.ZeroOnMove_MRUint64T</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroOnMove_MRUint64T</name>
+        <qualifiedname>MR.ZeroOnMove_MRUint64T.ZeroOnMove_MRUint64T</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9896" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9896" bodyend="9902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__MRUint64T_1a15aec647597c0cf3f483922408b01c12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ZeroOnMove_MRUint64T.ZeroOnMove_MRUint64T</definition>
+        <argsstring>(MR._ByValue_ZeroOnMove_MRUint64T z)</argsstring>
+        <name>ZeroOnMove_MRUint64T</name>
+        <qualifiedname>MR.ZeroOnMove_MRUint64T.ZeroOnMove_MRUint64T</qualifiedname>
+        <param>
+          <type>MR._ByValue_ZeroOnMove_MRUint64T</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ZeroOnMove&lt;MR_uint64_t&gt;::ZeroOnMove</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9907" bodyend="9914"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__MRUint64T_1a0523d20e0502afe20c5b4d8ae82f35c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ZeroOnMove__MRUint64T" kindref="compound">MR.ZeroOnMove_MRUint64T</ref></type>
+        <definition>unsafe MR.ZeroOnMove_MRUint64T MR.ZeroOnMove_MRUint64T.assign</definition>
+        <argsstring>(MR._ByValue_ZeroOnMove_MRUint64T z)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ZeroOnMove_MRUint64T.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ZeroOnMove_MRUint64T</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ZeroOnMove&lt;MR_uint64_t&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9919" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9919" bodyend="9929"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.ZeroOnMove&lt;MR_uint64_t&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ZeroOnMove_MRUint64T</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ZeroOnMove_MRUint64T</label>
+        <link refid="classMR_1_1ZeroOnMove__MRUint64T"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ZeroOnMove_MRUint64T &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ZeroOnMove_MRUint64T</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ZeroOnMove_MRUint64T</label>
+        <link refid="classMR_1_1ZeroOnMove__MRUint64T"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ZeroOnMove_MRUint64T &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9880" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9881" bodyend="9930"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a0523d20e0502afe20c5b4d8ae82f35c4" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>assign</name></member>
+      <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a5e0179f3451e133a49d24c00451f1090" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>val</name></member>
+      <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a6348b3a444deae063add0bffeac9c985" prot="package" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>ZeroOnMove_MRUint64T</name></member>
+      <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a5bc69bca30a42f8985b0657bbd340288" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>ZeroOnMove_MRUint64T</name></member>
+      <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a15aec647597c0cf3f483922408b01c12" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>ZeroOnMove_MRUint64T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

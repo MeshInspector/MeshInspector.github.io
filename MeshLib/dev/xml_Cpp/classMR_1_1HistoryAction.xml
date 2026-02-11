@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1HistoryAction" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::HistoryAction</compoundname>
+    <derivedcompoundref refid="classMR_1_1ChangVoxelSelectionAction" prot="public" virt="non-virtual">MR::ChangVoxelSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeActiveBoxAction" prot="public" virt="non-virtual">MR::ChangeActiveBoxAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeBoundarySelectionHistoryAction" prot="public" virt="non-virtual">MR::ChangeBoundarySelectionHistoryAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeColoringType" prot="public" virt="non-virtual">MR::ChangeColoringType</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeDualMarchingCubesAction" prot="public" virt="non-virtual">MR::ChangeDualMarchingCubesAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeFacesColorMapAction" prot="public" virt="non-virtual">MR::ChangeFacesColorMapAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeGridAction" prot="public" virt="non-virtual">MR::ChangeGridAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeIsoAction" prot="public" virt="non-virtual">MR::ChangeIsoAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeLabelAction" prot="public" virt="non-virtual">MR::ChangeLabelAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeLinesColorMapAction" prot="public" virt="non-virtual">MR::ChangeLinesColorMapAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshAction" prot="public" virt="non-virtual">MR::ChangeMeshAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshCreasesAction" prot="public" virt="non-virtual">MR::ChangeMeshCreasesAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshDataAction" prot="public" virt="non-virtual">MR::ChangeMeshDataAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshEdgeSelectionAction" prot="public" virt="non-virtual">MR::ChangeMeshEdgeSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshFaceSelectionAction" prot="public" virt="non-virtual">MR::ChangeMeshFaceSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshPointsAction" prot="public" virt="non-virtual">MR::ChangeMeshPointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshTexturePerFaceAction" prot="public" virt="non-virtual">MR::ChangeMeshTexturePerFaceAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshTopologyAction" prot="public" virt="non-virtual">MR::ChangeMeshTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshUVCoordsAction" prot="public" virt="non-virtual">MR::ChangeMeshUVCoordsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeNameAction" prot="public" virt="non-virtual">MR::ChangeNameAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectAction" prot="public" virt="non-virtual">MR::ChangeObjectAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectColorAction" prot="public" virt="non-virtual">MR::ChangeObjectColorAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectSelectedAction" prot="public" virt="non-virtual">MR::ChangeObjectSelectedAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectVisibilityAction" prot="public" virt="non-virtual">MR::ChangeObjectVisibilityAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeOneNormalInCloudAction" prot="public" virt="non-virtual">MR::ChangeOneNormalInCloudAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeOnePointInCloudAction" prot="public" virt="non-virtual">MR::ChangeOnePointInCloudAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeOnePointInPolylineAction" prot="public" virt="non-virtual">MR::ChangeOnePointInPolylineAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudAction" prot="public" virt="non-virtual">MR::ChangePointCloudAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudNormalsAction" prot="public" virt="non-virtual">MR::ChangePointCloudNormalsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudPointsAction" prot="public" virt="non-virtual">MR::ChangePointCloudPointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointPointSelectionAction" prot="public" virt="non-virtual">MR::ChangePointPointSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePolylineAction" prot="public" virt="non-virtual">MR::ChangePolylineAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePolylinePointsAction" prot="public" virt="non-virtual">MR::ChangePolylinePointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePolylineTopologyAction" prot="public" virt="non-virtual">MR::ChangePolylineTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeScaleAction" prot="public" virt="non-virtual">MR::ChangeScaleAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSceneAction" prot="public" virt="non-virtual">MR::ChangeSceneAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSceneObjectsOrder" prot="public" virt="non-virtual">MR::ChangeSceneObjectsOrder</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSurfaceAction" prot="public" virt="non-virtual">MR::ChangeSurfaceAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeTextureAction" prot="public" virt="non-virtual">MR::ChangeTextureAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeValue" prot="public" virt="non-virtual">MR::ChangeValue&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeVertsColorMapAction" prot="public" virt="non-virtual">MR::ChangeVertsColorMapAction&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeVisualizePropertyAction" prot="public" virt="non-virtual">MR::ChangeVisualizePropertyAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeXfAction" prot="public" virt="non-virtual">MR::ChangeXfAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1CombinedHistoryAction" prot="public" virt="non-virtual">MR::CombinedHistoryAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" prot="public" virt="non-virtual">MR::DirectionWidget::ChangeVisibleAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ITransformControls_1_1ChangeCenterAction" prot="public" virt="non-virtual">MR::ITransformControls::ChangeCenterAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" prot="public" virt="non-virtual">MR::ObjectTransformWidget::ChangeXfAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshAction" prot="public" virt="non-virtual">MR::PartialChangeMeshAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshDataAction" prot="public" virt="non-virtual">MR::PartialChangeMeshDataAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshPointsAction" prot="public" virt="non-virtual">MR::PartialChangeMeshPointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">MR::PartialChangeMeshTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction" prot="public" virt="non-virtual">MR::PickPointManager::WidgetHistoryAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SwapRootAction" prot="public" virt="non-virtual">MR::SwapRootAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ViewportParametersAction" prot="public" virt="non-virtual">MR::ViewportParametersAction</derivedcompoundref>
+    <includes refid="MRHistoryAction_8h" local="no">MRHistoryAction.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>MR::HistoryAction::Type</qualifiedname>
+        <enumvalue id="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119" prot="public">
+          <name>Undo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6" prot="public">
+          <name>Redo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::HistoryAction::~HistoryAction</definition>
+        <argsstring>()=default</argsstring>
+        <name>~HistoryAction</name>
+        <qualifiedname>MR::HistoryAction::~HistoryAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="14" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::HistoryAction::name</definition>
+        <argsstring>() const =0</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::HistoryAction::name</qualifiedname>
+        <reimplementedby refid="classMR_1_1ChangeActiveBoxAction_1a25b3ab2e8226cb91171a0128777eea34">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a87cb69e6e43f31608ba18d1577ce6303">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeColoringType_1a531d559082c32567d685d888d4602ddf">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeDualMarchingCubesAction_1a1b6e4a9af29d8ba1029cf6de93728b31">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeFacesColorMapAction_1a78e08b193afdbeaeb8e52e7a520a28d6">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeGridAction_1abff717b27ad5da1a8a0048172c8397ef">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeIsoAction_1a2a614036297c1082f74843b12d425b0f">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeLabelAction_1a49b7949dc2497e15510dbf8c51c83e61">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeLinesColorMapAction_1a58c39c7fe8142548916393082fe71741">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshAction_1a6e73aebdc0c2a7d4d2273eed02ad84ab">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshCreasesAction_1abaa4073cae3371c003ef86720b945c86">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshDataAction_1a17a6297c30967ea93e6bfc131ae8911c">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a59d389a6910ddd51ea9d3a05db2dfcee">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshFaceSelectionAction_1a628000e800befb0ec5c91ee98032c3d1">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshPointsAction_1a5094eae088c0883a835d21da8c59f78c">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a4b2e329d2919c7bf660598c1f458ac86">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshTopologyAction_1a94b059bce32bf0568d4e0b3fa861479c">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshUVCoordsAction_1aa8f2ca30bbf02500362d5bc387ecbcf8">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeNameAction_1af3abbe2d5970984c94bc836781925582">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectAction_1a657dce770efd0cbe3235515223438b7f">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectColorAction_1ada33e7dca54e7e04d9815765bed5fdfe">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectSelectedAction_1ae709358ae5d269b3ef15942ba7ccea30">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectVisibilityAction_1aeb43acff9643bd750856214f6f50b39d">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOneNormalInCloudAction_1aa922f462c2baab3f1699371f60ca1059">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOnePointInCloudAction_1a12d6cf9879dfc2c296fa9440b96442e3">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOnePointInPolylineAction_1a60545394635e0a3adb2be644e7bdafee">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudAction_1a3d96f0fc00a2d6d30b4807712b3793b6">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudNormalsAction_1aec6f4ff965e50adb3b9f2605fa2662a8">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudPointsAction_1ab798c8b335a0610698bfa5fdc04b7ac9">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointPointSelectionAction_1a7ebe140792b37c16fdd8f129492ad4c8">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylineAction_1a3d8479b53f1823d464d18ee027faec56">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylinePointsAction_1ae04072e7453616bbbf69ed34589627f2">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylineTopologyAction_1a30e1c62f488885411792ad5acc75da7b">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeScaleAction_1a4ef261e118c5b35c7f334c4c5dc65f5c">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSceneAction_1ad1dec660d1132592b4ea2eb4ad53dda0">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSceneObjectsOrder_1ad692afbfc325fae56914094bc8b1f71d">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSurfaceAction_1a10e342f28635a448b68e1e8d60a56b54">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeTextureAction_1ad5e78402371a9402c2bc3e58851fd874">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeValue_1a1ebe31dbc55d650d0de83ae16bfe2e52">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeVertsColorMapAction_1a7463a0c407fe96e44b65aac4e69c16d2">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeVisualizePropertyAction_1ab47bdfa15ccc0341044bdf265413933d">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeXfAction_1a677bcbff928530a06249b4aa004556bc">name</reimplementedby>
+        <reimplementedby refid="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1CombinedHistoryAction_1a59961c77016991a1c41b6f0c34545ee6">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction_1a8b31501499578aedaea3b467387980cd">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a9f633c38c10b5c7437a1f2479e01acdf">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction_1a0afac4f4b06cfb2f11fe773ecb84a131">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshAction_1ade6dceb9fa790192de46869cae89ab8f">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshPointsAction_1a084adee7a06ac5a670f2847f4a0c9d04">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshTopologyAction_1af60c80f62ba5789c89fc2657ce402ef0">name</reimplementedby>
+        <reimplementedby refid="classMR_1_1SwapRootAction_1a1ea4ac4e26ce6a38aae5ecd3ffd4c428">name</reimplementedby>
+        <reimplementedby refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39">name</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="16" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::HistoryAction::action</definition>
+        <argsstring>(Type actionType)=0</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::HistoryAction::action</qualifiedname>
+        <reimplementedby refid="classMR_1_1ChangeActiveBoxAction_1a83fd8175728c350029784aa802749d90">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1a7d6c878105bdd69d6bbb3524c5fc8243">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeColoringType_1ae42944016a4f6dd2c76e964cfb353bf4">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeDualMarchingCubesAction_1a8b78a3f2b080f0a1e799df8e307e2970">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeFacesColorMapAction_1a77ea732b203bb29d780236576dec2923">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeGridAction_1a09423374eaa05f95dd0af7575fe17e62">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeIsoAction_1ac42a58b81acf452e6673fc739cdd14d0">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeLabelAction_1ab1fc1b5e85ebdd6e6737c7e8301d6239">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeLinesColorMapAction_1a72f12b1fca7e6ed8731a32ca1796e0b2">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshAction_1ac10a0aa665f6874a187cfb802dcb7dc8">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshCreasesAction_1a1dcddeee79326fa1a00c79904fb4a1b7">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshDataAction_1a13d40bda09d4c09c6c66cccc88b61361">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshEdgeSelectionAction_1ac9c2e37493f65f8185015b96da5497a2">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshFaceSelectionAction_1a5bbadadc5288e79bcd993ee992afaf84">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshPointsAction_1a6e16c0785949b651b455323c1eb41b87">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a74f10a919c46c00ffa6dc5bbfe354000">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshTopologyAction_1a390c7099109f9817a3502210630fa228">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshUVCoordsAction_1a8251a4c060d3538d58564c3429c9afda">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeNameAction_1a198059bf4924aae700a459e93da3d953">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectAction_1abae57c93f1aaa324cd73f0dd5a678718">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectColorAction_1afe3b10ca2078780fe08c4e06a3cb8eb3">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectSelectedAction_1aace3c2763b5625fb8eea898a21f5fc26">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectVisibilityAction_1ab2ff1171bd87dd95a3e338f4244fafa6">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOneNormalInCloudAction_1aafd6fc62e7b35ee903d98899500b8dc9">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOnePointInCloudAction_1adbe79dc8bbe3a4158e22e912c78dfcd8">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOnePointInPolylineAction_1a38ca71433b431c0f9253e2140cea35ef">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudAction_1a618406d420de41e825205cae3f53c9c6">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudNormalsAction_1a3f4a62aa8bcd5d820f520ab6dea9a48d">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudPointsAction_1ad8d1da6c3caadd31cd4053fa2924e372">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointPointSelectionAction_1ac11863b18cf6233f258a49395537c69c">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylineAction_1aa4ff323c3b6e6f7a7fdeeefbc5142f98">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylinePointsAction_1a4524618733bcefbd17c242f49c3112e1">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylineTopologyAction_1a02bda3639e986d6a99bd8f2f5cfa05ad">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeScaleAction_1a5b30db2db48c27d37a14849a1b6b0dca">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSceneAction_1abe4134fb5816e6ed341b5b84526fe6c0">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSceneObjectsOrder_1a48cb146f899e3b77bed59f4bd1073e11">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSurfaceAction_1ae9190bfd7891e5a5cc1229fb42d4efd5">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeTextureAction_1a6415831fcd79f6104620dcc3ae8b96a6">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeValue_1a0cdf8d0a543743f5f83872b03ff33891">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeVertsColorMapAction_1abf17cf1a549936cc4bf5288dbc286f43">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeVisualizePropertyAction_1a6aed09dd3eb8747f16d7d1b3f4c016ec">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeXfAction_1ae0205231d9c1c0389daaa03a05b302e2">action</reimplementedby>
+        <reimplementedby refid="group__HistoryGroup_1gaebcfdaaba426fea5c32f5ca836a7085f">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1CombinedHistoryAction_1a8f6b646cd5256ca2f6cfdafba7db5d07">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction_1ad330db9f1a8d058d8e6ccf93621ac572">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1abf5a84325d8fc0c434b810083942d5d2">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction_1a9af38d8c2827041c970c5eec9eb10e05">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshAction_1ac0f4b54184a26f86a0cc6d39d093506e">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshPointsAction_1aa9ae6ebb348f154542056d5d1aa82fdd">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshTopologyAction_1abcd08e02fc94e72034e4e2bc1371262b">action</reimplementedby>
+        <reimplementedby refid="classMR_1_1SwapRootAction_1ad4f29239d50c1ce54e67f398259ce4a8">action</reimplementedby>
+        <reimplementedby refid="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5">action</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="24" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::HistoryAction::heapBytes</definition>
+        <argsstring>() const =0</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::HistoryAction::heapBytes</qualifiedname>
+        <reimplementedby refid="classMR_1_1ChangeActiveBoxAction_1a7fdeabeadb9c2e89e83a34c52576dba3">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeBoundarySelectionHistoryAction_1afaf2a1dbc8066a04913ea855a9488ca1">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeColoringType_1a4c9d248392f35a9e929ab4dd107ff7d2">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeDualMarchingCubesAction_1a216a084fc5c2ab35560b626aec0715f5">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeFacesColorMapAction_1aeee3e56ac0c488d99b1fb638817c0a8f">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeGridAction_1ac2009abf4b8a560744458f59f5bc9328">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeIsoAction_1ae32cc04931a20fc9ae75cdcabad0b018">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeLabelAction_1a44cff8296d6419da98913c39fdbd8050">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeLinesColorMapAction_1a5c000b7f2ed38d70be031166c9529327">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshAction_1ad0dbdadda7bb2d160c77aa14e2eea201">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshCreasesAction_1a850dbf46650c86a5fe37b4b876fe5e43">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshDataAction_1a6fa4f260bd2f49a20d68064d7238e9d9">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a0943bda0fc9bda571b5de449d3bca979">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshFaceSelectionAction_1a064f2f6dcad2b8ed0b16957b9bbb248f">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshPointsAction_1ad7423777ecd9e793cc148677e49e5e4d">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a26005c217798c440b5d38b82e747c9df">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshTopologyAction_1ac1782bd01a600b949c2bd731b603918b">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeMeshUVCoordsAction_1a8ada93551abd3f590f7e4a2d9c093351">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeNameAction_1a78f9dfad757f976bb7af6f93bbfd2e74">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectAction_1a74d98addc33191161e4cf6b9adaa55f2">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectColorAction_1a8b2119cba575337b8ff6ef6ed838ddad">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectSelectedAction_1a3755cc9192950a33d25ab548bc24ccc9">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeObjectVisibilityAction_1a037473fbea41f9ad41ed74351f148e01">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOneNormalInCloudAction_1a67594b68431eb196ebfb45604cedbdb9">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOnePointInCloudAction_1a90c1e3a545b13734142bde8638b3ee63">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeOnePointInPolylineAction_1a6fa396d1c46311032a718c9eaf3f34bc">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudAction_1aea2ce2e41b3850a18e72e5766ccb86f5">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudNormalsAction_1a2bcd7434c87c613e94dd6c3ea18b541e">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointCloudPointsAction_1ac066d3dab32b1ce9ab3d604be8a48afb">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePointPointSelectionAction_1aced37c6f615d0a18b1743ee3895a5d3b">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylineAction_1a6535b7267f88efaea117f9461932612e">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylinePointsAction_1a63e6b7f8c45895a7781661ac76232a24">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangePolylineTopologyAction_1a200b7e85b19209b3dec9b96249b9fbef">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeScaleAction_1a55c7a14904e79aef0cd60392a1fd9dd1">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSceneAction_1afc8063a119e30688b93c3e6d04cb77d2">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSceneObjectsOrder_1ae5412f501f79caacfb257cd392119c50">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeSurfaceAction_1a8d95a8625e6cbeb9f194a629de34610d">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeTextureAction_1add3319a36aa18e770733fef0c61d2f9d">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeValue_1a49b7b6012fb8adf78381f77cf6a1b9b1">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeVertsColorMapAction_1abb19b89e750bb13f1c80ec81118c2303">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeVisualizePropertyAction_1a82fbcde1a6b6a67ddd9f760b0c43cf87">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ChangeXfAction_1a92b9d01bccf043de100f19110630ce24">heapBytes</reimplementedby>
+        <reimplementedby refid="group__HistoryGroup_1ga970e3207174343bffc6f631586e4f59d">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1CombinedHistoryAction_1adba474c4514ebf52c64eb24ed5b104a1">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction_1a2ec215e7b7102eb9a43ce86c525e2425">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a33f480e43da49df5be723d1981cda6c8">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction_1a4db820bb720239af368c1f2e8afca2a3">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshAction_1a677e3ef484c3decb94df9b1ce351cfdf">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshPointsAction_1a04b08cc0eb6bacb70a04801d0a27111f">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1PartialChangeMeshTopologyAction_1a61706f60c84d69b27d3acf9fdc0673ef">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1SwapRootAction_1aec455a92bb7ddcf98151e8d92cf2111f">heapBytes</reimplementedby>
+        <reimplementedby refid="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423">heapBytes</reimplementedby>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="27" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract class for history actions </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ChangVoxelSelectionAction</label>
+        <link refid="classMR_1_1ChangVoxelSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1ChangeActiveBoxAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ChangeBoundarySelectionHistoryAction</label>
+        <link refid="classMR_1_1ChangeBoundarySelectionHistoryAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::ChangeColoringType</label>
+        <link refid="classMR_1_1ChangeColoringType"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ChangeDualMarchingCubesAction</label>
+        <link refid="classMR_1_1ChangeDualMarchingCubesAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1ChangeFacesColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ChangeGridAction</label>
+        <link refid="classMR_1_1ChangeGridAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ChangeIsoAction</label>
+        <link refid="classMR_1_1ChangeIsoAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::ChangeLabelAction</label>
+        <link refid="classMR_1_1ChangeLabelAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::ChangeLinesColorMapAction</label>
+        <link refid="classMR_1_1ChangeLinesColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::ChangeMeshAction</label>
+        <link refid="classMR_1_1ChangeMeshAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::ChangeMeshCreasesAction</label>
+        <link refid="classMR_1_1ChangeMeshCreasesAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::ChangeMeshDataAction</label>
+        <link refid="classMR_1_1ChangeMeshDataAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::ChangeMeshEdgeSelectionAction</label>
+        <link refid="classMR_1_1ChangeMeshEdgeSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::ChangeMeshFaceSelectionAction</label>
+        <link refid="classMR_1_1ChangeMeshFaceSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::ChangeMeshPointsAction</label>
+        <link refid="classMR_1_1ChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::ChangeMeshTexturePerFaceAction</label>
+        <link refid="classMR_1_1ChangeMeshTexturePerFaceAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::ChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1ChangeMeshTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MR::ChangeMeshUVCoordsAction</label>
+        <link refid="classMR_1_1ChangeMeshUVCoordsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::ChangeNameAction</label>
+        <link refid="classMR_1_1ChangeNameAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MR::ChangeObjectAction</label>
+        <link refid="classMR_1_1ChangeObjectAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MR::ChangeObjectColorAction</label>
+        <link refid="classMR_1_1ChangeObjectColorAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MR::ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1ChangeObjectSelectedAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::ChangeObjectVisibilityAction</label>
+        <link refid="classMR_1_1ChangeObjectVisibilityAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::ChangeOneNormalInCloudAction</label>
+        <link refid="classMR_1_1ChangeOneNormalInCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::ChangeOnePointInCloudAction</label>
+        <link refid="classMR_1_1ChangeOnePointInCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::ChangeOnePointInPolylineAction</label>
+        <link refid="classMR_1_1ChangeOnePointInPolylineAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MR::ChangePointCloudAction</label>
+        <link refid="classMR_1_1ChangePointCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MR::ChangePointCloudNormalsAction</label>
+        <link refid="classMR_1_1ChangePointCloudNormalsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MR::ChangePointCloudPointsAction</label>
+        <link refid="classMR_1_1ChangePointCloudPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MR::ChangePointPointSelectionAction</label>
+        <link refid="classMR_1_1ChangePointPointSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MR::ChangePolylineAction</label>
+        <link refid="classMR_1_1ChangePolylineAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MR::ChangePolylinePointsAction</label>
+        <link refid="classMR_1_1ChangePolylinePointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MR::ChangePolylineTopologyAction</label>
+        <link refid="classMR_1_1ChangePolylineTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MR::ChangeScaleAction</label>
+        <link refid="classMR_1_1ChangeScaleAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MR::ChangeSceneAction</label>
+        <link refid="classMR_1_1ChangeSceneAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MR::ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MR::ChangeSurfaceAction</label>
+        <link refid="classMR_1_1ChangeSurfaceAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MR::ChangeTextureAction</label>
+        <link refid="classMR_1_1ChangeTextureAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MR::ChangeValue&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeValue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MR::ChangeVertsColorMapAction&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeVertsColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MR::ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MR::ChangeXfAction</label>
+        <link refid="classMR_1_1ChangeXfAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>MR::CombinedHistoryAction</label>
+        <link refid="classMR_1_1CombinedHistoryAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MR::DirectionWidget::ChangeDirAction</label>
+        <link refid="classMR_1_1DirectionWidget_1_1ChangeDirAction"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MR::DirectionWidget::ChangeVisibleAction</label>
+        <link refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="48">
+        <label>MR::ITransformControls::ChangeCenterAction</label>
+        <link refid="classMR_1_1ITransformControls_1_1ChangeCenterAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MR::ObjectTransformWidget::ChangeXfAction</label>
+        <link refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MR::PartialChangeMeshAction</label>
+        <link refid="classMR_1_1PartialChangeMeshAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MR::PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1PartialChangeMeshDataAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>MR::PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1PartialChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>MR::PartialChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MR::PickPointManager::WidgetHistoryAction</label>
+        <link refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>MR::SwapRootAction</label>
+        <link refid="classMR_1_1SwapRootAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MR::ViewportParametersAction</label>
+        <link refid="classMR_1_1ViewportParametersAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>action</name></member>
+      <member refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>name</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::HistoryAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BoxedLeaf" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BoxedLeaf</compoundname>
+    <includes refid="MRAABBTreeMaker_8h" local="no">MRAABBTreeMaker.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BoxedLeaf_1a94f8ddab16da6ccb873e9ef25f7b116d" prot="public" static="no" mutable="no">
+        <type>T::LeafId</type>
+        <definition>T::LeafId MR::BoxedLeaf&lt; T &gt;::leafId</definition>
+        <argsstring></argsstring>
+        <name>leafId</name>
+        <qualifiedname>MR::BoxedLeaf::leafId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="15" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BoxedLeaf_1a7e9f371791aa795b1f0c9525f37e40e5" prot="public" static="no" mutable="no">
+        <type>T::BoxT</type>
+        <definition>T::BoxT MR::BoxedLeaf&lt; T &gt;::box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <qualifiedname>MR::BoxedLeaf::box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1BoxedLeaf_1a0b4e56c5de1bf6b3fd5a6a6896e66d46" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::BoxedLeaf&lt; T &gt;::BoxedLeaf</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>BoxedLeaf</name>
+        <qualifiedname>MR::BoxedLeaf::BoxedLeaf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="18" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BoxedLeaf_1a20f98852bf25f7268e73b993bd26a8d7" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::BoxedLeaf&lt; T &gt;::BoxedLeaf</definition>
+        <argsstring>(NoInit) noexcept</argsstring>
+        <name>BoxedLeaf</name>
+        <qualifiedname>MR::BoxedLeaf::BoxedLeaf</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="19" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BoxedLeaf_1a7e9f371791aa795b1f0c9525f37e40e5" prot="public" virt="non-virtual"><scope>MR::BoxedLeaf</scope><name>box</name></member>
+      <member refid="structMR_1_1BoxedLeaf_1a0b4e56c5de1bf6b3fd5a6a6896e66d46" prot="public" virt="non-virtual"><scope>MR::BoxedLeaf</scope><name>BoxedLeaf</name></member>
+      <member refid="structMR_1_1BoxedLeaf_1a20f98852bf25f7268e73b993bd26a8d7" prot="public" virt="non-virtual"><scope>MR::BoxedLeaf</scope><name>BoxedLeaf</name></member>
+      <member refid="structMR_1_1BoxedLeaf_1a94f8ddab16da6ccb873e9ef25f7b116d" prot="public" virt="non-virtual"><scope>MR::BoxedLeaf</scope><name>leafId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

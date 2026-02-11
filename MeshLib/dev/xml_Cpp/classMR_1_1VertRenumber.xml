@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertRenumber" kind="class" language="C++" prot="public">
+    <compoundname>MR::VertRenumber</compoundname>
+    <includes refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1VertRenumber_1abdf80f030d8484369854ab50eba8c9cf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, VertId &gt;</type>
+        <definition>Vector&lt;int, VertId&gt; MR::VertRenumber::vert2packed_</definition>
+        <argsstring></argsstring>
+        <name>vert2packed_</name>
+        <qualifiedname>MR::VertRenumber::vert2packed_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="107" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VertRenumber_1a9b0d4fbbd62e01d4b16227197b081191" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::VertRenumber::sizeVerts_</definition>
+        <argsstring></argsstring>
+        <name>sizeVerts_</name>
+        <qualifiedname>MR::VertRenumber::sizeVerts_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="108" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a081d0a8f3933dd73ee062863c3644aa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::VertRenumber::VertRenumber</definition>
+        <argsstring>(const VertBitSet &amp;validVerts, bool saveValidOnly)</argsstring>
+        <name>VertRenumber</name>
+        <qualifiedname>MR::VertRenumber::VertRenumber</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveValidOnly</declname>
+        </param>
+        <briefdescription>
+<para>prepares the mapping </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="92" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a5ee74de7f5fdfc7a5230e3326b122644" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VertRenumber::saveValidOnly</definition>
+        <argsstring>() const</argsstring>
+        <name>saveValidOnly</name>
+        <qualifiedname>MR::VertRenumber::saveValidOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="94" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a1804a1dca0466765918892c65d9436f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::VertRenumber::sizeVerts</definition>
+        <argsstring>() const</argsstring>
+        <name>sizeVerts</name>
+        <qualifiedname>MR::VertRenumber::sizeVerts</qualifiedname>
+        <briefdescription>
+<para>return the total number of vertices to be saved </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="97" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a4180132d13f552ef422f73a2ad0c6bdc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::VertRenumber::operator()</definition>
+        <argsstring>(VertId v) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::VertRenumber::operator()</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>return packed index (if saveValidOnly = true) or same index (if saveValidOnly = false) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="100" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="100" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>maps valid points to packed sequential indices </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="88" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="89" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VertRenumber_1a4180132d13f552ef422f73a2ad0c6bdc" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>operator()</name></member>
+      <member refid="classMR_1_1VertRenumber_1a5ee74de7f5fdfc7a5230e3326b122644" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>saveValidOnly</name></member>
+      <member refid="classMR_1_1VertRenumber_1a1804a1dca0466765918892c65d9436f0" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts</name></member>
+      <member refid="classMR_1_1VertRenumber_1a9b0d4fbbd62e01d4b16227197b081191" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts_</name></member>
+      <member refid="classMR_1_1VertRenumber_1abdf80f030d8484369854ab50eba8c9cf" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>vert2packed_</name></member>
+      <member refid="classMR_1_1VertRenumber_1a081d0a8f3933dd73ee062863c3644aa1" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

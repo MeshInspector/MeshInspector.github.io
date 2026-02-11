@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriCornerUVCoords" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriCornerUVCoords</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriCornerUVCoords</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriCornerUVCoords_1aeec0dabd0a1de9ae09a0fb1294252d41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_StdArrayMRVector2f3</type>
+        <definition>new unsafe MR.Std.Vector_StdArrayMRVector2f3 MR.TriCornerUVCoords.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.TriCornerUVCoords.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1711" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1711" bodyend="1711"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriCornerUVCoords_1ac7fb60636037f415aed5b69ef38e04b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref MR.Std.Array_MRVector2f_3</type>
+        <definition>unsafe new ref MR.Std.Array_MRVector2f_3 MR.TriCornerUVCoords.this[MR.FaceId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.FaceId i]</name>
+        <qualifiedname>MR.TriCornerUVCoords.this[MR.FaceId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriCornerUVCoords.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1874" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1875" bodyend="1882"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a51585c25ab3c8b5d771882982bb432ae" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1730" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1730" bodyend="1734"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>()</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1740" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1740" bodyend="1746"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ae179b8b4660efc07ed83c0e33138dd5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(MR._ByValue_TriCornerUVCoords _other)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>MR._ByValue_TriCornerUVCoords</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1751" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1751" bodyend="1758"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a975082f9f5ddae52095b53405eb73f27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(Const_TriCornerUVCoords _other)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>Const_TriCornerUVCoords</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1763" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1763" bodyend="1763"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a348ee133c4b9faea0a661fedb002e638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(TriCornerUVCoords _other)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1768" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1768" bodyend="1768"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a5e3efa8420af8dcb01003dbd3103e40f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1774" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1774" bodyend="1780"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ab6e0c56619d93096831f8ee0b5c57f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(ulong size, in MR.Std.Array_MRVector2f_3 val)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVector2f_3</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1786" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1786" bodyend="1795"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a394b5efa274f23245b6cdb70738608be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; vec)</argsstring>
+        <name>TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1801" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1801" bodyend="1808"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a3a7235ae3497f146b4faebe4fb2eec9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">MR.TriCornerUVCoords</ref></type>
+        <definition>unsafe MR.TriCornerUVCoords MR.TriCornerUVCoords.assign</definition>
+        <argsstring>(MR._ByValue_TriCornerUVCoords _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TriCornerUVCoords.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_TriCornerUVCoords</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriCornerUVCoords.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1819" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1819" bodyend="1826"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9442177a350258d8117611e634f3ace4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.TriCornerUVCoords.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a9442177a350258d8117611e634f3ace4" kindref="member">MR.TriCornerUVCoords.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1831" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1831" bodyend="1836"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a01be01340b4c18dca2811bd76cf59e10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.TriCornerUVCoords.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a01be01340b4c18dca2811bd76cf59e10" kindref="member">MR.TriCornerUVCoords.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1841" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1841" bodyend="1846"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1aca348e068861a8a680b6a16e41611663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.resize</definition>
+        <argsstring>(ulong newSize, in MR.Std.Array_MRVector2f_3 t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.TriCornerUVCoords.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVector2f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a01be01340b4c18dca2811bd76cf59e10" kindref="member">MR.TriCornerUVCoords.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1851" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1851" bodyend="1859"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1abfe833f3df99bb864a3e13fa1312391b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.TriCornerUVCoords.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1abfe833f3df99bb864a3e13fa1312391b" kindref="member">MR.TriCornerUVCoords.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1864" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1864" bodyend="1869"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a992e77a63e1785132ca6f10c8dc940ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.TriCornerUVCoords.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a992e77a63e1785132ca6f10c8dc940ed" kindref="member">MR.TriCornerUVCoords.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1888" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1888" bodyend="1893"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1af75d439fc3f048d12f32fc35d438930b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, in MR.Std.Array_MRVector2f_3 value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.TriCornerUVCoords.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVector2f_3</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a992e77a63e1785132ca6f10c8dc940ed" kindref="member">MR.TriCornerUVCoords.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1899" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1899" bodyend="1907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a2d534ca4c2056811f759a4bc6ca426f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.autoResizeSet</definition>
+        <argsstring>(MR.FaceId pos, ulong len, MR.Std.Array_MRVector2f_3 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.TriCornerUVCoords.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_MRVector2f_3</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a2d534ca4c2056811f759a4bc6ca426f7" kindref="member">MR.TriCornerUVCoords.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1914" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1914" bodyend="1919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1acbcf27342913f9e4b3b3e4762ed3bb8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.autoResizeSet</definition>
+        <argsstring>(MR.FaceId i, MR.Std.Array_MRVector2f_3 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.TriCornerUVCoords.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_MRVector2f_3</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a2d534ca4c2056811f759a4bc6ca426f7" kindref="member">MR.TriCornerUVCoords.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1925" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1925" bodyend="1930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a4ae3bb0175f1482a50049508bfb719f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref MR.Std.Array_MRVector2f_3</type>
+        <definition>unsafe ref MR.Std.Array_MRVector2f_3 MR.TriCornerUVCoords.autoResizeAt</definition>
+        <argsstring>(MR.FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.TriCornerUVCoords.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a4ae3bb0175f1482a50049508bfb719f9" kindref="member">MR.TriCornerUVCoords.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1936" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1936" bodyend="1941"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ab530ae3a43066af7c6bf019a535aa940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.pushBack</definition>
+        <argsstring>(in MR.Std.Array_MRVector2f_3 t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.TriCornerUVCoords.pushBack</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector2f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriCornerUVCoords.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1946" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1946" bodyend="1954"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9279ee03d6ccd8f781b249291750a1a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, in MR.Std.Array_MRVector2f_3 t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.TriCornerUVCoords.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVector2f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriCornerUVCoords.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1959" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1959" bodyend="1967"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9eea1e5692e1da0d6f13d34021c91a3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.TriCornerUVCoords.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriCornerUVCoords.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1972" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1972" bodyend="1977"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1afbfb069ec516d48053450bae45b1c6e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref MR.Std.Array_MRVector2f_3</type>
+        <definition>unsafe ref MR.Std.Array_MRVector2f_3 MR.TriCornerUVCoords.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.TriCornerUVCoords.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriCornerUVCoords.emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1982" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1982" bodyend="1987"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a1383c4d6342d8d156fdc2a511ed3948a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref MR.Std.Array_MRVector2f_3</type>
+        <definition>unsafe new ref MR.Std.Array_MRVector2f_3 MR.TriCornerUVCoords.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.TriCornerUVCoords.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a1383c4d6342d8d156fdc2a511ed3948a" kindref="member">MR.TriCornerUVCoords.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1992" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1992" bodyend="1997"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a053fbe841b32758e638e476439906fa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref MR.Std.Array_MRVector2f_3</type>
+        <definition>unsafe new ref MR.Std.Array_MRVector2f_3 MR.TriCornerUVCoords.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.TriCornerUVCoords.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a053fbe841b32758e638e476439906fa3" kindref="member">MR.TriCornerUVCoords.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2002" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2002" bodyend="2007"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a8d56ec5a98b571b50191090d0df56d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; MR.Std.Array_MRVector2f_3 &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; MR.Std.Array_MRVector2f_3 &gt; MR.TriCornerUVCoords.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.TriCornerUVCoords.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a8d56ec5a98b571b50191090d0df56d5d" kindref="member">MR.TriCornerUVCoords.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2012" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2012" bodyend="2018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a1938d28dd9c467a2367145b8d47f5e70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TriCornerUVCoords.swap</definition>
+        <argsstring>(MR.TriCornerUVCoords b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.TriCornerUVCoords.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">MR.TriCornerUVCoords</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1a1938d28dd9c467a2367145b8d47f5e70" kindref="member">MR.TriCornerUVCoords.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2023" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2023" bodyend="2028"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a28a912307dd9ba25493a62fca1e2213c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.TriCornerUVCoords.operator TriCornerUVCoords</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; vec)</argsstring>
+        <name>operator TriCornerUVCoords</name>
+        <qualifiedname>MR.TriCornerUVCoords.operator TriCornerUVCoords</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1814" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1814" bodyend="1814"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">MR.TriCornerUVCoords</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TriCornerUVCoords</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriCornerUVCoords</label>
+        <link refid="classMR_1_1TriCornerUVCoords"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriCornerUVCoords &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_TriCornerUVCoords &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TriCornerUVCoords</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriCornerUVCoords</label>
+        <link refid="classMR_1_1TriCornerUVCoords"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriCornerUVCoords &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_TriCornerUVCoords &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1708" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1709" bodyend="2029"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriCornerUVCoords_1a3a7235ae3497f146b4faebe4fb2eec9b" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>assign</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a4ae3bb0175f1482a50049508bfb719f9" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a2d534ca4c2056811f759a4bc6ca426f7" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1acbcf27342913f9e4b3b3e4762ed3bb8d" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a053fbe841b32758e638e476439906fa3" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>back</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a9442177a350258d8117611e634f3ace4" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>clear</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a8d56ec5a98b571b50191090d0df56d5d" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>data</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1afbfb069ec516d48053450bae45b1c6e6" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a1383c4d6342d8d156fdc2a511ed3948a" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>front</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a28a912307dd9ba25493a62fca1e2213c" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>operator TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a9eea1e5692e1da0d6f13d34021c91a3b" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>popBack</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1ab530ae3a43066af7c6bf019a535aa940" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a9279ee03d6ccd8f781b249291750a1a0" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1abfe833f3df99bb864a3e13fa1312391b" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>reserve</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a01be01340b4c18dca2811bd76cf59e10" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>resize</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1aca348e068861a8a680b6a16e41611663" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>resize</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a992e77a63e1785132ca6f10c8dc940ed" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1af75d439fc3f048d12f32fc35d438930b" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a1938d28dd9c467a2367145b8d47f5e70" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>swap</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1ac7fb60636037f415aed5b69ef38e04b6" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>this[MR.FaceId i]</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a51585c25ab3c8b5d771882982bb432ae" prot="package" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1ae179b8b4660efc07ed83c0e33138dd5d" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a975082f9f5ddae52095b53405eb73f27" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a348ee133c4b9faea0a661fedb002e638" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a5e3efa8420af8dcb01003dbd3103e40f" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1ab6e0c56619d93096831f8ee0b5c57f9b" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1a394b5efa274f23245b6cdb70738608be" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1TriCornerUVCoords_1aeec0dabd0a1de9ae09a0fb1294252d41" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPython_8h" kind="file" language="C++">
+    <compoundname>MRPython.h</compoundname>
+    <includes local="yes">exports.h</includes>
+    <includes refid="MRPybind11_8h" local="yes">MRPybind11.h</includes>
+    <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
+    <includes refid="MRMacros_8h" local="yes">MRMesh/MRMacros.h</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">unordered_map</includes>
+    <incdepgraph>
+      <node id="12">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="10">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="3">
+        <label>MRPybind11.h</label>
+        <link refid="MRPybind11_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPython.h</label>
+        <link refid="MRPython_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="21">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="4">
+        <label>MRPch/MRSuppressWarning.h</label>
+      </node>
+      <node id="15">
+        <label>array</label>
+      </node>
+      <node id="20">
+        <label>cassert</label>
+      </node>
+      <node id="2">
+        <label>exports.h</label>
+      </node>
+      <node id="22">
+        <label>filesystem</label>
+      </node>
+      <node id="19">
+        <label>functional</label>
+      </node>
+      <node id="18">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="8">
+        <label>pybind11/numpy.h</label>
+      </node>
+      <node id="6">
+        <label>pybind11/operators.h</label>
+      </node>
+      <node id="5">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="7">
+        <label>pybind11/stl_bind.h</label>
+      </node>
+      <node id="17">
+        <label>string</label>
+      </node>
+      <node id="23">
+        <label>unordered_map</label>
+      </node>
+      <node id="16">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classPythonStreamRedirector" prot="public">PythonStreamRedirector</innerclass>
+    <innerclass refid="classMR_1_1PythonExport" prot="public">MR::PythonExport</innerclass>
+    <innerclass refid="structMR_1_1PythonExport_1_1ModuleData" prot="public">MR::PythonExport::ModuleData</innerclass>
+    <innerclass refid="structMR_1_1PythonFunctionAdder" prot="public">MR::PythonFunctionAdder</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRPython_8h_1ae5ca7c53eb569ed9f6cf8fb01846e429" prot="public" static="no">
+        <name>MR_INIT_PYTHON_MODULE</name>
+        <param><defname>moduleName</defname></param>
+        <initializer><ref refid="MRPython_8h_1a1b144f9ec840f941a158bc9256711732" kindref="member">MR_INIT_PYTHON_MODULE_PRECALL</ref>( moduleName, [](){} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NOTE: Include this header AFTER any OpenVDB header; otherwise it will break MSVC debug builds.</para>
+<para>External links:<itemizedlist>
+<listitem><para><ulink url="https:///">https:///</ulink> github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h::L161</para>
+</listitem><listitem><para><ulink url="https:///">https:///</ulink> github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h::L105 </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="20" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a1b144f9ec840f941a158bc9256711732" prot="public" static="no">
+        <name>MR_INIT_PYTHON_MODULE_PRECALL</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>precall</defname></param>
+        <initializer>PYBIND11_MODULE( moduleName, m )\
+{\
+    precall();\
+    auto&amp; adders = <ref refid="classMR_1_1PythonExport_1abfb182152c405649c53c0c632868b0c2" kindref="member">MR::PythonExport::instance</ref>().functions( #moduleName );\
+    for ( auto&amp; fs : adders )\
+        for ( auto&amp; f : fs )\
+            f( m );\
+}\
+static <ref refid="structMR_1_1PythonFunctionAdder" kindref="compound">MR::PythonFunctionAdder</ref> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="22" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="22" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1ad3d8d8d2e659e278ea5e86f49078ddae" prot="public" static="no">
+        <name>MR_ADD_PYTHON_FUNCTION</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>func</defname></param>
+        <param><defname>description</defname></param>
+        <initializer>    static <ref refid="structMR_1_1PythonFunctionAdder" kindref="compound">MR::PythonFunctionAdder</ref> <ref refid="MRMacros_8h_1a54bd8b99129600a52a3261e1527412e5" kindref="member">MR_CONCAT3</ref>(name, _adder_, __LINE__)( #moduleName, [](pybind11::module_&amp; m){ m.def(#name, func, description);} );</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="33" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="33" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" prot="public" static="no">
+        <name>MR_ADD_PYTHON_CUSTOM_DEF</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>_Pragma(&quot;warning(push)&quot;) \
+_Pragma(&quot;warning(disable:4459)&quot;) \
+    static <ref refid="structMR_1_1PythonFunctionAdder" kindref="compound">MR::PythonFunctionAdder</ref> name##_adder_( #moduleName, __VA_ARGS__ ); \
+_Pragma(&quot;warning(pop)&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="36" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a0a63eac4962f01ac9d1067840d25fe13" prot="public" static="no">
+        <name>_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME</name>
+        <param><defname>name</defname></param>
+        <initializer>name##_class_</initializer>
+        <briefdescription>
+<para>Python class wrapper name; for internal use only. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="43" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1ae6956a35fce75d18a07941e975ae07cc" prot="public" static="no">
+        <name>MR_PYTHON_CUSTOM_CLASS</name>
+        <param><defname>name</defname></param>
+        <initializer>( *<ref refid="MRPython_8h_1a0a63eac4962f01ac9d1067840d25fe13" kindref="member">_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME</ref>( name ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Python class wrapper accessor <simplesect kind="see"><para><ref refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="47" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a01602e407a8f74fb432a16769481688c" prot="public" static="no">
+        <name>MR_ADD_PYTHON_CUSTOM_CLASS_DECL</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>static std::optional&lt;pybind11::class_&lt;__VA_ARGS__&gt;&gt; <ref refid="MRPython_8h_1a0a63eac4962f01ac9d1067840d25fe13" kindref="member">_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME</ref>( name );</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explicitly declare the Python class wrapper <simplesect kind="see"><para><ref refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="51" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="51" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1aa16f7f41d780ad6feaed2d9115a5d5fc" prot="public" static="no">
+        <name>MR_ADD_PYTHON_CUSTOM_CLASS_INST</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <initializer><ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref>( moduleName, name##_inst_, [] ( pybind11::module_&amp; module ) \
+{                                                                \
+    <ref refid="MRPython_8h_1a0a63eac4962f01ac9d1067840d25fe13" kindref="member">_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME</ref>( name ).emplace( module, #name );            \
+}, <ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a" kindref="member">MR::PythonExport::Priority::Declaration</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explicitly instantiate the Python class wrapper <simplesect kind="see"><para><ref refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="56" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a8a0f3d850562d301fdc69b7f7831f572" prot="public" static="no">
+        <name>MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref>( moduleName, name##_inst_, [] ( pybind11::module_&amp; module ) \
+{                                                                          \
+    <ref refid="MRPython_8h_1a0a63eac4962f01ac9d1067840d25fe13" kindref="member">_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME</ref>( name ) = __VA_ARGS__ ( module );  \
+}, <ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a" kindref="member">MR::PythonExport::Priority::Declaration</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explicitly instantiate the Python class wrapper with a custom function (pybind11::bind_vector, pybind11::bind_map, etc.) <simplesect kind="see"><para><ref refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="MRPython_8h_1a970813ca4d787c0bbe1ca6b1bd231cf9" kindref="member">MR_ADD_PYTHON_VEC</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="MRPython_8h_1a432ac9a0f3f5aca7d9f0b9741d3b37c5" kindref="member">MR_ADD_PYTHON_MAP</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="67" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" prot="public" static="no">
+        <name>MR_ADD_PYTHON_CUSTOM_CLASS</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="MRPython_8h_1a01602e407a8f74fb432a16769481688c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</ref>( moduleName, name, __VA_ARGS__ ) \
+<ref refid="MRPython_8h_1aa16f7f41d780ad6feaed2d9115a5d5fc" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_INST</ref>( moduleName, name )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For the proper stub file generation, a class must be defined prior to its depending methods. To achieve it, declare the class <emphasis>before</emphasis> the <ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref> block:<itemizedlist>
+<listitem><para>for simple cases use <ref refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS</ref> macro;</para>
+</listitem><listitem><para>to customize class declaration or instantiation (custom holder, custom container binding, etc.), use <ref refid="MRPython_8h_1a01602e407a8f74fb432a16769481688c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</ref> and <ref refid="MRPython_8h_1a8a0f3d850562d301fdc69b7f7831f572" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</ref> macros Finally replace the former class declaration within the <ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref> with the MR_PYTHON_CUSTOM_CLASS( class-name ) construction. <programlisting><codeline><highlight class="normal">MR_ADD_PYTHON_CUSTOM_CLASS(<sp/>moduleName,<sp/>pythonTypeName,<sp/>cppTypeName<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName,<sp/>scopeName,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>pythonTypeName<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.doc()<sp/>=<sp/>&quot;Class<sp/>description&quot;;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>pythonTypeName<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(<sp/>pybind11::init&lt;&gt;()<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> See also <ref refid="MRPython_8h_1a970813ca4d787c0bbe1ca6b1bd231cf9" kindref="member">MR_ADD_PYTHON_VEC</ref> and <ref refid="MRPython_8h_1a432ac9a0f3f5aca7d9f0b9741d3b37c5" kindref="member">MR_ADD_PYTHON_MAP</ref> macros for customized class definition examples. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="93" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a970813ca4d787c0bbe1ca6b1bd231cf9" prot="public" static="no">
+        <name>MR_ADD_PYTHON_VEC</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>type</defname></param>
+        <initializer>PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; )          \
+<ref refid="MRPython_8h_1a01602e407a8f74fb432a16769481688c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</ref>( moduleName, name, std::vector&lt;type&gt;, std::unique_ptr&lt;std::vector&lt;type&gt;&gt; ) \
+<ref refid="MRPython_8h_1a8a0f3d850562d301fdc69b7f7831f572" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</ref>( moduleName, name, [] ( pybind11::module_&amp; module ) { return pybind11::bind_vector&lt;std::vector&lt;type&gt;&gt;( module, #name, pybind11::module_local(false) ); } ) \
+<ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref>( moduleName, name, [] ( pybind11::module_&amp; )                                           \
+{\
+    using vecType = std::vector&lt;type&gt;;\
+    <ref refid="MRPython_8h_1ae6956a35fce75d18a07941e975ae07cc" kindref="member">MR_PYTHON_CUSTOM_CLASS</ref>( name ).\
+        def( pybind11::init&lt;&gt;() ).\
+        def( pybind11::init&lt;size_t&gt;(), pybind11::arg( &quot;size&quot; ) ).\
+        def( &quot;empty&quot;, &amp;vecType::empty ).\
+        def( &quot;size&quot;, &amp;vecType::size ).\
+        def( &quot;resize&quot;, ( void ( vecType::* )( const vecType::size_type ) )&amp; vecType::resize ).\
+        def( &quot;clear&quot;, &amp;vecType::clear ); \
+} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="97" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="97" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a432ac9a0f3f5aca7d9f0b9741d3b37c5" prot="public" static="no">
+        <name>MR_ADD_PYTHON_MAP</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>mapType</defname></param>
+        <initializer>PYBIND11_MAKE_OPAQUE( mapType )                        \
+<ref refid="MRPython_8h_1a01602e407a8f74fb432a16769481688c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</ref>( moduleName, name, mapType, std::unique_ptr&lt;mapType&gt; ) \
+<ref refid="MRPython_8h_1a8a0f3d850562d301fdc69b7f7831f572" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</ref>( moduleName, name, [] ( pybind11::module_&amp; module ) { return pybind11::bind_map&lt;mapType&gt;( module, #name, pybind11::module_local(false) ); } ) \
+<ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref>( moduleName, name, [] ( pybind11::module_&amp; )                       \
+{\
+    <ref refid="MRPython_8h_1ae6956a35fce75d18a07941e975ae07cc" kindref="member">MR_PYTHON_CUSTOM_CLASS</ref>( name ).\
+        def( pybind11::init&lt;&gt;() ).\
+        def( &quot;size&quot;, &amp;mapType::size );\
+} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="113" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="define" id="MRPython_8h_1a066f4ba30a78670e5297434557c362db" prot="public" static="no">
+        <name>MR_ADD_PYTHON_EXPECTED</name>
+        <param><defname>moduleName</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>type</defname></param>
+        <param><defname>errorType</defname></param>
+        <initializer>using name##_expected_type_ = <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">MR::Expected</ref>&lt;type, errorType&gt;;        \
+<ref refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" kindref="member">MR_ADD_PYTHON_CUSTOM_CLASS</ref>( moduleName, name, name##_expected_type_ ) \
+<ref refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" kindref="member">MR_ADD_PYTHON_CUSTOM_DEF</ref>( moduleName, name, [] ( pybind11::module_&amp; )      \
+{\
+    using expectedType = Expected&lt;type,errorType&gt;;\
+    <ref refid="MRPython_8h_1ae6956a35fce75d18a07941e975ae07cc" kindref="member">MR_PYTHON_CUSTOM_CLASS</ref>( name ).\
+        def( &quot;has_value&quot;, []() \
+        { PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.has_value is deprecated. Please use &apos;try - except ValueError&apos;&quot;, 1); \
+            return &amp;expectedType::has_value; \
+        }).\
+        def( &quot;value&quot;, []() \
+        { \
+            PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.value is deprecated. Please use &apos;try - except ValueError&apos;&quot;, 1); \
+            return ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value; \
+        }, pybind11::return_value_policy::reference_internal ).\
+        def( &quot;error&quot;, []() \
+        { \
+            PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.error is deprecated. Please use &apos;try - except ValueError&apos;&quot;, 1); \
+            return ( const errorType&amp; ( expectedType::* )( )const&amp; )&amp; expectedType::error; \
+        } );\
+} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="124" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="124" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>StreamType</name>
+        <enumvalue id="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101" prot="public">
+          <name>Stdout</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af" prot="public">
+          <name>Stderr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="149" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPython_8h_1a26ab96a77d3875cbc3c3f79cd7ee64ef" prot="public" static="no">
+        <type><ref refid="classPythonStreamRedirector" kindref="compound">PythonStreamRedirector</ref>&lt; <ref refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101" kindref="member">Stdout</ref> &gt;</type>
+        <definition>using StdoutPyRedirector =  PythonStreamRedirector&lt;Stdout&gt;</definition>
+        <argsstring></argsstring>
+        <name>StdoutPyRedirector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPython_8h_1a7d823176353acbb146f4705c0dcfdf90" prot="public" static="no">
+        <type><ref refid="classPythonStreamRedirector" kindref="compound">PythonStreamRedirector</ref>&lt; <ref refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af" kindref="member">Stderr</ref> &gt;</type>
+        <definition>using StderrPyRedirector =  PythonStreamRedirector&lt;Stderr&gt;</definition>
+        <argsstring></argsstring>
+        <name>StderrPyRedirector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPybind11_8h" kindref="compound">MRPybind11.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMacros_8h" kindref="compound">MRMesh/MRMacros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRPython_8h_1ae5ca7c53eb569ed9f6cf8fb01846e429" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_INIT_PYTHON_MODULE(<sp/>moduleName<sp/>)<sp/>MR_INIT_PYTHON_MODULE_PRECALL(<sp/>moduleName,<sp/>[](){}<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRPython_8h_1a1b144f9ec840f941a158bc9256711732" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_INIT_PYTHON_MODULE_PRECALL(<sp/>moduleName,<sp/>precall<sp/>)\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">PYBIND11_MODULE(<sp/>moduleName,<sp/>m<sp/>)\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor">{\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>precall();\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>auto&amp;<sp/>adders<sp/>=<sp/>MR::PythonExport::instance().functions(<sp/>#moduleName<sp/>);\</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>for<sp/>(<sp/>auto&amp;<sp/>fs<sp/>:<sp/>adders<sp/>)\</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(<sp/>auto&amp;<sp/>f<sp/>:<sp/>fs<sp/>)\</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f(<sp/>m<sp/>);\</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor">}\</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor">static<sp/>MR::PythonFunctionAdder<sp/>moduleName##_init_(<sp/>#moduleName,<sp/>&amp;PyInit_##moduleName<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRPython_8h_1ad3d8d8d2e659e278ea5e86f49078ddae" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_FUNCTION(<sp/>moduleName<sp/>,<sp/>name<sp/>,<sp/>func<sp/>,<sp/>description<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>static<sp/>MR::PythonFunctionAdder<sp/>MR_CONCAT3(name,<sp/>_adder_,<sp/>__LINE__)(<sp/>#moduleName,<sp/>[](pybind11::module_&amp;<sp/>m){<sp/>m.def(#name,<sp/>func,<sp/>description);}<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRPython_8h_1a4c2f86ab418002ae88c7465c2804c7f1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName<sp/>,<sp/>name<sp/>,<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor">_Pragma(&quot;warning(push)&quot;)<sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor">_Pragma(&quot;warning(disable:4459)&quot;)<sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>static<sp/>MR::PythonFunctionAdder<sp/>name##_adder_(<sp/>#moduleName,<sp/>__VA_ARGS__<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor">_Pragma(&quot;warning(pop)&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRPython_8h_1a0a63eac4962f01ac9d1067840d25fe13" refkind="member"><highlight class="preprocessor">#define<sp/>_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME(<sp/>name<sp/>)<sp/>name##_class_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRPython_8h_1ae6956a35fce75d18a07941e975ae07cc" refkind="member"><highlight class="preprocessor">#define<sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>name<sp/>)<sp/>(<sp/>*_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME(<sp/>name<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRPython_8h_1a01602e407a8f74fb432a16769481688c" refkind="member"><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_CUSTOM_CLASS_DECL(<sp/>moduleName,<sp/>name,<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor">static<sp/>std::optional&lt;pybind11::class_&lt;__VA_ARGS__&gt;&gt;<sp/>_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME(<sp/>name<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRPython_8h_1aa16f7f41d780ad6feaed2d9115a5d5fc" refkind="member"><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_CUSTOM_CLASS_INST(<sp/>moduleName,<sp/>name<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="57"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName,<sp/>name##_inst_,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>module<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME(<sp/>name<sp/>).emplace(<sp/>module,<sp/>#name<sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor">},<sp/>MR::PythonExport::Priority::Declaration<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRPython_8h_1a8a0f3d850562d301fdc69b7f7831f572" refkind="member"><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC(<sp/>moduleName,<sp/>name,<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName,<sp/>name##_inst_,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>module<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="69"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="70"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME(<sp/>name<sp/>)<sp/>=<sp/>__VA_ARGS__<sp/>(<sp/>module<sp/>);<sp/><sp/>\</highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor">},<sp/>MR::PythonExport::Priority::Declaration<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRPython_8h_1a061fb85f30303ae23e36fbe5fd7b687c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_CUSTOM_CLASS(<sp/>moduleName,<sp/>name,<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="94"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS_DECL(<sp/>moduleName,<sp/>name,<sp/>__VA_ARGS__<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="95"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS_INST(<sp/>moduleName,<sp/>name<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRPython_8h_1a970813ca4d787c0bbe1ca6b1bd231cf9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_VEC(<sp/>moduleName,<sp/>name,<sp/>type)<sp/>\</highlight></codeline>
+<codeline lineno="98"><highlight class="preprocessor">PYBIND11_MAKE_OPAQUE(<sp/>std::vector&lt;type&gt;<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="99"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS_DECL(<sp/>moduleName,<sp/>name,<sp/>std::vector&lt;type&gt;,<sp/>std::unique_ptr&lt;std::vector&lt;type&gt;&gt;<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="100"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC(<sp/>moduleName,<sp/>name,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>module<sp/>)<sp/>{<sp/>return<sp/>pybind11::bind_vector&lt;std::vector&lt;type&gt;&gt;(<sp/>module,<sp/>#name,<sp/>pybind11::module_local(false)<sp/>);<sp/>}<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName,<sp/>name,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="102"><highlight class="preprocessor">{\</highlight></codeline>
+<codeline lineno="103"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>using<sp/>vecType<sp/>=<sp/>std::vector&lt;type&gt;;\</highlight></codeline>
+<codeline lineno="104"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>name<sp/>).\</highlight></codeline>
+<codeline lineno="105"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>pybind11::init&lt;&gt;()<sp/>).\</highlight></codeline>
+<codeline lineno="106"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>pybind11::init&lt;size_t&gt;(),<sp/>pybind11::arg(<sp/>&quot;size&quot;<sp/>)<sp/>).\</highlight></codeline>
+<codeline lineno="107"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;empty&quot;,<sp/>&amp;vecType::empty<sp/>).\</highlight></codeline>
+<codeline lineno="108"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;size&quot;,<sp/>&amp;vecType::size<sp/>).\</highlight></codeline>
+<codeline lineno="109"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;resize&quot;,<sp/>(<sp/>void<sp/>(<sp/>vecType::*<sp/>)(<sp/>const<sp/>vecType::size_type<sp/>)<sp/>)&amp;<sp/>vecType::resize<sp/>).\</highlight></codeline>
+<codeline lineno="110"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;clear&quot;,<sp/>&amp;vecType::clear<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor">}<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRPython_8h_1a432ac9a0f3f5aca7d9f0b9741d3b37c5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_MAP(<sp/>moduleName,<sp/>name,<sp/>mapType<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="114"><highlight class="preprocessor">PYBIND11_MAKE_OPAQUE(<sp/>mapType<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="115"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS_DECL(<sp/>moduleName,<sp/>name,<sp/>mapType,<sp/>std::unique_ptr&lt;mapType&gt;<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="116"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC(<sp/>moduleName,<sp/>name,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>module<sp/>)<sp/>{<sp/>return<sp/>pybind11::bind_map&lt;mapType&gt;(<sp/>module,<sp/>#name,<sp/>pybind11::module_local(false)<sp/>);<sp/>}<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName,<sp/>name,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="118"><highlight class="preprocessor">{\</highlight></codeline>
+<codeline lineno="119"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>name<sp/>).\</highlight></codeline>
+<codeline lineno="120"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>pybind11::init&lt;&gt;()<sp/>).\</highlight></codeline>
+<codeline lineno="121"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;size&quot;,<sp/>&amp;mapType::size<sp/>);\</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor">}<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRPython_8h_1a066f4ba30a78670e5297434557c362db" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_PYTHON_EXPECTED(<sp/>moduleName,<sp/>name,<sp/>type,<sp/>errorType<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="125"><highlight class="preprocessor">using<sp/>name##_expected_type_<sp/>=<sp/>MR::Expected&lt;type,<sp/>errorType&gt;;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_CLASS(<sp/>moduleName,<sp/>name,<sp/>name##_expected_type_<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="127"><highlight class="preprocessor">MR_ADD_PYTHON_CUSTOM_DEF(<sp/>moduleName,<sp/>name,<sp/>[]<sp/>(<sp/>pybind11::module_&amp;<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="128"><highlight class="preprocessor">{\</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>using<sp/>expectedType<sp/>=<sp/>Expected&lt;type,errorType&gt;;\</highlight></codeline>
+<codeline lineno="130"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>name<sp/>).\</highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;has_value&quot;,<sp/>[]()<sp/>\</highlight></codeline>
+<codeline lineno="132"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.has_value<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>ValueError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
+<codeline lineno="133"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>&amp;expectedType::has_value;<sp/>\</highlight></codeline>
+<codeline lineno="134"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}).\</highlight></codeline>
+<codeline lineno="135"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;value&quot;,<sp/>[]()<sp/>\</highlight></codeline>
+<codeline lineno="136"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="137"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.value<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>ValueError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
+<codeline lineno="138"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(<sp/>type&amp;<sp/>(<sp/>expectedType::*<sp/>)(<sp/>)&amp;<sp/>)&amp;<sp/>expectedType::value;<sp/>\</highlight></codeline>
+<codeline lineno="139"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},<sp/>pybind11::return_value_policy::reference_internal<sp/>).\</highlight></codeline>
+<codeline lineno="140"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;error&quot;,<sp/>[]()<sp/>\</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="142"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.error<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>ValueError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
+<codeline lineno="143"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(<sp/>const<sp/>errorType&amp;<sp/>(<sp/>expectedType::*<sp/>)(<sp/>)const&amp;<sp/>)&amp;<sp/>expectedType::error;<sp/>\</highlight></codeline>
+<codeline lineno="144"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>);\</highlight></codeline>
+<codeline lineno="145"><highlight class="preprocessor">}<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1d" kindref="member">StreamType</ref></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150" refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101" kindref="member">Stdout</ref>,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af" kindref="member">Stderr</ref></highlight></codeline>
+<codeline lineno="152" refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;StreamType<sp/>T&gt;</highlight></codeline>
+<codeline lineno="155" refid="classPythonStreamRedirector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPythonStreamRedirector" kindref="compound">PythonStreamRedirector</ref></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="158" refid="classPythonStreamRedirector_1aed4fdb47ff4d02fe070e63c1df8af487" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPythonStreamRedirector_1aed4fdb47ff4d02fe070e63c1df8af487" kindref="member">write</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text<sp/>);</highlight></codeline>
+<codeline lineno="159" refid="classPythonStreamRedirector_1a63f9cef709a73596fe385023ffa5a91a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPythonStreamRedirector_1a63f9cef709a73596fe385023ffa5a91a" kindref="member">flush</ref>();</highlight></codeline>
+<codeline lineno="160" refid="classPythonStreamRedirector_1a0c9234c1f59d79b896e2a639758443d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPythonStreamRedirector_1a0c9234c1f59d79b896e2a639758443d7" kindref="member">getNumWritten</ref>();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRPython_8h_1a26ab96a77d3875cbc3c3f79cd7ee64ef" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classPythonStreamRedirector" kindref="compound">StdoutPyRedirector</ref><sp/>=<sp/><ref refid="classPythonStreamRedirector" kindref="compound">PythonStreamRedirector&lt;Stdout&gt;</ref>;</highlight></codeline>
+<codeline lineno="164" refid="MRPython_8h_1a7d823176353acbb146f4705c0dcfdf90" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classPythonStreamRedirector" kindref="compound">StderrPyRedirector</ref><sp/>=<sp/><ref refid="classPythonStreamRedirector" kindref="compound">PythonStreamRedirector&lt;Stderr&gt;</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="classMR_1_1PythonExport" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PythonExport" kindref="compound">PythonExport</ref></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="172" refid="classMR_1_1PythonExport_1abfb182152c405649c53c0c632868b0c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PythonExport" kindref="compound">PythonExport</ref>&amp;<sp/><ref refid="classMR_1_1PythonExport_1abfb182152c405649c53c0c632868b0c2" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" kindref="member">PythonRegisterFuncton</ref><sp/>=<sp/>std::function&lt;void(<sp/>pybind11::module_&amp;<sp/>m<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" kindref="member">Priority</ref></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a" kindref="member">Declaration</ref>,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689" kindref="member">Implementation</ref>,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref>,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="structMR_1_1PythonExport_1_1ModuleData" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PythonExport_1_1ModuleData" kindref="compound">ModuleData</ref></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185" refid="structMR_1_1PythonExport_1_1ModuleData_1a190cf30264de3002c79d0b715ed6697a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject*<sp/>(<sp/>*initFncPointer<sp/>)(<sp/>void<sp/>);</highlight></codeline>
+<codeline lineno="186" refid="structMR_1_1PythonExport_1_1ModuleData_1a0fe7a81962a7cace96c7ec89855e1064" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;std::vector&lt;PythonRegisterFuncton&gt;,<sp/>size_t(<sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Priority::Count</ref><sp/>)&gt;<sp/><ref refid="structMR_1_1PythonExport_1_1ModuleData_1a0fe7a81962a7cace96c7ec89855e1064" kindref="member">functions</ref>;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="classMR_1_1PythonExport_1a595ac26b1d2a27a14a95bbc5a1963532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PythonExport_1a595ac26b1d2a27a14a95bbc5a1963532" kindref="member">addFunc</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>moduleName,<sp/><ref refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" kindref="member">PythonRegisterFuncton</ref><sp/>func,<sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" kindref="member">Priority</ref><sp/>priority<sp/>)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>mod<sp/>=<sp/>moduleData_[moduleName];</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mod.functions[size_t(<sp/>priority<sp/>)].push_back(<sp/>func<sp/>);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194" refid="classMR_1_1PythonExport_1a1105f4987df7b1b8d9d469115a831880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PythonExport_1a1105f4987df7b1b8d9d469115a831880" kindref="member">setInitFuncPtr</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>moduleName,<sp/>PyObject*<sp/>(<sp/>*initFncPointer<sp/>)(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>mod<sp/>=<sp/>moduleData_[moduleName];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mod.initFncPointer<sp/>=<sp/>initFncPointer;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199" refid="classMR_1_1PythonExport_1a1ae0ff73c0d87a6c897bf89610cabb81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;std::vector&lt;PythonRegisterFuncton&gt;,<sp/>size_t(<sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Priority::Count</ref><sp/>)&gt;&amp;<sp/><ref refid="classMR_1_1PythonExport_1a1ae0ff73c0d87a6c897bf89610cabb81" kindref="member">functions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>moduleName<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="200"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>moduleData_.find(<sp/>moduleName<sp/>);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::array&lt;std::vector&lt;PythonRegisterFuncton&gt;,<sp/>size_t(<sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Priority::Count</ref><sp/>)&gt;<sp/>empty;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>it<sp/>==<sp/>moduleData_.end()<sp/>)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>empty;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second.functions;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="classMR_1_1PythonExport_1a67924d9cb7f431bc9894a456c513156f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::unordered_map&lt;std::string,<sp/>ModuleData&gt;&amp;<sp/><ref refid="classMR_1_1PythonExport_1a67924d9cb7f431bc9894a456c513156f" kindref="member">modules</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="209"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>moduleData_;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PythonExport" kindref="compound">PythonExport</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PythonExport" kindref="compound">~PythonExport</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::unordered_map&lt;std::string,<sp/>ModuleData&gt;<sp/>moduleData_;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="structMR_1_1PythonFunctionAdder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PythonFunctionAdder" kindref="compound">PythonFunctionAdder</ref></highlight></codeline>
+<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221" refid="structMR_1_1PythonFunctionAdder_1a47c1ceebbd147609ff7f7ad8add30b29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/><ref refid="structMR_1_1PythonFunctionAdder_1a47c1ceebbd147609ff7f7ad8add30b29" kindref="member">PythonFunctionAdder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>moduleName,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/>pybind11::module_&amp;<sp/>m<sp/>)&gt;<sp/>func,<sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bf" kindref="member">PythonExport::Priority</ref><sp/>priority<sp/>=<sp/><ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689" kindref="member">PythonExport::Priority::Implementation</ref><sp/>);</highlight></codeline>
+<codeline lineno="222" refid="structMR_1_1PythonFunctionAdder_1a2ca843abaee9639fb1bee2abdbba2b2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRPYTHON_API<sp/><ref refid="structMR_1_1PythonFunctionAdder_1a2ca843abaee9639fb1bee2abdbba2b2f" kindref="member">PythonFunctionAdder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>moduleName,<sp/>PyObject*<sp/>(<sp/>*initFncPointer<sp/>)(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>E&gt;</highlight></codeline>
+<codeline lineno="227" refid="namespaceMR_1a396596cb5cea6d2f8fec7b7838ae2bc5" refkind="member"><highlight class="normal">[[noreturn]]<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a396596cb5cea6d2f8fec7b7838ae2bc5" kindref="member">throwExceptionFromExpected</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>E&amp;<sp/>err)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(std::is_nothrow_convertible&lt;E,<sp/>std::string&gt;::value)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(err);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<ref refid="namespaceMR_1ae471951bdf73171ae96368056485fe84" kindref="member">toString</ref>(err));</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="237" refid="namespaceMR_1ac95039057559bedc6c5786b29e42d974" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">)<sp/><ref refid="namespaceMR_1ac95039057559bedc6c5786b29e42d974" kindref="member">expectedValueOrThrow</ref>(<sp/>T&amp;&amp;<sp/>e<sp/>)</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>e<sp/>)</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>std::is_void_v&lt;typename<sp/>std::remove_cvref_t&lt;T&gt;::value_type&gt;<sp/>)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*std::forward&lt;T&gt;(<sp/>e<sp/>);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a396596cb5cea6d2f8fec7b7838ae2bc5" kindref="member">throwExceptionFromExpected</ref>(<sp/>e.error()<sp/>);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>E,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="253" refid="namespaceMR_1aa60c1177452c69cf5b8cdab61296d1ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aa60c1177452c69cf5b8cdab61296d1ce" kindref="member">decorateExpected</ref>(<sp/>std::function&lt;<ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;R, E&gt;</ref>(<sp/>Args...<sp/>)&gt;&amp;&amp;<sp/>f<sp/>)<sp/>-&gt;<sp/>std::function&lt;R(<sp/>Args...<sp/>)&gt;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">[fLocal<sp/>=<sp/>std::move(<sp/>f<sp/>)](<sp/>Args&amp;&amp;...<sp/>args<sp/>)<sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>-&gt;<sp/>R</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>res<sp/>=<sp/>fLocal(std::forward&lt;Args&gt;(<sp/>args<sp/>)...);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!res.has_value())</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a396596cb5cea6d2f8fec7b7838ae2bc5" kindref="member">throwExceptionFromExpected</ref>(res.error());</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(std::is_void&lt;R&gt;::value)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res.value();</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="269" refid="namespaceMR_1a5fcb58debd182644f22e1ea6eac867b6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aa60c1177452c69cf5b8cdab61296d1ce" kindref="member">decorateExpected</ref>(<sp/>F&amp;&amp;<sp/>f<sp/>)</highlight></codeline>
+<codeline lineno="270"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aa60c1177452c69cf5b8cdab61296d1ce" kindref="member">decorateExpected</ref>(<sp/>std::function(<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="275" refid="namespaceMR_1abf106ad4f6e3e81079b7698a30f31e20" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aa60c1177452c69cf5b8cdab61296d1ce" kindref="member">decorateExpected</ref>(<sp/>R(<sp/>T::*<sp/>memFunction<sp/>)(<sp/>Args...<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aa60c1177452c69cf5b8cdab61296d1ce" kindref="member">decorateExpected</ref>(<sp/>std::function&lt;R(<sp/>T*,<sp/>Args...<sp/>)&gt;(<sp/>std::mem_fn(<sp/>memFunction<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h"/>
+  </compounddef>
+</doxygen>

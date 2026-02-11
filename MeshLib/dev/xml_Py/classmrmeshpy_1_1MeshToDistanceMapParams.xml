@@ -1,0 +1,1015 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshToDistanceMapParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshToDistanceMapParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1aa520064882713732ec49eefb38869a48" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_allowNegativeValues</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_allowNegativeValues</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_allowNegativeValues</qualifiedname>
+        <initializer>=  49</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a885e0d49de208d105884981d465bc074" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_direction</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_direction</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_direction</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1aaa641850fe207f1a9d48a1d908c16cfc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_maxValue</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxValue</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_maxValue</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a1bdc74e38da5b7e5086fb7d0c98d70c1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_minValue</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minValue</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_minValue</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a4fa23650902beae422dd9deb31983153" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_orgPoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_orgPoint</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_orgPoint</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a792100920467189c7a5d8c0fdf20df9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_resolution</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_resolution</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_resolution</qualifiedname>
+        <initializer>=  60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a5880afff719b32f4fe870b6afd486d28" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_useDistanceLimits</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_useDistanceLimits</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_useDistanceLimits</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ab0b5b1281a6803d035d01bf957d59e8f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_xRange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xRange</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_xRange</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ab067cf278d36fd6f9644a6b5c289a8a7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDistanceMapParams::_offsetof_yRange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_yRange</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams._offsetof_yRange</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34465" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a48a1654769d7dd5e79bd97ed81acf6e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34468" bodyend="34469"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1af2aed40b474646c9b217cd42b9e86578" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></type>
+        <definition> MeshToDistanceMapParams mrmeshpy.MeshToDistanceMapParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34472" bodyend="34473"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1af2aed40b474646c9b217cd42b9e86578" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></type>
+        <definition> MeshToDistanceMapParams mrmeshpy.MeshToDistanceMapParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34476" bodyend="34477"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a524fbecfc1c8bc7e45044e04a43f6694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>default constructor. Manual params initialization is required:
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34479" bodyend="34482"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ac4753bde802b3b4a36e2fca65556b41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Vector3f direction, Vector2i resolution, MeshPart mp, bool usePreciseBoundingBox=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usePreciseBoundingBox</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>direction vector shows the projections vector to the distance map for points on model
+yRange and xRange directions make orthonormal basis with direction
+see Vector3&lt;T&gt;::perpendicular() for more details
+All Output Distance map values will be positive
+usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation
+usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34484" bodyend="34492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ae35374dfebe745d40bbfd9cb967bd256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Vector3f direction, Vector2f pixelSize, MeshPart mp, bool usePreciseBoundingBox=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usePreciseBoundingBox</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34494" bodyend="34495"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ad6613ec7cbf95af22cae0898a5a81f0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Matrix3f rotation, Vector3f origin, Vector2i resolution, Vector2f size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>input matrix should be orthonormal!
+rotation.z - direction
+rotation.x * (box X length) - xRange
+rotation.y * (box Y length) - yRange
+All Output Distance map values will be positive
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34497" bodyend="34504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1aeb93ee75107d93f4b4d5d02345cdd004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Matrix3f rotation, Vector3f origin, Vector2f pixelSize, Vector2i resolution)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34506" bodyend="34507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a64d59e1a4562a97dc88fe068a8f8a437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Matrix3f rotation, Vector2i resolution, MeshPart mp, bool usePreciseBoundingBox=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usePreciseBoundingBox</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>input matrix should be orthonormal!
+rotation.z - direction
+rotation.x * (box X length) - xRange
+rotation.y * (box Y length) - yRange
+All Output Distance map values will be positive
+usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation
+usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34509" bodyend="34518"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a4f581018fad64e690120a8a2f83cf81b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, AffineXf3f xf, Vector2i resolution, Vector2f size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The most general constructor. Use it if you have to find special view, resolution,
+distance map with visual the part of the model etc.
+All params match is in the user responsibility
+xf.b - origin point: pixel(0,0) with value 0.
+xf.A.z - direction
+xf.A.x - xRange
+xf.A.y - yRange
+All Output Distance map values could be positive and negative by default. Set allowNegativeValues to false if negative values are not required
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34520" bodyend="34530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1aee5448436f5e7c6cdfeecf6be26063c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, AffineXf3f xf, Vector2f pixelSize, Vector2i resolution)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34532" bodyend="34533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a6b3ebc4633bfec2c4b42f33f4b25af06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.__init__</definition>
+        <argsstring>(self, MeshToDistanceMapParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34535" bodyend="34538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a3fb3b6ddd80b1ea0ea5873207c2a54ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.setDistanceLimits</definition>
+        <argsstring>(self, float min, float max)</argsstring>
+        <name>setDistanceLimits</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.setDistanceLimits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if distance is not in set range, pixel became invalid
+default value: false. Any distance will be applied (include negative)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34539" bodyend="34543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a95f9d8c2eabccc37fbc55d850074c51b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshToDistanceMapParams.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34544" bodyend="34545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ad8641ff1b4d284e3572fb14bb17f35ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshToDistanceMapParams.allowNegativeValues</definition>
+        <argsstring>(self)</argsstring>
+        <name>allowNegativeValues</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.allowNegativeValues</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>allows to find intersections in backward to direction vector with negative values
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34547" bodyend="34550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1acbc737c2a972231a06be4454b40ca135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.allowNegativeValues</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>allowNegativeValues</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.allowNegativeValues</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34552" bodyend="34553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a1b0860e3ede2f0558bca2af4e7f8dd3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshToDistanceMapParams.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>direction of intersection ray
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34555" bodyend="34558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1aa25a48be000f14b50238cbf5cb3bf16e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.direction</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34560" bodyend="34561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a27940e97f70e8bdcb2585353d5211994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshToDistanceMapParams.maxValue</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxValue</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.maxValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Using of this parameter depends on useDistanceLimits
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34563" bodyend="34566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a89edfd706cdb27955c315ab336f471ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.maxValue</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxValue</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.maxValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34568" bodyend="34569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a404c74f03a0a71ab6bd97044c060bf00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshToDistanceMapParams.minValue</definition>
+        <argsstring>(self)</argsstring>
+        <name>minValue</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.minValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Using of this parameter depends on useDistanceLimits
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34571" bodyend="34574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1ab4788202fa1237792bb081c080c9307d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.minValue</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minValue</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.minValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34576" bodyend="34577"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1aaf9e0f9a5a0735270339c89e1f9dfbf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshToDistanceMapParams.orgPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.orgPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>location of (0,0) pixel with value 0.f
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34579" bodyend="34582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a7ec3e377752c7ef5a8b47c11a1613539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.orgPoint</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.orgPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34584" bodyend="34585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a262ae155f85c28f27d86719277fec5fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.MeshToDistanceMapParams.resolution</definition>
+        <argsstring>(self)</argsstring>
+        <name>resolution</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.resolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resolution of distance map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34587" bodyend="34590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a4beeeca4622ca1f98ba21f72d96e1207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.resolution</definition>
+        <argsstring>(self, Vector2i arg1)</argsstring>
+        <name>resolution</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.resolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34592" bodyend="34593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1af73b8b9fff9b6c3d0693c7c1bf34dd2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshToDistanceMapParams.useDistanceLimits</definition>
+        <argsstring>(self)</argsstring>
+        <name>useDistanceLimits</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.useDistanceLimits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>out of limits intersections will be set to non-valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34595" bodyend="34598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a68772384e44350776ec3b66843e45b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.useDistanceLimits</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>useDistanceLimits</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.useDistanceLimits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34600" bodyend="34601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1af5a8c079d9531faaf2fb2f5e5a149ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshToDistanceMapParams.xRange</definition>
+        <argsstring>(self)</argsstring>
+        <name>xRange</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.xRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cartesian range vector between distance map borders in X direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34603" bodyend="34606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a091997f7c986d8ab1df9813b843c6115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.xRange</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>xRange</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.xRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34608" bodyend="34609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1a7391fa0a90c2cee946d7a2e4ce1d6afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshToDistanceMapParams.yRange</definition>
+        <argsstring>(self)</argsstring>
+        <name>yRange</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.yRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cartesian range vector between distance map borders in Y direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34611" bodyend="34614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDistanceMapParams_1abd024d2014c37482cd3551eb2794c53e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDistanceMapParams.yRange</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>yRange</name>
+        <qualifiedname>mrmeshpy.MeshToDistanceMapParams.yRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34616" bodyend="34617"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshToDistanceMapParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshToDistanceMapParams</label>
+        <link refid="classmrmeshpy_1_1MeshToDistanceMapParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_allowNegativeValues</edgelabel>
+          <edgelabel>_offsetof_direction</edgelabel>
+          <edgelabel>_offsetof_maxValue</edgelabel>
+          <edgelabel>_offsetof_minValue</edgelabel>
+          <edgelabel>_offsetof_orgPoint</edgelabel>
+          <edgelabel>_offsetof_resolution</edgelabel>
+          <edgelabel>_offsetof_useDistanceLimits</edgelabel>
+          <edgelabel>_offsetof_xRange</edgelabel>
+          <edgelabel>_offsetof_yRange</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34453" bodyend="34617"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a48a1654769d7dd5e79bd97ed81acf6e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a524fbecfc1c8bc7e45044e04a43f6694" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ac4753bde802b3b4a36e2fca65556b41d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ae35374dfebe745d40bbfd9cb967bd256" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ad6613ec7cbf95af22cae0898a5a81f0a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1aeb93ee75107d93f4b4d5d02345cdd004" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a64d59e1a4562a97dc88fe068a8f8a437" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a4f581018fad64e690120a8a2f83cf81b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1aee5448436f5e7c6cdfeecf6be26063c4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a6b3ebc4633bfec2c4b42f33f4b25af06" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1aa520064882713732ec49eefb38869a48" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_allowNegativeValues</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a885e0d49de208d105884981d465bc074" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_direction</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1aaa641850fe207f1a9d48a1d908c16cfc" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_maxValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a1bdc74e38da5b7e5086fb7d0c98d70c1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_minValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a4fa23650902beae422dd9deb31983153" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a792100920467189c7a5d8c0fdf20df9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_resolution</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a5880afff719b32f4fe870b6afd486d28" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_useDistanceLimits</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ab0b5b1281a6803d035d01bf957d59e8f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_xRange</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ab067cf278d36fd6f9644a6b5c289a8a7" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>_offsetof_yRange</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ad8641ff1b4d284e3572fb14bb17f35ea" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>allowNegativeValues</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1acbc737c2a972231a06be4454b40ca135" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>allowNegativeValues</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a1b0860e3ede2f0558bca2af4e7f8dd3a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1aa25a48be000f14b50238cbf5cb3bf16e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a27940e97f70e8bdcb2585353d5211994" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>maxValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a89edfd706cdb27955c315ab336f471ea" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>maxValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a404c74f03a0a71ab6bd97044c060bf00" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>minValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1ab4788202fa1237792bb081c080c9307d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>minValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1af2aed40b474646c9b217cd42b9e86578" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1af2aed40b474646c9b217cd42b9e86578" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1aaf9e0f9a5a0735270339c89e1f9dfbf6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a7ec3e377752c7ef5a8b47c11a1613539" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a262ae155f85c28f27d86719277fec5fc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a4beeeca4622ca1f98ba21f72d96e1207" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a3fb3b6ddd80b1ea0ea5873207c2a54ea" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>setDistanceLimits</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1af73b8b9fff9b6c3d0693c7c1bf34dd2f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>useDistanceLimits</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a68772384e44350776ec3b66843e45b33" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>useDistanceLimits</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a95f9d8c2eabccc37fbc55d850074c51b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1af5a8c079d9531faaf2fb2f5e5a149ef1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>xRange</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a091997f7c986d8ab1df9813b843c6115" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>xRange</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1a7391fa0a90c2cee946d7a2e4ce1d6afe" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>yRange</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDistanceMapParams_1abd024d2014c37482cd3551eb2794c53e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDistanceMapParams</scope><name>yRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Line3Mesh__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Line3Mesh_float</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3Mesh__float_1a64c434b3758edfc4b3db2fad85418549" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3Mesh_float::_offsetof_line</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_line</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float._offsetof_line</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3Mesh__float_1a341fff2fcc8475e2807aa276b52746af" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3Mesh_float::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float._offsetof_mesh</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25542" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3Mesh__float_1a013c9e22b0e60d50975a737014c6e92e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3Mesh_float::_offsetof_prec</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_prec</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float._offsetof_prec</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3Mesh__float_1aa65dbfdee276815236270d4aa80bb0ba" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3Mesh_float::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float._offsetof_region</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3Mesh__float_1a4e33f98f30f056a7cd118235631b0d3b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3Mesh_float::_offsetof_tree</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tree</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float._offsetof_tree</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25545" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a1d350ffe4f19ed37a3f6fa344aea0907" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25548" bodyend="25549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a91480fc74f77c5a7f6556451d4176ce0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3Mesh__float" kindref="compound">Line3Mesh_float</ref></type>
+        <definition> Line3Mesh_float mrmeshpy.Line3Mesh_float.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25552" bodyend="25553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a91480fc74f77c5a7f6556451d4176ce0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3Mesh__float" kindref="compound">Line3Mesh_float</ref></type>
+        <definition> Line3Mesh_float mrmeshpy.Line3Mesh_float.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25556" bodyend="25557"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a2df1ec25f5f1e725fecfe5f27baaaf12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25559" bodyend="25560"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1ab1677aa4039834570ddd5c5a5fdb292d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.__init__</definition>
+        <argsstring>(self, Line3Mesh_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3Mesh__float" kindref="compound">Line3Mesh_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25562" bodyend="25565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a117fc3105bbf6ef529e2998acbeb6a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.__init__</definition>
+        <argsstring>(self, Line3f line, IntersectionPrecomputes_float prec, Mesh mesh, AABBTree tree, FaceBitSet region)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3f" kindref="compound">Line3f</ref></type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IntersectionPrecomputes__float" kindref="compound">IntersectionPrecomputes_float</ref></type>
+          <declname>prec</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25567" bodyend="25570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a92a75cc85455ccafe0cf93c46c68abd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3f" kindref="compound">Line3f</ref></type>
+        <definition> Line3f mrmeshpy.Line3Mesh_float.line</definition>
+        <argsstring>(self)</argsstring>
+        <name>line</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.line</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>in the reference frame of mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25572" bodyend="25575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a4108d4222eaaaa74639d33cb1377cc39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.line</definition>
+        <argsstring>(self, Line3f arg1)</argsstring>
+        <name>line</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.line</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3f" kindref="compound">Line3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25577" bodyend="25578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1ac477e8db31cd957c4a36cb976799f466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.Line3Mesh_float.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>must be set a valid pointer before use
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25580" bodyend="25583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1ade30823e0b21fb4b8708fe156b3f57f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.mesh</definition>
+        <argsstring>(self, Mesh arg1)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25585" bodyend="25586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a431a3c41497c81cb15bb1006157254a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IntersectionPrecomputes__float" kindref="compound">IntersectionPrecomputes_float</ref></type>
+        <definition> IntersectionPrecomputes_float mrmeshpy.Line3Mesh_float.prec</definition>
+        <argsstring>(self)</argsstring>
+        <name>prec</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.prec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set it to a valid pointer for better performance
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25588" bodyend="25591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a500f194684b9a3db2599fce5edaf2791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.prec</definition>
+        <argsstring>(self, IntersectionPrecomputes_float arg1)</argsstring>
+        <name>prec</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.prec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IntersectionPrecomputes__float" kindref="compound">IntersectionPrecomputes_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25593" bodyend="25594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a752b5b36c26268bd351c16aa79652700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Line3Mesh_float.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>may remain nullptr, meaning all mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25596" bodyend="25599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a9b6c6cd1e6ce8b9642c95287e8394325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25601" bodyend="25602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a275581a7fca7fa91863e95ff596c11f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref></type>
+        <definition> AABBTree mrmeshpy.Line3Mesh_float.tree</definition>
+        <argsstring>(self)</argsstring>
+        <name>tree</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.tree</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>must be set a valid pointer before use
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25604" bodyend="25607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3Mesh__float_1a2fdaa87d7d88d363fd065598a583026f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3Mesh_float.tree</definition>
+        <argsstring>(self, AABBTree arg1)</argsstring>
+        <name>tree</name>
+        <qualifiedname>mrmeshpy.Line3Mesh_float.tree</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25609" bodyend="25610"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Line3Mesh&lt;float&gt;
+Aliases:  Line3fMesh
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Line3Mesh_float</label>
+        <link refid="classmrmeshpy_1_1Line3Mesh__float"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_line</edgelabel>
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_prec</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_tree</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25536" bodyend="25610"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a1d350ffe4f19ed37a3f6fa344aea0907" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a2df1ec25f5f1e725fecfe5f27baaaf12" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1ab1677aa4039834570ddd5c5a5fdb292d" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a117fc3105bbf6ef529e2998acbeb6a34" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a64c434b3758edfc4b3db2fad85418549" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>_offsetof_line</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a341fff2fcc8475e2807aa276b52746af" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a013c9e22b0e60d50975a737014c6e92e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>_offsetof_prec</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1aa65dbfdee276815236270d4aa80bb0ba" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a4e33f98f30f056a7cd118235631b0d3b" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>_offsetof_tree</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a92a75cc85455ccafe0cf93c46c68abd6" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>line</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a4108d4222eaaaa74639d33cb1377cc39" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>line</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1ac477e8db31cd957c4a36cb976799f466" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1ade30823e0b21fb4b8708fe156b3f57f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a91480fc74f77c5a7f6556451d4176ce0" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a91480fc74f77c5a7f6556451d4176ce0" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a431a3c41497c81cb15bb1006157254a7" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>prec</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a500f194684b9a3db2599fce5edaf2791" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>prec</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a752b5b36c26268bd351c16aa79652700" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a9b6c6cd1e6ce8b9642c95287e8394325" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a275581a7fca7fa91863e95ff596c11f0" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>tree</name></member>
+      <member refid="classmrmeshpy_1_1Line3Mesh__float_1a2fdaa87d7d88d363fd065598a583026f" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3Mesh_float</scope><name>tree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

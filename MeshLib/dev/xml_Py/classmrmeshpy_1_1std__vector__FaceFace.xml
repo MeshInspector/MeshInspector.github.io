@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__FaceFace" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_FaceFace</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__FaceFace_1a29b42ac5006305a40bea1575e07c6bc7" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_FaceFace::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80926" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__FaceFace_1a8386a216a171499d15513491eb6ce338" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_FaceFace::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.element_type_byte_size</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80927" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1acfec61ab1e72e0ad2a2494b173f6ce99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FaceFace.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80928" bodyend="80931"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a45c1d214df382374914c5c1bb3d65b63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FaceFace.__contains__</definition>
+        <argsstring>(self, FaceFace x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80932" bodyend="80935"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1af4090328488f63d77ebaef0f3816f984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80937" bodyend="80940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1aa61e5cea3e35ea1b351e5b0d89ca069c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80942" bodyend="80945"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a7ca6bf7484e5517864eb994be8f5effa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FaceFace.__eq__</definition>
+        <argsstring>(self, std_vector_FaceFace arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FaceFace" kindref="compound">std_vector_FaceFace</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80946" bodyend="80947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1af7ad596a4172578fc69c5138f606aa86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FaceFace" kindref="compound">std_vector_FaceFace</ref></type>
+        <definition> std_vector_FaceFace mrmeshpy.std_vector_FaceFace.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80949" bodyend="80952"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a7766ff340c29e8745c95cb25cb28abb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+        <definition> FaceFace mrmeshpy.std_vector_FaceFace.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80954" bodyend="80955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a154da2f009c74fea63ef9bfe397a759f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80957" bodyend="80958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a61f1583eb726eed59c0148c386cdce59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80960" bodyend="80961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a3539c9045f1d7114e3c242e16da34a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__init__</definition>
+        <argsstring>(self, std_vector_FaceFace arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FaceFace" kindref="compound">std_vector_FaceFace</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80963" bodyend="80964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a836ac0cd9c92adfd9b7b6163db76aea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref>]</type>
+        <definition> typing.Iterator[FaceFace] mrmeshpy.std_vector_FaceFace.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80965" bodyend="80966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a1d421c1baea8e4bc2345c02d27483cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FaceFace.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80967" bodyend="80968"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1ae245e39e4837a6189ed43a8c938e3441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FaceFace.__ne__</definition>
+        <argsstring>(self, std_vector_FaceFace arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FaceFace" kindref="compound">std_vector_FaceFace</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80969" bodyend="80970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a3a7e0ff21f4cf43dc2f2bd8104b4c645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__setitem__</definition>
+        <argsstring>(self, int arg0, FaceFace arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80972" bodyend="80973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a4b0c341d16707dc4eed021f631bcceda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_FaceFace arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FaceFace" kindref="compound">std_vector_FaceFace</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80975" bodyend="80978"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a8393acb4517d32fd0d3bec29ce260e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.append</definition>
+        <argsstring>(self, FaceFace x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80979" bodyend="80982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a3013dc0f78b78240fe4178304ae27c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80983" bodyend="80986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a710e84b7a2b07a5dc9e73b59a9a8240c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FaceFace.count</definition>
+        <argsstring>(self, FaceFace x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80987" bodyend="80990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1ab1b8c34a9e59febd9390a3b7ab530931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FaceFace.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80991" bodyend="80994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a1cd6e91bf5cb1847720ef23048923189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_FaceFace.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80995" bodyend="80996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a6e6700915154301a3d77d25d20a77406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.extend</definition>
+        <argsstring>(self, std_vector_FaceFace L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FaceFace" kindref="compound">std_vector_FaceFace</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80998" bodyend="81001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a433e3510e348deaa774c2a4eb8a4c3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81003" bodyend="81006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1af19efe218c0c15741d4c203ff4b70b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.insert</definition>
+        <argsstring>(self, int i, FaceFace x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81007" bodyend="81010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1aef57ffb08be769a1061a2dcb46802f46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+        <definition> FaceFace mrmeshpy.std_vector_FaceFace.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81012" bodyend="81015"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a0dce7224057f5dce77fb5b34353a42db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+        <definition> FaceFace mrmeshpy.std_vector_FaceFace.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81017" bodyend="81020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1ac3c575f44d7d2ce089662989a4421400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.remove</definition>
+        <argsstring>(self, FaceFace x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81021" bodyend="81024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1af5a2c5cf866cbb612e37c9fba37d1fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81026" bodyend="81027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1aa809662491b8f5b00babb39335465e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_FaceFace.resize</definition>
+        <argsstring>(self, int arg0, FaceFace arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceFace" kindref="compound">FaceFace</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81029" bodyend="81030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__FaceFace_1a435174f62a1a9c95cd02be1d2a8c2338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_FaceFace.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_FaceFace.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="81031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="81031" bodyend="81032"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_FaceFace</label>
+        <link refid="classmrmeshpy_1_1std__vector__FaceFace"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80925" bodyend="81032"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1acfec61ab1e72e0ad2a2494b173f6ce99" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a45c1d214df382374914c5c1bb3d65b63" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1af4090328488f63d77ebaef0f3816f984" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1aa61e5cea3e35ea1b351e5b0d89ca069c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a7ca6bf7484e5517864eb994be8f5effa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1af7ad596a4172578fc69c5138f606aa86" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a7766ff340c29e8745c95cb25cb28abb3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a29b42ac5006305a40bea1575e07c6bc7" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a154da2f009c74fea63ef9bfe397a759f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a61f1583eb726eed59c0148c386cdce59" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a3539c9045f1d7114e3c242e16da34a5a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a836ac0cd9c92adfd9b7b6163db76aea4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a1d421c1baea8e4bc2345c02d27483cd0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1ae245e39e4837a6189ed43a8c938e3441" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a3a7e0ff21f4cf43dc2f2bd8104b4c645" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a4b0c341d16707dc4eed021f631bcceda" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a8393acb4517d32fd0d3bec29ce260e23" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a3013dc0f78b78240fe4178304ae27c7d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a710e84b7a2b07a5dc9e73b59a9a8240c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1ab1b8c34a9e59febd9390a3b7ab530931" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a8386a216a171499d15513491eb6ce338" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a1cd6e91bf5cb1847720ef23048923189" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a6e6700915154301a3d77d25d20a77406" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a433e3510e348deaa774c2a4eb8a4c3f3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1af19efe218c0c15741d4c203ff4b70b2b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1aef57ffb08be769a1061a2dcb46802f46" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a0dce7224057f5dce77fb5b34353a42db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1ac3c575f44d7d2ce089662989a4421400" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1af5a2c5cf866cbb612e37c9fba37d1fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1aa809662491b8f5b00babb39335465e8a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__FaceFace_1a435174f62a1a9c95cd02be1d2a8c2338" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_FaceFace</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SymMatrix4__UnsignedChar" kind="class" language="C#" prot="public">
+    <compoundname>MR::SymMatrix4_UnsignedChar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SymMatrix4_UnsignedChar</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1ae223c73900d3c2d09794c30edbaf22d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.xx</definition>
+        <argsstring></argsstring>
+        <name>xx</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.xx</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2334" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1ac9c76ee90e6ce3963f3a6fa27d9207e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.xy</definition>
+        <argsstring></argsstring>
+        <name>xy</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.xy</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2337" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1a2a633ad1f1b26821080919eb5c9bbaeb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.xz</definition>
+        <argsstring></argsstring>
+        <name>xz</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.xz</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2340" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1aa522f85b305081bea5f6668316c41ddd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.xw</definition>
+        <argsstring></argsstring>
+        <name>xw</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.xw</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2343" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1af1faa0c3f64c8991a7fafa937954ff9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.yy</definition>
+        <argsstring></argsstring>
+        <name>yy</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.yy</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2346" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1aa94d71ec862918a0eb78578623deca97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.yz</definition>
+        <argsstring></argsstring>
+        <name>yz</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.yz</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2349" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1a9201793d07dd8b75df113322747b9a82" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.yw</definition>
+        <argsstring></argsstring>
+        <name>yw</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.yw</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2352" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1a3c27f574e12ca8cfd6b320698553db92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.zz</definition>
+        <argsstring></argsstring>
+        <name>zz</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.zz</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2355" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1a00b34433b20bda18313b3aee2b34cada" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.zw</definition>
+        <argsstring></argsstring>
+        <name>zw</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.zw</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2358" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1a710c951335981b68e52bf72b4cc05aa7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref byte</type>
+        <definition>new unsafe ref byte MR.SymMatrix4_UnsignedChar.ww</definition>
+        <argsstring></argsstring>
+        <name>ww</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.ww</qualifiedname>
+        <briefdescription>
+<para>zero matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2361" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2361" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1aa540fd8c4c81225721a3a2d9c45405e5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SymMatrix4_UnsignedChar</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2365" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2365" bodyend="2369"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1ae0c67503a62099ab9cb21faad4b6e9fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>SymMatrix4_UnsignedChar</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2375" bodyend="2381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1aef0b053caa5fb9d3bcbfe12beeeeaa27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</definition>
+        <argsstring>(MR.Const_SymMatrix4_UnsignedChar _other)</argsstring>
+        <name>SymMatrix4_UnsignedChar</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::SymMatrix4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2386" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2386" bodyend="2393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1a5ff816fe721f83bb969208b8e6610e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</definition>
+        <argsstring>(SymMatrix4_UnsignedChar _other)</argsstring>
+        <name>SymMatrix4_UnsignedChar</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SymMatrix4__UnsignedChar" kindref="compound">SymMatrix4_UnsignedChar</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::SymMatrix4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2398" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2398" bodyend="2398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1a5d6435960eaca345ef9f09b31b678b85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix4__UnsignedChar" kindref="compound">MR.SymMatrix4_UnsignedChar</ref></type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar MR.SymMatrix4_UnsignedChar.assign</definition>
+        <argsstring>(MR.Const_SymMatrix4_UnsignedChar _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2403" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2403" bodyend="2410"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1af7ad727ddfc2c8cd9d243bfe3e0d63d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix4__UnsignedChar" kindref="compound">MR.SymMatrix4_UnsignedChar</ref></type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar MR.SymMatrix4_UnsignedChar.addAssign</definition>
+        <argsstring>(MR.Const_SymMatrix4_UnsignedChar b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.addAssign</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2415" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2415" bodyend="2423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1abdd668c5a9a0e004bcc2dc0ecd9108c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix4__UnsignedChar" kindref="compound">MR.SymMatrix4_UnsignedChar</ref></type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar MR.SymMatrix4_UnsignedChar.subAssign</definition>
+        <argsstring>(MR.Const_SymMatrix4_UnsignedChar b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2428" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2428" bodyend="2436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1aec1d5e18ca565fae2f680dcfae57a84e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix4__UnsignedChar" kindref="compound">MR.SymMatrix4_UnsignedChar</ref></type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar MR.SymMatrix4_UnsignedChar.mulAssign</definition>
+        <argsstring>(byte b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.mulAssign</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2441" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2441" bodyend="2449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SymMatrix4__UnsignedChar_1a398b3c137cd55de73854ce5fd4be210d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SymMatrix4__UnsignedChar" kindref="compound">MR.SymMatrix4_UnsignedChar</ref></type>
+        <definition>unsafe MR.SymMatrix4_UnsignedChar MR.SymMatrix4_UnsignedChar.divAssign</definition>
+        <argsstring>(byte b)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.SymMatrix4_UnsignedChar.divAssign</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;::operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2454" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2454" bodyend="2462"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>symmetric 4x4 matrix Generated from class <computeroutput>MR.SymMatrix4&lt;unsigned char&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SymMatrix4_UnsignedChar</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SymMatrix4_UnsignedChar</label>
+        <link refid="classMR_1_1SymMatrix4__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SymMatrix4_UnsignedChar &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_SymMatrix4_UnsignedChar &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SymMatrix4_UnsignedChar</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SymMatrix4_UnsignedChar</label>
+        <link refid="classMR_1_1SymMatrix4__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SymMatrix4_UnsignedChar &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_SymMatrix4_UnsignedChar &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2332" bodyend="2463"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1af7ad727ddfc2c8cd9d243bfe3e0d63d1" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a5d6435960eaca345ef9f09b31b678b85" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>assign</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a398b3c137cd55de73854ce5fd4be210d" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aec1d5e18ca565fae2f680dcfae57a84e" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1abdd668c5a9a0e004bcc2dc0ecd9108c8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aa540fd8c4c81225721a3a2d9c45405e5" prot="package" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1ae0c67503a62099ab9cb21faad4b6e9fe" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aef0b053caa5fb9d3bcbfe12beeeeaa27" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a5ff816fe721f83bb969208b8e6610e14" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a710c951335981b68e52bf72b4cc05aa7" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>ww</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aa522f85b305081bea5f6668316c41ddd" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>xw</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1ae223c73900d3c2d09794c30edbaf22d9" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>xx</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1ac9c76ee90e6ce3963f3a6fa27d9207e5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>xy</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a2a633ad1f1b26821080919eb5c9bbaeb" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>xz</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a9201793d07dd8b75df113322747b9a82" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>yw</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1af1faa0c3f64c8991a7fafa937954ff9f" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>yy</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aa94d71ec862918a0eb78578623deca97" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>yz</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a00b34433b20bda18313b3aee2b34cada" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>zw</name></member>
+      <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a3c27f574e12ca8cfd6b320698553db92" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>zz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

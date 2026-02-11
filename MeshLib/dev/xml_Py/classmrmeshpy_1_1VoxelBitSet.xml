@@ -1,0 +1,1248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a2cc6f174079abf55749380bb7d71064d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72553" bodyend="72554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a60d982203105528d71d80e7dc6b3b418" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72556" bodyend="72559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72562" bodyend="72563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72566" bodyend="72567"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a8d6a563a507e1805f144159832347d7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__and__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72568" bodyend="72569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1ac209c8d2550a2e16f6a874d609757efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__iand__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72570" bodyend="72571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1adbb5b3919c2c22748e96d888b9c77ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72573" bodyend="72574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1aedfc3bbe2924e968a0c455c1c8ba4771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72576" bodyend="72579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72581" bodyend="72584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72586" bodyend="72589"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1ae12f400cb820b1f6d0be623fef37c326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.__init__</definition>
+        <argsstring>(self, VoxelBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72591" bodyend="72594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1abaae621b4ab196d7cd57d7d5f28eb522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__ior__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72595" bodyend="72596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1af70de9e12af9939b6451b14ddae311ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__isub__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72597" bodyend="72598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a7b08296775a9cd080756bb4679ae2102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref>]</type>
+        <definition> typing.Iterator[VoxelId] mrmeshpy.VoxelBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72599" bodyend="72600"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a6cf92818a32c5d47ecc63a0109ebb034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__ixor__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72601" bodyend="72602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1aef2d84ae7454b4e5d8d52154f2f4222a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__or__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72603" bodyend="72604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a3b442277af4823e1675a3acaed8441b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72605" bodyend="72606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1ad6d90efe452c6ee9bcd98cc77b5375d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__sub__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72607" bodyend="72608"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a17ea5fdb5cfab3d02e89b1d7f60340dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.__xor__</definition>
+        <argsstring>(self, VoxelBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72609" bodyend="72610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a83c487bc0b245d25c78eb4c9a643434b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.autoResizeSet</definition>
+        <argsstring>(self, VoxelId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72612" bodyend="72613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a81e75610dc6c17d08d748e576f742d14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelBitSet.autoResizeSet</definition>
+        <argsstring>(self, VoxelId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72615" bodyend="72616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a8d6e538efd74455f9d63af5009ba018a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, VoxelId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72617" bodyend="72618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1abcfd99ae60016892318acd8bed4c247d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72619" bodyend="72622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1acd8399ff1bdb3deeafc0c247f1fa1fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72623" bodyend="72624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1af0608cd29f6fa3dcd5bc77d20f6789a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72625" bodyend="72626"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1af7b90fd322ab453457965f3d6fb4ee3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72627" bodyend="72628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a50a588ed9584751381443629ee9afbeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.find_next</definition>
+        <argsstring>(self, VoxelId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72629" bodyend="72630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a28cc1d5c686eb6eacad0d43e7b80ed00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.flip</definition>
+        <argsstring>(self, VoxelId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72632" bodyend="72633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a294d35fb820ddf0cf832d65611cb6195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.flip</definition>
+        <argsstring>(self, VoxelId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72635" bodyend="72636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1abfb6019c01800f2ac3f9fd608d2c139d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72638" bodyend="72639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a1e77208f52a7fcc05796496b73340c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
+        <argsstring>(self, Vector_VoxelId_VoxelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId" kindref="compound">Vector_VoxelId_VoxelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72641" bodyend="72642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1ab95c6373ec6b1605b296e4f83be7bee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
+        <argsstring>(self, BMap_VoxelId_VoxelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId" kindref="compound">BMap_VoxelId_VoxelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72644" bodyend="72645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a3250d95c6673b873c503d819ca10cfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72647" bodyend="72648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1aee0157cfbd5a8e52e3a681abfb9f7f91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
+        <argsstring>(self, Vector_VoxelId_VoxelId map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId" kindref="compound">Vector_VoxelId_VoxelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72650" bodyend="72651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a2329b19e1da525ec7ab1390ba223adf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72653" bodyend="72654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a4c8aebbf55fb9eb02c2ed478c6816c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelBitSet.intersects</definition>
+        <argsstring>(self, VoxelBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72655" bodyend="72658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a6b5a68d538548712878dcc05c735f60d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelBitSet.is_subset_of</definition>
+        <argsstring>(self, VoxelBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72659" bodyend="72662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a89aec88ef8919b163dacf3dac240b54d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VoxelBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72663" bodyend="72666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1aa86f4f2cb82becb7270615a9fcb4a99b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.reset</definition>
+        <argsstring>(self, VoxelId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72668" bodyend="72669"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a1955c84b5071787408ac41ecbaf5b5ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.reset</definition>
+        <argsstring>(self, VoxelId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72671" bodyend="72672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1ab9e60ab26d1faca1f633d3dee318aab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72674" bodyend="72675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a370bc6709e2cc5935968c01c0c074cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.set</definition>
+        <argsstring>(self, VoxelId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72677" bodyend="72678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1aff43e0c35a143f007366e67df35c1434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.set</definition>
+        <argsstring>(self, VoxelId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72680" bodyend="72681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a99a5e34d78b9333f9ea1327d468ac2b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.set</definition>
+        <argsstring>(self, VoxelId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72683" bodyend="72684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1ab06ac82abeb0bd077ca27b52b4e5da0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72686" bodyend="72687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a29941b2b2dfdca0ad721ef954d208ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VoxelBitSet.subtract</definition>
+        <argsstring>(self, VoxelBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72688" bodyend="72691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a3ba65ebb13e75f5f35d0bae52012f9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelBitSet.test</definition>
+        <argsstring>(self, VoxelId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72692" bodyend="72693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a3382f61ba010badb747d2ec656839576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelBitSet.test_set</definition>
+        <argsstring>(self, VoxelId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.VoxelBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72694" bodyend="72695"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelBitSet</label>
+        <link refid="classmrmeshpy_1_1VoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelBitSet</label>
+        <link refid="classmrmeshpy_1_1VoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72544" bodyend="72695"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a8d6a563a507e1805f144159832347d7b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1ac209c8d2550a2e16f6a874d609757efa" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a2cc6f174079abf55749380bb7d71064d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1adbb5b3919c2c22748e96d888b9c77ddf" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1aedfc3bbe2924e968a0c455c1c8ba4771" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1ae12f400cb820b1f6d0be623fef37c326" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1abaae621b4ab196d7cd57d7d5f28eb522" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1af70de9e12af9939b6451b14ddae311ba" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a7b08296775a9cd080756bb4679ae2102" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a6cf92818a32c5d47ecc63a0109ebb034" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1aef2d84ae7454b4e5d8d52154f2f4222a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a3b442277af4823e1675a3acaed8441b2" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1ad6d90efe452c6ee9bcd98cc77b5375d0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a17ea5fdb5cfab3d02e89b1d7f60340dc" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a83c487bc0b245d25c78eb4c9a643434b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a81e75610dc6c17d08d748e576f742d14" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a8d6e538efd74455f9d63af5009ba018a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1abcfd99ae60016892318acd8bed4c247d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a60d982203105528d71d80e7dc6b3b418" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1acd8399ff1bdb3deeafc0c247f1fa1fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1af0608cd29f6fa3dcd5bc77d20f6789a7" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1af7b90fd322ab453457965f3d6fb4ee3e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a50a588ed9584751381443629ee9afbeb" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a28cc1d5c686eb6eacad0d43e7b80ed00" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a294d35fb820ddf0cf832d65611cb6195" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1abfb6019c01800f2ac3f9fd608d2c139d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a1e77208f52a7fcc05796496b73340c37" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1ab95c6373ec6b1605b296e4f83be7bee8" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a3250d95c6673b873c503d819ca10cfb7" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1aee0157cfbd5a8e52e3a681abfb9f7f91" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a2329b19e1da525ec7ab1390ba223adf4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a4c8aebbf55fb9eb02c2ed478c6816c2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a6b5a68d538548712878dcc05c735f60d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a89aec88ef8919b163dacf3dac240b54d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1aa86f4f2cb82becb7270615a9fcb4a99b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a1955c84b5071787408ac41ecbaf5b5ce" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1ab9e60ab26d1faca1f633d3dee318aab4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a370bc6709e2cc5935968c01c0c074cec" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1aff43e0c35a143f007366e67df35c1434" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a99a5e34d78b9333f9ea1327d468ac2b4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1ab06ac82abeb0bd077ca27b52b4e5da0a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a29941b2b2dfdca0ad721ef954d208ccb" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a3ba65ebb13e75f5f35d0bae52012f9c4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a3382f61ba010badb747d2ec656839576" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

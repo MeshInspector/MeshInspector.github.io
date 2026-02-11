@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::MapOrHashMap_MRVertId_MRVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRVertId_MRVertId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1adee2408d2238a0da0d0ec54e6faa7a6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId</type>
+        <definition>new unsafe MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId MR.MapOrHashMap_MRVertId_MRVertId.var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.var</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="523" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="523" bodyend="523"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1afdb4700830b8b4530cb816b9004053bf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MapOrHashMap_MRVertId_MRVertId</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="542" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="542" bodyend="546"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a8b22165ed9188cc5b0d2825223d49d32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>MapOrHashMap_MRVertId_MRVertId</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="552" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="552" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a7871e3941404dc60cc4b751183a246c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</definition>
+        <argsstring>(MR.Std._ByValue_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId var)</argsstring>
+        <name>MapOrHashMap_MRVertId_MRVertId</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="563" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="563" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1ab4f9864189858dfa113eac07cf7a7565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</definition>
+        <argsstring>(MR._ByValue_MapOrHashMap_MRVertId_MRVertId _other)</argsstring>
+        <name>MapOrHashMap_MRVertId_MRVertId</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_MapOrHashMap_MRVertId_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="575" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="575" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a49c401c8bd603410d688796d695da142" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</definition>
+        <argsstring>(Const_MapOrHashMap_MRVertId_MRVertId _other)</argsstring>
+        <name>MapOrHashMap_MRVertId_MRVertId</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
+        <param>
+          <type>Const_MapOrHashMap_MRVertId_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="587" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="587" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a9cfad8cff516a0dd4a7435928247f41c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</definition>
+        <argsstring>(MapOrHashMap_MRVertId_MRVertId _other)</argsstring>
+        <name>MapOrHashMap_MRVertId_MRVertId</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kindref="compound">MapOrHashMap_MRVertId_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="592" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="592" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1ac76562ee80097e086f68d0e3077224ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kindref="compound">MR.MapOrHashMap_MRVertId_MRVertId</ref></type>
+        <definition>unsafe MR.MapOrHashMap_MRVertId_MRVertId MR.MapOrHashMap_MRVertId_MRVertId.assign</definition>
+        <argsstring>(MR._ByValue_MapOrHashMap_MRVertId_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MapOrHashMap_MRVertId_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="597" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="597" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a343743695381cc4203a8630b7ccc2ee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRVertId_MRVertId.setMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.VertMap &gt; m)</argsstring>
+        <name>setMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.setMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref> &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::setMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="609" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="609" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a36dc37b2877d66575127bea9e3a02b99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRVertId_MRVertId.setHashMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Phmap.FlatHashMap_MRVertId_MRVertId &gt; m)</argsstring>
+        <name>setHashMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.setHashMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Phmap.FlatHashMap_MRVertId_MRVertId &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::setHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="619" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="619" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a2b1d6343a127c8bcc384aad5403a62ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRVertId_MRVertId.resizeReserve</definition>
+        <argsstring>(ulong denseTotalSize, ulong hashAdditionalCapacity)</argsstring>
+        <name>resizeReserve</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.resizeReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>denseTotalSize</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>hashAdditionalCapacity</declname>
+        </param>
+        <briefdescription>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resizeReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="631" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="631" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a3bd52ecd39b4f7acc0133e803711e0ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRVertId_MRVertId.pushBack</definition>
+        <argsstring>(MR.VertId key, MR.VertId val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::pushBack</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="643" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="643" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a6e1468a3a1e235418ad379b11baae7d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition>unsafe new MR.? VertMap MR.MapOrHashMap_MRVertId_MRVertId.getMap</definition>
+        <argsstring>()</argsstring>
+        <name>getMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.getMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::getMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="653" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="653" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a16c9a1f5b39cd868a563271c00a083dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Phmap.? FlatHashMap_MRVertId_MRVertId</type>
+        <definition>unsafe new MR.Phmap.? FlatHashMap_MRVertId_MRVertId MR.MapOrHashMap_MRVertId_MRVertId.getHashMap</definition>
+        <argsstring>()</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.getHashMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::getHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="664" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="664" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a5cb09847b20e95d25829e145049a784e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRVertId_MRVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="675" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="675" bodyend="680"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MapOrHashMap_MRVertId_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MapOrHashMap_MRVertId_MRVertId</label>
+        <link refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MapOrHashMap_MRVertId_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MapOrHashMap_MRVertId_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MapOrHashMap_MRVertId_MRVertId</label>
+        <link refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MapOrHashMap_MRVertId_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="520" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="521" bodyend="681"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1ac76562ee80097e086f68d0e3077224ba" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a5cb09847b20e95d25829e145049a784e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a16c9a1f5b39cd868a563271c00a083dc" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>getHashMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a6e1468a3a1e235418ad379b11baae7d5" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>getMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1afdb4700830b8b4530cb816b9004053bf" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a8b22165ed9188cc5b0d2825223d49d32" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a7871e3941404dc60cc4b751183a246c4" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1ab4f9864189858dfa113eac07cf7a7565" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a49c401c8bd603410d688796d695da142" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a9cfad8cff516a0dd4a7435928247f41c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a3bd52ecd39b4f7acc0133e803711e0ac" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a2b1d6343a127c8bcc384aad5403a62ea" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>resizeReserve</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a36dc37b2877d66575127bea9e3a02b99" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>setHashMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a343743695381cc4203a8630b7ccc2ee2" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>setMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1adee2408d2238a0da0d0ec54e6faa7a6d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FixUndercuts_1_1FixParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FixUndercuts::FixParams</compoundname>
+    <includes refid="MRFixUndercuts_8h" local="no">MRFixUndercuts.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1FixParams_1afe6f6f22b57da33fbbf890e866b20af0" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1FixUndercuts_1_1FindParams" kindref="compound">FindParams</ref></type>
+        <definition>FindParams MR::FixUndercuts::FixParams::findParameters</definition>
+        <argsstring></argsstring>
+        <name>findParameters</name>
+        <qualifiedname>MR::FixUndercuts::FixParams::findParameters</qualifiedname>
+        <briefdescription>
+<para>parameters of what is considered as undercut </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1FixParams_1a6d4290fa46807217ffa96e93f832b506" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixUndercuts::FixParams::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::FixUndercuts::FixParams::voxelSize</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+<para>voxel size for internal computations: lower size - better precision but more system resources required </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="60" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1FixParams_1a0b82b3ed40ea6b099489b664630a2e27" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixUndercuts::FixParams::bottomExtension</definition>
+        <argsstring></argsstring>
+        <name>bottomExtension</name>
+        <qualifiedname>MR::FixUndercuts::FixParams::bottomExtension</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+<para>minimum extension of bottom part of the mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1FixParams_1aff2c0877c0a9eac16128d033db2d2860" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet *</type>
+        <definition>const FaceBitSet* MR::FixUndercuts::FixParams::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::FixUndercuts::FixParams::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if set - only this region will be fixed (but still all mesh will be rebuild) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="66" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1FixParams_1a86fb3b02eb0f9d3df9cdeb8e1b66ca22" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FixUndercuts::FixParams::smooth</definition>
+        <argsstring></argsstring>
+        <name>smooth</name>
+        <qualifiedname>MR::FixUndercuts::FixParams::smooth</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true applies one iterations of gaussian filtering for voxels, useful if thin walls expected </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1FixParams_1a563ee145e303eb2d0a3cd31b71ca7344" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::FixUndercuts::FixParams::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::FixUndercuts::FixParams::cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="71" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Fix undercuts function parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::FixUndercuts::FindParams</label>
+        <link refid="structMR_1_1FixUndercuts_1_1FindParams"/>
+      </node>
+      <node id="1">
+        <label>MR::FixUndercuts::FixParams</label>
+        <link refid="structMR_1_1FixUndercuts_1_1FixParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>findParameters</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="54" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="55" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FixUndercuts_1_1FixParams_1a0b82b3ed40ea6b099489b664630a2e27" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>bottomExtension</name></member>
+      <member refid="structMR_1_1FixUndercuts_1_1FixParams_1a563ee145e303eb2d0a3cd31b71ca7344" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>cb</name></member>
+      <member refid="structMR_1_1FixUndercuts_1_1FixParams_1afe6f6f22b57da33fbbf890e866b20af0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>findParameters</name></member>
+      <member refid="structMR_1_1FixUndercuts_1_1FixParams_1aff2c0877c0a9eac16128d033db2d2860" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>region</name></member>
+      <member refid="structMR_1_1FixUndercuts_1_1FixParams_1a86fb3b02eb0f9d3df9cdeb8e1b66ca22" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>smooth</name></member>
+      <member refid="structMR_1_1FixUndercuts_1_1FixParams_1a6d4290fa46807217ffa96e93f832b506" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

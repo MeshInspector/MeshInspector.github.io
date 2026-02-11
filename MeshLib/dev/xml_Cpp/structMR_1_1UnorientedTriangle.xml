@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UnorientedTriangle" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UnorientedTriangle</compoundname>
+    <includes refid="MRUnorientedTriangle_8h" local="no">MRUnorientedTriangle.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UnorientedTriangle_1a6dc0b9d338593fc4fd8715ed4e11b9f8" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref></type>
+        <definition>ThreeVertIds MR::UnorientedTriangle::verts</definition>
+        <argsstring></argsstring>
+        <name>verts</name>
+        <qualifiedname>MR::UnorientedTriangle::verts</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="14" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UnorientedTriangle_1aa917f541ba687e11cb12638018c11f49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UnorientedTriangle::UnorientedTriangle</definition>
+        <argsstring>(const ThreeVertIds &amp;inVs, bool *outFlipped=nullptr)</argsstring>
+        <name>UnorientedTriangle</name>
+        <qualifiedname>MR::UnorientedTriangle::UnorientedTriangle</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref> &amp;</type>
+          <declname>inVs</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>outFlipped</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>optional output: true if the orientation of the triangle has flipped </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="16" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UnorientedTriangle_1a74d6d544ece458f69514e02465ea0a1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1a9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref></type>
+        <definition>ThreeVertIds MR::UnorientedTriangle::getFlipped</definition>
+        <argsstring>() const</argsstring>
+        <name>getFlipped</name>
+        <qualifiedname>MR::UnorientedTriangle::getFlipped</qualifiedname>
+        <briefdescription>
+<para>returns this triangle with the opposite orientation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="39" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UnorientedTriangle_1a2acb7c3b59143a9bddbe412c01ec2489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UnorientedTriangle::operator ThreeVertIds &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator ThreeVertIds &amp;</name>
+        <qualifiedname>MR::UnorientedTriangle::operator ThreeVertIds &amp;</qualifiedname>
+        <briefdescription>
+<para>id #0 remains the lowest </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UnorientedTriangle_1a45e593296b33c08794467bccc48dc9ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UnorientedTriangle::operator const ThreeVertIds &amp;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator const ThreeVertIds &amp;</name>
+        <qualifiedname>MR::UnorientedTriangle::operator const ThreeVertIds &amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UnorientedTriangle_1a3def19a0ec6d9b753da75d05825e1d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VertId &amp;</type>
+        <definition>VertId &amp; MR::UnorientedTriangle::operator[]</definition>
+        <argsstring>(std::size_t i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::UnorientedTriangle::operator[]</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="44" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UnorientedTriangle_1a1559dd0f63575b110b6d67c47cd8ca61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VertId &amp;</type>
+        <definition>const VertId &amp; MR::UnorientedTriangle::operator[]</definition>
+        <argsstring>(std::size_t i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::UnorientedTriangle::operator[]</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="45" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1UnorientedTriangle_1a612a5709db207a238542c54810f6af4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const UnorientedTriangle &amp;a, const UnorientedTriangle &amp;b)=default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::UnorientedTriangle::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="47" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>describes a triangle as three vertex IDs sorted in a way to quickly find same triangles irrespective of vertex order (clockwise or counterclockwise) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h" bodystart="13" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UnorientedTriangle_1a74d6d544ece458f69514e02465ea0a1e" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>getFlipped</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1a45e593296b33c08794467bccc48dc9ef" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator const ThreeVertIds &amp;</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1a2acb7c3b59143a9bddbe412c01ec2489" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator ThreeVertIds &amp;</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1a612a5709db207a238542c54810f6af4c" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator==</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1a3def19a0ec6d9b753da75d05825e1d0b" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1a1559dd0f63575b110b6d67c47cd8ca61" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1aa917f541ba687e11cb12638018c11f49" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
+      <member refid="structMR_1_1UnorientedTriangle_1a6dc0b9d338593fc4fd8715ed4e11b9f8" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>verts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

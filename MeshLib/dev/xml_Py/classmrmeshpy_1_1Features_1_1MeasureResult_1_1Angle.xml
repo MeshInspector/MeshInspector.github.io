@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::MeasureResult::Angle</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">mrmeshpy.Features.MeasureResult.BasicPart</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a63d039307829fc3d5af8ce3c590d6a4c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Angle::_offsetof_dirA</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dirA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle._offsetof_dirA</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a1e06e73078f8c202203a797b739526b5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Angle::_offsetof_dirB</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dirB</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle._offsetof_dirB</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a48e37e3c6de7c4f956f4cb4235bf8bc4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Angle::_offsetof_isSurfaceNormalA</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isSurfaceNormalA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle._offsetof_isSurfaceNormalA</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17996" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a10c0b34a31282087cd75b81f36668837" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Angle::_offsetof_isSurfaceNormalB</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isSurfaceNormalB</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle._offsetof_isSurfaceNormalB</qualifiedname>
+        <initializer>=  53</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17997" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a60bbdc40717162a24a7317b038561213" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Angle::_offsetof_pointA</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pointA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle._offsetof_pointA</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a69c7ce423412a616048d978430d3c0be" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Angle::_offsetof_pointB</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pointB</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle._offsetof_pointB</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17999" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Angle.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18005" bodyend="18006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Features.MeasureResult.Angle</ref></type>
+        <definition> Features.MeasureResult.Angle mrmeshpy.Features.MeasureResult.Angle.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18009" bodyend="18010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Features.MeasureResult.Angle</ref></type>
+        <definition> Features.MeasureResult.Angle mrmeshpy.Features.MeasureResult.Angle.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18013" bodyend="18014"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Angle.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18016" bodyend="18017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Angle.__init__</definition>
+        <argsstring>(self, Features.MeasureResult.Angle arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Features.MeasureResult.Angle</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18019" bodyend="18022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad757abd712d3b60bbadca720e25f2e71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.MeasureResult.Angle.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ac3ee1998322bd737c04046d286ba1120">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18023" bodyend="18024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad1d5a91a137e8e4b46918df9847381cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Features.MeasureResult.Angle.computeAngleInRadians</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeAngleInRadians</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.computeAngleInRadians</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18025" bodyend="18026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a279a829c149f36a7ccbc8c95ee7317d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.MeasureResult.Angle.dirFor</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>dirFor</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.dirFor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18027" bodyend="18028"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a173132d2778945f7fd9c3eec62304287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.MeasureResult.Angle.isSurfaceNormalFor</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>isSurfaceNormalFor</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.isSurfaceNormalFor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18029" bodyend="18030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1abec47ca8c5a89739cdea17058a2792a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.MeasureResult.Angle.pointFor</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>pointFor</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.pointFor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18031" bodyend="18032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a5c4fbdc45f55588080323a6180240ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.MeasureResult.Angle.dirA</definition>
+        <argsstring>(self)</argsstring>
+        <name>dirA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.dirA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Normalized.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18034" bodyend="18037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a7ca194ed4ad30325ed6a07dc268e35f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Angle.dirA</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>dirA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.dirA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18039" bodyend="18040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a1a98e7e543ccf6feb8dfc85125459e73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.MeasureResult.Angle.dirB</definition>
+        <argsstring>(self)</argsstring>
+        <name>dirB</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.dirB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>^
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18042" bodyend="18045"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af1b1c02ab5a28f4747d069e60d3d540e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Angle.dirB</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>dirB</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.dirB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18047" bodyend="18048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a1023a0f963514fe3cbb14b118ab06ef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.MeasureResult.Angle.isSurfaceNormalA</definition>
+        <argsstring>(self)</argsstring>
+        <name>isSurfaceNormalA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.isSurfaceNormalA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether `dir{A,B}` is a surface normal or a line direction.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18050" bodyend="18053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a0af8c1efd88a6c207d2910c9bcdf5988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Angle.isSurfaceNormalA</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>isSurfaceNormalA</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.isSurfaceNormalA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18055" bodyend="18057"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Features::MeasureResult::Angle
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.Features.MeasureResult.Angle</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Features.MeasureResult.Angle</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_dirA</edgelabel>
+          <edgelabel>_offsetof_dirB</edgelabel>
+          <edgelabel>_offsetof_isSurfaceNormalA</edgelabel>
+          <edgelabel>_offsetof_isSurfaceNormalB</edgelabel>
+          <edgelabel>_offsetof_pointA</edgelabel>
+          <edgelabel>_offsetof_pointB</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Features</label>
+        <link refid="classmrmeshpy_1_1Features"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_status</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>status</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17990" bodyend="18056"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad757abd712d3b60bbadca720e25f2e71" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a63d039307829fc3d5af8ce3c590d6a4c" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_dirA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a1e06e73078f8c202203a797b739526b5" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_dirB</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a48e37e3c6de7c4f956f4cb4235bf8bc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_isSurfaceNormalA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a10c0b34a31282087cd75b81f36668837" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_isSurfaceNormalB</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a60bbdc40717162a24a7317b038561213" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_pointA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a69c7ce423412a616048d978430d3c0be" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_pointB</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad1d5a91a137e8e4b46918df9847381cb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>computeAngleInRadians</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a5c4fbdc45f55588080323a6180240ab2" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a7ca194ed4ad30325ed6a07dc268e35f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a1a98e7e543ccf6feb8dfc85125459e73" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirB</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af1b1c02ab5a28f4747d069e60d3d540e" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirB</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a279a829c149f36a7ccbc8c95ee7317d7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirFor</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a1023a0f963514fe3cbb14b118ab06ef0" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>isSurfaceNormalA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a0af8c1efd88a6c207d2910c9bcdf5988" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>isSurfaceNormalA</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a173132d2778945f7fd9c3eec62304287" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>isSurfaceNormalFor</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1abec47ca8c5a89739cdea17058a2792a9" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>pointFor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

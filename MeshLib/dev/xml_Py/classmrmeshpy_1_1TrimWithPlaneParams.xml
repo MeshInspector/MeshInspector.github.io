@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TrimWithPlaneParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TrimWithPlaneParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TrimWithPlaneParams_1abe56eba005454c66a65d1adde3a6b4d7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TrimWithPlaneParams::_offsetof_eps</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_eps</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams._offsetof_eps</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TrimWithPlaneParams_1ae8c45ba0300131bb67e8a814b96052b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TrimWithPlaneParams::_offsetof_onEdgeSplitCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeSplitCallback</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams._offsetof_onEdgeSplitCallback</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TrimWithPlaneParams_1aa5e8981081f0cbc775d611c594e835ed" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TrimWithPlaneParams::_offsetof_plane</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_plane</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams._offsetof_plane</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58233" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a2b4af25631682ec9069babbeb7f0b28a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58236" bodyend="58237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a19495111747e1968511679823b162339" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref></type>
+        <definition> TrimWithPlaneParams mrmeshpy.TrimWithPlaneParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58240" bodyend="58241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a19495111747e1968511679823b162339" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref></type>
+        <definition> TrimWithPlaneParams mrmeshpy.TrimWithPlaneParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58244" bodyend="58245"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a959c64e67690e5e8ffe74cd01ab3f5bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58247" bodyend="58248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a0b7ea0cfa88977769e1b6a96676194c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.__init__</definition>
+        <argsstring>(self, TrimWithPlaneParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58250" bodyend="58253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a498013c140dacaeb0686d0772746a664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.__init__</definition>
+        <argsstring>(self, Plane3f plane, float eps, func_void_from_Id_EdgeTag_Id_EdgeTag_float onEdgeSplitCallback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+          <declname>onEdgeSplitCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58255" bodyend="58258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a72de1893332d0970ba7c7877ce6a6582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TrimWithPlaneParams.eps</definition>
+        <argsstring>(self)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58260" bodyend="58263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1aee2b8995a27b7bbe87aac866d7609631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.eps</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58265" bodyend="58266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a04d12c5708ab70703ca021049984c5ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag_float mrmeshpy.TrimWithPlaneParams.onEdgeSplitCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.onEdgeSplitCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58268" bodyend="58271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a005dbb3c53107717916cfaa87d5a5817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.onEdgeSplitCallback</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag_float arg1)</argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.onEdgeSplitCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58273" bodyend="58274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1a499e5e07e6175469f5ae547b6aa77260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.TrimWithPlaneParams.plane</definition>
+        <argsstring>(self)</argsstring>
+        <name>plane</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.plane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Input plane to cut mesh with
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58276" bodyend="58279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrimWithPlaneParams_1af4df101f3d2c914c9bc3d0ec9d080672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrimWithPlaneParams.plane</definition>
+        <argsstring>(self, Plane3f arg1)</argsstring>
+        <name>plane</name>
+        <qualifiedname>mrmeshpy.TrimWithPlaneParams.plane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58281" bodyend="58282"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TrimWithPlaneParams
+
+stores basic params for trimWithPlane function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TrimWithPlaneParams</label>
+        <link refid="classmrmeshpy_1_1TrimWithPlaneParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_eps</edgelabel>
+          <edgelabel>_offsetof_onEdgeSplitCallback</edgelabel>
+          <edgelabel>_offsetof_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58225" bodyend="58282"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a2b4af25631682ec9069babbeb7f0b28a" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a959c64e67690e5e8ffe74cd01ab3f5bd" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a0b7ea0cfa88977769e1b6a96676194c5" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a498013c140dacaeb0686d0772746a664" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1abe56eba005454c66a65d1adde3a6b4d7" prot="protected" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>_offsetof_eps</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1ae8c45ba0300131bb67e8a814b96052b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>_offsetof_onEdgeSplitCallback</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1aa5e8981081f0cbc775d611c594e835ed" prot="protected" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>_offsetof_plane</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a72de1893332d0970ba7c7877ce6a6582" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1aee2b8995a27b7bbe87aac866d7609631" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a04d12c5708ab70703ca021049984c5ca" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a005dbb3c53107717916cfaa87d5a5817" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a19495111747e1968511679823b162339" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a19495111747e1968511679823b162339" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1a499e5e07e6175469f5ae547b6aa77260" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>plane</name></member>
+      <member refid="classmrmeshpy_1_1TrimWithPlaneParams_1af4df101f3d2c914c9bc3d0ec9d080672" prot="public" virt="non-virtual"><scope>mrmeshpy::TrimWithPlaneParams</scope><name>plane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,938 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Color" kind="struct" language="C#" prot="public">
+    <compoundname>MR::Color</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Color &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Color_1a731adcd29979d9ee8a5ce472dbacaff9" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Color.r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>MR.Color.r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="617" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Color_1aeff589268fddaa89281a10042fad230b" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Color.g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>MR.Color.g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="620" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Color_1a0424f11b16ae038911b195ee7422b6bb" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Color.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Color.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="623" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="623" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Color_1a7e2f7fe0cd22f67273ee468aafde1e91" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte MR.Color.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Color.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="626" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="626" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="structMR_1_1Color_1a5c01efad80de2f8591ce04f64582fd94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>readonly unsafe byte</type>
+        <definition>readonly unsafe byte MR.Color.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Color.this[int e]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Color.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="880" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="881" bodyend="891"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1Color_1a514cbe206990554f316af3c69d1f10bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.Color.operator Color</definition>
+        <argsstring>(ConstBox_Color other)</argsstring>
+        <name>operator Color</name>
+        <qualifiedname>MR.Color.operator Color</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Color" kindref="compound">ConstBox_Color</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="631" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a59cfc79b80f1bc52dd81c2d220c7bb9b" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Color.operator MR.Vector4i</definition>
+        <argsstring>(MR.Color _this)</argsstring>
+        <name>operator MR.Vector4i</name>
+        <qualifiedname>MR.Color.operator MR.Vector4i</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.Color.operator <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="727" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="727" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a64bfb92eeedaa024b3e44b1ed5aaab82" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Color.operator MR.Vector4f</definition>
+        <argsstring>(MR.Color _this)</argsstring>
+        <name>operator MR.Vector4f</name>
+        <qualifiedname>MR.Color.operator MR.Vector4f</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.Color.operator <ref refid="structMR_1_1Vector4f" kindref="compound">MR.Vector4f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="737" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="737" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a9a7d86b518d50480373b4ad5119073a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.white</definition>
+        <argsstring>()</argsstring>
+        <name>white</name>
+        <qualifiedname>MR.Color.white</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a9a7d86b518d50480373b4ad5119073a6" kindref="member">MR.Color.white</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="760" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="760" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a3a4dcb18596d43cf10bf75e59ac4462e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.black</definition>
+        <argsstring>()</argsstring>
+        <name>black</name>
+        <qualifiedname>MR.Color.black</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a3a4dcb18596d43cf10bf75e59ac4462e" kindref="member">MR.Color.black</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="770" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="770" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ace33de3a282119e9a1550979c3b0a5ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.gray</definition>
+        <argsstring>()</argsstring>
+        <name>gray</name>
+        <qualifiedname>MR.Color.gray</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1ace33de3a282119e9a1550979c3b0a5ee" kindref="member">MR.Color.gray</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="780" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="780" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a3b603684c6c781f45e44eecad67aca98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.red</definition>
+        <argsstring>()</argsstring>
+        <name>red</name>
+        <qualifiedname>MR.Color.red</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a3b603684c6c781f45e44eecad67aca98" kindref="member">MR.Color.red</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="790" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="790" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a8aee14350e47868f19c7afc2286bfd0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.green</definition>
+        <argsstring>()</argsstring>
+        <name>green</name>
+        <qualifiedname>MR.Color.green</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a8aee14350e47868f19c7afc2286bfd0c" kindref="member">MR.Color.green</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="800" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="800" bodyend="805"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a459f78ef91549de253577fa01f0ca9ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.blue</definition>
+        <argsstring>()</argsstring>
+        <name>blue</name>
+        <qualifiedname>MR.Color.blue</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a459f78ef91549de253577fa01f0ca9ec" kindref="member">MR.Color.blue</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="810" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="810" bodyend="815"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1acc82acf1df4c5566858152cfcc91f6de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.yellow</definition>
+        <argsstring>()</argsstring>
+        <name>yellow</name>
+        <qualifiedname>MR.Color.yellow</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1acc82acf1df4c5566858152cfcc91f6de" kindref="member">MR.Color.yellow</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="820" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="820" bodyend="825"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a6605a7a9d0a035ce6154121de4a06c99" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.brown</definition>
+        <argsstring>()</argsstring>
+        <name>brown</name>
+        <qualifiedname>MR.Color.brown</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a6605a7a9d0a035ce6154121de4a06c99" kindref="member">MR.Color.brown</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="830" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="830" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a98e83f9063316ae3a383de4d51e48633" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.purple</definition>
+        <argsstring>()</argsstring>
+        <name>purple</name>
+        <qualifiedname>MR.Color.purple</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a98e83f9063316ae3a383de4d51e48633" kindref="member">MR.Color.purple</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="840" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="840" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a155493ae061173a85406ecefa16238bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Color.transparent</definition>
+        <argsstring>()</argsstring>
+        <name>transparent</name>
+        <qualifiedname>MR.Color.transparent</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a155493ae061173a85406ecefa16238bd" kindref="member">MR.Color.transparent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="850" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="850" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a5961bfd796054a247fa44dbcdc8240c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>static byte MR.Color.valToUint8</definition>
+        <argsstring>(int val)</argsstring>
+        <name>valToUint8</name>
+        <qualifiedname>MR.Color.valToUint8</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a5961bfd796054a247fa44dbcdc8240c1" kindref="member">MR.Color.valToUint8</ref>&lt;int&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="860" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="860" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a97f95fe4a63e4a33c463311aa2075db9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>static byte MR.Color.valToUint8</definition>
+        <argsstring>(float val)</argsstring>
+        <name>valToUint8</name>
+        <qualifiedname>MR.Color.valToUint8</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a5961bfd796054a247fa44dbcdc8240c1" kindref="member">MR.Color.valToUint8</ref>&lt;float&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="870" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="870" bodyend="875"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a0b563b75817ca27f19c4f2e814350c72" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Color.operator==</definition>
+        <argsstring>(MR.Color a, MR.Color b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Color.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="980" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="980" bodyend="985"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a5bc004d2fc40cdc5cdf6907f13f3986f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Color.operator!=</definition>
+        <argsstring>(MR.Color a, MR.Color b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Color.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="987" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="987" bodyend="990"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a8feb4c3738584b90ad5f5ab6cc0859d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static unsafe MR.Color MR.Color.operator+</definition>
+        <argsstring>(MR.Color a, in MR.Color b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Color.operator+</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="995" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="995" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a6031217d829ee1f09863aefd841eb5a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static unsafe MR.Color MR.Color.operator-</definition>
+        <argsstring>(MR.Color a, in MR.Color b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Color.operator-</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1008" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1008" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a56d6dfc98a8d95a714551babea8f4742" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static unsafe MR.Color MR.Color.operator*</definition>
+        <argsstring>(float a, MR.Color b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Color.operator*</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1021" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1021" bodyend="1026"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a11851c42a92c03fbdaf78c4be0c4ca6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static unsafe MR.Color MR.Color.operator*</definition>
+        <argsstring>(MR.Color b, float a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Color.operator*</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1031" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1031" bodyend="1036"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ad31d8a1d6bd6fabbd02b7fa9aa22c4b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static unsafe MR.Color MR.Color.operator/</definition>
+        <argsstring>(MR.Color b, float a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.Color.operator/</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1041" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1041" bodyend="1046"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Color.Color</definition>
+        <argsstring>(Color _other)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="636" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="636" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ae7b1aceccd25e615a7b2eba9f6691a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>()</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="641" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="641" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ad0726daa5813666b643e2591134da0eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="651" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="651" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ab9761a7add56e5fda153810ccff1d02d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="661" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="661" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ac195bd4aa3f74282952138c907908949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="671" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="671" bodyend="676"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a51232b80b830f76076cc45e395156cf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(float r, float g, float b, float a)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="681" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="681" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a1da3fb32127a691c31d7b3ca4e57d8a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(float r, float g, float b)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="691" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="691" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a0d05dc9fefa30208817e836de1db9289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(in MR.Vector4i vec)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="701" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="701" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a307b4d651534d3f04bb7650e779cb856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Color.Color</definition>
+        <argsstring>(in MR.Vector4f vec)</argsstring>
+        <name>Color</name>
+        <qualifiedname>MR.Color.Color</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4f" kindref="compound">MR.Vector4f</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" kindref="member">MR.Color.Color</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="714" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="714" bodyend="722"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a66b38e1bd6e7a3af0802ce5aa0d83d06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe uint</type>
+        <definition>readonly unsafe uint MR.Color.getUInt32</definition>
+        <argsstring>()</argsstring>
+        <name>getUInt32</name>
+        <qualifiedname>MR.Color.getUInt32</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a66b38e1bd6e7a3af0802ce5aa0d83d06" kindref="member">MR.Color.getUInt32</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="747" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="747" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a9507de3ef26d2f238f3526912e1f38d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref byte</type>
+        <definition>unsafe ref byte MR.Color.index</definition>
+        <argsstring>(int e)</argsstring>
+        <name>index</name>
+        <qualifiedname>MR.Color.index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Color.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="896" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="896" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ad63c17e1f61a663b1c183de06427831c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref MR.Color MR.Color.addAssign</definition>
+        <argsstring>(in MR.Color other)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Color.addAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Color.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="909" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="909" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a877161156933ecb93a2fa59760d32fee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref MR.Color MR.Color.subAssign</definition>
+        <argsstring>(in MR.Color other)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Color.subAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Color.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="925" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="925" bodyend="936"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1addb0a5dc3810d0d64d5755775790547c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref MR.Color MR.Color.mulAssign</definition>
+        <argsstring>(float m)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.Color.mulAssign</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Color.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="941" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="941" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1acc0bd6892860ac1f35c04f3f5519f939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref MR.Color MR.Color.divAssign</definition>
+        <argsstring>(float m)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.Color.divAssign</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Color.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="954" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="954" bodyend="962"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1a952c304d98b18174ea4d3f1b151d99d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>readonly unsafe MR.Color MR.Color.scaledAlpha</definition>
+        <argsstring>(float m)</argsstring>
+        <name>scaledAlpha</name>
+        <qualifiedname>MR.Color.scaledAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Color_1a952c304d98b18174ea4d3f1b151d99d1" kindref="member">MR.Color.scaledAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="967" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="967" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1ae1d150bd030c811b0c01edb9e997792c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Color.Equals</definition>
+        <argsstring>(MR.Color b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Color.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1050" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1050" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Color_1adc4bbafcf99ae7f47d40877b5c9ae4ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Color.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Color.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1055" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1055" bodyend="1062"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Color</label>
+        <link refid="structMR_1_1Color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.Color &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Color</label>
+        <link refid="structMR_1_1Color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.Color &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="614" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="615" bodyend="1063"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Color_1a7e2f7fe0cd22f67273ee468aafde1e91" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>a</name></member>
+      <member refid="structMR_1_1Color_1ad63c17e1f61a663b1c183de06427831c" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>addAssign</name></member>
+      <member refid="structMR_1_1Color_1a0424f11b16ae038911b195ee7422b6bb" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>b</name></member>
+      <member refid="structMR_1_1Color_1a3a4dcb18596d43cf10bf75e59ac4462e" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>black</name></member>
+      <member refid="structMR_1_1Color_1a459f78ef91549de253577fa01f0ca9ec" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>blue</name></member>
+      <member refid="structMR_1_1Color_1a6605a7a9d0a035ce6154121de4a06c99" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>brown</name></member>
+      <member refid="structMR_1_1Color_1a6b44c248166a74960c861df6b6d520ca" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1ae7b1aceccd25e615a7b2eba9f6691a01" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1ad0726daa5813666b643e2591134da0eb" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1ab9761a7add56e5fda153810ccff1d02d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1ac195bd4aa3f74282952138c907908949" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1a51232b80b830f76076cc45e395156cf0" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1a1da3fb32127a691c31d7b3ca4e57d8a7" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1a0d05dc9fefa30208817e836de1db9289" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1a307b4d651534d3f04bb7650e779cb856" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="structMR_1_1Color_1acc0bd6892860ac1f35c04f3f5519f939" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>divAssign</name></member>
+      <member refid="structMR_1_1Color_1ae1d150bd030c811b0c01edb9e997792c" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Equals</name></member>
+      <member refid="structMR_1_1Color_1adc4bbafcf99ae7f47d40877b5c9ae4ca" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Equals</name></member>
+      <member refid="structMR_1_1Color_1aeff589268fddaa89281a10042fad230b" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>g</name></member>
+      <member refid="structMR_1_1Color_1a66b38e1bd6e7a3af0802ce5aa0d83d06" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>getUInt32</name></member>
+      <member refid="structMR_1_1Color_1ace33de3a282119e9a1550979c3b0a5ee" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>gray</name></member>
+      <member refid="structMR_1_1Color_1a8aee14350e47868f19c7afc2286bfd0c" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>green</name></member>
+      <member refid="structMR_1_1Color_1a9507de3ef26d2f238f3526912e1f38d7" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>index</name></member>
+      <member refid="structMR_1_1Color_1addb0a5dc3810d0d64d5755775790547c" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>mulAssign</name></member>
+      <member refid="structMR_1_1Color_1a514cbe206990554f316af3c69d1f10bf" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator Color</name></member>
+      <member refid="structMR_1_1Color_1a64bfb92eeedaa024b3e44b1ed5aaab82" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator MR.Vector4f</name></member>
+      <member refid="structMR_1_1Color_1a59cfc79b80f1bc52dd81c2d220c7bb9b" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator MR.Vector4i</name></member>
+      <member refid="structMR_1_1Color_1a5bc004d2fc40cdc5cdf6907f13f3986f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Color_1a56d6dfc98a8d95a714551babea8f4742" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Color_1a11851c42a92c03fbdaf78c4be0c4ca6d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Color_1a8feb4c3738584b90ad5f5ab6cc0859d3" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator+</name></member>
+      <member refid="structMR_1_1Color_1a6031217d829ee1f09863aefd841eb5a9" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator-</name></member>
+      <member refid="structMR_1_1Color_1ad31d8a1d6bd6fabbd02b7fa9aa22c4b3" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator/</name></member>
+      <member refid="structMR_1_1Color_1a0b563b75817ca27f19c4f2e814350c72" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Color_1a98e83f9063316ae3a383de4d51e48633" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>purple</name></member>
+      <member refid="structMR_1_1Color_1a731adcd29979d9ee8a5ce472dbacaff9" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>r</name></member>
+      <member refid="structMR_1_1Color_1a3b603684c6c781f45e44eecad67aca98" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>red</name></member>
+      <member refid="structMR_1_1Color_1a952c304d98b18174ea4d3f1b151d99d1" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>scaledAlpha</name></member>
+      <member refid="structMR_1_1Color_1a877161156933ecb93a2fa59760d32fee" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>subAssign</name></member>
+      <member refid="structMR_1_1Color_1a5c01efad80de2f8591ce04f64582fd94" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>this[int e]</name></member>
+      <member refid="structMR_1_1Color_1a155493ae061173a85406ecefa16238bd" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>transparent</name></member>
+      <member refid="structMR_1_1Color_1a5961bfd796054a247fa44dbcdc8240c1" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>valToUint8</name></member>
+      <member refid="structMR_1_1Color_1a97f95fe4a63e4a33c463311aa2075db9" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>valToUint8</name></member>
+      <member refid="structMR_1_1Color_1a9a7d86b518d50480373b4ad5119073a6" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>white</name></member>
+      <member refid="structMR_1_1Color_1acc82acf1df4c5566858152cfcc91f6de" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>yellow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

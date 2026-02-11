@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsLoad::DicomVolume</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1acd941b2f5ed881119308a8d8cca97507" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomVolume::_offsetof_name</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_name</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume._offsetof_name</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1ac54aed6cda1633ee0b7b2124790c18a9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomVolume::_offsetof_vol</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vol</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume._offsetof_vol</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1aeb0c353857cab3cfbd4ec5eba051b878" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomVolume::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume._offsetof_xf</qualifiedname>
+        <initializer>=  88</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73205" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a8cef5494382c7b739658c27cf2311c8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.DicomVolume.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73211" bodyend="73212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a094e4a1bcc80cfc3908c4b00f62da522" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">VoxelsLoad.DicomVolume</ref></type>
+        <definition> VoxelsLoad.DicomVolume mrmeshpy.VoxelsLoad.DicomVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73215" bodyend="73216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a094e4a1bcc80cfc3908c4b00f62da522" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">VoxelsLoad.DicomVolume</ref></type>
+        <definition> VoxelsLoad.DicomVolume mrmeshpy.VoxelsLoad.DicomVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73219" bodyend="73220"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1ae2da77e79fbe3c48b8b3411aa3307a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.DicomVolume.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73222" bodyend="73223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a899d430d9c509105e284117e14cb5b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.DicomVolume.__init__</definition>
+        <argsstring>(self, VoxelsLoad.DicomVolume arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">VoxelsLoad.DicomVolume</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73225" bodyend="73228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1af6f511dcc10bd0e3bc05d5008274c9f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.DicomVolume.__init__</definition>
+        <argsstring>(self, SimpleVolumeMinMax vol, str name, AffineXf3f xf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73230" bodyend="73234"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelsLoad::DicomVolume
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsLoad.DicomVolume</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_name</edgelabel>
+          <edgelabel>_offsetof_vol</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73199" bodyend="73233"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a8cef5494382c7b739658c27cf2311c8e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1ae2da77e79fbe3c48b8b3411aa3307a7e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a899d430d9c509105e284117e14cb5b3a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1af6f511dcc10bd0e3bc05d5008274c9f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1acd941b2f5ed881119308a8d8cca97507" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>_offsetof_name</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1ac54aed6cda1633ee0b7b2124790c18a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>_offsetof_vol</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1aeb0c353857cab3cfbd4ec5eba051b878" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a094e4a1bcc80cfc3908c4b00f62da522" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume_1a094e4a1bcc80cfc3908c4b00f62da522" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolume</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

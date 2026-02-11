@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonFontHolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonFontHolder</compoundname>
+    <includes refid="MRRibbonFontHolder_8h" local="no">MRRibbonFontHolder.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonFontHolder_1a00db004405c2640b76d7b1f93a74adce" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonFontHolder::pushed_</definition>
+        <argsstring></argsstring>
+        <name>pushed_</name>
+        <qualifiedname>MR::RibbonFontHolder::pushed_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonFontHolder_1ac4b6bb78dd407c89f9bfc0923089f0b5" prot="private" static="no" mutable="no">
+        <type>ImFont *</type>
+        <definition>ImFont* MR::RibbonFontHolder::font_</definition>
+        <argsstring></argsstring>
+        <name>font_</name>
+        <qualifiedname>MR::RibbonFontHolder::font_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="29" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonFontHolder_1a8b10e7e5462914c59328484de31f7e31" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonFontHolder::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>MR::RibbonFontHolder::size_</qualifiedname>
+        <initializer>= 13.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1af0af616e535b5b8465fd39dc3c0dca7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonFontHolder::RibbonFontHolder</definition>
+        <argsstring>(const RibbonFontManager::FontType &amp;fontType)</argsstring>
+        <name>RibbonFontHolder</name>
+        <qualifiedname>MR::RibbonFontHolder::RibbonFontHolder</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">RibbonFontManager::FontType</ref> &amp;</type>
+          <declname>fontType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ctors getting font and size by ribbon font type and push it in <ref refid="namespaceImGui" kindref="compound">ImGui</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="14" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1af9cef616058336c1ea91ef2cf09ee532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonFontHolder::RibbonFontHolder</definition>
+        <argsstring>(const RibbonFontManager::FontType &amp;fontType, float scale)</argsstring>
+        <name>RibbonFontHolder</name>
+        <qualifiedname>MR::RibbonFontHolder::RibbonFontHolder</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">RibbonFontManager::FontType</ref> &amp;</type>
+          <declname>fontType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="15" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1a7f065e527cc03a9623b0061f6502f706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonFontHolder::RibbonFontHolder</definition>
+        <argsstring>(const RibbonFontManager::FontType &amp;fontType, float scale, bool pushOnCreate)</argsstring>
+        <name>RibbonFontHolder</name>
+        <qualifiedname>MR::RibbonFontHolder::RibbonFontHolder</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4" kindref="member">RibbonFontManager::FontType</ref> &amp;</type>
+          <declname>fontType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>pushOnCreate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="16" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1a01d7c5ec74d3ee429c64967a81e71cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonFontHolder::~RibbonFontHolder</definition>
+        <argsstring>()</argsstring>
+        <name>~RibbonFontHolder</name>
+        <qualifiedname>MR::RibbonFontHolder::~RibbonFontHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="17" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1ae6d4d6f3f149d751840adfad266736ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonFontHolder::pushFont</definition>
+        <argsstring>()</argsstring>
+        <name>pushFont</name>
+        <qualifiedname>MR::RibbonFontHolder::pushFont</qualifiedname>
+        <briefdescription>
+<para>check the font for existence and push it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="20" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1abeb629595a49f75cd578384fc67685c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonFontHolder::popFont</definition>
+        <argsstring>()</argsstring>
+        <name>popFont</name>
+        <qualifiedname>MR::RibbonFontHolder::popFont</qualifiedname>
+        <briefdescription>
+<para>check the font for existence and pop it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="23" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonFontHolder_1ae7f38353c705231ad0e835fdb1d8660d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonFontHolder::isPushed</definition>
+        <argsstring>()</argsstring>
+        <name>isPushed</name>
+        <qualifiedname>MR::RibbonFontHolder::isPushed</qualifiedname>
+        <briefdescription>
+<para>font is pushed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class for convenient use of ImGui::PushFont / ImGui::PopFont with ribbon fonts </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" bodystart="10" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonFontHolder_1ac4b6bb78dd407c89f9bfc0923089f0b5" prot="private" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>font_</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1ae7f38353c705231ad0e835fdb1d8660d" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>isPushed</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1abeb629595a49f75cd578384fc67685c1" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>popFont</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1a00db004405c2640b76d7b1f93a74adce" prot="private" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>pushed_</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1ae6d4d6f3f149d751840adfad266736ee" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>pushFont</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1af0af616e535b5b8465fd39dc3c0dca7c" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>RibbonFontHolder</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1af9cef616058336c1ea91ef2cf09ee532" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>RibbonFontHolder</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1a7f065e527cc03a9623b0061f6502f706" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>RibbonFontHolder</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1a8b10e7e5462914c59328484de31f7e31" prot="private" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>size_</name></member>
+      <member refid="classMR_1_1RibbonFontHolder_1a01d7c5ec74d3ee429c64967a81e71cd6" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>~RibbonFontHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgePathsAStarBuilder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgePathsAStarBuilder</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty" prot="public" virt="non-virtual">mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsAStarBuilder_1ae29345f6a720297aaee20b521547094d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePathsAStarBuilder.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15020" bodyend="15021"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsAStarBuilder_1abc66149b3356cc5985bc981077f66742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePathsAStarBuilder.__init__</definition>
+        <argsstring>(self, Mesh mesh, VertId target, VertId start)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15023" bodyend="15024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsAStarBuilder_1a9d1028e0e041097e13f18d108d6089b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePathsAStarBuilder.__init__</definition>
+        <argsstring>(self, Mesh mesh, MeshTriPoint target, MeshTriPoint start)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15026" bodyend="15027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsAStarBuilder_1a68438cc7012b1c89ba3857306c4d0941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePathsAStarBuilder.__init__</definition>
+        <argsstring>(self, EdgePathsAStarBuilder arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePathsAStarBuilder" kindref="compound">EdgePathsAStarBuilder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15029" bodyend="15032"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgePathsAStarBuilder
+
+the class is responsible for finding shortest edge paths on a mesh in Euclidean metric
+using A* heuristics
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.EdgePathsAStarBuilder</label>
+        <link refid="classmrmeshpy_1_1EdgePathsAStarBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty</label>
+        <link refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgePathsAStarBuilder</label>
+        <link refid="classmrmeshpy_1_1EdgePathsAStarBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty</label>
+        <link refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15011" bodyend="15032"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1ae29345f6a720297aaee20b521547094d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1abc66149b3356cc5985bc981077f66742" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1a9d1028e0e041097e13f18d108d6089b4" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1a68438cc7012b1c89ba3857306c4d0941" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

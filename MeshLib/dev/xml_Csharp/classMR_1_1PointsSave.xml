@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointsSave" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointsSave</compoundname>
+    <innerclass refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public">MR::PointsSave::CtmSavePointsOptions</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toCtm</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.PointsSave.Const_CtmSavePointsOptions options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.PointsSave.Const_CtmSavePointsOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>saves in .ctm file Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" kindref="member">MR.PointsSave.toCtm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1333" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1333" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1adbff1d89ed9f645278007ccf7d97cb0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toCtm</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.Std.Ostream out_, MR.PointsSave.Const_CtmSavePointsOptions options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.PointsSave.Const_CtmSavePointsOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" kindref="member">MR.PointsSave.toCtm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1349" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1349" bodyend="1356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a691a7c68c14a79470f818346d56ce25a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toCtm</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" kindref="member">MR.PointsSave.toCtm</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1362" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1362" bodyend="1373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1aabbd754fc04eb93dc74717a13b1a6749" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toCtm</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" kindref="member">MR.PointsSave.toCtm</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1379" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1379" bodyend="1386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1acd7df9eadd5b7bc7b589715397d749cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toXyz</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toXyz</name>
+        <qualifiedname>MR.PointsSave.toXyz</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>save points without normals in textual .xyz file; each output line contains [x, y, z], where x, y, z are point coordinates Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1acd7df9eadd5b7bc7b589715397d749cb" kindref="member">MR.PointsSave.toXyz</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="11" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="11" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1ab7bbf7fab105dc0b445ec96b6d3d001f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toXyz</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toXyz</name>
+        <qualifiedname>MR.PointsSave.toXyz</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1acd7df9eadd5b7bc7b589715397d749cb" kindref="member">MR.PointsSave.toXyz</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="28" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1abe86cade2e964250af0109853a6dfc7e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toXyzn</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toXyzn</name>
+        <qualifiedname>MR.PointsSave.toXyzn</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>save points with normals in textual .xyzn file; each output line contains [x, y, z, nx, ny, nz], where x, y, z are point coordinates and nx, ny, nz are the components of point normal Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1abe86cade2e964250af0109853a6dfc7e" kindref="member">MR.PointsSave.toXyzn</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="43" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="43" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a68ea6ab6a8d9f354e3833a57161b1d1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toXyzn</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toXyzn</name>
+        <qualifiedname>MR.PointsSave.toXyzn</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1abe86cade2e964250af0109853a6dfc7e" kindref="member">MR.PointsSave.toXyzn</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="60" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a37956bdfb7f7022653a3239119763991" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toAsc</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAsc</name>
+        <qualifiedname>MR.PointsSave.toAsc</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>save points with normals in .xyzn format, and save points without normals in .xyz format Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a37956bdfb7f7022653a3239119763991" kindref="member">MR.PointsSave.toAsc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="74" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="74" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a2f3f45cbb3c3210659927d349c93113d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toAsc</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAsc</name>
+        <qualifiedname>MR.PointsSave.toAsc</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a37956bdfb7f7022653a3239119763991" kindref="member">MR.PointsSave.toAsc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="91" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a783d76da6ef042876209dca604c89a3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toPly</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR.PointsSave.toPly</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in .ply file Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a783d76da6ef042876209dca604c89a3d" kindref="member">MR.PointsSave.toPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="105" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1aac41fe43832ca8916429f4d07c899878" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toPly</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR.PointsSave.toPly</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1a783d76da6ef042876209dca604c89a3d" kindref="member">MR.PointsSave.toPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="122" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1acf3808f220288d8e2eb322198d04f881" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_PointCloud points, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.PointsSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and save points to it Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1acf3808f220288d8e2eb322198d04f881" kindref="member">MR.PointsSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="136" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="136" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a7e482985a7a82dc630a58ba71b686485" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.PointsSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_PointCloud points, string extension, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.PointsSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>extension in <computeroutput>*.ext</computeroutput> format Generated from function <computeroutput><ref refid="classMR_1_1PointsSave_1acf3808f220288d8e2eb322198d04f881" kindref="member">MR.PointsSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="154" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="154" bodyend="165"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="615" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="4" bodyend="166"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointsSave_1acf3808f220288d8e2eb322198d04f881" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1PointsSave_1a7e482985a7a82dc630a58ba71b686485" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1PointsSave_1a37956bdfb7f7022653a3239119763991" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toAsc</name></member>
+      <member refid="classMR_1_1PointsSave_1a2f3f45cbb3c3210659927d349c93113d" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toAsc</name></member>
+      <member refid="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1PointsSave_1adbff1d89ed9f645278007ccf7d97cb0d" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1PointsSave_1a691a7c68c14a79470f818346d56ce25a" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1PointsSave_1aabbd754fc04eb93dc74717a13b1a6749" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1PointsSave_1a783d76da6ef042876209dca604c89a3d" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toPly</name></member>
+      <member refid="classMR_1_1PointsSave_1aac41fe43832ca8916429f4d07c899878" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toPly</name></member>
+      <member refid="classMR_1_1PointsSave_1acd7df9eadd5b7bc7b589715397d749cb" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toXyz</name></member>
+      <member refid="classMR_1_1PointsSave_1ab7bbf7fab105dc0b445ec96b6d3d001f" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toXyz</name></member>
+      <member refid="classMR_1_1PointsSave_1abe86cade2e964250af0109853a6dfc7e" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toXyzn</name></member>
+      <member refid="classMR_1_1PointsSave_1a68ea6ab6a8d9f354e3833a57161b1d1c" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toXyzn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

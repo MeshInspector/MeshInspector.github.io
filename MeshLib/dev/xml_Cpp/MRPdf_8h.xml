@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPdf_8h" kind="file" language="C++">
+    <compoundname>MRPdf.h</compoundname>
+    <includes refid="MRIOExtras_2config_8h" local="yes">config.h</includes>
+    <includes local="yes">exports.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRVector2_8h" local="yes">MRMesh/MRVector2.h</includes>
+    <includes refid="MRBox_8h" local="yes">MRMesh/MRBox.h</includes>
+    <includes refid="MRColor_8h" local="yes">MRMesh/MRColor.h</includes>
+    <includes refid="MRImage_8h" local="yes">MRMesh/MRImage.h</includes>
+    <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">variant</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPdf.h</label>
+        <link refid="MRPdf_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>config.h</label>
+        <link refid="MRIOExtras_2config_8h"/>
+      </node>
+      <node id="29">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MRMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="35">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRHeapBytes.h</label>
+        <link refid="MRHeapBytes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRMesh/MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="26">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="39">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="19">
+        <label>algorithm</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="20">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cstddef</label>
+      </node>
+      <node id="21">
+        <label>cstring</label>
+      </node>
+      <node id="3">
+        <label>exports.h</label>
+      </node>
+      <node id="40">
+        <label>filesystem</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="22">
+        <label>iosfwd</label>
+      </node>
+      <node id="31">
+        <label>limits</label>
+      </node>
+      <node id="37">
+        <label>memory</label>
+      </node>
+      <node id="42">
+        <label>optional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="18">
+        <label>type_traits</label>
+      </node>
+      <node id="23">
+        <label>utility</label>
+      </node>
+      <node id="41">
+        <label>variant</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1PdfParameters" prot="public">MR::PdfParameters</innerclass>
+    <innerclass refid="classMR_1_1Pdf" prot="public">MR::Pdf</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1TextParams" prot="public">MR::Pdf::TextParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1PaletteRowStats" prot="public">MR::Pdf::PaletteRowStats</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1ImageParams" prot="public">MR::Pdf::ImageParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1Cell" prot="public">MR::Pdf::Cell</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1Cell_1_1Empty" prot="public">MR::Pdf::Cell::Empty</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1CellCustomParams" prot="public">MR::Pdf::CellCustomParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1TextCellParams" prot="public">MR::Pdf::TextCellParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1ColumnInfo" prot="private">MR::Pdf::ColumnInfo</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1TableGeneralParams" prot="private">MR::Pdf::TableGeneralParams</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRIOExtras_2config_8h" kindref="compound">config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRIOEXTRAS_NO_PDF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRMesh/MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBox_8h" kindref="compound">MRMesh/MRBox.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRColor_8h" kindref="compound">MRMesh/MRColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImage_8h" kindref="compound">MRMesh/MRImage.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562" kindref="member">PdfBuildinFont</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91" kindref="member">Courier</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45" kindref="member">CourierBold</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562aa66e799dd8107ba13fbd4a597e85eb59" kindref="member">CourierOblique</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562af0a2b85c296fc058c759b1f33329ca61" kindref="member">CourierBoldOblique</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894" kindref="member">Helvetica</ref>,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509" kindref="member">HelveticaBold</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a0e06d7b4c97d36685f662380b83e33b0" kindref="member">HelveticaOblique</ref>,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562acceb963436af58f047d7b754a3840c95" kindref="member">HelveticaBoldOblique</ref>,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562afa6004157a474ea805414a5b897240ce" kindref="member">TimesRoman</ref>,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a92de2f3d11895b35fc3700a6f0b9fc5e" kindref="member">TimesBold</ref>,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a0ce01fdd3bf91a4e641b9bf9e9f58335" kindref="member">TimesItalic</ref>,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a88588f5c7476077230f94634d2e75fbd" kindref="member">TimesBoldItalic</ref>,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a02c86eb2792f3262c21d030a87e19793" kindref="member">Symbol</ref>,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562adae058d33af7adc6257c9e4cd2085c9b" kindref="member">ZapfDingbats</ref>,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref><sp/>=<sp/>std::variant&lt;PdfBuildinFont,<sp/>std::filesystem::path&gt;;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structMR_1_1PdfParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49" refid="structMR_1_1PdfParameters_1a5bbd653c0d1a0fb7db070974d90a791e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PdfParameters_1a5bbd653c0d1a0fb7db070974d90a791e" kindref="member">titleSize</ref><sp/>=<sp/>18.f;</highlight></codeline>
+<codeline lineno="50" refid="structMR_1_1PdfParameters_1a7e22b490f619a059c622635844a59e4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PdfParameters_1a7e22b490f619a059c622635844a59e4b" kindref="member">textSize</ref><sp/>=<sp/>14.f;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1PdfParameters_1a7fb7f545bd61a5042cdee1e61f97db3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref><sp/><ref refid="structMR_1_1PdfParameters_1a7fb7f545bd61a5042cdee1e61f97db3b" kindref="member">defaultFont</ref><sp/>=<sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894" kindref="member">PdfBuildinFont::Helvetica</ref>;</highlight></codeline>
+<codeline lineno="56" refid="structMR_1_1PdfParameters_1a82fb3310291f6dec673c248905b9f0dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref><sp/><ref refid="structMR_1_1PdfParameters_1a82fb3310291f6dec673c248905b9f0dc" kindref="member">defaultFontBold</ref><sp/>=<sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509" kindref="member">PdfBuildinFont::HelveticaBold</ref>;</highlight></codeline>
+<codeline lineno="60" refid="structMR_1_1PdfParameters_1aafdf0267b27a923d80ab96f114d2fcfe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref><sp/><ref refid="structMR_1_1PdfParameters_1aafdf0267b27a923d80ab96f114d2fcfe" kindref="member">tableFont</ref><sp/>=<sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91" kindref="member">PdfBuildinFont::Courier</ref>;</highlight></codeline>
+<codeline lineno="61" refid="structMR_1_1PdfParameters_1abd6876673f453aef907357a9eceb4996" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref><sp/><ref refid="structMR_1_1PdfParameters_1abd6876673f453aef907357a9eceb4996" kindref="member">tableFontBold</ref><sp/>=<sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45" kindref="member">PdfBuildinFont::CourierBold</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classMR_1_1Pdf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="71" refid="classMR_1_1Pdf_1a9f0c7ef105e92a128194a9adfc92d221" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="classMR_1_1Pdf_1a9f0c7ef105e92a128194a9adfc92d221" kindref="member">Pdf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref>&amp;<sp/>params<sp/>=<sp/><ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="72" refid="classMR_1_1Pdf_1aee0d3ee8980ff7e8cfd1d6e28aee30a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="classMR_1_1Pdf_1aee0d3ee8980ff7e8cfd1d6e28aee30a0" kindref="member">Pdf</ref>(<sp/><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref>&amp;&amp;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73" refid="classMR_1_1Pdf_1a1daea35a2c1a89104e601e2698703aa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref>&amp;<sp/><ref refid="classMR_1_1Pdf_1a1daea35a2c1a89104e601e2698703aa3" kindref="member">operator=</ref>(<sp/><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref><sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="75" refid="classMR_1_1Pdf_1ae6fd1a7d1d29456ea75c56e4266869b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="classMR_1_1Pdf_1ae6fd1a7d1d29456ea75c56e4266869b6" kindref="member">~Pdf</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" kindref="member">AlignmentHorizontal</ref></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" kindref="member">Left</ref>,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a4f1f6016fc9f3f2353c0cc7c67b292bd" kindref="member">Center</ref>,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a92b09c7c48c520c3c55e497875da437c" kindref="member">Right</ref></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="structMR_1_1Pdf_1_1TextParams" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87" refid="structMR_1_1Pdf_1_1TextParams_1ae37577c1d2cc7fb3e4455bb283a8e4b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref><sp/><ref refid="structMR_1_1Pdf_1_1TextParams_1ae37577c1d2cc7fb3e4455bb283a8e4b1" kindref="member">fontName</ref><sp/>=<sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894" kindref="member">PdfBuildinFont::Helvetica</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="structMR_1_1Pdf_1_1TextParams_1a1aadfe2a66b4a923bc30460ceb9619c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextParams_1a1aadfe2a66b4a923bc30460ceb9619c7" kindref="member">fontSize</ref><sp/>=<sp/>14.f;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="structMR_1_1Pdf_1_1TextParams_1adfd5808f6da074893b078d1ad9e386e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" kindref="member">AlignmentHorizontal</ref><sp/><ref refid="structMR_1_1Pdf_1_1TextParams_1adfd5808f6da074893b078d1ad9e386e5" kindref="member">alignment</ref><sp/>=<sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" kindref="member">AlignmentHorizontal::Left</ref>;</highlight></codeline>
+<codeline lineno="92" refid="structMR_1_1Pdf_1_1TextParams_1a4af1de87818d3fbdfa3bbc486b6291ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1Pdf_1_1TextParams_1a4af1de87818d3fbdfa3bbc486b6291ec" kindref="member">colorText</ref><sp/>=<sp/><ref refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" kindref="member">Color::black</ref>();</highlight></codeline>
+<codeline lineno="93" refid="structMR_1_1Pdf_1_1TextParams_1a7d18ee945388f340f174e73ce3ff798a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextParams_1a7d18ee945388f340f174e73ce3ff798a" kindref="member">underline</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="103" refid="classMR_1_1Pdf_1a291a56e9861b5beebfbdc37e96ed0a18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a291a56e9861b5beebfbdc37e96ed0a18" kindref="member">addText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTitle<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="104" refid="classMR_1_1Pdf_1a228772361fdf3d86347b01387e931dcd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a228772361fdf3d86347b01387e931dcd" kindref="member">addText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="106" refid="classMR_1_1Pdf_1a5a380fcfda1b84fd2e540a00bfd65b9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a5a380fcfda1b84fd2e540a00bfd65b9e" kindref="member">getTextWidth</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classMR_1_1Pdf_1abeba0e412b8eb52c6291c259c2433368" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1abeba0e412b8eb52c6291c259c2433368" kindref="member">addTable</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::pair&lt;std::string,<sp/>float&gt;&gt;&amp;<sp/>table<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="structMR_1_1Pdf_1_1PaletteRowStats" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1PaletteRowStats" kindref="compound">PaletteRowStats</ref></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118" refid="structMR_1_1Pdf_1_1PaletteRowStats_1ad16f18f7413f0487a950bb1e6569f3b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1Pdf_1_1PaletteRowStats_1ad16f18f7413f0487a950bb1e6569f3b1" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="119" refid="structMR_1_1Pdf_1_1PaletteRowStats_1a06cbe19e05a2c7b2fb23dc160f2ab510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1Pdf_1_1PaletteRowStats_1a06cbe19e05a2c7b2fb23dc160f2ab510" kindref="member">rangeMin</ref>;</highlight></codeline>
+<codeline lineno="120" refid="structMR_1_1Pdf_1_1PaletteRowStats_1a26b71623786defb48ca842a2c3e7ac63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1Pdf_1_1PaletteRowStats_1a26b71623786defb48ca842a2c3e7ac63" kindref="member">rangeMax</ref>;</highlight></codeline>
+<codeline lineno="121" refid="structMR_1_1Pdf_1_1PaletteRowStats_1aec6ce7577cd6d9f231958302aef384c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1Pdf_1_1PaletteRowStats_1aec6ce7577cd6d9f231958302aef384c7" kindref="member">percent</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="123" refid="classMR_1_1Pdf_1a77343f24e2ba4af1f5eb5d348ffd9f89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a77343f24e2ba4af1f5eb5d348ffd9f89" kindref="member">addPaletteStatsTable</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;PaletteRowStats&gt;&amp;<sp/>paletteStats<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="structMR_1_1Pdf_1_1ImageParams" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131" refid="structMR_1_1Pdf_1_1ImageParams_1a5fa291c3e88b0bf52170920882cf86af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2f<sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1a5fa291c3e88b0bf52170920882cf86af" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="133" refid="structMR_1_1Pdf_1_1ImageParams_1a014a28da293c9397a11d389e7e6659f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1a014a28da293c9397a11d389e7e6659f0" kindref="member">caption</ref>;</highlight></codeline>
+<codeline lineno="135" refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361f" kindref="member">UniformScale</ref></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fae82836abadfb4090798de99270897263" kindref="member">FromWidth</ref>,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406" kindref="member">FromHeight</ref>,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb" kindref="member">Auto</ref>,</highlight></codeline>
+<codeline lineno="141" refid="structMR_1_1Pdf_1_1ImageParams_1a2e2b7315c96386e1c4bf6ac6358ebd12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1a2e2b7315c96386e1c4bf6ac6358ebd12" kindref="member">uniformScale</ref><sp/>=<sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">UniformScale::None</ref>;</highlight></codeline>
+<codeline lineno="142" refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608da" kindref="member">AlignmentVertical</ref></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00" kindref="member">Top</ref>,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd" kindref="member">Center</ref>,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4" kindref="member">Bottom</ref></highlight></codeline>
+<codeline lineno="147" refid="structMR_1_1Pdf_1_1ImageParams_1a4539cd7cb0d2e7178a1c788e1ce4c43b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1a4539cd7cb0d2e7178a1c788e1ce4c43b" kindref="member">alignmentVertical</ref><sp/>=<sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00" kindref="member">AlignmentVertical::Top</ref>;</highlight></codeline>
+<codeline lineno="148" refid="structMR_1_1Pdf_1_1ImageParams_1a843c1626b5d850e2a8fef83bc77b097e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" kindref="member">AlignmentHorizontal</ref><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams_1a843c1626b5d850e2a8fef83bc77b097e" kindref="member">alignmentHorizontal</ref><sp/>=<sp/><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" kindref="member">AlignmentHorizontal::Left</ref>;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="155" refid="classMR_1_1Pdf_1a4039adc925552c73016c055ff4af499a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a4039adc925552c73016c055ff4af499a" kindref="member">addImageFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>imagePath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="156" refid="classMR_1_1Pdf_1ab5a8f63787fc46e9ce3d55e4589b934a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1ab5a8f63787fc46e9ce3d55e4589b934a" kindref="member">addImage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="classMR_1_1Pdf_1a6b4f163cd54edddf7ed416f248944a41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a6b4f163cd54edddf7ed416f248944a41" kindref="member">newPage</ref>();</highlight></codeline>
+<codeline lineno="161" refid="classMR_1_1Pdf_1ae8f3b5dc8632f9d2f88485100f9295aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1ae8f3b5dc8632f9d2f88485100f9295aa" kindref="member">setNewPageAction</ref>(<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref>&amp;)&gt;<sp/>action<sp/>)<sp/>{<sp/>newPageAction_<sp/>=<sp/><sp/>action;<sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="classMR_1_1Pdf_1abc9ed95ae6e1716fd51587b19efa6e06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1abc9ed95ae6e1716fd51587b19efa6e06" kindref="member">saveToFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>documentPath<sp/>);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="classMR_1_1Pdf_1a2d50ce4fd99aacbb45dbd1c55bcaef48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a2d50ce4fd99aacbb45dbd1c55bcaef48" kindref="member">setCursorPosX</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posX<sp/>)<sp/>{<sp/>cursorX_<sp/>=<sp/>posX;<sp/>}</highlight></codeline>
+<codeline lineno="167" refid="classMR_1_1Pdf_1abf4d77cea93bab673b2b6cf427789622" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1abf4d77cea93bab673b2b6cf427789622" kindref="member">setCursorPosY</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>posY<sp/>)<sp/>{<sp/>cursorY_<sp/>=<sp/>posY;<sp/>}</highlight></codeline>
+<codeline lineno="168" refid="classMR_1_1Pdf_1a2838fe45692b53926281ae909994b4b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a2838fe45692b53926281ae909994b4b1" kindref="member">getCursorPosX</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cursorX_;<sp/>}</highlight></codeline>
+<codeline lineno="169" refid="classMR_1_1Pdf_1a1cd00e797b07d3531ab22317e4a70e89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a1cd00e797b07d3531ab22317e4a70e89" kindref="member">getCursorPosY</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cursorY_;<sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="classMR_1_1Pdf_1ad7472fd24c463fd3ed5142556cabfcda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/>Vector2f<sp/><ref refid="classMR_1_1Pdf_1ad7472fd24c463fd3ed5142556cabfcda" kindref="member">getPageSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="172" refid="classMR_1_1Pdf_1a7d54d322194dad2bad57577d5cba8ccf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/>Box2f<sp/><ref refid="classMR_1_1Pdf_1a7d54d322194dad2bad57577d5cba8ccf" kindref="member">getPageWorkArea</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="classMR_1_1Pdf_1a1dd5556a4f0d253153c5fe0bd80ceab3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="structMR_1_1Pdf_1_1Cell" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1Cell" kindref="compound">Cell</ref><sp/>{</highlight></codeline>
+<codeline lineno="181" refid="structMR_1_1Pdf_1_1Cell_1_1Empty" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1Cell_1_1Empty" kindref="compound">Empty</ref><sp/>{};</highlight></codeline>
+<codeline lineno="182" refid="structMR_1_1Pdf_1_1Cell_1a11f4309f8b48462540606b19536b4836" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1Cell_1a11f4309f8b48462540606b19536b4836" kindref="member">Value</ref><sp/>=<sp/>std::variant&lt;int,<sp/>float,<sp/>bool,<sp/>std::string,<sp/>Empty&gt;;</highlight></codeline>
+<codeline lineno="183" refid="structMR_1_1Pdf_1_1Cell_1a493cf4937d5c960a9eff2b4e3333167b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1Cell_1a11f4309f8b48462540606b19536b4836" kindref="member">Value</ref><sp/><ref refid="structMR_1_1Pdf_1_1Cell_1a493cf4937d5c960a9eff2b4e3333167b" kindref="member">data</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="structMR_1_1Pdf_1_1Cell_1a77c0ec7f4b0ac8b4b7d7bf1cc40fca07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1Cell_1a77c0ec7f4b0ac8b4b7d7bf1cc40fca07" kindref="member">Cell</ref>()<sp/>:<sp/><ref refid="structMR_1_1Pdf_1_1Cell_1a493cf4937d5c960a9eff2b4e3333167b" kindref="member">data</ref>(<sp/><ref refid="structMR_1_1Pdf_1_1Cell_1_1Empty" kindref="compound">Empty</ref>()<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="188" refid="structMR_1_1Pdf_1_1Cell_1a245d62df8e188f91420e92890664e866" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1Cell_1a245d62df8e188f91420e92890664e866" kindref="member">Cell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>value<sp/>)<sp/>:<sp/><ref refid="structMR_1_1Pdf_1_1Cell_1a493cf4937d5c960a9eff2b4e3333167b" kindref="member">data</ref>(<sp/>value<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="192" refid="structMR_1_1Pdf_1_1Cell_1adf83c6877ea9956dff59089e40cb956d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/>std::string<sp/><ref refid="structMR_1_1Pdf_1_1Cell_1adf83c6877ea9956dff59089e40cb956d" kindref="member">toString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>fmtStr<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="195" refid="classMR_1_1Pdf_1a261bf8bbc1276a8db04b94833e6d4f72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a261bf8bbc1276a8db04b94833e6d4f72" kindref="member">newTable</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>columnCount<sp/>);</highlight></codeline>
+<codeline lineno="197" refid="classMR_1_1Pdf_1ac86cc8971f93f1f4b2aef2eace885b2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Pdf_1ac86cc8971f93f1f4b2aef2eace885b2b" kindref="member">setTableColumnWidths</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>widths<sp/>);</highlight></codeline>
+<codeline lineno="199" refid="classMR_1_1Pdf_1afaf69d5e8800ddef0ab9968082cc1da8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Pdf_1afaf69d5e8800ddef0ab9968082cc1da8" kindref="member">addTableTitles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>titles<sp/>);</highlight></codeline>
+<codeline lineno="201" refid="classMR_1_1Pdf_1a46f8ba492e1e579c5577c40304761698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Pdf_1a46f8ba492e1e579c5577c40304761698" kindref="member">setColumnValuesFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>formats<sp/>);</highlight></codeline>
+<codeline lineno="203" refid="classMR_1_1Pdf_1ab32723b16f57913d8b0edd654da12d4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Pdf_1ab32723b16f57913d8b0edd654da12d4a" kindref="member">addRow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Cell&gt;&amp;<sp/>cells<sp/>);</highlight></codeline>
+<codeline lineno="206" refid="classMR_1_1Pdf_1ad1c742e73c20c57c86e24c5cb37a9b6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1ad1c742e73c20c57c86e24c5cb37a9b6e" kindref="member">getTableTextWidth</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text<sp/>);</highlight></codeline>
+<codeline lineno="207" refid="structMR_1_1Pdf_1_1CellCustomParams" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1CellCustomParams" kindref="compound">CellCustomParams</ref></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209" refid="structMR_1_1Pdf_1_1CellCustomParams_1a8da0806f9e4216beecedc92f0af5e48c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="structMR_1_1Pdf_1_1CellCustomParams_1a8da0806f9e4216beecedc92f0af5e48c" kindref="member">colorText</ref>;</highlight></codeline>
+<codeline lineno="210" refid="structMR_1_1Pdf_1_1CellCustomParams_1a70b9acf2ccdbf5641f8e6d5d9c66c37e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="structMR_1_1Pdf_1_1CellCustomParams_1a70b9acf2ccdbf5641f8e6d5d9c66c37e" kindref="member">colorCellBg</ref>;</highlight></codeline>
+<codeline lineno="211" refid="structMR_1_1Pdf_1_1CellCustomParams_1aa0d955c51ec17d9ae66d62a4c5ae2c7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="structMR_1_1Pdf_1_1CellCustomParams_1aa0d955c51ec17d9ae66d62a4c5ae2c7b" kindref="member">colorCellBorder</ref>;</highlight></codeline>
+<codeline lineno="212" refid="structMR_1_1Pdf_1_1CellCustomParams_1abcaff0b1310eb5d3c3918f573a4623a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;std::string&gt;<sp/><ref refid="structMR_1_1Pdf_1_1CellCustomParams_1abcaff0b1310eb5d3c3918f573a4623a2" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="214" refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" kindref="member">TableCustomRule</ref><sp/>=<sp/>std::function&lt;<ref refid="structMR_1_1Pdf_1_1CellCustomParams" kindref="compound">CellCustomParams</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>cellValueText)&gt;;</highlight></codeline>
+<codeline lineno="216" refid="classMR_1_1Pdf_1a390764a2cd1ac5662384be6f8151a476" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a390764a2cd1ac5662384be6f8151a476" kindref="member">setTableCustomRule</ref>(<sp/><ref refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" kindref="member">TableCustomRule</ref><sp/>rule<sp/>)<sp/>{<sp/>tableCustomRule_<sp/>=<sp/>rule;<sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"></codeline>
+<codeline lineno="222" refid="classMR_1_1Pdf_1ac3a17552d9efaf37834828527b2678c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1ac3a17552d9efaf37834828527b2678c9" kindref="member">drawTextInRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2f&amp;<sp/>rect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="structMR_1_1Pdf_1_1TextCellParams" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Pdf_1_1TextCellParams" kindref="compound">TextCellParams</ref></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="226" refid="structMR_1_1Pdf_1_1TextCellParams_1ae2bf5c8e0ef483e8f509d09e9b45174b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref><sp/><ref refid="structMR_1_1Pdf_1_1TextCellParams_1ae2bf5c8e0ef483e8f509d09e9b45174b" kindref="member">textParams</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="structMR_1_1Pdf_1_1TextCellParams_1ac6d96b2c644db5ae28d307a62806a383" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Box2f<sp/><ref refid="structMR_1_1Pdf_1_1TextCellParams_1ac6d96b2c644db5ae28d307a62806a383" kindref="member">rect</ref>;</highlight></codeline>
+<codeline lineno="229" refid="structMR_1_1Pdf_1_1TextCellParams_1ab781b8b13b7ddbab6925f9c76ca1008e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1Pdf_1_1TextCellParams_1ab781b8b13b7ddbab6925f9c76ca1008e" kindref="member">colorBorder</ref><sp/>=<sp/><ref refid="structMR_1_1Color_1a059a69f5238fa686b0c063d87ebecf40" kindref="member">Color::transparent</ref>();</highlight></codeline>
+<codeline lineno="230" refid="structMR_1_1Pdf_1_1TextCellParams_1a1e3b5679beb5ec41d2998476ce96d0a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1Pdf_1_1TextCellParams_1a1e3b5679beb5ec41d2998476ce96d0a7" kindref="member">colorBackground</ref><sp/>=<sp/><ref refid="structMR_1_1Color_1a059a69f5238fa686b0c063d87ebecf40" kindref="member">Color::transparent</ref>();</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="232" refid="classMR_1_1Pdf_1a01b1c81c898e6c8e22e8019345522303" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a01b1c81c898e6c8e22e8019345522303" kindref="member">drawTextCell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextCellParams" kindref="compound">TextCellParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="classMR_1_1Pdf_1a27b3eabecb8bc7d25ee5f41a46a20b81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRIOEXTRAS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Pdf_1a27b3eabecb8bc7d25ee5f41a46a20b81" kindref="member">drawRect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2f&amp;<sp/>rect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>fillColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>strokeColor<sp/>);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reset_();</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/>calcTextLineWidths_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">HPDF_Image_Wraper;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addImage_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HPDF_Image_Wraper&amp;<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">State;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;State&gt;<sp/>state_;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref><sp/>params_;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void(<sp/><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref>&amp;<sp/>)&gt;<sp/>newPageAction_;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cursorX_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cursorY_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>checkDocument_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>logAction<sp/>);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>moveCursorToNewLine_();</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>checkAndCreateNewPageIfNeed_(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref><sp/>);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rowCounter_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ColumnInfo</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>100;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>valueFormat<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;ColumnInfo&gt;<sp/>columnsInfo_;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" kindref="member">TableCustomRule</ref><sp/>tableCustomRule_;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">TableGeneralParams</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/>colorTitleText<sp/>=<sp/><ref refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" kindref="member">Color::white</ref>();</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/>colorTitleBg{<sp/>42,<sp/>102,<sp/>246<sp/>};</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Color<sp/>colorCellText<sp/>=<sp/><ref refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" kindref="member">Color::black</ref>();</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Color<sp/>colorCellBg1{<sp/>170,<sp/>194,<sp/>251<sp/>};</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Color<sp/>colorCellBg2{<sp/>212,<sp/>224,<sp/>253<sp/>};</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Color<sp/>colorLines<sp/>=<sp/><ref refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" kindref="member">Color::white</ref>();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fontSize<sp/>=<sp/>12.f;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>tableParams_;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h"/>
+  </compounddef>
+</doxygen>

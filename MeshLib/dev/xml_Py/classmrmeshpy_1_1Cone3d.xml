@@ -1,0 +1,515 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Cone3d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Cone3d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3d_1a58570b5ef3a85e3fe2e32449a097ad46" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3d::_offsetof_angle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_angle</name>
+        <qualifiedname>mrmeshpy.Cone3d._offsetof_angle</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3d_1a13a9ee3b904b49e068106f0c9b0a5d11" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3d::_offsetof_axis</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_axis</name>
+        <qualifiedname>mrmeshpy.Cone3d._offsetof_axis</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cone3d_1a33bc05de89de595c87c2a032c80bbcdf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cone3d::_offsetof_height</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_height</name>
+        <qualifiedname>mrmeshpy.Cone3d._offsetof_height</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10221" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1a65a7e2c1168ebd5b659bc0be2a826aea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10224" bodyend="10225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1a49806b2177b1b331a489f760b4b12f9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Cone3d" kindref="compound">Cone3d</ref></type>
+        <definition> Cone3d mrmeshpy.Cone3d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Cone3d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10228" bodyend="10229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1a49806b2177b1b331a489f760b4b12f9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Cone3d" kindref="compound">Cone3d</ref></type>
+        <definition> Cone3d mrmeshpy.Cone3d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Cone3d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10232" bodyend="10233"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1a925ecc0dd6eee4eef19cbcb6b4866baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10235" bodyend="10236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1adcbab617cc171cd97b44fb2e93e4977f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.__init__</definition>
+        <argsstring>(self, Line3d inAxis, float inAngle, float inHeight)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+          <declname>inAxis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>inAxis -- apex position and main axis direction.  For any cone point dot( point , direction ) &gt;=0
+inAngle -- cone angle, main axis vs side
+inHeight -- cone inHeight
+main axis direction could be non normalized.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10238" bodyend="10244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1aa22c3908bc6c2697db5574a8164aff87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.__init__</definition>
+        <argsstring>(self, Cone3d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cone3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Cone3d" kindref="compound">Cone3d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10246" bodyend="10249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1ad5d4515776d84cfeb19f45ecf69f99f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.apex</definition>
+        <argsstring>(self)</argsstring>
+        <name>apex</name>
+        <qualifiedname>mrmeshpy.Cone3d.apex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return cone apex position 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10251" bodyend="10254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1ad5d4515776d84cfeb19f45ecf69f99f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.apex</definition>
+        <argsstring>(self)</argsstring>
+        <name>apex</name>
+        <qualifiedname>mrmeshpy.Cone3d.apex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return cone apex position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10256" bodyend="10259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1aef97ad583b131357e90f947741b66bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Cone3d.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>now we use an apex as center of the cone. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10261" bodyend="10264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1aef97ad583b131357e90f947741b66bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Cone3d.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>now we use an apex as center of the cone. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10266" bodyend="10269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1af4fa665ae0d2db9b7a2156157d8bb0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.Cone3d.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>main axis direction. It could be non normalized. For any cone point dot( point , direction ) &gt;=0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10271" bodyend="10274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1af4fa665ae0d2db9b7a2156157d8bb0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.Cone3d.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>main axis direction. It could be non normalized. For any cone point dot( point , direction ) &gt;=0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10276" bodyend="10279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1af6b60edfde1188a0cc5b81f56ec03fdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cone3d.projectPoint</definition>
+        <argsstring>(self, Vector3d point)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.Cone3d.projectPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10280" bodyend="10281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1a27e604698fbf00547e30f42e430a51be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Cone3d.angle</definition>
+        <argsstring>(self)</argsstring>
+        <name>angle</name>
+        <qualifiedname>mrmeshpy.Cone3d.angle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>cone angle, main axis vs side
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10283" bodyend="10286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1ae0eb307dc48fc3dffb1b8df0fb1a1a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.angle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>angle</name>
+        <qualifiedname>mrmeshpy.Cone3d.angle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10288" bodyend="10289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1ac8cf01cef907ad05da8a7a5ec6070faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+        <definition> Line3d mrmeshpy.Cone3d.axis</definition>
+        <argsstring>(self)</argsstring>
+        <name>axis</name>
+        <qualifiedname>mrmeshpy.Cone3d.axis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the combination of the apex of the cone and the direction of its main axis in space. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10291" bodyend="10294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1a8f26a4299f998a936a2ac2f0e3fcd1eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.axis</definition>
+        <argsstring>(self, Line3d arg1)</argsstring>
+        <name>axis</name>
+        <qualifiedname>mrmeshpy.Cone3d.axis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10296" bodyend="10297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1aa9683d6946ac57948d0d4a647e86c483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Cone3d.height</definition>
+        <argsstring>(self)</argsstring>
+        <name>height</name>
+        <qualifiedname>mrmeshpy.Cone3d.height</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>cone height
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10299" bodyend="10302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cone3d_1ac8717376eb61ff4701f2420727e13e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cone3d.height</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>height</name>
+        <qualifiedname>mrmeshpy.Cone3d.height</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10304" bodyend="10305"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cone3d
+
+Base class for cone parameterization
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Cone3d</label>
+        <link refid="classmrmeshpy_1_1Cone3d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_angle</edgelabel>
+          <edgelabel>_offsetof_axis</edgelabel>
+          <edgelabel>_offsetof_height</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10213" bodyend="10305"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Cone3d_1a65a7e2c1168ebd5b659bc0be2a826aea" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a925ecc0dd6eee4eef19cbcb6b4866baf" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1adcbab617cc171cd97b44fb2e93e4977f" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1aa22c3908bc6c2697db5574a8164aff87" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a58570b5ef3a85e3fe2e32449a097ad46" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>_offsetof_angle</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a13a9ee3b904b49e068106f0c9b0a5d11" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>_offsetof_axis</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a33bc05de89de595c87c2a032c80bbcdf" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>_offsetof_height</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a27e604698fbf00547e30f42e430a51be" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>angle</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1ae0eb307dc48fc3dffb1b8df0fb1a1a5b" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>angle</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1ad5d4515776d84cfeb19f45ecf69f99f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>apex</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1ad5d4515776d84cfeb19f45ecf69f99f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>apex</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1ac8cf01cef907ad05da8a7a5ec6070faa" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>axis</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a8f26a4299f998a936a2ac2f0e3fcd1eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>axis</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1aef97ad583b131357e90f947741b66bc8" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1aef97ad583b131357e90f947741b66bc8" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1af4fa665ae0d2db9b7a2156157d8bb0b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1af4fa665ae0d2db9b7a2156157d8bb0b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1aa9683d6946ac57948d0d4a647e86c483" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>height</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1ac8717376eb61ff4701f2420727e13e70" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>height</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a49806b2177b1b331a489f760b4b12f9b" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1a49806b2177b1b331a489f760b4b12f9b" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Cone3d_1af6b60edfde1188a0cc5b81f56ec03fdd" prot="public" virt="non-virtual"><scope>mrmeshpy::Cone3d</scope><name>projectPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

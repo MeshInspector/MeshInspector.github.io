@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetContoursParams_1_1Type" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetContoursParams::Type</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1aa9ab60df77d56b46e899a8d00ad01262" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams.Type::Offset</definition>
+        <argsstring></argsstring>
+        <name>Offset</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.Offset</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type" kindref="compound">OffsetContoursParams.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a437dd6bb544cf4c80d4f682e037e13a0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams.Type::Shell</definition>
+        <argsstring></argsstring>
+        <name>Shell</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.Shell</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type" kindref="compound">OffsetContoursParams.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41320" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a2b8fe3231f71dd567fe9f24fcdb77eb7" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams.Type::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type" kindref="compound">OffsetContoursParams.Type</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41321" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a9eb0c82156f4bfd20dc76b46a3e35820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetContoursParams.Type.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41322" bodyend="41323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a31b90bcf15ea77ccb1f599f3c1a00216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContoursParams.Type.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41324" bodyend="41325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a81c536499795113c2e8bd4bbd6f0057f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContoursParams.Type.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41326" bodyend="41327"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a152ba64fad116c998bb0201c0381ff0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContoursParams.Type.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41328" bodyend="41329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1ab799c5632d459a1660ec489816357d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.Type.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41330" bodyend="41331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a13aa45140a4827c37cba08c9ebf496c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContoursParams.Type.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41332" bodyend="41333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a909f8b2755d693fd4c449156e69acf36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetContoursParams.Type.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41334" bodyend="41335"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a593ad359b649313ca158716f0e390293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OffsetContoursParams.Type.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41336" bodyend="41337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a14156977b0b348648d335489429a3991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.Type.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41338" bodyend="41339"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a2ced5434f61342fd10e547ec1c86c1c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OffsetContoursParams.Type.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41340" bodyend="41341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1af073712a2cc4a6b03cc5bc7fba679846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OffsetContoursParams.Type.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41343" bodyend="41344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a0c7b21fcbbedfec846c12d1422659314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContoursParams.Type.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.Type.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41346" bodyend="41348"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Offset : One-side signed offset, requires closed contours
+
+  Shell : Two-side offset
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetContoursParams.Type</label>
+        <link refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Offset</edgelabel>
+          <edgelabel>Shell</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41311" bodyend="41347"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a9eb0c82156f4bfd20dc76b46a3e35820" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a31b90bcf15ea77ccb1f599f3c1a00216" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a81c536499795113c2e8bd4bbd6f0057f" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a152ba64fad116c998bb0201c0381ff0c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1ab799c5632d459a1660ec489816357d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a13aa45140a4827c37cba08c9ebf496c9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a2b8fe3231f71dd567fe9f24fcdb77eb7" prot="private" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a909f8b2755d693fd4c449156e69acf36" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a593ad359b649313ca158716f0e390293" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a14156977b0b348648d335489429a3991" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a2ced5434f61342fd10e547ec1c86c1c7" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1af073712a2cc4a6b03cc5bc7fba679846" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1aa9ab60df77d56b46e899a8d00ad01262" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>Offset</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a437dd6bb544cf4c80d4f682e037e13a0" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>Shell</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type_1a0c7b21fcbbedfec846c12d1422659314" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::Type</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

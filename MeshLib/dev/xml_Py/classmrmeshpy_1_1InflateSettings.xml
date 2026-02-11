@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1InflateSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::InflateSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1InflateSettings_1a94186340eb4698477e577be94229339f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InflateSettings::_offsetof_gradualPressureGrowth</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gradualPressureGrowth</name>
+        <qualifiedname>mrmeshpy.InflateSettings._offsetof_gradualPressureGrowth</qualifiedname>
+        <initializer>=  9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InflateSettings_1a1f2f99a83ddd27cc3bec99ecf7ead19e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InflateSettings::_offsetof_iterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_iterations</name>
+        <qualifiedname>mrmeshpy.InflateSettings._offsetof_iterations</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InflateSettings_1aa38d68f6310ebc379af2a686df272396" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InflateSettings::_offsetof_preSmooth</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preSmooth</name>
+        <qualifiedname>mrmeshpy.InflateSettings._offsetof_preSmooth</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InflateSettings_1a2a824f69cc223e07787b369b4690c8e4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InflateSettings::_offsetof_pressure</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pressure</name>
+        <qualifiedname>mrmeshpy.InflateSettings._offsetof_pressure</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24182" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a00b63318bf8be4902bcd1481f81ee02c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InflateSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24185" bodyend="24186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1ac2725a2f7ed3fa9378924f9bf0baa414" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InflateSettings" kindref="compound">InflateSettings</ref></type>
+        <definition> InflateSettings mrmeshpy.InflateSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InflateSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24189" bodyend="24190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1ac2725a2f7ed3fa9378924f9bf0baa414" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InflateSettings" kindref="compound">InflateSettings</ref></type>
+        <definition> InflateSettings mrmeshpy.InflateSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InflateSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24193" bodyend="24194"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a844992c66333c11ede51d56a75dd32ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InflateSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24196" bodyend="24197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a2c62a06c882824916dbabac5b44853dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.__init__</definition>
+        <argsstring>(self, InflateSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InflateSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1InflateSettings" kindref="compound">InflateSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24199" bodyend="24202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1abb24132e0348fa427bbda2bc6cb1c5fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.__init__</definition>
+        <argsstring>(self, float pressure, int iterations, bool preSmooth, bool gradualPressureGrowth)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InflateSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pressure</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preSmooth</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gradualPressureGrowth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24204" bodyend="24207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a7b7680f7da2412aa166b22de2d659479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.InflateSettings.gradualPressureGrowth</definition>
+        <argsstring>(self)</argsstring>
+        <name>gradualPressureGrowth</name>
+        <qualifiedname>mrmeshpy.InflateSettings.gradualPressureGrowth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to increase the pressure gradually during the iterations (recommended for best quality)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24209" bodyend="24212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1abe3f2f2ec5a01d415142c71b400c52a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.gradualPressureGrowth</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>gradualPressureGrowth</name>
+        <qualifiedname>mrmeshpy.InflateSettings.gradualPressureGrowth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24214" bodyend="24215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a89956d2adce23e17c78c2c4ad29a77c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InflateSettings.iterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>iterations</name>
+        <qualifiedname>mrmeshpy.InflateSettings.iterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of internal iterations (&gt;=1);
+larger number of iterations makes the performance slower, but the quality better
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24217" bodyend="24221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1ac035931999853cccf610b9ed73c17154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.iterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>iterations</name>
+        <qualifiedname>mrmeshpy.InflateSettings.iterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24223" bodyend="24224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a892be40d08ca6fb08e9a2b488ec6fe79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.InflateSettings.preSmooth</definition>
+        <argsstring>(self)</argsstring>
+        <name>preSmooth</name>
+        <qualifiedname>mrmeshpy.InflateSettings.preSmooth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>smooths the area before starting inflation;
+please set to false only if the region is known to be already smooth
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24226" bodyend="24230"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a9fb5db9fddb6e58edf08ea7b2d0ff233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.preSmooth</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>preSmooth</name>
+        <qualifiedname>mrmeshpy.InflateSettings.preSmooth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24232" bodyend="24233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a191e06e1aa6d0b3b5746d214d3d8ebdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.InflateSettings.pressure</definition>
+        <argsstring>(self)</argsstring>
+        <name>pressure</name>
+        <qualifiedname>mrmeshpy.InflateSettings.pressure</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of pressure applied to mesh region:
+positive pressure moves the vertices outside, negative - inside;
+please specify a value by magnitude about the region diagonal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24235" bodyend="24240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InflateSettings_1a064156b0b50072602858ed952ad8b1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InflateSettings.pressure</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>pressure</name>
+        <qualifiedname>mrmeshpy.InflateSettings.pressure</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24242" bodyend="24243"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::InflateSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.InflateSettings</label>
+        <link refid="classmrmeshpy_1_1InflateSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_gradualPressureGrowth</edgelabel>
+          <edgelabel>_offsetof_iterations</edgelabel>
+          <edgelabel>_offsetof_preSmooth</edgelabel>
+          <edgelabel>_offsetof_pressure</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24175" bodyend="24243"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a00b63318bf8be4902bcd1481f81ee02c" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a844992c66333c11ede51d56a75dd32ff" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a2c62a06c882824916dbabac5b44853dd" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1abb24132e0348fa427bbda2bc6cb1c5fa" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a94186340eb4698477e577be94229339f" prot="protected" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>_offsetof_gradualPressureGrowth</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a1f2f99a83ddd27cc3bec99ecf7ead19e" prot="protected" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>_offsetof_iterations</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1aa38d68f6310ebc379af2a686df272396" prot="protected" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>_offsetof_preSmooth</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a2a824f69cc223e07787b369b4690c8e4" prot="protected" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>_offsetof_pressure</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a7b7680f7da2412aa166b22de2d659479" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>gradualPressureGrowth</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1abe3f2f2ec5a01d415142c71b400c52a6" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>gradualPressureGrowth</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a89956d2adce23e17c78c2c4ad29a77c3" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1ac035931999853cccf610b9ed73c17154" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1ac2725a2f7ed3fa9378924f9bf0baa414" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1ac2725a2f7ed3fa9378924f9bf0baa414" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a892be40d08ca6fb08e9a2b488ec6fe79" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>preSmooth</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a9fb5db9fddb6e58edf08ea7b2d0ff233" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>preSmooth</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a191e06e1aa6d0b3b5746d214d3d8ebdc" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>pressure</name></member>
+      <member refid="classmrmeshpy_1_1InflateSettings_1a064156b0b50072602858ed952ad8b1ec" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>pressure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UniquePtr" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UniquePtr</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::unique_ptr&lt; T &gt;</basecompoundref>
+    <includes refid="MRUniquePtr_8h" local="no">MRUniquePtr.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UniquePtr_1aaf1504c1a8adb3c65e6501508c18f9ad" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniquePtr&lt; T &gt;::UniquePtr</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>UniquePtr</name>
+        <qualifiedname>MR::UniquePtr::UniquePtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="13" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UniquePtr_1a1a43bb82edf6a6783aa1d0c487298e2b" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniquePtr&lt; T &gt;::UniquePtr</definition>
+        <argsstring>(const UniquePtr &amp;) noexcept</argsstring>
+        <name>UniquePtr</name>
+        <qualifiedname>MR::UniquePtr::UniquePtr</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UniquePtr_1a69356ad900f65842bc6e4bff6e88a8e0" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniquePtr&lt; T &gt;::UniquePtr</definition>
+        <argsstring>(UniquePtr &amp;&amp;) noexcept=default</argsstring>
+        <name>UniquePtr</name>
+        <qualifiedname>MR::UniquePtr::UniquePtr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="15" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UniquePtr_1aab2ceb1171b2a26773ddd20b58e22a85" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;</type>
+        <definition>UniquePtr &amp; MR::UniquePtr&lt; T &gt;::operator=</definition>
+        <argsstring>(const UniquePtr &amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::UniquePtr::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="16" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UniquePtr_1a42efa327646696f0d3cafc2f14acb727" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;</type>
+        <definition>UniquePtr &amp; MR::UniquePtr&lt; T &gt;::operator=</definition>
+        <argsstring>(UniquePtr &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::UniquePtr::operator=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="17" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UniquePtr_1a12789ea5c04ee7a92d7b00755508df3f" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1UniquePtr" kindref="compound">UniquePtr</ref> &amp;</type>
+        <definition>UniquePtr &amp; MR::UniquePtr&lt; T &gt;::operator=</definition>
+        <argsstring>(std::unique_ptr&lt; T &gt; &amp;&amp;b) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::UniquePtr::operator=</qualifiedname>
+        <param>
+          <type>std::unique_ptr&lt; T &gt; &amp;&amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="18" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class wraps std::unique_ptr adding copy constructor and copy assignment operator, which do nothing, but allow putting this as a member in copyable classes </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::UniquePtr&lt; T &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::unique_ptr&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::UniquePtr&lt; T &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::unique_ptr&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniquePtr.h" bodystart="12" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UniquePtr_1aab2ceb1171b2a26773ddd20b58e22a85" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>operator=</name></member>
+      <member refid="structMR_1_1UniquePtr_1a42efa327646696f0d3cafc2f14acb727" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>operator=</name></member>
+      <member refid="structMR_1_1UniquePtr_1a12789ea5c04ee7a92d7b00755508df3f" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>operator=</name></member>
+      <member refid="structMR_1_1UniquePtr_1aaf1504c1a8adb3c65e6501508c18f9ad" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>UniquePtr</name></member>
+      <member refid="structMR_1_1UniquePtr_1a1a43bb82edf6a6783aa1d0c487298e2b" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>UniquePtr</name></member>
+      <member refid="structMR_1_1UniquePtr_1a69356ad900f65842bc6e4bff6e88a8e0" prot="public" virt="non-virtual"><scope>MR::UniquePtr</scope><name>UniquePtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

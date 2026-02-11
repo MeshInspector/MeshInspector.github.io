@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LoadedObjects" kind="struct" language="C++" prot="public">
+    <compoundname>MR::LoadedObjects</compoundname>
+    <includes refid="MRLoadedObjects_8h" local="no">MRLoadedObjects.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1LoadedObjects_1aad900de70ed9e1d66bf895d703b0eb6d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespaceMR_1a9dc1331c485c74f9cb1a85cdd31ae071" kindref="member">ObjectPtr</ref> &gt;</type>
+        <definition>std::vector&lt;ObjectPtr&gt; MR::LoadedObjects::objs</definition>
+        <argsstring></argsstring>
+        <name>objs</name>
+        <qualifiedname>MR::LoadedObjects::objs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" line="34" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LoadedObjects_1a4a78ecdda3d1b42586d0d6e6e6e6bd0e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::LoadedObjects::warnings</definition>
+        <argsstring></argsstring>
+        <name>warnings</name>
+        <qualifiedname>MR::LoadedObjects::warnings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" line="35" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LoadedObjects_1a8c9d69a8ab03118bdd2e9517708f3455" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <definition>std::optional&lt;LengthUnit&gt; MR::LoadedObjects::lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR::LoadedObjects::lengthUnit</qualifiedname>
+        <briefdescription>
+<para>either empty or ends with &apos;<linebreak/>
+&apos; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>units of object coordinates and transformations (if known) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" line="38" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>result of loading (e.g. from a file) as a number of objects </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" bodystart="33" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structMR_1_1LoadedObjects_1a8c9d69a8ab03118bdd2e9517708f3455" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>lengthUnit</name></member>
+      <member refid="structMR_1_1LoadedObjects_1aad900de70ed9e1d66bf895d703b0eb6d" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>objs</name></member>
+      <member refid="structMR_1_1LoadedObjects_1a4a78ecdda3d1b42586d0d6e6e6e6bd0e" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>warnings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1InflateSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::InflateSettings</compoundname>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRPositionVertsSmoothly.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1InflateSettings_1a2b56de5e320c04500550d57d852fbb7b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::InflateSettings::pressure</definition>
+        <argsstring></argsstring>
+        <name>pressure</name>
+        <qualifiedname>MR::InflateSettings::pressure</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1InflateSettings_1a81342d048666014aff4d0999d92c9d50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::InflateSettings::iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MR::InflateSettings::iterations</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="76" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1InflateSettings_1a0e7308020ddff9486f3d7673bb03a4b5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::InflateSettings::preSmooth</definition>
+        <argsstring></argsstring>
+        <name>preSmooth</name>
+        <qualifiedname>MR::InflateSettings::preSmooth</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>smooths the area before starting inflation; please set to false only if the region is known to be already smooth </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="79" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1InflateSettings_1a01eec1ee9ce09177388ba2eb6097a88a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::InflateSettings::gradualPressureGrowth</definition>
+        <argsstring></argsstring>
+        <name>gradualPressureGrowth</name>
+        <qualifiedname>MR::InflateSettings::gradualPressureGrowth</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>whether to increase the pressure gradually during the iterations (recommended for best quality) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="81" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="69" bodyend="82"/>
+    <listofallmembers>
+      <member refid="structMR_1_1InflateSettings_1a01eec1ee9ce09177388ba2eb6097a88a" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>gradualPressureGrowth</name></member>
+      <member refid="structMR_1_1InflateSettings_1a81342d048666014aff4d0999d92c9d50" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>iterations</name></member>
+      <member refid="structMR_1_1InflateSettings_1a0e7308020ddff9486f3d7673bb03a4b5" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>preSmooth</name></member>
+      <member refid="structMR_1_1InflateSettings_1a2b56de5e320c04500550d57d852fbb7b" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>pressure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

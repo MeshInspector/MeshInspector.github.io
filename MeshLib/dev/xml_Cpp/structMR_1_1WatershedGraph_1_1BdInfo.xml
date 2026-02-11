@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WatershedGraph_1_1BdInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WatershedGraph::BdInfo</compoundname>
+    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BdInfo_1a1cef595f818149e8ab3c459988194aac" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::WatershedGraph::BdInfo::lowestVert</definition>
+        <argsstring></argsstring>
+        <name>lowestVert</name>
+        <qualifiedname>MR::WatershedGraph::BdInfo::lowestVert</qualifiedname>
+        <briefdescription>
+<para>on this boundary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="66" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>associated with each edge in graph </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="64" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="65" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WatershedGraph_1_1BdInfo_1a1cef595f818149e8ab3c459988194aac" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BdInfo</scope><name>lowestVert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

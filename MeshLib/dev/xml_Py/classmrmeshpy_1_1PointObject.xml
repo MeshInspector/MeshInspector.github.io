@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1FeatureObject" prot="public" virt="non-virtual">mrmeshpy.FeatureObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a30960e1f45d058e80020b0bf9959dc88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.PointObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44668" bodyend="44669"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a64c1998015baa982a2e8a08bc7b5bf52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.PointObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44671" bodyend="44672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a7495f33cd34305919caaa1dfb68c75ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.PointObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44674" bodyend="44675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a8ab2b09bccd0854d9a273508f6aae7d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.PointObject.projectPoint</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.PointObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44677" bodyend="44678"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a35ccb3c76197823708dc16e702a0c744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple point object with zero position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44680" bodyend="44683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a3bf07ea0a14f3e7a3fcfe0fefb6f1af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best point to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44685" bodyend="44688"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a5d93463592d8efab1ed4677e165fc1ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.PointObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44689" bodyend="44690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1afaaa56497276ff82239961b011559352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.PointObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44691" bodyend="44692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a9ddb1111f89bf74a9a7188c6eca0f690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.PointObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.PointObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44693" bodyend="44694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1af5f5d75a726d67e7cf7e56ec25bb5bcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.PointObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.PointObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44695" bodyend="44696"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1a1c8da7ece61616bed7f712de5b1a17c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointObject.getPoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getPoint</name>
+        <qualifiedname>mrmeshpy.PointObject.getPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates point from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44697" bodyend="44700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1af336e11c6c5d5afebb5a1eb371c51754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointObject.setLocalPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>setLocalPoint</name>
+        <qualifiedname>mrmeshpy.PointObject.setLocalPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44701" bodyend="44704"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1ae5dbe12cbbc7cc1c9c03518b90c49192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.PointObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.PointObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44705" bodyend="44706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointObject_1af9c5949768640aef3614d28b5aa94a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.PointObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44707" bodyend="44708"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Point.type
+
+Object to show point feature
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PointObject</label>
+        <link refid="classmrmeshpy_1_1PointObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointObject</label>
+        <link refid="classmrmeshpy_1_1PointObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44660" bodyend="44708"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointObject_1a35ccb3c76197823708dc16e702a0c744" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a3bf07ea0a14f3e7a3fcfe0fefb6f1af8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a5d93463592d8efab1ed4677e165fc1ef" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1afaaa56497276ff82239961b011559352" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a9ddb1111f89bf74a9a7188c6eca0f690" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1af5f5d75a726d67e7cf7e56ec25bb5bcd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a1c8da7ece61616bed7f712de5b1a17c9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>getPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a8ab2b09bccd0854d9a273508f6aae7d2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1af336e11c6c5d5afebb5a1eb371c51754" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>setLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1ae5dbe12cbbc7cc1c9c03518b90c49192" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a30960e1f45d058e80020b0bf9959dc88" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a64c1998015baa982a2e8a08bc7b5bf52" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1a7495f33cd34305919caaa1dfb68c75ae" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1PointObject_1af9c5949768640aef3614d28b5aa94a9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

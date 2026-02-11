@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MergeVolumePartSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MergeVolumePartSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MergeVolumePartSettings_1ae038f5b2b53a9255481359ac951d006c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MergeVolumePartSettings::_offsetof_mapping</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mapping</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings._offsetof_mapping</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MergeVolumePartSettings_1a8f42a6831d1cccc3105a92b298b174e9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MergeVolumePartSettings::_offsetof_origin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_origin</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings._offsetof_origin</qualifiedname>
+        <initializer>=  144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MergeVolumePartSettings_1ae9cd93bac06e463d3180d1fa78c9a225" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MergeVolumePartSettings::_offsetof_postCut</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_postCut</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings._offsetof_postCut</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MergeVolumePartSettings_1ab48c65e44124967e8808539c8d63fb65" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MergeVolumePartSettings::_offsetof_postMerge</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_postMerge</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings._offsetof_postMerge</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MergeVolumePartSettings_1a85559a6de2cdb2a3f93e301355c8c8a9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MergeVolumePartSettings::_offsetof_preCut</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preCut</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings._offsetof_preCut</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30489" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1a195878203ac89577d16264fd97967f4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MergeVolumePartSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30495" bodyend="30496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1ad82ae71a5e6ac849e3115f679320b602" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MergeVolumePartSettings" kindref="compound">MergeVolumePartSettings</ref></type>
+        <definition> MergeVolumePartSettings mrmeshpy.MergeVolumePartSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30499" bodyend="30500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1ad82ae71a5e6ac849e3115f679320b602" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MergeVolumePartSettings" kindref="compound">MergeVolumePartSettings</ref></type>
+        <definition> MergeVolumePartSettings mrmeshpy.MergeVolumePartSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30503" bodyend="30504"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1afa058d5662dc6fa4f809252b3cef32b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MergeVolumePartSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30506" bodyend="30507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1a2d0ca4cdf3b718e5f88f3c287ff575a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MergeVolumePartSettings.__init__</definition>
+        <argsstring>(self, MergeVolumePartSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MergeVolumePartSettings" kindref="compound">MergeVolumePartSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30509" bodyend="30512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1a3e9fccb58437f6052ab6b6fb4babf240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MergeVolumePartSettings.__init__</definition>
+        <argsstring>(self, func_void_from_Mesh_float_float preCut, func_void_from_Mesh postCut, func_void_from_Mesh_PartMapping postMerge, PartMapping mapping, Vector3f origin)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Mesh__float__float" kindref="compound">func_void_from_Mesh_float_float</ref></type>
+          <declname>preCut</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Mesh" kindref="compound">func_void_from_Mesh</ref></type>
+          <declname>postCut</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Mesh__PartMapping" kindref="compound">func_void_from_Mesh_PartMapping</ref></type>
+          <declname>postMerge</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30514" bodyend="30517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1a718bb15b973fcdb0b9fb64b2d533a9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+        <definition> PartMapping mrmeshpy.MergeVolumePartSettings.mapping</definition>
+        <argsstring>(self)</argsstring>
+        <name>mapping</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.mapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mapping with initialized maps required for the `postMerge` callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30519" bodyend="30522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1a82d5d3648ead72a5b3a66b095e22b666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MergeVolumePartSettings.mapping</definition>
+        <argsstring>(self, PartMapping arg1)</argsstring>
+        <name>mapping</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.mapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30524" bodyend="30525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1ac50701d9f0a1b505f34fb7a031835fe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MergeVolumePartSettings.origin</definition>
+        <argsstring>(self)</argsstring>
+        <name>origin</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.origin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30527" bodyend="30530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MergeVolumePartSettings_1a8eac1fbda0c714d6529f52551693fdc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MergeVolumePartSettings.origin</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>origin</name>
+        <qualifiedname>mrmeshpy.MergeVolumePartSettings.origin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30532" bodyend="30533"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MergeVolumePartSettings
+
+
+ \\struct MR::MergeVolumePartSettings
+ \\brief Parameters&apos; structure for MR::mergeVolumePart
+
+ \\sa \\ref mergeVolumePart</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MergeVolumePartSettings</label>
+        <link refid="classmrmeshpy_1_1MergeVolumePartSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_mapping</edgelabel>
+          <edgelabel>_offsetof_origin</edgelabel>
+          <edgelabel>_offsetof_postCut</edgelabel>
+          <edgelabel>_offsetof_postMerge</edgelabel>
+          <edgelabel>_offsetof_preCut</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30474" bodyend="30533"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a195878203ac89577d16264fd97967f4a" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1afa058d5662dc6fa4f809252b3cef32b0" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a2d0ca4cdf3b718e5f88f3c287ff575a7" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a3e9fccb58437f6052ab6b6fb4babf240" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1ae038f5b2b53a9255481359ac951d006c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>_offsetof_mapping</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a8f42a6831d1cccc3105a92b298b174e9" prot="protected" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>_offsetof_origin</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1ae9cd93bac06e463d3180d1fa78c9a225" prot="protected" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>_offsetof_postCut</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1ab48c65e44124967e8808539c8d63fb65" prot="protected" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>_offsetof_postMerge</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a85559a6de2cdb2a3f93e301355c8c8a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>_offsetof_preCut</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a718bb15b973fcdb0b9fb64b2d533a9ee" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>mapping</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a82d5d3648ead72a5b3a66b095e22b666" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>mapping</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1ad82ae71a5e6ac849e3115f679320b602" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1ad82ae71a5e6ac849e3115f679320b602" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1ac50701d9f0a1b505f34fb7a031835fe1" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>origin</name></member>
+      <member refid="classmrmeshpy_1_1MergeVolumePartSettings_1a8eac1fbda0c714d6529f52551693fdc8" prot="public" virt="non-virtual"><scope>mrmeshpy::MergeVolumePartSettings</scope><name>origin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

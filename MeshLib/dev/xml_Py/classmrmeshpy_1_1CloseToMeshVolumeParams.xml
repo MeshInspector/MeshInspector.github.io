@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CloseToMeshVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CloseToMeshVolumeParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a3a0ac4b9c212dcac324f62b6562919bf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CloseToMeshVolumeParams::_offsetof_closeDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closeDist</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams._offsetof_closeDist</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a1c6c36ec3f085cfa710a7a7df2065c01" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CloseToMeshVolumeParams::_offsetof_meshToWorld</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshToWorld</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams._offsetof_meshToWorld</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a84f06b484924621ff88d5cb3133e471d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CloseToMeshVolumeParams::_offsetof_vol</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vol</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams._offsetof_vol</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9340" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a3fe3957dc4be55ac97e58b45f3eaf8a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9343" bodyend="9344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a0985c36b509afe7d7275643640e71741" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CloseToMeshVolumeParams" kindref="compound">CloseToMeshVolumeParams</ref></type>
+        <definition> CloseToMeshVolumeParams mrmeshpy.CloseToMeshVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9347" bodyend="9348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a0985c36b509afe7d7275643640e71741" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CloseToMeshVolumeParams" kindref="compound">CloseToMeshVolumeParams</ref></type>
+        <definition> CloseToMeshVolumeParams mrmeshpy.CloseToMeshVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9351" bodyend="9352"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1af4df55429f556d2f3c2d7bf1ab668892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9354" bodyend="9355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a385ed1defd48bada40a827c310306d50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.__init__</definition>
+        <argsstring>(self, CloseToMeshVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CloseToMeshVolumeParams" kindref="compound">CloseToMeshVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9357" bodyend="9360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1aa82d68760c979c04a137502aa5c2ab4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.__init__</definition>
+        <argsstring>(self, float closeDist, DistanceVolumeParams vol, AffineXf3f meshToWorld)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>closeDist</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>meshToWorld</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9362" bodyend="9365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1add163d54dad761034391aae1c95dfebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CloseToMeshVolumeParams.closeDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>closeDist</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.closeDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9367" bodyend="9370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a09d492a7cb28798586fceeaddd38d09a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.closeDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>closeDist</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.closeDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9372" bodyend="9373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a50d0634ba5af9a1afeb8d9d8c4e86773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.CloseToMeshVolumeParams.meshToWorld</definition>
+        <argsstring>(self)</argsstring>
+        <name>meshToWorld</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.meshToWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional transformation from mesh space to world space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9375" bodyend="9378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1aa2b444414e6e57b2bd7dad1029e09963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.meshToWorld</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>meshToWorld</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.meshToWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9380" bodyend="9381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1a79074577ede338ac36e0ee8143d462b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition> DistanceVolumeParams mrmeshpy.CloseToMeshVolumeParams.vol</definition>
+        <argsstring>(self)</argsstring>
+        <name>vol</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.vol</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>dimensions, location, and scaling in world space of the expected volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9383" bodyend="9386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloseToMeshVolumeParams_1aad4dc4283ce91602b00174d436a6f8fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloseToMeshVolumeParams.vol</definition>
+        <argsstring>(self, DistanceVolumeParams arg1)</argsstring>
+        <name>vol</name>
+        <qualifiedname>mrmeshpy.CloseToMeshVolumeParams.vol</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9388" bodyend="9389"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CloseToMeshVolumeParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CloseToMeshVolumeParams</label>
+        <link refid="classmrmeshpy_1_1CloseToMeshVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_closeDist</edgelabel>
+          <edgelabel>_offsetof_meshToWorld</edgelabel>
+          <edgelabel>_offsetof_vol</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9334" bodyend="9389"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a3fe3957dc4be55ac97e58b45f3eaf8a4" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1af4df55429f556d2f3c2d7bf1ab668892" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a385ed1defd48bada40a827c310306d50" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1aa82d68760c979c04a137502aa5c2ab4c" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a3a0ac4b9c212dcac324f62b6562919bf" prot="protected" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>_offsetof_closeDist</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a1c6c36ec3f085cfa710a7a7df2065c01" prot="protected" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>_offsetof_meshToWorld</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a84f06b484924621ff88d5cb3133e471d" prot="protected" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>_offsetof_vol</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1add163d54dad761034391aae1c95dfebe" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>closeDist</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a09d492a7cb28798586fceeaddd38d09a" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>closeDist</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a50d0634ba5af9a1afeb8d9d8c4e86773" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>meshToWorld</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1aa2b444414e6e57b2bd7dad1029e09963" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>meshToWorld</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a0985c36b509afe7d7275643640e71741" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a0985c36b509afe7d7275643640e71741" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1a79074577ede338ac36e0ee8143d462b1" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>vol</name></member>
+      <member refid="classmrmeshpy_1_1CloseToMeshVolumeParams_1aad4dc4283ce91602b00174d436a6f8fa" prot="public" virt="non-virtual"><scope>mrmeshpy::CloseToMeshVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

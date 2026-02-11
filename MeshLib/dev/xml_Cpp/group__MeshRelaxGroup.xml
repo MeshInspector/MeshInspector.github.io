@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshRelaxGroup" kind="group">
+    <compoundname>MeshRelaxGroup</compoundname>
+    <title>Mesh Relax</title>
+    <innerclass refid="structMR_1_1MeshRelaxParams" prot="public">MR::MeshRelaxParams</innerclass>
+    <innerclass refid="structMR_1_1MeshEqualizeTriAreasParams" prot="public">MR::MeshEqualizeTriAreasParams</innerclass>
+    <innerclass refid="structMR_1_1MeshApproxRelaxParams" prot="public">MR::MeshApproxRelaxParams</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gaf1790e242d0c45c246335b07bfb7c5af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::relax</definition>
+        <argsstring>(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>relax</name>
+        <qualifiedname>MR::relax</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshRelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="24" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="24" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gab9e8104718c5b38b7f6c20a652942410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::relax</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>relax</name>
+        <qualifiedname>MR::relax</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const MeshRelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="25" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="25" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gaba816e24c8bb07c99f1d084e59d0ec48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <definition>MRMESH_API Vector3f MR::vertexPosEqualNeiAreas</definition>
+        <argsstring>(const Mesh &amp;mesh, VertId v, bool noShrinkage)</argsstring>
+        <name>vertexPosEqualNeiAreas</name>
+        <qualifiedname>MR::vertexPosEqualNeiAreas</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noShrinkage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes position of a vertex, when all neighbor triangles have almost equal areas, more precisely it minimizes sum_i (area_i)^2 by adjusting the position of this vertex only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="29" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="29" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1ga183937de64babe0d41509706eb2be41d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <definition>MRMESH_API Vector3f MR::vertexPosEqualNeiAreas</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, VertId v, bool noShrinkage)</argsstring>
+        <name>vertexPosEqualNeiAreas</name>
+        <qualifiedname>MR::vertexPosEqualNeiAreas</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noShrinkage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="30" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="30" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gaae1979d9e4a28ec7ad4642bbb77e477f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::equalizeTriAreas</definition>
+        <argsstring>(Mesh &amp;mesh, const MeshEqualizeTriAreasParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>equalizeTriAreas</name>
+        <qualifiedname>MR::equalizeTriAreas</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshEqualizeTriAreasParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of iterations with movement toward <ref refid="group__MeshRelaxGroup_1gaba816e24c8bb07c99f1d084e59d0ec48" kindref="member">vertexPosEqualNeiAreas()</ref> to the whole mesh ( or some region if it is specified ) <simplesect kind="return"><para>true if the operation completed successfully, and false if it was interrupted by the progress callback. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="41" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="41" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1ga4d18f403309407bc884de403549fd99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::equalizeTriAreas</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, const MeshEqualizeTriAreasParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>equalizeTriAreas</name>
+        <qualifiedname>MR::equalizeTriAreas</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const MeshEqualizeTriAreasParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="42" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="42" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gade2c4c373a0a3c4e594f194dc55a92b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::relaxKeepVolume</definition>
+        <argsstring>(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>relaxKeepVolume</name>
+        <qualifiedname>MR::relaxKeepVolume</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshRelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) <linebreak/>
+do not really keeps volume but tries hard <simplesect kind="return"><para>true if the operation completed successfully, and false if it was interrupted by the progress callback. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="47" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="47" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gab4933a7a1fd47670308213d4069e4316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::relaxKeepVolume</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>relaxKeepVolume</name>
+        <qualifiedname>MR::relaxKeepVolume</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const MeshRelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="48" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="48" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1ga20d24c1c616896c5b7cf17b6dc1ad1dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::relaxApprox</definition>
+        <argsstring>(Mesh &amp;mesh, const MeshApproxRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>relaxApprox</name>
+        <qualifiedname>MR::relaxApprox</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshApproxRelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) approx neighborhoods <simplesect kind="return"><para>true if the operation completed successfully, and false if it was interrupted by the progress callback. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="61" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="61" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1ga6e76217244fff2be67a0f598cd0fecf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::relaxApprox</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, const MeshApproxRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
+        <name>relaxApprox</name>
+        <qualifiedname>MR::relaxApprox</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const MeshApproxRelaxParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="62" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="62" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gaf3dd7b36bb56c94c95b1bea9f7546349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::removeSpikes</definition>
+        <argsstring>(Mesh &amp;mesh, int maxIterations, float minSumAngle, const VertBitSet *region=nullptr)</argsstring>
+        <name>removeSpikes</name>
+        <qualifiedname>MR::removeSpikes</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSumAngle</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>applies at most given number of relaxation iterations the spikes detected by given threshold </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="65" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="65" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gab2c357f2577a4c6f872ef3f36c09426d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::removeSpikes</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, int maxIterations, float minSumAngle, const VertBitSet *region=nullptr)</argsstring>
+        <name>removeSpikes</name>
+        <qualifiedname>MR::removeSpikes</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSumAngle</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="66" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="66" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1ga8befca5bcec5f332e23a665e97e9ecbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::smoothRegionBoundary</definition>
+        <argsstring>(Mesh &amp;mesh, const FaceBitSet &amp;regionFaces, int numIters=4)</argsstring>
+        <name>smoothRegionBoundary</name>
+        <qualifiedname>MR::smoothRegionBoundary</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>regionFaces</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given a region of faces on the mesh, moves boundary vertices of the region to make the region contour much smoother with minor optimization of mesh topology near region boundary; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numIters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&gt;= 1 how many times to run the algorithm to achieve a better quality, solution is typically oscillates back and forth so even number of iterations is recommended </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="72" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="72" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1ga287157ee21ca3461b897a4f9e982739b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::hardSmoothTetrahedrons</definition>
+        <argsstring>(Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>MR::hardSmoothTetrahedrons</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="75" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="75" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshRelaxGroup_1gaeb54f6e7ad3bb704eb561e63bc53a9af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::hardSmoothTetrahedrons</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, const VertBitSet *region=nullptr)</argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>MR::hardSmoothTetrahedrons</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="76" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="76" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

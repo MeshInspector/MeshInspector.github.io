@@ -1,0 +1,1029 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ad42ac12c2ff32114e88322eee29aef38" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64673" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2115216166eb936243159aa22a314e2d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5448c42c6e38ed0df273cb6d8f51cc18" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64675" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1acded7f4d73f3cc27c2a2adea760cf836" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64676" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a7f725fa6ee78b22bc583d412ad5b4109" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64679" bodyend="64680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a10d3eac1ef2f8c73433cad65ec34a640" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId" kindref="compound">Vector_MeshBuilder_VertSpan_FaceId</ref></type>
+        <definition> Vector_MeshBuilder_VertSpan_FaceId mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64683" bodyend="64684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a10d3eac1ef2f8c73433cad65ec34a640" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId" kindref="compound">Vector_MeshBuilder_VertSpan_FaceId</ref></type>
+        <definition> Vector_MeshBuilder_VertSpan_FaceId mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64687" bodyend="64688"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a7599c2054ab029da175f50682656159e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64690" bodyend="64691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a7599c2054ab029da175f50682656159e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64693" bodyend="64694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a821a721577f5e719acaef5e363643297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64696" bodyend="64699"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a80491e2ed627e56d251a4013b4a97dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64701" bodyend="64704"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ad93a6b6c09f0421dd3548caa69f46f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</definition>
+        <argsstring>(self, int size, MeshBuilder.VertSpan val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64706" bodyend="64709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2d91eddd6a4f173498211d36f5ef19b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</definition>
+        <argsstring>(self, std_vector_MeshBuilder_VertSpan vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan" kindref="compound">std_vector_MeshBuilder_VertSpan</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64711" bodyend="64714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2ed937c6ca1b80832f5b0286530dd2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</definition>
+        <argsstring>(self, Vector_MeshBuilder_VertSpan_FaceId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId" kindref="compound">Vector_MeshBuilder_VertSpan_FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64716" bodyend="64719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a67786353d25ab756b0d4ae42d023d6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref>]</type>
+        <definition> typing.Iterator[MeshBuilder.VertSpan] mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64720" bodyend="64721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5046582cb8f10dd5339da9735f4db5b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__setitem__</definition>
+        <argsstring>(self, FaceId arg0, MeshBuilder.VertSpan arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64722" bodyend="64723"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ae32541187ad5cbe3032aeccb8ad798b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.autoResizeAt</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64724" bodyend="64727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ab54c83a590e85dd5c9409d60166a9e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.autoResizeSet</definition>
+        <argsstring>(self, FaceId pos, int len, MeshBuilder.VertSpan val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64729" bodyend="64733"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1afb230a473c8cded248d27eb3f9af866c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.autoResizeSet</definition>
+        <argsstring>(self, FaceId i, MeshBuilder.VertSpan val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64735" bodyend="64738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aeab188ba7aade7cc56f1e9032fa8103c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64740" bodyend="64741"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aeab188ba7aade7cc56f1e9032fa8103c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64743" bodyend="64744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a79b73e3b058c7296640f7ddf35f254e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64745" bodyend="64748"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a0b45da13e4b8c4f82a5432ae286aac5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64749" bodyend="64752"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ac4d5af6ac0b510a6fdade5ccdf3f5254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64753" bodyend="64754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2b16fcb78d4be4766d78e5b11aac6708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64755" bodyend="64756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a4b566501496805667e64795b6b7acf26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64758" bodyend="64759"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a4b566501496805667e64795b6b7acf26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64761" bodyend="64762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a82e910cecd74c26bda49af79c3898813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64763" bodyend="64764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a93a4ee78b3da2164694ad656d1181e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64765" bodyend="64766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aa2ea8b111e25087db6c91db9a3609f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64767" bodyend="64770"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a827fdc146cf7eef5ab389788dd6ecea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64772" bodyend="64773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a827fdc146cf7eef5ab389788dd6ecea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64775" bodyend="64776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5e0bdb12976fe38a25c9efff20416eb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64777" bodyend="64780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ac441251e56860f6aab3d53b232332aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64781" bodyend="64782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a6fd85d6f8544a568a7a27cbdf688fcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.push_back</definition>
+        <argsstring>(self, MeshBuilder.VertSpan t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64784" bodyend="64785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a6fd85d6f8544a568a7a27cbdf688fcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.push_back</definition>
+        <argsstring>(self, MeshBuilder.VertSpan t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64787" bodyend="64788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a697cf812edb3d4f1b23524fd799dd7ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64789" bodyend="64790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a282e0f52b08a910a53713c610aeef448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64792" bodyend="64793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a0517ada70cadcb36926afce521a27b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resize</definition>
+        <argsstring>(self, int newSize, MeshBuilder.VertSpan t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64795" bodyend="64796"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1add761b10750ebc5dd827c1c1f798c41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64798" bodyend="64801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aa8624bf0a99d1fd694b0e1a029923f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, MeshBuilder.VertSpan value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64803" bodyend="64806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a261e1d86e7d656cf6990ff2a2aad09af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64807" bodyend="64808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1adbc15577c44f927561091adc40d48e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.swap</definition>
+        <argsstring>(self, Vector_MeshBuilder_VertSpan_FaceId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId" kindref="compound">Vector_MeshBuilder_VertSpan_FaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64809" bodyend="64810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ae4476757ea7b2f7a5cbde844d83261fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan" kindref="compound">std_vector_MeshBuilder_VertSpan</ref></type>
+        <definition> std_vector_MeshBuilder_VertSpan mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64812" bodyend="64815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5d0e4e7b6c572dea97e65d5265fa9275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.vec_</definition>
+        <argsstring>(self, std_vector_MeshBuilder_VertSpan arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan" kindref="compound">std_vector_MeshBuilder_VertSpan</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64817" bodyend="64818"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::MeshBuilder::VertSpan, MR::FaceId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId</label>
+        <link refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64663" bodyend="64818"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a7599c2054ab029da175f50682656159e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a7599c2054ab029da175f50682656159e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a7f725fa6ee78b22bc583d412ad5b4109" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a821a721577f5e719acaef5e363643297" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a80491e2ed627e56d251a4013b4a97dd6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ad93a6b6c09f0421dd3548caa69f46f36" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2d91eddd6a4f173498211d36f5ef19b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2ed937c6ca1b80832f5b0286530dd2da" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a67786353d25ab756b0d4ae42d023d6ff" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5046582cb8f10dd5339da9735f4db5b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ad42ac12c2ff32114e88322eee29aef38" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ae32541187ad5cbe3032aeccb8ad798b0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ab54c83a590e85dd5c9409d60166a9e1c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1afb230a473c8cded248d27eb3f9af866c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aeab188ba7aade7cc56f1e9032fa8103c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aeab188ba7aade7cc56f1e9032fa8103c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a79b73e3b058c7296640f7ddf35f254e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a0b45da13e4b8c4f82a5432ae286aac5d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ac4d5af6ac0b510a6fdade5ccdf3f5254" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2b16fcb78d4be4766d78e5b11aac6708" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a2115216166eb936243159aa22a314e2d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a4b566501496805667e64795b6b7acf26" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a4b566501496805667e64795b6b7acf26" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a82e910cecd74c26bda49af79c3898813" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a93a4ee78b3da2164694ad656d1181e8f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aa2ea8b111e25087db6c91db9a3609f0e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a827fdc146cf7eef5ab389788dd6ecea8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a827fdc146cf7eef5ab389788dd6ecea8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5e0bdb12976fe38a25c9efff20416eb2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a10d3eac1ef2f8c73433cad65ec34a640" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a10d3eac1ef2f8c73433cad65ec34a640" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ac441251e56860f6aab3d53b232332aea" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a6fd85d6f8544a568a7a27cbdf688fcad" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a6fd85d6f8544a568a7a27cbdf688fcad" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5448c42c6e38ed0df273cb6d8f51cc18" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a697cf812edb3d4f1b23524fd799dd7ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a282e0f52b08a910a53713c610aeef448" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a0517ada70cadcb36926afce521a27b7d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1add761b10750ebc5dd827c1c1f798c41d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aa8624bf0a99d1fd694b0e1a029923f65" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a261e1d86e7d656cf6990ff2a2aad09af" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1adbc15577c44f927561091adc40d48e42" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1acded7f4d73f3cc27c2a2adea760cf836" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ae4476757ea7b2f7a5cbde844d83261fe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a5d0e4e7b6c572dea97e65d5265fa9275" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_MeshBuilder_VertSpan_FaceId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

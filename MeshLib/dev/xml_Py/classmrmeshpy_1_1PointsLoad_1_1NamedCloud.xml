@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsLoad::NamedCloud</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a1f946e15e861e4424906ae03a7dbd2c3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.NamedCloud::_offsetof_cloud</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cloud</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud._offsetof_cloud</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a39116f7728fc8caf9641ccf0d9f57ea8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.NamedCloud::_offsetof_colors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colors</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud._offsetof_colors</qualifiedname>
+        <initializer>=  192</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a5bda0a7865468133863ab4bbe86a3143" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.NamedCloud::_offsetof_name</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_name</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud._offsetof_name</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a8ebc198fa4b7b17ac8fbcde2ce5b7488" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.NamedCloud::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud._offsetof_xf</qualifiedname>
+        <initializer>=  144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45164" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1addcaf4e7bd4338db4d065d8fe0f04e23" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.NamedCloud.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45171" bodyend="45172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a615f34e1bfd7d255c68c6c4474f8b8bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud" kindref="compound">PointsLoad.NamedCloud</ref></type>
+        <definition> PointsLoad.NamedCloud mrmeshpy.PointsLoad.NamedCloud.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45175" bodyend="45176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a615f34e1bfd7d255c68c6c4474f8b8bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud" kindref="compound">PointsLoad.NamedCloud</ref></type>
+        <definition> PointsLoad.NamedCloud mrmeshpy.PointsLoad.NamedCloud.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45179" bodyend="45180"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a2bf152a27d14b6ab4fbc0d012606ba8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.NamedCloud.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45182" bodyend="45183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a3a52174e0ff068c5428f8e7c2b811ca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.NamedCloud.__init__</definition>
+        <argsstring>(self, PointsLoad.NamedCloud arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud" kindref="compound">PointsLoad.NamedCloud</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45185" bodyend="45188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a5e0e3502abef2571905a82b077b87c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.NamedCloud.__init__</definition>
+        <argsstring>(self, str name, PointCloud cloud, AffineXf3f xf, VertColors colors)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.NamedCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45190" bodyend="45194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointsLoad::NamedCloud
+
+loads scene from e57 file
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointsLoad.NamedCloud</label>
+        <link refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cloud</edgelabel>
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_name</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45155" bodyend="45193"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1addcaf4e7bd4338db4d065d8fe0f04e23" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a2bf152a27d14b6ab4fbc0d012606ba8a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a3a52174e0ff068c5428f8e7c2b811ca6" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a5e0e3502abef2571905a82b077b87c97" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a1f946e15e861e4424906ae03a7dbd2c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>_offsetof_cloud</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a39116f7728fc8caf9641ccf0d9f57ea8" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a5bda0a7865468133863ab4bbe86a3143" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>_offsetof_name</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a8ebc198fa4b7b17ac8fbcde2ce5b7488" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a615f34e1bfd7d255c68c6c4474f8b8bc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1NamedCloud_1a615f34e1bfd7d255c68c6c4474f8b8bc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::NamedCloud</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

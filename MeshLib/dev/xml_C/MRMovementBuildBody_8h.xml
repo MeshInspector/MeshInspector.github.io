@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMovementBuildBody_8h" kind="file" language="C++">
+    <compoundname>MRMovementBuildBody.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMovementBuildBody.h</label>
+        <link refid="MRMovementBuildBody_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMovementBuildBody_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
+        <type>struct MR_AffineXf3f</type>
+        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AffineXf3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMovementBuildBody_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMovementBuildBody_8h_1a5c7e91d11b038315c0503df15b512997" prot="public" static="no">
+        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref></type>
+        <definition>typedef struct MR_std_optional_MR_Vector3f MR_std_optional_MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="15" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMovementBuildBody_8h_1a79b88ecd897f6c27c8428cecc4a91f30" prot="public" static="no">
+        <type>struct <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref></type>
+        <definition>typedef struct MR_std_vector_std_vector_MR_Vector3f MR_std_vector_std_vector_MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_vector_MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="16" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" prot="public" static="no">
+        <type>struct <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref></type>
+        <definition>typedef struct MR_MovementBuildBodyParams MR_MovementBuildBodyParams</definition>
+        <argsstring></argsstring>
+        <name>MR_MovementBuildBodyParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MovementBuildBodyParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="21" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_MovementBuildBodyParams_Get_allowRotation</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_allowRotation</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>allowRotation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="29" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="29" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_allowRotation</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, bool value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_allowRotation</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>allowRotation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>allowRotation</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="37" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_MovementBuildBodyParams_GetMutable_allowRotation</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_allowRotation</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>allowRotation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_Get_center</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_center</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>point in body space that follows trajectory if not set body bounding box center is used Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="52" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="52" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_center</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, const MR_Vector3f *value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_center</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>point in body space that follows trajectory if not set body bounding box center is used Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="61" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_GetMutable_center</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_center</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>point in body space that follows trajectory if not set body bounding box center is used Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="68" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="68" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_Get_bodyNormal</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_bodyNormal</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>bodyNormal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="75" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="75" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_bodyNormal</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, const MR_Vector3f *value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_bodyNormal</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>bodyNormal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bodyNormal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bodyNormal</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_GetMutable_bodyNormal</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_bodyNormal</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>bodyNormal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="91" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="91" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_Get_bodyUpDir</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_bodyUpDir</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>up direction of body contours corresponds with <computeroutput>trajectoryNormals</computeroutput> if both are present and <computeroutput>allowRotation</computeroutput> is set Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>bodyUpDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="98" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="98" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_bodyUpDir</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, const MR_Vector3f *value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_bodyUpDir</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>up direction of body contours corresponds with <computeroutput>trajectoryNormals</computeroutput> if both are present and <computeroutput>allowRotation</computeroutput> is set Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>bodyUpDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bodyUpDir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bodyUpDir</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_GetMutable_bodyUpDir</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_bodyUpDir</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>up direction of body contours corresponds with <computeroutput>trajectoryNormals</computeroutput> if both are present and <computeroutput>allowRotation</computeroutput> is set Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>bodyUpDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="114" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="114" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *const *</type>
+        <definition>MRC_API const MR_std_vector_std_vector_MR_Vector3f *const  * MR_MovementBuildBodyParams_Get_trajectoryNormals</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_trajectoryNormals</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <computeroutput>allowRotation</computeroutput> is set Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>trajectoryNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="121" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="121" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_trajectoryNormals</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, const MR_std_vector_std_vector_MR_Vector3f *value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_trajectoryNormals</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <computeroutput>allowRotation</computeroutput> is set Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>trajectoryNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>trajectoryNormals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>trajectoryNormals</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> **</type>
+        <definition>MRC_API const MR_std_vector_std_vector_MR_Vector3f ** MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <computeroutput>allowRotation</computeroutput> is set Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>trajectoryNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="136" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="136" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_MovementBuildBodyParams_Get_b2tXf</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_b2tXf</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional transform body space to trajectory space Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>b2tXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="142" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="142" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_b2tXf</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_b2tXf</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional transform body space to trajectory space Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>b2tXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b2tXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b2tXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="149" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_MovementBuildBodyParams_GetMutable_b2tXf</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_b2tXf</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional transform body space to trajectory space Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>b2tXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="155" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="155" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_MovementBuildBodyParams_Get_startMeshFromBody</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Get_startMeshFromBody</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, then body-contours will be located exactly on resulting mesh Returns a pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>startMeshFromBody</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="161" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="161" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Set_startMeshFromBody</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, bool value)</argsstring>
+        <name>MR_MovementBuildBodyParams_Set_startMeshFromBody</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, then body-contours will be located exactly on resulting mesh Modifies a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>startMeshFromBody</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>startMeshFromBody</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, then body-contours will be located exactly on resulting mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::MovementBuildBodyParams</computeroutput> named <computeroutput>startMeshFromBody</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="173" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MovementBuildBodyParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" kindref="member">MR_MovementBuildBodyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="177" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="177" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MovementBuildBodyParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" kindref="member">MR_MovementBuildBodyParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" kindref="member">MR_MovementBuildBodyParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" kindref="member">MR_MovementBuildBodyParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="182" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="182" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_ConstructFrom</definition>
+        <argsstring>(bool allowRotation, const MR_Vector3f *center, const MR_Vector3f *bodyNormal, const MR_Vector3f *bodyUpDir, const MR_std_vector_std_vector_MR_Vector3f *trajectoryNormals, const MR_AffineXf3f *b2tXf, bool startMeshFromBody)</argsstring>
+        <name>MR_MovementBuildBodyParams_ConstructFrom</name>
+        <param>
+          <type>bool</type>
+          <declname>allowRotation</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>bodyNormal</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>bodyUpDir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+          <declname>trajectoryNormals</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>b2tXf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>startMeshFromBody</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MovementBuildBodyParams</computeroutput> elementwise. Parameter <computeroutput>center</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>bodyNormal</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>bodyNormal</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>bodyUpDir</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>bodyUpDir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>trajectoryNormals</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b2tXf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" kindref="member">MR_MovementBuildBodyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="195" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="195" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API const MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_OffsetPtr</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MovementBuildBodyParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="199" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="199" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_MovementBuildBodyParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MovementBuildBodyParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="203" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="203" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_other)</argsstring>
+        <name>MR_MovementBuildBodyParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MovementBuildBodyParams::MovementBuildBodyParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" kindref="member">MR_MovementBuildBodyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="209" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_Destroy</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MovementBuildBodyParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="212" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MovementBuildBodyParams_DestroyArray</definition>
+        <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
+        <name>MR_MovementBuildBodyParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MovementBuildBodyParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_AssignFromAnother</definition>
+        <argsstring>(MR_MovementBuildBodyParams *_this, const MR_MovementBuildBodyParams *_other)</argsstring>
+        <name>MR_MovementBuildBodyParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MovementBuildBodyParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="223" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="223" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_Mesh * MR_makeMovementBuildBody</definition>
+        <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *body, const MR_std_vector_std_vector_MR_Vector3f *trajectory, const MR_MovementBuildBodyParams *params)</argsstring>
+        <name>MR_makeMovementBuildBody</name>
+        <param>
+          <type>const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+          <declname>trajectory</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes mesh by moving <computeroutput>body</computeroutput> along <computeroutput>trajectory</computeroutput> if allowRotation rotate it in corners Generated from function <computeroutput>MR::makeMovementBuildBody</computeroutput>. Parameter <computeroutput>body</computeroutput> can not be null. It is a single object. Parameter <computeroutput>trajectory</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMesh_8h_1a0fdcb7b4857a7f6b0fa52a17112cace6" kindref="member">MR_Mesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="233" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="233" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRMovementBuildBody_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMovementBuildBody_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRMovementBuildBody_8h_1a5c7e91d11b038315c0503df15b512997" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRMovementBuildBody_8h_1a79b88ecd897f6c27c8428cecc4a91f30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" kindref="member">MR_MovementBuildBodyParams_Get_allowRotation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" kindref="member">MR_MovementBuildBodyParams_Set_allowRotation</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" kindref="member">MR_MovementBuildBodyParams_GetMutable_allowRotation</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" kindref="member">MR_MovementBuildBodyParams_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" kindref="member">MR_MovementBuildBodyParams_Set_center</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" kindref="member">MR_MovementBuildBodyParams_GetMutable_center</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" kindref="member">MR_MovementBuildBodyParams_Get_bodyNormal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" kindref="member">MR_MovementBuildBodyParams_Set_bodyNormal</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" kindref="member">MR_MovementBuildBodyParams_GetMutable_bodyNormal</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" kindref="member">MR_MovementBuildBodyParams_Get_bodyUpDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" kindref="member">MR_MovementBuildBodyParams_Set_bodyUpDir</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" kindref="member">MR_MovementBuildBodyParams_GetMutable_bodyUpDir</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" kindref="member">MR_MovementBuildBodyParams_Get_trajectoryNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" kindref="member">MR_MovementBuildBodyParams_Set_trajectoryNormals</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" kindref="member">MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" kindref="member">MR_MovementBuildBodyParams_Get_b2tXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" kindref="member">MR_MovementBuildBodyParams_Set_b2tXf</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" kindref="member">MR_MovementBuildBodyParams_GetMutable_b2tXf</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" kindref="member">MR_MovementBuildBodyParams_Get_startMeshFromBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" kindref="member">MR_MovementBuildBodyParams_Set_startMeshFromBody</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" kindref="member">MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" kindref="member">MR_MovementBuildBodyParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" kindref="member">MR_MovementBuildBodyParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" kindref="member">MR_MovementBuildBodyParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allowRotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*center,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*bodyNormal,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*bodyUpDir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*trajectoryNormals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*b2tXf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>startMeshFromBody);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" kindref="member">MR_MovementBuildBodyParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" kindref="member">MR_MovementBuildBodyParams_OffsetMutablePtr</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" kindref="member">MR_MovementBuildBodyParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" kindref="member">MR_MovementBuildBodyParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" kindref="member">MR_MovementBuildBodyParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" kindref="member">MR_MovementBuildBodyParams_AssignFromAnother</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" kindref="member">MR_makeMovementBuildBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*body,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*trajectory,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h"/>
+  </compounddef>
+</doxygen>

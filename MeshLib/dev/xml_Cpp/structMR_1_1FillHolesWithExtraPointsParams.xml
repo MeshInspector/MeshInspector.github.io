@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillHolesWithExtraPointsParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillHolesWithExtraPointsParams</compoundname>
+    <includes refid="MRPointCloudTriangulation_8h" local="no">MRPointCloudTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+        <definition>TriangulationParameters MR::FillHolesWithExtraPointsParams::triangulation</definition>
+        <argsstring></argsstring>
+        <name>triangulation</name>
+        <qualifiedname>MR::FillHolesWithExtraPointsParams::triangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="91" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHolesWithExtraPointsParams_1aa413702c40e0c7216a9137543e25d8a5" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::FillHolesWithExtraPointsParams::modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>MR::FillHolesWithExtraPointsParams::modifyBdVertices</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if nullptr, then any boundary vertex of input mesh can get new triangles; otherwise only vertices from modifyBdVertices can get new triangles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="95" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FillHolesWithExtraPointsParams</label>
+        <link refid="structMR_1_1FillHolesWithExtraPointsParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>triangulation</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::PointCloud</label>
+        <link refid="structMR_1_1PointCloud"/>
+      </node>
+      <node id="2">
+        <label>MR::TriangulationParameters</label>
+        <link refid="structMR_1_1TriangulationParameters"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>searchNeighbors</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="90" bodyend="96"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FillHolesWithExtraPointsParams_1aa413702c40e0c7216a9137543e25d8a5" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>modifyBdVertices</name></member>
+      <member refid="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>triangulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

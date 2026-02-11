@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface_1_1TPMS" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface::TPMS</compoundname>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public">mrmeshpy::FillingSurface::TPMS::MeshParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" prot="public">mrmeshpy::FillingSurface::TPMS::Type</innerclass>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" prot="public">mrmeshpy::FillingSurface::TPMS::VolumeParams</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a840fc824cb91f70598c369f2255c0df1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.FillingSurface.TPMS.build</definition>
+        <argsstring>(Vector3f size, FillingSurface.TPMS.MeshParams params, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>build</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.build</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">FillingSurface.TPMS.MeshParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructs TPMS level-set and then convert it to mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19814" bodyend="19817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1aa84bb3923200632e6ca349ae2199f216" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
+        <definition> FunctionVolume mrmeshpy.FillingSurface.TPMS.buildVolume</definition>
+        <argsstring>(Vector3f size, FillingSurface.TPMS.VolumeParams params)</argsstring>
+        <name>buildVolume</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.buildVolume</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">FillingSurface.TPMS.VolumeParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Construct TPMS using implicit function (https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces)
+@param size Size of the cube with the surface
+@return Distance-volume starting at (0, 0, 0) and having specified @p size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19819" bodyend="19824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1ab8c62cc9f253a203be2c6c5c1dbeed3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.TPMS.estimateDensity</definition>
+        <argsstring>(FillingSurface.TPMS.Type type, float targetIso)</argsstring>
+        <name>estimateDensity</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.estimateDensity</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetIso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns approximate density corresponding to the given ISO value
+@param targetIso value in [-1; 1]
+@return Value in [0; 1]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19826" bodyend="19831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a748625f767842a7fb6c07be3701c1d8b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.TPMS.estimateIso</definition>
+        <argsstring>(FillingSurface.TPMS.Type type, float targetDensity)</argsstring>
+        <name>estimateIso</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.estimateIso</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetDensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns approximated ISO value corresponding to the given density
+@param targetDensity value in [0; 1]
+@return Value in [-1; 1]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19833" bodyend="19838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a7a7defd2eaf0e405c7f77b086dcdc95e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.FillingSurface.TPMS.fill</definition>
+        <argsstring>(Mesh mesh, FillingSurface.TPMS.MeshParams params, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>fill</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.fill</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">FillingSurface.TPMS.MeshParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructs TPMS-filling for the given @p mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19840" bodyend="19843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a70ebc4b63b3936f9ce0b050838d2d274" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.TPMS.getMinimalResolution</definition>
+        <argsstring>(FillingSurface.TPMS.Type type, float iso)</argsstring>
+        <name>getMinimalResolution</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getMinimalResolution</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns minimal reasonable resolution for given parameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19845" bodyend="19848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
+        <argsstring>(Mesh mesh, float frequency, float resolution)</argsstring>
+        <name>getNumberOfVoxels</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns number of voxels that would be used to perform \\ref fillWithTPMS
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19851" bodyend="19854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
+        <argsstring>(Vector3f size, float frequency, float resolution)</argsstring>
+        <name>getNumberOfVoxels</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns number of voxels that would be used to perform \\ref buildTPMS or \\ref buildTPMSVolume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19857" bodyend="19860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1afa0eb274c9b05234005a0e2048da5138" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.FillingSurface.TPMS.getTypeNames</definition>
+        <argsstring>()</argsstring>
+        <name>getTypeNames</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getTypeNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the names for each type of filling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19862" bodyend="19865"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a776838a221f3ae9ec41151f4357805e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.FillingSurface.TPMS.getTypeTooltips</definition>
+        <argsstring>()</argsstring>
+        <name>getTypeTooltips</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getTypeTooltips</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the tooltips for each type of filling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19867" bodyend="19870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a585e3517a1172fc0cfc4e64b65fef18f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.TPMS.isThick</definition>
+        <argsstring>(FillingSurface.TPMS.Type type)</argsstring>
+        <name>isThick</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.isThick</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if the \\p type is thick
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19872" bodyend="19876"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19679" bodyend="19875"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a840fc824cb91f70598c369f2255c0df1" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>build</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1aa84bb3923200632e6ca349ae2199f216" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>buildVolume</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1ab8c62cc9f253a203be2c6c5c1dbeed3e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>estimateDensity</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a748625f767842a7fb6c07be3701c1d8b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>estimateIso</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a7a7defd2eaf0e405c7f77b086dcdc95e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>fill</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a70ebc4b63b3936f9ce0b050838d2d274" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getMinimalResolution</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1afa0eb274c9b05234005a0e2048da5138" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getTypeNames</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a776838a221f3ae9ec41151f4357805e0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getTypeTooltips</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a585e3517a1172fc0cfc4e64b65fef18f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>isThick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

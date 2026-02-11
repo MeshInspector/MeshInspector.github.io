@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AsyncRequest" kind="class" language="C++" prot="public">
+    <compoundname>MR::AsyncRequest</compoundname>
+    <includes refid="MRAsyncTimer_8h" local="no">MRAsyncTimer.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" prot="public" static="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>using MR::AsyncRequest::Command =  std::function&lt;void()&gt;</definition>
+        <argsstring></argsstring>
+        <name>Command</name>
+        <qualifiedname>MR::AsyncRequest::Command</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="57" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AsyncRequest_1a4db965f455f079c0eca66001c00b8909" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread MR::AsyncRequest::listenerThread_</definition>
+        <argsstring></argsstring>
+        <name>listenerThread_</name>
+        <qualifiedname>MR::AsyncRequest::listenerThread_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="70" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AsyncRequest_1adb936a4ab023dde0ceadfad2da31769b" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AsyncTimer" kindref="compound">AsyncTimer</ref></type>
+        <definition>AsyncTimer MR::AsyncRequest::timer_</definition>
+        <argsstring></argsstring>
+        <name>timer_</name>
+        <qualifiedname>MR::AsyncRequest::timer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="71" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AsyncRequest_1a4edff717cd6372fadb42b0cfdeb0f356" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex MR::AsyncRequest::cmdMutex_</definition>
+        <argsstring></argsstring>
+        <name>cmdMutex_</name>
+        <qualifiedname>MR::AsyncRequest::cmdMutex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="76" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AsyncRequest_1a88fac8def7193775f5156d79588ef527" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" kindref="member">Command</ref></type>
+        <definition>Command MR::AsyncRequest::command_</definition>
+        <argsstring></argsstring>
+        <name>command_</name>
+        <qualifiedname>MR::AsyncRequest::command_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="77" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1a32e13a84f6e2ea8aeeba1f2deb566a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::AsyncRequest::AsyncRequest</definition>
+        <argsstring>()</argsstring>
+        <name>AsyncRequest</name>
+        <qualifiedname>MR::AsyncRequest::AsyncRequest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="55" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1a3801cd6efcd7bb32ee149dd407b78ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::AsyncRequest::~AsyncRequest</definition>
+        <argsstring>()</argsstring>
+        <name>~AsyncRequest</name>
+        <qualifiedname>MR::AsyncRequest::~AsyncRequest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="56" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1a0a3e35b953012f9acba6d6a9a50232fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AsyncRequest::request</definition>
+        <argsstring>(const Time &amp;time, Command command)</argsstring>
+        <name>request</name>
+        <qualifiedname>MR::AsyncRequest::request</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref> &amp;</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" kindref="member">Command</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>requests command execution, forgetting about previous command note that command will be executed from the listener thread </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="61" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1a01cefc0b2c39108d1ed5dce811d40664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AsyncRequest::requestIfNotSet</definition>
+        <argsstring>(const Time &amp;time, Command command)</argsstring>
+        <name>requestIfNotSet</name>
+        <qualifiedname>MR::AsyncRequest::requestIfNotSet</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref> &amp;</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" kindref="member">Command</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>requests command execution only if no request waiting note that command will be executed from the listener thread </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="65" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1a0c97ae941f212dde5a8326dbe28ee679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AsyncRequest::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::AsyncRequest::reset</qualifiedname>
+        <briefdescription>
+<para>clears command </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="68" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1aa4ee4111a285fa44ca49e776aa1a7c68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" kindref="member">Command</ref></type>
+        <definition>Command MR::AsyncRequest::loadCommand_</definition>
+        <argsstring>()</argsstring>
+        <name>loadCommand_</name>
+        <qualifiedname>MR::AsyncRequest::loadCommand_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="73" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AsyncRequest_1a6c0eb00abc2352bb3d52309aa6d4a99a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AsyncRequest::storeCommand_</definition>
+        <argsstring>(Command command)</argsstring>
+        <name>storeCommand_</name>
+        <qualifiedname>MR::AsyncRequest::storeCommand_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" kindref="member">Command</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="74" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Complete given command in given time may know only one command at a time terminate listener in destructor </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="53" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AsyncRequest_1a32e13a84f6e2ea8aeeba1f2deb566a3d" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>AsyncRequest</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a4edff717cd6372fadb42b0cfdeb0f356" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>cmdMutex_</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a32c8eaba0bbda7c291e8231db38a41e1" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>Command</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a88fac8def7193775f5156d79588ef527" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>command_</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a4db965f455f079c0eca66001c00b8909" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>listenerThread_</name></member>
+      <member refid="classMR_1_1AsyncRequest_1aa4ee4111a285fa44ca49e776aa1a7c68" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>loadCommand_</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a0a3e35b953012f9acba6d6a9a50232fc" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>request</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a01cefc0b2c39108d1ed5dce811d40664" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>requestIfNotSet</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a0c97ae941f212dde5a8326dbe28ee679" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>reset</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a6c0eb00abc2352bb3d52309aa6d4a99a" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>storeCommand_</name></member>
+      <member refid="classMR_1_1AsyncRequest_1adb936a4ab023dde0ceadfad2da31769b" prot="private" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>timer_</name></member>
+      <member refid="classMR_1_1AsyncRequest_1a3801cd6efcd7bb32ee149dd407b78ba6" prot="public" virt="non-virtual"><scope>MR::AsyncRequest</scope><name>~AsyncRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

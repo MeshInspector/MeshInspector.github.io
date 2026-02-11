@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1ad9ff231c362a60abb0e92efcdb008ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75287" bodyend="75288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1ac02017b9046fdb26acdbc748877ce9de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ProcessOneResult" kindref="compound">ProcessOneResult</ref></type>
+        <definition> ProcessOneResult mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__call__</definition>
+        <argsstring>(self, Vector3f arg0, FaceId arg1, Vector3f arg2, float arg3)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75289" bodyend="75290"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a4e5aaf34103fd94b60cf5766669d3a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75292" bodyend="75293"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a72cd78e3e1bd665e03f1b193a119428f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75295" bodyend="75296"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a0480749cb7d6cae497870eaa66244146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</definition>
+        <argsstring>(self, func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float" kindref="compound">func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75298" bodyend="75299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a3b57ba1306f6969176dc63df14bf23d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</definition>
+        <argsstring>(self, typing.Callable[[Vector3f, FaceId, Vector3f, float], ProcessOneResult] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[Vector3f, FaceId, Vector3f, float]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ProcessOneResult" kindref="compound">ProcessOneResult</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75301" bodyend="75302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1aa81ca9fc56bdfbf8d885f562ac9e9616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75303" bodyend="75306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1ad55ff2be4ce21933d755b4be1ad17dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75307" bodyend="75310"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75286" bodyend="75310"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1ad9ff231c362a60abb0e92efcdb008ed9" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1ac02017b9046fdb26acdbc748877ce9de" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a4e5aaf34103fd94b60cf5766669d3a1e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a72cd78e3e1bd665e03f1b193a119428f" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a0480749cb7d6cae497870eaa66244146" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1a3b57ba1306f6969176dc63df14bf23d1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1aa81ca9fc56bdfbf8d885f562ac9e9616" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float_1ad55ff2be4ce21933d755b4be1ad17dd6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

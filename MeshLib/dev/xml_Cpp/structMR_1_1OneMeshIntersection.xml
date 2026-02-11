@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OneMeshIntersection" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OneMeshIntersection</compoundname>
+    <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1OneMeshIntersection_1ab42f0bd750d88e66c17bce92a1fe733d" prot="public" static="no" mutable="no">
+        <type>std::variant&lt; FaceId, EdgeId, VertId &gt;</type>
+        <definition>std::variant&lt;FaceId, EdgeId, VertId&gt; MR::OneMeshIntersection::primitiveId</definition>
+        <argsstring></argsstring>
+        <name>primitiveId</name>
+        <qualifiedname>MR::OneMeshIntersection::primitiveId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="26" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OneMeshIntersection_1ab8b3439c1559deb1b278b9d5c8c2c14d" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::OneMeshIntersection::coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <qualifiedname>MR::OneMeshIntersection::coordinate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Simple point on mesh, represented by primitive id and coordinate in mesh space. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="25" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structMR_1_1OneMeshIntersection_1ab8b3439c1559deb1b278b9d5c8c2c14d" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>coordinate</name></member>
+      <member refid="structMR_1_1OneMeshIntersection_1ab42f0bd750d88e66c17bce92a1fe733d" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>primitiveId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PdfParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PdfParameters</compoundname>
+    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PdfParameters_1a5bbd653c0d1a0fb7db070974d90a791e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PdfParameters::titleSize</definition>
+        <argsstring></argsstring>
+        <name>titleSize</name>
+        <qualifiedname>MR::PdfParameters::titleSize</qualifiedname>
+        <initializer>= 18.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="49" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PdfParameters_1a7e22b490f619a059c622635844a59e4b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PdfParameters::textSize</definition>
+        <argsstring></argsstring>
+        <name>textSize</name>
+        <qualifiedname>MR::PdfParameters::textSize</qualifiedname>
+        <initializer>= 14.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PdfParameters_1a7fb7f545bd61a5042cdee1e61f97db3b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref></type>
+        <definition>PdfGeneralFont MR::PdfParameters::defaultFont</definition>
+        <argsstring></argsstring>
+        <name>defaultFont</name>
+        <qualifiedname>MR::PdfParameters::defaultFont</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894" kindref="member">PdfBuildinFont::Helvetica</ref></initializer>
+        <briefdescription>
+<para>Font name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="55" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PdfParameters_1a82fb3310291f6dec673c248905b9f0dc" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref></type>
+        <definition>PdfGeneralFont MR::PdfParameters::defaultFontBold</definition>
+        <argsstring></argsstring>
+        <name>defaultFontBold</name>
+        <qualifiedname>MR::PdfParameters::defaultFontBold</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509" kindref="member">PdfBuildinFont::HelveticaBold</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="56" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PdfParameters_1aafdf0267b27a923d80ab96f114d2fcfe" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref></type>
+        <definition>PdfGeneralFont MR::PdfParameters::tableFont</definition>
+        <argsstring></argsstring>
+        <name>tableFont</name>
+        <qualifiedname>MR::PdfParameters::tableFont</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91" kindref="member">PdfBuildinFont::Courier</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Font name for table (monospaced) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="60" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PdfParameters_1abd6876673f453aef907357a9eceb4996" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref></type>
+        <definition>PdfGeneralFont MR::PdfParameters::tableFontBold</definition>
+        <argsstring></argsstring>
+        <name>tableFontBold</name>
+        <qualifiedname>MR::PdfParameters::tableFontBold</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45" kindref="member">PdfBuildinFont::CourierBold</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="61" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of document style. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="48" bodyend="62"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PdfParameters_1a7fb7f545bd61a5042cdee1e61f97db3b" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>defaultFont</name></member>
+      <member refid="structMR_1_1PdfParameters_1a82fb3310291f6dec673c248905b9f0dc" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>defaultFontBold</name></member>
+      <member refid="structMR_1_1PdfParameters_1aafdf0267b27a923d80ab96f114d2fcfe" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>tableFont</name></member>
+      <member refid="structMR_1_1PdfParameters_1abd6876673f453aef907357a9eceb4996" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>tableFontBold</name></member>
+      <member refid="structMR_1_1PdfParameters_1a7e22b490f619a059c622635844a59e4b" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>textSize</name></member>
+      <member refid="structMR_1_1PdfParameters_1a5bbd653c0d1a0fb7db070974d90a791e" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>titleSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

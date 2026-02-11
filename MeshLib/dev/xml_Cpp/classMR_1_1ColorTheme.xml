@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ColorTheme" kind="class" language="C++" prot="public">
+    <compoundname>MR::ColorTheme</compoundname>
+    <includes refid="MRColorTheme_8h" local="no">MRColorTheme.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Preset</name>
+        <qualifiedname>MR::ColorTheme::Preset</qualifiedname>
+        <enumvalue id="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" prot="public">
+          <name>Dark</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <initializer>= Dark</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82" prot="public">
+          <name>Light</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>MR::ColorTheme::Type</qualifiedname>
+        <enumvalue id="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" prot="public">
+          <name>User</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RibbonColorsType</name>
+        <qualifiedname>MR::ColorTheme::RibbonColorsType</qualifiedname>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419" prot="public">
+          <name>Background</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd" prot="public">
+          <name>BackgroundSecStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2" prot="public">
+          <name>HeaderBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d" prot="public">
+          <name>HeaderSeparator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172" prot="public">
+          <name>TopPanelBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ab73410dff2c1861ebb8980d455bc29ac" prot="public">
+          <name>TopPanelSearchBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19" prot="public">
+          <name>QuickAccessBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476" prot="public">
+          <name>Borders</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961" prot="public">
+          <name>TabHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509" prot="public">
+          <name>TabClicked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a4bee1ab256dfd5208c42c149da53f86a" prot="public">
+          <name>TabActive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa0559031ef8e5498f84e5074f6669ee4" prot="public">
+          <name>TabActiveHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ad23d5f7e2baee8237e25498afa28433d" prot="public">
+          <name>TabActiveClicked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796" prot="public">
+          <name>TabText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a" prot="public">
+          <name>TabActiveText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0add6f466efeaf5a96dfc33f6ef0df67db" prot="public">
+          <name>DialogTab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785" prot="public">
+          <name>DialogTabHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ac0ee22e71fb95f1d07ed490d0ca63cd6" prot="public">
+          <name>DialogTabActive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ad644db49bc959d3cabf5c3561456212e" prot="public">
+          <name>DialogTabActiveHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a44e89643c3d74218928fade2818cbc8a" prot="public">
+          <name>DialogTabText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c" prot="public">
+          <name>DialogTabActiveText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532" prot="public">
+          <name>ToolbarHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609" prot="public">
+          <name>ToolbarClicked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc" prot="public">
+          <name>ModalBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675" prot="public">
+          <name>Text</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192" prot="public">
+          <name>TextEnabled</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0" prot="public">
+          <name>TextDisabled</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae4d6eaf3ac4a68236347d40d63b8a2b4" prot="public">
+          <name>TextSelectedBg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39" prot="public">
+          <name>RibbonButtonHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d" prot="public">
+          <name>RibbonButtonClicked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a405ab182bbac4b79edbf8cc4acd5bcd6" prot="public">
+          <name>RibbonButtonActive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a0954e2b27971721016aea8cbc8220933" prot="public">
+          <name>RibbonButtonActiveHovered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33" prot="public">
+          <name>RibbonButtonActiveClicked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8" prot="public">
+          <name>ThirdpartyBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81" prot="public">
+          <name>ProgressBarBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e" prot="public">
+          <name>FrameBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae26407610c1540ad5648f9496a2f5e8b" prot="public">
+          <name>CollapseHeaderBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0" prot="public">
+          <name>SelectedObjectText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a51fc4ac9f7e95aa0e47690b6636f13dd" prot="public">
+          <name>SelectedObjectFrame</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d" prot="public">
+          <name>GradientStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35" prot="public">
+          <name>GradientEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aad2cc424d609b2ce998423ef9d8b8b8f" prot="public">
+          <name>TextContrastBackground</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a50114286d87f93089d7d222120a2aff5" prot="public">
+          <name>GradBtnStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be" prot="public">
+          <name>GradBtnHoverStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ac89a96d82a927e50a773c18a61e7a780" prot="public">
+          <name>GradBtnActiveStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a11c9d2b923596e7459895684448aa6b0" prot="public">
+          <name>GradBtnDisableStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a5704717e193de9710967a1f65c75d2c7" prot="public">
+          <name>GradBtnEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3" prot="public">
+          <name>GradBtnHoverEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f" prot="public">
+          <name>GradBtnActiveEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5" prot="public">
+          <name>GradBtnDisableEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692" prot="public">
+          <name>GradBtnText</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae" prot="public">
+          <name>GradBtnSecStyleStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff" prot="public">
+          <name>GradBtnSecStyleHoverStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee" prot="public">
+          <name>GradBtnSecStyleActiveStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776" prot="public">
+          <name>GradBtnSecStyleEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c" prot="public">
+          <name>GradBtnSecStyleHoverEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162" prot="public">
+          <name>GradBtnSecStyleActiveEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a5174d1309f275ba6f275db3af9eb3e18" prot="public">
+          <name>Grid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="structMR_1_1Color" kindref="compound">Color</ref> types used in ribbon. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="63" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="64" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ViewportColorsType</name>
+        <qualifiedname>MR::ColorTheme::ViewportColorsType</qualifiedname>
+        <enumvalue id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcaa9ded1e5ce5d75814730bb4caaf49419" prot="public">
+          <name>Background</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476" prot="public">
+          <name>Borders</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdca38b0844100a915cd3c87159b391161b9" prot="public">
+          <name>AxisX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcab30a50c686982b3b209cf1234f4247cd" prot="public">
+          <name>AxisY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcadd1071c1aa89157c2386d3303413218f" prot="public">
+          <name>AxisZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="146" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="147" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1ColorTheme_1aebb0e1b2863220ca5271077fca2d07dc" prot="private" static="no">
+        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void()&gt;</type>
+        <definition>using MR::ColorTheme::ChangedSignal =  Signal&lt;void()&gt;</definition>
+        <argsstring></argsstring>
+        <name>ChangedSignal</name>
+        <qualifiedname>MR::ColorTheme::ChangedSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="195" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1a644773951f2511fc0195fac4e0a85c84" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ColorTheme::isInitialized_</definition>
+        <argsstring></argsstring>
+        <name>isInitialized_</name>
+        <qualifiedname>MR::ColorTheme::isInitialized_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="185" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1a439a4379a5c0549d285228b3dd6930f9" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref></type>
+        <definition>Preset MR::ColorTheme::themePreset_</definition>
+        <argsstring></argsstring>
+        <name>themePreset_</name>
+        <qualifiedname>MR::ColorTheme::themePreset_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Preset::Dark</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="186" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1ace5f4a52028a066c42d9484afcd0a806" prot="private" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref>, size_t(<ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">RibbonColorsType::Count</ref>)&gt;</type>
+        <definition>std::array&lt;Color, size_t( RibbonColorsType::Count )&gt; MR::ColorTheme::newUIColors_</definition>
+        <argsstring></argsstring>
+        <name>newUIColors_</name>
+        <qualifiedname>MR::ColorTheme::newUIColors_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="187" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1adb0b16d80ff2bb2f6e8d61dd285e645d" prot="private" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref>, size_t(<ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">ViewportColorsType::Count</ref>)&gt;</type>
+        <definition>std::array&lt;Color, size_t( ViewportColorsType::Count )&gt; MR::ColorTheme::viewportColors_</definition>
+        <argsstring></argsstring>
+        <name>viewportColors_</name>
+        <qualifiedname>MR::ColorTheme::viewportColors_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="188" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1a39f0487f39ddf3d7cdc17940491260e4" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></type>
+        <definition>Type MR::ColorTheme::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>MR::ColorTheme::type_</qualifiedname>
+        <initializer>{ <ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67" kindref="member">Type::Default</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="190" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="190" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1a192203c7e5f40ab67931db4169559cb1" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ColorTheme::themeName_</definition>
+        <argsstring></argsstring>
+        <name>themeName_</name>
+        <qualifiedname>MR::ColorTheme::themeName_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="191" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1a59712f631f3addccb0eb50444a674726" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; MR::ColorTheme::foundUserThemes_</definition>
+        <argsstring></argsstring>
+        <name>foundUserThemes_</name>
+        <qualifiedname>MR::ColorTheme::foundUserThemes_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="193" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ColorTheme_1a2c35b457413ba1c7e068a17e56592abf" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Signal" kindref="compound">ChangedSignal</ref></type>
+        <definition>ChangedSignal MR::ColorTheme::changedSignal_</definition>
+        <argsstring></argsstring>
+        <name>changedSignal_</name>
+        <qualifiedname>MR::ColorTheme::changedSignal_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="196" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a15699e42dc7a6e8fc8c45c6adbe410cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref> &amp;</type>
+        <definition>static MRVIEWER_API ColorTheme &amp; MR::ColorTheme::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>MR::ColorTheme::instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="18" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a7256014620791ee160d6f0dfc56dde4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref></type>
+        <definition>static MRVIEWER_API Preset MR::ColorTheme::getPreset</definition>
+        <argsstring>()</argsstring>
+        <name>getPreset</name>
+        <qualifiedname>MR::ColorTheme::getPreset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="27" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a20dfec58a706676b5c0efb946051c854" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const char *</type>
+        <definition>static MRVIEWER_API const char * MR::ColorTheme::getPresetName</definition>
+        <argsstring>(Preset type)</argsstring>
+        <name>getPresetName</name>
+        <qualifiedname>MR::ColorTheme::getPresetName</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="28" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1adf6e7e1ab1712a295b5b94453300fde5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></type>
+        <definition>static MRVIEWER_API Type MR::ColorTheme::getThemeType</definition>
+        <argsstring>()</argsstring>
+        <name>getThemeType</name>
+        <qualifiedname>MR::ColorTheme::getThemeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="37" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1afa765bafc3ea475fe65fc3383607cd63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const std::string &amp;</type>
+        <definition>static MRVIEWER_API const std::string &amp; MR::ColorTheme::getThemeName</definition>
+        <argsstring>()</argsstring>
+        <name>getThemeName</name>
+        <qualifiedname>MR::ColorTheme::getThemeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="38" column="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a6c591711ec8a5d41cd5e3c037a795c24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setupByTypeName</definition>
+        <argsstring>(Type type, const std::string &amp;name)</argsstring>
+        <name>setupByTypeName</name>
+        <qualifiedname>MR::ColorTheme::setupByTypeName</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Setup this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="41" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a8be757d1ce64f10a822aea16eadb333b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setupDefaultDark</definition>
+        <argsstring>()</argsstring>
+        <name>setupDefaultDark</name>
+        <qualifiedname>MR::ColorTheme::setupDefaultDark</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="42" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a801d15e2c46b79b721809d41123aeda5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setupDefaultLight</definition>
+        <argsstring>()</argsstring>
+        <name>setupDefaultLight</name>
+        <qualifiedname>MR::ColorTheme::setupDefaultLight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="43" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a0e971a3744071e72a002685d2666487d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setupUserTheme</definition>
+        <argsstring>(const std::string &amp;themeName)</argsstring>
+        <name>setupUserTheme</name>
+        <qualifiedname>MR::ColorTheme::setupUserTheme</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>themeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="44" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a31bee87bf2d160eb687a1d047770e390" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setupFromFile</definition>
+        <argsstring>(const std::filesystem::path &amp;path, Type type=Type::User)</argsstring>
+        <name>setupFromFile</name>
+        <qualifiedname>MR::ColorTheme::setupFromFile</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">Type::User</ref></defval>
+        </param>
+        <briefdescription>
+<para>Setup this struct from serialized color-theme file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="46" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a19709b0e383ad59e4f3913cfd8035d09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setupFromJson</definition>
+        <argsstring>(const Json::Value &amp;value, Type type=Type::User)</argsstring>
+        <name>setupFromJson</name>
+        <qualifiedname>MR::ColorTheme::setupFromJson</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">Type::User</ref></defval>
+        </param>
+        <briefdescription>
+<para>Setup this struct from Json value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="48" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1aae306524f7db4b80fc4b4c2a39ccda41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::serializeCurrentToFile</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>serializeCurrentToFile</name>
+        <qualifiedname>MR::ColorTheme::serializeCurrentToFile</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setup this struct from current application colors, and serialize them to file gets scene colors from first <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>, if it is present gets active viewport background color </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="53" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1af097c5985c3dcb124375d6767d34f764" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::serializeCurrentToJson</definition>
+        <argsstring>(Json::Value &amp;root)</argsstring>
+        <name>serializeCurrentToJson</name>
+        <qualifiedname>MR::ColorTheme::serializeCurrentToJson</qualifiedname>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setup this struct from current application colors, and serialize them to jsonValue gets scene colors from first <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>, if it is present gets active viewport background color </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="57" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a1506f82ec73be1eb299f6c390dce1fd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>static MRVIEWER_API bool MR::ColorTheme::isInitialized</definition>
+        <argsstring>()</argsstring>
+        <name>isInitialized</name>
+        <qualifiedname>MR::ColorTheme::isInitialized</qualifiedname>
+        <briefdescription>
+<para>True if this structure is filled with colors, false if empty. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="60" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a339d8efd1037cbee5aa77d9d68e07c16" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setRibbonColor</definition>
+        <argsstring>(const Color &amp;color, RibbonColorsType type)</argsstring>
+        <name>setRibbonColor</name>
+        <qualifiedname>MR::ColorTheme::setRibbonColor</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Getter and setter for ribbon colors. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="142" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1ab578b08c1af51e65c8871b6df209b260" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <definition>static MRVIEWER_API const Color &amp; MR::ColorTheme::getRibbonColor</definition>
+        <argsstring>(RibbonColorsType type)</argsstring>
+        <name>getRibbonColor</name>
+        <qualifiedname>MR::ColorTheme::getRibbonColor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="143" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a2aa0fd83cf8b28513b77491e1f5f5a09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const char *</type>
+        <definition>static MRVIEWER_API const char * MR::ColorTheme::getRibbonColorTypeName</definition>
+        <argsstring>(RibbonColorsType type)</argsstring>
+        <name>getRibbonColorTypeName</name>
+        <qualifiedname>MR::ColorTheme::getRibbonColorTypeName</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="144" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1ab9d7ae71db1952c73d2acf507830b877" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::setViewportColor</definition>
+        <argsstring>(const Color &amp;color, ViewportColorsType type)</argsstring>
+        <name>setViewportColor</name>
+        <qualifiedname>MR::ColorTheme::setViewportColor</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Getter and setter for viewport colors. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="157" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1ac188190a8deffab5d8289ed5e6a007c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <definition>static MRVIEWER_API const Color &amp; MR::ColorTheme::getViewportColor</definition>
+        <argsstring>(ViewportColorsType type)</argsstring>
+        <name>getViewportColor</name>
+        <qualifiedname>MR::ColorTheme::getViewportColor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="158" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a97174ab0c04fadd2cc5c150048f3e0b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const char *</type>
+        <definition>static MRVIEWER_API const char * MR::ColorTheme::getViewportColorTypeName</definition>
+        <argsstring>(ViewportColorsType type)</argsstring>
+        <name>getViewportColorTypeName</name>
+        <qualifiedname>MR::ColorTheme::getViewportColorTypeName</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="159" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a3e7d39643b4603246f85f52e6014466d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::filesystem::path</type>
+        <definition>static MRVIEWER_API std::filesystem::path MR::ColorTheme::getUserThemesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getUserThemesDirectory</name>
+        <qualifiedname>MR::ColorTheme::getUserThemesDirectory</qualifiedname>
+        <briefdescription>
+<para>Returns directory where user&apos;s custom themes are stored. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="162" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a0bcb053091eb10e1e15d24b17d15d379" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::updateUserThemesList</definition>
+        <argsstring>()</argsstring>
+        <name>updateUserThemesList</name>
+        <qualifiedname>MR::ColorTheme::updateUserThemesList</qualifiedname>
+        <briefdescription>
+<para>Find available custom themes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="165" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a569785effc8f8f3c1c78f9ea3ab25c23" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::vector&lt; std::string &gt;</type>
+        <definition>static MRVIEWER_API std::vector&lt; std::string &gt; MR::ColorTheme::foundUserThemes</definition>
+        <argsstring>()</argsstring>
+        <name>foundUserThemes</name>
+        <qualifiedname>MR::ColorTheme::foundUserThemes</qualifiedname>
+        <briefdescription>
+<para>Return list of found custom themes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="167" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1af27347c90aa80168a890bdb58f2d0423" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::resetImGuiStyle</definition>
+        <argsstring>()</argsstring>
+        <name>resetImGuiStyle</name>
+        <qualifiedname>MR::ColorTheme::resetImGuiStyle</qualifiedname>
+        <briefdescription>
+<para>Reset <ref refid="namespaceImGui" kindref="compound">ImGui</ref> style sizes and colors, and apply menu scaling to it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="170" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a1b86b0353c7e246e58746a652441cbda" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API boost::signals2::connection</type>
+        <definition>static MRVIEWER_API boost::signals2::connection MR::ColorTheme::onChanged</definition>
+        <argsstring>(const std::function&lt; void()&gt; &amp;slot, boost::signals2::connect_position position=boost::signals2::at_back)</argsstring>
+        <name>onChanged</name>
+        <qualifiedname>MR::ColorTheme::onChanged</qualifiedname>
+        <param>
+          <type>const std::function&lt; void()&gt; &amp;</type>
+          <declname>slot</declname>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>position</declname>
+          <defval>boost::signals2::at_back</defval>
+        </param>
+        <briefdescription>
+<para>Connects given slot to receive signal on every <ref refid="structMR_1_1Color" kindref="compound">Color</ref> Theme change, triggered in apply. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="173" column="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a3aa384e9447431bbd8a1765810847f49" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ColorTheme::ColorTheme</definition>
+        <argsstring>()=default</argsstring>
+        <name>ColorTheme</name>
+        <qualifiedname>MR::ColorTheme::ColorTheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="176" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1a3e9d0aada9f780b23a6cbcf79922fdf0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ColorTheme::~ColorTheme</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ColorTheme</name>
+        <qualifiedname>MR::ColorTheme::~ColorTheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="177" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ColorTheme_1ac3b668a5116fa0aa8c8871f9c3173cda" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ColorTheme::apply_</definition>
+        <argsstring>(const std::vector&lt; Color &gt; &amp;sceneColors)</argsstring>
+        <name>apply_</name>
+        <qualifiedname>MR::ColorTheme::apply_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+          <declname>sceneColors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Applies colors stored in this struct to application really some colors of this theme are applied deferred on next frame because of ImGui::PushStyleColor problem note that struct should be initialized when apply is called initialized in this scope means that structure has it&apos;s own values for colors </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="183" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This singleton is born to manage color-themes loading and saving, and apply it to app It can handle scene colors (default mesh colors, etc.) and Dear <ref refid="namespaceImGui" kindref="compound">ImGui</ref> colors </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="16" bodyend="197"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ColorTheme_1ac3b668a5116fa0aa8c8871f9c3173cda" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>apply_</name></member>
+      <member refid="classMR_1_1ColorTheme_1aebb0e1b2863220ca5271077fca2d07dc" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ChangedSignal</name></member>
+      <member refid="classMR_1_1ColorTheme_1a2c35b457413ba1c7e068a17e56592abf" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>changedSignal_</name></member>
+      <member refid="classMR_1_1ColorTheme_1a3aa384e9447431bbd8a1765810847f49" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ColorTheme</name></member>
+      <member refid="classMR_1_1ColorTheme_1a569785effc8f8f3c1c78f9ea3ab25c23" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>foundUserThemes</name></member>
+      <member refid="classMR_1_1ColorTheme_1a59712f631f3addccb0eb50444a674726" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>foundUserThemes_</name></member>
+      <member refid="classMR_1_1ColorTheme_1a7256014620791ee160d6f0dfc56dde4f" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getPreset</name></member>
+      <member refid="classMR_1_1ColorTheme_1a20dfec58a706676b5c0efb946051c854" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getPresetName</name></member>
+      <member refid="classMR_1_1ColorTheme_1ab578b08c1af51e65c8871b6df209b260" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getRibbonColor</name></member>
+      <member refid="classMR_1_1ColorTheme_1a2aa0fd83cf8b28513b77491e1f5f5a09" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getRibbonColorTypeName</name></member>
+      <member refid="classMR_1_1ColorTheme_1afa765bafc3ea475fe65fc3383607cd63" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getThemeName</name></member>
+      <member refid="classMR_1_1ColorTheme_1adf6e7e1ab1712a295b5b94453300fde5" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getThemeType</name></member>
+      <member refid="classMR_1_1ColorTheme_1a3e7d39643b4603246f85f52e6014466d" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getUserThemesDirectory</name></member>
+      <member refid="classMR_1_1ColorTheme_1ac188190a8deffab5d8289ed5e6a007c4" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getViewportColor</name></member>
+      <member refid="classMR_1_1ColorTheme_1a97174ab0c04fadd2cc5c150048f3e0b4" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getViewportColorTypeName</name></member>
+      <member refid="classMR_1_1ColorTheme_1a15699e42dc7a6e8fc8c45c6adbe410cb" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>instance</name></member>
+      <member refid="classMR_1_1ColorTheme_1a1506f82ec73be1eb299f6c390dce1fd0" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>isInitialized</name></member>
+      <member refid="classMR_1_1ColorTheme_1a644773951f2511fc0195fac4e0a85c84" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>isInitialized_</name></member>
+      <member refid="classMR_1_1ColorTheme_1ace5f4a52028a066c42d9484afcd0a806" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>newUIColors_</name></member>
+      <member refid="classMR_1_1ColorTheme_1a1b86b0353c7e246e58746a652441cbda" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>onChanged</name></member>
+      <member refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>Preset</name></member>
+      <member refid="classMR_1_1ColorTheme_1af27347c90aa80168a890bdb58f2d0423" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>resetImGuiStyle</name></member>
+      <member refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>RibbonColorsType</name></member>
+      <member refid="classMR_1_1ColorTheme_1aae306524f7db4b80fc4b4c2a39ccda41" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>serializeCurrentToFile</name></member>
+      <member refid="classMR_1_1ColorTheme_1af097c5985c3dcb124375d6767d34f764" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>serializeCurrentToJson</name></member>
+      <member refid="classMR_1_1ColorTheme_1a339d8efd1037cbee5aa77d9d68e07c16" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setRibbonColor</name></member>
+      <member refid="classMR_1_1ColorTheme_1a6c591711ec8a5d41cd5e3c037a795c24" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupByTypeName</name></member>
+      <member refid="classMR_1_1ColorTheme_1a8be757d1ce64f10a822aea16eadb333b" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupDefaultDark</name></member>
+      <member refid="classMR_1_1ColorTheme_1a801d15e2c46b79b721809d41123aeda5" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupDefaultLight</name></member>
+      <member refid="classMR_1_1ColorTheme_1a31bee87bf2d160eb687a1d047770e390" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupFromFile</name></member>
+      <member refid="classMR_1_1ColorTheme_1a19709b0e383ad59e4f3913cfd8035d09" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupFromJson</name></member>
+      <member refid="classMR_1_1ColorTheme_1a0e971a3744071e72a002685d2666487d" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupUserTheme</name></member>
+      <member refid="classMR_1_1ColorTheme_1ab9d7ae71db1952c73d2acf507830b877" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setViewportColor</name></member>
+      <member refid="classMR_1_1ColorTheme_1a192203c7e5f40ab67931db4169559cb1" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>themeName_</name></member>
+      <member refid="classMR_1_1ColorTheme_1a439a4379a5c0549d285228b3dd6930f9" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>themePreset_</name></member>
+      <member refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>Type</name></member>
+      <member refid="classMR_1_1ColorTheme_1a39f0487f39ddf3d7cdc17940491260e4" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>type_</name></member>
+      <member refid="classMR_1_1ColorTheme_1a0bcb053091eb10e1e15d24b17d15d379" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>updateUserThemesList</name></member>
+      <member refid="classMR_1_1ColorTheme_1adb0b16d80ff2bb2f6e8d61dd285e645d" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>viewportColors_</name></member>
+      <member refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ViewportColorsType</name></member>
+      <member refid="classMR_1_1ColorTheme_1a3e9d0aada9f780b23a6cbcf79922fdf0" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>~ColorTheme</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

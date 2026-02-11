@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BMap__TextureId__TextureId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BMap_TextureId_TextureId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__TextureId__TextureId_1a85d1778b141c7308d38b9cbebfbbf728" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_TextureId_TextureId::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.BMap_TextureId_TextureId._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2069" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__TextureId__TextureId_1a4b3111a1670ee1db913f80631f104ad8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_TextureId_TextureId::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.BMap_TextureId_TextureId._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2070" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__TextureId__TextureId_1a84f6cdf2d50c9ea68c63ee70bfc7df73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_TextureId_TextureId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BMap_TextureId_TextureId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2071" bodyend="2072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__TextureId__TextureId_1abfb11311e2e33304218f2ce8000308d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__TextureId__TextureId" kindref="compound">Buffer_TextureId_TextureId</ref></type>
+        <definition> Buffer_TextureId_TextureId mrmeshpy.BMap_TextureId_TextureId.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.BMap_TextureId_TextureId.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2074" bodyend="2075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__TextureId__TextureId_1ad36e151d99396c7caa01db7be8586839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BMap_TextureId_TextureId.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_TextureId_TextureId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2077" bodyend="2080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__TextureId__TextureId_1afd5218e821a2ddd33d158273aabc7605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_TextureId_TextureId.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_TextureId_TextureId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2082" bodyend="2083"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BMap&lt;MR::TextureId, MR::TextureId&gt;
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BMap_TextureId_TextureId</label>
+        <link refid="classmrmeshpy_1_1BMap__TextureId__TextureId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2063" bodyend="2083"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BMap__TextureId__TextureId_1a84f6cdf2d50c9ea68c63ee70bfc7df73" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_TextureId_TextureId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BMap__TextureId__TextureId_1a85d1778b141c7308d38b9cbebfbbf728" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_TextureId_TextureId</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__TextureId__TextureId_1a4b3111a1670ee1db913f80631f104ad8" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_TextureId_TextureId</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__TextureId__TextureId_1abfb11311e2e33304218f2ce8000308d9" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_TextureId_TextureId</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__TextureId__TextureId_1ad36e151d99396c7caa01db7be8586839" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_TextureId_TextureId</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__TextureId__TextureId_1afd5218e821a2ddd33d158273aabc7605" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_TextureId_TextureId</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

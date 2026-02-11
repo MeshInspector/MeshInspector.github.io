@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshBuilder_1_1equalVector3f" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::equalVector3f</compoundname>
+    <includes refid="MRIdentifyVertices_8h" local="no">MRIdentifyVertices.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MeshBuilder_1_1equalVector3f_1a8fdebf815e795678656400f4e3a957f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshBuilder::equalVector3f::operator()</definition>
+        <argsstring>(const Vector3f &amp;a, const Vector3f &amp;b) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::MeshBuilder::equalVector3f::operator()</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="18" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="18" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this makes bit-wise comparison of two Vector3f&apos;s thus making two NaNs equal </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="17" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshBuilder_1_1equalVector3f_1a8fdebf815e795678656400f4e3a957f2" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::equalVector3f</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

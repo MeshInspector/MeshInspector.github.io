@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FixMeshDegeneraciesParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::FixMeshDegeneraciesParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FixMeshDegeneraciesParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a1f1577cb302417791ffc5946db7b6bf6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixMeshDegeneraciesParams.maxDeviation</definition>
+        <argsstring></argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.maxDeviation</qualifiedname>
+        <briefdescription>
+<para>maximum permitted deviation from the original surface </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="197" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a66475ab23c1441b769d1c6b2f502b4ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixMeshDegeneraciesParams.tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.tinyEdgeLength</qualifiedname>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="200" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1ae34824faf9d7160cc8698775f5060672" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixMeshDegeneraciesParams.criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.criticalTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="204" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a99d770ee3259c6f1bc5ba163f3910971" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixMeshDegeneraciesParams.maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.maxAngleChange</qualifiedname>
+        <briefdescription>
+<para>Permit edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="207" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1aa23e1ba06c41baafef0c214a06ca2adc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixMeshDegeneraciesParams.stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.stabilizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="211" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a90621e659cd5be3a26daa4cfbd577895" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>new unsafe MR.? FaceBitSet MR.FixMeshDegeneraciesParams.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.region</qualifiedname>
+        <briefdescription>
+<para>degenerations will be fixed only in given region, it is updated during the operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="214" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="215" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a25aacc89ccb14968d6cd430e6548dd96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.FixMeshDegeneraciesParams.Mode</type>
+        <definition>new unsafe ref MR.FixMeshDegeneraciesParams.Mode MR.FixMeshDegeneraciesParams.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="226" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a3a8a36e73c45235a0b3a3ba085d57472" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FixMeshDegeneraciesParams.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="228" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="228" bodyend="228"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1ac6400b423961dedd5e93ab4ef4a0345c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FixMeshDegeneraciesParams</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="247" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="247" bodyend="251"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</definition>
+        <argsstring>()</argsstring>
+        <name>FixMeshDegeneraciesParams</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="257" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="257" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1a706a42905fd83d916dec3dd177680d19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</definition>
+        <argsstring>(float maxDeviation, float tinyEdgeLength, float criticalTriAspectRatio, float maxAngleChange, float stabilizer, MR.FaceBitSet? region, MR.FixMeshDegeneraciesParams.Mode mode, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <name>FixMeshDegeneraciesParams</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxDeviation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>MR.FixMeshDegeneraciesParams.Mode</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FixMeshDegeneraciesParams" kindref="compound">MR.FixMeshDegeneraciesParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="268" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="268" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1a2ad2ea9e85e256bcffb91c9e3bc93519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</definition>
+        <argsstring>(MR._ByValue_FixMeshDegeneraciesParams _other)</argsstring>
+        <name>FixMeshDegeneraciesParams</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_FixMeshDegeneraciesParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="281" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="281" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1aed491e9ef17151bea847c24357ad295b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</definition>
+        <argsstring>(Const_FixMeshDegeneraciesParams _other)</argsstring>
+        <name>FixMeshDegeneraciesParams</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
+        <param>
+          <type>Const_FixMeshDegeneraciesParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="293" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="293" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1a3d7bb50a9f36d671b303d52ef31423a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</definition>
+        <argsstring>(FixMeshDegeneraciesParams _other)</argsstring>
+        <name>FixMeshDegeneraciesParams</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FixMeshDegeneraciesParams" kindref="compound">FixMeshDegeneraciesParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="298" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="298" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixMeshDegeneraciesParams_1afd7292ca48775e0ab94233157bde5f54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FixMeshDegeneraciesParams" kindref="compound">MR.FixMeshDegeneraciesParams</ref></type>
+        <definition>unsafe MR.FixMeshDegeneraciesParams MR.FixMeshDegeneraciesParams.assign</definition>
+        <argsstring>(MR._ByValue_FixMeshDegeneraciesParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FixMeshDegeneraciesParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FixMeshDegeneraciesParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FixMeshDegeneraciesParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="303" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="303" bodyend="310"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FixMeshDegeneraciesParams" kindref="compound">MR.FixMeshDegeneraciesParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FixMeshDegeneraciesParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FixMeshDegeneraciesParams</label>
+        <link refid="classMR_1_1FixMeshDegeneraciesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FixMeshDegeneraciesParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FixMeshDegeneraciesParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FixMeshDegeneraciesParams</label>
+        <link refid="classMR_1_1FixMeshDegeneraciesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FixMeshDegeneraciesParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="195" bodyend="311"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1afd7292ca48775e0ab94233157bde5f54" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3a8a36e73c45235a0b3a3ba085d57472" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1ae34824faf9d7160cc8698775f5060672" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1ac6400b423961dedd5e93ab4ef4a0345c" prot="package" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a706a42905fd83d916dec3dd177680d19" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a2ad2ea9e85e256bcffb91c9e3bc93519" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1aed491e9ef17151bea847c24357ad295b" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3d7bb50a9f36d671b303d52ef31423a7" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a99d770ee3259c6f1bc5ba163f3910971" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxAngleChange</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a1f1577cb302417791ffc5946db7b6bf6" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a25aacc89ccb14968d6cd430e6548dd96" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>mode</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a90621e659cd5be3a26daa4cfbd577895" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>region</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1aa23e1ba06c41baafef0c214a06ca2adc" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a66475ab23c1441b769d1c6b2f502b4ea" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>tinyEdgeLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

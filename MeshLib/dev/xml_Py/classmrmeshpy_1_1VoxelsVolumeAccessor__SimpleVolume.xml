@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax" prot="public" virt="non-virtual">mrmeshpy.VoxelsVolumeAccessor_SimpleVolumeMinMax</derivedcompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a29c1fcd037c50e5de03b505ff56e9751" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsVolumeAccessor_SimpleVolume::cacheEffective</definition>
+        <argsstring></argsstring>
+        <name>cacheEffective</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.cacheEffective</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73742" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a65e7f6e9a62502545a79db52fe1d1a0c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume::VolumeType</definition>
+        <argsstring></argsstring>
+        <name>VolumeType</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.VolumeType</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73743" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1aa011443880b2a4eac100d2981dc31f25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1ae475e0d860007baca20c13ae22153d6d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1abcce8bd678a066bb3c611b71d45dbc36">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1aa27c53d1035dd3c855d71f6d8bb0dbe8">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73746" bodyend="73747"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a202e7157a43022e79f460a7cea29cbc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.__init__</definition>
+        <argsstring>(self, SimpleVolume volume)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1ae475e0d860007baca20c13ae22153d6d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1abcce8bd678a066bb3c611b71d45dbc36">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1aa27c53d1035dd3c855d71f6d8bb0dbe8">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73749" bodyend="73750"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a9d616b011d66f868b2c33693ce37ca94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.__init__</definition>
+        <argsstring>(self, VoxelsVolumeAccessor_SimpleVolume arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1ae475e0d860007baca20c13ae22153d6d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1abcce8bd678a066bb3c611b71d45dbc36">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax_1aa27c53d1035dd3c855d71f6d8bb0dbe8">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume" kindref="compound">VoxelsVolumeAccessor_SimpleVolume</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73752" bodyend="73755"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a21c15e9584e6a249fc6fc0af07cc0731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.get</definition>
+        <argsstring>(self, Vector3i pos)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73757" bodyend="73758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1afe6ebdb5fd2e89bc466705e9d58cf338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.get</definition>
+        <argsstring>(self, VoxelLocation loc)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+          <declname>loc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73760" bodyend="73761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1aacc088e61a8679dbe94303e16bf9c4f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.shift</definition>
+        <argsstring>(self)</argsstring>
+        <name>shift</name>
+        <qualifiedname>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume.shift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this additional shift shall be added to integer voxel coordinates during transformation in 3D space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73762" bodyend="73765"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;
+
+VoxelsVolumeAccessor specialization for simple volumes
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume</label>
+        <link refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VoxelsVolumeAccessor_SimpleVolumeMinMax</label>
+        <link refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolumeMinMax"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsVolumeAccessor_SimpleVolume</label>
+        <link refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cacheEffective</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73736" bodyend="73765"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1aa011443880b2a4eac100d2981dc31f25" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a202e7157a43022e79f460a7cea29cbc6" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a9d616b011d66f868b2c33693ce37ca94" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a29c1fcd037c50e5de03b505ff56e9751" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>cacheEffective</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a21c15e9584e6a249fc6fc0af07cc0731" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1afe6ebdb5fd2e89bc466705e9d58cf338" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1aacc088e61a8679dbe94303e16bf9c4f5" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>shift</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsVolumeAccessor__SimpleVolume_1a65e7f6e9a62502545a79db52fe1d1a0c" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeAccessor_SimpleVolume</scope><name>VolumeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

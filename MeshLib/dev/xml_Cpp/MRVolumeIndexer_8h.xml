@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRVolumeIndexer_8h" kind="file" language="C++">
+    <compoundname>MRVolumeIndexer.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes local="no">array</includes>
+    <includedby refid="MRObjectVoxels_8h" local="yes">MRObjectVoxels.h</includedby>
+    <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="23">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRVolumeIndexer.h</label>
+        <link refid="MRVolumeIndexer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="22">
+        <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>MRBinaryOperationsPlugin.h</label>
+        <link refid="MRBinaryOperationsPlugin_8h"/>
+      </node>
+      <node id="1">
+        <label>MRVolumeIndexer.h</label>
+        <link refid="MRVolumeIndexer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRChangeVoxelSelectionAction.h</label>
+        <link refid="MRChangeVoxelSelectionAction_8h"/>
+      </node>
+      <node id="5">
+        <label>MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
+      </node>
+      <node id="2">
+        <label>MRObjectVoxels.h</label>
+        <link refid="MRObjectVoxels_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRVolumeInterpolation.h</label>
+        <link refid="MRVolumeInterpolation_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRVoxelsVolumeAccess.h</label>
+        <link refid="MRVoxelsVolumeAccess_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1VoxelLocation" prot="public">MR::VoxelLocation</innerclass>
+    <innerclass refid="classMR_1_1VolumeIndexer" prot="public">MR::VolumeIndexer</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>:<sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b" kindref="member">Invalid</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9" kindref="member">PlusZ</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" kindref="member">MinusZ</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a" kindref="member">PlusY</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565" kindref="member">MinusY</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" kindref="member">PlusX</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">MinusX</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>)<sp/>==<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::initializer_list&lt;OutEdge&gt;<sp/>all6Edges<sp/>=<sp/>{<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9" kindref="member">OutEdge::PlusZ</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" kindref="member">OutEdge::MinusZ</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a" kindref="member">OutEdge::PlusY</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565" kindref="member">OutEdge::MinusY</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7" kindref="member">OutEdge::PlusX</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">OutEdge::MinusX</ref><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="group__VolumeIndexerGroup_1ga4e89cddf49bc51a6caa983ba3b84c461" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/><ref refid="group__DistanceMapGroup_1ga91a308e751ba7d6ace30ea1a895eb3fb" kindref="member">opposite</ref>(<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>e<sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::array&lt;OutEdge,<sp/>7&gt;<sp/>map{<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b" kindref="member">OutEdge::Invalid</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" kindref="member">OutEdge::MinusZ</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9" kindref="member">OutEdge::PlusZ</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565" kindref="member">OutEdge::MinusY</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a" kindref="member">OutEdge::PlusY</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">OutEdge::MinusX</ref>,<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7" kindref="member">OutEdge::PlusX</ref><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>map[<sp/>(size_t)e<sp/>+<sp/>1<sp/>];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OutEdgeCount<sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="group__VolumeIndexerGroup_1ga91147207103fdc2c344ad18106a8599a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>Vector3i<sp/><ref refid="group__VolumeIndexerGroup_1ga91147207103fdc2c344ad18106a8599a" kindref="member">neiPosDelta</ref>[<sp/>OutEdgeCount<sp/>]<sp/>=</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>0,<sp/>1<sp/>},<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>0,-1<sp/>},<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>1,<sp/>0<sp/>},<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>0,-1,<sp/>0<sp/>},<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>1,<sp/>0,<sp/>0<sp/>},<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{-1,<sp/>0,<sp/>0<sp/>}<sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1VoxelLocation" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57" refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="58" refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" kindref="member">pos</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="group__VoxelGroup_1ga3f90dd1eb37b8e96421048a44936a299" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.valid();<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classMR_1_1VolumeIndexer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__VoxelGroup_1gad64c0feac5a4c85334c9de7dda628dfb" kindref="member">VolumeIndexer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/><ref refid="group__VoxelGroup_1ga242530ea0c7771c807c769bcb292f37f" kindref="member">dims</ref><sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="group__VoxelGroup_1ga242530ea0c7771c807c769bcb292f37f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/><ref refid="group__VoxelGroup_1ga242530ea0c7771c807c769bcb292f37f" kindref="member">dims</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__VoxelGroup_1ga1a728fc2d1e7dd47e0f137af620f6985" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga1a728fc2d1e7dd47e0f137af620f6985" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga8e13ff7ca749a229d273701ff2b833c0" kindref="member">size_</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="group__VoxelGroup_1ga926edbe131f216c52d55d31a98f33aaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga926edbe131f216c52d55d31a98f33aaf" kindref="member">endId</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VoxelId(<sp/><ref refid="group__VoxelGroup_1ga8e13ff7ca749a229d273701ff2b833c0" kindref="member">size_</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="group__VoxelGroup_1gaf0d94fe95fbc290e175743a06ad3d1c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gaf0d94fe95fbc290e175743a06ad3d1c6" kindref="member">sizeXY</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Vector3i<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>VoxelId<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga1e9ca6412f80a5ce4751fb16cad4ce2c" kindref="member">toVoxelId</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__VoxelGroup_1ga381737dfbef1fd95586ae4f44b63b468" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref><sp/><ref refid="group__VoxelGroup_1ga381737dfbef1fd95586ae4f44b63b468" kindref="member">toLoc</ref>(<sp/>VoxelId<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>id,<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>)<sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="84" refid="group__VoxelGroup_1ga5bad9caa6f1298325759d64a72cca3b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref><sp/><ref refid="group__VoxelGroup_1ga5bad9caa6f1298325759d64a72cca3b9" kindref="member">toLoc</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__VoxelGroup_1ga1e9ca6412f80a5ce4751fb16cad4ce2c" kindref="member">toVoxelId</ref>(<sp/>pos<sp/>),<sp/>pos<sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="group__VoxelGroup_1ga1d7ef8146c7e01018cfd181e0967ac35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga1d7ef8146c7e01018cfd181e0967ac35" kindref="member">isInDims</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>pos<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pos.x<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>pos.x<sp/>&lt;<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x<sp/>&amp;&amp;<sp/>pos.y<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>pos.y<sp/>&lt;<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.y<sp/>&amp;&amp;<sp/>pos.z<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>pos.z<sp/>&lt;<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.z;<sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="group__VoxelGroup_1ga6e3749e3a300fa4eda0a5dc1eb875a4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga6e3749e3a300fa4eda0a5dc1eb875a4a" kindref="member">isBdVoxel</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pos.x<sp/>==<sp/>0<sp/>||<sp/>pos.x<sp/>+<sp/>1<sp/>==<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x<sp/>||<sp/>pos.y<sp/>==<sp/>0<sp/>||<sp/>pos.y<sp/>+<sp/>1<sp/>==<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.y<sp/>||<sp/>pos.z<sp/>==<sp/>0<sp/>||<sp/>pos.z<sp/>+<sp/>1<sp/>==<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.z;<sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" kindref="member">areNeigbors</ref>(<sp/>VoxelId<sp/>v0,<sp/>VoxelId<sp/>v1<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" kindref="member">areNeigbors</ref>(<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>v0<sp/>),<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>v1<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="94" refid="group__VoxelGroup_1ga991a1f3d21cb03e21402be655ba7c06c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga991a1f3d21cb03e21402be655ba7c06c" kindref="member">areNeigbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos1<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>pos0<sp/>-<sp/>pos1<sp/>).lengthSq()<sp/>==<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" kindref="member">hasNeighbour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" kindref="member">getNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" kindref="member">getNeighbor</ref>(<sp/>v,<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>v<sp/>),<sp/>toNei<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="101" refid="group__VoxelGroup_1gafe8987c6754acf0b39a5d12c2a7d0da9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1gafe8987c6754acf0b39a5d12c2a7d0da9" kindref="member">getNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" kindref="member">hasNeighbour</ref>(<sp/>pos,<sp/>toNei<sp/>)<sp/>?<sp/><ref refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" kindref="member">getExistingNeighbor</ref>(<sp/>v,<sp/>toNei<sp/>)<sp/>:<sp/>VoxelId{};<sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref><sp/><ref refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" kindref="member">getNeighbor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref><sp/>&amp;<sp/>loc,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" kindref="member">getExistingNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109" refid="group__VoxelGroup_1gacc3f28e9566b6b9fb9fe666e09034075" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1gacc3f28e9566b6b9fb9fe666e09034075" kindref="member">getNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bdPos,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bdPos<sp/>?<sp/><ref refid="group__VoxelGroup_1gacc3f28e9566b6b9fb9fe666e09034075" kindref="member">getNeighbor</ref>(<sp/>v,<sp/>pos,<sp/>toNei<sp/>)<sp/>:<sp/><ref refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" kindref="member">getExistingNeighbor</ref>(<sp/>v,<sp/>toNei<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="112" refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>;</highlight></codeline>
+<codeline lineno="113" refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="114" refid="group__VoxelGroup_1ga8e13ff7ca749a229d273701ff2b833c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga8e13ff7ca749a229d273701ff2b833c0" kindref="member">size_</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="115" refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[<sp/>OutEdgeCount<sp/>]<sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="group__VoxelGroup_1gad64c0feac5a4c85334c9de7dda628dfb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gad64c0feac5a4c85334c9de7dda628dfb" kindref="member">VolumeIndexer::VolumeIndexer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>dims<sp/>)<sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>dims_(<sp/>dims<sp/>)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>sizeXY_(<sp/>size_t(<sp/>dims_.x<sp/>)<sp/>*<sp/>dims_.y<sp/>)<sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>size_(<sp/>sizeXY_<sp/>*<sp/>dims_.z<sp/>)<sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9" kindref="member">OutEdge::PlusZ</ref>]<sp/><sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" kindref="member">OutEdge::MinusZ</ref>]<sp/>=-(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a" kindref="member">OutEdge::PlusY</ref>]<sp/>=<sp/><sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565" kindref="member">OutEdge::MinusY</ref>]<sp/>=-<ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7" kindref="member">OutEdge::PlusX</ref>]<sp/>=<sp/><sp/>1;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)<ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">OutEdge::MinusX</ref>]<sp/>=-1;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3i<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">VolumeIndexer::toPos</ref>(<sp/>VoxelId<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="132"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.valid()<sp/>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>z<sp/>=<sp/>int(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>/<sp/><ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref><sp/>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sumZ<sp/>=<sp/>int(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>%<sp/><ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>sumZ<sp/>/<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>sumZ<sp/>%<sp/><ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x,y,z};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="group__VoxelGroup_1ga1e9ca6412f80a5ce4751fb16cad4ce2c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga1e9ca6412f80a5ce4751fb16cad4ce2c" kindref="member">VolumeIndexer::toVoxelId</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="142"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VoxelId{<sp/>pos.x<sp/>+<sp/>pos.y<sp/>*<sp/>size_t(<ref refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kindref="member">dims_</ref>.x)<sp/>+<sp/>pos.z<sp/>*<sp/><ref refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kindref="member">sizeXY_</ref><sp/>};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" kindref="member">VolumeIndexer::getExistingNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="147"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>toNei<sp/>&gt;<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b" kindref="member">OutEdge::Invalid</ref><sp/>&amp;&amp;<sp/>toNei<sp/>&lt;<sp/><ref refid="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">OutEdge::Count</ref><sp/>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v<sp/>+<sp/><ref refid="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" kindref="member">neiInc_</ref>[(int)toNei];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="group__VoxelGroup_1gafa9df4ffd5452e505b8a11ca3d01f7b4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref><sp/><ref refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" kindref="member">VolumeIndexer::getNeighbor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref><sp/>&amp;<sp/>loc,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="153"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>loc<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" kindref="member">hasNeighbour</ref>(<sp/>loc.<ref refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" kindref="member">pos</ref>,<sp/>toNei<sp/>)<sp/>?</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref>{<sp/><ref refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" kindref="member">getExistingNeighbor</ref>(<sp/>loc.<ref refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kindref="member">id</ref>,<sp/>toNei<sp/>),<sp/>loc.<ref refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" kindref="member">pos</ref><sp/>+<sp/><ref refid="group__VolumeIndexerGroup_1ga91147207103fdc2c344ad18106a8599a" kindref="member">neiPosDelta</ref>[(int)toNei]<sp/>}<sp/>:</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref>{};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" kindref="member">expandVoxelsMask</ref>(<sp/>VoxelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" kindref="member">shrinkVoxelsMask</ref>(<sp/>VoxelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shrinkage<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h"/>
+  </compounddef>
+</doxygen>

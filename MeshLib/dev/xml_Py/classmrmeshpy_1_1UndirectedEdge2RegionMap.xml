@@ -1,0 +1,1068 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UndirectedEdge2RegionMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UndirectedEdge2RegionMap</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afb2fd18925f517f1c257ba87817a1e61" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UndirectedEdge2RegionMap::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58647" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8087b2509fc3e8d55c6396c819ed47c8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UndirectedEdge2RegionMap::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58648" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a23921396a7b3f9ef33e5ab2f6a99cf35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58651" bodyend="58652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1af31f47daf4cdc1678eeb66c277f11802" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdge2RegionMap" kindref="compound">UndirectedEdge2RegionMap</ref></type>
+        <definition> UndirectedEdge2RegionMap mrmeshpy.UndirectedEdge2RegionMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58655" bodyend="58656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1af31f47daf4cdc1678eeb66c277f11802" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdge2RegionMap" kindref="compound">UndirectedEdge2RegionMap</ref></type>
+        <definition> UndirectedEdge2RegionMap mrmeshpy.UndirectedEdge2RegionMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58659" bodyend="58660"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1af8876f029901221eee642b30bd74f466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdge2RegionMap.__eq__</definition>
+        <argsstring>(self, UndirectedEdge2RegionMap b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdge2RegionMap" kindref="compound">UndirectedEdge2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58661" bodyend="58662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2deb51cfea7e06fd0de20b909fac229d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.__getitem__</definition>
+        <argsstring>(self, UndirectedEdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58664" bodyend="58665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2deb51cfea7e06fd0de20b909fac229d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.__getitem__</definition>
+        <argsstring>(self, UndirectedEdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58667" bodyend="58668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aed2aabcf522a70f267fe0e1cbe5d9b99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58670" bodyend="58673"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a15ee83088f1b65f85215be1eb4675811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58675" bodyend="58678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1ae3fb69c133e331c8ad17c7fbc091ebf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__init__</definition>
+        <argsstring>(self, int size, RegionId val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58680" bodyend="58683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afe6d51837538e861d0cbcbdf32355059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__init__</definition>
+        <argsstring>(self, std_vector_Id_RegionTag vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__RegionTag" kindref="compound">std_vector_Id_RegionTag</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58685" bodyend="58688"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a1efeafa819b02243377391085985de2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__init__</definition>
+        <argsstring>(self, UndirectedEdge2RegionMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdge2RegionMap" kindref="compound">UndirectedEdge2RegionMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58690" bodyend="58693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1ae80a0c20f09647d12020fef71c31b8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref>]</type>
+        <definition> typing.Iterator[RegionId] mrmeshpy.UndirectedEdge2RegionMap.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58694" bodyend="58695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afa82918e3aba4da937b8bd0cf6845907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdge2RegionMap.__ne__</definition>
+        <argsstring>(self, UndirectedEdge2RegionMap b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdge2RegionMap" kindref="compound">UndirectedEdge2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58696" bodyend="58697"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a3f7cf8e6a65d1a8f76599d273a173db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.__setitem__</definition>
+        <argsstring>(self, UndirectedEdgeId arg0, RegionId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58698" bodyend="58699"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5c2e92d888cefb9af221ef15fd6ed3f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.autoResizeAt</definition>
+        <argsstring>(self, UndirectedEdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58700" bodyend="58703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a02193a4244faedfdb770c27517c54362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.autoResizeSet</definition>
+        <argsstring>(self, UndirectedEdgeId pos, int len, RegionId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58705" bodyend="58709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afcde824cebfba9610588b73d5cc17db4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.autoResizeSet</definition>
+        <argsstring>(self, UndirectedEdgeId i, RegionId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58711" bodyend="58714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a064754323f6115a541979bef2e2cd4b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58716" bodyend="58717"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a064754323f6115a541979bef2e2cd4b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58719" bodyend="58720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a1a38306e70fe846390c2298ffbdb2527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdge2RegionMap.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58721" bodyend="58724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8cd6f7a376759fa2fd11ecc9250e0f39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdge2RegionMap.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58725" bodyend="58728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1ad4832cb4afe7499d52daa9593a6c2f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirectedEdge2RegionMap.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58729" bodyend="58730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5cf91c4f13b29d9731667d242e0cfda5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58731" bodyend="58732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8737881470f946ec37472f917d82ebaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58734" bodyend="58735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8737881470f946ec37472f917d82ebaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58737" bodyend="58738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5287b9304b1abbc52a836bee8ddada9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58739" bodyend="58740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aaaff2ad9529fdaaeecb90aabc4599eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdge2RegionMap.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58741" bodyend="58742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1adf6e850739fd94999f371064c02546bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdge2RegionMap.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58743" bodyend="58746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a741aa69caab807daa0c1ffff17966c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58748" bodyend="58749"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a741aa69caab807daa0c1ffff17966c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.UndirectedEdge2RegionMap.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58751" bodyend="58752"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2b6e608abb1f88e1813d0c64ca7b1a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirectedEdge2RegionMap.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58753" bodyend="58756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa63528ddcc58cc68ae33d4986acf51b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58757" bodyend="58758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2d235b2823e0ace2182f4fd0f422bcfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.push_back</definition>
+        <argsstring>(self, RegionId t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58760" bodyend="58761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2d235b2823e0ace2182f4fd0f422bcfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.push_back</definition>
+        <argsstring>(self, RegionId t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58763" bodyend="58764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a13f1e4212551cf4a7fb4bb3e715b65ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58765" bodyend="58766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a071d18790d50281e603cbb77eee26d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58768" bodyend="58769"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5544fd557a66725b9aa977f09bbf51d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.resize</definition>
+        <argsstring>(self, int newSize, RegionId t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58771" bodyend="58772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a43ed702ade7eba1ac7d9cd4ef50e5a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.resizeNoInit</definition>
+        <argsstring>(self, int targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.resizeNoInit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58773" bodyend="58776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa33fe7493a76fe6c1211bde6e5de5809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58778" bodyend="58781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a0bf0da5178203613db63887ae36609ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, RegionId value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58783" bodyend="58786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa77810b4e4f137490bb48076abf2abb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirectedEdge2RegionMap.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58787" bodyend="58788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a83b89a77cea55febed365b4a0b4809d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.swap</definition>
+        <argsstring>(self, UndirectedEdge2RegionMap b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdge2RegionMap" kindref="compound">UndirectedEdge2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58789" bodyend="58790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a0b6228065557111cd979868be3c6fe3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__RegionTag" kindref="compound">std_vector_Id_RegionTag</ref></type>
+        <definition> std_vector_Id_RegionTag mrmeshpy.UndirectedEdge2RegionMap.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58792" bodyend="58795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a04763e787966af7e6129dc6e6aed50bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdge2RegionMap.vec_</definition>
+        <argsstring>(self, std_vector_Id_RegionTag arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.UndirectedEdge2RegionMap.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__RegionTag" kindref="compound">std_vector_Id_RegionTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58797" bodyend="58798"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UndirectedEdge2RegionMap
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UndirectedEdge2RegionMap</label>
+        <link refid="classmrmeshpy_1_1UndirectedEdge2RegionMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58637" bodyend="58798"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1af8876f029901221eee642b30bd74f466" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2deb51cfea7e06fd0de20b909fac229d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2deb51cfea7e06fd0de20b909fac229d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afb2fd18925f517f1c257ba87817a1e61" prot="private" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a23921396a7b3f9ef33e5ab2f6a99cf35" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aed2aabcf522a70f267fe0e1cbe5d9b99" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a15ee83088f1b65f85215be1eb4675811" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1ae3fb69c133e331c8ad17c7fbc091ebf7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afe6d51837538e861d0cbcbdf32355059" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a1efeafa819b02243377391085985de2d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1ae80a0c20f09647d12020fef71c31b8e8" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afa82918e3aba4da937b8bd0cf6845907" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a3f7cf8e6a65d1a8f76599d273a173db0" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8087b2509fc3e8d55c6396c819ed47c8" prot="protected" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5c2e92d888cefb9af221ef15fd6ed3f2" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a02193a4244faedfdb770c27517c54362" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1afcde824cebfba9610588b73d5cc17db4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a064754323f6115a541979bef2e2cd4b8" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a064754323f6115a541979bef2e2cd4b8" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a1a38306e70fe846390c2298ffbdb2527" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8cd6f7a376759fa2fd11ecc9250e0f39" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1ad4832cb4afe7499d52daa9593a6c2f50" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5cf91c4f13b29d9731667d242e0cfda5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8737881470f946ec37472f917d82ebaa" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a8737881470f946ec37472f917d82ebaa" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5287b9304b1abbc52a836bee8ddada9f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aaaff2ad9529fdaaeecb90aabc4599eaf" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1adf6e850739fd94999f371064c02546bd" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a741aa69caab807daa0c1ffff17966c94" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a741aa69caab807daa0c1ffff17966c94" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2b6e608abb1f88e1813d0c64ca7b1a4f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1af31f47daf4cdc1678eeb66c277f11802" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1af31f47daf4cdc1678eeb66c277f11802" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa63528ddcc58cc68ae33d4986acf51b6" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2d235b2823e0ace2182f4fd0f422bcfb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a2d235b2823e0ace2182f4fd0f422bcfb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a13f1e4212551cf4a7fb4bb3e715b65ed" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a071d18790d50281e603cbb77eee26d39" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a5544fd557a66725b9aa977f09bbf51d3" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a43ed702ade7eba1ac7d9cd4ef50e5a52" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>resizeNoInit</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa33fe7493a76fe6c1211bde6e5de5809" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a0bf0da5178203613db63887ae36609ca" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa77810b4e4f137490bb48076abf2abb0" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a83b89a77cea55febed365b4a0b4809d5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a0b6228065557111cd979868be3c6fe3c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a04763e787966af7e6129dc6e6aed50bb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdge2RegionMap</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

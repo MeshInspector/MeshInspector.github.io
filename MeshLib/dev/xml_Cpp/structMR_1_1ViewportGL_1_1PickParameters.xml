@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewportGL_1_1PickParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ViewportGL::PickParameters</compoundname>
+    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickParameters_1af8be4f6f84e2199df5ed9bc57686ccb8" prot="public" static="no" mutable="no">
+        <type>std::span&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> *const  &gt;</type>
+        <definition>std::span&lt;VisualObject* const&gt; MR::ViewportGL::PickParameters::renderVector</definition>
+        <argsstring></argsstring>
+        <name>renderVector</name>
+        <qualifiedname>MR::ViewportGL::PickParameters::renderVector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="71" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickParameters_1a518b85161ebde2615c4805c8d6edb010" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref></type>
+        <definition>BaseRenderParams MR::ViewportGL::PickParameters::baseRenderParams</definition>
+        <argsstring></argsstring>
+        <name>baseRenderParams</name>
+        <qualifiedname>MR::ViewportGL::PickParameters::baseRenderParams</qualifiedname>
+        <briefdescription>
+<para>objects to pick </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="72" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickParameters_1aff5495af1f46be635d2ffa5c0da47d24" prot="public" static="no" mutable="no">
+        <type>Plane3f</type>
+        <definition>Plane3f MR::ViewportGL::PickParameters::clippingPlane</definition>
+        <argsstring></argsstring>
+        <name>clippingPlane</name>
+        <qualifiedname>MR::ViewportGL::PickParameters::clippingPlane</qualifiedname>
+        <briefdescription>
+<para>parameters for rendering pick object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="73" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of objects picking. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ViewportGL::PickParameters</label>
+        <link refid="structMR_1_1ViewportGL_1_1PickParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseRenderParams</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="69" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="70" bodyend="74"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ViewportGL_1_1PickParameters_1a518b85161ebde2615c4805c8d6edb010" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickParameters</scope><name>baseRenderParams</name></member>
+      <member refid="structMR_1_1ViewportGL_1_1PickParameters_1aff5495af1f46be635d2ffa5c0da47d24" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickParameters</scope><name>clippingPlane</name></member>
+      <member refid="structMR_1_1ViewportGL_1_1PickParameters_1af8be4f6f84e2199df5ed9bc57686ccb8" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickParameters</scope><name>renderVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MetricToAStarPenalty" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MetricToAStarPenalty</compoundname>
+    <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MetricToAStarPenalty_1ae78d929b06e35477653b8824ffed2383" prot="public" static="no" mutable="no">
+        <type>const VertCoords *</type>
+        <definition>const VertCoords* MR::MetricToAStarPenalty::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR::MetricToAStarPenalty::points</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MetricToAStarPenalty_1a1abb85a715d1e270fa171a12e30b3b33" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::MetricToAStarPenalty::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <qualifiedname>MR::MetricToAStarPenalty::target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="271" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MetricToAStarPenalty_1adcfa3f6e76c7ebd915a9859d2105ab57" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::MetricToAStarPenalty::operator()</definition>
+        <argsstring>(float metric, VertId v) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::MetricToAStarPenalty::operator()</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="272" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="272" bodyend="275"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the vertices in the queue are ordered by the sum of their metric from a start location and the lower bound of a path till target point (A* heuristic) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="269" bodyend="276"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MetricToAStarPenalty_1adcfa3f6e76c7ebd915a9859d2105ab57" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>operator()</name></member>
+      <member refid="structMR_1_1MetricToAStarPenalty_1ae78d929b06e35477653b8824ffed2383" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>points</name></member>
+      <member refid="structMR_1_1MetricToAStarPenalty_1a1abb85a715d1e270fa171a12e30b3b33" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

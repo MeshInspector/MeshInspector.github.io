@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiMeshIntersectionResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiMeshIntersectionResult</compoundname>
+    <basecompoundref refid="structMR_1_1MeshIntersectionResult" prot="public" virt="non-virtual">MR::MeshIntersectionResult</basecompoundref>
+    <includes refid="MRMeshIntersect_8h" local="no">MRMeshIntersect.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MultiMeshIntersectionResult_1af09308818e602f745c2bfb1144b73980" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
+        <definition>const Mesh* MR::MultiMeshIntersectionResult::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::MultiMeshIntersectionResult::mesh</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>the intersection found in this mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="80" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::MeshIntersectionResult</label>
+        <link refid="structMR_1_1MeshIntersectionResult"/>
+      </node>
+      <node id="1">
+        <label>MR::MultiMeshIntersectionResult</label>
+        <link refid="structMR_1_1MultiMeshIntersectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshIntersectionResult</label>
+        <link refid="structMR_1_1MeshIntersectionResult"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>proj</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>mtp</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="4">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+      <node id="1">
+        <label>MR::MultiMeshIntersectionResult</label>
+        <link refid="structMR_1_1MultiMeshIntersectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::PointOnFace</label>
+        <link refid="structMR_1_1PointOnFace"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="78" bodyend="81"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshIntersectionResult_1a701e1414a45534a29d2ad1f7074c3c61" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>distanceAlongLine</name></member>
+      <member refid="structMR_1_1MultiMeshIntersectionResult_1af09308818e602f745c2bfb1144b73980" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mesh</name></member>
+      <member refid="structMR_1_1MeshIntersectionResult_1aa6767f8fee0dd3f9883b1657e2d9fcb2" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mtp</name></member>
+      <member refid="structMR_1_1MeshIntersectionResult_1a35b9064f7ab7e270307559622c3ec903" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1MeshIntersectionResult_1a59e06434bac0180ffaac80a2fb3041d1" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>proj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

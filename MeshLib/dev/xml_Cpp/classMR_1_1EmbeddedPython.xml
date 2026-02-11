@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EmbeddedPython" kind="class" language="C++" prot="public">
+    <compoundname>MR::EmbeddedPython</compoundname>
+    <includes refid="MREmbeddedPython_8h" local="no">MREmbeddedPython.h</includes>
+    <innerclass refid="structMR_1_1EmbeddedPython_1_1Config" prot="public">MR::EmbeddedPython::Config</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classMR_1_1EmbeddedPython_1ac065892e3b4bdf340513ed58980ac699" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>State</name>
+        <qualifiedname>MR::EmbeddedPython::State</qualifiedname>
+        <enumvalue id="classMR_1_1EmbeddedPython_1ac065892e3b4bdf340513ed58980ac699aec2f993aec2c27fc750119ab17b16cdb" prot="private">
+          <name>idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1EmbeddedPython_1ac065892e3b4bdf340513ed58980ac699a75101dcdfc88455bcafc9e53e0b06689" prot="private">
+          <name>running</name>
+          <briefdescription>
+<para>Waiting for a script to run. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1EmbeddedPython_1ac065892e3b4bdf340513ed58980ac699a0c115e260619516ae760def05ae53567" prot="private">
+          <name>finishing</name>
+          <briefdescription>
+<para>Interpreter is running. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="59" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="60" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a4ba6eb9ab250390cf344a8970f5f3f79" prot="public" static="yes" mutable="no">
+        <type>MREMBEDDEDPYTHON_API <ref refid="structMR_1_1EmbeddedPython_1_1Config" kindref="compound">Config</ref></type>
+        <definition>MREMBEDDEDPYTHON_API Config MR::EmbeddedPython::pythonConfig</definition>
+        <argsstring></argsstring>
+        <name>pythonConfig</name>
+        <qualifiedname>MR::EmbeddedPython::pythonConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="26" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a1c44871c8481b2c5197276e8a66e3b02" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::EmbeddedPython::available_</definition>
+        <argsstring></argsstring>
+        <name>available_</name>
+        <qualifiedname>MR::EmbeddedPython::available_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="56" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a969f75891ab6e160dd413832625b24e5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::EmbeddedPython::shutdownCalled_</definition>
+        <argsstring></argsstring>
+        <name>shutdownCalled_</name>
+        <qualifiedname>MR::EmbeddedPython::shutdownCalled_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="57" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a8857b20f93da907363e6df3ec7449998" prot="private" static="no" mutable="no">
+        <type>std::atomic&lt; State &gt;</type>
+        <definition>std::atomic&lt;State&gt; MR::EmbeddedPython::state_</definition>
+        <argsstring></argsstring>
+        <name>state_</name>
+        <qualifiedname>MR::EmbeddedPython::state_</qualifiedname>
+        <initializer>= State::idle</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="66" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1aee0c4799d184986d2796eebde39d7afe" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::EmbeddedPython::queuedSource_</definition>
+        <argsstring></argsstring>
+        <name>queuedSource_</name>
+        <qualifiedname>MR::EmbeddedPython::queuedSource_</qualifiedname>
+        <briefdescription>
+<para>Making this atomic allows <computeroutput><ref refid="classMR_1_1EmbeddedPython_1ae58305bf0cb6db10ee8352912f243acb" kindref="member">nowRunning()</ref></computeroutput> to read this without locking the mutex. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="67" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1ac16b52a003283cdcb1045023b66ce683" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::EmbeddedPython::lastRunSuccessful_</definition>
+        <argsstring></argsstring>
+        <name>lastRunSuccessful_</name>
+        <qualifiedname>MR::EmbeddedPython::lastRunSuccessful_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="68" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a415c7cf70c5edee7bbbe071cc4138d42" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(bool success)&gt;</type>
+        <definition>std::function&lt;void( bool success )&gt; MR::EmbeddedPython::onDoneAsync_</definition>
+        <argsstring></argsstring>
+        <name>onDoneAsync_</name>
+        <qualifiedname>MR::EmbeddedPython::onDoneAsync_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="69" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a6dcdaa2068e330e61f45421344dd7bbc" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex MR::EmbeddedPython::cvMutex_</definition>
+        <argsstring></argsstring>
+        <name>cvMutex_</name>
+        <qualifiedname>MR::EmbeddedPython::cvMutex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="70" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a49199ddba429cf34407e2faaf77853d8" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable MR::EmbeddedPython::cv_</definition>
+        <argsstring></argsstring>
+        <name>cv_</name>
+        <qualifiedname>MR::EmbeddedPython::cv_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="71" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a14bbe74feab93ace0f4c09eab821a9ce" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread MR::EmbeddedPython::interpreterThread_</definition>
+        <argsstring></argsstring>
+        <name>interpreterThread_</name>
+        <qualifiedname>MR::EmbeddedPython::interpreterThread_</qualifiedname>
+        <briefdescription>
+<para>It&apos;s could (?) be more efficient to have more CVs here, but one is simpler. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>We maintain ONE persistent thread that runs all python scripts, and persists while the program runs. This seems to be the safest option, I had issues otherwise. We need everything Python-related to happen in the same thread, and we also need to not finalize-and-recreate the interpreter while the program runs because that breaks our generated bindings (which may or may not be possible to fix in the bindings, but it&apos;s easier not to, and the manual even advises that some modules can break if you recreate the interpreter: <ulink url="https:///">https:///</ulink> docs.python.org/3/c-api/init.html::c.Py_FinalizeEx). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="79" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EmbeddedPython_1a8b6f867863326cb48f14b4c459b8f434" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::EmbeddedPython::stopInterpreterThread_</definition>
+        <argsstring></argsstring>
+        <name>stopInterpreterThread_</name>
+        <qualifiedname>MR::EmbeddedPython::stopInterpreterThread_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="81" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1afdfbc61b8daca0fe7d83153de681a5f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MREMBEDDEDPYTHON_API bool</type>
+        <definition>static MREMBEDDEDPYTHON_API bool MR::EmbeddedPython::isAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::EmbeddedPython::isAvailable</qualifiedname>
+        <briefdescription>
+<para>Set this once before running anything. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="28" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1aae9a27f7dcbea3f36eb3d9f478440152" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MREMBEDDEDPYTHON_API void</type>
+        <definition>static MREMBEDDEDPYTHON_API void MR::EmbeddedPython::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>MR::EmbeddedPython::shutdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If you have used <computeroutput><ref refid="classMR_1_1EmbeddedPython_1a5916e55128078261efdff12ec1f7fee9" kindref="member">runScript()</ref></computeroutput> at least once, you should call this before terminating the program. Otherwise you can get a crash in Python cleanup. I have only observed this with our patched Pybind. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="32" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1ae58305bf0cb6db10ee8352912f243acb" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool MR::EmbeddedPython::nowRunning</definition>
+        <argsstring>()</argsstring>
+        <name>nowRunning</name>
+        <qualifiedname>MR::EmbeddedPython::nowRunning</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the interpreter is busy running something. If you try to run something else, your thread will block until it&apos;s done. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="36" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a98fa9cab1d957fb2da8cc015b46a44cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MREMBEDDEDPYTHON_API bool</type>
+        <definition>static MREMBEDDEDPYTHON_API bool MR::EmbeddedPython::runString</definition>
+        <argsstring>(std::string pythonString, std::function&lt; void(bool success)&gt; onDoneAsync=nullptr)</argsstring>
+        <name>runString</name>
+        <qualifiedname>MR::EmbeddedPython::runString</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>pythonString</declname>
+        </param>
+        <param>
+          <type>std::function&lt; void(bool success)&gt;</type>
+          <declname>onDoneAsync</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns false on failure. If <computeroutput>onDoneAsync</computeroutput> is set, doesn&apos;t wait for the script to finish. Will call <computeroutput>onDoneAsync</computeroutput> asynchronously when done (from the Python interpreter thread). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="41" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a5916e55128078261efdff12ec1f7fee9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MREMBEDDEDPYTHON_API bool</type>
+        <definition>static MREMBEDDEDPYTHON_API bool MR::EmbeddedPython::runScript</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>runScript</name>
+        <qualifiedname>MR::EmbeddedPython::runScript</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="43" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a891bec1f480088cb10f23731dfca43d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MREMBEDDEDPYTHON_API bool</type>
+        <definition>static MREMBEDDEDPYTHON_API bool MR::EmbeddedPython::isPythonScript</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>isPythonScript</name>
+        <qualifiedname>MR::EmbeddedPython::isPythonScript</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="45" column="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a9398616f697683f01635871356647c83" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EmbeddedPython::EmbeddedPython</definition>
+        <argsstring>()</argsstring>
+        <name>EmbeddedPython</name>
+        <qualifiedname>MR::EmbeddedPython::EmbeddedPython</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="47" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1af2c7c2294c48e4cb45b422fb2d5fab0a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EmbeddedPython::EmbeddedPython</definition>
+        <argsstring>(const EmbeddedPython &amp;)=delete</argsstring>
+        <name>EmbeddedPython</name>
+        <qualifiedname>MR::EmbeddedPython::EmbeddedPython</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1EmbeddedPython" kindref="compound">EmbeddedPython</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="48" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a0322aa2b47aa40c4c73ab0521f57c3a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1EmbeddedPython" kindref="compound">EmbeddedPython</ref> &amp;</type>
+        <definition>EmbeddedPython &amp; MR::EmbeddedPython::operator=</definition>
+        <argsstring>(const EmbeddedPython &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::EmbeddedPython::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1EmbeddedPython" kindref="compound">EmbeddedPython</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="49" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a723ddb34410b7b3b49e9a4478fa77d06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EmbeddedPython::~EmbeddedPython</definition>
+        <argsstring>()</argsstring>
+        <name>~EmbeddedPython</name>
+        <qualifiedname>MR::EmbeddedPython::~EmbeddedPython</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="50" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a6aa832e6f5ed4825462727f791f123c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::EmbeddedPython::init_</definition>
+        <argsstring>()</argsstring>
+        <name>init_</name>
+        <qualifiedname>MR::EmbeddedPython::init_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1a529fa94bbea25d4014b8c6a6d0022520" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::EmbeddedPython::ensureInterpreterThreadIsRunning_</definition>
+        <argsstring>()</argsstring>
+        <name>ensureInterpreterThreadIsRunning_</name>
+        <qualifiedname>MR::EmbeddedPython::ensureInterpreterThreadIsRunning_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="53" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1EmbeddedPython_1aee766dda3fe77ea594026f0bbd970100" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MREMBEDDEDPYTHON_API <ref refid="classMR_1_1EmbeddedPython" kindref="compound">EmbeddedPython</ref> &amp;</type>
+        <definition>static MREMBEDDEDPYTHON_API EmbeddedPython &amp; MR::EmbeddedPython::instance_</definition>
+        <argsstring>()</argsstring>
+        <name>instance_</name>
+        <qualifiedname>MR::EmbeddedPython::instance_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="55" column="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::EmbeddedPython</label>
+        <link refid="classMR_1_1EmbeddedPython"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pythonConfig</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::EmbeddedPython::Config</label>
+        <link refid="structMR_1_1EmbeddedPython_1_1Config"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="18" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classMR_1_1EmbeddedPython_1a1c44871c8481b2c5197276e8a66e3b02" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>available_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a49199ddba429cf34407e2faaf77853d8" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>cv_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a6dcdaa2068e330e61f45421344dd7bbc" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>cvMutex_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a9398616f697683f01635871356647c83" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>EmbeddedPython</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1af2c7c2294c48e4cb45b422fb2d5fab0a" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>EmbeddedPython</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a529fa94bbea25d4014b8c6a6d0022520" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>ensureInterpreterThreadIsRunning_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a6aa832e6f5ed4825462727f791f123c6" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>init_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1aee766dda3fe77ea594026f0bbd970100" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>instance_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a14bbe74feab93ace0f4c09eab821a9ce" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>interpreterThread_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1afdfbc61b8daca0fe7d83153de681a5f9" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a891bec1f480088cb10f23731dfca43d1" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>isPythonScript</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1ac16b52a003283cdcb1045023b66ce683" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>lastRunSuccessful_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1ae58305bf0cb6db10ee8352912f243acb" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>nowRunning</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a415c7cf70c5edee7bbbe071cc4138d42" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>onDoneAsync_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a0322aa2b47aa40c4c73ab0521f57c3a8" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>operator=</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a4ba6eb9ab250390cf344a8970f5f3f79" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>pythonConfig</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1aee0c4799d184986d2796eebde39d7afe" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>queuedSource_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a5916e55128078261efdff12ec1f7fee9" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>runScript</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a98fa9cab1d957fb2da8cc015b46a44cd" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>runString</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1aae9a27f7dcbea3f36eb3d9f478440152" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a969f75891ab6e160dd413832625b24e5" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>shutdownCalled_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1ac065892e3b4bdf340513ed58980ac699" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>State</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a8857b20f93da907363e6df3ec7449998" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>state_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a8b6f867863326cb48f14b4c459b8f434" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>stopInterpreterThread_</name></member>
+      <member refid="classMR_1_1EmbeddedPython_1a723ddb34410b7b3b49e9a4478fa77d06" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>~EmbeddedPython</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

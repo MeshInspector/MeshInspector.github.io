@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GeodesicPath" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GeodesicPath</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPath_1a5f9525eb2d6bdbfa3bcb2be41a79a965" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPath::_offsetof_end</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_end</name>
+        <qualifiedname>mrmeshpy.GeodesicPath._offsetof_end</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPath_1a2aa51d49ec64ffa78623dc85c2601b74" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPath::_offsetof_mids</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mids</name>
+        <qualifiedname>mrmeshpy.GeodesicPath._offsetof_mids</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPath_1a0e2198305a48fa66c659d23075bf12d1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPath::_offsetof_start</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_start</name>
+        <qualifiedname>mrmeshpy.GeodesicPath._offsetof_start</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21698" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a7a6680b9e006e506f8a0bf6a4a09a21b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPath.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21702" bodyend="21703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a4669fe07bce7c77bae7928ab75bd8363" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GeodesicPath" kindref="compound">GeodesicPath</ref></type>
+        <definition> GeodesicPath mrmeshpy.GeodesicPath.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21706" bodyend="21707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a4669fe07bce7c77bae7928ab75bd8363" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GeodesicPath" kindref="compound">GeodesicPath</ref></type>
+        <definition> GeodesicPath mrmeshpy.GeodesicPath.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21710" bodyend="21711"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a27f09750b580a2c659ad8bd10938858e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPath.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21713" bodyend="21714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1aff72663ee5406cef2689536b0467db05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPath.__init__</definition>
+        <argsstring>(self, GeodesicPath arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GeodesicPath" kindref="compound">GeodesicPath</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21716" bodyend="21719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a21568103d47f446c36f1e7562b5e3c3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPath.__init__</definition>
+        <argsstring>(self, MeshTriPoint start, std_vector_EdgePoint mids, MeshTriPoint end)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePoint" kindref="compound">std_vector_EdgePoint</ref></type>
+          <declname>mids</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21721" bodyend="21724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a6d9b32eca55924f8de4f3a66f60a8d72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GeodesicPath.numVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>numVertices</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.numVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21725" bodyend="21726"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a4292e0b3932dac511df283b98c9a3095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.GeodesicPath.end</definition>
+        <argsstring>(self)</argsstring>
+        <name>end</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.end</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>can be invalid, then the path ends in mids.back()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21728" bodyend="21731"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a835ce5e82639632b018c713775b9f10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPath.end</definition>
+        <argsstring>(self, MeshTriPoint arg1)</argsstring>
+        <name>end</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.end</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21733" bodyend="21734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1ad1446809e2598a6930e7063d991f581a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.GeodesicPath.start</definition>
+        <argsstring>(self)</argsstring>
+        <name>start</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.start</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>can be invalid, then the path starts in mids.front()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21736" bodyend="21739"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPath_1a8d41b10e8c84c1b1aae63b1f197b389c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPath.start</definition>
+        <argsstring>(self, MeshTriPoint arg1)</argsstring>
+        <name>start</name>
+        <qualifiedname>mrmeshpy.GeodesicPath.start</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21741" bodyend="21742"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GeodesicPath
+
+in the most general form, geodesic path can start in any mesh location (MeshTriPoint),
+then pass triangles along straight lines, making turns on edges (MeshEdgePoint),
+and finish in any mesh location (MeshTriPoint)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GeodesicPath</label>
+        <link refid="classmrmeshpy_1_1GeodesicPath"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_end</edgelabel>
+          <edgelabel>_offsetof_mids</edgelabel>
+          <edgelabel>_offsetof_start</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21688" bodyend="21742"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a7a6680b9e006e506f8a0bf6a4a09a21b" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a27f09750b580a2c659ad8bd10938858e" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1aff72663ee5406cef2689536b0467db05" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a21568103d47f446c36f1e7562b5e3c3f" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a5f9525eb2d6bdbfa3bcb2be41a79a965" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>_offsetof_end</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a2aa51d49ec64ffa78623dc85c2601b74" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>_offsetof_mids</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a0e2198305a48fa66c659d23075bf12d1" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>_offsetof_start</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a4292e0b3932dac511df283b98c9a3095" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>end</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a835ce5e82639632b018c713775b9f10c" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>end</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a6d9b32eca55924f8de4f3a66f60a8d72" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>numVertices</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a4669fe07bce7c77bae7928ab75bd8363" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a4669fe07bce7c77bae7928ab75bd8363" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1ad1446809e2598a6930e7063d991f581a" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>start</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPath_1a8d41b10e8c84c1b1aae63b1f197b389c" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPath</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

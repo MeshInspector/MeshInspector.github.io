@@ -1,0 +1,1093 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_FaceBitSet_GraphVertId</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1acc30a1f26e071fb9adaa58622b735f06" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_FaceBitSet_GraphVertId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63537" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a264fd45c19d22d548a59eef31b1e1156" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_FaceBitSet_GraphVertId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63538" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aec83af2223f07b1ac2044621cfe0ba80" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_FaceBitSet_GraphVertId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae5a39dff6372831b112c1c93b934962e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_FaceBitSet_GraphVertId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab20d5194b1c838c3d41ccd6ef290b997" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_FaceBitSet_GraphVertId::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63541" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a47511402c21cafb83d7ec1a09e839706" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63544" bodyend="63545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+        <definition> Vector_FaceBitSet_GraphVertId mrmeshpy.Vector_FaceBitSet_GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63548" bodyend="63549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+        <definition> Vector_FaceBitSet_GraphVertId mrmeshpy.Vector_FaceBitSet_GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63552" bodyend="63553"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ac330be2ba998b4d18f85e8bcc3ea3abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_FaceBitSet_GraphVertId.__eq__</definition>
+        <argsstring>(self, Vector_FaceBitSet_GraphVertId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63554" bodyend="63555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.__getitem__</definition>
+        <argsstring>(self, GraphVertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63557" bodyend="63558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.__getitem__</definition>
+        <argsstring>(self, GraphVertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63560" bodyend="63561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa8b9ba3ae514060ce829e89ba11fe8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63563" bodyend="63566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae7aabddef58c7f16ea76fe0b99784e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63568" bodyend="63571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a5887a2dd9211e31687e9ed55432fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
+        <argsstring>(self, int size, FaceBitSet val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63573" bodyend="63576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad423406a4e31b03069e5cca375ec17ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_FaceTag vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63578" bodyend="63581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a207bffe09246f61725337f6faac7f016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
+        <argsstring>(self, Vector_FaceBitSet_GraphVertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63583" bodyend="63586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1afa70019b84901265c4df20f2ec7026c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref>]</type>
+        <definition> typing.Iterator[FaceBitSet] mrmeshpy.Vector_FaceBitSet_GraphVertId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63587" bodyend="63588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a02a7c1759ff2e12bfdea32804e3fbabc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_FaceBitSet_GraphVertId.__ne__</definition>
+        <argsstring>(self, Vector_FaceBitSet_GraphVertId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63589" bodyend="63590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aad18040b35c76413e3ac09d882e356b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__setitem__</definition>
+        <argsstring>(self, GraphVertId arg0, FaceBitSet arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63591" bodyend="63592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a58a8db2bf6cdce229aaee72069c06d15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.autoResizeAt</definition>
+        <argsstring>(self, GraphVertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63593" bodyend="63596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a21edaf3ae862f5601b449b5e9763b460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.autoResizeSet</definition>
+        <argsstring>(self, GraphVertId pos, int len, FaceBitSet val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63598" bodyend="63602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aeb52bd7a1f44ab5dcfc865c13ed72aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.autoResizeSet</definition>
+        <argsstring>(self, GraphVertId i, FaceBitSet val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63604" bodyend="63607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8e2f108e5ca880502ae6a3a3f3921810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63609" bodyend="63610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8e2f108e5ca880502ae6a3a3f3921810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63612" bodyend="63613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a730a9576eb793257125caf9485ff1e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.Vector_FaceBitSet_GraphVertId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63614" bodyend="63617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a83587c83b413f2aced2e783189017640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.Vector_FaceBitSet_GraphVertId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63618" bodyend="63621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a925a7df8578855e164880721c588b595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_FaceBitSet_GraphVertId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63622" bodyend="63623"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aab87d89cee6723c19680ec0e64216f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63624" bodyend="63625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63627" bodyend="63628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63630" bodyend="63631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1af150de576624ca65239f9ca6ca4c2550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63632" bodyend="63633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a554ffcf920581effdfb46ed0c2a4d5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_FaceBitSet_GraphVertId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63634" bodyend="63635"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9c6510ae37527f8adf292f41ceb43b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.Vector_FaceBitSet_GraphVertId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63636" bodyend="63639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63641" bodyend="63642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.Vector_FaceBitSet_GraphVertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63644" bodyend="63645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad01465ea8a2f3eec16a868b6f88f858c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_FaceBitSet_GraphVertId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63646" bodyend="63649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab8d64a89519c2c6e3cab8611008c23f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63650" bodyend="63651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.push_back</definition>
+        <argsstring>(self, FaceBitSet t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63653" bodyend="63654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.push_back</definition>
+        <argsstring>(self, FaceBitSet t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63656" bodyend="63657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a620bc22cb783011d53c0049e0496bea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63658" bodyend="63659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a94dc55e5540a5735571bcb99fe269b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63661" bodyend="63662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9870f7dbff54cf06d02f8393ccc2561d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.resize</definition>
+        <argsstring>(self, int newSize, FaceBitSet t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63664" bodyend="63665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a0d8e1435ed4c8df465b47f9adc194889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63667" bodyend="63670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad636d35d6dcf470ffd10e861747ef8bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, FaceBitSet value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63672" bodyend="63675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a03c0006c3df6f2d3cb1fe67c49d357d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_FaceBitSet_GraphVertId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63676" bodyend="63677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4d23d373a52c5be1ff3227f416f8010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.swap</definition>
+        <argsstring>(self, Vector_FaceBitSet_GraphVertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63678" bodyend="63679"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae3b5d470e870ed7cd84790844c0f4f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63681" bodyend="63684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a25b968a590d8397d220ce205d73e4d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_FaceTag arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63686" bodyend="63687"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::FaceBitSet, MR::GraphVertId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_FaceBitSet_GraphVertId</label>
+        <link refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63527" bodyend="63687"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ac330be2ba998b4d18f85e8bcc3ea3abd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1acc30a1f26e071fb9adaa58622b735f06" prot="private" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a47511402c21cafb83d7ec1a09e839706" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa8b9ba3ae514060ce829e89ba11fe8f4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae7aabddef58c7f16ea76fe0b99784e6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a5887a2dd9211e31687e9ed55432fae" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad423406a4e31b03069e5cca375ec17ec" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a207bffe09246f61725337f6faac7f016" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1afa70019b84901265c4df20f2ec7026c6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a02a7c1759ff2e12bfdea32804e3fbabc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aad18040b35c76413e3ac09d882e356b1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a264fd45c19d22d548a59eef31b1e1156" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a58a8db2bf6cdce229aaee72069c06d15" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a21edaf3ae862f5601b449b5e9763b460" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aeb52bd7a1f44ab5dcfc865c13ed72aea" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8e2f108e5ca880502ae6a3a3f3921810" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8e2f108e5ca880502ae6a3a3f3921810" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a730a9576eb793257125caf9485ff1e1d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a83587c83b413f2aced2e783189017640" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a925a7df8578855e164880721c588b595" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aab87d89cee6723c19680ec0e64216f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aec83af2223f07b1ac2044621cfe0ba80" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1af150de576624ca65239f9ca6ca4c2550" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a554ffcf920581effdfb46ed0c2a4d5ed" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9c6510ae37527f8adf292f41ceb43b6d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad01465ea8a2f3eec16a868b6f88f858c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab8d64a89519c2c6e3cab8611008c23f4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae5a39dff6372831b112c1c93b934962e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a620bc22cb783011d53c0049e0496bea6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a94dc55e5540a5735571bcb99fe269b04" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9870f7dbff54cf06d02f8393ccc2561d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a0d8e1435ed4c8df465b47f9adc194889" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad636d35d6dcf470ffd10e861747ef8bb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a03c0006c3df6f2d3cb1fe67c49d357d8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4d23d373a52c5be1ff3227f416f8010" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab20d5194b1c838c3d41ccd6ef290b997" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae3b5d470e870ed7cd84790844c0f4f47" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a25b968a590d8397d220ce205d73e4d53" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

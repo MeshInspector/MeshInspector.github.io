@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Histogram" kind="class" language="C#" prot="public">
+    <compoundname>MR::Histogram</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Histogram</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Histogram_1a565e985b42d190c40aaa497ff7c0de21" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Histogram.Histogram</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Histogram</name>
+        <qualifiedname>MR.Histogram.Histogram</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="144" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="144" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Histogram_1ab0bbd3d8742e66c6ff69d2e691a4f7ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Histogram.Histogram</definition>
+        <argsstring>()</argsstring>
+        <name>Histogram</name>
+        <qualifiedname>MR.Histogram.Histogram</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="149" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1abca61af5d0c72a9284ec588336d45e0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Histogram.Histogram</definition>
+        <argsstring>(MR._ByValue_Histogram _other)</argsstring>
+        <name>Histogram</name>
+        <qualifiedname>MR.Histogram.Histogram</qualifiedname>
+        <param>
+          <type>MR._ByValue_Histogram</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Histogram.Histogram</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="159" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="159" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1ae17376057394991033ff98dbc0e42999" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Histogram.Histogram</definition>
+        <argsstring>(Const_Histogram _other)</argsstring>
+        <name>Histogram</name>
+        <qualifiedname>MR.Histogram.Histogram</qualifiedname>
+        <param>
+          <type>Const_Histogram</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Histogram.Histogram</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="170" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1a0123c309b452ca8f4c7673a4a623370c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Histogram.Histogram</definition>
+        <argsstring>(Histogram _other)</argsstring>
+        <name>Histogram</name>
+        <qualifiedname>MR.Histogram.Histogram</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Histogram.Histogram</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="175" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1a3e83c795c07c0445d6267063b066c59b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Histogram.Histogram</definition>
+        <argsstring>(float min, float max, ulong size)</argsstring>
+        <name>Histogram</name>
+        <qualifiedname>MR.Histogram.Histogram</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Initialize histogram with minimum and maximum values, and number of bins Generated from constructor <computeroutput>MR.Histogram.Histogram</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="181" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="181" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1ab3d9c69327e5a321eefd6c70cb0a5593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Histogram" kindref="compound">MR.Histogram</ref></type>
+        <definition>unsafe MR.Histogram MR.Histogram.assign</definition>
+        <argsstring>(MR._ByValue_Histogram _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Histogram.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Histogram</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Histogram.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="191" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="191" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1a729336228fb61efb8e91b847bac318f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Histogram.addSample</definition>
+        <argsstring>(float sample, ulong? count=null)</argsstring>
+        <name>addSample</name>
+        <qualifiedname>MR.Histogram.addSample</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>ulong?</type>
+          <declname>count</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Adds sample to corresponding bin Generated from method <computeroutput><ref refid="classMR_1_1Histogram_1a729336228fb61efb8e91b847bac318f8" kindref="member">MR.Histogram.addSample</ref></computeroutput>. Parameter <computeroutput>count</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="205" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="205" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Histogram_1a8890dd48c1247230c8452d0a556fa6c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Histogram.addHistogram</definition>
+        <argsstring>(MR.Const_Histogram hist)</argsstring>
+        <name>addHistogram</name>
+        <qualifiedname>MR.Histogram.addHistogram</qualifiedname>
+        <param>
+          <type>MR.Const_Histogram</type>
+          <declname>hist</declname>
+        </param>
+        <briefdescription>
+<para>Adds bins of input hist to this Generated from method <computeroutput><ref refid="classMR_1_1Histogram_1a8890dd48c1247230c8452d0a556fa6c5" kindref="member">MR.Histogram.addHistogram</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="217" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="217" bodyend="222"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Simple class for calculating histogram Generated from class <computeroutput><ref refid="classMR_1_1Histogram" kindref="compound">MR.Histogram</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Histogram</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Histogram</label>
+        <link refid="classMR_1_1Histogram"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Histogram &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Histogram</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Histogram</label>
+        <link refid="classMR_1_1Histogram"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Histogram &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="142" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="143" bodyend="223"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Histogram_1a8890dd48c1247230c8452d0a556fa6c5" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addHistogram</name></member>
+      <member refid="classMR_1_1Histogram_1a729336228fb61efb8e91b847bac318f8" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addSample</name></member>
+      <member refid="classMR_1_1Histogram_1ab3d9c69327e5a321eefd6c70cb0a5593" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>assign</name></member>
+      <member refid="classMR_1_1Histogram_1a565e985b42d190c40aaa497ff7c0de21" prot="package" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="classMR_1_1Histogram_1ab0bbd3d8742e66c6ff69d2e691a4f7ad" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="classMR_1_1Histogram_1abca61af5d0c72a9284ec588336d45e0d" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="classMR_1_1Histogram_1ae17376057394991033ff98dbc0e42999" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="classMR_1_1Histogram_1a0123c309b452ca8f4c7673a4a623370c" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="classMR_1_1Histogram_1a3e83c795c07c0445d6267063b066c59b" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

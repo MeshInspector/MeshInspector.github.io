@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsLoad::RawParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a1b4d7815c0c21557828886c287835590" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RawParameters::_offsetof_dimensions</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dimensions</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters._offsetof_dimensions</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1ad9e5e7127fbaf692bd3fc18ade6f7f34" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RawParameters::_offsetof_gridLevelSet</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gridLevelSet</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters._offsetof_gridLevelSet</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a82dc4a973e527c2b9ddce36ae0c2ed6f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RawParameters::_offsetof_scalarType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_scalarType</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters._offsetof_scalarType</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a716437876355fde6fe9ae134642d9e7c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RawParameters::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters._offsetof_voxelSize</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73355" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a50a064ee785b36276551c9321847654b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RawParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73361" bodyend="73362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a110f5a72f21247d132f15c18a200d614" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters" kindref="compound">VoxelsLoad.RawParameters</ref></type>
+        <definition> VoxelsLoad.RawParameters mrmeshpy.VoxelsLoad.RawParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73365" bodyend="73366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a110f5a72f21247d132f15c18a200d614" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters" kindref="compound">VoxelsLoad.RawParameters</ref></type>
+        <definition> VoxelsLoad.RawParameters mrmeshpy.VoxelsLoad.RawParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73369" bodyend="73370"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1aef19154693429e646b23a1e6b00937a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RawParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73372" bodyend="73373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a655a99cf95e1c1f2f3711747e0fd2226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RawParameters.__init__</definition>
+        <argsstring>(self, VoxelsLoad.RawParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters" kindref="compound">VoxelsLoad.RawParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73375" bodyend="73378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a25f2a5b97cdd0d5ee002675a7aad7b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RawParameters.__init__</definition>
+        <argsstring>(self, Vector3i dimensions, Vector3f voxelSize, bool gridLevelSet, ScalarType scalarType)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dimensions</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gridLevelSet</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ScalarType" kindref="compound">ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73380" bodyend="73383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a0f819449066c04c2d7100252cff226af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelsLoad.RawParameters.gridLevelSet</definition>
+        <argsstring>(self)</argsstring>
+        <name>gridLevelSet</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.gridLevelSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73385" bodyend="73388"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a5e6f1e066aef10e5279b2fe45096b569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RawParameters.gridLevelSet</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>gridLevelSet</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RawParameters.gridLevelSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73390" bodyend="73392"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelsLoad::RawParameters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsLoad.RawParameters</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dimensions</edgelabel>
+          <edgelabel>_offsetof_gridLevelSet</edgelabel>
+          <edgelabel>_offsetof_scalarType</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73348" bodyend="73391"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a50a064ee785b36276551c9321847654b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1aef19154693429e646b23a1e6b00937a7" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a655a99cf95e1c1f2f3711747e0fd2226" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a25f2a5b97cdd0d5ee002675a7aad7b24" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a1b4d7815c0c21557828886c287835590" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>_offsetof_dimensions</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1ad9e5e7127fbaf692bd3fc18ade6f7f34" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>_offsetof_gridLevelSet</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a82dc4a973e527c2b9ddce36ae0c2ed6f" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>_offsetof_scalarType</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a716437876355fde6fe9ae134642d9e7c" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a0f819449066c04c2d7100252cff226af" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>gridLevelSet</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a5e6f1e066aef10e5279b2fe45096b569" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>gridLevelSet</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a110f5a72f21247d132f15c18a200d614" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters_1a110f5a72f21247d132f15c18a200d614" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RawParameters</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

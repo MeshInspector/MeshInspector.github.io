@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GridSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GridSettings</compoundname>
+    <includes refid="MRGridSettings_8h" local="no">MRGridSettings.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1GridSettings_1a46d7f5e53476c23ef05251179f3e15f0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>EdgeType</name>
+        <qualifiedname>MR::GridSettings::EdgeType</qualifiedname>
+        <enumvalue id="structMR_1_1GridSettings_1a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f" prot="public">
+          <name>Horizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1GridSettings_1a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012" prot="public">
+          <name>Vertical</name>
+          <briefdescription>
+<para>(x,y) - (x+1,y) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1GridSettings_1a46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4" prot="public">
+          <name>DiagonalA</name>
+          <briefdescription>
+<para>(x,y) - (x,y+1) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1GridSettings_1a46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e" prot="public">
+          <name>DiagonalB</name>
+          <briefdescription>
+<para>(x,y) - (x+1,y+1) </para>
+          </briefdescription>
+          <detaileddescription>
+<para>(x+1,y) - (x,y+1) both DiagonalA and DiagonalB cannot return valid edges </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="21" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="structMR_1_1GridSettings_1af447c539472e1a0723a984179f282685" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TriType</name>
+        <qualifiedname>MR::GridSettings::TriType</qualifiedname>
+        <enumvalue id="structMR_1_1GridSettings_1af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93" prot="public">
+          <name>Lower</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1GridSettings_1af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec" prot="public">
+          <name>Upper</name>
+          <briefdescription>
+<para>(x,y), (x+1,y), (x+1,y+1) if DiagonalA or (x,y), (x+1,y), (x,y+1) if DiagonalB </para>
+          </briefdescription>
+          <detaileddescription>
+<para>(x,y), (x+1,y+1), (x,y+1) if DiagonalA or (x+1,y), (x+1,y+1), (x,y+1) if DiagonalB </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1GridSettings_1a079676e2ac1f95a1b11ecb8b7f0042aa" prot="public" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::GridSettings::dim</definition>
+        <argsstring></argsstring>
+        <name>dim</name>
+        <qualifiedname>MR::GridSettings::dim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="14" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GridSettings_1ab5b3ed30ff4dde0622d5d2fb4c2213d8" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BMap" kindref="compound">BMap</ref>&lt; VertId, size_t &gt;</type>
+        <definition>BMap&lt;VertId, size_t&gt; MR::GridSettings::vertIds</definition>
+        <argsstring></argsstring>
+        <name>vertIds</name>
+        <qualifiedname>MR::GridSettings::vertIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>grid coordinates to vertex <ref refid="classMR_1_1Id" kindref="compound">Id</ref>; invalid vertex <ref refid="classMR_1_1Id" kindref="compound">Id</ref> means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="18" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GridSettings_1aeb3dd9e9c7f4ea93ddd4aea1b4afc61c" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BMap" kindref="compound">BMap</ref>&lt; UndirectedEdgeId, size_t &gt;</type>
+        <definition>BMap&lt;UndirectedEdgeId, size_t&gt; MR::GridSettings::uedgeIds</definition>
+        <argsstring></argsstring>
+        <name>uedgeIds</name>
+        <qualifiedname>MR::GridSettings::uedgeIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="31" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GridSettings_1a790adf53fc23a7b8fe0be9674ebb70af" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BMap" kindref="compound">BMap</ref>&lt; FaceId, size_t &gt;</type>
+        <definition>BMap&lt;FaceId, size_t&gt; MR::GridSettings::faceIds</definition>
+        <argsstring></argsstring>
+        <name>faceIds</name>
+        <qualifiedname>MR::GridSettings::faceIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="41" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>MR::BMap&lt; FaceId, size_t &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::BMap&lt; UndirectedEdgeId, size_t &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::BMap&lt; VertId, size_t &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::Buffer&lt; FaceId, size_t &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+      <node id="5">
+        <label>MR::Buffer&lt; UndirectedEdgeId, size_t &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+      <node id="3">
+        <label>MR::Buffer&lt; VertId, size_t &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+      <node id="1">
+        <label>MR::GridSettings</label>
+        <link refid="structMR_1_1GridSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vertIds</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>uedgeIds</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>faceIds</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="11" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structMR_1_1GridSettings_1a079676e2ac1f95a1b11ecb8b7f0042aa" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>dim</name></member>
+      <member refid="structMR_1_1GridSettings_1a46d7f5e53476c23ef05251179f3e15f0" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>EdgeType</name></member>
+      <member refid="structMR_1_1GridSettings_1a790adf53fc23a7b8fe0be9674ebb70af" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>faceIds</name></member>
+      <member refid="structMR_1_1GridSettings_1af447c539472e1a0723a984179f282685" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>TriType</name></member>
+      <member refid="structMR_1_1GridSettings_1aeb3dd9e9c7f4ea93ddd4aea1b4afc61c" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>uedgeIds</name></member>
+      <member refid="structMR_1_1GridSettings_1ab5b3ed30ff4dde0622d5d2fb4c2213d8" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>vertIds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

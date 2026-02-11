@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BestFitParabolad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BestFitParabolad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a553355437c97423c045308c7e84772d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BestFitParabolad.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3077" bodyend="3078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a909ddb819a23df2476147f13ee2933ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BestFitParabolad" kindref="compound">BestFitParabolad</ref></type>
+        <definition> BestFitParabolad mrmeshpy.BestFitParabolad.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3081" bodyend="3082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a909ddb819a23df2476147f13ee2933ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BestFitParabolad" kindref="compound">BestFitParabolad</ref></type>
+        <definition> BestFitParabolad mrmeshpy.BestFitParabolad.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3085" bodyend="3086"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a1fc9186c0f3a821152f88ba6ea04f550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BestFitParabolad.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3088" bodyend="3089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a29d707d91d472537639d559319771fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BestFitParabolad.__init__</definition>
+        <argsstring>(self, BestFitParabolad arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BestFitParabolad" kindref="compound">BestFitParabolad</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3091" bodyend="3094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1ad7a4fc85a5d081fed745e8de58a1615b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BestFitParabolad.addPoint</definition>
+        <argsstring>(self, float x, float y)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.addPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>accumulates one more point for parabola fitting
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3096" bodyend="3099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a0292972028772086344f67e0ec9eebd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BestFitParabolad.addPoint</definition>
+        <argsstring>(self, float x, float y, float weight)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.addPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>accumulates one more point with given weight for parabola fitting
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3101" bodyend="3104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BestFitParabolad_1a36313d9327975155da24c16cf69775d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Parabolad" kindref="compound">Parabolad</ref></type>
+        <definition> Parabolad mrmeshpy.BestFitParabolad.getBestParabola</definition>
+        <argsstring>(self, float tol=2.220446049250313e-16)</argsstring>
+        <name>getBestParabola</name>
+        <qualifiedname>mrmeshpy.BestFitParabolad.getBestParabola</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tol</declname>
+          <defval>2.220446049250313e-16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the best approximating parabola from the accumulated points;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3105" bodyend="3108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BestFitParabolad
+
+accumulates a number of (x,y) points to find the best-least-squares parabola approximating them
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3069" bodyend="3108"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a553355437c97423c045308c7e84772d3" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a1fc9186c0f3a821152f88ba6ea04f550" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a29d707d91d472537639d559319771fab" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1ad7a4fc85a5d081fed745e8de58a1615b" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>addPoint</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a0292972028772086344f67e0ec9eebd9" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>addPoint</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a36313d9327975155da24c16cf69775d5" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>getBestParabola</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a909ddb819a23df2476147f13ee2933ea" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BestFitParabolad_1a909ddb819a23df2476147f13ee2933ea" prot="public" virt="non-virtual"><scope>mrmeshpy::BestFitParabolad</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

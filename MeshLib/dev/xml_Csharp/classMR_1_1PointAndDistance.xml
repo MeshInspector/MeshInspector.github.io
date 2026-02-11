@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointAndDistance" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointAndDistance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointAndDistance</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointAndDistance_1a3f7d721bd4ff485d263894eeca7d96c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.PointAndDistance.vId</definition>
+        <argsstring></argsstring>
+        <name>vId</name>
+        <qualifiedname>MR.PointAndDistance.vId</qualifiedname>
+        <briefdescription>
+<para>a cloud&apos;s point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="129" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointAndDistance_1ae086a888578b485fb4a60126f6e5014a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.PointAndDistance.dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR.PointAndDistance.dist</qualifiedname>
+        <briefdescription>
+<para>the distance from input location to point vId considering point&apos;s weight </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="132" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointAndDistance_1a3bfbd9fda2ed1a721529b49b2d8885e5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAndDistance.PointAndDistance</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointAndDistance</name>
+        <qualifiedname>MR.PointAndDistance.PointAndDistance</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="136" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="136" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointAndDistance_1a0c9922eac279b39cc5b2d7e065ea590a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAndDistance.PointAndDistance</definition>
+        <argsstring>()</argsstring>
+        <name>PointAndDistance</name>
+        <qualifiedname>MR.PointAndDistance.PointAndDistance</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="146" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAndDistance_1a411e571f3a3d7ddf13b4182b20aa3a1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAndDistance.PointAndDistance</definition>
+        <argsstring>(MR.VertId vId, float dist)</argsstring>
+        <name>PointAndDistance</name>
+        <qualifiedname>MR.PointAndDistance.PointAndDistance</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>vId</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PointAndDistance" kindref="compound">MR.PointAndDistance</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="157" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="157" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAndDistance_1a09b9eaa4df4bace14176e3ce0a0d15a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAndDistance.PointAndDistance</definition>
+        <argsstring>(MR.Const_PointAndDistance _other)</argsstring>
+        <name>PointAndDistance</name>
+        <qualifiedname>MR.PointAndDistance.PointAndDistance</qualifiedname>
+        <param>
+          <type>MR.Const_PointAndDistance</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointAndDistance.PointAndDistance</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="168" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="168" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAndDistance_1a580b479573d0c84db07487ce054c8ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointAndDistance.PointAndDistance</definition>
+        <argsstring>(PointAndDistance _other)</argsstring>
+        <name>PointAndDistance</name>
+        <qualifiedname>MR.PointAndDistance.PointAndDistance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointAndDistance" kindref="compound">PointAndDistance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointAndDistance.PointAndDistance</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="180" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAndDistance_1acaebe3c26e33f19d177b2abb47023dc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointAndDistance" kindref="compound">MR.PointAndDistance</ref></type>
+        <definition>unsafe MR.PointAndDistance MR.PointAndDistance.assign</definition>
+        <argsstring>(MR.Const_PointAndDistance _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointAndDistance.assign</qualifiedname>
+        <param>
+          <type>MR.Const_PointAndDistance</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointAndDistance.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="185" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="185" bodyend="192"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointAndDistance" kindref="compound">MR.PointAndDistance</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PointAndDistance</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointAndDistance</label>
+        <link refid="classMR_1_1PointAndDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointAndDistance &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PointAndDistance</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointAndDistance</label>
+        <link refid="classMR_1_1PointAndDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointAndDistance &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="126" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="127" bodyend="193"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointAndDistance_1acaebe3c26e33f19d177b2abb47023dc4" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointAndDistance_1ae086a888578b485fb4a60126f6e5014a" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>dist</name></member>
+      <member refid="classMR_1_1PointAndDistance_1a3bfbd9fda2ed1a721529b49b2d8885e5" prot="package" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
+      <member refid="classMR_1_1PointAndDistance_1a0c9922eac279b39cc5b2d7e065ea590a" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
+      <member refid="classMR_1_1PointAndDistance_1a411e571f3a3d7ddf13b4182b20aa3a1f" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
+      <member refid="classMR_1_1PointAndDistance_1a09b9eaa4df4bace14176e3ce0a0d15a7" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
+      <member refid="classMR_1_1PointAndDistance_1a580b479573d0c84db07487ce054c8ed5" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
+      <member refid="classMR_1_1PointAndDistance_1a3f7d721bd4ff485d263894eeca7d96c1" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

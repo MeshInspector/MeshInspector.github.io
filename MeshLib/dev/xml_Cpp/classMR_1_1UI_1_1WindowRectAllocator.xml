@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1WindowRectAllocator" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::WindowRectAllocator</compoundname>
+    <basecompoundref refid="classMR_1_1UI_1_1RectAllocator" prot="public" virt="non-virtual">MR::UI::RectAllocator</basecompoundref>
+    <includes refid="MRUIRectAllocator_8h" local="no">MRUIRectAllocator.h</includes>
+    <innerclass refid="structMR_1_1UI_1_1WindowRectAllocator_1_1WindowEntry" prot="private">MR::UI::WindowRectAllocator::WindowEntry</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classMR_1_1UI_1_1WindowRectAllocator_1a0118b652cf3bb191bc80092acfb53f67" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>AllocationState</name>
+        <qualifiedname>MR::UI::WindowRectAllocator::AllocationState</qualifiedname>
+        <enumvalue id="classMR_1_1UI_1_1WindowRectAllocator_1a0118b652cf3bb191bc80092acfb53f67a6adf97f83acf6453d4a6a4b1070f3754" prot="private">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1UI_1_1WindowRectAllocator_1a0118b652cf3bb191bc80092acfb53f67afcdf8a82eba24e303b63b2e49a507ecb" prot="private">
+          <name>Requested</name>
+          <briefdescription>
+<para>This window wasn&apos;t yet drawn during this frame. If it&apos;s not drawn until the end of frame, it will be deleted from this map. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1UI_1_1WindowRectAllocator_1a0118b652cf3bb191bc80092acfb53f67a127d0f594c9fa78c355a666088962580" prot="private">
+          <name>WaitAppearing</name>
+          <briefdescription>
+<para>This window has appeared recently and a free position will be selected for it in the next frame. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1UI_1_1WindowRectAllocator_1a0118b652cf3bb191bc80092acfb53f67a5d5b78699e57104f2fa03bbdf7b9197b" prot="private">
+          <name>Set</name>
+          <briefdescription>
+<para>This window has just appeared and need one frame to calculate true size. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>This window has set position and was already drawn in this frame </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="81" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="82" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UI_1_1WindowRectAllocator_1a35084b18971c62dadbaa4bee6d636e6c" prot="private" static="no" mutable="no">
+        <type>phmap::flat_hash_map&lt; std::string, WindowEntry &gt;</type>
+        <definition>phmap::flat_hash_map&lt;std::string, WindowEntry&gt; MR::UI::WindowRectAllocator::windows_</definition>
+        <argsstring></argsstring>
+        <name>windows_</name>
+        <qualifiedname>MR::UI::WindowRectAllocator::windows_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="93" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UI_1_1WindowRectAllocator_1a38bb8cbe2433b411b130857219fc3be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::WindowRectAllocator::setFreeNextWindowPos</definition>
+        <argsstring>(const char *expectedWindowName, ImVec2 defaultPos, ImGuiCond cond=ImGuiCond_Appearing, ImVec2 pivot=ImVec2())</argsstring>
+        <name>setFreeNextWindowPos</name>
+        <qualifiedname>MR::UI::WindowRectAllocator::setFreeNextWindowPos</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>expectedWindowName</declname>
+        </param>
+        <param>
+          <type>ImVec2</type>
+          <declname>defaultPos</declname>
+        </param>
+        <param>
+          <type>ImGuiCond</type>
+          <declname>cond</declname>
+          <defval>ImGuiCond_Appearing</defval>
+        </param>
+        <param>
+          <type>ImVec2</type>
+          <declname>pivot</declname>
+          <defval>ImVec2()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call this before drawing a window. <computeroutput>expectedWindowName</computeroutput> must match the window name. The remaining parameters are forwarded to <computeroutput>ImGui::SetNextWindowPos()</computeroutput>, expect for one time where we find a free rect and use it instead. <computeroutput>cond</computeroutput> must not be <computeroutput>ImGuiCond_Always</computeroutput> (aka 0), in that case we just forward the arguments and don&apos;t try to find a rect. We automatically avoid all windows with <computeroutput>[rect_allocator_ignore]</computeroutput> anywhere after <computeroutput>##</computeroutput> in the name. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="76" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1WindowRectAllocator_1ae4aa3ae308165ceab5cad3ae36dd1131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::WindowRectAllocator::invalidateClosedWindows</definition>
+        <argsstring>()</argsstring>
+        <name>invalidateClosedWindows</name>
+        <qualifiedname>MR::UI::WindowRectAllocator::invalidateClosedWindows</qualifiedname>
+        <briefdescription>
+<para>Call this once at the begining of <ref refid="namespaceImGui" kindref="compound">ImGui</ref> frame, to remove all closed windows from entries list. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="79" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A rect allocator specifically for <ref refid="namespaceImGui" kindref="compound">ImGui</ref> windows. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::UI::RectAllocator</label>
+        <link refid="classMR_1_1UI_1_1RectAllocator"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::WindowRectAllocator</label>
+        <link refid="classMR_1_1UI_1_1WindowRectAllocator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::UI::RectAllocator</label>
+        <link refid="classMR_1_1UI_1_1RectAllocator"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::WindowRectAllocator</label>
+        <link refid="classMR_1_1UI_1_1WindowRectAllocator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="69" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UI_1_1WindowRectAllocator_1a0118b652cf3bb191bc80092acfb53f67" prot="private" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>AllocationState</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1ae453c167334b49a2d08f4bffa76c0fe2" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>findFreeRect</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1a0c0e4459ae9255dde41c3c2e216999a3" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>FindPotentiallyOverlappingRects</name></member>
+      <member refid="classMR_1_1UI_1_1WindowRectAllocator_1ae4aa3ae308165ceab5cad3ae36dd1131" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>invalidateClosedWindows</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1a82d78572d266d3a2f29eadf99dd00f9e" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>RectAllocator</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1a91ef8171f989554a528459da9f0c603a" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>rectRectOverlap</name></member>
+      <member refid="classMR_1_1UI_1_1WindowRectAllocator_1a38bb8cbe2433b411b130857219fc3be4" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>setFreeNextWindowPos</name></member>
+      <member refid="classMR_1_1UI_1_1WindowRectAllocator_1a35084b18971c62dadbaa4bee6d636e6c" prot="private" virt="non-virtual"><scope>MR::UI::WindowRectAllocator</scope><name>windows_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

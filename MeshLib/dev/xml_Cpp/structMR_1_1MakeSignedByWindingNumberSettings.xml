@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MakeSignedByWindingNumberSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MakeSignedByWindingNumberSettings</compoundname>
+    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MakeSignedByWindingNumberSettings_1ab01c8a645415c29410190fe405773c8a" prot="public" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::MakeSignedByWindingNumberSettings::meshToGridXf</definition>
+        <argsstring></argsstring>
+        <name>meshToGridXf</name>
+        <qualifiedname>MR::MakeSignedByWindingNumberSettings::meshToGridXf</qualifiedname>
+        <briefdescription>
+<para>defines the mapping from mesh reference from to grid reference frame </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="135" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MakeSignedByWindingNumberSettings_1a94b1baa91b7a7f5cc08e84e5505680c2" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;IFastWindingNumber&gt; MR::MakeSignedByWindingNumberSettings::fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR::MakeSignedByWindingNumberSettings::fwn</qualifiedname>
+        <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="138" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MakeSignedByWindingNumberSettings_1a76fda89f388f379a843c11dfccabb73f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MakeSignedByWindingNumberSettings::windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR::MakeSignedByWindingNumberSettings::windingNumberThreshold</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="142" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MakeSignedByWindingNumberSettings_1a9b227c497a7784f70a4f48631fe8a1f4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MakeSignedByWindingNumberSettings::windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR::MakeSignedByWindingNumberSettings::windingNumberBeta</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MakeSignedByWindingNumberSettings_1a3a33c885904d5b4053c358046cb72e88" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::MakeSignedByWindingNumberSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::MakeSignedByWindingNumberSettings::progress</qualifiedname>
+        <briefdescription>
+<para>to report algorithm&apos;s progress and to cancel it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="148" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="133" bodyend="149"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MakeSignedByWindingNumberSettings_1a94b1baa91b7a7f5cc08e84e5505680c2" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
+      <member refid="structMR_1_1MakeSignedByWindingNumberSettings_1ab01c8a645415c29410190fe405773c8a" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>meshToGridXf</name></member>
+      <member refid="structMR_1_1MakeSignedByWindingNumberSettings_1a3a33c885904d5b4053c358046cb72e88" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1MakeSignedByWindingNumberSettings_1a9b227c497a7784f70a4f48631fe8a1f4" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="structMR_1_1MakeSignedByWindingNumberSettings_1a76fda89f388f379a843c11dfccabb73f" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

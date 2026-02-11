@@ -1,0 +1,1182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPlane3_8h" kind="file" language="C++">
+    <compoundname>MRPlane3.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPlane3_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
+        <definition>typedef struct MR_std_istream MR_std_istream</definition>
+        <argsstring></argsstring>
+        <name>MR_std_istream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="12" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPlane3_8h_1a933fad1748853c0c595a157b9f6527c6" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref></type>
+        <definition>typedef struct MR_std_ostream MR_std_ostream</definition>
+        <argsstring></argsstring>
+        <name>MR_std_ostream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPlane3_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
+        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Plane3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>3-dimensional plane: dot(n,x) - d = 0 Generated from class <computeroutput>MR::Plane3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="19" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPlane3_8h_1a47c990e52774bc8bd9e02d71ca3a353b" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref></type>
+        <definition>typedef struct MR_Plane3d MR_Plane3d</definition>
+        <argsstring></argsstring>
+        <name>MR_Plane3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>3-dimensional plane: dot(n,x) - d = 0 Generated from class <computeroutput>MR::Plane3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="24" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_Plane3f_Get_n</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_Get_n</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="29" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="29" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3f_Set_n</definition>
+        <argsstring>(MR_Plane3f *_this, MR_Vector3f value)</argsstring>
+        <name>MR_Plane3f_Set_n</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>n</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>n</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="35" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_Plane3f_GetMutable_n</definition>
+        <argsstring>(MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_GetMutable_n</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="40" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="40" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Plane3f_Get_d</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_Get_d</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="45" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3f_Set_d</definition>
+        <argsstring>(MR_Plane3f *_this, float value)</argsstring>
+        <name>MR_Plane3f_Set_d</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>d</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Plane3f_GetMutable_d</definition>
+        <argsstring>(MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_GetMutable_d</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Plane3f</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="55" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="55" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Plane3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="59" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Plane3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" kindref="member">MR_Plane3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" kindref="member">MR_Plane3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" kindref="member">MR_Plane3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="64" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="64" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API const MR_Plane3f * MR_Plane3f_OffsetPtr</definition>
+        <argsstring>(const MR_Plane3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Plane3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="68" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="68" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_Plane3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Plane3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="72" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="72" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_Plane3f *_other)</argsstring>
+        <name>MR_Plane3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Plane3f::Plane3f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="78" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="78" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_Construct</definition>
+        <argsstring>(const MR_Vector3f *n, float d)</argsstring>
+        <name>MR_Plane3f_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Plane3f::Plane3f</computeroutput>. Parameter <computeroutput>n</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>n</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="84" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="84" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_Construct_double</definition>
+        <argsstring>(const MR_Plane3d *p)</argsstring>
+        <name>MR_Plane3f_Construct_double</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Plane3f::Plane3f</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>p</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="92" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="92" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3f_Destroy</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Plane3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3f_DestroyArray</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Plane3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_AssignFromAnother</definition>
+        <argsstring>(MR_Plane3f *_this, const MR_Plane3f *_other)</argsstring>
+        <name>MR_Plane3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Plane3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="106" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="106" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_fromDirAndPt</definition>
+        <argsstring>(const MR_Vector3f *n, const MR_Vector3f *p)</argsstring>
+        <name>MR_Plane3f_fromDirAndPt</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Plane3f::fromDirAndPt</computeroutput>. Parameter <computeroutput>n</computeroutput> can not be null. It is a single object. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="112" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="112" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_Plane3f_distance</definition>
+        <argsstring>(const MR_Plane3f *_this, const MR_Vector3f *x)</argsstring>
+        <name>MR_Plane3f_distance</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns distance from given point to this plane (if n is a unit vector) Generated from method <computeroutput>MR::Plane3f::distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>x</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="118" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="118" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_neg_MR_Plane3f</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_neg_MR_Plane3f</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns same plane represented with flipped direction of n-vector Generated from method <computeroutput>MR::Plane3f::operator-</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="124" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="124" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API const MR_Plane3f * MR_pos_MR_Plane3f</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_pos_MR_Plane3f</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns same representation Generated from method <computeroutput>MR::Plane3f::operator+</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="130" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="130" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_Plane3f_normalized</definition>
+        <argsstring>(const MR_Plane3f *_this)</argsstring>
+        <name>MR_Plane3f_normalized</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns same plane represented with unit n-vector Generated from method <computeroutput>MR::Plane3f::normalized</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="136" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="136" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_Plane3f_project</definition>
+        <argsstring>(const MR_Plane3f *_this, const MR_Vector3f *p)</argsstring>
+        <name>MR_Plane3f_project</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the closest point on plane Generated from method <computeroutput>MR::Plane3f::project</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="142" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="142" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+        <definition>MRC_API MR_std_ostream * MR_print_MR_Plane3f</definition>
+        <argsstring>(MR_std_ostream *s, const MR_Plane3f *pl)</argsstring>
+        <name>MR_print_MR_Plane3f</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator&lt;&lt;</computeroutput>. Parameter <computeroutput>s</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pl</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="148" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="148" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+        <definition>MRC_API MR_std_istream * MR_input_MR_Plane3f</definition>
+        <argsstring>(MR_std_istream *s, MR_Plane3f *pl)</argsstring>
+        <name>MR_input_MR_Plane3f</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator&gt;&gt;</computeroutput>. Parameter <computeroutput>s</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pl</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="154" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="154" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_Plane3d_Get_n</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_Get_n</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="159" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="159" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3d_Set_n</definition>
+        <argsstring>(MR_Plane3d *_this, MR_Vector3d value)</argsstring>
+        <name>MR_Plane3d_Set_n</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>n</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>n</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="165" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_Plane3d_GetMutable_n</definition>
+        <argsstring>(MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_GetMutable_n</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>n</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="170" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="170" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_Plane3d_Get_d</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_Get_d</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="175" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="175" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3d_Set_d</definition>
+        <argsstring>(MR_Plane3d *_this, double value)</argsstring>
+        <name>MR_Plane3d_Set_d</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>d</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="180" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_Plane3d_GetMutable_d</definition>
+        <argsstring>(MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_GetMutable_d</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Plane3d</computeroutput> named <computeroutput>d</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="185" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="185" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Plane3d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="189" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="189" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Plane3d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" kindref="member">MR_Plane3d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" kindref="member">MR_Plane3d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" kindref="member">MR_Plane3d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="194" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="194" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API const MR_Plane3d * MR_Plane3d_OffsetPtr</definition>
+        <argsstring>(const MR_Plane3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Plane3d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="198" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="198" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_OffsetMutablePtr</definition>
+        <argsstring>(MR_Plane3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Plane3d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="202" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="202" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_ConstructFromAnother</definition>
+        <argsstring>(const MR_Plane3d *_other)</argsstring>
+        <name>MR_Plane3d_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Plane3d::Plane3d</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="208" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="208" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_Construct</definition>
+        <argsstring>(const MR_Vector3d *n, double d)</argsstring>
+        <name>MR_Plane3d_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Plane3d::Plane3d</computeroutput>. Parameter <computeroutput>n</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>n</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="214" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="214" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_Construct_float</definition>
+        <argsstring>(const MR_Plane3f *p)</argsstring>
+        <name>MR_Plane3d_Construct_float</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Plane3d::Plane3d</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>p</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="222" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="222" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3d_Destroy</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Plane3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="225" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Plane3d_DestroyArray</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Plane3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="228" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_AssignFromAnother</definition>
+        <argsstring>(MR_Plane3d *_this, const MR_Plane3d *_other)</argsstring>
+        <name>MR_Plane3d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Plane3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="236" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="236" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_fromDirAndPt</definition>
+        <argsstring>(const MR_Vector3d *n, const MR_Vector3d *p)</argsstring>
+        <name>MR_Plane3d_fromDirAndPt</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Plane3d::fromDirAndPt</computeroutput>. Parameter <computeroutput>n</computeroutput> can not be null. It is a single object. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="242" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="242" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_Plane3d_distance</definition>
+        <argsstring>(const MR_Plane3d *_this, const MR_Vector3d *x)</argsstring>
+        <name>MR_Plane3d_distance</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns distance from given point to this plane (if n is a unit vector) Generated from method <computeroutput>MR::Plane3d::distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>x</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="248" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="248" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_neg_MR_Plane3d</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_neg_MR_Plane3d</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns same plane represented with flipped direction of n-vector Generated from method <computeroutput>MR::Plane3d::operator-</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="254" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="254" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API const MR_Plane3d * MR_pos_MR_Plane3d</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_pos_MR_Plane3d</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns same representation Generated from method <computeroutput>MR::Plane3d::operator+</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="260" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="260" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+        <definition>MRC_API MR_Plane3d * MR_Plane3d_normalized</definition>
+        <argsstring>(const MR_Plane3d *_this)</argsstring>
+        <name>MR_Plane3d_normalized</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns same plane represented with unit n-vector Generated from method <computeroutput>MR::Plane3d::normalized</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="266" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="266" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MRC_API MR_Vector3d MR_Plane3d_project</definition>
+        <argsstring>(const MR_Plane3d *_this, const MR_Vector3d *p)</argsstring>
+        <name>MR_Plane3d_project</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the closest point on plane Generated from method <computeroutput>MR::Plane3d::project</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="272" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="272" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+        <definition>MRC_API MR_std_ostream * MR_print_MR_Plane3d</definition>
+        <argsstring>(MR_std_ostream *s, const MR_Plane3d *pl)</argsstring>
+        <name>MR_print_MR_Plane3d</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator&lt;&lt;</computeroutput>. Parameter <computeroutput>s</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pl</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="278" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="278" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+        <definition>MRC_API MR_std_istream * MR_input_MR_Plane3d</definition>
+        <argsstring>(MR_std_istream *s, MR_Plane3d *pl)</argsstring>
+        <name>MR_input_MR_Plane3d</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref> *</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator&gt;&gt;</computeroutput>. Parameter <computeroutput>s</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pl</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" line="284" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h" declline="284" declcolumn="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRPlane3_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRPlane3_8h_1a933fad1748853c0c595a157b9f6527c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRPlane3_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRPlane3_8h_1a47c990e52774bc8bd9e02d71ca3a353b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPlane3_8h_1a122763771c89e236bde3fb50cd6002d2" kindref="member">MR_Plane3f_Get_n</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aca3dd1d71a77b47af1b41fb051154d9e" kindref="member">MR_Plane3f_Set_n</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPlane3_8h_1afbf6704d511f4e8672f5c27f122614d6" kindref="member">MR_Plane3f_GetMutable_n</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1a9a39adcb0d90b9858a1464c854567784" kindref="member">MR_Plane3f_Get_d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aebf371e9cf3ac5d10432968c68318502" kindref="member">MR_Plane3f_Set_d</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1ac59a39bbec281021ab7e63927e499dae" kindref="member">MR_Plane3f_GetMutable_d</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a8efb53a603d6e77e6fe7ed7b564f828b" kindref="member">MR_Plane3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a13963b7bfc0e9c2e81e6acdd4f02e934" kindref="member">MR_Plane3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ad1ed23d018647653b6b5f9756cb3e879" kindref="member">MR_Plane3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ac168b327ddfa8bfe685e313cb633fe10" kindref="member">MR_Plane3f_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a31af7e2904042e205333fdd23e9c91f4" kindref="member">MR_Plane3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1aad5763d77bd350ba7555d9c63f15845c" kindref="member">MR_Plane3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Here<sp/>`T<sp/>==<sp/>U`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>cause<sp/>any<sp/>issues<sp/>in<sp/>the<sp/>C++<sp/>code,<sp/>but<sp/>we&apos;re<sp/>still<sp/>disabling<sp/>it<sp/>because<sp/>it<sp/>somehow<sp/>gets<sp/>emitted</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight></codeline>
+<codeline lineno="92" refid="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ab6d4bcca5ba5787986cd6d976807eb2e" kindref="member">MR_Plane3f_Construct_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1aa1701182101bdd22fc8fd948e68361a2" kindref="member">MR_Plane3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a1491fd497fd582570952c59b98741078" kindref="member">MR_Plane3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1accb58b54961ab128f9a11249dfd7fe66" kindref="member">MR_Plane3f_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1ad6e5feb62358a92b93d0f057523c61ae" kindref="member">MR_Plane3f_fromDirAndPt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" kindref="member">MR_Plane3f_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*x);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1af20a73df7c02ef3c38aebd6d345b4c39" kindref="member">MR_neg_MR_Plane3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a118c8760034ea30bebb058b1d1e94ee9" kindref="member">MR_pos_MR_Plane3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRPlane3_8h_1a262f998fbab2de5ef151a3cd07584629" kindref="member">MR_Plane3f_normalized</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRPlane3_8h_1a12963c09e6453c44c77f13b7aff8c4aa" kindref="member">MR_Plane3f_project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRPlane3_8h_1ade87140c2d16a13db328a6cf4b2d4bdb" kindref="member">MR_print_MR_Plane3f</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRPlane3_8h_1a6c6ce1c312c8370942ebc59f8a0f7ec4" kindref="member">MR_input_MR_Plane3f</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPlane3_8h_1a54d5d8c2f0f71bfa69c9152b4a26474f" kindref="member">MR_Plane3d_Get_n</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a0f42f6177176cec8d669f97c9ff4d3c6" kindref="member">MR_Plane3d_Set_n</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPlane3_8h_1a7dcb48805f79bb679e9887ca2dec211e" kindref="member">MR_Plane3d_GetMutable_n</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1a53eb5f7f3b73e616ac015f22209af39c" kindref="member">MR_Plane3d_Get_d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a37ef19af566f0d096e1c55872a135d7f" kindref="member">MR_Plane3d_Set_d</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPlane3_8h_1aaaf2b095ca1916d6c03d65673c430457" kindref="member">MR_Plane3d_GetMutable_d</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a20142fd373bcc033f5aa20b2a323071c" kindref="member">MR_Plane3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a990a2e6e25a90ae359ddcac961c0c52b" kindref="member">MR_Plane3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1aa5d850d69e7f6de94147a3382c59d1d8" kindref="member">MR_Plane3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1ae16d313867cff59cd757f6c2de56966f" kindref="member">MR_Plane3d_OffsetMutablePtr</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a11fb948e08da0f7422209b1ca248efe8" kindref="member">MR_Plane3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1ab69f40b787a42b6779979cde29fa87c6" kindref="member">MR_Plane3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Here<sp/>`T<sp/>==<sp/>U`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>cause<sp/>any<sp/>issues<sp/>in<sp/>the<sp/>C++<sp/>code,<sp/>but<sp/>we&apos;re<sp/>still<sp/>disabling<sp/>it<sp/>because<sp/>it<sp/>somehow<sp/>gets<sp/>emitted</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight></codeline>
+<codeline lineno="222" refid="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a8d71761b4ac5ea2de74b6145b6f73b38" kindref="member">MR_Plane3d_Construct_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a6316d222da55e4b13b46a10efeea14a3" kindref="member">MR_Plane3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1a786cd5cd072e3c7b8b5d36a77affa68b" kindref="member">MR_Plane3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a817a8e3ab69835026b97a7241170903f" kindref="member">MR_Plane3d_AssignFromAnother</ref>(<ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a3ecb7b6232d59fee69258d4d80107ba7" kindref="member">MR_Plane3d_fromDirAndPt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*n,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRPlane3_8h_1afca9cc2d06ab857d0bae08606f9ba481" kindref="member">MR_Plane3d_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*x);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a23a39c97fb89286ee4e334b32a2b166f" kindref="member">MR_neg_MR_Plane3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1a03772356aa3a28c173be49ed2509fb5a" kindref="member">MR_pos_MR_Plane3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*<ref refid="MRPlane3_8h_1aa3cd55121123d687e578d46a2bae1b59" kindref="member">MR_Plane3d_normalized</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRPlane3_8h_1a1282c6e6ee613ca4fa7532287c7f4415" kindref="member">MR_Plane3d_project</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRPlane3_8h_1abfb9600c3a6c6aa2dc5d3047b5748dd3" kindref="member">MR_print_MR_Plane3d</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRPlane3_8h_1aa6e0ea07c380ae48b0d3d655a5ba31ea" kindref="member">MR_input_MR_Plane3d</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRBestFit_8h_1a47c990e52774bc8bd9e02d71ca3a353b" kindref="member">MR_Plane3d</ref><sp/>*pl);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPlane3.h"/>
+  </compounddef>
+</doxygen>

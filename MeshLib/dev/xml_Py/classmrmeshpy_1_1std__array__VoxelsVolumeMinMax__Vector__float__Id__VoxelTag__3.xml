@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a188d31fc1f69fcdbf60f87253feab904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+        <definition> SimpleVolumeMinMax mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78330" bodyend="78331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a99d7026e15c983e35aff575c0fa68183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78333" bodyend="78334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1ae747a13fd780e5c47dbcf3ac2ae955cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__init__</definition>
+        <argsstring>(self, std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3" kindref="compound">std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78336" bodyend="78337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a6d0268c80466e0d7f95dbbd080cadde6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 3elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78339" bodyend="78342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1aeeb391e8697b13d9ebe986b32b2806fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref>]</type>
+        <definition> typing.Iterator[SimpleVolumeMinMax] mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78343" bodyend="78344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a3cbd4b36132f7a3e1eb0a47d67dc562a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78345" bodyend="78346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a651cfbfac5bc4b632c3514f4027ddee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78347" bodyend="78348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a3960e3a47ebe66d5ba4d358ade45bed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__setitem__</definition>
+        <argsstring>(self, int arg0, SimpleVolumeMinMax arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78349" bodyend="78350"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  TeethMaskToDirectionVolumeConvertor.DirectionVolume, std_array_SimpleVolumeMinMax_3
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78326" bodyend="78350"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a188d31fc1f69fcdbf60f87253feab904" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a99d7026e15c983e35aff575c0fa68183" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1ae747a13fd780e5c47dbcf3ac2ae955cc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a6d0268c80466e0d7f95dbbd080cadde6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1aeeb391e8697b13d9ebe986b32b2806fd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a3cbd4b36132f7a3e1eb0a47d67dc562a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a651cfbfac5bc4b632c3514f4027ddee7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__3_1a3960e3a47ebe66d5ba4d358ade45bed9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_3</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

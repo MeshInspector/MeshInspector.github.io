@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Line3Mesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Line3Mesh</compoundname>
+    <includes refid="MRMeshIntersect_8h" local="no">MRMeshIntersect.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3</ref>&lt; T &gt;</type>
+        <definition>Line3&lt;T&gt; MR::Line3Mesh&lt; T &gt;::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <qualifiedname>MR::Line3Mesh::line</qualifiedname>
+        <briefdescription>
+<para>in the reference frame of mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Line3Mesh_1aa5ec1978556ce126db464bc744212937" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes</ref>&lt; T &gt; *</type>
+        <definition>IntersectionPrecomputes&lt;T&gt;* MR::Line3Mesh&lt; T &gt;::prec</definition>
+        <argsstring></argsstring>
+        <name>prec</name>
+        <qualifiedname>MR::Line3Mesh::prec</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>set it to a valid pointer for better performance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="87" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a13bcc7a7757286de5b44e0d5157828d2" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
+        <definition>const Mesh* MR::Line3Mesh&lt; T &gt;::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::Line3Mesh::mesh</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>must be set a valid pointer before use </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="88" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a993c546c36a0d4723de3bdaffd1d769e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> *</type>
+        <definition>const AABBTree* MR::Line3Mesh&lt; T &gt;::tree</definition>
+        <argsstring></argsstring>
+        <name>tree</name>
+        <qualifiedname>MR::Line3Mesh::tree</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>must be set a valid pointer before use </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="89" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a2324f26e0f3e5d41d2b5c9ab95f50fca" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet *</type>
+        <definition>const FaceBitSet* MR::Line3Mesh&lt; T &gt;::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::Line3Mesh::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>may remain nullptr, meaning all mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR::AABBTree</label>
+        <link refid="classMR_1_1AABBTree"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</label>
+        <link refid="classMR_1_1AABBTreeBase"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>nodes_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::Line3Mesh&lt; T &gt;</label>
+        <link refid="structMR_1_1Line3Mesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>line</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>tree</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Line&lt; T &gt;</label>
+        <link refid="structMR_1_1Line"/>
+      </node>
+      <node id="3">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="7">
+        <label>MR::Vector&lt; Node, NodeId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="85" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>line</name></member>
+      <member refid="structMR_1_1Line3Mesh_1a13bcc7a7757286de5b44e0d5157828d2" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>mesh</name></member>
+      <member refid="structMR_1_1Line3Mesh_1aa5ec1978556ce126db464bc744212937" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>prec</name></member>
+      <member refid="structMR_1_1Line3Mesh_1a2324f26e0f3e5d41d2b5c9ab95f50fca" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>region</name></member>
+      <member refid="structMR_1_1Line3Mesh_1a993c546c36a0d4723de3bdaffd1d769e" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>tree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

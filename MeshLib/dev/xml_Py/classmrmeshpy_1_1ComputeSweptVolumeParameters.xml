@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ComputeSweptVolumeParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ComputeSweptVolumeParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a89ded3e2617c648601947f3ee454a837" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSweptVolumeParameters::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters._offsetof_cb</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a81e274bdbf1b0efa4bbec3eae56f8d0d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSweptVolumeParameters::_offsetof_memoryLimit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_memoryLimit</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters._offsetof_memoryLimit</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1ac9fa00c2d63ca7815fad09338d22b2a9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSweptVolumeParameters::_offsetof_path</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_path</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters._offsetof_path</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a5631a41bbf4c87cfb668b61add4b047d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSweptVolumeParameters::_offsetof_toolMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toolMesh</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters._offsetof_toolMesh</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a5b0b1deee8821c467868c4154a238d15" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSweptVolumeParameters::_offsetof_toolSpec</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toolSpec</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters._offsetof_toolSpec</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1af4c6986bad5a547afac4910342cfede6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSweptVolumeParameters::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters._offsetof_voxelSize</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a3e188a2b8b81d0288c530d240fc9e2f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10116" bodyend="10117"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a31c4358da40f008a38efa95d3ec84de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.__init__</definition>
+        <argsstring>(self, ComputeSweptVolumeParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10119" bodyend="10122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a00e15194effa2d3668650dc6bb3e2df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.__init__</definition>
+        <argsstring>(self, Polyline3 path, MeshPart toolMesh, EndMillTool toolSpec, float voxelSize, int memoryLimit, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>toolMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+          <declname>toolSpec</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>memoryLimit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10124" bodyend="10127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1acc33fb2729640b672274243aacdb98c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.ComputeSweptVolumeParameters.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10129" bodyend="10132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a7a3444a1040395300adcad69ce45eb3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10134" bodyend="10135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1aab2bdaa7f6a2a843a4a9f938e30c6e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ComputeSweptVolumeParameters.memoryLimit</definition>
+        <argsstring>(self)</argsstring>
+        <name>memoryLimit</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.memoryLimit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(distance volume) max memory amount used for the distance volume, zero for no limits
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10137" bodyend="10140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1aa138a49a10f352caa50dba066fa3ce7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.memoryLimit</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>memoryLimit</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.memoryLimit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10142" bodyend="10143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1aa06442488e9925ca0bdb9a83c43d8650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.ComputeSweptVolumeParameters.path</definition>
+        <argsstring>(self)</argsstring>
+        <name>path</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.path</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>toolpath
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10145" bodyend="10148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a54dd26850ef2b1e5dea30ebaf0109314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+        <definition> MeshPart mrmeshpy.ComputeSweptVolumeParameters.toolMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>toolMesh</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.toolMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tool mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10150" bodyend="10153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1ad394ad2428def7c0e1a9b4103ef12d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.toolMesh</definition>
+        <argsstring>(self, MeshPart arg1)</argsstring>
+        <name>toolMesh</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.toolMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10155" bodyend="10156"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a1c712740e51ae96b7ee16005b8c05ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+        <definition> EndMillTool mrmeshpy.ComputeSweptVolumeParameters.toolSpec</definition>
+        <argsstring>(self)</argsstring>
+        <name>toolSpec</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.toolSpec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tool specifications, can be used for more precise computations
+the tool spec and the tool mesh are expected to relate to the same tool
+if omitted, tool mesh is used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10158" bodyend="10163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1adf6cb6cd911bc61e8a5a828eadf34a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.toolSpec</definition>
+        <argsstring>(self, EndMillTool arg1)</argsstring>
+        <name>toolSpec</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.toolSpec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10165" bodyend="10166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1adc9a1eb13014619e83db3f1d8a12dc65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ComputeSweptVolumeParameters.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>voxel size for internal voxel volumes
+TODO: replace with tolerance and make the voxel size implementation-specific
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10168" bodyend="10172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSweptVolumeParameters_1ae5bff24dd2abd5fe4607e76e947950e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSweptVolumeParameters.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.ComputeSweptVolumeParameters.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10174" bodyend="10175"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ComputeSweptVolumeParameters
+
+Parameters for computeSweptVolume* functions
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ComputeSweptVolumeParameters</label>
+        <link refid="classmrmeshpy_1_1ComputeSweptVolumeParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_memoryLimit</edgelabel>
+          <edgelabel>_offsetof_path</edgelabel>
+          <edgelabel>_offsetof_toolMesh</edgelabel>
+          <edgelabel>_offsetof_toolSpec</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10102" bodyend="10175"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a3e188a2b8b81d0288c530d240fc9e2f7" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a31c4358da40f008a38efa95d3ec84de3" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a00e15194effa2d3668650dc6bb3e2df0" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a89ded3e2617c648601947f3ee454a837" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a81e274bdbf1b0efa4bbec3eae56f8d0d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>_offsetof_memoryLimit</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1ac9fa00c2d63ca7815fad09338d22b2a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>_offsetof_path</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a5631a41bbf4c87cfb668b61add4b047d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>_offsetof_toolMesh</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a5b0b1deee8821c467868c4154a238d15" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>_offsetof_toolSpec</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1af4c6986bad5a547afac4910342cfede6" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1acc33fb2729640b672274243aacdb98c3" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a7a3444a1040395300adcad69ce45eb3c" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1aab2bdaa7f6a2a843a4a9f938e30c6e05" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1aa138a49a10f352caa50dba066fa3ce7f" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1aa06442488e9925ca0bdb9a83c43d8650" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>path</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a54dd26850ef2b1e5dea30ebaf0109314" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>toolMesh</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1ad394ad2428def7c0e1a9b4103ef12d5e" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>toolMesh</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a1c712740e51ae96b7ee16005b8c05ce4" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>toolSpec</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1adf6cb6cd911bc61e8a5a828eadf34a37" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>toolSpec</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1adc9a1eb13014619e83db3f1d8a12dc65" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1ae5bff24dd2abd5fe4607e76e947950e7" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

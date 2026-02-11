@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IRenderObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IRenderObject</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1ad84439b139b52334ca1cf83d12997026" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IRenderObject" kindref="compound">IRenderObject</ref></type>
+        <definition> IRenderObject mrmeshpy.IRenderObject.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IRenderObject.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23672" bodyend="23673"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1ae43a262e9866f86ded71a23b8e097ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IRenderObject.forceBindAll</definition>
+        <argsstring>(self)</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>mrmeshpy.IRenderObject.forceBindAll</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>binds all data for this render object, not to bind ever again (until object becomes dirty)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23674" bodyend="23677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1aca30738714bd1f43d6116899221d018a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.IRenderObject.glBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>mrmeshpy.IRenderObject.glBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object allocated in OpenGL
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23678" bodyend="23681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1ab153ad40338c8732fc40d439f31a2fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.IRenderObject.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.IRenderObject.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23682" bodyend="23685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1ae60291fffa2408ee74b35bd2fed48921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.IRenderObject.render</definition>
+        <argsstring>(self, ModelRenderParams params)</argsstring>
+        <name>render</name>
+        <qualifiedname>mrmeshpy.IRenderObject.render</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if something was rendered, or false if nothing to render.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23686" bodyend="23689"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1a5402922398fb1b28d1c687cedec8dd0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IRenderObject.renderPicker</definition>
+        <argsstring>(self, ModelBaseRenderParams params, int geomId)</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>mrmeshpy.IRenderObject.renderPicker</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23690" bodyend="23691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IRenderObject_1a6b4078888ac54d2565abe69ce2d4bb74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IRenderObject.renderUi</definition>
+        <argsstring>(self, UiRenderParams params)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>mrmeshpy.IRenderObject.renderUi</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UiRenderParams" kindref="compound">UiRenderParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Render the UI. This is repeated for each viewport.
+Here you can either render immediately, or insert a task into `params.tasks`, which get Z-sorted.
+* `params` will remain alive as long as the tasks are used.
+* You&apos;ll have at most one living task at a time, so you can write a non-owning pointer to an internal task.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23692" bodyend="23698"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IRenderObject
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23667" bodyend="23698"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IRenderObject_1ae43a262e9866f86ded71a23b8e097ffb" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>forceBindAll</name></member>
+      <member refid="classmrmeshpy_1_1IRenderObject_1aca30738714bd1f43d6116899221d018a" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>glBytes</name></member>
+      <member refid="classmrmeshpy_1_1IRenderObject_1ab153ad40338c8732fc40d439f31a2fa5" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1IRenderObject_1ad84439b139b52334ca1cf83d12997026" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1IRenderObject_1ae60291fffa2408ee74b35bd2fed48921" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1IRenderObject_1a5402922398fb1b28d1c687cedec8dd0f" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>renderPicker</name></member>
+      <member refid="classmrmeshpy_1_1IRenderObject_1a6b4078888ac54d2565abe69ce2d4bb74" prot="public" virt="non-virtual"><scope>mrmeshpy::IRenderObject</scope><name>renderUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

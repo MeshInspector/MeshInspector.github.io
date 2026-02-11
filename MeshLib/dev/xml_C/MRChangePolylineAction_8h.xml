@@ -1,0 +1,1470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRChangePolylineAction_8h" kind="file" language="C++">
+    <compoundname>MRChangePolylineAction.h</compoundname>
+    <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRChangePolylineAction.h</label>
+        <link refid="MRChangePolylineAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
+        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
+        <argsstring></argsstring>
+        <name>MR_HistoryAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="14" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
+        <type>struct MR_Vector3f</type>
+        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" prot="public" static="no">
+        <type>struct <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_ObjectLines MR_std_shared_ptr_MR_ObjectLines</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="16" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" prot="public" static="no">
+        <type>struct <ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_Polyline3 MR_std_shared_ptr_MR_Polyline3</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_Polyline3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="17" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" prot="public" static="no">
+        <type>struct <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref></type>
+        <definition>typedef struct MR_ChangePolylineAction MR_ChangePolylineAction</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangePolylineAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Undo action for ObjectLines polyline change Generated from class <computeroutput>MR::ChangePolylineAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="27" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" prot="public" static="no">
+        <type>struct <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref></type>
+        <definition>typedef struct MR_ChangePolylinePointsAction MR_ChangePolylinePointsAction</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangePolylinePointsAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Undo action for ObjectLines points only (not topology) change Generated from class <computeroutput>MR::ChangePolylinePointsAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="35" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" prot="public" static="no">
+        <type>struct <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref></type>
+        <definition>typedef struct MR_ChangePolylineTopologyAction MR_ChangePolylineTopologyAction</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangePolylineTopologyAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Undo action for ObjectLines topology only (not points) change Generated from class <computeroutput>MR::ChangePolylineTopologyAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="43" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" prot="public" static="no">
+        <type>struct <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref></type>
+        <definition>typedef struct MR_ChangeOnePointInPolylineAction MR_ChangeOnePointInPolylineAction</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangeOnePointInPolylineAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Undo action that modifies one point&apos;s coordinates inside ObjectPolyline Generated from class <computeroutput>MR::ChangeOnePointInPolylineAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="51" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a3135651221bd7b708d63c08ae04445d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineAction * MR_ChangePolylineAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangePolylineAction *_other)</argsstring>
+        <name>MR_ChangePolylineAction_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangePolylineAction::ChangePolylineAction</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a398337c81dbfc858c566fafdf7be7d22" kindref="member">MR_ChangePolylineAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="56" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="56" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1afec0ca57702f7e25550ff0254fccb327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+        <definition>MRC_API const MR_ChangePolylineAction * MR_ChangePolylineAction_OffsetPtr</definition>
+        <argsstring>(const MR_ChangePolylineAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangePolylineAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="60" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="60" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a752de24f0cfc5a939fd60df2da3e6213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineAction * MR_ChangePolylineAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangePolylineAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangePolylineAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="64" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="64" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a011f5d0556d521d5e3e3b20d68a3cc76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangePolylineAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangePolylineAction *object)</argsstring>
+        <name>MR_ChangePolylineAction_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangePolylineAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="68" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="68" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ab7ecb4da2fef3356b3f8e9d310fe4239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangePolylineAction_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangePolylineAction *object)</argsstring>
+        <name>MR_ChangePolylineAction_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangePolylineAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="71" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="71" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ac763463759877adbd0ae1e4f431e15e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineAction * MR_ChangePolylineAction_Construct_2</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangePolylineAction_Construct_2</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s polyline before making any changes in it Generated from constructor <computeroutput>MR::ChangePolylineAction::ChangePolylineAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a398337c81dbfc858c566fafdf7be7d22" kindref="member">MR_ChangePolylineAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="81" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="81" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ad8df94071964158960ab761b6053bf4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineAction * MR_ChangePolylineAction_Construct_3</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectLines *obj, MR_PassBy newPolyline_pass_by, MR_std_shared_ptr_MR_Polyline3 *newPolyline)</argsstring>
+        <name>MR_ChangePolylineAction_Construct_3</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>newPolyline_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref> *</type>
+          <declname>newPolyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s polyline and immediately set new polyline Generated from constructor <computeroutput>MR::ChangePolylineAction::ChangePolylineAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newPolyline</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a398337c81dbfc858c566fafdf7be7d22" kindref="member">MR_ChangePolylineAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="92" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="92" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a398337c81dbfc858c566fafdf7be7d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineAction_Destroy</definition>
+        <argsstring>(const MR_ChangePolylineAction *_this)</argsstring>
+        <name>MR_ChangePolylineAction_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangePolylineAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1add7668980fe3c2e77fdb9062419609b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineAction_DestroyArray</definition>
+        <argsstring>(const MR_ChangePolylineAction *_this)</argsstring>
+        <name>MR_ChangePolylineAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangePolylineAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aaa11fbff7353f7368aaf0ee2df9962f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineAction * MR_ChangePolylineAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangePolylineAction *_this, MR_PassBy _other_pass_by, MR_ChangePolylineAction *_other)</argsstring>
+        <name>MR_ChangePolylineAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="105" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="105" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a5f184274a804c83420f655c4654e1845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangePolylineAction_name</definition>
+        <argsstring>(const MR_ChangePolylineAction *_this)</argsstring>
+        <name>MR_ChangePolylineAction_name</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="110" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="110" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a4f7c2778c1acdc77e4196f6b9e6d5520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineAction_action</definition>
+        <argsstring>(MR_ChangePolylineAction *_this, MR_HistoryAction_Type _1)</argsstring>
+        <name>MR_ChangePolylineAction_action</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineAction::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a4db4cd9a1a1c7897294dfae2368c4b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineAction_setObjectDirty</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangePolylineAction_setObjectDirty</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineAction::setObjectDirty</computeroutput>. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aa556b1d3f7dcafe2492af2aeccbdf628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangePolylineAction_heapBytes</definition>
+        <argsstring>(const MR_ChangePolylineAction *_this)</argsstring>
+        <name>MR_ChangePolylineAction_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineAction::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="122" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="122" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a87b6dc5a04c0e8b5607e3fa720c9274c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylinePointsAction * MR_ChangePolylinePointsAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangePolylinePointsAction *_other)</argsstring>
+        <name>MR_ChangePolylinePointsAction_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangePolylinePointsAction::ChangePolylinePointsAction</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a11666079df5f7cf10ef00329cb31f428" kindref="member">MR_ChangePolylinePointsAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="127" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="127" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a4196753fc1889a4167819c77f271eba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+        <definition>MRC_API const MR_ChangePolylinePointsAction * MR_ChangePolylinePointsAction_OffsetPtr</definition>
+        <argsstring>(const MR_ChangePolylinePointsAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangePolylinePointsAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="131" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="131" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aa8eaa63e35e35526101378384ad06db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylinePointsAction * MR_ChangePolylinePointsAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangePolylinePointsAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangePolylinePointsAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="135" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="135" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a0f10d1a592b25daf268e4cc225bd1979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangePolylinePointsAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangePolylinePointsAction *object)</argsstring>
+        <name>MR_ChangePolylinePointsAction_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangePolylinePointsAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="139" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="139" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a9dead355a614de8016dd1b2d207d4f55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangePolylinePointsAction_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangePolylinePointsAction *object)</argsstring>
+        <name>MR_ChangePolylinePointsAction_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangePolylinePointsAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="142" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="142" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a60bfaa7f74af366864cb162addc3df63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylinePointsAction * MR_ChangePolylinePointsAction_Construct</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangePolylinePointsAction_Construct</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s lines points before making any changes in it Generated from constructor <computeroutput>MR::ChangePolylinePointsAction::ChangePolylinePointsAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a11666079df5f7cf10ef00329cb31f428" kindref="member">MR_ChangePolylinePointsAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="152" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="152" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a11666079df5f7cf10ef00329cb31f428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylinePointsAction_Destroy</definition>
+        <argsstring>(const MR_ChangePolylinePointsAction *_this)</argsstring>
+        <name>MR_ChangePolylinePointsAction_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangePolylinePointsAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="155" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a337aa2653cf6a02634083884170c3cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylinePointsAction_DestroyArray</definition>
+        <argsstring>(const MR_ChangePolylinePointsAction *_this)</argsstring>
+        <name>MR_ChangePolylinePointsAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangePolylinePointsAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a3f4de7dbe18e8147b6d0ce2931d58d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylinePointsAction * MR_ChangePolylinePointsAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangePolylinePointsAction *_this, MR_PassBy _other_pass_by, MR_ChangePolylinePointsAction *_other)</argsstring>
+        <name>MR_ChangePolylinePointsAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylinePointsAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="165" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="165" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aaadef426230ef1bf4f9a9bfc0cbef872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangePolylinePointsAction_name</definition>
+        <argsstring>(const MR_ChangePolylinePointsAction *_this)</argsstring>
+        <name>MR_ChangePolylinePointsAction_name</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylinePointsAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="170" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="170" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a5dcc03126521f22f29929d42dba67420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylinePointsAction_action</definition>
+        <argsstring>(MR_ChangePolylinePointsAction *_this, MR_HistoryAction_Type _1)</argsstring>
+        <name>MR_ChangePolylinePointsAction_action</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylinePointsAction::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="174" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1af66c7f820a72fd18f61c7d431598017f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylinePointsAction_setObjectDirty</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangePolylinePointsAction_setObjectDirty</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylinePointsAction::setObjectDirty</computeroutput>. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aaa29e3bb21b20932cc92914f33a814af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangePolylinePointsAction_heapBytes</definition>
+        <argsstring>(const MR_ChangePolylinePointsAction *_this)</argsstring>
+        <name>MR_ChangePolylinePointsAction_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylinePointsAction::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="182" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="182" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ad650e3cc1606f1721fe978856c35837b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineTopologyAction * MR_ChangePolylineTopologyAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangePolylineTopologyAction *_other)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangePolylineTopologyAction::ChangePolylineTopologyAction</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a645292ddc39a768c90b4d891226043dc" kindref="member">MR_ChangePolylineTopologyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="187" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="187" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a9363a25db253e1f0e469534034075399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+        <definition>MRC_API const MR_ChangePolylineTopologyAction * MR_ChangePolylineTopologyAction_OffsetPtr</definition>
+        <argsstring>(const MR_ChangePolylineTopologyAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="191" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="191" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ac99d42d148b603d607b75e41ac34eda2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineTopologyAction * MR_ChangePolylineTopologyAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangePolylineTopologyAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="195" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="195" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a8a520b95aa01a5ef60f8e2ee96066aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangePolylineTopologyAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangePolylineTopologyAction *object)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangePolylineTopologyAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="199" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="199" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a5ea955edec9bde6f044c8e9102d4b0e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangePolylineTopologyAction_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangePolylineTopologyAction *object)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangePolylineTopologyAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="202" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="202" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a47138b6f1e542e4ad75b732bfd872981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineTopologyAction * MR_ChangePolylineTopologyAction_Construct</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_Construct</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s lines points before making any changes in it Generated from constructor <computeroutput>MR::ChangePolylineTopologyAction::ChangePolylineTopologyAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1a645292ddc39a768c90b4d891226043dc" kindref="member">MR_ChangePolylineTopologyAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="212" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="212" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a645292ddc39a768c90b4d891226043dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineTopologyAction_Destroy</definition>
+        <argsstring>(const MR_ChangePolylineTopologyAction *_this)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangePolylineTopologyAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1afe656c92dc7d91a47c12d72efc4096e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineTopologyAction_DestroyArray</definition>
+        <argsstring>(const MR_ChangePolylineTopologyAction *_this)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangePolylineTopologyAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="218" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aca6f172a8671d49e70a29b4cd011569e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+        <definition>MRC_API MR_ChangePolylineTopologyAction * MR_ChangePolylineTopologyAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangePolylineTopologyAction *_this, MR_PassBy _other_pass_by, MR_ChangePolylineTopologyAction *_other)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineTopologyAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="225" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="225" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a6be2dc0a9d6279cdaab9633585c8c2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangePolylineTopologyAction_name</definition>
+        <argsstring>(const MR_ChangePolylineTopologyAction *_this)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_name</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineTopologyAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="230" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="230" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a3ee450fc7fac9c2a753a46b12060bf03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineTopologyAction_action</definition>
+        <argsstring>(MR_ChangePolylineTopologyAction *_this, MR_HistoryAction_Type _1)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_action</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineTopologyAction::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="234" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a01d56653ad3dee4bdd56f9f5a0b1af59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangePolylineTopologyAction_setObjectDirty</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_setObjectDirty</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineTopologyAction::setObjectDirty</computeroutput>. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="238" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ad491e35f24d77ab37a82ef1460e2ea43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangePolylineTopologyAction_heapBytes</definition>
+        <argsstring>(const MR_ChangePolylineTopologyAction *_this)</argsstring>
+        <name>MR_ChangePolylineTopologyAction_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineTopologyAction::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="242" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="242" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1afab0f3038112a51562e68402132308b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOnePointInPolylineAction * MR_ChangeOnePointInPolylineAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangeOnePointInPolylineAction *_other)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1ac46a46469ec9f7079be8aae948fe67ff" kindref="member">MR_ChangeOnePointInPolylineAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="247" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="247" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a2c8aacdd18239ee12df4a5ff7fff9fa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeOnePointInPolylineAction * MR_ChangeOnePointInPolylineAction_OffsetPtr</definition>
+        <argsstring>(const MR_ChangeOnePointInPolylineAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="251" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="251" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a0fefacb256dbaba58ac7f4d13c1b3037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOnePointInPolylineAction * MR_ChangeOnePointInPolylineAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangeOnePointInPolylineAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="255" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="255" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangeOnePointInPolylineAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangeOnePointInPolylineAction *object)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeOnePointInPolylineAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="259" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="259" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a97010deed843396d3f5962f83718b780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangeOnePointInPolylineAction_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangeOnePointInPolylineAction *object)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeOnePointInPolylineAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="262" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="262" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a1f2afc42ccbe36d436cca914073d0f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOnePointInPolylineAction * MR_ChangeOnePointInPolylineAction_Construct_3</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectLines *obj, MR_VertId pointId)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_Construct_3</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember point&apos;s coordinates before making any changes in it Generated from constructor <computeroutput>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pointId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1ac46a46469ec9f7079be8aae948fe67ff" kindref="member">MR_ChangeOnePointInPolylineAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="273" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="273" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a907f373f8fe6547dc86c1be91b80b542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOnePointInPolylineAction * MR_ChangeOnePointInPolylineAction_Construct_4</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectLines *obj, MR_VertId pointId, const MR_Vector3f *newCoords)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_Construct_4</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>newCoords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember point&apos;s coordinates and immediate set new coordinates Generated from constructor <computeroutput>MR::ChangeOnePointInPolylineAction::ChangeOnePointInPolylineAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pointId</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>newCoords</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>newCoords</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangePolylineAction_8h_1ac46a46469ec9f7079be8aae948fe67ff" kindref="member">MR_ChangeOnePointInPolylineAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="286" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="286" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ac46a46469ec9f7079be8aae948fe67ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeOnePointInPolylineAction_Destroy</definition>
+        <argsstring>(const MR_ChangeOnePointInPolylineAction *_this)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeOnePointInPolylineAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1aa4f96041200fcaec4960003b4eada251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeOnePointInPolylineAction_DestroyArray</definition>
+        <argsstring>(const MR_ChangeOnePointInPolylineAction *_this)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeOnePointInPolylineAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a69051d102b7be472613d0a7cc2a84f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOnePointInPolylineAction * MR_ChangeOnePointInPolylineAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangeOnePointInPolylineAction *_this, MR_PassBy _other_pass_by, MR_ChangeOnePointInPolylineAction *_other)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeOnePointInPolylineAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="299" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="299" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a2154d64858ac6fc56dce43ab2fad31d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangeOnePointInPolylineAction_name</definition>
+        <argsstring>(const MR_ChangeOnePointInPolylineAction *_this)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_name</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeOnePointInPolylineAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="304" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="304" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ac4ad0a0b5b5edbde8c6a025be818d0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeOnePointInPolylineAction_action</definition>
+        <argsstring>(MR_ChangeOnePointInPolylineAction *_this, MR_HistoryAction_Type _1)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_action</name>
+        <param>
+          <type><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeOnePointInPolylineAction::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="308" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="308" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1ac547073e7466063667a6cde3b5232957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeOnePointInPolylineAction_setObjectDirty</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLines *obj)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_setObjectDirty</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeOnePointInPolylineAction::setObjectDirty</computeroutput>. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="312" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePolylineAction_8h_1a71260c5fd2bdbcdca56508dac0e388aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangeOnePointInPolylineAction_heapBytes</definition>
+        <argsstring>(const MR_ChangeOnePointInPolylineAction *_this)</argsstring>
+        <name>MR_ChangeOnePointInPolylineAction_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeOnePointInPolylineAction::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" line="316" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h" declline="316" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRChangePolylineAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRChangePolylineAction_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectLines.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref><sp/><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Polyline3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRChangePolylineAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRChangePolylineAction_8h_1a3135651221bd7b708d63c08ae04445d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a3135651221bd7b708d63c08ae04445d6" kindref="member">MR_ChangePolylineAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRChangePolylineAction_8h_1afec0ca57702f7e25550ff0254fccb327" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1afec0ca57702f7e25550ff0254fccb327" kindref="member">MR_ChangePolylineAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRChangePolylineAction_8h_1a752de24f0cfc5a939fd60df2da3e6213" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a752de24f0cfc5a939fd60df2da3e6213" kindref="member">MR_ChangePolylineAction_OffsetMutablePtr</ref>(<ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRChangePolylineAction_8h_1a011f5d0556d521d5e3e3b20d68a3cc76" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a011f5d0556d521d5e3e3b20d68a3cc76" kindref="member">MR_ChangePolylineAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRChangePolylineAction_8h_1ab7ecb4da2fef3356b3f8e9d310fe4239" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1ab7ecb4da2fef3356b3f8e9d310fe4239" kindref="member">MR_ChangePolylineAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRChangePolylineAction_8h_1ac763463759877adbd0ae1e4f431e15e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1ac763463759877adbd0ae1e4f431e15e7" kindref="member">MR_ChangePolylineAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRChangePolylineAction_8h_1ad8df94071964158960ab761b6053bf4f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1ad8df94071964158960ab761b6053bf4f" kindref="member">MR_ChangePolylineAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj,<sp/>MR_PassBy<sp/>newPolyline_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref><sp/>*newPolyline);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRChangePolylineAction_8h_1a398337c81dbfc858c566fafdf7be7d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a398337c81dbfc858c566fafdf7be7d22" kindref="member">MR_ChangePolylineAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRChangePolylineAction_8h_1add7668980fe3c2e77fdb9062419609b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1add7668980fe3c2e77fdb9062419609b7" kindref="member">MR_ChangePolylineAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRChangePolylineAction_8h_1aaa11fbff7353f7368aaf0ee2df9962f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1aaa11fbff7353f7368aaf0ee2df9962f1" kindref="member">MR_ChangePolylineAction_AssignFromAnother</ref>(<ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRChangePolylineAction_8h_1a5f184274a804c83420f655c4654e1845" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a5f184274a804c83420f655c4654e1845" kindref="member">MR_ChangePolylineAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRChangePolylineAction_8h_1a4f7c2778c1acdc77e4196f6b9e6d5520" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4f7c2778c1acdc77e4196f6b9e6d5520" kindref="member">MR_ChangePolylineAction_action</ref>(<ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRChangePolylineAction_8h_1a4db4cd9a1a1c7897294dfae2368c4b1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4db4cd9a1a1c7897294dfae2368c4b1e" kindref="member">MR_ChangePolylineAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRChangePolylineAction_8h_1aa556b1d3f7dcafe2492af2aeccbdf628" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePolylineAction_8h_1aa556b1d3f7dcafe2492af2aeccbdf628" kindref="member">MR_ChangePolylineAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="MRChangePolylineAction_8h_1a87b6dc5a04c0e8b5607e3fa720c9274c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a87b6dc5a04c0e8b5607e3fa720c9274c" kindref="member">MR_ChangePolylinePointsAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRChangePolylineAction_8h_1a4196753fc1889a4167819c77f271eba2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a4196753fc1889a4167819c77f271eba2" kindref="member">MR_ChangePolylinePointsAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRChangePolylineAction_8h_1aa8eaa63e35e35526101378384ad06db7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1aa8eaa63e35e35526101378384ad06db7" kindref="member">MR_ChangePolylinePointsAction_OffsetMutablePtr</ref>(<ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRChangePolylineAction_8h_1a0f10d1a592b25daf268e4cc225bd1979" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a0f10d1a592b25daf268e4cc225bd1979" kindref="member">MR_ChangePolylinePointsAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRChangePolylineAction_8h_1a9dead355a614de8016dd1b2d207d4f55" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a9dead355a614de8016dd1b2d207d4f55" kindref="member">MR_ChangePolylinePointsAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRChangePolylineAction_8h_1a60bfaa7f74af366864cb162addc3df63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a60bfaa7f74af366864cb162addc3df63" kindref="member">MR_ChangePolylinePointsAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRChangePolylineAction_8h_1a11666079df5f7cf10ef00329cb31f428" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a11666079df5f7cf10ef00329cb31f428" kindref="member">MR_ChangePolylinePointsAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRChangePolylineAction_8h_1a337aa2653cf6a02634083884170c3cdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a337aa2653cf6a02634083884170c3cdc" kindref="member">MR_ChangePolylinePointsAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRChangePolylineAction_8h_1a3f4de7dbe18e8147b6d0ce2931d58d54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a3f4de7dbe18e8147b6d0ce2931d58d54" kindref="member">MR_ChangePolylinePointsAction_AssignFromAnother</ref>(<ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRChangePolylineAction_8h_1aaadef426230ef1bf4f9a9bfc0cbef872" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1aaadef426230ef1bf4f9a9bfc0cbef872" kindref="member">MR_ChangePolylinePointsAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRChangePolylineAction_8h_1a5dcc03126521f22f29929d42dba67420" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a5dcc03126521f22f29929d42dba67420" kindref="member">MR_ChangePolylinePointsAction_action</ref>(<ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRChangePolylineAction_8h_1af66c7f820a72fd18f61c7d431598017f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1af66c7f820a72fd18f61c7d431598017f" kindref="member">MR_ChangePolylinePointsAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRChangePolylineAction_8h_1aaa29e3bb21b20932cc92914f33a814af" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePolylineAction_8h_1aaa29e3bb21b20932cc92914f33a814af" kindref="member">MR_ChangePolylinePointsAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRChangePolylineAction_8h_1ad650e3cc1606f1721fe978856c35837b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1ad650e3cc1606f1721fe978856c35837b" kindref="member">MR_ChangePolylineTopologyAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRChangePolylineAction_8h_1a9363a25db253e1f0e469534034075399" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a9363a25db253e1f0e469534034075399" kindref="member">MR_ChangePolylineTopologyAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRChangePolylineAction_8h_1ac99d42d148b603d607b75e41ac34eda2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1ac99d42d148b603d607b75e41ac34eda2" kindref="member">MR_ChangePolylineTopologyAction_OffsetMutablePtr</ref>(<ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRChangePolylineAction_8h_1a8a520b95aa01a5ef60f8e2ee96066aa8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a8a520b95aa01a5ef60f8e2ee96066aa8" kindref="member">MR_ChangePolylineTopologyAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRChangePolylineAction_8h_1a5ea955edec9bde6f044c8e9102d4b0e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a5ea955edec9bde6f044c8e9102d4b0e2" kindref="member">MR_ChangePolylineTopologyAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRChangePolylineAction_8h_1a47138b6f1e542e4ad75b732bfd872981" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a47138b6f1e542e4ad75b732bfd872981" kindref="member">MR_ChangePolylineTopologyAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRChangePolylineAction_8h_1a645292ddc39a768c90b4d891226043dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a645292ddc39a768c90b4d891226043dc" kindref="member">MR_ChangePolylineTopologyAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRChangePolylineAction_8h_1afe656c92dc7d91a47c12d72efc4096e3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1afe656c92dc7d91a47c12d72efc4096e3" kindref="member">MR_ChangePolylineTopologyAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRChangePolylineAction_8h_1aca6f172a8671d49e70a29b4cd011569e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1aca6f172a8671d49e70a29b4cd011569e" kindref="member">MR_ChangePolylineTopologyAction_AssignFromAnother</ref>(<ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRChangePolylineAction_8h_1a6be2dc0a9d6279cdaab9633585c8c2bf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a6be2dc0a9d6279cdaab9633585c8c2bf" kindref="member">MR_ChangePolylineTopologyAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRChangePolylineAction_8h_1a3ee450fc7fac9c2a753a46b12060bf03" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a3ee450fc7fac9c2a753a46b12060bf03" kindref="member">MR_ChangePolylineTopologyAction_action</ref>(<ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRChangePolylineAction_8h_1a01d56653ad3dee4bdd56f9f5a0b1af59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a01d56653ad3dee4bdd56f9f5a0b1af59" kindref="member">MR_ChangePolylineTopologyAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRChangePolylineAction_8h_1ad491e35f24d77ab37a82ef1460e2ea43" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePolylineAction_8h_1ad491e35f24d77ab37a82ef1460e2ea43" kindref="member">MR_ChangePolylineTopologyAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRChangePolylineAction_8h_1afab0f3038112a51562e68402132308b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1afab0f3038112a51562e68402132308b5" kindref="member">MR_ChangeOnePointInPolylineAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRChangePolylineAction_8h_1a2c8aacdd18239ee12df4a5ff7fff9fa6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a2c8aacdd18239ee12df4a5ff7fff9fa6" kindref="member">MR_ChangeOnePointInPolylineAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRChangePolylineAction_8h_1a0fefacb256dbaba58ac7f4d13c1b3037" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a0fefacb256dbaba58ac7f4d13c1b3037" kindref="member">MR_ChangeOnePointInPolylineAction_OffsetMutablePtr</ref>(<ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="MRChangePolylineAction_8h_1ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3" kindref="member">MR_ChangeOnePointInPolylineAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRChangePolylineAction_8h_1a97010deed843396d3f5962f83718b780" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a97010deed843396d3f5962f83718b780" kindref="member">MR_ChangeOnePointInPolylineAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRChangePolylineAction_8h_1a1f2afc42ccbe36d436cca914073d0f74" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a1f2afc42ccbe36d436cca914073d0f74" kindref="member">MR_ChangeOnePointInPolylineAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pointId);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="MRChangePolylineAction_8h_1a907f373f8fe6547dc86c1be91b80b542" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a907f373f8fe6547dc86c1be91b80b542" kindref="member">MR_ChangeOnePointInPolylineAction_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pointId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*newCoords);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRChangePolylineAction_8h_1ac46a46469ec9f7079be8aae948fe67ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac46a46469ec9f7079be8aae948fe67ff" kindref="member">MR_ChangeOnePointInPolylineAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRChangePolylineAction_8h_1aa4f96041200fcaec4960003b4eada251" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aa4f96041200fcaec4960003b4eada251" kindref="member">MR_ChangeOnePointInPolylineAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRChangePolylineAction_8h_1a69051d102b7be472613d0a7cc2a84f17" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a69051d102b7be472613d0a7cc2a84f17" kindref="member">MR_ChangeOnePointInPolylineAction_AssignFromAnother</ref>(<ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="MRChangePolylineAction_8h_1a2154d64858ac6fc56dce43ab2fad31d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePolylineAction_8h_1a2154d64858ac6fc56dce43ab2fad31d8" kindref="member">MR_ChangeOnePointInPolylineAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="MRChangePolylineAction_8h_1ac4ad0a0b5b5edbde8c6a025be818d0db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac4ad0a0b5b5edbde8c6a025be818d0db" kindref="member">MR_ChangeOnePointInPolylineAction_action</ref>(<ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRChangePolylineAction_8h_1ac547073e7466063667a6cde3b5232957" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ac547073e7466063667a6cde3b5232957" kindref="member">MR_ChangeOnePointInPolylineAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1ae4c0039308e4be0822d33b37cd0b14c2" kindref="member">MR_std_shared_ptr_MR_ObjectLines</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="MRChangePolylineAction_8h_1a71260c5fd2bdbcdca56508dac0e388aa" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePolylineAction_8h_1a71260c5fd2bdbcdca56508dac0e388aa" kindref="member">MR_ChangeOnePointInPolylineAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePolylineAction.h"/>
+  </compounddef>
+</doxygen>

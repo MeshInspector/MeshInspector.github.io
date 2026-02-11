@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FixMeshDegeneraciesParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FixMeshDegeneraciesParams</compoundname>
+    <includes refid="MRMeshFixer_8h" local="no">MRMeshFixer.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Mode</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::Mode</qualifiedname>
+        <enumvalue id="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554" prot="public">
+          <name>Decimate</name>
+          <briefdescription>
+<para>use decimation only to fix degeneracies </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10" prot="public">
+          <name>Remesh</name>
+          <briefdescription>
+<para>if decimation does not succeed, perform subdivision too </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7" prot="public">
+          <name>RemeshPatch</name>
+          <briefdescription>
+<para>if both decimation and subdivision does not succeed, removes degenerate areas and fills occurred holes </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="62" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="63" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a1288492f43aeb3ebd3709f7eaed006ec" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixMeshDegeneraciesParams::maxDeviation</definition>
+        <argsstring></argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::maxDeviation</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>maximum permitted deviation from the original surface </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="43" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a7fb7943cde7ab98ddfd5ffe1d1f4170e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixMeshDegeneraciesParams::tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::tinyEdgeLength</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="46" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a78bb997d121e9c191fabce84d8f05980" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixMeshDegeneraciesParams::criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::criticalTriAspectRatio</qualifiedname>
+        <initializer>{ 1e4f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a27e58d6d674f40a1d627ba6f034ef140" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixMeshDegeneraciesParams::maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::maxAngleChange</qualifiedname>
+        <initializer>{ PI_F / 3 }</initializer>
+        <briefdescription>
+<para>Permit edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1adbf34724488c4de119231db46448de01" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FixMeshDegeneraciesParams::stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::stabilizer</qualifiedname>
+        <initializer>= 1e-6f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::FixMeshDegeneraciesParams::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>degenerations will be fixed only in given region, it is updated during the operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="60" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" kindref="member">MR::FixMeshDegeneraciesParams::Mode</ref></type>
+        <definition>enum MR::FixMeshDegeneraciesParams::Mode MR::FixMeshDegeneraciesParams::Remesh</definition>
+        <argsstring></argsstring>
+        <name>Remesh</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::Remesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="67" column="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::FixMeshDegeneraciesParams::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="69" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="41" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a78bb997d121e9c191fabce84d8f05980" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a27e58d6d674f40a1d627ba6f034ef140" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxAngleChange</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a1288492f43aeb3ebd3709f7eaed006ec" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Mode</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>region</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Remesh</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1adbf34724488c4de119231db46448de01" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a7fb7943cde7ab98ddfd5ffe1d1f4170e" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>tinyEdgeLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

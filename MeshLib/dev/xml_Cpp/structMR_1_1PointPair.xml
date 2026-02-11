@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointPair" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointPair</compoundname>
+    <basecompoundref refid="structMR_1_1ICPPairData" prot="public" virt="non-virtual">MR::ICPPairData</basecompoundref>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointPair_1a0be978719b10258123e31ffe3413c532" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PointPair::srcVertId</definition>
+        <argsstring></argsstring>
+        <name>srcVertId</name>
+        <qualifiedname>MR::PointPair::srcVertId</qualifiedname>
+        <briefdescription>
+<para>id of the source point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="43" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointPair_1a6e96779ac71de15fae84c9c1dee17cb7" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PointPair::tgtCloseVert</definition>
+        <argsstring></argsstring>
+        <name>tgtCloseVert</name>
+        <qualifiedname>MR::PointPair::tgtCloseVert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for point clouds it is the closest vertex on target, for meshes it is the closest vertex of the triangle with the closest point on target </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="47" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointPair_1a087147661647b219169ee6e63da113fd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PointPair::normalsAngleCos</definition>
+        <argsstring></argsstring>
+        <name>normalsAngleCos</name>
+        <qualifiedname>MR::PointPair::normalsAngleCos</qualifiedname>
+        <initializer>= 1.f</initializer>
+        <briefdescription>
+<para>cosine between normals in source and target points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointPair_1ae8d7edf5f01746179a2eb12b3e66b1d0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PointPair::tgtOnBd</definition>
+        <argsstring></argsstring>
+        <name>tgtOnBd</name>
+        <qualifiedname>MR::PointPair::tgtOnBd</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>true if if the closest point on target is located on the boundary (only for meshes) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="53" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1PointPair_1a5f761c6549a8d74c43a943993e9f7426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const PointPair &amp;, const PointPair &amp;)=default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::PointPair::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="55" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Stores a pair of points: one samples on the source and the closest to it on the target. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ICPPairData</label>
+        <link refid="structMR_1_1ICPPairData"/>
+      </node>
+      <node id="1">
+        <label>MR::PointPair</label>
+        <link refid="structMR_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ICPPairData</label>
+        <link refid="structMR_1_1ICPPairData"/>
+      </node>
+      <node id="1">
+        <label>MR::PointPair</label>
+        <link refid="structMR_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="41" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ICPPairData_1afe05b997a712f074a3053f11dab0a7eb" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>distSq</name></member>
+      <member refid="structMR_1_1PointPair_1a087147661647b219169ee6e63da113fd" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>normalsAngleCos</name></member>
+      <member refid="structMR_1_1PointPair_1a5f761c6549a8d74c43a943993e9f7426" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator==</name></member>
+      <member refid="structMR_1_1ICPPairData_1a26326a83f053dc2e5ea6f564143ac410" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcNorm</name></member>
+      <member refid="structMR_1_1ICPPairData_1af30195d74b2a6994fdfadd8768407c38" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcPoint</name></member>
+      <member refid="structMR_1_1PointPair_1a0be978719b10258123e31ffe3413c532" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcVertId</name></member>
+      <member refid="structMR_1_1PointPair_1a6e96779ac71de15fae84c9c1dee17cb7" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtCloseVert</name></member>
+      <member refid="structMR_1_1ICPPairData_1a7f615835e680ec678113e7e2367e3a09" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtNorm</name></member>
+      <member refid="structMR_1_1PointPair_1ae8d7edf5f01746179a2eb12b3e66b1d0" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtOnBd</name></member>
+      <member refid="structMR_1_1ICPPairData_1a5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtPoint</name></member>
+      <member refid="structMR_1_1ICPPairData_1acade73682f0a4e356ccf90131e1a5fa2" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

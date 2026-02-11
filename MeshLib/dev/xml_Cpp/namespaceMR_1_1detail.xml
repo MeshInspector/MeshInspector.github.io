@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1detail" kind="namespace" language="C++">
+    <compoundname>MR::detail</compoundname>
+    <innerclass refid="classMR_1_1detail_1_1FuncCallHelper" prot="public">MR::detail::FuncCallHelper</innerclass>
+    <innerclass refid="structMR_1_1detail_1_1MakeScopeGuard" prot="public">MR::detail::MakeScopeGuard</innerclass>
+    <innerclass refid="classMR_1_1detail_1_1ScopeGuard" prot="public">MR::detail::ScopeGuard</innerclass>
+    <innernamespace refid="namespaceMR_1_1detail_1_1Units">MR::detail::Units</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a5ed2d537fb1f07972b6ab6d769996ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::vector&lt; std::filesystem::path &gt;</type>
+        <definition>MRVIEWER_API std::vector&lt; std::filesystem::path &gt; MR::detail::runCocoaFileDialog</definition>
+        <argsstring>(const MR::FileDialog::Parameters &amp;params)</argsstring>
+        <name>runCocoaFileDialog</name>
+        <qualifiedname>MR::detail::runCocoaFileDialog</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1FileDialog_1_1Parameters" kindref="compound">MR::FileDialog::Parameters</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Open Cocoa file dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogCocoa.h" line="9" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogCocoa.h" declline="9" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a08361a71057d58d2e2b41f69d156ae65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::detail::isPortalFileDialogSupported</definition>
+        <argsstring>()</argsstring>
+        <name>isPortalFileDialogSupported</name>
+        <qualifiedname>MR::detail::isPortalFileDialogSupported</qualifiedname>
+        <briefdescription>
+<para>Checks if XDG Desktop Portal file dialogs are supported. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogPortal.h" line="11" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogPortal.h" declline="11" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1affb9ed3fb091119b33a12f1cda1f5fbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::vector&lt; std::filesystem::path &gt;</type>
+        <definition>MRVIEWER_API std::vector&lt; std::filesystem::path &gt; MR::detail::runPortalFileDialog</definition>
+        <argsstring>(const MR::FileDialog::Parameters &amp;params)</argsstring>
+        <name>runPortalFileDialog</name>
+        <qualifiedname>MR::detail::runPortalFileDialog</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1FileDialog_1_1Parameters" kindref="compound">MR::FileDialog::Parameters</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Open XDG Desktop Portal file dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogPortal.h" line="14" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogPortal.h" declline="14" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="33" column="1"/>
+  </compounddef>
+</doxygen>

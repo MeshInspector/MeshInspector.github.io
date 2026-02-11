@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TouchEndListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::TouchEndListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1TouchEndListener_1ad4f9cdfb229f3a5fd00c8412b90506ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::TouchEndListener::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(TouchEndListener)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::TouchEndListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TouchEndListener" kindref="compound">TouchEndListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="268" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TouchEndListener_1ab096e89cb190596989aa3ed12f9c0079" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::TouchEndListener::~TouchEndListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TouchEndListener</name>
+        <qualifiedname>MR::TouchEndListener::~TouchEndListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="269" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TouchEndListener_1ad3eb350ad602d0a503d4b488f5adb314" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::TouchEndListener::connect</definition>
+        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::TouchEndListener::connect</qualifiedname>
+        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="270" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structMR_1_1TouchEndListener_1a33e255754fd26beb29b6401dbe1867e2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::TouchEndListener::onTouchEnd_</definition>
+        <argsstring>(int id, int x, int y)=0</argsstring>
+        <name>onTouchEnd_</name>
+        <qualifiedname>MR::TouchEndListener::onTouchEnd_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="272" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchEndListener</label>
+        <link refid="structMR_1_1TouchEndListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchEndListener</label>
+        <link refid="structMR_1_1TouchEndListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="267" bodyend="273"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TouchEndListener_1ad3eb350ad602d0a503d4b488f5adb314" prot="public" virt="virtual"><scope>MR::TouchEndListener</scope><name>connect</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchEndListener</scope><name>connection_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchEndListener</scope><name>disconnect</name></member>
+      <member refid="structMR_1_1TouchEndListener_1ad4f9cdfb229f3a5fd00c8412b90506ef" prot="public" virt="non-virtual"><scope>MR::TouchEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="structMR_1_1TouchEndListener_1a33e255754fd26beb29b6401dbe1867e2" prot="protected" virt="pure-virtual"><scope>MR::TouchEndListener</scope><name>onTouchEnd_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchEndListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchEndListener</scope><name>~IConnectable</name></member>
+      <member refid="structMR_1_1TouchEndListener_1ab096e89cb190596989aa3ed12f9c0079" prot="public" virt="virtual"><scope>MR::TouchEndListener</scope><name>~TouchEndListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

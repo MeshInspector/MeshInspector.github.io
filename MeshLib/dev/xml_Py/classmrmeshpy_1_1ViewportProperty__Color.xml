@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ViewportProperty__Color" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ViewportProperty_Color</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a76e5e9650a6c07ed829d7645f9b3d3e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71537" bodyend="71538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ViewportProperty_Color.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71541" bodyend="71542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ViewportProperty_Color.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71545" bodyend="71546"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae5eaef0cf481ad7fc07a7da76a4cbcb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ViewportProperty_Color.__getitem__</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns direct access to value associated with given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71547" bodyend="71550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a46a3b997c04b42dcc602fb584967b20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71552" bodyend="71553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a984f502d63d48c9c4047cf755905e1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.__init__</definition>
+        <argsstring>(self, Color def_)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71555" bodyend="71556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a643bc71b8eeccb2d5beacc1d8f2e9ba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.__init__</definition>
+        <argsstring>(self, ViewportProperty_Color arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71558" bodyend="71561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a529e45c3f8f4f019dc7ffd794ef95ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.__setitem__</definition>
+        <argsstring>(self, ViewportId arg0, Color arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71562" bodyend="71563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a47efba2c766934ccadf095d1f4733e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ViewportProperty_Color.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71565" bodyend="71568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a47efba2c766934ccadf095d1f4733e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ViewportProperty_Color.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71570" bodyend="71571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a28484d58889b7211de1fcbdca3f328c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ViewportProperty_Color.get</definition>
+        <argsstring>(self, ViewportId id, bool_output isDef=None)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets property value for given viewport: specific if available otherwise default one;
+\\param isDef receives true if this viewport does not have specific value and default one is returned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71573" bodyend="71577"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a1f93016de552edcee7baa2265e2f6bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Color.reset</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for given viewport (or all viewports if !id);
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71579" bodyend="71583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a50749151772ace4fae93cfe70792d261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Color.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for all viewports;
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71585" bodyend="71589"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a46fa7a16dc22cb0ff7f947ac718a9981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.set</definition>
+        <argsstring>(self, Color def_)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71591" bodyend="71594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a11814459aa362b878cd8527a331c994c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Color.set</definition>
+        <argsstring>(self, Color v, ViewportId id)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets specific property value for given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71596" bodyend="71599"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ViewportProperty&lt;MR::Color&gt;
+
+storage of some viewport-dependent property,
+which has some default value for all viewports and special values for some specific viewports
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71528" bodyend="71599"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1ae5eaef0cf481ad7fc07a7da76a4cbcb9" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a76e5e9650a6c07ed829d7645f9b3d3e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a46a3b997c04b42dcc602fb584967b20a" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a984f502d63d48c9c4047cf755905e1a8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a643bc71b8eeccb2d5beacc1d8f2e9ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a529e45c3f8f4f019dc7ffd794ef95ce1" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a47efba2c766934ccadf095d1f4733e96" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a47efba2c766934ccadf095d1f4733e96" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a28484d58889b7211de1fcbdca3f328c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a1f93016de552edcee7baa2265e2f6bf5" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a50749151772ace4fae93cfe70792d261" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a46fa7a16dc22cb0ff7f947ac718a9981" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a11814459aa362b878cd8527a331c994c" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

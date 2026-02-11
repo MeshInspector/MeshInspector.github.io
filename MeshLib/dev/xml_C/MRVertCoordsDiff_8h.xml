@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRVertCoordsDiff_8h" kind="file" language="C++">
+    <compoundname>MRVertCoordsDiff.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRVertCoordsDiff.h</label>
+        <link refid="MRVertCoordsDiff_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRVertCoordsDiff_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" prot="public" static="no">
+        <type>struct <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref></type>
+        <definition>typedef struct MR_VertCoordsDiff MR_VertCoordsDiff</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoordsDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this object stores a difference between two vectors with 3D coordinates</para>
+<para>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself Generated from class <computeroutput>MR::VertCoordsDiff</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="20" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1a09f9d5bd2ec060b11386975a5b79ef01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API MR_VertCoordsDiff * MR_VertCoordsDiff_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_VertCoordsDiff_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVertCoordsDiff_8h_1ae616a7794b9be1b838291447889c3d00" kindref="member">MR_VertCoordsDiff_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="24" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="24" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1ab91549bd09c115b0d6d8fd1074e9c96f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API MR_VertCoordsDiff * MR_VertCoordsDiff_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_VertCoordsDiff_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVertCoordsDiff_8h_1aba64c569839df765c7bb2e3c102d3200" kindref="member">MR_VertCoordsDiff_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVertCoordsDiff_8h_1a6ca56795006b6f669cdfbdf9c82758a4" kindref="member">MR_VertCoordsDiff_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVertCoordsDiff_8h_1afd7d8efbf13531b10f10d80446a449fe" kindref="member">MR_VertCoordsDiff_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="29" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="29" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1afd7d8efbf13531b10f10d80446a449fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API const MR_VertCoordsDiff * MR_VertCoordsDiff_OffsetPtr</definition>
+        <argsstring>(const MR_VertCoordsDiff *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VertCoordsDiff_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="33" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="33" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1a6ca56795006b6f669cdfbdf9c82758a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API MR_VertCoordsDiff * MR_VertCoordsDiff_OffsetMutablePtr</definition>
+        <argsstring>(MR_VertCoordsDiff *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VertCoordsDiff_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="37" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="37" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1a71dce6b5526450d34961475b1bac631e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API MR_VertCoordsDiff * MR_VertCoordsDiff_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_VertCoordsDiff *_other)</argsstring>
+        <name>MR_VertCoordsDiff_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::VertCoordsDiff::VertCoordsDiff</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVertCoordsDiff_8h_1ae616a7794b9be1b838291447889c3d00" kindref="member">MR_VertCoordsDiff_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="42" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="42" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1aee6d5d998aa8df2f8dd0351e1f7b92a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API MR_VertCoordsDiff * MR_VertCoordsDiff_Construct</definition>
+        <argsstring>(const MR_VertCoords *from, const MR_VertCoords *to)</argsstring>
+        <name>MR_VertCoordsDiff_Construct</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the difference, that can be applied to vector-from in order to get vector-to Generated from constructor <computeroutput>MR::VertCoordsDiff::VertCoordsDiff</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>from</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>to</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>to</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVertCoordsDiff_8h_1ae616a7794b9be1b838291447889c3d00" kindref="member">MR_VertCoordsDiff_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="51" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="51" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1ae616a7794b9be1b838291447889c3d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VertCoordsDiff_Destroy</definition>
+        <argsstring>(const MR_VertCoordsDiff *_this)</argsstring>
+        <name>MR_VertCoordsDiff_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_VertCoordsDiff</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="54" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1aba64c569839df765c7bb2e3c102d3200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VertCoordsDiff_DestroyArray</definition>
+        <argsstring>(const MR_VertCoordsDiff *_this)</argsstring>
+        <name>MR_VertCoordsDiff_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_VertCoordsDiff</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1a42373461cc0782bb8b7fd6abdfa0967e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+        <definition>MRC_API MR_VertCoordsDiff * MR_VertCoordsDiff_AssignFromAnother</definition>
+        <argsstring>(MR_VertCoordsDiff *_this, MR_PassBy _other_pass_by, MR_VertCoordsDiff *_other)</argsstring>
+        <name>MR_VertCoordsDiff_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::VertCoordsDiff::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="64" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="64" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1a1e0b08582e8fb037d0706601c4ebe753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VertCoordsDiff_applyAndSwap</definition>
+        <argsstring>(MR_VertCoordsDiff *_this, MR_VertCoords *m)</argsstring>
+        <name>MR_VertCoordsDiff_applyAndSwap</name>
+        <param>
+          <type><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given vector-from on input converts it in vector-to, this object is updated to become the reverse difference from original vector-to to original vector-from Generated from method <computeroutput>MR::VertCoordsDiff::applyAndSwap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>m</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1aaed6b83866b721a455ba62a018d1de6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_VertCoordsDiff_any</definition>
+        <argsstring>(const MR_VertCoordsDiff *_this)</argsstring>
+        <name>MR_VertCoordsDiff_any</name>
+        <param>
+          <type>const <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if this object does contain some difference in point coordinates; if (from) vector has just more points and the common elements are the same, then the method will return false since nothing is stored here Generated from method <computeroutput>MR::VertCoordsDiff::any</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertCoordsDiff_8h_1a6fea56139ab6c9bd486afc3c84c8c09f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_VertCoordsDiff_heapBytes</definition>
+        <argsstring>(const MR_VertCoordsDiff *_this)</argsstring>
+        <name>MR_VertCoordsDiff_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::VertCoordsDiff::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" declline="83" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRVertCoordsDiff_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRVertCoordsDiff_8h_1a09f9d5bd2ec060b11386975a5b79ef01" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1a09f9d5bd2ec060b11386975a5b79ef01" kindref="member">MR_VertCoordsDiff_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRVertCoordsDiff_8h_1ab91549bd09c115b0d6d8fd1074e9c96f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1ab91549bd09c115b0d6d8fd1074e9c96f" kindref="member">MR_VertCoordsDiff_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRVertCoordsDiff_8h_1afd7d8efbf13531b10f10d80446a449fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1afd7d8efbf13531b10f10d80446a449fe" kindref="member">MR_VertCoordsDiff_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRVertCoordsDiff_8h_1a6ca56795006b6f669cdfbdf9c82758a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1a6ca56795006b6f669cdfbdf9c82758a4" kindref="member">MR_VertCoordsDiff_OffsetMutablePtr</ref>(<ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRVertCoordsDiff_8h_1a71dce6b5526450d34961475b1bac631e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1a71dce6b5526450d34961475b1bac631e" kindref="member">MR_VertCoordsDiff_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRVertCoordsDiff_8h_1aee6d5d998aa8df2f8dd0351e1f7b92a9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1aee6d5d998aa8df2f8dd0351e1f7b92a9" kindref="member">MR_VertCoordsDiff_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*to);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRVertCoordsDiff_8h_1ae616a7794b9be1b838291447889c3d00" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1ae616a7794b9be1b838291447889c3d00" kindref="member">MR_VertCoordsDiff_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRVertCoordsDiff_8h_1aba64c569839df765c7bb2e3c102d3200" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1aba64c569839df765c7bb2e3c102d3200" kindref="member">MR_VertCoordsDiff_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRVertCoordsDiff_8h_1a42373461cc0782bb8b7fd6abdfa0967e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1a42373461cc0782bb8b7fd6abdfa0967e" kindref="member">MR_VertCoordsDiff_AssignFromAnother</ref>(<ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRVertCoordsDiff_8h_1a1e0b08582e8fb037d0706601c4ebe753" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a1e0b08582e8fb037d0706601c4ebe753" kindref="member">MR_VertCoordsDiff_applyAndSwap</ref>(<ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*m);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRVertCoordsDiff_8h_1aaed6b83866b721a455ba62a018d1de6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1aaed6b83866b721a455ba62a018d1de6e" kindref="member">MR_VertCoordsDiff_any</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRVertCoordsDiff_8h_1a6fea56139ab6c9bd486afc3c84c8c09f" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRVertCoordsDiff_8h_1a6fea56139ab6c9bd486afc3c84c8c09f" kindref="member">MR_VertCoordsDiff_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h"/>
+  </compounddef>
+</doxygen>

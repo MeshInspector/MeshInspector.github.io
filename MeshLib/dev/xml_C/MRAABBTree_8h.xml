@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRAABBTree_8h" kind="file" language="C++">
+    <compoundname>MRAABBTree.h</compoundname>
+    <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRAABBTree.h</label>
+        <link refid="MRAABBTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="5">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></type>
+        <definition>typedef struct MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="14" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></type>
+        <definition>typedef struct MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="15" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref></type>
+        <definition>typedef struct MR_FaceBMap MR_FaceBMap</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
+        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="19" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref></type>
+        <definition>typedef struct MR_NodeBitSet MR_NodeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_NodeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="20" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</ref></type>
+        <definition>typedef struct MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="21" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="22" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref></type>
+        <definition>typedef struct MR_std_vector_MR_NodeId MR_std_vector_MR_NodeId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_NodeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="23" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref></type>
+        <definition>typedef struct MR_AABBTree MR_AABBTree</definition>
+        <argsstring></argsstring>
+        <name>MR_AABBTree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>bounding volume hierarchy Generated from class <computeroutput>MR::AABBTree</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="32" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRAABBTree_8h_1a262711363854c05f6cd64c80d5f6044b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API MR_AABBTree * MR_AABBTree_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_AABBTree_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTree_8h_1a1953e54b1e33ee5ac3b3d8af29f52035" kindref="member">MR_AABBTree_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="36" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1ab43290a7912783fef4d1fc5e7c9be46d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API MR_AABBTree * MR_AABBTree_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_AABBTree_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRAABBTree_8h_1a95d1f0cac31796969fee7aa32f972cc5" kindref="member">MR_AABBTree_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRAABBTree_8h_1a21712b71ac4d144f1723a86279ea4e78" kindref="member">MR_AABBTree_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRAABBTree_8h_1a06270a2cc48943580bbc8e0fe10123e5" kindref="member">MR_AABBTree_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="41" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="41" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a06270a2cc48943580bbc8e0fe10123e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API const MR_AABBTree * MR_AABBTree_OffsetPtr</definition>
+        <argsstring>(const MR_AABBTree *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_AABBTree_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="45" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="45" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a21712b71ac4d144f1723a86279ea4e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API MR_AABBTree * MR_AABBTree_OffsetMutablePtr</definition>
+        <argsstring>(MR_AABBTree *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_AABBTree_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="49" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="49" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a3e3567ea37bfbb3b4630b82c41933892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref> *</type>
+        <definition>MRC_API const MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f * MR_AABBTree_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</definition>
+        <argsstring>(const MR_AABBTree *object)</argsstring>
+        <name>MR_AABBTree_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::AABBTree</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="53" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="53" declcolumn="69"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a1b92fe948e771f7d5bc506bd4a3e6285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref> *</type>
+        <definition>MRC_API MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f * MR_AABBTree_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</definition>
+        <argsstring>(MR_AABBTree *object)</argsstring>
+        <name>MR_AABBTree_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::AABBTree</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="56" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="56" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a642e9a3502f389c022f720d6c1a8dd53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API MR_AABBTree * MR_AABBTree_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_AABBTree *_other)</argsstring>
+        <name>MR_AABBTree_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::AABBTree::AABBTree</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTree_8h_1a1953e54b1e33ee5ac3b3d8af29f52035" kindref="member">MR_AABBTree_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="61" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="61" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a347987182db574d0e48cb2b0544115db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API MR_AABBTree * MR_AABBTree_Construct</definition>
+        <argsstring>(const MR_MeshPart *mp)</argsstring>
+        <name>MR_AABBTree_Construct</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates tree for given mesh or its part Generated from constructor <computeroutput>MR::AABBTree::AABBTree</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mp</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTree_8h_1a1953e54b1e33ee5ac3b3d8af29f52035" kindref="member">MR_AABBTree_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="68" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a1953e54b1e33ee5ac3b3d8af29f52035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_AABBTree_Destroy</definition>
+        <argsstring>(const MR_AABBTree *_this)</argsstring>
+        <name>MR_AABBTree_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTree</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a95d1f0cac31796969fee7aa32f972cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_AABBTree_DestroyArray</definition>
+        <argsstring>(const MR_AABBTree *_this)</argsstring>
+        <name>MR_AABBTree_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTree</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a9d35efe2cf99e373340a280ae2fa3120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <definition>MRC_API MR_AABBTree * MR_AABBTree_AssignFromAnother</definition>
+        <argsstring>(MR_AABBTree *_this, MR_PassBy _other_pass_by, MR_AABBTree *_other)</argsstring>
+        <name>MR_AABBTree_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::AABBTree::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="81" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a9b359063a63a9a93ff01475cbd92bd83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_AABBTree_refit</definition>
+        <argsstring>(MR_AABBTree *_this, const MR_Mesh *mesh, const MR_VertBitSet *changedVerts)</argsstring>
+        <name>MR_AABBTree_refit</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>changedVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updates bounding boxes of the nodes containing changed vertices; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>same mesh for which this tree was constructed but with updated coordinates; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>changedVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertex ids with modified coordinates (since tree construction or last refit) Generated from method <computeroutput>MR::AABBTree::refit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>changedVerts</computeroutput> can not be null. It is a single object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a39634445d02045d8a9bfd9b69d28246d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId * MR_AABBTree_nodes</definition>
+        <argsstring>(const MR_AABBTree *_this)</argsstring>
+        <name>MR_AABBTree_nodes</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const-access to all nodes Generated from method <computeroutput>MR::AABBTree::nodes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="97" column="89" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="97" declcolumn="89"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a0f40875e91188b96aa3f88c9d1c9cc51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref> *</type>
+        <definition>MRC_API const MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f * MR_AABBTree_index</definition>
+        <argsstring>(const MR_AABBTree *_this, MR_NodeId nid)</argsstring>
+        <name>MR_AABBTree_index</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+          <declname>nid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const-access to any node Generated from method <computeroutput>MR::AABBTree::operator[]</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="103" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="103" declcolumn="69"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a005ec9d26797f7e4897d5cdd34642597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+        <definition>MRC_API MR_NodeId MR_AABBTree_rootNodeId</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_AABBTree_rootNodeId</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns root node id Generated from method <computeroutput>MR::AABBTree::rootNodeId</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="107" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="107" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1aa17173446230398e16b8ee085127c34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref></type>
+        <definition>MRC_API MR_Box3f MR_AABBTree_getBoundingBox</definition>
+        <argsstring>(const MR_AABBTree *_this)</argsstring>
+        <name>MR_AABBTree_getBoundingBox</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the root node bounding box Generated from method <computeroutput>MR::AABBTree::getBoundingBox</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="112" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="112" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1aed4ab19e3cf64fa0c37f4c4f54e18ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_AABBTree_heapBytes</definition>
+        <argsstring>(const MR_AABBTree *_this)</argsstring>
+        <name>MR_AABBTree_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::AABBTree::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="117" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a9a0c265add1e97026ddb5f97386fb271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_AABBTree_numLeaves</definition>
+        <argsstring>(const MR_AABBTree *_this)</argsstring>
+        <name>MR_AABBTree_numLeaves</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput>MR::AABBTree::numLeaves</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="122" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="122" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1acf80988a6a9c50e1b571326f335000cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId * MR_AABBTree_getSubtrees</definition>
+        <argsstring>(const MR_AABBTree *_this, int minNum)</argsstring>
+        <name>MR_AABBTree_getSubtrees</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <computeroutput>MR::AABBTree::getSubtrees</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_NodeId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="128" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="128" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1aa2c1af090e88b80deac2c0a124f7dcd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_AABBTree_getSubtreeLeaves</definition>
+        <argsstring>(const MR_AABBTree *_this, MR_NodeId subtreeRoot)</argsstring>
+        <name>MR_AABBTree_getSubtreeLeaves</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+          <declname>subtreeRoot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns all leaves in the subtree with given root Generated from method <computeroutput>MR::AABBTree::getSubtreeLeaves</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a4ebdc52390d331e5313d029ce55682ab" kindref="member">MR_FaceBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="134" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="134" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a982a19c8deea7ffff40df4a186bd5fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref> *</type>
+        <definition>MRC_API MR_NodeBitSet * MR_AABBTree_getNodesFromLeaves</definition>
+        <argsstring>(const MR_AABBTree *_this, const MR_FaceBitSet *leaves)</argsstring>
+        <name>MR_AABBTree_getNodesFromLeaves</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>leaves</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns set of nodes containing among direct or indirect children given leaves Generated from method <computeroutput>MR::AABBTree::getNodesFromLeaves</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>leaves</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1af75fdf51c2ce2929f92108607d9edcd1" kindref="member">MR_NodeBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="141" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="141" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1a5832b14c96bec3070eba65a8bf465b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_AABBTree_getLeafOrder</definition>
+        <argsstring>(const MR_AABBTree *_this, MR_FaceBMap *leafMap)</argsstring>
+        <name>MR_AABBTree_getLeafOrder</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref> *</type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>fills map: LeafId -&gt; leaf#; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTree::getLeafOrder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>leafMap</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="148" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAABBTree_8h_1ad4ac57635c3a753893d6cfcdd9b9eff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_AABBTree_getLeafOrderAndReset</definition>
+        <argsstring>(MR_AABBTree *_this, MR_FaceBMap *leafMap)</argsstring>
+        <name>MR_AABBTree_getLeafOrderAndReset</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref> *</type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTree::getLeafOrderAndReset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>leafMap</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h" declline="155" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBox_8h" kindref="compound">MRCMesh/MRBox.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreeBase.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreeNode.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref><sp/><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRAABBTree_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</ref><sp/><ref refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_NodeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRAABBTree_8h_1a262711363854c05f6cd64c80d5f6044b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1a262711363854c05f6cd64c80d5f6044b" kindref="member">MR_AABBTree_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRAABBTree_8h_1ab43290a7912783fef4d1fc5e7c9be46d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1ab43290a7912783fef4d1fc5e7c9be46d" kindref="member">MR_AABBTree_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRAABBTree_8h_1a06270a2cc48943580bbc8e0fe10123e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1a06270a2cc48943580bbc8e0fe10123e5" kindref="member">MR_AABBTree_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRAABBTree_8h_1a21712b71ac4d144f1723a86279ea4e78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1a21712b71ac4d144f1723a86279ea4e78" kindref="member">MR_AABBTree_OffsetMutablePtr</ref>(<ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRAABBTree_8h_1a3e3567ea37bfbb3b4630b82c41933892" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTree_8h_1a3e3567ea37bfbb3b4630b82c41933892" kindref="member">MR_AABBTree_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRAABBTree_8h_1a1b92fe948e771f7d5bc506bd4a3e6285" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTree_8h_1a1b92fe948e771f7d5bc506bd4a3e6285" kindref="member">MR_AABBTree_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>(<ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRAABBTree_8h_1a642e9a3502f389c022f720d6c1a8dd53" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1a642e9a3502f389c022f720d6c1a8dd53" kindref="member">MR_AABBTree_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRAABBTree_8h_1a347987182db574d0e48cb2b0544115db" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1a347987182db574d0e48cb2b0544115db" kindref="member">MR_AABBTree_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRAABBTree_8h_1a1953e54b1e33ee5ac3b3d8af29f52035" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1953e54b1e33ee5ac3b3d8af29f52035" kindref="member">MR_AABBTree_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRAABBTree_8h_1a95d1f0cac31796969fee7aa32f972cc5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a95d1f0cac31796969fee7aa32f972cc5" kindref="member">MR_AABBTree_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRAABBTree_8h_1a9d35efe2cf99e373340a280ae2fa3120" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRAABBTree_8h_1a9d35efe2cf99e373340a280ae2fa3120" kindref="member">MR_AABBTree_AssignFromAnother</ref>(<ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRAABBTree_8h_1a9b359063a63a9a93ff01475cbd92bd83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a9b359063a63a9a93ff01475cbd92bd83" kindref="member">MR_AABBTree_refit</ref>(<ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*changedVerts);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRAABBTree_8h_1a39634445d02045d8a9bfd9b69d28246d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</ref><sp/>*<ref refid="MRAABBTree_8h_1a39634445d02045d8a9bfd9b69d28246d" kindref="member">MR_AABBTree_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRAABBTree_8h_1a0f40875e91188b96aa3f88c9d1c9cc51" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTree_8h_1a0f40875e91188b96aa3f88c9d1c9cc51" kindref="member">MR_AABBTree_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRAABBTree_8h_1a005ec9d26797f7e4897d5cdd34642597" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTree_8h_1a005ec9d26797f7e4897d5cdd34642597" kindref="member">MR_AABBTree_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRAABBTree_8h_1aa17173446230398e16b8ee085127c34a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTree_8h_1aa17173446230398e16b8ee085127c34a" kindref="member">MR_AABBTree_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRAABBTree_8h_1aed4ab19e3cf64fa0c37f4c4f54e18ffb" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTree_8h_1aed4ab19e3cf64fa0c37f4c4f54e18ffb" kindref="member">MR_AABBTree_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRAABBTree_8h_1a9a0c265add1e97026ddb5f97386fb271" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTree_8h_1a9a0c265add1e97026ddb5f97386fb271" kindref="member">MR_AABBTree_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRAABBTree_8h_1acf80988a6a9c50e1b571326f335000cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTree_8h_1acf80988a6a9c50e1b571326f335000cc" kindref="member">MR_AABBTree_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRAABBTree_8h_1aa2c1af090e88b80deac2c0a124f7dcd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRAABBTree_8h_1aa2c1af090e88b80deac2c0a124f7dcd6" kindref="member">MR_AABBTree_getSubtreeLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>subtreeRoot);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRAABBTree_8h_1a982a19c8deea7ffff40df4a186bd5fca" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref><sp/>*<ref refid="MRAABBTree_8h_1a982a19c8deea7ffff40df4a186bd5fca" kindref="member">MR_AABBTree_getNodesFromLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*leaves);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRAABBTree_8h_1a5832b14c96bec3070eba65a8bf465b22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5832b14c96bec3070eba65a8bf465b22" kindref="member">MR_AABBTree_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref><sp/>*leafMap);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRAABBTree_8h_1ad4ac57635c3a753893d6cfcdd9b9eff2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ad4ac57635c3a753893d6cfcdd9b9eff2" kindref="member">MR_AABBTree_getLeafOrderAndReset</ref>(<ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref><sp/>*leafMap);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTree.h"/>
+  </compounddef>
+</doxygen>

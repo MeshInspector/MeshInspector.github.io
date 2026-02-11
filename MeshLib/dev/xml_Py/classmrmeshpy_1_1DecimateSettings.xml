@@ -1,0 +1,2152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DecimateSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DecimateSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a1827a87929243373a4f3a8120b598376" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_adjustCollapse</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_adjustCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_adjustCollapse</qualifiedname>
+        <initializer>=  144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12002" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1af43d3e4ca17cf0a68d69afc41ba2c3f2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_angleWeightedDistToPlane</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_angleWeightedDistToPlane</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_angleWeightedDistToPlane</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12003" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1afdd4a263fd390dbb22392099afeb5a88" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_bdVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_bdVerts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_bdVerts</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12004" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1ab2b429b5469923014708e76ca8b4e404" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_collapseNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_collapseNearNotFlippable</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_collapseNearNotFlippable</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a086938f955cec0c01e35f3bf423d9e78" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_criticalTriAspectRatio</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12006" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a87ebfc521b863250bed2ce17ecaf6011" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_decimateBetweenParts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_decimateBetweenParts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_decimateBetweenParts</qualifiedname>
+        <initializer>=  260</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1ad313f508a3ca538ef0d8637459947429" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_edgesToCollapse</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgesToCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_edgesToCollapse</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a555e689e815429791ba33042eb8093d1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxAngleChange</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxAngleChange</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1aefb38641b43693cbfaae867fa7f059fd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxBdShift</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxBdShift</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1ad79b46629b4a7521a427406f4aeccbc0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxDeletedFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDeletedFaces</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxDeletedFaces</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a888b201d21056988d616b83cf31e34cd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxDeletedVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDeletedVertices</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxDeletedVertices</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a81d877f3b96e7c5aea0736995db5ce31" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxEdgeLen</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1aaeb5fa43a50a9bf5203eae40efdc56e3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxError</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxError</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxError</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12014" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a125cc414da5184df51407f049c8a9492" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_maxTriangleAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxTriangleAspectRatio</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_maxTriangleAspectRatio</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1ac18faa4d38b5b792ef2667fedd1a0f69" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_minFacesInPart</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minFacesInPart</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_minFacesInPart</qualifiedname>
+        <initializer>=  272</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a1e29ae4d422a55afbc710b458a0d8f41" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_notFlippable</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_notFlippable</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12017" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeDel</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_onEdgeDel</qualifiedname>
+        <initializer>=  176</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12018" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a54a9d146e51a8189e7c0e3b300b020a8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_optimizeVertexPos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_optimizeVertexPos</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_optimizeVertexPos</qualifiedname>
+        <initializer>=  33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12019" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a06c3165338f878be5adea41e7b74c125" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_packMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_packMesh</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_packMesh</qualifiedname>
+        <initializer>=  216</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a3faf66a3b52dfe818dd4260bc5544c2b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_partFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_partFaces</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_partFaces</qualifiedname>
+        <initializer>=  264</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12021" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1ab101fa26ea03810699bafd474c3ccc8a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_preCollapse</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_preCollapse</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12022" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1aaaf8d4d1fc6f0a07207e86f7e8b81edf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_progressCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progressCallback</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_progressCallback</qualifiedname>
+        <initializer>=  224</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12023" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a74eb8e8a93a05a5dc978d7e43b83df4a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_region</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12024" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1ab90d428de45942883a4a9671c03cc81d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_stabilizer</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12025" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a2a33d76b302a87456a6c23302b6c9994" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_strategy</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_strategy</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_strategy</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12026" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a0e5acf64890312190b1a03fd1cbead42" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_subdivideParts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_subdivideParts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_subdivideParts</qualifiedname>
+        <initializer>=  256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12027" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1aae78f5b336c52c29ea2bb4d43a7987a3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_tinyEdgeLength</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12028" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a84082d56c86b6a5b3a1ac10132cb3608" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_touchBdVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_touchBdVerts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_touchBdVerts</qualifiedname>
+        <initializer>=  89</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12029" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a46500a05d700f1d460bfb2ee76ab44a6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_touchNearBdEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_touchNearBdEdges</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_touchNearBdEdges</qualifiedname>
+        <initializer>=  88</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a553ec4a452e9a08276a52ed67359b31d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_twinMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_twinMap</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_twinMap</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateSettings_1a135a46560773ed76f59f6cd0cf49f753" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateSettings::_offsetof_vertForms</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertForms</name>
+        <qualifiedname>mrmeshpy.DecimateSettings._offsetof_vertForms</qualifiedname>
+        <initializer>=  208</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12032" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a8eefabc49f8bf96e43216fde22f38ba0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12036" bodyend="12037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1afec8b87744b79957fde34407cb57740f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimateSettings" kindref="compound">DecimateSettings</ref></type>
+        <definition> DecimateSettings mrmeshpy.DecimateSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12040" bodyend="12041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1afec8b87744b79957fde34407cb57740f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimateSettings" kindref="compound">DecimateSettings</ref></type>
+        <definition> DecimateSettings mrmeshpy.DecimateSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12044" bodyend="12045"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1adc864beb92ab0473ec0a508b57b3f3f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12047" bodyend="12048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a051ad80dd4673ad4e825bdef48419f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.__init__</definition>
+        <argsstring>(self, DecimateSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DecimateSettings" kindref="compound">DecimateSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12050" bodyend="12053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a8f5827c606e93f2b657389c5b7d73b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.__init__</definition>
+        <argsstring>(self, DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, FaceBitSet region, UndirectedEdgeBitSet notFlippable, bool collapseNearNotFlippable, UndirectedEdgeBitSet edgesToCollapse, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag twinMap, bool touchNearBdEdges, bool touchBdVerts, VertBitSet bdVerts, float maxAngleChange, func_bool_from_Id_EdgeTag_Vector3_float preCollapse, func_void_from_Id_UndirectedEdgeTag_float_Vector3_float adjustCollapse, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeDel, Vector_QuadraticForm3f_VertId vertForms, bool packMesh, func_bool_from_float progressCallback, int subdivideParts, bool decimateBetweenParts, std_vector_TypedBitSet_Id_FaceTag partFaces, int minFacesInPart)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DecimateStrategy" kindref="compound">DecimateStrategy</ref></type>
+          <declname>strategy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxError</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxBdShift</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxTriangleAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>angleWeightedDistToPlane</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>optimizeVertexPos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDeletedVertices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDeletedFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>collapseNearNotFlippable</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>edgesToCollapse</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
+          <declname>twinMap</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchNearBdEdges</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchBdVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>bdVerts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+          <declname>preCollapse</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float" kindref="compound">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</ref></type>
+          <declname>adjustCollapse</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>onEdgeDel</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+          <declname>vertForms</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progressCallback</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>subdivideParts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decimateBetweenParts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+          <declname>partFaces</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minFacesInPart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12055" bodyend="12058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ad23e1338af289f8942bea68e493a1c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float" kindref="compound">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</ref></type>
+        <definition> func_void_from_Id_UndirectedEdgeTag_float_Vector3_float mrmeshpy.DecimateSettings.adjustCollapse</definition>
+        <argsstring>(self)</argsstring>
+        <name>adjustCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.adjustCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief The user can provide this optional callback for adjusting error introduced by this
+ edge collapse and the collapse position.
+ \\details On input the callback gets the squared error and position computed by standard means,
+ and callback can modify any of them. The larger the error, the later this edge will be collapsed.
+ This callback can be called from many threads in parallel and must be thread-safe.
+ This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12060" bodyend="12068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1acc3cfe893142f2e7424ac9f6d07c5285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.adjustCollapse</definition>
+        <argsstring>(self, func_void_from_Id_UndirectedEdgeTag_float_Vector3_float arg1)</argsstring>
+        <name>adjustCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.adjustCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float" kindref="compound">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12070" bodyend="12071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ad18aacdc6d0ce2b4f8b4fa982d1a1560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.angleWeightedDistToPlane</definition>
+        <argsstring>(self)</argsstring>
+        <name>angleWeightedDistToPlane</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.angleWeightedDistToPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles;
+if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12073" bodyend="12077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a27f2f0f4f0b64775adad4a41bd79fc9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.angleWeightedDistToPlane</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>angleWeightedDistToPlane</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.angleWeightedDistToPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12079" bodyend="12080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a114d9cba6f69cb7e9f22322de24eab3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.DecimateSettings.bdVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>bdVerts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.bdVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices;
+if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set;
+the algorithm updates this set if it packs the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12082" bodyend="12087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a0a3e048f4bdf3bc7b76d400ce55e7058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.bdVerts</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>bdVerts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.bdVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12089" bodyend="12090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a83d5dcc37fe27db3b8c7c3eff5bc3f39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.collapseNearNotFlippable</definition>
+        <argsstring>(self)</argsstring>
+        <name>collapseNearNotFlippable</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.collapseNearNotFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether to allow collapse of edges incident to notFlippable edges,
+which can move vertices of notFlippable edges unless they are fixed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12092" bodyend="12096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a8340d16dc3b1c2a8c00bafa487ad1d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.collapseNearNotFlippable</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>collapseNearNotFlippable</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.collapseNearNotFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12098" bodyend="12099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a6f22bfefc969af9b0e1c1205eafcfd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.criticalTriAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.criticalTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value;
+and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12101" bodyend="12105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a6d461bdae23fb3af83a5b91f3d62a425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.criticalTriAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.criticalTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12107" bodyend="12108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a05ca83e7eabd2d3687a32d6321999dd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.decimateBetweenParts</definition>
+        <argsstring>(self)</argsstring>
+        <name>decimateBetweenParts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.decimateBetweenParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region
+to eliminate small edges near the border of individual parts
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12110" bodyend="12114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a98bb6f9964727ba4c48456563291a14b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.decimateBetweenParts</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>decimateBetweenParts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.decimateBetweenParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12116" bodyend="12117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1afa85f11b0626cdc0fe3cd7e6ef2ed1d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.DecimateSettings.edgesToCollapse</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgesToCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.edgesToCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear);
+the algorithm updates this map during collapses, removing or replacing elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12119" bodyend="12123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a34000e8c744d1ed8b0f0c587345048fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.edgesToCollapse</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>edgesToCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.edgesToCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12125" bodyend="12126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a1ec5be344742548c1a92840511ccf70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.maxAngleChange</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxAngleChange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh
+if it does not change dihedral angle more than on this value (negative value prohibits any edge flips)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12128" bodyend="12132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1afa04a4d4a29ce8b82fb6563a5989c46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxAngleChange</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxAngleChange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12134" bodyend="12135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a15cbfd9b3575d797e3448ea93dbb56f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.maxBdShift</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxBdShift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximal shift of a boundary during one edge collapse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12137" bodyend="12140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a6faa462d745a828dfb80ad4aa5fcc8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxBdShift</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxBdShift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12142" bodyend="12143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a14ee73293d17feee5db308052c20707d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateSettings.maxDeletedFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDeletedFaces</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxDeletedFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Limit on the number of deleted faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12145" bodyend="12148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a2542cc0937e8eab0ac8798827025f249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxDeletedFaces</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxDeletedFaces</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxDeletedFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12150" bodyend="12151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1adedd7b2c4a722f70c406137a76d6e076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateSettings.maxDeletedVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxDeletedVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Limit on the number of deleted vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12153" bodyend="12156"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1afac4a2c509599546ba8718e1af2805e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxDeletedVertices</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxDeletedVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12158" bodyend="12159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a08a35db74fa7cd049790b748c9b5d95d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.maxEdgeLen</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximal possible edge length created during decimation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12161" bodyend="12164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a9c31a808c0154f1d74ca2816255a1989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxEdgeLen</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12166" bodyend="12167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aa5571c846834d158b3af1a8b26ce1f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.maxError</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxError</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxError</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for DecimateStrategy::MinimizeError:
+  stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value
+for DecimateStrategy::ShortestEdgeFirst only:
+  stop the decimation as soon as the shortest edge in the mesh is greater than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12169" bodyend="12175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a16688a4ab4c209e332a024290f4cecae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxError</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxError</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxError</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12177" bodyend="12178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a914cd3b5bad7e4e4a01c2a67fbff53e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.maxTriangleAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxTriangleAspectRatio</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxTriangleAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximal possible aspect ratio of a triangle introduced during decimation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12180" bodyend="12183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aea89ba800db3673e987ec71d4be04c79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.maxTriangleAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxTriangleAspectRatio</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.maxTriangleAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12185" bodyend="12186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a3a94877c8bbf469cc7f3f8859d36554c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateSettings.minFacesInPart</definition>
+        <argsstring>(self)</argsstring>
+        <name>minFacesInPart</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.minFacesInPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12188" bodyend="12191"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a7856acd3a857d5024c7462191cdf010f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.minFacesInPart</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>minFacesInPart</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.minFacesInPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12193" bodyend="12194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a1c69ded2755c15338a1e3e2cb41cc5b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.DecimateSettings.notFlippable</definition>
+        <argsstring>(self)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12196" bodyend="12199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aefdcc080b05fe8eb05dcfa7f68a46510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.notFlippable</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12201" bodyend="12202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a30f4ac78e15cda2ac5bed3e33cef32ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag mrmeshpy.DecimateSettings.onEdgeDel</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.onEdgeDel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time edge (del) is deleted;
+if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12204" bodyend="12208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1adad31f6a7b6728b22b02a25f9b905e20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.onEdgeDel</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.onEdgeDel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12210" bodyend="12211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a2511e2aa95cfc937dbc59b583bcb8d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.optimizeVertexPos</definition>
+        <argsstring>(self)</argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.optimizeVertexPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true then after each edge collapse the position of remaining vertex is optimized to
+minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12213" bodyend="12217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a8c2e7124af7b0b33309ac7f8bfe1eaca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.optimizeVertexPos</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.optimizeVertexPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12219" bodyend="12220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a7f84f5d2e710fa62285713f920a6790e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.packMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>packMesh</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.packMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to pack mesh at the end
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12222" bodyend="12225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ae93506509689bb40395643bfef0e2499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.packMesh</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>packMesh</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.packMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12227" bodyend="12228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a54c0422100bb0d71ccce1bb2a41f5bb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.DecimateSettings.partFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>partFaces</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.partFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not null, then it contains the faces of each subdivision part on input, which must not overlap,
+and after decimation of all parts, the region inside each part is put here;
+decimateBetweenParts=true or packMesh=true are not compatible with this option
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12230" bodyend="12235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a006981886b21b800b6e3d76e7bdd25ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.partFaces</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_FaceTag arg1)</argsstring>
+        <name>partFaces</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.partFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12237" bodyend="12238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ac1f21277339e973178f26d5398a53a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+        <definition> func_bool_from_Id_EdgeTag_Vector3_float mrmeshpy.DecimateSettings.preCollapse</definition>
+        <argsstring>(self)</argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.preCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief The user can provide this optional callback that is invoked immediately before edge collapse;
+ \\details It receives the edge being collapsed: its destination vertex will disappear,
+ and its origin vertex will get new position (provided as the second argument) after collapse;
+ If the callback returns false, then the collapse is prohibited
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12240" bodyend="12246"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aef406f827ad416d3d4a437a23acc0034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.preCollapse</definition>
+        <argsstring>(self, func_bool_from_Id_EdgeTag_Vector3_float arg1)</argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.preCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12248" bodyend="12249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ac67327171494d7697f9a9feae448d56f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DecimateSettings.progressCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback to report algorithm progress and cancel it by user request
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12251" bodyend="12254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a4dde0c1220e3992b4f6d242af36040e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.progressCallback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12256" bodyend="12257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a3da95241ed69d97ee6fc5ffc0adee881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.DecimateSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Region on mesh to be decimated, it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12259" bodyend="12262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aab3df2e170579f18d520c16f47c8166b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12264" bodyend="12265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a207116947163001c13a9df0cb07ef4b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Small stabilizer is important to achieve good results on completely planar mesh parts,
+if your mesh is not-planer everywhere, then you can set it to zero
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12267" bodyend="12271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a9832e5350daddcc94fb138aa8dddcf80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12273" bodyend="12274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a169832040cb0b9600d84945bae3b2ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateSettings.subdivideParts</definition>
+        <argsstring>(self)</argsstring>
+        <name>subdivideParts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.subdivideParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads);
+IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12276" bodyend="12280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a88e98f398665981b4c172ec6371a2297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.subdivideParts</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>subdivideParts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.subdivideParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12282" bodyend="12283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1adfa6b7be137126dff2769ff860ed4fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateSettings.tinyEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12285" bodyend="12288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a05c8919f05eab825986ccd6394165cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.tinyEdgeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12290" bodyend="12291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aa795f374ac544fff512571b74986d7f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.touchBdVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>touchBdVerts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.touchBdVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses;
+touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change;
+this setting is ignored if touchNearBdEdges=false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12293" bodyend="12298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a6f07b5b8fbd78e624b3bb0ec715a95e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.touchBdVerts</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>touchBdVerts</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.touchBdVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12300" bodyend="12301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a0c79c096795323dc4262076eb6547f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateSettings.touchNearBdEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>touchNearBdEdges</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.touchNearBdEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12303" bodyend="12306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a994c9f0e2127807836d9b063b0d48f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.touchNearBdEdges</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>touchNearBdEdges</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.touchNearBdEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12308" bodyend="12309"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aaf870573d8c5610a06fa3e9f97b05f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag mrmeshpy.DecimateSettings.twinMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>twinMap</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.twinMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position);
+the algorithm updates this map during collapses, removing or replacing elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12311" bodyend="12315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a1dbce075df190b02eebae30f13f907ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.twinMap</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>twinMap</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.twinMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12317" bodyend="12318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a0770a638d8fc5b0b48774cdc9f9ddd0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+        <definition> Vector_QuadraticForm3f_VertId mrmeshpy.DecimateSettings.vertForms</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertForms</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.vertForms</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief  If not null, then vertex quadratic forms are stored there;
+ if on input the vector is not empty then initialization is skipped in favor of values from there;
+ on output: quadratic form for each remaining vertex is returned there
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12320" bodyend="12325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ae397e340cb3c4eb644495809dc004b1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateSettings.vertForms</definition>
+        <argsstring>(self, Vector_QuadraticForm3f_VertId arg1)</argsstring>
+        <name>vertForms</name>
+        <qualifiedname>mrmeshpy.DecimateSettings.vertForms</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12327" bodyend="12328"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DecimateSettings
+
+
+ \\struct MR::DecimateSettings
+ \\brief Parameters structure for MR::decimateMesh
+
+ \\sa \\ref decimateMesh</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DecimateSettings</label>
+        <link refid="classmrmeshpy_1_1DecimateSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_adjustCollapse</edgelabel>
+          <edgelabel>_offsetof_angleWeightedDistToPlane</edgelabel>
+          <edgelabel>_offsetof_bdVerts</edgelabel>
+          <edgelabel>_offsetof_collapseNearNotFlippable</edgelabel>
+          <edgelabel>_offsetof_criticalTriAspectRatio</edgelabel>
+          <edgelabel>_offsetof_decimateBetweenParts</edgelabel>
+          <edgelabel>_offsetof_edgesToCollapse</edgelabel>
+          <edgelabel>_offsetof_maxAngleChange</edgelabel>
+          <edgelabel>_offsetof_maxBdShift</edgelabel>
+          <edgelabel>_offsetof_maxDeletedFaces</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11991" bodyend="12328"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a8eefabc49f8bf96e43216fde22f38ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1adc864beb92ab0473ec0a508b57b3f3f8" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a051ad80dd4673ad4e825bdef48419f87" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a8f5827c606e93f2b657389c5b7d73b15" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a1827a87929243373a4f3a8120b598376" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_adjustCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1af43d3e4ca17cf0a68d69afc41ba2c3f2" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_angleWeightedDistToPlane</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1afdd4a263fd390dbb22392099afeb5a88" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_bdVerts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ab2b429b5469923014708e76ca8b4e404" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_collapseNearNotFlippable</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a086938f955cec0c01e35f3bf423d9e78" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a87ebfc521b863250bed2ce17ecaf6011" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_decimateBetweenParts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ad313f508a3ca538ef0d8637459947429" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_edgesToCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a555e689e815429791ba33042eb8093d1" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aefb38641b43693cbfaae867fa7f059fd" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxBdShift</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ad79b46629b4a7521a427406f4aeccbc0" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxDeletedFaces</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a888b201d21056988d616b83cf31e34cd" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxDeletedVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a81d877f3b96e7c5aea0736995db5ce31" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aaeb5fa43a50a9bf5203eae40efdc56e3" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxError</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a125cc414da5184df51407f049c8a9492" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_maxTriangleAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ac18faa4d38b5b792ef2667fedd1a0f69" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_minFacesInPart</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a1e29ae4d422a55afbc710b458a0d8f41" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_onEdgeDel</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a54a9d146e51a8189e7c0e3b300b020a8" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_optimizeVertexPos</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a06c3165338f878be5adea41e7b74c125" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_packMesh</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a3faf66a3b52dfe818dd4260bc5544c2b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_partFaces</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ab101fa26ea03810699bafd474c3ccc8a" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aaaf8d4d1fc6f0a07207e86f7e8b81edf" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a74eb8e8a93a05a5dc978d7e43b83df4a" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ab90d428de45942883a4a9671c03cc81d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a2a33d76b302a87456a6c23302b6c9994" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_strategy</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a0e5acf64890312190b1a03fd1cbead42" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_subdivideParts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aae78f5b336c52c29ea2bb4d43a7987a3" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a84082d56c86b6a5b3a1ac10132cb3608" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_touchBdVerts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a46500a05d700f1d460bfb2ee76ab44a6" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_touchNearBdEdges</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a553ec4a452e9a08276a52ed67359b31d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_twinMap</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a135a46560773ed76f59f6cd0cf49f753" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_vertForms</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ad23e1338af289f8942bea68e493a1c69" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>adjustCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1acc3cfe893142f2e7424ac9f6d07c5285" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>adjustCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ad18aacdc6d0ce2b4f8b4fa982d1a1560" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a27f2f0f4f0b64775adad4a41bd79fc9a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a114d9cba6f69cb7e9f22322de24eab3d" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>bdVerts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a0a3e048f4bdf3bc7b76d400ce55e7058" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>bdVerts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a83d5dcc37fe27db3b8c7c3eff5bc3f39" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a8340d16dc3b1c2a8c00bafa487ad1d13" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a6f22bfefc969af9b0e1c1205eafcfd84" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a6d461bdae23fb3af83a5b91f3d62a425" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a05ca83e7eabd2d3687a32d6321999dd2" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>decimateBetweenParts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a98bb6f9964727ba4c48456563291a14b" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>decimateBetweenParts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1afa85f11b0626cdc0fe3cd7e6ef2ed1d1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>edgesToCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a34000e8c744d1ed8b0f0c587345048fd" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>edgesToCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a1ec5be344742548c1a92840511ccf70a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1afa04a4d4a29ce8b82fb6563a5989c46e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a15cbfd9b3575d797e3448ea93dbb56f2" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxBdShift</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a6faa462d745a828dfb80ad4aa5fcc8a1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxBdShift</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a14ee73293d17feee5db308052c20707d" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxDeletedFaces</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a2542cc0937e8eab0ac8798827025f249" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxDeletedFaces</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1adedd7b2c4a722f70c406137a76d6e076" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxDeletedVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1afac4a2c509599546ba8718e1af2805e6" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxDeletedVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a08a35db74fa7cd049790b748c9b5d95d" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a9c31a808c0154f1d74ca2816255a1989" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aa5571c846834d158b3af1a8b26ce1f10" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxError</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a16688a4ab4c209e332a024290f4cecae" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxError</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a914cd3b5bad7e4e4a01c2a67fbff53e6" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxTriangleAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aea89ba800db3673e987ec71d4be04c79" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>maxTriangleAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a3a94877c8bbf469cc7f3f8859d36554c" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>minFacesInPart</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a7856acd3a857d5024c7462191cdf010f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>minFacesInPart</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a1c69ded2755c15338a1e3e2cb41cc5b1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aefdcc080b05fe8eb05dcfa7f68a46510" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a30f4ac78e15cda2ac5bed3e33cef32ed" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1adad31f6a7b6728b22b02a25f9b905e20" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1afec8b87744b79957fde34407cb57740f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1afec8b87744b79957fde34407cb57740f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a2511e2aa95cfc937dbc59b583bcb8d79" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>optimizeVertexPos</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a8c2e7124af7b0b33309ac7f8bfe1eaca" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>optimizeVertexPos</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a7f84f5d2e710fa62285713f920a6790e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>packMesh</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ae93506509689bb40395643bfef0e2499" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>packMesh</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a54c0422100bb0d71ccce1bb2a41f5bb1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>partFaces</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a006981886b21b800b6e3d76e7bdd25ae" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>partFaces</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ac1f21277339e973178f26d5398a53a22" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aef406f827ad416d3d4a437a23acc0034" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ac67327171494d7697f9a9feae448d56f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a4dde0c1220e3992b4f6d242af36040e8" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a3da95241ed69d97ee6fc5ffc0adee881" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aab3df2e170579f18d520c16f47c8166b" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a207116947163001c13a9df0cb07ef4b1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a9832e5350daddcc94fb138aa8dddcf80" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a169832040cb0b9600d84945bae3b2ec8" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>subdivideParts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a88e98f398665981b4c172ec6371a2297" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>subdivideParts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1adfa6b7be137126dff2769ff860ed4fd2" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a05c8919f05eab825986ccd6394165cf0" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aa795f374ac544fff512571b74986d7f8" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchBdVerts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a6f07b5b8fbd78e624b3bb0ec715a95e4" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchBdVerts</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a0c79c096795323dc4262076eb6547f31" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchNearBdEdges</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a994c9f0e2127807836d9b063b0d48f8f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchNearBdEdges</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aaf870573d8c5610a06fa3e9f97b05f51" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a1dbce075df190b02eebae30f13f907ec" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a0770a638d8fc5b0b48774cdc9f9ddd0e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>vertForms</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1ae397e340cb3c4eb644495809dc004b1a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>vertForms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

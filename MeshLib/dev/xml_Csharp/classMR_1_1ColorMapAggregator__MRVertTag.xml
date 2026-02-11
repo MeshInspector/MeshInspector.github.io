@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ColorMapAggregator__MRVertTag" kind="class" language="C#" prot="public">
+    <compoundname>MR::ColorMapAggregator_MRVertTag</compoundname>
+    <innerclass refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" prot="public">MR::ColorMapAggregator_MRVertTag::PartialColorMap</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1ColorMapAggregator__MRVertTag_1a7845fa3cb26a19f858d7d78307774467" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AggregateMode</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.AggregateMode</qualifiedname>
+        <enumvalue id="classMR_1_1ColorMapAggregator__MRVertTag_1a7845fa3cb26a19f858d7d78307774467a6b551379c3c0b59326abdaf3b4395bd3" prot="public">
+          <name>Overlay</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ColorMapAggregator__MRVertTag_1a7845fa3cb26a19f858d7d78307774467a84e358c0cfad27b29c41c888167828f3" prot="public">
+          <name>Blending</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>result element color is element color of more priority color map (or default color, if there isn&apos;t color map for this element) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>color map aggregating mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="271" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="272" bodyend="276"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="4" bodyend="277"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1a7845fa3cb26a19f858d7d78307774467" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag</scope><name>AggregateMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

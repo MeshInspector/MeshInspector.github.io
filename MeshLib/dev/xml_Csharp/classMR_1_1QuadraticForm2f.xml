@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1QuadraticForm2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::QuadraticForm2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_QuadraticForm2f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1QuadraticForm2f_1add3ed13cbe5f207def745d1cdf1eb227" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1SymMatrix2f" kindref="compound">MR.SymMatrix2f</ref></type>
+        <definition>new unsafe MR.SymMatrix2f MR.QuadraticForm2f.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.QuadraticForm2f.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="122" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1QuadraticForm2f_1aa6ed4713d341e29125ee849b758f3704" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.QuadraticForm2f.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>MR.QuadraticForm2f.c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="124" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1abecb946456d8fe4c749b1cf337f66094" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadraticForm2f.QuadraticForm2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>QuadraticForm2f</name>
+        <qualifiedname>MR.QuadraticForm2f.QuadraticForm2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="143" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="143" bodyend="147"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1aeb14119b5a29b9e3c7a231a76bca529f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadraticForm2f.QuadraticForm2f</definition>
+        <argsstring>()</argsstring>
+        <name>QuadraticForm2f</name>
+        <qualifiedname>MR.QuadraticForm2f.QuadraticForm2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="153" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1a6131afde0157dda55603d85f6472aad9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadraticForm2f.QuadraticForm2f</definition>
+        <argsstring>(MR.Const_SymMatrix2f A, float c)</argsstring>
+        <name>QuadraticForm2f</name>
+        <qualifiedname>MR.QuadraticForm2f.QuadraticForm2f</qualifiedname>
+        <param>
+          <type>MR.Const_SymMatrix2f</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="164" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="164" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1a7b5880f4a407dbfa175f9834c65e5566" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.QuadraticForm2f.QuadraticForm2f</definition>
+        <argsstring>(MR.Const_QuadraticForm2f _other)</argsstring>
+        <name>QuadraticForm2f</name>
+        <qualifiedname>MR.QuadraticForm2f.QuadraticForm2f</qualifiedname>
+        <param>
+          <type>MR.Const_QuadraticForm2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.QuadraticForm2f.QuadraticForm2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1a4d78b99803797376266532ad2784f27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.QuadraticForm2f.QuadraticForm2f</definition>
+        <argsstring>(QuadraticForm2f _other)</argsstring>
+        <name>QuadraticForm2f</name>
+        <qualifiedname>MR.QuadraticForm2f.QuadraticForm2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1QuadraticForm2f" kindref="compound">QuadraticForm2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.QuadraticForm2f.QuadraticForm2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="188" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1a9ef4e1df7590ef08b5462c2c9c67d04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref></type>
+        <definition>unsafe MR.QuadraticForm2f MR.QuadraticForm2f.assign</definition>
+        <argsstring>(MR.Const_QuadraticForm2f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.QuadraticForm2f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_QuadraticForm2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.QuadraticForm2f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="193" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="193" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1aa31eea29628e4c658124045cf587a505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.QuadraticForm2f.addDistToOrigin</definition>
+        <argsstring>(float weight)</argsstring>
+        <name>addDistToOrigin</name>
+        <qualifiedname>MR.QuadraticForm2f.addDistToOrigin</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>adds to this squared distance to the origin point Generated from method <computeroutput><ref refid="classMR_1_1QuadraticForm2f_1aa31eea29628e4c658124045cf587a505" kindref="member">MR.QuadraticForm2f.addDistToOrigin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="206" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1aa7eba1b51494172e774dd146535856ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.QuadraticForm2f.addDistToPlane</definition>
+        <argsstring>(in MR.Vector2f planeUnitNormal)</argsstring>
+        <name>addDistToPlane</name>
+        <qualifiedname>MR.QuadraticForm2f.addDistToPlane</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>planeUnitNormal</declname>
+        </param>
+        <briefdescription>
+<para>adds to this squared distance to plane passing via origin with given unit normal Generated from method <computeroutput><ref refid="classMR_1_1QuadraticForm2f_1aa7eba1b51494172e774dd146535856ca" kindref="member">MR.QuadraticForm2f.addDistToPlane</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="217" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="217" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1a6270daaae0a7533704a519876a6ac97e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.QuadraticForm2f.addDistToPlane</definition>
+        <argsstring>(in MR.Vector2f planeUnitNormal, float weight)</argsstring>
+        <name>addDistToPlane</name>
+        <qualifiedname>MR.QuadraticForm2f.addDistToPlane</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>planeUnitNormal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1QuadraticForm2f_1aa7eba1b51494172e774dd146535856ca" kindref="member">MR.QuadraticForm2f.addDistToPlane</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="230" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1ac352deeea5b036ea201d3b9c7efc824d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.QuadraticForm2f.addDistToLine</definition>
+        <argsstring>(in MR.Vector2f lineUnitDir)</argsstring>
+        <name>addDistToLine</name>
+        <qualifiedname>MR.QuadraticForm2f.addDistToLine</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>lineUnitDir</declname>
+        </param>
+        <briefdescription>
+<para>adds to this squared distance to line passing via origin with given unit direction Generated from method <computeroutput><ref refid="classMR_1_1QuadraticForm2f_1ac352deeea5b036ea201d3b9c7efc824d" kindref="member">MR.QuadraticForm2f.addDistToLine</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="244" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="244" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadraticForm2f_1af4ae647d76e5ec26ea0a5dfd28574399" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.QuadraticForm2f.addDistToLine</definition>
+        <argsstring>(in MR.Vector2f lineUnitDir, float weight)</argsstring>
+        <name>addDistToLine</name>
+        <qualifiedname>MR.QuadraticForm2f.addDistToLine</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>lineUnitDir</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1QuadraticForm2f_1ac352deeea5b036ea201d3b9c7efc824d" kindref="member">MR.QuadraticForm2f.addDistToLine</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="257" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="257" bodyend="265"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>quadratic form: f = x^T A x + c Generated from class <computeroutput><ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_QuadraticForm2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.QuadraticForm2f</label>
+        <link refid="classMR_1_1QuadraticForm2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_QuadraticForm2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_QuadraticForm2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.QuadraticForm2f</label>
+        <link refid="classMR_1_1QuadraticForm2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_QuadraticForm2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" line="120" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuadraticForm.cs" bodystart="121" bodyend="266"/>
+    <listofallmembers>
+      <member refid="classMR_1_1QuadraticForm2f_1add3ed13cbe5f207def745d1cdf1eb227" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>a</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1ac352deeea5b036ea201d3b9c7efc824d" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>addDistToLine</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1af4ae647d76e5ec26ea0a5dfd28574399" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>addDistToLine</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1aa31eea29628e4c658124045cf587a505" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>addDistToOrigin</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1aa7eba1b51494172e774dd146535856ca" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>addDistToPlane</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1a6270daaae0a7533704a519876a6ac97e" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>addDistToPlane</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1a9ef4e1df7590ef08b5462c2c9c67d04e" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1aa6ed4713d341e29125ee849b758f3704" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>c</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1abecb946456d8fe4c749b1cf337f66094" prot="package" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>QuadraticForm2f</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1aeb14119b5a29b9e3c7a231a76bca529f" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>QuadraticForm2f</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1a6131afde0157dda55603d85f6472aad9" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>QuadraticForm2f</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1a7b5880f4a407dbfa175f9834c65e5566" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>QuadraticForm2f</name></member>
+      <member refid="classMR_1_1QuadraticForm2f_1a4d78b99803797376266532ad2784f27d" prot="public" virt="non-virtual"><scope>MR::QuadraticForm2f</scope><name>QuadraticForm2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

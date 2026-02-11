@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ResolveMeshDegenSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ResolveMeshDegenSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1aa0f8f855ea77ecdd05bbc7fd56ea1f96" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ResolveMeshDegenSettings::_offsetof_criticalAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_criticalAspectRatio</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings._offsetof_criticalAspectRatio</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a07ef3b622b9d6eed2d19b1c1c0038a24" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ResolveMeshDegenSettings::_offsetof_maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxAngleChange</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings._offsetof_maxAngleChange</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a741c8a2281930de6d624a7960b216d08" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ResolveMeshDegenSettings::_offsetof_maxDeviation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDeviation</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings._offsetof_maxDeviation</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a257691d816c59c198de25c856924dc3d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ResolveMeshDegenSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings._offsetof_region</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1aba890883f10792a5dc33eb194025aba4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ResolveMeshDegenSettings::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings._offsetof_stabilizer</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a05d8eb32308657c18dd70241846114f7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ResolveMeshDegenSettings::_offsetof_tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings._offsetof_tinyEdgeLength</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a680956e33c4b34c98b9f220e7e546844" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50204" bodyend="50205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1e99b3c116759705d4f98aeb7ea13c27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ResolveMeshDegenSettings" kindref="compound">ResolveMeshDegenSettings</ref></type>
+        <definition> ResolveMeshDegenSettings mrmeshpy.ResolveMeshDegenSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50208" bodyend="50209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1e99b3c116759705d4f98aeb7ea13c27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ResolveMeshDegenSettings" kindref="compound">ResolveMeshDegenSettings</ref></type>
+        <definition> ResolveMeshDegenSettings mrmeshpy.ResolveMeshDegenSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50212" bodyend="50213"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a4efadbadeba7b68701eed34d01b7f00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50215" bodyend="50216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1ae1eecc2e72cebf1138884e492575dbeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.__init__</definition>
+        <argsstring>(self, ResolveMeshDegenSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ResolveMeshDegenSettings" kindref="compound">ResolveMeshDegenSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50218" bodyend="50221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a042fe95f7c2e619aa1081869e59c15b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.__init__</definition>
+        <argsstring>(self, float maxDeviation, float tinyEdgeLength, float maxAngleChange, float criticalAspectRatio, float stabilizer, FaceBitSet region)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDeviation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50223" bodyend="50226"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1ab58d9b167e66ece2adfb7d92d19ae323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ResolveMeshDegenSettings.criticalAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>criticalAspectRatio</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.criticalAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value;
+and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50228" bodyend="50232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a3593dc31228e9582f9e0d94f94362e51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.criticalAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>criticalAspectRatio</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.criticalAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50234" bodyend="50235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a64974b8ae4f9a55d6e49e283052ce909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ResolveMeshDegenSettings.maxAngleChange</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.maxAngleChange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Permit edge flips if it does not change dihedral angle more than on this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50237" bodyend="50240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1d17747340b532f5a93207c443499870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.maxAngleChange</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.maxAngleChange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50242" bodyend="50243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1ae963b743378851baa40cf623d8dbdcf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ResolveMeshDegenSettings.maxDeviation</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.maxDeviation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum permitted deviation from the original surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50245" bodyend="50248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1455498de539355c9510349113d75ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.maxDeviation</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.maxDeviation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50250" bodyend="50251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a51bfc91ee05e63857aebee96ae055fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.ResolveMeshDegenSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>degenerations will be fixed only in given region, which is updated during the processing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50253" bodyend="50256"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a243c832d9683f3f343222119c742ab80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50258" bodyend="50259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a194234d33977f99ae06e6f1cddbfe173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ResolveMeshDegenSettings.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Small stabilizer is important to achieve good results on completely planar mesh parts,
+if your mesh is not-planer everywhere, then you can set it to zero
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50261" bodyend="50265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1ab046940a92e2ce97c7a270087092610d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50267" bodyend="50268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1adb84d67112bdb1688e57117912353308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ResolveMeshDegenSettings.tinyEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50270" bodyend="50273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ResolveMeshDegenSettings_1a5508e94ae2c1c72424b4aa5a1c080b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ResolveMeshDegenSettings.tinyEdgeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.ResolveMeshDegenSettings.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50275" bodyend="50276"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ResolveMeshDegenSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ResolveMeshDegenSettings</label>
+        <link refid="classmrmeshpy_1_1ResolveMeshDegenSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_criticalAspectRatio</edgelabel>
+          <edgelabel>_offsetof_maxAngleChange</edgelabel>
+          <edgelabel>_offsetof_maxDeviation</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_stabilizer</edgelabel>
+          <edgelabel>_offsetof_tinyEdgeLength</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50192" bodyend="50276"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a680956e33c4b34c98b9f220e7e546844" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a4efadbadeba7b68701eed34d01b7f00f" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1ae1eecc2e72cebf1138884e492575dbeb" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a042fe95f7c2e619aa1081869e59c15b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1aa0f8f855ea77ecdd05bbc7fd56ea1f96" prot="protected" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>_offsetof_criticalAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a07ef3b622b9d6eed2d19b1c1c0038a24" prot="protected" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>_offsetof_maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a741c8a2281930de6d624a7960b216d08" prot="protected" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>_offsetof_maxDeviation</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a257691d816c59c198de25c856924dc3d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1aba890883f10792a5dc33eb194025aba4" prot="protected" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a05d8eb32308657c18dd70241846114f7" prot="protected" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>_offsetof_tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1ab58d9b167e66ece2adfb7d92d19ae323" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>criticalAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a3593dc31228e9582f9e0d94f94362e51" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>criticalAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a64974b8ae4f9a55d6e49e283052ce909" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1d17747340b532f5a93207c443499870" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1ae963b743378851baa40cf623d8dbdcf0" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>maxDeviation</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1455498de539355c9510349113d75ffe" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>maxDeviation</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1e99b3c116759705d4f98aeb7ea13c27" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a1e99b3c116759705d4f98aeb7ea13c27" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a51bfc91ee05e63857aebee96ae055fe2" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a243c832d9683f3f343222119c742ab80" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a194234d33977f99ae06e6f1cddbfe173" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1ab046940a92e2ce97c7a270087092610d" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1adb84d67112bdb1688e57117912353308" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1ResolveMeshDegenSettings_1a5508e94ae2c1c72424b4aa5a1c080b3c" prot="public" virt="non-virtual"><scope>mrmeshpy::ResolveMeshDegenSettings</scope><name>tinyEdgeLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

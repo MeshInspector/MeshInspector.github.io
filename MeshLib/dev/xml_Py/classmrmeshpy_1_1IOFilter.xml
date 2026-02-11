@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IOFilter" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IOFilter</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1IOFilter_1a25c2b8802a099f6b03b84c46f80d6750" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IOFilter::_offsetof_extensions</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_extensions</name>
+        <qualifiedname>mrmeshpy.IOFilter._offsetof_extensions</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23559" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1IOFilter_1a86e86313147a94641e99e6f5cc50a429" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.IOFilter::_offsetof_name</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_name</name>
+        <qualifiedname>mrmeshpy.IOFilter._offsetof_name</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23560" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1a018f7d3ae0598614ce8504830ef29294" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IOFilter.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IOFilter.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23564" bodyend="23565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1a8144e76f58a81f4096e6bad23cd349e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+        <definition> IOFilter mrmeshpy.IOFilter.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IOFilter.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23568" bodyend="23569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1a8144e76f58a81f4096e6bad23cd349e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+        <definition> IOFilter mrmeshpy.IOFilter.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IOFilter.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23572" bodyend="23573"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1afc36c4982a8360179d3ef2cc5ef49583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IOFilter.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IOFilter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23575" bodyend="23576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1af1fe4b2c63cce98fcf15cb6f018c5175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IOFilter.__init__</definition>
+        <argsstring>(self, str _name, str _ext)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IOFilter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>_ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23578" bodyend="23579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1a2651a497cde48222443a07a4f3054f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IOFilter.__init__</definition>
+        <argsstring>(self, IOFilter arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.IOFilter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23581" bodyend="23584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1aa2390b4206f1568d27fd269195757c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.IOFilter.isSupportedExtension</definition>
+        <argsstring>(self, str ext)</argsstring>
+        <name>isSupportedExtension</name>
+        <qualifiedname>mrmeshpy.IOFilter.isSupportedExtension</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23585" bodyend="23586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1a2b48bba49f6d4c9d688c5e4915d11795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.IOFilter.extensions</definition>
+        <argsstring>(self)</argsstring>
+        <name>extensions</name>
+        <qualifiedname>mrmeshpy.IOFilter.extensions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&quot;*.ext&quot; or &quot;*.ext1;*.ext2;*.ext3&quot;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23588" bodyend="23591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IOFilter_1a9e4980221b79cfbf373ea895b3f5dc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IOFilter.extensions</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>extensions</name>
+        <qualifiedname>mrmeshpy.IOFilter.extensions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23593" bodyend="23594"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IOFilter
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.IOFilter</label>
+        <link refid="classmrmeshpy_1_1IOFilter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_extensions</edgelabel>
+          <edgelabel>_offsetof_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23555" bodyend="23594"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IOFilter_1a018f7d3ae0598614ce8504830ef29294" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1afc36c4982a8360179d3ef2cc5ef49583" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1af1fe4b2c63cce98fcf15cb6f018c5175" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a2651a497cde48222443a07a4f3054f5c" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a25c2b8802a099f6b03b84c46f80d6750" prot="protected" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>_offsetof_extensions</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a86e86313147a94641e99e6f5cc50a429" prot="protected" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>_offsetof_name</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a2b48bba49f6d4c9d688c5e4915d11795" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>extensions</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a9e4980221b79cfbf373ea895b3f5dc6f" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>extensions</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1aa2390b4206f1568d27fd269195757c3b" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>isSupportedExtension</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a8144e76f58a81f4096e6bad23cd349e3" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1IOFilter_1a8144e76f58a81f4096e6bad23cd349e3" prot="public" virt="non-virtual"><scope>mrmeshpy::IOFilter</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

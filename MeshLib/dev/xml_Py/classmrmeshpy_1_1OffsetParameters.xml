@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetParameters</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BaseShellParameters" prot="public" virt="non-virtual">mrmeshpy.BaseShellParameters</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1SharpOffsetParameters" prot="public" virt="non-virtual">mrmeshpy.SharpOffsetParameters</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetParameters_1a16a8f0bda2833d0748aa3d078b0ddf5f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetParameters::_offsetof_closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closeHolesInHoleWindingNumber</name>
+        <qualifiedname>mrmeshpy.OffsetParameters._offsetof_closeHolesInHoleWindingNumber</qualifiedname>
+        <initializer>=  44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetParameters_1a5b84841ec78b8d0fab200a0c32ef228b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetParameters::_offsetof_fwn</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fwn</name>
+        <qualifiedname>mrmeshpy.OffsetParameters._offsetof_fwn</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetParameters_1a964970a9f42d107d6566346542bb4005" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetParameters::_offsetof_memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_memoryEfficient</name>
+        <qualifiedname>mrmeshpy.OffsetParameters._offsetof_memoryEfficient</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41494" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetParameters_1a315041d63d63643efc30a81e38346553" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetParameters::_offsetof_signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_signDetectionMode</name>
+        <qualifiedname>mrmeshpy.OffsetParameters._offsetof_signDetectionMode</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetParameters_1a96ff0a6f7f366e60cc51ef9695ab53ca" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetParameters::_offsetof_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.OffsetParameters._offsetof_windingNumberBeta</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetParameters_1a7f3ac1c712e4e92992eb91187fd2f283" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetParameters::_offsetof_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.OffsetParameters._offsetof_windingNumberThreshold</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41497" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41500" bodyend="41501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetParameters" kindref="compound">OffsetParameters</ref></type>
+        <definition> OffsetParameters mrmeshpy.OffsetParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1a2d2f427e4c06d9866bc7a6806ed49c3c">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41504" bodyend="41505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetParameters" kindref="compound">OffsetParameters</ref></type>
+        <definition> OffsetParameters mrmeshpy.OffsetParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1a2d2f427e4c06d9866bc7a6806ed49c3c">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41508" bodyend="41509"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41511" bodyend="41512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.__init__</definition>
+        <argsstring>(self, OffsetParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetParameters" kindref="compound">OffsetParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41514" bodyend="41517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a0af3482b1171b23d0a442dbd2720e13c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetParameters.closeHolesInHoleWindingNumber</definition>
+        <argsstring>(self)</argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.closeHolesInHoleWindingNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41519" bodyend="41522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a84fb46e9ea985e6f2658c8e46c26ba83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.closeHolesInHoleWindingNumber</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.closeHolesInHoleWindingNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41524" bodyend="41525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1af9b220b13bd395d90e61a7326a3088af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+        <definition> IFastWindingNumber mrmeshpy.OffsetParameters.fwn</definition>
+        <argsstring>(self)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used
+this only used if signDetectionMode == SignDetectionMode::HoleWindingRule, otherwise it is ignored
+providing this will disable memoryEfficient (as if memoryEfficient == false)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41527" bodyend="41532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1acc8c99e13c8044af2b65c42bb660a703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.fwn</definition>
+        <argsstring>(self, IFastWindingNumber arg1)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41534" bodyend="41535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1ab4b0e7ca6fb4a29a8b9d9f0266089ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetParameters.memoryEfficient</definition>
+        <argsstring>(self)</argsstring>
+        <name>memoryEfficient</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.memoryEfficient</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use FunctionVolume for voxel grid representation:
+ - memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser
+ - computations are about 15% slower (because some z-layers are computed twice)
+this setting is ignored (as if memoryEfficient == false) if
+ a) signDetectionMode = SignDetectionMode::OpenVDB, or
+ b) \\ref fwn is provided (CUDA computations require full memory storage)
+used only by \\ref mcOffsetMesh and \\ref sharpOffsetMesh methods
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41537" bodyend="41546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1addcc9a6725040251b6a778c649a9043e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.memoryEfficient</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>memoryEfficient</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.memoryEfficient</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41548" bodyend="41549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a911783ddffca04d7ced26aa1716b08e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref></type>
+        <definition> SignDetectionMode mrmeshpy.OffsetParameters.signDetectionMode</definition>
+        <argsstring>(self)</argsstring>
+        <name>signDetectionMode</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.signDetectionMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>determines the method to compute distance sign
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41551" bodyend="41554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1ab8152d8b71d09dade831c583d39c747b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.signDetectionMode</definition>
+        <argsstring>(self, SignDetectionMode arg1)</argsstring>
+        <name>signDetectionMode</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.signDetectionMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SignDetectionMode" kindref="compound">SignDetectionMode</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41556" bodyend="41557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a9c41647009efce39a0e69b876ec1eed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OffsetParameters.windingNumberBeta</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only for SignDetectionMode::HoleWindingRule:
+determines the precision of fast approximation: the more the better, minimum value is 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41559" bodyend="41563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a506a08a44bae21e3b14365a388a3326c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.windingNumberBeta</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41565" bodyend="41566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1adf42e43cb5992da77dfa01b9484de302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OffsetParameters.windingNumberThreshold</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only for SignDetectionMode::HoleWindingRule:
+positive distance if winding number below or equal this threshold;
+ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41568" bodyend="41573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a1343c6bbe536951a7419b2d8b0494b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetParameters.windingNumberThreshold</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.OffsetParameters.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41575" bodyend="41576"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OffsetParameters
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.GeneralOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1GeneralOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.SharpOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1SharpOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_closeHolesInHoleWindingNumber</edgelabel>
+          <edgelabel>_offsetof_fwn</edgelabel>
+          <edgelabel>_offsetof_memoryEfficient</edgelabel>
+          <edgelabel>_offsetof_signDetectionMode</edgelabel>
+          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
+          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_callBack</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41488" bodyend="41576"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a16a8f0bda2833d0748aa3d078b0ddf5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a5b84841ec78b8d0fab200a0c32ef228b" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_fwn</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a964970a9f42d107d6566346542bb4005" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_memoryEfficient</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a315041d63d63643efc30a81e38346553" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a96ff0a6f7f366e60cc51ef9695ab53ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a7f3ac1c712e4e92992eb91187fd2f283" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a0af3482b1171b23d0a442dbd2720e13c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a84fb46e9ea985e6f2658c8e46c26ba83" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1af9b220b13bd395d90e61a7326a3088af" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1acc8c99e13c8044af2b65c42bb660a703" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1ab4b0e7ca6fb4a29a8b9d9f0266089ef1" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1addcc9a6725040251b6a778c649a9043e" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a911783ddffca04d7ced26aa1716b08e0" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1ab8152d8b71d09dade831c583d39c747b" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a9c41647009efce39a0e69b876ec1eed1" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a506a08a44bae21e3b14365a388a3326c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1adf42e43cb5992da77dfa01b9484de302" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1OffsetParameters_1a1343c6bbe536951a7419b2d8b0494b04" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

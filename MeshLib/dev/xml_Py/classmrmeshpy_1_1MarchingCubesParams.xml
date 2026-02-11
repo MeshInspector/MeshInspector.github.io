@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MarchingCubesParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MarchingCubesParams</compoundname>
+    <innerclass refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" prot="public">mrmeshpy::MarchingCubesParams::CachingMode</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1af02d28de12cef5e65ab44ca115f48ebf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_cb</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1ab94e6482c0bb0a6e1e2bde65e994e41b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_freeVolume</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_freeVolume</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_freeVolume</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1a4339db687c26fec7bcc75a467a7dbea4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_iso</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_iso</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_iso</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1abce2fcd064a716762d4c70bd1c27841b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_lessInside</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lessInside</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_lessInside</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1ab3fd3d122f8f9ab0adeedb349cdad180" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_maxVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxVertices</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_maxVertices</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1adde753fd90490e57eccfddc60685477f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_origin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_origin</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_origin</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1a0c36a5ea7f5676fed1083d00d1a7919a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_outVoxelPerFaceMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outVoxelPerFaceMap</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_outVoxelPerFaceMap</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1a7bc9988e7916566e677451d036250087" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams::_offsetof_positioner</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_positioner</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams._offsetof_positioner</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27290" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1a217c47adab4c34134cae907d1be4fb2a" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1MarchingCubesParams" kindref="compound">MarchingCubesParams</ref></type>
+        <definition>MarchingCubesParams mrmeshpy.MarchingCubesParams::cachingMode</definition>
+        <argsstring></argsstring>
+        <name>cachingMode</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.cachingMode</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kindref="compound">CachingMode</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27291" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a71f35c3c175c4b2c8a0b0fde05e9b601" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27294" bodyend="27295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a15bd4b86ea8d6e170d582b32fafc17a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MarchingCubesParams" kindref="compound">MarchingCubesParams</ref></type>
+        <definition> MarchingCubesParams mrmeshpy.MarchingCubesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27298" bodyend="27299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a15bd4b86ea8d6e170d582b32fafc17a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MarchingCubesParams" kindref="compound">MarchingCubesParams</ref></type>
+        <definition> MarchingCubesParams mrmeshpy.MarchingCubesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27302" bodyend="27303"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a29f645abe1e48176cfd632fabfd87d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27305" bodyend="27306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a68d6e6a46fc638383093a747d22f179a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.__init__</definition>
+        <argsstring>(self, MarchingCubesParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MarchingCubesParams" kindref="compound">MarchingCubesParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27308" bodyend="27311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a7c4b4e414a90f30eb3a217c71eaf2e6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.__init__</definition>
+        <argsstring>(self, Vector3f origin, func_bool_from_float cb, float iso, bool lessInside, Vector_VoxelId_FaceId outVoxelPerFaceMap, func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float positioner, int maxVertices, MarchingCubesParams.CachingMode cachingMode, func_void freeVolume)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lessInside</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>outVoxelPerFaceMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float" kindref="compound">func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float</ref></type>
+          <declname>positioner</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxVertices</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kindref="compound">MarchingCubesParams.CachingMode</ref></type>
+          <declname>cachingMode</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void" kindref="compound">func_void</ref></type>
+          <declname>freeVolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27313" bodyend="27316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1abf031994e716f7cba7b4bc95237f1b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.MarchingCubesParams.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27318" bodyend="27321"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aa997d3531ae47abb913148ab95673b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27323" bodyend="27324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aa85f251db92682e64b10eeafeb29c929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void" kindref="compound">func_void</ref></type>
+        <definition> func_void mrmeshpy.MarchingCubesParams.freeVolume</definition>
+        <argsstring>(self)</argsstring>
+        <name>freeVolume</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.freeVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this optional function is called when volume is no longer needed to deallocate it and reduce peak memory consumption
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27326" bodyend="27329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aa570273c5e8931a4b1dd458ff3717a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.freeVolume</definition>
+        <argsstring>(self, func_void arg1)</argsstring>
+        <name>freeVolume</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.freeVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void" kindref="compound">func_void</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27331" bodyend="27332"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a807c4440c3cb521d1e486891e7515b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MarchingCubesParams.iso</definition>
+        <argsstring>(self)</argsstring>
+        <name>iso</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.iso</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target iso-value of the surface to be extracted from volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27334" bodyend="27337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aeb6aaefe440e25320e8cb36707d3bf92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.iso</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>iso</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.iso</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27339" bodyend="27340"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a1dc6f43ca557be6e087cdb1602d4ac8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MarchingCubesParams.lessInside</definition>
+        <argsstring>(self)</argsstring>
+        <name>lessInside</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.lessInside</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>should be false for dense volumes, and true for distance volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27342" bodyend="27345"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a6ae96284bd81d990245e8c900b2d8cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.lessInside</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>lessInside</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.lessInside</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27347" bodyend="27348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a94a7b29c35bf39001649d2c6bb6f02a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesParams.maxVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxVertices</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.maxVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if the mesh exceeds this number of vertices, an error returns
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27350" bodyend="27353"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aeb388b8df7bb7a63947019358147ad64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.maxVertices</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxVertices</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.maxVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27355" bodyend="27356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aaff6331309bce897c73607c5c6d1a84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MarchingCubesParams.origin</definition>
+        <argsstring>(self)</argsstring>
+        <name>origin</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.origin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>origin point of voxels box in 3D space with output mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27358" bodyend="27361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aeab6863db1f7ab6de3eb6e06dd0528b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.origin</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>origin</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.origin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27363" bodyend="27364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a28a9c63bc577a088d24901a4d4401b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+        <definition> Vector_VoxelId_FaceId mrmeshpy.MarchingCubesParams.outVoxelPerFaceMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>outVoxelPerFaceMap</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.outVoxelPerFaceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output map FaceId-&gt;VoxelId
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27366" bodyend="27369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a52d2596b8b64cce09f77bd03b69692c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.outVoxelPerFaceMap</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId arg1)</argsstring>
+        <name>outVoxelPerFaceMap</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.outVoxelPerFaceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27371" bodyend="27372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1a55b38b35d06dd72780bbdcaade336f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float" kindref="compound">func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float</ref></type>
+        <definition> func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float mrmeshpy.MarchingCubesParams.positioner</definition>
+        <argsstring>(self)</argsstring>
+        <name>positioner</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.positioner</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>function to calculate position of result mesh points
+if the function isn&apos;t set, a linear positioner will be used
+note: this function is called in parallel from different threads
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27374" bodyend="27379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1aa5425a267110e1fe5752f81fc05cd801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesParams.positioner</definition>
+        <argsstring>(self, func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float arg1)</argsstring>
+        <name>positioner</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.positioner</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float" kindref="compound">func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27381" bodyend="27382"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MarchingCubesParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MarchingCubesParams</label>
+        <link refid="classmrmeshpy_1_1MarchingCubesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_freeVolume</edgelabel>
+          <edgelabel>_offsetof_iso</edgelabel>
+          <edgelabel>_offsetof_lessInside</edgelabel>
+          <edgelabel>_offsetof_maxVertices</edgelabel>
+          <edgelabel>_offsetof_origin</edgelabel>
+          <edgelabel>_offsetof_outVoxelPerFaceMap</edgelabel>
+          <edgelabel>_offsetof_positioner</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cachingMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.MarchingCubesParams</label>
+        <link refid="classmrmeshpy_1_1MarchingCubesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_freeVolume</edgelabel>
+          <edgelabel>_offsetof_iso</edgelabel>
+          <edgelabel>_offsetof_lessInside</edgelabel>
+          <edgelabel>_offsetof_maxVertices</edgelabel>
+          <edgelabel>_offsetof_origin</edgelabel>
+          <edgelabel>_offsetof_outVoxelPerFaceMap</edgelabel>
+          <edgelabel>_offsetof_positioner</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cachingMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27237" bodyend="27382"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a71f35c3c175c4b2c8a0b0fde05e9b601" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a29f645abe1e48176cfd632fabfd87d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a68d6e6a46fc638383093a747d22f179a" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a7c4b4e414a90f30eb3a217c71eaf2e6d" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1af02d28de12cef5e65ab44ca115f48ebf" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1ab94e6482c0bb0a6e1e2bde65e994e41b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_freeVolume</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a4339db687c26fec7bcc75a467a7dbea4" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_iso</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1abce2fcd064a716762d4c70bd1c27841b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_lessInside</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1ab3fd3d122f8f9ab0adeedb349cdad180" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_maxVertices</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1adde753fd90490e57eccfddc60685477f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_origin</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a0c36a5ea7f5676fed1083d00d1a7919a" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_outVoxelPerFaceMap</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a7bc9988e7916566e677451d036250087" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>_offsetof_positioner</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a217c47adab4c34134cae907d1be4fb2a" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>cachingMode</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1abf031994e716f7cba7b4bc95237f1b79" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aa997d3531ae47abb913148ab95673b4b" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aa85f251db92682e64b10eeafeb29c929" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>freeVolume</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aa570273c5e8931a4b1dd458ff3717a89" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>freeVolume</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a807c4440c3cb521d1e486891e7515b52" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>iso</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aeb6aaefe440e25320e8cb36707d3bf92" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>iso</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a1dc6f43ca557be6e087cdb1602d4ac8f" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>lessInside</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a6ae96284bd81d990245e8c900b2d8cdb" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>lessInside</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a94a7b29c35bf39001649d2c6bb6f02a3" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>maxVertices</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aeb388b8df7bb7a63947019358147ad64" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>maxVertices</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a15bd4b86ea8d6e170d582b32fafc17a5" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a15bd4b86ea8d6e170d582b32fafc17a5" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aaff6331309bce897c73607c5c6d1a84b" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>origin</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aeab6863db1f7ab6de3eb6e06dd0528b1" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>origin</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a28a9c63bc577a088d24901a4d4401b53" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>outVoxelPerFaceMap</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a52d2596b8b64cce09f77bd03b69692c7" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>outVoxelPerFaceMap</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1a55b38b35d06dd72780bbdcaade336f78" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>positioner</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1aa5425a267110e1fe5752f81fc05cd801" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams</scope><name>positioner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

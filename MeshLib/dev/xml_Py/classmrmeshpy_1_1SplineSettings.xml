@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SplineSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SplineSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SplineSettings_1abfb5358ba6ea09ef1d9525a2500947ab" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SplineSettings::_offsetof_controlStability</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_controlStability</name>
+        <qualifiedname>mrmeshpy.SplineSettings._offsetof_controlStability</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SplineSettings_1aada5b04dc413dc3d62d760be90e1cc38" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SplineSettings::_offsetof_iterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_iterations</name>
+        <qualifiedname>mrmeshpy.SplineSettings._offsetof_iterations</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SplineSettings_1aa8b8442be1fd330afa8ac9b59b33c168" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SplineSettings::_offsetof_normals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normals</name>
+        <qualifiedname>mrmeshpy.SplineSettings._offsetof_normals</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SplineSettings_1a31def337d316a73cad80209cf85995cb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SplineSettings::_offsetof_normalsAffectShape</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normalsAffectShape</name>
+        <qualifiedname>mrmeshpy.SplineSettings._offsetof_normalsAffectShape</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SplineSettings_1a49fa67de20d35158a8d3a06fdf5ec0d7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SplineSettings::_offsetof_samplingStep</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_samplingStep</name>
+        <qualifiedname>mrmeshpy.SplineSettings._offsetof_samplingStep</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a309b7923c252c5286cf3e476843adf1c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SplineSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53110" bodyend="53111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a3daaaeedd13e1fafa6de6af330496931" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SplineSettings" kindref="compound">SplineSettings</ref></type>
+        <definition> SplineSettings mrmeshpy.SplineSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SplineSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53114" bodyend="53115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a3daaaeedd13e1fafa6de6af330496931" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SplineSettings" kindref="compound">SplineSettings</ref></type>
+        <definition> SplineSettings mrmeshpy.SplineSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SplineSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53118" bodyend="53119"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1adb7a9379b779951afedf7af8a36b25a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SplineSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53121" bodyend="53122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1aee421774f17a472442df357e81fde798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.__init__</definition>
+        <argsstring>(self, SplineSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SplineSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SplineSettings" kindref="compound">SplineSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53124" bodyend="53127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a37236c33f50538b23a8fe0abf0febce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.__init__</definition>
+        <argsstring>(self, float samplingStep, float controlStability, int iterations, std_vector_Vector3_float normals, bool normalsAffectShape)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SplineSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>controlStability</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>normalsAffectShape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53129" bodyend="53132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a0954a0ddebdc1f1f133480857200b49f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SplineSettings.controlStability</definition>
+        <argsstring>(self)</argsstring>
+        <name>controlStability</name>
+        <qualifiedname>mrmeshpy.SplineSettings.controlStability</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a positive value, the more the value the closer resulting spline will be to given control points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53134" bodyend="53137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a0b6d744096f0a07b74c0569e280544d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.controlStability</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>controlStability</name>
+        <qualifiedname>mrmeshpy.SplineSettings.controlStability</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53139" bodyend="53140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a7a54fc1c4b55ba288acee9ec6eac8ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SplineSettings.iterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>iterations</name>
+        <qualifiedname>mrmeshpy.SplineSettings.iterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the shape of resulting spline depends on the total number of points in the contour,
+which in turn depends on the length of input contour being sampled;
+setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53142" bodyend="53147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1ae578f145c50ce31fca81dc64e286bad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.iterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>iterations</name>
+        <qualifiedname>mrmeshpy.SplineSettings.iterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53149" bodyend="53150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a9d2c8b6429ff1ede853e9a4156be0825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+        <definition> std_vector_Vector3_float mrmeshpy.SplineSettings.normals</definition>
+        <argsstring>(self)</argsstring>
+        <name>normals</name>
+        <qualifiedname>mrmeshpy.SplineSettings.normals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional parameter with the normals of input points that will be resampled to become normals of output points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53152" bodyend="53155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a68e5823573d3176bedcb74f82de7b874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.normals</definition>
+        <argsstring>(self, std_vector_Vector3_float arg1)</argsstring>
+        <name>normals</name>
+        <qualifiedname>mrmeshpy.SplineSettings.normals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53157" bodyend="53158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1ab8abd9de365ee824f9b7e4b1432dec93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SplineSettings.normalsAffectShape</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalsAffectShape</name>
+        <qualifiedname>mrmeshpy.SplineSettings.normalsAffectShape</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53160" bodyend="53163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1abf999f6eff157034e01fdaeea97ac6e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.normalsAffectShape</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>normalsAffectShape</name>
+        <qualifiedname>mrmeshpy.SplineSettings.normalsAffectShape</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53165" bodyend="53166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a8d6ddb5308c1d13c9d01a24821536287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SplineSettings.samplingStep</definition>
+        <argsstring>(self)</argsstring>
+        <name>samplingStep</name>
+        <qualifiedname>mrmeshpy.SplineSettings.samplingStep</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>additional points will be added between each pair of control points,
+until the distance between neighbor points becomes less than this distance
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53168" bodyend="53172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SplineSettings_1a9e784f2f69c514ec6d31467911881920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SplineSettings.samplingStep</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>samplingStep</name>
+        <qualifiedname>mrmeshpy.SplineSettings.samplingStep</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53174" bodyend="53175"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SplineSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SplineSettings</label>
+        <link refid="classmrmeshpy_1_1SplineSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_controlStability</edgelabel>
+          <edgelabel>_offsetof_iterations</edgelabel>
+          <edgelabel>_offsetof_normals</edgelabel>
+          <edgelabel>_offsetof_normalsAffectShape</edgelabel>
+          <edgelabel>_offsetof_samplingStep</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53099" bodyend="53175"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a309b7923c252c5286cf3e476843adf1c" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1adb7a9379b779951afedf7af8a36b25a2" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1aee421774f17a472442df357e81fde798" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a37236c33f50538b23a8fe0abf0febce1" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1abfb5358ba6ea09ef1d9525a2500947ab" prot="protected" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>_offsetof_controlStability</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1aada5b04dc413dc3d62d760be90e1cc38" prot="protected" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>_offsetof_iterations</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1aa8b8442be1fd330afa8ac9b59b33c168" prot="protected" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>_offsetof_normals</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a31def337d316a73cad80209cf85995cb" prot="protected" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>_offsetof_normalsAffectShape</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a49fa67de20d35158a8d3a06fdf5ec0d7" prot="protected" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>_offsetof_samplingStep</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a0954a0ddebdc1f1f133480857200b49f" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>controlStability</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a0b6d744096f0a07b74c0569e280544d7" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>controlStability</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a7a54fc1c4b55ba288acee9ec6eac8ca0" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1ae578f145c50ce31fca81dc64e286bad5" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a9d2c8b6429ff1ede853e9a4156be0825" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>normals</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a68e5823573d3176bedcb74f82de7b874" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>normals</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1ab8abd9de365ee824f9b7e4b1432dec93" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>normalsAffectShape</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1abf999f6eff157034e01fdaeea97ac6e3" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>normalsAffectShape</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a3daaaeedd13e1fafa6de6af330496931" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a3daaaeedd13e1fafa6de6af330496931" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a8d6ddb5308c1d13c9d01a24821536287" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>samplingStep</name></member>
+      <member refid="classmrmeshpy_1_1SplineSettings_1a9e784f2f69c514ec6d31467911881920" prot="public" virt="non-virtual"><scope>mrmeshpy::SplineSettings</scope><name>samplingStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

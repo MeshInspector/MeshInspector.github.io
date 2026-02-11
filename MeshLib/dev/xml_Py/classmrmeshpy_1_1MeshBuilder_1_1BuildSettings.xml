@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshBuilder::BuildSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a1238481073dca718ca7058bf0d8b0c58" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.BuildSettings::_offsetof_allowNonManifoldEdge</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_allowNonManifoldEdge</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings._offsetof_allowNonManifoldEdge</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1af57411d0ae2671d0035a2b9f3a92d2b4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.BuildSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings._offsetof_region</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a88bdc7ca9807e414e5078dbf9ae3de75" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.BuildSettings::_offsetof_shiftFaceId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_shiftFaceId</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings._offsetof_shiftFaceId</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a4770bb82f1c1502428edc419344271a8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.BuildSettings::_offsetof_skippedFaceCount</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_skippedFaceCount</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings._offsetof_skippedFaceCount</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31254" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1afe500bbc5d63ff0c10046876d2b03816" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31257" bodyend="31258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a392d1151e3fea903bc45dd4f471a17dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings" kindref="compound">MeshBuilder.BuildSettings</ref></type>
+        <definition> MeshBuilder.BuildSettings mrmeshpy.MeshBuilder.BuildSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31261" bodyend="31262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a392d1151e3fea903bc45dd4f471a17dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings" kindref="compound">MeshBuilder.BuildSettings</ref></type>
+        <definition> MeshBuilder.BuildSettings mrmeshpy.MeshBuilder.BuildSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31265" bodyend="31266"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1ae66b06cb47ebec9a7251acf18af14452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31268" bodyend="31269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1af3c5cabb5431133af67c403a6a6c9810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.__init__</definition>
+        <argsstring>(self, MeshBuilder.BuildSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings" kindref="compound">MeshBuilder.BuildSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31271" bodyend="31274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a3fd608401a9d5be2e03a21b60e08dc0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.__init__</definition>
+        <argsstring>(self, FaceBitSet region, int shiftFaceId, bool allowNonManifoldEdge, int_output skippedFaceCount)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shiftFaceId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowNonManifoldEdge</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>skippedFaceCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31276" bodyend="31279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1acb939bb883c9461c85e7b9e49fd65292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshBuilder.BuildSettings.allowNonManifoldEdge</definition>
+        <argsstring>(self)</argsstring>
+        <name>allowNonManifoldEdge</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.allowNonManifoldEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to permit non-manifold edges in the resulting topology
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31281" bodyend="31284"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a89ac8bfee2ccf98eeea5b5d50b699963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.allowNonManifoldEdge</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>allowNonManifoldEdge</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.allowNonManifoldEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31286" bodyend="31287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a19e5d652aee18c47fd00054cfb8ef80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.MeshBuilder.BuildSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if region is given then on input it contains the faces to be added, and on output the faces failed to be added
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31289" bodyend="31292"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1ae51527662edb185f2a3b0c33f3844400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31294" bodyend="31295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a3325911d36199c598062f38fbcc9e2cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshBuilder.BuildSettings.shiftFaceId</definition>
+        <argsstring>(self)</argsstring>
+        <name>shiftFaceId</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.shiftFaceId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this value to be added to every faceId before its inclusion in the topology
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31297" bodyend="31300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a4ec1b55660b122a2d4607ed075325511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.shiftFaceId</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>shiftFaceId</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.shiftFaceId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31302" bodyend="31303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1ad49b98fd185424ef30ded18b319ddbfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshBuilder.BuildSettings.skippedFaceCount</definition>
+        <argsstring>(self)</argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.skippedFaceCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: counter of skipped faces during mesh creation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31305" bodyend="31308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a3b4140b7d62f71c109b7ace886a51ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.BuildSettings.skippedFaceCount</definition>
+        <argsstring>(self, int_output arg1)</argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.BuildSettings.skippedFaceCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31310" bodyend="31312"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshBuilder::BuildSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshBuilder.BuildSettings</label>
+        <link refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_allowNonManifoldEdge</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_shiftFaceId</edgelabel>
+          <edgelabel>_offsetof_skippedFaceCount</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31247" bodyend="31311"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1afe500bbc5d63ff0c10046876d2b03816" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1ae66b06cb47ebec9a7251acf18af14452" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1af3c5cabb5431133af67c403a6a6c9810" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a3fd608401a9d5be2e03a21b60e08dc0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a1238481073dca718ca7058bf0d8b0c58" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>_offsetof_allowNonManifoldEdge</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1af57411d0ae2671d0035a2b9f3a92d2b4" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a88bdc7ca9807e414e5078dbf9ae3de75" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>_offsetof_shiftFaceId</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a4770bb82f1c1502428edc419344271a8" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>_offsetof_skippedFaceCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1acb939bb883c9461c85e7b9e49fd65292" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>allowNonManifoldEdge</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a89ac8bfee2ccf98eeea5b5d50b699963" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>allowNonManifoldEdge</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a392d1151e3fea903bc45dd4f471a17dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a392d1151e3fea903bc45dd4f471a17dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a19e5d652aee18c47fd00054cfb8ef80b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1ae51527662edb185f2a3b0c33f3844400" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a3325911d36199c598062f38fbcc9e2cc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>shiftFaceId</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a4ec1b55660b122a2d4607ed075325511" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>shiftFaceId</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1ad49b98fd185424ef30ded18b319ddbfe" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>skippedFaceCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1a3b4140b7d62f71c109b7ace886a51ba3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>skippedFaceCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

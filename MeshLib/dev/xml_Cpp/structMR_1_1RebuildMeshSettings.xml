@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RebuildMeshSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RebuildMeshSettings</compoundname>
+    <includes refid="MRRebuildMesh_8h" local="no">MRRebuildMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1aedf85a579696f897a9cd4c1c719059b8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RebuildMeshSettings::preSubdivide</definition>
+        <argsstring></argsstring>
+        <name>preSubdivide</name>
+        <qualifiedname>MR::RebuildMeshSettings::preSubdivide</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a277cd0e4fca4f06fd90dd9977ec8a418" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RebuildMeshSettings::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::RebuildMeshSettings::voxelSize</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a0a73a19f4845bdec3e2e59c9d1dfd4b8" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a07048ed78d40b323183d7f5479f821d0" kindref="member">SignDetectionModeShort</ref></type>
+        <definition>SignDetectionModeShort MR::RebuildMeshSettings::signMode</definition>
+        <argsstring></argsstring>
+        <name>signMode</name>
+        <qualifiedname>MR::RebuildMeshSettings::signMode</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb" kindref="member">SignDetectionModeShort::Auto</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="25" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a7e182394b11ff51cd7695df3a953505a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RebuildMeshSettings::closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>MR::RebuildMeshSettings::closeHolesInHoleWindingNumber</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>whether to construct closed mesh in signMode = <ref refid="namespaceMR_1a07048ed78d40b323183d7f5479f821d0a748273fc30eaf6ab0c262df0bfb86f68" kindref="member">SignDetectionModeShort::HoleWindingNumber</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a0cc5cd91097f6d671c3a9ad73a09ac14" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">OffsetMode</ref></type>
+        <definition>OffsetMode MR::RebuildMeshSettings::offsetMode</definition>
+        <argsstring></argsstring>
+        <name>offsetMode</name>
+        <qualifiedname>MR::RebuildMeshSettings::offsetMode</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b" kindref="member">OffsetMode::Standard</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1ab3fd176a4586472f781779fd1126f50c" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::RebuildMeshSettings::outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>MR::RebuildMeshSettings::outSharpEdges</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if non-null then created sharp edges (only if offsetMode = <ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355" kindref="member">OffsetMode::Sharpening</ref>) will be saved here </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="33" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a0fd939665ae442e058cb11d7cc52ac20" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RebuildMeshSettings::windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR::RebuildMeshSettings::windingNumberThreshold</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a0181b2c8cfb6a6a1788807fd5b6a5d1c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RebuildMeshSettings::windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR::RebuildMeshSettings::windingNumberBeta</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="42" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1aea6b7ba0f04e938fe48d66bb6f336a79" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;IFastWindingNumber&gt; MR::RebuildMeshSettings::fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR::RebuildMeshSettings::fwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings (if required). If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="46" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a6e10f1d5847ddc2cb5de056bf3031453" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RebuildMeshSettings::decimate</definition>
+        <argsstring></argsstring>
+        <name>decimate</name>
+        <qualifiedname>MR::RebuildMeshSettings::decimate</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>whether to decimate resulting mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="49" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1ac305c46895a7bfd2a0af7ccfe1b5cb2e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RebuildMeshSettings::tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR::RebuildMeshSettings::tinyEdgeLength</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1a03a98a1c9695b0ef4243961f9ad3b59e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::RebuildMeshSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::RebuildMeshSettings::progress</qualifiedname>
+        <briefdescription>
+<para>To report algorithm&apos;s progress and cancel it on user demand. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="56" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RebuildMeshSettings_1aef34909f1adee996217b09204c89d4ec" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(<ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309" kindref="member">SignDetectionMode</ref>)&gt;</type>
+        <definition>std::function&lt;void(SignDetectionMode)&gt; MR::RebuildMeshSettings::onSignDetectionModeSelected</definition>
+        <argsstring></argsstring>
+        <name>onSignDetectionModeSelected</name>
+        <qualifiedname>MR::RebuildMeshSettings::onSignDetectionModeSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this callback is invoked when SignDetectionMode is determined (useful if signMode = <ref refid="namespaceMR_1a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb" kindref="member">SignDetectionModeShort::Auto</ref>), but before actual work begins </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="60" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="13" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RebuildMeshSettings_1a7e182394b11ff51cd7695df3a953505a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a6e10f1d5847ddc2cb5de056bf3031453" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1aea6b7ba0f04e938fe48d66bb6f336a79" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>fwn</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a0cc5cd91097f6d671c3a9ad73a09ac14" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>offsetMode</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1aef34909f1adee996217b09204c89d4ec" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1ab3fd176a4586472f781779fd1126f50c" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1aedf85a579696f897a9cd4c1c719059b8" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>preSubdivide</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a03a98a1c9695b0ef4243961f9ad3b59e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a0a73a19f4845bdec3e2e59c9d1dfd4b8" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>signMode</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1ac305c46895a7bfd2a0af7ccfe1b5cb2e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a277cd0e4fca4f06fd90dd9977ec8a418" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>voxelSize</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a0181b2c8cfb6a6a1788807fd5b6a5d1c" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="structMR_1_1RebuildMeshSettings_1a0fd939665ae442e058cb11d7cc52ac20" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

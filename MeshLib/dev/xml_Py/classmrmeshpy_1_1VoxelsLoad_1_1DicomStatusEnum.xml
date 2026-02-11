@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsLoad::DicomStatusEnum</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a45bb69090f017ca5dfe1926032ca2e14" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomStatusEnum::Invalid</definition>
+        <argsstring></argsstring>
+        <name>Invalid</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.Invalid</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" kindref="compound">VoxelsLoad.DicomStatusEnum</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a821abaa0161d790a237a5d7e505fae59" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomStatusEnum::Ok</definition>
+        <argsstring></argsstring>
+        <name>Ok</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.Ok</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" kindref="compound">VoxelsLoad.DicomStatusEnum</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a9a8eb99318268f7a43b43f813f43c4a8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomStatusEnum::Unsupported</definition>
+        <argsstring></argsstring>
+        <name>Unsupported</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.Unsupported</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" kindref="compound">VoxelsLoad.DicomStatusEnum</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73171" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a065336363eebaaf8380eab83446450ba" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.DicomStatusEnum::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" kindref="compound">VoxelsLoad.DicomStatusEnum</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73172" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1ac8f493c4a10b243fbd5ba54fff96c81d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelsLoad.DicomStatusEnum.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73173" bodyend="73174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a45ca6b9bd5217e1c84d594151d920e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelsLoad.DicomStatusEnum.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73175" bodyend="73176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1abc1ace93f9241281cfad62d343279d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelsLoad.DicomStatusEnum.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73177" bodyend="73178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a31b03b0fa6981c6e529f22042406a23d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelsLoad.DicomStatusEnum.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73179" bodyend="73180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1ad60287bac54dbcdce065d27a34c61f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.DicomStatusEnum.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73181" bodyend="73182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a491e7e3b9b3062f564836503c6176a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelsLoad.DicomStatusEnum.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73183" bodyend="73184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a3921734262f1248024a8f0e5a6765ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelsLoad.DicomStatusEnum.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73185" bodyend="73186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a6c831b370f94a596418689dc0f2dd3db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelsLoad.DicomStatusEnum.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73187" bodyend="73188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1aacd6a0894521762bd0fd57f415f2c3c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.DicomStatusEnum.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73189" bodyend="73190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a41d6f58dce195d0c2854c359e06df80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelsLoad.DicomStatusEnum.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73191" bodyend="73192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a41aa56b49dfc5172c3df3d93585e701f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelsLoad.DicomStatusEnum.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73194" bodyend="73195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1aedf558694417b06d952c382de1d3bbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelsLoad.DicomStatusEnum.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.DicomStatusEnum.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73197" bodyend="73199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Ok : valid DICOM and we can open it
+
+  Invalid : not a valid DICOM
+
+  Unsupported : a valid DICOM, but we do not support it (e.g. some MediaStorages)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsLoad.DicomStatusEnum</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Invalid</edgelabel>
+          <edgelabel>Ok</edgelabel>
+          <edgelabel>Unsupported</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73159" bodyend="73198"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1ac8f493c4a10b243fbd5ba54fff96c81d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a45ca6b9bd5217e1c84d594151d920e15" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1abc1ace93f9241281cfad62d343279d81" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a31b03b0fa6981c6e529f22042406a23d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1ad60287bac54dbcdce065d27a34c61f38" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a491e7e3b9b3062f564836503c6176a2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a065336363eebaaf8380eab83446450ba" prot="private" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a3921734262f1248024a8f0e5a6765ed9" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a6c831b370f94a596418689dc0f2dd3db" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1aacd6a0894521762bd0fd57f415f2c3c3" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a41d6f58dce195d0c2854c359e06df80d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a45bb69090f017ca5dfe1926032ca2e14" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>Invalid</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a41aa56b49dfc5172c3df3d93585e701f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a821abaa0161d790a237a5d7e505fae59" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>Ok</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1a9a8eb99318268f7a43b43f813f43c4a8" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>Unsupported</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1aedf558694417b06d952c382de1d3bbd2" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CaptureScreenshotMenuItem" kind="class" language="C++" prot="public">
+    <compoundname>MR::CaptureScreenshotMenuItem</compoundname>
+    <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1CaptureScreenshotMenuItem_1aed6f9d3b2ddcf1f626ee1d3e024da391" prot="private" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::CaptureScreenshotMenuItem::resolution_</definition>
+        <argsstring></argsstring>
+        <name>resolution_</name>
+        <qualifiedname>MR::CaptureScreenshotMenuItem::resolution_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="102" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1CaptureScreenshotMenuItem_1af48e19e8b78c45da3385e9c89be0843b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::CaptureScreenshotMenuItem::transparentBg_</definition>
+        <argsstring></argsstring>
+        <name>transparentBg_</name>
+        <qualifiedname>MR::CaptureScreenshotMenuItem::transparentBg_</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="103" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CaptureScreenshotMenuItem_1a6e4d5abb53a5914e552419d36d08880c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::CaptureScreenshotMenuItem::CaptureScreenshotMenuItem</definition>
+        <argsstring>()</argsstring>
+        <name>CaptureScreenshotMenuItem</name>
+        <qualifiedname>MR::CaptureScreenshotMenuItem::CaptureScreenshotMenuItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="98" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CaptureScreenshotMenuItem_1a4a5e3c289d1d3b62a2a24aa4ff792400" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::CaptureScreenshotMenuItem::drawDialog</definition>
+        <argsstring>(ImGuiContext *) override</argsstring>
+        <name>drawDialog</name>
+        <qualifiedname>MR::CaptureScreenshotMenuItem::drawDialog</qualifiedname>
+        <reimplements refid="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26">drawDialog</reimplements>
+        <param>
+          <type>ImGuiContext *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="99" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CaptureScreenshotMenuItem_1ac4b0cdb8632f4960672d36407fae15e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::CaptureScreenshotMenuItem::blocking</definition>
+        <argsstring>() const override</argsstring>
+        <name>blocking</name>
+        <qualifiedname>MR::CaptureScreenshotMenuItem::blocking</qualifiedname>
+        <reimplements refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplements>
+        <briefdescription>
+<para>true if this item is blocking (only one blocking item can be active at once) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="100" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::CaptureScreenshotMenuItem</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="8">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="6">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="9">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::CaptureScreenshotMenuItem</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="9">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="7">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="10">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="96" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>action</name></member>
+      <member refid="classMR_1_1CaptureScreenshotMenuItem_1ac4b0cdb8632f4960672d36407fae15e8" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>blocking</name></member>
+      <member refid="classMR_1_1CaptureScreenshotMenuItem_1a6e4d5abb53a5914e552419d36d08880c" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>CaptureScreenshotMenuItem</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>checkStringMask</name></member>
+      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>connect</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>dialogIsOpen</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>dialogIsOpen_</name></member>
+      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>disconnect</name></member>
+      <member refid="classMR_1_1CaptureScreenshotMenuItem_1a4a5e3c289d1d3b62a2a24aa4ff792400" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>drawDialog</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>dropItems</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>dropList_</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>enable</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getTab</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getTabName</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getTooltip</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>init</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>isActive</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>isEnabled</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>isEnabled_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>MultiListenerBase</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>name</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>onDisable_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>onEnable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>onPluginDisable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>onPluginEnable_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>plugin_name</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>PluginParent</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>preDrawUpdate</name></member>
+      <member refid="classMR_1_1CaptureScreenshotMenuItem_1aed6f9d3b2ddcf1f626ee1d3e024da391" prot="private" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>resolution_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>setUIName</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>shouldClose_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>sortString</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>StateBasePlugin</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>tab_</name></member>
+      <member refid="classMR_1_1CaptureScreenshotMenuItem_1af48e19e8b78c45da3385e9c89be0843b" prot="private" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>transparentBg_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>type</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>type_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>uiName</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>UINameSuffix</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>updateSelection</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>viewer</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~IPluginUpdate</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~MultiListener</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~StateBasePlugin</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~StateListenerPlugin</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

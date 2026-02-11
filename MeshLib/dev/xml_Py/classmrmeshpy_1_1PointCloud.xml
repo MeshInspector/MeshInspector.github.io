@@ -1,0 +1,853 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointCloud" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointCloud</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointCloud_1a715083a199a7953ed893659d810ba27a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointCloud::_offsetof_normals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normals</name>
+        <qualifiedname>mrmeshpy.PointCloud._offsetof_normals</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointCloud_1aa7c521cfc7287f0ea677037b7c1b536d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointCloud::_offsetof_points</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_points</name>
+        <qualifiedname>mrmeshpy.PointCloud._offsetof_points</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointCloud_1a1cd92c7173650221e972bcd66915ff83" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointCloud::_offsetof_validPoints</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_validPoints</name>
+        <qualifiedname>mrmeshpy.PointCloud._offsetof_validPoints</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44279" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a4a58ea76bcf4a51bfcb1fce9bbb90ee0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointCloud.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44282" bodyend="44283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a9e232bbe913e4f4324590abd3e73d1a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointCloud.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointCloud.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44286" bodyend="44287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a9e232bbe913e4f4324590abd3e73d1a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.PointCloud.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointCloud.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44290" bodyend="44291"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1aa2f848dd7a5e46e9bd2fa378c093f916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44293" bodyend="44294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a86e40c6a1001156cfa613a0235a2cece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.__init__</definition>
+        <argsstring>(self, PointCloud arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44296" bodyend="44299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1ad2233bcc93efae8cf8fa1ca7f4da0456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.addPartByMask</definition>
+        <argsstring>(self, PointCloud from_, VertBitSet fromVerts, CloudPartMapping outMap=..., VertCoords extNormals=None)</argsstring>
+        <name>addPartByMask</name>
+        <qualifiedname>mrmeshpy.PointCloud.addPartByMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>from_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>fromVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref></type>
+          <declname>outMap</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>extNormals</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends points (and normals if it possible) (from) in addition to this points
+if this obj have normals and from obj has not it then don&apos;t do anything
+\\param extNormals if given then they will be copied instead of from.normals
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44300" bodyend="44305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a8884527c29d8dd443384b53c12dc0682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PointCloud.addPoint</definition>
+        <argsstring>(self, Vector3f point)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>mrmeshpy.PointCloud.addPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends a point and returns its VertId
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44307" bodyend="44310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1aa878b459bd7d49cee2241f959fd097b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PointCloud.addPoint</definition>
+        <argsstring>(self, Vector3f point, Vector3f normal)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>mrmeshpy.PointCloud.addPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends a point with normal and returns its VertId
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44312" bodyend="44315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a9b8a38f17ed5a58b8cfb0517e8ecae4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointCloud.calcNumValidPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>calcNumValidPoints</name>
+        <qualifiedname>mrmeshpy.PointCloud.calcNumValidPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the total number of valid points in the cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44316" bodyend="44319"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1ab19d39d0e1c178b3c4ef540b9a1ba065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.PointCloud.computeBoundingBox</definition>
+        <argsstring>(self, AffineXf3f toWorld=None)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>mrmeshpy.PointCloud.computeBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>toWorld</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>passes through all valid points and finds the minimal bounding box containing all of them;
+if toWorld transformation is given then returns minimal bounding box in world space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44321" bodyend="44325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a8115f7b60fa86f55541a95e1ff9807f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.PointCloud.computeBoundingBox</definition>
+        <argsstring>(self, VertBitSet region, AffineXf3f toWorld=None)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>mrmeshpy.PointCloud.computeBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>toWorld</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>passes through all given vertices (or all valid vertices if region == null) and finds the minimal bounding box containing all of them
+if toWorld transformation is given then returns minimal bounding box in world space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44327" bodyend="44331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a8c18479617ee5940f39f8d9b3d08ac29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointCloud.findCenterFromBBox</definition>
+        <argsstring>(self)</argsstring>
+        <name>findCenterFromBBox</name>
+        <qualifiedname>mrmeshpy.PointCloud.findCenterFromBBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes bounding box and returns its center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44332" bodyend="44335"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a17a1809f318bc64f9fe02d2b36993d9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointCloud.findCenterFromPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>findCenterFromPoints</name>
+        <qualifiedname>mrmeshpy.PointCloud.findCenterFromPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes average position of all valid points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44336" bodyend="44339"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a0d80cfeb466c392db56bff91557533b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.flipOrientation</definition>
+        <argsstring>(self, VertBitSet region=None)</argsstring>
+        <name>flipOrientation</name>
+        <qualifiedname>mrmeshpy.PointCloud.flipOrientation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>flip orientation (normals) of given points (or all valid points is nullptr)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44340" bodyend="44343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a6ac282b3c5501fb7bf8edbc42b2bd77f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref></type>
+        <definition> AABBTreePoints mrmeshpy.PointCloud.getAABBTree</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAABBTree</name>
+        <qualifiedname>mrmeshpy.PointCloud.getAABBTree</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached aabb-tree for this point cloud, creating it if it did not exist in a thread-safe manner
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44344" bodyend="44347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a0ab3fd1596473aa28d6040547e7b7048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref></type>
+        <definition> AABBTreePoints mrmeshpy.PointCloud.getAABBTreeNotCreate</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAABBTreeNotCreate</name>
+        <qualifiedname>mrmeshpy.PointCloud.getAABBTreeNotCreate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached aabb-tree for this point cloud, but does not create it if it did not exist
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44348" bodyend="44351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a54143361fd3b554e7b2ac5471293c320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.PointCloud.getBoundingBox</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>mrmeshpy.PointCloud.getBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the minimal bounding box containing all valid vertices (implemented via getAABBTree())
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44352" bodyend="44355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a4ef04602fc4b4570d81276ad19935eb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+        <definition> std_vector_Id_VertTag mrmeshpy.PointCloud.getLexicographicalOrder</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLexicographicalOrder</name>
+        <qualifiedname>mrmeshpy.PointCloud.getLexicographicalOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44356" bodyend="44359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a645db3f95087f007182ea1a4554e65de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PointCloud.getVertIds</definition>
+        <argsstring>(self, VertBitSet region)</argsstring>
+        <name>getVertIds</name>
+        <qualifiedname>mrmeshpy.PointCloud.getVertIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if region pointer is not null then converts it in reference, otherwise returns all valid points in the cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44360" bodyend="44363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a943837f6fc740cce8ba3e22fe1827ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointCloud.hasNormals</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasNormals</name>
+        <qualifiedname>mrmeshpy.PointCloud.hasNormals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if there is a normal for each point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44364" bodyend="44367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1acc98a0b170aa18020318bb8f8a8605cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointCloud.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.PointCloud.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44368" bodyend="44371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1acf845dbd3aa2ff71ae51238f253f8d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.invalidateCaches</definition>
+        <argsstring>(self)</argsstring>
+        <name>invalidateCaches</name>
+        <qualifiedname>mrmeshpy.PointCloud.invalidateCaches</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Invalidates caches (e.g. aabb-tree) after a change in point cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44372" bodyend="44375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a490b143eb3c4b3a1c4203c65a4fdc410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.mirror</definition>
+        <argsstring>(self, Plane3f plane)</argsstring>
+        <name>mirror</name>
+        <qualifiedname>mrmeshpy.PointCloud.mirror</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+          <declname>plane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reflects the points from a given plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44376" bodyend="44379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1abad135ceb97f77b6fa9716df1f56b33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointCloud.pack</definition>
+        <argsstring>(self, VertMap outNew2Old=None)</argsstring>
+        <name>pack</name>
+        <qualifiedname>mrmeshpy.PointCloud.pack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outNew2Old</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved;
+returns false if the cloud was packed before the call and nothing has been changed;
+if pack is done optionally returns mappings: new.id -&gt; old.id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44381" bodyend="44386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a0b6ffbd591fab78a902f2d8daa21a62e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBMap" kindref="compound">VertBMap</ref></type>
+        <definition> VertBMap mrmeshpy.PointCloud.pack</definition>
+        <argsstring>(self, Reorder reoder)</argsstring>
+        <name>pack</name>
+        <qualifiedname>mrmeshpy.PointCloud.pack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Reorder" kindref="compound">Reorder</ref></type>
+          <declname>reoder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tightly packs all arrays eliminating invalid points, reorders valid points according to given strategy;
+\\return points mapping: old -&gt; new
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44388" bodyend="44392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1aaf28b2aad97713fad7d07fe07fb4f69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.transform</definition>
+        <argsstring>(self, AffineXf3f xf, VertBitSet region=None)</argsstring>
+        <name>transform</name>
+        <qualifiedname>mrmeshpy.PointCloud.transform</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>applies given transformation to specified points and corresponding transformation to their normals if present;
+if region is nullptr, all valid points are modified
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44393" bodyend="44397"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a23972a978f8a795836fd5e38807a05ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.PointCloud.normals</definition>
+        <argsstring>(self)</argsstring>
+        <name>normals</name>
+        <qualifiedname>mrmeshpy.PointCloud.normals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unit normal directions of points (can be empty if no normals are known)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44399" bodyend="44402"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a0591486b7bf01ea95aea10217793ac6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.normals</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>normals</name>
+        <qualifiedname>mrmeshpy.PointCloud.normals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44404" bodyend="44405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1acdb67f6989ea8100aac560a5bcc83e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.PointCloud.points</definition>
+        <argsstring>(self)</argsstring>
+        <name>points</name>
+        <qualifiedname>mrmeshpy.PointCloud.points</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>coordinates of points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44407" bodyend="44410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a2dc299344e09bed9a7da1f5b9b7767b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.points</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>points</name>
+        <qualifiedname>mrmeshpy.PointCloud.points</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44412" bodyend="44413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a2f4c4855c5051fd1fc2918cfad3d7a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PointCloud.validPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>validPoints</name>
+        <qualifiedname>mrmeshpy.PointCloud.validPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only points and normals corresponding to set bits here are valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44415" bodyend="44418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointCloud_1a813b622257c03e198e33d69198f69d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointCloud.validPoints</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>validPoints</name>
+        <qualifiedname>mrmeshpy.PointCloud.validPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44420" bodyend="44421"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointCloud
+Aliases:  std_shared_ptr_const_PointCloud, std_shared_ptr_PointCloud
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointCloud</label>
+        <link refid="classmrmeshpy_1_1PointCloud"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_normals</edgelabel>
+          <edgelabel>_offsetof_points</edgelabel>
+          <edgelabel>_offsetof_validPoints</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44272" bodyend="44421"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointCloud_1a4a58ea76bcf4a51bfcb1fce9bbb90ee0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1aa2f848dd7a5e46e9bd2fa378c093f916" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a86e40c6a1001156cfa613a0235a2cece" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a715083a199a7953ed893659d810ba27a" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>_offsetof_normals</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1aa7c521cfc7287f0ea677037b7c1b536d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>_offsetof_points</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a1cd92c7173650221e972bcd66915ff83" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>_offsetof_validPoints</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1ad2233bcc93efae8cf8fa1ca7f4da0456" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>addPartByMask</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a8884527c29d8dd443384b53c12dc0682" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>addPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1aa878b459bd7d49cee2241f959fd097b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>addPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a9b8a38f17ed5a58b8cfb0517e8ecae4d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>calcNumValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1ab19d39d0e1c178b3c4ef540b9a1ba065" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>computeBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a8115f7b60fa86f55541a95e1ff9807f4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>computeBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a8c18479617ee5940f39f8d9b3d08ac29" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>findCenterFromBBox</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a17a1809f318bc64f9fe02d2b36993d9f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>findCenterFromPoints</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a0d80cfeb466c392db56bff91557533b3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>flipOrientation</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a6ac282b3c5501fb7bf8edbc42b2bd77f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>getAABBTree</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a0ab3fd1596473aa28d6040547e7b7048" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a54143361fd3b554e7b2ac5471293c320" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a4ef04602fc4b4570d81276ad19935eb3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>getLexicographicalOrder</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a645db3f95087f007182ea1a4554e65de" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>getVertIds</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a943837f6fc740cce8ba3e22fe1827ea6" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>hasNormals</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1acc98a0b170aa18020318bb8f8a8605cb" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1acf845dbd3aa2ff71ae51238f253f8d64" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>invalidateCaches</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a490b143eb3c4b3a1c4203c65a4fdc410" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>mirror</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a23972a978f8a795836fd5e38807a05ff" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>normals</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a0591486b7bf01ea95aea10217793ac6f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>normals</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a9e232bbe913e4f4324590abd3e73d1a5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a9e232bbe913e4f4324590abd3e73d1a5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1abad135ceb97f77b6fa9716df1f56b33f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>pack</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a0b6ffbd591fab78a902f2d8daa21a62e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>pack</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1acdb67f6989ea8100aac560a5bcc83e04" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>points</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a2dc299344e09bed9a7da1f5b9b7767b2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>points</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1aaf28b2aad97713fad7d07fe07fb4f69c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>transform</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a2f4c4855c5051fd1fc2918cfad3d7a2f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>validPoints</name></member>
+      <member refid="classmrmeshpy_1_1PointCloud_1a813b622257c03e198e33d69198f69d34" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>validPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

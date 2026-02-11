@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ModalDialogSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ModalDialogSettings</compoundname>
+    <includes refid="MRModalDialog_8h" local="no">MRModalDialog.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1aff877b60069cbba358ec18108751d01b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ModalDialogSettings::windowWidth</definition>
+        <argsstring></argsstring>
+        <name>windowWidth</name>
+        <qualifiedname>MR::ModalDialogSettings::windowWidth</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+<para>Dialog window width. If the value is zero or negative, defaults to cModalWindowWidth * <ref refid="namespaceMR_1_1UI_1a5d2fd1d58ef16bcced4cfefc67d2c023" kindref="member">UI::scale()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1af4bb1e08280d27647734c03a24b716e5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ModalDialogSettings::headline</definition>
+        <argsstring></argsstring>
+        <name>headline</name>
+        <qualifiedname>MR::ModalDialogSettings::headline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Render a centered headline text at the beginning of the dialog. The <ref refid="classMR_1_1RibbonFontManager_1aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0" kindref="member">RibbonFontManager::FontType::Headline</ref> font is used if exists. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="18" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1aa6a1e75f223b26a6dc2ad1ddd9771ab4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ModalDialogSettings::closeButton</definition>
+        <argsstring></argsstring>
+        <name>closeButton</name>
+        <qualifiedname>MR::ModalDialogSettings::closeButton</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Add a close button next in the top right corner of the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1aa65f2b8b59737180b99cc277177d4ff5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ModalDialogSettings::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>MR::ModalDialogSettings::text</qualifiedname>
+        <briefdescription>
+<para>Render a centered text under the headline. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1a6f27fa29dcdfba807ff60ced88467e51" prot="public" static="no" mutable="no">
+        <type>bool *</type>
+        <definition>bool* MR::ModalDialogSettings::dontShowAgain</definition>
+        <argsstring></argsstring>
+        <name>dontShowAgain</name>
+        <qualifiedname>MR::ModalDialogSettings::dontShowAgain</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If set, add a &quot;Don&apos;t show the dialog again&quot; checkbox at the end of the dialog. The checkbox value is bound to the field value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1a26096cca550b1692d761f787646e25c7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ModalDialogSettings::closeOnClickOutside</definition>
+        <argsstring></argsstring>
+        <name>closeOnClickOutside</name>
+        <qualifiedname>MR::ModalDialogSettings::closeOnClickOutside</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If set, close the dialog on mouse click outside of it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModalDialogSettings_1a06ef8b7cc8cd092df38f3573cb9ccd16" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>std::function&lt;void ()&gt; MR::ModalDialogSettings::onWindowClose</definition>
+        <argsstring></argsstring>
+        <name>onWindowClose</name>
+        <qualifiedname>MR::ModalDialogSettings::onWindowClose</qualifiedname>
+        <briefdescription>
+<para>Callback for the window close event. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="29" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Settings for <ref refid="classMR_1_1ModalDialog" kindref="compound">ModalDialog</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ModalDialogSettings_1aa6a1e75f223b26a6dc2ad1ddd9771ab4" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>closeButton</name></member>
+      <member refid="structMR_1_1ModalDialogSettings_1a26096cca550b1692d761f787646e25c7" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>closeOnClickOutside</name></member>
+      <member refid="structMR_1_1ModalDialogSettings_1a6f27fa29dcdfba807ff60ced88467e51" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>dontShowAgain</name></member>
+      <member refid="structMR_1_1ModalDialogSettings_1af4bb1e08280d27647734c03a24b716e5" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>headline</name></member>
+      <member refid="structMR_1_1ModalDialogSettings_1a06ef8b7cc8cd092df38f3573cb9ccd16" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>onWindowClose</name></member>
+      <member refid="structMR_1_1ModalDialogSettings_1aa65f2b8b59737180b99cc277177d4ff5" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>text</name></member>
+      <member refid="structMR_1_1ModalDialogSettings_1aff877b60069cbba358ec18108751d01b" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>windowWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

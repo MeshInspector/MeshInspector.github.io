@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1abc55c0b4eac549399ae6169a92a21954" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolynomialWrapper__float" kindref="compound">PolynomialWrapper_float</ref></type>
+        <definition> PolynomialWrapper_float mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getBestPolynomial</definition>
+        <argsstring>(std_vector_float values, int degree)</argsstring>
+        <name>getBestPolynomial</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getBestPolynomial</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33038" bodyend="33039"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a2e89ade87537f8229a1aa501c5092748" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getDerivatives</definition>
+        <argsstring>(std_vector_float result, std_vector_float values)</argsstring>
+        <name>getDerivatives</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getDerivatives</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get derivatives from result of `getValues`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33041" bodyend="33044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a3738f0949e0bb98dc374f2e1c9e8d68d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.indexFromPseudoIndex</definition>
+        <argsstring>(float pseudoIndex, int count)</argsstring>
+        <name>indexFromPseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.indexFromPseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pseudoIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33046" bodyend="33047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ae826bfee4c3dd3425d86b5e6101d2445" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.pseudoIndex</definition>
+        <argsstring>(float index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.pseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get a pseudo-index for a zero-based point index in a zero-centered row of `count` points
+Pseudo-index is a signed number; for whole index, is is whole or half-whole
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33050" bodyend="33054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a2e9d92a3ecfe5c932739b43844210785" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.pseudoIndex</definition>
+        <argsstring>(int index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.pseudoIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33057" bodyend="33058"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a2c274ade158b12163fb1558156a5b80f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.__init__</definition>
+        <argsstring>(self, Mesh mesh, AffineXf3f meshXf, VdbVolume volume, AffineXf3f volumeXf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>meshXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>volumeXf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33060" bodyend="33061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a4e292e15ee64598681e3881889cd84af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.__init__</definition>
+        <argsstring>(self, MeshOnVoxelsT_Mesh_VdbVolume arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume" kindref="compound">MeshOnVoxelsT_Mesh_VdbVolume</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33063" bodyend="33066"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a4f7db6d4a229bbd81d02d3686df58707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.__init__</definition>
+        <argsstring>(self, MeshOnVoxelsT_Mesh_VdbVolume other)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume" kindref="compound">MeshOnVoxelsT_Mesh_VdbVolume</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33068" bodyend="33069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1aaec4bad15c0829fedbc778c82d775e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getOffsetVector</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>getOffsetVector</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getOffsetVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get offset vector (mesh normal for a vertex with `voxelSize` length)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33070" bodyend="33073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a1c59aa1d5fb72f1448b90ae51551b917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getPoints</definition>
+        <argsstring>(self, std_vector_Vector3_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get row of points with `offset` stride
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33074" bodyend="33077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1af0a3d98722371a653a48686a98c395fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getValue</definition>
+        <argsstring>(self, Vector3f pos)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Volume value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33078" bodyend="33081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ac69a6f0cb3b95d55c09aeb67615a6244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getValues</definition>
+        <argsstring>(self, std_vector_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <name>getValues</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.getValues</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get volume values for a row of points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33082" bodyend="33085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a3a90fd7d2d398f97f05b86311a2ca1d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Access to base data
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33086" bodyend="33089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ab4605608cb9dc30dc0d956ccf8700725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.numVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>numVerts</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.numVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cached number of valid vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33090" bodyend="33093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a55f69ea652076153b312de77ffaad2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.point</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Vertex position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33094" bodyend="33097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ace10b17fb15c4c20b8cd8083abc1a083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.volume</definition>
+        <argsstring>(self)</argsstring>
+        <name>volume</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.volume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33098" bodyend="33099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a5de2585f75e828991a68e5e1d70bc5be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Voxel size as scalar
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33100" bodyend="33103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ae4750857158b5bc19003a3c933e3d053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Transformation mesh to volume
+All points are in voxels volume space, unless otherwise is implied
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33105" bodyend="33109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ab1008888849fde3b4c625588dba7b827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xf</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33111" bodyend="33112"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a0b71fe0d5633ab688bb1b1d862ab22ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xfInv</definition>
+        <argsstring>(self)</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33114" bodyend="33115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1aa16ad4b39090a3a9bdfa3dc6c8f8fb24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xfInv</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_VdbVolume.xfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33117" bodyend="33118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshOnVoxelsT&lt;MR::Mesh, MR::VdbVolume&gt;
+Aliases:  MeshOnVoxelsVdb
+
+Helper class to organize mesh and voxels volume access and build point sequences
+\\note this class is not thread-safe but accessing same volume from different instances is ok
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33029" bodyend="33118"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a2c274ade158b12163fb1558156a5b80f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a4e292e15ee64598681e3881889cd84af" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a4f7db6d4a229bbd81d02d3686df58707" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1abc55c0b4eac549399ae6169a92a21954" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>getBestPolynomial</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a2e89ade87537f8229a1aa501c5092748" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>getDerivatives</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1aaec4bad15c0829fedbc778c82d775e66" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>getOffsetVector</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a1c59aa1d5fb72f1448b90ae51551b917" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>getPoints</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1af0a3d98722371a653a48686a98c395fd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>getValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ac69a6f0cb3b95d55c09aeb67615a6244" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>getValues</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a3738f0949e0bb98dc374f2e1c9e8d68d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>indexFromPseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a3a90fd7d2d398f97f05b86311a2ca1d2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ab4605608cb9dc30dc0d956ccf8700725" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>numVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a55f69ea652076153b312de77ffaad2f2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ae826bfee4c3dd3425d86b5e6101d2445" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>pseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a2e9d92a3ecfe5c932739b43844210785" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>pseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ace10b17fb15c4c20b8cd8083abc1a083" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>volume</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a5de2585f75e828991a68e5e1d70bc5be" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ae4750857158b5bc19003a3c933e3d053" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1ab1008888849fde3b4c625588dba7b827" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1a0b71fe0d5633ab688bb1b1d862ab22ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>xfInv</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__VdbVolume_1aa16ad4b39090a3a9bdfa3dc6c8f8fb24" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_VdbVolume</scope><name>xfInv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

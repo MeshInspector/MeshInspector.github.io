@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GCommand" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GCommand</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a57d94deb18636bb92564638e16da1af1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_arcCenter</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_arcCenter</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_arcCenter</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a68a7e130309f65d713f00b3f98917eb3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_arcPlane</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_arcPlane</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_arcPlane</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a0731369b8d282471cd8bba142caaf229" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_feed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_feed</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_feed</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a53b3c83d435d835bd7ca47df940e43cc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_type</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_type</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_type</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a5e251e62f812c95943e82e94b1a0ec5f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_x</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_x</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_x</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a619f08a1c3bc59a0177302fdce517f2e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_y</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_y</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_y</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GCommand_1a78f0721098eeeff5f853cd1cdf552253" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GCommand::_offsetof_z</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_z</name>
+        <qualifiedname>mrmeshpy.GCommand._offsetof_z</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21324" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1a68637c22fbd31266ea92e89e73032c18" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GCommand.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21329" bodyend="21330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1ae66b87ab1bc0467b989fa10ab60c6901" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GCommand" kindref="compound">GCommand</ref></type>
+        <definition> GCommand mrmeshpy.GCommand.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GCommand.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21333" bodyend="21334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1ae66b87ab1bc0467b989fa10ab60c6901" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GCommand" kindref="compound">GCommand</ref></type>
+        <definition> GCommand mrmeshpy.GCommand.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GCommand.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21337" bodyend="21338"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1af9cdf4f79de99fd1b894ba69fd6b5ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GCommand.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21340" bodyend="21341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1aa95d41f7c238e154dfadb728ce2657ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.__init__</definition>
+        <argsstring>(self, GCommand arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GCommand.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GCommand" kindref="compound">GCommand</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21343" bodyend="21346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1a0051af513eeedbf466b8a26082298fe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.__init__</definition>
+        <argsstring>(self, MoveType type, ArcPlane arcPlane, float feed, float x, float y, float z, Vector3f arcCenter)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GCommand.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MoveType" kindref="compound">MoveType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ArcPlane" kindref="compound">ArcPlane</ref></type>
+          <declname>arcPlane</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>feed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arcCenter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21348" bodyend="21351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1aebc27346aa33019d8b949423b3b2aa5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.GCommand.arcCenter</definition>
+        <argsstring>(self)</argsstring>
+        <name>arcCenter</name>
+        <qualifiedname>mrmeshpy.GCommand.arcCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if moveType is ArcCW or ArcCCW center of the arc shoult be specified
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21353" bodyend="21356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1a09a9c88fca65cf66ebdb6a6741f9e1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.arcCenter</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>arcCenter</name>
+        <qualifiedname>mrmeshpy.GCommand.arcCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21358" bodyend="21359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1a52b15203cbd0e796c36b225911b69a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ArcPlane" kindref="compound">ArcPlane</ref></type>
+        <definition> ArcPlane mrmeshpy.GCommand.arcPlane</definition>
+        <argsstring>(self)</argsstring>
+        <name>arcPlane</name>
+        <qualifiedname>mrmeshpy.GCommand.arcPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Place for comment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21361" bodyend="21364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1ab6696fd2dcf1d1c7b3acec72c0dc2a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.arcPlane</definition>
+        <argsstring>(self, ArcPlane arg1)</argsstring>
+        <name>arcPlane</name>
+        <qualifiedname>mrmeshpy.GCommand.arcPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ArcPlane" kindref="compound">ArcPlane</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21366" bodyend="21367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1af6fa004fb884c3e7563b4873c5d93c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.GCommand.feed</definition>
+        <argsstring>(self)</argsstring>
+        <name>feed</name>
+        <qualifiedname>mrmeshpy.GCommand.feed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>feedrate for move
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21369" bodyend="21372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1aedaa793033a936bdd059af25224487cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.feed</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>feed</name>
+        <qualifiedname>mrmeshpy.GCommand.feed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21374" bodyend="21375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1ae81b79f13e2d6188fc3994f659686d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MoveType" kindref="compound">MoveType</ref></type>
+        <definition> MoveType mrmeshpy.GCommand.type</definition>
+        <argsstring>(self)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.GCommand.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>type of command GX (G0, G1, etc). By default - G1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21377" bodyend="21380"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1a155722aa95a04e8c33760cd3590a3d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.type</definition>
+        <argsstring>(self, MoveType arg1)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.GCommand.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MoveType" kindref="compound">MoveType</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21382" bodyend="21383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1a4098553946c0e3edcb478c8cb146ea41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.GCommand.x</definition>
+        <argsstring>(self)</argsstring>
+        <name>x</name>
+        <qualifiedname>mrmeshpy.GCommand.x</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>coordinates of destination point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21385" bodyend="21388"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GCommand_1abe83ed6b932d9cf4aff4abf42611c110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GCommand.x</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>x</name>
+        <qualifiedname>mrmeshpy.GCommand.x</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21390" bodyend="21391"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GCommand
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GCommand</label>
+        <link refid="classmrmeshpy_1_1GCommand"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_arcCenter</edgelabel>
+          <edgelabel>_offsetof_arcPlane</edgelabel>
+          <edgelabel>_offsetof_feed</edgelabel>
+          <edgelabel>_offsetof_type</edgelabel>
+          <edgelabel>_offsetof_x</edgelabel>
+          <edgelabel>_offsetof_y</edgelabel>
+          <edgelabel>_offsetof_z</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21314" bodyend="21391"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GCommand_1a68637c22fbd31266ea92e89e73032c18" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1af9cdf4f79de99fd1b894ba69fd6b5ecb" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1aa95d41f7c238e154dfadb728ce2657ed" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a0051af513eeedbf466b8a26082298fe5" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a57d94deb18636bb92564638e16da1af1" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_arcCenter</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a68a7e130309f65d713f00b3f98917eb3" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_arcPlane</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a0731369b8d282471cd8bba142caaf229" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_feed</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a53b3c83d435d835bd7ca47df940e43cc" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_type</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a5e251e62f812c95943e82e94b1a0ec5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_x</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a619f08a1c3bc59a0177302fdce517f2e" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_y</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a78f0721098eeeff5f853cd1cdf552253" prot="protected" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>_offsetof_z</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1aebc27346aa33019d8b949423b3b2aa5c" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>arcCenter</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a09a9c88fca65cf66ebdb6a6741f9e1d4" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>arcCenter</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a52b15203cbd0e796c36b225911b69a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>arcPlane</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1ab6696fd2dcf1d1c7b3acec72c0dc2a25" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>arcPlane</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1af6fa004fb884c3e7563b4873c5d93c2d" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>feed</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1aedaa793033a936bdd059af25224487cf" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>feed</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1ae66b87ab1bc0467b989fa10ab60c6901" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1ae66b87ab1bc0467b989fa10ab60c6901" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1ae81b79f13e2d6188fc3994f659686d7c" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>type</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a155722aa95a04e8c33760cd3590a3d3c" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>type</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1a4098553946c0e3edcb478c8cb146ea41" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>x</name></member>
+      <member refid="classmrmeshpy_1_1GCommand_1abe83ed6b932d9cf4aff4abf42611c110" prot="public" virt="non-virtual"><scope>mrmeshpy::GCommand</scope><name>x</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

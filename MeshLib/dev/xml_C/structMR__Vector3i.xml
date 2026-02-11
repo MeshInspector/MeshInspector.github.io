@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Vector3i" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Vector3i</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRVector3.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Vector3i_1a7aef790883b4f51b0418ea96979f7054" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_Vector3i::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR_Vector3i::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" line="64" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Vector3i_1a869abe23626ddb85ec4cdbb6e36dcad6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_Vector3i::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR_Vector3i::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" line="65" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Vector3i_1a7ced15e6b88f42e49930db4fb28ef34c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_Vector3i::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR_Vector3i::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" line="66" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Vector3i</computeroutput>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector3.h" bodystart="63" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structMR__Vector3i_1a7aef790883b4f51b0418ea96979f7054" prot="public" virt="non-virtual"><scope>MR_Vector3i</scope><name>x</name></member>
+      <member refid="structMR__Vector3i_1a869abe23626ddb85ec4cdbb6e36dcad6" prot="public" virt="non-virtual"><scope>MR_Vector3i</scope><name>y</name></member>
+      <member refid="structMR__Vector3i_1a7ced15e6b88f42e49930db4fb28ef34c" prot="public" virt="non-virtual"><scope>MR_Vector3i</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

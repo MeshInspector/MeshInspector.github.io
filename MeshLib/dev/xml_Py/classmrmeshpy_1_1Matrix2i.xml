@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Matrix2i" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Matrix2i</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Matrix2i_1ac0c501af6aaaa20641ee78e1da7d05ea" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Matrix2i::_offsetof_x</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_x</name>
+        <qualifiedname>mrmeshpy.Matrix2i._offsetof_x</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Matrix2i_1aef76cc574e8565f25d6db85ff2413118" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Matrix2i::_offsetof_y</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_y</name>
+        <qualifiedname>mrmeshpy.Matrix2i._offsetof_y</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27910" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a5cc9569822ef2a4580da84448fc33040" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix2i.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27914" bodyend="27915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a155ee838b3fcaa4bf643c0528d66ca98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.fromColumns</definition>
+        <argsstring>(Vector2i x, Vector2i y)</argsstring>
+        <name>fromColumns</name>
+        <qualifiedname>mrmeshpy.Matrix2i.fromColumns</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs a matrix from its 2 columns;
+use this method to get the matrix that transforms basis vectors ( plusX, plusY ) into vectors ( x, y ) respectively
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27917" bodyend="27921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1acbbde03a0bbbf8f2e980cd3f88aff20f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.fromRows</definition>
+        <argsstring>(Vector2i x, Vector2i y)</argsstring>
+        <name>fromRows</name>
+        <qualifiedname>mrmeshpy.Matrix2i.fromRows</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs a matrix from its 2 rows
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27923" bodyend="27926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a267e1b39be4a7a677b77ea82c6aaf860" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>mrmeshpy.Matrix2i.identity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27928" bodyend="27929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix2i.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27932" bodyend="27933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix2i.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27936" bodyend="27937"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a7152be28b2743a8bbf8d3dab965a210a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.scale</definition>
+        <argsstring>(int s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>mrmeshpy.Matrix2i.scale</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns a matrix that scales uniformly
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27940" bodyend="27943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a4b46979688476460ac24bcf755e1e6fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.scale</definition>
+        <argsstring>(int sx, int sy)</argsstring>
+        <name>scale</name>
+        <qualifiedname>mrmeshpy.Matrix2i.scale</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>sx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns a matrix that has its own scale along each axis
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27946" bodyend="27949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1af2d27b680e6870c0af941e0e6541771e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.scale</definition>
+        <argsstring>(Vector2i s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>mrmeshpy.Matrix2i.scale</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27952" bodyend="27953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a67d493489eed7cc7a2c41f88ce0cc568" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <qualifiedname>mrmeshpy.Matrix2i.zero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27955" bodyend="27956"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9fa115882ebc43a26bac45a4c8fb83cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__add__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__add__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__add__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27957" bodyend="27960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a0a4b9a47007e7127e2ee4de2a9ac7da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Matrix2i.__eq__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27961" bodyend="27962"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a06178da83d96200d1ea8fe7499b73cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.Matrix2i.__getitem__</definition>
+        <argsstring>(self, int row)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>row access
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27964" bodyend="27967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a06178da83d96200d1ea8fe7499b73cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.Matrix2i.__getitem__</definition>
+        <argsstring>(self, int row)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27969" bodyend="27970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a2c1e571560c8c6ddb9dd604f8b287b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__iadd__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27971" bodyend="27972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a2c9e08e14e47e49e5df2bbd2fd790eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__imatmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27973" bodyend="27974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a421f1b43a5e23febfd7e7c9f8e7782e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix2i.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27976" bodyend="27977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ac33459a11f1c865826e7dd3d5315208c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix2i.__init__</definition>
+        <argsstring>(self, Vector2i x, Vector2i y)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>initializes matrix from its 2 rows
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27979" bodyend="27982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a23b5d00d4c8fe3da1969424b8f5bc414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix2i.__init__</definition>
+        <argsstring>(self, Matrix2i arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27984" bodyend="27987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ad130520f9f52e1b8682030f31df8a1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__isub__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27988" bodyend="27989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a4776e109e1477e8ad11f2202d941cfc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__itruediv__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27990" bodyend="27991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a3aff3de3b019694d93a869fc8dfe69c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__mul__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27993" bodyend="27994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a84637e707bff2ca521b9d4d7cf831bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.Matrix2i.__mul__</definition>
+        <argsstring>(self, Vector2i b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>x = a * b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27996" bodyend="27999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ab44e064cee10b80b7abe4367ea912a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__mul__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>product of two matrices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28001" bodyend="28004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a42390eee27563b7961ef843ae18e36b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Matrix2i.__ne__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28005" bodyend="28006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1adcc49fe1d69e236c1e6c783441061701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Matrix2i.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28007" bodyend="28008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a4fe177f34f16d613bc532f6e3147c07d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Matrix2i.__rlshift__</definition>
+        <argsstring>(self, typing.Any mat)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28009" bodyend="28010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ac8f544a3f6be4e5e24c487c831b8b1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__rmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28011" bodyend="28012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a231c43034bd3cc4945602e350718cb49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Matrix2i.__rrshift__</definition>
+        <argsstring>(self, typing.Any mat)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28013" bodyend="28014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a6aaa0caa29fee8d4c3f6d3f8ae264774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix2i.__setitem__</definition>
+        <argsstring>(self, int arg0, Vector2i arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28015" bodyend="28016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a18147ba68f51819183ed7aacc456e8ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__sub__</definition>
+        <argsstring>(self, Matrix2i b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__sub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28017" bodyend="28018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ad7d97ce8ecb8923d39e029e479549145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.__truediv__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__truediv__</name>
+        <qualifiedname>mrmeshpy.Matrix2i.__truediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28019" bodyend="28020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a3063d6177235092a99d482711d5caf20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.Matrix2i.col</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>col</name>
+        <qualifiedname>mrmeshpy.Matrix2i.col</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>column access
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28021" bodyend="28024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ae8f42b43ad27acf455b0b12f8005a375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Matrix2i.det</definition>
+        <argsstring>(self)</argsstring>
+        <name>det</name>
+        <qualifiedname>mrmeshpy.Matrix2i.det</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes determinant of the matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28025" bodyend="28028"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a94832647f7d785383254f012d913262e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Matrix2i.norm</definition>
+        <argsstring>(self)</argsstring>
+        <name>norm</name>
+        <qualifiedname>mrmeshpy.Matrix2i.norm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28029" bodyend="28030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a8c14da0c756043ffb93f864c97c17170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Matrix2i.normSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>normSq</name>
+        <qualifiedname>mrmeshpy.Matrix2i.normSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>compute sum of squared matrix elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28031" bodyend="28034"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1aa4982faeac4a7ad5762cd7f7022c07a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Matrix2i.trace</definition>
+        <argsstring>(self)</argsstring>
+        <name>trace</name>
+        <qualifiedname>mrmeshpy.Matrix2i.trace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes trace of the matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28035" bodyend="28038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a885bb0a247b5643cfcf5d71426abbb9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.transposed</definition>
+        <argsstring>(self)</argsstring>
+        <name>transposed</name>
+        <qualifiedname>mrmeshpy.Matrix2i.transposed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes transposed matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28039" bodyend="28042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1af45a069536604c732e3a426bcb2e7d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.Matrix2i.x</definition>
+        <argsstring>(self)</argsstring>
+        <name>x</name>
+        <qualifiedname>mrmeshpy.Matrix2i.x</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>rows, identity matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28044" bodyend="28047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a32540810f3270a9299ee7c1a4a44d778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix2i.x</definition>
+        <argsstring>(self, Vector2i arg1)</argsstring>
+        <name>x</name>
+        <qualifiedname>mrmeshpy.Matrix2i.x</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28049" bodyend="28050"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Matrix2i
+Aliases:  Vector2_int_MatrixType
+
+arbitrary 2x2 matrix
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Matrix2i</label>
+        <link refid="classmrmeshpy_1_1Matrix2i"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_x</edgelabel>
+          <edgelabel>_offsetof_y</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27902" bodyend="28050"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a9fa115882ebc43a26bac45a4c8fb83cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a0a4b9a47007e7127e2ee4de2a9ac7da1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a06178da83d96200d1ea8fe7499b73cc7" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a06178da83d96200d1ea8fe7499b73cc7" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a2c1e571560c8c6ddb9dd604f8b287b55" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a2c9e08e14e47e49e5df2bbd2fd790eba" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a5cc9569822ef2a4580da84448fc33040" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a421f1b43a5e23febfd7e7c9f8e7782e3" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ac33459a11f1c865826e7dd3d5315208c" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a23b5d00d4c8fe3da1969424b8f5bc414" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ad130520f9f52e1b8682030f31df8a1bc" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a4776e109e1477e8ad11f2202d941cfc7" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a3aff3de3b019694d93a869fc8dfe69c3" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a84637e707bff2ca521b9d4d7cf831bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ab44e064cee10b80b7abe4367ea912a79" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a42390eee27563b7961ef843ae18e36b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1adcc49fe1d69e236c1e6c783441061701" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a4fe177f34f16d613bc532f6e3147c07d" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ac8f544a3f6be4e5e24c487c831b8b1c1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a231c43034bd3cc4945602e350718cb49" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a6aaa0caa29fee8d4c3f6d3f8ae264774" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a18147ba68f51819183ed7aacc456e8ff" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ad7d97ce8ecb8923d39e029e479549145" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__truediv__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ac0c501af6aaaa20641ee78e1da7d05ea" prot="protected" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>_offsetof_x</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1aef76cc574e8565f25d6db85ff2413118" prot="protected" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>_offsetof_y</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a3063d6177235092a99d482711d5caf20" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>col</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1ae8f42b43ad27acf455b0b12f8005a375" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>det</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a155ee838b3fcaa4bf643c0528d66ca98" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>fromColumns</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1acbbde03a0bbbf8f2e980cd3f88aff20f" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>fromRows</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a267e1b39be4a7a677b77ea82c6aaf860" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>identity</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a94832647f7d785383254f012d913262e" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>norm</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a8c14da0c756043ffb93f864c97c17170" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>normSq</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a7152be28b2743a8bbf8d3dab965a210a" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>scale</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a4b46979688476460ac24bcf755e1e6fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>scale</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1af2d27b680e6870c0af941e0e6541771e" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>scale</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1aa4982faeac4a7ad5762cd7f7022c07a6" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>trace</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a885bb0a247b5643cfcf5d71426abbb9b" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>transposed</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1af45a069536604c732e3a426bcb2e7d89" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>x</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a32540810f3270a9299ee7c1a4a44d778" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>x</name></member>
+      <member refid="classmrmeshpy_1_1Matrix2i_1a67d493489eed7cc7a2c41f88ce0cc568" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

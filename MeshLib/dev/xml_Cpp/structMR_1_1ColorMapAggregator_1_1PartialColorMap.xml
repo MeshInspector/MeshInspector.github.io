@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ColorMapAggregator_1_1PartialColorMap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ColorMapAggregator::PartialColorMap</compoundname>
+    <includes refid="MRColorMapAggregator_8h" local="no">MRColorMapAggregator.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ColorMapAggregator_1_1PartialColorMap_1a755dfde7b86dcd1f2da851590cf7d308" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ColorMapAggregator_1a20df43a4a312f6aa3f049476f78584d6" kindref="member">ColorMap</ref></type>
+        <definition>ColorMap MR::ColorMapAggregator&lt; Tag &gt;::PartialColorMap::colorMap</definition>
+        <argsstring></argsstring>
+        <name>colorMap</name>
+        <qualifiedname>MR::ColorMapAggregator::PartialColorMap::colorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" line="30" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ColorMapAggregator_1_1PartialColorMap_1ac2d631a1f9c3262477e8f19fc818b39a" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ColorMapAggregator_1a29857a8d38bc30a22d092fdc3c8632df" kindref="member">ElementBitSet</ref></type>
+        <definition>ElementBitSet MR::ColorMapAggregator&lt; Tag &gt;::PartialColorMap::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>MR::ColorMapAggregator::PartialColorMap::elements</qualifiedname>
+        <briefdescription>
+<para>color map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>partial color map </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ColorMapAggregator&lt; Tag &gt;::PartialColorMap</label>
+        <link refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>colorMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; Color, Id&lt; Tag &gt; &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" bodystart="29" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap_1a755dfde7b86dcd1f2da851590cf7d308" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator::PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap_1ac2d631a1f9c3262477e8f19fc818b39a" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator::PartialColorMap</scope><name>elements</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

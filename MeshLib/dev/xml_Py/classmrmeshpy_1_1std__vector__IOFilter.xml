@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__IOFilter" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_IOFilter</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__IOFilter_1a0db3cdab9333ff5d086041acf4810a52" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_IOFilter::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82473" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__IOFilter_1a0a0e1f3a1782e77ae0d505b5a07c4999" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_IOFilter::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.element_type_byte_size</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82474" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1aa42a180e7d9c5a5aff6ed936453d127e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_IOFilter.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82475" bodyend="82478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a24be2587d4b82946c9a0df09a1025253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_IOFilter.__contains__</definition>
+        <argsstring>(self, IOFilter x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82479" bodyend="82482"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a798498e3a801424631f156ceec1f5190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82484" bodyend="82487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a140f2c2efce025732e45ea77376b2290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82489" bodyend="82492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a88d12a5e8840a8d062d03763be5423fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_IOFilter.__eq__</definition>
+        <argsstring>(self, std_vector_IOFilter arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82493" bodyend="82494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1ab1b9470fded1dadeb3637651053cca2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+        <definition> std_vector_IOFilter mrmeshpy.std_vector_IOFilter.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82496" bodyend="82499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1aa50aaecc88cf500aaaf50aa126f4ac30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+        <definition> IOFilter mrmeshpy.std_vector_IOFilter.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82501" bodyend="82502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a77a44b44c393b3428b35706fe7fafc2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82504" bodyend="82505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a1b9cc04ec86fb916e9130556750de9c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82507" bodyend="82508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a1a5c3dd31bad26166817025f5f6e8891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__init__</definition>
+        <argsstring>(self, std_vector_IOFilter arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82510" bodyend="82511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a847747ee41c7973a7889fddb96e68952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref>]</type>
+        <definition> typing.Iterator[IOFilter] mrmeshpy.std_vector_IOFilter.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82512" bodyend="82513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a996b09af237d81f8d795b410fceaebd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_IOFilter.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82514" bodyend="82515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1af2d99684c8ec6e121f28850f2f92ceec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_IOFilter.__ne__</definition>
+        <argsstring>(self, std_vector_IOFilter arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82516" bodyend="82517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a521a35337a572fe75d8ded4add70f131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+        <definition> std_vector_IOFilter mrmeshpy.std_vector_IOFilter.__or__</definition>
+        <argsstring>(self, std_vector_IOFilter b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__or__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns union of input filters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82518" bodyend="82521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a7fb6d00f87ef1ce46855ed9b4c28cd35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__setitem__</definition>
+        <argsstring>(self, int arg0, IOFilter arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82523" bodyend="82524"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a601127f95ac60e83f15e3394d4fe1cf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_IOFilter arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82526" bodyend="82529"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a9922eec0c4bbed46eedaa7f71f6f33be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.append</definition>
+        <argsstring>(self, IOFilter x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82530" bodyend="82533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a4c444b3077f96284edd2710096a762b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82534" bodyend="82537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a433ff988a6fe26f6e88faa9ffa749d30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_IOFilter.count</definition>
+        <argsstring>(self, IOFilter x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82538" bodyend="82541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1ad25fc770fe4efd6d1be6ebb73174fb50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_IOFilter.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82542" bodyend="82545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1aabd78aaa350cb93b9cb0056e460b1109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_IOFilter.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82546" bodyend="82547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a7ccf909da8a01f10d31fb1ca991fcec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.extend</definition>
+        <argsstring>(self, std_vector_IOFilter L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__IOFilter" kindref="compound">std_vector_IOFilter</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82549" bodyend="82552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a2718945a210476c7211f7bd2a00169cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82554" bodyend="82557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a4b8311d7eceac1a4f3bbfc83dbb36d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.insert</definition>
+        <argsstring>(self, int i, IOFilter x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82558" bodyend="82561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a363f06cade1facc534b610fa3d3f1525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+        <definition> IOFilter mrmeshpy.std_vector_IOFilter.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82563" bodyend="82566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a50fa7d5093411d93c5cb3bcc79a8da5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+        <definition> IOFilter mrmeshpy.std_vector_IOFilter.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82568" bodyend="82571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1abb91c2e35106e970db5dc94177d8b870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.remove</definition>
+        <argsstring>(self, IOFilter x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82572" bodyend="82575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a8598685ec0364a9b98aa99e3ff838d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82577" bodyend="82578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a4af1e00991e7feb8074d5b3c65e7abd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_IOFilter.resize</definition>
+        <argsstring>(self, int arg0, IOFilter arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IOFilter" kindref="compound">IOFilter</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82580" bodyend="82581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__IOFilter_1a2cc8ecf7098207b6628eb76ac5090a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_IOFilter.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_IOFilter.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82582" bodyend="82583"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  IOFilters, IOFilters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_IOFilter</label>
+        <link refid="classmrmeshpy_1_1std__vector__IOFilter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82469" bodyend="82583"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1aa42a180e7d9c5a5aff6ed936453d127e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a24be2587d4b82946c9a0df09a1025253" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a798498e3a801424631f156ceec1f5190" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a140f2c2efce025732e45ea77376b2290" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a88d12a5e8840a8d062d03763be5423fa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1ab1b9470fded1dadeb3637651053cca2c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1aa50aaecc88cf500aaaf50aa126f4ac30" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a0db3cdab9333ff5d086041acf4810a52" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a77a44b44c393b3428b35706fe7fafc2c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a1b9cc04ec86fb916e9130556750de9c9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a1a5c3dd31bad26166817025f5f6e8891" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a847747ee41c7973a7889fddb96e68952" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a996b09af237d81f8d795b410fceaebd4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1af2d99684c8ec6e121f28850f2f92ceec" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a521a35337a572fe75d8ded4add70f131" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a7fb6d00f87ef1ce46855ed9b4c28cd35" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a601127f95ac60e83f15e3394d4fe1cf1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a9922eec0c4bbed46eedaa7f71f6f33be" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a4c444b3077f96284edd2710096a762b0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a433ff988a6fe26f6e88faa9ffa749d30" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1ad25fc770fe4efd6d1be6ebb73174fb50" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a0a0e1f3a1782e77ae0d505b5a07c4999" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1aabd78aaa350cb93b9cb0056e460b1109" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a7ccf909da8a01f10d31fb1ca991fcec5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a2718945a210476c7211f7bd2a00169cf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a4b8311d7eceac1a4f3bbfc83dbb36d9e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a363f06cade1facc534b610fa3d3f1525" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a50fa7d5093411d93c5cb3bcc79a8da5e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1abb91c2e35106e970db5dc94177d8b870" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a8598685ec0364a9b98aa99e3ff838d9b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a4af1e00991e7feb8074d5b3c65e7abd1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__IOFilter_1a2cc8ecf7098207b6628eb76ac5090a7c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_IOFilter</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

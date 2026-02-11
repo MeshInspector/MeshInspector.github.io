@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Features_1_1Traits" kind="namespace" language="C++">
+    <compoundname>MR::Features::Traits</compoundname>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary" prot="public">MR::Features::Traits::Binary</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::ConeSegment &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Plane &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Binary&lt; Primitives::Sphere, Primitives::Sphere &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary" prot="public">MR::Features::Traits::Unary</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4" prot="public">MR::Features::Traits::Unary&lt; Primitives::ConeSegment &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4" prot="public">MR::Features::Traits::Unary&lt; Primitives::Plane &gt;</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" prot="public">MR::Features::Traits::Unary&lt; Primitives::Sphere &gt;</innerclass>
+    <briefdescription>
+<para><ref refid="namespaceMR_1_1Features_1_1Traits" kindref="compound">Traits</ref> that determine how the primitives are related. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="237" column="1"/>
+  </compounddef>
+</doxygen>

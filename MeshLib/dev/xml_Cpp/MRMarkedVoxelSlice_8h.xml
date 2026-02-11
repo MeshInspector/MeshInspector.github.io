@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMarkedVoxelSlice_8h" kind="file" language="C++">
+    <compoundname>MRMarkedVoxelSlice.h</compoundname>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRImGuiImage_8h" local="yes">MRImGuiImage.h</includes>
+    <includes refid="MRColor_8h" local="no">MRMesh/MRColor.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRMesh/MRVector3.h</includes>
+    <includes refid="MRBitSet_8h" local="no">MRMesh/MRBitSet.h</includes>
+    <includes refid="MRBox_8h" local="no">MRMesh/MRBox.h</includes>
+    <includes refid="MRFloatGrid_8h" local="no">MRVoxels/MRFloatGrid.h</includes>
+    <includes refid="MRVoxelPath_8h" local="no">MRVoxels/MRVoxelPath.h</includes>
+    <incdepgraph>
+      <node id="42">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MRMesh/MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>MRMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="32">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRMesh/MRFinally.h</label>
+        <link refid="MRFinally_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRHeapBytes.h</label>
+        <link refid="MRHeapBytes_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRMesh/MRIRenderObject.h</label>
+        <link refid="MRIRenderObject_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="41">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRMeshTexture.h</label>
+        <link refid="MRMeshTexture_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRRenderModelParameters.h</label>
+        <link refid="MRRenderModelParameters_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="48">
+        <label>MRGLMacro.h</label>
+        <link refid="MRGLMacro_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MRGLTexture.h</label>
+        <link refid="MRGLTexture_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MRGladGlfw.h</label>
+        <link refid="MRGladGlfw_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MRViewer/MRImGui.h</label>
+        <link refid="MRImGui_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRImGuiImage.h</label>
+        <link refid="MRImGuiImage_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMarkedVoxelSlice.h</label>
+        <link refid="MRMarkedVoxelSlice_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRRenderGLHelpers.h</label>
+        <link refid="MRRenderGLHelpers_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="64">
+        <label>MRVoxels/MRFloatGrid.h</label>
+        <link refid="MRFloatGrid_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>MRVoxels/MRVoxelPath.h</label>
+        <link refid="MRVoxelPath_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="46">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="49">
+        <label>MRPch/MRSpdlog.h</label>
+      </node>
+      <node id="52">
+        <label>MRPch/MRSuppressWarning.h</label>
+      </node>
+      <node id="56">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="25">
+        <label>algorithm</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="26">
+        <label>cmath</label>
+      </node>
+      <node id="59">
+        <label>concepts</label>
+      </node>
+      <node id="22">
+        <label>cstddef</label>
+      </node>
+      <node id="27">
+        <label>cstring</label>
+      </node>
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="45">
+        <label>glad/glad.h</label>
+      </node>
+      <node id="53">
+        <label>imgui.h</label>
+      </node>
+      <node id="28">
+        <label>iosfwd</label>
+      </node>
+      <node id="60">
+        <label>iterator</label>
+      </node>
+      <node id="63">
+        <label>limits</label>
+      </node>
+      <node id="34">
+        <label>memory</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="23">
+        <label>type_traits</label>
+      </node>
+      <node id="43">
+        <label>typeindex</label>
+      </node>
+      <node id="29">
+        <label>utility</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMR_1_1MarkedVoxelSlice" prot="public">MR::MarkedVoxelSlice</innerclass>
+    <innerclass refid="structMR_1_1MarkedVoxelSlice_1_1Mark" prot="public">MR::MarkedVoxelSlice::Mark</innerclass>
+    <innerclass refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" prot="public">MR::MarkedVoxelSlice::Parameters</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_VOXELS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGuiImage_8h" kindref="compound">MRImGuiImage.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRColor_8h" kindref="compound">MRMesh/MRColor.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBitSet_8h" kindref="compound">MRMesh/MRBitSet.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBox_8h" kindref="compound">MRMesh/MRBox.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRFloatGrid_8h" kindref="compound">MRVoxels/MRFloatGrid.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVoxelPath_8h" kindref="compound">MRVoxels/MRVoxelPath.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1MarkedVoxelSlice" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MarkedVoxelSlice" kindref="compound">MarkedVoxelSlice</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1MarkedVoxelSlice_1_1Mark" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1MarkedVoxelSlice_1_1Mark_1aa5bbaf41ee00c68fce4b46c405457cda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark_1aa5bbaf41ee00c68fce4b46c405457cda" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1MarkedVoxelSlice_1_1Mark_1afc0fa59f798e85b81397aba33a9e0ec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VoxelBitSet<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark_1afc0fa59f798e85b81397aba33a9e0ec6" kindref="member">mask</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classMR_1_1MarkedVoxelSlice_1ad8db7482eea8aa284e25701a769f2fd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1ad8db7482eea8aa284e25701a769f2fd1" kindref="member">MarkedVoxelSlice</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>&amp;<sp/>voxels<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>{<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef" kindref="member">Inside</ref>,<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310" kindref="member">Outside</ref>,<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702" kindref="member">Segment</ref>,<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" kindref="member">Count</ref><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1MarkedVoxelSlice_1a68ad6e146ae252dc8573c3a2ce4c5616" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VoxelBitSet&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a68ad6e146ae252dc8573c3a2ce4c5616" kindref="member">getMask</ref>(<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type].mask;<sp/>}</highlight></codeline>
+<codeline lineno="35" refid="classMR_1_1MarkedVoxelSlice_1a72c959e4d508236259fcf2ac2777a909" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a72c959e4d508236259fcf2ac2777a909" kindref="member">getMask</ref>(<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type].mask;<sp/>}</highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1MarkedVoxelSlice_1a520c3e0654e16a1e5d2abeae4b4c8115" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a520c3e0654e16a1e5d2abeae4b4c8115" kindref="member">setMask</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/>mask,<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type].mask<sp/>=<sp/>mask;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40" refid="classMR_1_1MarkedVoxelSlice_1a0f141ee0150f0efb387278f0c171e708" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a0f141ee0150f0efb387278f0c171e708" kindref="member">getColor</ref>(<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type].color;<sp/>}</highlight></codeline>
+<codeline lineno="41" refid="classMR_1_1MarkedVoxelSlice_1ae6e05e1715f6a7c8cbd5d2896d23c163" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1ae6e05e1715f6a7c8cbd5d2896d23c163" kindref="member">setColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type].color<sp/>=<sp/>color;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classMR_1_1MarkedVoxelSlice_1a60de9b6876066ec3417619a0ce95abad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a60de9b6876066ec3417619a0ce95abad" kindref="member">getMark</ref>(<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type];<sp/>}</highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1MarkedVoxelSlice_1adbcf5136f507046d164884a62801f018" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1adbcf5136f507046d164884a62801f018" kindref="member">getMark</ref>(<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type];<sp/>}</highlight></codeline>
+<codeline lineno="50" refid="classMR_1_1MarkedVoxelSlice_1a86a746a3d208f9b05419acf8e15d0bf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a86a746a3d208f9b05419acf8e15d0bf1" kindref="member">setMark</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>&amp;<sp/>mark,<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref><sp/>type<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref>[type]<sp/>=<sp/>mark;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classMR_1_1MarkedVoxelSlice_1a67bae19cf8e9844b8762dc86c0d5e7b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Mark&gt;&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a67bae19cf8e9844b8762dc86c0d5e7b4" kindref="member">getCustomBackgroundMarks</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ada8d178143f6e08583ce6661e7e48c21" kindref="member">customBackgroundMarks</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="56" refid="classMR_1_1MarkedVoxelSlice_1a91858ffd13eff95bc3ea28526fee0d97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Mark&gt;&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a91858ffd13eff95bc3ea28526fee0d97" kindref="member">getCustomBackgroundMarks</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ada8d178143f6e08583ce6661e7e48c21" kindref="member">customBackgroundMarks</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="58" refid="classMR_1_1MarkedVoxelSlice_1a0a8896353e458b466104e95260345376" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a0a8896353e458b466104e95260345376" kindref="member">setCustomBackgroundMarks</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Mark&gt;&amp;<sp/>backgroundMarks<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ada8d178143f6e08583ce6661e7e48c21" kindref="member">customBackgroundMarks</ref><sp/>=<sp/>backgroundMarks;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classMR_1_1MarkedVoxelSlice_1a7ae548f5bf2801169f8be5e014429a48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Mark&gt;&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a7ae548f5bf2801169f8be5e014429a48" kindref="member">getCustomForegroundMarks</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a791fa5f984772241f082f10270b11f8f" kindref="member">customForegroundMarks</ref>;<sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64" refid="classMR_1_1MarkedVoxelSlice_1a702b8644e0f84517de02698fd2d9d745" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Mark&gt;&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a702b8644e0f84517de02698fd2d9d745" kindref="member">getCustomForegroundMarks</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a791fa5f984772241f082f10270b11f8f" kindref="member">customForegroundMarks</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="66" refid="classMR_1_1MarkedVoxelSlice_1a44cc38689eddc0b8b7ecc02cc11ab162" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a44cc38689eddc0b8b7ecc02cc11ab162" kindref="member">setCustomForegroundMarks</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Mark&gt;&amp;<sp/>foregroundMarks<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a791fa5f984772241f082f10270b11f8f" kindref="member">customForegroundMarks</ref><sp/>=<sp/>foregroundMarks;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classMR_1_1MarkedVoxelSlice_1a21bf4ef527270ad0d69f992c4378f606" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a21bf4ef527270ad0d69f992c4378f606" kindref="member">getActivePlane</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a40042bd3d06dc6fbad5b2ffa07f34a32" kindref="member">activePlane</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="71" refid="classMR_1_1MarkedVoxelSlice_1a05fc56e95ac8301cb2924ddec31eb109" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a05fc56e95ac8301cb2924ddec31eb109" kindref="member">setActivePlane</ref>(<sp/><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref><sp/>plane<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a40042bd3d06dc6fbad5b2ffa07f34a32" kindref="member">activePlane</ref><sp/>=<sp/>plane;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classMR_1_1MarkedVoxelSlice_1a64f919f38e1712b774646be9eb857f99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a64f919f38e1712b774646be9eb857f99" kindref="member">getActiveVoxel</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a835e91b9fdac74516e50eb00d5a582f0" kindref="member">activeVoxel</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="74" refid="classMR_1_1MarkedVoxelSlice_1a6c9a848bfdf1495e5b72648aee211a87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a6c9a848bfdf1495e5b72648aee211a87" kindref="member">setActiveVoxel</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>voxel<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a835e91b9fdac74516e50eb00d5a582f0" kindref="member">activeVoxel</ref><sp/>=<sp/>voxel;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classMR_1_1MarkedVoxelSlice_1ace084b7a6961ec8f31f9a9f4ebb9bb05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1ace084b7a6961ec8f31f9a9f4ebb9bb05" kindref="member">getMin</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa1adf8bb92d44c2f71e211d90450d693" kindref="member">min</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="78" refid="classMR_1_1MarkedVoxelSlice_1acf4c42bc1d7a16cc6ff7ce4c3df76ab5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1acf4c42bc1d7a16cc6ff7ce4c3df76ab5" kindref="member">setMin</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa1adf8bb92d44c2f71e211d90450d693" kindref="member">min</ref><sp/>=<sp/>min;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="79" refid="classMR_1_1MarkedVoxelSlice_1a737cb9282dabaf2d7912815736d7da37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a737cb9282dabaf2d7912815736d7da37" kindref="member">getMax</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa6c82acf94b57d6ad1303565db222dba" kindref="member">max</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="80" refid="classMR_1_1MarkedVoxelSlice_1af725ffcc60939034b1746e896cfbe394" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af725ffcc60939034b1746e896cfbe394" kindref="member">setMax</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa6c82acf94b57d6ad1303565db222dba" kindref="member">max</ref><sp/>=<sp/>max;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="classMR_1_1MarkedVoxelSlice_1a3eb57f66e35c3ad6e95531620e2e40fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a3eb57f66e35c3ad6e95531620e2e40fa" kindref="member">getActiveBox</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a93fbaf0d7a2c10d26661c66f178f5ddf" kindref="member">activeBox</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="85" refid="classMR_1_1MarkedVoxelSlice_1ad26146bfaaea86c6642ac101c7f5bbfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1ad26146bfaaea86c6642ac101c7f5bbfc" kindref="member">setActiveBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>box<sp/>)<sp/>{<sp/>params_.<ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a93fbaf0d7a2c10d26661c66f178f5ddf" kindref="member">activeBox</ref><sp/>=<sp/>box;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>,<sp/>size_t(<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" kindref="member">MaskType::Count</ref><sp/>)&gt;<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref><sp/>=<sp/>{<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{<ref refid="structMR_1_1Color_1a9f743712af5597ae9e55d338143d10c6" kindref="member">Color::red</ref>()},<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{<ref refid="structMR_1_1Color_1acd72366575d0f58c29867044c403e34a" kindref="member">Color::blue</ref>()},<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{<ref refid="structMR_1_1Color_1a7a15e2053da20914d242d21eb1486f30" kindref="member">Color::yellow</ref>()}};</highlight></codeline>
+<codeline lineno="92" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ada8d178143f6e08583ce6661e7e48c21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Mark&gt;<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1ada8d178143f6e08583ce6661e7e48c21" kindref="member">customBackgroundMarks</ref>;</highlight></codeline>
+<codeline lineno="93" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a791fa5f984772241f082f10270b11f8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Mark&gt;<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a791fa5f984772241f082f10270b11f8f" kindref="member">customForegroundMarks</ref>;</highlight></codeline>
+<codeline lineno="95" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a835e91b9fdac74516e50eb00d5a582f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a835e91b9fdac74516e50eb00d5a582f0" kindref="member">activeVoxel</ref>;</highlight></codeline>
+<codeline lineno="97" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a93fbaf0d7a2c10d26661c66f178f5ddf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Box3i<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a93fbaf0d7a2c10d26661c66f178f5ddf" kindref="member">activeBox</ref>;</highlight></codeline>
+<codeline lineno="99" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa1adf8bb92d44c2f71e211d90450d693" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa1adf8bb92d44c2f71e211d90450d693" kindref="member">min</ref>{0.0f};</highlight></codeline>
+<codeline lineno="101" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa6c82acf94b57d6ad1303565db222dba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1aa6c82acf94b57d6ad1303565db222dba" kindref="member">max</ref>{0.0f};</highlight></codeline>
+<codeline lineno="103" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a40042bd3d06dc6fbad5b2ffa07f34a32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a40042bd3d06dc6fbad5b2ffa07f34a32" kindref="member">activePlane</ref>{<ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9" kindref="member">XY</ref>};</highlight></codeline>
+<codeline lineno="105" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a457b6335d7f051cf9ad4ff3d0d6514a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters_1a457b6335d7f051cf9ad4ff3d0d6514a5" kindref="member">inactiveVoxelColor</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="classMR_1_1MarkedVoxelSlice_1aa967f828058afd78b02970f57f9f96f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref>&amp;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1aa967f828058afd78b02970f57f9f96f2" kindref="member">getParameters</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_;<sp/>}</highlight></codeline>
+<codeline lineno="111" refid="classMR_1_1MarkedVoxelSlice_1a1b237098f1645350afbc53876ef3f617" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a1b237098f1645350afbc53876ef3f617" kindref="member">setParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref>&amp;<sp/>params<sp/>)<sp/>{<sp/>params_<sp/>=<sp/>params;<sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>grid_;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/>dims_;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref><sp/>params_;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h"/>
+  </compounddef>
+</doxygen>

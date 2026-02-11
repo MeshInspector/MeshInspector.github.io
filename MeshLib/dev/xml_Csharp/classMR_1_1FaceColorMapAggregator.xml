@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FaceColorMapAggregator" kind="class" language="C#" prot="public">
+    <compoundname>MR::FaceColorMapAggregator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceColorMapAggregator</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a4aea9bc5b057f7b124282125254bfd55" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FaceColorMapAggregator.FaceColorMapAggregator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FaceColorMapAggregator</name>
+        <qualifiedname>MR.FaceColorMapAggregator.FaceColorMapAggregator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1459" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1459" bodyend="1459"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1aeed5f679e579b3b5e6dc63b32afa42c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FaceColorMapAggregator.FaceColorMapAggregator</definition>
+        <argsstring>()</argsstring>
+        <name>FaceColorMapAggregator</name>
+        <qualifiedname>MR.FaceColorMapAggregator.FaceColorMapAggregator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1464" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1464" bodyend="1469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1afadb0c11dcbaf0b951db432cc365ec71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FaceColorMapAggregator.FaceColorMapAggregator</definition>
+        <argsstring>(MR._ByValue_FaceColorMapAggregator _other)</argsstring>
+        <name>FaceColorMapAggregator</name>
+        <qualifiedname>MR.FaceColorMapAggregator.FaceColorMapAggregator</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceColorMapAggregator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FaceColorMapAggregator.FaceColorMapAggregator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1474" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1474" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a8e7c91fa005772c19a8e086110dc7116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FaceColorMapAggregator.FaceColorMapAggregator</definition>
+        <argsstring>(Const_FaceColorMapAggregator _other)</argsstring>
+        <name>FaceColorMapAggregator</name>
+        <qualifiedname>MR.FaceColorMapAggregator.FaceColorMapAggregator</qualifiedname>
+        <param>
+          <type>Const_FaceColorMapAggregator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FaceColorMapAggregator.FaceColorMapAggregator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1485" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1485" bodyend="1485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1ad9e73149c296d0312f7f1b76756b6942" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FaceColorMapAggregator.FaceColorMapAggregator</definition>
+        <argsstring>(FaceColorMapAggregator _other)</argsstring>
+        <name>FaceColorMapAggregator</name>
+        <qualifiedname>MR.FaceColorMapAggregator.FaceColorMapAggregator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceColorMapAggregator" kindref="compound">FaceColorMapAggregator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FaceColorMapAggregator.FaceColorMapAggregator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1490" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1490" bodyend="1490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a3a467aabe6edfaac6ce14228eac6a46e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceColorMapAggregator" kindref="compound">MR.FaceColorMapAggregator</ref></type>
+        <definition>unsafe MR.FaceColorMapAggregator MR.FaceColorMapAggregator.assign</definition>
+        <argsstring>(MR._ByValue_FaceColorMapAggregator _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FaceColorMapAggregator.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceColorMapAggregator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FaceColorMapAggregator.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1495" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1495" bodyend="1502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a1563299567d6f797d8e499c4c2eebe79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.setDefaultColor</definition>
+        <argsstring>(in MR.Color color)</argsstring>
+        <name>setDefaultColor</name>
+        <qualifiedname>MR.FaceColorMapAggregator.setDefaultColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>set default (background) color Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1a1563299567d6f797d8e499c4c2eebe79" kindref="member">MR.FaceColorMapAggregator.setDefaultColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1508" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1508" bodyend="1516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a2c8eda7cc32120c00680e75d6f688be3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.pushBack</definition>
+        <argsstring>(MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap partitialColorMap)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.FaceColorMapAggregator.pushBack</qualifiedname>
+        <param>
+          <type>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+<para>add color map after all (more priority) Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1a2c8eda7cc32120c00680e75d6f688be3" kindref="member">MR.FaceColorMapAggregator.pushBack</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1522" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1522" bodyend="1527"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a2901b56b128a8fe2a6adbb04d4357525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.insert</definition>
+        <argsstring>(int i, MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap partitialColorMap)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.FaceColorMapAggregator.insert</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+<para>insert color map before element #i (0 - minimum priority) Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1a2901b56b128a8fe2a6adbb04d4357525" kindref="member">MR.FaceColorMapAggregator.insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1533" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1533" bodyend="1538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1aabc10e034f8b6b760879e890af56a90d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.replace</definition>
+        <argsstring>(int i, MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap partitialColorMap)</argsstring>
+        <name>replace</name>
+        <qualifiedname>MR.FaceColorMapAggregator.replace</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+<para>replace color map in #i position Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1aabc10e034f8b6b760879e890af56a90d" kindref="member">MR.FaceColorMapAggregator.replace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1544" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1544" bodyend="1549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1aec65785cee7b227816e82b3b34f08d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.FaceColorMapAggregator.reset</qualifiedname>
+        <briefdescription>
+<para>reset all accumulated color map Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1aec65785cee7b227816e82b3b34f08d87" kindref="member">MR.FaceColorMapAggregator.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1555" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1555" bodyend="1560"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1ac8d91f6586834d5ae84f0237b196d92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.FaceColorMapAggregator.getColorMapNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getColorMapNumber</name>
+        <qualifiedname>MR.FaceColorMapAggregator.getColorMapNumber</qualifiedname>
+        <briefdescription>
+<para>get number of accumulated color maps Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1ac8d91f6586834d5ae84f0237b196d92e" kindref="member">MR.FaceColorMapAggregator.getColorMapNumber</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1566" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1566" bodyend="1571"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1adebc2e37fb41f2787c5151d50f211d26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+        <definition>unsafe MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap MR.FaceColorMapAggregator.getPartialColorMap</definition>
+        <argsstring>(int i)</argsstring>
+        <name>getPartialColorMap</name>
+        <qualifiedname>MR.FaceColorMapAggregator.getPartialColorMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>get partial color map map by index Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1adebc2e37fb41f2787c5151d50f211d26" kindref="member">MR.FaceColorMapAggregator.getPartialColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1577" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1577" bodyend="1582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1ad9d48ed850ecdf5d6982e3b1ec028576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.erase</definition>
+        <argsstring>(int i, int? n=null)</argsstring>
+        <name>erase</name>
+        <qualifiedname>MR.FaceColorMapAggregator.erase</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>n</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>erase n color map from #i Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1ad9d48ed850ecdf5d6982e3b1ec028576" kindref="member">MR.FaceColorMapAggregator.erase</ref></computeroutput>. Parameter <computeroutput>n</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1589" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1589" bodyend="1595"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1ae5a70face927614777bdbfc61ea5e0b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FaceColorMapAggregator.setMode</definition>
+        <argsstring>(MR.ColorMapAggregator_MRFaceTag.AggregateMode mode)</argsstring>
+        <name>setMode</name>
+        <qualifiedname>MR.FaceColorMapAggregator.setMode</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1a5f28a10271c18cd57e4720bb688e1392" kindref="member">MR.ColorMapAggregator_MRFaceTag.AggregateMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>set color map aggregating mode Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1ae5a70face927614777bdbfc61ea5e0b7" kindref="member">MR.FaceColorMapAggregator.setMode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1601" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1601" bodyend="1606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a4d960c94bd42c5c55b35291f21f6cd49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref></type>
+        <definition>unsafe MR.FaceColors MR.FaceColorMapAggregator.aggregate</definition>
+        <argsstring>(MR.Const_FaceBitSet elementBitSet)</argsstring>
+        <name>aggregate</name>
+        <qualifiedname>MR.FaceColorMapAggregator.aggregate</qualifiedname>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>elementBitSet</declname>
+        </param>
+        <briefdescription>
+<para>get aggregated color map for active elements Generated from method <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator_1a4d960c94bd42c5c55b35291f21f6cd49" kindref="member">MR.FaceColorMapAggregator.aggregate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1612" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1612" bodyend="1617"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for aggregate several color map in one <ref refid="structMR_1_1Color" kindref="compound">Color</ref> maps are aggregated according order Generated from class <computeroutput><ref refid="classMR_1_1FaceColorMapAggregator" kindref="compound">MR.FaceColorMapAggregator</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FaceColorMapAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FaceColorMapAggregator</label>
+        <link refid="classMR_1_1FaceColorMapAggregator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FaceColorMapAggregator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FaceColorMapAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FaceColorMapAggregator</label>
+        <link refid="classMR_1_1FaceColorMapAggregator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FaceColorMapAggregator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1457" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1458" bodyend="1618"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a4d960c94bd42c5c55b35291f21f6cd49" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>aggregate</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a3a467aabe6edfaac6ce14228eac6a46e" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>assign</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1ad9d48ed850ecdf5d6982e3b1ec028576" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>erase</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a4aea9bc5b057f7b124282125254bfd55" prot="package" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1aeed5f679e579b3b5e6dc63b32afa42c1" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1afadb0c11dcbaf0b951db432cc365ec71" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a8e7c91fa005772c19a8e086110dc7116" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1ad9e73149c296d0312f7f1b76756b6942" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1ac8d91f6586834d5ae84f0237b196d92e" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1adebc2e37fb41f2787c5151d50f211d26" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>getPartialColorMap</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a2901b56b128a8fe2a6adbb04d4357525" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>insert</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a2c8eda7cc32120c00680e75d6f688be3" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1aabc10e034f8b6b760879e890af56a90d" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>replace</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1aec65785cee7b227816e82b3b34f08d87" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>reset</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1a1563299567d6f797d8e499c4c2eebe79" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>setDefaultColor</name></member>
+      <member refid="classMR_1_1FaceColorMapAggregator_1ae5a70face927614777bdbfc61ea5e0b7" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>setMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

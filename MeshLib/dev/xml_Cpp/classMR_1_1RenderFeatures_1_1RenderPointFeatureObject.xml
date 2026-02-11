@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderFeatures::RenderPointFeatureObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeaturePointsComponent&lt; true &gt;, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject_1a5bc3ac0bafd08c5b806eb903f0092219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderFeatures::RenderPointFeatureObject::RenderPointFeatureObject</definition>
+        <argsstring>(const VisualObject &amp;object)</argsstring>
+        <name>RenderPointFeatureObject</name>
+        <qualifiedname>MR::RenderFeatures::RenderPointFeatureObject::RenderPointFeatureObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="227" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject_1a73d17e41fdc84de3e53917aefa593773" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">ImGuiMeasurementIndicators::Text</ref></type>
+        <definition>MRVIEWER_API ImGuiMeasurementIndicators::Text MR::RenderFeatures::RenderPointFeatureObject::getObjectNameText</definition>
+        <argsstring>(const VisualObject &amp;object, ViewportId viewportId) const override</argsstring>
+        <name>getObjectNameText</name>
+        <qualifiedname>MR::RenderFeatures::RenderPointFeatureObject::getObjectNameText</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="229" column="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderPointFeatureObject</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeaturePointsComponent&lt; true &gt;, RenderResetDirtyComponent &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderPointFeatureObject</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeaturePointsComponent&lt; true &gt;, RenderResetDirtyComponent &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="225" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject_1a73d17e41fdc84de3e53917aefa593773" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>getObjectNameText</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject_1a5bc3ac0bafd08c5b806eb903f0092219" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>RenderPointFeatureObject</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a1d073623ece21825d80ed8adf822cc56" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPointFeatureObject</scope><name>renderUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderAngleObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderAngleObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderAngleObject_1a93e6b8c70f890b0dd55b104c049d2bf2" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref> *</type>
+        <definition>const AngleMeasurementObject* MR::RenderAngleObject::object_</definition>
+        <argsstring></argsstring>
+        <name>object_</name>
+        <qualifiedname>MR::RenderAngleObject::object_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="47" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderAngleObject_1a18c03c253ec75bfad15ad257be0a099c" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderDimensions_1_1AngleTask" kindref="compound">RenderDimensions::AngleTask</ref></type>
+        <definition>RenderDimensions::AngleTask MR::RenderAngleObject::task_</definition>
+        <argsstring></argsstring>
+        <name>task_</name>
+        <qualifiedname>MR::RenderAngleObject::task_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="48" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderAngleObject_1ad783673b63b5a23dcf35d0bc3ecd7a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderAngleObject::RenderAngleObject</definition>
+        <argsstring>(const VisualObject &amp;object)</argsstring>
+        <name>RenderAngleObject</name>
+        <qualifiedname>MR::RenderAngleObject::RenderAngleObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="50" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderAngleObject_1a27735a1d0225c060e7c06bbb288c0225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RenderAngleObject::renderUi</definition>
+        <argsstring>(const UiRenderParams &amp;params) override</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR::RenderAngleObject::renderUi</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="51" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderAngleObject</label>
+        <link refid="classMR_1_1RenderAngleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderAngleObject</label>
+        <link refid="classMR_1_1RenderAngleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="45" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="46" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderAngleObject_1a93e6b8c70f890b0dd55b104c049d2bf2" prot="private" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>object_</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderAngleObject_1ad783673b63b5a23dcf35d0bc3ecd7a02" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>RenderAngleObject</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderAngleObject_1a27735a1d0225c060e7c06bbb288c0225" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderAngleObject_1a18c03c253ec75bfad15ad257be0a099c" prot="private" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>task_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

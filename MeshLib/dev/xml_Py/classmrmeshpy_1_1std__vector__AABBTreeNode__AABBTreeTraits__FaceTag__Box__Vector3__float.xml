@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aea5cc04af0cf4bc2cb4c460c6a2c111e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.element_type_byte_size</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79329" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a509d0521127c16b1d983df093cc3cec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79330" bodyend="79333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1ab54cfe6108ba46726a8f45dd92ff2eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79335" bodyend="79338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aa3d03685e02d1c64f586e7f9746a3fa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79340" bodyend="79343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a8250000710b11f280851698d2927fc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+        <definition> std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79345" bodyend="79348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a8d1489bca9cf19e30d2a0d3145a57504" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79350" bodyend="79351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a1ca37277956c07fd8a47e587f250b18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79353" bodyend="79354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aaccecbeaf46dd5f9fb0fa38122bdc6cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79356" bodyend="79357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a79649be919e8b62c279b5c16999229aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__init__</definition>
+        <argsstring>(self, std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79359" bodyend="79360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a2bb8467c01280b3944a8c52bc85952e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref>]</type>
+        <definition> typing.Iterator[AABBTreeNode_AABBTreeTraits_FaceTag_Box3f] mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79361" bodyend="79362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aa81eeee5673601b93dc35d3a7debe25b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79363" bodyend="79364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a7e8ba3e5e9c3801397e731b096340dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__setitem__</definition>
+        <argsstring>(self, int arg0, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79366" bodyend="79367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1ae9145843581a67f43094a5d78923f886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79369" bodyend="79372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aeea4128fc726b6ef79d557672e3a26e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.append</definition>
+        <argsstring>(self, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79373" bodyend="79376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a638ff7ef33cc80ec4848d3a641dc04e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79377" bodyend="79380"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a6420c7ae2ae83b3ba5abf6d9e88fdac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79381" bodyend="79384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a5782c27ff8024d39240521b881310669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79385" bodyend="79386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a92445896218e8c1296167bc4e2a2e48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.extend</definition>
+        <argsstring>(self, std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float" kindref="compound">std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79388" bodyend="79391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a21fbe23646ceceb87d7b02cc24435e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79393" bodyend="79396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a3c21db32d6fa88841b399862a30f5964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.insert</definition>
+        <argsstring>(self, int i, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79397" bodyend="79400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aaeda5bb2f563e52f74b36af7a51d1bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79402" bodyend="79405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a5f2c5edf81db39091083a13a0efd557f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_FaceTag_Box3f mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79407" bodyend="79410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a3bd7fa981325cbf961c462b475bee96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79412" bodyend="79413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a621b7a29a8801d65dc3310304e00a2c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.resize</definition>
+        <argsstring>(self, int arg0, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f" kindref="compound">AABBTreeNode_AABBTreeTraits_FaceTag_Box3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79415" bodyend="79416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a56b703ecb33921a8cdbb9c6b60f0c70c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79417" bodyend="79418"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</label>
+        <link refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79325" bodyend="79418"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a509d0521127c16b1d983df093cc3cec0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1ab54cfe6108ba46726a8f45dd92ff2eb0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aa3d03685e02d1c64f586e7f9746a3fa6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a8250000710b11f280851698d2927fc75" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a8d1489bca9cf19e30d2a0d3145a57504" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a1ca37277956c07fd8a47e587f250b18c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aaccecbeaf46dd5f9fb0fa38122bdc6cb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a79649be919e8b62c279b5c16999229aa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a2bb8467c01280b3944a8c52bc85952e3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aa81eeee5673601b93dc35d3a7debe25b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a7e8ba3e5e9c3801397e731b096340dc7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1ae9145843581a67f43094a5d78923f886" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aeea4128fc726b6ef79d557672e3a26e8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a638ff7ef33cc80ec4848d3a641dc04e1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a6420c7ae2ae83b3ba5abf6d9e88fdac0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aea5cc04af0cf4bc2cb4c460c6a2c111e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a5782c27ff8024d39240521b881310669" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a92445896218e8c1296167bc4e2a2e48c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a21fbe23646ceceb87d7b02cc24435e04" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a3c21db32d6fa88841b399862a30f5964" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1aaeda5bb2f563e52f74b36af7a51d1bf1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a5f2c5edf81db39091083a13a0efd557f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a3bd7fa981325cbf961c462b475bee96d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a621b7a29a8801d65dc3310304e00a2c9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_1a56b703ecb33921a8cdbb9c6b60f0c70c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

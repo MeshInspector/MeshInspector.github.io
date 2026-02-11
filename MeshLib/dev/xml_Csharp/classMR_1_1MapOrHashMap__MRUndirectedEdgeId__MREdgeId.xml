@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa3c8e1c9925b5737ab5bcea7e559db5a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId</type>
+        <definition>new unsafe MR.Std.Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.var</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1624" column="98" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1624" bodyend="1624"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3deb653c58c36d729899335f6c127718" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1643" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1643" bodyend="1647"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1af97a4e378a663d736d8ba70f64c17c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1653" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1653" bodyend="1659"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ab5d35ce944c82febfba644222f4d0e77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</definition>
+        <argsstring>(MR.Std._ByValue_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId var)</argsstring>
+        <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1664" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1664" bodyend="1671"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa369993484ccd86315a6681881fb03f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</definition>
+        <argsstring>(MR._ByValue_MapOrHashMap_MRUndirectedEdgeId_MREdgeId _other)</argsstring>
+        <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1676" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1676" bodyend="1683"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a25c80fc8b220cfe43b2bb7941bd43e7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</definition>
+        <argsstring>(Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId _other)</argsstring>
+        <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
+        <param>
+          <type>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1688" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1688" bodyend="1688"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ad61cf76b71d48d05ed4f8b7ef3f97b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</definition>
+        <argsstring>(MapOrHashMap_MRUndirectedEdgeId_MREdgeId _other)</argsstring>
+        <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1693" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1693" bodyend="1693"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a01926e4c879095862475f21fb6221a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
+        <definition>unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.assign</definition>
+        <argsstring>(MR._ByValue_MapOrHashMap_MRUndirectedEdgeId_MREdgeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1698" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1698" bodyend="1705"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a4e7814c0f5448e78f597e5b67d143b00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.setMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.WholeEdgeMap &gt; m)</argsstring>
+        <name>setMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.setMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref> &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::setMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1710" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1710" bodyend="1715"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6eed175f3a8839d21d3c27449a4feea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.setHashMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MREdgeId &gt; m)</argsstring>
+        <name>setHashMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.setHashMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MREdgeId &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::setHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1720" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1720" bodyend="1725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a118dc5246251774f6f5efe856e251adb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.resizeReserve</definition>
+        <argsstring>(ulong denseTotalSize, ulong hashAdditionalCapacity)</argsstring>
+        <name>resizeReserve</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.resizeReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>denseTotalSize</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>hashAdditionalCapacity</declname>
+        </param>
+        <briefdescription>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::resizeReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1732" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1732" bodyend="1737"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3c10a4ee0112bceb0eabd25cd5663f49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.pushBack</definition>
+        <argsstring>(MR.UndirectedEdgeId key, MR.EdgeId val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.pushBack</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::pushBack</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1744" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1744" bodyend="1749"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ac7475a9298ab778e58ab34adeae7595e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+        <definition>unsafe new MR.? WholeEdgeMap MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.getMap</definition>
+        <argsstring>()</argsstring>
+        <name>getMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.getMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::getMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1754" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1754" bodyend="1760"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a114b015219189ec39566065bdf0033f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MREdgeId</type>
+        <definition>unsafe new MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MREdgeId MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.getHashMap</definition>
+        <argsstring>()</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.getHashMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::getHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1765" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1765" bodyend="1771"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a9d68dadcda94cfdd66ccd6b6f1e32749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1776" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1776" bodyend="1781"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</label>
+        <link refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</label>
+        <link refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1621" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1622" bodyend="1782"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a01926e4c879095862475f21fb6221a7a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a9d68dadcda94cfdd66ccd6b6f1e32749" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a114b015219189ec39566065bdf0033f1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>getHashMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ac7475a9298ab778e58ab34adeae7595e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>getMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3deb653c58c36d729899335f6c127718" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1af97a4e378a663d736d8ba70f64c17c79" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ab5d35ce944c82febfba644222f4d0e77" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa369993484ccd86315a6681881fb03f3" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a25c80fc8b220cfe43b2bb7941bd43e7d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ad61cf76b71d48d05ed4f8b7ef3f97b32" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3c10a4ee0112bceb0eabd25cd5663f49" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a118dc5246251774f6f5efe856e251adb" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>resizeReserve</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6eed175f3a8839d21d3c27449a4feea2" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>setHashMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a4e7814c0f5448e78f597e5b67d143b00" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>setMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa3c8e1c9925b5737ab5bcea7e559db5a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

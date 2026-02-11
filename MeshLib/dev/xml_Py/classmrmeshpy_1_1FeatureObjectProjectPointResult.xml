@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FeatureObjectProjectPointResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FeatureObjectProjectPointResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1adac41a23336b8e0199ab484232baf279" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeatureObjectProjectPointResult::_offsetof_normal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normal</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult._offsetof_normal</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1ad6a02a97cea3af5a38a099dd96ce1ee3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeatureObjectProjectPointResult::_offsetof_point</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_point</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult._offsetof_point</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17813" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1adb9b2e8d7c63e5daaedeb4b427986b9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObjectProjectPointResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17818" bodyend="17819"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a965d2753e6225d0dc1cd55b101c0c22e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.FeatureObjectProjectPointResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17822" bodyend="17823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a965d2753e6225d0dc1cd55b101c0c22e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.FeatureObjectProjectPointResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17826" bodyend="17827"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a0e56acc9efaf94b8cf51263808dd211b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObjectProjectPointResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17829" bodyend="17830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1abdd122fd823bcb8ffb7c15efd445518f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObjectProjectPointResult.__init__</definition>
+        <argsstring>(self, FeatureObjectProjectPointResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17832" bodyend="17835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a9a248a99c751605873d7d9d3dc4026e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObjectProjectPointResult.__init__</definition>
+        <argsstring>(self, Vector3f point, std_optional_Vector3_float normal)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FeatureObjectProjectPointResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector3__float" kindref="compound">std_optional_Vector3_float</ref></type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17837" bodyend="17840"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FeatureObjectProjectPointResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FeatureObjectProjectPointResult</label>
+        <link refid="classmrmeshpy_1_1FeatureObjectProjectPointResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_normal</edgelabel>
+          <edgelabel>_offsetof_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17808" bodyend="17840"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1adb9b2e8d7c63e5daaedeb4b427986b9d" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a0e56acc9efaf94b8cf51263808dd211b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1abdd122fd823bcb8ffb7c15efd445518f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a9a248a99c751605873d7d9d3dc4026e7" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1adac41a23336b8e0199ab484232baf279" prot="protected" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>_offsetof_normal</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1ad6a02a97cea3af5a38a099dd96ce1ee3" prot="protected" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>_offsetof_point</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a965d2753e6225d0dc1cd55b101c0c22e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObjectProjectPointResult_1a965d2753e6225d0dc1cd55b101c0c22e" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObjectProjectPointResult</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TrimWithPlaneParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TrimWithPlaneParams</compoundname>
+    <includes refid="MRMeshTrimWithPlane_8h" local="no">MRMeshTrimWithPlane.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TrimWithPlaneParams_1ac31ec54e79c7c73e956dd8f91eb4e37c" prot="public" static="no" mutable="no">
+        <type>Plane3f</type>
+        <definition>Plane3f MR::TrimWithPlaneParams::plane</definition>
+        <argsstring></argsstring>
+        <name>plane</name>
+        <qualifiedname>MR::TrimWithPlaneParams::plane</qualifiedname>
+        <briefdescription>
+<para>Input plane to cut mesh with. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="47" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimWithPlaneParams_1a21fbd4b8bfa38a079a62c8911d914b35" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::TrimWithPlaneParams::eps</definition>
+        <argsstring></argsstring>
+        <name>eps</name>
+        <qualifiedname>MR::TrimWithPlaneParams::eps</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="49" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimWithPlaneParams_1aad3ace62ca2c0713d844f88dc24df14c" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId, EdgeId, float)&gt;</type>
+        <definition>std::function&lt;void( EdgeId, EdgeId, float )&gt; MR::TrimWithPlaneParams::onEdgeSplitCallback</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>MR::TrimWithPlaneParams::onEdgeSplitCallback</qualifiedname>
+        <briefdescription>
+<para>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="51" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores basic params for trimWithPlane function </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="44" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="45" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TrimWithPlaneParams_1a21fbd4b8bfa38a079a62c8911d914b35" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>eps</name></member>
+      <member refid="structMR_1_1TrimWithPlaneParams_1aad3ace62ca2c0713d844f88dc24df14c" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="structMR_1_1TrimWithPlaneParams_1ac31ec54e79c7c73e956dd8f91eb4e37c" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>plane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__ObjVertId" kind="struct" language="C++" prot="public">
+    <compoundname>MR_ObjVertId</compoundname>
+    <includes refid="MRGridSampling_8h" local="no">MRGridSampling.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__ObjVertId_1a6de37a93e460841b4edc20c46b5435c0" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref></type>
+        <definition>MR_ObjId MR_ObjVertId::objId</definition>
+        <argsstring></argsstring>
+        <name>objId</name>
+        <qualifiedname>MR_ObjVertId::objId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="32" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__ObjVertId_1a5194402ad6a70672d7753e5afd7a4fcb" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MR_VertId MR_ObjVertId::vId</definition>
+        <argsstring></argsstring>
+        <name>vId</name>
+        <qualifiedname>MR_ObjVertId::vId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="33" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::ObjVertId</computeroutput>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR_ObjId</label>
+        <link refid="structMR__ObjId"/>
+      </node>
+      <node id="1">
+        <label>MR_ObjVertId</label>
+        <link refid="structMR__ObjVertId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>objId</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>vId</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR_VertId</label>
+        <link refid="structMR__VertId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSampling.h" bodystart="31" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structMR__ObjVertId_1a6de37a93e460841b4edc20c46b5435c0" prot="public" virt="non-virtual"><scope>MR_ObjVertId</scope><name>objId</name></member>
+      <member refid="structMR__ObjVertId_1a5194402ad6a70672d7753e5afd7a4fcb" prot="public" virt="non-virtual"><scope>MR_ObjVertId</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

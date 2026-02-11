@@ -1,0 +1,1339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshTrimWithPlane_8h" kind="file" language="C++">
+    <compoundname>MRMeshTrimWithPlane.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMeshTrimWithPlane.h</label>
+        <link refid="MRMeshTrimWithPlane_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
+        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Plane3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="14" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1a03edab687b909f8423dba338e60cd1e9" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref></type>
+        <definition>typedef struct MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</definition>
+        <argsstring></argsstring>
+        <name>MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="16" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" prot="public" static="no">
+        <type>struct <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="17" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1ab5de264b6065dbf84f6b3fa0f6530592" prot="public" static="no">
+        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref></type>
+        <definition>typedef struct MR_std_vector_std_vector_MR_EdgeId MR_std_vector_std_vector_MR_EdgeId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_vector_MR_EdgeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="18" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" prot="public" static="no">
+        <type>struct <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref></type>
+        <definition>typedef struct MR_TrimWithPlaneParams MR_TrimWithPlaneParams</definition>
+        <argsstring></argsstring>
+        <name>MR_TrimWithPlaneParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TrimWithPlaneParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="24" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" prot="public" static="no">
+        <type>struct <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref></type>
+        <definition>typedef struct MR_TrimOptionalOutput MR_TrimOptionalOutput</definition>
+        <argsstring></argsstring>
+        <name>MR_TrimOptionalOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TrimOptionalOutput</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="29" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a24aaad99dc640d68ee04128d73c27c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_subdivideWithPlane_5</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_Plane3f *plane, MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *new2Old, const float *eps, MR_PassBy onEdgeSplitCallback_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float *onEdgeSplitCallback)</argsstring>
+        <name>MR_subdivideWithPlane_5</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>new2Old</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>onEdgeSplitCallback_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+          <declname>onEdgeSplitCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>subdivides all triangles intersected by given plane, leaving smaller triangles that only touch the plane; <simplesect kind="return"><para>all triangles on the positive side of the plane </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onEdgeSplitCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Generated from function <computeroutput>MR::subdivideWithPlane</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new2Old</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>eps</computeroutput> has a default argument: <computeroutput>0</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>onEdgeSplitCallback</computeroutput> has a default argument: <computeroutput>nullptr</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a4ebdc52390d331e5313d029ce55682ab" kindref="member">MR_FaceBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="43" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="43" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1af487905d9400ff134ce11108127ac6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API const MR_Plane3f * MR_TrimWithPlaneParams_Get_plane</definition>
+        <argsstring>(const MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_Get_plane</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="49" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="49" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a5e47f1f9f86ea5787e0f543a8cccd83d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimWithPlaneParams_Set_plane</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this, const MR_Plane3f *value)</argsstring>
+        <name>MR_TrimWithPlaneParams_Set_plane</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>plane</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>plane</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a89a6fd11b3d19bd01b6442ad010ff866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+        <definition>MRC_API MR_Plane3f * MR_TrimWithPlaneParams_GetMutable_plane</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_GetMutable_plane</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="63" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="63" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a43dd3ed1897a70ffbed35815bcbabe84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_TrimWithPlaneParams_Get_eps</definition>
+        <argsstring>(const MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_Get_eps</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="69" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="69" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a8af598a1c6f2642730ff5712027e6ed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimWithPlaneParams_Set_eps</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this, float value)</argsstring>
+        <name>MR_TrimWithPlaneParams_Set_eps</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>eps</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="75" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1add83e5e6e8d65a525018c5c214a28610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_TrimWithPlaneParams_GetMutable_eps</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_GetMutable_eps</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="81" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="81" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1ac396edae3fdbf470bc881571f6e1c9e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float * MR_TrimWithPlaneParams_Get_onEdgeSplitCallback</definition>
+        <argsstring>(const MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_Get_onEdgeSplitCallback</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="87" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="87" declcolumn="67"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a885e93d240a76b96b566107407800a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimWithPlaneParams_Set_onEdgeSplitCallback</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float *value)</argsstring>
+        <name>MR_TrimWithPlaneParams_Set_onEdgeSplitCallback</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplitCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplitCallback</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a6aa78bc3bdb3fb554d0efa0cfc36042f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float * MR_TrimWithPlaneParams_GetMutable_onEdgeSplitCallback</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_GetMutable_onEdgeSplitCallback</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="100" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="100" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a6c9a85584b59489e49014a1e02f6a866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_TrimWithPlaneParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" kindref="member">MR_TrimWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="104" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="104" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a1252cfbb8ca9e6ab08530fbaecb0662a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_TrimWithPlaneParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1acabbc98cbd3ead25dfc2ff7e8b8e93fd" kindref="member">MR_TrimWithPlaneParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1a49053e2fdf8e7f6bbac59fb920844c5f" kindref="member">MR_TrimWithPlaneParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1a3d72934038a30a64088a9c27187932c8" kindref="member">MR_TrimWithPlaneParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="109" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="109" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a0f3846e29814409b991a00811ac7c735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_ConstructFrom</definition>
+        <argsstring>(const MR_Plane3f *plane, float eps, MR_PassBy onEdgeSplitCallback_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float *onEdgeSplitCallback)</argsstring>
+        <name>MR_TrimWithPlaneParams_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>onEdgeSplitCallback_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+          <declname>onEdgeSplitCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::TrimWithPlaneParams</computeroutput> elementwise. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>plane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplitCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" kindref="member">MR_TrimWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="117" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="117" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a3d72934038a30a64088a9c27187932c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API const MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_OffsetPtr</definition>
+        <argsstring>(const MR_TrimWithPlaneParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TrimWithPlaneParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="121" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="121" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a49053e2fdf8e7f6bbac59fb920844c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_TrimWithPlaneParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TrimWithPlaneParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="125" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="125" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a9a5d87da7173cd0915d8dc48e5c38ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_TrimWithPlaneParams *_other)</argsstring>
+        <name>MR_TrimWithPlaneParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TrimWithPlaneParams::TrimWithPlaneParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" kindref="member">MR_TrimWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="130" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="130" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimWithPlaneParams_Destroy</definition>
+        <argsstring>(const MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TrimWithPlaneParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1acabbc98cbd3ead25dfc2ff7e8b8e93fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimWithPlaneParams_DestroyArray</definition>
+        <argsstring>(const MR_TrimWithPlaneParams *_this)</argsstring>
+        <name>MR_TrimWithPlaneParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TrimWithPlaneParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a418c9715b00e44de85ba509bae6470f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_TrimWithPlaneParams * MR_TrimWithPlaneParams_AssignFromAnother</definition>
+        <argsstring>(MR_TrimWithPlaneParams *_this, MR_PassBy _other_pass_by, MR_TrimWithPlaneParams *_other)</argsstring>
+        <name>MR_TrimWithPlaneParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TrimWithPlaneParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="143" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="143" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1ac05859ba77d538cb55bbdbe46c2b77bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet *const  * MR_TrimOptionalOutput_Get_outCutEdges</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Get_outCutEdges</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="149" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="149" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a6f53e21dfb44d731aeb845463331c7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Set_outCutEdges</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, MR_UndirectedEdgeBitSet *value)</argsstring>
+        <name>MR_TrimOptionalOutput_Set_outCutEdges</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutEdges</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a893954f42a0b1466c2357c123619d00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet ** MR_TrimOptionalOutput_GetMutable_outCutEdges</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_GetMutable_outCutEdges</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="162" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="162" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a95b686858ba78b4b189783a2ec3d3478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *const *</type>
+        <definition>MRC_API MR_std_vector_std_vector_MR_EdgeId *const  * MR_TrimOptionalOutput_Get_outCutContours</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Get_outCutContours</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="168" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="168" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a2960d6b3714bcf450644d31aca35faab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Set_outCutContours</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, MR_std_vector_std_vector_MR_EdgeId *value)</argsstring>
+        <name>MR_TrimOptionalOutput_Set_outCutContours</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutContours</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutContours</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="175" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a2b8b2dc1a11e8865f94288b9e7a6cef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> **</type>
+        <definition>MRC_API MR_std_vector_std_vector_MR_EdgeId ** MR_TrimOptionalOutput_GetMutable_outCutContours</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_GetMutable_outCutContours</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="181" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="181" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a77ae04022cb5c04266ff1df78588d115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *const *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *const  * MR_TrimOptionalOutput_Get_new2Old</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Get_new2Old</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>new2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="187" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="187" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a82183d06e3b2641cbd698e7b273693bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Set_new2Old</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *value)</argsstring>
+        <name>MR_TrimOptionalOutput_Set_new2Old</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>new2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2Old</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2Old</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a4d8ead762f79d012747c58772683e457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> **</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId ** MR_TrimOptionalOutput_GetMutable_new2Old</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_GetMutable_new2Old</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>new2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="200" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="200" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a6bdb368453da248f51c646a2f34c13af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *const *</type>
+        <definition>MRC_API MR_Mesh *const  * MR_TrimOptionalOutput_Get_otherPart</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Get_otherPart</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="206" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="206" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a967a9c7084caa0156129eddf120311cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Set_otherPart</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, MR_Mesh *value)</argsstring>
+        <name>MR_TrimOptionalOutput_Set_otherPart</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherPart</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="213" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="213" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a17a9cac67a8fc5e8bf368f1dd8f8b7f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> **</type>
+        <definition>MRC_API MR_Mesh ** MR_TrimOptionalOutput_GetMutable_otherPart</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_GetMutable_otherPart</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="219" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="219" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1ad7a14ec6c4c0a588f8f1d5221d79d24c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *const *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *const  * MR_TrimOptionalOutput_Get_otherNew2Old</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Get_otherNew2Old</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherNew2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="225" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="225" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1aaf95c2d28509d8625a3e528706b94778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Set_otherNew2Old</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *value)</argsstring>
+        <name>MR_TrimOptionalOutput_Set_otherNew2Old</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherNew2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherNew2Old</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherNew2Old</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="232" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1ad702845e553a6d671b41d5b104691556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> **</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId ** MR_TrimOptionalOutput_GetMutable_otherNew2Old</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_GetMutable_otherNew2Old</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherNew2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="238" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="238" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1ac2bfd44b6fc06d68b3f165091522b336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *const *</type>
+        <definition>MRC_API MR_std_vector_std_vector_MR_EdgeId *const  * MR_TrimOptionalOutput_Get_otherOutCutContours</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Get_otherOutCutContours</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherOutCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="244" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="244" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a8ceb36d955fc254f765b9c1edf90b42f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Set_otherOutCutContours</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, MR_std_vector_std_vector_MR_EdgeId *value)</argsstring>
+        <name>MR_TrimOptionalOutput_Set_otherOutCutContours</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherOutCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutCutContours</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherOutCutContours</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a80866442297c3adedbe4bcf80ae3d34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> **</type>
+        <definition>MRC_API MR_std_vector_std_vector_MR_EdgeId ** MR_TrimOptionalOutput_GetMutable_otherOutCutContours</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_GetMutable_otherOutCutContours</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherOutCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="257" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="257" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a0c0447204da82c84f4af841d9bb8ce68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API MR_TrimOptionalOutput * MR_TrimOptionalOutput_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_TrimOptionalOutput_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" kindref="member">MR_TrimOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="261" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="261" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a4f3283ce35faf613c907f21629f41e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API MR_TrimOptionalOutput * MR_TrimOptionalOutput_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_TrimOptionalOutput_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1af97b8ac3b8d9b5aec8ac066abfd9c584" kindref="member">MR_TrimOptionalOutput_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1a7d83f5ce833b9b85cfd50c8d970daa54" kindref="member">MR_TrimOptionalOutput_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1a9bbda0f2abfdd8946d40dcb5abb95a63" kindref="member">MR_TrimOptionalOutput_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="266" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="266" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a0e4af1b91f38d907066c7cbebebea035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API MR_TrimOptionalOutput * MR_TrimOptionalOutput_ConstructFrom</definition>
+        <argsstring>(MR_UndirectedEdgeBitSet *outCutEdges, MR_std_vector_std_vector_MR_EdgeId *outCutContours, MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *new2Old, MR_Mesh *otherPart, MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId *otherNew2Old, MR_std_vector_std_vector_MR_EdgeId *otherOutCutContours)</argsstring>
+        <name>MR_TrimOptionalOutput_ConstructFrom</name>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>outCutEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+          <declname>outCutContours</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>new2Old</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>otherNew2Old</declname>
+        </param>
+        <param>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+          <declname>otherOutCutContours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::TrimOptionalOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>outCutEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutContours</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2Old</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherNew2Old</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutCutContours</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" kindref="member">MR_TrimOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="277" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="277" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a9bbda0f2abfdd8946d40dcb5abb95a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API const MR_TrimOptionalOutput * MR_TrimOptionalOutput_OffsetPtr</definition>
+        <argsstring>(const MR_TrimOptionalOutput *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TrimOptionalOutput_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="281" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="281" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a7d83f5ce833b9b85cfd50c8d970daa54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API MR_TrimOptionalOutput * MR_TrimOptionalOutput_OffsetMutablePtr</definition>
+        <argsstring>(MR_TrimOptionalOutput *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TrimOptionalOutput_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="285" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="285" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1af3a307162eeae1a594f51db00e1de537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API MR_TrimOptionalOutput * MR_TrimOptionalOutput_ConstructFromAnother</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_other)</argsstring>
+        <name>MR_TrimOptionalOutput_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TrimOptionalOutput::TrimOptionalOutput</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" kindref="member">MR_TrimOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="291" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="291" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_Destroy</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TrimOptionalOutput</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="294" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="294" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1af97b8ac3b8d9b5aec8ac066abfd9c584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TrimOptionalOutput_DestroyArray</definition>
+        <argsstring>(const MR_TrimOptionalOutput *_this)</argsstring>
+        <name>MR_TrimOptionalOutput_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TrimOptionalOutput</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="297" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="297" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1a32b9a7acc861f3aae7912358c64a4f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+        <definition>MRC_API MR_TrimOptionalOutput * MR_TrimOptionalOutput_AssignFromAnother</definition>
+        <argsstring>(MR_TrimOptionalOutput *_this, const MR_TrimOptionalOutput *_other)</argsstring>
+        <name>MR_TrimOptionalOutput_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TrimOptionalOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="305" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="305" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTrimWithPlane_8h_1abb56fe8ba6dc675dce2eaf19a40a72ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_trimWithPlane_MR_Mesh</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_TrimWithPlaneParams *params, const MR_TrimOptionalOutput *optOut)</argsstring>
+        <name>MR_trimWithPlane_MR_Mesh</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref> *</type>
+          <declname>optOut</declname>
+        </param>
+        <briefdescription>
+<para>trim mesh by plane </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function cuts mesh with plane, leaving only part of mesh that lay in positive direction of normal <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh that will be cut </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stores basic params for trimWithPlane function </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>optOut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stores optional output params for trimWithPlane function Generated from function <computeroutput>MR::trimWithPlane</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Parameter <computeroutput>optOut</computeroutput> is a single object. Parameter <computeroutput>optOut</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" line="319" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h" declline="319" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRMeshTrimWithPlane_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRMeshTrimWithPlane_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMeshTrimWithPlane_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRMeshTrimWithPlane_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRMeshTrimWithPlane_8h_1a03edab687b909f8423dba338e60cd1e9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_MR_FaceId_MR_FaceId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_EdgeId_MR_EdgeId_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRMeshTrimWithPlane_8h_1ab5de264b6065dbf84f6b3fa0f6530592" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stores<sp/>basic<sp/>params<sp/>for<sp/>trimWithPlane<sp/>function</highlight></codeline>
+<codeline lineno="24" refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stores<sp/>optional<sp/>output<sp/>params<sp/>for<sp/>trimWithPlane<sp/>function</highlight></codeline>
+<codeline lineno="29" refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRMeshTrimWithPlane_8h_1a24aaad99dc640d68ee04128d73c27c80" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a24aaad99dc640d68ee04128d73c27c80" kindref="member">MR_subdivideWithPlane_5</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*new2Old,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*eps,<sp/>MR_PassBy<sp/>onEdgeSplitCallback_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*onEdgeSplitCallback);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//Input<sp/>plane<sp/>to<sp/>cut<sp/>mesh<sp/>with</highlight></codeline>
+<codeline lineno="49" refid="MRMeshTrimWithPlane_8h_1af487905d9400ff134ce11108127ac6df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1af487905d9400ff134ce11108127ac6df" kindref="member">MR_TrimWithPlaneParams_Get_plane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//Input<sp/>plane<sp/>to<sp/>cut<sp/>mesh<sp/>with</highlight></codeline>
+<codeline lineno="57" refid="MRMeshTrimWithPlane_8h_1a5e47f1f9f86ea5787e0f543a8cccd83d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a5e47f1f9f86ea5787e0f543a8cccd83d" kindref="member">MR_TrimWithPlaneParams_Set_plane</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//Input<sp/>plane<sp/>to<sp/>cut<sp/>mesh<sp/>with</highlight></codeline>
+<codeline lineno="63" refid="MRMeshTrimWithPlane_8h_1a89a6fd11b3d19bd01b6442ad010ff866" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a89a6fd11b3d19bd01b6442ad010ff866" kindref="member">MR_TrimWithPlaneParams_GetMutable_plane</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>existing<sp/>vertex<sp/>is<sp/>within<sp/>eps<sp/>distance<sp/>from<sp/>the<sp/>plane,<sp/>then<sp/>move<sp/>the<sp/>vertex<sp/>not<sp/>introducing<sp/>new<sp/>ones</highlight></codeline>
+<codeline lineno="69" refid="MRMeshTrimWithPlane_8h_1a43dd3ed1897a70ffbed35815bcbabe84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a43dd3ed1897a70ffbed35815bcbabe84" kindref="member">MR_TrimWithPlaneParams_Get_eps</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>existing<sp/>vertex<sp/>is<sp/>within<sp/>eps<sp/>distance<sp/>from<sp/>the<sp/>plane,<sp/>then<sp/>move<sp/>the<sp/>vertex<sp/>not<sp/>introducing<sp/>new<sp/>ones</highlight></codeline>
+<codeline lineno="75" refid="MRMeshTrimWithPlane_8h_1a8af598a1c6f2642730ff5712027e6ed5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a8af598a1c6f2642730ff5712027e6ed5" kindref="member">MR_TrimWithPlaneParams_Set_eps</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>existing<sp/>vertex<sp/>is<sp/>within<sp/>eps<sp/>distance<sp/>from<sp/>the<sp/>plane,<sp/>then<sp/>move<sp/>the<sp/>vertex<sp/>not<sp/>introducing<sp/>new<sp/>ones</highlight></codeline>
+<codeline lineno="81" refid="MRMeshTrimWithPlane_8h_1add83e5e6e8d65a525018c5c214a28610" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1add83e5e6e8d65a525018c5c214a28610" kindref="member">MR_TrimWithPlaneParams_GetMutable_eps</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>invoked<sp/>each<sp/>time<sp/>when<sp/>an<sp/>edge<sp/>is<sp/>split.<sp/>Receives<sp/>edge<sp/>ID<sp/>before<sp/>split,<sp/>edge<sp/>ID<sp/>after<sp/>split,<sp/>and<sp/>weight<sp/>of<sp/>the<sp/>origin<sp/>vertex</highlight></codeline>
+<codeline lineno="87" refid="MRMeshTrimWithPlane_8h_1ac396edae3fdbf470bc881571f6e1c9e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1ac396edae3fdbf470bc881571f6e1c9e7" kindref="member">MR_TrimWithPlaneParams_Get_onEdgeSplitCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>invoked<sp/>each<sp/>time<sp/>when<sp/>an<sp/>edge<sp/>is<sp/>split.<sp/>Receives<sp/>edge<sp/>ID<sp/>before<sp/>split,<sp/>edge<sp/>ID<sp/>after<sp/>split,<sp/>and<sp/>weight<sp/>of<sp/>the<sp/>origin<sp/>vertex</highlight></codeline>
+<codeline lineno="94" refid="MRMeshTrimWithPlane_8h_1a885e93d240a76b96b566107407800a38" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a885e93d240a76b96b566107407800a38" kindref="member">MR_TrimWithPlaneParams_Set_onEdgeSplitCallback</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>invoked<sp/>each<sp/>time<sp/>when<sp/>an<sp/>edge<sp/>is<sp/>split.<sp/>Receives<sp/>edge<sp/>ID<sp/>before<sp/>split,<sp/>edge<sp/>ID<sp/>after<sp/>split,<sp/>and<sp/>weight<sp/>of<sp/>the<sp/>origin<sp/>vertex</highlight></codeline>
+<codeline lineno="100" refid="MRMeshTrimWithPlane_8h_1a6aa78bc3bdb3fb554d0efa0cfc36042f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a6aa78bc3bdb3fb554d0efa0cfc36042f" kindref="member">MR_TrimWithPlaneParams_GetMutable_onEdgeSplitCallback</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRMeshTrimWithPlane_8h_1a6c9a85584b59489e49014a1e02f6a866" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a6c9a85584b59489e49014a1e02f6a866" kindref="member">MR_TrimWithPlaneParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRMeshTrimWithPlane_8h_1a1252cfbb8ca9e6ab08530fbaecb0662a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a1252cfbb8ca9e6ab08530fbaecb0662a" kindref="member">MR_TrimWithPlaneParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRMeshTrimWithPlane_8h_1a0f3846e29814409b991a00811ac7c735" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a0f3846e29814409b991a00811ac7c735" kindref="member">MR_TrimWithPlaneParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps,<sp/>MR_PassBy<sp/>onEdgeSplitCallback_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*onEdgeSplitCallback);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRMeshTrimWithPlane_8h_1a3d72934038a30a64088a9c27187932c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a3d72934038a30a64088a9c27187932c8" kindref="member">MR_TrimWithPlaneParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRMeshTrimWithPlane_8h_1a49053e2fdf8e7f6bbac59fb920844c5f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a49053e2fdf8e7f6bbac59fb920844c5f" kindref="member">MR_TrimWithPlaneParams_OffsetMutablePtr</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRMeshTrimWithPlane_8h_1a9a5d87da7173cd0915d8dc48e5c38ea2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a9a5d87da7173cd0915d8dc48e5c38ea2" kindref="member">MR_TrimWithPlaneParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" kindref="member">MR_TrimWithPlaneParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRMeshTrimWithPlane_8h_1acabbc98cbd3ead25dfc2ff7e8b8e93fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1acabbc98cbd3ead25dfc2ff7e8b8e93fd" kindref="member">MR_TrimWithPlaneParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRMeshTrimWithPlane_8h_1a418c9715b00e44de85ba509bae6470f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a418c9715b00e44de85ba509bae6470f2" kindref="member">MR_TrimWithPlaneParams_AssignFromAnother</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>boundary<sp/>edges</highlight></codeline>
+<codeline lineno="149" refid="MRMeshTrimWithPlane_8h_1ac05859ba77d538cb55bbdbe46c2b77bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1ac05859ba77d538cb55bbdbe46c2b77bc" kindref="member">MR_TrimOptionalOutput_Get_outCutEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>boundary<sp/>edges</highlight></codeline>
+<codeline lineno="156" refid="MRMeshTrimWithPlane_8h_1a6f53e21dfb44d731aeb845463331c7a8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a6f53e21dfb44d731aeb845463331c7a8" kindref="member">MR_TrimOptionalOutput_Set_outCutEdges</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>boundary<sp/>edges</highlight></codeline>
+<codeline lineno="162" refid="MRMeshTrimWithPlane_8h_1a893954f42a0b1466c2357c123619d00a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshTrimWithPlane_8h_1a893954f42a0b1466c2357c123619d00a" kindref="member">MR_TrimOptionalOutput_GetMutable_outCutEdges</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>contours<sp/>where<sp/>each<sp/>edge<sp/>does<sp/>not<sp/>have<sp/>right<sp/>face</highlight></codeline>
+<codeline lineno="168" refid="MRMeshTrimWithPlane_8h_1a95b686858ba78b4b189783a2ec3d3478" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a95b686858ba78b4b189783a2ec3d3478" kindref="member">MR_TrimOptionalOutput_Get_outCutContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>contours<sp/>where<sp/>each<sp/>edge<sp/>does<sp/>not<sp/>have<sp/>right<sp/>face</highlight></codeline>
+<codeline lineno="175" refid="MRMeshTrimWithPlane_8h_1a2960d6b3714bcf450644d31aca35faab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a2960d6b3714bcf450644d31aca35faab" kindref="member">MR_TrimOptionalOutput_Set_outCutContours</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>contours<sp/>where<sp/>each<sp/>edge<sp/>does<sp/>not<sp/>have<sp/>right<sp/>face</highlight></codeline>
+<codeline lineno="181" refid="MRMeshTrimWithPlane_8h_1a2b8b2dc1a11e8865f94288b9e7a6cef9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>**<ref refid="MRMeshTrimWithPlane_8h_1a2b8b2dc1a11e8865f94288b9e7a6cef9" kindref="member">MR_TrimOptionalOutput_GetMutable_outCutContours</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>from<sp/>newly<sp/>appeared<sp/>triangle<sp/>to<sp/>its<sp/>original<sp/>triangle<sp/>(part<sp/>to<sp/>full)</highlight></codeline>
+<codeline lineno="187" refid="MRMeshTrimWithPlane_8h_1a77ae04022cb5c04266ff1df78588d115" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a77ae04022cb5c04266ff1df78588d115" kindref="member">MR_TrimOptionalOutput_Get_new2Old</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>from<sp/>newly<sp/>appeared<sp/>triangle<sp/>to<sp/>its<sp/>original<sp/>triangle<sp/>(part<sp/>to<sp/>full)</highlight></codeline>
+<codeline lineno="194" refid="MRMeshTrimWithPlane_8h_1a82183d06e3b2641cbd698e7b273693bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a82183d06e3b2641cbd698e7b273693bb" kindref="member">MR_TrimOptionalOutput_Set_new2Old</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>from<sp/>newly<sp/>appeared<sp/>triangle<sp/>to<sp/>its<sp/>original<sp/>triangle<sp/>(part<sp/>to<sp/>full)</highlight></codeline>
+<codeline lineno="200" refid="MRMeshTrimWithPlane_8h_1a4d8ead762f79d012747c58772683e457" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>**<ref refid="MRMeshTrimWithPlane_8h_1a4d8ead762f79d012747c58772683e457" kindref="member">MR_TrimOptionalOutput_GetMutable_new2Old</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>left<sp/>part<sp/>of<sp/>the<sp/>trimmed<sp/>mesh</highlight></codeline>
+<codeline lineno="206" refid="MRMeshTrimWithPlane_8h_1a6bdb368453da248f51c646a2f34c13af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a6bdb368453da248f51c646a2f34c13af" kindref="member">MR_TrimOptionalOutput_Get_otherPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">//<sp/>left<sp/>part<sp/>of<sp/>the<sp/>trimmed<sp/>mesh</highlight></codeline>
+<codeline lineno="213" refid="MRMeshTrimWithPlane_8h_1a967a9c7084caa0156129eddf120311cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a967a9c7084caa0156129eddf120311cf" kindref="member">MR_TrimOptionalOutput_Set_otherPart</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/>left<sp/>part<sp/>of<sp/>the<sp/>trimmed<sp/>mesh</highlight></codeline>
+<codeline lineno="219" refid="MRMeshTrimWithPlane_8h_1a17a9cac67a8fc5e8bf368f1dd8f8b7f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>**<ref refid="MRMeshTrimWithPlane_8h_1a17a9cac67a8fc5e8bf368f1dd8f8b7f2" kindref="member">MR_TrimOptionalOutput_GetMutable_otherPart</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>from<sp/>newly<sp/>appeared<sp/>triangle<sp/>to<sp/>its<sp/>original<sp/>triangle<sp/>(part<sp/>to<sp/>full)<sp/>in<sp/>otherPart</highlight></codeline>
+<codeline lineno="225" refid="MRMeshTrimWithPlane_8h_1ad7a14ec6c4c0a588f8f1d5221d79d24c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1ad7a14ec6c4c0a588f8f1d5221d79d24c" kindref="member">MR_TrimOptionalOutput_Get_otherNew2Old</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>from<sp/>newly<sp/>appeared<sp/>triangle<sp/>to<sp/>its<sp/>original<sp/>triangle<sp/>(part<sp/>to<sp/>full)<sp/>in<sp/>otherPart</highlight></codeline>
+<codeline lineno="232" refid="MRMeshTrimWithPlane_8h_1aaf95c2d28509d8625a3e528706b94778" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1aaf95c2d28509d8625a3e528706b94778" kindref="member">MR_TrimOptionalOutput_Set_otherNew2Old</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>from<sp/>newly<sp/>appeared<sp/>triangle<sp/>to<sp/>its<sp/>original<sp/>triangle<sp/>(part<sp/>to<sp/>full)<sp/>in<sp/>otherPart</highlight></codeline>
+<codeline lineno="238" refid="MRMeshTrimWithPlane_8h_1ad702845e553a6d671b41d5b104691556" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>**<ref refid="MRMeshTrimWithPlane_8h_1ad702845e553a6d671b41d5b104691556" kindref="member">MR_TrimOptionalOutput_GetMutable_otherNew2Old</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>contours<sp/>where<sp/>each<sp/>edge<sp/>does<sp/>not<sp/>have<sp/>right<sp/>face<sp/>in<sp/>otherPart</highlight></codeline>
+<codeline lineno="244" refid="MRMeshTrimWithPlane_8h_1ac2bfd44b6fc06d68b3f165091522b336" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1ac2bfd44b6fc06d68b3f165091522b336" kindref="member">MR_TrimOptionalOutput_Get_otherOutCutContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>contours<sp/>where<sp/>each<sp/>edge<sp/>does<sp/>not<sp/>have<sp/>right<sp/>face<sp/>in<sp/>otherPart</highlight></codeline>
+<codeline lineno="251" refid="MRMeshTrimWithPlane_8h_1a8ceb36d955fc254f765b9c1edf90b42f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a8ceb36d955fc254f765b9c1edf90b42f" kindref="member">MR_TrimOptionalOutput_Set_otherOutCutContours</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="comment">//<sp/>newly<sp/>appeared<sp/>hole<sp/>contours<sp/>where<sp/>each<sp/>edge<sp/>does<sp/>not<sp/>have<sp/>right<sp/>face<sp/>in<sp/>otherPart</highlight></codeline>
+<codeline lineno="257" refid="MRMeshTrimWithPlane_8h_1a80866442297c3adedbe4bcf80ae3d34e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>**<ref refid="MRMeshTrimWithPlane_8h_1a80866442297c3adedbe4bcf80ae3d34e" kindref="member">MR_TrimOptionalOutput_GetMutable_otherOutCutContours</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRMeshTrimWithPlane_8h_1a0c0447204da82c84f4af841d9bb8ce68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a0c0447204da82c84f4af841d9bb8ce68" kindref="member">MR_TrimOptionalOutput_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRMeshTrimWithPlane_8h_1a4f3283ce35faf613c907f21629f41e83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a4f3283ce35faf613c907f21629f41e83" kindref="member">MR_TrimOptionalOutput_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRMeshTrimWithPlane_8h_1a0e4af1b91f38d907066c7cbebebea035" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a0e4af1b91f38d907066c7cbebebea035" kindref="member">MR_TrimOptionalOutput_ConstructFrom</ref>(<ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outCutEdges,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*outCutContours,<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*new2Old,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*otherPart,<sp/><ref refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kindref="member">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</ref><sp/>*otherNew2Old,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*otherOutCutContours);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="MRMeshTrimWithPlane_8h_1a9bbda0f2abfdd8946d40dcb5abb95a63" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a9bbda0f2abfdd8946d40dcb5abb95a63" kindref="member">MR_TrimOptionalOutput_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MRMeshTrimWithPlane_8h_1a7d83f5ce833b9b85cfd50c8d970daa54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a7d83f5ce833b9b85cfd50c8d970daa54" kindref="member">MR_TrimOptionalOutput_OffsetMutablePtr</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="MRMeshTrimWithPlane_8h_1af3a307162eeae1a594f51db00e1de537" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1af3a307162eeae1a594f51db00e1de537" kindref="member">MR_TrimOptionalOutput_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" kindref="member">MR_TrimOptionalOutput_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRMeshTrimWithPlane_8h_1af97b8ac3b8d9b5aec8ac066abfd9c584" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1af97b8ac3b8d9b5aec8ac066abfd9c584" kindref="member">MR_TrimOptionalOutput_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRMeshTrimWithPlane_8h_1a32b9a7acc861f3aae7912358c64a4f99" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*<ref refid="MRMeshTrimWithPlane_8h_1a32b9a7acc861f3aae7912358c64a4f99" kindref="member">MR_TrimOptionalOutput_AssignFromAnother</ref>(<ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRMeshTrimWithPlane_8h_1abb56fe8ba6dc675dce2eaf19a40a72ad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1abb56fe8ba6dc675dce2eaf19a40a72ad" kindref="member">MR_trimWithPlane_MR_Mesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a84025085d53bf26e235ab44149192c09" kindref="member">MR_TrimWithPlaneParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a1a86575fe63cab3cf6d93f75b5a712f6" kindref="member">MR_TrimOptionalOutput</ref><sp/>*optOut);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTrimWithPlane.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EndMillTool" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EndMillTool</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EndMillTool_1a4acea607ab209478360eddfc937c8f71" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EndMillTool::_offsetof_cutter</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cutter</name>
+        <qualifiedname>mrmeshpy.EndMillTool._offsetof_cutter</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16096" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EndMillTool_1a5c6f498f786ff39a25b72d2d47165461" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EndMillTool::_offsetof_diameter</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_diameter</name>
+        <qualifiedname>mrmeshpy.EndMillTool._offsetof_diameter</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16097" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EndMillTool_1a35b12818110223fd7193d2de35b31fa9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EndMillTool::_offsetof_length</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_length</name>
+        <qualifiedname>mrmeshpy.EndMillTool._offsetof_length</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16098" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a1ca0b061133ec99da053a1317bd48525" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EndMillTool.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16101" bodyend="16102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1af6be09919d1e68c5e133ef2984e14387" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+        <definition> EndMillTool mrmeshpy.EndMillTool.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EndMillTool.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16105" bodyend="16106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1af6be09919d1e68c5e133ef2984e14387" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+        <definition> EndMillTool mrmeshpy.EndMillTool.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EndMillTool.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16109" bodyend="16110"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1ae4c6f6bbffcf8056055348ce13d9ad94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EndMillTool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16112" bodyend="16113"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a27786734763a7ec5412da85e748aba82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.__init__</definition>
+        <argsstring>(self, EndMillTool arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EndMillTool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16115" bodyend="16118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a435ecc2861fca73114e466e5e06f6016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.__init__</definition>
+        <argsstring>(self, float length, float diameter, EndMillCutter cutter)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EndMillTool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>diameter</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EndMillCutter" kindref="compound">EndMillCutter</ref></type>
+          <declname>cutter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16120" bodyend="16123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1abbed1866493a45cfe9b4c1fc5e4ddc1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EndMillTool.getMinimalCutLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMinimalCutLength</name>
+        <qualifiedname>mrmeshpy.EndMillTool.getMinimalCutLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>compute the minimal cut length based on the cutter parameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16124" bodyend="16127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1acda73ef280b6b32b0f81660b35e1593a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.EndMillTool.toMesh</definition>
+        <argsstring>(self, int horizontalResolution=32, int verticalResolution=32)</argsstring>
+        <name>toMesh</name>
+        <qualifiedname>mrmeshpy.EndMillTool.toMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>horizontalResolution</declname>
+          <defval>32</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verticalResolution</declname>
+          <defval>32</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>create a tool mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16128" bodyend="16131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1acf21108965ad69d031957bde9e20dade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EndMillCutter" kindref="compound">EndMillCutter</ref></type>
+        <definition> EndMillCutter mrmeshpy.EndMillTool.cutter</definition>
+        <argsstring>(self)</argsstring>
+        <name>cutter</name>
+        <qualifiedname>mrmeshpy.EndMillTool.cutter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>cutter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16133" bodyend="16136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a90803773b2724a1631859cec1390b59b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.cutter</definition>
+        <argsstring>(self, EndMillCutter arg1)</argsstring>
+        <name>cutter</name>
+        <qualifiedname>mrmeshpy.EndMillTool.cutter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EndMillCutter" kindref="compound">EndMillCutter</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16138" bodyend="16139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a48e762d178397d1f4da4fc6115784ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EndMillTool.diameter</definition>
+        <argsstring>(self)</argsstring>
+        <name>diameter</name>
+        <qualifiedname>mrmeshpy.EndMillTool.diameter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tool diameter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16141" bodyend="16144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a8a64a5b69a174ac3e1d5c8c508e59808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.diameter</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>diameter</name>
+        <qualifiedname>mrmeshpy.EndMillTool.diameter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16146" bodyend="16147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a9a9bda511cb311069911cb63dd3ea6ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EndMillTool.length</definition>
+        <argsstring>(self)</argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.EndMillTool.length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>overall tool length
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16149" bodyend="16152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EndMillTool_1a660916e6b951e12f8976bb30329cb5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EndMillTool.length</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.EndMillTool.length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16154" bodyend="16155"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EndMillTool
+
+end mill tool specifications
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EndMillTool</label>
+        <link refid="classmrmeshpy_1_1EndMillTool"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cutter</edgelabel>
+          <edgelabel>_offsetof_diameter</edgelabel>
+          <edgelabel>_offsetof_length</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16090" bodyend="16155"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a1ca0b061133ec99da053a1317bd48525" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1ae4c6f6bbffcf8056055348ce13d9ad94" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a27786734763a7ec5412da85e748aba82" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a435ecc2861fca73114e466e5e06f6016" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a4acea607ab209478360eddfc937c8f71" prot="protected" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>_offsetof_cutter</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a5c6f498f786ff39a25b72d2d47165461" prot="protected" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>_offsetof_diameter</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a35b12818110223fd7193d2de35b31fa9" prot="protected" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>_offsetof_length</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1acf21108965ad69d031957bde9e20dade" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>cutter</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a90803773b2724a1631859cec1390b59b" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>cutter</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a48e762d178397d1f4da4fc6115784ac1" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>diameter</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a8a64a5b69a174ac3e1d5c8c508e59808" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>diameter</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1abbed1866493a45cfe9b4c1fc5e4ddc1f" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>getMinimalCutLength</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a9a9bda511cb311069911cb63dd3ea6ba" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1a660916e6b951e12f8976bb30329cb5c8" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1af6be09919d1e68c5e133ef2984e14387" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1af6be09919d1e68c5e133ef2984e14387" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EndMillTool_1acda73ef280b6b32b0f81660b35e1593a" prot="public" virt="non-virtual"><scope>mrmeshpy::EndMillTool</scope><name>toMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

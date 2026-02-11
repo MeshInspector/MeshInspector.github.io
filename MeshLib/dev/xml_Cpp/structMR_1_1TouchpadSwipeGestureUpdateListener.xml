@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TouchpadSwipeGestureUpdateListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::TouchpadSwipeGestureUpdateListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureUpdateListener_1a56753f530eab33ccb8f1c7c34ec618fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::TouchpadSwipeGestureUpdateListener::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(TouchpadSwipeGestureUpdateListener)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::TouchpadSwipeGestureUpdateListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TouchpadSwipeGestureUpdateListener" kindref="compound">TouchpadSwipeGestureUpdateListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="348" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureUpdateListener_1a22afe5fdd5b2015b479bc26a6e200972" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::TouchpadSwipeGestureUpdateListener::~TouchpadSwipeGestureUpdateListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TouchpadSwipeGestureUpdateListener</name>
+        <qualifiedname>MR::TouchpadSwipeGestureUpdateListener::~TouchpadSwipeGestureUpdateListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="349" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureUpdateListener_1a699126c1c4c296d0dcfd76964121d306" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::TouchpadSwipeGestureUpdateListener::connect</definition>
+        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::TouchpadSwipeGestureUpdateListener::connect</qualifiedname>
+        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="350" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureUpdateListener_1aef526e0582b51edc407c765caedd0b9b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::TouchpadSwipeGestureUpdateListener::touchpadSwipeGestureUpdate_</definition>
+        <argsstring>(float dx, float dy, bool kinetic)=0</argsstring>
+        <name>touchpadSwipeGestureUpdate_</name>
+        <qualifiedname>MR::TouchpadSwipeGestureUpdateListener::touchpadSwipeGestureUpdate_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>kinetic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="352" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class to subscribe on TouchpadSwipeGestureUpdateEvent </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchpadSwipeGestureUpdateListener</label>
+        <link refid="structMR_1_1TouchpadSwipeGestureUpdateListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchpadSwipeGestureUpdateListener</label>
+        <link refid="structMR_1_1TouchpadSwipeGestureUpdateListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="347" bodyend="353"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TouchpadSwipeGestureUpdateListener_1a699126c1c4c296d0dcfd76964121d306" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>connect</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>connection_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>disconnect</name></member>
+      <member refid="structMR_1_1TouchpadSwipeGestureUpdateListener_1a56753f530eab33ccb8f1c7c34ec618fa" prot="public" virt="non-virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="structMR_1_1TouchpadSwipeGestureUpdateListener_1aef526e0582b51edc407c765caedd0b9b" prot="protected" virt="pure-virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>touchpadSwipeGestureUpdate_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>~IConnectable</name></member>
+      <member refid="structMR_1_1TouchpadSwipeGestureUpdateListener_1a22afe5fdd5b2015b479bc26a6e200972" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>~TouchpadSwipeGestureUpdateListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

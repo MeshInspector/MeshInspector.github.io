@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1aa87089108ce7ca5b64a1064e3cea881d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76681" bodyend="76682"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a24de3e1a26c78dc48ef31a323b9161bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__call__</definition>
+        <argsstring>(self, GraphEdgeId arg0, GraphEdgeId arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76683" bodyend="76684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1ac292e9c13493745ab934d306f62a9902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76686" bodyend="76687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a0bda8969764cdf53a4a941a0d91262d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76689" bodyend="76690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a45ee7dd9061b18828ffe626626c9c825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</definition>
+        <argsstring>(self, func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag" kindref="compound">func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76692" bodyend="76693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a8715342814cf59c1d832a1327dcdb121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</definition>
+        <argsstring>(self, typing.Callable[[GraphEdgeId, GraphEdgeId], None] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[GraphEdgeId, GraphEdgeId]</array>
+        </param>
+        <param>
+          <type>None]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76695" bodyend="76696"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1ab60571b1a6e1266efc20ce51acb09162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76697" bodyend="76700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a5770638adcf3ad329dec979b936646ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76701" bodyend="76704"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76680" bodyend="76704"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1aa87089108ce7ca5b64a1064e3cea881d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a24de3e1a26c78dc48ef31a323b9161bd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1ac292e9c13493745ab934d306f62a9902" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a0bda8969764cdf53a4a941a0d91262d7" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a45ee7dd9061b18828ffe626626c9c825" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a8715342814cf59c1d832a1327dcdb121" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1ab60571b1a6e1266efc20ce51acb09162" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag_1a5770638adcf3ad329dec979b936646ad" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

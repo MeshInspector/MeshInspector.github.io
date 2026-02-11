@@ -1,0 +1,1280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRNormalDenoising_8h" kind="file" language="C++">
+    <compoundname>MRNormalDenoising.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRNormalDenoising.h</label>
+        <link refid="MRNormalDenoising_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" prot="public" static="no">
+        <type>struct <ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref></type>
+        <definition>typedef struct MR_FaceNormals MR_FaceNormals</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceNormals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
+        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
+        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshTopology</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="16" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1af24d03a25a98fafdbaf79dfeda2fc526" prot="public" static="no">
+        <type>struct <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeScalars MR_UndirectedEdgeScalars</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeScalars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
+        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_void_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="18" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" prot="public" static="no">
+        <type>struct <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref></type>
+        <definition>typedef struct MR_DenoiseViaNormalsSettings MR_DenoiseViaNormalsSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_DenoiseViaNormalsSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="24" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a5ff316df5b461f39dbf6dfad579adc5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_denoiseNormals</definition>
+        <argsstring>(const MR_Mesh *mesh, MR_FaceNormals *normals, const MR_UndirectedEdgeScalars *v, float gamma)</argsstring>
+        <name>MR_denoiseNormals</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Smooth face normals, given <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains topology information and coordinates for equation weights </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>normals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input noisy normals and output smooth normals </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>edge indicator function (1 - smooth edge, 0 - crease edge) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;, equation (19) Generated from function <computeroutput>MR::denoiseNormals</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a557350b35c403d999cadfbfbc9bd26df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_updateIndicator</definition>
+        <argsstring>(const MR_Mesh *mesh, MR_UndirectedEdgeScalars *v, const MR_FaceNormals *normals, float beta, float gamma)</argsstring>
+        <name>MR_updateIndicator</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute edge indicator function (1 - smooth edge, 0 - crease edge) by solving large system of linear equations <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains topology information and coordinates for equation weights </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>normals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>per-face normals </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;, equation (20) Generated from function <computeroutput>MR::updateIndicator</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a2b6f9a972a5c537afbf98411a3e6ae23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_updateIndicatorFast</definition>
+        <argsstring>(const MR_MeshTopology *topology, MR_UndirectedEdgeScalars *v, const MR_FaceNormals *normals, float beta, float gamma)</argsstring>
+        <name>MR_updateIndicatorFast</name>
+        <param>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute edge indicator function (1 - smooth edge, 0 - crease edge) by approximation without solving the system of linear equations <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>normals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>per-face normals </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;, equation (20) Generated from function <computeroutput>MR::updateIndicatorFast</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1abd16949c378f41b890c5eb89c97f6232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>fastIndicatorComputation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="65" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="65" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1ae09e2b23b55d37348626d04d5903e517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, bool value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use approximated computation, which is much faster than precise solution Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>fastIndicatorComputation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fastIndicatorComputation</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1afa72759f16d635520cc58a40679e73f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>fastIndicatorComputation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="77" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a8cdc7733e12ace1e54f9fc1ba6cfa658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DenoiseViaNormalsSettings_Get_beta</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_beta</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>beta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="83" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1aeace220a87c7ff524515e9d582a8d92f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_beta</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, float value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_beta</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>beta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>beta</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="89" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a665f1f70105a53840c27293ceae0e537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_beta</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_beta</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>beta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="95" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="95" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a7f170e0f96e40707a446c29e80fbba54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DenoiseViaNormalsSettings_Get_gamma</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_gamma</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>gamma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="101" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="101" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1ae2640445cae56f07bec1be91b120d742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_gamma</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, float value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_gamma</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>gamma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>gamma</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a4327cc1b14fa192ba7fcb3e1d4c8a477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_gamma</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_gamma</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>gamma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="113" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="113" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a51d9d0e2236de9d4ec77e10d6eb5b8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_DenoiseViaNormalsSettings_Get_normalIters</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_normalIters</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>normalIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="119" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="119" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a2da560386e459636924227fdd7abb363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_normalIters</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, int value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_normalIters</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>normalIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalIters</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a0f0b20224ee56483be52f143220fa3d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_DenoiseViaNormalsSettings_GetMutable_normalIters</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_normalIters</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>normalIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="131" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="131" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a0a62d96b1e0969a34d65efcb2eead0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_DenoiseViaNormalsSettings_Get_pointIters</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_pointIters</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>pointIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="137" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="137" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a9a77f9e54e29301176a3541e9784d4ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_pointIters</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, int value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_pointIters</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>pointIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>pointIters</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1aeb3d22ba43dc19f8b95a3fed994b0021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_DenoiseViaNormalsSettings_GetMutable_pointIters</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_pointIters</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>pointIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="149" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="149" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1afae929fa17b841e49122175db6e7f432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DenoiseViaNormalsSettings_Get_guideWeight</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_guideWeight</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>guideWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="155" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="155" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1aa3fc82fb075ecf5380fa14320af026d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_guideWeight</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, float value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_guideWeight</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>guideWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>guideWeight</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="161" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a8f97e0f4a499de699db4464b44c7230b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_guideWeight</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_guideWeight</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>guideWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="167" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="167" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1abbebde785e2e32081e54e0c6d8e0df99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_DenoiseViaNormalsSettings_Get_limitNearInitial</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_limitNearInitial</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="173" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="173" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a2b97d3ec53a3c27ab24584355ac9ab15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_limitNearInitial</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, bool value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_limitNearInitial</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="179" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a2e109c0a25f2510d1b0ee54b7527671b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="185" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1abd1f2ddc0c85475fb6ea034f5eceaf6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DenoiseViaNormalsSettings_Get_maxInitialDist</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_maxInitialDist</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="191" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="191" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a7ee9fafb125a1ca9f631703056bd8154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_maxInitialDist</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, float value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_maxInitialDist</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="197" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a99df0697b0253d926048982a530a19f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="203" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="203" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a2b64213e0c13181078191efe6de6ac1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet *const  * MR_DenoiseViaNormalsSettings_Get_outCreases</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_outCreases</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optionally returns creases found during smoothing Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>outCreases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="209" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="209" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a5412eb6e09afc6ec4685058823effa21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_outCreases</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, MR_UndirectedEdgeBitSet *value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_outCreases</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optionally returns creases found during smoothing Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>outCreases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCreases</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCreases</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="216" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1aed2cfb66fe2370892e49bb4d223d4be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet ** MR_DenoiseViaNormalsSettings_GetMutable_outCreases</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_outCreases</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>outCreases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="222" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="222" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a92ac0afdd73f773b5266aabf6aba45a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_DenoiseViaNormalsSettings_Get_cb</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Get_cb</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to get the progress and optionally cancel Returns a pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="228" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="228" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a9a564f8aa38b53b6ed875c315fa706ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Set_cb</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Set_cb</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to get the progress and optionally cancel Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="235" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a2894119dd1d614e05e9f350d53fb6ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_DenoiseViaNormalsSettings_GetMutable_cb</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_GetMutable_cb</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="241" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="241" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1ab72e01fb7a8d02cd5d7482e02ee9bd17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" kindref="member">MR_DenoiseViaNormalsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="245" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="245" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1aa6da735337b1419a30bc27dd187e728c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRNormalDenoising_8h_1a9968711cd1fec9679caa274987022a8b" kindref="member">MR_DenoiseViaNormalsSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRNormalDenoising_8h_1a497741494ff8ba75853707db48df0097" kindref="member">MR_DenoiseViaNormalsSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRNormalDenoising_8h_1a5b83ef1363a2d41e94133ce8bd4ad87c" kindref="member">MR_DenoiseViaNormalsSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="250" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="250" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a4f3c23815419a6a0d51ce969aa0ef585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_ConstructFrom</definition>
+        <argsstring>(bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, MR_UndirectedEdgeBitSet *outCreases, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_ConstructFrom</name>
+        <param>
+          <type>bool</type>
+          <declname>fastIndicatorComputation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>normalIters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointIters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>limitNearInitial</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxInitialDist</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>outCreases</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outCreases</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" kindref="member">MR_DenoiseViaNormalsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="257" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="257" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a5b83ef1363a2d41e94133ce8bd4ad87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API const MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_OffsetPtr</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="261" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="261" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a497741494ff8ba75853707db48df0097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="265" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="265" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a11e41cbd15e794f6d5ce55b4e4f310c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_DenoiseViaNormalsSettings *_other)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::DenoiseViaNormalsSettings::DenoiseViaNormalsSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" kindref="member">MR_DenoiseViaNormalsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="270" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="270" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_Destroy</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_DenoiseViaNormalsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="273" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a9968711cd1fec9679caa274987022a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DenoiseViaNormalsSettings_DestroyArray</definition>
+        <argsstring>(const MR_DenoiseViaNormalsSettings *_this)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_DenoiseViaNormalsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="276" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a722f2d33993f47c8b42150a7f758ba79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+        <definition>MRC_API MR_DenoiseViaNormalsSettings * MR_DenoiseViaNormalsSettings_AssignFromAnother</definition>
+        <argsstring>(MR_DenoiseViaNormalsSettings *_this, MR_PassBy _other_pass_by, MR_DenoiseViaNormalsSettings *_other)</argsstring>
+        <name>MR_DenoiseViaNormalsSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::DenoiseViaNormalsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="283" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="283" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRNormalDenoising_8h_1a80f30fcf6fad5ba51f05dccdd1c56d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_meshDenoiseViaNormals</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_DenoiseViaNormalsSettings *settings)</argsstring>
+        <name>MR_meshDenoiseViaNormals</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reduces noise in given mesh, see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot; Generated from function <computeroutput>MR::meshDenoiseViaNormals</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" line="292" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h" declline="292" declcolumn="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRNormalDenoising_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRNormalDenoising_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRNormalDenoising_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRNormalDenoising_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRNormalDenoising_8h_1af24d03a25a98fafdbaf79dfeda2fc526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRNormalDenoising_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRNormalDenoising_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRNormalDenoising_8h_1a5ff316df5b461f39dbf6dfad579adc5d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a5ff316df5b461f39dbf6dfad579adc5d" kindref="member">MR_denoiseNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gamma);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRNormalDenoising_8h_1a557350b35c403d999cadfbfbc9bd26df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a557350b35c403d999cadfbfbc9bd26df" kindref="member">MR_updateIndicator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*normals,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gamma);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRNormalDenoising_8h_1a2b6f9a972a5c537afbf98411a3e6ae23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a2b6f9a972a5c537afbf98411a3e6ae23" kindref="member">MR_updateIndicatorFast</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*normals,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gamma);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRNormalDenoising_8h_1abd16949c378f41b890c5eb89c97f6232" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1abd16949c378f41b890c5eb89c97f6232" kindref="member">MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRNormalDenoising_8h_1ae09e2b23b55d37348626d04d5903e517" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1ae09e2b23b55d37348626d04d5903e517" kindref="member">MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRNormalDenoising_8h_1afa72759f16d635520cc58a40679e73f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1afa72759f16d635520cc58a40679e73f7" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRNormalDenoising_8h_1a8cdc7733e12ace1e54f9fc1ba6cfa658" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a8cdc7733e12ace1e54f9fc1ba6cfa658" kindref="member">MR_DenoiseViaNormalsSettings_Get_beta</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRNormalDenoising_8h_1aeace220a87c7ff524515e9d582a8d92f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1aeace220a87c7ff524515e9d582a8d92f" kindref="member">MR_DenoiseViaNormalsSettings_Set_beta</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRNormalDenoising_8h_1a665f1f70105a53840c27293ceae0e537" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a665f1f70105a53840c27293ceae0e537" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_beta</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRNormalDenoising_8h_1a7f170e0f96e40707a446c29e80fbba54" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a7f170e0f96e40707a446c29e80fbba54" kindref="member">MR_DenoiseViaNormalsSettings_Get_gamma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRNormalDenoising_8h_1ae2640445cae56f07bec1be91b120d742" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1ae2640445cae56f07bec1be91b120d742" kindref="member">MR_DenoiseViaNormalsSettings_Set_gamma</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRNormalDenoising_8h_1a4327cc1b14fa192ba7fcb3e1d4c8a477" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a4327cc1b14fa192ba7fcb3e1d4c8a477" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_gamma</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRNormalDenoising_8h_1a51d9d0e2236de9d4ec77e10d6eb5b8b8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a51d9d0e2236de9d4ec77e10d6eb5b8b8" kindref="member">MR_DenoiseViaNormalsSettings_Get_normalIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRNormalDenoising_8h_1a2da560386e459636924227fdd7abb363" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a2da560386e459636924227fdd7abb363" kindref="member">MR_DenoiseViaNormalsSettings_Set_normalIters</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRNormalDenoising_8h_1a0f0b20224ee56483be52f143220fa3d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a0f0b20224ee56483be52f143220fa3d1" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_normalIters</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRNormalDenoising_8h_1a0a62d96b1e0969a34d65efcb2eead0db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a0a62d96b1e0969a34d65efcb2eead0db" kindref="member">MR_DenoiseViaNormalsSettings_Get_pointIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRNormalDenoising_8h_1a9a77f9e54e29301176a3541e9784d4ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a9a77f9e54e29301176a3541e9784d4ba" kindref="member">MR_DenoiseViaNormalsSettings_Set_pointIters</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRNormalDenoising_8h_1aeb3d22ba43dc19f8b95a3fed994b0021" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1aeb3d22ba43dc19f8b95a3fed994b0021" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_pointIters</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRNormalDenoising_8h_1afae929fa17b841e49122175db6e7f432" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1afae929fa17b841e49122175db6e7f432" kindref="member">MR_DenoiseViaNormalsSettings_Get_guideWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRNormalDenoising_8h_1aa3fc82fb075ecf5380fa14320af026d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1aa3fc82fb075ecf5380fa14320af026d1" kindref="member">MR_DenoiseViaNormalsSettings_Set_guideWeight</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRNormalDenoising_8h_1a8f97e0f4a499de699db4464b44c7230b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a8f97e0f4a499de699db4464b44c7230b" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_guideWeight</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRNormalDenoising_8h_1abbebde785e2e32081e54e0c6d8e0df99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1abbebde785e2e32081e54e0c6d8e0df99" kindref="member">MR_DenoiseViaNormalsSettings_Get_limitNearInitial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRNormalDenoising_8h_1a2b97d3ec53a3c27ab24584355ac9ab15" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a2b97d3ec53a3c27ab24584355ac9ab15" kindref="member">MR_DenoiseViaNormalsSettings_Set_limitNearInitial</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRNormalDenoising_8h_1a2e109c0a25f2510d1b0ee54b7527671b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a2e109c0a25f2510d1b0ee54b7527671b" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRNormalDenoising_8h_1abd1f2ddc0c85475fb6ea034f5eceaf6c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1abd1f2ddc0c85475fb6ea034f5eceaf6c" kindref="member">MR_DenoiseViaNormalsSettings_Get_maxInitialDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRNormalDenoising_8h_1a7ee9fafb125a1ca9f631703056bd8154" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a7ee9fafb125a1ca9f631703056bd8154" kindref="member">MR_DenoiseViaNormalsSettings_Set_maxInitialDist</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRNormalDenoising_8h_1a99df0697b0253d926048982a530a19f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a99df0697b0253d926048982a530a19f1" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRNormalDenoising_8h_1a2b64213e0c13181078191efe6de6ac1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNormalDenoising_8h_1a2b64213e0c13181078191efe6de6ac1f" kindref="member">MR_DenoiseViaNormalsSettings_Get_outCreases</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRNormalDenoising_8h_1a5412eb6e09afc6ec4685058823effa21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a5412eb6e09afc6ec4685058823effa21" kindref="member">MR_DenoiseViaNormalsSettings_Set_outCreases</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRNormalDenoising_8h_1aed2cfb66fe2370892e49bb4d223d4be2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRNormalDenoising_8h_1aed2cfb66fe2370892e49bb4d223d4be2" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_outCreases</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRNormalDenoising_8h_1a92ac0afdd73f773b5266aabf6aba45a9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a92ac0afdd73f773b5266aabf6aba45a9" kindref="member">MR_DenoiseViaNormalsSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRNormalDenoising_8h_1a9a564f8aa38b53b6ed875c315fa706ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a9a564f8aa38b53b6ed875c315fa706ee" kindref="member">MR_DenoiseViaNormalsSettings_Set_cb</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRNormalDenoising_8h_1a2894119dd1d614e05e9f350d53fb6ce1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a2894119dd1d614e05e9f350d53fb6ce1" kindref="member">MR_DenoiseViaNormalsSettings_GetMutable_cb</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRNormalDenoising_8h_1ab72e01fb7a8d02cd5d7482e02ee9bd17" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1ab72e01fb7a8d02cd5d7482e02ee9bd17" kindref="member">MR_DenoiseViaNormalsSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MRNormalDenoising_8h_1aa6da735337b1419a30bc27dd187e728c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1aa6da735337b1419a30bc27dd187e728c" kindref="member">MR_DenoiseViaNormalsSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRNormalDenoising_8h_1a4f3c23815419a6a0d51ce969aa0ef585" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a4f3c23815419a6a0d51ce969aa0ef585" kindref="member">MR_DenoiseViaNormalsSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fastIndicatorComputation,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gamma,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>normalIters,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pointIters,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>guideWeight,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>limitNearInitial,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxInitialDist,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outCreases,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRNormalDenoising_8h_1a5b83ef1363a2d41e94133ce8bd4ad87c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a5b83ef1363a2d41e94133ce8bd4ad87c" kindref="member">MR_DenoiseViaNormalsSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRNormalDenoising_8h_1a497741494ff8ba75853707db48df0097" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a497741494ff8ba75853707db48df0097" kindref="member">MR_DenoiseViaNormalsSettings_OffsetMutablePtr</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRNormalDenoising_8h_1a11e41cbd15e794f6d5ce55b4e4f310c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a11e41cbd15e794f6d5ce55b4e4f310c4" kindref="member">MR_DenoiseViaNormalsSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" kindref="member">MR_DenoiseViaNormalsSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRNormalDenoising_8h_1a9968711cd1fec9679caa274987022a8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a9968711cd1fec9679caa274987022a8b" kindref="member">MR_DenoiseViaNormalsSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="MRNormalDenoising_8h_1a722f2d33993f47c8b42150a7f758ba79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a722f2d33993f47c8b42150a7f758ba79" kindref="member">MR_DenoiseViaNormalsSettings_AssignFromAnother</ref>(<ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRNormalDenoising_8h_1a80f30fcf6fad5ba51f05dccdd1c56d0a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRNormalDenoising_8h_1a80f30fcf6fad5ba51f05dccdd1c56d0a" kindref="member">MR_meshDenoiseViaNormals</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kindref="member">MR_DenoiseViaNormalsSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRNormalDenoising.h"/>
+  </compounddef>
+</doxygen>

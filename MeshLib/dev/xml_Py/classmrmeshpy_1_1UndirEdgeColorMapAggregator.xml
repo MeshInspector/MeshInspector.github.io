@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UndirEdgeColorMapAggregator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UndirEdgeColorMapAggregator</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a46d890c119c5ab1e9077b28b8d9ea0cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58579" bodyend="58580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aebcf8a49e14cd3c3c80429240d44fa35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator" kindref="compound">UndirEdgeColorMapAggregator</ref></type>
+        <definition> UndirEdgeColorMapAggregator mrmeshpy.UndirEdgeColorMapAggregator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58583" bodyend="58584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aebcf8a49e14cd3c3c80429240d44fa35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator" kindref="compound">UndirEdgeColorMapAggregator</ref></type>
+        <definition> UndirEdgeColorMapAggregator mrmeshpy.UndirEdgeColorMapAggregator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58587" bodyend="58588"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a859f87926a88fa5b55e63172cb27e304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58590" bodyend="58591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a726625875f9ea5e27e9a24f90fb51652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.__init__</definition>
+        <argsstring>(self, UndirEdgeColorMapAggregator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator" kindref="compound">UndirEdgeColorMapAggregator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58593" bodyend="58596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a11a111d5abd6028753f16889e7346da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+        <definition> UndirectedEdgeColors mrmeshpy.UndirEdgeColorMapAggregator.aggregate</definition>
+        <argsstring>(self, UndirectedEdgeBitSet elementBitSet)</argsstring>
+        <name>aggregate</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.aggregate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>elementBitSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get aggregated color map for active elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58597" bodyend="58600"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a32c05e578341193d082bc6d92872c6b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.erase</definition>
+        <argsstring>(self, int i, int n=1)</argsstring>
+        <name>erase</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.erase</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>erase n color map from #i 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58601" bodyend="58604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1abbbd92488de9a52ad6131be909fccae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirEdgeColorMapAggregator.getColorMapNumber</definition>
+        <argsstring>(self)</argsstring>
+        <name>getColorMapNumber</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.getColorMapNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get number of accumulated color maps
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58605" bodyend="58608"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a2e53facaad326f62580359028ca25090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap" kindref="compound">ColorMapAggregator_UndirectedEdgeTag_PartialColorMap</ref></type>
+        <definition> ColorMapAggregator_UndirectedEdgeTag_PartialColorMap mrmeshpy.UndirEdgeColorMapAggregator.getPartialColorMap</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getPartialColorMap</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.getPartialColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get partial color map map by index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58609" bodyend="58612"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1ad7a942487787b13d3853703f4bb194e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.insert</definition>
+        <argsstring>(self, int i, ColorMapAggregator_UndirectedEdgeTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap" kindref="compound">ColorMapAggregator_UndirectedEdgeTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>insert color map before element #i (0 - minimum priority)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58613" bodyend="58616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aeb3d5fb7e9bd7c2a255b9e585181ae17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.pushBack</definition>
+        <argsstring>(self, ColorMapAggregator_UndirectedEdgeTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.pushBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap" kindref="compound">ColorMapAggregator_UndirectedEdgeTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>add color map after all (more priority)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58617" bodyend="58620"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a3d64125ff2732a5da0eb7ddbb4fb32fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.replace</definition>
+        <argsstring>(self, int i, ColorMapAggregator_UndirectedEdgeTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>replace</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.replace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap" kindref="compound">ColorMapAggregator_UndirectedEdgeTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replace color map in #i position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58621" bodyend="58624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aad94ed1bcfa9feb345d1955456fa89b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset all accumulated color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58625" bodyend="58628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aaa579910ece03b1337d6e6880c61b94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.setDefaultColor</definition>
+        <argsstring>(self, Color color)</argsstring>
+        <name>setDefaultColor</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.setDefaultColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set default (background) color
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58629" bodyend="58632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a48842fd53348173cc287f1d8eae69dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirEdgeColorMapAggregator.setMode</definition>
+        <argsstring>(self, ColorMapAggregator_UndirectedEdgeTag_AggregateMode mode)</argsstring>
+        <name>setMode</name>
+        <qualifiedname>mrmeshpy.UndirEdgeColorMapAggregator.setMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__AggregateMode" kindref="compound">ColorMapAggregator_UndirectedEdgeTag_AggregateMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set color map aggregating mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58633" bodyend="58636"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UndirEdgeColorMapAggregator
+
+
+ @brief Class for aggregate several color map in one
+ Color maps are aggregated according order</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58568" bodyend="58636"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a46d890c119c5ab1e9077b28b8d9ea0cd" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a859f87926a88fa5b55e63172cb27e304" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a726625875f9ea5e27e9a24f90fb51652" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a11a111d5abd6028753f16889e7346da3" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>aggregate</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a32c05e578341193d082bc6d92872c6b7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>erase</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1abbbd92488de9a52ad6131be909fccae9" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a2e53facaad326f62580359028ca25090" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>getPartialColorMap</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1ad7a942487787b13d3853703f4bb194e0" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aebcf8a49e14cd3c3c80429240d44fa35" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aebcf8a49e14cd3c3c80429240d44fa35" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aeb3d5fb7e9bd7c2a255b9e585181ae17" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>pushBack</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a3d64125ff2732a5da0eb7ddbb4fb32fa" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>replace</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aad94ed1bcfa9feb345d1955456fa89b5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1aaa579910ece03b1337d6e6880c61b94b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>setDefaultColor</name></member>
+      <member refid="classmrmeshpy_1_1UndirEdgeColorMapAggregator_1a48842fd53348173cc287f1d8eae69dfd" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirEdgeColorMapAggregator</scope><name>setMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

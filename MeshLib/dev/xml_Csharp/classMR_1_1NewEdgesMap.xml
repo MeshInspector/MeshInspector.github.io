@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NewEdgesMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::NewEdgesMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NewEdgesMap</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NewEdgesMap_1a0ade3d587a06a3ab61ee67b30cfb2929" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.UndirectedEdgeBitSet MR.NewEdgesMap.splitEdges</definition>
+        <argsstring></argsstring>
+        <name>splitEdges</name>
+        <qualifiedname>MR.NewEdgesMap.splitEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="121" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1NewEdgesMap_1ab7172e3d43dfedf26185e4da95d335d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int</type>
+        <definition>new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int MR.NewEdgesMap.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>MR.NewEdgesMap.map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="126" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1a0923f73d1f69c0d63f6e58bba3825f68" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NewEdgesMap.NewEdgesMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NewEdgesMap</name>
+        <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="152" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="152" bodyend="156"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1af1c83868539c57eaeeecccf03ff26738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NewEdgesMap.NewEdgesMap</definition>
+        <argsstring>()</argsstring>
+        <name>NewEdgesMap</name>
+        <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="162" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1ae54495bbb37a19315a597b57fcf968e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NewEdgesMap.NewEdgesMap</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet splitEdges, MR.Phmap._ByValue_FlatHashMap_MRUndirectedEdgeId_Int map)</argsstring>
+        <name>NewEdgesMap</name>
+        <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>splitEdges</declname>
+        </param>
+        <param>
+          <type>MR.Phmap._ByValue_FlatHashMap_MRUndirectedEdgeId_Int</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1NewEdgesMap" kindref="compound">MR.NewEdgesMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="173" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="173" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1acb304b62495c8212feca48ee1ba8d101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NewEdgesMap.NewEdgesMap</definition>
+        <argsstring>(MR._ByValue_NewEdgesMap _other)</argsstring>
+        <name>NewEdgesMap</name>
+        <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_NewEdgesMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NewEdgesMap.NewEdgesMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="186" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="186" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1aa4832d1260cb9bdb36d049f4c28cb518" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NewEdgesMap.NewEdgesMap</definition>
+        <argsstring>(Const_NewEdgesMap _other)</argsstring>
+        <name>NewEdgesMap</name>
+        <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
+        <param>
+          <type>Const_NewEdgesMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NewEdgesMap.NewEdgesMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="198" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="198" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1a4d500b96c8a39d7e009ee25a9e1f8c36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NewEdgesMap.NewEdgesMap</definition>
+        <argsstring>(NewEdgesMap _other)</argsstring>
+        <name>NewEdgesMap</name>
+        <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NewEdgesMap.NewEdgesMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="203" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="203" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1acd090fcf0bc89fe7e27bf8330cb0ea35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NewEdgesMap" kindref="compound">MR.NewEdgesMap</ref></type>
+        <definition>unsafe MR.NewEdgesMap MR.NewEdgesMap.assign</definition>
+        <argsstring>(MR._ByValue_NewEdgesMap _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NewEdgesMap.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_NewEdgesMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NewEdgesMap.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="208" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="208" bodyend="215"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Map structure to find primitives of old topology by edges introduced in cutMesh Generated from class <computeroutput><ref refid="classMR_1_1NewEdgesMap" kindref="compound">MR.NewEdgesMap</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NewEdgesMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NewEdgesMap</label>
+        <link refid="classMR_1_1NewEdgesMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NewEdgesMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NewEdgesMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NewEdgesMap</label>
+        <link refid="classMR_1_1NewEdgesMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NewEdgesMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="118" bodyend="216"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NewEdgesMap_1acd090fcf0bc89fe7e27bf8330cb0ea35" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>assign</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1ab7172e3d43dfedf26185e4da95d335d6" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>map</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1a0923f73d1f69c0d63f6e58bba3825f68" prot="package" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1af1c83868539c57eaeeecccf03ff26738" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1ae54495bbb37a19315a597b57fcf968e7" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1acb304b62495c8212feca48ee1ba8d101" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1aa4832d1260cb9bdb36d049f4c28cb518" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1a4d500b96c8a39d7e009ee25a9e1f8c36" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1a0ade3d587a06a3ab61ee67b30cfb2929" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>splitEdges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FindOutliersParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::FindOutliersParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindOutliersParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FindOutliersParams_1a0a63ee3aba2a9eb01995a74cf11f7879" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1OutlierParams" kindref="compound">MR.OutlierParams</ref></type>
+        <definition>new unsafe MR.OutlierParams MR.FindOutliersParams.finderParams</definition>
+        <argsstring></argsstring>
+        <name>finderParams</name>
+        <qualifiedname>MR.FindOutliersParams.finderParams</qualifiedname>
+        <briefdescription>
+<para>&lt; Parameters of various criteria for detecting outlier points </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Radius of the search for neighboring points for analysis </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="622" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="622" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOutliersParams_1ac44467beec2aeb25c4fc67154e94e982" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindOutliersParams.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR.FindOutliersParams.radius</qualifiedname>
+        <briefdescription>
+<para>Mask of the types of outliers that are looking for. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="625" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="625" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOutliersParams_1aa603fcda68b76482ab300b2d27701348" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1aba5d1f481147b18098cbddd20dbf9255" kindref="member">MR.OutlierTypeMask</ref></type>
+        <definition>new unsafe ref MR.OutlierTypeMask MR.FindOutliersParams.mask</definition>
+        <argsstring></argsstring>
+        <name>mask</name>
+        <qualifiedname>MR.FindOutliersParams.mask</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="628" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="628" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOutliersParams_1ae8b4bbed4f42e77aecf594c6e35821b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FindOutliersParams.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.FindOutliersParams.progress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="631" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="631" bodyend="631"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1a5456fda11b96280335149d5e754402aa" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOutliersParams.FindOutliersParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FindOutliersParams</name>
+        <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="657" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="657" bodyend="661"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1a8e9974176d7f400b34e863ba309cf1b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOutliersParams.FindOutliersParams</definition>
+        <argsstring>()</argsstring>
+        <name>FindOutliersParams</name>
+        <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="667" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="667" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1a07218ce97b877e3857da52ad933cbe54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOutliersParams.FindOutliersParams</definition>
+        <argsstring>(MR.Const_OutlierParams finderParams, float radius, MR.OutlierTypeMask mask, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <name>FindOutliersParams</name>
+        <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
+        <param>
+          <type>MR.Const_OutlierParams</type>
+          <declname>finderParams</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1aba5d1f481147b18098cbddd20dbf9255" kindref="member">MR.OutlierTypeMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FindOutliersParams" kindref="compound">MR.FindOutliersParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="678" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="678" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1acbaaa933910fe18e1988d9c736f63435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOutliersParams.FindOutliersParams</definition>
+        <argsstring>(MR._ByValue_FindOutliersParams _other)</argsstring>
+        <name>FindOutliersParams</name>
+        <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindOutliersParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindOutliersParams.FindOutliersParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="691" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="691" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1ab5779e70a072d5933d3c346f4306ac81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindOutliersParams.FindOutliersParams</definition>
+        <argsstring>(Const_FindOutliersParams _other)</argsstring>
+        <name>FindOutliersParams</name>
+        <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
+        <param>
+          <type>Const_FindOutliersParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindOutliersParams.FindOutliersParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="703" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="703" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1a84eaed57a6b327e3e13f4f89151271cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindOutliersParams.FindOutliersParams</definition>
+        <argsstring>(FindOutliersParams _other)</argsstring>
+        <name>FindOutliersParams</name>
+        <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FindOutliersParams" kindref="compound">FindOutliersParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindOutliersParams.FindOutliersParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="708" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="708" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1aa3cd77a83bc17aa334c98eb7ecff44c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FindOutliersParams" kindref="compound">MR.FindOutliersParams</ref></type>
+        <definition>unsafe MR.FindOutliersParams MR.FindOutliersParams.assign</definition>
+        <argsstring>(MR._ByValue_FindOutliersParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FindOutliersParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindOutliersParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FindOutliersParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="713" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="713" bodyend="720"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Outlier point search parameters Generated from class <computeroutput><ref refid="classMR_1_1FindOutliersParams" kindref="compound">MR.FindOutliersParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FindOutliersParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindOutliersParams</label>
+        <link refid="classMR_1_1FindOutliersParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindOutliersParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FindOutliersParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindOutliersParams</label>
+        <link refid="classMR_1_1FindOutliersParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindOutliersParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="619" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="620" bodyend="721"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FindOutliersParams_1aa3cd77a83bc17aa334c98eb7ecff44c6" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1a0a63ee3aba2a9eb01995a74cf11f7879" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>finderParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1a5456fda11b96280335149d5e754402aa" prot="package" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1a8e9974176d7f400b34e863ba309cf1b4" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1a07218ce97b877e3857da52ad933cbe54" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1acbaaa933910fe18e1988d9c736f63435" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1ab5779e70a072d5933d3c346f4306ac81" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1a84eaed57a6b327e3e13f4f89151271cb" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1aa603fcda68b76482ab300b2d27701348" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>mask</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1ae8b4bbed4f42e77aecf594c6e35821b3" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>progress</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1ac44467beec2aeb25c4fc67154e94e982" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointPair" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointPair</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1ICPPairData" prot="public" virt="non-virtual">mrmeshpy.ICPPairData</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointPair_1af60b7eb40c0c0c94a6df8b00b36eb525" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointPair::_offsetof_normalsAngleCos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normalsAngleCos</name>
+        <qualifiedname>mrmeshpy.PointPair._offsetof_normalsAngleCos</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointPair_1a6286b2913ea76e442b555d47035ae0fd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointPair::_offsetof_srcVertId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_srcVertId</name>
+        <qualifiedname>mrmeshpy.PointPair._offsetof_srcVertId</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointPair_1aa84540ac333e6be46ab7ad5ddda32afb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointPair::_offsetof_tgtCloseVert</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tgtCloseVert</name>
+        <qualifiedname>mrmeshpy.PointPair._offsetof_tgtCloseVert</qualifiedname>
+        <initializer>=  60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointPair_1a4908437da9a70c656c1dd57ee4500490" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointPair::_offsetof_tgtOnBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tgtOnBd</name>
+        <qualifiedname>mrmeshpy.PointPair._offsetof_tgtOnBd</qualifiedname>
+        <initializer>=  68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44829" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a6d5a7cf7fbfbb1b9382513200289b312" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointPair.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PointPair.__eq__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a024a604081665729f2ae92aee9077513">__eq__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44831" bodyend="44832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointPair.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44835" bodyend="44836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a2f4f5258029727ebf7a7082d37eb65f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointPair" kindref="compound">PointPair</ref></type>
+        <definition> PointPair mrmeshpy.PointPair.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointPair.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ICPPairData_1aa82b32c73f27dd62a59416feeef2d4b6">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44839" bodyend="44840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a2f4f5258029727ebf7a7082d37eb65f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointPair" kindref="compound">PointPair</ref></type>
+        <definition> PointPair mrmeshpy.PointPair.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointPair.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ICPPairData_1aa82b32c73f27dd62a59416feeef2d4b6">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44843" bodyend="44844"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointPair.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44846" bodyend="44847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.__init__</definition>
+        <argsstring>(self, PointPair arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointPair.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointPair" kindref="compound">PointPair</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44849" bodyend="44852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a90a3adeb01b06145a790ca3e08c5d6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointPair.normalsAngleCos</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalsAngleCos</name>
+        <qualifiedname>mrmeshpy.PointPair.normalsAngleCos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>cosine between normals in source and target points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44854" bodyend="44857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1ad834e1f5c4aa8929d84d3dd68ba84ea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.normalsAngleCos</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>normalsAngleCos</name>
+        <qualifiedname>mrmeshpy.PointPair.normalsAngleCos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44859" bodyend="44860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a2d273f00d07badf743028ff606773bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PointPair.srcVertId</definition>
+        <argsstring>(self)</argsstring>
+        <name>srcVertId</name>
+        <qualifiedname>mrmeshpy.PointPair.srcVertId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>id of the source point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44862" bodyend="44865"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a02f6c9d246245db56a7d4b8d25625193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.srcVertId</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>srcVertId</name>
+        <qualifiedname>mrmeshpy.PointPair.srcVertId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44867" bodyend="44868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a34c5b97007ea9760b9572e5570ec6a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PointPair.tgtCloseVert</definition>
+        <argsstring>(self)</argsstring>
+        <name>tgtCloseVert</name>
+        <qualifiedname>mrmeshpy.PointPair.tgtCloseVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for point clouds it is the closest vertex on target,
+for meshes it is the closest vertex of the triangle with the closest point on target
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44870" bodyend="44874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a35445ff36c5a24469fe5fb5ff4f67592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.tgtCloseVert</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>tgtCloseVert</name>
+        <qualifiedname>mrmeshpy.PointPair.tgtCloseVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44876" bodyend="44877"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a42e142b00acc3e786a02e82de68cf9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointPair.tgtOnBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>tgtOnBd</name>
+        <qualifiedname>mrmeshpy.PointPair.tgtOnBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true if if the closest point on target is located on the boundary (only for meshes)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44879" bodyend="44882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointPair_1a5b9ca9ca28eb2eee813859849e5d9635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointPair.tgtOnBd</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>tgtOnBd</name>
+        <qualifiedname>mrmeshpy.PointPair.tgtOnBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44884" bodyend="44885"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointPair
+
+Stores a pair of points: one samples on the source and the closest to it on the target
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PointPair</label>
+        <link refid="classmrmeshpy_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ICPPairData</label>
+        <link refid="classmrmeshpy_1_1ICPPairData"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointPair</label>
+        <link refid="classmrmeshpy_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_normalsAngleCos</edgelabel>
+          <edgelabel>_offsetof_srcVertId</edgelabel>
+          <edgelabel>_offsetof_tgtCloseVert</edgelabel>
+          <edgelabel>_offsetof_tgtOnBd</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ICPPairData</label>
+        <link refid="classmrmeshpy_1_1ICPPairData"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_distSq</edgelabel>
+          <edgelabel>_offsetof_srcNorm</edgelabel>
+          <edgelabel>_offsetof_srcPoint</edgelabel>
+          <edgelabel>_offsetof_tgtNorm</edgelabel>
+          <edgelabel>_offsetof_tgtPoint</edgelabel>
+          <edgelabel>_offsetof_weight</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44820" bodyend="44885"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointPair_1a6d5a7cf7fbfbb1b9382513200289b312" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1af60b7eb40c0c0c94a6df8b00b36eb525" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_normalsAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a6286b2913ea76e442b555d47035ae0fd" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_srcVertId</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1aa84540ac333e6be46ab7ad5ddda32afb" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_tgtCloseVert</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a4908437da9a70c656c1dd57ee4500490" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_tgtOnBd</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a90a3adeb01b06145a790ca3e08c5d6fb" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>normalsAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1ad834e1f5c4aa8929d84d3dd68ba84ea1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>normalsAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a2f4f5258029727ebf7a7082d37eb65f9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a2f4f5258029727ebf7a7082d37eb65f9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a2d273f00d07badf743028ff606773bb7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcVertId</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a02f6c9d246245db56a7d4b8d25625193" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcVertId</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a34c5b97007ea9760b9572e5570ec6a3b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtCloseVert</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a35445ff36c5a24469fe5fb5ff4f67592" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtCloseVert</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a42e142b00acc3e786a02e82de68cf9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtOnBd</name></member>
+      <member refid="classmrmeshpy_1_1PointPair_1a5b9ca9ca28eb2eee813859849e5d9635" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtOnBd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

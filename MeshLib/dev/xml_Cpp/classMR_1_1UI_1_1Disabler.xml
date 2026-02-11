@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1Disabler" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::Disabler</compoundname>
+    <derivedcompoundref refid="classMR_1_1UI_1_1LineAntialiasingDisabler" prot="private" virt="non-virtual">MR::UI::LineAntialiasingDisabler</derivedcompoundref>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UI_1_1Disabler_1a74e4f57e6fc1410903da7f02698918f0" prot="private" static="no" mutable="no">
+        <type>ImDrawList &amp;</type>
+        <definition>ImDrawList&amp; MR::UI::Disabler::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <qualifiedname>MR::UI::Disabler::list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="572" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1UI_1_1Disabler_1a2606edde258451598e90076b3900b4dc" prot="private" static="no" mutable="no">
+        <type>ImDrawFlags</type>
+        <definition>ImDrawFlags MR::UI::Disabler::oldFlags</definition>
+        <argsstring></argsstring>
+        <name>oldFlags</name>
+        <qualifiedname>MR::UI::Disabler::oldFlags</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="573" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="573" bodyend="573"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UI_1_1Disabler_1a3bf945275917a83dc236e989d7496f33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::Disabler::Disabler</definition>
+        <argsstring>(ImDrawList &amp;list, ImDrawFlags mask)</argsstring>
+        <name>Disabler</name>
+        <qualifiedname>MR::UI::Disabler::Disabler</qualifiedname>
+        <param>
+          <type>ImDrawList &amp;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>ImDrawFlags</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="576" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="576" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1Disabler_1a0cc0c3a1ab599cbdc2aecd9e4b1c3b17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::Disabler::Disabler</definition>
+        <argsstring>(const Disabler &amp;)=delete</argsstring>
+        <name>Disabler</name>
+        <qualifiedname>MR::UI::Disabler::Disabler</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1UI_1_1Disabler" kindref="compound">Disabler</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="582" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1Disabler_1a686800cf738a0eed6cba651c112745b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1UI_1_1Disabler" kindref="compound">Disabler</ref> &amp;</type>
+        <definition>Disabler &amp; MR::UI::Disabler::operator=</definition>
+        <argsstring>(const Disabler &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::UI::Disabler::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1UI_1_1Disabler" kindref="compound">Disabler</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="583" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1Disabler_1affd2aaf477dac1d4a2d4050e7dbf0ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::Disabler::~Disabler</definition>
+        <argsstring>()</argsstring>
+        <name>~Disabler</name>
+        <qualifiedname>MR::UI::Disabler::~Disabler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="585" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="585" bodyend="588"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>While this exists, it temporarily disables in the given list the flags with 0 bits in the given mask. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::UI::Disabler</label>
+        <link refid="classMR_1_1UI_1_1Disabler"/>
+      </node>
+      <node id="2">
+        <label>MR::UI::LineAntialiasingDisabler</label>
+        <link refid="classMR_1_1UI_1_1LineAntialiasingDisabler"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="571" bodyend="589"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UI_1_1Disabler_1a3bf945275917a83dc236e989d7496f33" prot="public" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>Disabler</name></member>
+      <member refid="classMR_1_1UI_1_1Disabler_1a0cc0c3a1ab599cbdc2aecd9e4b1c3b17" prot="public" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>Disabler</name></member>
+      <member refid="classMR_1_1UI_1_1Disabler_1a74e4f57e6fc1410903da7f02698918f0" prot="private" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>list</name></member>
+      <member refid="classMR_1_1UI_1_1Disabler_1a2606edde258451598e90076b3900b4dc" prot="private" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>oldFlags</name></member>
+      <member refid="classMR_1_1UI_1_1Disabler_1a686800cf738a0eed6cba651c112745b3" prot="public" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>operator=</name></member>
+      <member refid="classMR_1_1UI_1_1Disabler_1affd2aaf477dac1d4a2d4050e7dbf0ee4" prot="public" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>~Disabler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

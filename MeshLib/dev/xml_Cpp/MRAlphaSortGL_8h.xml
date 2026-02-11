@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRAlphaSortGL_8h" kind="file" language="C++">
+    <compoundname>MRAlphaSortGL.h</compoundname>
+    <innerclass refid="classMR_1_1AlphaSortGL" prot="public">MR::AlphaSortGL</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classMR_1_1AlphaSortGL" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AlphaSortGL" kindref="compound">AlphaSortGL</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classMR_1_1AlphaSortGL_1a1dd61ddfaca7ad57995cff3e85436742" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a1dd61ddfaca7ad57995cff3e85436742" kindref="member">~AlphaSortGL</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1AlphaSortGL_1aba382f76f34a17ef1f0536debd4b6683" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AlphaSortGL_1aba382f76f34a17ef1f0536debd4b6683" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1AlphaSortGL_1ac0008d001179507a880971efa7b03847" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AlphaSortGL_1ac0008d001179507a880971efa7b03847" kindref="member">free</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1AlphaSortGL_1aa3555625f912cb6a3c62641f8cdb5653" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AlphaSortGL_1aa3555625f912cb6a3c62641f8cdb5653" kindref="member">clearTransparencyTextures</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1AlphaSortGL_1a8ce534a2e3836fdcf88ee61badbb7eac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AlphaSortGL_1a8ce534a2e3836fdcf88ee61badbb7eac" kindref="member">drawTransparencyTextureToScreen</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1AlphaSortGL_1aab9cdfaf33634bcf9bae0eec5a82ebb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AlphaSortGL_1aab9cdfaf33634bcf9bae0eec5a82ebb9" kindref="member">updateTransparencyTexturesSize</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref><sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inited_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width_{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height_{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref><sp/>transparency_quad_vbo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref><sp/>transparency_quad_vao<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref><sp/>transparency_heads_texture_vbo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref><sp/>transparency_shared_shader_data_vbo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref><sp/>transparency_atomic_counter_vbo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref><sp/>transparency_static_clean_vbo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h"/>
+  </compounddef>
+</doxygen>

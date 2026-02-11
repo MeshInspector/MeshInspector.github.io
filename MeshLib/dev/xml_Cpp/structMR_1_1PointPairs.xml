@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointPairs" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointPairs</compoundname>
+    <basecompoundref refid="structMR_1_1IPointPairs" prot="public" virt="non-virtual">MR::IPointPairs</basecompoundref>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointPairs_1aa5242248a93789d989a923092a5d7592" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref> &gt;</type>
+        <definition>std::vector&lt;PointPair&gt; MR::PointPairs::vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR::PointPairs::vec</qualifiedname>
+        <briefdescription>
+<para>vector of all point pairs both active and not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="80" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PointPairs_1ab99f3e132fe375fd87cd27dafb991537" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref> &amp;</type>
+        <definition>virtual const ICPPairData &amp; MR::PointPairs::operator[]</definition>
+        <argsstring>(size_t idx) const override</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::PointPairs::operator[]</qualifiedname>
+        <reimplements refid="structMR_1_1IPointPairs_1a3dd0343a154cad09f33735a106dcc64b">operator[]</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="77" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PointPairs_1af0bfe85ad789f3bba2ddfb104733e314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref> &amp;</type>
+        <definition>virtual ICPPairData &amp; MR::PointPairs::operator[]</definition>
+        <argsstring>(size_t idx) override</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::PointPairs::operator[]</qualifiedname>
+        <reimplements refid="structMR_1_1IPointPairs_1afcac114c6d43447ea0cae96eb9270de8">operator[]</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="78" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PointPairs_1a57a171fbd5024682750b723475ed0c7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::PointPairs::size</definition>
+        <argsstring>() const override</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::PointPairs::size</qualifiedname>
+        <reimplements refid="structMR_1_1IPointPairs_1a21b4f073206e446af1e8c0c8895e56a8">size</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="79" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IPointPairs</label>
+        <link refid="structMR_1_1IPointPairs"/>
+      </node>
+      <node id="1">
+        <label>MR::PointPairs</label>
+        <link refid="structMR_1_1PointPairs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="2">
+        <label>MR::IPointPairs</label>
+        <link refid="structMR_1_1IPointPairs"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>active</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::PointPairs</label>
+        <link refid="structMR_1_1PointPairs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="75" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="76" bodyend="81"/>
+    <listofallmembers>
+      <member refid="structMR_1_1IPointPairs_1ab838ce7cceeb506514a4124c9587f032" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>active</name></member>
+      <member refid="structMR_1_1IPointPairs_1adbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>IPointPairs</name></member>
+      <member refid="structMR_1_1IPointPairs_1a3fcd8de5d97b49b84e9c984b494f10dc" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>IPointPairs</name></member>
+      <member refid="structMR_1_1IPointPairs_1a995abf137ecf1f8e0771844779cc9405" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>IPointPairs</name></member>
+      <member refid="structMR_1_1IPointPairs_1abb689ad7795aaeb7236800bec89a0cab" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>operator=</name></member>
+      <member refid="structMR_1_1IPointPairs_1ab45a73b14fac3dc080a3e99e4070de26" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>operator=</name></member>
+      <member refid="structMR_1_1PointPairs_1ab99f3e132fe375fd87cd27dafb991537" prot="public" virt="virtual"><scope>MR::PointPairs</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1PointPairs_1af0bfe85ad789f3bba2ddfb104733e314" prot="public" virt="virtual"><scope>MR::PointPairs</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1PointPairs_1a57a171fbd5024682750b723475ed0c7b" prot="public" virt="virtual"><scope>MR::PointPairs</scope><name>size</name></member>
+      <member refid="structMR_1_1PointPairs_1aa5242248a93789d989a923092a5d7592" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>vec</name></member>
+      <member refid="structMR_1_1IPointPairs_1ae584abe0ef15be5d6f3fc244f176751b" prot="public" virt="virtual"><scope>MR::PointPairs</scope><name>~IPointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

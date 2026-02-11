@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__AffineXf3d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_AffineXf3d</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__AffineXf3d" prot="public" virt="non-virtual">MR.ConstBox_AffineXf3d</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__AffineXf3d_1a5d37ebda69287c8d9a13f34b7a955f92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>new ref MR.Matrix3d MR.Box_AffineXf3d.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Box_AffineXf3d.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1906" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__AffineXf3d_1a412ab43344d75deb8905951d9f17f0bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new ref MR.Vector3d MR.Box_AffineXf3d.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Box_AffineXf3d.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1908" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1908" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__AffineXf3d_1adb532b0d849805d73bd49c5273affc04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_AffineXf3d.Box_AffineXf3d</definition>
+        <argsstring>(AffineXf3d other)</argsstring>
+        <name>Box_AffineXf3d</name>
+        <qualifiedname>MR.Box_AffineXf3d.Box_AffineXf3d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1913" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1913" bodyend="1913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__AffineXf3d_1ac46393fa3122b77c5a6e837d0e40ec6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_AffineXf3d.Box_AffineXf3d</definition>
+        <argsstring>(ConstBox_AffineXf3d _other)</argsstring>
+        <name>Box_AffineXf3d</name>
+        <qualifiedname>MR.Box_AffineXf3d.Box_AffineXf3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__AffineXf3d" kindref="compound">ConstBox_AffineXf3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1920" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1920" bodyend="1924"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__AffineXf3d_1a4ddb9655a009a06f292582893554ff8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_AffineXf3d.Assign</definition>
+        <argsstring>(ConstBox_AffineXf3d _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_AffineXf3d.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__AffineXf3d" kindref="compound">ConstBox_AffineXf3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1929" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1929" bodyend="1929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__AffineXf3d_1a9d73841948e39234d2a64efe76e4909c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_AffineXf3d.Box_AffineXf3d</definition>
+        <argsstring>()</argsstring>
+        <name>Box_AffineXf3d</name>
+        <qualifiedname>MR.Box_AffineXf3d.Box_AffineXf3d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1934" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1934" bodyend="1940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__AffineXf3d_1a1a6911fdc152f1d5ebf70d081e2a3bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_AffineXf3d.Box_AffineXf3d</definition>
+        <argsstring>(in MR.Matrix3d A, in MR.Vector3d b)</argsstring>
+        <name>Box_AffineXf3d</name>
+        <qualifiedname>MR.Box_AffineXf3d.Box_AffineXf3d</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1AffineXf3d_1a109a6e41accd0ed8ed4b3eabf1053992" kindref="member">MR.AffineXf3d.AffineXf3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1945" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1945" bodyend="1957"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__AffineXf3d_1a0f5a192403899805c21021a0e4c40e75" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_AffineXf3d.Box_AffineXf3d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_AffineXf3d</name>
+        <qualifiedname>MR.Box_AffineXf3d.Box_AffineXf3d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1915" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1915" bodyend="1915"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class <computeroutput><ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></computeroutput>. This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_AffineXf3d</label>
+        <link refid="classMR_1_1ConstBox__AffineXf3d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_AffineXf3d</label>
+        <link refid="classMR_1_1Box__AffineXf3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_AffineXf3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_AffineXf3d &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_AffineXf3d</label>
+        <link refid="classMR_1_1ConstBox__AffineXf3d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_AffineXf3d</label>
+        <link refid="classMR_1_1Box__AffineXf3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_AffineXf3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_AffineXf3d &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="1899" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="1900" bodyend="1958"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__AffineXf3d_1a5d37ebda69287c8d9a13f34b7a955f92" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>a</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1a4ddb9655a009a06f292582893554ff8b" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1a412ab43344d75deb8905951d9f17f0bd" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>b</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1adb532b0d849805d73bd49c5273affc04" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Box_AffineXf3d</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1a0f5a192403899805c21021a0e4c40e75" prot="package" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Box_AffineXf3d</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1ac46393fa3122b77c5a6e837d0e40ec6b" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Box_AffineXf3d</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1a9d73841948e39234d2a64efe76e4909c" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Box_AffineXf3d</name></member>
+      <member refid="classMR_1_1Box__AffineXf3d_1a1a6911fdc152f1d5ebf70d081e2a3bbb" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Box_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1af87504eb8d6959b95539b85176938494" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>call</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1abff3c78aae3c679232746e4f20bf5571" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>ConstBox_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a0890201d31a757b795acf2a1470e1422" prot="package" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>ConstBox_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a5a2a1e0d240ed987a1a090f3cc734d29" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>ConstBox_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a9609f413649159e4abd5a97f9be900bc" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>ConstBox_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a3cc9cb5b5ca91ef3a874fa7be3063431" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>ConstBox_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a66cfaf847393203182e0f9a145b59feb" prot="protected" virt="virtual"><scope>MR::Box_AffineXf3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a6854897d5587c3e16d0ead9f3c17e73d" prot="public" virt="virtual"><scope>MR::Box_AffineXf3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1aa57819be4cee017c10ce374c9886ec46" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1ab1306c7e05092f51baca3ac175da9a4c" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1adbb44d535d75bbcdeb75409346090979" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>inverse</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1afbc5f8a89874f0891b614864b9d1790a" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>linear</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1ab587dd1361576b1d530354c06d741943" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>linearOnly</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1ae4d86d322ce878e1b56c3be5d87e2a0d" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>operator ConstBox_AffineXf3d</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1ad00675176b8a4cfae8e17edf772cb2a3" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a8be2a7b036a4cfd5cc643e6b899bae4a" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a4780bb97ad663e62793eee9326eca544" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1a36ced6cf266629e5af183eb944221720" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>translation</name></member>
+      <member refid="classMR_1_1ConstBox__AffineXf3d_1aa236aff5f1c7b185c0961761a1d5fa42" prot="public" virt="non-virtual"><scope>MR::Box_AffineXf3d</scope><name>xfAround</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

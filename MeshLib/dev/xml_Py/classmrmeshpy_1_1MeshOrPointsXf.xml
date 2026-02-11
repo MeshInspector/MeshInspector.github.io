@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshOrPointsXf" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshOrPointsXf</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPointsXf_1a5ebd8a779da675293891718bd490141f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPointsXf::_offsetof_obj</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_obj</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf._offsetof_obj</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPointsXf_1a323aef256c24b70961a8b6d138df5531" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPointsXf::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf._offsetof_xf</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33646" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a06f393082e6b1bb972f0174c4cea0563" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPointsXf.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33651" bodyend="33652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a71af1b32a093066bb6b2b04d0b34d139" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+        <definition> MeshOrPointsXf mrmeshpy.MeshOrPointsXf.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33655" bodyend="33656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a71af1b32a093066bb6b2b04d0b34d139" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+        <definition> MeshOrPointsXf mrmeshpy.MeshOrPointsXf.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33659" bodyend="33660"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a09e374c2d244b353b076d3e14230ac22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPointsXf.__init__</definition>
+        <argsstring>(self, MeshOrPointsXf arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33662" bodyend="33665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a2cbdf9eab286e861de50d13020f998e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPointsXf.__init__</definition>
+        <argsstring>(self, MeshOrPoints obj, AffineXf3f xf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33667" bodyend="33670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a8b8b8d7a24e6b08f64312eb524557052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult" kindref="compound">func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</ref></type>
+        <definition> func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult mrmeshpy.MeshOrPointsXf.limitedProjector</definition>
+        <argsstring>(self)</argsstring>
+        <name>limitedProjector</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.limitedProjector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns a function that updates previously known projection (closest) points on this,
+the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33671" bodyend="33675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPointsXf_1a9678edbb3524d8416d3e9d8a91f398db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float" kindref="compound">func_MeshOrPoints_ProjectionResult_from_Vector3_float</ref></type>
+        <definition> func_MeshOrPoints_ProjectionResult_from_Vector3_float mrmeshpy.MeshOrPointsXf.projector</definition>
+        <argsstring>(self)</argsstring>
+        <name>projector</name>
+        <qualifiedname>mrmeshpy.MeshOrPointsXf.projector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns a function that finds projection (closest) points on this: Vector3f-&gt;ProjectionResult
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33676" bodyend="33679"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshOrPointsXf
+Aliases:  std_vector_MeshOrPointsXf_const_reference, Vector_MeshOrPointsXf_ObjId.value_type, Vector_MeshOrPointsXf_ObjId.reference, Vector_MeshOrPointsXf_ObjId.const_reference, std_vector_MeshOrPointsXf_reference, std_vector_MeshOrPointsXf_value_type
+
+an object and its transformation to global space with other objects
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshOrPointsXf</label>
+        <link refid="classmrmeshpy_1_1MeshOrPointsXf"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_obj</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33638" bodyend="33679"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a06f393082e6b1bb972f0174c4cea0563" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a09e374c2d244b353b076d3e14230ac22" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a2cbdf9eab286e861de50d13020f998e6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a5ebd8a779da675293891718bd490141f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>_offsetof_obj</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a323aef256c24b70961a8b6d138df5531" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a8b8b8d7a24e6b08f64312eb524557052" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>limitedProjector</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a71af1b32a093066bb6b2b04d0b34d139" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a71af1b32a093066bb6b2b04d0b34d139" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a9678edbb3524d8416d3e9d8a91f398db" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>projector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FeatureObjectProjectPointResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FeatureObjectProjectPointResult</compoundname>
+    <includes refid="MRFeatureObject_8h" local="no">MRFeatureObject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FeatureObjectProjectPointResult_1aaadfbfcace0b2432aceeaf49637c711f" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::FeatureObjectProjectPointResult::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR::FeatureObjectProjectPointResult::point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="79" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FeatureObjectProjectPointResult_1a3d380768a51a070f1546207b51956121" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; Vector3f &gt;</type>
+        <definition>std::optional&lt;Vector3f&gt; MR::FeatureObjectProjectPointResult::normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <qualifiedname>MR::FeatureObjectProjectPointResult::normal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="80" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="78" bodyend="81"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FeatureObjectProjectPointResult_1a3d380768a51a070f1546207b51956121" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>normal</name></member>
+      <member refid="structMR_1_1FeatureObjectProjectPointResult_1aaadfbfcace0b2432aceeaf49637c711f" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

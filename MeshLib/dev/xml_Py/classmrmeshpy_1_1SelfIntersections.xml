@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SelfIntersections" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SelfIntersections</compoundname>
+    <innerclass refid="classmrmeshpy_1_1SelfIntersections_1_1Settings" prot="public">mrmeshpy::SelfIntersections::Settings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1ac5582e238d31a97968e94db0b5e3152f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SelfIntersections.fix</definition>
+        <argsstring>(Mesh mesh, SelfIntersections.Settings settings)</argsstring>
+        <name>fix</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.fix</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SelfIntersections_1_1Settings" kindref="compound">SelfIntersections.Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds and fixes self-intersections per component:
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51710" bodyend="51713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1a089b55eac85a8f14131d6b6077e45f60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.SelfIntersections.getFaces</definition>
+        <argsstring>(Mesh mesh, bool touchIsIntersection=True, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>getFaces</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.getFaces</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchIsIntersection</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Find all self-intersections faces component-wise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51715" bodyend="51718"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51589" bodyend="51718"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1ac5582e238d31a97968e94db0b5e3152f" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections</scope><name>fix</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1a089b55eac85a8f14131d6b6077e45f60" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections</scope><name>getFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

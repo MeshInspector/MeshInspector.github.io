@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a996b5bbca1ab2cc89727b30f7e898f22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75262" bodyend="75263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a46c40bf89cb5ecc694dce544fc0585a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1CellCustomParams" kindref="compound">Pdf.CellCustomParams</ref></type>
+        <definition> Pdf.CellCustomParams mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__call__</definition>
+        <argsstring>(self, int arg0, int arg1, str arg2)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75264" bodyend="75265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a24df3812205ff00c61cb536d938ecfdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75267" bodyend="75268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a2ab567a18f7c513d4d9a9baae71b0e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75270" bodyend="75271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a2e2867c5663a775d1dcf5a551579ae30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</definition>
+        <argsstring>(self, func_Pdf_CellCustomParams_from_int_int_std_string arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string" kindref="compound">func_Pdf_CellCustomParams_from_int_int_std_string</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75273" bodyend="75274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a0074b49baf1de6d074dbb9cfb246e8a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</definition>
+        <argsstring>(self, typing.Callable[[int, int, str], Pdf.CellCustomParams] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[int, int, str]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1CellCustomParams" kindref="compound">Pdf.CellCustomParams</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75276" bodyend="75277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a18dc3c927dc69074d1f4765472da9b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75278" bodyend="75281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a112fa9b3709e762e7135cb2f4c02b61c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_Pdf_CellCustomParams_from_int_int_std_string.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75282" bodyend="75285"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75261" bodyend="75285"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a996b5bbca1ab2cc89727b30f7e898f22" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a46c40bf89cb5ecc694dce544fc0585a2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a24df3812205ff00c61cb536d938ecfdc" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a2ab567a18f7c513d4d9a9baae71b0e36" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a2e2867c5663a775d1dcf5a551579ae30" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a0074b49baf1de6d074dbb9cfb246e8a5" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a18dc3c927dc69074d1f4765472da9b32" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string_1a112fa9b3709e762e7135cb2f4c02b61c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Pdf_CellCustomParams_from_int_int_std_string</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

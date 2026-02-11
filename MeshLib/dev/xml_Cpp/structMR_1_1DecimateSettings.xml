@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DecimateSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DecimateSettings</compoundname>
+    <includes refid="MRMeshDecimate_8h" local="no">MRMeshDecimate.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7b024d2a905ecd6515a263ec20d35dc6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615" kindref="member">DecimateStrategy</ref></type>
+        <definition>DecimateStrategy MR::DecimateSettings::strategy</definition>
+        <argsstring></argsstring>
+        <name>strategy</name>
+        <qualifiedname>MR::DecimateSettings::strategy</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kindref="member">DecimateStrategy::MinimizeError</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="35" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ab97888b6d597260226ade61b4e542ef0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::maxError</definition>
+        <argsstring></argsstring>
+        <name>maxError</name>
+        <qualifiedname>MR::DecimateSettings::maxError</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for <ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kindref="member">DecimateStrategy::MinimizeError</ref>: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for <ref refid="namespaceMR_1a216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552" kindref="member">DecimateStrategy::ShortestEdgeFirst</ref> only: stop the decimation as soon as the shortest edge in the mesh is greater than this value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ac98cbfa367475605fa88982f55dc9a61" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR::DecimateSettings::maxEdgeLen</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>Maximal possible edge length created during decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="44" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5ec13d6be73db6e77b404aea2c0d3371" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>MR::DecimateSettings::maxBdShift</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>Maximal shift of a boundary during one edge collapse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="47" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1af1fd605860fa7a20931506008f29daa9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::maxTriangleAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxTriangleAspectRatio</name>
+        <qualifiedname>MR::DecimateSettings::maxTriangleAspectRatio</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+<para>Maximal possible aspect ratio of a triangle introduced during decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5f0e2ae094cddee1b490103a349feda5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR::DecimateSettings::criticalTriAspectRatio</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ac0e97c22838e162343661fd588f7a326" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR::DecimateSettings::tinyEdgeLength</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ab8a313e9caff73dd179f03a9c7b80baa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR::DecimateSettings::stabilizer</qualifiedname>
+        <initializer>= 0.001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="61" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a2f6ca4e4f21750ae6d21f4d0c4376dca" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::angleWeightedDistToPlane</definition>
+        <argsstring></argsstring>
+        <name>angleWeightedDistToPlane</name>
+        <qualifiedname>MR::DecimateSettings::angleWeightedDistToPlane</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles; if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="65" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ac4cfcdf2807788f5914a0640372d4a07" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::optimizeVertexPos</definition>
+        <argsstring></argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>MR::DecimateSettings::optimizeVertexPos</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1abb741e47d580e75e37b13adcad8a362e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::DecimateSettings::maxDeletedVertices</definition>
+        <argsstring></argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>MR::DecimateSettings::maxDeletedVertices</qualifiedname>
+        <initializer>= INT_MAX</initializer>
+        <briefdescription>
+<para>Limit on the number of deleted vertices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="72" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a38bbdf3c479e6edea3b93ca7a7b52084" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::DecimateSettings::maxDeletedFaces</definition>
+        <argsstring></argsstring>
+        <name>maxDeletedFaces</name>
+        <qualifiedname>MR::DecimateSettings::maxDeletedFaces</qualifiedname>
+        <initializer>= INT_MAX</initializer>
+        <briefdescription>
+<para>Limit on the number of deleted faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="75" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a9359f9da0b131c164d942b1361bd9644" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::DecimateSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::DecimateSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Region on mesh to be decimated, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="78" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a0731477e770d3880ed47726b66c43479" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::DecimateSettings::notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR::DecimateSettings::notFlippable</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="81" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a1ec65ab68109bf48005d935a85a08713" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::collapseNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>collapseNearNotFlippable</name>
+        <qualifiedname>MR::DecimateSettings::collapseNearNotFlippable</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to allow collapse of edges incident to notFlippable edges, which can move vertices of notFlippable edges unless they are fixed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="85" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1adcc8d3606bda7323ca4c7b6f6866df2c" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::DecimateSettings::edgesToCollapse</definition>
+        <argsstring></argsstring>
+        <name>edgesToCollapse</name>
+        <qualifiedname>MR::DecimateSettings::edgesToCollapse</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear); the algorithm updates this map during collapses, removing or replacing elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="89" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5c38997b3f0df2d9e534bf87f530cdd7" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref> *</type>
+        <definition>UndirectedEdgeHashMap* MR::DecimateSettings::twinMap</definition>
+        <argsstring></argsstring>
+        <name>twinMap</name>
+        <qualifiedname>MR::DecimateSettings::twinMap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position); the algorithm updates this map during collapses, removing or replacing elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="93" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1ae341a50784372571b1b5bb3e6948981e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::touchNearBdEdges</definition>
+        <argsstring></argsstring>
+        <name>touchNearBdEdges</name>
+        <qualifiedname>MR::DecimateSettings::touchNearBdEdges</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="96" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aee15c4faad0020190c28ac13da3e735e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::touchBdVerts</definition>
+        <argsstring></argsstring>
+        <name>touchBdVerts</name>
+        <qualifiedname>MR::DecimateSettings::touchBdVerts</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses; touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change; this setting is ignored if touchNearBdEdges=false </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="101" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1abc44005d50714fe75f875a25f3a59f66" prot="public" static="no" mutable="no">
+        <type>VertBitSet *</type>
+        <definition>VertBitSet* MR::DecimateSettings::bdVerts</definition>
+        <argsstring></argsstring>
+        <name>bdVerts</name>
+        <qualifiedname>MR::DecimateSettings::bdVerts</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set; the algorithm updates this set if it packs the mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="106" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aebecde304889b67910dd05d032cb8d07" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DecimateSettings::maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR::DecimateSettings::maxAngleChange</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5901e72dc3fd85459f38318a894afbbd" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a8ca6fbc7c349a31c3f0a68ce8f513265" kindref="member">PreCollapseCallback</ref></type>
+        <definition>PreCollapseCallback MR::DecimateSettings::preCollapse</definition>
+        <argsstring></argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>MR::DecimateSettings::preCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, Vector3f &amp;collapsePos)&gt;</type>
+        <definition>std::function&lt;void( UndirectedEdgeId ue, float &amp; collapseErrorSq, Vector3f &amp; collapsePos )&gt; MR::DecimateSettings::adjustCollapse</definition>
+        <argsstring></argsstring>
+        <name>adjustCollapse</name>
+        <qualifiedname>MR::DecimateSettings::adjustCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="128" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1afc72ed6f7c868487d053596c86220d6f" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId del, EdgeId rem)&gt;</type>
+        <definition>std::function&lt;void( EdgeId del, EdgeId rem )&gt; MR::DecimateSettings::onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>MR::DecimateSettings::onEdgeDel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this function is called each time edge (del) is deleted; if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="132" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a8a682d43b723098485a748e97bd12111" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; QuadraticForm3f, VertId &gt; *</type>
+        <definition>Vector&lt;QuadraticForm3f, VertId&gt;* MR::DecimateSettings::vertForms</definition>
+        <argsstring></argsstring>
+        <name>vertForms</name>
+        <qualifiedname>MR::DecimateSettings::vertForms</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="139" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a320a08e8abf402aa6a0dae956ad9be0e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::packMesh</definition>
+        <argsstring></argsstring>
+        <name>packMesh</name>
+        <qualifiedname>MR::DecimateSettings::packMesh</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>whether to pack mesh at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::DecimateSettings::progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR::DecimateSettings::progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="145" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::DecimateSettings::subdivideParts</definition>
+        <argsstring></argsstring>
+        <name>subdivideParts</name>
+        <qualifiedname>MR::DecimateSettings::subdivideParts</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="149" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DecimateSettings::decimateBetweenParts</definition>
+        <argsstring></argsstring>
+        <name>decimateBetweenParts</name>
+        <qualifiedname>MR::DecimateSettings::decimateBetweenParts</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="153" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7d69e19f2609b7330c6ac5d17a9ebfff" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; FaceBitSet &gt; *</type>
+        <definition>std::vector&lt;FaceBitSet&gt;* MR::DecimateSettings::partFaces</definition>
+        <argsstring></argsstring>
+        <name>partFaces</name>
+        <qualifiedname>MR::DecimateSettings::partFaces</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="158" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7cc18ed533890cfc09a39ba3724b5f85" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::DecimateSettings::minFacesInPart</definition>
+        <argsstring></argsstring>
+        <name>minFacesInPart</name>
+        <qualifiedname>MR::DecimateSettings::minFacesInPart</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="161" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for <ref refid="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" kindref="member">MR::decimateMesh</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" kindref="member">decimateMesh</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::DecimateSettings</label>
+        <link refid="structMR_1_1DecimateSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vertForms</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; QuadraticForm3f, VertId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="33" column="1"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a2f6ca4e4f21750ae6d21f4d0c4376dca" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
+      <member refid="structMR_1_1DecimateSettings_1abc44005d50714fe75f875a25f3a59f66" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>bdVerts</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a1ec65ab68109bf48005d935a85a08713" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a5f0e2ae094cddee1b490103a349feda5" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>decimateBetweenParts</name></member>
+      <member refid="structMR_1_1DecimateSettings_1adcc8d3606bda7323ca4c7b6f6866df2c" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>edgesToCollapse</name></member>
+      <member refid="structMR_1_1DecimateSettings_1aebecde304889b67910dd05d032cb8d07" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxAngleChange</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a5ec13d6be73db6e77b404aea2c0d3371" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxBdShift</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a38bbdf3c479e6edea3b93ca7a7b52084" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxDeletedFaces</name></member>
+      <member refid="structMR_1_1DecimateSettings_1abb741e47d580e75e37b13adcad8a362e" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxDeletedVertices</name></member>
+      <member refid="structMR_1_1DecimateSettings_1ac98cbfa367475605fa88982f55dc9a61" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="structMR_1_1DecimateSettings_1ab97888b6d597260226ade61b4e542ef0" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxError</name></member>
+      <member refid="structMR_1_1DecimateSettings_1af1fd605860fa7a20931506008f29daa9" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxTriangleAspectRatio</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a7cc18ed533890cfc09a39ba3724b5f85" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>minFacesInPart</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a0731477e770d3880ed47726b66c43479" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>notFlippable</name></member>
+      <member refid="structMR_1_1DecimateSettings_1afc72ed6f7c868487d053596c86220d6f" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>onEdgeDel</name></member>
+      <member refid="structMR_1_1DecimateSettings_1ac4cfcdf2807788f5914a0640372d4a07" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>optimizeVertexPos</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a320a08e8abf402aa6a0dae956ad9be0e" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>packMesh</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a7d69e19f2609b7330c6ac5d17a9ebfff" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>partFaces</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a5901e72dc3fd85459f38318a894afbbd" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>preCollapse</name></member>
+      <member refid="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>progressCallback</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a9359f9da0b131c164d942b1361bd9644" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1DecimateSettings_1ab8a313e9caff73dd179f03a9c7b80baa" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>stabilizer</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a7b024d2a905ecd6515a263ec20d35dc6" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>strategy</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>subdivideParts</name></member>
+      <member refid="structMR_1_1DecimateSettings_1ac0e97c22838e162343661fd588f7a326" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="structMR_1_1DecimateSettings_1aee15c4faad0020190c28ac13da3e735e" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>touchBdVerts</name></member>
+      <member refid="structMR_1_1DecimateSettings_1ae341a50784372571b1b5bb3e6948981e" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>touchNearBdEdges</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a5c38997b3f0df2d9e534bf87f530cdd7" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a8a682d43b723098485a748e97bd12111" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>vertForms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

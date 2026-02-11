@@ -1,0 +1,842 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSharpenMarchingCubesMesh_8h" kind="file" language="C++">
+    <compoundname>MRSharpenMarchingCubesMesh.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRSharpenMarchingCubesMesh.h</label>
+        <link refid="MRSharpenMarchingCubesMesh_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSharpenMarchingCubesMesh_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="11" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSharpenMarchingCubesMesh_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
+        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSharpenMarchingCubesMesh_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="13" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSharpenMarchingCubesMesh_8h_1a9692dc04329fdb84eb3ddd8d265ba089" prot="public" static="no">
+        <type>struct <ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref></type>
+        <definition>typedef struct MR_Vector_MR_VoxelId_MR_FaceId MR_Vector_MR_VoxelId_MR_FaceId</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector_MR_VoxelId_MR_FaceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="14" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" prot="public" static="no">
+        <type>struct <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref></type>
+        <definition>typedef struct MR_SharpenMarchingCubesMeshSettings MR_SharpenMarchingCubesMeshSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="19" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SharpenMarchingCubesMeshSettings_Get_minNewVertDev</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_minNewVertDev</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>minNewVertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="26" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_minNewVertDev</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, float value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_minNewVertDev</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>minNewVertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minNewVertDev</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="33" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SharpenMarchingCubesMeshSettings_GetMutable_minNewVertDev</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_minNewVertDev</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>minNewVertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="40" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="40" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank2VertDev</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank2VertDev</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank2VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="47" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="47" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank2VertDev</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, float value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank2VertDev</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank2VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNewRank2VertDev</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="54" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank2VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="61" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="61" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank3VertDev</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank3VertDev</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank3VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="68" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank3VertDev</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, float value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank3VertDev</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank3VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNewRank3VertDev</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="75" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank3VertDev</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank3VertDev</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank3VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="82" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="82" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SharpenMarchingCubesMeshSettings_Get_offset</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_offset</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>relative to reference mesh Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="88" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_offset</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, float value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_offset</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>relative to reference mesh Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SharpenMarchingCubesMeshSettings_GetMutable_offset</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_offset</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>relative to reference mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="100" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="100" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SharpenMarchingCubesMeshSettings_Get_maxOldVertPosCorrection</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_maxOldVertPosCorrection</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxOldVertPosCorrection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="108" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="108" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_maxOldVertPosCorrection</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, float value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_maxOldVertPosCorrection</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxOldVertPosCorrection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxOldVertPosCorrection</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="116" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SharpenMarchingCubesMeshSettings_GetMutable_maxOldVertPosCorrection</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_maxOldVertPosCorrection</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxOldVertPosCorrection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="124" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="124" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>posSelIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="131" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="131" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, int value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>posSelIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>posSelIters</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="138" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>posSelIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="145" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="145" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet *const  * MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if non-null then created sharp edges will be saved here Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="151" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="151" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, MR_UndirectedEdgeBitSet *value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if non-null then created sharp edges will be saved here Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outSharpEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outSharpEdges</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet ** MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if non-null then created sharp edges will be saved here Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="164" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="164" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="168" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="168" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" kindref="member">MR_SharpenMarchingCubesMeshSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="173" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="173" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_ConstructFrom</definition>
+        <argsstring>(float minNewVertDev, float maxNewRank2VertDev, float maxNewRank3VertDev, float offset, float maxOldVertPosCorrection, int posSelIters, MR_UndirectedEdgeBitSet *outSharpEdges)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>minNewVertDev</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNewRank2VertDev</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNewRank3VertDev</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxOldVertPosCorrection</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>posSelIters</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>outSharpEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="179" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="179" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API const MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_OffsetPtr</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="183" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="183" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="187" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="187" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_other)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SharpenMarchingCubesMeshSettings::SharpenMarchingCubesMeshSettings</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="193" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="193" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Destroy</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SharpenMarchingCubesMeshSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="196" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_DestroyArray</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SharpenMarchingCubesMeshSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="199" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="199" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+        <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_AssignFromAnother</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, const MR_SharpenMarchingCubesMeshSettings *_other)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SharpenMarchingCubesMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="207" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="207" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_sharpenMarchingCubesMesh</definition>
+        <argsstring>(const MR_MeshPart *ref, MR_Mesh *vox, MR_Vector_MR_VoxelId_MR_FaceId *face2voxel, const MR_SharpenMarchingCubesMeshSettings *settings)</argsstring>
+        <name>MR_sharpenMarchingCubesMesh</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>vox</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref> *</type>
+          <declname>face2voxel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adjust the mesh<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vox</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produced by marching cubes method (NOT dual marching cubes) by 1) correcting positions of all vertices to given offset relative to</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mesh (if correctOldVertPos == true); 2) introducing new vertices in the voxels where the normals change abruptly. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>face2voxel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mapping from Face Id to Voxel Id where it is located Generated from function <computeroutput>MR::sharpenMarchingCubesMesh</computeroutput>. Parameter <computeroutput>ref</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vox</computeroutput> can not be null. It is a single object. Parameter <computeroutput>face2voxel</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="218" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRSharpenMarchingCubesMesh_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRSharpenMarchingCubesMesh_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRSharpenMarchingCubesMesh_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRSharpenMarchingCubesMesh_8h_1a9692dc04329fdb84eb3ddd8d265ba089" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_minNewVertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_minNewVertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_minNewVertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank2VertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank2VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank3VertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank3VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank3VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_offset</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_offset</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxOldVertPosCorrection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxOldVertPosCorrection</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxOldVertPosCorrection</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" kindref="member">MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" kindref="member">MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" kindref="member">MR_SharpenMarchingCubesMeshSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minNewVertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNewRank2VertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNewRank3VertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxOldVertPosCorrection,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>posSelIters,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outSharpEdges);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" kindref="member">MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" kindref="member">MR_SharpenMarchingCubesMeshSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" kindref="member">MR_SharpenMarchingCubesMeshSettings_AssignFromAnother</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" kindref="member">MR_sharpenMarchingCubesMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ref,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*vox,<sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/>*face2voxel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSharpenMarchingCubesMesh.h"/>
+  </compounddef>
+</doxygen>

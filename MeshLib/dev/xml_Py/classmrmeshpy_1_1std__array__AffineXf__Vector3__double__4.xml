@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_AffineXf_Vector3_double_4</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1ac0ffb10d28257e86aa5ea25e7f6256a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.std_array_AffineXf_Vector3_double_4.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77987" bodyend="77988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a604f1626ab88c9fe66d79634b6dc1ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_AffineXf_Vector3_double_4.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77990" bodyend="77991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a0c38a63028167795797d246df8416b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_AffineXf_Vector3_double_4.__init__</definition>
+        <argsstring>(self, std_array_AffineXf_Vector3_double_4 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4" kindref="compound">std_array_AffineXf_Vector3_double_4</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77993" bodyend="77994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a510baf38870abda1fd49d87810727828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_AffineXf_Vector3_double_4.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 4elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77996" bodyend="77999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a035edbf8ae405fb52e2adb03297e259e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref>]</type>
+        <definition> typing.Iterator[AffineXf3d] mrmeshpy.std_array_AffineXf_Vector3_double_4.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78000" bodyend="78001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a85175718e4bc688f7d802effe473c383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_AffineXf_Vector3_double_4.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78002" bodyend="78003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a17c652cf7fab16772103c2c861a628de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_array_AffineXf_Vector3_double_4.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78004" bodyend="78005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a689c698282d44d490e3be9fa652aa83f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_AffineXf_Vector3_double_4.__setitem__</definition>
+        <argsstring>(self, int arg0, AffineXf3d arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_AffineXf_Vector3_double_4.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78006" bodyend="78007"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_array_AffineXf3d_4
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77983" bodyend="78007"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1ac0ffb10d28257e86aa5ea25e7f6256a7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a604f1626ab88c9fe66d79634b6dc1ce7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a0c38a63028167795797d246df8416b1c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a510baf38870abda1fd49d87810727828" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a035edbf8ae405fb52e2adb03297e259e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a85175718e4bc688f7d802effe473c383" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a17c652cf7fab16772103c2c861a628de" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4_1a689c698282d44d490e3be9fa652aa83f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_AffineXf_Vector3_double_4</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjTreeTraits" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjTreeTraits</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjTreeTraits_1a63294379a5f7f66d12e73f8e11a798a1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ObjTreeTraits::BoxT</definition>
+        <argsstring></argsstring>
+        <name>BoxT</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.BoxT</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjTreeTraits_1a56cd1bf35f9aa46a1fafccbdfd6ea8b4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ObjTreeTraits::LeafId</definition>
+        <argsstring></argsstring>
+        <name>LeafId</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.LeafId</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38800" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjTreeTraits_1a24f7ab514b75f1f83f6efc8025feff87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjTreeTraits.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38803" bodyend="38804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjTreeTraits_1abab188ee7e31f693998f35f48b5b804b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjTreeTraits" kindref="compound">ObjTreeTraits</ref></type>
+        <definition> ObjTreeTraits mrmeshpy.ObjTreeTraits.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38807" bodyend="38808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjTreeTraits_1abab188ee7e31f693998f35f48b5b804b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjTreeTraits" kindref="compound">ObjTreeTraits</ref></type>
+        <definition> ObjTreeTraits mrmeshpy.ObjTreeTraits.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38811" bodyend="38812"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjTreeTraits_1a60b619b084e5f76a79f1d64fd1adc699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjTreeTraits.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38814" bodyend="38815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjTreeTraits_1ac9c11866f81561986f64e2f76907a418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjTreeTraits.__init__</definition>
+        <argsstring>(self, ObjTreeTraits arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjTreeTraits" kindref="compound">ObjTreeTraits</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38817" bodyend="38820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjTreeTraits_1a60b619b084e5f76a79f1d64fd1adc699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjTreeTraits.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjTreeTraits.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38822" bodyend="38825"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjTreeTraits
+Aliases:  AABBTreeBase_ObjTreeTraits.Traits
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38794" bodyend="38825"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1a24f7ab514b75f1f83f6efc8025feff87" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1a60b619b084e5f76a79f1d64fd1adc699" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1ac9c11866f81561986f64e2f76907a418" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1a60b619b084e5f76a79f1d64fd1adc699" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1a63294379a5f7f66d12e73f8e11a798a1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>BoxT</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1a56cd1bf35f9aa46a1fafccbdfd6ea8b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>LeafId</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1abab188ee7e31f693998f35f48b5b804b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjTreeTraits_1abab188ee7e31f693998f35f48b5b804b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjTreeTraits</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

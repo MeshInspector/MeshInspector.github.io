@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1UnitSettings" kind="namespace" language="C++">
+    <compoundname>MR::UnitSettings</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1ae406c519ab41f7cbc08d65a9c83d2bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::resetToDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>resetToDefaults</name>
+        <qualifiedname>MR::UnitSettings::resetToDefaults</qualifiedname>
+        <briefdescription>
+<para>Reset to some sane default. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="12" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="12" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1aa107ba449e9a30d426079db1abc6f9e8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::UnitSettings::getShowLeadingZero</definition>
+        <argsstring>()</argsstring>
+        <name>getShowLeadingZero</name>
+        <qualifiedname>MR::UnitSettings::getShowLeadingZero</qualifiedname>
+        <briefdescription>
+<para>Common: </para>
+        </briefdescription>
+        <detaileddescription>
+<para>True: <computeroutput>0.1</computeroutput>, false: <computeroutput>.1</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="17" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="17" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a2b2fc6815346b05ae633d230e475a414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setShowLeadingZero</definition>
+        <argsstring>(bool show)</argsstring>
+        <name>setShowLeadingZero</name>
+        <qualifiedname>MR::UnitSettings::setShowLeadingZero</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="18" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="18" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a0325434bfffb878393212fbdbca5aa8e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API char</type>
+        <definition>MRVIEWER_API char MR::UnitSettings::getThousandsSeparator</definition>
+        <argsstring>()</argsstring>
+        <name>getThousandsSeparator</name>
+        <qualifiedname>MR::UnitSettings::getThousandsSeparator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Can be &apos;\0&apos; to indicate no separator. <computeroutput>fractional == true</computeroutput> means to the right of the fractional point, if any. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="22" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="22" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a035b6705c6bf6c337d949fd451ec8078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setThousandsSeparator</definition>
+        <argsstring>(char ch)</argsstring>
+        <name>setThousandsSeparator</name>
+        <qualifiedname>MR::UnitSettings::setThousandsSeparator</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="23" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="23" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a3828878d9371fdeec0058499a90a773c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <definition>MRVIEWER_API std::optional&lt; LengthUnit &gt; MR::UnitSettings::getUiLengthUnit</definition>
+        <argsstring>()</argsstring>
+        <name>getUiLengthUnit</name>
+        <qualifiedname>MR::UnitSettings::getUiLengthUnit</qualifiedname>
+        <briefdescription>
+<para>Length: </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Set &quot;targetUnit&quot; for Length based dimensions, which reflects on <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> suffix Length based dimensions: length, speed, area, volume, etc This can be null to indicate &quot;no unit&quot;. If <computeroutput>setPreferredLeadingZero == true</computeroutput>, will call <computeroutput><ref refid="namespaceMR_1_1UnitSettings_1a2b2fc6815346b05ae633d230e475a414" kindref="member">setShowLeadingZero()</ref></computeroutput> to match this unit (currently inches = false, everything else = true). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="31" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="31" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1ad8d6be62abf0d99eeb86139fd7939da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setUiLengthUnit</definition>
+        <argsstring>(std::optional&lt; LengthUnit &gt; unit, bool setPreferredLeadingZero)</argsstring>
+        <name>setUiLengthUnit</name>
+        <qualifiedname>MR::UnitSettings::setUiLengthUnit</qualifiedname>
+        <param>
+          <type>std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>setPreferredLeadingZero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="32" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="32" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1aec4e088dc329cbd35e4ad8d65ff24d64" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <definition>MRVIEWER_API std::optional&lt; LengthUnit &gt; MR::UnitSettings::getModelLengthUnit</definition>
+        <argsstring>()</argsstring>
+        <name>getModelLengthUnit</name>
+        <qualifiedname>MR::UnitSettings::getModelLengthUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set &quot;sourceUnit&quot; for Length based dimensions, which reflects on scaling input data to match &quot;targetUnit&quot; Length based dimensions: length, speed, area, volume, etc This can be null to indicate &quot;no unit&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="37" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="37" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1acb863d88d6e4822b694a244f85d09b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setModelLengthUnit</definition>
+        <argsstring>(std::optional&lt; LengthUnit &gt; unit)</argsstring>
+        <name>setModelLengthUnit</name>
+        <qualifiedname>MR::UnitSettings::setModelLengthUnit</qualifiedname>
+        <param>
+          <type>std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="38" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="38" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a69150415ea6b6c4a566729d65841d8d3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <definition>MRVIEWER_API std::optional&lt; LengthUnit &gt; MR::UnitSettings::getActualModelLengthUnit</definition>
+        <argsstring>()</argsstring>
+        <name>getActualModelLengthUnit</name>
+        <qualifiedname>MR::UnitSettings::getActualModelLengthUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the units in which the coordinates are stored in the memory of MeshLib-based application; it is computes as <ref refid="namespaceMR_1_1UnitSettings_1aec4e088dc329cbd35e4ad8d65ff24d64" kindref="member">getModelLengthUnit()</ref>.or_else( getUiLengthUnit() ); this function is important for serialization in the formats with known length units </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="43" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="43" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a18f2b660ede4fa66b9a12f1b358ae3b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="namespaceMR_1aa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref></type>
+        <definition>MRVIEWER_API DegreesMode MR::UnitSettings::getDegreesMode</definition>
+        <argsstring>()</argsstring>
+        <name>getDegreesMode</name>
+        <qualifiedname>MR::UnitSettings::getDegreesMode</qualifiedname>
+        <briefdescription>
+<para>Angle: </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="47" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="47" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a095d298e864fff2df5d9ec05315d6d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setDegreesMode</definition>
+        <argsstring>(DegreesMode mode, bool setPreferredPrecision)</argsstring>
+        <name>setDegreesMode</name>
+        <qualifiedname>MR::UnitSettings::setDegreesMode</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>setPreferredPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="48" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="48" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1af519bb8d603b29fed6ba650292d9caee" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::UnitSettings::getUiLengthPrecision</definition>
+        <argsstring>()</argsstring>
+        <name>getUiLengthPrecision</name>
+        <qualifiedname>MR::UnitSettings::getUiLengthPrecision</qualifiedname>
+        <briefdescription>
+<para>Precision: </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether this means total number of digits or the number of digits after the decimal point depends on another setting (<computeroutput><ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams()</ref>.style</computeroutput>) that&apos;s currently not exposed in this file. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="54" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a6c2457148f4800dfc82a654d0d9f3592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setUiLengthPrecision</definition>
+        <argsstring>(int precision)</argsstring>
+        <name>setUiLengthPrecision</name>
+        <qualifiedname>MR::UnitSettings::setUiLengthPrecision</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="55" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="55" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1aefbc07263247d17b42b9b520c287901c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::UnitSettings::getUiAnglePrecision</definition>
+        <argsstring>()</argsstring>
+        <name>getUiAnglePrecision</name>
+        <qualifiedname>MR::UnitSettings::getUiAnglePrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="57" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="57" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a17f256d60a5bca751f33412395fcfa86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setUiAnglePrecision</definition>
+        <argsstring>(int precision)</argsstring>
+        <name>setUiAnglePrecision</name>
+        <qualifiedname>MR::UnitSettings::setUiAnglePrecision</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="58" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="58" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a0b189aa7e3720de95702885098bb3413" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::UnitSettings::getUiRatioPrecision</definition>
+        <argsstring>()</argsstring>
+        <name>getUiRatioPrecision</name>
+        <qualifiedname>MR::UnitSettings::getUiRatioPrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="60" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="60" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UnitSettings_1a2fa49ac2e3a36c4f6472b6b5ea7793cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UnitSettings::setUiRatioPrecision</definition>
+        <argsstring>(int precision)</argsstring>
+        <name>setUiRatioPrecision</name>
+        <qualifiedname>MR::UnitSettings::setUiRatioPrecision</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="61" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" declline="61" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This abstracts away the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> measurement unit configuration. Internally this uses <computeroutput><ref refid="namespaceMR_1a822feec21d0c267d63b63429392323c9" kindref="member">setDefaultUnitParams()</ref></computeroutput>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnitSettings.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

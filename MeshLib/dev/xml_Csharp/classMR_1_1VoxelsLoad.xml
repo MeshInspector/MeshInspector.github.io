@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelsLoad</compoundname>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomStatus" prot="public">MR::VoxelsLoad::DicomStatus</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomVolume" prot="public">MR::VoxelsLoad::DicomVolume</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" prot="public">MR::VoxelsLoad::DicomVolumeAsVdb</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">MR::VoxelsLoad::LoadingTiffSettings</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>DicomStatusEnum</name>
+        <qualifiedname>MR.VoxelsLoad.DicomStatusEnum</qualifiedname>
+        <enumvalue id="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115" prot="public">
+          <name>Ok</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b" prot="public">
+          <name>Invalid</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f" prot="public">
+          <name>Unsupported</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="553" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="554" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>GridType</name>
+        <qualifiedname>MR.VoxelsLoad.GridType</qualifiedname>
+        <enumvalue id="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335add8e62e5509837aab18087d15bd5b8c7" prot="public">
+          <name>DenseGrid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335af75f97f8f1058acd62c93bf29de9f49e" prot="public">
+          <name>LevelSet</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="231" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="232" bodyend="237"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a1300540bf7f647fe00847d3d26eff61c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus" kindref="compound">MR.VoxelsLoad.DicomStatus</ref></type>
+        <definition>static unsafe MR.VoxelsLoad.DicomStatus MR.VoxelsLoad.isDicomFile</definition>
+        <argsstring>(string path, MR.Std.String? seriesUid=null, MR.Misc.InOut&lt; MR.Vector3i &gt;? dims=null)</argsstring>
+        <name>isDicomFile</name>
+        <qualifiedname>MR.VoxelsLoad.isDicomFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Std.String?</type>
+          <declname>seriesUid</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &gt;?</type>
+          <declname>dims</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>check if file is a valid DICOM dataset file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seriesUid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- if set, the extracted series instance UID is copied to the variable </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dims</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output of the file volume&apos;s dimensions Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a1300540bf7f647fe00847d3d26eff61c" kindref="member">MR.VoxelsLoad.isDicomFile</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="884" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="884" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a794374cdf30f03d82e2b75404c8bf894" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.VoxelsLoad.isDicomFolder</definition>
+        <argsstring>(string dirPath)</argsstring>
+        <name>isDicomFolder</name>
+        <qualifiedname>MR.VoxelsLoad.isDicomFolder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>dirPath</declname>
+        </param>
+        <briefdescription>
+<para>check if given folder contains at least one DICOM file Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a794374cdf30f03d82e2b75404c8bf894" kindref="member">MR.VoxelsLoad.isDicomFolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="902" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="902" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a4712b0e40fa9832c74bff26290225549" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdFilesystemPath</type>
+        <definition>static unsafe MR.Std.Vector_StdFilesystemPath MR.VoxelsLoad.findDicomFoldersRecursively</definition>
+        <argsstring>(string path)</argsstring>
+        <name>findDicomFoldersRecursively</name>
+        <qualifiedname>MR.VoxelsLoad.findDicomFoldersRecursively</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>returns all the dicom folders in <computeroutput>path</computeroutput>, searching recursively Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a4712b0e40fa9832c74bff26290225549" kindref="member">MR.VoxelsLoad.findDicomFoldersRecursively</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="917" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="917" bodyend="926"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a638c45514a9ec4463b570f5f952aefc2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">MR.VoxelsLoad.DicomVolume</ref></type>
+        <definition>static unsafe MR.VoxelsLoad.DicomVolume MR.VoxelsLoad.loadDicomFile</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomFile</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads full volume from single DICOM file (not a slice file) as <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a638c45514a9ec4463b570f5f952aefc2" kindref="member">MR.VoxelsLoad.loadDicomFile</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="933" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="933" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a06d19bc4c265c8ae6d09e7fcddbb2be1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">MR.VoxelsLoad.DicomVolumeAsVdb</ref></type>
+        <definition>static unsafe MR.VoxelsLoad.DicomVolumeAsVdb MR.VoxelsLoad.loadDicomFileAsVdb</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomFileAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomFileAsVdb</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads full volume from single DICOM file (not a slice file) as <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a06d19bc4c265c8ae6d09e7fcddbb2be1" kindref="member">MR.VoxelsLoad.loadDicomFileAsVdb</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="952" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="952" bodyend="964"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a18625ffd62605f5b1d029fd111ea6c69" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1DicomVolume" kindref="compound">MR.VoxelsLoad.DicomVolume</ref></type>
+        <definition>static unsafe MR.VoxelsLoad.DicomVolume MR.VoxelsLoad.loadDicomFolder</definition>
+        <argsstring>(string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomFolder</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomFolder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>maxNumThreads</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads one volume from DICOM files located in given folder as <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a18625ffd62605f5b1d029fd111ea6c69" kindref="member">MR.VoxelsLoad.loadDicomFolder</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="971" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="971" bodyend="983"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a19883c337c06a47c9ee6888006e3a492" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">MR.VoxelsLoad.DicomVolumeAsVdb</ref></type>
+        <definition>static unsafe MR.VoxelsLoad.DicomVolumeAsVdb MR.VoxelsLoad.loadDicomFolderAsVdb</definition>
+        <argsstring>(string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomFolderAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomFolderAsVdb</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>maxNumThreads</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads one volume from DICOM files located in given folder as <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a19883c337c06a47c9ee6888006e3a492" kindref="member">MR.VoxelsLoad.loadDicomFolderAsVdb</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="990" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="990" bodyend="1002"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1af4a7b58b7d059d78314e3128c491752b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeStdString</type>
+        <definition>static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeStdString MR.VoxelsLoad.loadDicomsFolder</definition>
+        <argsstring>(string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomsFolder</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomsFolder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>maxNumThreads</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads all volumes from DICOM files located in given folder as a number of <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1af4a7b58b7d059d78314e3128c491752b" kindref="member">MR.VoxelsLoad.loadDicomsFolder</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1009" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1009" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1aedec4862bd0fa283e388b9eaf9a29211" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString</type>
+        <definition>static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString MR.VoxelsLoad.loadDicomsFolderAsVdb</definition>
+        <argsstring>(string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomsFolderAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomsFolderAsVdb</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>maxNumThreads</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads all volumes from DICOM files located in given folder as a number of <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1aedec4862bd0fa283e388b9eaf9a29211" kindref="member">MR.VoxelsLoad.loadDicomsFolderAsVdb</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1025" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1025" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a599d8ff5a18d29e6465c1cddc690654b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString</type>
+        <definition>static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</definition>
+        <argsstring>(string path, uint? maxNumThreads=null, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadDicomsFolderTreeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>uint?</type>
+          <declname>maxNumThreads</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads every subfolder with DICOM volume as new object Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a599d8ff5a18d29e6465c1cddc690654b" kindref="member">MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</ref></computeroutput>. Parameter <computeroutput>maxNumThreads</computeroutput> defaults to <computeroutput>4</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1042" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1042" bodyend="1052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a622c95726333ec68a788191e4f69b3b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></type>
+        <definition>static unsafe MR.ObjectVoxels MR.VoxelsLoad.createObjectVoxels</definition>
+        <argsstring>(MR.VoxelsLoad.Const_DicomVolumeAsVdb dcm, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>createObjectVoxels</name>
+        <qualifiedname>MR.VoxelsLoad.createObjectVoxels</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad.Const_DicomVolumeAsVdb</type>
+          <declname>dcm</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>converts <ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">DicomVolumeAsVdb</ref> in <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a622c95726333ec68a788191e4f69b3b5" kindref="member">MR.VoxelsLoad.createObjectVoxels</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1059" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1059" bodyend="1067"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a0affe2e0abfd294fae29e12fa5d9fee8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LoadedObjects" kindref="compound">MR.LoadedObjects</ref></type>
+        <definition>static unsafe MR.LoadedObjects MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</definition>
+        <argsstring>(string folder, MR.Std.Const_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <name>makeObjectVoxelsFromDicomFolder</name>
+        <qualifiedname>MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>folder</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Loads 3D volumetric data from dicom-files in given folder, and converts them into an <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a0affe2e0abfd294fae29e12fa5d9fee8" kindref="member">MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1074" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1074" bodyend="1086"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1af26449e3e5319319879f6d9b986310a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.fromRaw</definition>
+        <argsstring>(string file, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR.VoxelsLoad.fromRaw</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels from file with provided parameters Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1af26449e3e5319319879f6d9b986310a2" kindref="member">MR.VoxelsLoad.fromRaw</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="529" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="529" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1af012b14b36371a75d0d7019391f409d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.fromRaw</definition>
+        <argsstring>(MR.Std.Istream in_, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR.VoxelsLoad.fromRaw</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1af26449e3e5319319879f6d9b986310a2" kindref="member">MR.VoxelsLoad.fromRaw</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="549" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="549" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a6b01975d27f0f95547d1390d2fe7403f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>static unsafe MR.FloatGrid MR.VoxelsLoad.gridFromRaw</definition>
+        <argsstring>(string file, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>MR.VoxelsLoad.gridFromRaw</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels from file with provided parameters Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a6b01975d27f0f95547d1390d2fe7403f" kindref="member">MR.VoxelsLoad.gridFromRaw</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="564" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="564" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a710be5574cc18519fcd6e88a46ae50bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>static unsafe MR.FloatGrid MR.VoxelsLoad.gridFromRaw</definition>
+        <argsstring>(MR.Std.Istream in_, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>MR.VoxelsLoad.gridFromRaw</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a6b01975d27f0f95547d1390d2fe7403f" kindref="member">MR.VoxelsLoad.gridFromRaw</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="584" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="584" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a73061b630e4a1d31327cc2fe1b42f7bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1RawParameters" kindref="compound">MR.VoxelsLoad.RawParameters</ref></type>
+        <definition>static unsafe MR.VoxelsLoad.RawParameters MR.VoxelsLoad.findRawParameters</definition>
+        <argsstring>(MR.Std.Filesystem.Path file)</argsstring>
+        <name>findRawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.findRawParameters</qualifiedname>
+        <param>
+          <type>MR.Std.Filesystem.Path</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>finds raw voxels file and its encoding parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>on input: file name probably without suffix with parameters on output: if success existing file name Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a73061b630e4a1d31327cc2fe1b42f7bd" kindref="member">MR.VoxelsLoad.findRawParameters</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="600" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="600" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1aea2d7dc667c45f613ee5d25c18fa4df1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.fromRaw</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR.VoxelsLoad.fromRaw</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels file, parsing parameters from name Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1af26449e3e5319319879f6d9b986310a2" kindref="member">MR.VoxelsLoad.fromRaw</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="615" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="615" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1aa1c7d90b970875f05791b0c63a0f6b2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>static unsafe MR.FloatGrid MR.VoxelsLoad.gridFromRaw</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>MR.VoxelsLoad.gridFromRaw</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels file, parsing parameters from name Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a6b01975d27f0f95547d1390d2fe7403f" kindref="member">MR.VoxelsLoad.gridFromRaw</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="634" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="634" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a7c6488591485144ab1f837c8c9e3a8d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVdbVolume</type>
+        <definition>static unsafe MR.Std.Vector_MRVdbVolume MR.VoxelsLoad.fromVdb</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromVdb</name>
+        <qualifiedname>MR.VoxelsLoad.fromVdb</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load all voxel volumes from OpenVDB file Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a7c6488591485144ab1f837c8c9e3a8d7" kindref="member">MR.VoxelsLoad.fromVdb</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="653" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="653" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a95881b8df063823afc0921ec601e39d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFloatGrid</type>
+        <definition>static unsafe MR.Std.Vector_MRFloatGrid MR.VoxelsLoad.gridsFromVdb</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>gridsFromVdb</name>
+        <qualifiedname>MR.VoxelsLoad.gridsFromVdb</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a95881b8df063823afc0921ec601e39d8" kindref="member">MR.VoxelsLoad.gridsFromVdb</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="671" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="671" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a80e3f3f52f7dcc416b9c4b3a76de9a5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFloatGrid</type>
+        <definition>static unsafe MR.Std.Vector_MRFloatGrid MR.VoxelsLoad.gridsFromVdb</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>gridsFromVdb</name>
+        <qualifiedname>MR.VoxelsLoad.gridsFromVdb</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a95881b8df063823afc0921ec601e39d8" kindref="member">MR.VoxelsLoad.gridsFromVdb</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="689" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="689" bodyend="697"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a0955035a86bced52d1d7024e6f223c0e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.fromGav</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromGav</name>
+        <qualifiedname>MR.VoxelsLoad.fromGav</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load voxel from Gav-file with micro CT reconstruction Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a0955035a86bced52d1d7024e6f223c0e" kindref="member">MR.VoxelsLoad.fromGav</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="704" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="704" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1ae6b7c814d22e78f2aa73967d3b95e662" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.fromGav</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromGav</name>
+        <qualifiedname>MR.VoxelsLoad.fromGav</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load voxel from Gav-stream with micro CT reconstruction Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a0955035a86bced52d1d7024e6f223c0e" kindref="member">MR.VoxelsLoad.fromGav</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="723" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="723" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1ad7cbf91611e36bcb683c94e67694d9fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFloatGrid</type>
+        <definition>static unsafe MR.Std.Vector_MRFloatGrid MR.VoxelsLoad.gridsFromAnySupportedFormat</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>gridsFromAnySupportedFormat</name>
+        <qualifiedname>MR.VoxelsLoad.gridsFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Detects the format from file extension and loads voxels from it Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1ad7cbf91611e36bcb683c94e67694d9fb" kindref="member">MR.VoxelsLoad.gridsFromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="738" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="738" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1aca452fa8908f9c88a3a17e3bee9abb0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVdbVolume</type>
+        <definition>static unsafe MR.Std.Vector_MRVdbVolume MR.VoxelsLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.VoxelsLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Detects the format from file extension and loads voxels from it Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1aca452fa8908f9c88a3a17e3bee9abb0c" kindref="member">MR.VoxelsLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="757" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="757" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.loadTiffDir</definition>
+        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings settings)</argsstring>
+        <name>loadTiffDir</name>
+        <qualifiedname>MR.VoxelsLoad.loadTiffDir</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad.Const_LoadingTiffSettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Load voxels from a set of TIFF files Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" kindref="member">MR.VoxelsLoad.loadTiffDir</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="775" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="775" bodyend="783"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="4" bodyend="784"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1a622c95726333ec68a788191e4f69b3b5" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>createObjectVoxels</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>DicomStatusEnum</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a4712b0e40fa9832c74bff26290225549" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>findDicomFoldersRecursively</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a73061b630e4a1d31327cc2fe1b42f7bd" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>findRawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1aca452fa8908f9c88a3a17e3bee9abb0c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a0955035a86bced52d1d7024e6f223c0e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromGav</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1ae6b7c814d22e78f2aa73967d3b95e662" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromGav</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1af26449e3e5319319879f6d9b986310a2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromRaw</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1af012b14b36371a75d0d7019391f409d2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromRaw</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1aea2d7dc667c45f613ee5d25c18fa4df1" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromRaw</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a7c6488591485144ab1f837c8c9e3a8d7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>fromVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a6b01975d27f0f95547d1390d2fe7403f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>gridFromRaw</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a710be5574cc18519fcd6e88a46ae50bf" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>gridFromRaw</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1aa1c7d90b970875f05791b0c63a0f6b2e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>gridFromRaw</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1ad7cbf91611e36bcb683c94e67694d9fb" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>gridsFromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a95881b8df063823afc0921ec601e39d8" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>gridsFromVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a80e3f3f52f7dcc416b9c4b3a76de9a5a" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>gridsFromVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>GridType</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a1300540bf7f647fe00847d3d26eff61c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>isDicomFile</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a794374cdf30f03d82e2b75404c8bf894" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>isDicomFolder</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a638c45514a9ec4463b570f5f952aefc2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomFile</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a06d19bc4c265c8ae6d09e7fcddbb2be1" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomFileAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a18625ffd62605f5b1d029fd111ea6c69" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomFolder</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a19883c337c06a47c9ee6888006e3a492" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomFolderAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1af4a7b58b7d059d78314e3128c491752b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomsFolder</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1aedec4862bd0fa283e388b9eaf9a29211" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomsFolderAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a599d8ff5a18d29e6465c1cddc690654b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomsFolderTreeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadTiffDir</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a0affe2e0abfd294fae29e12fa5d9fee8" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>makeObjectVoxelsFromDicomFolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VisualObjectTagManager" kind="class" language="C++" prot="public">
+    <compoundname>MR::VisualObjectTagManager</compoundname>
+    <includes refid="MRVisualObjectTag_8h" local="no">MRVisualObjectTag.h</includes>
+    <innerclass refid="structMR_1_1VisualObjectTagManager_1_1ProtectedTag" prot="private">MR::VisualObjectTagManager::ProtectedTag</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1VisualObjectTagManager_1a357a7188eb9a9ff3553c502b24b2bf86" prot="private" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::VisualObjectTagManager::onTagAdded_</definition>
+        <argsstring></argsstring>
+        <name>onTagAdded_</name>
+        <qualifiedname>MR::VisualObjectTagManager::onTagAdded_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="47" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VisualObjectTagManager_1a64eaec41ee2d5126b17348e4353eee23" prot="private" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::VisualObjectTagManager::onTagRemoved_</definition>
+        <argsstring></argsstring>
+        <name>onTagRemoved_</name>
+        <qualifiedname>MR::VisualObjectTagManager::onTagRemoved_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="48" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VisualObjectTagManager_1ae793b31ad6cf1ad03d1fd5624ac90c79" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="structMR_1_1VisualObjectTag" kindref="compound">VisualObjectTag</ref> &gt;</type>
+        <definition>std::map&lt;std::string, VisualObjectTag&gt; MR::VisualObjectTagManager::visTags_</definition>
+        <argsstring></argsstring>
+        <name>visTags_</name>
+        <qualifiedname>MR::VisualObjectTagManager::visTags_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="52" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1acc1fbe4ee1dee7064b9d1bac1569dd66" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1VisualObjectTagManager" kindref="compound">VisualObjectTagManager</ref> &amp;</type>
+        <definition>static MRVIEWER_API VisualObjectTagManager &amp; MR::VisualObjectTagManager::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>MR::VisualObjectTagManager::instance</qualifiedname>
+        <briefdescription>
+<para>get access to the global instance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="25" column="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1a9f69634ddb326faeffe67952e15e67e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const std::map&lt; std::string, <ref refid="structMR_1_1VisualObjectTag" kindref="compound">VisualObjectTag</ref> &gt; &amp;</type>
+        <definition>static MRVIEWER_API const std::map&lt; std::string, VisualObjectTag &gt; &amp; MR::VisualObjectTagManager::tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR::VisualObjectTagManager::tags</qualifiedname>
+        <briefdescription>
+<para>get read-only access to the visual object tags&apos; storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="28" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1ae17781f3480401df2d0f12b90816be27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::VisualObjectTagManager::registerTag</definition>
+        <argsstring>(std::string tag, VisualObjectTag visTag)</argsstring>
+        <name>registerTag</name>
+        <qualifiedname>MR::VisualObjectTagManager::registerTag</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VisualObjectTag" kindref="compound">VisualObjectTag</ref></type>
+          <declname>visTag</declname>
+        </param>
+        <briefdescription>
+<para>add visual object tag </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="31" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1ac2b3c766f95d02b57e4a529fecdae7cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::VisualObjectTagManager::updateTag</definition>
+        <argsstring>(const std::string &amp;tag, VisualObjectTag visTag)</argsstring>
+        <name>updateTag</name>
+        <qualifiedname>MR::VisualObjectTagManager::updateTag</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VisualObjectTag" kindref="compound">VisualObjectTag</ref></type>
+          <declname>visTag</declname>
+        </param>
+        <briefdescription>
+<para>update visual object tag; linked objects are NOT updated automatically </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="33" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1aa2d4ea3df24507fdc138c0186b48e6cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::VisualObjectTagManager::unregisterTag</definition>
+        <argsstring>(const std::string &amp;tag)</argsstring>
+        <name>unregisterTag</name>
+        <qualifiedname>MR::VisualObjectTagManager::unregisterTag</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>remove visual object tag; linked objects are NOT updated automatically </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="35" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1aea004b378789ba0a88c63d1854d82f82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>static MRVIEWER_API std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; MR::VisualObjectTagManager::getAllObjectsWithTag</definition>
+        <argsstring>(Object *root, const std::string &amp;tag, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</argsstring>
+        <name>getAllObjectsWithTag</name>
+        <qualifiedname>MR::VisualObjectTagManager::getAllObjectsWithTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>const ObjectSelectivityType &amp;</type>
+          <declname>type</declname>
+          <defval>ObjectSelectivityType::Selectable</defval>
+        </param>
+        <briefdescription>
+<para>find all object in given object tree with the visual object tag </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="38" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1aec8c30ef080775365eeebc279fdc39da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::VisualObjectTagManager::update</definition>
+        <argsstring>(VisualObject &amp;visObj, const std::string &amp;tag)</argsstring>
+        <name>update</name>
+        <qualifiedname>MR::VisualObjectTagManager::update</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>visObj</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>update visual object properties according to whether given object has the visual object tag or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="41" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VisualObjectTagManager_1a4e20686f28269f2f8bae46204a1a08ea" prot="private" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::VisualObjectTagManager::VisualObjectTagManager</definition>
+        <argsstring>(ProtectedTag)</argsstring>
+        <name>VisualObjectTagManager</name>
+        <qualifiedname>MR::VisualObjectTagManager::VisualObjectTagManager</qualifiedname>
+        <param>
+          <type>ProtectedTag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="45" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1VisualObjectTagManager_1aab3891f875cc95a74b2741c4c49da1b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void deserializeFromJson</definition>
+        <argsstring>(const Json::Value &amp;root, VisualObjectTagManager &amp;manager)</argsstring>
+        <name>deserializeFromJson</name>
+        <qualifiedname>MR::VisualObjectTagManager::deserializeFromJson</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VisualObjectTagManager" kindref="compound">VisualObjectTagManager</ref> &amp;</type>
+          <declname>manager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="50" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class for storing and changing visual object properties based on the object tags </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="22" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VisualObjectTagManager_1aab3891f875cc95a74b2741c4c49da1b4" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>deserializeFromJson</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1aea004b378789ba0a88c63d1854d82f82" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>getAllObjectsWithTag</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1acc1fbe4ee1dee7064b9d1bac1569dd66" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>instance</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1a357a7188eb9a9ff3553c502b24b2bf86" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>onTagAdded_</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1a64eaec41ee2d5126b17348e4353eee23" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>onTagRemoved_</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1ae17781f3480401df2d0f12b90816be27" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>registerTag</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1a9f69634ddb326faeffe67952e15e67e4" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>tags</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1aa2d4ea3df24507fdc138c0186b48e6cd" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>unregisterTag</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1aec8c30ef080775365eeebc279fdc39da" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>update</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1ac2b3c766f95d02b57e4a529fecdae7cd" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>updateTag</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1ae793b31ad6cf1ad03d1fd5624ac90c79" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>visTags_</name></member>
+      <member refid="classMR_1_1VisualObjectTagManager_1a4e20686f28269f2f8bae46204a1a08ea" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>VisualObjectTagManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

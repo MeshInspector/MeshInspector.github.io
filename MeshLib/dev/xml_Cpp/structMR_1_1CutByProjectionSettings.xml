@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CutByProjectionSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CutByProjectionSettings</compoundname>
+    <includes refid="MRContoursCut_8h" local="no">MRContoursCut.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1CutByProjectionSettings_1a789a41f7dc3d705c8ee83ea3c207ef9e" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::CutByProjectionSettings::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>MR::CutByProjectionSettings::direction</qualifiedname>
+        <briefdescription>
+<para>direction of projection (in mesh space) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="105" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1CutByProjectionSettings_1a1e498975d50ae1790f29c924362e4261" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::CutByProjectionSettings::cont2mesh</definition>
+        <argsstring></argsstring>
+        <name>cont2mesh</name>
+        <qualifiedname>MR::CutByProjectionSettings::cont2mesh</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>if set - used to transform contours form its local space to mesh local space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="108" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Settings structurer for cutMeshByProjection function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="103" bodyend="109"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CutByProjectionSettings_1a1e498975d50ae1790f29c924362e4261" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>cont2mesh</name></member>
+      <member refid="structMR_1_1CutByProjectionSettings_1a789a41f7dc3d705c8ee83ea3c207ef9e" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>direction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

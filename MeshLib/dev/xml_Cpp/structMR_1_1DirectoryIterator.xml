@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DirectoryIterator" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DirectoryIterator</compoundname>
+    <includes refid="MRDirectory_8h" local="no">MRDirectory.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" prot="public" static="no" mutable="no">
+        <type>std::filesystem::directory_iterator</type>
+        <definition>std::filesystem::directory_iterator MR::DirectoryIterator::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <qualifiedname>MR::DirectoryIterator::it</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="36" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DirectoryIterator_1a4d7767889be907087117c4ee9fd0789d" prot="public" static="no" mutable="no">
+        <type>std::error_code &amp;</type>
+        <definition>std::error_code&amp; MR::DirectoryIterator::ec</definition>
+        <argsstring></argsstring>
+        <name>ec</name>
+        <qualifiedname>MR::DirectoryIterator::ec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="37" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1DirectoryIterator_1a97ffa4ef6cc99e6cfa211a4bed48c6f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref> &amp;</type>
+        <definition>DirectoryIterator &amp; MR::DirectoryIterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::DirectoryIterator::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="38" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DirectoryIterator_1a0614a693a34cc58e9e59902bf38e38ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::DirectoryIterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::DirectoryIterator::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator of directory items that will save any errors in (ec) instead of throwing exceptions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="35" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DirectoryIterator_1a4d7767889be907087117c4ee9fd0789d" prot="public" virt="non-virtual"><scope>MR::DirectoryIterator</scope><name>ec</name></member>
+      <member refid="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" prot="public" virt="non-virtual"><scope>MR::DirectoryIterator</scope><name>it</name></member>
+      <member refid="structMR_1_1DirectoryIterator_1a0614a693a34cc58e9e59902bf38e38ef" prot="public" virt="non-virtual"><scope>MR::DirectoryIterator</scope><name>operator*</name></member>
+      <member refid="structMR_1_1DirectoryIterator_1a97ffa4ef6cc99e6cfa211a4bed48c6f4" prot="public" virt="non-virtual"><scope>MR::DirectoryIterator</scope><name>operator++</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

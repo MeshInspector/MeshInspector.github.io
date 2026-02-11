@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TransparencyMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TransparencyMode</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1aeb6a20ecdbfa0b7da02d3bcc07cd4577" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransparencyMode.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57026" bodyend="57027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1a7717135b5d374e31fda83c4d97d28aab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransparencyMode" kindref="compound">TransparencyMode</ref></type>
+        <definition> TransparencyMode mrmeshpy.TransparencyMode.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57030" bodyend="57031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1a7717135b5d374e31fda83c4d97d28aab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransparencyMode" kindref="compound">TransparencyMode</ref></type>
+        <definition> TransparencyMode mrmeshpy.TransparencyMode.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57034" bodyend="57035"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1a70ee3eb2b6160532512f561d6576f2ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransparencyMode.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57037" bodyend="57038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1ae97c6002712710f14e8db24a2ef3f480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransparencyMode.__init__</definition>
+        <argsstring>(self, bool alphaSort)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>alphaSort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57040" bodyend="57041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1abb70a8555c76a03e76e483a5021550ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransparencyMode.__init__</definition>
+        <argsstring>(self, int bgDepthTexId, int fgColorTexId, int fgDepthTexId)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bgDepthTexId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fgColorTexId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fgDepthTexId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57043" bodyend="57044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1a134f02d944d482aefb155af0ffb4a99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransparencyMode.__init__</definition>
+        <argsstring>(self, TransparencyMode arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransparencyMode" kindref="compound">TransparencyMode</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57046" bodyend="57049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1ab604b2c3c2d32d106d4ae660f10b5490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TransparencyMode.getBGDepthPeelingDepthTextureId</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBGDepthPeelingDepthTextureId</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.getBGDepthPeelingDepthTextureId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57050" bodyend="57051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1a81a7542dc78e479de41d7adb9e020d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TransparencyMode.getFGDepthPeelingColorTextureId</definition>
+        <argsstring>(self)</argsstring>
+        <name>getFGDepthPeelingColorTextureId</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.getFGDepthPeelingColorTextureId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57052" bodyend="57053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1ab599aee90b5745d42b761ddba1fcc7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TransparencyMode.getFGDepthPeelingDepthTextureId</definition>
+        <argsstring>(self)</argsstring>
+        <name>getFGDepthPeelingDepthTextureId</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.getFGDepthPeelingDepthTextureId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57054" bodyend="57055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1a75fd1e92c0cb5bf90cb2931eb23392ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TransparencyMode.isAlphaSortEnabled</definition>
+        <argsstring>(self)</argsstring>
+        <name>isAlphaSortEnabled</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.isAlphaSortEnabled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57056" bodyend="57057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransparencyMode_1ad475a885905b193b5a8e8d9b59360d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TransparencyMode.isDepthPeelingEnabled</definition>
+        <argsstring>(self)</argsstring>
+        <name>isDepthPeelingEnabled</name>
+        <qualifiedname>mrmeshpy.TransparencyMode.isDepthPeelingEnabled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57058" bodyend="57059"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TransparencyMode
+
+struct to determine transparent rendering mode
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57018" bodyend="57059"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1aeb6a20ecdbfa0b7da02d3bcc07cd4577" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1a70ee3eb2b6160532512f561d6576f2ab" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1ae97c6002712710f14e8db24a2ef3f480" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1abb70a8555c76a03e76e483a5021550ce" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1a134f02d944d482aefb155af0ffb4a99f" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1ab604b2c3c2d32d106d4ae660f10b5490" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>getBGDepthPeelingDepthTextureId</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1a81a7542dc78e479de41d7adb9e020d61" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>getFGDepthPeelingColorTextureId</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1ab599aee90b5745d42b761ddba1fcc7e1" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>getFGDepthPeelingDepthTextureId</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1a75fd1e92c0cb5bf90cb2931eb23392ea" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>isAlphaSortEnabled</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1ad475a885905b193b5a8e8d9b59360d3a" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>isDepthPeelingEnabled</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1a7717135b5d374e31fda83c4d97d28aab" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TransparencyMode_1a7717135b5d374e31fda83c4d97d28aab" prot="public" virt="non-virtual"><scope>mrmeshpy::TransparencyMode</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceMapSave" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceMapSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSave_1a4c06f04606cd4f0837b3dc001684b055" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSave.toAnySupportedFormat</definition>
+        <argsstring>(DistanceMap dmap, os.PathLike|str|bytes path, DistanceMapSaveSettings settings=...)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.DistanceMapSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13641" bodyend="13642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSave_1a56e28369b0b934e0171f3ab6b8475527" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSave.toMrDistanceMap</definition>
+        <argsstring>(DistanceMap dmap, os.PathLike|str|bytes path, DistanceMapSaveSettings settings=...)</argsstring>
+        <name>toMrDistanceMap</name>
+        <qualifiedname>mrmeshpy.DistanceMapSave.toMrDistanceMap</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13644" bodyend="13645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSave_1a216a258ff609e0819c9e015d0aaad71e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSave.toRAW</definition>
+        <argsstring>(DistanceMap dmap, os.PathLike|str|bytes path, DistanceMapSaveSettings settings=...)</argsstring>
+        <name>toRAW</name>
+        <qualifiedname>mrmeshpy.DistanceMapSave.toRAW</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> @brief Save DistanceMap to binary file
+ Format:
+ 2 integer - DistanceMap.resX &amp; DistanceMap.resY
+ [resX * resY] float - matrix of values
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13647" bodyend="13653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSave_1a7cafdc33991766dd0b441219e4a5ac91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSave.toTiff</definition>
+        <argsstring>(DistanceMap dmap, os.PathLike|str|bytes path, DistanceMapSaveSettings settings=...)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>mrmeshpy.DistanceMapSave.toTiff</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .tiff format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13655" bodyend="13658"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13636" bodyend="13658"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceMapSave_1a4c06f04606cd4f0837b3dc001684b055" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSave_1a56e28369b0b934e0171f3ab6b8475527" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSave</scope><name>toMrDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSave_1a216a258ff609e0819c9e015d0aaad71e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSave</scope><name>toRAW</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSave_1a7cafdc33991766dd0b441219e4a5ac91" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSave</scope><name>toTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

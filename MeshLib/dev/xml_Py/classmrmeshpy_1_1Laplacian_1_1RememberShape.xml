@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Laplacian_1_1RememberShape" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Laplacian::RememberShape</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a46c077ca4dc21ec62f9e3f71e9ccc4cc" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Laplacian.RememberShape::No</definition>
+        <argsstring></argsstring>
+        <name>No</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.No</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" kindref="compound">Laplacian.RememberShape</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a2072f8d66bba0d5f0a0dae409955dec8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Laplacian.RememberShape::Yes</definition>
+        <argsstring></argsstring>
+        <name>Yes</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.Yes</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" kindref="compound">Laplacian.RememberShape</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25208" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1ae202a2e1fdfff2bc3b59e4971d72e033" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Laplacian.RememberShape::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" kindref="compound">Laplacian.RememberShape</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25209" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a1481ea0d5e8bc594e1824ab05a2a0de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Laplacian.RememberShape.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25210" bodyend="25211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a192bede6c73d99b756687faea0208fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Laplacian.RememberShape.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25212" bodyend="25213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1aa9a08b03417dc9a3fc34102693100287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Laplacian.RememberShape.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25214" bodyend="25215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a04fdd578d37569de8c234167de5c33a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Laplacian.RememberShape.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25216" bodyend="25217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1aaa8411a760219cc79fa6bc06e044c6aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.RememberShape.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25218" bodyend="25219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1aac3821de173a108c5268492a48d8d16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Laplacian.RememberShape.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25220" bodyend="25221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1abdf445e914077a647d66679676711ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Laplacian.RememberShape.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25222" bodyend="25223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a9f65d75e9d0d6252be4b6617a53a32b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Laplacian.RememberShape.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25224" bodyend="25225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a159e058edb3ca77e32d1a0567eea5749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.RememberShape.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25226" bodyend="25227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1afc8dd7ff591cce05f10de4503122b706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Laplacian.RememberShape.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25228" bodyend="25229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a203a64466695f1c2ac6e5f166323a62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Laplacian.RememberShape.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25231" bodyend="25232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1RememberShape_1ab16c316a3e335591aebdbcacec211f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Laplacian.RememberShape.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.Laplacian.RememberShape.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25234" bodyend="25236"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Yes : true Laplacian mode when initial mesh shape is remembered and copied in apply
+
+  No : ignore initial mesh shape in the region and just position vertices smoothly in the region
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Laplacian.RememberShape</label>
+        <link refid="classmrmeshpy_1_1Laplacian_1_1RememberShape"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>No</edgelabel>
+          <edgelabel>Yes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25199" bodyend="25235"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a1481ea0d5e8bc594e1824ab05a2a0de1" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a192bede6c73d99b756687faea0208fa3" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1aa9a08b03417dc9a3fc34102693100287" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a04fdd578d37569de8c234167de5c33a7" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1aaa8411a760219cc79fa6bc06e044c6aa" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1aac3821de173a108c5268492a48d8d16d" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1ae202a2e1fdfff2bc3b59e4971d72e033" prot="private" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1abdf445e914077a647d66679676711ed4" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a9f65d75e9d0d6252be4b6617a53a32b0" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a159e058edb3ca77e32d1a0567eea5749" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1afc8dd7ff591cce05f10de4503122b706" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a203a64466695f1c2ac6e5f166323a62f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a46c077ca4dc21ec62f9e3f71e9ccc4cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>No</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1ab16c316a3e335591aebdbcacec211f61" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a2072f8d66bba0d5f0a0dae409955dec8" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::RememberShape</scope><name>Yes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

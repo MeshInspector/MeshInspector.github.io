@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderPointObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderPointObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderPointObject_1a2921210c9a5d8e48cc1b6ff186949558" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref> *</type>
+        <definition>const PointMeasurementObject* MR::RenderPointObject::object_</definition>
+        <argsstring></argsstring>
+        <name>object_</name>
+        <qualifiedname>MR::RenderPointObject::object_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="20" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointObject_1a38fb9508b28a6230ec2a17009a69b2ec" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderDimensions_1_1PointTask" kindref="compound">RenderDimensions::PointTask</ref></type>
+        <definition>RenderDimensions::PointTask MR::RenderPointObject::task_</definition>
+        <argsstring></argsstring>
+        <name>task_</name>
+        <qualifiedname>MR::RenderPointObject::task_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="21" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderPointObject_1a8db5303f19a2babd3839432a002b0d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderPointObject::RenderPointObject</definition>
+        <argsstring>(const VisualObject &amp;object)</argsstring>
+        <name>RenderPointObject</name>
+        <qualifiedname>MR::RenderPointObject::RenderPointObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="23" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointObject_1a388660fd78bbf541a374d4a5cbc6b27a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RenderPointObject::renderUi</definition>
+        <argsstring>(const UiRenderParams &amp;params) override</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR::RenderPointObject::renderUi</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="24" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderPointObject</label>
+        <link refid="classMR_1_1RenderPointObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderPointObject</label>
+        <link refid="classMR_1_1RenderPointObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="19" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderPointObject_1a2921210c9a5d8e48cc1b6ff186949558" prot="private" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>object_</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderPointObject_1a8db5303f19a2babd3839432a002b0d8a" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>RenderPointObject</name></member>
+      <member refid="classMR_1_1RenderPointObject_1a388660fd78bbf541a374d4a5cbc6b27a" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderPointObject_1a38fb9508b28a6230ec2a17009a69b2ec" prot="private" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>task_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

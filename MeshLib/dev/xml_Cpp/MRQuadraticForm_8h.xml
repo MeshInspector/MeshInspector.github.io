@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRQuadraticForm_8h" kind="file" language="C++">
+    <compoundname>MRQuadraticForm.h</compoundname>
+    <includes refid="MRSymMatrix2_8h" local="yes">MRSymMatrix2.h</includes>
+    <includes refid="MRSymMatrix3_8h" local="yes">MRSymMatrix3.h</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="23">
+        <label>MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRQuadraticForm.h</label>
+        <link refid="MRQuadraticForm_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRSymMatrix2.h</label>
+        <link refid="MRSymMatrix2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRSymMatrix3.h</label>
+        <link refid="MRSymMatrix3_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="11">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
+      </node>
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="25">
+        <label>limits</label>
+      </node>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="22">
+        <label>utility</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1QuadraticForm" prot="public">MR::QuadraticForm</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSymMatrix2_8h" kindref="compound">MRSymMatrix2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSymMatrix3_8h" kindref="compound">MRSymMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1QuadraticForm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" kindref="member">T</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType;</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1QuadraticForm_1adea6aa750372ae79cb7d305a5f939f50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1QuadraticForm_1adea6aa750372ae79cb7d305a5f939f50" kindref="member">SM</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::SymMatrixType;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1QuadraticForm_1adea6aa750372ae79cb7d305a5f939f50" kindref="member">SM</ref><sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1QuadraticForm_1a0b59f3e15f491ff0d64f1121a8b0a463" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" kindref="member">T</ref><sp/><ref refid="structMR_1_1QuadraticForm_1a0b59f3e15f491ff0d64f1121a8b0a463" kindref="member">c</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1QuadraticForm_1ab0c3bc061463b886469241c7c3b17cd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" kindref="member">T</ref><sp/><ref refid="structMR_1_1QuadraticForm_1ab0c3bc061463b886469241c7c3b17cd2" kindref="member">eval</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dot(<sp/>x,<sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref><sp/>*<sp/>x<sp/>)<sp/>+<sp/><ref refid="structMR_1_1QuadraticForm_1a0b59f3e15f491ff0d64f1121a8b0a463" kindref="member">c</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1QuadraticForm_1a4612e1bf2a83cf9f8c04bcffd05b8be0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm_1a4612e1bf2a83cf9f8c04bcffd05b8be0" kindref="member">addDistToOrigin</ref>(<sp/><ref refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" kindref="member">T</ref><sp/>weight<sp/>)<sp/>{<sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref><sp/>+=<sp/>SM::diagonal(<sp/>weight<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1QuadraticForm_1abd84de324207ec889e01f594968dd8a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm_1abd84de324207ec889e01f594968dd8a1" kindref="member">addDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>planeUnitNormal<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref><sp/>+=<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outerSquare(<sp/>planeUnitNormal<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1QuadraticForm_1afacdc7d86d21e277ea2c254a90c29b61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm_1afacdc7d86d21e277ea2c254a90c29b61" kindref="member">addDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>planeUnitNormal,<sp/><ref refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" kindref="member">T</ref><sp/>weight<sp/>)<sp/>{<sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref><sp/>+=<sp/>weight<sp/>*<sp/>outerSquare(<sp/>planeUnitNormal<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1QuadraticForm_1aa22182ab842edbfd36369edae2063b3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm_1aa22182ab842edbfd36369edae2063b3c" kindref="member">addDistToLine</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>lineUnitDir<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref><sp/>+=<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SM::identity()<sp/>-<sp/>outerSquare(<sp/>lineUnitDir<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="32" refid="structMR_1_1QuadraticForm_1a6aa8242b430ea2a8b0c65ac776f01e69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm_1a6aa8242b430ea2a8b0c65ac776f01e69" kindref="member">addDistToLine</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>lineUnitDir,<sp/><ref refid="structMR_1_1QuadraticForm_1a040faabf3a0fafc7f0a8afadd3108d2a" kindref="member">T</ref><sp/>weight<sp/>)<sp/>{<sp/><ref refid="structMR_1_1QuadraticForm_1aaa0e315bd432a25ff55c9f30b926ffda" kindref="member">A</ref><sp/>+=<sp/>weight<sp/>*<sp/>(<sp/>SM::identity()<sp/>-<sp/>outerSquare(<sp/>lineUnitDir<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1QuadraticForm_1a613642585592285c402e51d9af48651a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;<sp/>QuadraticForm&lt;V&gt;,<sp/>V<sp/>&gt;<sp/><ref refid="structMR_1_1QuadraticForm_1a613642585592285c402e51d9af48651a" kindref="member">sum</ref>(</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x0,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x1,<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>minAmong01<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="48" refid="structMR_1_1QuadraticForm_1ae2db52d249d73990155ac0aee19ecdf7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/><ref refid="structMR_1_1QuadraticForm_1ae2db52d249d73990155ac0aee19ecdf7" kindref="member">sumAt</ref>(</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x0,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x1,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>pos<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuadraticForm.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,958 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRImproveSampling_8h" kind="file" language="C++">
+    <compoundname>MRImproveSampling.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRImproveSampling.h</label>
+        <link refid="MRImproveSampling_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
+        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" prot="public" static="no">
+        <type>struct <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref></type>
+        <definition>typedef struct MR_Vector_int_MR_VertId MR_Vector_int_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector_int_MR_VertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="14" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
+        <definition>typedef struct MR_VertColors MR_VertColors</definition>
+        <argsstring></argsstring>
+        <name>MR_VertColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
+        <definition>typedef struct MR_VertMap MR_VertMap</definition>
+        <argsstring></argsstring>
+        <name>MR_VertMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="17" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="18" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" prot="public" static="no">
+        <type>struct <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref></type>
+        <definition>typedef struct MR_ImproveSamplingSettings MR_ImproveSamplingSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_ImproveSamplingSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::ImproveSamplingSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_ImproveSamplingSettings_Get_numIters</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_numIters</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of algorithm iterations to perform Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="29" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="29" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_numIters</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, int value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_numIters</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of algorithm iterations to perform Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numIters</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="35" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_ImproveSamplingSettings_GetMutable_numIters</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_numIters</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of algorithm iterations to perform Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="41" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="41" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_ImproveSamplingSettings_Get_minPointsInSample</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_minPointsInSample</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>minPointsInSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="48" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="48" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_minPointsInSample</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, int value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_minPointsInSample</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>minPointsInSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minPointsInSample</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_ImproveSamplingSettings_GetMutable_minPointsInSample</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_minPointsInSample</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>minPointsInSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="62" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="62" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <definition>MRC_API MR_VertMap *const  * MR_ImproveSamplingSettings_Get_pt2sm</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_pt2sm</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: mapping from input point id to sample id Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>pt2sm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="68" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="68" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_pt2sm</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, MR_VertMap *value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_pt2sm</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: mapping from input point id to sample id Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>pt2sm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt2sm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pt2sm</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="75" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <definition>MRC_API MR_VertMap ** MR_ImproveSamplingSettings_GetMutable_pt2sm</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_pt2sm</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: mapping from input point id to sample id Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>pt2sm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="81" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="81" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *const *</type>
+        <definition>MRC_API MR_PointCloud *const  * MR_ImproveSamplingSettings_Get_cloudOfSamples</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_cloudOfSamples</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: new cloud containing averaged points and normals for each sample Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>cloudOfSamples</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="87" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="87" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_cloudOfSamples</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, MR_PointCloud *value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_cloudOfSamples</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: new cloud containing averaged points and normals for each sample Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>cloudOfSamples</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cloudOfSamples</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cloudOfSamples</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> **</type>
+        <definition>MRC_API MR_PointCloud ** MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: new cloud containing averaged points and normals for each sample Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>cloudOfSamples</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="100" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="100" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> *const *</type>
+        <definition>MRC_API MR_Vector_int_MR_VertId *const  * MR_ImproveSamplingSettings_Get_ptsInSm</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_ptsInSm</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: the number of points in each sample Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptsInSm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="106" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="106" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_ptsInSm</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, MR_Vector_int_MR_VertId *value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_ptsInSm</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: the number of points in each sample Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptsInSm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptsInSm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>ptsInSm</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="113" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> **</type>
+        <definition>MRC_API MR_Vector_int_MR_VertId ** MR_ImproveSamplingSettings_GetMutable_ptsInSm</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_ptsInSm</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: the number of points in each sample Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptsInSm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="119" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="119" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <definition>MRC_API const MR_VertColors *const  * MR_ImproveSamplingSettings_Get_ptColors</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_ptColors</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional input: colors of input points Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="125" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="125" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_ptColors</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, const MR_VertColors *value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_ptColors</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional input: colors of input points Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>ptColors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <definition>MRC_API const MR_VertColors ** MR_ImproveSamplingSettings_GetMutable_ptColors</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_ptColors</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional input: colors of input points Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="138" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="138" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <definition>MRC_API MR_VertColors *const  * MR_ImproveSamplingSettings_Get_smColors</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_smColors</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: averaged colors of samples Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>smColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="144" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="144" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_smColors</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, MR_VertColors *value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_smColors</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: averaged colors of samples Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>smColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>smColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>smColors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <definition>MRC_API MR_VertColors ** MR_ImproveSamplingSettings_GetMutable_smColors</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_smColors</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: averaged colors of samples Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>smColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="157" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="157" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_ImproveSamplingSettings_Get_progress</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Get_progress</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>output progress status and receive cancel signal Returns a pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="163" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="163" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Set_progress</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_ImproveSamplingSettings_Set_progress</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>output progress status and receive cancel signal Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="170" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_ImproveSamplingSettings_GetMutable_progress</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_GetMutable_progress</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>output progress status and receive cancel signal Returns a mutable pointer to a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="176" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="176" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ImproveSamplingSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="180" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="180" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ImproveSamplingSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" kindref="member">MR_ImproveSamplingSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" kindref="member">MR_ImproveSamplingSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" kindref="member">MR_ImproveSamplingSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="185" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="185" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_ConstructFrom</definition>
+        <argsstring>(int numIters, int minPointsInSample, MR_VertMap *pt2sm, MR_PointCloud *cloudOfSamples, MR_Vector_int_MR_VertId *ptsInSm, const MR_VertColors *ptColors, MR_VertColors *smColors, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_ImproveSamplingSettings_ConstructFrom</name>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minPointsInSample</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+          <declname>pt2sm</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloudOfSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> *</type>
+          <declname>ptsInSm</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>ptColors</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>smColors</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::ImproveSamplingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pt2sm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cloudOfSamples</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>ptsInSm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>ptColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>smColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="196" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="196" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API const MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_OffsetPtr</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ImproveSamplingSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="200" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="200" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_ImproveSamplingSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ImproveSamplingSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="204" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="204" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ImproveSamplingSettings *_other)</argsstring>
+        <name>MR_ImproveSamplingSettings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ImproveSamplingSettings::ImproveSamplingSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="209" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_Destroy</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ImproveSamplingSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="212" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ImproveSamplingSettings_DestroyArray</definition>
+        <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
+        <name>MR_ImproveSamplingSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ImproveSamplingSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_AssignFromAnother</definition>
+        <argsstring>(MR_ImproveSamplingSettings *_this, MR_PassBy _other_pass_by, MR_ImproveSamplingSettings *_other)</argsstring>
+        <name>MR_ImproveSamplingSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ImproveSamplingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="222" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="222" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_improveSampling</definition>
+        <argsstring>(const MR_PointCloud *cloud, MR_VertBitSet *samples, const MR_ImproveSamplingSettings *settings)</argsstring>
+        <name>MR_improveSampling</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds more representative sampling starting from a given one following k-means method; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>samples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input and output selected sample points from</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cloud;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if it was terminated by the callback Generated from function <computeroutput>MR::improveSampling</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>samples</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="231" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="231" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRImproveSampling_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRImproveSampling_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRImproveSampling_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRImproveSampling_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRImproveSampling_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" kindref="member">MR_ImproveSamplingSettings_Get_numIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" kindref="member">MR_ImproveSamplingSettings_Set_numIters</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" kindref="member">MR_ImproveSamplingSettings_GetMutable_numIters</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" kindref="member">MR_ImproveSamplingSettings_Get_minPointsInSample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" kindref="member">MR_ImproveSamplingSettings_Set_minPointsInSample</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" kindref="member">MR_ImproveSamplingSettings_GetMutable_minPointsInSample</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" kindref="member">MR_ImproveSamplingSettings_Get_pt2sm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" kindref="member">MR_ImproveSamplingSettings_Set_pt2sm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" kindref="member">MR_ImproveSamplingSettings_GetMutable_pt2sm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" kindref="member">MR_ImproveSamplingSettings_Get_cloudOfSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" kindref="member">MR_ImproveSamplingSettings_Set_cloudOfSamples</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>**<ref refid="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" kindref="member">MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" kindref="member">MR_ImproveSamplingSettings_Get_ptsInSm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" kindref="member">MR_ImproveSamplingSettings_Set_ptsInSm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>**<ref refid="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" kindref="member">MR_ImproveSamplingSettings_GetMutable_ptsInSm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" kindref="member">MR_ImproveSamplingSettings_Get_ptColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" kindref="member">MR_ImproveSamplingSettings_Set_ptColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" kindref="member">MR_ImproveSamplingSettings_GetMutable_ptColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" kindref="member">MR_ImproveSamplingSettings_Get_smColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" kindref="member">MR_ImproveSamplingSettings_Set_smColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" kindref="member">MR_ImproveSamplingSettings_GetMutable_smColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" kindref="member">MR_ImproveSamplingSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" kindref="member">MR_ImproveSamplingSettings_Set_progress</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" kindref="member">MR_ImproveSamplingSettings_GetMutable_progress</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" kindref="member">MR_ImproveSamplingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" kindref="member">MR_ImproveSamplingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" kindref="member">MR_ImproveSamplingSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numIters,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minPointsInSample,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*pt2sm,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloudOfSamples,<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*ptsInSm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*ptColors,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*smColors,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" kindref="member">MR_ImproveSamplingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" kindref="member">MR_ImproveSamplingSettings_OffsetMutablePtr</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" kindref="member">MR_ImproveSamplingSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" kindref="member">MR_ImproveSamplingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" kindref="member">MR_ImproveSamplingSettings_AssignFromAnother</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" kindref="member">MR_improveSampling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h"/>
+  </compounddef>
+</doxygen>

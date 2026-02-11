@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Box__unsigned__short" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Box_unsigned_short</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16" prot="public" virt="non-virtual">mrmeshpy.SimpleVolumeMinMaxU16</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Box__unsigned__short_1aeb7f03558587051f6c91391657f1f69e" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Box_unsigned_short::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5900" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Box__unsigned__short_1a956eb27e0e8cf50760690fda00d97d0f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Box_unsigned_short::_offsetof_max</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_max</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short._offsetof_max</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Box__unsigned__short_1a5f67dea799477944c22fbb7de2ad549d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Box_unsigned_short::_offsetof_min</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_min</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short._offsetof_min</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5902" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Box__unsigned__short_1aa4df425db3c101b501bc9525e1ca376a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Box_unsigned_short::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.elements</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5903" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a46f494437419086493ec9da3fc62c73b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5908" bodyend="5909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a46f494437419086493ec9da3fc62c73b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5912" bodyend="5913"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a4821599a39c880ef2a62b39f17c3eeb2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.fromMinAndSize</definition>
+        <argsstring>(int min, int size)</argsstring>
+        <name>fromMinAndSize</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.fromMinAndSize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5915" bodyend="5916"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1aa8f6f9349cf9707b2f223b5f3e1c2397" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.getMaxBoxCorner</definition>
+        <argsstring>(int n)</argsstring>
+        <name>getMaxBoxCorner</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.getMaxBoxCorner</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>considering all planes with given normal and arbitrary shift: dot(n,x) = d
+finds the box&apos;s corner for which d is maximal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5918" bodyend="5922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a6ba4896d2e5cc1da49605639f127c551" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.getMinBoxCorner</definition>
+        <argsstring>(int n)</argsstring>
+        <name>getMinBoxCorner</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.getMinBoxCorner</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>considering all planes with given normal and arbitrary shift: dot(n,x) = d
+finds the box&apos;s corner for which d is minimal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5924" bodyend="5928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a7c8f4148e2c81f602a07bd208430dbff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5931" bodyend="5932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a7c8f4148e2c81f602a07bd208430dbff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5935" bodyend="5936"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a8cd6552aa211eb5406e964f094fe9c7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.__eq__</definition>
+        <argsstring>(self, Box_unsigned_short a)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5937" bodyend="5938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a5132344b4c0a9ad54bef328e5c734138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>min/max access by 0/1 index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5940" bodyend="5943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a5132344b4c0a9ad54bef328e5c734138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5945" bodyend="5946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a8cb4b79fbfcaacc8da7ff3c21dfa2ba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>create invalid box by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5948" bodyend="5951"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ad775b593bc36396366ff8ba8cb31e065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.__init__</definition>
+        <argsstring>(self, int min, int max)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5953" bodyend="5954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a481289757e3dbfc0399d0dbea73a9518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.__init__</definition>
+        <argsstring>(self, Box_unsigned_short arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5956" bodyend="5959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ad8dec81d9fb500e148f315e11325884a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.__ne__</definition>
+        <argsstring>(self, Box_unsigned_short a)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5960" bodyend="5961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1adac35583c9afd8d73ffe38a80d705b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Box_unsigned_short.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__repr__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a045b1823b099da3a5206a5b07c443b38">__repr__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5962" bodyend="5963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a95ad83c0fea6dae28511273b237038ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Box_unsigned_short.__rlshift__</definition>
+        <argsstring>(self, typing.Any box)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5964" bodyend="5965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ab1868b75a32f9b3b1d74ccd9e66c911b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Box_unsigned_short.__rrshift__</definition>
+        <argsstring>(self, typing.Any box)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5966" bodyend="5967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1aaf8f71288ddbb8184f2f67ea032b4c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5968" bodyend="5969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a41cb2fe4a32588ac88b4e9da09c383ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes center of the box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5970" bodyend="5973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a095b316b277e40a621d6973298555cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.contains</definition>
+        <argsstring>(self, int pt)</argsstring>
+        <name>contains</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.contains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>checks whether given point is inside (including the surface) of this box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5975" bodyend="5978"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a46262744fc96ddaddc4fd15e254e6668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.contains</definition>
+        <argsstring>(self, Box_unsigned_short otherbox)</argsstring>
+        <name>contains</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.contains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>otherbox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>checks whether given box is fully inside (the surfaces may touch) of this box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5980" bodyend="5983"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a8409dd12560a1acda30fb479d7e4fbd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.corner</definition>
+        <argsstring>(self, bool c)</argsstring>
+        <name>corner</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.corner</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the corner of this box as specified by given bool-vector:
+0 element in (c) means take min&apos;s coordinate,
+1 element in (c) means take max&apos;s coordinate
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5984" bodyend="5989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a1394ff2160206ade1e89fe3e4bbf785b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.diagonal</definition>
+        <argsstring>(self)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.diagonal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes length from min to max
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5990" bodyend="5993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a91a3d066c11d6580c0242c91709df4df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.expanded</definition>
+        <argsstring>(self, int expansion)</argsstring>
+        <name>expanded</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.expanded</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>expansion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>decreases min and increased max on given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5994" bodyend="5997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a5802fa9fe1964e1b3321b44d20b76a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.getBoxClosestPointTo</definition>
+        <argsstring>(self, int pt)</argsstring>
+        <name>getBoxClosestPointTo</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.getBoxClosestPointTo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns closest point in the box to given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5998" bodyend="6001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ac4a3f68f697833e80b08709001e62ed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.getDistanceSq</definition>
+        <argsstring>(self, Box_unsigned_short b)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.getDistanceSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns squared distance between this box and given one;
+returns zero if the boxes touch or intersect
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6003" bodyend="6007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a862610efcce8df84d17b4ef6e78c8b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.getDistanceSq</definition>
+        <argsstring>(self, int pt)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.getDistanceSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns squared distance between this box and given point;
+returns zero if the point is inside or on the boundary of the box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6009" bodyend="6013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a8636129905158dfc6a2b521d4537812e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.getProjection</definition>
+        <argsstring>(self, int pt)</argsstring>
+        <name>getProjection</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.getProjection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the closest point on the box to the given point
+for points outside the box this is equivalent to getBoxClosestPointTo
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6014" bodyend="6018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ac99c25015d08a77619168c289b13d59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.include</definition>
+        <argsstring>(self, int pt)</argsstring>
+        <name>include</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.include</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimally increases the box to include given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6020" bodyend="6023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1af28be7f81f9a92a6ba4de7239af4cdc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Box_unsigned_short.include</definition>
+        <argsstring>(self, Box_unsigned_short b)</argsstring>
+        <name>include</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.include</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimally increases the box to include another box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6025" bodyend="6028"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1acaab059af0d5affa186945711ef16994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.insignificantlyExpanded</definition>
+        <argsstring>(self)</argsstring>
+        <name>insignificantlyExpanded</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.insignificantlyExpanded</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>decreases min and increases max to their closest representable value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6029" bodyend="6032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ae63ccb070ac6bc70c5b82bc62e037d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.intersect</definition>
+        <argsstring>(self, Box_unsigned_short b)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.intersect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6033" bodyend="6034"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1ae68ab21894c3164976d94124ff75f0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+        <definition> Box_unsigned_short mrmeshpy.Box_unsigned_short.intersection</definition>
+        <argsstring>(self, Box_unsigned_short b)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.intersection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes intersection between this and other box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6035" bodyend="6038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a3d26b0481e090458ed4d0869d3ce5b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.intersects</definition>
+        <argsstring>(self, Box_unsigned_short b)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.intersects</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box__unsigned__short" kindref="compound">Box_unsigned_short</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>checks whether this box intersects or touches given box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6039" bodyend="6042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a6a8bb0cd875189153e16d8529a613bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes size of the box in all dimensions
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6043" bodyend="6046"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a8b4b36d567eebeb6c9b6047e0105056c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Box_unsigned_short.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true if the box contains at least one point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6047" bodyend="6050"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Box__unsigned__short_1a0d078069b486061cc9f09130174e61c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Box_unsigned_short.volume</definition>
+        <argsstring>(self)</argsstring>
+        <name>volume</name>
+        <qualifiedname>mrmeshpy.Box_unsigned_short.volume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the volume of this box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6051" bodyend="6054"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Box&lt;unsigned short&gt;
+Aliases:  MinMax_VoxelsVolume_Vector_unsigned_short_Id_VoxelTag_ValueType
+
+Box given by its min- and max- corners
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.Box_unsigned_short</label>
+        <link refid="classmrmeshpy_1_1Box__unsigned__short"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SimpleVolumeMinMaxU16</label>
+        <link refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Box_unsigned_short</label>
+        <link refid="classmrmeshpy_1_1Box__unsigned__short"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_max</edgelabel>
+          <edgelabel>_offsetof_min</edgelabel>
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5893" bodyend="6054"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a8cd6552aa211eb5406e964f094fe9c7f" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a5132344b4c0a9ad54bef328e5c734138" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a5132344b4c0a9ad54bef328e5c734138" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1aeb7f03558587051f6c91391657f1f69e" prot="private" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a46f494437419086493ec9da3fc62c73b" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a46f494437419086493ec9da3fc62c73b" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a8cb4b79fbfcaacc8da7ff3c21dfa2ba1" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ad775b593bc36396366ff8ba8cb31e065" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a481289757e3dbfc0399d0dbea73a9518" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ad8dec81d9fb500e148f315e11325884a" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1adac35583c9afd8d73ffe38a80d705b93" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a95ad83c0fea6dae28511273b237038ea" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ab1868b75a32f9b3b1d74ccd9e66c911b" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1aaf8f71288ddbb8184f2f67ea032b4c56" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a956eb27e0e8cf50760690fda00d97d0f" prot="protected" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>_offsetof_max</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a5f67dea799477944c22fbb7de2ad549d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>_offsetof_min</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a41cb2fe4a32588ac88b4e9da09c383ac" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a095b316b277e40a621d6973298555cf6" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>contains</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a46262744fc96ddaddc4fd15e254e6668" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>contains</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a8409dd12560a1acda30fb479d7e4fbd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>corner</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a1394ff2160206ade1e89fe3e4bbf785b" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>diagonal</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1aa4df425db3c101b501bc9525e1ca376a" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a91a3d066c11d6580c0242c91709df4df" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>expanded</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a4821599a39c880ef2a62b39f17c3eeb2" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>fromMinAndSize</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a5802fa9fe1964e1b3321b44d20b76a97" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ac4a3f68f697833e80b08709001e62ed0" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>getDistanceSq</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a862610efcce8df84d17b4ef6e78c8b7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>getDistanceSq</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1aa8f6f9349cf9707b2f223b5f3e1c2397" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a6ba4896d2e5cc1da49605639f127c551" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>getMinBoxCorner</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a8636129905158dfc6a2b521d4537812e" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>getProjection</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ac99c25015d08a77619168c289b13d59d" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1af28be7f81f9a92a6ba4de7239af4cdc1" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1acaab059af0d5affa186945711ef16994" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>insignificantlyExpanded</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ae63ccb070ac6bc70c5b82bc62e037d79" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>intersect</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1ae68ab21894c3164976d94124ff75f0b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>intersection</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a3d26b0481e090458ed4d0869d3ce5b43" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a7c8f4148e2c81f602a07bd208430dbff" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a7c8f4148e2c81f602a07bd208430dbff" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a6a8bb0cd875189153e16d8529a613bef" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a8b4b36d567eebeb6c9b6047e0105056c" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1Box__unsigned__short_1a0d078069b486061cc9f09130174e61c2" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

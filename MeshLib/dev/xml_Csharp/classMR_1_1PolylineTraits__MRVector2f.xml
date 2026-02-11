@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PolylineTraits__MRVector2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::PolylineTraits_MRVector2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineTraits_MRVector2f</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector2f_1a63c1a044b27d766ba52fc346ec7040aa" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PolylineTraits_MRVector2f</name>
+        <qualifiedname>MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="726" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="726" bodyend="726"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector2f_1a447b0021bb439820236e1aca0001a4a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</definition>
+        <argsstring>()</argsstring>
+        <name>PolylineTraits_MRVector2f</name>
+        <qualifiedname>MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="731" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="731" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector2f_1a0d62023527ff795358b0b4db9490c85d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</definition>
+        <argsstring>(MR.Const_PolylineTraits_MRVector2f _other)</argsstring>
+        <name>PolylineTraits_MRVector2f</name>
+        <qualifiedname>MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTraits_MRVector2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;::PolylineTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="741" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="741" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector2f_1a7bb0cc0677005d1adf6f971169d94da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</definition>
+        <argsstring>(PolylineTraits_MRVector2f _other)</argsstring>
+        <name>PolylineTraits_MRVector2f</name>
+        <qualifiedname>MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineTraits__MRVector2f" kindref="compound">PolylineTraits_MRVector2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;::PolylineTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="752" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="752" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector2f_1a4d70e4ae91676b25e3d1095a2540fe15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PolylineTraits__MRVector2f" kindref="compound">MR.PolylineTraits_MRVector2f</ref></type>
+        <definition>unsafe MR.PolylineTraits_MRVector2f MR.PolylineTraits_MRVector2f.assign</definition>
+        <argsstring>(MR.Const_PolylineTraits_MRVector2f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PolylineTraits_MRVector2f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTraits_MRVector2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="757" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="757" bodyend="764"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.PolylineTraits&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PolylineTraits_MRVector2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PolylineTraits_MRVector2f</label>
+        <link refid="classMR_1_1PolylineTraits__MRVector2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PolylineTraits_MRVector2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PolylineTraits_MRVector2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PolylineTraits_MRVector2f</label>
+        <link refid="classMR_1_1PolylineTraits__MRVector2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PolylineTraits_MRVector2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="724" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="725" bodyend="765"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PolylineTraits__MRVector2f_1a4d70e4ae91676b25e3d1095a2540fe15" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1PolylineTraits__MRVector2f_1a63c1a044b27d766ba52fc346ec7040aa" prot="package" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1PolylineTraits__MRVector2f_1a447b0021bb439820236e1aca0001a4a9" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1PolylineTraits__MRVector2f_1a0d62023527ff795358b0b4db9490c85d" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1PolylineTraits__MRVector2f_1a7bb0cc0677005d1adf6f971169d94da7" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

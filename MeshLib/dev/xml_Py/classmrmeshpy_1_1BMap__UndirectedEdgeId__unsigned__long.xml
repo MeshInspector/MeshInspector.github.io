@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1a49178ce098df3c93f06059bcddda18e0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_UndirectedEdgeId_unsigned_long::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2090" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1acb99015d4d97b982d37a8e9e24196019" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_UndirectedEdgeId_unsigned_long::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2091" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1a234403cd8d3d706311bca7c4a7e688eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2092" bodyend="2093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1ad757d86ccb74a29b756b075741423b37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__UndirectedEdgeId" kindref="compound">Buffer_UndirectedEdgeId</ref></type>
+        <definition> Buffer_UndirectedEdgeId mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2095" bodyend="2096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1a90a292ae31d72cbfdd63d26be8e86008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2098" bodyend="2101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1abb2e03c36639cf116933795a88523d59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2103" bodyend="2104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BMap&lt;MR::UndirectedEdgeId, unsigned long&gt;
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BMap_UndirectedEdgeId_unsigned_long</label>
+        <link refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2084" bodyend="2104"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1a234403cd8d3d706311bca7c4a7e688eb" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1a49178ce098df3c93f06059bcddda18e0" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1acb99015d4d97b982d37a8e9e24196019" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1ad757d86ccb74a29b756b075741423b37" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1a90a292ae31d72cbfdd63d26be8e86008" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long_1abb2e03c36639cf116933795a88523d59" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_UndirectedEdgeId_unsigned_long</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshSubdivideGroup" kind="group">
+    <compoundname>MeshSubdivideGroup</compoundname>
+    <title>Mesh Subdivide</title>
+    <innerclass refid="structMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::subdivideMesh</definition>
+        <argsstring>(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</argsstring>
+        <name>subdivideMesh</name>
+        <qualifiedname>MR::subdivideMesh</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const SubdivideSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>splits edges in mesh region according to the settings;<linebreak/>
+<simplesect kind="return"><para>The total number of edge splits performed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="91" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="91" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSubdivideGroup_1gaf0f7ef934651257fe2a70de0eb1f9b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::subdivideMesh</definition>
+        <argsstring>(ObjectMeshData &amp;data, const SubdivideSettings &amp;settings)</argsstring>
+        <name>subdivideMesh</name>
+        <qualifiedname>MR::subdivideMesh</qualifiedname>
+        <param>
+          <type>ObjectMeshData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const SubdivideSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>subdivides mesh with per-element attributes according to given settings; \detail if settings.region is not null, then given region must be a subset of current face selection or face selection must absent <simplesect kind="return"><para>The total number of edge splits performed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="96" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="96" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSubdivideGroup_1ga59a37b275037ffc76fab5916f13e6ecb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::copySubdividePackMesh</definition>
+        <argsstring>(const MeshPart &amp;mp, float voxelSize, const ProgressCallback &amp;cb={})</argsstring>
+        <name>copySubdividePackMesh</name>
+        <qualifiedname>MR::copySubdividePackMesh</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates a copy of given mesh part, subdivides it to get rid of too long edges compared with voxelSize, then packs resulting mesh, this is called typically in preparation for 3D space sampling with voxelSize step, and subdivision is important for making leaves of AABB tree not too big compared with voxelSize </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="100" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="100" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSubdivideGroup_1gaae0359e17d056447a25f6006c825f2f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> ObjectMeshData</type>
+        <definition>MRMESH_API ObjectMeshData MR::makeSubdividedObjectMeshData</definition>
+        <argsstring>(const ObjectMesh &amp;obj, const SubdivideSettings &amp;settings)</argsstring>
+        <name>makeSubdividedObjectMeshData</name>
+        <qualifiedname>MR::makeSubdividedObjectMeshData</qualifiedname>
+        <param>
+          <type>const ObjectMesh &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const SubdivideSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>returns the data of subdivided mesh given <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> (which remains unchanged) and subdivision parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="103" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="103" declcolumn="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

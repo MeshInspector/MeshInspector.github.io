@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangePointPointSelectionAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangePointPointSelectionAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeSelectionAction_8h" local="no">MRChangeSelectionAction.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1ChangePointPointSelectionAction_1adf6db1de62ed6cf97b83d0a1c00a9999" prot="public" static="no">
+        <type><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+        <definition>using MR::ChangePointPointSelectionAction::Obj =  ObjectPoints</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::Obj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="178" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangePointPointSelectionAction_1a846641cb7c6a60c25a76b4d3294a9cfb" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangePointPointSelectionAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="213" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangePointPointSelectionAction_1ad27035933be57b73d0fe16d3507d17f5" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectPoints&gt; MR::ChangePointPointSelectionAction::objPoints_</definition>
+        <argsstring></argsstring>
+        <name>objPoints_</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::objPoints_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="214" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangePointPointSelectionAction_1a7a1ecbc19f30b2ef4fb7dc3c3efdb3d7" prot="private" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::ChangePointPointSelectionAction::selection_</definition>
+        <argsstring></argsstring>
+        <name>selection_</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::selection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="215" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a455a37f2beea261ea75c996d374fc0d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangePointPointSelectionAction::ChangePointPointSelectionAction</definition>
+        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; ObjectPoints &gt; &amp;objPoints)</argsstring>
+        <name>ChangePointPointSelectionAction</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::ChangePointPointSelectionAction</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> &gt; &amp;</type>
+          <declname>objPoints</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s vertex selection before making any changes in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="181" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="181" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a7ebe140792b37c16fdd8f129492ad4c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangePointPointSelectionAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="190" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="190" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1ac11863b18cf6233f258a49395537c69c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ChangePointPointSelectionAction::action</definition>
+        <argsstring>(Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="192" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="192" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a3d3f98681572b719c29e2acd8ef99619" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VertBitSet &amp;</type>
+        <definition>const VertBitSet &amp; MR::ChangePointPointSelectionAction::selection</definition>
+        <argsstring>() const</argsstring>
+        <name>selection</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::selection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="201" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1aced37c6f615d0a18b1743ee3895a5d3b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ChangePointPointSelectionAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="207" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="207" bodyend="210"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a64d049e75b9021628ffa38466ee36010" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::ChangePointPointSelectionAction::setObjectDirty</definition>
+        <argsstring>(const std::shared_ptr&lt; ObjectPoints &gt; &amp;)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR::ChangePointPointSelectionAction::setObjectDirty</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>empty because set dirty is inside selectPoints </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="204" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="204" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> point selection. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangePointPointSelectionAction</label>
+        <link refid="classMR_1_1ChangePointPointSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangePointPointSelectionAction</label>
+        <link refid="classMR_1_1ChangePointPointSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" line="175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h" bodystart="176" bodyend="216"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1ac11863b18cf6233f258a49395537c69c" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1a455a37f2beea261ea75c996d374fc0d9" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1aced37c6f615d0a18b1743ee3895a5d3b" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1a7ebe140792b37c16fdd8f129492ad4c8" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1a846641cb7c6a60c25a76b4d3294a9cfb" prot="private" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>name_</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1adf6db1de62ed6cf97b83d0a1c00a9999" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Obj</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1ad27035933be57b73d0fe16d3507d17f5" prot="private" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>objPoints_</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1a3d3f98681572b719c29e2acd8ef99619" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>selection</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1a7a1ecbc19f30b2ef4fb7dc3c3efdb3d7" prot="private" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>selection_</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1a64d049e75b9021628ffa38466ee36010" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoDefInit__NodeId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoDefInit_NodeId</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1NodeId" prot="public" virt="non-virtual">mrmeshpy.NodeId</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_NodeId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_NodeId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1NodeId_1ae1faf495f4b33551120d6af065a13bcd">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37475" bodyend="37476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__NodeId_1a0307a23c9b0dd5d6fdfe9830ace7e2d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__NodeId" kindref="compound">NoDefInit_NodeId</ref></type>
+        <definition> NoDefInit_NodeId mrmeshpy.NoDefInit_NodeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_NodeId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1NodeId_1ad1af6306fe6023dc88a93f3006577837">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37479" bodyend="37480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__NodeId_1a0307a23c9b0dd5d6fdfe9830ace7e2d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__NodeId" kindref="compound">NoDefInit_NodeId</ref></type>
+        <definition> NoDefInit_NodeId mrmeshpy.NoDefInit_NodeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_NodeId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1NodeId_1ad1af6306fe6023dc88a93f3006577837">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37483" bodyend="37484"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_NodeId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_NodeId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1NodeId_1ae1faf495f4b33551120d6af065a13bcd">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37486" bodyend="37487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_NodeId.__init__</definition>
+        <argsstring>(self, NoDefInit_NodeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_NodeId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1NodeId_1ae1faf495f4b33551120d6af065a13bcd">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__NodeId" kindref="compound">NoDefInit_NodeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37489" bodyend="37492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__NodeId_1ad3550d7edd7351d9549e587ddec19078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NoDefInit_NodeId.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_NodeId.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1NodeId_1aa9585470adc49645a58699b706da9675">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37493" bodyend="37494"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoDefInit&lt;MR::NodeId&gt;
+Aliases:  Buffer_NodeId_NodeId.const_reference, Buffer_NodeId_NodeId.const_iterator, Buffer_NodeId_NodeId.T, Buffer_NodeId_NodeId.iterator, NoCtor_NodeId.type, Buffer_NodeId_NodeId.reference
+
+this class is similar to T, but does not make default initialization of the fields for best performance
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.NoDefInit_NodeId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__NodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.NodeId</label>
+        <link refid="classmrmeshpy_1_1NodeId"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NoDefInit_NodeId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__NodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.NodeId</label>
+        <link refid="classmrmeshpy_1_1NodeId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37466" bodyend="37494"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1ad3550d7edd7351d9549e587ddec19078" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a0307a23c9b0dd5d6fdfe9830ace7e2d9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a0307a23c9b0dd5d6fdfe9830ace7e2d9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

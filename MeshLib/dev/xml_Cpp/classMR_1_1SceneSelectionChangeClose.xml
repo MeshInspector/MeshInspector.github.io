@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneSelectionChangeClose" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneSelectionChangeClose</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
+    <includes refid="MRSceneSelectionChange_8h" local="no">MRSceneSelectionChange.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SceneSelectionChangeClose_1accb011d3020704157238d133e6ac990d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SceneSelectionChangeClose::updateSelection</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) override</argsstring>
+        <name>updateSelection</name>
+        <qualifiedname>MR::SceneSelectionChangeClose::updateSelection</qualifiedname>
+        <reimplements refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6">updateSelection</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>do something on selection change, args - newly selected objects </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="24" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>close on state change </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneSelectionChangeClose</label>
+        <link refid="classMR_1_1SceneSelectionChangeClose"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneSelectionChangeClose</label>
+        <link refid="classMR_1_1SceneSelectionChangeClose"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneSelectionChangeClose_1accb011d3020704157238d133e6ac990d" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeClose</scope><name>updateSelection</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeClose</scope><name>~ISceneSelectionChange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

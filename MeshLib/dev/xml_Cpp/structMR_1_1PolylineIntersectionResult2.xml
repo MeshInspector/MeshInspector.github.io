@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineIntersectionResult2" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineIntersectionResult2</compoundname>
+    <includes refid="MRPolyline2Intersect_8h" local="no">MRPolyline2Intersect.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineIntersectionResult2_1a50c61aceb6ee726418c11dd484bbd071" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition>EdgePoint MR::PolylineIntersectionResult2::edgePoint</definition>
+        <argsstring></argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR::PolylineIntersectionResult2::edgePoint</qualifiedname>
+        <briefdescription>
+<para>intersection point in polyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="26" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineIntersectionResult2_1a982fc29b0df692b0fecec815554eb78b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PolylineIntersectionResult2::distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>distanceAlongLine</name>
+        <qualifiedname>MR::PolylineIntersectionResult2::distanceAlongLine</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>stores the distance from ray origin to the intersection point in direction units </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::EdgePoint</label>
+        <link refid="structMR_1_1EdgePoint"/>
+      </node>
+      <node id="1">
+        <label>MR::PolylineIntersectionResult2</label>
+        <link refid="structMR_1_1PolylineIntersectionResult2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>edgePoint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="24" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineIntersectionResult2_1a982fc29b0df692b0fecec815554eb78b" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>
+      <member refid="structMR_1_1PolylineIntersectionResult2_1a50c61aceb6ee726418c11dd484bbd071" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>edgePoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

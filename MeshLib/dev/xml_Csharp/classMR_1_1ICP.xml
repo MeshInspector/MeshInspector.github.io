@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ICP" kind="class" language="C#" prot="public">
+    <compoundname>MR::ICP</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ICP</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ICP_1a350d1d3bd3842d7fd1ce399eb0527171" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICP.ICP</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1928" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1928" bodyend="1928"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ICP_1a65b89f87dbb1cfd7a68672dfe0669900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICP.ICP</definition>
+        <argsstring>(MR._ByValue_ICP _other)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>MR._ByValue_ICP</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1933" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1933" bodyend="1939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a8fd0df105c07e86a40f9881be633d1c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ICP.ICP</definition>
+        <argsstring>(Const_ICP _other)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>Const_ICP</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1944" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1944" bodyend="1944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a50d460c339a6a0e81d337b6fd97a10af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ICP.ICP</definition>
+        <argsstring>(ICP _other)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ICP" kindref="compound">ICP</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1949" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1949" bodyend="1949"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a68a663f06b7db2e362f75db9b5aadda3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICP.ICP</definition>
+        <argsstring>(MR.Const_MeshOrPoints flt, MR.Const_MeshOrPoints ref_, in MR.AffineXf3f fltXf, in MR.AffineXf3f refXf, MR.Const_VertBitSet? fltSamples=null, MR.Const_VertBitSet? refSamples=null)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPoints</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPoints</type>
+          <declname>ref_</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>fltSamples</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>refSamples</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Constructs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> framework with given sample points on both objects. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>floating object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fltXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from floating object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from reference object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fltSamples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples on floating object to find projections on the reference object during the algorithm </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refSamples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples on reference object to find projections on the floating object during the algorithm Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. Parameter <computeroutput>fltSamples</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>refSamples</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1963" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1963" bodyend="1978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a54d6d6c986cd5374c5bc2c87714a671d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICP.ICP</definition>
+        <argsstring>(MR.Const_MeshOrPointsXf flt, MR.Const_MeshOrPointsXf ref_, MR.Const_VertBitSet? fltSamples=null, MR.Const_VertBitSet? refSamples=null)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>ref_</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>fltSamples</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>refSamples</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. Parameter <computeroutput>fltSamples</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>refSamples</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1985" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1985" bodyend="1994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a9cc948b5a419c12cd9ebe4b5b6a11ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICP.ICP</definition>
+        <argsstring>(MR.Const_MeshOrPoints flt, MR.Const_MeshOrPoints ref_, in MR.AffineXf3f fltXf, in MR.AffineXf3f refXf, float samplingVoxelSize)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPoints</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPoints</type>
+          <declname>ref_</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> framework with automatic points sampling on both objects. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>floating object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fltXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from floating object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation from reference object space to global space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samplingVoxelSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>approximate distance between samples on each of two objects Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2005" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2005" bodyend="2018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ad73194130b2c49c87763dc2fc5c890af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICP.ICP</definition>
+        <argsstring>(MR.Const_MeshOrPointsXf flt, MR.Const_MeshOrPointsXf ref_, float samplingVoxelSize)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>MR.ICP.ICP</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf</type>
+          <declname>ref_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICP.ICP</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2023" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2023" bodyend="2030"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1adb64130fb34f494c2a32095b9661aee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ICP" kindref="compound">MR.ICP</ref></type>
+        <definition>unsafe MR.ICP MR.ICP.assign</definition>
+        <argsstring>(MR._ByValue_ICP _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ICP.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ICP</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ICP.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2035" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2035" bodyend="2042"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a74537d20aad8a36af0cf12c960a06131" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setParams</definition>
+        <argsstring>(MR.Const_ICPProperties prop)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>MR.ICP.setParams</qualifiedname>
+        <param>
+          <type>MR.Const_ICPProperties</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+<para>tune algorithm params before run <ref refid="classMR_1_1ICP_1ae32e7639f14ff2e67da6d281fdeb76b6" kindref="member">calculateTransformation()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a74537d20aad8a36af0cf12c960a06131" kindref="member">MR.ICP.setParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2048" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2048" bodyend="2053"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a9c53ed09d296ea9b36b502c1b29411c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setCosineLimit</definition>
+        <argsstring>(float cos)</argsstring>
+        <name>setCosineLimit</name>
+        <qualifiedname>MR.ICP.setCosineLimit</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>cos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a9c53ed09d296ea9b36b502c1b29411c9" kindref="member">MR.ICP.setCosineLimit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2058" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2058" bodyend="2063"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a922855641217bab75bef4748c65ee7c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setDistanceLimit</definition>
+        <argsstring>(float dist)</argsstring>
+        <name>setDistanceLimit</name>
+        <qualifiedname>MR.ICP.setDistanceLimit</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a922855641217bab75bef4748c65ee7c9" kindref="member">MR.ICP.setDistanceLimit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2068" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2068" bodyend="2073"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ae4031b21ab2f39298f300849c939a384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setBadIterCount</definition>
+        <argsstring>(int iter)</argsstring>
+        <name>setBadIterCount</name>
+        <qualifiedname>MR.ICP.setBadIterCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ICP_1ae4031b21ab2f39298f300849c939a384" kindref="member">MR.ICP.setBadIterCount</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2078" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2078" bodyend="2083"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a9e62c6a0648b3f7e7ce27c4b1918e213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setFarDistFactor</definition>
+        <argsstring>(float factor)</argsstring>
+        <name>setFarDistFactor</name>
+        <qualifiedname>MR.ICP.setFarDistFactor</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a9e62c6a0648b3f7e7ce27c4b1918e213" kindref="member">MR.ICP.setFarDistFactor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2088" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2088" bodyend="2093"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ae35290c0364a69e16bdd1c5d32fa68ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setFltSamples</definition>
+        <argsstring>(MR.Const_VertBitSet fltSamples)</argsstring>
+        <name>setFltSamples</name>
+        <qualifiedname>MR.ICP.setFltSamples</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>fltSamples</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on floating object Generated from method <computeroutput><ref refid="classMR_1_1ICP_1ae35290c0364a69e16bdd1c5d32fa68ea" kindref="member">MR.ICP.setFltSamples</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2099" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2099" bodyend="2104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a7d40438c7c8f9c74b1c8de2ca359a02f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.sampleFltPoints</definition>
+        <argsstring>(float samplingVoxelSize)</argsstring>
+        <name>sampleFltPoints</name>
+        <qualifiedname>MR.ICP.sampleFltPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a7d40438c7c8f9c74b1c8de2ca359a02f" kindref="member">MR.ICP.sampleFltPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2109" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2109" bodyend="2114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a41baf3890175819ccd69e3d3e59908df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setRefSamples</definition>
+        <argsstring>(MR.Const_VertBitSet refSamples)</argsstring>
+        <name>setRefSamples</name>
+        <qualifiedname>MR.ICP.setRefSamples</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>refSamples</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on reference object Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a41baf3890175819ccd69e3d3e59908df" kindref="member">MR.ICP.setRefSamples</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2120" bodyend="2125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a3fa1ab11b3b8df71fbf2e9c59e216731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.sampleRefPoints</definition>
+        <argsstring>(float samplingVoxelSize)</argsstring>
+        <name>sampleRefPoints</name>
+        <qualifiedname>MR.ICP.sampleRefPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a3fa1ab11b3b8df71fbf2e9c59e216731" kindref="member">MR.ICP.sampleRefPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2130" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2130" bodyend="2135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a80852877d9cc1ac99e6ddc91213436e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.samplePoints</definition>
+        <argsstring>(float samplingVoxelSize)</argsstring>
+        <name>samplePoints</name>
+        <qualifiedname>MR.ICP.samplePoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on both objects Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a80852877d9cc1ac99e6ddc91213436e8" kindref="member">MR.ICP.samplePoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2141" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2141" bodyend="2146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a4730fb8795b47dd11c8b6b76c946a1e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setXfs</definition>
+        <argsstring>(in MR.AffineXf3f fltXf, in MR.AffineXf3f refXf)</argsstring>
+        <name>setXfs</name>
+        <qualifiedname>MR.ICP.setXfs</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>refXf</declname>
+        </param>
+        <briefdescription>
+<para>sets to-world transformations both for floating and reference objects Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a4730fb8795b47dd11c8b6b76c946a1e1" kindref="member">MR.ICP.setXfs</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2152" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2152" bodyend="2163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a170fc34bf9c42521824b80a8f525294c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.setFloatXf</definition>
+        <argsstring>(in MR.AffineXf3f fltXf)</argsstring>
+        <name>setFloatXf</name>
+        <qualifiedname>MR.ICP.setFloatXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>fltXf</declname>
+        </param>
+        <briefdescription>
+<para>sets to-world transformation for the floating object Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a170fc34bf9c42521824b80a8f525294c" kindref="member">MR.ICP.setFloatXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2169" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2169" bodyend="2177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1adf8378956bbccb614838b0a62626ce4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.ICP.autoSelectFloatXf</definition>
+        <argsstring>()</argsstring>
+        <name>autoSelectFloatXf</name>
+        <qualifiedname>MR.ICP.autoSelectFloatXf</qualifiedname>
+        <briefdescription>
+<para>automatically selects initial transformation for the floating object based on covariance matrices of both floating and reference objects; applies the transformation to the floating object and returns it Generated from method <computeroutput><ref refid="classMR_1_1ICP_1adf8378956bbccb614838b0a62626ce4f" kindref="member">MR.ICP.autoSelectFloatXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2185" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2185" bodyend="2190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1a781a3a96a0d49780c1bf70780fd8db47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ICP.updatePointPairs</definition>
+        <argsstring>()</argsstring>
+        <name>updatePointPairs</name>
+        <qualifiedname>MR.ICP.updatePointPairs</qualifiedname>
+        <briefdescription>
+<para>recompute point pairs after manual change of transformations or parameters Generated from method <computeroutput><ref refid="classMR_1_1ICP_1a781a3a96a0d49780c1bf70780fd8db47" kindref="member">MR.ICP.updatePointPairs</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2196" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2196" bodyend="2201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICP_1ae32e7639f14ff2e67da6d281fdeb76b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.ICP.calculateTransformation</definition>
+        <argsstring>()</argsstring>
+        <name>calculateTransformation</name>
+        <qualifiedname>MR.ICP.calculateTransformation</qualifiedname>
+        <briefdescription>
+<para>runs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>adjusted transformation of the floating object to match reference object Generated from method <computeroutput><ref refid="classMR_1_1ICP_1ae32e7639f14ff2e67da6d281fdeb76b6" kindref="member">MR.ICP.calculateTransformation</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2208" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2208" bodyend="2213"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><programlisting filename="cpp-examples/MeshICP.dox.cpp"></programlisting> Generated from class <computeroutput><ref refid="classMR_1_1ICP" kindref="compound">MR.ICP</ref></computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ICP</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ICP</label>
+        <link refid="classMR_1_1ICP"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ICP &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ICP</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ICP</label>
+        <link refid="classMR_1_1ICP"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ICP &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1926" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1927" bodyend="2214"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ICP_1adb64130fb34f494c2a32095b9661aee6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>assign</name></member>
+      <member refid="classMR_1_1ICP_1adf8378956bbccb614838b0a62626ce4f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
+      <member refid="classMR_1_1ICP_1ae32e7639f14ff2e67da6d281fdeb76b6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>calculateTransformation</name></member>
+      <member refid="classMR_1_1ICP_1a350d1d3bd3842d7fd1ce399eb0527171" prot="package" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a65b89f87dbb1cfd7a68672dfe0669900" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a8fd0df105c07e86a40f9881be633d1c3" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a50d460c339a6a0e81d337b6fd97a10af" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a68a663f06b7db2e362f75db9b5aadda3" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a54d6d6c986cd5374c5bc2c87714a671d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a9cc948b5a419c12cd9ebe4b5b6a11ef9" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1ad73194130b2c49c87763dc2fc5c890af" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
+      <member refid="classMR_1_1ICP_1a7d40438c7c8f9c74b1c8de2ca359a02f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleFltPoints</name></member>
+      <member refid="classMR_1_1ICP_1a80852877d9cc1ac99e6ddc91213436e8" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>samplePoints</name></member>
+      <member refid="classMR_1_1ICP_1a3fa1ab11b3b8df71fbf2e9c59e216731" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleRefPoints</name></member>
+      <member refid="classMR_1_1ICP_1ae4031b21ab2f39298f300849c939a384" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setBadIterCount</name></member>
+      <member refid="classMR_1_1ICP_1a9c53ed09d296ea9b36b502c1b29411c9" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setCosineLimit</name></member>
+      <member refid="classMR_1_1ICP_1a922855641217bab75bef4748c65ee7c9" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setDistanceLimit</name></member>
+      <member refid="classMR_1_1ICP_1a9e62c6a0648b3f7e7ce27c4b1918e213" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setFarDistFactor</name></member>
+      <member refid="classMR_1_1ICP_1a170fc34bf9c42521824b80a8f525294c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setFloatXf</name></member>
+      <member refid="classMR_1_1ICP_1ae35290c0364a69e16bdd1c5d32fa68ea" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setFltSamples</name></member>
+      <member refid="classMR_1_1ICP_1a74537d20aad8a36af0cf12c960a06131" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setParams</name></member>
+      <member refid="classMR_1_1ICP_1a41baf3890175819ccd69e3d3e59908df" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setRefSamples</name></member>
+      <member refid="classMR_1_1ICP_1a4730fb8795b47dd11c8b6b76c946a1e1" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setXfs</name></member>
+      <member refid="classMR_1_1ICP_1a781a3a96a0d49780c1bf70780fd8db47" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>updatePointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

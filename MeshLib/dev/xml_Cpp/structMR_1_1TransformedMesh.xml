@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TransformedMesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TransformedMesh</compoundname>
+    <includes refid="MRMeshBooleanFacade_8h" local="no">MRMeshBooleanFacade.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TransformedMesh_1a335c5766297cd37d2bc6d54e7f0867da" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>Mesh MR::TransformedMesh::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::TransformedMesh::mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="12" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TransformedMesh_1a643b404d35e9496c6ee8d3382c80ee18" prot="public" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::TransformedMesh::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::TransformedMesh::xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="13" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1TransformedMesh_1ad7e32b37b30b047ad8af5555d3fe6b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::TransformedMesh::TransformedMesh</definition>
+        <argsstring>()=default</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR::TransformedMesh::TransformedMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="14" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransformedMesh_1a4f79ea52914dc78ad341dade85cee49b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::TransformedMesh::TransformedMesh</definition>
+        <argsstring>(Mesh mesh, const AffineXf3f &amp;xf={})</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR::TransformedMesh::TransformedMesh</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>xf</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>just stores a mesh and its transformation to some fixed reference frame </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="1">
+        <label>MR::TransformedMesh</label>
+        <link refid="structMR_1_1TransformedMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="11" bodyend="16"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TransformedMesh_1a335c5766297cd37d2bc6d54e7f0867da" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>mesh</name></member>
+      <member refid="structMR_1_1TransformedMesh_1ad7e32b37b30b047ad8af5555d3fe6b36" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="structMR_1_1TransformedMesh_1a4f79ea52914dc78ad341dade85cee49b" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="structMR_1_1TransformedMesh_1a643b404d35e9496c6ee8d3382c80ee18" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

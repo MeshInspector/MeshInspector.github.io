@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshTriPoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshTriPoint</compoundname>
+    <includes refid="MRMeshTriPoint_8h" local="no">MRMeshTriPoint.h</includes>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a99f6b57a79938db1c601698948926581" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool same</definition>
+        <argsstring>(const MeshTopology &amp;topology, const MeshTriPoint &amp;lhs, const MeshTriPoint &amp;rhs)</argsstring>
+        <name>same</name>
+        <qualifiedname>MR::MeshTriPoint::same</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>returns true if two points are equal considering different representations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="78" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" declline="78" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a28516877dbf31eb9b23a58abf5a65d31" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool fromSameTriangle</definition>
+        <argsstring>(const MeshTopology &amp;topology, MeshTriPoint &amp;a, MeshTriPoint &amp;b)</argsstring>
+        <name>fromSameTriangle</name>
+        <qualifiedname>MR::MeshTriPoint::fromSameTriangle</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="82" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" declline="82" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a5b4701e6cc60a8b3a60545055a0f0ad2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fromSameTriangle</definition>
+        <argsstring>(const MeshTopology &amp;topology, MeshTriPoint &amp;&amp;a, MeshTriPoint &amp;&amp;b)</argsstring>
+        <name>fromSameTriangle</name>
+        <qualifiedname>MR::MeshTriPoint::fromSameTriangle</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;&amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;&amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="86" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a601a9f114cc2d5d7a5d707b61f7164c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MRMESH_API MeshTriPoint getVertexAsMeshTriPoint</definition>
+        <argsstring>(const MeshTopology &amp;topology, EdgeId e, VertId v)</argsstring>
+        <name>getVertexAsMeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::getVertexAsMeshTriPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>returns <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> representation of given vertex with given edge field; or invalid <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> if it is not possible </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="89" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" declline="89" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshTriPoint_1afb2e8376855431a09626f25ffe6039bc" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::MeshTriPoint::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <qualifiedname>MR::MeshTriPoint::e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>left face of this edge is considered </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="24" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshTriPoint_1a8a974fd4d0a547b3acff27ac8730ef92" prot="public" static="no" mutable="no">
+        <type>TriPointf</type>
+        <definition>TriPointf MR::MeshTriPoint::bary</definition>
+        <argsstring></argsstring>
+        <name>bary</name>
+        <qualifiedname>MR::MeshTriPoint::bary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>barycentric coordinates</para>
+<para>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="29" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a16e988e643929d407301f793664a431a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTriPoint::MeshTriPoint</definition>
+        <argsstring>()=default</argsstring>
+        <name>MeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::MeshTriPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="31" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a5760034e9833044bad025001f1797a53" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTriPoint::MeshTriPoint</definition>
+        <argsstring>(NoInit)</argsstring>
+        <name>MeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::MeshTriPoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="32" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a7856dabc24d2467efad8b2ce055c8677" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTriPoint::MeshTriPoint</definition>
+        <argsstring>(EdgeId e, TriPointf bary)</argsstring>
+        <name>MeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::MeshTriPoint</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>TriPointf</type>
+          <declname>bary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="33" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1ab5509e634e7415787efe42cfc5daf178" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTriPoint::MeshTriPoint</definition>
+        <argsstring>(const MeshEdgePoint &amp;ep)</argsstring>
+        <name>MeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::MeshTriPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref> &amp;</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="34" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1aa232faeb2eb2a1b2892e47492f450e90" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTriPoint::MeshTriPoint</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertId v)</argsstring>
+        <name>MeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::MeshTriPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="35" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1aabb02c854af5fe943fbefdec9600d4c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::MeshTriPoint::MeshTriPoint</definition>
+        <argsstring>(EdgeId e, const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v0, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)</argsstring>
+        <name>MeshTriPoint</name>
+        <qualifiedname>MR::MeshTriPoint::MeshTriPoint</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+<para>given a point coordinates computes its barycentric coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="39" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1aa951af6819fd0e1934e6e33e8b29af4a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
+        <definition>MRMESH_API VertId MR::MeshTriPoint::inVertex</definition>
+        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>MR::MeshTriPoint::inVertex</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns valid vertex id if the point is in vertex, otherwise returns invalid id </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="42" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a6796e7f3ca4cdbeb66145767bbf12dc7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshTriPoint::inVertex</definition>
+        <argsstring>() const</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>MR::MeshTriPoint::inVertex</qualifiedname>
+        <briefdescription>
+<para>returns true if the point is in a vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="45" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a3eb261b602a6bb5dc6342b8a585f3a7c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref></type>
+        <definition>MRMESH_API MeshEdgePoint MR::MeshTriPoint::onEdge</definition>
+        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
+        <name>onEdge</name>
+        <qualifiedname>MR::MeshTriPoint::onEdge</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns valid value if the point is on edge and topology.left(result.e) == topology.left(this-&gt;e), otherwise returns invalid MeshEdgePoint </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="49" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a90a50a563b67d4e1fa6ad0e30f2e9d71" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::MeshTriPoint::isBd</definition>
+        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr) const</argsstring>
+        <name>isBd</name>
+        <qualifiedname>MR::MeshTriPoint::isBd</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns true if the point is in vertex or on edge, and that location is on the boundary of the region </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="52" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a6c6fbefac0cf996b3da9fa89a3146eac" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::MeshTriPoint::fromTriangle</definition>
+        <argsstring>(const MeshTopology &amp;topology, FaceId f) const</argsstring>
+        <name>fromTriangle</name>
+        <qualifiedname>MR::MeshTriPoint::fromTriangle</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the point is inside or on the boundary of given triangular face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="55" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a448317ec66d714fc3faa1d0bd3b64867" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshTriPoint::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::MeshTriPoint::valid</qualifiedname>
+        <briefdescription>
+<para>consider this valid if the edge ID is valid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a6371d8245c7dbe42491b7506c52d1478" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTriPoint::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::MeshTriPoint::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="59" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a1709949fd7429ecfaa96a98d1876f5b2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MRMESH_API MeshTriPoint MR::MeshTriPoint::lnext</definition>
+        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
+        <name>lnext</name>
+        <qualifiedname>MR::MeshTriPoint::lnext</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>represents the same point relative to next edge in the same triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="62" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1abbd2e1560699eb7d09752dce26fe2ee7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MRMESH_API MeshTriPoint MR::MeshTriPoint::canonical</definition>
+        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
+        <name>canonical</name>
+        <qualifiedname>MR::MeshTriPoint::canonical</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>represents the same point relative to the topology.edgeWithLeft( topology.left( e ) ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="65" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1a969e2436a97d15353beb543c26d45590" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::array&lt; <ref refid="structMR_1_1WeightedVertex" kindref="compound">WeightedVertex</ref>, 3 &gt;</type>
+        <definition>MRMESH_API std::array&lt; WeightedVertex, 3 &gt; MR::MeshTriPoint::getWeightedVerts</definition>
+        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
+        <name>getWeightedVerts</name>
+        <qualifiedname>MR::MeshTriPoint::getWeightedVerts</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns three weighted triangle&apos;s vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="68" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTriPoint_1abb0591df25f88f44c1c55406d826b63e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshTriPoint::operator==</definition>
+        <argsstring>(const MeshTriPoint &amp;rhs) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::MeshTriPoint::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>returns true if two points are equal including equal not-unique representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="71" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>encodes a point inside a triangular mesh face using barycentric coordinates</para>
+<para>Notations used below: <linebreak/>
+ v0 - the value in org( e ) <linebreak/>
+ v1 - the value in dest( e ) <linebreak/>
+ v2 - the value in dest( next( e ) ) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="23" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshTriPoint_1a8a974fd4d0a547b3acff27ac8730ef92" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>bary</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1abbd2e1560699eb7d09752dce26fe2ee7" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>canonical</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1afb2e8376855431a09626f25ffe6039bc" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>e</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a28516877dbf31eb9b23a58abf5a65d31" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>fromSameTriangle</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a5b4701e6cc60a8b3a60545055a0f0ad2" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>fromSameTriangle</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a6c6fbefac0cf996b3da9fa89a3146eac" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>fromTriangle</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a601a9f114cc2d5d7a5d707b61f7164c9" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>getVertexAsMeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a969e2436a97d15353beb543c26d45590" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>getWeightedVerts</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1aa951af6819fd0e1934e6e33e8b29af4a" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>inVertex</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a6796e7f3ca4cdbeb66145767bbf12dc7" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>inVertex</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a90a50a563b67d4e1fa6ad0e30f2e9d71" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>isBd</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a1709949fd7429ecfaa96a98d1876f5b2" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>lnext</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a16e988e643929d407301f793664a431a" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>MeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a5760034e9833044bad025001f1797a53" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>MeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a7856dabc24d2467efad8b2ce055c8677" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>MeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1ab5509e634e7415787efe42cfc5daf178" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>MeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1aa232faeb2eb2a1b2892e47492f450e90" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>MeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1aabb02c854af5fe943fbefdec9600d4c9" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>MeshTriPoint</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a3eb261b602a6bb5dc6342b8a585f3a7c" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>onEdge</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a6371d8245c7dbe42491b7506c52d1478" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1abb0591df25f88f44c1c55406d826b63e" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>operator==</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a99f6b57a79938db1c601698948926581" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>same</name></member>
+      <member refid="structMR_1_1MeshTriPoint_1a448317ec66d714fc3faa1d0bd3b64867" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a727407266bfc276b82053d9d7632599e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolynomialWrapper__float" kindref="compound">PolynomialWrapper_float</ref></type>
+        <definition> PolynomialWrapper_float mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getBestPolynomial</definition>
+        <argsstring>(std_vector_float values, int degree)</argsstring>
+        <name>getBestPolynomial</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getBestPolynomial</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33128" bodyend="33129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1abc351418c41f37fef408d5d4542641bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getDerivatives</definition>
+        <argsstring>(std_vector_float result, std_vector_float values)</argsstring>
+        <name>getDerivatives</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getDerivatives</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get derivatives from result of `getValues`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33131" bodyend="33134"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a8e933c67e3e4f9c8be7e8d0ea358138e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.indexFromPseudoIndex</definition>
+        <argsstring>(float pseudoIndex, int count)</argsstring>
+        <name>indexFromPseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.indexFromPseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pseudoIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33136" bodyend="33137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1aac89640eda78bc676633ea1d9df483a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.pseudoIndex</definition>
+        <argsstring>(float index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.pseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get a pseudo-index for a zero-based point index in a zero-centered row of `count` points
+Pseudo-index is a signed number; for whole index, is is whole or half-whole
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33140" bodyend="33144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a9cd45900975941d55c6a60eab2c70383" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.pseudoIndex</definition>
+        <argsstring>(int index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.pseudoIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33147" bodyend="33148"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ab54fca7aa917bc80248ca87291836ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.__init__</definition>
+        <argsstring>(self, Mesh mesh, AffineXf3f meshXf, FunctionVolume volume, AffineXf3f volumeXf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>meshXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>volumeXf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33150" bodyend="33151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a89cddadf582be7e1db675aa76ff3847b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.__init__</definition>
+        <argsstring>(self, MeshOnVoxelsT_const_Mesh_FunctionVolume arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume" kindref="compound">MeshOnVoxelsT_const_Mesh_FunctionVolume</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33153" bodyend="33156"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ac912ea68ce594edb0299c297c3e0e1f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.__init__</definition>
+        <argsstring>(self, MeshOnVoxelsT_const_Mesh_FunctionVolume other)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume" kindref="compound">MeshOnVoxelsT_const_Mesh_FunctionVolume</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33158" bodyend="33159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ad0d085887b28ed6d1ba9811875e277b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getOffsetVector</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>getOffsetVector</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getOffsetVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get offset vector (mesh normal for a vertex with `voxelSize` length)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33160" bodyend="33163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a2ee355a002831952850b7109a31622f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getPoints</definition>
+        <argsstring>(self, std_vector_Vector3_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get row of points with `offset` stride
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33164" bodyend="33167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a3e77f42f8cb15d73c2753c844aaf3c83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getValue</definition>
+        <argsstring>(self, Vector3f pos)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Volume value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33168" bodyend="33171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a15631a7ad8dd54f1fc367aa9c4388d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getValues</definition>
+        <argsstring>(self, std_vector_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <name>getValues</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.getValues</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get volume values for a row of points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33172" bodyend="33175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1acc9d5f2af29023aea9811ea16aa32cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Access to base data
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33176" bodyend="33179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a1dabe512d5e44bda3d49a2e13df1665a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.numVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>numVerts</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.numVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cached number of valid vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33180" bodyend="33183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ab4ac77f288617d2468d246ea61525519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.point</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Vertex position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33184" bodyend="33187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a35ed12ba2d353fdf13916b23f32af59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
+        <definition> FunctionVolume mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.volume</definition>
+        <argsstring>(self)</argsstring>
+        <name>volume</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.volume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33188" bodyend="33189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a61bcf3dfcea89673c1b2ffc453ccf2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Voxel size as scalar
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33190" bodyend="33193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a53c3fda6d9366f0afec9e53becfb21bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Transformation mesh to volume
+All points are in voxels volume space, unless otherwise is implied
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33195" bodyend="33199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ad12e7fbe16e560f86f37efd3299e3eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xf</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33201" bodyend="33202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a140a499bacba74881937afd4e5c8cd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xfInv</definition>
+        <argsstring>(self)</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33204" bodyend="33205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a171fc001d2d4d2870e067fe53e6cfef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xfInv</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_FunctionVolume.xfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33207" bodyend="33208"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshOnVoxelsT&lt;const MR::Mesh, MR::FunctionVolume&gt;
+Aliases:  MeshOnVoxelsFunctionC
+
+Helper class to organize mesh and voxels volume access and build point sequences
+\\note this class is not thread-safe but accessing same volume from different instances is ok
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33119" bodyend="33208"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ab54fca7aa917bc80248ca87291836ae3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a89cddadf582be7e1db675aa76ff3847b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ac912ea68ce594edb0299c297c3e0e1f7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a727407266bfc276b82053d9d7632599e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>getBestPolynomial</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1abc351418c41f37fef408d5d4542641bf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>getDerivatives</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ad0d085887b28ed6d1ba9811875e277b5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>getOffsetVector</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a2ee355a002831952850b7109a31622f8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>getPoints</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a3e77f42f8cb15d73c2753c844aaf3c83" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>getValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a15631a7ad8dd54f1fc367aa9c4388d0f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>getValues</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a8e933c67e3e4f9c8be7e8d0ea358138e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>indexFromPseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1acc9d5f2af29023aea9811ea16aa32cbf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a1dabe512d5e44bda3d49a2e13df1665a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>numVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ab4ac77f288617d2468d246ea61525519" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1aac89640eda78bc676633ea1d9df483a4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>pseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a9cd45900975941d55c6a60eab2c70383" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>pseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a35ed12ba2d353fdf13916b23f32af59d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>volume</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a61bcf3dfcea89673c1b2ffc453ccf2c5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a53c3fda6d9366f0afec9e53becfb21bc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1ad12e7fbe16e560f86f37efd3299e3eb9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a140a499bacba74881937afd4e5c8cd62" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>xfInv</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume_1a171fc001d2d4d2870e067fe53e6cfef0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_FunctionVolume</scope><name>xfInv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiwayICPSamplingParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiwayICPSamplingParameters</compoundname>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CascadeMode</name>
+        <qualifiedname>MR::MultiwayICPSamplingParameters::CascadeMode</qualifiedname>
+        <enumvalue id="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58aa7e82daa7280af25afbaa076ac16eb1e" prot="public">
+          <name>Sequential</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58a2f3d2e7b83aab89388906ca92d0ca505" prot="public">
+          <name>AABBTreeBased</name>
+          <briefdescription>
+<para>separates objects on groups based on their index in ICPObjects (good if all objects about the size of all objects together) </para>
+          </briefdescription>
+          <detaileddescription>
+<para>builds AABB tree based on each object bounding box and separates subtrees (good if each object much smaller then all objects together) </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="71" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="72" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MultiwayICPSamplingParameters_1ab9d86e834ec046c7b72c094142d046c6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MultiwayICPSamplingParameters::samplingVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>samplingVoxelSize</name>
+        <qualifiedname>MR::MultiwayICPSamplingParameters::samplingVoxelSize</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>sampling size of each object, 0 has special meaning &quot;take all valid points&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiwayICPSamplingParameters_1a8c84a0ef595c5238df9112eb6c6f3e86" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MultiwayICPSamplingParameters::maxGroupSize</definition>
+        <argsstring></argsstring>
+        <name>maxGroupSize</name>
+        <qualifiedname>MR::MultiwayICPSamplingParameters::maxGroupSize</qualifiedname>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>size of maximum icp group to work with; if the number of objects exceeds this value, icp is applied in cascade mode; maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects; maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="69" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiwayICPSamplingParameters_1ae06a2f568227da83fff1138c53d0fc30" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58" kindref="member">MR::MultiwayICPSamplingParameters::CascadeMode</ref></type>
+        <definition>enum MR::MultiwayICPSamplingParameters::CascadeMode MR::MultiwayICPSamplingParameters::AABBTreeBased</definition>
+        <argsstring></argsstring>
+        <name>AABBTreeBased</name>
+        <qualifiedname>MR::MultiwayICPSamplingParameters::AABBTreeBased</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="75" column="43"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiwayICPSamplingParameters_1a570e9c958781bc09007f518931ca7b74" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::MultiwayICPSamplingParameters::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::MultiwayICPSamplingParameters::cb</qualifiedname>
+        <briefdescription>
+<para>callback for progress reports </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="78" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters that are used for sampling of the <ref refid="classMR_1_1MultiwayICP" kindref="compound">MultiwayICP</ref> objects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="61" bodyend="79"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MultiwayICPSamplingParameters_1ae06a2f568227da83fff1138c53d0fc30" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>AABBTreeBased</name></member>
+      <member refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>CascadeMode</name></member>
+      <member refid="structMR_1_1MultiwayICPSamplingParameters_1a570e9c958781bc09007f518931ca7b74" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>cb</name></member>
+      <member refid="structMR_1_1MultiwayICPSamplingParameters_1a8c84a0ef595c5238df9112eb6c6f3e86" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>maxGroupSize</name></member>
+      <member refid="structMR_1_1MultiwayICPSamplingParameters_1ab9d86e834ec046c7b72c094142d046c6" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>samplingVoxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

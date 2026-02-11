@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConstBox__Box2i64" kind="class" language="C#" prot="public">
+    <compoundname>MR::ConstBox_Box2i64</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR::Misc::Object&lt; ConstBox_Box2i64 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ConstBox_Box2i64 &gt;</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Box__Box2i64" prot="public" virt="non-virtual">MR.Box_Box2i64</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ConstBox__Box2i64_1ac260988b2bcdfbea8973f0a7270154e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref readonly <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>ref readonly MR.Vector2i64 MR.ConstBox_Box2i64.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.ConstBox_Box2i64.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5166" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ConstBox__Box2i64_1a00d334c2b41507cecb326b187051c09f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref readonly <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>ref readonly MR.Vector2i64 MR.ConstBox_Box2i64.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.ConstBox_Box2i64.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5168" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ConstBox__Box2i64_1a5ffbfa03666c188b55774b96afac653c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.ConstBox_Box2i64.Elements</definition>
+        <argsstring></argsstring>
+        <name>Elements</name>
+        <qualifiedname>MR.ConstBox_Box2i64.Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5170" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ConstBox__Box2i64_1af33d9c73326c623ccbe80d81318bec1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>unsafe ref readonly MR.Vector2i64 MR.ConstBox_Box2i64.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.ConstBox_Box2i64.this[int e]</qualifiedname>
+        <briefdescription>
+<para>min/max access by 0/1 index Generated from method <computeroutput>MR.Box2i64.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5248" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5249" bodyend="5256"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1ConstBox__Box2i64_1a3853cb9360759b24902e5d4388adaee0" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.ConstBox_Box2i64.__ref_storage_Elements</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Elements</name>
+        <qualifiedname>MR.ConstBox_Box2i64.__ref_storage_Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5171" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5171" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1af78125f146e2967f940184ae23abe7cb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_Box2i64.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Box2i64.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5156" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5156" bodyend="5162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1ac0c39ddb2bafd17d6f91d26a4e52d710" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_Box2i64.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Box2i64.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5163" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5163" bodyend="5163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a6b573a3dbdb228db03a9ecb80df70840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>(Box2i64 other)</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box2i64" kindref="compound">Box2i64</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5185" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5185" bodyend="5185"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a04803cd8fd916c5ca21546e3dc63f26c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>(ConstBox_Box2i64 _other)</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">ConstBox_Box2i64</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5196" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5196" bodyend="5200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1ac54911ef31456e113798c8fcfbb6318e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>()</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5205" bodyend="5211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a749929699f5d8a3af2c9cfbe7827f716" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>(in MR.Vector2i64 min, in MR.Vector2i64 max)</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Box2i64_1a37c6e09dc1c90d66fb1848f377b42238" kindref="member">MR.Box2i64.Box2i64</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5216" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5216" bodyend="5228"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1ad080a573c7404b04ab849eda6c30b985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Box2i64_1a37c6e09dc1c90d66fb1848f377b42238" kindref="member">MR.Box2i64.Box2i64</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5235" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5235" bodyend="5242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a342be2342d83cc9051e8b84860c8f965" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Box2i64.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.ConstBox_Box2i64.valid</qualifiedname>
+        <briefdescription>
+<para>true if the box contains at least one point Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1ab59ae6737863ca1fe2742bec66714cea" kindref="member">MR.Box2i64.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5278" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5278" bodyend="5283"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a6e1c83c3ccbb521cd6c652fcdb4e91e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>unsafe MR.Vector2i64 MR.ConstBox_Box2i64.center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>MR.ConstBox_Box2i64.center</qualifiedname>
+        <briefdescription>
+<para>computes center of the box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aaacd96e4a2f7064b3f2c2a1d5504532c" kindref="member">MR.Box2i64.center</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5289" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5289" bodyend="5294"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a83dfd44636e6ab3e760450753bfbd77e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>unsafe MR.Vector2i64 MR.ConstBox_Box2i64.corner</definition>
+        <argsstring>(in MR.Vector2b c)</argsstring>
+        <name>corner</name>
+        <qualifiedname>MR.ConstBox_Box2i64.corner</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2b" kindref="compound">MR.Vector2b</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1ac204d52dfcfd61576870d93f1706a695" kindref="member">MR.Box2i64.corner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5302" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5302" bodyend="5310"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a0b757546b66e18dcc8426b83f634ccc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>unsafe MR.Vector2i64 MR.ConstBox_Box2i64.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.ConstBox_Box2i64.size</qualifiedname>
+        <briefdescription>
+<para>computes size of the box in all dimensions Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aa3770dd7751bfc7027d7395085e9283a" kindref="member">MR.Box2i64.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5346" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5346" bodyend="5351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a102e21d7acac9a7e2c860160c2c94b52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe long</type>
+        <definition>unsafe long MR.ConstBox_Box2i64.diagonal</definition>
+        <argsstring>()</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR.ConstBox_Box2i64.diagonal</qualifiedname>
+        <briefdescription>
+<para>computes length from min to max Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a94a077e2eb6508cd34554a35df1f8258" kindref="member">MR.Box2i64.diagonal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5357" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5357" bodyend="5362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a68c53a4760e99139edde24c6f3d165dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe long</type>
+        <definition>unsafe long MR.ConstBox_Box2i64.volume</definition>
+        <argsstring>()</argsstring>
+        <name>volume</name>
+        <qualifiedname>MR.ConstBox_Box2i64.volume</qualifiedname>
+        <briefdescription>
+<para>computes the volume of this box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a5f50516ba33bf452c2ce4125fb588ada" kindref="member">MR.Box2i64.volume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5368" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5368" bodyend="5373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a4a65da0a2d2522e8a3a52ff416f7e059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Box2i64.contains</definition>
+        <argsstring>(in MR.Vector2i64 pt)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.ConstBox_Box2i64.contains</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given point is inside (including the surface) of this box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aed367bd83dd4cf1a1d2728e13fbcda5a" kindref="member">MR.Box2i64.contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5379" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5379" bodyend="5387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1afe40da3c2b3b1b4ae2ac9588727e9b0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Box2i64.contains</definition>
+        <argsstring>(in MR.Box2i64 otherbox)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.ConstBox_Box2i64.contains</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+          <declname>otherbox</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given box is fully inside (the surfaces may touch) of this box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aed367bd83dd4cf1a1d2728e13fbcda5a" kindref="member">MR.Box2i64.contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5393" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5393" bodyend="5401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a952e806b34eaa72d2567bacaca9d0c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>unsafe MR.Vector2i64 MR.ConstBox_Box2i64.getBoxClosestPointTo</definition>
+        <argsstring>(in MR.Vector2i64 pt)</argsstring>
+        <name>getBoxClosestPointTo</name>
+        <qualifiedname>MR.ConstBox_Box2i64.getBoxClosestPointTo</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns closest point in the box to given point Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1adb1d2d2f5a8be695d89f97947b9ea0e5" kindref="member">MR.Box2i64.getBoxClosestPointTo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5407" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5407" bodyend="5415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1afd5de5f6f9581a587a7f592d11845dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Box2i64.intersects</definition>
+        <argsstring>(in MR.Box2i64 b)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR.ConstBox_Box2i64.intersects</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>checks whether this box intersects or touches given box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1ae7a6616a355ce12c4b9f86d49139ae39" kindref="member">MR.Box2i64.intersects</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5421" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5421" bodyend="5429"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a6c3f57009d5eafc21195a2b4a003f447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+        <definition>unsafe MR.Box2i64 MR.ConstBox_Box2i64.intersection</definition>
+        <argsstring>(in MR.Box2i64 b)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR.ConstBox_Box2i64.intersection</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>computes intersection between this and other box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1ae9604718ce668e256c42ed760e0774d1" kindref="member">MR.Box2i64.intersection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5435" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5435" bodyend="5443"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1aad51aa88b26c0c9bc7ff8bd9dae3c287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe long</type>
+        <definition>unsafe long MR.ConstBox_Box2i64.getDistanceSq</definition>
+        <argsstring>(in MR.Box2i64 b)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR.ConstBox_Box2i64.getDistanceSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance between this box and given one; returns zero if the boxes touch or intersect Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aa0a7c46dd2719c002beb99569539a564" kindref="member">MR.Box2i64.getDistanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5450" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5450" bodyend="5458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a6eddadf1ecc29cd65bcc0d5d024c5d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe long</type>
+        <definition>unsafe long MR.ConstBox_Box2i64.getDistanceSq</definition>
+        <argsstring>(in MR.Vector2i64 pt)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR.ConstBox_Box2i64.getDistanceSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance between this box and given point; returns zero if the point is inside or on the boundary of the box Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aa0a7c46dd2719c002beb99569539a564" kindref="member">MR.Box2i64.getDistanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5465" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5465" bodyend="5473"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a9be50f861ea626ed0dafbca1ad9280f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+        <definition>unsafe MR.Vector2i64 MR.ConstBox_Box2i64.getProjection</definition>
+        <argsstring>(in MR.Vector2i64 pt)</argsstring>
+        <name>getProjection</name>
+        <qualifiedname>MR.ConstBox_Box2i64.getProjection</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns the closest point on the box to the given point for points outside the box this is equivalent to getBoxClosestPointTo Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a4f281e532ad296450ff7832f28d18490" kindref="member">MR.Box2i64.getProjection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5480" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5480" bodyend="5488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a7a7055c2c8486f0c90f296cfe4e86e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+        <definition>unsafe MR.Box2i64 MR.ConstBox_Box2i64.expanded</definition>
+        <argsstring>(in MR.Vector2i64 expansion)</argsstring>
+        <name>expanded</name>
+        <qualifiedname>MR.ConstBox_Box2i64.expanded</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>expansion</declname>
+        </param>
+        <briefdescription>
+<para>decreases min and increased max on given value Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1aca583e08d9c65aa73ecd9f6999189b0a" kindref="member">MR.Box2i64.expanded</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5494" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5494" bodyend="5502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a1b68f858e483aea84ba5f681d38745a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+        <definition>unsafe MR.Box2i64 MR.ConstBox_Box2i64.insignificantlyExpanded</definition>
+        <argsstring>()</argsstring>
+        <name>insignificantlyExpanded</name>
+        <qualifiedname>MR.ConstBox_Box2i64.insignificantlyExpanded</qualifiedname>
+        <briefdescription>
+<para>decreases min and increases max to their closest representable value Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a656d7217ccb10747b41960649e44341b" kindref="member">MR.Box2i64.insignificantlyExpanded</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5508" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5508" bodyend="5513"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a2cf453d4755ab4ea4864af0cc5f3fd2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_Box2i64.Equals</definition>
+        <argsstring>(MR.ConstBox_Box2i64? a)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Box2i64.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">MR.ConstBox_Box2i64</ref>?</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5532" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5532" bodyend="5537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a0d0475be88add5eab20ce0246b2ffd61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_Box2i64.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Box2i64.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5539" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5539" bodyend="5546"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1adeff6e294bf08afeb6760e5703627c8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ConstBox_Box2i64.~ConstBox_Box2i64</definition>
+        <argsstring>()</argsstring>
+        <name>~ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.~ConstBox_Box2i64</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5164" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5164" bodyend="5164"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1ac8ad6f9800fe1c582e2fe9a8d2a891a6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>()</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5173" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5173" bodyend="5180"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1af2df1c914bf4ff6a1c0a6ff4ec4dc382" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_Box2i64.operator ConstBox_Box2i64</definition>
+        <argsstring>(Box2i64 other)</argsstring>
+        <name>operator ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.operator ConstBox_Box2i64</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box2i64" kindref="compound">Box2i64</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">ConstBox_Box2i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Box2i64" kindref="compound">Box_Box2i64</ref></computeroutput> intentionally doesn&apos;t. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5189" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5189" bodyend="5189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a3661a072d985cac20f28c6fca6fdfc93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></type>
+        <definition>static unsafe MR.Box2i64 MR.ConstBox_Box2i64.fromMinAndSize</definition>
+        <argsstring>(in MR.Vector2i64 min, in MR.Vector2i64 size)</argsstring>
+        <name>fromMinAndSize</name>
+        <qualifiedname>MR.ConstBox_Box2i64.fromMinAndSize</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a016fdc98b192e9ee544899013aee8080" kindref="member">MR.Box2i64.fromMinAndSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5261" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5261" bodyend="5272"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a0d1a02ea8f0329250a64e7c4a3bfba4d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2b" kindref="compound">MR.Vector2b</ref></type>
+        <definition>static unsafe MR.Vector2b MR.ConstBox_Box2i64.getMinBoxCorner</definition>
+        <argsstring>(in MR.Vector2i64 n)</argsstring>
+        <name>getMinBoxCorner</name>
+        <qualifiedname>MR.ConstBox_Box2i64.getMinBoxCorner</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a294caa0485940e5c657bbca34407a490" kindref="member">MR.Box2i64.getMinBoxCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5317" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5317" bodyend="5325"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1aa7e7dd57f0e3126d4c096354086f5e84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2b" kindref="compound">MR.Vector2b</ref></type>
+        <definition>static unsafe MR.Vector2b MR.ConstBox_Box2i64.getMaxBoxCorner</definition>
+        <argsstring>(in MR.Vector2i64 n)</argsstring>
+        <name>getMaxBoxCorner</name>
+        <qualifiedname>MR.ConstBox_Box2i64.getMaxBoxCorner</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i64" kindref="compound">MR.Vector2i64</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a4734fc707e1f736ff40624665aaf3eea" kindref="member">MR.Box2i64.getMaxBoxCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5332" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5332" bodyend="5340"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1aa3cde234fae4e8d8a90261a85a54fd52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Box2i64.operator==</definition>
+        <argsstring>(MR.ConstBox_Box2i64 _this, MR.ConstBox_Box2i64 a)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_Box2i64.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">MR.ConstBox_Box2i64</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">MR.ConstBox_Box2i64</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Box2i64.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5518" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5518" bodyend="5523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a89cc9daecf8d8daae9264764429c59a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Box2i64.operator!=</definition>
+        <argsstring>(MR.ConstBox_Box2i64 _this, MR.ConstBox_Box2i64 a)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_Box2i64.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">MR.ConstBox_Box2i64</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i64" kindref="compound">MR.ConstBox_Box2i64</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5525" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5525" bodyend="5528"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Box2i64_1a597a16c55a0f78eef4f4720c60aa5e29" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_Box2i64.ConstBox_Box2i64</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ConstBox_Box2i64</name>
+        <qualifiedname>MR.ConstBox_Box2i64.ConstBox_Box2i64</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5191" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5191" bodyend="5191"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput><ref refid="structMR_1_1Box2i64" kindref="compound">MR.Box2i64</ref></computeroutput>. This is the const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ConstBox_Box2i64</label>
+        <link refid="classMR_1_1ConstBox__Box2i64"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Box_Box2i64</label>
+        <link refid="classMR_1_1Box__Box2i64"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Misc::Object&lt; ConstBox_Box2i64 &gt;</label>
+      </node>
+      <node id="3">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System::IEquatable&lt; MR.ConstBox_Box2i64 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ConstBox_Box2i64</label>
+        <link refid="classMR_1_1ConstBox__Box2i64"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Misc::Object&lt; ConstBox_Box2i64 &gt;</label>
+      </node>
+      <node id="3">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System::IEquatable&lt; MR.ConstBox_Box2i64 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5146" bodyend="5547"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a3853cb9360759b24902e5d4388adaee0" prot="protected" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a6e1c83c3ccbb521cd6c652fcdb4e91e7" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>center</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1ac8ad6f9800fe1c582e2fe9a8d2a891a6" prot="private" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a6b573a3dbdb228db03a9ecb80df70840" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a597a16c55a0f78eef4f4720c60aa5e29" prot="package" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a04803cd8fd916c5ca21546e3dc63f26c" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1ac54911ef31456e113798c8fcfbb6318e" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a749929699f5d8a3af2c9cfbe7827f716" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1ad080a573c7404b04ab849eda6c30b985" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a4a65da0a2d2522e8a3a52ff416f7e059" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>contains</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1afe40da3c2b3b1b4ae2ac9588727e9b0c" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>contains</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a83dfd44636e6ab3e760450753bfbd77e" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>corner</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a102e21d7acac9a7e2c860160c2c94b52" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1af78125f146e2967f940184ae23abe7cb" prot="protected" virt="virtual"><scope>MR::ConstBox_Box2i64</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1ac0c39ddb2bafd17d6f91d26a4e52d710" prot="public" virt="virtual"><scope>MR::ConstBox_Box2i64</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a5ffbfa03666c188b55774b96afac653c" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>Elements</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a2cf453d4755ab4ea4864af0cc5f3fd2d" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a0d0475be88add5eab20ce0246b2ffd61" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a7a7055c2c8486f0c90f296cfe4e86e42" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>expanded</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a3661a072d985cac20f28c6fca6fdfc93" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>fromMinAndSize</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a952e806b34eaa72d2567bacaca9d0c01" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1aad51aa88b26c0c9bc7ff8bd9dae3c287" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>getDistanceSq</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a6eddadf1ecc29cd65bcc0d5d024c5d20" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>getDistanceSq</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1aa7e7dd57f0e3126d4c096354086f5e84" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a0d1a02ea8f0329250a64e7c4a3bfba4d" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>getMinBoxCorner</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a9be50f861ea626ed0dafbca1ad9280f4" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>getProjection</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a1b68f858e483aea84ba5f681d38745a1" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>insignificantlyExpanded</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a6c3f57009d5eafc21195a2b4a003f447" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>intersection</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1afd5de5f6f9581a587a7f592d11845dda" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>intersects</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a00d334c2b41507cecb326b187051c09f" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>max</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1ac260988b2bcdfbea8973f0a7270154e8" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>min</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1af2df1c914bf4ff6a1c0a6ff4ec4dc382" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>operator ConstBox_Box2i64</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a89cc9daecf8d8daae9264764429c59a4" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1aa3cde234fae4e8d8a90261a85a54fd52" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a0b757546b66e18dcc8426b83f634ccc3" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>size</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1af33d9c73326c623ccbe80d81318bec1f" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>this[int e]</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a342be2342d83cc9051e8b84860c8f965" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>valid</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1a68c53a4760e99139edde24c6f3d165dd" prot="public" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>volume</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i64_1adeff6e294bf08afeb6760e5703627c8e" prot="private" virt="non-virtual"><scope>MR::ConstBox_Box2i64</scope><name>~ConstBox_Box2i64</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

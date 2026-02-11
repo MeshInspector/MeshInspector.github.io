@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SaveObjectSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SaveObjectSettings</compoundname>
+    <includes refid="MRSaveObjects_8h" local="no">MRSaveObjects.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SaveObjectSettings_1ab44dfc6e402d3ca6ede2653f756cb545" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveObjectSettings::backupOriginalFile</definition>
+        <argsstring></argsstring>
+        <name>backupOriginalFile</name>
+        <qualifiedname>MR::SaveObjectSettings::backupOriginalFile</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true then before saving, original files is renamed, and renamed back if saving fails </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveObjects.h" line="15" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveObjects.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveObjectSettings_1a8ddb9e6259b392820926db823e35a6bb" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::SaveObjectSettings::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR::SaveObjectSettings::callback</qualifiedname>
+        <briefdescription>
+<para>callback function to set progress (for progress bar) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveObjects.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveObjects.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveObjects.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveObjects.h" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SaveObjectSettings_1ab44dfc6e402d3ca6ede2653f756cb545" prot="public" virt="non-virtual"><scope>MR::SaveObjectSettings</scope><name>backupOriginalFile</name></member>
+      <member refid="structMR_1_1SaveObjectSettings_1a8ddb9e6259b392820926db823e35a6bb" prot="public" virt="non-virtual"><scope>MR::SaveObjectSettings</scope><name>callback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

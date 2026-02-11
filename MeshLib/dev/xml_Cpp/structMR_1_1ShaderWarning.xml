@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ShaderWarning" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ShaderWarning</compoundname>
+    <includes refid="MRCreateShader_8h" local="no">MRCreateShader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ShaderWarning_1abb95321aeb350840573cff7f04e36f33" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ShaderWarning::number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <qualifiedname>MR::ShaderWarning::number</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+<para>number is presented in some of gpu shader compilations output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" line="14" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ShaderWarning_1a930eaa6dc15670480191448c07138e81" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ShaderWarning::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <qualifiedname>MR::ShaderWarning::line</qualifiedname>
+        <briefdescription>
+<para>some part of warning line to find </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" line="16" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ShaderWarning_1a930eaa6dc15670480191448c07138e81" prot="public" virt="non-virtual"><scope>MR::ShaderWarning</scope><name>line</name></member>
+      <member refid="structMR_1_1ShaderWarning_1abb95321aeb350840573cff7f04e36f33" prot="public" virt="non-virtual"><scope>MR::ShaderWarning</scope><name>number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

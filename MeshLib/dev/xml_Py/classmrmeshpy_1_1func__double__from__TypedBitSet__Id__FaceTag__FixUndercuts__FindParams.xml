@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1ab370850d282d3b480cd2c558047b1bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76087" bodyend="76088"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a7e6cc097acf8847c690f229ec07c0de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__call__</definition>
+        <argsstring>(self, FaceBitSet arg0, FixUndercuts.FindParams arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FindParams" kindref="compound">FixUndercuts.FindParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76089" bodyend="76090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a68d5007461f838fc0a655349239b15fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76092" bodyend="76093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a1e08c3a40cb5d6ae306d380dc4575fe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76095" bodyend="76096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a1cdf4d044a67612c3e90c1dfd1cf2e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</definition>
+        <argsstring>(self, func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams" kindref="compound">func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76098" bodyend="76099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1ab79202b6e535999897ef97db3335d7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</definition>
+        <argsstring>(self, typing.Callable[[FaceBitSet, FixUndercuts.FindParams], float] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[FaceBitSet, FixUndercuts.FindParams]</array>
+        </param>
+        <param>
+          <type>float]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76101" bodyend="76102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a9919a5c97799dc30ee5f923bd57e3305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76103" bodyend="76106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1ab5b2254ed002ebbfe264a4bdc7fe3c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76107" bodyend="76110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76086" bodyend="76110"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1ab370850d282d3b480cd2c558047b1bf5" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a7e6cc097acf8847c690f229ec07c0de1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a68d5007461f838fc0a655349239b15fe" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a1e08c3a40cb5d6ae306d380dc4575fe5" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a1cdf4d044a67612c3e90c1dfd1cf2e88" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1ab79202b6e535999897ef97db3335d7d1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1a9919a5c97799dc30ee5f923bd57e3305" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams_1ab5b2254ed002ebbfe264a4bdc7fe3c6a" prot="public" virt="non-virtual"><scope>mrmeshpy::func_double_from_TypedBitSet_Id_FaceTag_FixUndercuts_FindParams</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

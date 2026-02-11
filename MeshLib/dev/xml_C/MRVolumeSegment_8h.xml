@@ -1,0 +1,1148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRVolumeSegment_8h" kind="file" language="C++">
+    <compoundname>MRVolumeSegment.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRVolumeSegment.h</label>
+        <link refid="MRVolumeSegment_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_VolumeSegmenter_SeedType</name>
+        <enumvalue id="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a5c5fd772c1865ba30595f1dabc5124ee" prot="public">
+          <name>MR_VolumeSegmenter_SeedType_Inside</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a9f949b6fb4ecc17ca3a6803c0ff4784f" prot="public">
+          <name>MR_VolumeSegmenter_SeedType_Outside</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a83a389f5799d4aa2b740e6eec0de02e9" prot="public">
+          <name>MR_VolumeSegmenter_SeedType_Count</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="34" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a3d8aa59058b2516d2c9b34241f2c0441" prot="public" static="no">
+        <type>struct <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref></type>
+        <definition>typedef struct MR_VdbVolume MR_VdbVolume</definition>
+        <argsstring></argsstring>
+        <name>MR_VdbVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="12" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
+        <type>struct MR_Vector3i</type>
+        <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a94b5f700f4835481dce132716ff73b05" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref></type>
+        <definition>typedef struct MR_VoxelBitSet MR_VoxelBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VoxelBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="14" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref></type>
+        <definition>typedef struct MR_VoxelMetricParameters MR_VoxelMetricParameters</definition>
+        <argsstring></argsstring>
+        <name>MR_VoxelMetricParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_Mesh_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="16" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_VoxelBitSet_std_string MR_expected_MR_VoxelBitSet_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_VoxelBitSet_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="17" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref></type>
+        <definition>typedef struct MR_expected_std_vector_MR_Mesh_std_string MR_expected_std_vector_MR_Mesh_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_std_vector_MR_Mesh_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="18" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Vector3i MR_std_vector_MR_Vector3i</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Vector3i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="20" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref></type>
+        <definition>typedef struct MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="21" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref></type>
+        <definition>typedef struct MR_VolumeSegmentationParameters MR_VolumeSegmentationParameters</definition>
+        <argsstring></argsstring>
+        <name>MR_VolumeSegmentationParameters</name>
+        <briefdescription>
+<para>Parameters for volume segmentation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>segmentVolume Generated from class <computeroutput>MR::VolumeSegmentationParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="31" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a2af59428533d5b0b42136dfa6d503672" prot="public" static="no">
+        <type>enum <ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></type>
+        <definition>typedef enum MR_VolumeSegmenter_SeedType MR_VolumeSegmenter_SeedType</definition>
+        <argsstring></argsstring>
+        <name>MR_VolumeSegmenter_SeedType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="38" column="29"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" prot="public" static="no">
+        <type>struct <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref></type>
+        <definition>typedef struct MR_VolumeSegmenter MR_VolumeSegmenter</definition>
+        <argsstring></argsstring>
+        <name>MR_VolumeSegmenter</name>
+        <briefdescription>
+<para>Class for voxels segmentation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><table rows="1" cols="3"><caption id="MRVolumeSegment_8h_1VolumeSegmenter_examples"></caption>
+<row>
+<entry thead="no"><para><image type="html" name="voxel_segmentation_0_0.png" width="350cm">Before (a)</image>
+ </para>
+</entry><entry thead="no"><para><image type="html" name="voxel_segmentation_0_1.png" width="350cm">Before (b)</image>
+  </para>
+</entry><entry thead="no"><para><image type="html" name="voxel_segmentation_0_2.png" width="350cm">After</image>
+  </para>
+</entry></row>
+</table>
+Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="51" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRVolumeSegment_8h_1acca188df475d138634d4f969f4020737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_meshFromVoxelsMask</definition>
+        <argsstring>(const MR_VdbVolume *volume, const MR_VoxelBitSet *mask)</argsstring>
+        <name>MR_meshFromVoxelsMask</name>
+        <param>
+          <type>const <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>Creates mesh from voxels mask. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>in space of whole volume density inside mask is expected to be higher then outside Generated from function <computeroutput>MR::meshFromVoxelsMask</computeroutput>. Parameter <computeroutput>volume</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mask</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="62" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="62" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a422b9e2094e958206f448f18ffd806cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_VolumeSegmentationParameters_Get_buildPathExponentModifier</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Get_buildPathExponentModifier</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Returns a pointer to a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>buildPathExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="68" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a496839f87345f1065f05fc0c68f20993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmentationParameters_Set_buildPathExponentModifier</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this, float value)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Set_buildPathExponentModifier</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>buildPathExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>buildPathExponentModifier</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a37d3fe27d5343e3a7f23cafdcf04bdc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Returns a mutable pointer to a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>buildPathExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="80" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1aebe633caad36b65cb19c1667723be78c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_VolumeSegmentationParameters_Get_segmentationExponentModifier</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Get_segmentationExponentModifier</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Returns a pointer to a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>segmentationExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="86" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="86" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1aa539792b167d064c2b50df03059fef49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmentationParameters_Set_segmentationExponentModifier</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this, float value)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Set_segmentationExponentModifier</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>segmentationExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>segmentationExponentModifier</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a700a07f40e7a5afb5fd49a3b65e75519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Returns a mutable pointer to a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>segmentationExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="98" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="98" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a2ffedd0f97c23130dc79ad5d1e060df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_VolumeSegmentationParameters_Get_voxelsExpansion</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Get_voxelsExpansion</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Returns a pointer to a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>voxelsExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="104" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="104" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a552c189205dc41029c15a782482307e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmentationParameters_Set_voxelsExpansion</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this, int value)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Set_voxelsExpansion</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>voxelsExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelsExpansion</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="110" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a4514f32efdce77edf79f263823b0f685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Returns a mutable pointer to a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>voxelsExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="116" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="116" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1ab8a2cbe5a8b40c314a38234145ab6b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_VolumeSegmentationParameters_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" kindref="member">MR_VolumeSegmentationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="120" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="120" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a765a42c8b39e31259afe1d0f163b9818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_VolumeSegmentationParameters_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVolumeSegment_8h_1a9fce94501c837fd145a9aa7935bd9e1f" kindref="member">MR_VolumeSegmentationParameters_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVolumeSegment_8h_1a199344a9e8620eef705213ef9d9d4c38" kindref="member">MR_VolumeSegmentationParameters_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVolumeSegment_8h_1a816ab50a457628423ecaa9542ffc8919" kindref="member">MR_VolumeSegmentationParameters_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="125" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="125" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a1833f8bca081337fb9b58b1a05ab2507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_ConstructFrom</definition>
+        <argsstring>(float buildPathExponentModifier, float segmentationExponentModifier, int voxelsExpansion)</argsstring>
+        <name>MR_VolumeSegmentationParameters_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>buildPathExponentModifier</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>segmentationExponentModifier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voxelsExpansion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::VolumeSegmentationParameters</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" kindref="member">MR_VolumeSegmentationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="130" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="130" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a816ab50a457628423ecaa9542ffc8919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API const MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_OffsetPtr</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VolumeSegmentationParameters_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="134" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="134" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a199344a9e8620eef705213ef9d9d4c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_OffsetMutablePtr</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VolumeSegmentationParameters_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="138" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="138" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a90980b792da3946fb9306c745c3dc08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_ConstructFromAnother</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *_other)</argsstring>
+        <name>MR_VolumeSegmentationParameters_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::VolumeSegmentationParameters::VolumeSegmentationParameters</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" kindref="member">MR_VolumeSegmentationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="144" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="144" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmentationParameters_Destroy</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_VolumeSegmentationParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a9fce94501c837fd145a9aa7935bd9e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmentationParameters_DestroyArray</definition>
+        <argsstring>(const MR_VolumeSegmentationParameters *_this)</argsstring>
+        <name>MR_VolumeSegmentationParameters_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_VolumeSegmentationParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a0a8c27fe048518d09db63cf536676219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmentationParameters * MR_VolumeSegmentationParameters_AssignFromAnother</definition>
+        <argsstring>(MR_VolumeSegmentationParameters *_this, const MR_VolumeSegmentationParameters *_other)</argsstring>
+        <name>MR_VolumeSegmentationParameters_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::VolumeSegmentationParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="158" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="158" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1ab384c7e62518030b967b84c0ed1b6db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_segmentVolume</definition>
+        <argsstring>(const MR_VdbVolume *volume, const MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f *pairs, const MR_VolumeSegmentationParameters *params)</argsstring>
+        <name>MR_segmentVolume</name>
+        <param>
+          <type>const <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>pairs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Simple segment volume. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><orderedlist>
+<listitem><para>Build paths between points pairs <linebreak/>
+</para>
+</listitem><listitem><para>Mark paths as inside part seeds <linebreak/>
+</para>
+</listitem><listitem><para>Mark volume part edges as outside part seeds <linebreak/>
+</para>
+</listitem><listitem><para>Return mesh from segmented inside part Generated from function <computeroutput>MR::segmentVolume</computeroutput>. Parameter <computeroutput>volume</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pairs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>MR::VolumeSegmentationParameters()</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="174" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="174" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1afeb5988ad114ce2167280ec6fc822672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmenter * MR_VolumeSegmenter_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_VolumeSegmenter *_other)</argsstring>
+        <name>MR_VolumeSegmenter_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::VolumeSegmenter::VolumeSegmenter</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1a7c87ff99d1b14ea8a13a5ab9d63ecf1b" kindref="member">MR_VolumeSegmenter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="179" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="179" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a2811bd34efc6b21bac10eff9e0f12e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+        <definition>MRC_API const MR_VolumeSegmenter * MR_VolumeSegmenter_OffsetPtr</definition>
+        <argsstring>(const MR_VolumeSegmenter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VolumeSegmenter_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="183" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="183" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1ae1896869aa88205f1faa7aba5cc8fb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmenter * MR_VolumeSegmenter_OffsetMutablePtr</definition>
+        <argsstring>(MR_VolumeSegmenter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VolumeSegmenter_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="187" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="187" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1afd79ce999d59ea96391d757346a4d467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+        <definition>MRC_API MR_VolumeSegmenter * MR_VolumeSegmenter_Construct</definition>
+        <argsstring>(const MR_VdbVolume *volume)</argsstring>
+        <name>MR_VolumeSegmenter_Construct</name>
+        <param>
+          <type>const <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::VolumeSegmenter::VolumeSegmenter</computeroutput>. Parameter <computeroutput>volume</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>volume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1a7c87ff99d1b14ea8a13a5ab9d63ecf1b" kindref="member">MR_VolumeSegmenter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="193" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="193" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a7c87ff99d1b14ea8a13a5ab9d63ecf1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmenter_Destroy</definition>
+        <argsstring>(const MR_VolumeSegmenter *_this)</argsstring>
+        <name>MR_VolumeSegmenter_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_VolumeSegmenter</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="196" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a3ed3af39691146a39e170a554a044c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmenter_DestroyArray</definition>
+        <argsstring>(const MR_VolumeSegmenter *_this)</argsstring>
+        <name>MR_VolumeSegmenter_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_VolumeSegmenter</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="199" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="199" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1ab45a55e16f09ad6da710a64d3eb9ef23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmenter_addPathSeeds</definition>
+        <argsstring>(MR_VolumeSegmenter *_this, const MR_VoxelMetricParameters *metricParameters, MR_VolumeSegmenter_SeedType seedType, const float *exponentModifier)</argsstring>
+        <name>MR_VolumeSegmenter_addPathSeeds</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref> *</type>
+          <declname>metricParameters</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>exponentModifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds path with given parameters, marks result as seedType seeds Generated from method <computeroutput>MR::VolumeSegmenter::addPathSeeds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metricParameters</computeroutput> can not be null. It is a single object. Parameter <computeroutput>exponentModifier</computeroutput> has a default argument: <computeroutput>-1.0f</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="206" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1af87a262dea1e463358243143f2c8d79e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmenter_setSeeds</definition>
+        <argsstring>(MR_VolumeSegmenter *_this, const MR_std_vector_MR_Vector3i *seeds, MR_VolumeSegmenter_SeedType seedType)</argsstring>
+        <name>MR_VolumeSegmenter_setSeeds</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref> *</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset seeds with given ones Generated from method <computeroutput>MR::VolumeSegmenter::setSeeds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>seeds</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="212" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a86dc25a5c16700a77929733ebcf6ca2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeSegmenter_addSeeds</definition>
+        <argsstring>(MR_VolumeSegmenter *_this, const MR_std_vector_MR_Vector3i *seeds, MR_VolumeSegmenter_SeedType seedType)</argsstring>
+        <name>MR_VolumeSegmenter_addSeeds</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref> *</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds new seeds to stored Generated from method <computeroutput>MR::VolumeSegmenter::addSeeds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>seeds</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="218" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1af84d6627c6d6fcfa7cd76f4c31becc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Vector3i * MR_VolumeSegmenter_getSeeds</definition>
+        <argsstring>(const MR_VolumeSegmenter *_this, MR_VolumeSegmenter_SeedType seedType)</argsstring>
+        <name>MR_VolumeSegmenter_getSeeds</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return currently stored seeds Generated from method <computeroutput>MR::VolumeSegmenter::getSeeds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="224" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="224" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a60859cec83110bbdff72e6682dcbe548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_VoxelBitSet_std_string * MR_VolumeSegmenter_segmentVolume</definition>
+        <argsstring>(MR_VolumeSegmenter *_this, const float *segmentationExponentModifier, const int *voxelsExpansion, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_VolumeSegmenter_segmentVolume</name>
+        <param>
+          <type><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>segmentationExponentModifier</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>voxelsExpansion</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from method <computeroutput>MR::VolumeSegmenter::segmentVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>segmentationExponentModifier</computeroutput> has a default argument: <computeroutput>3000.0f</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>voxelsExpansion</computeroutput> has a default argument: <computeroutput>25</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_VoxelBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="233" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="233" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a81d1a1bd8336960d4715ce8c6855313c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_VolumeSegmenter_createMeshFromSegmentation</definition>
+        <argsstring>(const MR_VolumeSegmenter *_this, const MR_VoxelBitSet *segmentation)</argsstring>
+        <name>MR_VolumeSegmenter_createMeshFromSegmentation</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *</type>
+          <declname>segmentation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns mesh of given segment Generated from method <computeroutput>MR::VolumeSegmenter::createMeshFromSegmentation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>segmentation</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="240" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="240" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1af27a18d8ee8508a680db55135eec329a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API const MR_Vector3i * MR_VolumeSegmenter_getVolumePartDimensions</definition>
+        <argsstring>(const MR_VolumeSegmenter *_this)</argsstring>
+        <name>MR_VolumeSegmenter_getVolumePartDimensions</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dimensions of volume part, filled after segmentation Generated from method <computeroutput>MR::VolumeSegmenter::getVolumePartDimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="246" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="246" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a5698d4f6a220c8495f2cad381270a058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API const MR_Vector3i * MR_VolumeSegmenter_getMinVoxel</definition>
+        <argsstring>(const MR_VolumeSegmenter *_this)</argsstring>
+        <name>MR_VolumeSegmenter_getMinVoxel</name>
+        <param>
+          <type>const <ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Min voxel of volume part box in whole volume space, filled after segmentation Generated from method <computeroutput>MR::VolumeSegmenter::getMinVoxel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="252" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="252" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVolumeSegment_8h_1ada0335bbc4f787215da06ef4b68eb94c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_Mesh_std_string * MR_segmentVoxelMaskToInstances</definition>
+        <argsstring>(const MR_VdbVolume *mask, const MR_uint64_t *minSize, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_segmentVoxelMaskToInstances</name>
+        <param>
+          <type>const <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>const MR_uint64_t *</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Given voxel mask, separate it into components using mincut algorithm <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minimum size of a segment (in voxels) Generated from function <computeroutput>MR::segmentVoxelMaskToInstances</computeroutput>. Parameter <computeroutput>mask</computeroutput> can not be null. It is a single object. Parameter <computeroutput>minSize</computeroutput> has a default argument: <computeroutput>100</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="261" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" declline="261" declcolumn="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRVolumeSegment_8h_1a3d8aa59058b2516d2c9b34241f2c0441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRVolumeSegment_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRVolumeSegment_8h_1a94b5f700f4835481dce132716ff73b05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelPath.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRVolumeSegment_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref><sp/><ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VoxelBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref><sp/><ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRVolumeSegment_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref><sp/><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3i.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/><ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_MR_Vector3f_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a5c5fd772c1865ba30595f1dabc5124ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a5c5fd772c1865ba30595f1dabc5124ee" kindref="member">MR_VolumeSegmenter_SeedType_Inside</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="36" refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a9f949b6fb4ecc17ca3a6803c0ff4784f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a9f949b6fb4ecc17ca3a6803c0ff4784f" kindref="member">MR_VolumeSegmenter_SeedType_Outside</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="37" refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a83a389f5799d4aa2b740e6eec0de02e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a83a389f5799d4aa2b740e6eec0de02e9" kindref="member">MR_VolumeSegmenter_SeedType_Count</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="38" refid="MRVolumeSegment_8h_1a2af59428533d5b0b42136dfa6d503672" refkind="member"><highlight class="normal">}<sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRVolumeSegment_8h_1acca188df475d138634d4f969f4020737" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1acca188df475d138634d4f969f4020737" kindref="member">MR_meshFromVoxelsMask</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*mask);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRVolumeSegment_8h_1a422b9e2094e958206f448f18ffd806cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRVolumeSegment_8h_1a422b9e2094e958206f448f18ffd806cf" kindref="member">MR_VolumeSegmentationParameters_Get_buildPathExponentModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRVolumeSegment_8h_1a496839f87345f1065f05fc0c68f20993" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a496839f87345f1065f05fc0c68f20993" kindref="member">MR_VolumeSegmentationParameters_Set_buildPathExponentModifier</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRVolumeSegment_8h_1a37d3fe27d5343e3a7f23cafdcf04bdc9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRVolumeSegment_8h_1a37d3fe27d5343e3a7f23cafdcf04bdc9" kindref="member">MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRVolumeSegment_8h_1aebe633caad36b65cb19c1667723be78c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRVolumeSegment_8h_1aebe633caad36b65cb19c1667723be78c" kindref="member">MR_VolumeSegmentationParameters_Get_segmentationExponentModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRVolumeSegment_8h_1aa539792b167d064c2b50df03059fef49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1aa539792b167d064c2b50df03059fef49" kindref="member">MR_VolumeSegmentationParameters_Set_segmentationExponentModifier</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRVolumeSegment_8h_1a700a07f40e7a5afb5fd49a3b65e75519" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRVolumeSegment_8h_1a700a07f40e7a5afb5fd49a3b65e75519" kindref="member">MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRVolumeSegment_8h_1a2ffedd0f97c23130dc79ad5d1e060df0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRVolumeSegment_8h_1a2ffedd0f97c23130dc79ad5d1e060df0" kindref="member">MR_VolumeSegmentationParameters_Get_voxelsExpansion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRVolumeSegment_8h_1a552c189205dc41029c15a782482307e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a552c189205dc41029c15a782482307e2" kindref="member">MR_VolumeSegmentationParameters_Set_voxelsExpansion</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRVolumeSegment_8h_1a4514f32efdce77edf79f263823b0f685" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRVolumeSegment_8h_1a4514f32efdce77edf79f263823b0f685" kindref="member">MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRVolumeSegment_8h_1ab8a2cbe5a8b40c314a38234145ab6b5f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1ab8a2cbe5a8b40c314a38234145ab6b5f" kindref="member">MR_VolumeSegmentationParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRVolumeSegment_8h_1a765a42c8b39e31259afe1d0f163b9818" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a765a42c8b39e31259afe1d0f163b9818" kindref="member">MR_VolumeSegmentationParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRVolumeSegment_8h_1a1833f8bca081337fb9b58b1a05ab2507" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a1833f8bca081337fb9b58b1a05ab2507" kindref="member">MR_VolumeSegmentationParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>buildPathExponentModifier,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>segmentationExponentModifier,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>voxelsExpansion);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRVolumeSegment_8h_1a816ab50a457628423ecaa9542ffc8919" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a816ab50a457628423ecaa9542ffc8919" kindref="member">MR_VolumeSegmentationParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRVolumeSegment_8h_1a199344a9e8620eef705213ef9d9d4c38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a199344a9e8620eef705213ef9d9d4c38" kindref="member">MR_VolumeSegmentationParameters_OffsetMutablePtr</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRVolumeSegment_8h_1a90980b792da3946fb9306c745c3dc08e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a90980b792da3946fb9306c745c3dc08e" kindref="member">MR_VolumeSegmentationParameters_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" kindref="member">MR_VolumeSegmentationParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRVolumeSegment_8h_1a9fce94501c837fd145a9aa7935bd9e1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a9fce94501c837fd145a9aa7935bd9e1f" kindref="member">MR_VolumeSegmentationParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRVolumeSegment_8h_1a0a8c27fe048518d09db63cf536676219" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a0a8c27fe048518d09db63cf536676219" kindref="member">MR_VolumeSegmentationParameters_AssignFromAnother</ref>(<ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRVolumeSegment_8h_1ab384c7e62518030b967b84c0ed1b6db6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1ab384c7e62518030b967b84c0ed1b6db6" kindref="member">MR_segmentVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*pairs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRVolumeSegment_8h_1afeb5988ad114ce2167280ec6fc822672" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*<ref refid="MRVolumeSegment_8h_1afeb5988ad114ce2167280ec6fc822672" kindref="member">MR_VolumeSegmenter_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRVolumeSegment_8h_1a2811bd34efc6b21bac10eff9e0f12e6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a2811bd34efc6b21bac10eff9e0f12e6a" kindref="member">MR_VolumeSegmenter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRVolumeSegment_8h_1ae1896869aa88205f1faa7aba5cc8fb86" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*<ref refid="MRVolumeSegment_8h_1ae1896869aa88205f1faa7aba5cc8fb86" kindref="member">MR_VolumeSegmenter_OffsetMutablePtr</ref>(<ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRVolumeSegment_8h_1afd79ce999d59ea96391d757346a4d467" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*<ref refid="MRVolumeSegment_8h_1afd79ce999d59ea96391d757346a4d467" kindref="member">MR_VolumeSegmenter_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRVolumeSegment_8h_1a7c87ff99d1b14ea8a13a5ab9d63ecf1b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7c87ff99d1b14ea8a13a5ab9d63ecf1b" kindref="member">MR_VolumeSegmenter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRVolumeSegment_8h_1a3ed3af39691146a39e170a554a044c75" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a3ed3af39691146a39e170a554a044c75" kindref="member">MR_VolumeSegmenter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="MRVolumeSegment_8h_1ab45a55e16f09ad6da710a64d3eb9ef23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1ab45a55e16f09ad6da710a64d3eb9ef23" kindref="member">MR_VolumeSegmenter_addPathSeeds</ref>(<ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*metricParameters,<sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref><sp/>seedType,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*exponentModifier);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRVolumeSegment_8h_1af87a262dea1e463358243143f2c8d79e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1af87a262dea1e463358243143f2c8d79e" kindref="member">MR_VolumeSegmenter_setSeeds</ref>(<ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref><sp/>*seeds,<sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref><sp/>seedType);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRVolumeSegment_8h_1a86dc25a5c16700a77929733ebcf6ca2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a86dc25a5c16700a77929733ebcf6ca2c" kindref="member">MR_VolumeSegmenter_addSeeds</ref>(<ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref><sp/>*seeds,<sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref><sp/>seedType);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRVolumeSegment_8h_1af84d6627c6d6fcfa7cd76f4c31becc80" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref><sp/>*<ref refid="MRVolumeSegment_8h_1af84d6627c6d6fcfa7cd76f4c31becc80" kindref="member">MR_VolumeSegmenter_getSeeds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this,<sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref><sp/>seedType);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRVolumeSegment_8h_1a60859cec83110bbdff72e6682dcbe548" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a60859cec83110bbdff72e6682dcbe548" kindref="member">MR_VolumeSegmenter_segmentVolume</ref>(<ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*segmentationExponentModifier,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*voxelsExpansion,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRVolumeSegment_8h_1a81d1a1bd8336960d4715ce8c6855313c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a81d1a1bd8336960d4715ce8c6855313c" kindref="member">MR_VolumeSegmenter_createMeshFromSegmentation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*segmentation);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRVolumeSegment_8h_1af27a18d8ee8508a680db55135eec329a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeSegment_8h_1af27a18d8ee8508a680db55135eec329a" kindref="member">MR_VolumeSegmenter_getVolumePartDimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRVolumeSegment_8h_1a5698d4f6a220c8495f2cad381270a058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a5698d4f6a220c8495f2cad381270a058" kindref="member">MR_VolumeSegmenter_getMinVoxel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRVolumeSegment_8h_1ada0335bbc4f787215da06ef4b68eb94c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1ada0335bbc4f787215da06ef4b68eb94c" kindref="member">MR_segmentVoxelMaskToInstances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*minSize,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h"/>
+  </compounddef>
+</doxygen>

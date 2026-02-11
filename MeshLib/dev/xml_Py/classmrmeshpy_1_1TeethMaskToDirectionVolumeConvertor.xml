@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TeethMaskToDirectionVolumeConvertor</compoundname>
+    <innerclass refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" prot="public">mrmeshpy::TeethMaskToDirectionVolumeConvertor::ProcessResult</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a40ba51d9ced8b00df725766f33d48dbe" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.TeethMaskToDirectionVolumeConvertor::DirectionVolume</definition>
+        <argsstring></argsstring>
+        <name>DirectionVolume</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.DirectionVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55952" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1ab509d32ed32f07203bd6b20ca1b7b4e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TeethMaskToDirectionVolumeConvertor.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55955" bodyend="55956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a2c0a62641fccf52a33448e8b8940d968" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">TeethMaskToDirectionVolumeConvertor</ref></type>
+        <definition> TeethMaskToDirectionVolumeConvertor mrmeshpy.TeethMaskToDirectionVolumeConvertor.create</definition>
+        <argsstring>(VdbVolume volume, std_vector_int additionalIds=...)</argsstring>
+        <name>create</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.create</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__int" kindref="compound">std_vector_int</ref></type>
+          <declname>additionalIds</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize class
+@param volume Voxel mask
+@param additionalIds List of additional ids (besides teeth) to convert
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55958" bodyend="55963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a7b9a2d670eb0d252ff26197de81ecf28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">TeethMaskToDirectionVolumeConvertor</ref></type>
+        <definition> TeethMaskToDirectionVolumeConvertor mrmeshpy.TeethMaskToDirectionVolumeConvertor.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55966" bodyend="55967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a7b9a2d670eb0d252ff26197de81ecf28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">TeethMaskToDirectionVolumeConvertor</ref></type>
+        <definition> TeethMaskToDirectionVolumeConvertor mrmeshpy.TeethMaskToDirectionVolumeConvertor.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55970" bodyend="55971"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a4b7a82729e9c09337391d4ef0139aac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TeethMaskToDirectionVolumeConvertor.__init__</definition>
+        <argsstring>(self, TeethMaskToDirectionVolumeConvertor arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">TeethMaskToDirectionVolumeConvertor</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55973" bodyend="55976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1af63032b4e475975783f3c9f78fe43464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">TeethMaskToDirectionVolumeConvertor.ProcessResult</ref></type>
+        <definition> TeethMaskToDirectionVolumeConvertor.ProcessResult mrmeshpy.TeethMaskToDirectionVolumeConvertor.convertAll</definition>
+        <argsstring>(self)</argsstring>
+        <name>convertAll</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.convertAll</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Converts all the objects into direction volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55977" bodyend="55980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a833687aee7f94594ed13bdc339af0d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">TeethMaskToDirectionVolumeConvertor.ProcessResult</ref></type>
+        <definition> TeethMaskToDirectionVolumeConvertor.ProcessResult mrmeshpy.TeethMaskToDirectionVolumeConvertor.convertObject</definition>
+        <argsstring>(self, int id)</argsstring>
+        <name>convertObject</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.convertObject</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Converts single object into direction volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55981" bodyend="55984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a7970642af3338ffe936e79edd78f17e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int" kindref="compound">phmap_flat_hash_map_int_Box_Vector3_int</ref></type>
+        <definition> phmap_flat_hash_map_int_Box_Vector3_int mrmeshpy.TeethMaskToDirectionVolumeConvertor.getObjectBounds</definition>
+        <argsstring>(self)</argsstring>
+        <name>getObjectBounds</name>
+        <qualifiedname>mrmeshpy.TeethMaskToDirectionVolumeConvertor.getObjectBounds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns all the objects present in volume and corresponding bounding boxes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55985" bodyend="55988"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TeethMaskToDirectionVolumeConvertor
+
+This class is an alternative to directly invoking \\ref meshToDirectionVolume for the mesh retrieved from the teeth mask.
+It is better because when a single mesh is created from mask, some neighboring teeth might fuse together, creating incorrect mask.
+This class invokes meshing for each teeth separately, thus eliminating this problem.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55911" bodyend="55988"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1ab509d32ed32f07203bd6b20ca1b7b4e5" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a4b7a82729e9c09337391d4ef0139aac4" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1af63032b4e475975783f3c9f78fe43464" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>convertAll</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a833687aee7f94594ed13bdc339af0d54" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>convertObject</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a2c0a62641fccf52a33448e8b8940d968" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>create</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a40ba51d9ced8b00df725766f33d48dbe" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>DirectionVolume</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a7970642af3338ffe936e79edd78f17e5" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>getObjectBounds</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a7b9a2d670eb0d252ff26197de81ecf28" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1a7b9a2d670eb0d252ff26197de81ecf28" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

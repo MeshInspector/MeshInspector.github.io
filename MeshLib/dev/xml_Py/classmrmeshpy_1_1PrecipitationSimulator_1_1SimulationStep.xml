@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PrecipitationSimulator::SimulationStep</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1abd104f29ff9ddc18f0ec4a2fbe26eda5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PrecipitationSimulator.SimulationStep::_offsetof_amount</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_amount</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep._offsetof_amount</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48018" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a8f3138b860b262a9f2430af304ca4ccd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PrecipitationSimulator.SimulationStep::_offsetof_basin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_basin</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep._offsetof_basin</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48019" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a0063ce10fcfe8a6684d81905cce5cf3f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PrecipitationSimulator.SimulationStep::_offsetof_event</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_event</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep._offsetof_event</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a06bf1c5da2de48017507b32081008bc1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PrecipitationSimulator.SimulationStep::_offsetof_neiBasin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_neiBasin</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep._offsetof_neiBasin</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48021" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1af53f3b4ec0553529acc4dc37c7bfb867" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1PrecipitationSimulator" kindref="compound">PrecipitationSimulator</ref></type>
+        <definition>PrecipitationSimulator mrmeshpy.PrecipitationSimulator.SimulationStep::event</definition>
+        <argsstring></argsstring>
+        <name>event</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.event</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1PrecipitationSimulator_1_1Event" kindref="compound">Event</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48022" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1ae8cbb7bf02304cbe0d60c0c87a51d114" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48025" bodyend="48026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1ad5cf14f47dab52f1396162640905324d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep" kindref="compound">PrecipitationSimulator.SimulationStep</ref></type>
+        <definition> PrecipitationSimulator.SimulationStep mrmeshpy.PrecipitationSimulator.SimulationStep.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48029" bodyend="48030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1ad5cf14f47dab52f1396162640905324d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep" kindref="compound">PrecipitationSimulator.SimulationStep</ref></type>
+        <definition> PrecipitationSimulator.SimulationStep mrmeshpy.PrecipitationSimulator.SimulationStep.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48033" bodyend="48034"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1aba9b26d1389c8f32c5d29ffbea2951b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48036" bodyend="48037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1adf80729185c476bb7e56f3149a50371d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</definition>
+        <argsstring>(self, PrecipitationSimulator.SimulationStep arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep" kindref="compound">PrecipitationSimulator.SimulationStep</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48039" bodyend="48042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1aec57b3e999512c4ac69c97485dea6d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</definition>
+        <argsstring>(self, PrecipitationSimulator.Event event, float amount, GraphVertId basin, GraphVertId neiBasin)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PrecipitationSimulator_1_1Event" kindref="compound">PrecipitationSimulator.Event</ref></type>
+          <declname>event</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>neiBasin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48044" bodyend="48047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a5d6ddb68f425542a6f40c70927da5ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PrecipitationSimulator.SimulationStep.amount</definition>
+        <argsstring>(self)</argsstring>
+        <name>amount</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.amount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>amount of precipitation (in same units as mesh coordinates and water level)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48049" bodyend="48052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a4360255b7e6f900c4e5a150b9164f33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.amount</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>amount</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.amount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48054" bodyend="48055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a38cc92381b76ed0db7f15735bdc939e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.PrecipitationSimulator.SimulationStep.basin</definition>
+        <argsstring>(self)</argsstring>
+        <name>basin</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.basin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>BasinFull: this basin just became full
+Merge: this basin just absorbed the other basin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48057" bodyend="48061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a2e17ea0005e468027055ec70f346bc2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.basin</definition>
+        <argsstring>(self, GraphVertId arg1)</argsstring>
+        <name>basin</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.basin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48063" bodyend="48064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a83a6ae97ac5dfdd0631613f33f853a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.PrecipitationSimulator.SimulationStep.neiBasin</definition>
+        <argsstring>(self)</argsstring>
+        <name>neiBasin</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.neiBasin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>BasinFull: the flow from full basin will first go here (may be not the last destination)
+Merge: this basin was just absorbed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48066" bodyend="48070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a118ea8cb8876c91c4ad244cff382be7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PrecipitationSimulator.SimulationStep.neiBasin</definition>
+        <argsstring>(self, GraphVertId arg1)</argsstring>
+        <name>neiBasin</name>
+        <qualifiedname>mrmeshpy.PrecipitationSimulator.SimulationStep.neiBasin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48072" bodyend="48074"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PrecipitationSimulator::SimulationStep
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PrecipitationSimulator.SimulationStep</label>
+        <link refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_amount</edgelabel>
+          <edgelabel>_offsetof_basin</edgelabel>
+          <edgelabel>_offsetof_event</edgelabel>
+          <edgelabel>_offsetof_neiBasin</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>event</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.PrecipitationSimulator</label>
+        <link refid="classmrmeshpy_1_1PrecipitationSimulator"/>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48014" bodyend="48073"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1ae8cbb7bf02304cbe0d60c0c87a51d114" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1aba9b26d1389c8f32c5d29ffbea2951b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1adf80729185c476bb7e56f3149a50371d" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1aec57b3e999512c4ac69c97485dea6d98" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1abd104f29ff9ddc18f0ec4a2fbe26eda5" prot="protected" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>_offsetof_amount</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a8f3138b860b262a9f2430af304ca4ccd" prot="protected" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>_offsetof_basin</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a0063ce10fcfe8a6684d81905cce5cf3f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>_offsetof_event</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a06bf1c5da2de48017507b32081008bc1" prot="protected" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>_offsetof_neiBasin</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a5d6ddb68f425542a6f40c70927da5ab0" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>amount</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a4360255b7e6f900c4e5a150b9164f33e" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>amount</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a38cc92381b76ed0db7f15735bdc939e5" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>basin</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a2e17ea0005e468027055ec70f346bc2e" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>basin</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1af53f3b4ec0553529acc4dc37c7bfb867" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>event</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a83a6ae97ac5dfdd0631613f33f853a7b" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>neiBasin</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1a118ea8cb8876c91c4ad244cff382be7f" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>neiBasin</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1ad5cf14f47dab52f1396162640905324d" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep_1ad5cf14f47dab52f1396162640905324d" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::SimulationStep</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1LinesSave" kind="namespace" language="C++">
+    <compoundname>MR::LinesSave</compoundname>
+    <innerclass refid="structMR_1_1LinesSave_1_1LinesSaver" prot="public">MR::LinesSave::LinesSaver</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <definition>using MR::LinesSave::LinesFileSaver =  Expected&lt;void&gt;( * )( const Polyline3&amp;, const std::filesystem::path&amp;, const SaveSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>LinesFileSaver</name>
+        <qualifiedname>MR::LinesSave::LinesFileSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <definition>using MR::LinesSave::LinesStreamSaver =  Expected&lt;void&gt;( * )( const Polyline3&amp;, std::ostream&amp;, const SaveSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>LinesStreamSaver</name>
+        <qualifiedname>MR::LinesSave::LinesStreamSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__LinesSaveGroup_1ga802f6247e04cbaf42586219ff7ac82ca" kind="function"><name>toMrLines</name></member>
+      <member refid="group__LinesSaveGroup_1ga4b7e9d630f170ae31e5bd907deb81e87" kind="function"><name>toMrLines</name></member>
+      <member refid="group__LinesSaveGroup_1gacc61869c3919edab3a7ba6f1c319dd20" kind="function"><name>toPts</name></member>
+      <member refid="group__LinesSaveGroup_1ga5c820510729d56008737085405a76399" kind="function"><name>toPts</name></member>
+      <member refid="group__LinesSaveGroup_1gadbd1551d2a728738185c2a7b126509cc" kind="function"><name>toDxf</name></member>
+      <member refid="group__LinesSaveGroup_1gaf9e24deee77823271019b388fedada34" kind="function"><name>toDxf</name></member>
+      <member refid="group__LinesSaveGroup_1ga8582df77b31c46c45c89a69bc125e25b" kind="function"><name>toPly</name></member>
+      <member refid="group__LinesSaveGroup_1gaf4108e691fa648cb77a81978a2da87ac" kind="function"><name>toPly</name></member>
+      <member refid="group__LinesSaveGroup_1ga7daab131397a83e2aceac630038c48c2" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__LinesSaveGroup_1gaea08a483f07d8b0d2f12e86c10596f80" kind="function"><name>toAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1LinesLoad" kindref="compound">LinesLoad</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="221" column="1"/>
+  </compounddef>
+</doxygen>

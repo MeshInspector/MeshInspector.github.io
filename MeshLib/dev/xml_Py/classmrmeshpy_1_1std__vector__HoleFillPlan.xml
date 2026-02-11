@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__HoleFillPlan" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_HoleFillPlan</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a8e816ddc2e4b7ef34c8df7540c63a08c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_HoleFillPlan::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.element_type_byte_size</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ab6685f0f0c1005b638d3a91b4fc1f5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_HoleFillPlan.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82181" bodyend="82184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ad29d1d35fd2bb017bc3891cae9e883a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82186" bodyend="82189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a6812c231959d45434be24fbea3a4fa50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82191" bodyend="82194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a0de72e18572959b4ea4041cb134501b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__HoleFillPlan" kindref="compound">std_vector_HoleFillPlan</ref></type>
+        <definition> std_vector_HoleFillPlan mrmeshpy.std_vector_HoleFillPlan.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82196" bodyend="82199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1aef6676b85d70ab1284f0516bddbe7dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+        <definition> HoleFillPlan mrmeshpy.std_vector_HoleFillPlan.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82201" bodyend="82202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ae37140e1eaa2e69ccbac041c2e25db4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82204" bodyend="82205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a222dac4faac2d214bc3b2ee7bb36651c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82207" bodyend="82208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1af2380a77310430525eecc67707c839b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__init__</definition>
+        <argsstring>(self, std_vector_HoleFillPlan arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__HoleFillPlan" kindref="compound">std_vector_HoleFillPlan</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82210" bodyend="82211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a750eb71f6f4b7fcc3342bfb8c9b7df26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref>]</type>
+        <definition> typing.Iterator[HoleFillPlan] mrmeshpy.std_vector_HoleFillPlan.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82212" bodyend="82213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1abcd0e02f4a9bc9104410b965f47c1d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_HoleFillPlan.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82214" bodyend="82215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a0e2b3789b622ae340079b40323f8d47d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__setitem__</definition>
+        <argsstring>(self, int arg0, HoleFillPlan arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82217" bodyend="82218"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ae01a420472337e5f0185d364e38e8d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_HoleFillPlan arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__HoleFillPlan" kindref="compound">std_vector_HoleFillPlan</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82220" bodyend="82223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ab9030685320c6922a92d33685339792a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.append</definition>
+        <argsstring>(self, HoleFillPlan x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82224" bodyend="82227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a1db3c1496c0bbb2016efc5d1df61dd02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82228" bodyend="82231"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a1e0f716d5a506c371c895a31950f3c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_HoleFillPlan.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82232" bodyend="82235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ab1b6aa80522f0a3989945330a105b340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_HoleFillPlan.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82236" bodyend="82237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a3d8b6595dad57cb75f6ba1c1090afe93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.extend</definition>
+        <argsstring>(self, std_vector_HoleFillPlan L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__HoleFillPlan" kindref="compound">std_vector_HoleFillPlan</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82239" bodyend="82242"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a9e2f0340a5ac08481d25a989e3c36021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82244" bodyend="82247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a5162d32c87d7f59b23aebe850f49a011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.insert</definition>
+        <argsstring>(self, int i, HoleFillPlan x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82248" bodyend="82251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a9a1daac45b09514ba4af3c752fd273fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+        <definition> HoleFillPlan mrmeshpy.std_vector_HoleFillPlan.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82253" bodyend="82256"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a37d5dc6467ec4b0b441b3fc43ad37dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+        <definition> HoleFillPlan mrmeshpy.std_vector_HoleFillPlan.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82258" bodyend="82261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1ae9c810865b220daf803f7a0bb02869aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82263" bodyend="82264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1a01e5253f5bdb6b58f5663a05a239f276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_HoleFillPlan.resize</definition>
+        <argsstring>(self, int arg0, HoleFillPlan arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82266" bodyend="82267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__HoleFillPlan_1abdd48c2096d554a8d1b911f717952c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_HoleFillPlan.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_HoleFillPlan.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82268" bodyend="82269"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_HoleFillPlan</label>
+        <link refid="classmrmeshpy_1_1std__vector__HoleFillPlan"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82179" bodyend="82269"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ab6685f0f0c1005b638d3a91b4fc1f5d0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ad29d1d35fd2bb017bc3891cae9e883a4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a6812c231959d45434be24fbea3a4fa50" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a0de72e18572959b4ea4041cb134501b0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1aef6676b85d70ab1284f0516bddbe7dfe" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ae37140e1eaa2e69ccbac041c2e25db4c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a222dac4faac2d214bc3b2ee7bb36651c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1af2380a77310430525eecc67707c839b2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a750eb71f6f4b7fcc3342bfb8c9b7df26" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1abcd0e02f4a9bc9104410b965f47c1d17" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a0e2b3789b622ae340079b40323f8d47d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ae01a420472337e5f0185d364e38e8d97" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ab9030685320c6922a92d33685339792a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a1db3c1496c0bbb2016efc5d1df61dd02" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a1e0f716d5a506c371c895a31950f3c7c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a8e816ddc2e4b7ef34c8df7540c63a08c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ab1b6aa80522f0a3989945330a105b340" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a3d8b6595dad57cb75f6ba1c1090afe93" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a9e2f0340a5ac08481d25a989e3c36021" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a5162d32c87d7f59b23aebe850f49a011" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a9a1daac45b09514ba4af3c752fd273fe" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a37d5dc6467ec4b0b441b3fc43ad37dfe" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1ae9c810865b220daf803f7a0bb02869aa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1a01e5253f5bdb6b58f5663a05a239f276" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__HoleFillPlan_1abdd48c2096d554a8d1b911f717952c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_HoleFillPlan</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectChildrenHolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::ObjectChildrenHolder</compoundname>
+    <derivedcompoundref refid="classMR_1_1Object" prot="public" virt="non-virtual">MR::Object</derivedcompoundref>
+    <includes refid="MRObject_8h" local="no">MRObject.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> *</type>
+        <definition>ObjectChildrenHolder* MR::ObjectChildrenHolder::parent_</definition>
+        <argsstring></argsstring>
+        <name>parent_</name>
+        <qualifiedname>MR::ObjectChildrenHolder::parent_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="55" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; MR::ObjectChildrenHolder::children_</definition>
+        <argsstring></argsstring>
+        <name>children_</name>
+        <qualifiedname>MR::ObjectChildrenHolder::children_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="56" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::weak_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::weak_ptr&lt; Object &gt; &gt; MR::ObjectChildrenHolder::bastards_</definition>
+        <argsstring></argsstring>
+        <name>bastards_</name>
+        <qualifiedname>MR::ObjectChildrenHolder::bastards_</qualifiedname>
+        <briefdescription>
+<para>recognized ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="57" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectChildrenHolder::ObjectChildrenHolder</definition>
+        <argsstring>()=default</argsstring>
+        <name>ObjectChildrenHolder</name>
+        <qualifiedname>MR::ObjectChildrenHolder::ObjectChildrenHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectChildrenHolder::ObjectChildrenHolder</definition>
+        <argsstring>(const ObjectChildrenHolder &amp;) noexcept</argsstring>
+        <name>ObjectChildrenHolder</name>
+        <qualifiedname>MR::ObjectChildrenHolder::ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="40" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
+        <definition>ObjectChildrenHolder &amp; MR::ObjectChildrenHolder::operator=</definition>
+        <argsstring>(const ObjectChildrenHolder &amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::ObjectChildrenHolder::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="41" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ObjectChildrenHolder::ObjectChildrenHolder</definition>
+        <argsstring>(ObjectChildrenHolder &amp;&amp;) noexcept</argsstring>
+        <name>ObjectChildrenHolder</name>
+        <qualifiedname>MR::ObjectChildrenHolder::ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="42" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
+        <definition>MRMESH_API ObjectChildrenHolder &amp; MR::ObjectChildrenHolder::operator=</definition>
+        <argsstring>(ObjectChildrenHolder &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::ObjectChildrenHolder::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="43" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ObjectChildrenHolder::~ObjectChildrenHolder</definition>
+        <argsstring>()</argsstring>
+        <name>~ObjectChildrenHolder</name>
+        <qualifiedname>MR::ObjectChildrenHolder::~ObjectChildrenHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="44" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectChildrenHolder::getSharedPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR::ObjectChildrenHolder::getSharedPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns this <ref refid="classMR_1_1Object" kindref="compound">Object</ref> as shared_ptr finds it among its parent&apos;s recognized children </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="48" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a2c5ae3e70a79035b70eff2b38bd1e383" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::ObjectChildrenHolder::heapBytes</definition>
+        <argsstring>() const</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ObjectChildrenHolder::heapBytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the amount of memory this object occupies on heap, including the memory of all recognized children </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="52" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the main purpose of this class is to avoid copy and move constructor and assignment operator implementation in <ref refid="classMR_1_1Object" kindref="compound">Object</ref> class, which has too many fields for that; since every object stores a pointer on its parent, copying of this object does not copy the children and moving is taken with care </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::length &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::AngleMeasurementObject</label>
+        <link refid="classMR_1_1AngleMeasurementObject"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::CircleObject</label>
+        <link refid="classMR_1_1CircleObject"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::ConeObject</label>
+        <link refid="classMR_1_1ConeObject"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::CylinderObject</label>
+        <link refid="classMR_1_1CylinderObject"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::DistanceMeasurementObject</label>
+        <link refid="classMR_1_1DistanceMeasurementObject"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::LineObject</label>
+        <link refid="classMR_1_1LineObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::MeasurementObject</label>
+        <link refid="classMR_1_1MeasurementObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="30">
+        <label>MR::ObjectDistanceMap</label>
+        <link refid="classMR_1_1ObjectDistanceMap"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MR::ObjectGcode</label>
+        <link refid="classMR_1_1ObjectGcode"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::ObjectImGuiLabel</label>
+        <link refid="classMR_1_1ObjectImGuiLabel"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MR::ObjectLabel</label>
+        <link refid="classMR_1_1ObjectLabel"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::ObjectLines</label>
+        <link refid="classMR_1_1ObjectLines"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MR::ObjectLinesHolder</label>
+        <link refid="classMR_1_1ObjectLinesHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MR::ObjectMesh</label>
+        <link refid="classMR_1_1ObjectMesh"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MR::ObjectMeshHolder</label>
+        <link refid="classMR_1_1ObjectMeshHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MR::ObjectPoints</label>
+        <link refid="classMR_1_1ObjectPoints"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MR::ObjectPointsHolder</label>
+        <link refid="classMR_1_1ObjectPointsHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MR::ObjectVoxels</label>
+        <link refid="classMR_1_1ObjectVoxels"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::PlaneObject</label>
+        <link refid="classMR_1_1PlaneObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::PointMeasurementObject</label>
+        <link refid="classMR_1_1PointMeasurementObject"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::PointObject</label>
+        <link refid="classMR_1_1PointObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MR::RadiusMeasurementObject</label>
+        <link refid="classMR_1_1RadiusMeasurementObject"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectMesh &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectPoints &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SceneRootObject</label>
+        <link refid="classMR_1_1SceneRootObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::SphereObject</label>
+        <link refid="classMR_1_1SphereObject"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="37" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>children_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2c5ae3e70a79035b70eff2b38bd1e383" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>parent_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>~ObjectChildrenHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

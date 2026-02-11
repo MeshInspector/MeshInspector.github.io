@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RefineParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RefineParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RefineParameters_1ac3050017cff3e7a7b28ff2a6d742916d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RefineParameters::_offsetof_callback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callback</name>
+        <qualifiedname>mrmeshpy.RefineParameters._offsetof_callback</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RefineParameters_1add45c485c3532c8e0c65f21f49d5de92" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RefineParameters::_offsetof_distanceLimit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distanceLimit</name>
+        <qualifiedname>mrmeshpy.RefineParameters._offsetof_distanceLimit</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RefineParameters_1a70d71521d0cb83fac82538d7f871befe" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RefineParameters::_offsetof_faceRegion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faceRegion</name>
+        <qualifiedname>mrmeshpy.RefineParameters._offsetof_faceRegion</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RefineParameters_1abb8f94a894be1c6d5aa585ec9168141d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RefineParameters::_offsetof_maxIterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxIterations</name>
+        <qualifiedname>mrmeshpy.RefineParameters._offsetof_maxIterations</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RefineParameters_1a7fc28b138e7a1541567be2c0c7378626" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RefineParameters::_offsetof_normalTolerance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normalTolerance</name>
+        <qualifiedname>mrmeshpy.RefineParameters._offsetof_normalTolerance</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RefineParameters_1ab05c3ac1a4d4be77ef11af21f67ecf2c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RefineParameters::_offsetof_vertRegion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertRegion</name>
+        <qualifiedname>mrmeshpy.RefineParameters._offsetof_vertRegion</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49429" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1aff64b81909211d7585f7a4ffd1f2c8b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RefineParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49432" bodyend="49433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1ab39e4ea2e11ddc682433cec47cacf217" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RefineParameters" kindref="compound">RefineParameters</ref></type>
+        <definition> RefineParameters mrmeshpy.RefineParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RefineParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49436" bodyend="49437"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1ab39e4ea2e11ddc682433cec47cacf217" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RefineParameters" kindref="compound">RefineParameters</ref></type>
+        <definition> RefineParameters mrmeshpy.RefineParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RefineParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49440" bodyend="49441"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1acf33a05de47a2831ac4cf048c1a74741" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RefineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49443" bodyend="49444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1acd0f46bb4315867d74418969152d5cb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.__init__</definition>
+        <argsstring>(self, RefineParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RefineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RefineParameters" kindref="compound">RefineParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49446" bodyend="49449"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a9f20ffd02f56b33f919ff90ad3b9dbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.__init__</definition>
+        <argsstring>(self, float distanceLimit, float normalTolerance, FaceBitSet faceRegion, VertBitSet vertRegion, int maxIterations, func_bool_from_float callback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RefineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distanceLimit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>normalTolerance</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>faceRegion</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>vertRegion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49451" bodyend="49454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a118df3b4ad0b5de329b439dd35545cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.RefineParameters.callback</definition>
+        <argsstring>(self)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.RefineParameters.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49456" bodyend="49459"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a2ed0870ce4b93a5512598bab0264114f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.callback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.RefineParameters.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49461" bodyend="49462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1ace795ecc7673a27af34bed714a4b169b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RefineParameters.distanceLimit</definition>
+        <argsstring>(self)</argsstring>
+        <name>distanceLimit</name>
+        <qualifiedname>mrmeshpy.RefineParameters.distanceLimit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum distance from the source model to the feature
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49464" bodyend="49467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1ac5367f4dac08d1297d60fab5d0477bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.distanceLimit</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distanceLimit</name>
+        <qualifiedname>mrmeshpy.RefineParameters.distanceLimit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49469" bodyend="49470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1aed27cb421b9419e31e7b0c1bbc2c8ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.RefineParameters.faceRegion</definition>
+        <argsstring>(self)</argsstring>
+        <name>faceRegion</name>
+        <qualifiedname>mrmeshpy.RefineParameters.faceRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(for meshes only) Reference faces used for filtering intermediate results that are too far from it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49472" bodyend="49475"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a4efb28c290a2009135c841cec5e9a454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.faceRegion</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>faceRegion</name>
+        <qualifiedname>mrmeshpy.RefineParameters.faceRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49477" bodyend="49478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a051da0d3d1c50ad911a353fa44ee9ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RefineParameters.maxIterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>mrmeshpy.RefineParameters.maxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum amount of iterations performed until a stable set of points is found
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49480" bodyend="49483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a4aa99446193f829c2aec31c3bd21ebd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.maxIterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>mrmeshpy.RefineParameters.maxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49485" bodyend="49486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a1fc7f053b0d62a2a10700a9a19b90c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RefineParameters.normalTolerance</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalTolerance</name>
+        <qualifiedname>mrmeshpy.RefineParameters.normalTolerance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum angle between the source model&apos;s normal and the feature&apos;s normal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49488" bodyend="49491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1ad37d38dd7055075713a819d29d8f1d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.normalTolerance</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>normalTolerance</name>
+        <qualifiedname>mrmeshpy.RefineParameters.normalTolerance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49493" bodyend="49494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1a935dbfcb32448ce1a440cf1ae0b34392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.RefineParameters.vertRegion</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>mrmeshpy.RefineParameters.vertRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49496" bodyend="49499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RefineParameters_1ab01bedaf072601bc1f46f29fc81c4a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RefineParameters.vertRegion</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>mrmeshpy.RefineParameters.vertRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49501" bodyend="49502"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RefineParameters
+
+Optional parameters for \\ref refineFeatureObject
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RefineParameters</label>
+        <link refid="classmrmeshpy_1_1RefineParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callback</edgelabel>
+          <edgelabel>_offsetof_distanceLimit</edgelabel>
+          <edgelabel>_offsetof_faceRegion</edgelabel>
+          <edgelabel>_offsetof_maxIterations</edgelabel>
+          <edgelabel>_offsetof_normalTolerance</edgelabel>
+          <edgelabel>_offsetof_vertRegion</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49418" bodyend="49502"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RefineParameters_1aff64b81909211d7585f7a4ffd1f2c8b8" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1acf33a05de47a2831ac4cf048c1a74741" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1acd0f46bb4315867d74418969152d5cb0" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a9f20ffd02f56b33f919ff90ad3b9dbd2" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ac3050017cff3e7a7b28ff2a6d742916d" prot="protected" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>_offsetof_callback</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1add45c485c3532c8e0c65f21f49d5de92" prot="protected" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>_offsetof_distanceLimit</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a70d71521d0cb83fac82538d7f871befe" prot="protected" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>_offsetof_faceRegion</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1abb8f94a894be1c6d5aa585ec9168141d" prot="protected" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>_offsetof_maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a7fc28b138e7a1541567be2c0c7378626" prot="protected" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>_offsetof_normalTolerance</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ab05c3ac1a4d4be77ef11af21f67ecf2c" prot="protected" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>_offsetof_vertRegion</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a118df3b4ad0b5de329b439dd35545cb8" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a2ed0870ce4b93a5512598bab0264114f" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ace795ecc7673a27af34bed714a4b169b" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>distanceLimit</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ac5367f4dac08d1297d60fab5d0477bf2" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>distanceLimit</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1aed27cb421b9419e31e7b0c1bbc2c8ec5" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>faceRegion</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a4efb28c290a2009135c841cec5e9a454" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>faceRegion</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a051da0d3d1c50ad911a353fa44ee9ce9" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a4aa99446193f829c2aec31c3bd21ebd7" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a1fc7f053b0d62a2a10700a9a19b90c87" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>normalTolerance</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ad37d38dd7055075713a819d29d8f1d4d" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>normalTolerance</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ab39e4ea2e11ddc682433cec47cacf217" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ab39e4ea2e11ddc682433cec47cacf217" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1a935dbfcb32448ce1a440cf1ae0b34392" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>vertRegion</name></member>
+      <member refid="classmrmeshpy_1_1RefineParameters_1ab01bedaf072601bc1f46f29fc81c4a5b" prot="public" virt="non-virtual"><scope>mrmeshpy::RefineParameters</scope><name>vertRegion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

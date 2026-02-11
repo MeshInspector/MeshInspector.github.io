@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRUITestEngine.h</includes>
+    <templateparamlist>
+      <param>
+        <type>std::same_as&lt; std::string &gt;</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a75052a15d9676e842bbd866aa32fa037" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::value</qualifiedname>
+        <briefdescription>
+<para>The current value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="135" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1ae87e1750cabd4b10198e82ed353eb4f1" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; std::vector&lt; std::string &gt; &gt;</type>
+        <definition>std::optional&lt;std::vector&lt;std::string&gt; &gt; MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::allowedValues</definition>
+        <argsstring></argsstring>
+        <name>allowedValues</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::allowedValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a39c3a6f5e5ed4c98cd30335902726b92" prot="public" static="no" mutable="yes">
+        <type>std::optional&lt; std::string &gt;</type>
+        <definition>std::optional&lt;std::string&gt; MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::simulatedValue</definition>
+        <argsstring></argsstring>
+        <name>simulatedValue</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::simulatedValue</qualifiedname>
+        <briefdescription>
+<para>Set to override the value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="140" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a0c53df5fe946d2f3a130df1ba36cc8dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::Value</definition>
+        <argsstring>()</argsstring>
+        <name>Value</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="142" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>GCC chokes on full specializations at class scope, hence this. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="132" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="133" bodyend="143"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1ae87e1750cabd4b10198e82ed353eb4f1" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</scope><name>allowedValues</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a39c3a6f5e5ed4c98cd30335902726b92" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</scope><name>simulatedValue</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a0c53df5fe946d2f3a130df1ba36cc8dc" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</scope><name>Value</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a75052a15d9676e842bbd866aa32fa037" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

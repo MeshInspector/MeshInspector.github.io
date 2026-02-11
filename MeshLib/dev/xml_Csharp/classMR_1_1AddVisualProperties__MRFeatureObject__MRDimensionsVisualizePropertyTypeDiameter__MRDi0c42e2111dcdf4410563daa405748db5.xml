@@ -1,0 +1,1388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5" kind="class" language="C#" prot="public">
+    <compoundname>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a60b51d90aca09b3ff61a2b478a174ab1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5" kindref="compound">AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2860" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2860" bodyend="2865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a4c50a2d6329d6a51468961c5aaa2a1a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.Object</definition>
+        <argsstring>(AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5" kindref="compound">AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2866" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2866" bodyend="2871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ad74d8bc88a9674b53051de1ede8d87a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.VisualObject</definition>
+        <argsstring>(AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5" kindref="compound">AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2872" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2872" bodyend="2877"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a511548a3629124ba2280e4135bc04f25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.FeatureObject</definition>
+        <argsstring>(AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength self)</argsstring>
+        <name>operator MR.FeatureObject</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator MR.FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5" kindref="compound">AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2878" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2878" bodyend="2883"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a79fddb3cc229f0a735082ecc0aa677f3" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2886" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2886" bodyend="2893"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a6ed0fa00bb670c73b1df5ebde490c7c0" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2894" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2894" bodyend="2901"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a74fa2a15c2e7b13d4f0c2de0d3b5d9fb" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</definition>
+        <argsstring>(MR.FeatureObject parent)</argsstring>
+        <name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2902" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2902" bodyend="2909"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ac6df91c88383102dc898d04605663ebd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2911" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2911" bodyend="2911"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a14878bee85789eb089cbe83047dcf5a6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2913" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2913" bodyend="2913"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a7cb81b35bdf78623c1d343587229eb9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setXf</computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2919" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2919" bodyend="2927"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a6a0d9a842260e912e8943d81f8b43c63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::resetXf</computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2933" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2933" bodyend="2938"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af006deed59278a70c6c6d16b1952e13d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setDecorationsColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setDecorationsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setDecorationsColor</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2944" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2944" bodyend="2952"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af39b83ad745148b50990c9e9b7aff57d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setDecorationsColorForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setDecorationsColorForAllViewports</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2957" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2957" bodyend="2962"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a8bf13e87dcf300a0bc65bf15acc156a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setPointSize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2967" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2967" bodyend="2972"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a00c378752ef6edcfd3f8a18a17d84e77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setLineWidth</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2977" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2977" bodyend="2982"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1afbef835adf7f3ebec668b097504feadb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setSubfeaturePointSize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2987" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2987" bodyend="2992"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a743b545cf7cb99e5de98d317599ad0bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setSubfeatureLineWidth</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2997" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2997" bodyend="3002"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a89db2bf1d01f1fdf717fc4119fbbd2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setMainFeatureAlpha</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3007" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3007" bodyend="3012"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a21c615e357122b131cd5a40cfb09a96e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setSubfeatureAlphaPoints</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3017" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3017" bodyend="3022"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a15bf69ecf89340ff9dd572b716cafa97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setSubfeatureAlphaLines</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3027" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3027" bodyend="3032"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a7a3637420007659488c5d7fe73dfe653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setSubfeatureAlphaMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3037" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3037" bodyend="3042"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ab903ca148720c46ac98acfac51d1217a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setVisualizeProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3048" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3048" bodyend="3053"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a5d3e059ded6ce7e0e159255aa2a42dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setVisualizePropertyMask</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3059" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3059" bodyend="3064"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a8e573a57104e4ec8e0c98908cc415773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::toggleVisualizeProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3070" bodyend="3075"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a6490d8704a768485b2ecb4d012506217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setAllVisualizeProperties</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3081" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3081" bodyend="3086"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a25145a7cdc2bfb4ef73c1224dfd4ee14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::copyAllSolidColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3092" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3092" bodyend="3097"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a9435d50b8e1b0a0990e1deb3a5b94266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3104" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3104" bodyend="3109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af76cb2c8162e862a98227412eefaebec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setFrontColor</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3116" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3116" bodyend="3124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a7f4394e3effe6affc5702f154f469513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setFrontColorsForAllViewports</computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3131" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3131" bodyend="3137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a9322851855f7e6a260b99106719e60b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setBackColorsForAllViewports</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3143" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3143" bodyend="3148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af4914abdd40234baffd6a7b18eea8366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setBackColor</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3155" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3155" bodyend="3163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a92a09dcd4fde70716ab1d92ca0896938" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setGlobalAlpha</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3170" bodyend="3175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1adedb37730706d4eedc4a65f8591db268" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setGlobalAlphaForAllViewports</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3181" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3181" bodyend="3186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a8296ebd634f667be817204605cc30088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setDirtyFlags</computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3195" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3195" bodyend="3201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a1addb5fd3b2003a77dc4eada2e1d0cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setPickable</computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3208" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3208" bodyend="3213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ada3611b2b9d6fe7c9c9d49d76c311672" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setColoringType</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3219" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3219" bodyend="3224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1aed6fc772cb7af7b6b3fddd4cd6f88ecf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setShininess</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3230" bodyend="3235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a08119dac117a943698baba3814a78c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setSpecularStrength</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3241" bodyend="3246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a19dc9afc59d1282c5d1e863a43b5c558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setAmbientStrength</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3252" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3252" bodyend="3257"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a582e4e5c55c5c4b8879e1c0e5fa5d4c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setUseDefaultScenePropertiesOnDeserialization</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3264" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3264" bodyend="3269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a629a58a1eee90375661f0203ba2c5405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::resetFrontColor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3275" bodyend="3280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a61c273bc919fd5b83804725bb185adba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::resetColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3286" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3286" bodyend="3291"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ae8588a56426dbbf6d404d31169b3a235" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3296" bodyend="3305"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ac23db0d375e0da0971d61acd3b3c3e79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setXfsForAllViewports</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3311" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3311" bodyend="3316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a98baf53d8e14ebaaca07c3d8ed102634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setWorldXf</computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3322" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3322" bodyend="3330"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a3f054d3bd379b50424255364a8c372a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::applyScale</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3336" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3336" bodyend="3341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ae79084a08134ceb5ebee1ea341e357a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3348" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3348" bodyend="3353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a4d32b9cf0729440f0f29385d6048d92d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setLocked</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3358" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3358" bodyend="3363"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af0046326007d9d7d9e2999abc3c2d316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setParentLocked</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3368" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3368" bodyend="3373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a68ee4df9d48f6e3b3f87d327325775a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::detachFromParent</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3380" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3380" bodyend="3385"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a69fb4c15bbd5193054940463aeb3ab83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::addChild</computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3395" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3395" bodyend="3401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af519923b63303e6f124ff1a119d3c70d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::addChildBefore</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3409" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3409" bodyend="3414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a4ef4c244aa452a3fdbfd2afd8da9fb1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::removeAllChildren</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3420" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3420" bodyend="3425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1aa718185ee68c894f3eab26dc956ba469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::sortChildren</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3431" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3431" bodyend="3436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a0bc2fa241be71f16049b35c32a775a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::select</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3442" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3442" bodyend="3447"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a0f0109d27858040f76406d3d51e92a96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setAncillary</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3454" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3454" bodyend="3459"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a5eb14f55a18a75ff6f1f6d849b2acbd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setVisible</computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3466" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3466" bodyend="3471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a08d2c43743b26a469df6de00ee98ebb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::setVisibilityMask</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3477" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3477" bodyend="3482"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a2ab8ae49e8b890065cc31e6d822c308d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::swap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3490" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3490" bodyend="3495"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1abd216f300760cc723c3b0ea9ef8fb581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::addTag</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3503" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3503" bodyend="3512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ac02ae7525f9871e5f44dbdea70ae0fea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;::removeTag</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="3519" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="3519" bodyend="3528"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ConeObject" kindref="compound">MR.ConeObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</label>
+        <link refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</label>
+        <link refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" line="2857" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddVisualPropertiesMixin.cs" bodystart="2858" bodyend="3529"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a69fb4c15bbd5193054940463aeb3ab83" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>addChild</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af519923b63303e6f124ff1a119d3c70d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1abd216f300760cc723c3b0ea9ef8fb581" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>addTag</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ac6df91c88383102dc898d04605663ebd" prot="package" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a14878bee85789eb089cbe83047dcf5a6" prot="package" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a3f054d3bd379b50424255364a8c372a7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a25145a7cdc2bfb4ef73c1224dfd4ee14" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a68ee4df9d48f6e3b3f87d327325775a5" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a79fddb3cc229f0a735082ecc0aa677f3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a6ed0fa00bb670c73b1df5ebde490c7c0" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a74fa2a15c2e7b13d4f0c2de0d3b5d9fb" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength?</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a511548a3629124ba2280e4135bc04f25" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator MR.FeatureObject</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a4c50a2d6329d6a51468961c5aaa2a1a0" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a60b51d90aca09b3ff61a2b478a174ab1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ad74d8bc88a9674b53051de1ede8d87a3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a4ef4c244aa452a3fdbfd2afd8da9fb1e" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ac02ae7525f9871e5f44dbdea70ae0fea" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a61c273bc919fd5b83804725bb185adba" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a629a58a1eee90375661f0203ba2c5405" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a6a0d9a842260e912e8943d81f8b43c63" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a0bc2fa241be71f16049b35c32a775a60" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>select</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a6490d8704a768485b2ecb4d012506217" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a19dc9afc59d1282c5d1e863a43b5c558" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a0f0109d27858040f76406d3d51e92a96" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af4914abdd40234baffd6a7b18eea8366" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a9322851855f7e6a260b99106719e60b1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ada3611b2b9d6fe7c9c9d49d76c311672" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af006deed59278a70c6c6d16b1952e13d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af39b83ad745148b50990c9e9b7aff57d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a8296ebd634f667be817204605cc30088" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af76cb2c8162e862a98227412eefaebec" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a7f4394e3effe6affc5702f154f469513" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a92a09dcd4fde70716ab1d92ca0896938" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1adedb37730706d4eedc4a65f8591db268" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a9435d50b8e1b0a0990e1deb3a5b94266" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ae79084a08134ceb5ebee1ea341e357a3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a00c378752ef6edcfd3f8a18a17d84e77" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a4d32b9cf0729440f0f29385d6048d92d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a89db2bf1d01f1fdf717fc4119fbbd2c7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ae8588a56426dbbf6d404d31169b3a235" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setName</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1af0046326007d9d7d9e2999abc3c2d316" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a1addb5fd3b2003a77dc4eada2e1d0cfc" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a8bf13e87dcf300a0bc65bf15acc156a6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1aed6fc772cb7af7b6b3fddd4cd6f88ecf" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a08119dac117a943698baba3814a78c9b" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a15bf69ecf89340ff9dd572b716cafa97" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a7a3637420007659488c5d7fe73dfe653" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a21c615e357122b131cd5a40cfb09a96e" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a743b545cf7cb99e5de98d317599ad0bd" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1afbef835adf7f3ebec668b097504feadb" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a582e4e5c55c5c4b8879e1c0e5fa5d4c7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a08d2c43743b26a469df6de00ee98ebb9" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a5eb14f55a18a75ff6f1f6d849b2acbd6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ab903ca148720c46ac98acfac51d1217a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a5d3e059ded6ce7e0e159255aa2a42dce" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a98baf53d8e14ebaaca07c3d8ed102634" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a7cb81b35bdf78623c1d343587229eb9a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setXf</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1ac23db0d375e0da0971d61acd3b3c3e79" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1aa718185ee68c894f3eab26dc956ba469" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a2ab8ae49e8b890065cc31e6d822c308d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>swap</name></member>
+      <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi0c42e2111dcdf4410563daa405748db5_1a8e573a57104e4ec8e0c98908cc415773" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

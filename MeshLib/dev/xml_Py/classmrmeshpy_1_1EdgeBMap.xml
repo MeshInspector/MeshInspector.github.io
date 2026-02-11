@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgeBMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgeBMap</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeBMap_1a02cf8daa4cde757baf2137d2ca73168a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeBMap::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.EdgeBMap._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeBMap_1a09d654bf29476f64c15190915add1424" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeBMap::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.EdgeBMap._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14347" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBMap_1ad2f688e7f04dc7fd8ad10571fba8ce2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14348" bodyend="14349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBMap_1ae02bc15dcc19f0578350dade1c0547b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__EdgeId__EdgeId" kindref="compound">Buffer_EdgeId_EdgeId</ref></type>
+        <definition> Buffer_EdgeId_EdgeId mrmeshpy.EdgeBMap.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.EdgeBMap.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14351" bodyend="14352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBMap_1aa2229d2c865d32fd7c6a72a94330ffc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeBMap.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.EdgeBMap.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14354" bodyend="14357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBMap_1acfee153724721d6afe0a0a452446b76e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBMap.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.EdgeBMap.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14359" bodyend="14360"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgeBMap
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgeBMap</label>
+        <link refid="classmrmeshpy_1_1EdgeBMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14340" bodyend="14360"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeBMap_1ad2f688e7f04dc7fd8ad10571fba8ce2d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBMap_1a02cf8daa4cde757baf2137d2ca73168a" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeBMap</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBMap_1a09d654bf29476f64c15190915add1424" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeBMap</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBMap_1ae02bc15dcc19f0578350dade1c0547b4" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBMap</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBMap_1aa2229d2c865d32fd7c6a72a94330ffc6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBMap</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBMap_1acfee153724721d6afe0a0a452446b76e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBMap</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

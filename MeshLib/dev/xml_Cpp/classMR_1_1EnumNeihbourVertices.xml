@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EnumNeihbourVertices" kind="class" language="C++" prot="public">
+    <compoundname>MR::EnumNeihbourVertices</compoundname>
+    <includes refid="MREnumNeighbours_8h" local="no">MREnumNeighbours.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1EnumNeihbourVertices_1a55eae3546ffa50bb88a01b153bea8459" prot="private" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::EnumNeihbourVertices::visited_</definition>
+        <argsstring></argsstring>
+        <name>visited_</name>
+        <qualifiedname>MR::EnumNeihbourVertices::visited_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="18" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EnumNeihbourVertices_1afcc2be59d6d5a7f757d8641b760958d5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; VertId &gt;</type>
+        <definition>std::vector&lt;VertId&gt; MR::EnumNeihbourVertices::bd_</definition>
+        <argsstring></argsstring>
+        <name>bd_</name>
+        <qualifiedname>MR::EnumNeihbourVertices::bd_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="19" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1aa6216d158e1f9f47eb52c1e8662e8ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::EnumNeihbourVertices::run</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertId start, const VertPredicate &amp;pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>MR::EnumNeihbourVertices::run</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const VertPredicate &amp;</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>invokes given predicate for vertices starting from<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+<parametername>and</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>continuing to all immediate neighbours in depth-first order until the predicate returns false </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="14" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1a82eaa1eebaf7fc188b2c9ab048fc745a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::EnumNeihbourVertices::run</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertBitSet &amp;start, const VertPredicate &amp;pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>MR::EnumNeihbourVertices::run</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const VertPredicate &amp;</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="15" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1a7aa6ab8dfde5a3646a3ae177a35432ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::EnumNeihbourVertices::run_</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertPredicate &amp;pred)</argsstring>
+        <name>run_</name>
+        <qualifiedname>MR::EnumNeihbourVertices::run_</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertPredicate &amp;</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="17" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classMR_1_1EnumNeihbourVertices_1afcc2be59d6d5a7f757d8641b760958d5" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>bd_</name></member>
+      <member refid="classMR_1_1EnumNeihbourVertices_1aa6216d158e1f9f47eb52c1e8662e8ce7" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="classMR_1_1EnumNeihbourVertices_1a82eaa1eebaf7fc188b2c9ab048fc745a" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="classMR_1_1EnumNeihbourVertices_1a7aa6ab8dfde5a3646a3ae177a35432ed" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run_</name></member>
+      <member refid="classMR_1_1EnumNeihbourVertices_1a55eae3546ffa50bb88a01b153bea8459" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>visited_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

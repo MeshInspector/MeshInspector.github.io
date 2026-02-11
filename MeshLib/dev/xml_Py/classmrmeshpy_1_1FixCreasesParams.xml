@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FixCreasesParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FixCreasesParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixCreasesParams_1a692f54998d777f567c0d7b662439e317" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixCreasesParams::_offsetof_creaseAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_creaseAngle</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams._offsetof_creaseAngle</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixCreasesParams_1a3afe6dad6fc0d8263f8ea4df4f548c99" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixCreasesParams::_offsetof_criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams._offsetof_criticalTriAspectRatio</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixCreasesParams_1ae9756b8e507d1f6b953742c1e8f777a2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixCreasesParams::_offsetof_maxIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxIters</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams._offsetof_maxIters</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20390" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a257f6b3350714885d45421c170022222" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20393" bodyend="20394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a2ec4235842601133e6f74911add8cf48" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixCreasesParams" kindref="compound">FixCreasesParams</ref></type>
+        <definition> FixCreasesParams mrmeshpy.FixCreasesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20397" bodyend="20398"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a2ec4235842601133e6f74911add8cf48" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixCreasesParams" kindref="compound">FixCreasesParams</ref></type>
+        <definition> FixCreasesParams mrmeshpy.FixCreasesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20401" bodyend="20402"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1af315b88687c5921e9228451490cc27c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20404" bodyend="20405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1aeca48746be7dd6c00ab991f456ddbf4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.__init__</definition>
+        <argsstring>(self, FixCreasesParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixCreasesParams" kindref="compound">FixCreasesParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20407" bodyend="20410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a610120d27dcf1231894246101129edb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.__init__</definition>
+        <argsstring>(self, float creaseAngle, float criticalTriAspectRatio, int maxIters)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>creaseAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20412" bodyend="20415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1af34e66adbab9af3fd3878dc0906a4362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixCreasesParams.creaseAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>creaseAngle</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.creaseAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>edges with dihedral angle sharper this will be considered as creases
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20417" bodyend="20420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a9eaeb2323839c3d1ee5decc47654eeaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.creaseAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>creaseAngle</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.creaseAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20422" bodyend="20423"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a20ed74f8822c61a2229409bb39f0c055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixCreasesParams.criticalTriAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.criticalTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>planar check is skipped for faces with worse aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20425" bodyend="20428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1ad6dd289da6970800cab778a6bc23fce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.criticalTriAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.criticalTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20430" bodyend="20431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a4eb4c9c43bdc8c9d479128660aa378a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FixCreasesParams.maxIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxIters</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.maxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum number of algorithm iterations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20433" bodyend="20436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixCreasesParams_1a5bc82d548eb60d9c55421fae9d4499ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixCreasesParams.maxIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxIters</name>
+        <qualifiedname>mrmeshpy.FixCreasesParams.maxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20438" bodyend="20439"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FixCreasesParams
+
+Parameters structure for `fixMeshCreases` function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FixCreasesParams</label>
+        <link refid="classmrmeshpy_1_1FixCreasesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_creaseAngle</edgelabel>
+          <edgelabel>_offsetof_criticalTriAspectRatio</edgelabel>
+          <edgelabel>_offsetof_maxIters</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20382" bodyend="20439"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a257f6b3350714885d45421c170022222" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1af315b88687c5921e9228451490cc27c7" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1aeca48746be7dd6c00ab991f456ddbf4e" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a610120d27dcf1231894246101129edb0" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a692f54998d777f567c0d7b662439e317" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>_offsetof_creaseAngle</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a3afe6dad6fc0d8263f8ea4df4f548c99" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>_offsetof_criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1ae9756b8e507d1f6b953742c1e8f777a2" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>_offsetof_maxIters</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1af34e66adbab9af3fd3878dc0906a4362" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>creaseAngle</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a9eaeb2323839c3d1ee5decc47654eeaa" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>creaseAngle</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a20ed74f8822c61a2229409bb39f0c055" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1ad6dd289da6970800cab778a6bc23fce3" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a4eb4c9c43bdc8c9d479128660aa378a0" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>maxIters</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a5bc82d548eb60d9c55421fae9d4499ef" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>maxIters</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a2ec4235842601133e6f74911add8cf48" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FixCreasesParams_1a2ec4235842601133e6f74911add8cf48" prot="public" virt="non-virtual"><scope>mrmeshpy::FixCreasesParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

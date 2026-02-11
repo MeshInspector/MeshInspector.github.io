@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1NonOverlappingLabelTask" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::NonOverlappingLabelTask</compoundname>
+    <basecompoundref refid="structMR_1_1BasicUiRenderTask" prot="public" virt="non-virtual">MR::BasicUiRenderTask</basecompoundref>
+    <includes refid="MRUINonOverlappingLabels_8h" local="no">MRUINonOverlappingLabels.h</includes>
+    <innerclass refid="structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params" prot="public">MR::UI::NonOverlappingLabelTask::Params</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1ad7956cae913f5fb658112a2ac5b86342" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params" kindref="compound">Params</ref></type>
+        <definition>Params MR::UI::NonOverlappingLabelTask::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::UI::NonOverlappingLabelTask::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="30" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1a9df6f3435cab03196fc0c601e1fde19b" prot="private" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::UI::NonOverlappingLabelTask::finalScreenPos_</definition>
+        <argsstring></argsstring>
+        <name>finalScreenPos_</name>
+        <qualifiedname>MR::UI::NonOverlappingLabelTask::finalScreenPos_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1aeb3b781dc6c9e400a854b1ff628c17fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::UI::NonOverlappingLabelTask::NonOverlappingLabelTask</definition>
+        <argsstring>()</argsstring>
+        <name>NonOverlappingLabelTask</name>
+        <qualifiedname>MR::UI::NonOverlappingLabelTask::NonOverlappingLabelTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="34" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1acde22114b2c62f6fcd3b9435679efc4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::UI::NonOverlappingLabelTask::NonOverlappingLabelTask</definition>
+        <argsstring>(Params params)</argsstring>
+        <name>NonOverlappingLabelTask</name>
+        <qualifiedname>MR::UI::NonOverlappingLabelTask::NonOverlappingLabelTask</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params" kindref="compound">Params</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="35" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1a63aa78da589b7f78e8aa0077dc5f1102" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::NonOverlappingLabelTask::earlyBackwardPass</definition>
+        <argsstring>(const BackwardPassParams &amp;params) override</argsstring>
+        <name>earlyBackwardPass</name>
+        <qualifiedname>MR::UI::NonOverlappingLabelTask::earlyBackwardPass</qualifiedname>
+        <reimplements refid="structMR_1_1BasicUiRenderTask_1a269508abb07dd29213d99aada7db6d5e">earlyBackwardPass</reimplements>
+        <param>
+          <type>const <ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BackwardPassParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is an optional early pass, where you can claim exclusive control over the mouse. This pass is executed in reverse draw order. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="37" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1a8e5b41bf7d246095c20537503873adde" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::NonOverlappingLabelTask::renderPass</definition>
+        <argsstring>() override</argsstring>
+        <name>renderPass</name>
+        <qualifiedname>MR::UI::NonOverlappingLabelTask::renderPass</qualifiedname>
+        <reimplements refid="structMR_1_1BasicUiRenderTask_1a0e70a7984fb642613e50942b4f53c724">renderPass</reimplements>
+        <briefdescription>
+<para>This is the main rendering pass. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="38" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Use this in combination with <computeroutput><ref refid="structMR_1_1DrawSceneUiListener" kindref="compound">DrawSceneUiListener</ref></computeroutput>. Remember that you don&apos;t have to allocate this on the heap, and can store this directly in your plugin per object (pass around a non-owning <computeroutput>shared_ptr</computeroutput>). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::NonOverlappingLabelTask</label>
+        <link refid="classMR_1_1UI_1_1NonOverlappingLabelTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::NonOverlappingLabelTask</label>
+        <link refid="classMR_1_1UI_1_1NonOverlappingLabelTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BasicUiRenderTask_1a09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1a63aa78da589b7f78e8aa0077dc5f1102" prot="public" virt="virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1a9df6f3435cab03196fc0c601e1fde19b" prot="private" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>finalScreenPos_</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>InteractionMask</name></member>
+      <member refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1aeb3b781dc6c9e400a854b1ff628c17fc" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>NonOverlappingLabelTask</name></member>
+      <member refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1acde22114b2c62f6fcd3b9435679efc4e" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>NonOverlappingLabelTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>operator=</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1ae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>operator=</name></member>
+      <member refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1ad7956cae913f5fb658112a2ac5b86342" prot="private" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>params_</name></member>
+      <member refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1a8e5b41bf7d246095c20537503873adde" prot="public" virt="virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>renderPass</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>renderTaskDepth</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1aa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>~BasicUiRenderTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

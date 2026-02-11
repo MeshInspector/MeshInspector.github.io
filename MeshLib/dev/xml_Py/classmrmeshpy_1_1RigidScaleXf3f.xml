@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RigidScaleXf3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RigidScaleXf3f</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidScaleXf3f_1a3d97570293afb92f6bbab7c33b650878" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidScaleXf3f::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidScaleXf3f_1af2e1d28b35fbc5e00ab35ab12ddaa9a5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidScaleXf3f::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f._offsetof_b</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidScaleXf3f_1a961dc7db03bf21edd81c07a8c79c0e8a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidScaleXf3f::_offsetof_s</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_s</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f._offsetof_s</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50351" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1ae947a7ad58b03d14d9d5b5fc5f262131" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50354" bodyend="50355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1abf3e44fa08f305384545769ca9c0a61d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidScaleXf3f" kindref="compound">RigidScaleXf3f</ref></type>
+        <definition> RigidScaleXf3f mrmeshpy.RigidScaleXf3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50358" bodyend="50359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1abf3e44fa08f305384545769ca9c0a61d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidScaleXf3f" kindref="compound">RigidScaleXf3f</ref></type>
+        <definition> RigidScaleXf3f mrmeshpy.RigidScaleXf3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50362" bodyend="50363"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a2031c06f551c0b67012940d1b9fd935d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50365" bodyend="50366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a2aac148ca044e4cbda620f23894d68d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.__init__</definition>
+        <argsstring>(self, Vector3f a, Vector3f b, float s)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50368" bodyend="50369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a1dd37c58148dc0b2df2b539172961b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.__init__</definition>
+        <argsstring>(self, RigidScaleXf3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RigidScaleXf3f" kindref="compound">RigidScaleXf3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50371" bodyend="50374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a319102c2cc97ae21dd2f6bf3cb5cbc25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.RigidScaleXf3f.linearXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>linearXf</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.linearXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>converts this into not-rigid transformation but with matrix, which linearly depends on angles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50375" bodyend="50378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1ac7bac103d22847a6492da62da1956289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.RigidScaleXf3f.rigidScaleXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>rigidScaleXf</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.rigidScaleXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>converts this into rigid (with scale) transformation, which non-linearly depends on angles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50379" bodyend="50382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a3a9947850c4e1b15273dbcf8f9a41798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RigidScaleXf3f.a</definition>
+        <argsstring>(self)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>rotation angles relative to x,y,z axes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50384" bodyend="50387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a748ef3f7464839e9f4082ff0d32a8f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.a</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50389" bodyend="50390"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a907beb2fe5f9709d1af6f20f08b13ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RigidScaleXf3f.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>shift
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50392" bodyend="50395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a0c0606d89a982a80199ff6867501a220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.b</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50397" bodyend="50398"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a1d3081c3ee3919dbf7f77538881d96e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RigidScaleXf3f.s</definition>
+        <argsstring>(self)</argsstring>
+        <name>s</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.s</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scaling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50400" bodyend="50403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidScaleXf3f_1a8cfbd7c8eb134bf7d013d19e840066d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidScaleXf3f.s</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>s</name>
+        <qualifiedname>mrmeshpy.RigidScaleXf3f.s</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50405" bodyend="50406"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RigidScaleXf3f
+
+rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b,
+where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RigidScaleXf3f</label>
+        <link refid="classmrmeshpy_1_1RigidScaleXf3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_s</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50342" bodyend="50406"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1ae947a7ad58b03d14d9d5b5fc5f262131" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a2031c06f551c0b67012940d1b9fd935d" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a2aac148ca044e4cbda620f23894d68d3" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a1dd37c58148dc0b2df2b539172961b89" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a3d97570293afb92f6bbab7c33b650878" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1af2e1d28b35fbc5e00ab35ab12ddaa9a5" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a961dc7db03bf21edd81c07a8c79c0e8a" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>_offsetof_s</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a3a9947850c4e1b15273dbcf8f9a41798" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a748ef3f7464839e9f4082ff0d32a8f31" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a907beb2fe5f9709d1af6f20f08b13ff8" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a0c0606d89a982a80199ff6867501a220" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a319102c2cc97ae21dd2f6bf3cb5cbc25" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>linearXf</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1abf3e44fa08f305384545769ca9c0a61d" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1abf3e44fa08f305384545769ca9c0a61d" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1ac7bac103d22847a6492da62da1956289" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>rigidScaleXf</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a1d3081c3ee3919dbf7f77538881d96e3" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>s</name></member>
+      <member refid="classmrmeshpy_1_1RigidScaleXf3f_1a8cfbd7c8eb134bf7d013d19e840066d2" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidScaleXf3f</scope><name>s</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

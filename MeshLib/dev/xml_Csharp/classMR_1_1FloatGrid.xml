@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FloatGrid" kind="class" language="C#" prot="public">
+    <compoundname>MR::FloatGrid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FloatGrid</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a3a8501fbd0a0f7cd31220d1fba5b7ff6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FloatGrid.FloatGrid</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="184" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="184" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a8d1144e6b355f47cb4adce0afb660bc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FloatGrid.FloatGrid</definition>
+        <argsstring>()</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a77dfab6de00024daaba84e96ef355982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FloatGrid.FloatGrid</definition>
+        <argsstring>(MR._ByValue_FloatGrid _other)</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
+        <param>
+          <type>MR._ByValue_FloatGrid</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FloatGrid.FloatGrid</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="199" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="199" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a0e39a5b3430356ccc17c9a305c13d523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FloatGrid.FloatGrid</definition>
+        <argsstring>(Const_FloatGrid _other)</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
+        <param>
+          <type>Const_FloatGrid</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FloatGrid.FloatGrid</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="210" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a3b9fcac59566358e4146b23c43957b0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FloatGrid.FloatGrid</definition>
+        <argsstring>(FloatGrid _other)</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FloatGrid.FloatGrid</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="215" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="215" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a63ba7d46dbcf004a899dc1d2d300ecf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FloatGrid.FloatGrid</definition>
+        <argsstring>(MR._ByValueShared_OpenVdbFloatGrid ptr)</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_OpenVdbFloatGrid</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FloatGrid.FloatGrid</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="220" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="220" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a4bc4e2189f0f6cfaf69b60a4bfc178f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>unsafe MR.FloatGrid MR.FloatGrid.assign</definition>
+        <argsstring>(MR._ByValue_FloatGrid _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FloatGrid.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FloatGrid</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FloatGrid.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="236" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="236" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a7792860df16a379bf4400549bafa32f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FloatGrid.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.FloatGrid.reset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FloatGrid_1a7792860df16a379bf4400549bafa32f0" kindref="member">MR.FloatGrid.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="248" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="248" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a257924363d792111ac7310ae12feced0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FloatGrid.swap</definition>
+        <argsstring>(MR.FloatGrid other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.FloatGrid.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FloatGrid_1a257924363d792111ac7310ae12feced0" kindref="member">MR.FloatGrid.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="258" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="258" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1adbc01aabddb98307299dd068bbcda504" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>unsafe MR.FloatGrid MR.FloatGrid.addAssign</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.FloatGrid &gt; b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.FloatGrid.addAssign</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref> &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>union operation on two signed distance fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this operation consumes <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> b Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="270" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="270" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1ab48ead6333a12571fa0431bf2de462d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>unsafe MR.FloatGrid MR.FloatGrid.subAssign</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.FloatGrid &gt; b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.FloatGrid.subAssign</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref> &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>difference operation on two signed distance fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this operation consumes <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> b Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="282" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="282" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1ad2bbb1dd9b3c6ac190abbe0b96a04c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>unsafe MR.FloatGrid MR.FloatGrid.mulAssign</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.FloatGrid &gt; b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.FloatGrid.mulAssign</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref> &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>intersection operation on two signed distance fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this operation consumes <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> b Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="294" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="294" bodyend="299"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1afd515bcfb924ca061734103b0d43d6b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.FloatGrid.operator FloatGrid</definition>
+        <argsstring>(MR._ByValueShared_OpenVdbFloatGrid ptr)</argsstring>
+        <name>operator FloatGrid</name>
+        <qualifiedname>MR.FloatGrid.operator FloatGrid</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_OpenVdbFloatGrid</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FloatGrid.FloatGrid</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="231" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="231" bodyend="231"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>wrapper class that helps mrbind to avoid excess MRVDBFloatGrid.h includes Generated from class <computeroutput><ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FloatGrid</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FloatGrid</label>
+        <link refid="classMR_1_1FloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FloatGrid &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FloatGrid</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FloatGrid</label>
+        <link refid="classMR_1_1FloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FloatGrid &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="182" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="183" bodyend="300"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FloatGrid_1adbc01aabddb98307299dd068bbcda504" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1FloatGrid_1a4bc4e2189f0f6cfaf69b60a4bfc178f1" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>assign</name></member>
+      <member refid="classMR_1_1FloatGrid_1a3a8501fbd0a0f7cd31220d1fba5b7ff6" prot="package" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a8d1144e6b355f47cb4adce0afb660bc0" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a77dfab6de00024daaba84e96ef355982" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a0e39a5b3430356ccc17c9a305c13d523" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a3b9fcac59566358e4146b23c43957b0c" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a63ba7d46dbcf004a899dc1d2d300ecf1" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1ad2bbb1dd9b3c6ac190abbe0b96a04c6f" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1FloatGrid_1afd515bcfb924ca061734103b0d43d6b6" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a7792860df16a379bf4400549bafa32f0" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>reset</name></member>
+      <member refid="classMR_1_1FloatGrid_1ab48ead6333a12571fa0431bf2de462d9" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1FloatGrid_1a257924363d792111ac7310ae12feced0" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>swap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

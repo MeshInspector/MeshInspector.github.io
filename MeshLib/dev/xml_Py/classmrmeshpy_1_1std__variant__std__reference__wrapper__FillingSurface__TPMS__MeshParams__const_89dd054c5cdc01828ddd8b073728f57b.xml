@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1adeedc7450321358de0a4420fd530cc40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.__init__</definition>
+        <argsstring>(self, std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b" kindref="compound">std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79280" bodyend="79281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1a2226fe267d6d02425ece6ad7bf5998d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.__init__</definition>
+        <argsstring>(self, FillingSurface.TPMS.MeshParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">FillingSurface.TPMS.MeshParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79283" bodyend="79284"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1af41c4090ade117201b3f8ff1c826f19f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.__init__</definition>
+        <argsstring>(self, FillingSurface.CellularSurface.Params arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79286" bodyend="79287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1a6bd7a7150d7ec5138e566ffb8f2656d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79288" bodyend="79291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1af68e251ed4997df2c49adb883c38e018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+        <definition> FillingSurface.CellularSurface.Params mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.get_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</name>
+        <qualifiedname>mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.get_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79292" bodyend="79295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1a85fcd6009be6557ab103e6be30a37c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">FillingSurface.TPMS.MeshParams</ref></type>
+        <definition> FillingSurface.TPMS.MeshParams mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.get_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const</name>
+        <qualifiedname>mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const.get_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79296" bodyend="79299"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  FillingSurface.ConstMeshParamsRef, std_variant_std_reference_wrapper_const_FillingSurface_TPMS_MeshParams_std_reference_wrapper_const_FillingSurface_CellularSurface_Params
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79275" bodyend="79299"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1adeedc7450321358de0a4420fd530cc40" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1a2226fe267d6d02425ece6ad7bf5998d1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1af41c4090ade117201b3f8ff1c826f19f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1a6bd7a7150d7ec5138e566ffb8f2656d8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1af68e251ed4997df2c49adb883c38e018" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</scope><name>get_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b_1a85fcd6009be6557ab103e6be30a37c67" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const</scope><name>get_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DividePolylineParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DividePolylineParameters</compoundname>
+    <includes refid="MRPolylineTrimWithPlane_8h" local="no">MRPolylineTrimWithPlane.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1a980edf71338a26044da6655e80f5d8bd" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId, EdgeId, float)&gt;</type>
+        <definition>std::function&lt;void( EdgeId, EdgeId, float )&gt; MR::DividePolylineParameters::onEdgeSplitCallback</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>MR::DividePolylineParameters::onEdgeSplitCallback</qualifiedname>
+        <briefdescription>
+<para>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="19" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1aec036aa36c10ac45b9ef07682adb3350" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DividePolylineParameters::closeLineAfterCut</definition>
+        <argsstring></argsstring>
+        <name>closeLineAfterCut</name>
+        <qualifiedname>MR::DividePolylineParameters::closeLineAfterCut</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1a0dd7e0ac90d0f63dc7e3903f3107a461" prot="public" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::DividePolylineParameters::outVmap</definition>
+        <argsstring></argsstring>
+        <name>outVmap</name>
+        <qualifiedname>MR::DividePolylineParameters::outVmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>map from input polyline verts to output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="24" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1a78d5c2ea44136f73fe510d5950043a30" prot="public" static="no" mutable="no">
+        <type>EdgeMap *</type>
+        <definition>EdgeMap* MR::DividePolylineParameters::outEmap</definition>
+        <argsstring></argsstring>
+        <name>outEmap</name>
+        <qualifiedname>MR::DividePolylineParameters::outEmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>map from input polyline edges to output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="26" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1afe467eddfbfbcdf62b13cc9947b6eb00" prot="public" static="no" mutable="no">
+        <type>Polyline3 *</type>
+        <definition>Polyline3* MR::DividePolylineParameters::otherPart</definition>
+        <argsstring></argsstring>
+        <name>otherPart</name>
+        <qualifiedname>MR::DividePolylineParameters::otherPart</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>otherPart Optional return, polyline composed from edges on the negative side of the plane </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="28" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1ac9aa163bbc5ba58ba30ce0dc8ba7a644" prot="public" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::DividePolylineParameters::otherOutVmap</definition>
+        <argsstring></argsstring>
+        <name>otherOutVmap</name>
+        <qualifiedname>MR::DividePolylineParameters::otherOutVmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>map from input polyline verts to other output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="30" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DividePolylineParameters_1a60aae2de01f58e5dfacacd1fc3e0f59c" prot="public" static="no" mutable="no">
+        <type>EdgeMap *</type>
+        <definition>EdgeMap* MR::DividePolylineParameters::otherOutEmap</definition>
+        <argsstring></argsstring>
+        <name>otherOutEmap</name>
+        <qualifiedname>MR::DividePolylineParameters::otherOutEmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>map from input polyline edges to other output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="32" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="17" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DividePolylineParameters_1aec036aa36c10ac45b9ef07682adb3350" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
+      <member refid="structMR_1_1DividePolylineParameters_1a980edf71338a26044da6655e80f5d8bd" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="structMR_1_1DividePolylineParameters_1a60aae2de01f58e5dfacacd1fc3e0f59c" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutEmap</name></member>
+      <member refid="structMR_1_1DividePolylineParameters_1ac9aa163bbc5ba58ba30ce0dc8ba7a644" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutVmap</name></member>
+      <member refid="structMR_1_1DividePolylineParameters_1afe467eddfbfbcdf62b13cc9947b6eb00" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherPart</name></member>
+      <member refid="structMR_1_1DividePolylineParameters_1a78d5c2ea44136f73fe510d5950043a30" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>outEmap</name></member>
+      <member refid="structMR_1_1DividePolylineParameters_1a0dd7e0ac90d0f63dc7e3903f3107a461" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>outVmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

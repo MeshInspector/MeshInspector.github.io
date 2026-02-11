@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewerSetup" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewerSetup</compoundname>
+    <includes refid="MRSetupViewer_8h" local="no">MRSetupViewer.h</includes>
+    <innerclass refid="structMR_1_1ViewerSetup_1_1LoadedModule" prot="private">MR::ViewerSetup::LoadedModule</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1ViewerSetup_1a01b6a5ca99cb834e86dbb5494153de45" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>std::function&lt;void()&gt; MR::ViewerSetup::setupCustomLogSink</definition>
+        <argsstring></argsstring>
+        <name>setupCustomLogSink</name>
+        <qualifiedname>MR::ViewerSetup::setupCustomLogSink</qualifiedname>
+        <briefdescription>
+<para>functor to setup custom log sink, i.e. sending logs to web </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="47" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ViewerSetup_1a7895602798d8ec93e4374882cc9c89c4" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>std::function&lt;void()&gt; MR::ViewerSetup::shutdownCustomLogSink</definition>
+        <argsstring></argsstring>
+        <name>shutdownCustomLogSink</name>
+        <qualifiedname>MR::ViewerSetup::shutdownCustomLogSink</qualifiedname>
+        <briefdescription>
+<para>functor to shutdown custom log sink, i.e. send all remaining logs to web before exit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="50" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ViewerSetup_1a55a87ace998e6a56bc8a6af6be6cf1a7" prot="private" static="no" mutable="yes">
+        <type>std::vector&lt; LoadedModule &gt;</type>
+        <definition>std::vector&lt;LoadedModule&gt; MR::ViewerSetup::loadedModules_</definition>
+        <argsstring></argsstring>
+        <name>loadedModules_</name>
+        <qualifiedname>MR::ViewerSetup::loadedModules_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="63" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a9616d5542d1b0f230b9138f4da8a88cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewerSetup::ViewerSetup</definition>
+        <argsstring>()=default</argsstring>
+        <name>ViewerSetup</name>
+        <qualifiedname>MR::ViewerSetup::ViewerSetup</qualifiedname>
+        <briefdescription>
+<para>explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated because it has a user-provided destructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="16" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a312d51f93256540b9109340e93cd279d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewerSetup::ViewerSetup</definition>
+        <argsstring>(const ViewerSetup &amp;)=default</argsstring>
+        <name>ViewerSetup</name>
+        <qualifiedname>MR::ViewerSetup::ViewerSetup</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="17" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a5de2e94012eb083d14c9b918420a2c9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewerSetup::ViewerSetup</definition>
+        <argsstring>(ViewerSetup &amp;&amp;)=default</argsstring>
+        <name>ViewerSetup</name>
+        <qualifiedname>MR::ViewerSetup::ViewerSetup</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="18" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a91f189592dac535dae6d91f80c911e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::ViewerSetup::~ViewerSetup</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ViewerSetup</name>
+        <qualifiedname>MR::ViewerSetup::~ViewerSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="20" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a68075c17440a99ede74249da2ff6ecd9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::ViewerSetup::setupBasePlugins</definition>
+        <argsstring>(Viewer *) const</argsstring>
+        <name>setupBasePlugins</name>
+        <qualifiedname>MR::ViewerSetup::setupBasePlugins</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+        </param>
+        <briefdescription>
+<para>Setups Menu Save and Open plugins. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="23" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a66bb762d87286ae7b094f6a59bb96aec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerSetup::setupCommonModifiers</definition>
+        <argsstring>(Viewer *) const</argsstring>
+        <name>setupCommonModifiers</name>
+        <qualifiedname>MR::ViewerSetup::setupCommonModifiers</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+        </param>
+        <briefdescription>
+<para>Setups modifiers to Menu plugin if it is present in viewer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="26" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a04abb25fb543f1b7f29d33eed34bdb81" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerSetup::setupCommonPlugins</definition>
+        <argsstring>(Viewer *) const</argsstring>
+        <name>setupCommonPlugins</name>
+        <qualifiedname>MR::ViewerSetup::setupCommonPlugins</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+        </param>
+        <briefdescription>
+<para>Setups custom plugins to viewer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="29" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a0d93aa8d3e8ee23b874c8c2f6e4a0eca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::ViewerSetup::setupSettingsManager</definition>
+        <argsstring>(Viewer *viewer, const std::string &amp;appName, bool reset=false) const</argsstring>
+        <name>setupSettingsManager</name>
+        <qualifiedname>MR::ViewerSetup::setupSettingsManager</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>appName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reset</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets custom viewer settings manager to viewer <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- flag indicates that user launched application with request for reseting config file </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="33" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a918f69117bd46f408fda277cad5fde2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::ViewerSetup::setupConfiguration</definition>
+        <argsstring>(Viewer *viewer) const</argsstring>
+        <name>setupConfiguration</name>
+        <qualifiedname>MR::ViewerSetup::setupConfiguration</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets start configuration for viewer use to override default configuration of viewer </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="37" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1a189d84a7bbccaaa4f0936339d4e30b5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::ViewerSetup::setupExtendedLibraries</definition>
+        <argsstring>() const</argsstring>
+        <name>setupExtendedLibraries</name>
+        <qualifiedname>MR::ViewerSetup::setupExtendedLibraries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use to load additional libraries with plugins. all libraries are taken from <ref refid="namespaceMR_1ad01e0850be9f75dcc1d0bd461787535f" kindref="member">GetResourcesDirectory()</ref> *.ui.json files </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="41" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewerSetup_1ac2596418ab8194fb9b1818ef2f1f5b31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::ViewerSetup::unloadExtendedLibraries</definition>
+        <argsstring>() const</argsstring>
+        <name>unloadExtendedLibraries</name>
+        <qualifiedname>MR::ViewerSetup::unloadExtendedLibraries</qualifiedname>
+        <briefdescription>
+<para>free all libraries loaded in <ref refid="classMR_1_1ViewerSetup_1a189d84a7bbccaaa4f0936339d4e30b5e" kindref="member">setupExtendedLibraries()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="44" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="13" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ViewerSetup_1a55a87ace998e6a56bc8a6af6be6cf1a7" prot="private" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>loadedModules_</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a68075c17440a99ede74249da2ff6ecd9" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupBasePlugins</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a66bb762d87286ae7b094f6a59bb96aec" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupCommonModifiers</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a04abb25fb543f1b7f29d33eed34bdb81" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupCommonPlugins</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a918f69117bd46f408fda277cad5fde2d" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupConfiguration</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a01b6a5ca99cb834e86dbb5494153de45" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>setupCustomLogSink</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a189d84a7bbccaaa4f0936339d4e30b5e" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupExtendedLibraries</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a0d93aa8d3e8ee23b874c8c2f6e4a0eca" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupSettingsManager</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a7895602798d8ec93e4374882cc9c89c4" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>shutdownCustomLogSink</name></member>
+      <member refid="classMR_1_1ViewerSetup_1ac2596418ab8194fb9b1818ef2f1f5b31" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>unloadExtendedLibraries</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a9616d5542d1b0f230b9138f4da8a88cb" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>ViewerSetup</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a312d51f93256540b9109340e93cd279d" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>ViewerSetup</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a5de2e94012eb083d14c9b918420a2c9e" prot="public" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>ViewerSetup</name></member>
+      <member refid="classMR_1_1ViewerSetup_1a91f189592dac535dae6d91f80c911e1f" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>~ViewerSetup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

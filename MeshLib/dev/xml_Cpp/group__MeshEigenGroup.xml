@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshEigenGroup" kind="group">
+    <compoundname>MeshEigenGroup</compoundname>
+    <title>Mesh Eigen</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshEigenGroup_1gac52a3e7c7c62d91ce00317455b37f75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MeshTopology</type>
+        <definition>MR_BIND_IGNORE MRMESH_API MeshTopology MR::topologyFromEigen</definition>
+        <argsstring>(const Eigen::MatrixXi &amp;F)</argsstring>
+        <name>topologyFromEigen</name>
+        <qualifiedname>MR::topologyFromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::MatrixXi &amp;</type>
+          <declname>F</declname>
+        </param>
+        <briefdescription>
+<para>constructs mesh topology from N*3 matrix of vertex indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="15" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="15" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshEigenGroup_1ga542e18e6f7d00b4661a728248b89f2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Mesh</type>
+        <definition>MR_BIND_IGNORE MRMESH_API Mesh MR::meshFromEigen</definition>
+        <argsstring>(const Eigen::MatrixXd &amp;V, const Eigen::MatrixXi &amp;F)</argsstring>
+        <name>meshFromEigen</name>
+        <qualifiedname>MR::meshFromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::MatrixXd &amp;</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>const Eigen::MatrixXi &amp;</type>
+          <declname>F</declname>
+        </param>
+        <briefdescription>
+<para>constructs mesh from M*3 matrix of coordinates and N*3 matrix of vertex indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="18" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="18" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshEigenGroup_1gab318ba4dd28be5fa3500d2d01ca4f92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::pointsFromEigen</definition>
+        <argsstring>(const Eigen::MatrixXd &amp;V, const VertBitSet &amp;selection, VertCoords &amp;points)</argsstring>
+        <name>pointsFromEigen</name>
+        <qualifiedname>MR::pointsFromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::MatrixXd &amp;</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>replace selected points with the values from V </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="21" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="21" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshEigenGroup_1gabf8a680de7d5fbe8bf99057015853153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::topologyToEigen</definition>
+        <argsstring>(const MeshTopology &amp;topology, Eigen::MatrixXi &amp;F)</argsstring>
+        <name>topologyToEigen</name>
+        <qualifiedname>MR::topologyToEigen</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>Eigen::MatrixXi &amp;</type>
+          <declname>F</declname>
+        </param>
+        <briefdescription>
+<para>converts valid faces from mesh topology into N*3 matrix of vertex indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="24" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="24" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshEigenGroup_1gab3cf8a8259f3c725b9f74817803c8ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::meshToEigen</definition>
+        <argsstring>(const Mesh &amp;mesh, Eigen::MatrixXd &amp;V, Eigen::MatrixXi &amp;F)</argsstring>
+        <name>meshToEigen</name>
+        <qualifiedname>MR::meshToEigen</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>Eigen::MatrixXd &amp;</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>Eigen::MatrixXi &amp;</type>
+          <declname>F</declname>
+        </param>
+        <briefdescription>
+<para>converts mesh into M*3 matrix of coordinates and N*3 matrix of vertex indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" line="27" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h" declline="27" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

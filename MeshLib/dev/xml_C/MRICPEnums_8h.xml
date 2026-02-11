@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRICPEnums_8h" kind="file" language="C++">
+    <compoundname>MRICPEnums.h</compoundname>
+    <includedby refid="MRICP_8h" local="no">MRICP.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRICP.h</label>
+        <link refid="MRICP_8h"/>
+      </node>
+      <node id="1">
+        <label>MRICPEnums.h</label>
+        <link refid="MRICPEnums_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_ICPMethod</name>
+        <enumvalue id="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56ab68c56c95747e889a30e549bac9a0699" prot="public">
+          <name>MR_ICPMethod_Combined</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>PointToPoint for the first 2 iterations, and PointToPlane for the remaining iterations. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>select transformation that minimizes mean squared distance between two points in each pair, it is the safest approach but can converge slowly </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56aa233d37ffa131f2315f1d26d2211428a" prot="public">
+          <name>MR_ICPMethod_PointToPoint</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <computeroutput>MR::ICP::setFltSamples()</computeroutput> or <computeroutput>MR::ICP::setRefSamples()</computeroutput>), in which case the object being projected onto must have normals. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56afa5b3de6c7a7ebcbe71792f93c1f8604" prot="public">
+          <name>MR_ICPMethod_PointToPlane</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The method how to update transformation from point pairs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" bodystart="10" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_ICPMode</name>
+        <enumvalue id="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a707b2491e5da2bff6f311bb4262ae489" prot="public">
+          <name>MR_ICPMode_RigidScale</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>rigid body transformation with uniform scaling (7 degrees of freedom) </para>
+          </briefdescription>
+          <detaileddescription>
+<para>rigid body transformation (6 degrees of freedom) </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747ada41755d5606aecf25cd45c1d4b402b0" prot="public">
+          <name>MR_ICPMode_AnyRigidXf</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>rigid body transformation with rotation except argument axis (5 degrees of freedom) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a25f8415e555257daf21cc9b335981b28" prot="public">
+          <name>MR_ICPMode_OrthogonalAxis</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>rigid body transformation with rotation around given axis only (4 degrees of freedom) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747afe8921fea439bd02c0feaa8ce37ad2a0" prot="public">
+          <name>MR_ICPMode_FixedAxis</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>only translation (3 degrees of freedom) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a0d499d74ae8a77d2479b89bf1e1d50c6" prot="public">
+          <name>MR_ICPMode_TranslationOnly</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The group of transformations, each with its own degrees of freedom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" bodystart="27" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_ICPExitType</name>
+        <enumvalue id="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188a8f564cf8de294e68d9f9e97203a0b47c" prot="public">
+          <name>MR_ICPExitType_NotStarted</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188ad4c5756c8c647da151764b616440bbb3" prot="public">
+          <name>MR_ICPExitType_NotFoundSolution</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188ad296d8720b1c0ebf48501f041da1ccfa" prot="public">
+          <name>MR_ICPExitType_MaxIterations</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188aee53db14decd3b6d9d8f24125ffc3272" prot="public">
+          <name>MR_ICPExitType_MaxBadIterations</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188adf8d556db7e2534f0ccc5bea9dbefb67" prot="public">
+          <name>MR_ICPExitType_StopMsdReached</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" bodystart="42" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRICPEnums_8h_1ac2b809dc8de141e2c6414175ea429381" prot="public" static="no">
+        <type>enum <ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" kindref="member">MR_ICPMethod</ref></type>
+        <definition>typedef enum MR_ICPMethod MR_ICPMethod</definition>
+        <argsstring></argsstring>
+        <name>MR_ICPMethod</name>
+        <briefdescription>
+<para>The method how to update transformation from point pairs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" line="23" column="14"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRICPEnums_8h_1a8b42b10df8eff39879a5e9ff23c4dd97" prot="public" static="no">
+        <type>enum <ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" kindref="member">MR_ICPMode</ref></type>
+        <definition>typedef enum MR_ICPMode MR_ICPMode</definition>
+        <argsstring></argsstring>
+        <name>MR_ICPMode</name>
+        <briefdescription>
+<para>The group of transformations, each with its own degrees of freedom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" line="38" column="12"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRICPEnums_8h_1afe63a11102ba6831c64a99ca4e236987" prot="public" static="no">
+        <type>enum <ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188" kindref="member">MR_ICPExitType</ref></type>
+        <definition>typedef enum MR_ICPExitType MR_ICPExitType</definition>
+        <argsstring></argsstring>
+        <name>MR_ICPExitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h" line="53" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" kindref="member">MR_ICPMethod</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56ab68c56c95747e889a30e549bac9a0699" kindref="member">MR_ICPMethod_Combined</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56aa233d37ffa131f2315f1d26d2211428a" kindref="member">MR_ICPMethod_PointToPoint</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="22" refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56afa5b3de6c7a7ebcbe71792f93c1f8604" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56afa5b3de6c7a7ebcbe71792f93c1f8604" kindref="member">MR_ICPMethod_PointToPlane</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="23" refid="MRICPEnums_8h_1ac2b809dc8de141e2c6414175ea429381" refkind="member"><highlight class="normal">}<sp/><ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" kindref="member">MR_ICPMethod</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" kindref="member">MR_ICPMode</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a707b2491e5da2bff6f311bb4262ae489" kindref="member">MR_ICPMode_RigidScale</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747ada41755d5606aecf25cd45c1d4b402b0" kindref="member">MR_ICPMode_AnyRigidXf</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a25f8415e555257daf21cc9b335981b28" kindref="member">MR_ICPMode_OrthogonalAxis</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747afe8921fea439bd02c0feaa8ce37ad2a0" kindref="member">MR_ICPMode_FixedAxis</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="37" refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a0d499d74ae8a77d2479b89bf1e1d50c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747a0d499d74ae8a77d2479b89bf1e1d50c6" kindref="member">MR_ICPMode_TranslationOnly</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="38" refid="MRICPEnums_8h_1a8b42b10df8eff39879a5e9ff23c4dd97" refkind="member"><highlight class="normal">}<sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" kindref="member">MR_ICPMode</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>types<sp/>of<sp/>exit<sp/>conditions<sp/>in<sp/>calculation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188" kindref="member">MR_ICPExitType</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>calculation<sp/>is<sp/>not<sp/>started<sp/>yet</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188a8f564cf8de294e68d9f9e97203a0b47c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188a8f564cf8de294e68d9f9e97203a0b47c" kindref="member">MR_ICPExitType_NotStarted</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>solution<sp/>not<sp/>found<sp/>in<sp/>some<sp/>iteration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188ad4c5756c8c647da151764b616440bbb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188ad4c5756c8c647da151764b616440bbb3" kindref="member">MR_ICPExitType_NotFoundSolution</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>iteration<sp/>limit<sp/>reached</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188ad296d8720b1c0ebf48501f041da1ccfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188ad296d8720b1c0ebf48501f041da1ccfa" kindref="member">MR_ICPExitType_MaxIterations</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>limit<sp/>of<sp/>non-improvement<sp/>iterations<sp/>in<sp/>a<sp/>row<sp/>reached</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188aee53db14decd3b6d9d8f24125ffc3272" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188aee53db14decd3b6d9d8f24125ffc3272" kindref="member">MR_ICPExitType_MaxBadIterations</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>stop<sp/>mean<sp/>square<sp/>deviation<sp/>reached</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188adf8d556db7e2534f0ccc5bea9dbefb67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188adf8d556db7e2534f0ccc5bea9dbefb67" kindref="member">MR_ICPExitType_StopMsdReached</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="53" refid="MRICPEnums_8h_1afe63a11102ba6831c64a99ca4e236987" refkind="member"><highlight class="normal">}<sp/><ref refid="MRICPEnums_8h_1a6395350eae7ec8ba5e329f14be536188" kindref="member">MR_ICPExitType</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRICPEnums.h"/>
+  </compounddef>
+</doxygen>

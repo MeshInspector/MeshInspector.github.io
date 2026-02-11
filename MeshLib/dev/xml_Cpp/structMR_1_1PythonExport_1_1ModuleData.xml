@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PythonExport_1_1ModuleData" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PythonExport::ModuleData</compoundname>
+    <includes refid="MRPython_8h" local="no">MRPython.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PythonExport_1_1ModuleData_1a190cf30264de3002c79d0b715ed6697a" prot="public" static="no" mutable="no">
+        <type>PyObject *(*</type>
+        <definition>PyObject *(* MR::PythonExport::ModuleData::initFncPointer) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>initFncPointer</name>
+        <qualifiedname>MR::PythonExport::ModuleData::initFncPointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="185" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PythonExport_1_1ModuleData_1a0fe7a81962a7cace96c7ec89855e1064" prot="public" static="no" mutable="no">
+        <type>std::array&lt; std::vector&lt; <ref refid="classMR_1_1PythonExport_1a001e362a5ed99ee391fd182df4571f9c" kindref="member">PythonRegisterFuncton</ref> &gt;, size_t(<ref refid="classMR_1_1PythonExport_1a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Priority::Count</ref>)&gt;</type>
+        <definition>std::array&lt;std::vector&lt;PythonRegisterFuncton&gt;, size_t( Priority::Count )&gt; MR::PythonExport::ModuleData::functions</definition>
+        <argsstring></argsstring>
+        <name>functions</name>
+        <qualifiedname>MR::PythonExport::ModuleData::functions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="186" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="183" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="184" bodyend="187"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PythonExport_1_1ModuleData_1a0fe7a81962a7cace96c7ec89855e1064" prot="public" virt="non-virtual"><scope>MR::PythonExport::ModuleData</scope><name>functions</name></member>
+      <member refid="structMR_1_1PythonExport_1_1ModuleData_1a190cf30264de3002c79d0b715ed6697a" prot="public" virt="non-virtual"><scope>MR::PythonExport::ModuleData</scope><name>initFncPointer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;</compoundname>
+    <includes refid="MRFeatureHelpers_8h" local="no">MRFeatureHelpers.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4_1aae1ec7a21db6e2c624a1e93117a86ec5" prot="public" static="no">
+        <type><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref></type>
+        <definition>using MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;::type =  CylinderObject</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="61" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4_1a5fb393cfdc8d6023ef41e801c5b62859" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;::name</qualifiedname>
+        <initializer>= &quot;Cylinder&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="62" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="59" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="60" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4_1a5fb393cfdc8d6023ef41e801c5b62859" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;</scope><name>name</name></member>
+      <member refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4_1aae1ec7a21db6e2c624a1e93117a86ec5" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

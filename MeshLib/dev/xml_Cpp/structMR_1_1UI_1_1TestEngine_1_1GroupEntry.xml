@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::GroupEntry</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRUITestEngine.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1GroupEntry_1ae5c1521ca92b3ee6b97084822165a34a" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="structMR_1_1UI_1_1TestEngine_1_1Entry" kindref="compound">Entry</ref>, std::less&lt;&gt; &gt;</type>
+        <definition>std::map&lt;std::string, Entry, std::less&lt;&gt; &gt; MR::UI::TestEngine::GroupEntry::elems</definition>
+        <argsstring></argsstring>
+        <name>elems</name>
+        <qualifiedname>MR::UI::TestEngine::GroupEntry::elems</qualifiedname>
+        <briefdescription>
+<para>Using <computeroutput>std::map</computeroutput> over <computeroutput>std::unordered_map</computeroutput> to be able to search by <computeroutput>std::string_view</computeroutput> keys directly. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="153" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1GroupEntry_1a13d6e256e162d31ddf3c2806246f4ccb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::UI::TestEngine::GroupEntry::kindName</definition>
+        <argsstring></argsstring>
+        <name>kindName</name>
+        <qualifiedname>MR::UI::TestEngine::GroupEntry::kindName</qualifiedname>
+        <initializer>= &quot;group&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="155" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="151" bodyend="156"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry_1ae5c1521ca92b3ee6b97084822165a34a" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::GroupEntry</scope><name>elems</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry_1a13d6e256e162d31ddf3c2806246f4ccb" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::GroupEntry</scope><name>kindName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

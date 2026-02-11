@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMultiwayICP_8h" kind="file" language="C++">
+    <compoundname>MRMultiwayICP.h</compoundname>
+    <includes refid="MRICP_8h" local="yes">MRICP.h</includes>
+    <includes refid="MRGridSampling_8h" local="yes">MRGridSampling.h</includes>
+    <incdepgraph>
+      <node id="30">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="41">
+        <label>MRGridSampling.h</label>
+        <link refid="MRGridSampling_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRICP.h</label>
+        <link refid="MRICP_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRICPEnums.h</label>
+        <link refid="MRICPEnums_8h"/>
+      </node>
+      <node id="31">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="19">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMeshOrPoints.h</label>
+        <link refid="MRMeshOrPoints_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMultiwayICP.h</label>
+        <link refid="MRMultiwayICP_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRPointCloudPart.h</label>
+        <link refid="MRPointCloudPart_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="3">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="36">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="25">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="32">
+        <label>cfloat</label>
+      </node>
+      <node id="26">
+        <label>cmath</label>
+      </node>
+      <node id="39">
+        <label>concepts</label>
+      </node>
+      <node id="22">
+        <label>cstddef</label>
+      </node>
+      <node id="27">
+        <label>cstring</label>
+      </node>
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="28">
+        <label>iosfwd</label>
+      </node>
+      <node id="40">
+        <label>iterator</label>
+      </node>
+      <node id="33">
+        <label>optional</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="23">
+        <label>type_traits</label>
+      </node>
+      <node id="29">
+        <label>utility</label>
+      </node>
+      <node id="34">
+        <label>variant</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1ICPGroupPair" prot="public">MR::ICPGroupPair</innerclass>
+    <innerclass refid="structMR_1_1ICPGroupPairs" prot="public">MR::ICPGroupPairs</innerclass>
+    <innerclass refid="classMR_1_1IICPTreeIndexer" prot="public">MR::IICPTreeIndexer</innerclass>
+    <innerclass refid="structMR_1_1MultiwayICPSamplingParameters" prot="public">MR::MultiwayICPSamplingParameters</innerclass>
+    <innerclass refid="classMR_1_1MultiwayICP" prot="public">MR::MultiwayICP</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRICP_8h" kindref="compound">MRICP.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRGridSampling_8h" kindref="compound">MRGridSampling.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespaceMR_1acc39cd0582abbbb48612bd904fe74210" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">ICPObjects</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;MeshOrPointsXf, ObjId&gt;</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref><sp/>=<sp/>int;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ICPElemtTag;</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1ab448f2e256aabf3e97eaaef010380fb1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Id" kindref="compound">ICPElementId</ref><sp/>=<sp/><ref refid="classMR_1_1Id" kindref="compound">Id&lt;ICPElemtTag&gt;</ref>;</highlight></codeline>
+<codeline lineno="13" refid="namespaceMR_1ae9eff2bf5026577153e17f3ff0ae801c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1ae9eff2bf5026577153e17f3ff0ae801c" kindref="member">ICPElementBitSet</ref><sp/>=<sp/>TaggedBitSet&lt;ICPElemtTag&gt;;</highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1ICPGroupPair" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ICPGroupPair" kindref="compound">ICPGroupPair</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1ICPGroupPair_1a5babba9b5c191b1a0347070d83e2f6a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ObjVertId" kindref="compound">ObjVertId</ref><sp/><ref refid="structMR_1_1ICPGroupPair_1a5babba9b5c191b1a0347070d83e2f6a3" kindref="member">srcId</ref>;</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1ICPGroupPair_1a41888e51bf21ff362fa10a0d125eb3a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ObjVertId" kindref="compound">ObjVertId</ref><sp/><ref refid="structMR_1_1ICPGroupPair_1a41888e51bf21ff362fa10a0d125eb3a6" kindref="member">tgtClosestId</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1ICPGroupPairs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1ICPGroupPairs_1a191ed6b48bd26dd077d33ea6eb50bd21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="structMR_1_1ICPGroupPairs_1a191ed6b48bd26dd077d33ea6eb50bd21" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPGroupPairs_1a6d040d69ff557db2395159717b51b08d" kindref="member">vec</ref>[idx];<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1ICPGroupPairs_1af65b16a9e3eb716ade27a46bde4dac29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="structMR_1_1ICPGroupPairs_1af65b16a9e3eb716ade27a46bde4dac29" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPGroupPairs_1a6d040d69ff557db2395159717b51b08d" kindref="member">vec</ref>[idx];<sp/>}</highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1ICPGroupPairs_1a1e4223327adb1bcde9e327c4234ec950" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPGroupPairs_1a1e4223327adb1bcde9e327c4234ec950" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPGroupPairs_1a6d040d69ff557db2395159717b51b08d" kindref="member">vec</ref>.size();<sp/>}</highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1ICPGroupPairs_1a6d040d69ff557db2395159717b51b08d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;ICPGroupPair&gt;<sp/><ref refid="structMR_1_1ICPGroupPairs_1a6d040d69ff557db2395159717b51b08d" kindref="member">vec</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1a331d6b27226046972c32b7d946f0624b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a331d6b27226046972c32b7d946f0624b" kindref="member">ICPGroupProjector</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref>&amp;<sp/>res,<sp/>ObjId&amp;<sp/>resId<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="29" refid="namespaceMR_1a74691005c823c40bb2293118aa854d32" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a74691005c823c40bb2293118aa854d32" kindref="member">updateGroupPairs</ref>(<sp/><ref refid="structMR_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref>&amp;<sp/>pairs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">ICPObjects</ref>&amp;<sp/>objs,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a331d6b27226046972c32b7d946f0624b" kindref="member">ICPGroupProjector</ref><sp/>srcProjector,<sp/><ref refid="namespaceMR_1a331d6b27226046972c32b7d946f0624b" kindref="member">ICPGroupProjector</ref><sp/>tgtProjector,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="namespaceMR_1a3d0081672e0ccdc9545b8df2b84c3663" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">ICPPairsGrid</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Vector&lt;ICPGroupPairs, ICPElementId&gt;</ref>,<sp/><ref refid="classMR_1_1Id" kindref="compound">ICPElementId</ref>&gt;;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1IICPTreeIndexer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IICPTreeIndexer" kindref="compound">IICPTreeIndexer</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40" refid="classMR_1_1IICPTreeIndexer_1a68616944ac0168797fb2fece7d28f477" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IICPTreeIndexer_1a68616944ac0168797fb2fece7d28f477" kindref="member">~IICPTreeIndexer</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1IICPTreeIndexer_1a1f778d40d47e51211af6dc767319487a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IICPTreeIndexer_1a1f778d40d47e51211af6dc767319487a" kindref="member">fromSameNode</ref>(<sp/><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref><sp/>l,<sp/><ref refid="classMR_1_1Id" kindref="compound">ICPElementId</ref><sp/>eI,<sp/><ref refid="classMR_1_1Id" kindref="compound">ICPElementId</ref><sp/>eJ<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classMR_1_1IICPTreeIndexer_1ae9d6c57f127d30e14ec9ce539bb2b0f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ObjBitSet<sp/><ref refid="classMR_1_1IICPTreeIndexer_1ae9d6c57f127d30e14ec9ce539bb2b0f7" kindref="member">getElementLeaves</ref>(<sp/><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref><sp/>l,<sp/><ref refid="classMR_1_1Id" kindref="compound">ICPElementId</ref><sp/>eId<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1IICPTreeIndexer_1a114f0247a1d8233737cefa12708f75dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ae9eff2bf5026577153e17f3ff0ae801c" kindref="member">ICPElementBitSet</ref><sp/><ref refid="classMR_1_1IICPTreeIndexer_1a114f0247a1d8233737cefa12708f75dc" kindref="member">getElementNodes</ref>(<sp/><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref><sp/>l,<sp/><ref refid="classMR_1_1Id" kindref="compound">ICPElementId</ref><sp/>eId<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classMR_1_1IICPTreeIndexer_1a1134ae002061a65428a6900901a9df6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IICPTreeIndexer_1a1134ae002061a65428a6900901a9df6f" kindref="member">getNumElements</ref>(<sp/><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref><sp/>l<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56" refid="classMR_1_1IICPTreeIndexer_1a35a9128e72ddf5647128d63b87bcf209" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IICPTreeIndexer_1a35a9128e72ddf5647128d63b87bcf209" kindref="member">getNumLayers</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="structMR_1_1MultiwayICPSamplingParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63" refid="structMR_1_1MultiwayICPSamplingParameters_1ab9d86e834ec046c7b72c094142d046c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1ab9d86e834ec046c7b72c094142d046c6" kindref="member">samplingVoxelSize</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structMR_1_1MultiwayICPSamplingParameters_1a8c84a0ef595c5238df9112eb6c6f3e86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1a8c84a0ef595c5238df9112eb6c6f3e86" kindref="member">maxGroupSize</ref><sp/>=<sp/>64;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58" kindref="member">CascadeMode</ref></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58aa7e82daa7280af25afbaa076ac16eb1e" kindref="member">Sequential</ref>,<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1ae06a2f568227da83fff1138c53d0fc30" kindref="member">AABBTreeBased</ref><sp/></highlight></codeline>
+<codeline lineno="75" refid="structMR_1_1MultiwayICPSamplingParameters_1ae06a2f568227da83fff1138c53d0fc30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>cascadeMode{<sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58a2f3d2e7b83aab89388906ca92d0ca505" kindref="member">CascadeMode::AABBTreeBased</ref><sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="structMR_1_1MultiwayICPSamplingParameters_1a570e9c958781bc09007f518931ca7b74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters_1a570e9c958781bc09007f518931ca7b74" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="classMR_1_1MultiwayICP" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1MultiwayICP" kindref="compound">MultiwayICP</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88" refid="classMR_1_1MultiwayICP_1a4fc483cb7fd8b04e2e37761a891b6a15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayICP_1a4fc483cb7fd8b04e2e37761a891b6a15" kindref="member">MultiwayICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">ICPObjects</ref>&amp;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref>&amp;<sp/>samplingParams<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classMR_1_1MultiwayICP_1a45afa9e21d3905737cd8bafd86926578" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/><ref refid="classMR_1_1MultiwayICP_1a45afa9e21d3905737cd8bafd86926578" kindref="member">calculateTransformations</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classMR_1_1MultiwayICP_1a176d6154b15b1c250f3f5cd3fb1a35cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/><ref refid="classMR_1_1MultiwayICP_1a176d6154b15b1c250f3f5cd3fb1a35cc" kindref="member">calculateTransformationsFixFirst</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classMR_1_1MultiwayICP_1afab250201279bb04e86b137138ef54de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1afab250201279bb04e86b137138ef54de" kindref="member">resamplePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref>&amp;<sp/>samplingParams<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="classMR_1_1MultiwayICP_1a266ccb33611f47b517672664e5ecca33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1a266ccb33611f47b517672664e5ecca33" kindref="member">updateAllPointPairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classMR_1_1MultiwayICP_1afa420b3638e8c4e0b5ac70acb575a741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1afa420b3638e8c4e0b5ac70acb575a741" kindref="member">setParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/>prop<sp/>)<sp/>{<sp/>prop_<sp/>=<sp/>prop;<sp/>}</highlight></codeline>
+<codeline lineno="109" refid="classMR_1_1MultiwayICP_1a1df773567dfe9ebaffb468a5e35325fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/><ref refid="classMR_1_1MultiwayICP_1a1df773567dfe9ebaffb468a5e35325fe" kindref="member">getParams</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prop_;<sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="classMR_1_1MultiwayICP_1a64ac3c584445bc45cecd3c1c41d10ae6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1a64ac3c584445bc45cecd3c1c41d10ae6" kindref="member">getMeanSqDistToPoint</ref>(<sp/>std::optional&lt;double&gt;<sp/>value<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="classMR_1_1MultiwayICP_1adef2b42123425d640c3ba527a8ba8f08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1adef2b42123425d640c3ba527a8ba8f08" kindref="member">getMeanSqDistToPlane</ref>(<sp/>std::optional&lt;double&gt;<sp/>value<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classMR_1_1MultiwayICP_1a7d58f57c70792f0ec9ef82aa6e95407a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1a7d58f57c70792f0ec9ef82aa6e95407a" kindref="member">getNumSamples</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="classMR_1_1MultiwayICP_1a2b9103b68bd7af393660d7dafc751954" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1a2b9103b68bd7af393660d7dafc751954" kindref="member">getNumActivePairs</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="classMR_1_1MultiwayICP_1ae36a340dd4d403cc4894bc8a8b87d0d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1ae36a340dd4d403cc4894bc8a8b87d0d6" kindref="member">setPerIterationCallback</ref>(<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter<sp/>)&gt;<sp/>callback<sp/>)<sp/>{<sp/>perIterationCb_<sp/>=<sp/>std::move(<sp/>callback<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classMR_1_1MultiwayICP_1ae4d25815f9e27aeb558a76b1268fb602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1ae4d25815f9e27aeb558a76b1268fb602" kindref="member">devIndependentEquationsModeEnabled</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>maxGroupSize_<sp/>==<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="131" refid="classMR_1_1MultiwayICP_1a44f6380f606dbdbaf88e1bf6357735dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayICP_1a44f6380f606dbdbaf88e1bf6357735dc" kindref="member">devEnableIndependentEquationsMode</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>)<sp/>{<sp/>maxGroupSize_<sp/>=<sp/>on<sp/>?<sp/>1<sp/>:<sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="classMR_1_1MultiwayICP_1a088270c2bee7aaaea93a48fc5d48c2fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="classMR_1_1MultiwayICP_1a088270c2bee7aaaea93a48fc5d48c2fd" kindref="member">getStatusInfo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="classMR_1_1MultiwayICP_1a37a8e0d52c2729455ea42255f7d90942" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">PairsPerLayer</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;ICPPairsGrid, ICPLayer&gt;</ref>;</highlight></codeline>
+<codeline lineno="138" refid="classMR_1_1MultiwayICP_1a3a6e071719c0f164a01aeca591915112" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">PairsPerLayer</ref>&amp;<sp/><ref refid="classMR_1_1MultiwayICP_1a3a6e071719c0f164a01aeca591915112" kindref="member">getPairsPerLayer</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pairsGridPerLayer_;<sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="classMR_1_1MultiwayICP_1ae32c804d4589f4cbb0cd5821bace1d83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IICPTreeIndexer" kindref="compound">IICPTreeIndexer</ref>*<sp/><ref refid="classMR_1_1MultiwayICP_1ae32c804d4589f4cbb0cd5821bace1d83" kindref="member">getCascadeIndexer</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cascadeIndexer_.get();<sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">ICPObjects</ref><sp/>objs_;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>PairsPerLayer<sp/>pairsGridPerLayer_;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref><sp/>prop_;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>resultType_{<sp/>ICPExitType::NotStarted<sp/>};</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)&gt;<sp/>perIterationCb_;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;IICPTreeIndexer&gt;<sp/>cascadeIndexer_;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setupLayers_(<sp/>MultiwayICPSamplingParameters::CascadeMode<sp/>mode<sp/>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reservePairsLayer0_(<sp/>Vector&lt;VertBitSet,<sp/>ObjId&gt;&amp;&amp;<sp/>samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">LayerSamples<sp/>=<sp/>Vector&lt;Vector&lt;MultiObjsSamples,<sp/>ICPElementId&gt;,<sp/>ICPLayer&gt;;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;LayerSamples&gt;<sp/>resampleUpperLayers_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reserveUpperLayerPairs_(<sp/>LayerSamples&amp;&amp;<sp/>samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateLayerPairs_(<sp/>ICPLayer<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>deactivateFarDistPairs_(<sp/>ICPLayer<sp/>l<sp/>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingSize_{<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxGroupSize_{<sp/>64<sp/>};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>doIteration_(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2pl<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2ptIter_();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2plIter_();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>multiwayIter_(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2pl<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cascadeIter_(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2pl<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcGen_(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2pl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcP2Pt_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcP2Pl_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcCombined_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h"/>
+  </compounddef>
+</doxygen>

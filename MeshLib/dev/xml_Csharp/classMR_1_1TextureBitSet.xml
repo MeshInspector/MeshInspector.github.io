@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TextureBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::TextureBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TextureBitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a5c65bfc94f535444c8acd0e85a31d5f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.TextureBitSet.operator MR.BitSet</definition>
+        <argsstring>(TextureBitSet self)</argsstring>
+        <name>operator MR.BitSet</name>
+        <qualifiedname>MR.TextureBitSet.operator MR.BitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8882" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8882" bodyend="8889"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a0b150905da2580df71fd7aa0d3969c80" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8891" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8891" bodyend="8891"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1acef102524c6b2576717a31879b50dc47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8896" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8896" bodyend="8901"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1acdbd32b09e447f9c5c15ddb02742ffbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(MR._ByValue_TextureBitSet _other)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type>MR._ByValue_TextureBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TextureBitSet.TextureBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8906" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8906" bodyend="8912"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a5a312cf3da8d6b926c0b970f1a04cc8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(Const_TextureBitSet _other)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type>Const_TextureBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TextureBitSet.TextureBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8917" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8917" bodyend="8917"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1ac93d7afaa170aff6b45361dca039d403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(TextureBitSet _other)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TextureBitSet" kindref="compound">TextureBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TextureBitSet.TextureBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8922" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8922" bodyend="8922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a7d2ebea4d723c5dc7ccf2a94929cf95b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR.TextureBitSet.TextureBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8929" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8929" bodyend="8935"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1aa9766b613fdd9286a76667dfa568387c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(MR.Const_BitSet src)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_BitSet</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.TextureBitSet.TextureBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8941" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8941" bodyend="8947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a7841750691be44e3f6d5f0e01c0c0245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TextureBitSet.TextureBitSet</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.BitSet &gt; src)</argsstring>
+        <name>TextureBitSet</name>
+        <qualifiedname>MR.TextureBitSet.TextureBitSet</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref> &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.TextureBitSet.TextureBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8953" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8953" bodyend="8959"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1afb4c6eb569d280e37ca2ee0c8d485fdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.assign</definition>
+        <argsstring>(MR._ByValue_TextureBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TextureBitSet.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_TextureBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8964" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8964" bodyend="8971"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a21a16455ee372d56d9a04a9454eaf03f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.set</definition>
+        <argsstring>(MR.TextureId n, ulong len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.TextureBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a21a16455ee372d56d9a04a9454eaf03f" kindref="member">MR.TextureBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8976" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8976" bodyend="8981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a39713d1ea148a1d2ff3f42356ca6cb4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.set</definition>
+        <argsstring>(MR.TextureId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.TextureBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a21a16455ee372d56d9a04a9454eaf03f" kindref="member">MR.TextureBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8986" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8986" bodyend="8991"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a8afedf0d950a560e7eac49a778130607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.set</definition>
+        <argsstring>(MR.TextureId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.TextureBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a21a16455ee372d56d9a04a9454eaf03f" kindref="member">MR.TextureBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8996" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8996" bodyend="9001"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1aaa6e2f598061b4fb1c92b4e43f8cf8e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.set</definition>
+        <argsstring>()</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.TextureBitSet.set</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a21a16455ee372d56d9a04a9454eaf03f" kindref="member">MR.TextureBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9006" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9006" bodyend="9011"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a190bad78c5dd3877938250a33ccbcd28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.reset</definition>
+        <argsstring>(MR.TextureId n, ulong len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.TextureBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a190bad78c5dd3877938250a33ccbcd28" kindref="member">MR.TextureBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9016" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9016" bodyend="9021"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a43d75ca17f72f6fd8066d0c95c3a7fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.reset</definition>
+        <argsstring>(MR.TextureId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.TextureBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a190bad78c5dd3877938250a33ccbcd28" kindref="member">MR.TextureBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9026" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9026" bodyend="9031"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a75ca01d90cf2e0350587b4d8a0aa5856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.TextureBitSet.reset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a190bad78c5dd3877938250a33ccbcd28" kindref="member">MR.TextureBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9036" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9036" bodyend="9041"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a54d515a15b97cd3027c7a4e685a45367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.flip</definition>
+        <argsstring>(MR.TextureId n, ulong len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.TextureBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a54d515a15b97cd3027c7a4e685a45367" kindref="member">MR.TextureBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9046" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9046" bodyend="9051"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1aafc97dfb5467fde3b770e6fbf63100e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.flip</definition>
+        <argsstring>(MR.TextureId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.TextureBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a54d515a15b97cd3027c7a4e685a45367" kindref="member">MR.TextureBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9056" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9056" bodyend="9061"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a52e710c70864372f470f2b13c5b3cf4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.TextureBitSet.flip</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a54d515a15b97cd3027c7a4e685a45367" kindref="member">MR.TextureBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9066" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9066" bodyend="9071"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a2f89a2d1173af0b1217d50b2156e01b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.TextureBitSet.testSet</definition>
+        <argsstring>(MR.TextureId n, bool? val=null)</argsstring>
+        <name>testSet</name>
+        <qualifiedname>MR.TextureBitSet.testSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9077" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9077" bodyend="9083"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a9ec9eeaae14e7a2f61f22adc1d5f0db3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.bitandAssign</definition>
+        <argsstring>(MR.Const_TextureBitSet b)</argsstring>
+        <name>bitandAssign</name>
+        <qualifiedname>MR.TextureBitSet.bitandAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.operator&amp;=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9088" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9088" bodyend="9096"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a30d72c17700ad8720f284d2824fb08d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.bitorAssign</definition>
+        <argsstring>(MR.Const_TextureBitSet b)</argsstring>
+        <name>bitorAssign</name>
+        <qualifiedname>MR.TextureBitSet.bitorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.operator|=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9101" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9101" bodyend="9109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a50040d0a5d9be93e57766d18ed96c16e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.xorAssign</definition>
+        <argsstring>(MR.Const_TextureBitSet b)</argsstring>
+        <name>xorAssign</name>
+        <qualifiedname>MR.TextureBitSet.xorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.operator^=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9114" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9114" bodyend="9122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a600b0eff6629b6d1b0994a44e144fd5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.subAssign</definition>
+        <argsstring>(MR.Const_TextureBitSet b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.TextureBitSet.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9127" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9127" bodyend="9135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1ad8b8053ab55007f25e86fcd42e4e97c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></type>
+        <definition>unsafe MR.TextureBitSet MR.TextureBitSet.subtract</definition>
+        <argsstring>(MR.Const_TextureBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>MR.TextureBitSet.subtract</qualifiedname>
+        <param>
+          <type>MR.Const_TextureBitSet</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1ad8b8053ab55007f25e86fcd42e4e97c4" kindref="member">MR.TextureBitSet.subtract</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9141" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9141" bodyend="9146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a3450d74198945a89aa2cff55cbc8dd9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.autoResizeSet</definition>
+        <argsstring>(MR.TextureId pos, ulong len, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.TextureBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a3450d74198945a89aa2cff55cbc8dd9e" kindref="member">MR.TextureBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9152" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9152" bodyend="9158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a67b894ad90857e6a1947575e01df737b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.autoResizeSet</definition>
+        <argsstring>(MR.TextureId pos, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.TextureBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a3450d74198945a89aa2cff55cbc8dd9e" kindref="member">MR.TextureBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9164" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9164" bodyend="9170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a536e1c80abd072036af531f012cd08c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.TextureBitSet.autoResizeTestSet</definition>
+        <argsstring>(MR.TextureId pos, bool? val=null)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>MR.TextureBitSet.autoResizeTestSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a536e1c80abd072036af531f012cd08c1" kindref="member">MR.TextureBitSet.autoResizeTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9176" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9176" bodyend="9182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a7201baa44835882106db07304be8ec63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.reserve</definition>
+        <argsstring>(ulong numBits)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.TextureBitSet.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a7201baa44835882106db07304be8ec63" kindref="member">MR.TextureBitSet.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9187" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9187" bodyend="9192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a641c736f82adfab11434de781cbc7831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.resize</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.TextureBitSet.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a641c736f82adfab11434de781cbc7831" kindref="member">MR.TextureBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9198" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9198" bodyend="9204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1ac304d0dbeeab191b98093ef98bd68947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.TextureBitSet.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1ac304d0dbeeab191b98093ef98bd68947" kindref="member">MR.TextureBitSet.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9209" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9209" bodyend="9214"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a85d1f701d9ada6f19966937091ba39ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.TextureBitSet.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureBitSet.shrink_to_fit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9219" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9219" bodyend="9224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a58f48c3c2735c4f1859a5234b0d6a18b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.TextureBitSet.uncheckedTestSet</definition>
+        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <name>uncheckedTestSet</name>
+        <qualifiedname>MR.TextureBitSet.uncheckedTestSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a58f48c3c2735c4f1859a5234b0d6a18b" kindref="member">MR.TextureBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9230" bodyend="9236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a15950a3ac89a1aa73a0fc66d99d58450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.reverse</definition>
+        <argsstring>()</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR.TextureBitSet.reverse</qualifiedname>
+        <briefdescription>
+<para>changes the order of bits on the opposite Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a15950a3ac89a1aa73a0fc66d99d58450" kindref="member">MR.TextureBitSet.reverse</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9242" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9242" bodyend="9247"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a0e5709216b6ab0513661f60699b06c27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.pushBack</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.TextureBitSet.pushBack</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR.TextureBitSet.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9253" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9253" bodyend="9258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a676a8853e4088def5f2b8c2b544b9895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.TextureBitSet.popBack</qualifiedname>
+        <briefdescription>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR.TextureBitSet.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9264" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9264" bodyend="9269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a905ba3d934fdad8dd63b2de23572c876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.TextureBitSet.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.TextureBitSet.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1TextureBitSet_1a905ba3d934fdad8dd63b2de23572c876" kindref="member">MR.TextureBitSet.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9275" bodyend="9280"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TextureBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TextureBitSet</label>
+        <link refid="classMR_1_1TextureBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TextureBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TextureBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TextureBitSet</label>
+        <link refid="classMR_1_1TextureBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TextureBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8879" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8880" bodyend="9281"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TextureBitSet_1afb4c6eb569d280e37ca2ee0c8d485fdf" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a3450d74198945a89aa2cff55cbc8dd9e" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a67b894ad90857e6a1947575e01df737b" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a536e1c80abd072036af531f012cd08c1" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a9ec9eeaae14e7a2f61f22adc1d5f0db3" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>bitandAssign</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a30d72c17700ad8720f284d2824fb08d7" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1TextureBitSet_1ac304d0dbeeab191b98093ef98bd68947" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a54d515a15b97cd3027c7a4e685a45367" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1TextureBitSet_1aafc97dfb5467fde3b770e6fbf63100e6" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a52e710c70864372f470f2b13c5b3cf4a" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a5c65bfc94f535444c8acd0e85a31d5f3" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>operator MR.BitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a676a8853e4088def5f2b8c2b544b9895" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>popBack</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a0e5709216b6ab0513661f60699b06c27" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a7201baa44835882106db07304be8ec63" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a190bad78c5dd3877938250a33ccbcd28" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a43d75ca17f72f6fd8066d0c95c3a7fc4" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a75ca01d90cf2e0350587b4d8a0aa5856" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a641c736f82adfab11434de781cbc7831" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a905ba3d934fdad8dd63b2de23572c876" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a15950a3ac89a1aa73a0fc66d99d58450" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>reverse</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a21a16455ee372d56d9a04a9454eaf03f" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a39713d1ea148a1d2ff3f42356ca6cb4e" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a8afedf0d950a560e7eac49a778130607" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1TextureBitSet_1aaa6e2f598061b4fb1c92b4e43f8cf8e6" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a85d1f701d9ada6f19966937091ba39ed" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a600b0eff6629b6d1b0994a44e144fd5d" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1TextureBitSet_1ad8b8053ab55007f25e86fcd42e4e97c4" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a2f89a2d1173af0b1217d50b2156e01b6" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>testSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a0b150905da2580df71fd7aa0d3969c80" prot="package" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1acef102524c6b2576717a31879b50dc47" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1acdbd32b09e447f9c5c15ddb02742ffbf" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a5a312cf3da8d6b926c0b970f1a04cc8c" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1ac93d7afaa170aff6b45361dca039d403" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a7d2ebea4d723c5dc7ccf2a94929cf95b" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1aa9766b613fdd9286a76667dfa568387c" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a7841750691be44e3f6d5f0e01c0c0245" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>TextureBitSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a58f48c3c2735c4f1859a5234b0d6a18b" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a50040d0a5d9be93e57766d18ed96c16e" prot="public" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>xorAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

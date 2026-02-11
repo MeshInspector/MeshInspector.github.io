@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Histogram" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Histogram</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a9fd29e584ec905bc7e829602b1bff6da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Histogram.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Histogram.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22702" bodyend="22703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1aecb4a7d3d02bb2fcd1513099185315b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+        <definition> Histogram mrmeshpy.Histogram.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Histogram.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22706" bodyend="22707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1aecb4a7d3d02bb2fcd1513099185315b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+        <definition> Histogram mrmeshpy.Histogram.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Histogram.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22710" bodyend="22711"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1aec1797f19ef6beeef0085525ad967ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Histogram.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Histogram.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22713" bodyend="22714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a4016e7f424620e6adc361fdb0918efc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Histogram.__init__</definition>
+        <argsstring>(self, float min, float max, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Histogram.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize histogram with minimum and maximum values, and number of bins
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22716" bodyend="22719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1ab248134bbf9f175c896d8c604c3e4e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Histogram.__init__</definition>
+        <argsstring>(self, Histogram arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Histogram.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22721" bodyend="22724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1af3fe2bcd9fff2c36db5b84ea3b2fae25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Histogram.addHistogram</definition>
+        <argsstring>(self, Histogram hist)</argsstring>
+        <name>addHistogram</name>
+        <qualifiedname>mrmeshpy.Histogram.addHistogram</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+          <declname>hist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Adds bins of input hist to this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22725" bodyend="22728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a3dec0185df4341fb8641de3d0aa4feb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Histogram.addSample</definition>
+        <argsstring>(self, float sample, int count=1)</argsstring>
+        <name>addSample</name>
+        <qualifiedname>mrmeshpy.Histogram.addSample</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Adds sample to corresponding bin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22729" bodyend="22732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1ad2b830128b8e35d6cf0fb83ae5313693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Histogram.getBinId</definition>
+        <argsstring>(self, float sample)</argsstring>
+        <name>getBinId</name>
+        <qualifiedname>mrmeshpy.Histogram.getBinId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Gets id of bin that inherits sample
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22733" bodyend="22736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a1a509b7a73931d8409afe37b0adafa34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[float, float]</type>
+        <definition> tuple[float, float] mrmeshpy.Histogram.getBinMinMax</definition>
+        <argsstring>(self, int binId)</argsstring>
+        <name>getBinMinMax</name>
+        <qualifiedname>mrmeshpy.Histogram.getBinMinMax</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>binId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Gets minimum and maximum of diapason inherited by bin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22737" bodyend="22740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a50711bf6ce8e8e1d0f414110e3f9c1da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__long" kindref="compound">std_vector_unsigned_long</ref></type>
+        <definition> std_vector_unsigned_long mrmeshpy.Histogram.getBins</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBins</name>
+        <qualifiedname>mrmeshpy.Histogram.getBins</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Gets bins
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22741" bodyend="22744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a6db9e1d50d28710ed52773003233e5e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Histogram.getMax</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMax</name>
+        <qualifiedname>mrmeshpy.Histogram.getMax</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Gets maximum value of histogram
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22745" bodyend="22748"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1aa470779c9b2de60bd31a7e22eb63295e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Histogram.getMin</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMin</name>
+        <qualifiedname>mrmeshpy.Histogram.getMin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Gets minimum value of histogram
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22749" bodyend="22752"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Histogram_1a477fe1e3bd7c821878886d72ccbd8ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Histogram.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Histogram.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22753" bodyend="22756"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Histogram
+
+Simple class for calculating histogram
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22694" bodyend="22756"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Histogram_1a9fd29e584ec905bc7e829602b1bff6da" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1aec1797f19ef6beeef0085525ad967ef3" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1a4016e7f424620e6adc361fdb0918efc0" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1ab248134bbf9f175c896d8c604c3e4e53" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1af3fe2bcd9fff2c36db5b84ea3b2fae25" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>addHistogram</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1a3dec0185df4341fb8641de3d0aa4feb9" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>addSample</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1ad2b830128b8e35d6cf0fb83ae5313693" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>getBinId</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1a1a509b7a73931d8409afe37b0adafa34" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>getBinMinMax</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1a50711bf6ce8e8e1d0f414110e3f9c1da" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>getBins</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1a6db9e1d50d28710ed52773003233e5e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>getMax</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1aa470779c9b2de60bd31a7e22eb63295e" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>getMin</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1a477fe1e3bd7c821878886d72ccbd8ca1" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1aecb4a7d3d02bb2fcd1513099185315b4" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Histogram_1aecb4a7d3d02bb2fcd1513099185315b4" prot="public" virt="non-virtual"><scope>mrmeshpy::Histogram</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

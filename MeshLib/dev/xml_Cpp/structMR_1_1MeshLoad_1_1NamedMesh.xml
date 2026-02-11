@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshLoad_1_1NamedMesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshLoad::NamedMesh</compoundname>
+    <includes refid="MRMeshLoadObj_8h" local="no">MRMeshLoadObj.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__MeshLoadObjGroup_1ga05826b92a46319385603f88ae180c23a" kind="variable"><name>name</name></member>
+      <member refid="group__MeshLoadObjGroup_1gab4ded5f4899c9c9bd466b211bd8e2bf1" kind="variable"><name>mesh</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga216284f1a34367048f2f39d7688b1a72" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__MeshLoadObjGroup_1gacad26bb0f966762a6201f66dbe3e0f03" kind="variable"><name>colors</name></member>
+      <member refid="group__MeshLoadObjGroup_1gae14992ee2961e93c9690326874a825e4" kind="variable"><name>textureFiles</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga311db5316a105349238e8f439b00d599" kind="variable"><name>texturePerFace</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga24c0d1fb11f0d559f180bff7fc3fc188" kind="variable"><name>diffuseColor</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga62b08df84e9ae3aa8d59b93d284d02d7" kind="variable"><name>xf</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga7655251160688728be82b103fa220dd3" kind="variable"><name>skippedFaceCount</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga26a8bc92daf43830d65572e1f00a40dc" kind="variable"><name>duplicatedVertexCount</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::MeshLoad::NamedMesh</label>
+        <link refid="structMR_1_1MeshLoad_1_1NamedMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>textureFiles</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>texturePerFace</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="5">
+        <label>MR::Vector&lt; TextureId, FaceId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+      <node id="4">
+        <label>MR::Vector&lt; std::filesystem::path, TextureId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="40" bodyend="57"/>
+    <listofallmembers>
+      <member refid="group__MeshLoadObjGroup_1gacad26bb0f966762a6201f66dbe3e0f03" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>colors</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga24c0d1fb11f0d559f180bff7fc3fc188" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>diffuseColor</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga26a8bc92daf43830d65572e1f00a40dc" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>duplicatedVertexCount</name></member>
+      <member refid="group__MeshLoadObjGroup_1gab4ded5f4899c9c9bd466b211bd8e2bf1" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>mesh</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga05826b92a46319385603f88ae180c23a" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>name</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga7655251160688728be82b103fa220dd3" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>skippedFaceCount</name></member>
+      <member refid="group__MeshLoadObjGroup_1gae14992ee2961e93c9690326874a825e4" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>textureFiles</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga311db5316a105349238e8f439b00d599" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>texturePerFace</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga216284f1a34367048f2f39d7688b1a72" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>uvCoords</name></member>
+      <member refid="group__MeshLoadObjGroup_1ga62b08df84e9ae3aa8d59b93d284d02d7" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

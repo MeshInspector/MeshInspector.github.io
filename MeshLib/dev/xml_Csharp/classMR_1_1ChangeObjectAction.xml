@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeObjectAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeObjectAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeObjectAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a9cc164f4c946bbd4d378bf10a09bf813" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeObjectAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeObjectAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeObjectAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeObjectAction" kindref="compound">ChangeObjectAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="184" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a9141a0b64f44159749e7a5d08b58eba1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeObjectAction.operator ChangeObjectAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeObjectAction?</name>
+        <qualifiedname>MR.ChangeObjectAction.operator ChangeObjectAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="192" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="192" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a399080f2eab6b6b51d50c07724496374" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectAction.ChangeObjectAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeObjectAction</name>
+        <qualifiedname>MR.ChangeObjectAction.ChangeObjectAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="201" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1ab7db2b24a8c4ee47494d45417074f4e3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectAction.ChangeObjectAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeObjectAction</name>
+        <qualifiedname>MR.ChangeObjectAction.ChangeObjectAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="203" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="203" bodyend="203"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a17ada46c73a48bca8f75c4863f38bfc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectAction.ChangeObjectAction</definition>
+        <argsstring>(MR._ByValue_ChangeObjectAction _other)</argsstring>
+        <name>ChangeObjectAction</name>
+        <qualifiedname>MR.ChangeObjectAction.ChangeObjectAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeObjectAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeObjectAction.ChangeObjectAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="208" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="208" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a13e205a0d0988c1e01aef80397e81945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeObjectAction.ChangeObjectAction</definition>
+        <argsstring>(Const_ChangeObjectAction _other)</argsstring>
+        <name>ChangeObjectAction</name>
+        <qualifiedname>MR.ChangeObjectAction.ChangeObjectAction</qualifiedname>
+        <param>
+          <type>Const_ChangeObjectAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeObjectAction.ChangeObjectAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="219" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="219" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a672abc1b3c7819edcf917a3139c016f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeObjectAction.ChangeObjectAction</definition>
+        <argsstring>(ChangeObjectAction _other)</argsstring>
+        <name>ChangeObjectAction</name>
+        <qualifiedname>MR.ChangeObjectAction.ChangeObjectAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeObjectAction" kindref="compound">ChangeObjectAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeObjectAction.ChangeObjectAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="224" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="224" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a7ebf8b2defd258d5327a416bd9ccfbe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectAction.ChangeObjectAction</definition>
+        <argsstring>(string name, MR.Const_Object obj)</argsstring>
+        <name>ChangeObjectAction</name>
+        <qualifiedname>MR.ChangeObjectAction.ChangeObjectAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Constructed from original <ref refid="classMR_1_1Object" kindref="compound">Object</ref> Generated from constructor <computeroutput>MR.ChangeObjectAction.ChangeObjectAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="230" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="230" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a1eba7efd2915fa0eddd1f7740e5e676a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeObjectAction" kindref="compound">MR.ChangeObjectAction</ref></type>
+        <definition>unsafe MR.ChangeObjectAction MR.ChangeObjectAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeObjectAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeObjectAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeObjectAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeObjectAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="245" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="245" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a7ee70cf340528a31e91524ecc01bcfae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeObjectAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeObjectAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeObjectAction_1a7ee70cf340528a31e91524ecc01bcfae" kindref="member">MR.ChangeObjectAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="257" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="257" bodyend="262"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for object change Generated from class <computeroutput><ref refid="classMR_1_1ChangeObjectAction" kindref="compound">MR.ChangeObjectAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeObjectAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeObjectAction</label>
+        <link refid="classMR_1_1ChangeObjectAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeObjectAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeObjectAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeObjectAction</label>
+        <link refid="classMR_1_1ChangeObjectAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeObjectAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="181" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="182" bodyend="263"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeObjectAction_1a7ee70cf340528a31e91524ecc01bcfae" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a1eba7efd2915fa0eddd1f7740e5e676a" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a399080f2eab6b6b51d50c07724496374" prot="package" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1ab7db2b24a8c4ee47494d45417074f4e3" prot="package" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a17ada46c73a48bca8f75c4863f38bfc8" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a13e205a0d0988c1e01aef80397e81945" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a672abc1b3c7819edcf917a3139c016f8" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a7ebf8b2defd258d5327a416bd9ccfbe1" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a9141a0b64f44159749e7a5d08b58eba1" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>operator ChangeObjectAction?</name></member>
+      <member refid="classMR_1_1ChangeObjectAction_1a9cc164f4c946bbd4d378bf10a09bf813" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

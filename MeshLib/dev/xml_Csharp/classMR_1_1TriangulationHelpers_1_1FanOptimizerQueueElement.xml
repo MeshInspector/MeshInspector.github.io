@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriangulationHelpers::FanOptimizerQueueElement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_FanOptimizerQueueElement</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a7efeccae78f6c00e880641462cbca7f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.TriangulationHelpers.FanOptimizerQueueElement.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="208" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af6f94de4651d5915a2396fd0366ff784" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.TriangulationHelpers.FanOptimizerQueueElement.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="211" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aedc6de04e2f6822639127c5a480e7771" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.TriangulationHelpers.FanOptimizerQueueElement.prevId</definition>
+        <argsstring></argsstring>
+        <name>prevId</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.prevId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="214" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0578186ad11d0a1e8a861d72ddc2e269" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.TriangulationHelpers.FanOptimizerQueueElement.nextId</definition>
+        <argsstring></argsstring>
+        <name>nextId</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.nextId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="217" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa05058f0a307f86e577dcd995c2d4f71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.TriangulationHelpers.FanOptimizerQueueElement.stable</definition>
+        <argsstring></argsstring>
+        <name>stable</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.stable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="220" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa430f29e6977a2dac3e47c4903367bca" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FanOptimizerQueueElement</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="224" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="224" bodyend="228"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a63bc49ce930867100df4a9f996a112dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</definition>
+        <argsstring>()</argsstring>
+        <name>FanOptimizerQueueElement</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="234" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="234" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a4de2f0629fe0e24244d1f70ac8435835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</definition>
+        <argsstring>(float weight, int id, int prevId, int nextId, bool stable)</argsstring>
+        <name>FanOptimizerQueueElement</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prevId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nextId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stable</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">MR.TriangulationHelpers.FanOptimizerQueueElement</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="245" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="245" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a99eafa1ad93235590681a5ba31da1239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</definition>
+        <argsstring>(MR.TriangulationHelpers.Const_FanOptimizerQueueElement _other)</argsstring>
+        <name>FanOptimizerQueueElement</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</qualifiedname>
+        <param>
+          <type>MR.TriangulationHelpers.Const_FanOptimizerQueueElement</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="256" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="256" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a89e9324799b3e6f6fb9d69dd91314792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</definition>
+        <argsstring>(FanOptimizerQueueElement _other)</argsstring>
+        <name>FanOptimizerQueueElement</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.FanOptimizerQueueElement.FanOptimizerQueueElement</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="268" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="268" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a60ad9673510b4fbc8c8628dbc5f9cf39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">MR.TriangulationHelpers.FanOptimizerQueueElement</ref></type>
+        <definition>unsafe MR.TriangulationHelpers.FanOptimizerQueueElement MR.TriangulationHelpers.FanOptimizerQueueElement.assign</definition>
+        <argsstring>(MR.TriangulationHelpers.Const_FanOptimizerQueueElement _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TriangulationHelpers.FanOptimizerQueueElement.assign</qualifiedname>
+        <param>
+          <type>MR.TriangulationHelpers.Const_FanOptimizerQueueElement</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriangulationHelpers.FanOptimizerQueueElement.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="273" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="273" bodyend="280"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">MR.TriangulationHelpers.FanOptimizerQueueElement</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FanOptimizerQueueElement</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriangulationHelpers.FanOptimizerQueueElement</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FanOptimizerQueueElement &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.TriangulationHelpers.Const_FanOptimizerQueueElement &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FanOptimizerQueueElement</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriangulationHelpers.FanOptimizerQueueElement</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FanOptimizerQueueElement &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.TriangulationHelpers.Const_FanOptimizerQueueElement &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="205" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="206" bodyend="281"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a60ad9673510b4fbc8c8628dbc5f9cf39" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>assign</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa430f29e6977a2dac3e47c4903367bca" prot="package" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>FanOptimizerQueueElement</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a63bc49ce930867100df4a9f996a112dd" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>FanOptimizerQueueElement</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a4de2f0629fe0e24244d1f70ac8435835" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>FanOptimizerQueueElement</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a99eafa1ad93235590681a5ba31da1239" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>FanOptimizerQueueElement</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a89e9324799b3e6f6fb9d69dd91314792" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>FanOptimizerQueueElement</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af6f94de4651d5915a2396fd0366ff784" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>id</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0578186ad11d0a1e8a861d72ddc2e269" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>nextId</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aedc6de04e2f6822639127c5a480e7771" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>prevId</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa05058f0a307f86e577dcd995c2d4f71" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>stable</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a7efeccae78f6c00e880641462cbca7f2" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

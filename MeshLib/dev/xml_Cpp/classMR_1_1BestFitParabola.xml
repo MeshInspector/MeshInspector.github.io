@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BestFitParabola" kind="class" language="C++" prot="public">
+    <compoundname>MR::BestFitParabola</compoundname>
+    <includes refid="MRBestFitParabola_8h" local="no">MRBestFitParabola.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1BestFitParabola_1a42fb21653e38502f65f4f202012d11fe" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt; T &gt;</type>
+        <definition>SymMatrix3&lt;T&gt; MR::BestFitParabola&lt; T &gt;::m_</definition>
+        <argsstring></argsstring>
+        <name>m_</name>
+        <qualifiedname>MR::BestFitParabola::m_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="24" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1BestFitParabola_1a91b7718f2b7a1e0fe571f174a8e4bc3a" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>Vector3&lt;T&gt; MR::BestFitParabola&lt; T &gt;::b_</definition>
+        <argsstring></argsstring>
+        <name>b_</name>
+        <qualifiedname>MR::BestFitParabola::b_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BestFitParabola_1a8b4c1d8441a656b128c01711395e395b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BestFitParabola&lt; T &gt;::addPoint</definition>
+        <argsstring>(T x, T y)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR::BestFitParabola::addPoint</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>accumulates one more point for parabola fitting </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="15" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabola_1a35bb9336bb5fe0191c718e89261c9645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BestFitParabola&lt; T &gt;::addPoint</definition>
+        <argsstring>(T x, T y, T weight)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR::BestFitParabola::addPoint</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>accumulates one more point with given weight for parabola fitting </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="18" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabola_1a5aa2674186bbd028f31bcc7308f82255" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Parabola" kindref="compound">Parabola</ref>&lt; T &gt;</type>
+        <definition>Parabola&lt; T &gt; MR::BestFitParabola&lt; T &gt;::getBestParabola</definition>
+        <argsstring>(T tol=std::numeric_limits&lt; T &gt;::epsilon()) const</argsstring>
+        <name>getBestParabola</name>
+        <qualifiedname>MR::BestFitParabola::getBestParabola</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>tol</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon()</defval>
+        </param>
+        <briefdescription>
+<para>computes the best approximating parabola from the accumulated points; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="45" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>accumulates a number of (x,y) points to find the best-least-squares parabola approximating them </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="12" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BestFitParabola_1a8b4c1d8441a656b128c01711395e395b" prot="public" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1BestFitParabola_1a35bb9336bb5fe0191c718e89261c9645" prot="public" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1BestFitParabola_1a91b7718f2b7a1e0fe571f174a8e4bc3a" prot="private" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>b_</name></member>
+      <member refid="classMR_1_1BestFitParabola_1a5aa2674186bbd028f31bcc7308f82255" prot="public" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>getBestParabola</name></member>
+      <member refid="classMR_1_1BestFitParabola_1a42fb21653e38502f65f4f202012d11fe" prot="private" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>m_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

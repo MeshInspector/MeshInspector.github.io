@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Cone3ApproximationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Cone3ApproximationParams</compoundname>
+    <includes refid="MRConeApproximator_8h" local="no">MRConeApproximator.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Cone3ApproximationParams_1a6c4848e08b47fefbf24a221b15e00329" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration</definition>
+        <argsstring></argsstring>
+        <name>levenbergMarquardtMaxIteration</name>
+        <qualifiedname>MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration</qualifiedname>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="135" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Cone3ApproximationParams_1a78abf2b4f9d3845ec382b09ec2c865d3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a0ec93e9fcfd4b11654579d65e255bb7d" kindref="member">ConeFitterType</ref></type>
+        <definition>ConeFitterType MR::Cone3ApproximationParams::coneFitterType</definition>
+        <argsstring></argsstring>
+        <name>coneFitterType</name>
+        <qualifiedname>MR::Cone3ApproximationParams::coneFitterType</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b" kindref="member">ConeFitterType::HemisphereSearchFit</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="136" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Cone3ApproximationParams_1a5b47cd0b4ce1e73f079a35fdc80d2850" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Cone3ApproximationParams::hemisphereSearchPhiResolution</definition>
+        <argsstring></argsstring>
+        <name>hemisphereSearchPhiResolution</name>
+        <qualifiedname>MR::Cone3ApproximationParams::hemisphereSearchPhiResolution</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="137" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Cone3ApproximationParams_1a0c389ccce5e8616195da9e724505f8c2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Cone3ApproximationParams::hemisphereSearchThetaResolution</definition>
+        <argsstring></argsstring>
+        <name>hemisphereSearchThetaResolution</name>
+        <qualifiedname>MR::Cone3ApproximationParams::hemisphereSearchThetaResolution</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="138" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="134" bodyend="139"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Cone3ApproximationParams_1a78abf2b4f9d3845ec382b09ec2c865d3" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>coneFitterType</name></member>
+      <member refid="structMR_1_1Cone3ApproximationParams_1a5b47cd0b4ce1e73f079a35fdc80d2850" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>hemisphereSearchPhiResolution</name></member>
+      <member refid="structMR_1_1Cone3ApproximationParams_1a0c389ccce5e8616195da9e724505f8c2" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>hemisphereSearchThetaResolution</name></member>
+      <member refid="structMR_1_1Cone3ApproximationParams_1a6c4848e08b47fefbf24a221b15e00329" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>levenbergMarquardtMaxIteration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

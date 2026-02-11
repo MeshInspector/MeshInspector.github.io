@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MROffset_8h" kind="file" language="C++">
+    <compoundname>MROffset.h</compoundname>
+    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRMeshPart_8h" local="yes">MRMesh/MRMeshPart.h</includes>
+    <includes refid="MRSignDetectionMode_8h" local="yes">MRMesh/MRSignDetectionMode.h</includes>
+    <includes refid="MRProgressCallback_8h" local="yes">MRMesh/MRProgressCallback.h</includes>
+    <includes refid="MRPartMapping_8h" local="yes">MRMesh/MRPartMapping.h</includes>
+    <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
+    <includes refid="MREnums_8h" local="yes">MRMesh/MREnums.h</includes>
+    <includes local="no">optional</includes>
+    <includes local="no">string</includes>
+    <includedby refid="MRPartialOffset_8h" local="yes">MRPartialOffset.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRMesh/MRPartMapping.h</label>
+        <link refid="MRPartMapping_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRSignDetectionMode.h</label>
+        <link refid="MRSignDetectionMode_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MROffset.h</label>
+        <link refid="MROffset_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="21">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>optional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MROffset.h</label>
+        <link refid="MROffset_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRPartialOffset.h</label>
+        <link refid="MRPartialOffset_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1BaseShellParameters" prot="public">MR::BaseShellParameters</innerclass>
+    <innerclass refid="structMR_1_1OffsetParameters" prot="public">MR::OffsetParameters</innerclass>
+    <innerclass refid="structMR_1_1SharpOffsetParameters" prot="public">MR::SharpOffsetParameters</innerclass>
+    <innerclass refid="structMR_1_1GeneralOffsetParameters" prot="public">MR::GeneralOffsetParameters</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshPart_8h" kindref="compound">MRMesh/MRMeshPart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSignDetectionMode_8h" kindref="compound">MRMesh/MRSignDetectionMode.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRMesh/MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPartMapping_8h" kindref="compound">MRMesh/MRPartMapping.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MRMesh/MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1BaseShellParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1BaseShellParameters_1a0496e82daf37476561be7bd450c6fb48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseShellParameters_1a0496e82daf37476561be7bd450c6fb48" kindref="member">voxelSize</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1BaseShellParameters_1a21a919475b5c9882d80ab9a26dd60d50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1BaseShellParameters_1a21a919475b5c9882d80ab9a26dd60d50" kindref="member">callBack</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="namespaceMR_1a346ad7a38921d6822ceffafc1eba769d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a346ad7a38921d6822ceffafc1eba769d" kindref="member">suggestVoxelSize</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>approxNumVoxels<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1OffsetParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref><sp/>:<sp/><ref refid="structMR_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1OffsetParameters_1aa411170d1cc5cc475f3caeab0a525e26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309" kindref="member">SignDetectionMode</ref><sp/><ref refid="structMR_1_1OffsetParameters_1aa411170d1cc5cc475f3caeab0a525e26" kindref="member">signDetectionMode</ref><sp/>=<sp/><ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode::OpenVDB</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1OffsetParameters_1a17a5a45fd3d4de2eba7280f9071ac737" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters_1a17a5a45fd3d4de2eba7280f9071ac737" kindref="member">closeHolesInHoleWindingNumber</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1OffsetParameters_1aa99164027d422577e04d9f14f605b51c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters_1aa99164027d422577e04d9f14f605b51c" kindref="member">windingNumberThreshold</ref><sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="structMR_1_1OffsetParameters_1ad18e4a01d5b80daf7231296013920c10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters_1ad18e4a01d5b80daf7231296013920c10" kindref="member">windingNumberBeta</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="structMR_1_1OffsetParameters_1a6599d762d28d8ca7118f3b4dba6602d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;IFastWindingNumber&gt;<sp/><ref refid="structMR_1_1OffsetParameters_1a6599d762d28d8ca7118f3b4dba6602d2" kindref="member">fwn</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="structMR_1_1OffsetParameters_1abd9bbd0481fadc99967608720c11fee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters_1abd9bbd0481fadc99967608720c11fee4" kindref="member">memoryEfficient</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="structMR_1_1SharpOffsetParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref><sp/>:<sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63" refid="structMR_1_1SharpOffsetParameters_1a662db16653ae12258fec109e1a4b4357" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet*<sp/><ref refid="structMR_1_1SharpOffsetParameters_1a662db16653ae12258fec109e1a4b4357" kindref="member">outSharpEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="structMR_1_1SharpOffsetParameters_1af01c8832be1a64bae952f261154116cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpOffsetParameters_1af01c8832be1a64bae952f261154116cf" kindref="member">minNewVertDev</ref><sp/>=<sp/>1.0f<sp/>/<sp/>25;</highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1SharpOffsetParameters_1a431f430b0b5458fce3c73fddbb6428a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpOffsetParameters_1a431f430b0b5458fce3c73fddbb6428a4" kindref="member">maxNewRank2VertDev</ref><sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="69" refid="structMR_1_1SharpOffsetParameters_1a482a50c8e7ad39898c7dafff5c92474e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpOffsetParameters_1a482a50c8e7ad39898c7dafff5c92474e" kindref="member">maxNewRank3VertDev</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="72" refid="structMR_1_1SharpOffsetParameters_1afb1d63d46e98d00f4c3560f3eb55b99b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpOffsetParameters_1afb1d63d46e98d00f4c3560f3eb55b99b" kindref="member">maxOldVertPosCorrection</ref><sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="namespaceMR_1aa8cff093ce429503e9b5c0e33d5b9080" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1aa8cff093ce429503e9b5c0e33d5b9080" kindref="member">offsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="namespaceMR_1acc11e2c793b76a5cae9e076283d14a41" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1acc11e2c793b76a5cae9e076283d14a41" kindref="member">doubleOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetA,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="namespaceMR_1a2feac3a50eec5b2f2d371d843f869f27" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1a2feac3a50eec5b2f2d371d843f869f27" kindref="member">mcOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/>Vector&lt;VoxelId,<sp/>FaceId&gt;*<sp/>outMap<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="namespaceMR_1a26c58403810ae559f5aa4b2e7e0dd80d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1a26c58403810ae559f5aa4b2e7e0dd80d" kindref="member">mcShellMeshRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref>&amp;<sp/>params,<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref><sp/>*<sp/>outMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="namespaceMR_1ac1a0e7e32c8d591b83f66462ad4f89ef" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1ac1a0e7e32c8d591b83f66462ad4f89ef" kindref="member">sharpOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="structMR_1_1GeneralOffsetParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref><sp/>:<sp/><ref refid="structMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104" refid="structMR_1_1GeneralOffsetParameters_1abc2615fd96d188bbdb1407d0cc0e5c84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">Mode</ref><sp/>=<sp/><ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">MR::OffsetMode</ref>;</highlight></codeline>
+<codeline lineno="105" refid="structMR_1_1GeneralOffsetParameters_1a32b4506f0ab7b7a76f0e3b1ce34a94d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">Mode</ref><sp/><ref refid="structMR_1_1GeneralOffsetParameters_1a32b4506f0ab7b7a76f0e3b1ce34a94d1" kindref="member">mode</ref><sp/>=<sp/>Mode::Standard;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="namespaceMR_1a5edbfcffae3bcdb000d83b7c6cf9e050" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1a5edbfcffae3bcdb000d83b7c6cf9e050" kindref="member">generalOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="namespaceMR_1a966b3824bea42f802c68817d2edfde70" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1a966b3824bea42f802c68817d2edfde70" kindref="member">thickenMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref><sp/>&amp;<sp/>params<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a206d2359088d7de67554ae5420f14ab2" kindref="member">PartMapping</ref><sp/>&amp;<sp/>map<sp/>=<sp/>{}<sp/>);<sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="namespaceMR_1a9ec48e1b0c1c9a1cca3e8368175b857e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1a9ec48e1b0c1c9a1cca3e8368175b857e" kindref="member">offsetOneDirection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="namespaceMR_1aa6f9ce8f2f7a4b39c759f54fbfede167" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1aa6f9ce8f2f7a4b39c759f54fbfede167" kindref="member">offsetPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h"/>
+  </compounddef>
+</doxygen>

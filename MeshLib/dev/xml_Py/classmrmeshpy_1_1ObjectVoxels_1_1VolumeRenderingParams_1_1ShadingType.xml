@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1abd0ed51c2c4908ec3ff78271d9eaa9c7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType::AlphaGradient</definition>
+        <argsstring></argsstring>
+        <name>AlphaGradient</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.AlphaGradient</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType" kindref="compound">ObjectVoxels.VolumeRenderingParams.ShadingType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1ad96206d4153308f664fcf063804f21ea" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType::None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.None</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType" kindref="compound">ObjectVoxels.VolumeRenderingParams.ShadingType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a7f48fd33621bf0374ef6ba683a68c191" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType::ValueGradient</definition>
+        <argsstring></argsstring>
+        <name>ValueGradient</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.ValueGradient</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType" kindref="compound">ObjectVoxels.VolumeRenderingParams.ShadingType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40749" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a5e1f14655240f766b6d95ee2b5a179f1" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType" kindref="compound">ObjectVoxels.VolumeRenderingParams.ShadingType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40750" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1aa008b81a3c830681d9c77e85ba6778f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40751" bodyend="40752"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1aed42988f79f12d484e1540b1f8dbb45d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40753" bodyend="40754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a66101f30fb11ecdadfe0cbf838fb6a87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40755" bodyend="40756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1ada57dcf647fc1fcbe0f1cc84cea6cffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40757" bodyend="40758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a303e1d2e822687fc614c7fe307e600e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1ad96206d4153308f664fcf063804f21ea" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40759" bodyend="40760"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a5a7c68e82761c32d4e85cb55fe6c7d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40761" bodyend="40762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1acbc1541fc9c73bd6de471d57d70ddcd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40763" bodyend="40764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1aa44f709357c35177e30bf2f6b145ff88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40765" bodyend="40766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a1389bbfc1caf9846f2c68859c21496a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1ad96206d4153308f664fcf063804f21ea" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40767" bodyend="40768"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a5624c48d073790db0a284651ff65041a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40769" bodyend="40770"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a973da088226c02569d16de400f2d424c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40772" bodyend="40773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a25f81197e9197a387da9d125a8688586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40775" bodyend="40777"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  None
+
+  ValueGradient
+
+  AlphaGradient
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectVoxels.VolumeRenderingParams.ShadingType</label>
+        <link refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AlphaGradient</edgelabel>
+          <edgelabel>None</edgelabel>
+          <edgelabel>ValueGradient</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40737" bodyend="40776"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1aa008b81a3c830681d9c77e85ba6778f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1aed42988f79f12d484e1540b1f8dbb45d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a66101f30fb11ecdadfe0cbf838fb6a87" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1ada57dcf647fc1fcbe0f1cc84cea6cffe" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a303e1d2e822687fc614c7fe307e600e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a5a7c68e82761c32d4e85cb55fe6c7d7c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a5e1f14655240f766b6d95ee2b5a179f1" prot="private" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1acbc1541fc9c73bd6de471d57d70ddcd4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1aa44f709357c35177e30bf2f6b145ff88" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a1389bbfc1caf9846f2c68859c21496a0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a5624c48d073790db0a284651ff65041a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1abd0ed51c2c4908ec3ff78271d9eaa9c7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>AlphaGradient</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a973da088226c02569d16de400f2d424c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1ad96206d4153308f664fcf063804f21ea" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>None</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a25f81197e9197a387da9d125a8688586" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a7f48fd33621bf0374ef6ba683a68c191" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::ShadingType</scope><name>ValueGradient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1ac4621e13939c101587a893a9571499f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75612" bodyend="75613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a412469cc2161ba3ef14f09f1a4ad326b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__call__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75614" bodyend="75615"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1ad5896253025a9a36c7e5daa83161b49d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75617" bodyend="75618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1ad5347a923450d99c24f3295271c93961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75620" bodyend="75621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a4c9113b5e30b7d2c6623638eaeb1949d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self, func_Vector3_float_from_unsigned_long_unsigned_long arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long" kindref="compound">func_Vector3_float_from_unsigned_long_unsigned_long</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75623" bodyend="75624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a57fdcb82984508de73e87d1c67e0ea04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self, typing.Callable[[int, int], Vector3f] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[int, int]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75626" bodyend="75627"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a0c9a4d5c74bb89f4f992711ee6cf59bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75628" bodyend="75631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a78dfb4571d3fcb89f35c7bf967edcba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_Vector3_float_from_unsigned_long_unsigned_long.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75632" bodyend="75635"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75611" bodyend="75635"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1ac4621e13939c101587a893a9571499f6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a412469cc2161ba3ef14f09f1a4ad326b" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1ad5896253025a9a36c7e5daa83161b49d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1ad5347a923450d99c24f3295271c93961" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a4c9113b5e30b7d2c6623638eaeb1949d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a57fdcb82984508de73e87d1c67e0ea04" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a0c9a4d5c74bb89f4f992711ee6cf59bd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__Vector3__float__from__unsigned__long__unsigned__long_1a78dfb4571d3fcb89f35c7bf967edcba6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Vector3_float_from_unsigned_long_unsigned_long</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

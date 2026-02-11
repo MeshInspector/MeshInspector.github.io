@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DeloneSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DeloneSettings</compoundname>
+    <includes refid="MRMeshDelone_8h" local="no">MRMeshDelone.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1acc54a4a2c29214632bccda65b6e0cba0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DeloneSettings::maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>MR::DeloneSettings::maxDeviationAfterFlip</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>Maximal allowed surface deviation during every individual flip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="13" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a2d89f7e52be83dd63ce7daed50c40c90" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DeloneSettings::maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR::DeloneSettings::maxAngleChange</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1ac1d8b0d536be2f423ac9a2d1b2bce7d2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DeloneSettings::criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR::DeloneSettings::criticalTriAspectRatio</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a0f1d4b68cf91c9aebfb8f580d7ab6610" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet *</type>
+        <definition>const FaceBitSet* MR::DeloneSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::DeloneSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Only edges with left and right faces in this set can be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="23" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a513ebe0c472b1ac5cdfa1226d4f52e27" prot="public" static="no" mutable="no">
+        <type>const UndirectedEdgeBitSet *</type>
+        <definition>const UndirectedEdgeBitSet* MR::DeloneSettings::notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR::DeloneSettings::notFlippable</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Edges specified by this bit-set will never be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="26" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a59743925cda5ef4a2b87449e410897e8" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::DeloneSettings::vertRegion</definition>
+        <argsstring></argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>MR::DeloneSettings::vertRegion</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Only edges with origin or destination in this set before or after flip can be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="29" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DeloneSettings_1ac1d8b0d536be2f423ac9a2d1b2bce7d2" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="structMR_1_1DeloneSettings_1a2d89f7e52be83dd63ce7daed50c40c90" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>maxAngleChange</name></member>
+      <member refid="structMR_1_1DeloneSettings_1acc54a4a2c29214632bccda65b6e0cba0" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="structMR_1_1DeloneSettings_1a513ebe0c472b1ac5cdfa1226d4f52e27" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>notFlippable</name></member>
+      <member refid="structMR_1_1DeloneSettings_1a0f1d4b68cf91c9aebfb8f580d7ab6610" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1DeloneSettings_1a59743925cda5ef4a2b87449e410897e8" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>vertRegion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

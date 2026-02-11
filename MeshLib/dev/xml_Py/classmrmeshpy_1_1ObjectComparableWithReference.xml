@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectComparableWithReference" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectComparableWithReference</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1DistanceMeasurementObject" prot="public" virt="non-virtual">mrmeshpy.DistanceMeasurementObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointMeasurementObject" prot="public" virt="non-virtual">mrmeshpy.PointMeasurementObject</derivedcompoundref>
+    <innerclass refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" prot="public">mrmeshpy::ObjectComparableWithReference::ComparableProperty</innerclass>
+    <innerclass refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" prot="public">mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</innerclass>
+    <innerclass refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" prot="public">mrmeshpy::ObjectComparableWithReference::ComparisonTolerance</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a0cd563b447fed51e900eb8ae114b3e87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref></type>
+        <definition> ObjectComparableWithReference mrmeshpy.ObjectComparableWithReference.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39327" bodyend="39328"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a9a693f13fd7c752a7daed86225899a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectComparableWithReference.comparisonToleranceIsAlwaysOnlyPositive</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>comparisonToleranceIsAlwaysOnlyPositive</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.comparisonToleranceIsAlwaysOnlyPositive</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a745fd51a8b22a4af6a7742e0a2d3edd8">comparisonToleranceIsAlwaysOnlyPositive</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true, indicates that the getter will always return zero negative tolerance, and the setter will ignore the negative tolerance.
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39329" bodyend="39333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a449cb6f1b760e736ce355c53f23b312e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ObjectComparableWithReference.ComparableProperty</ref></type>
+        <definition> ObjectComparableWithReference.ComparableProperty mrmeshpy.ObjectComparableWithReference.computeComparableProperty</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>computeComparableProperty</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.computeComparableProperty</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a6dcb181c1b89d289851ba83a78f1dfe8">computeComparableProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1accc37a4c85c0fe98e5b2db7f72a6f733">computeComparableProperty</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Compute a value of a property.
+Compare `value` and `referenceValue` using the tolerance.
+This can return null if the value is impossible to compute, e.g. for some types if the reference isn&apos;t set (e.g. if
+  we&apos;re computing the distance to a reference point).
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39334" bodyend="39341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a94fe811c22ab8aa980dbebd48b4de4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectComparableWithReference.getComparablePropertyName</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparablePropertyName</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.getComparablePropertyName</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1aa27b089776bfb619ffe43a2d4b29bf9b">getComparablePropertyName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1aaa198fef1ec3330ca285f8f471e04854">getComparablePropertyName</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39342" bodyend="39345"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a1ec3f866f2d40e2210b362875b63f0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonReferenceValue mrmeshpy.ObjectComparableWithReference.getComparisonReferenceValue</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparisonReferenceValue</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.getComparisonReferenceValue</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a7802e66455289eb9f0258cdb18bb8039">getComparisonReferenceValue</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1abb3985d0192fe7475ce82cfb90615e44">getComparisonReferenceValue</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the internal reference value.
+If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can still use the returned variant to get the expected type.
+`i` goes up to `numComparisonReferenceValues()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39346" bodyend="39351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a46aa797b7e6526af86e7398d59518d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectComparableWithReference.getComparisonReferenceValueName</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparisonReferenceValueName</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.getComparisonReferenceValueName</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a1327fdbedceb2c96d8c4cbb5be4f2925">getComparisonReferenceValueName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a4794eb47143ab4665975d4882c35e984">getComparisonReferenceValueName</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`i` goes up to `numComparisonReferenceValues()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39352" bodyend="39355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a6d0dd1c5733292e7a823b22d5caaf9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonTolerance mrmeshpy.ObjectComparableWithReference.getComparisonTolerence</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparisonTolerence</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.getComparisonTolerence</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a698d30c159b75c3192fed20d3e4fdc62">getComparisonTolerence</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a5bc6b4ec727fba31cd201bf860b728c8">getComparisonTolerence</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the tolerance for a specific comparable property. Returns null if not set.
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39356" bodyend="39360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a91bbbf28972f451f9a6453e53662dc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectComparableWithReference.numComparableProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>numComparableProperties</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.numComparableProperties</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a08bd5d81a4d473278c1cffd7e76618a3">numComparableProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1af113895d049f61639116bcc55f20c18b">numComparableProperties</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>When comparing this object with a reference, how many different properties can we output?
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39361" bodyend="39364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a0095fef2bf196a155da6270e100367c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectComparableWithReference.numComparisonReferenceValues</definition>
+        <argsstring>(self)</argsstring>
+        <name>numComparisonReferenceValues</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.numComparisonReferenceValues</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1aaecc4576780e5dd197092de66b65eb52">numComparisonReferenceValues</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The number and types of reference values can be entirely different compared to `numComparableProperties()`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39365" bodyend="39368"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1aa90cbf90f3001d7f1981206315904ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.setComparisonReferenceVal</definition>
+        <argsstring>(self, int i, ObjectComparableWithReference.ComparisonReferenceValue value)</argsstring>
+        <name>setComparisonReferenceVal</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.setComparisonReferenceVal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39369" bodyend="39370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1a45a4e8483c68d3235a3bdd8ea05f11a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.setComparisonReferenceValue</definition>
+        <argsstring>(self, int i, std_optional_std_variant_float_Vector3_float value)</argsstring>
+        <name>setComparisonReferenceValue</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.setComparisonReferenceValue</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1af034d54d534bcfd0694b15b66400c4d9">setComparisonReferenceValue</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1aa5035b534508ad1aea7878908e596845">setComparisonReferenceValue</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float" kindref="compound">std_optional_std_variant_float_Vector3_float</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the internal reference value. Makes `hasComparisonReferenceValue()` return true.
+If you pass nullopt, removes this reference value.
+Only a certain variant type is legal to pass, depending on the derived class and the index. Use `getComparisonReferenceValue()` to determine that type.
+`i` goes up to `numComparisonReferenceValues()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39371" bodyend="39377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1abc9240a99ba821dd077b5f35a6065176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.setComparisonTolerance</definition>
+        <argsstring>(self, int i, std_optional_ObjectComparableWithReference_ComparisonTolerance newTolerance)</argsstring>
+        <name>setComparisonTolerance</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.setComparisonTolerance</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a4696ad9952209bb08485ca20b6ec7568">setComparisonTolerance</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a5c502ea504e393cc4ed2f1dee3b1edf0">setComparisonTolerance</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance" kindref="compound">std_optional_ObjectComparableWithReference_ComparisonTolerance</ref></type>
+          <declname>newTolerance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the tolerance for a specific comparable property.
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39378" bodyend="39382"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectComparableWithReference
+
+A base class for a data-model object that is a feature/measurement that can be compared between two models.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectComparableWithReference</label>
+        <link refid="classmrmeshpy_1_1ObjectComparableWithReference"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.DistanceMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1DistanceMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.PointMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1PointMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39184" bodyend="39382"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a9a693f13fd7c752a7daed86225899a5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a449cb6f1b760e736ce355c53f23b312e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a94fe811c22ab8aa980dbebd48b4de4e0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>getComparablePropertyName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a1ec3f866f2d40e2210b362875b63f0af" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a46aa797b7e6526af86e7398d59518d4d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a6d0dd1c5733292e7a823b22d5caaf9a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>getComparisonTolerence</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a91bbbf28972f451f9a6453e53662dc50" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>numComparableProperties</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a0095fef2bf196a155da6270e100367c1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a0cd563b447fed51e900eb8ae114b3e87" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1aa90cbf90f3001d7f1981206315904ecd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1a45a4e8483c68d3235a3bdd8ea05f11a7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1abc9240a99ba821dd077b5f35a6065176" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference</scope><name>setComparisonTolerance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BendContoursAlongCurveParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BendContoursAlongCurveParams</compoundname>
+    <includes refid="MRAlignContoursToMesh_8h" local="no">MRAlignContoursToMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1af94f08b9029b46debd6c05b78ee3d395" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BendContoursAlongCurveParams::pivotCurveTime</definition>
+        <argsstring></argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>MR::BendContoursAlongCurveParams::pivotCurveTime</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="44" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1aa2f38f9d108b091730c6510d7dfdd082" prot="public" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::BendContoursAlongCurveParams::pivotBoxPoint</definition>
+        <argsstring></argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>MR::BendContoursAlongCurveParams::pivotBoxPoint</qualifiedname>
+        <initializer>{0.0f, 0.0f}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Position of the curve(pivotCurveTime) in the contours&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="48" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1ab8b07248a367fe492510d68b8052190c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BendContoursAlongCurveParams::periodicCurve</definition>
+        <argsstring></argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>MR::BendContoursAlongCurveParams::periodicCurve</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1aa63ad4da9aad75fc779edeb4baab169c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BendContoursAlongCurveParams::stretch</definition>
+        <argsstring></argsstring>
+        <name>stretch</name>
+        <qualifiedname>MR::BendContoursAlongCurveParams::stretch</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>stretch all contours along curve to fit in unit curve range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1a2e554b5ceea4b8d6d43ce5c58e506315" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BendContoursAlongCurveParams::extrusion</definition>
+        <argsstring></argsstring>
+        <name>extrusion</name>
+        <qualifiedname>MR::BendContoursAlongCurveParams::extrusion</qualifiedname>
+        <initializer>{ 1.0f }</initializer>
+        <briefdescription>
+<para>Contours extrusion outside of curve level. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for aligning 2d contours along given curve. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="42" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BendContoursAlongCurveParams_1a2e554b5ceea4b8d6d43ce5c58e506315" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
+      <member refid="structMR_1_1BendContoursAlongCurveParams_1ab8b07248a367fe492510d68b8052190c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="structMR_1_1BendContoursAlongCurveParams_1aa2f38f9d108b091730c6510d7dfdd082" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="structMR_1_1BendContoursAlongCurveParams_1af94f08b9029b46debd6c05b78ee3d395" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="structMR_1_1BendContoursAlongCurveParams_1aa63ad4da9aad75fc779edeb4baab169c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>stretch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

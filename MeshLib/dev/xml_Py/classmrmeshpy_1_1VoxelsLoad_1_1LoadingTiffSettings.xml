@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsLoad::LoadingTiffSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a1b44d1afcee1ab75367edfb78ce5b489" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.LoadingTiffSettings::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings._offsetof_cb</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a4f194135c2fcd6e5ff93531259cd0c43" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.LoadingTiffSettings::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings._offsetof_dir</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a84f05be20d4df80f6455ec2b286f71bc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.LoadingTiffSettings::_offsetof_gridType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gridType</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings._offsetof_gridType</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a4a45fc2442d4d132e87357fb21e57d0a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.LoadingTiffSettings::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings._offsetof_voxelSize</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73313" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a15937352e6af60d2ffc2754b01417912" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad" kindref="compound">VoxelsLoad</ref></type>
+        <definition>VoxelsLoad mrmeshpy.VoxelsLoad.LoadingTiffSettings::gridType</definition>
+        <argsstring></argsstring>
+        <name>gridType</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.gridType</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType" kindref="compound">GridType</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73315" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1ad3f8271b8a019b8c23dcc681664e9fc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73319" bodyend="73320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a52c735fd0252f0928c12765779ed5097" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings" kindref="compound">VoxelsLoad.LoadingTiffSettings</ref></type>
+        <definition> VoxelsLoad.LoadingTiffSettings mrmeshpy.VoxelsLoad.LoadingTiffSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73323" bodyend="73324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a52c735fd0252f0928c12765779ed5097" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings" kindref="compound">VoxelsLoad.LoadingTiffSettings</ref></type>
+        <definition> VoxelsLoad.LoadingTiffSettings mrmeshpy.VoxelsLoad.LoadingTiffSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73327" bodyend="73328"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a304562f1305d94e00036bd6c0d0b0cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73330" bodyend="73331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a993685cc95e500e1a44f1e6ba26ee972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</definition>
+        <argsstring>(self, VoxelsLoad.LoadingTiffSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings" kindref="compound">VoxelsLoad.LoadingTiffSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73333" bodyend="73336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1af9dcedace94de37e84d903d24021e2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</definition>
+        <argsstring>(self, os.PathLike|str|bytes dir, Vector3f voxelSize, VoxelsLoad.GridType gridType, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType" kindref="compound">VoxelsLoad.GridType</ref></type>
+          <declname>gridType</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73338" bodyend="73341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a0b6be7953ef785f445758496df83bf36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.VoxelsLoad.LoadingTiffSettings.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73343" bodyend="73344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a520695baf55310eac79a3ce878500eec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.LoadingTiffSettings.dir</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.LoadingTiffSettings.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73346" bodyend="73348"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelsLoad::LoadingTiffSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsLoad.LoadingTiffSettings</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_dir</edgelabel>
+          <edgelabel>_offsetof_gridType</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>gridType</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VoxelsLoad</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad"/>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73306" bodyend="73347"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1ad3f8271b8a019b8c23dcc681664e9fc8" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a304562f1305d94e00036bd6c0d0b0cf9" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a993685cc95e500e1a44f1e6ba26ee972" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1af9dcedace94de37e84d903d24021e2fb" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a1b44d1afcee1ab75367edfb78ce5b489" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a4f194135c2fcd6e5ff93531259cd0c43" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a84f05be20d4df80f6455ec2b286f71bc" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>_offsetof_gridType</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a4a45fc2442d4d132e87357fb21e57d0a" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a0b6be7953ef785f445758496df83bf36" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a520695baf55310eac79a3ce878500eec" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a15937352e6af60d2ffc2754b01417912" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>gridType</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a52c735fd0252f0928c12765779ed5097" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings_1a52c735fd0252f0928c12765779ed5097" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::LoadingTiffSettings</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

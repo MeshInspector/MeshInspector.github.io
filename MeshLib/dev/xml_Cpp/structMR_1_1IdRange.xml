@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IdRange" kind="struct" language="C++" prot="public">
+    <compoundname>MR::IdRange</compoundname>
+    <includes refid="MRBitSetParallelFor_8h" local="no">MRBitSetParallelFor.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1IdRange_1a3067ad4ae350fd44c70d1c64edda60c0" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+        <definition>Id MR::IdRange&lt; Id &gt;::beg</definition>
+        <argsstring></argsstring>
+        <name>beg</name>
+        <qualifiedname>MR::IdRange::beg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="18" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IdRange_1aff5326f04115631dc2ec0096a162fc58" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+        <definition>Id MR::IdRange&lt; Id &gt;::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR::IdRange::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="18" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1IdRange_1a20f9cf39b58e7c10a1c4a32969691d3a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::IdRange&lt; Id &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::IdRange::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>range of indices [beg, end) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Id&lt; T &gt;</label>
+        <link refid="classMR_1_1Id"/>
+      </node>
+      <node id="1">
+        <label>MR::IdRange&lt; Id &gt;</label>
+        <link refid="structMR_1_1IdRange"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>beg</edgelabel>
+          <edgelabel>end</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="17" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structMR_1_1IdRange_1a3067ad4ae350fd44c70d1c64edda60c0" prot="public" virt="non-virtual"><scope>MR::IdRange</scope><name>beg</name></member>
+      <member refid="structMR_1_1IdRange_1aff5326f04115631dc2ec0096a162fc58" prot="public" virt="non-virtual"><scope>MR::IdRange</scope><name>end</name></member>
+      <member refid="structMR_1_1IdRange_1a20f9cf39b58e7c10a1c4a32969691d3a" prot="public" virt="non-virtual"><scope>MR::IdRange</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

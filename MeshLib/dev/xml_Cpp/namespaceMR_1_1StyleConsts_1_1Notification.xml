@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1StyleConsts_1_1Notification" kind="namespace" language="C++">
+    <compoundname>MR::StyleConsts::Notification</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1afc9857750646620b389f5cb41ca048b9" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cWindowRounding</definition>
+        <argsstring></argsstring>
+        <name>cWindowRounding</name>
+        <qualifiedname>MR::StyleConsts::Notification::cWindowRounding</qualifiedname>
+        <initializer>= 4.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="101" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1a4c0e53ab35221788afdf9df8298f8e3b" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cWindowSpacing</definition>
+        <argsstring></argsstring>
+        <name>cWindowSpacing</name>
+        <qualifiedname>MR::StyleConsts::Notification::cWindowSpacing</qualifiedname>
+        <initializer>= 20.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="102" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1a85ff61268fac639e5871b152b1834e4d" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cWindowBorderWidth</definition>
+        <argsstring></argsstring>
+        <name>cWindowBorderWidth</name>
+        <qualifiedname>MR::StyleConsts::Notification::cWindowBorderWidth</qualifiedname>
+        <initializer>= 2.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="103" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1aac592de3f9df1139cad7ffbcdbadea5b" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cWindowPadding</definition>
+        <argsstring></argsstring>
+        <name>cWindowPadding</name>
+        <qualifiedname>MR::StyleConsts::Notification::cWindowPadding</qualifiedname>
+        <initializer>= 16.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="104" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1afa5b42784cc74d768e33f84c3f8dbc37" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cNotificationWindowPaddingX</definition>
+        <argsstring></argsstring>
+        <name>cNotificationWindowPaddingX</name>
+        <qualifiedname>MR::StyleConsts::Notification::cNotificationWindowPaddingX</qualifiedname>
+        <initializer>= 10.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="105" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1ab44fac23055a5f76fda2e5fbbcff8154" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cNotificationWindowPaddingY</definition>
+        <argsstring></argsstring>
+        <name>cNotificationWindowPaddingY</name>
+        <qualifiedname>MR::StyleConsts::Notification::cNotificationWindowPaddingY</qualifiedname>
+        <initializer>= 10.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="106" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1a40b832fe75f008db0d06d0ce99d54600" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cWindowsPosY</definition>
+        <argsstring></argsstring>
+        <name>cWindowsPosY</name>
+        <qualifiedname>MR::StyleConsts::Notification::cWindowsPosY</qualifiedname>
+        <initializer>= 95.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="107" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1a52e5057bbe55444050f29109e7fe6369" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cHistoryButtonSizeY</definition>
+        <argsstring></argsstring>
+        <name>cHistoryButtonSizeY</name>
+        <qualifiedname>MR::StyleConsts::Notification::cHistoryButtonSizeY</qualifiedname>
+        <initializer>= 28.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="108" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1a6dc9ff820b38609f4fad5d7b50b2da59" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::StyleConsts::Notification::cTextFramePadding</definition>
+        <argsstring></argsstring>
+        <name>cTextFramePadding</name>
+        <qualifiedname>MR::StyleConsts::Notification::cTextFramePadding</qualifiedname>
+        <initializer>{ 30, 8 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="109" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1Notification_1a483f138c30daa1fe0e5686bf554e2915" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::Notification::cTextFrameRounding</definition>
+        <argsstring></argsstring>
+        <name>cTextFrameRounding</name>
+        <qualifiedname>MR::StyleConsts::Notification::cTextFrameRounding</qualifiedname>
+        <initializer>= 8.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="110" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="namespaceMR_1_1StyleConsts_1_1CustomCombo" kindref="compound">CustomCombo</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="99" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WebRequest" kind="class" language="C++" prot="public">
+    <compoundname>MR::WebRequest</compoundname>
+    <includes refid="MRWebRequest_8h" local="no">MRWebRequest.h</includes>
+    <innerclass refid="structMR_1_1WebRequest_1_1FormData" prot="public">MR::WebRequest::FormData</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Method</name>
+        <qualifiedname>MR::WebRequest::Method</qualifiedname>
+        <enumvalue id="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def" prot="public">
+          <name>Get</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9" prot="public">
+          <name>Post</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0ca156e10596fdc76ee5300bab931d89c0f" prot="public">
+          <name>Patch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373" prot="public">
+          <name>Put</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18" prot="public">
+          <name>Delete</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="24" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1WebRequest_1a26a56c4ab553b8e362db5721851b02bc" prot="public" static="no">
+        <type><ref refid="namespaceMR_1aa81b46bc5e733f50fb93fe00f095b2f8" kindref="member">MR::WebResponseCallback</ref></type>
+        <definition>using MR::WebRequest::ResponseCallback =  MR::WebResponseCallback</definition>
+        <argsstring></argsstring>
+        <name>ResponseCallback</name>
+        <qualifiedname>MR::WebRequest::ResponseCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="79" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1ae45d61146852b3dc695ba297720e7691" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0c" kindref="member">Method</ref></type>
+        <definition>Method MR::WebRequest::method_</definition>
+        <argsstring></argsstring>
+        <name>method_</name>
+        <qualifiedname>MR::WebRequest::method_</qualifiedname>
+        <initializer>{ <ref refid="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def" kindref="member">Method::Get</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="92" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a8fe4053fad70e775edc36d6691d7c2f2" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::WebRequest::url_</definition>
+        <argsstring></argsstring>
+        <name>url_</name>
+        <qualifiedname>MR::WebRequest::url_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="93" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a53d62674facfd469a02ae489f74a1fda" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::WebRequest::logName_</definition>
+        <argsstring></argsstring>
+        <name>logName_</name>
+        <qualifiedname>MR::WebRequest::logName_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="94" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1ac176f357f82b22e35e269317878dfc13" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::WebRequest::async_</definition>
+        <argsstring></argsstring>
+        <name>async_</name>
+        <qualifiedname>MR::WebRequest::async_</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="95" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a62c1d0c9a6cd118efc8453518d31e0a0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::WebRequest::timeout_</definition>
+        <argsstring></argsstring>
+        <name>timeout_</name>
+        <qualifiedname>MR::WebRequest::timeout_</qualifiedname>
+        <initializer>{ 10000 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="96" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a436b41e30962036918169f537d317165" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::string &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::string&gt; MR::WebRequest::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::WebRequest::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="97" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a88de6d080ea7d558fa2dd79e13d013cf" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::string &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::string&gt; MR::WebRequest::headers_</definition>
+        <argsstring></argsstring>
+        <name>headers_</name>
+        <qualifiedname>MR::WebRequest::headers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="98" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1ab7785b922656beff9ab2852a2603942f" prot="private" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::WebRequest::inputPath_</definition>
+        <argsstring></argsstring>
+        <name>inputPath_</name>
+        <qualifiedname>MR::WebRequest::inputPath_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="99" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1ae460be574545991dca383de3f3f26b0b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1WebRequest_1_1FormData" kindref="compound">FormData</ref> &gt;</type>
+        <definition>std::vector&lt;FormData&gt; MR::WebRequest::formData_</definition>
+        <argsstring></argsstring>
+        <name>formData_</name>
+        <qualifiedname>MR::WebRequest::formData_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="100" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a2d98bf2716e159aef994e183d95baf59" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::WebRequest::body_</definition>
+        <argsstring></argsstring>
+        <name>body_</name>
+        <qualifiedname>MR::WebRequest::body_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="101" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a5522375ef5674fc4d32f3563626e03f1" prot="private" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::WebRequest::outputPath_</definition>
+        <argsstring></argsstring>
+        <name>outputPath_</name>
+        <qualifiedname>MR::WebRequest::outputPath_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="102" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1a20c6fe826782385c624f2ffb55a9b0e7" prot="private" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::WebRequest::uploadCallback_</definition>
+        <argsstring></argsstring>
+        <name>uploadCallback_</name>
+        <qualifiedname>MR::WebRequest::uploadCallback_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="103" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WebRequest_1aa77c5ffed19386637e60404850a96152" prot="private" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::WebRequest::downloadCallback_</definition>
+        <argsstring></argsstring>
+        <name>downloadCallback_</name>
+        <qualifiedname>MR::WebRequest::downloadCallback_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="104" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a127ff4863cb6f49573d3d843b9dbcf60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::WebRequest::WebRequest</definition>
+        <argsstring>()=default</argsstring>
+        <name>WebRequest</name>
+        <qualifiedname>MR::WebRequest::WebRequest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="20" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1ab4d57c13325f023fb4d010282ff4f41e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::WebRequest::WebRequest</definition>
+        <argsstring>(std::string url)</argsstring>
+        <name>WebRequest</name>
+        <qualifiedname>MR::WebRequest::WebRequest</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="21" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a164ae32208b6cc621bf6881e2460d19f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR::WebRequest::clear</qualifiedname>
+        <briefdescription>
+<para>clear all request data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="33" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1acabf84df9e987c06b342463a6bfc80ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setMethod</definition>
+        <argsstring>(Method method)</argsstring>
+        <name>setMethod</name>
+        <qualifiedname>MR::WebRequest::setMethod</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0c" kindref="member">Method</ref></type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+<para>set HTTP method </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="36" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1afcc60aef690f05cb016167a91d6e5fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setTimeout</definition>
+        <argsstring>(int timeoutMs)</argsstring>
+        <name>setTimeout</name>
+        <qualifiedname>MR::WebRequest::setTimeout</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>timeoutMs</declname>
+        </param>
+        <briefdescription>
+<para>set timeout in milliseconds </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="39" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1af5d208e5912e2a8a359a8bae954eccbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setParameters</definition>
+        <argsstring>(std::unordered_map&lt; std::string, std::string &gt; parameters)</argsstring>
+        <name>setParameters</name>
+        <qualifiedname>MR::WebRequest::setParameters</qualifiedname>
+        <param>
+          <type>std::unordered_map&lt; std::string, std::string &gt;</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+<para>set URL query parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="42" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1ad0f3209556e4b15dbf2729308648b8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setHeaders</definition>
+        <argsstring>(std::unordered_map&lt; std::string, std::string &gt; headers)</argsstring>
+        <name>setHeaders</name>
+        <qualifiedname>MR::WebRequest::setHeaders</qualifiedname>
+        <param>
+          <type>std::unordered_map&lt; std::string, std::string &gt;</type>
+          <declname>headers</declname>
+        </param>
+        <briefdescription>
+<para>set HTTP headers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="45" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a73f0f27be8b530e2119eb428ebecd61b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setInputPath</definition>
+        <argsstring>(std::filesystem::path inputPath)</argsstring>
+        <name>setInputPath</name>
+        <qualifiedname>MR::WebRequest::setInputPath</qualifiedname>
+        <param>
+          <type>std::filesystem::path</type>
+          <declname>inputPath</declname>
+        </param>
+        <briefdescription>
+<para>set path to the file to upload </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="48" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a911c13b636af362593bd7afc91cefc85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setUploadProgressCallback</definition>
+        <argsstring>(ProgressCallback callback)</argsstring>
+        <name>setUploadProgressCallback</name>
+        <qualifiedname>MR::WebRequest::setUploadProgressCallback</qualifiedname>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set progress callback for upload NOTE: due to limitations, the upload callback won&apos;t work on web platforms when <computeroutput>setOutputPath</computeroutput> method is called </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="52" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a55e8283c14b690c8e84baeb5065f8194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setFormData</definition>
+        <argsstring>(std::vector&lt; FormData &gt; formData)</argsstring>
+        <name>setFormData</name>
+        <qualifiedname>MR::WebRequest::setFormData</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="structMR_1_1WebRequest_1_1FormData" kindref="compound">FormData</ref> &gt;</type>
+          <declname>formData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="62" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a76fb676d9920639dca6fef5b1e7d5626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setBody</definition>
+        <argsstring>(std::string body)</argsstring>
+        <name>setBody</name>
+        <qualifiedname>MR::WebRequest::setBody</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>set payload in plain format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="65" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a5cd216b69ba927545f4d31d7394df935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setOutputPath</definition>
+        <argsstring>(std::filesystem::path outputPath)</argsstring>
+        <name>setOutputPath</name>
+        <qualifiedname>MR::WebRequest::setOutputPath</qualifiedname>
+        <param>
+          <type>std::filesystem::path</type>
+          <declname>outputPath</declname>
+        </param>
+        <briefdescription>
+<para>prefer to save the response to file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="68" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1ae1aaf67bec2db03e0160d57bb24325f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setDownloadProgressCallback</definition>
+        <argsstring>(ProgressCallback callback)</argsstring>
+        <name>setDownloadProgressCallback</name>
+        <qualifiedname>MR::WebRequest::setDownloadProgressCallback</qualifiedname>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>set progress callback for download </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="71" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a0d3236e9c137c50abba068fb721d8b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setAsync</definition>
+        <argsstring>(bool async)</argsstring>
+        <name>setAsync</name>
+        <qualifiedname>MR::WebRequest::setAsync</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>async</declname>
+        </param>
+        <briefdescription>
+<para>set async mode (return immediately after sending request) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="74" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1ad228e2cb058eb73c228cb77bdd7cbbf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::setLogName</definition>
+        <argsstring>(std::string logName)</argsstring>
+        <name>setLogName</name>
+        <qualifiedname>MR::WebRequest::setLogName</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>logName</declname>
+        </param>
+        <briefdescription>
+<para>set log name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="77" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1aca7588f1b4f75f253182607482270e49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::send</definition>
+        <argsstring>(std::string url, std::string logName, ResponseCallback callback, bool async=true)</argsstring>
+        <name>send</name>
+        <qualifiedname>MR::WebRequest::send</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>logName</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1WebRequest_1a26a56c4ab553b8e362db5721851b02bc" kindref="member">ResponseCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>async</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>send request, calling callback on answer, if async then callback is called in next frame after getting response NOTE: downloading a binary file in synchronous mode is forbidden by JavaScript <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name for logging </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="85" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WebRequest_1a156f2336044553b04244d55aa0275975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::WebRequest::send</definition>
+        <argsstring>(ResponseCallback callback)</argsstring>
+        <name>send</name>
+        <qualifiedname>MR::WebRequest::send</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WebRequest_1a26a56c4ab553b8e362db5721851b02bc" kindref="member">ResponseCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="86" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1WebRequest_1adcc966402e0ae0928e781cf39e467037" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::WebRequest::waitRemainingAsync</definition>
+        <argsstring>()</argsstring>
+        <name>waitRemainingAsync</name>
+        <qualifiedname>MR::WebRequest::waitRemainingAsync</qualifiedname>
+        <briefdescription>
+<para>if any async request is still in progress, wait for it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="89" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this class is needed to unify cpp and wasm requests </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="18" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WebRequest_1ac176f357f82b22e35e269317878dfc13" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>async_</name></member>
+      <member refid="classMR_1_1WebRequest_1a2d98bf2716e159aef994e183d95baf59" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>body_</name></member>
+      <member refid="classMR_1_1WebRequest_1a164ae32208b6cc621bf6881e2460d19f" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>clear</name></member>
+      <member refid="classMR_1_1WebRequest_1aa77c5ffed19386637e60404850a96152" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>downloadCallback_</name></member>
+      <member refid="classMR_1_1WebRequest_1ae460be574545991dca383de3f3f26b0b" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>formData_</name></member>
+      <member refid="classMR_1_1WebRequest_1a88de6d080ea7d558fa2dd79e13d013cf" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>headers_</name></member>
+      <member refid="classMR_1_1WebRequest_1ab7785b922656beff9ab2852a2603942f" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>inputPath_</name></member>
+      <member refid="classMR_1_1WebRequest_1a53d62674facfd469a02ae489f74a1fda" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>logName_</name></member>
+      <member refid="classMR_1_1WebRequest_1ace710e20f931b5a3da04f21f16c5ab0c" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>Method</name></member>
+      <member refid="classMR_1_1WebRequest_1ae45d61146852b3dc695ba297720e7691" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>method_</name></member>
+      <member refid="classMR_1_1WebRequest_1a5522375ef5674fc4d32f3563626e03f1" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>outputPath_</name></member>
+      <member refid="classMR_1_1WebRequest_1a436b41e30962036918169f537d317165" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>params_</name></member>
+      <member refid="classMR_1_1WebRequest_1a26a56c4ab553b8e362db5721851b02bc" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>ResponseCallback</name></member>
+      <member refid="classMR_1_1WebRequest_1aca7588f1b4f75f253182607482270e49" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>send</name></member>
+      <member refid="classMR_1_1WebRequest_1a156f2336044553b04244d55aa0275975" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>send</name></member>
+      <member refid="classMR_1_1WebRequest_1a0d3236e9c137c50abba068fb721d8b6a" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setAsync</name></member>
+      <member refid="classMR_1_1WebRequest_1a76fb676d9920639dca6fef5b1e7d5626" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setBody</name></member>
+      <member refid="classMR_1_1WebRequest_1ae1aaf67bec2db03e0160d57bb24325f4" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setDownloadProgressCallback</name></member>
+      <member refid="classMR_1_1WebRequest_1a55e8283c14b690c8e84baeb5065f8194" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setFormData</name></member>
+      <member refid="classMR_1_1WebRequest_1ad0f3209556e4b15dbf2729308648b8b8" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setHeaders</name></member>
+      <member refid="classMR_1_1WebRequest_1a73f0f27be8b530e2119eb428ebecd61b" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setInputPath</name></member>
+      <member refid="classMR_1_1WebRequest_1ad228e2cb058eb73c228cb77bdd7cbbf5" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setLogName</name></member>
+      <member refid="classMR_1_1WebRequest_1acabf84df9e987c06b342463a6bfc80ec" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setMethod</name></member>
+      <member refid="classMR_1_1WebRequest_1a5cd216b69ba927545f4d31d7394df935" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setOutputPath</name></member>
+      <member refid="classMR_1_1WebRequest_1af5d208e5912e2a8a359a8bae954eccbf" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setParameters</name></member>
+      <member refid="classMR_1_1WebRequest_1afcc60aef690f05cb016167a91d6e5fb7" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setTimeout</name></member>
+      <member refid="classMR_1_1WebRequest_1a911c13b636af362593bd7afc91cefc85" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setUploadProgressCallback</name></member>
+      <member refid="classMR_1_1WebRequest_1a62c1d0c9a6cd118efc8453518d31e0a0" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>timeout_</name></member>
+      <member refid="classMR_1_1WebRequest_1a20c6fe826782385c624f2ffb55a9b0e7" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>uploadCallback_</name></member>
+      <member refid="classMR_1_1WebRequest_1a8fe4053fad70e775edc36d6691d7c2f2" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>url_</name></member>
+      <member refid="classMR_1_1WebRequest_1adcc966402e0ae0928e781cf39e467037" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>waitRemainingAsync</name></member>
+      <member refid="classMR_1_1WebRequest_1a127ff4863cb6f49573d3d843b9dbcf60" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>WebRequest</name></member>
+      <member refid="classMR_1_1WebRequest_1ab4d57c13325f023fb4d010282ff4f41e" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>WebRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

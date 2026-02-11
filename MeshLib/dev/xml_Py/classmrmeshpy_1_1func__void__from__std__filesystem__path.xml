@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__void__from__std__filesystem__path" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_void_from_std_filesystem_path</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a070506fff7cdf5e6542170c8a317fa31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_std_filesystem_path.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77081" bodyend="77082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a64628c4ff2c2f43554d9284f6bc64317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_std_filesystem_path.__call__</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77083" bodyend="77084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a8704e8ecf69f2f0f9cd4481993c46828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_std_filesystem_path.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77086" bodyend="77087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1aa642827d7379f034ce7286c2d32ef73c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_std_filesystem_path.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77089" bodyend="77090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a90aed289654f6ab55b2b37ca377428f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_std_filesystem_path.__init__</definition>
+        <argsstring>(self, func_void_from_std_filesystem_path arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__std__filesystem__path" kindref="compound">func_void_from_std_filesystem_path</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77092" bodyend="77093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a0711e95aa555c36432aa36e181a0963a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_std_filesystem_path.__init__</definition>
+        <argsstring>(self, typing.Callable[[os.PathLike], None] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[os.PathLike]</array>
+        </param>
+        <param>
+          <type>None]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77095" bodyend="77096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1aa78ee23b2d1f3d7e43cbfe36ea94c7ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_std_filesystem_path.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77097" bodyend="77100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a1200ebcb7737112d9065b1c59a7e175e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_std_filesystem_path.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_void_from_std_filesystem_path.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77101" bodyend="77104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77080" bodyend="77104"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a070506fff7cdf5e6542170c8a317fa31" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a64628c4ff2c2f43554d9284f6bc64317" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a8704e8ecf69f2f0f9cd4481993c46828" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1aa642827d7379f034ce7286c2d32ef73c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a90aed289654f6ab55b2b37ca377428f3" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a0711e95aa555c36432aa36e181a0963a" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1aa78ee23b2d1f3d7e43cbfe36ea94c7ee" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__std__filesystem__path_1a1200ebcb7737112d9065b1c59a7e175e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_std_filesystem_path</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

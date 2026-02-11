@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SignedDistanceToMeshResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SignedDistanceToMeshResult</compoundname>
+    <includes refid="MRMeshProject_8h" local="no">MRMeshProject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SignedDistanceToMeshResult_1adb459805ccfb452c3a5c82fe673bbfec" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition>PointOnFace MR::SignedDistanceToMeshResult::proj</definition>
+        <argsstring></argsstring>
+        <name>proj</name>
+        <qualifiedname>MR::SignedDistanceToMeshResult::proj</qualifiedname>
+        <briefdescription>
+<para>the closest point on mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="99" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MeshTriPoint MR::SignedDistanceToMeshResult::mtp</definition>
+        <argsstring></argsstring>
+        <name>mtp</name>
+        <qualifiedname>MR::SignedDistanceToMeshResult::mtp</qualifiedname>
+        <briefdescription>
+<para>its barycentric representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="101" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SignedDistanceToMeshResult::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR::SignedDistanceToMeshResult::dist</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>distance from pt to proj (positive - outside, negative - inside the mesh) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="103" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+      <node id="2">
+        <label>MR::PointOnFace</label>
+        <link refid="structMR_1_1PointOnFace"/>
+      </node>
+      <node id="1">
+        <label>MR::SignedDistanceToMeshResult</label>
+        <link refid="structMR_1_1SignedDistanceToMeshResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>proj</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mtp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="96" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="97" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>dist</name></member>
+      <member refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>mtp</name></member>
+      <member refid="structMR_1_1SignedDistanceToMeshResult_1adb459805ccfb452c3a5c82fe673bbfec" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>proj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

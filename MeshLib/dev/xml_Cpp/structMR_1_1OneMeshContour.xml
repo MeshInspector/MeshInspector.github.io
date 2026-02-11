@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OneMeshContour" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OneMeshContour</compoundname>
+    <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1OneMeshContour_1a6e1a28642564323f19cdf9f04319d5ef" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref> &gt;</type>
+        <definition>std::vector&lt;OneMeshIntersection&gt; MR::OneMeshContour::intersections</definition>
+        <argsstring></argsstring>
+        <name>intersections</name>
+        <qualifiedname>MR::OneMeshContour::intersections</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="34" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OneMeshContour_1ae2a61041d982700ef3d887aedc03a320" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::OneMeshContour::closed</definition>
+        <argsstring></argsstring>
+        <name>closed</name>
+        <qualifiedname>MR::OneMeshContour::closed</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>One contour on mesh. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="33" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structMR_1_1OneMeshContour_1ae2a61041d982700ef3d887aedc03a320" prot="public" virt="non-virtual"><scope>MR::OneMeshContour</scope><name>closed</name></member>
+      <member refid="structMR_1_1OneMeshContour_1a6e1a28642564323f19cdf9f04319d5ef" prot="public" virt="non-virtual"><scope>MR::OneMeshContour</scope><name>intersections</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

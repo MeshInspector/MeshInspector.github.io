@@ -1,0 +1,979 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneObjectsListDrawer" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneObjectsListDrawer</compoundname>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneObjectsListDrawer" prot="public" virt="non-virtual">MR::RibbonSceneObjectsListDrawer</derivedcompoundref>
+    <includes refid="MRSceneObjectsListDrawer_8h" local="no">MRSceneObjectsListDrawer.h</includes>
+    <innerclass refid="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData" prot="private">MR::SceneObjectsListDrawer::MoveAndScrollData</innerclass>
+    <innerclass refid="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation" prot="private">MR::SceneObjectsListDrawer::ScrollPositionPreservation</innerclass>
+    <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="classMR_1_1SceneObjectsListDrawer_1adef3ad4d7054ccf6e99aba195fc29cf8" prot="protected" static="no">
+        <type>int</type>
+        <definition>typedef int MR::SceneObjectsListDrawer::ImGuiTreeNodeFlags</definition>
+        <argsstring></argsstring>
+        <name>ImGuiTreeNodeFlags</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::ImGuiTreeNodeFlags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="75" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1acead207f8ba93a8da9b77fd9d23770fc" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::showNewSelectedObjects_</definition>
+        <argsstring></argsstring>
+        <name>showNewSelectedObjects_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::showNewSelectedObjects_</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="106" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1af4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::deselectNewHiddenObjects_</definition>
+        <argsstring></argsstring>
+        <name>deselectNewHiddenObjects_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::deselectNewHiddenObjects_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="107" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a35cdb8be56900573df3387f4538a787b" prot="protected" static="no" mutable="no">
+        <type>std::unordered_map&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *, bool &gt;</type>
+        <definition>std::unordered_map&lt;const Object*, bool&gt; MR::SceneObjectsListDrawer::sceneOpenCommands_</definition>
+        <argsstring></argsstring>
+        <name>sceneOpenCommands_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::sceneOpenCommands_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="153" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a8a60d352593fe44cc3cfcd83f0490498" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::clickTrigger_</definition>
+        <argsstring></argsstring>
+        <name>clickTrigger_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::clickTrigger_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="123" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1add1a30cdd75755b51664d031778458f9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::allowSceneReorder_</definition>
+        <argsstring></argsstring>
+        <name>allowSceneReorder_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::allowSceneReorder_</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="124" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a8ed6e5199964885fbd4d42c0691c91a3" prot="private" static="no" mutable="no">
+        <type>MoveAndScrollData</type>
+        <definition>MoveAndScrollData MR::SceneObjectsListDrawer::upFirstSelected_</definition>
+        <argsstring></argsstring>
+        <name>upFirstSelected_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::upFirstSelected_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a462460aacf6b87ba3500be6d2305892e" prot="private" static="no" mutable="no">
+        <type>MoveAndScrollData</type>
+        <definition>MoveAndScrollData MR::SceneObjectsListDrawer::downLastSelected_</definition>
+        <argsstring></argsstring>
+        <name>downLastSelected_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::downLastSelected_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a93aad96cf435af094f474899bc80c660" prot="private" static="no" mutable="no">
+        <type>MoveAndScrollData</type>
+        <definition>MoveAndScrollData MR::SceneObjectsListDrawer::nextVisible_</definition>
+        <argsstring></argsstring>
+        <name>nextVisible_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::nextVisible_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="135" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a6b506e2a4af03f568dcad5b76ccd21be" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1SceneReorder" kindref="compound">SceneReorder</ref></type>
+        <definition>SceneReorder MR::SceneObjectsListDrawer::sceneReorderCommand_</definition>
+        <argsstring></argsstring>
+        <name>sceneReorderCommand_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::sceneReorderCommand_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="137" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a0afb65f705666663924638196be9f85a" prot="private" static="no" mutable="no">
+        <type>struct MR::SceneObjectsListDrawer::ScrollPositionPreservation</type>
+        <definition>struct MR::SceneObjectsListDrawer::ScrollPositionPreservation MR::SceneObjectsListDrawer::prevScrollInfo_</definition>
+        <argsstring></argsstring>
+        <name>prevScrollInfo_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::prevScrollInfo_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="144" column="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1ac24b4b269239dd2b3da9c9d21ab89b53" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SceneObjectsListDrawer::framesTillFixScroll_</definition>
+        <argsstring></argsstring>
+        <name>framesTillFixScroll_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::framesTillFixScroll_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>true to fix scroll position in next frame </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="146" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a65e801481ef6fc98205d59d1fa5e79b0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::dragObjectsMode_</definition>
+        <argsstring></argsstring>
+        <name>dragObjectsMode_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::dragObjectsMode_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>flag to know if we are dragging objects now or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="148" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneObjectsListDrawer_1a1ae5202f89849a3745f8753c984a2ecf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::dragModeTrigger_</definition>
+        <argsstring></argsstring>
+        <name>dragModeTrigger_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::dragModeTrigger_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>dragging either just started, or just stopped </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="150" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="150" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1affefc47d2b779b451bc3f420ddfdbdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::SceneObjectsListDrawer::~SceneObjectsListDrawer</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SceneObjectsListDrawer</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::~SceneObjectsListDrawer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="18" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a5d3291f07fa1302e0ac7966824be977d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SceneObjectsListDrawer::draw</definition>
+        <argsstring>(float height)</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::draw</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1aea709a4c7f86169aed34caaf2005e834">draw</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Main method for drawing all \detail Not creat window. Use in window block (between ImGui::Begin and ImGui::End) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="22" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a87100a0f8079f7712cae2c150a6a9ed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::setShowNewSelectedObjects</definition>
+        <argsstring>(bool show)</argsstring>
+        <name>setShowNewSelectedObjects</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::setShowNewSelectedObjects</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+<para>set flag of the object visibility activation after selection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1aaa3af2c0a1a9e4b9486f42a71e2e82d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::getShowNewSelectedObjects</definition>
+        <argsstring>()</argsstring>
+        <name>getShowNewSelectedObjects</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::getShowNewSelectedObjects</qualifiedname>
+        <briefdescription>
+<para>get flag of the object visibility activation after selection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1ac4822189625ca4c18a2b7c51a696c27e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::setDeselectNewHiddenObjects</definition>
+        <argsstring>(bool deselect)</argsstring>
+        <name>setDeselectNewHiddenObjects</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::setDeselectNewHiddenObjects</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>deselect</declname>
+        </param>
+        <briefdescription>
+<para>set flag of deselect object after hidden </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a928e8a018e952ef2b817ba4027203972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::getDeselectNewHiddenObjects</definition>
+        <argsstring>()</argsstring>
+        <name>getDeselectNewHiddenObjects</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::getDeselectNewHiddenObjects</qualifiedname>
+        <briefdescription>
+<para>get flag of deselect object after hidden </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="32" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a9626d7f29fef80a19bfa08d0389643f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::changeSelection</definition>
+        <argsstring>(bool isDown, bool isShift)</argsstring>
+        <name>changeSelection</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::changeSelection</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isDown</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isShift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>change selection after pressed arrow up / down isDown - true if pressed arrow down, false - arrow up isShift - shift button holded </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="37" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1af36935c34390d23a46d4c38f182071c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::changeVisible</definition>
+        <argsstring>(bool isDown)</argsstring>
+        <name>changeVisible</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::changeVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isDown</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>change visible (and selection) after pressed arrow up / down isDown - true if pressed F4, false - F3 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="40" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a062dbdb186840f7e320957f6b752acfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::selectAllObjects</definition>
+        <argsstring>()</argsstring>
+        <name>selectAllObjects</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::selectAllObjects</qualifiedname>
+        <briefdescription>
+<para>select all selectable objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="43" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a5e3149bb263fd382fd8bf09589dfb149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::setLeavesVisibility</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>setLeavesVisibility</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::setLeavesVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>set visible flag all selectable objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="46" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a49c5d2ad202cdc4507aed66f508d481a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::setObjectTreeState</definition>
+        <argsstring>(const Object *obj, bool open)</argsstring>
+        <name>setObjectTreeState</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::setObjectTreeState</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>open</declname>
+        </param>
+        <briefdescription>
+<para>set object collapse state (hiding children) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="49" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a10d5b6c1dddb9bfea4d91b3c4e88dbe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::expandObjectTreeAndScroll</definition>
+        <argsstring>(const Object *obj)</argsstring>
+        <name>expandObjectTreeAndScroll</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::expandObjectTreeAndScroll</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>expands all <computeroutput>obj</computeroutput>s parents in tree and scroll scene tree window so selection becomes visible </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="52" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a10c80ec2e0551fe4c73122703e48897e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::allowSceneReorder</definition>
+        <argsstring>(bool allow)</argsstring>
+        <name>allowSceneReorder</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::allowSceneReorder</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>allow</declname>
+        </param>
+        <briefdescription>
+<para>set possibility change object order </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="55" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a254275bf99d516202a8d34801d18c971" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::setNextFrameFixScroll</definition>
+        <argsstring>(int skipFrames=1)</argsstring>
+        <name>setNextFrameFixScroll</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::setNextFrameFixScroll</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>skipFrames</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>helper method for fix scroll position after change available height </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="58" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1aed66b9726e14eb7c5c105c7d088198f4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SceneObjectsListDrawer::drawCustomObjectPrefixInScene_</definition>
+        <argsstring>(const Object &amp;, bool)</argsstring>
+        <name>drawCustomObjectPrefixInScene_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawCustomObjectPrefixInScene_</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1a4e8a6cc8c1d5b8b6f4f05011f6887688">drawCustomObjectPrefixInScene_</reimplementedby>
+        <param>
+          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>override this to customize prefix for objects in scene \detail height should be less or equal ImGui::GetFrameHeight() method should save ImGui::CursorPosY </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="63" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="63" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a2e703a641c0ffc898d9aa4e864ab912a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SceneObjectsListDrawer::drawSceneContextMenu_</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;, const std::string &amp;)</argsstring>
+        <name>drawSceneContextMenu_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawSceneContextMenu_</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1a1032f9f59d910e1113385182e182986b">drawSceneContextMenu_</reimplementedby>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>override this add custom context menu for selected objects uniqueStr need to identify who call context menu </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="67" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="67" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a098e7d25adfb62e62c71451173a29712" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>virtual MRVIEWER_API float MR::SceneObjectsListDrawer::drawCustomTreeObjectProperties_</definition>
+        <argsstring>(Object &amp;obj, bool onlyCalcHeight)</argsstring>
+        <name>drawCustomTreeObjectProperties_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawCustomTreeObjectProperties_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyCalcHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>override this to have custom <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> in &quot;Scene&quot; window (under opened(expanded) object line) \detail if onlyHeight is true, should return drawing height without rendering return 0.f if nothing drawing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="73" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a9dc17f3920d20e78cb1eda269c41baa9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::SceneObjectsListDrawer::collapsingHeader_</definition>
+        <argsstring>(const std::string &amp;uniqueName, ImGuiTreeNodeFlags flags)</argsstring>
+        <name>collapsingHeader_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::collapsingHeader_</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1ad86a3587a045aae766a1ba386a398763">collapsingHeader_</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueName</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1SceneObjectsListDrawer_1adef3ad4d7054ccf6e99aba195fc29cf8" kindref="member">ImGuiTreeNodeFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>override this to customize CollapsingHeader draw </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="77" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a4f267cedf9004a7e433f5c5c04665172" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::string</type>
+        <definition>virtual MRVIEWER_API std::string MR::SceneObjectsListDrawer::objectLineStrId_</definition>
+        <argsstring>(const Object &amp;object, const std::string &amp;uniqueStr)</argsstring>
+        <name>objectLineStrId_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::objectLineStrId_</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1ace8f2d89b5482ae8137036f4d38ed4fa">objectLineStrId_</reimplementedby>
+        <param>
+          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="79" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1afdc17907e38df715b38ddbf7dbcfd9f4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::SceneObjectsListDrawer::drawObject_</definition>
+        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, int depth)</argsstring>
+        <name>drawObject_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawObject_</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1a9edde88675685e22f89f455241fd1eef">drawObject_</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueStr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+<para>override this to customize whole object line </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="82" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a7d2bd6811f26a83ed152c93732753238" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::SceneObjectsListDrawer::drawSkippedObject_</definition>
+        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, int depth)</argsstring>
+        <name>drawSkippedObject_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawSkippedObject_</qualifiedname>
+        <reimplementedby refid="classMR_1_1RibbonSceneObjectsListDrawer_1a93c05ad6cbe137ae91506d25d990e5f6">drawSkippedObject_</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueStr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+<para>draw dummy container for skipped object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="84" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1acbb4687a61ce7fd76be1f3ecb29e49df" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SceneObjectsListDrawer::drawObjectCollapsingHeader_</definition>
+        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, bool hasRealChildren)</argsstring>
+        <name>drawObjectCollapsingHeader_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawObjectCollapsingHeader_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueStr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hasRealChildren</declname>
+        </param>
+        <briefdescription>
+<para>function that draws collapsing header and process click on it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="87" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a9384ea577cd19059753bd1e4a31df82c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::processItemClick_</definition>
+        <argsstring>(Object &amp;object, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>processItemClick_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::processItemClick_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>function that do click logic on object line (select/deselect/rename/open context) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="90" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a79c0a6de81ce6010a62df31b12a203c7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::makeDragDropSource_</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;payload)</argsstring>
+        <name>makeDragDropSource_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::makeDragDropSource_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+<para>payload object will be moved </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="93" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1aa5292b03654cd84d532c634791242da7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SceneObjectsListDrawer::needDragDropTarget_</definition>
+        <argsstring>()</argsstring>
+        <name>needDragDropTarget_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::needDragDropTarget_</qualifiedname>
+        <briefdescription>
+<para>checking the need to draw a target </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="96" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1ab6fb0dc306afc3a0c5f97c7b17389d22" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::makeDragDropTarget_</definition>
+        <argsstring>(Object &amp;target, bool before, bool betweenLine, const std::string &amp;uniqueStr)</argsstring>
+        <name>makeDragDropTarget_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::makeDragDropTarget_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>before</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>betweenLine</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;target&quot; and &quot;before&quot; are &quot;to&quot; and &quot;before&quot; of <ref refid="structMR_1_1SceneReorder" kindref="compound">SceneReorder</ref> struct betweenLine - if true requires to draw line (between two objects in tree, for <ref refid="namespaceImGui" kindref="compound">ImGui</ref> to have target) counter - unique number of object in tree (needed for <ref refid="namespaceImGui" kindref="compound">ImGui</ref> to differ new lines) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="101" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1ae4b604976357cb2d74fa5396c448061d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SceneObjectsListDrawer::drawObjectVisibilityCheckbox_</definition>
+        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr)</argsstring>
+        <name>drawObjectVisibilityCheckbox_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawObjectVisibilityCheckbox_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uniqueStr</declname>
+        </param>
+        <briefdescription>
+<para>draw visibility checkbox and call ImGui::SameLine at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="104" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1aa63339981a28d0554c97a965142626c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::drawObjectsList_</definition>
+        <argsstring>()</argsstring>
+        <name>drawObjectsList_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::drawObjectsList_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="109" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a53956dc4e37d0ddf2727ae5fc9aed2e5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::SceneObjectsListDrawer::getDrawDropTargetHeight_</definition>
+        <argsstring>() const</argsstring>
+        <name>getDrawDropTargetHeight_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::getDrawDropTargetHeight_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="111" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a99cca3921f92be5097701848cabe923a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::reorderSceneIfNeeded_</definition>
+        <argsstring>()</argsstring>
+        <name>reorderSceneIfNeeded_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::reorderSceneIfNeeded_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="112" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a46bd09f84672de7543015958733773e1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SceneObjectsListDrawer::updateSceneWindowScrollIfNeeded_</definition>
+        <argsstring>()</argsstring>
+        <name>updateSceneWindowScrollIfNeeded_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::updateSceneWindowScrollIfNeeded_</qualifiedname>
+        <briefdescription>
+<para>this function should be called after BeginChild(&quot;SceneObjectsList&quot;) (child window with scene tree) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="115" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1ab91f94e8ae1fdc4ef130921e7b59b0a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> * &gt;</type>
+        <definition>std::vector&lt; Object * &gt; MR::SceneObjectsListDrawer::getPreSelection_</definition>
+        <argsstring>(Object *meshclicked, bool isShift, bool isCtrl, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;all)</argsstring>
+        <name>getPreSelection_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::getPreSelection_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+          <declname>meshclicked</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isShift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isCtrl</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>all</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="117" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneObjectsListDrawer_1a9850a78cb338110886f83ec3be592af6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::updateSelection_</definition>
+        <argsstring>(Object *objPtr, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;all)</argsstring>
+        <name>updateSelection_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::updateSelection_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+          <declname>objPtr</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>all</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="121" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class for drawing a list of scene objects (and handling interaction with it) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::RibbonSceneObjectsListDrawer</label>
+        <link refid="classMR_1_1RibbonSceneObjectsListDrawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SceneObjectsListDrawer</label>
+        <link refid="classMR_1_1SceneObjectsListDrawer"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="16" bodyend="154"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a10c80ec2e0551fe4c73122703e48897e" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1add1a30cdd75755b51664d031778458f9" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a9626d7f29fef80a19bfa08d0389643f4" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeSelection</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1af36935c34390d23a46d4c38f182071c9" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeVisible</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a8a60d352593fe44cc3cfcd83f0490498" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>clickTrigger_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a9dc17f3920d20e78cb1eda269c41baa9" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1af4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>deselectNewHiddenObjects_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a462460aacf6b87ba3500be6d2305892e" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>downLastSelected_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a1ae5202f89849a3745f8753c984a2ecf" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>dragModeTrigger_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a65e801481ef6fc98205d59d1fa5e79b0" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>dragObjectsMode_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a5d3291f07fa1302e0ac7966824be977d" prot="public" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>draw</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1aed66b9726e14eb7c5c105c7d088198f4" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawCustomObjectPrefixInScene_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a098e7d25adfb62e62c71451173a29712" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawCustomTreeObjectProperties_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1afdc17907e38df715b38ddbf7dbcfd9f4" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObject_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1acbb4687a61ce7fd76be1f3ecb29e49df" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectCollapsingHeader_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1aa63339981a28d0554c97a965142626c2" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectsList_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1ae4b604976357cb2d74fa5396c448061d" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawObjectVisibilityCheckbox_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a2e703a641c0ffc898d9aa4e864ab912a" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawSceneContextMenu_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a7d2bd6811f26a83ed152c93732753238" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>drawSkippedObject_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a10d5b6c1dddb9bfea4d91b3c4e88dbe0" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>expandObjectTreeAndScroll</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1ac24b4b269239dd2b3da9c9d21ab89b53" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>framesTillFixScroll_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a928e8a018e952ef2b817ba4027203972" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getDeselectNewHiddenObjects</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a53956dc4e37d0ddf2727ae5fc9aed2e5" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getDrawDropTargetHeight_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1ab91f94e8ae1fdc4ef130921e7b59b0a7" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getPreSelection_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1aaa3af2c0a1a9e4b9486f42a71e2e82d5" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>getShowNewSelectedObjects</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1adef3ad4d7054ccf6e99aba195fc29cf8" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>ImGuiTreeNodeFlags</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a79c0a6de81ce6010a62df31b12a203c7" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>makeDragDropSource_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1ab6fb0dc306afc3a0c5f97c7b17389d22" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>makeDragDropTarget_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1aa5292b03654cd84d532c634791242da7" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>needDragDropTarget_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a93aad96cf435af094f474899bc80c660" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>nextVisible_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a4f267cedf9004a7e433f5c5c04665172" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>objectLineStrId_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a0afb65f705666663924638196be9f85a" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>prevScrollInfo_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a9384ea577cd19059753bd1e4a31df82c" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>processItemClick_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a99cca3921f92be5097701848cabe923a" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>reorderSceneIfNeeded_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a35cdb8be56900573df3387f4538a787b" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>sceneOpenCommands_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a6b506e2a4af03f568dcad5b76ccd21be" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>sceneReorderCommand_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a062dbdb186840f7e320957f6b752acfc" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>selectAllObjects</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1ac4822189625ca4c18a2b7c51a696c27e" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setDeselectNewHiddenObjects</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a5e3149bb263fd382fd8bf09589dfb149" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setLeavesVisibility</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a254275bf99d516202a8d34801d18c971" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setNextFrameFixScroll</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a49c5d2ad202cdc4507aed66f508d481a" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setObjectTreeState</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a87100a0f8079f7712cae2c150a6a9ed9" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>setShowNewSelectedObjects</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1acead207f8ba93a8da9b77fd9d23770fc" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>showNewSelectedObjects_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a46bd09f84672de7543015958733773e1" prot="private" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>updateSceneWindowScrollIfNeeded_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a9850a78cb338110886f83ec3be592af6" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>updateSelection_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1a8ed6e5199964885fbd4d42c0691c91a3" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>upFirstSelected_</name></member>
+      <member refid="classMR_1_1SceneObjectsListDrawer_1affefc47d2b779b451bc3f420ddfdbdf8" prot="public" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>~SceneObjectsListDrawer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

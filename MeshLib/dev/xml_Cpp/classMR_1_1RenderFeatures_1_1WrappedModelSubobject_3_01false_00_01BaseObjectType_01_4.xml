@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</compoundname>
+    <basecompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; false, BaseObjectType &gt;</basecompoundref>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename BaseObjectType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4_1afde87d2a004196721e50b8504656988d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;::visibilityMask</definition>
+        <argsstring>() const override</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;::visibilityMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="126" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="126" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4_1adc75741d30361c85719c78c121fc0e1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>const ViewportProperty&lt; Color &gt; &amp; MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;::getFrontColorsForAllViewports</definition>
+        <argsstring>(bool selected=true) const override</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;::getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="137" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>BaseObjectType</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>BaseObjectType</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>target_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
+      </node>
+      <node id="7">
+        <label>ObjectType</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="122" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4_1adc75741d30361c85719c78c121fc0e1e" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1a149210ca6db44ac261556f0531230df6" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1ad5152bbde21a5324ac54935274da4bbb" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>target_</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4_1afde87d2a004196721e50b8504656988d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1aef895bcd79874b03bc852acf63bda8c2" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>~BasicWrapperTarget</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped_1accd812ab77a105a8bee866ccd51d0d9d" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</scope><name>~BasicWrapperTargetUntyped</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

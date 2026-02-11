@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeLinesColorMapAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeLinesColorMapAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1aeb907c8e2d73ffae20e2b23463e90563" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeLinesColorMapAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7738" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a42c8e0a7054ad42eea11aa7c4b683a52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeLinesColorMapAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7741" bodyend="7742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a1bafdbdc32a5b6e465bf220986390481" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeLinesColorMapAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7744" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7744" bodyend="7745"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1ab1d7b0b5c387f42ea2035ce5cefb0e3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeLinesColorMapAction" kindref="compound">ChangeLinesColorMapAction</ref></type>
+        <definition> ChangeLinesColorMapAction mrmeshpy.ChangeLinesColorMapAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7748" bodyend="7749"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1ab1d7b0b5c387f42ea2035ce5cefb0e3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeLinesColorMapAction" kindref="compound">ChangeLinesColorMapAction</ref></type>
+        <definition> ChangeLinesColorMapAction mrmeshpy.ChangeLinesColorMapAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7752" bodyend="7753"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1ade9e26d9e5aab93c95ac8d86a24bf98e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeLinesColorMapAction.setObjectDirty</definition>
+        <argsstring>(ObjectLinesHolder obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7755" bodyend="7756"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a77dc9fd464ddbb23bb16e403a663b138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeLinesColorMapAction.__init__</definition>
+        <argsstring>(self, str name, ObjectLinesHolder obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s line colors before making any changes in them
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7758" bodyend="7761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a34c86b8cac3c67a546f2e2c5bd32cec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeLinesColorMapAction.__init__</definition>
+        <argsstring>(self, str name, ObjectLinesHolder obj, UndirectedEdgeColors newColorMap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>newColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s lines colors and immediate set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7763" bodyend="7766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a0221e61415e41e2045fac146e141da6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeLinesColorMapAction.__init__</definition>
+        <argsstring>(self, ChangeLinesColorMapAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeLinesColorMapAction" kindref="compound">ChangeLinesColorMapAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7768" bodyend="7771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a94964295defbafbf62c8f7dd9b5ba4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeLinesColorMapAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7772" bodyend="7773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeLinesColorMapAction_1a6390c639f7f0eceae0f46136af4b99e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeLinesColorMapAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeLinesColorMapAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7774" bodyend="7775"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeLinesColorMapAction
+
+History action for lines color map change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeLinesColorMapAction</label>
+        <link refid="classmrmeshpy_1_1ChangeLinesColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeLinesColorMapAction</label>
+        <link refid="classmrmeshpy_1_1ChangeLinesColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7732" bodyend="7775"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a42c8e0a7054ad42eea11aa7c4b683a52" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a77dc9fd464ddbb23bb16e403a663b138" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a34c86b8cac3c67a546f2e2c5bd32cec1" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a0221e61415e41e2045fac146e141da6d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a1bafdbdc32a5b6e465bf220986390481" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a94964295defbafbf62c8f7dd9b5ba4cf" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1a6390c639f7f0eceae0f46136af4b99e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1aeb907c8e2d73ffae20e2b23463e90563" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1ab1d7b0b5c387f42ea2035ce5cefb0e3a" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1ab1d7b0b5c387f42ea2035ce5cefb0e3a" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1ade9e26d9e5aab93c95ac8d86a24bf98e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeLinesColorMapAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

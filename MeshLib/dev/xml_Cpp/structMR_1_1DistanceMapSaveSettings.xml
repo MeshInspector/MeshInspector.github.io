@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DistanceMapSaveSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DistanceMapSaveSettings</compoundname>
+    <includes refid="MRDistanceMapParams_8h" local="no">MRDistanceMapParams.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DistanceMapSaveSettings_1a9f997144e49ed33ed02e13c2f32edbf0" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::DistanceMapSaveSettings::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::DistanceMapSaveSettings::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional distance map to world transform </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="200" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::DistanceMapSaveSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::DistanceMapSaveSettings::progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="202" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>determines how to save distance maps </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="198" bodyend="203"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1DistanceMapSaveSettings_1a9f997144e49ed33ed02e13c2f32edbf0" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

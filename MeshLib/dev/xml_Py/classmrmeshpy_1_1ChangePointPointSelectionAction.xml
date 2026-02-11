@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangePointPointSelectionAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangePointPointSelectionAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a4613e8db099453713afdb57d21104c23" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangePointPointSelectionAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8695" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a6c3ba61993aa20cec80ae005c30fa1cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointPointSelectionAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8698" bodyend="8699"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a6dd42efcf15e1f3b4ebde8febbe199a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointPointSelectionAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8701" bodyend="8702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a657aa9941783b2b036398a40bad749d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangePointPointSelectionAction" kindref="compound">ChangePointPointSelectionAction</ref></type>
+        <definition> ChangePointPointSelectionAction mrmeshpy.ChangePointPointSelectionAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8705" bodyend="8706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a657aa9941783b2b036398a40bad749d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangePointPointSelectionAction" kindref="compound">ChangePointPointSelectionAction</ref></type>
+        <definition> ChangePointPointSelectionAction mrmeshpy.ChangePointPointSelectionAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8709" bodyend="8710"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1ac73bcbc0e30dcb4aff4db727e3b080db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointPointSelectionAction.setObjectDirty</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>empty because set dirty is inside selectPoints
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8712" bodyend="8715"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a2f85b393a91e1c01244a58e76350a6e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointPointSelectionAction.__init__</definition>
+        <argsstring>(self, str name, ObjectPoints objPoints)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>objPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s vertex selection before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8717" bodyend="8720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1ad189d10244e65e32b57e4b23a72afeb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointPointSelectionAction.__init__</definition>
+        <argsstring>(self, ChangePointPointSelectionAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangePointPointSelectionAction" kindref="compound">ChangePointPointSelectionAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8722" bodyend="8725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1ae541bc7570e9604ddc65ccef365a6023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangePointPointSelectionAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8726" bodyend="8727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a8bb335aadc13c80633f701d5079f66be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangePointPointSelectionAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8728" bodyend="8729"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointPointSelectionAction_1a307270c6e1ec9e5f9050aa28ae228d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ChangePointPointSelectionAction.selection</definition>
+        <argsstring>(self)</argsstring>
+        <name>selection</name>
+        <qualifiedname>mrmeshpy.ChangePointPointSelectionAction.selection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8730" bodyend="8731"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangePointPointSelectionAction
+
+Undo action for ObjectPoints point selection
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangePointPointSelectionAction</label>
+        <link refid="classmrmeshpy_1_1ChangePointPointSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangePointPointSelectionAction</label>
+        <link refid="classmrmeshpy_1_1ChangePointPointSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8689" bodyend="8731"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a6c3ba61993aa20cec80ae005c30fa1cf" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a2f85b393a91e1c01244a58e76350a6e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1ad189d10244e65e32b57e4b23a72afeb3" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a6dd42efcf15e1f3b4ebde8febbe199a2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1ae541bc7570e9604ddc65ccef365a6023" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a8bb335aadc13c80633f701d5079f66be" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a4613e8db099453713afdb57d21104c23" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a657aa9941783b2b036398a40bad749d8" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a657aa9941783b2b036398a40bad749d8" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a307270c6e1ec9e5f9050aa28ae228d20" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>selection</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1ac73bcbc0e30dcb4aff4db727e3b080db" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointPointSelectionAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

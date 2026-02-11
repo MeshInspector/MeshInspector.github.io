@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a8960a4856c8b2a94f1e13b872e1b9881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76312" bodyend="76313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1ab9c3a287ae19a04f522ccba9ddfbd099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__call__</definition>
+        <argsstring>(self, std_vector_std_vector_Vector2_float arg0, OffsetContourIndex arg1, OffsetContoursOrigins arg2)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector2__float" kindref="compound">std_vector_std_vector_Vector2_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref></type>
+          <declname>arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76314" bodyend="76315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a1e8de1d4de9457ebabe3451ec1a940f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76317" bodyend="76318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1afc58af89e4d17bc095cdde4cce371abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76320" bodyend="76321"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a65d66a868b1a946f7225c600333b4c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self, func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins" kindref="compound">func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76323" bodyend="76324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a0406ec974e2eee017c81a7dfecaf3a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self, typing.Callable[[std_vector_std_vector_Vector2_float, OffsetContourIndex, OffsetContoursOrigins], float] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[std_vector_std_vector_Vector2_float, OffsetContourIndex, OffsetContoursOrigins]</array>
+        </param>
+        <param>
+          <type>float]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76326" bodyend="76327"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a7afe48f4c9a95b7faf15e99692fe9cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76328" bodyend="76331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1ae7871589b46b016d08c9a55cb6c522ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76332" bodyend="76335"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76311" bodyend="76335"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a8960a4856c8b2a94f1e13b872e1b9881" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1ab9c3a287ae19a04f522ccba9ddfbd099" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a1e8de1d4de9457ebabe3451ec1a940f8" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1afc58af89e4d17bc095cdde4cce371abd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a65d66a868b1a946f7225c600333b4c0d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a0406ec974e2eee017c81a7dfecaf3a3e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1a7afe48f4c9a95b7faf15e99692fe9cdb" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins_1ae7871589b46b016d08c9a55cb6c522ae" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

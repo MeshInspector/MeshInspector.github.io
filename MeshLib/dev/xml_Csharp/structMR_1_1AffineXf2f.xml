@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AffineXf2f" kind="struct" language="C#" prot="public">
+    <compoundname>MR::AffineXf2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.AffineXf2f &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1AffineXf2f_1a406836753a6f25a37a5a874cce1fc638" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+        <definition>MR.Matrix2f MR.AffineXf2f.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.AffineXf2f.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="290" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1AffineXf2f_1ababcd902ada4a04a936021324d78ef0d" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>MR.Vector2f MR.AffineXf2f.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.AffineXf2f.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="293" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="293" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1ac45a936935b7edbd6604559e20077f2c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.AffineXf2f.operator AffineXf2f</definition>
+        <argsstring>(ConstBox_AffineXf2f other)</argsstring>
+        <name>operator AffineXf2f</name>
+        <qualifiedname>MR.AffineXf2f.operator AffineXf2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__AffineXf2f" kindref="compound">ConstBox_AffineXf2f</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="298" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1ae19a037502591b86e2ab4e3746b309a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+        <definition>static unsafe MR.AffineXf2f MR.AffineXf2f.translation</definition>
+        <argsstring>(in MR.Vector2f b)</argsstring>
+        <name>translation</name>
+        <qualifiedname>MR.AffineXf2f.translation</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>creates translation-only transformation (with identity linear component) Generated from method <computeroutput><ref refid="structMR_1_1AffineXf2f_1ae19a037502591b86e2ab4e3746b309a2" kindref="member">MR.AffineXf2f.translation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="335" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="335" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1aac81b64dd24cc88984a44a18b7863b1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+        <definition>static unsafe MR.AffineXf2f MR.AffineXf2f.linear</definition>
+        <argsstring>(in MR.Matrix2f A)</argsstring>
+        <name>linear</name>
+        <qualifiedname>MR.AffineXf2f.linear</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+          <declname>A</declname>
+        </param>
+        <briefdescription>
+<para>creates linear-only transformation (without translation) Generated from method <computeroutput><ref refid="structMR_1_1AffineXf2f_1aac81b64dd24cc88984a44a18b7863b1a" kindref="member">MR.AffineXf2f.linear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="349" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="349" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1a99bcaa8b0ea9be1d1962cf167766a3c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+        <definition>static unsafe MR.AffineXf2f MR.AffineXf2f.xfAround</definition>
+        <argsstring>(in MR.Matrix2f A, in MR.Vector2f stable)</argsstring>
+        <name>xfAround</name>
+        <qualifiedname>MR.AffineXf2f.xfAround</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>stable</declname>
+        </param>
+        <briefdescription>
+<para>creates transformation with given linear part with given stable point Generated from method <computeroutput><ref refid="structMR_1_1AffineXf2f_1a99bcaa8b0ea9be1d1962cf167766a3c4" kindref="member">MR.AffineXf2f.xfAround</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="363" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="363" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1ab4e8e68b730d12f1738d167d515c3e6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+        <definition>static unsafe MR.AffineXf2f MR.AffineXf2f.operator*</definition>
+        <argsstring>(MR.AffineXf2f u, in MR.AffineXf2f v)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.AffineXf2f.operator*</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="430" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="430" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1a9640aa0acc437568580b38a4acb08757" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.AffineXf2f.operator==</definition>
+        <argsstring>(MR.AffineXf2f a, MR.AffineXf2f b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.AffineXf2f.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="443" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="443" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1aac0a91e2425fbdefa13349382cb3c81f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.AffineXf2f.operator!=</definition>
+        <argsstring>(MR.AffineXf2f a, MR.AffineXf2f b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.AffineXf2f.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="450" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="450" bodyend="453"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1a9ee7a1d54c2cb17cbc7a4c5d04153a9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.AffineXf2f.AffineXf2f</definition>
+        <argsstring>(AffineXf2f _other)</argsstring>
+        <name>AffineXf2f</name>
+        <qualifiedname>MR.AffineXf2f.AffineXf2f</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">AffineXf2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="303" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1ad1abc8dcba032c2e4cfcf8b3831d252d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AffineXf2f.AffineXf2f</definition>
+        <argsstring>()</argsstring>
+        <name>AffineXf2f</name>
+        <qualifiedname>MR.AffineXf2f.AffineXf2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="308" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="308" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1af30390012ac1e66c778c29d7e6c7901c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AffineXf2f.AffineXf2f</definition>
+        <argsstring>(in MR.Matrix2f A, in MR.Vector2f b)</argsstring>
+        <name>AffineXf2f</name>
+        <qualifiedname>MR.AffineXf2f.AffineXf2f</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix2f" kindref="compound">MR.Matrix2f</ref></type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1AffineXf2f_1a9ee7a1d54c2cb17cbc7a4c5d04153a9b" kindref="member">MR.AffineXf2f.AffineXf2f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="318" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="318" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1a3740ad4aa8232f9bfbeac2c8ca329603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>readonly unsafe MR.Vector2f MR.AffineXf2f.call</definition>
+        <argsstring>(in MR.Vector2f x)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.AffineXf2f.call</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>application of the transformation to a point Generated from method <computeroutput>MR.AffineXf2f.operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="380" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="380" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1a7bc2f975069f8af7e352088962a5a60e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>readonly unsafe MR.Vector2f MR.AffineXf2f.linearOnly</definition>
+        <argsstring>(in MR.Vector2f x)</argsstring>
+        <name>linearOnly</name>
+        <qualifiedname>MR.AffineXf2f.linearOnly</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>applies only linear part of the transformation to given vector (e.g. to normal) skipping adding shift (b) for example if this is a rigid transformation, then only rotates input vector Generated from method <computeroutput><ref refid="structMR_1_1AffineXf2f_1a7bc2f975069f8af7e352088962a5a60e" kindref="member">MR.AffineXf2f.linearOnly</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="398" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="398" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1ad7087522e0fae8e617c55df4f4e882c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+        <definition>readonly unsafe MR.AffineXf2f MR.AffineXf2f.inverse</definition>
+        <argsstring>()</argsstring>
+        <name>inverse</name>
+        <qualifiedname>MR.AffineXf2f.inverse</qualifiedname>
+        <briefdescription>
+<para>computes inverse transformation Generated from method <computeroutput><ref refid="structMR_1_1AffineXf2f_1ad7087522e0fae8e617c55df4f4e882c9" kindref="member">MR.AffineXf2f.inverse</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="415" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="415" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1ace4548b3b4dbe382235be5c3666c6883" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.AffineXf2f.Equals</definition>
+        <argsstring>(MR.AffineXf2f b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.AffineXf2f.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="457" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="457" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AffineXf2f_1a5f7139de5e4d118fa3c927ff532f08d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.AffineXf2f.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.AffineXf2f.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="462" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="462" bodyend="469"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class <computeroutput><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.AffineXf2f</label>
+        <link refid="structMR_1_1AffineXf2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.AffineXf2f &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.AffineXf2f</label>
+        <link refid="structMR_1_1AffineXf2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>a</edgelabel>
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.AffineXf2f &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" line="287" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAffineXf.cs" bodystart="288" bodyend="470"/>
+    <listofallmembers>
+      <member refid="structMR_1_1AffineXf2f_1a406836753a6f25a37a5a874cce1fc638" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>a</name></member>
+      <member refid="structMR_1_1AffineXf2f_1a9ee7a1d54c2cb17cbc7a4c5d04153a9b" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>AffineXf2f</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ad1abc8dcba032c2e4cfcf8b3831d252d" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>AffineXf2f</name></member>
+      <member refid="structMR_1_1AffineXf2f_1af30390012ac1e66c778c29d7e6c7901c" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>AffineXf2f</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ababcd902ada4a04a936021324d78ef0d" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>b</name></member>
+      <member refid="structMR_1_1AffineXf2f_1a3740ad4aa8232f9bfbeac2c8ca329603" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>call</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ace4548b3b4dbe382235be5c3666c6883" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>Equals</name></member>
+      <member refid="structMR_1_1AffineXf2f_1a5f7139de5e4d118fa3c927ff532f08d0" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>Equals</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ad7087522e0fae8e617c55df4f4e882c9" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>inverse</name></member>
+      <member refid="structMR_1_1AffineXf2f_1aac81b64dd24cc88984a44a18b7863b1a" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>linear</name></member>
+      <member refid="structMR_1_1AffineXf2f_1a7bc2f975069f8af7e352088962a5a60e" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>linearOnly</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ac45a936935b7edbd6604559e20077f2c" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>operator AffineXf2f</name></member>
+      <member refid="structMR_1_1AffineXf2f_1aac0a91e2425fbdefa13349382cb3c81f" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ab4e8e68b730d12f1738d167d515c3e6d" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>operator*</name></member>
+      <member refid="structMR_1_1AffineXf2f_1a9640aa0acc437568580b38a4acb08757" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>operator==</name></member>
+      <member refid="structMR_1_1AffineXf2f_1ae19a037502591b86e2ab4e3746b309a2" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>translation</name></member>
+      <member refid="structMR_1_1AffineXf2f_1a99bcaa8b0ea9be1d1962cf167766a3c4" prot="public" virt="non-virtual"><scope>MR::AffineXf2f</scope><name>xfAround</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

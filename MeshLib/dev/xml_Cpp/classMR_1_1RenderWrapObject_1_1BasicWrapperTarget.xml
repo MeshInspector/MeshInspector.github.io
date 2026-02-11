@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderWrapObject::BasicWrapperTarget</compoundname>
+    <basecompoundref refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped" prot="public" virt="non-virtual">MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</basecompoundref>
+    <includes refid="MRRenderWrapObject_8h" local="no">MRRenderWrapObject.h</includes>
+    <templateparamlist>
+      <param>
+        <type>std::derived_from&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <declname>ObjectType</declname>
+        <defname>ObjectType</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1ad5152bbde21a5324ac54935274da4bbb" prot="public" static="no" mutable="no">
+        <type>const ObjectType *</type>
+        <definition>const ObjectType* MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;::target_</definition>
+        <argsstring></argsstring>
+        <name>target_</name>
+        <qualifiedname>MR::RenderWrapObject::BasicWrapperTarget::target_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="32" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1aef895bcd79874b03bc852acf63bda8c2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;::~BasicWrapperTarget</definition>
+        <argsstring>()=default</argsstring>
+        <name>~BasicWrapperTarget</name>
+        <qualifiedname>MR::RenderWrapObject::BasicWrapperTarget::~BasicWrapperTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="30" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The first template argument of <computeroutput><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper" kindref="compound">Wrapper</ref></computeroutput> can inherit from this to know the object we&apos;re wrapping. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>target_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
+      </node>
+      <node id="3">
+        <label>ObjectType</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="28" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1ad5152bbde21a5324ac54935274da4bbb" prot="public" virt="non-virtual"><scope>MR::RenderWrapObject::BasicWrapperTarget</scope><name>target_</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1aef895bcd79874b03bc852acf63bda8c2" prot="protected" virt="non-virtual"><scope>MR::RenderWrapObject::BasicWrapperTarget</scope><name>~BasicWrapperTarget</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped_1accd812ab77a105a8bee866ccd51d0d9d" prot="protected" virt="non-virtual"><scope>MR::RenderWrapObject::BasicWrapperTarget</scope><name>~BasicWrapperTargetUntyped</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

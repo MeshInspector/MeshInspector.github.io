@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewportParametersAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewportParametersAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRViewportParametersAction_8h" local="no">MRViewportParametersAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__HistoryGroup_1ga0cc628db3ee48e266c212223bb7e7c22" kind="variable"><name>saveParameters_</name></member>
+      <member refid="group__HistoryGroup_1gac68687f06583aae672d38f0ba7b6c11a" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__HistoryGroup_1ga07eb725cd57069bb90b37cc3970a4c40" kind="function"><name>ViewportParametersAction</name></member>
+      <member refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" kind="function"><name>name</name></member>
+      <member refid="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5" kind="function"><name>action</name></member>
+      <member refid="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Undo action for setting viewport parameters Remembers everything contained in <ref refid="structMR_1_1Viewport_1_1Parameters" kindref="compound">Viewport::Parameters</ref> Can be used with <ref refid="classMR_1_1Viewport_1a538c80bc0a06c494f1865d6ad6f83d3d" kindref="member">Viewport::setParameters</ref> or other functions like <ref refid="classMR_1_1Viewer_1abb15cccccd945bf5803dde5fd66e6929" kindref="member">Viewer::preciseFitDataViewport</ref> etc. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::ViewportParametersAction</label>
+        <link refid="classMR_1_1ViewportParametersAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::ViewportParametersAction</label>
+        <link refid="classMR_1_1ViewportParametersAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="17" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>action</name></member>
+      <member refid="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>heapBytes</name></member>
+      <member refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>name</name></member>
+      <member refid="group__HistoryGroup_1gac68687f06583aae672d38f0ba7b6c11a" prot="private" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>name_</name></member>
+      <member refid="group__HistoryGroup_1ga0cc628db3ee48e266c212223bb7e7c22" prot="private" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>saveParameters_</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>Type</name></member>
+      <member refid="group__HistoryGroup_1ga07eb725cd57069bb90b37cc3970a4c40" prot="public" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>ViewportParametersAction</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

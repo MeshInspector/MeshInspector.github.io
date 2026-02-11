@@ -1,0 +1,1421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DistanceMeasurementObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::DistanceMeasurementObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMeasurementObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ae76e6d68782e58ee4640878e85253a42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.DistanceMeasurementObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(DistanceMeasurementObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1080" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1080" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a44880e46458db97466e94c39a567bd03" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.DistanceMeasurementObject.operator MR.Object</definition>
+        <argsstring>(DistanceMeasurementObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1086" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1086" bodyend="1091"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aa798602551fbc29616ed1435e7795836" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.DistanceMeasurementObject.operator MR.VisualObject</definition>
+        <argsstring>(DistanceMeasurementObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1092" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1092" bodyend="1097"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a0308ad278aa2e219144f3865418d2dce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.DistanceMeasurementObject.operator MR.MeasurementObject</definition>
+        <argsstring>(DistanceMeasurementObject self)</argsstring>
+        <name>operator MR.MeasurementObject</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator MR.MeasurementObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1098" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1098" bodyend="1103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a93201303a19ece5a41fc52297d769514" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.DistanceMeasurementObject.operator MR.ObjectComparableWithReference</definition>
+        <argsstring>(DistanceMeasurementObject self)</argsstring>
+        <name>operator MR.ObjectComparableWithReference</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator MR.ObjectComparableWithReference</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1104" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1104" bodyend="1109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aff126bccbc4338c9e660b445f98ff2b6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator DistanceMeasurementObject?</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1112" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1112" bodyend="1119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1acd844f1b4fc401409277b595ca7ee7a9" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator DistanceMeasurementObject?</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1120" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1120" bodyend="1127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac1cd1fcd209cef2ecd643c62608003dd" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</definition>
+        <argsstring>(MR.MeasurementObject parent)</argsstring>
+        <name>operator DistanceMeasurementObject?</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1128" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1128" bodyend="1135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a22ae194a98a6ee8379b8dc081fc9b485" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</definition>
+        <argsstring>(MR.ObjectComparableWithReference parent)</argsstring>
+        <name>operator DistanceMeasurementObject?</name>
+        <qualifiedname>MR.DistanceMeasurementObject.operator DistanceMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">MR.ObjectComparableWithReference</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1136" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1136" bodyend="1143"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ab7676d9298c79b641908ca8d0a5c4484" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DistanceMeasurementObject.DistanceMeasurementObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DistanceMeasurementObject</name>
+        <qualifiedname>MR.DistanceMeasurementObject.DistanceMeasurementObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1145" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1145" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a1fbcd6264e45074ebb0945fde44d2ba1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DistanceMeasurementObject.DistanceMeasurementObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>DistanceMeasurementObject</name>
+        <qualifiedname>MR.DistanceMeasurementObject.DistanceMeasurementObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1147" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1147" bodyend="1147"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a75f25217afc63ecee063f1c2c089048c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DistanceMeasurementObject.DistanceMeasurementObject</definition>
+        <argsstring>()</argsstring>
+        <name>DistanceMeasurementObject</name>
+        <qualifiedname>MR.DistanceMeasurementObject.DistanceMeasurementObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1152" bodyend="1157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a62fa9f57a0517f70aa6d08a316914e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DistanceMeasurementObject.DistanceMeasurementObject</definition>
+        <argsstring>(MR._ByValue_DistanceMeasurementObject _other)</argsstring>
+        <name>DistanceMeasurementObject</name>
+        <qualifiedname>MR.DistanceMeasurementObject.DistanceMeasurementObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_DistanceMeasurementObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DistanceMeasurementObject.DistanceMeasurementObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1162" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1162" bodyend="1168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a7ab32c868a5111df007c954de9db6c11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></type>
+        <definition>unsafe MR.DistanceMeasurementObject MR.DistanceMeasurementObject.assign</definition>
+        <argsstring>(MR._ByValue_DistanceMeasurementObject _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.DistanceMeasurementObject.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_DistanceMeasurementObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.DistanceMeasurementObject.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1173" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1173" bodyend="1183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1af2787022b98b2017be163c5cccd9931f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setLocalPoint</definition>
+        <argsstring>(in MR.Vector3f point)</argsstring>
+        <name>setLocalPoint</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setLocalPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1af2787022b98b2017be163c5cccd9931f" kindref="member">MR.DistanceMeasurementObject.setLocalPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1189" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1189" bodyend="1197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a66dff84c9a75073c5184340c7753881c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setLocalDelta</definition>
+        <argsstring>(in MR.Vector3f delta)</argsstring>
+        <name>setLocalDelta</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setLocalDelta</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a66dff84c9a75073c5184340c7753881c" kindref="member">MR.DistanceMeasurementObject.setLocalDelta</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1203" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1203" bodyend="1211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a993fec99aa6a58033159221d43d6d4e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setIsNegative</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setIsNegative</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setIsNegative</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a993fec99aa6a58033159221d43d6d4e3" kindref="member">MR.DistanceMeasurementObject.setIsNegative</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1216" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1216" bodyend="1221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a4af676724425527005e2f6643a10f13d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setDistanceMode</definition>
+        <argsstring>(MR.DistanceMeasurementObject.DistanceMode mode)</argsstring>
+        <name>setDistanceMode</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setDistanceMode</qualifiedname>
+        <param>
+          <type>MR.DistanceMeasurementObject.DistanceMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a4af676724425527005e2f6643a10f13d" kindref="member">MR.DistanceMeasurementObject.setDistanceMode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1226" bodyend="1231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a3970bb55f9b77768f2a5fb47d62e882a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setComparisonTolerance</definition>
+        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
+        <name>setComparisonTolerance</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setComparisonTolerance</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ObjectComparableWithReference.Const_ComparisonTolerance?</type>
+          <declname>newTolerance</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a3970bb55f9b77768f2a5fb47d62e882a" kindref="member">MR.DistanceMeasurementObject.setComparisonTolerance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1236" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1236" bodyend="1241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a89e11185f16e773656dedac22abca2a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setComparisonReferenceValue</definition>
+        <argsstring>(ulong i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
+        <name>setComparisonReferenceValue</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setComparisonReferenceValue</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Variant_Float_MRVector3f?</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a89e11185f16e773656dedac22abca2a2" kindref="member">MR.DistanceMeasurementObject.setComparisonReferenceValue</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1246" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1246" bodyend="1251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aeaec2967073feb62deda520493d7f1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1aeaec2967073feb62deda520493d7f1cf" kindref="member">MR.DistanceMeasurementObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1257" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1257" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a39f0798dda19e82d3619445a5f68ebfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a39f0798dda19e82d3619445a5f68ebfb" kindref="member">MR.DistanceMeasurementObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1268" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1268" bodyend="1273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1abeec880db9f1e3d77cd3615d5b557707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.DistanceMeasurementObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1abeec880db9f1e3d77cd3615d5b557707" kindref="member">MR.DistanceMeasurementObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1279" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1279" bodyend="1284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aabfb42f8299a2cba813954d098e38530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1aabfb42f8299a2cba813954d098e38530" kindref="member">MR.DistanceMeasurementObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1290" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1290" bodyend="1295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a9450841f6fce04f54f10968b7f3dcbf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.DistanceMeasurementObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a9450841f6fce04f54f10968b7f3dcbf3" kindref="member">MR.DistanceMeasurementObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1301" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1301" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ad871784297663dae1e4005171ef26380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ad871784297663dae1e4005171ef26380" kindref="member">MR.DistanceMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1313" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1313" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1afee187ec6f720cfd5e7bd53cce4ea962" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1afee187ec6f720cfd5e7bd53cce4ea962" kindref="member">MR.DistanceMeasurementObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1325" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1325" bodyend="1333"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a2e0015bc72c7521dab25a5929f4d2e93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a2e0015bc72c7521dab25a5929f4d2e93" kindref="member">MR.DistanceMeasurementObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1340" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1340" bodyend="1346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a81117753054cca7fa848a76b33d4a3b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a81117753054cca7fa848a76b33d4a3b6" kindref="member">MR.DistanceMeasurementObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1352" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1352" bodyend="1357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a740b316bc7861b52a8261e9601d3d822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a740b316bc7861b52a8261e9601d3d822" kindref="member">MR.DistanceMeasurementObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1364" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1364" bodyend="1372"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a260b424a3500cccbcb8c43d3cdc0c233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a260b424a3500cccbcb8c43d3cdc0c233" kindref="member">MR.DistanceMeasurementObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1379" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1379" bodyend="1384"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac3b76bbcdc5e92d82a5a41fab888e60f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ac3b76bbcdc5e92d82a5a41fab888e60f" kindref="member">MR.DistanceMeasurementObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1390" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1390" bodyend="1395"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a1fb5d7e2c8c69d130a7ff34aa48cdd64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a1fb5d7e2c8c69d130a7ff34aa48cdd64" kindref="member">MR.DistanceMeasurementObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1404" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1404" bodyend="1410"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a1fba7c57c51e7767959a63f9d0b073b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a1fba7c57c51e7767959a63f9d0b073b3" kindref="member">MR.DistanceMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1417" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1417" bodyend="1422"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a7a3066ba00add7516602960d21fc766a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a7a3066ba00add7516602960d21fc766a" kindref="member">MR.DistanceMeasurementObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1428" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1428" bodyend="1433"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aee91b33d8cefacc77edd416549f91883" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1aee91b33d8cefacc77edd416549f91883" kindref="member">MR.DistanceMeasurementObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1439" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1439" bodyend="1444"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a00111fc5f104a7abc3d8be2834ea4e68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a00111fc5f104a7abc3d8be2834ea4e68" kindref="member">MR.DistanceMeasurementObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1450" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1450" bodyend="1455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1afad345e3b5fa2c361bfc9cfa36d58c05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1afad345e3b5fa2c361bfc9cfa36d58c05" kindref="member">MR.DistanceMeasurementObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1461" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1461" bodyend="1466"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a4d3250b8b1e513234795608c70f406a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a4d3250b8b1e513234795608c70f406a6" kindref="member">MR.DistanceMeasurementObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1473" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1473" bodyend="1478"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac1984720529dd307fe38654aa436f3b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.DistanceMeasurementObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ac1984720529dd307fe38654aa436f3b5" kindref="member">MR.DistanceMeasurementObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1484" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1484" bodyend="1489"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a0813b1e12568b3089c27cd5bd98c7cab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.DistanceMeasurementObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a0813b1e12568b3089c27cd5bd98c7cab" kindref="member">MR.DistanceMeasurementObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1495" bodyend="1500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a2a885c1f6b196d5eb08382d7953f579d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a2a885c1f6b196d5eb08382d7953f579d" kindref="member">MR.DistanceMeasurementObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1505" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1505" bodyend="1514"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ada1edc06acec13b9a5884f2692e70a4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ada1edc06acec13b9a5884f2692e70a4d" kindref="member">MR.DistanceMeasurementObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1520" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1520" bodyend="1528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac662082afe642909bcb9974b0efe477b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.DistanceMeasurementObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>forgets specific transform in given viewport (or forgets all specific transforms for {} input) Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ac662082afe642909bcb9974b0efe477b" kindref="member">MR.DistanceMeasurementObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1535" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1535" bodyend="1540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a64044b1a43b5fa8d33c965a8f8502de5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a64044b1a43b5fa8d33c965a8f8502de5" kindref="member">MR.DistanceMeasurementObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1546" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1546" bodyend="1551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a6d07fa6972d2ef3ae4ab1337a96521ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a6d07fa6972d2ef3ae4ab1337a96521ff" kindref="member">MR.DistanceMeasurementObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1557" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1557" bodyend="1565"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ae20aab0d36828545f0306b2e131c0b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.DistanceMeasurementObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ae20aab0d36828545f0306b2e131c0b31" kindref="member">MR.DistanceMeasurementObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1571" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1571" bodyend="1576"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a33adb5b6af7b1305603b6224ecc2485d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a33adb5b6af7b1305603b6224ecc2485d" kindref="member">MR.DistanceMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1583" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1583" bodyend="1588"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a9c423528e465f6723b4767b6cccf7680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a9c423528e465f6723b4767b6cccf7680" kindref="member">MR.DistanceMeasurementObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1593" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1593" bodyend="1598"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a027e701d28b890228ec3859e098c5084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a027e701d28b890228ec3859e098c5084" kindref="member">MR.DistanceMeasurementObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1603" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1603" bodyend="1608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a090faaee115e2d22e4265e02af193bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.DistanceMeasurementObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.DistanceMeasurementObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a090faaee115e2d22e4265e02af193bfa" kindref="member">MR.DistanceMeasurementObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1615" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1615" bodyend="1620"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a397888f0576516b03936d5ead9811732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.DistanceMeasurementObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.DistanceMeasurementObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a397888f0576516b03936d5ead9811732" kindref="member">MR.DistanceMeasurementObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1630" bodyend="1636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1acf2c1ef42209424f6633a908b34886e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.DistanceMeasurementObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.DistanceMeasurementObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1acf2c1ef42209424f6633a908b34886e4" kindref="member">MR.DistanceMeasurementObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1644" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1644" bodyend="1649"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a7c67eeaa1dce37d7615f4082cedd8a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.DistanceMeasurementObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a7c67eeaa1dce37d7615f4082cedd8a7d" kindref="member">MR.DistanceMeasurementObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1655" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1655" bodyend="1660"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a606bfb1f26837b1537ac55d75da73016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.DistanceMeasurementObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a606bfb1f26837b1537ac55d75da73016" kindref="member">MR.DistanceMeasurementObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1666" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1666" bodyend="1671"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a3718515ed5a5cc3741697ecf9064a04c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.DistanceMeasurementObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.DistanceMeasurementObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a3718515ed5a5cc3741697ecf9064a04c" kindref="member">MR.DistanceMeasurementObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1677" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1677" bodyend="1682"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a2f20751438c8e5e402a8384b75df3f36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a2f20751438c8e5e402a8384b75df3f36" kindref="member">MR.DistanceMeasurementObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1689" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1689" bodyend="1694"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac4151c5e5ae5d2efcbc7f1c1619ba91c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ac4151c5e5ae5d2efcbc7f1c1619ba91c" kindref="member">MR.DistanceMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1701" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1701" bodyend="1706"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a0c013cd4be6c1d2bc67e74539f7bb656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a0c013cd4be6c1d2bc67e74539f7bb656" kindref="member">MR.DistanceMeasurementObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1712" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1712" bodyend="1717"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a2c453c11b4f36d98fdebfecf7442928f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.DistanceMeasurementObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a2c453c11b4f36d98fdebfecf7442928f" kindref="member">MR.DistanceMeasurementObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1725" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1725" bodyend="1730"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a11ca9ecae99c66f894f3b6d396f4174a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.DistanceMeasurementObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.DistanceMeasurementObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a11ca9ecae99c66f894f3b6d396f4174a" kindref="member">MR.DistanceMeasurementObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1738" bodyend="1747"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a0c685083d4483153925b5e23ff4b15ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.DistanceMeasurementObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.DistanceMeasurementObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a0c685083d4483153925b5e23ff4b15ea" kindref="member">MR.DistanceMeasurementObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1754" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1754" bodyend="1763"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aa72645020ca565a8523ed9e88f22cce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.DistanceMeasurementObject.setComparisonReferenceVal</definition>
+        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
+        <name>setComparisonReferenceVal</name>
+        <qualifiedname>MR.DistanceMeasurementObject.setComparisonReferenceVal</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ObjectComparableWithReference.Const_ComparisonReferenceValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1aa72645020ca565a8523ed9e88f22cce2" kindref="member">MR.DistanceMeasurementObject.setComparisonReferenceVal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1768" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1768" bodyend="1773"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">MR.ObjectComparableWithReference</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DistanceMeasurementObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DistanceMeasurementObject</label>
+        <link refid="classMR_1_1DistanceMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_DistanceMeasurementObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DistanceMeasurementObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DistanceMeasurementObject</label>
+        <link refid="classMR_1_1DistanceMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_DistanceMeasurementObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1077" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1078" bodyend="1774"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a397888f0576516b03936d5ead9811732" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1acf2c1ef42209424f6633a908b34886e4" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a11ca9ecae99c66f894f3b6d396f4174a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ae20aab0d36828545f0306b2e131c0b31" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a7ab32c868a5111df007c954de9db6c11" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a9450841f6fce04f54f10968b7f3dcbf3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a090faaee115e2d22e4265e02af193bfa" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ab7676d9298c79b641908ca8d0a5c4484" prot="package" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a1fbcd6264e45074ebb0945fde44d2ba1" prot="package" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a75f25217afc63ecee063f1c2c089048c" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a62fa9f57a0517f70aa6d08a316914e17" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1aff126bccbc4338c9e660b445f98ff2b6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator DistanceMeasurementObject?</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1acd844f1b4fc401409277b595ca7ee7a9" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator DistanceMeasurementObject?</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ac1cd1fcd209cef2ecd643c62608003dd" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator DistanceMeasurementObject?</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a22ae194a98a6ee8379b8dc081fc9b485" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator DistanceMeasurementObject?</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a0308ad278aa2e219144f3865418d2dce" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator MR.MeasurementObject</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a44880e46458db97466e94c39a567bd03" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ae76e6d68782e58ee4640878e85253a42" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a93201303a19ece5a41fc52297d769514" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator MR.ObjectComparableWithReference</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1aa798602551fbc29616ed1435e7795836" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a7c67eeaa1dce37d7615f4082cedd8a7d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a0c685083d4483153925b5e23ff4b15ea" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a0813b1e12568b3089c27cd5bd98c7cab" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ac1984720529dd307fe38654aa436f3b5" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ac662082afe642909bcb9974b0efe477b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a3718515ed5a5cc3741697ecf9064a04c" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>select</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1aabfb42f8299a2cba813954d098e38530" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1afad345e3b5fa2c361bfc9cfa36d58c05" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a2f20751438c8e5e402a8384b75df3f36" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a740b316bc7861b52a8261e9601d3d822" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a81117753054cca7fa848a76b33d4a3b6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a7a3066ba00add7516602960d21fc766a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1aa72645020ca565a8523ed9e88f22cce2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a89e11185f16e773656dedac22abca2a2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a3970bb55f9b77768f2a5fb47d62e882a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a1fb5d7e2c8c69d130a7ff34aa48cdd64" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a4af676724425527005e2f6643a10f13d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDistanceMode</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1afee187ec6f720cfd5e7bd53cce4ea962" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a2e0015bc72c7521dab25a5929f4d2e93" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a260b424a3500cccbcb8c43d3cdc0c233" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ac3b76bbcdc5e92d82a5a41fab888e60f" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ad871784297663dae1e4005171ef26380" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a33adb5b6af7b1305603b6224ecc2485d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a993fec99aa6a58033159221d43d6d4e3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setIsNegative</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a66dff84c9a75073c5184340c7753881c" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocalDelta</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1af2787022b98b2017be163c5cccd9931f" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a9c423528e465f6723b4767b6cccf7680" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a2a885c1f6b196d5eb08382d7953f579d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a027e701d28b890228ec3859e098c5084" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a1fba7c57c51e7767959a63f9d0b073b3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1aee91b33d8cefacc77edd416549f91883" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a00111fc5f104a7abc3d8be2834ea4e68" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a4d3250b8b1e513234795608c70f406a6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a0c013cd4be6c1d2bc67e74539f7bb656" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ac4151c5e5ae5d2efcbc7f1c1619ba91c" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1aeaec2967073feb62deda520493d7f1cf" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a39f0798dda19e82d3619445a5f68ebfb" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a6d07fa6972d2ef3ae4ab1337a96521ff" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1ada1edc06acec13b9a5884f2692e70a4d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a64044b1a43b5fa8d33c965a8f8502de5" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a606bfb1f26837b1537ac55d75da73016" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a2c453c11b4f36d98fdebfecf7442928f" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1abeec880db9f1e3d77cd3615d5b557707" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

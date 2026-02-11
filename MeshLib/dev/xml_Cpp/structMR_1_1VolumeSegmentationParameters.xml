@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VolumeSegmentationParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VolumeSegmentationParameters</compoundname>
+    <includes refid="MRVolumeSegment_8h" local="no">MRVolumeSegment.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VolumeSegmentationParameters_1af000ea80a099a9de6d4f4f4475580b6c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::VolumeSegmentationParameters::buildPathExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>buildPathExponentModifier</name>
+        <qualifiedname>MR::VolumeSegmentationParameters::buildPathExponentModifier</qualifiedname>
+        <initializer>{-1.0f}</initializer>
+        <briefdescription>
+<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VolumeSegmentationParameters_1ab07494ac7f1627ecc2dfce39e9502118" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::VolumeSegmentationParameters::segmentationExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>segmentationExponentModifier</name>
+        <qualifiedname>MR::VolumeSegmentationParameters::segmentationExponentModifier</qualifiedname>
+        <initializer>{3000.0f}</initializer>
+        <briefdescription>
+<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VolumeSegmentationParameters_1aa059718068f7c4b81e33e2a1a3e7460c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::VolumeSegmentationParameters::voxelsExpansion</definition>
+        <argsstring></argsstring>
+        <name>voxelsExpansion</name>
+        <qualifiedname>MR::VolumeSegmentationParameters::voxelsExpansion</qualifiedname>
+        <initializer>{25}</initializer>
+        <briefdescription>
+<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="40" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for volume segmentation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__VolumeSegmentationGroup_1gad44e7dfa9a22ec4a0c94232c1791b7d2" kindref="member">segmentVolume</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="34" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VolumeSegmentationParameters_1af000ea80a099a9de6d4f4f4475580b6c" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>buildPathExponentModifier</name></member>
+      <member refid="structMR_1_1VolumeSegmentationParameters_1ab07494ac7f1627ecc2dfce39e9502118" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>segmentationExponentModifier</name></member>
+      <member refid="structMR_1_1VolumeSegmentationParameters_1aa059718068f7c4b81e33e2a1a3e7460c" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>voxelsExpansion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

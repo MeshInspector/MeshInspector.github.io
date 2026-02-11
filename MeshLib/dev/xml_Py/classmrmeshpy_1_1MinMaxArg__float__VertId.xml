@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MinMaxArg__float__VertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MinMaxArg_float_VertId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a0eac9cd6677dca4d87b3310759a27c69" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MinMaxArg_float_VertId::_offsetof_max</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_max</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId._offsetof_max</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a556a397b59186bcfde66dc347d48cf04" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MinMaxArg_float_VertId::_offsetof_maxArg</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxArg</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId._offsetof_maxArg</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a468aa3acf80a60b1395c2d27d238d9ae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MinMaxArg_float_VertId::_offsetof_min</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_min</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId._offsetof_min</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1af90cbe163651629e3c8ce2d95fe83f90" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MinMaxArg_float_VertId::_offsetof_minArg</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minArg</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId._offsetof_minArg</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35752" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a6c277ee14f5b6d0450ffa4c7ed84d9b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35759" bodyend="35760"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a54d7d786aafbb46fde95d39d45db5a4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MinMaxArg__float__VertId" kindref="compound">MinMaxArg_float_VertId</ref></type>
+        <definition> MinMaxArg_float_VertId mrmeshpy.MinMaxArg_float_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35763" bodyend="35764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a54d7d786aafbb46fde95d39d45db5a4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MinMaxArg__float__VertId" kindref="compound">MinMaxArg_float_VertId</ref></type>
+        <definition> MinMaxArg_float_VertId mrmeshpy.MinMaxArg_float_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35767" bodyend="35768"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a2db596444cfa6f872733c723f582cb51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35770" bodyend="35771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a2d1347b7566511185c8de5a8b57f111e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.__init__</definition>
+        <argsstring>(self, MinMaxArg_float_VertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MinMaxArg__float__VertId" kindref="compound">MinMaxArg_float_VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35773" bodyend="35776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1aa2a8a60719d5c56ef0d15aa2c0b0cf62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.__init__</definition>
+        <argsstring>(self, float min, float max, VertId minArg, VertId maxArg)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>minArg</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>maxArg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35778" bodyend="35781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1aab9d90c3ca7622b91d18f306b94f33f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.include</definition>
+        <argsstring>(self, tuple[float, VertId] p)</argsstring>
+        <name>include</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.include</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>p</declname>
+          <array>[float, VertId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>changes min(Arg) and max(Arg) if necessary to include given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35783" bodyend="35786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1ac43aeb450499c24ed596593dcb226e57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.include</definition>
+        <argsstring>(self, float v, VertId arg)</argsstring>
+        <name>include</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.include</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>changes min(Arg) and max(Arg) if necessary to include given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35788" bodyend="35791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a98ff68d472264358c670ee526c251df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MinMaxArg_float_VertId.include</definition>
+        <argsstring>(self, MinMaxArg_float_VertId s)</argsstring>
+        <name>include</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.include</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MinMaxArg__float__VertId" kindref="compound">MinMaxArg_float_VertId</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>changes min(Arg) and max(Arg) if necessary to include given segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35793" bodyend="35796"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1a7254dcfe234dbd31b609485d0d798986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[float, <ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>]</type>
+        <definition> tuple[float, VertId] mrmeshpy.MinMaxArg_float_VertId.maxPair</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxPair</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.maxPair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35797" bodyend="35798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MinMaxArg__float__VertId_1af558bcd40b8984d57fe4227c524f3c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[float, <ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>]</type>
+        <definition> tuple[float, VertId] mrmeshpy.MinMaxArg_float_VertId.minPair</definition>
+        <argsstring>(self)</argsstring>
+        <name>minPair</name>
+        <qualifiedname>mrmeshpy.MinMaxArg_float_VertId.minPair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35799" bodyend="35800"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MinMaxArg&lt;float, MR::VertId&gt;
+
+minimum and maximum of some elements of type T,
+and the indices of where minimum and maximum are reached of type I
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MinMaxArg_float_VertId</label>
+        <link refid="classmrmeshpy_1_1MinMaxArg__float__VertId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_max</edgelabel>
+          <edgelabel>_offsetof_maxArg</edgelabel>
+          <edgelabel>_offsetof_min</edgelabel>
+          <edgelabel>_offsetof_minArg</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35742" bodyend="35800"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a6c277ee14f5b6d0450ffa4c7ed84d9b3" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a2db596444cfa6f872733c723f582cb51" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a2d1347b7566511185c8de5a8b57f111e" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1aa2a8a60719d5c56ef0d15aa2c0b0cf62" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a0eac9cd6677dca4d87b3310759a27c69" prot="protected" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>_offsetof_max</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a556a397b59186bcfde66dc347d48cf04" prot="protected" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>_offsetof_maxArg</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a468aa3acf80a60b1395c2d27d238d9ae" prot="protected" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>_offsetof_min</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1af90cbe163651629e3c8ce2d95fe83f90" prot="protected" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>_offsetof_minArg</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1aab9d90c3ca7622b91d18f306b94f33f4" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1ac43aeb450499c24ed596593dcb226e57" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a98ff68d472264358c670ee526c251df1" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>include</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a7254dcfe234dbd31b609485d0d798986" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>maxPair</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1af558bcd40b8984d57fe4227c524f3c23" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>minPair</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a54d7d786aafbb46fde95d39d45db5a4a" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MinMaxArg__float__VertId_1a54d7d786aafbb46fde95d39d45db5a4a" prot="public" virt="non-virtual"><scope>mrmeshpy::MinMaxArg_float_VertId</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

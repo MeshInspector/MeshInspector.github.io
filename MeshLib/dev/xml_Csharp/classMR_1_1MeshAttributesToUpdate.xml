@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshAttributesToUpdate" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshAttributesToUpdate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshAttributesToUpdate</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshAttributesToUpdate_1a91502180133e531369333ee6e3fbe10f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+        <definition>new unsafe MR.? VertCoords2 MR.MeshAttributesToUpdate.uvCoords</definition>
+        <argsstring></argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.uvCoords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="177" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="178" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshAttributesToUpdate_1ad2913c54843bca4a36c61e3629682356" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition>new unsafe MR.? VertColors MR.MeshAttributesToUpdate.colorMap</definition>
+        <argsstring></argsstring>
+        <name>colorMap</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.colorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="189" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="190" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshAttributesToUpdate_1a6f71039951704699e14b21f0c1c33352" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1TexturePerFace" kindref="compound">TexturePerFace</ref></type>
+        <definition>new unsafe MR.? TexturePerFace MR.MeshAttributesToUpdate.texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>texturePerFace</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.texturePerFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="201" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="202" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshAttributesToUpdate_1aa1faf6f123f79ee1c713c77ce65ac07e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+        <definition>new unsafe MR.? FaceColors MR.MeshAttributesToUpdate.faceColors</definition>
+        <argsstring></argsstring>
+        <name>faceColors</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.faceColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="213" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="214" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshAttributesToUpdate_1abfe3ddf3abd04ea248bf2c472bfec2d8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshAttributesToUpdate.MeshAttributesToUpdate</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshAttributesToUpdate</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="227" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="227" bodyend="231"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshAttributesToUpdate_1aa9a75c7696443619866dc2fe111d5285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshAttributesToUpdate.MeshAttributesToUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>MeshAttributesToUpdate</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="237" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="237" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshAttributesToUpdate_1a4378c39f37584aa25cc105290edce21b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshAttributesToUpdate.MeshAttributesToUpdate</definition>
+        <argsstring>(MR.VertCoords2? uvCoords, MR.VertColors? colorMap, MR.TexturePerFace? texturePerFace, MR.FaceColors? faceColors)</argsstring>
+        <name>MeshAttributesToUpdate</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref>?</type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>colorMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TexturePerFace" kindref="compound">MR.TexturePerFace</ref>?</type>
+          <declname>texturePerFace</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref>?</type>
+          <declname>faceColors</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshAttributesToUpdate" kindref="compound">MR.MeshAttributesToUpdate</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="248" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshAttributesToUpdate_1af0a50d1ecdbacea074ff62dbbb8f6452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshAttributesToUpdate.MeshAttributesToUpdate</definition>
+        <argsstring>(MR.Const_MeshAttributesToUpdate _other)</argsstring>
+        <name>MeshAttributesToUpdate</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</qualifiedname>
+        <param>
+          <type>MR.Const_MeshAttributesToUpdate</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="263" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="263" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshAttributesToUpdate_1a8a7bc41140ae7d8fe9c6dc98ec047894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</definition>
+        <argsstring>(MeshAttributesToUpdate _other)</argsstring>
+        <name>MeshAttributesToUpdate</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="275" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="275" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshAttributesToUpdate_1a2a39e0daddb8330ec094f3055b82e42c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshAttributesToUpdate" kindref="compound">MR.MeshAttributesToUpdate</ref></type>
+        <definition>unsafe MR.MeshAttributesToUpdate MR.MeshAttributesToUpdate.assign</definition>
+        <argsstring>(MR.Const_MeshAttributesToUpdate _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshAttributesToUpdate.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MeshAttributesToUpdate</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshAttributesToUpdate.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="280" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="280" bodyend="287"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshAttributesToUpdate" kindref="compound">MR.MeshAttributesToUpdate</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshAttributesToUpdate</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshAttributesToUpdate</label>
+        <link refid="classMR_1_1MeshAttributesToUpdate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshAttributesToUpdate &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshAttributesToUpdate</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshAttributesToUpdate</label>
+        <link refid="classMR_1_1MeshAttributesToUpdate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshAttributesToUpdate &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="175" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="176" bodyend="288"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1a2a39e0daddb8330ec094f3055b82e42c" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1ad2913c54843bca4a36c61e3629682356" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>colorMap</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1aa1faf6f123f79ee1c713c77ce65ac07e" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>faceColors</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1abfe3ddf3abd04ea248bf2c472bfec2d8" prot="package" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1aa9a75c7696443619866dc2fe111d5285" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1a4378c39f37584aa25cc105290edce21b" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1af0a50d1ecdbacea074ff62dbbb8f6452" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1a8a7bc41140ae7d8fe9c6dc98ec047894" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1a6f71039951704699e14b21f0c1c33352" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>texturePerFace</name></member>
+      <member refid="classMR_1_1MeshAttributesToUpdate_1a91502180133e531369333ee6e3fbe10f" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>uvCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

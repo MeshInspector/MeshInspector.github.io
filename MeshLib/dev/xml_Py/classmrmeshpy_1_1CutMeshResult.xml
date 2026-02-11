@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CutMeshResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CutMeshResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CutMeshResult_1ab41cef8193bdbb25a32a947aa2cfb24c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CutMeshResult::_offsetof_fbsWithContourIntersections</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fbsWithContourIntersections</name>
+        <qualifiedname>mrmeshpy.CutMeshResult._offsetof_fbsWithContourIntersections</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CutMeshResult_1ae3079ab4cb2d0a7e4f427885a51ba214" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CutMeshResult::_offsetof_resultCut</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_resultCut</name>
+        <qualifiedname>mrmeshpy.CutMeshResult._offsetof_resultCut</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11355" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1abf10e180319a119fed9fef1c84177d4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutMeshResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11358" bodyend="11359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1ad80222274304ffb57b0d3f650562a950" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></type>
+        <definition> CutMeshResult mrmeshpy.CutMeshResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11362" bodyend="11363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1ad80222274304ffb57b0d3f650562a950" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></type>
+        <definition> CutMeshResult mrmeshpy.CutMeshResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11366" bodyend="11367"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a2385952cb433cfdd6c319eb2a4306709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutMeshResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11369" bodyend="11370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a0cf794c35801cd571a7337b68f93d6c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutMeshResult.__init__</definition>
+        <argsstring>(self, CutMeshResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11372" bodyend="11375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a74fdccc6d1b34ab7042a7ca039690036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutMeshResult.__init__</definition>
+        <argsstring>(self, std_vector_std_vector_Id_EdgeTag resultCut, FaceBitSet fbsWithContourIntersections)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+          <declname>resultCut</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>fbsWithContourIntersections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11377" bodyend="11380"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a3cac90bcf9ebe90ed761bb3f02ab7b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.CutMeshResult.fbsWithContourIntersections</definition>
+        <argsstring>(self)</argsstring>
+        <name>fbsWithContourIntersections</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.fbsWithContourIntersections</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way
+\\sa \\ref MR::CutMeshParameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11382" bodyend="11386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a6e6158116843f83a32f7312d3917a641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutMeshResult.fbsWithContourIntersections</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>fbsWithContourIntersections</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.fbsWithContourIntersections</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11388" bodyend="11389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a855abedfc960575d18417f251ded312b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+        <definition> std_vector_std_vector_Id_EdgeTag mrmeshpy.CutMeshResult.resultCut</definition>
+        <argsstring>(self)</argsstring>
+        <name>resultCut</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.resultCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Paths of new edges on mesh, they represent same contours as input, but already cut
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11391" bodyend="11394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutMeshResult_1a573573ff891c288a75b8c946df19b704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutMeshResult.resultCut</definition>
+        <argsstring>(self, std_vector_std_vector_Id_EdgeTag arg1)</argsstring>
+        <name>resultCut</name>
+        <qualifiedname>mrmeshpy.CutMeshResult.resultCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11396" bodyend="11397"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CutMeshResult
+
+\\struct MR::CutMeshResult
+This structure contains result of MR::cutMesh function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CutMeshResult</label>
+        <link refid="classmrmeshpy_1_1CutMeshResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_fbsWithContourIntersections</edgelabel>
+          <edgelabel>_offsetof_resultCut</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11347" bodyend="11397"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1abf10e180319a119fed9fef1c84177d4d" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a2385952cb433cfdd6c319eb2a4306709" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a0cf794c35801cd571a7337b68f93d6c5" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a74fdccc6d1b34ab7042a7ca039690036" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1ab41cef8193bdbb25a32a947aa2cfb24c" prot="protected" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>_offsetof_fbsWithContourIntersections</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1ae3079ab4cb2d0a7e4f427885a51ba214" prot="protected" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>_offsetof_resultCut</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a3cac90bcf9ebe90ed761bb3f02ab7b35" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>fbsWithContourIntersections</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a6e6158116843f83a32f7312d3917a641" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>fbsWithContourIntersections</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1ad80222274304ffb57b0d3f650562a950" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1ad80222274304ffb57b0d3f650562a950" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a855abedfc960575d18417f251ded312b" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>resultCut</name></member>
+      <member refid="classmrmeshpy_1_1CutMeshResult_1a573573ff891c288a75b8c946df19b704" prot="public" virt="non-virtual"><scope>mrmeshpy::CutMeshResult</scope><name>resultCut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

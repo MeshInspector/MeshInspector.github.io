@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::Primitives::Plane</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a97c9d9c7d89e920e2a372218d5e5a9d6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.Plane::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane._offsetof_center</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1ac90147b02ae4346467a8ce0a2d918569" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.Plane::_offsetof_normal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normal</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane._offsetof_normal</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18395" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a022cc58b6c205ff6bced165149356019" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.Primitives.Plane.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18398" bodyend="18399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a98f0c1c643f75a7ec9f0588d181a7474" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.Plane.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18402" bodyend="18403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a7d8b3a01d453847c2f2f96f5c3eedb32" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+        <definition> Features.Primitives.Plane mrmeshpy.Features.Primitives.Plane.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18406" bodyend="18407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a7d8b3a01d453847c2f2f96f5c3eedb32" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+        <definition> Features.Primitives.Plane mrmeshpy.Features.Primitives.Plane.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18410" bodyend="18411"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1ab65d453a6e62e5f13198c60463b31260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.Plane.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18413" bodyend="18414"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a4f7dacb802f733467aaeea5d109da006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.Plane.__init__</definition>
+        <argsstring>(self, Features.Primitives.Plane arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18416" bodyend="18419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1afb5ff89c685d4e87ff2e603a1b5c004a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.Plane.__init__</definition>
+        <argsstring>(self, Vector3f center, Vector3f normal)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18421" bodyend="18424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a9478ffdfa1031fd76865d5a91f5b78cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Features.Primitives.Plane.intersectWithLine</definition>
+        <argsstring>(self, Features.Primitives.ConeSegment line)</argsstring>
+        <name>intersectWithLine</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.intersectWithLine</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Intersects the plane with a line, returns a point (zero radius sphere).
+Only `center` and `dir` are used from `line` (so if `line` is a cone/cylinder, its axis is used,
+and the line is extended to infinity).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18425" bodyend="18430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a088c8703ef7b2906ed608b5867425e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.Plane.intersectWithPlane</definition>
+        <argsstring>(self, Features.Primitives.Plane other)</argsstring>
+        <name>intersectWithPlane</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.intersectWithPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns an infinite line, with the center in a sane location.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18431" bodyend="18434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a0cdec6091e973428448da957319c9348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.Primitives.Plane.normal</definition>
+        <argsstring>(self)</argsstring>
+        <name>normal</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.normal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This must be normalized. The sign doesn&apos;t matter.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18436" bodyend="18439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a1d0876378e3a1af394b7220357e38e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.Plane.normal</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>normal</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.Plane.normal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18441" bodyend="18443"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Features::Primitives::Plane
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Features.Primitives.Plane</label>
+        <link refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_center</edgelabel>
+          <edgelabel>_offsetof_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18390" bodyend="18442"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a022cc58b6c205ff6bced165149356019" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a98f0c1c643f75a7ec9f0588d181a7474" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1ab65d453a6e62e5f13198c60463b31260" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a4f7dacb802f733467aaeea5d109da006" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1afb5ff89c685d4e87ff2e603a1b5c004a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a97c9d9c7d89e920e2a372218d5e5a9d6" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1ac90147b02ae4346467a8ce0a2d918569" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>_offsetof_normal</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a9478ffdfa1031fd76865d5a91f5b78cd" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>intersectWithLine</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a088c8703ef7b2906ed608b5867425e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>intersectWithPlane</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a0cdec6091e973428448da957319c9348" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>normal</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a1d0876378e3a1af394b7220357e38e7d" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>normal</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a7d8b3a01d453847c2f2f96f5c3eedb32" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane_1a7d8b3a01d453847c2f2f96f5c3eedb32" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::Plane</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

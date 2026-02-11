@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ShellVertexInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ShellVertexInfo</compoundname>
+    <includes refid="MRInnerShell_8h" local="no">MRInnerShell.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ShellVertexInfo_1a2a6da8b3af021f4593c78e7b6717f573" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ShellVertexInfo::inRange</definition>
+        <argsstring></argsstring>
+        <name>inRange</name>
+        <qualifiedname>MR::ShellVertexInfo::inRange</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>true when shell vertex is within settings.maxDist from source mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ShellVertexInfo_1a6a812bb14fc2863c4b0f30cc834ddd55" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ShellVertexInfo::projOnBd</definition>
+        <argsstring></argsstring>
+        <name>projOnBd</name>
+        <qualifiedname>MR::ShellVertexInfo::projOnBd</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>shell vertex projects on source mesh boundary (never true for winding rule mode) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ShellVertexInfo_1a4ad2a701c8676bd3a94338e7564f1a3c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ShellVertexInfo::rightSide</definition>
+        <argsstring></argsstring>
+        <name>rightSide</name>
+        <qualifiedname>MR::ShellVertexInfo::rightSide</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>whether shell vertex is on requested side of source mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="45" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ShellVertexInfo_1a8cae5aeb17ea9eba3d65c5cb39acbe29" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ShellVertexInfo::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::ShellVertexInfo::valid</qualifiedname>
+        <briefdescription>
+<para>returns true if shell vertex is in range, does not project on boundary and located on proper side </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>information about shell vertex </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="37" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ShellVertexInfo_1a2a6da8b3af021f4593c78e7b6717f573" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>inRange</name></member>
+      <member refid="structMR_1_1ShellVertexInfo_1a6a812bb14fc2863c4b0f30cc834ddd55" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>projOnBd</name></member>
+      <member refid="structMR_1_1ShellVertexInfo_1a4ad2a701c8676bd3a94338e7564f1a3c" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>rightSide</name></member>
+      <member refid="structMR_1_1ShellVertexInfo_1a8cae5aeb17ea9eba3d65c5cb39acbe29" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

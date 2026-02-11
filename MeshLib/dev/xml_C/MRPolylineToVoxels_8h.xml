@@ -1,0 +1,1266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPolylineToVoxels_8h" kind="file" language="C++">
+    <compoundname>MRPolylineToVoxels.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPolylineToVoxels.h</label>
+        <link refid="MRPolylineToVoxels_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></type>
+        <definition>typedef struct MR_DistanceToMeshOptions MR_DistanceToMeshOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_DistanceToMeshOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref></type>
+        <definition>typedef struct MR_DistanceVolumeParams MR_DistanceVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_DistanceVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
+        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_FloatGrid_std_string MR_expected_MR_FloatGrid_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_FloatGrid_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="17" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_FunctionVolume_std_string MR_expected_MR_FunctionVolume_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_FunctionVolume_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="18" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" prot="public" static="no">
+        <type>struct <ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_SimpleVolume_std_string MR_expected_MR_SimpleVolume_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_SimpleVolume_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="19" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_VdbVolume_std_string MR_expected_MR_VdbVolume_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_VdbVolume_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="20" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="21" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref></type>
+        <definition>typedef struct MR_PolylineToDistanceVolumeParams MR_PolylineToDistanceVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_PolylineToDistanceVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="26" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" prot="public" static="no">
+        <type>struct <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref></type>
+        <definition>typedef struct MR_PolylineToVolumeParams MR_PolylineToVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_PolylineToVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Settings to conversion polyline to volume Generated from class <computeroutput>MR::PolylineToVolumeParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="31" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ae8ce71a1fd6806c753a824ca5bf82e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_PolylineToDistanceVolumeParams_Get_voxelSize</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Get_voxelSize</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="36" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="36" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a5721a3582aad1e2206c688247b99c9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_Set_voxelSize</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this, MR_Vector3f value)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Set_voxelSize</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="42" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="42" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ac7a3dcca3c594f0dbad84a28f234a033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_PolylineToDistanceVolumeParams_GetMutable_voxelSize</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_GetMutable_voxelSize</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="47" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="47" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a6b95936b9fa35643f6fd2e1201887ff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PolylineToDistanceVolumeParams_Get_offsetCount</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Get_offsetCount</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>offsetCount - the number of voxels around polyline to calculate distance in (should be positive) Returns a pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>offsetCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="53" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="53" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a81fe9a50c35323a863d9f31d75d56214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_Set_offsetCount</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this, float value)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Set_offsetCount</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>offsetCount - the number of voxels around polyline to calculate distance in (should be positive) Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>offsetCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offsetCount</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1aeaced75e2ec048f127ed915580bf8f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PolylineToDistanceVolumeParams_GetMutable_offsetCount</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_GetMutable_offsetCount</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>offsetCount - the number of voxels around polyline to calculate distance in (should be positive) Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>offsetCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="65" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="65" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ab8ec1bb711b1959add86c9f6d4651e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_PolylineToDistanceVolumeParams_Get_worldXf</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Get_worldXf</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="71" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="71" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ae4293606829302990ac89e80410457f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_Set_worldXf</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this, MR_AffineXf3f value)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Set_worldXf</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>worldXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>worldXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a45828c70842a8d2be6ee31330a701008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_PolylineToDistanceVolumeParams_GetMutable_worldXf</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_GetMutable_worldXf</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="84" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="84" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a7c544170ec371339e5ce89a75b76e177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API MR_AffineXf3f *const  * MR_PolylineToDistanceVolumeParams_Get_outXf</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Get_outXf</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="90" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="90" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ac5ea8bd6da3a44316b405d199aaf79d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_Set_outXf</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this, MR_AffineXf3f *value)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Set_outXf</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="97" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1af3d83a9f38c0ff56fe9bd9311cb2b45a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API MR_AffineXf3f ** MR_PolylineToDistanceVolumeParams_GetMutable_outXf</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_GetMutable_outXf</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="103" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a496561ed4572996f0ae351b9d3f987f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_PolylineToDistanceVolumeParams_Get_cb</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Get_cb</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="108" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="108" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1aaff1b07181e60562dfd708792296f217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_Set_cb</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Set_cb</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a700f6be4d83bbf50b4f091793fec3a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_PolylineToDistanceVolumeParams_GetMutable_cb</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_GetMutable_cb</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="119" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="119" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1aaf4787c0588bd02ad39570a060d08f32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" kindref="member">MR_PolylineToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="123" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="123" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ac3188559d0692634b6fb53a992ee1ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPolylineToVoxels_8h_1a0e437c024cdb3cb1aebefd6b54218e8e" kindref="member">MR_PolylineToDistanceVolumeParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPolylineToVoxels_8h_1ac77eb2f73a4f4e346a4779a66d31e232" kindref="member">MR_PolylineToDistanceVolumeParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPolylineToVoxels_8h_1a1daa65744dca73e0ca8b7d0b01760b44" kindref="member">MR_PolylineToDistanceVolumeParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="128" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="128" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ab18988229b3cee667bdd2c184fd0bcbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_ConstructFrom</definition>
+        <argsstring>(MR_Vector3f voxelSize, float offsetCount, MR_AffineXf3f worldXf, MR_AffineXf3f *outXf, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetCount</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>worldXf</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>outXf</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>worldXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" kindref="member">MR_PolylineToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="137" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="137" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a1daa65744dca73e0ca8b7d0b01760b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_OffsetPtr</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="141" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="141" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ac77eb2f73a4f4e346a4779a66d31e232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="145" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="145" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1aec7eaf1448f3dc368b4ac550af146215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_PolylineToDistanceVolumeParams *_other)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PolylineToDistanceVolumeParams::PolylineToDistanceVolumeParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" kindref="member">MR_PolylineToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="150" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="150" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_Destroy</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineToDistanceVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="153" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a0e437c024cdb3cb1aebefd6b54218e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToDistanceVolumeParams_DestroyArray</definition>
+        <argsstring>(const MR_PolylineToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineToDistanceVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a41d3f0150b08817d95a82da7b775d9f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToDistanceVolumeParams * MR_PolylineToDistanceVolumeParams_AssignFromAnother</definition>
+        <argsstring>(MR_PolylineToDistanceVolumeParams *_this, MR_PassBy _other_pass_by, MR_PolylineToDistanceVolumeParams *_other)</argsstring>
+        <name>MR_PolylineToDistanceVolumeParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PolylineToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="163" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="163" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a39662768026f65a0c0c5c9beb27299b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_FloatGrid_std_string * MR_polylineToDistanceField</definition>
+        <argsstring>(const MR_Polyline3 *polyline, const MR_PolylineToDistanceVolumeParams *params)</argsstring>
+        <name>MR_polylineToDistanceField</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert polyline to voxels distance field Generated from function <computeroutput>MR::polylineToDistanceField</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_FloatGrid_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="170" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="170" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a0ef094c9f0e56a3d9e72086793207634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_VdbVolume_std_string * MR_polylineToVdbVolume</definition>
+        <argsstring>(const MR_Polyline3 *polyline, const MR_PolylineToDistanceVolumeParams *params)</argsstring>
+        <name>MR_polylineToVdbVolume</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert polyline to VDB volume Generated from function <computeroutput>MR::polylineToVdbVolume</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_VdbVolume_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="177" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="177" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1aa171f52da2fbebc64933488d747ccc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_DistanceVolumeParams * MR_PolylineToVolumeParams_Get_vol</definition>
+        <argsstring>(const MR_PolylineToVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToVolumeParams_Get_vol</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="182" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="182" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a317c7eb1e705fee7af7a17fdb7bc4d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToVolumeParams_Set_vol</definition>
+        <argsstring>(MR_PolylineToVolumeParams *_this, MR_PassBy value_pass_by, MR_DistanceVolumeParams *value)</argsstring>
+        <name>MR_PolylineToVolumeParams_Set_vol</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="188" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a7e5d7e32ba36a63aed77c3abc1244b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_DistanceVolumeParams * MR_PolylineToVolumeParams_GetMutable_vol</definition>
+        <argsstring>(MR_PolylineToVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToVolumeParams_GetMutable_vol</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="193" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="193" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1ad8f0a95ebbd76ccdc4277162c5540c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_DistanceToMeshOptions * MR_PolylineToVolumeParams_Get_dist</definition>
+        <argsstring>(const MR_PolylineToVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToVolumeParams_Get_dist</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="198" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="198" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a9f96f309c60885f07f91c8cd9dd17548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToVolumeParams_Set_dist</definition>
+        <argsstring>(MR_PolylineToVolumeParams *_this, const MR_DistanceToMeshOptions *value)</argsstring>
+        <name>MR_PolylineToVolumeParams_Set_dist</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="205" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a5dc40a0da53013fedd856ae436af891d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_PolylineToVolumeParams_GetMutable_dist</definition>
+        <argsstring>(MR_PolylineToVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToVolumeParams_GetMutable_dist</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="210" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="210" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1aca59168b72348f7eab95cf19521f3e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PolylineToVolumeParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" kindref="member">MR_PolylineToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="214" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="214" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a217430b823177899568441d3fb2a3c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PolylineToVolumeParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPolylineToVoxels_8h_1a56133bbca2e4f04a89dfd68afcd42396" kindref="member">MR_PolylineToVolumeParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPolylineToVoxels_8h_1a1ac61ff25dcf180483acf9b2c4ca1968" kindref="member">MR_PolylineToVolumeParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPolylineToVoxels_8h_1a4c6667767a1beecbb03e2b3295eb4bd0" kindref="member">MR_PolylineToVolumeParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="219" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="219" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a5b9bf94fe63f38865081de4a2dce6903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_ConstructFrom</definition>
+        <argsstring>(MR_PassBy vol_pass_by, MR_DistanceVolumeParams *vol, const MR_DistanceToMeshOptions *dist)</argsstring>
+        <name>MR_PolylineToVolumeParams_ConstructFrom</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>vol_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::PolylineToVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" kindref="member">MR_PolylineToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="227" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="227" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a4c6667767a1beecbb03e2b3295eb4bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_OffsetPtr</definition>
+        <argsstring>(const MR_PolylineToVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PolylineToVolumeParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="231" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="231" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a1ac61ff25dcf180483acf9b2c4ca1968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_PolylineToVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PolylineToVolumeParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="235" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="235" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a9e64421db803f5407d080bcb70ee7c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_PolylineToVolumeParams *_other)</argsstring>
+        <name>MR_PolylineToVolumeParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PolylineToVolumeParams::PolylineToVolumeParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" kindref="member">MR_PolylineToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="240" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="240" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToVolumeParams_Destroy</definition>
+        <argsstring>(const MR_PolylineToVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToVolumeParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineToVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="243" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="243" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a56133bbca2e4f04a89dfd68afcd42396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PolylineToVolumeParams_DestroyArray</definition>
+        <argsstring>(const MR_PolylineToVolumeParams *_this)</argsstring>
+        <name>MR_PolylineToVolumeParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineToVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="246" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a0dbfd62c96f9c76f761beb3bb67ef8af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+        <definition>MRC_API MR_PolylineToVolumeParams * MR_PolylineToVolumeParams_AssignFromAnother</definition>
+        <argsstring>(MR_PolylineToVolumeParams *_this, MR_PassBy _other_pass_by, MR_PolylineToVolumeParams *_other)</argsstring>
+        <name>MR_PolylineToVolumeParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PolylineToVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="253" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="253" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a94846aa2e8acdccd06d059403cc1457a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_SimpleVolume_std_string * MR_polylineToSimpleVolume</definition>
+        <argsstring>(const MR_Polyline3 *polyline, const MR_PolylineToVolumeParams *params)</argsstring>
+        <name>MR_polylineToSimpleVolume</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert polyline to simple volume Generated from function <computeroutput>MR::polylineToSimpleVolume</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_SimpleVolume_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="260" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="260" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPolylineToVoxels_8h_1a87d7a18eeb0a772028fe46960f58ab50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_FunctionVolume_std_string * MR_polylineToFunctionVolume</definition>
+        <argsstring>(const MR_Polyline3 *polyline, const MR_PolylineToVolumeParams *params)</argsstring>
+        <name>MR_polylineToFunctionVolume</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert polyline to function volume Generated from function <computeroutput>MR::polylineToFunctionVolume</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_FunctionVolume_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="267" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" declline="267" declcolumn="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRPolylineToVoxels_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRPolylineToVoxels_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRPolylineToVoxels_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FloatGrid_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FunctionVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRPolylineToVoxels_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VdbVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRPolylineToVoxels_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRPolylineToVoxels_8h_1ae8ce71a1fd6806c753a824ca5bf82e31" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ae8ce71a1fd6806c753a824ca5bf82e31" kindref="member">MR_PolylineToDistanceVolumeParams_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRPolylineToVoxels_8h_1a5721a3582aad1e2206c688247b99c9e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a5721a3582aad1e2206c688247b99c9e6" kindref="member">MR_PolylineToDistanceVolumeParams_Set_voxelSize</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRPolylineToVoxels_8h_1ac7a3dcca3c594f0dbad84a28f234a033" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ac7a3dcca3c594f0dbad84a28f234a033" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_voxelSize</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRPolylineToVoxels_8h_1a6b95936b9fa35643f6fd2e1201887ff1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineToVoxels_8h_1a6b95936b9fa35643f6fd2e1201887ff1" kindref="member">MR_PolylineToDistanceVolumeParams_Get_offsetCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRPolylineToVoxels_8h_1a81fe9a50c35323a863d9f31d75d56214" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a81fe9a50c35323a863d9f31d75d56214" kindref="member">MR_PolylineToDistanceVolumeParams_Set_offsetCount</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRPolylineToVoxels_8h_1aeaced75e2ec048f127ed915580bf8f59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineToVoxels_8h_1aeaced75e2ec048f127ed915580bf8f59" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_offsetCount</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight></codeline>
+<codeline lineno="71" refid="MRPolylineToVoxels_8h_1ab8ec1bb711b1959add86c9f6d4651e2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ab8ec1bb711b1959add86c9f6d4651e2c" kindref="member">MR_PolylineToDistanceVolumeParams_Get_worldXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight></codeline>
+<codeline lineno="78" refid="MRPolylineToVoxels_8h_1ae4293606829302990ac89e80410457f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1ae4293606829302990ac89e80410457f1" kindref="member">MR_PolylineToDistanceVolumeParams_Set_worldXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight></codeline>
+<codeline lineno="84" refid="MRPolylineToVoxels_8h_1a45828c70842a8d2be6ee31330a701008" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a45828c70842a8d2be6ee31330a701008" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_worldXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight></codeline>
+<codeline lineno="90" refid="MRPolylineToVoxels_8h_1a7c544170ec371339e5ce89a75b76e177" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineToVoxels_8h_1a7c544170ec371339e5ce89a75b76e177" kindref="member">MR_PolylineToDistanceVolumeParams_Get_outXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight></codeline>
+<codeline lineno="97" refid="MRPolylineToVoxels_8h_1ac5ea8bd6da3a44316b405d199aaf79d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1ac5ea8bd6da3a44316b405d199aaf79d9" kindref="member">MR_PolylineToDistanceVolumeParams_Set_outXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight></codeline>
+<codeline lineno="103" refid="MRPolylineToVoxels_8h_1af3d83a9f38c0ff56fe9bd9311cb2b45a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRPolylineToVoxels_8h_1af3d83a9f38c0ff56fe9bd9311cb2b45a" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_outXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRPolylineToVoxels_8h_1a496561ed4572996f0ae351b9d3f987f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a496561ed4572996f0ae351b9d3f987f1" kindref="member">MR_PolylineToDistanceVolumeParams_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRPolylineToVoxels_8h_1aaff1b07181e60562dfd708792296f217" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1aaff1b07181e60562dfd708792296f217" kindref="member">MR_PolylineToDistanceVolumeParams_Set_cb</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRPolylineToVoxels_8h_1a700f6be4d83bbf50b4f091793fec3a42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a700f6be4d83bbf50b4f091793fec3a42" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_cb</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRPolylineToVoxels_8h_1aaf4787c0588bd02ad39570a060d08f32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1aaf4787c0588bd02ad39570a060d08f32" kindref="member">MR_PolylineToDistanceVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRPolylineToVoxels_8h_1ac3188559d0692634b6fb53a992ee1ed1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ac3188559d0692634b6fb53a992ee1ed1" kindref="member">MR_PolylineToDistanceVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRPolylineToVoxels_8h_1ab18988229b3cee667bdd2c184fd0bcbf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ab18988229b3cee667bdd2c184fd0bcbf" kindref="member">MR_PolylineToDistanceVolumeParams_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetCount,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>worldXf,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*outXf,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRPolylineToVoxels_8h_1a1daa65744dca73e0ca8b7d0b01760b44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a1daa65744dca73e0ca8b7d0b01760b44" kindref="member">MR_PolylineToDistanceVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRPolylineToVoxels_8h_1ac77eb2f73a4f4e346a4779a66d31e232" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ac77eb2f73a4f4e346a4779a66d31e232" kindref="member">MR_PolylineToDistanceVolumeParams_OffsetMutablePtr</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRPolylineToVoxels_8h_1aec7eaf1448f3dc368b4ac550af146215" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1aec7eaf1448f3dc368b4ac550af146215" kindref="member">MR_PolylineToDistanceVolumeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" kindref="member">MR_PolylineToDistanceVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRPolylineToVoxels_8h_1a0e437c024cdb3cb1aebefd6b54218e8e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a0e437c024cdb3cb1aebefd6b54218e8e" kindref="member">MR_PolylineToDistanceVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRPolylineToVoxels_8h_1a41d3f0150b08817d95a82da7b775d9f5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a41d3f0150b08817d95a82da7b775d9f5" kindref="member">MR_PolylineToDistanceVolumeParams_AssignFromAnother</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRPolylineToVoxels_8h_1a39662768026f65a0c0c5c9beb27299b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a39662768026f65a0c0c5c9beb27299b4" kindref="member">MR_polylineToDistanceField</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRPolylineToVoxels_8h_1a0ef094c9f0e56a3d9e72086793207634" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a0ef094c9f0e56a3d9e72086793207634" kindref="member">MR_polylineToVdbVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRPolylineToVoxels_8h_1aa171f52da2fbebc64933488d747ccc99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1aa171f52da2fbebc64933488d747ccc99" kindref="member">MR_PolylineToVolumeParams_Get_vol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRPolylineToVoxels_8h_1a317c7eb1e705fee7af7a17fdb7bc4d5f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a317c7eb1e705fee7af7a17fdb7bc4d5f" kindref="member">MR_PolylineToVolumeParams_Set_vol</ref>(<ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRPolylineToVoxels_8h_1a7e5d7e32ba36a63aed77c3abc1244b8c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a7e5d7e32ba36a63aed77c3abc1244b8c" kindref="member">MR_PolylineToVolumeParams_GetMutable_vol</ref>(<ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRPolylineToVoxels_8h_1ad8f0a95ebbd76ccdc4277162c5540c91" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ad8f0a95ebbd76ccdc4277162c5540c91" kindref="member">MR_PolylineToVolumeParams_Get_dist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRPolylineToVoxels_8h_1a9f96f309c60885f07f91c8cd9dd17548" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a9f96f309c60885f07f91c8cd9dd17548" kindref="member">MR_PolylineToVolumeParams_Set_dist</ref>(<ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="MRPolylineToVoxels_8h_1a5dc40a0da53013fedd856ae436af891d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a5dc40a0da53013fedd856ae436af891d" kindref="member">MR_PolylineToVolumeParams_GetMutable_dist</ref>(<ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRPolylineToVoxels_8h_1aca59168b72348f7eab95cf19521f3e67" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1aca59168b72348f7eab95cf19521f3e67" kindref="member">MR_PolylineToVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRPolylineToVoxels_8h_1a217430b823177899568441d3fb2a3c4a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a217430b823177899568441d3fb2a3c4a" kindref="member">MR_PolylineToVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRPolylineToVoxels_8h_1a5b9bf94fe63f38865081de4a2dce6903" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a5b9bf94fe63f38865081de4a2dce6903" kindref="member">MR_PolylineToVolumeParams_ConstructFrom</ref>(MR_PassBy<sp/>vol_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*vol,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*dist);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRPolylineToVoxels_8h_1a4c6667767a1beecbb03e2b3295eb4bd0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a4c6667767a1beecbb03e2b3295eb4bd0" kindref="member">MR_PolylineToVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRPolylineToVoxels_8h_1a1ac61ff25dcf180483acf9b2c4ca1968" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a1ac61ff25dcf180483acf9b2c4ca1968" kindref="member">MR_PolylineToVolumeParams_OffsetMutablePtr</ref>(<ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRPolylineToVoxels_8h_1a9e64421db803f5407d080bcb70ee7c2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a9e64421db803f5407d080bcb70ee7c2c" kindref="member">MR_PolylineToVolumeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" kindref="member">MR_PolylineToVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRPolylineToVoxels_8h_1a56133bbca2e4f04a89dfd68afcd42396" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a56133bbca2e4f04a89dfd68afcd42396" kindref="member">MR_PolylineToVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRPolylineToVoxels_8h_1a0dbfd62c96f9c76f761beb3bb67ef8af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a0dbfd62c96f9c76f761beb3bb67ef8af" kindref="member">MR_PolylineToVolumeParams_AssignFromAnother</ref>(<ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRPolylineToVoxels_8h_1a94846aa2e8acdccd06d059403cc1457a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a94846aa2e8acdccd06d059403cc1457a" kindref="member">MR_polylineToSimpleVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MRPolylineToVoxels_8h_1a87d7a18eeb0a772028fe46960f58ab50" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a87d7a18eeb0a772028fe46960f58ab50" kindref="member">MR_polylineToFunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h"/>
+  </compounddef>
+</doxygen>

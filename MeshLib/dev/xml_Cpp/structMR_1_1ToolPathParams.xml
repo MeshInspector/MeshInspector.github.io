@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ToolPathParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ToolPathParams</compoundname>
+    <derivedcompoundref refid="structMR_1_1ConstantCuspParams" prot="public" virt="non-virtual">MR::ConstantCuspParams</derivedcompoundref>
+    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1ab01ce27f18a97921bbeb33127a0412a5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::millRadius</definition>
+        <argsstring></argsstring>
+        <name>millRadius</name>
+        <qualifiedname>MR::ToolPathParams::millRadius</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>radius of the milling tool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="22" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a785fe1445fcc56a97f20cf9daf8356e9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::ToolPathParams::voxelSize</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>size of voxel needed to offset mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a26778592370a3e672866fb0486b2d7c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::sectionStep</definition>
+        <argsstring></argsstring>
+        <name>sectionStep</name>
+        <qualifiedname>MR::ToolPathParams::sectionStep</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>distance between sections built along Z axis in Constant Cusp mode sectionStep should be bigger than voxelSize (x1.2 or more is recomended) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="27" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a24c0b4801961990c4c8e6b4003bf2bb2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::critTransitionLength</definition>
+        <argsstring></argsstring>
+        <name>critTransitionLength</name>
+        <qualifiedname>MR::ToolPathParams::critTransitionLength</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if distance to the next section is smaller than it, transition will be performed along the surface otherwise transition will be through the safe plane </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a7e16eeb5e2862d7ee09d5314b784cd4a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::plungeLength</definition>
+        <argsstring></argsstring>
+        <name>plungeLength</name>
+        <qualifiedname>MR::ToolPathParams::plungeLength</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>when the mill is moving down, it will be slowed down in this distance from mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="32" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a8240e069026edac1ef227f17d59c230e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::retractLength</definition>
+        <argsstring></argsstring>
+        <name>retractLength</name>
+        <qualifiedname>MR::ToolPathParams::retractLength</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>when the mill is moving up, it will be slowed down in this distance from mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="34" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1aa71afd75559878444cd6f66becaed0c4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::plungeFeed</definition>
+        <argsstring></argsstring>
+        <name>plungeFeed</name>
+        <qualifiedname>MR::ToolPathParams::plungeFeed</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>speed of slow movement down </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a4f475acb69d7a5c6cd72596f9ba39ab1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::retractFeed</definition>
+        <argsstring></argsstring>
+        <name>retractFeed</name>
+        <qualifiedname>MR::ToolPathParams::retractFeed</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>speed of slow movement up </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a369d0d2f955fa0ff8c3d1f01c5d78679" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::baseFeed</definition>
+        <argsstring></argsstring>
+        <name>baseFeed</name>
+        <qualifiedname>MR::ToolPathParams::baseFeed</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>speed of regular milling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a10f980ccd2fc81285a194503e2b669b3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::safeZ</definition>
+        <argsstring></argsstring>
+        <name>safeZ</name>
+        <qualifiedname>MR::ToolPathParams::safeZ</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>z-coordinate of plane where tool can move in any direction without touching the object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="42" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a50c755eddaa84d57053b8b2ac05090c7" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a496117b22a6f09546f0037fb4b5d43aa" kindref="member">BypassDirection</ref></type>
+        <definition>BypassDirection MR::ToolPathParams::bypassDir</definition>
+        <argsstring></argsstring>
+        <name>bypassDir</name>
+        <qualifiedname>MR::ToolPathParams::bypassDir</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8" kindref="member">BypassDirection::Clockwise</ref></initializer>
+        <briefdescription>
+<para>which direction isolines or sections should be passed in </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="44" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1af3436d805511bd0d9d2382154e99f492" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::ToolPathParams::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::ToolPathParams::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>mesh can be transformed using xf parameter </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="46" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1adacfd8b713ae1664619abcff9d04fead" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ToolPathParams::flatTool</definition>
+        <argsstring></argsstring>
+        <name>flatTool</name>
+        <qualifiedname>MR::ToolPathParams::flatTool</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true then a tool path for a flat milling tool will be generated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1abb16295f5fc43829c45884d061d45e62" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::ToolPathParams::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::ToolPathParams::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>callback for reporting on progress </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="50" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a0d4192d981068245917713cf59362f80" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ToolPathParams::toolpathExpansion</definition>
+        <argsstring></argsstring>
+        <name>toolpathExpansion</name>
+        <qualifiedname>MR::ToolPathParams::toolpathExpansion</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if &gt; 0 - expand the trajectory creation area and create toolpath to mill excess material to make empty areas. The area has the shape of a box. Lacing specific only. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="55" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a13a70c0130eab38aeaf063f1f6d276d7" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref> *</type>
+        <definition>Contours3f* MR::ToolPathParams::isolines</definition>
+        <argsstring></argsstring>
+        <name>isolines</name>
+        <qualifiedname>MR::ToolPathParams::isolines</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output, stores isolines without transits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="58" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a58e0e695e11b0b6bd4c0ce7ecd0b0889" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref> *</type>
+        <definition>Contours3f* MR::ToolPathParams::startContours</definition>
+        <argsstring></argsstring>
+        <name>startContours</name>
+        <qualifiedname>MR::ToolPathParams::startContours</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output, polyline containing start vertices for isolines </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="60" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1adf1fc52d9134c621ba9630531ee2c99d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; Vector3f &gt; *</type>
+        <definition>std::vector&lt;Vector3f&gt;* MR::ToolPathParams::startVertices</definition>
+        <argsstring></argsstring>
+        <name>startVertices</name>
+        <qualifiedname>MR::ToolPathParams::startVertices</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>start vertices on the offset mesh used for calcutating isolines </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="62" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathParams_1a290865e63260a699f02e17210427d220" prot="public" static="no" mutable="no">
+        <type>MeshPart *</type>
+        <definition>MeshPart* MR::ToolPathParams::offsetMesh</definition>
+        <argsstring></argsstring>
+        <name>offsetMesh</name>
+        <qualifiedname>MR::ToolPathParams::offsetMesh</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="64" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConstantCuspParams</label>
+        <link refid="structMR_1_1ConstantCuspParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ToolPathParams</label>
+        <link refid="structMR_1_1ToolPathParams"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="20" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ToolPathParams_1a369d0d2f955fa0ff8c3d1f01c5d78679" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>baseFeed</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a50c755eddaa84d57053b8b2ac05090c7" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>bypassDir</name></member>
+      <member refid="structMR_1_1ToolPathParams_1abb16295f5fc43829c45884d061d45e62" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>cb</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a24c0b4801961990c4c8e6b4003bf2bb2" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>critTransitionLength</name></member>
+      <member refid="structMR_1_1ToolPathParams_1adacfd8b713ae1664619abcff9d04fead" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>flatTool</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a13a70c0130eab38aeaf063f1f6d276d7" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>isolines</name></member>
+      <member refid="structMR_1_1ToolPathParams_1ab01ce27f18a97921bbeb33127a0412a5" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>millRadius</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a290865e63260a699f02e17210427d220" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>offsetMesh</name></member>
+      <member refid="structMR_1_1ToolPathParams_1aa71afd75559878444cd6f66becaed0c4" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>plungeFeed</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a7e16eeb5e2862d7ee09d5314b784cd4a" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>plungeLength</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a4f475acb69d7a5c6cd72596f9ba39ab1" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>retractFeed</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a8240e069026edac1ef227f17d59c230e" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>retractLength</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a10f980ccd2fc81285a194503e2b669b3" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>safeZ</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a26778592370a3e672866fb0486b2d7c9" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>sectionStep</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a58e0e695e11b0b6bd4c0ce7ecd0b0889" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>startContours</name></member>
+      <member refid="structMR_1_1ToolPathParams_1adf1fc52d9134c621ba9630531ee2c99d" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>startVertices</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a0d4192d981068245917713cf59362f80" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>toolpathExpansion</name></member>
+      <member refid="structMR_1_1ToolPathParams_1a785fe1445fcc56a97f20cf9daf8356e9" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>voxelSize</name></member>
+      <member refid="structMR_1_1ToolPathParams_1af3436d805511bd0d9d2382154e99f492" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

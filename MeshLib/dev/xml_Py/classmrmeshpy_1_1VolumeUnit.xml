@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VolumeUnit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VolumeUnit</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1a024fea7aec19515e56f289f200c41859" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72510" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1a5973a29ff59ac69d9b0f1606f3a05adf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.VolumeUnit._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72511" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1abb7b282719c6899e0d63839d8f1ca6cb" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::centimeters3</definition>
+        <argsstring></argsstring>
+        <name>centimeters3</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.centimeters3</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1a2b0908d19c626152b26c66fb990d9c50" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::feet3</definition>
+        <argsstring></argsstring>
+        <name>feet3</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.feet3</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1ac90f78b848e5e1fca780f3b19d9d0c10" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::inches3</definition>
+        <argsstring></argsstring>
+        <name>inches3</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.inches3</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1a8bb0a43a4b42fc0db51d924ff13f3c71" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::meters3</definition>
+        <argsstring></argsstring>
+        <name>meters3</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.meters3</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1ad16354485faf9372fcdca2f19f19b161" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::microns3</definition>
+        <argsstring></argsstring>
+        <name>microns3</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.microns3</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeUnit_1a40f69c5128ea567d68c60885dbde09bb" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeUnit::millimeters3</definition>
+        <argsstring></argsstring>
+        <name>millimeters3</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.millimeters3</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeUnit" kindref="compound">VolumeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72517" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1afa55d0ca8f06eff8b6c8b8543a8e911c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeUnit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72518" bodyend="72519"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1ac36c788e33e79f1bfca5b9cdd5e623e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeUnit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72520" bodyend="72521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1ac64219f00d40937436552bec94d87ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeUnit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72522" bodyend="72523"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a728be0fb72e1fa9282f85081127a3043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeUnit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72524" bodyend="72525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a9bcd2908dfc04a6412c3d2b9212377f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeUnit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72526" bodyend="72527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a6b300d1a7c9295e3c2b79540e1a55f9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeUnit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72528" bodyend="72529"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1abb1c8230b3220e8d8f76490639ca4798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeUnit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72530" bodyend="72531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a04ec560685fefbcf88e2b3bbe4f9a839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VolumeUnit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72532" bodyend="72533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1ab64bd9c9a96409c827a11f225d3aec09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeUnit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72534" bodyend="72535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a3c847c1407a91dfec878bf12da053d2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VolumeUnit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72536" bodyend="72537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a18f938ffbf05de95b0754c57d6e18c7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VolumeUnit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72539" bodyend="72540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeUnit_1a4f2166c3dea5c2cdf43e8e3d8363e2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeUnit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.VolumeUnit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72542" bodyend="72543"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  microns3
+
+  millimeters3
+
+  centimeters3
+
+  meters3
+
+  inches3
+
+  feet3
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VolumeUnit</label>
+        <link refid="classmrmeshpy_1_1VolumeUnit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>centimeters3</edgelabel>
+          <edgelabel>feet3</edgelabel>
+          <edgelabel>inches3</edgelabel>
+          <edgelabel>meters3</edgelabel>
+          <edgelabel>microns3</edgelabel>
+          <edgelabel>millimeters3</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72492" bodyend="72543"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1afa55d0ca8f06eff8b6c8b8543a8e911c" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1ac36c788e33e79f1bfca5b9cdd5e623e4" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1ac64219f00d40937436552bec94d87ce3" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a728be0fb72e1fa9282f85081127a3043" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a9bcd2908dfc04a6412c3d2b9212377f5" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a6b300d1a7c9295e3c2b79540e1a55f9a" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a024fea7aec19515e56f289f200c41859" prot="private" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1abb1c8230b3220e8d8f76490639ca4798" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a04ec560685fefbcf88e2b3bbe4f9a839" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1ab64bd9c9a96409c827a11f225d3aec09" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a3c847c1407a91dfec878bf12da053d2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a5973a29ff59ac69d9b0f1606f3a05adf" prot="protected" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1abb7b282719c6899e0d63839d8f1ca6cb" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>centimeters3</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a2b0908d19c626152b26c66fb990d9c50" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>feet3</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1ac90f78b848e5e1fca780f3b19d9d0c10" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>inches3</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a8bb0a43a4b42fc0db51d924ff13f3c71" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>meters3</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1ad16354485faf9372fcdca2f19f19b161" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>microns3</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a40f69c5128ea567d68c60885dbde09bb" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>millimeters3</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a18f938ffbf05de95b0754c57d6e18c7b" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VolumeUnit_1a4f2166c3dea5c2cdf43e8e3d8363e2fd" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeUnit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

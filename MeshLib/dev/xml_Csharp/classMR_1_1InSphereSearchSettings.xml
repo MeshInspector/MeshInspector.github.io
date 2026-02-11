@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1InSphereSearchSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::InSphereSearchSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_InSphereSearchSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1InSphereSearchSettings_1aa616e8f8048cfceb95b2ea79542e0fef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.InSphereSearchSettings.insideAndOutside</definition>
+        <argsstring></argsstring>
+        <name>insideAndOutside</name>
+        <qualifiedname>MR.InSphereSearchSettings.insideAndOutside</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="448" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1InSphereSearchSettings_1a1ad3e1e69828559a4c69f53644ee447b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.InSphereSearchSettings.maxRadius</definition>
+        <argsstring></argsstring>
+        <name>maxRadius</name>
+        <qualifiedname>MR.InSphereSearchSettings.maxRadius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std.min( { boxSize.x, boxSize.y, boxSize.z } ) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="452" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1InSphereSearchSettings_1a3f4fdd11a6e785f51d36b10701a6bb30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.InSphereSearchSettings.maxIters</definition>
+        <argsstring></argsstring>
+        <name>maxIters</name>
+        <qualifiedname>MR.InSphereSearchSettings.maxIters</qualifiedname>
+        <briefdescription>
+<para>maximum number of shrinking iterations for one triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="455" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1InSphereSearchSettings_1a09b91c19cc8889d3e38099b7f746b47d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.InSphereSearchSettings.minShrinkage</definition>
+        <argsstring></argsstring>
+        <name>minShrinkage</name>
+        <qualifiedname>MR.InSphereSearchSettings.minShrinkage</qualifiedname>
+        <briefdescription>
+<para>iterations stop if next radius is larger than minShrinkage times previous radius </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="458" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1InSphereSearchSettings_1a33eb41ab2c93b7219f1545b168a3e302" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.InSphereSearchSettings.minAngleCos</definition>
+        <argsstring></argsstring>
+        <name>minAngleCos</name>
+        <qualifiedname>MR.InSphereSearchSettings.minAngleCos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="465" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="465" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1InSphereSearchSettings_1acc6a2a25cdf52b11749c5e8b52ebd429" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereSearchSettings.InSphereSearchSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>InSphereSearchSettings</name>
+        <qualifiedname>MR.InSphereSearchSettings.InSphereSearchSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="469" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="469" bodyend="473"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1InSphereSearchSettings_1a9cbe774cf6219f6365a4dac9a5e70d58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereSearchSettings.InSphereSearchSettings</definition>
+        <argsstring>()</argsstring>
+        <name>InSphereSearchSettings</name>
+        <qualifiedname>MR.InSphereSearchSettings.InSphereSearchSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="479" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="479" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereSearchSettings_1a255ac7e8248c344c9a6bc160299ad7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereSearchSettings.InSphereSearchSettings</definition>
+        <argsstring>(bool insideAndOutside, float maxRadius, int maxIters, float minShrinkage, float minAngleCos)</argsstring>
+        <name>InSphereSearchSettings</name>
+        <qualifiedname>MR.InSphereSearchSettings.InSphereSearchSettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>insideAndOutside</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxRadius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minShrinkage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAngleCos</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1InSphereSearchSettings" kindref="compound">MR.InSphereSearchSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="490" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="490" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereSearchSettings_1a0dc4adfe452c0702b588aa5000204142" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereSearchSettings.InSphereSearchSettings</definition>
+        <argsstring>(MR.Const_InSphereSearchSettings _other)</argsstring>
+        <name>InSphereSearchSettings</name>
+        <qualifiedname>MR.InSphereSearchSettings.InSphereSearchSettings</qualifiedname>
+        <param>
+          <type>MR.Const_InSphereSearchSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.InSphereSearchSettings.InSphereSearchSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="501" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="501" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereSearchSettings_1a32d335f03cd2e7eb1fe6ffb1e90e8d76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.InSphereSearchSettings.InSphereSearchSettings</definition>
+        <argsstring>(InSphereSearchSettings _other)</argsstring>
+        <name>InSphereSearchSettings</name>
+        <qualifiedname>MR.InSphereSearchSettings.InSphereSearchSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.InSphereSearchSettings.InSphereSearchSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="513" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="513" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereSearchSettings_1adc35f0b82907ea49ac0abce3a547175b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1InSphereSearchSettings" kindref="compound">MR.InSphereSearchSettings</ref></type>
+        <definition>unsafe MR.InSphereSearchSettings MR.InSphereSearchSettings.assign</definition>
+        <argsstring>(MR.Const_InSphereSearchSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.InSphereSearchSettings.assign</qualifiedname>
+        <param>
+          <type>MR.Const_InSphereSearchSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.InSphereSearchSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="518" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="518" bodyend="525"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>controls the finding of maximal inscribed sphere in mesh Generated from class <computeroutput><ref refid="classMR_1_1InSphereSearchSettings" kindref="compound">MR.InSphereSearchSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_InSphereSearchSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.InSphereSearchSettings</label>
+        <link refid="classMR_1_1InSphereSearchSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_InSphereSearchSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_InSphereSearchSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.InSphereSearchSettings</label>
+        <link refid="classMR_1_1InSphereSearchSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_InSphereSearchSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="443" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="444" bodyend="526"/>
+    <listofallmembers>
+      <member refid="classMR_1_1InSphereSearchSettings_1adc35f0b82907ea49ac0abce3a547175b" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1aa616e8f8048cfceb95b2ea79542e0fef" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>insideAndOutside</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1acc6a2a25cdf52b11749c5e8b52ebd429" prot="package" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>InSphereSearchSettings</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a9cbe774cf6219f6365a4dac9a5e70d58" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>InSphereSearchSettings</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a255ac7e8248c344c9a6bc160299ad7e9" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>InSphereSearchSettings</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a0dc4adfe452c0702b588aa5000204142" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>InSphereSearchSettings</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a32d335f03cd2e7eb1fe6ffb1e90e8d76" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>InSphereSearchSettings</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a3f4fdd11a6e785f51d36b10701a6bb30" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>maxIters</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a1ad3e1e69828559a4c69f53644ee447b" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>maxRadius</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a33eb41ab2c93b7219f1545b168a3e302" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>minAngleCos</name></member>
+      <member refid="classMR_1_1InSphereSearchSettings_1a09b91c19cc8889d3e38099b7f746b47d" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>minShrinkage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

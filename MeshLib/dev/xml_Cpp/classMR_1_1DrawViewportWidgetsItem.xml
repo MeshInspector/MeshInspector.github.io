@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DrawViewportWidgetsItem" kind="class" language="C++" prot="public">
+    <compoundname>MR::DrawViewportWidgetsItem</compoundname>
+    <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
+    <includes refid="MRDrawViewportWidgetsItem_8h" local="no">MRDrawViewportWidgetsItem.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1DrawViewportWidgetsItem_1a1ff947a71673abbf45b679beb978f9aa" prot="private" static="no">
+        <type>boost::signals2::signal&lt; void(<ref refid="structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface" kindref="compound">ProvidesViewportWidget::ViewportWidgetInterface</ref> &amp;in)&gt;</type>
+        <definition>using MR::DrawViewportWidgetsItem::HandleViewportSignal =  boost::signals2::signal&lt;void( ProvidesViewportWidget::ViewportWidgetInterface&amp; in )&gt;</definition>
+        <argsstring></argsstring>
+        <name>HandleViewportSignal</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::HandleViewportSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="55" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1DrawViewportWidgetsItem_1aa996572f0cb9caa9cf8956f8174454f5" prot="private" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::DrawViewportWidgetsItem::preDrawConnection_</definition>
+        <argsstring></argsstring>
+        <name>preDrawConnection_</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::preDrawConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="53" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1DrawViewportWidgetsItem_1a444e08a6cd7fc2464831e3099b31bb67" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend MR::DrawViewportWidgetsItem::ProvidesViewportWidget</definition>
+        <argsstring></argsstring>
+        <name>ProvidesViewportWidget</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::ProvidesViewportWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="58" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DrawViewportWidgetsItem_1a2f05224b4fa7e838629dbb1e09ea3a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API</type>
+        <definition>MRCOMMONPLUGINS_API MR::DrawViewportWidgetsItem::DrawViewportWidgetsItem</definition>
+        <argsstring>()</argsstring>
+        <name>DrawViewportWidgetsItem</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::DrawViewportWidgetsItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="46" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DrawViewportWidgetsItem_1a19db2d517f3ac2f31349049b26abc9d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool MR::DrawViewportWidgetsItem::action</definition>
+        <argsstring>() override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::action</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
+        <briefdescription>
+<para>returns true if state of item changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1DrawViewportWidgetsItem_1a00e517eac97aac02e11bd1c7cde58f46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::DrawViewportWidgetsItem::handleViewport</definition>
+        <argsstring>(Viewport &amp;viewport)</argsstring>
+        <name>handleViewport</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::handleViewport</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref> &amp;</type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="51" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1DrawViewportWidgetsItem_1a414898bdc485ae17a56d8e4c057c4604" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HandleViewportSignal &amp;</type>
+        <definition>static HandleViewportSignal &amp; MR::DrawViewportWidgetsItem::getHandleViewportSignal_</definition>
+        <argsstring>()</argsstring>
+        <name>getHandleViewportSignal_</name>
+        <qualifiedname>MR::DrawViewportWidgetsItem::getHandleViewportSignal_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="56" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This sits in the background and renders various per-viewport buttons. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::DrawViewportWidgetsItem</label>
+        <link refid="classMR_1_1DrawViewportWidgetsItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::DrawViewportWidgetsItem</label>
+        <link refid="classMR_1_1DrawViewportWidgetsItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="44" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1a19db2d517f3ac2f31349049b26abc9d3" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>action</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>blocking</name></member>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1a2f05224b4fa7e838629dbb1e09ea3a22" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>DrawViewportWidgetsItem</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>dropItems</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>DropItemsList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>dropList_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1a414898bdc485ae17a56d8e4c057c4604" prot="private" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>getHandleViewportSignal_</name></member>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1a00e517eac97aac02e11bd1c7cde58f46" prot="private" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>handleViewport</name></member>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1a1ff947a71673abbf45b679beb978f9aa" prot="private" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>HandleViewportSignal</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>isActive</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>name</name></member>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1aa996572f0cb9caa9cf8956f8174454f5" prot="private" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>preDrawConnection_</name></member>
+      <member refid="classMR_1_1DrawViewportWidgetsItem_1a444e08a6cd7fc2464831e3099b31bb67" prot="private" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>ProvidesViewportWidget</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>setRibbonItemType</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>type</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>type_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>uiName</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>~RibbonMenuItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

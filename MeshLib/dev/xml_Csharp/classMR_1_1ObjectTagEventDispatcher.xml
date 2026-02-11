@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectTagEventDispatcher" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjectTagEventDispatcher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectTagEventDispatcher</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a21eca0e53dd19c96ca08a15344c9c847" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjectTagEventDispatcher</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="68" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a938b939a277c3ce06ed1537f664b5b11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</definition>
+        <argsstring>(MR._ByValue_ObjectTagEventDispatcher _other)</argsstring>
+        <name>ObjectTagEventDispatcher</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectTagEventDispatcher</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="73" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a5ef24b53a636ca4e4fce471ad55b0a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</definition>
+        <argsstring>(Const_ObjectTagEventDispatcher _other)</argsstring>
+        <name>ObjectTagEventDispatcher</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</qualifiedname>
+        <param>
+          <type>Const_ObjectTagEventDispatcher</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="84" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1ac96d52eb6b0139978586d48a7238e81e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</definition>
+        <argsstring>(ObjectTagEventDispatcher _other)</argsstring>
+        <name>ObjectTagEventDispatcher</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="89" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1ab04c6ee712cf491eceb8a34b6f12eeac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">MR.ObjectTagEventDispatcher</ref></type>
+        <definition>unsafe MR.ObjectTagEventDispatcher MR.ObjectTagEventDispatcher.assign</definition>
+        <argsstring>(MR._ByValue_ObjectTagEventDispatcher _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectTagEventDispatcher</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjectTagEventDispatcher.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="94" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="94" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class for dispatching object tag addition/removal events Generated from class <computeroutput><ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">MR.ObjectTagEventDispatcher</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjectTagEventDispatcher</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectTagEventDispatcher</label>
+        <link refid="classMR_1_1ObjectTagEventDispatcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjectTagEventDispatcher &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjectTagEventDispatcher</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectTagEventDispatcher</label>
+        <link refid="classMR_1_1ObjectTagEventDispatcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjectTagEventDispatcher &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="66" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="67" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1ab04c6ee712cf491eceb8a34b6f12eeac" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1a21eca0e53dd19c96ca08a15344c9c847" prot="package" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1a938b939a277c3ce06ed1537f664b5b11" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1a5ef24b53a636ca4e4fce471ad55b0a89" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1ac96d52eb6b0139978586d48a7238e81e" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

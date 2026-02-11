@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>fmt::formatter&lt; MR::Box&lt; V &gt; &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">fmt::formatter&lt; V &gt;</basecompoundref>
+    <includes refid="MRFormat_8h" local="no">MRFormat.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4_1a4fc0e313904dc68d2a620ce664d10542" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Context</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto fmt::formatter&lt; MR::Box&lt; V &gt; &gt;::format</definition>
+        <argsstring>(const MR::Box&lt; V &gt; &amp;box, Context &amp;ctx) const</argsstring>
+        <name>format</name>
+        <qualifiedname>fmt::formatter&lt; MR::Box&lt; V &gt; &gt;::format</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">MR::Box</ref>&lt; V &gt; &amp;</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>Context &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="148" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="148" bodyend="161"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>fmt::formatter&lt; MR::Box&lt; V &gt; &gt;</label>
+        <link refid="structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fmt::formatter&lt; V &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>fmt::formatter&lt; MR::Box&lt; V &gt; &gt;</label>
+        <link refid="structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fmt::formatter&lt; V &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="146" bodyend="162"/>
+    <listofallmembers>
+      <member refid="structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4_1a4fc0e313904dc68d2a620ce664d10542" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; MR::Box&lt; V &gt; &gt;</scope><name>format</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

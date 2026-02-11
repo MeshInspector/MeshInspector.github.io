@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectMesh" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectMesh</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1ObjectMeshHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectMeshHolder</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a898363dabaf8566d1edb5e6c97cd1cc3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectMesh.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39833" bodyend="39834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1ad541cdc627705d31cb21b7113e728dcd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectMesh.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39836" bodyend="39837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a87846dafe1d3e18cfad37e5cb1a810a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectMesh.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1ab22531e04f74da2bec22df2bffe492cf">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39839" bodyend="39840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a8eec31c8c39a7693365d9c464f71bfc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mrmeshpy.ObjectMesh.extractMesh</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>extractMesh</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.extractMesh</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mesh(self: meshlib.mrmeshpy.ObjectMeshHolder) -&gt; meshlib.mrmeshpy.Mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39842" bodyend="39845"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMesh.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39846" bodyend="39847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a7dfbccad2835d0f6f74a50b880200d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectMesh.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39848" bodyend="39849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a0bf0ab6bb49a91a70323cb8806f1e8ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectMesh.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39850" bodyend="39851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a74d05289828bf738860653a727be72e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectMesh.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a66929bbabbd9ede0679393a802190c59">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39852" bodyend="39853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1adc56c57b9eb3aff553e4b128a812afca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.ObjectMesh.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3">getInfoLines</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39854" bodyend="39855"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a0858482917c22a413b042da6e1c4920a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMesh.setMesh</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>setMesh</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.setMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets given mesh to this, resets selection and creases
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39856" bodyend="39859"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1acc666f41f06a7e1c289a22ed5fc97e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectMesh.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa2ca6534ff568a978cd63472c5841437">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39860" bodyend="39861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a33edc6ff466c80f1b112a02c315e9ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectMesh.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa24e5842efc9ba794b8087b11bf64c40">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39862" bodyend="39863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a3eb4e068663392513827bd418a9faf6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectMesh.updateMesh</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>updateMesh</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.updateMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets given mesh to this, and returns back previous mesh of this;
+does not touch selection or creases
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39864" bodyend="39868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1aa0c2282c8ddf93268aba494de71e4e95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectMesh.varMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>varMesh</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.varMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns variable mesh, if const mesh is needed use `mesh()` instead
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39869" bodyend="39872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a35baa6fed63cd3a3920dc66f135843f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+        <definition> MeshIntersectionResult mrmeshpy.ObjectMesh.worldRayIntersection</definition>
+        <argsstring>(self, Line3f worldRay, FaceBitSet region=None)</argsstring>
+        <name>worldRayIntersection</name>
+        <qualifiedname>mrmeshpy.ObjectMesh.worldRayIntersection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3f" kindref="compound">Line3f</ref></type>
+          <declname>worldRay</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given ray in world coordinates, e.g. obtained from Viewport::unprojectPixelRay;
+finds its intersection with the mesh of this object considering its transformation relative to the world;
+it is inefficient to call this function for many rays, because it computes world-to-local xf every time
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39873" bodyend="39878"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectMesh
+Aliases:  ChangeMeshTopologyAction.Obj, ChangeMeshPointsAction.Obj, ChangeMeshDataAction.Obj, ChangeMeshCreasesAction.Obj, ChangeMeshFaceSelectionAction.Obj, ChangeMeshEdgeSelectionAction.Obj, std_shared_ptr_ObjectMesh, ChangeMeshAction.Obj
+
+an object that stores a mesh
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectMesh</label>
+        <link refid="classmrmeshpy_1_1ObjectMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectMesh</label>
+        <link refid="classmrmeshpy_1_1ObjectMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39825" bodyend="39878"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a7dfbccad2835d0f6f74a50b880200d3e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a0bf0ab6bb49a91a70323cb8806f1e8ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a74d05289828bf738860653a727be72e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a8eec31c8c39a7693365d9c464f71bfc5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>extractMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1adc56c57b9eb3aff553e4b128a812afca" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a0858482917c22a413b042da6e1c4920a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1acc666f41f06a7e1c289a22ed5fc97e5a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a898363dabaf8566d1edb5e6c97cd1cc3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1ad541cdc627705d31cb21b7113e728dcd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a87846dafe1d3e18cfad37e5cb1a810a6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a33edc6ff466c80f1b112a02c315e9ddc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a3eb4e068663392513827bd418a9faf6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>updateMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1aa0c2282c8ddf93268aba494de71e4e95" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>varMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMesh_1a35baa6fed63cd3a3920dc66f135843f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>worldRayIntersection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

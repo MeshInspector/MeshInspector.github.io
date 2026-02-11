@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneSettings_1_1BoolType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneSettings::BoolType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a2c6313df76613e8f485a6d5cdc252262" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.BoolType::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1BoolType" kindref="compound">SceneSettings.BoolType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a1bf8576bba84e11a6b50bad6e8b40af8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.BoolType::UseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring></argsstring>
+        <name>UseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.UseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1BoolType" kindref="compound">SceneSettings.BoolType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51192" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a340fb0f76f6105651939deba05c9d63a" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.BoolType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SceneSettings_1_1BoolType" kindref="compound">SceneSettings.BoolType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51193" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a562359a615d8e97bcd1a0e39ea46a8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneSettings.BoolType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51194" bodyend="51195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1aa23e7d9daf1425c23b233b85216ecdef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.BoolType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51196" bodyend="51197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a62511d64437848eaf96edfd4804cf5df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.BoolType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51198" bodyend="51199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1af1cc942c592d7d2ca53c103aed8e1b62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.BoolType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51200" bodyend="51201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1afdc956025e168baaf262d6bd57c63e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.BoolType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51202" bodyend="51203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a96a361af07c87c83c4259d639a4b3c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.BoolType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51204" bodyend="51205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a9d9a6d0eab9dacc1eab54d2f7bf22dad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneSettings.BoolType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51206" bodyend="51207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a31ff59cec1dcb4f9a6034ed768465b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.BoolType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51208" bodyend="51209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a44ea9d4beca65272ef1ef8e9ea54dcef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.BoolType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51210" bodyend="51211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a75c4c40348b14fcc0a9033c987ef20c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.BoolType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51212" bodyend="51213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a44e2351d8e5af0506ebca21ea426844e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.BoolType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51215" bodyend="51216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1BoolType_1aca854cf28cf729775bec7defce2d874b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.BoolType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SceneSettings.BoolType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51218" bodyend="51220"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  UseDefaultScenePropertiesOnDeserialization : on deserialization replace object properties with default values from SceneSettings and SceneColors
+
+  Count : total count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SceneSettings.BoolType</label>
+        <link refid="classmrmeshpy_1_1SceneSettings_1_1BoolType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>UseDefaultScenePropertiesOnDeserialization</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51183" bodyend="51219"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a562359a615d8e97bcd1a0e39ea46a8dd" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1aa23e7d9daf1425c23b233b85216ecdef" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a62511d64437848eaf96edfd4804cf5df" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1af1cc942c592d7d2ca53c103aed8e1b62" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1afdc956025e168baaf262d6bd57c63e76" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a96a361af07c87c83c4259d639a4b3c39" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a340fb0f76f6105651939deba05c9d63a" prot="private" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a9d9a6d0eab9dacc1eab54d2f7bf22dad" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a31ff59cec1dcb4f9a6034ed768465b0d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a44ea9d4beca65272ef1ef8e9ea54dcef" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a75c4c40348b14fcc0a9033c987ef20c4" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a2c6313df76613e8f485a6d5cdc252262" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a44e2351d8e5af0506ebca21ea426844e" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1a1bf8576bba84e11a6b50bad6e8b40af8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>UseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1BoolType_1aca854cf28cf729775bec7defce2d874b" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::BoolType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RegularMapMesher" kind="class" language="C++" prot="public">
+    <compoundname>MR::RegularMapMesher</compoundname>
+    <includes refid="MRRegularMapMesher_8h" local="no">MRRegularMapMesher.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RegularMapMesher_1a54914fd0242fd42930528e26b7a6fedf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RegularMapMesher::width_</definition>
+        <argsstring></argsstring>
+        <name>width_</name>
+        <qualifiedname>MR::RegularMapMesher::width_</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="35" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RegularMapMesher_1a9a512580b60da2b33192642a48b296d9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RegularMapMesher::height_</definition>
+        <argsstring></argsstring>
+        <name>height_</name>
+        <qualifiedname>MR::RegularMapMesher::height_</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="36" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RegularMapMesher_1ad1095ab10deb9ae39deafb777408d0d0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PointCloud&gt; MR::RegularMapMesher::surfacePC_</definition>
+        <argsstring></argsstring>
+        <name>surfacePC_</name>
+        <qualifiedname>MR::RegularMapMesher::surfacePC_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="38" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RegularMapMesher_1a9837f3cd7818ae497b7376d45f09e866" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PointCloud&gt; MR::RegularMapMesher::directionsPC_</definition>
+        <argsstring></argsstring>
+        <name>directionsPC_</name>
+        <qualifiedname>MR::RegularMapMesher::directionsPC_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="39" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RegularMapMesher_1ac6d435dc8c78fa901aba36f11c3c3ae1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; MR::RegularMapMesher::distances_</definition>
+        <argsstring></argsstring>
+        <name>distances_</name>
+        <qualifiedname>MR::RegularMapMesher::distances_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="40" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a9ed2cde9e77dce74ecb24b16eb4db785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::RegularMapMesher::setSurfacePC</definition>
+        <argsstring>(const std::shared_ptr&lt; PointCloud &gt; &amp;surfacePC)</argsstring>
+        <name>setSurfacePC</name>
+        <qualifiedname>MR::RegularMapMesher::setSurfacePC</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt; &amp;</type>
+          <declname>surfacePC</declname>
+        </param>
+        <briefdescription>
+<para>Sets surface Point Cloud. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="23" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a8556a43fd905bbb2cba1cb5bb5743739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::RegularMapMesher::setDirectionsPC</definition>
+        <argsstring>(const std::shared_ptr&lt; PointCloud &gt; &amp;directionsPC)</argsstring>
+        <name>setDirectionsPC</name>
+        <qualifiedname>MR::RegularMapMesher::setDirectionsPC</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt; &amp;</type>
+          <declname>directionsPC</declname>
+        </param>
+        <briefdescription>
+<para>Sets directions Point Cloud. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="25" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a351acfb608cafb88929a69ba41f63bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::RegularMapMesher::loadDistances</definition>
+        <argsstring>(int width, int height, const std::filesystem::path &amp;path)</argsstring>
+        <name>loadDistances</name>
+        <qualifiedname>MR::RegularMapMesher::loadDistances</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Loads distances form distances file (1/distance) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="27" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a48f6cd19965602a3fb9f4669c22e3c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::RegularMapMesher::setDistances</definition>
+        <argsstring>(int width, int height, const std::vector&lt; float &gt; &amp;distances)</argsstring>
+        <name>setDistances</name>
+        <qualifiedname>MR::RegularMapMesher::setDistances</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <briefdescription>
+<para>Sets distances. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="29" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1acdde192d67f89fe363a158f3ee13f499" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::RegularMapMesher::createMesh</definition>
+        <argsstring>() const</argsstring>
+        <name>createMesh</name>
+        <qualifiedname>MR::RegularMapMesher::createMesh</qualifiedname>
+        <briefdescription>
+<para>Creates mesh if all components were successfully loaded. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="32" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for making mesh from regular distance map. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>distance for each lattice of map is defined as point on ray from surface point cloud to direction point cloud, with length equal to 1/distance from distances file (if distance in file == 0 ray had no point) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularMapMesher.h" bodystart="20" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RegularMapMesher_1acdde192d67f89fe363a158f3ee13f499" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>createMesh</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a9837f3cd7818ae497b7376d45f09e866" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>directionsPC_</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1ac6d435dc8c78fa901aba36f11c3c3ae1" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>distances_</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a9a512580b60da2b33192642a48b296d9" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>height_</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a351acfb608cafb88929a69ba41f63bfa" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>loadDistances</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a8556a43fd905bbb2cba1cb5bb5743739" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDirectionsPC</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a48f6cd19965602a3fb9f4669c22e3c14" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDistances</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a9ed2cde9e77dce74ecb24b16eb4db785" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setSurfacePC</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1ad1095ab10deb9ae39deafb777408d0d0" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>surfacePC_</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a54914fd0242fd42930528e26b7a6fedf" prot="private" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>width_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1068 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vert2RegionMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vert2RegionMap</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vert2RegionMap_1a55b91565422c14c4ee68e8b792cfa185" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vert2RegionMap::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69758" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vert2RegionMap_1a0122f7c3f4c0c076b095ee15fe7fdc38" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vert2RegionMap::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69759" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a7cbdf432462daf90d2306fe4ae31f4b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69762" bodyend="69763"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a83f1b7c8d8a7cf0790a58b98c6acd9a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vert2RegionMap" kindref="compound">Vert2RegionMap</ref></type>
+        <definition> Vert2RegionMap mrmeshpy.Vert2RegionMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69766" bodyend="69767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a83f1b7c8d8a7cf0790a58b98c6acd9a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vert2RegionMap" kindref="compound">Vert2RegionMap</ref></type>
+        <definition> Vert2RegionMap mrmeshpy.Vert2RegionMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69770" bodyend="69771"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a85c0accdfd71bd340899f4d3e5820653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vert2RegionMap.__eq__</definition>
+        <argsstring>(self, Vert2RegionMap b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vert2RegionMap" kindref="compound">Vert2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69772" bodyend="69773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ac5cac6b32fb92c74b6c8b88f51b0d3d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.__getitem__</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69775" bodyend="69776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ac5cac6b32fb92c74b6c8b88f51b0d3d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.__getitem__</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69778" bodyend="69779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a6e69e9e68328f5bb2847a1f0ee2840fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69781" bodyend="69784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a54e0eb9c30e999322bf1d2ab8a6725a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69786" bodyend="69789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a87ead53c1addf731547f929fe077dd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__init__</definition>
+        <argsstring>(self, int size, RegionId val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69791" bodyend="69794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a206c0749c09c452ccbf23134c40ad834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__init__</definition>
+        <argsstring>(self, std_vector_Id_RegionTag vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__RegionTag" kindref="compound">std_vector_Id_RegionTag</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69796" bodyend="69799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a502fba08b55d2b4117b38eb3c446642f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__init__</definition>
+        <argsstring>(self, Vert2RegionMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vert2RegionMap" kindref="compound">Vert2RegionMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69801" bodyend="69804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a71db605e086dc0dc0387b5e951197663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref>]</type>
+        <definition> typing.Iterator[RegionId] mrmeshpy.Vert2RegionMap.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69805" bodyend="69806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ab1d914d918e28c062d860bbab2f4ac9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vert2RegionMap.__ne__</definition>
+        <argsstring>(self, Vert2RegionMap b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vert2RegionMap" kindref="compound">Vert2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69807" bodyend="69808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a825ed156759c9a8126c729ef93824168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.__setitem__</definition>
+        <argsstring>(self, VertId arg0, RegionId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69809" bodyend="69810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1aa686d6f12ce04b2f12e7d03d56c86a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.autoResizeAt</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69811" bodyend="69814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1aa338ecd24767239c268dc1d12f358bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.autoResizeSet</definition>
+        <argsstring>(self, VertId pos, int len, RegionId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69816" bodyend="69820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1aeadcd03cc2a9acb3318489c947d73576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.autoResizeSet</definition>
+        <argsstring>(self, VertId i, RegionId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69822" bodyend="69825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a22c61f463f4a2a061ad21d7133432725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69827" bodyend="69828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a22c61f463f4a2a061ad21d7133432725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69830" bodyend="69831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a4cc8e307bcb343be62cbe731b4f707be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.Vert2RegionMap.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69832" bodyend="69835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a67848ca248ea6aaf454202e89afdbd58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.Vert2RegionMap.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69836" bodyend="69839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a79778a357deddf6fc1c2ce81f9d60631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vert2RegionMap.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69840" bodyend="69841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a854967d620e99d339f5985977989dfd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69842" bodyend="69843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ae73c64b427f305dca37051b430688196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69845" bodyend="69846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ae73c64b427f305dca37051b430688196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69848" bodyend="69849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a2fbb4bbb26f807a3592090ab8feac909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69850" bodyend="69851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a62faf0aec2d7d45a5f904f2127fc943d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vert2RegionMap.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69852" bodyend="69853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a32ed29f32e430ffa086d777049a6a65a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.Vert2RegionMap.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69854" bodyend="69857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a7af28732f2b422937cf6e6aab933edf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69859" bodyend="69860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a7af28732f2b422937cf6e6aab933edf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.Vert2RegionMap.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69862" bodyend="69863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1af1830d1a2aa69cab6c886e32724feb3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vert2RegionMap.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69864" bodyend="69867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ac06ec624563ed92fd113197c14d5973b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69868" bodyend="69869"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a62d2032ccf6c68eca8b581295006bc03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.push_back</definition>
+        <argsstring>(self, RegionId t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69871" bodyend="69872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a62d2032ccf6c68eca8b581295006bc03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.push_back</definition>
+        <argsstring>(self, RegionId t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69874" bodyend="69875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1aa2db286ec2b5039f54d0cdc9fe3864ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69876" bodyend="69877"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ad515e13a467cd2149c3182972095b892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69879" bodyend="69880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1ab0b8c87ed5601d4894bd348cc948bb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.resize</definition>
+        <argsstring>(self, int newSize, RegionId t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69882" bodyend="69883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a0c7eeb0bb244e2d59dd3d859036eb913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.resizeNoInit</definition>
+        <argsstring>(self, int targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.resizeNoInit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69884" bodyend="69887"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a341d50b201934f79bdfae318a9fa34d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69889" bodyend="69892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a97099bf0a64cf74860ba0acb75fa1480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, RegionId value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69894" bodyend="69897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1aa77ae7814130e18e16edff0641d686ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vert2RegionMap.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69898" bodyend="69899"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a22cedc4f13faaa48865b0aefbbeb1f22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.swap</definition>
+        <argsstring>(self, Vert2RegionMap b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vert2RegionMap" kindref="compound">Vert2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69900" bodyend="69901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a8d1f336127b1726275be4576dadc7fdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__RegionTag" kindref="compound">std_vector_Id_RegionTag</ref></type>
+        <definition> std_vector_Id_RegionTag mrmeshpy.Vert2RegionMap.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69903" bodyend="69906"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vert2RegionMap_1a4a84608d8a6289cbc114012c36716374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vert2RegionMap.vec_</definition>
+        <argsstring>(self, std_vector_Id_RegionTag arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vert2RegionMap.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__RegionTag" kindref="compound">std_vector_Id_RegionTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69908" bodyend="69909"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vert2RegionMap
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vert2RegionMap</label>
+        <link refid="classmrmeshpy_1_1Vert2RegionMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69748" bodyend="69909"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a85c0accdfd71bd340899f4d3e5820653" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ac5cac6b32fb92c74b6c8b88f51b0d3d1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ac5cac6b32fb92c74b6c8b88f51b0d3d1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a55b91565422c14c4ee68e8b792cfa185" prot="private" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a7cbdf432462daf90d2306fe4ae31f4b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a6e69e9e68328f5bb2847a1f0ee2840fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a54e0eb9c30e999322bf1d2ab8a6725a4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a87ead53c1addf731547f929fe077dd88" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a206c0749c09c452ccbf23134c40ad834" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a502fba08b55d2b4117b38eb3c446642f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a71db605e086dc0dc0387b5e951197663" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ab1d914d918e28c062d860bbab2f4ac9f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a825ed156759c9a8126c729ef93824168" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a0122f7c3f4c0c076b095ee15fe7fdc38" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1aa686d6f12ce04b2f12e7d03d56c86a13" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1aa338ecd24767239c268dc1d12f358bfd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1aeadcd03cc2a9acb3318489c947d73576" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a22c61f463f4a2a061ad21d7133432725" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a22c61f463f4a2a061ad21d7133432725" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a4cc8e307bcb343be62cbe731b4f707be" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a67848ca248ea6aaf454202e89afdbd58" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a79778a357deddf6fc1c2ce81f9d60631" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a854967d620e99d339f5985977989dfd3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ae73c64b427f305dca37051b430688196" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ae73c64b427f305dca37051b430688196" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a2fbb4bbb26f807a3592090ab8feac909" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a62faf0aec2d7d45a5f904f2127fc943d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a32ed29f32e430ffa086d777049a6a65a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a7af28732f2b422937cf6e6aab933edf6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a7af28732f2b422937cf6e6aab933edf6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1af1830d1a2aa69cab6c886e32724feb3d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a83f1b7c8d8a7cf0790a58b98c6acd9a6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a83f1b7c8d8a7cf0790a58b98c6acd9a6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ac06ec624563ed92fd113197c14d5973b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a62d2032ccf6c68eca8b581295006bc03" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a62d2032ccf6c68eca8b581295006bc03" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1aa2db286ec2b5039f54d0cdc9fe3864ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ad515e13a467cd2149c3182972095b892" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1ab0b8c87ed5601d4894bd348cc948bb77" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a0c7eeb0bb244e2d59dd3d859036eb913" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>resizeNoInit</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a341d50b201934f79bdfae318a9fa34d0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a97099bf0a64cf74860ba0acb75fa1480" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1aa77ae7814130e18e16edff0641d686ed" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a22cedc4f13faaa48865b0aefbbeb1f22" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a8d1f336127b1726275be4576dadc7fdd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vert2RegionMap_1a4a84608d8a6289cbc114012c36716374" prot="public" virt="non-virtual"><scope>mrmeshpy::Vert2RegionMap</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

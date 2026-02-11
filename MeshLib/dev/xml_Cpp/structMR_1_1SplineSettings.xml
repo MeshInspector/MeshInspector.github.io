@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SplineSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SplineSettings</compoundname>
+    <includes refid="MRMarkedContour_8h" local="no">MRMarkedContour.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SplineSettings_1a44a44b80a4845cea1a439df65b616c4e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SplineSettings::samplingStep</definition>
+        <argsstring></argsstring>
+        <name>samplingStep</name>
+        <qualifiedname>MR::SplineSettings::samplingStep</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="56" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SplineSettings_1a7f3e029be9ca17a1b73f53ca166fe2ca" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SplineSettings::controlStability</definition>
+        <argsstring></argsstring>
+        <name>controlStability</name>
+        <qualifiedname>MR::SplineSettings::controlStability</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>a positive value, the more the value the closer resulting spline will be to given control points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="59" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SplineSettings_1ae191af78be4cbd6a213f4296abadbaab" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SplineSettings::iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MR::SplineSettings::iterations</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="64" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SplineSettings_1aa8f49a77bae9cc6a69e8bef44cf7afda" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref> *</type>
+        <definition>Contour3f* MR::SplineSettings::normals</definition>
+        <argsstring></argsstring>
+        <name>normals</name>
+        <qualifiedname>MR::SplineSettings::normals</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional parameter with the normals of input points that will be resampled to become normals of output points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SplineSettings_1af076810565cee0720087fb452c2967f9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SplineSettings::normalsAffectShape</definition>
+        <argsstring></argsstring>
+        <name>normalsAffectShape</name>
+        <qualifiedname>MR::SplineSettings::normalsAffectShape</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="70" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="53" bodyend="71"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SplineSettings_1a7f3e029be9ca17a1b73f53ca166fe2ca" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>controlStability</name></member>
+      <member refid="structMR_1_1SplineSettings_1ae191af78be4cbd6a213f4296abadbaab" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>iterations</name></member>
+      <member refid="structMR_1_1SplineSettings_1aa8f49a77bae9cc6a69e8bef44cf7afda" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>normals</name></member>
+      <member refid="structMR_1_1SplineSettings_1af076810565cee0720087fb452c2967f9" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>normalsAffectShape</name></member>
+      <member refid="structMR_1_1SplineSettings_1a44a44b80a4845cea1a439df65b616c4e" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>samplingStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

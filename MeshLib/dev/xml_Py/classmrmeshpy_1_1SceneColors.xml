@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneColors" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneColors</compoundname>
+    <innerclass refid="classmrmeshpy_1_1SceneColors_1_1Type" prot="public">mrmeshpy::SceneColors::Type</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1a41f0a01f541067a4f361a63c16be645b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.SceneColors.get</definition>
+        <argsstring>(SceneColors.Type type)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.SceneColors.get</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50946" bodyend="50947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1a79dc732d59b8bf6b9b6253a2c9e9be9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneColors.getName</definition>
+        <argsstring>(SceneColors.Type type)</argsstring>
+        <name>getName</name>
+        <qualifiedname>mrmeshpy.SceneColors.getName</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50949" bodyend="50950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneColors_1a3373e4fa4ffeef7c21419fa3c02651bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneColors.set</definition>
+        <argsstring>(SceneColors.Type type, Color color)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.SceneColors.set</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneColors_1_1Type" kindref="compound">SceneColors.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50952" bodyend="50953"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SceneColors
+
+This singleton struct contains default colors for scene objects
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50812" bodyend="50953"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneColors_1a41f0a01f541067a4f361a63c16be645b" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1a79dc732d59b8bf6b9b6253a2c9e9be9a" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors</scope><name>getName</name></member>
+      <member refid="classmrmeshpy_1_1SceneColors_1a3373e4fa4ffeef7c21419fa3c02651bb" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

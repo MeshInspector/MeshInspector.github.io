@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshToDistanceMapParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshToDistanceMapParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToDistanceMapParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a824aa8fa02e13eb675f26122f9c6ef30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.MeshToDistanceMapParams.xRange</definition>
+        <argsstring></argsstring>
+        <name>xRange</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.xRange</qualifiedname>
+        <briefdescription>
+<para>&lt; Cartesian range vector between distance map borders in X direction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Cartesian range vector between distance map borders in Y direction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="360" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a5cfe1a3f1a49cc46cfbfc5381ce53bd4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.MeshToDistanceMapParams.yRange</definition>
+        <argsstring></argsstring>
+        <name>yRange</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.yRange</qualifiedname>
+        <briefdescription>
+<para>direction of intersection ray </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="363" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a39822d0d4e7f18a2f583a631010ccf00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.MeshToDistanceMapParams.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.direction</qualifiedname>
+        <briefdescription>
+<para>location of (0,0) pixel with value 0.f </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="366" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a6d2401e2849f186099d8a4dfeef267f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.MeshToDistanceMapParams.orgPoint</definition>
+        <argsstring></argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.orgPoint</qualifiedname>
+        <briefdescription>
+<para>out of limits intersections will be set to non-valid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="369" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a914df5423b968bed7e6ea3df1b009bff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshToDistanceMapParams.useDistanceLimits</definition>
+        <argsstring></argsstring>
+        <name>useDistanceLimits</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.useDistanceLimits</qualifiedname>
+        <briefdescription>
+<para>allows to find intersections in backward to direction vector with negative values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="372" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a5e801a700f07e77681be593da3576242" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshToDistanceMapParams.allowNegativeValues</definition>
+        <argsstring></argsstring>
+        <name>allowNegativeValues</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.allowNegativeValues</qualifiedname>
+        <briefdescription>
+<para>Using of this parameter depends on useDistanceLimits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="375" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a84ed25546f762d923bf438c87a97670b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MeshToDistanceMapParams.minValue</definition>
+        <argsstring></argsstring>
+        <name>minValue</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.minValue</qualifiedname>
+        <briefdescription>
+<para>Using of this parameter depends on useDistanceLimits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="378" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1accebc8ada019cb41454f9283960b83e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MeshToDistanceMapParams.maxValue</definition>
+        <argsstring></argsstring>
+        <name>maxValue</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.maxValue</qualifiedname>
+        <briefdescription>
+<para>resolution of distance map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="381" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a8e8fb4439312edcb9e8aca7fc6e7902c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>new unsafe ref MR.Vector2i MR.MeshToDistanceMapParams.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="384" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="384" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a32d3bab9b732bba384e0406ba58be5f9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="388" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="388" bodyend="392"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>()</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="398" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="398" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a88d277d5fb1ffa643ac5182abec90a74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(MR.Const_MeshToDistanceMapParams _other)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>MR.Const_MeshToDistanceMapParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="409" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="409" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1abca3f546fc7c21b946acd4ec8dea92bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(MeshToDistanceMapParams _other)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="421" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="421" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a8b068e94c8ff63f84e658b1bc212991f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.Vector3f direction, in MR.Vector2i resolution, MR.Const_MeshPart mp, bool? usePreciseBoundingBox=null)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>usePreciseBoundingBox</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;.perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="433" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a6a0fe096cff44c78650c402253e142ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.Vector3f direction, in MR.Vector2f pixelSize, MR.Const_MeshPart mp, bool? usePreciseBoundingBox=null)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>usePreciseBoundingBox</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="453" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="453" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a82b0997d8439e599e07043c0f88c5a55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.Matrix3f rotation, in MR.Vector3f origin, in MR.Vector2i resolution, in MR.Vector2f size)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="477" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="477" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a4c64387c3f628abf2bd82024cfdb6554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.Matrix3f rotation, in MR.Vector3f origin, in MR.Vector2f pixelSize, in MR.Vector2i resolution)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="500" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="500" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a6a0b251710ae90b4ba417f873703455f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.Matrix3f rotation, in MR.Vector2i resolution, MR.Const_MeshPart mp, bool? usePreciseBoundingBox=null)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>usePreciseBoundingBox</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="531" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="531" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1a396adcdb1016061e0dd4879729008236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.AffineXf3f xf, in MR.Vector2i resolution, in MR.Vector2f size)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>The most general constructor. Use it if you have to find special view, resolution, distance map with visual the part of the model etc. All params match is in the user responsibility xf.b - origin point: pixel(0,0) with value 0. xf.A.z - direction xf.A.x - xRange xf.A.y - yRange All Output Distance map values could be positive and negative by default. Set allowNegativeValues to false if negative values are not required Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="558" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="558" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1afa70367a49eb6bd6f232568467a2631d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshToDistanceMapParams.MeshToDistanceMapParams</definition>
+        <argsstring>(in MR.AffineXf3f xf, in MR.Vector2f pixelSize, in MR.Vector2i resolution)</argsstring>
+        <name>MeshToDistanceMapParams</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="578" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="578" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1aea9f4d5ea1cc2dd37ed842f35ed65d71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MR.MeshToDistanceMapParams</ref></type>
+        <definition>unsafe MR.MeshToDistanceMapParams MR.MeshToDistanceMapParams.assign</definition>
+        <argsstring>(MR.Const_MeshToDistanceMapParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MeshToDistanceMapParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshToDistanceMapParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="598" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="598" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshToDistanceMapParams_1ad1ea01a48ca8b6c857e656a802a220ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshToDistanceMapParams.setDistanceLimits</definition>
+        <argsstring>(float min, float max)</argsstring>
+        <name>setDistanceLimits</name>
+        <qualifiedname>MR.MeshToDistanceMapParams.setDistanceLimits</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>if distance is not in set range, pixel became invalid default value: false. Any distance will be applied (include negative) Generated from method <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1ad1ea01a48ca8b6c857e656a802a220ae" kindref="member">MR.MeshToDistanceMapParams.setDistanceLimits</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="612" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="612" bodyend="617"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams" kindref="compound">MR.MeshToDistanceMapParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshToDistanceMapParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshToDistanceMapParams</label>
+        <link refid="classMR_1_1MeshToDistanceMapParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshToDistanceMapParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshToDistanceMapParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshToDistanceMapParams</label>
+        <link refid="classMR_1_1MeshToDistanceMapParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshToDistanceMapParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="357" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="358" bodyend="618"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a5e801a700f07e77681be593da3576242" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>allowNegativeValues</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1aea9f4d5ea1cc2dd37ed842f35ed65d71" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a39822d0d4e7f18a2f583a631010ccf00" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>direction</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1accebc8ada019cb41454f9283960b83e7" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>maxValue</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a32d3bab9b732bba384e0406ba58be5f9" prot="package" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a88d277d5fb1ffa643ac5182abec90a74" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1abca3f546fc7c21b946acd4ec8dea92bf" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a8b068e94c8ff63f84e658b1bc212991f" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a6a0fe096cff44c78650c402253e142ad" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a82b0997d8439e599e07043c0f88c5a55" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a4c64387c3f628abf2bd82024cfdb6554" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a6a0b251710ae90b4ba417f873703455f" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a396adcdb1016061e0dd4879729008236" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1afa70367a49eb6bd6f232568467a2631d" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a84ed25546f762d923bf438c87a97670b" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>minValue</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a6d2401e2849f186099d8a4dfeef267f8" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>orgPoint</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a8e8fb4439312edcb9e8aca7fc6e7902c" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1ad1ea01a48ca8b6c857e656a802a220ae" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>setDistanceLimits</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a914df5423b968bed7e6ea3df1b009bff" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>useDistanceLimits</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a824aa8fa02e13eb675f26122f9c6ef30" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>xRange</name></member>
+      <member refid="classMR_1_1MeshToDistanceMapParams_1a5cfe1a3f1a49cc46cfbfc5381ce53bd4" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>yRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

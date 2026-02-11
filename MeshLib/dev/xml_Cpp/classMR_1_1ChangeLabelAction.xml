@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeLabelAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeLabelAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeLabelAction_8h" local="no">MRChangeLabelAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangeLabelAction_1ade696594ef0460a576d12fa40786e07f" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectLabel&gt; MR::ChangeLabelAction::obj_</definition>
+        <argsstring></argsstring>
+        <name>obj_</name>
+        <qualifiedname>MR::ChangeLabelAction::obj_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="47" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeLabelAction_1aeeb92dd69cba4af2a95a119081f4b2fc" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+        <definition>PositionedText MR::ChangeLabelAction::label_</definition>
+        <argsstring></argsstring>
+        <name>label_</name>
+        <qualifiedname>MR::ChangeLabelAction::label_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="48" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeLabelAction_1a85fe025f3bc930b00adbf2841a426557" prot="private" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ChangeLabelAction::pivotPoint_</definition>
+        <argsstring></argsstring>
+        <name>pivotPoint_</name>
+        <qualifiedname>MR::ChangeLabelAction::pivotPoint_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="49" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeLabelAction_1a7913a22564fb04f5f8ab563053d59753" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeLabelAction::actionName_</definition>
+        <argsstring></argsstring>
+        <name>actionName_</name>
+        <qualifiedname>MR::ChangeLabelAction::actionName_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="51" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeLabelAction_1a21a4e3c00216db2abbbfb9ce47014c81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeLabelAction::ChangeLabelAction</definition>
+        <argsstring>(const std::string &amp;actionName, std::shared_ptr&lt; ObjectLabel &gt; obj)</argsstring>
+        <name>ChangeLabelAction</name>
+        <qualifiedname>MR::ChangeLabelAction::ChangeLabelAction</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &gt;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="16" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeLabelAction_1a49b7949dc2497e15510dbf8c51c83e61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangeLabelAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangeLabelAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeLabelAction_1ab1fc1b5e85ebdd6e6737c7e8301d6239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ChangeLabelAction::action</definition>
+        <argsstring>(HistoryAction::Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangeLabelAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="27" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="27" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeLabelAction_1a44cff8296d6419da98913c39fdbd8050" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ChangeLabelAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangeLabelAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="42" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeLabelAction</label>
+        <link refid="classMR_1_1ChangeLabelAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeLabelAction</label>
+        <link refid="classMR_1_1ChangeLabelAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeLabelAction_1ab1fc1b5e85ebdd6e6737c7e8301d6239" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1a7913a22564fb04f5f8ab563053d59753" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>actionName_</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1a21a4e3c00216db2abbbfb9ce47014c81" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>ChangeLabelAction</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1a44cff8296d6419da98913c39fdbd8050" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1aeeb92dd69cba4af2a95a119081f4b2fc" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>label_</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1a49b7949dc2497e15510dbf8c51c83e61" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1ade696594ef0460a576d12fa40786e07f" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>obj_</name></member>
+      <member refid="classMR_1_1ChangeLabelAction_1a85fe025f3bc930b00adbf2841a426557" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>pivotPoint_</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

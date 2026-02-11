@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjId" kind="struct" language="C#" prot="public">
+    <compoundname>MR::ObjId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ObjId &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjId_1a255ee47a40a906175ed0061229850001" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR.ObjId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.ObjId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4334" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4334" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1ObjId_1ac59e17374ac5cddef46c6b481dffbce6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ObjId.operator ObjId</definition>
+        <argsstring>(ConstBox_ObjId other)</argsstring>
+        <name>operator ObjId</name>
+        <qualifiedname>MR.ObjId.operator ObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">ConstBox_ObjId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4339" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1af14416bc4a8fc5c0632fecc26baa6511" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjId.operator int</definition>
+        <argsstring>(MR.ObjId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.ObjId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.ObjId.operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4386" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4386" bodyend="4391"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1ac941323bb6a55969a01ee2df9893d431" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjId.operator bool</definition>
+        <argsstring>(MR.ObjId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.ObjId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.ObjId.operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4396" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4396" bodyend="4401"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a3471ccc3c8ffbde9261f701bb33d579c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ObjId.operator==</definition>
+        <argsstring>(MR.ObjId _this, MR.ObjId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ObjId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4432" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4432" bodyend="4437"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1ab3139ce45fd0590592bb7f084150969b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ObjId.operator!=</definition>
+        <argsstring>(MR.ObjId _this, MR.ObjId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ObjId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4439" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4439" bodyend="4442"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ObjId_1a09d0cd825463153c9b6ca431fe0142ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjId.ObjId</definition>
+        <argsstring>(ObjId _other)</argsstring>
+        <name>ObjId</name>
+        <qualifiedname>MR.ObjId.ObjId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4344" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4344" bodyend="4344"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1ad83a0518820d0e912bb43243cd590500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjId.ObjId</definition>
+        <argsstring>()</argsstring>
+        <name>ObjId</name>
+        <qualifiedname>MR.ObjId.ObjId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4349" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4349" bodyend="4354"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a70822b66eae4e3ff000a5c27fcf7e00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjId.ObjId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>ObjId</name>
+        <qualifiedname>MR.ObjId.ObjId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1ObjId_1a09d0cd825463153c9b6ca431fe0142ae" kindref="member">MR.ObjId.ObjId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4359" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4359" bodyend="4364"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a087038984e20dd51292e23c6943dd188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjId.ObjId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>ObjId</name>
+        <qualifiedname>MR.ObjId.ObjId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1ObjId_1a09d0cd825463153c9b6ca431fe0142ae" kindref="member">MR.ObjId.ObjId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4376" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4376" bodyend="4381"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a2cab6507d02d3cbd8efc80d2bf6af694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.ObjId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.ObjId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ObjId_1a2cab6507d02d3cbd8efc80d2bf6af694" kindref="member">MR.ObjId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4406" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4406" bodyend="4414"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1ae788eedce513cfc1406cbaf772ab0edb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.ObjId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.ObjId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ObjId_1ae788eedce513cfc1406cbaf772ab0edb" kindref="member">MR.ObjId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4419" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4419" bodyend="4427"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a0984396e311df186413a11ad09e0d9cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.ObjId.less</definition>
+        <argsstring>(MR.ObjId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.ObjId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator&lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4447" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4447" bodyend="4455"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a9ae88b4b3e41fd265f3d68e182601388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.ObjId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4460" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4460" bodyend="4468"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a069056d421540cf52a3cc5290d23ac56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">ObjId</ref></type>
+        <definition>unsafe ObjId MR.ObjId.decr</definition>
+        <argsstring>(MR.ObjId _this)</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.ObjId.decr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4473" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4473" bodyend="4480"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1ad72cf53c2a5a6032bb5c5cc3dc7b5bc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.ObjId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4485" bodyend="4493"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a8862da7fcd121e9d6a89c48c3708a62b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">ObjId</ref></type>
+        <definition>unsafe ObjId MR.ObjId.incr</definition>
+        <argsstring>(MR.ObjId _this)</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.ObjId.incr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4498" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4498" bodyend="4505"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1af7ee5faacda1590f6650a3831fed604c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe ref MR.ObjId MR.ObjId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.ObjId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4510" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4510" bodyend="4518"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1ad64bba958f36d4a4e3fe558a9b7c2fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe ref MR.ObjId MR.ObjId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.ObjId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4523" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4523" bodyend="4531"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a9e27f2b9d547307ee734c821f345929a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ObjId.Equals</definition>
+        <argsstring>(MR.ObjId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ObjId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4535" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4535" bodyend="4538"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjId_1a5312707149042cd48a275ae7d8759389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ObjId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ObjId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4540" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4540" bodyend="4547"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ObjId</label>
+        <link refid="structMR_1_1ObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.ObjId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ObjId</label>
+        <link refid="structMR_1_1ObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.ObjId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4332" bodyend="4548"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjId_1ad64bba958f36d4a4e3fe558a9b7c2fed" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>addAssign</name></member>
+      <member refid="structMR_1_1ObjId_1a9ae88b4b3e41fd265f3d68e182601388" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>decr</name></member>
+      <member refid="structMR_1_1ObjId_1a069056d421540cf52a3cc5290d23ac56" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>decr</name></member>
+      <member refid="structMR_1_1ObjId_1a9e27f2b9d547307ee734c821f345929a" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1ObjId_1a5312707149042cd48a275ae7d8759389" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1ObjId_1ae788eedce513cfc1406cbaf772ab0edb" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>get</name></member>
+      <member refid="structMR_1_1ObjId_1a255ee47a40a906175ed0061229850001" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>id</name></member>
+      <member refid="structMR_1_1ObjId_1ad72cf53c2a5a6032bb5c5cc3dc7b5bc7" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>incr</name></member>
+      <member refid="structMR_1_1ObjId_1a8862da7fcd121e9d6a89c48c3708a62b" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>incr</name></member>
+      <member refid="structMR_1_1ObjId_1a0984396e311df186413a11ad09e0d9cd" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>less</name></member>
+      <member refid="structMR_1_1ObjId_1a09d0cd825463153c9b6ca431fe0142ae" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>ObjId</name></member>
+      <member refid="structMR_1_1ObjId_1ad83a0518820d0e912bb43243cd590500" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>ObjId</name></member>
+      <member refid="structMR_1_1ObjId_1a70822b66eae4e3ff000a5c27fcf7e00a" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>ObjId</name></member>
+      <member refid="structMR_1_1ObjId_1a087038984e20dd51292e23c6943dd188" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>ObjId</name></member>
+      <member refid="structMR_1_1ObjId_1ac941323bb6a55969a01ee2df9893d431" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1ObjId_1af14416bc4a8fc5c0632fecc26baa6511" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>operator int</name></member>
+      <member refid="structMR_1_1ObjId_1ac59e17374ac5cddef46c6b481dffbce6" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>operator ObjId</name></member>
+      <member refid="structMR_1_1ObjId_1ab3139ce45fd0590592bb7f084150969b" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1ObjId_1a3471ccc3c8ffbde9261f701bb33d579c" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>operator==</name></member>
+      <member refid="structMR_1_1ObjId_1af7ee5faacda1590f6650a3831fed604c" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>subAssign</name></member>
+      <member refid="structMR_1_1ObjId_1a2cab6507d02d3cbd8efc80d2bf6af694" prot="public" virt="non-virtual"><scope>MR::ObjId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

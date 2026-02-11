@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BooleanResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BooleanResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResult_1af9a46001de89e266fc1d9439d0702fee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResult::_offsetof_errorString</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_errorString</name>
+        <qualifiedname>mrmeshpy.BooleanResult._offsetof_errorString</qualifiedname>
+        <initializer>=  336</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResult_1ac5450c5c8c3a99cd2517b6df9a5b3ed5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResult::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.BooleanResult._offsetof_mesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResult_1ac32e9338407937022754e964d4396a9c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResult::_offsetof_meshABadContourFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshABadContourFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResult._offsetof_meshABadContourFaces</qualifiedname>
+        <initializer>=  272</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResult_1a62561872ea5b3f0a4d80466fc82eb941" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResult::_offsetof_meshBBadContourFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshBBadContourFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResult._offsetof_meshBBadContourFaces</qualifiedname>
+        <initializer>=  304</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3639" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a9eeabdb2f6aac4a525065743e4dd5cb2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3642" bodyend="3643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1abb817d85c579b3a8c8d98470103bc7d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResult" kindref="compound">BooleanResult</ref></type>
+        <definition> BooleanResult mrmeshpy.BooleanResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3646" bodyend="3647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1abb817d85c579b3a8c8d98470103bc7d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResult" kindref="compound">BooleanResult</ref></type>
+        <definition> BooleanResult mrmeshpy.BooleanResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3650" bodyend="3651"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1af2a8da279bb805029f23fc5b3808e293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BooleanResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3652" bodyend="3653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a33d39b0f7b7aac8622a9b0ab9d65f39f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3655" bodyend="3656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a40e2306dcf2a1e12c9ed9bc80abd9b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.__init__</definition>
+        <argsstring>(self, BooleanResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResult" kindref="compound">BooleanResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3658" bodyend="3661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a6a993d0c5d9737d8ae038238fc7e8a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.__init__</definition>
+        <argsstring>(self, Mesh mesh, FaceBitSet meshABadContourFaces, FaceBitSet meshBBadContourFaces, str errorString)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>meshABadContourFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>meshBBadContourFaces</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>errorString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3663" bodyend="3666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a33832f729ccd294848d2edd195492599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanResult.__mul__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3668" bodyend="3669"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a33832f729ccd294848d2edd195492599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanResult.__mul__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3671" bodyend="3672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1ac02b9d705962bbb2b384c05d248df7aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BooleanResult.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.BooleanResult.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3673" bodyend="3674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanResult.operatorminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminus</name>
+        <qualifiedname>mrmeshpy.BooleanResult.operatorminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3676" bodyend="3677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanResult.operatorminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminus</name>
+        <qualifiedname>mrmeshpy.BooleanResult.operatorminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3679" bodyend="3680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1afaf560a36bb8633a5e551b61e743919f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BooleanResult.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.BooleanResult.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if boolean succeed, false otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3681" bodyend="3684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1ae561d2d917eef42af8168a61cae905b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BooleanResult.errorString</definition>
+        <argsstring>(self)</argsstring>
+        <name>errorString</name>
+        <qualifiedname>mrmeshpy.BooleanResult.errorString</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Holds error message, empty if boolean succeed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3686" bodyend="3689"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a6e15205540cf0a93e21257db0d5807f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.errorString</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>errorString</name>
+        <qualifiedname>mrmeshpy.BooleanResult.errorString</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3691" bodyend="3692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1af7c83e00d4f79290d06f4addbeb05664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanResult.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.BooleanResult.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Result mesh of boolean operation, if error occurred it would be empty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3694" bodyend="3697"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a3e05fc012613c07a9f37154f3844f593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.mesh</definition>
+        <argsstring>(self, Mesh arg1)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.BooleanResult.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3699" bodyend="3700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a44b8f17917f00af11b4d9c7e32635e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.BooleanResult.meshABadContourFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>meshABadContourFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResult.meshABadContourFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If input contours have intersections, this face bit set presents faces of mesh `A` on which contours intersect
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3702" bodyend="3705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a9de44a9b916ab1c53d9b6f0184a74f6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.meshABadContourFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>meshABadContourFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResult.meshABadContourFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3707" bodyend="3708"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a4d0d7c863748d58b618c076f81009aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.BooleanResult.meshBBadContourFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>meshBBadContourFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResult.meshBBadContourFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If input contours have intersections, this face bit set presents faces of mesh `B` on which contours intersect
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3710" bodyend="3713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1abc30bd496bdd64cf8ee944d9b81320ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResult.meshBBadContourFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>meshBBadContourFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResult.meshBBadContourFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3715" bodyend="3716"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BooleanResult
+
+\\struct MR::BooleanResult
+\\brief Structure contain boolean result
+
+This structure store result mesh of MR::boolean or some error info
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BooleanResult</label>
+        <link refid="classmrmeshpy_1_1BooleanResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_errorString</edgelabel>
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_meshABadContourFaces</edgelabel>
+          <edgelabel>_offsetof_meshBBadContourFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3627" bodyend="3716"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BooleanResult_1af2a8da279bb805029f23fc5b3808e293" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a9eeabdb2f6aac4a525065743e4dd5cb2" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a33d39b0f7b7aac8622a9b0ab9d65f39f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a40e2306dcf2a1e12c9ed9bc80abd9b7b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a6a993d0c5d9737d8ae038238fc7e8a35" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a33832f729ccd294848d2edd195492599" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a33832f729ccd294848d2edd195492599" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1ac02b9d705962bbb2b384c05d248df7aa" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1af9a46001de89e266fc1d9439d0702fee" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>_offsetof_errorString</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1ac5450c5c8c3a99cd2517b6df9a5b3ed5" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1ac32e9338407937022754e964d4396a9c" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>_offsetof_meshABadContourFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a62561872ea5b3f0a4d80466fc82eb941" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>_offsetof_meshBBadContourFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1ae561d2d917eef42af8168a61cae905b5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>errorString</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a6e15205540cf0a93e21257db0d5807f2" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>errorString</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1af7c83e00d4f79290d06f4addbeb05664" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a3e05fc012613c07a9f37154f3844f593" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a44b8f17917f00af11b4d9c7e32635e92" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>meshABadContourFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a9de44a9b916ab1c53d9b6f0184a74f6f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>meshABadContourFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a4d0d7c863748d58b618c076f81009aee" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>meshBBadContourFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1abc30bd496bdd64cf8ee944d9b81320ab" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>meshBBadContourFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1abb817d85c579b3a8c8d98470103bc7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1abb817d85c579b3a8c8d98470103bc7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operatorminus</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operatorminus</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1afaf560a36bb8633a5e551b61e743919f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

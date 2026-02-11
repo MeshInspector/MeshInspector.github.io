@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjectVoxels::VolumeRenderingParams</compoundname>
+    <includes refid="MRObjectVoxels_8h" local="no">MRObjectVoxels.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b40e31d1a019aab3cc599a4440216cf" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ShadingType</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::ShadingType</qualifiedname>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300" prot="public">
+          <name>ValueGradient</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87" prot="public">
+          <name>AlphaGradient</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>shading model </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="159" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="160" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="enum" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ac2eccd63ca988ff87e0d09c1729effd5" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LutType</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::LutType</qualifiedname>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa" prot="public">
+          <name>GrayShades</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c" prot="public">
+          <name>Rainbow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109" prot="public">
+          <name>OneColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>coloring type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="166" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="167" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="enum" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1afeb3f512bbe9f60f21c71753b179adc2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AlphaType</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::AlphaType</qualifiedname>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255" prot="public">
+          <name>Constant</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd" prot="public">
+          <name>LinearIncreasing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae" prot="public">
+          <name>LinearDecreasing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>type of alpha function on texture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="182" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="183" bodyend="187"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1aa2018932b0f46e90f13ac5b75b7eaed9" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a6b6dd7eadc1056fc5ffd8af1810d925a" kindref="member">FilterType</ref></type>
+        <definition>FilterType MR::ObjectVoxels::VolumeRenderingParams::volumeFilterType</definition>
+        <argsstring></argsstring>
+        <name>volumeFilterType</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::volumeFilterType</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b" kindref="member">FilterType::Linear</ref> }</initializer>
+        <briefdescription>
+<para>volume texture smoothing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="157" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a4d3b64c3be4b9df2a9728e5a097c8ad9" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b40e31d1a019aab3cc599a4440216cf" kindref="member">MR::ObjectVoxels::VolumeRenderingParams::ShadingType</ref></type>
+        <definition>enum MR::ObjectVoxels::VolumeRenderingParams::ShadingType MR::ObjectVoxels::VolumeRenderingParams::None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::None</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="164" column="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a13e9afd17c798286cf4e6db027d0ecf9" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ac2eccd63ca988ff87e0d09c1729effd5" kindref="member">MR::ObjectVoxels::VolumeRenderingParams::LutType</ref></type>
+        <definition>enum MR::ObjectVoxels::VolumeRenderingParams::LutType MR::ObjectVoxels::VolumeRenderingParams::Rainbow</definition>
+        <argsstring></argsstring>
+        <name>Rainbow</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::Rainbow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="171" column="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ae94f3eb91aef633aa6d0552e48b597a9" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::ObjectVoxels::VolumeRenderingParams::oneColor</definition>
+        <argsstring></argsstring>
+        <name>oneColor</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::oneColor</qualifiedname>
+        <initializer>{ <ref refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" kindref="member">Color::white</ref>() }</initializer>
+        <briefdescription>
+<para>color that is used for OneColor mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="173" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1aa82f2dbcab6b825daff1c52d575ca2fa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectVoxels::VolumeRenderingParams::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::min</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>minimum colored value (voxels with lower values are transparent) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="175" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b2551180d44dd12a9dd8b6f79cbd010" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectVoxels::VolumeRenderingParams::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::max</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>maximum colored value (voxels with higher values are transparent) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="177" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ad2b689ae32e79618fd422fa0fa7a80e9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectVoxels::VolumeRenderingParams::samplingStep</definition>
+        <argsstring></argsstring>
+        <name>samplingStep</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::samplingStep</qualifiedname>
+        <initializer>{ -1.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>step to sample each ray with if &lt;= 0 then default sampling is used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="180" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ad8187266986121c9568f668fe785fbc5" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1afeb3f512bbe9f60f21c71753b179adc2" kindref="member">MR::ObjectVoxels::VolumeRenderingParams::AlphaType</ref></type>
+        <definition>enum MR::ObjectVoxels::VolumeRenderingParams::AlphaType MR::ObjectVoxels::VolumeRenderingParams::Constant</definition>
+        <argsstring></argsstring>
+        <name>Constant</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::Constant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="187" column="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a3020a0b0e97313d239308d5d16c7f9f3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t MR::ObjectVoxels::VolumeRenderingParams::alphaLimit</definition>
+        <argsstring></argsstring>
+        <name>alphaLimit</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::alphaLimit</qualifiedname>
+        <initializer>{ 10 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="188" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="188" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ab5aeef5b1c53656f8816af392af3ec46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ObjectVoxels::VolumeRenderingParams::operator==</definition>
+        <argsstring>(const VolumeRenderingParams &amp;) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::ObjectVoxels::VolumeRenderingParams::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" kindref="compound">VolumeRenderingParams</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="189" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>struct to control volume rendering texture </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::ObjectVoxels::VolumeRenderingParams</label>
+        <link refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>oneColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="154" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="155" bodyend="190"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a3020a0b0e97313d239308d5d16c7f9f3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>alphaLimit</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1afeb3f512bbe9f60f21c71753b179adc2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>AlphaType</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ad8187266986121c9568f668fe785fbc5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>Constant</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ac2eccd63ca988ff87e0d09c1729effd5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>LutType</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b2551180d44dd12a9dd8b6f79cbd010" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>max</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1aa82f2dbcab6b825daff1c52d575ca2fa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>min</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a4d3b64c3be4b9df2a9728e5a097c8ad9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>None</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ae94f3eb91aef633aa6d0552e48b597a9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>oneColor</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ab5aeef5b1c53656f8816af392af3ec46" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>operator==</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a13e9afd17c798286cf4e6db027d0ecf9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>Rainbow</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1ad2b689ae32e79618fd422fa0fa7a80e9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>samplingStep</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1a0b40e31d1a019aab3cc599a4440216cf" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>ShadingType</name></member>
+      <member refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams_1aa2018932b0f46e90f13ac5b75b7eaed9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>volumeFilterType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

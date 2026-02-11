@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EmbeddedStructureParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EmbeddedStructureParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a4ecaac0fc4d25ceea095f4ee979bc024" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_cutAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cutAngle</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_cutAngle</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a4bad20261280b8eb1a0c5b0e0b9c7407" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_fillAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fillAngle</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_fillAngle</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a59012f411dc89132cd4a7c9b208a684e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_minAnglePrecision</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minAnglePrecision</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_minAnglePrecision</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15898" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a0fd28fe41295e3347b56e6b4e168f2b6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_new2oldFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_new2oldFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_new2oldFaces</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a6154adaa8997f0a1a12b454492ab536a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_outCutFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outCutFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_outCutFaces</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a84fc0cd2ea31177d2bae242cbd1155a9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_outFillFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outFillFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_outFillFaces</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a8b20522359845133fbeae606b366f0bb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EmbeddedStructureParameters::_offsetof_outStructFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outStructFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters._offsetof_outStructFaces</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15902" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1add01c18fc53331f773e515c92d59ea83" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15905" bodyend="15906"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a923801a762349b55f1e6f1f77639a1f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EmbeddedStructureParameters" kindref="compound">EmbeddedStructureParameters</ref></type>
+        <definition> EmbeddedStructureParameters mrmeshpy.EmbeddedStructureParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15909" bodyend="15910"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a923801a762349b55f1e6f1f77639a1f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EmbeddedStructureParameters" kindref="compound">EmbeddedStructureParameters</ref></type>
+        <definition> EmbeddedStructureParameters mrmeshpy.EmbeddedStructureParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15913" bodyend="15914"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1ad9891f52a5df8c17eb40c7580d3848be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15916" bodyend="15917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a38b91e78bf6501fd0daed2647a85f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.__init__</definition>
+        <argsstring>(self, EmbeddedStructureParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EmbeddedStructureParameters" kindref="compound">EmbeddedStructureParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15919" bodyend="15922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1af50ec37fa5bfa2fe4a67cae9e928520c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.__init__</definition>
+        <argsstring>(self, float fillAngle, float cutAngle, float minAnglePrecision, FaceBitSet outStructFaces, FaceBitSet outFillFaces, FaceBitSet outCutFaces, FaceMap new2oldFaces)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fillAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cutAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAnglePrecision</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>outStructFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>outFillFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>outCutFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>new2oldFaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15924" bodyend="15927"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1aed47e638b269c80cca0f2b45cadaa4a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EmbeddedStructureParameters.cutAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>cutAngle</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.cutAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>angle of cut cone (pit)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15929" bodyend="15932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1abdb7675a15e65ce3be186c7c88ff0e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.cutAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>cutAngle</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.cutAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15934" bodyend="15935"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1ae4941f3c48a97b62a219e4b32551ad82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EmbeddedStructureParameters.fillAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>fillAngle</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.fillAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>angle of fill cone (mound)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15937" bodyend="15940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a101262bee4ce01990b20c6f56ae0cc5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.fillAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>fillAngle</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.fillAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15942" bodyend="15943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a2a0a9257630ec152b1a8ed01b6ec29f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EmbeddedStructureParameters.minAnglePrecision</definition>
+        <argsstring>(self)</argsstring>
+        <name>minAnglePrecision</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.minAnglePrecision</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>20 deg
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15945" bodyend="15948"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a515ed108cec297495d6d56d3d320cf7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.minAnglePrecision</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minAnglePrecision</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.minAnglePrecision</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15950" bodyend="15951"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1acabd9eb5fe88bbc2e480426409714cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition> FaceMap mrmeshpy.EmbeddedStructureParameters.new2oldFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>new2oldFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.new2oldFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out map new terrain faces to old terrain faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15953" bodyend="15956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a0f4827867585e6065f8489232666a9d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.new2oldFaces</definition>
+        <argsstring>(self, FaceMap arg1)</argsstring>
+        <name>new2oldFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.new2oldFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15958" bodyend="15959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a5c322381bd5c03ba780d7bed2ab0b70b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.EmbeddedStructureParameters.outCutFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>outCutFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.outCutFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out new faces of cut part
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15961" bodyend="15964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a2ecd67698db1a6e1b08b56deee2e749f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.outCutFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>outCutFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.outCutFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15966" bodyend="15967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a18570c6a6a8c48ef20fbfb60388f3d69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.EmbeddedStructureParameters.outFillFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>outFillFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.outFillFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out new faces of fill part
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15969" bodyend="15972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1a7ffe213d869938bf5a134414b691fbe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.outFillFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>outFillFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.outFillFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15974" bodyend="15975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1acb4eac41f3775c8992a9b74b13cadf7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.EmbeddedStructureParameters.outStructFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>outStructFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.outStructFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional out new faces of embedded structure 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15977" bodyend="15980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EmbeddedStructureParameters_1ae3779a9a5ac2bcb7614da7010665210f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EmbeddedStructureParameters.outStructFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>outStructFaces</name>
+        <qualifiedname>mrmeshpy.EmbeddedStructureParameters.outStructFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15982" bodyend="15983"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EmbeddedStructureParameters
+
+Parameters of structure embedding in terrain
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EmbeddedStructureParameters</label>
+        <link refid="classmrmeshpy_1_1EmbeddedStructureParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cutAngle</edgelabel>
+          <edgelabel>_offsetof_fillAngle</edgelabel>
+          <edgelabel>_offsetof_minAnglePrecision</edgelabel>
+          <edgelabel>_offsetof_new2oldFaces</edgelabel>
+          <edgelabel>_offsetof_outCutFaces</edgelabel>
+          <edgelabel>_offsetof_outFillFaces</edgelabel>
+          <edgelabel>_offsetof_outStructFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15890" bodyend="15983"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1add01c18fc53331f773e515c92d59ea83" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1ad9891f52a5df8c17eb40c7580d3848be" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a38b91e78bf6501fd0daed2647a85f12f" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1af50ec37fa5bfa2fe4a67cae9e928520c" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a4ecaac0fc4d25ceea095f4ee979bc024" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_cutAngle</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a4bad20261280b8eb1a0c5b0e0b9c7407" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_fillAngle</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a59012f411dc89132cd4a7c9b208a684e" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_minAnglePrecision</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a0fd28fe41295e3347b56e6b4e168f2b6" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_new2oldFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a6154adaa8997f0a1a12b454492ab536a" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_outCutFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a84fc0cd2ea31177d2bae242cbd1155a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_outFillFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a8b20522359845133fbeae606b366f0bb" prot="protected" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>_offsetof_outStructFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1aed47e638b269c80cca0f2b45cadaa4a8" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>cutAngle</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1abdb7675a15e65ce3be186c7c88ff0e42" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>cutAngle</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1ae4941f3c48a97b62a219e4b32551ad82" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>fillAngle</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a101262bee4ce01990b20c6f56ae0cc5c" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>fillAngle</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a2a0a9257630ec152b1a8ed01b6ec29f1" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>minAnglePrecision</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a515ed108cec297495d6d56d3d320cf7b" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>minAnglePrecision</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1acabd9eb5fe88bbc2e480426409714cae" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>new2oldFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a0f4827867585e6065f8489232666a9d7" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>new2oldFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a923801a762349b55f1e6f1f77639a1f1" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a923801a762349b55f1e6f1f77639a1f1" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a5c322381bd5c03ba780d7bed2ab0b70b" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>outCutFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a2ecd67698db1a6e1b08b56deee2e749f" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>outCutFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a18570c6a6a8c48ef20fbfb60388f3d69" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>outFillFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1a7ffe213d869938bf5a134414b691fbe2" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>outFillFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1acb4eac41f3775c8992a9b74b13cadf7f" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>outStructFaces</name></member>
+      <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1ae3779a9a5ac2bcb7614da7010665210f" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>outStructFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

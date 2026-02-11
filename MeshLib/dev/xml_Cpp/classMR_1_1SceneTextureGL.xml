@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneTextureGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneTextureGL</compoundname>
+    <includes refid="MRSceneTextureGL_8h" local="no">MRSceneTextureGL.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SceneTextureGL_1a88afc12b62f09fe49e1b2ee38e75d398" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1FramebufferData" kindref="compound">FramebufferData</ref></type>
+        <definition>FramebufferData MR::SceneTextureGL::fd_</definition>
+        <argsstring></argsstring>
+        <name>fd_</name>
+        <qualifiedname>MR::SceneTextureGL::fd_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="28" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneTextureGL_1aa8ce07dded0be50374ce3906aebccb92" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1QuadTextureVertexObject" kindref="compound">QuadTextureVertexObject</ref></type>
+        <definition>QuadTextureVertexObject MR::SceneTextureGL::qt_</definition>
+        <argsstring></argsstring>
+        <name>qt_</name>
+        <qualifiedname>MR::SceneTextureGL::qt_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1af29aa94c5d0f28fabf5baa5aeefd075e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneTextureGL::bind</definition>
+        <argsstring>(bool clear)</argsstring>
+        <name>bind</name>
+        <qualifiedname>MR::SceneTextureGL::bind</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>clear</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>binds this framebuffer as main rendering target clears it if <computeroutput>clear</computeroutput> flag is set </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="12" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1a980051db961ed739c8b5ef5a4a470058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneTextureGL::unbind</definition>
+        <argsstring>()</argsstring>
+        <name>unbind</name>
+        <qualifiedname>MR::SceneTextureGL::unbind</qualifiedname>
+        <briefdescription>
+<para>binds default framebuffer (and read/draw framebuffers) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="14" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1a7c04619df20d551fd4e79257bcf83a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneTextureGL::reset</definition>
+        <argsstring>(const Vector2i &amp;size, int msaaPow, bool depthTexture)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::SceneTextureGL::reset</qualifiedname>
+        <param>
+          <type>const Vector2i &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>msaaPow</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>depthTexture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if present-&gt; del();gen(); otherwise just gen() msaaPow - 2^msaaPow samples, msaaPow &lt; 0 - use same default amount of samples </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="18" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1a81ce2688f5c1199861bcbd627db71b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneTextureGL::copyTexture</definition>
+        <argsstring>()</argsstring>
+        <name>copyTexture</name>
+        <qualifiedname>MR::SceneTextureGL::copyTexture</qualifiedname>
+        <briefdescription>
+<para>copy texture so <ref refid="classMR_1_1SceneTextureGL_1ad3c55cbc78f657dbba1f5ce06e0183b4" kindref="member">draw()</ref> can render it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="20" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1ad3c55cbc78f657dbba1f5ce06e0183b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneTextureGL::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::SceneTextureGL::draw</qualifiedname>
+        <briefdescription>
+<para>renders texture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="22" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1afada1d5c821061119918954bebf336b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SceneTextureGL::isBound</definition>
+        <argsstring>() const</argsstring>
+        <name>isBound</name>
+        <qualifiedname>MR::SceneTextureGL::isBound</qualifiedname>
+        <briefdescription>
+<para>return true if texture is bound </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="24" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneTextureGL_1a836d98d945612682a4e3d1b6455cf766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FramebufferData" kindref="compound">FramebufferData</ref> &amp;</type>
+        <definition>FramebufferData &amp; MR::SceneTextureGL::getFramebuffer</definition>
+        <argsstring>()</argsstring>
+        <name>getFramebuffer</name>
+        <qualifiedname>MR::SceneTextureGL::getFramebuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="26" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for rendering 3d scene into texture. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="7" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneTextureGL_1af29aa94c5d0f28fabf5baa5aeefd075e" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>bind</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1a81ce2688f5c1199861bcbd627db71b78" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>copyTexture</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1ad3c55cbc78f657dbba1f5ce06e0183b4" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>draw</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1a88afc12b62f09fe49e1b2ee38e75d398" prot="private" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>fd_</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1a836d98d945612682a4e3d1b6455cf766" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>getFramebuffer</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1afada1d5c821061119918954bebf336b7" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>isBound</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1aa8ce07dded0be50374ce3906aebccb92" prot="private" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>qt_</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1a7c04619df20d551fd4e79257bcf83a31" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>reset</name></member>
+      <member refid="classMR_1_1SceneTextureGL_1a980051db961ed739c8b5ef5a4a470058" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>unbind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetContoursOrigins" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetContoursOrigins</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursOrigins_1a16e58b8051b47b7977fe13fdef7df629" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursOrigins::_offsetof_lDest</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lDest</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins._offsetof_lDest</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursOrigins_1a7d81fbd7cc8a3a61167455e4b3de9154" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursOrigins::_offsetof_lOrg</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lOrg</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins._offsetof_lOrg</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursOrigins_1a8eb75286b871e622d5b64c3903b8ecc9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursOrigins::_offsetof_lRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lRatio</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins._offsetof_lRatio</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursOrigins_1abe59451ba637c792b0b09a1f2415cd09" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursOrigins::_offsetof_uDest</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uDest</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins._offsetof_uDest</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursOrigins_1a7ec99c66c61f04a2662440d8df16ab93" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursOrigins::_offsetof_uOrg</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uOrg</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins._offsetof_uOrg</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursOrigins_1a0d26a00e32299b4aa4de8a8f983b93f0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursOrigins::_offsetof_uRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uRatio</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins._offsetof_uRatio</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41150" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1aab0cfa7e85047bf79bfaab590afcd625" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41153" bodyend="41154"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1af0a176b62bd6fd767e07c32e692bc824" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref></type>
+        <definition> OffsetContoursOrigins mrmeshpy.OffsetContoursOrigins.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41157" bodyend="41158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1af0a176b62bd6fd767e07c32e692bc824" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref></type>
+        <definition> OffsetContoursOrigins mrmeshpy.OffsetContoursOrigins.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41161" bodyend="41162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a22a78f0abfa0af4420a712e67a981057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41164" bodyend="41165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a4df8564556e7bb4ba795fe3be413f599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self, OffsetContoursOrigins arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41167" bodyend="41170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a07d8331bad73640ee9312c5d3121e19c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.__init__</definition>
+        <argsstring>(self, OffsetContourIndex lOrg, OffsetContourIndex lDest, OffsetContourIndex uOrg, OffsetContourIndex uDest, float lRatio, float uRatio)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>lOrg</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>lDest</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>uOrg</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>uDest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>uRatio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41172" bodyend="41175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a1cb04b3eef387cbf6f388491d94688bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetContoursOrigins.isIntersection</definition>
+        <argsstring>(self)</argsstring>
+        <name>isIntersection</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.isIntersection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41176" bodyend="41177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a16c3855e37ca6ee08d61c0050f11fd5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetContoursOrigins.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41178" bodyend="41179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1ab804df8043d3435a078f3ed50db2baf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition> OffsetContourIndex mrmeshpy.OffsetContoursOrigins.lDest</definition>
+        <argsstring>(self)</argsstring>
+        <name>lDest</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.lDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>index of lower corresponding destination point on input contour
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41181" bodyend="41184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a4d09385affb9885363aafa9b67239380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.lDest</definition>
+        <argsstring>(self, OffsetContourIndex arg1)</argsstring>
+        <name>lDest</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.lDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41186" bodyend="41187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a5b00a17a7420a9e13419a3595c8091ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition> OffsetContourIndex mrmeshpy.OffsetContoursOrigins.lOrg</definition>
+        <argsstring>(self)</argsstring>
+        <name>lOrg</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.lOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Should be always valid
+index of lower corresponding origin point on input contour
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41189" bodyend="41193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1ab966e308d804e37e07a8bd652146deaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.lOrg</definition>
+        <argsstring>(self, OffsetContourIndex arg1)</argsstring>
+        <name>lOrg</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.lOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41195" bodyend="41196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a30c2793e73ec1d2c730654774b3656d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OffsetContoursOrigins.lRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>lRatio</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.lRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ratio of intersection point on lOrg-&gt;lDest segment
+0.0 -&gt; lOrg
+1.0 -&gt; lDest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41198" bodyend="41203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1aa51d8698fb8aff905d9b8e8212ad2ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.lRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>lRatio</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.lRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41205" bodyend="41206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a8b86015148faa7b7c2da433e647acc8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition> OffsetContourIndex mrmeshpy.OffsetContoursOrigins.uDest</definition>
+        <argsstring>(self)</argsstring>
+        <name>uDest</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.uDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>index of upper corresponding destination point on input contour
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41208" bodyend="41211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a84231cc5b84fa99b60449fd8a57a73a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.uDest</definition>
+        <argsstring>(self, OffsetContourIndex arg1)</argsstring>
+        <name>uDest</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.uDest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41213" bodyend="41214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a2d9ad56c455b9829b207bbb0a6c1bdce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition> OffsetContourIndex mrmeshpy.OffsetContoursOrigins.uOrg</definition>
+        <argsstring>(self)</argsstring>
+        <name>uOrg</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.uOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>index of upper corresponding origin point on input contour
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41216" bodyend="41219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a299943a759aefe2f2522f60a82927842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.uOrg</definition>
+        <argsstring>(self, OffsetContourIndex arg1)</argsstring>
+        <name>uOrg</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.uOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41221" bodyend="41222"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1afc369115bc68b3fbe5eab89ed31cbef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OffsetContoursOrigins.uRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>uRatio</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.uRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ratio of intersection point on uOrg-&gt;uDest segment
+0.0 -&gt; uOrg
+1.0 -&gt; uDest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41224" bodyend="41229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursOrigins_1a13a760542caf232920ed2fed7ff36cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursOrigins.uRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>uRatio</name>
+        <qualifiedname>mrmeshpy.OffsetContoursOrigins.uRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41231" bodyend="41232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OffsetContoursOrigins
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetContoursOrigins</label>
+        <link refid="classmrmeshpy_1_1OffsetContoursOrigins"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_lDest</edgelabel>
+          <edgelabel>_offsetof_lOrg</edgelabel>
+          <edgelabel>_offsetof_lRatio</edgelabel>
+          <edgelabel>_offsetof_uDest</edgelabel>
+          <edgelabel>_offsetof_uOrg</edgelabel>
+          <edgelabel>_offsetof_uRatio</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41141" bodyend="41232"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1aab0cfa7e85047bf79bfaab590afcd625" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a22a78f0abfa0af4420a712e67a981057" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a4df8564556e7bb4ba795fe3be413f599" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a07d8331bad73640ee9312c5d3121e19c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a16e58b8051b47b7977fe13fdef7df629" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>_offsetof_lDest</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a7d81fbd7cc8a3a61167455e4b3de9154" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>_offsetof_lOrg</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a8eb75286b871e622d5b64c3903b8ecc9" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>_offsetof_lRatio</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1abe59451ba637c792b0b09a1f2415cd09" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>_offsetof_uDest</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a7ec99c66c61f04a2662440d8df16ab93" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>_offsetof_uOrg</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a0d26a00e32299b4aa4de8a8f983b93f0" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>_offsetof_uRatio</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a1cb04b3eef387cbf6f388491d94688bc" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>isIntersection</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1ab804df8043d3435a078f3ed50db2baf8" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>lDest</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a4d09385affb9885363aafa9b67239380" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>lDest</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a5b00a17a7420a9e13419a3595c8091ae" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>lOrg</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1ab966e308d804e37e07a8bd652146deaf" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>lOrg</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a30c2793e73ec1d2c730654774b3656d6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>lRatio</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1aa51d8698fb8aff905d9b8e8212ad2ce1" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>lRatio</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1af0a176b62bd6fd767e07c32e692bc824" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1af0a176b62bd6fd767e07c32e692bc824" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a8b86015148faa7b7c2da433e647acc8c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>uDest</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a84231cc5b84fa99b60449fd8a57a73a0" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>uDest</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a2d9ad56c455b9829b207bbb0a6c1bdce" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>uOrg</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a299943a759aefe2f2522f60a82927842" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>uOrg</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1afc369115bc68b3fbe5eab89ed31cbef9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>uRatio</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a13a760542caf232920ed2fed7ff36cf7" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>uRatio</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursOrigins_1a16c3855e37ca6ee08d61c0050f11fd5a" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursOrigins</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

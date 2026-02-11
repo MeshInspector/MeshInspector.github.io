@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DistanceMapLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::DistanceMapLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
+        <definition>static unsafe MR.DistanceMap MR.DistanceMapLoad.fromRaw</definition>
+        <argsstring>(string path, MR.Const_DistanceMapLoadSettings? settings=null)</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR.DistanceMapLoad.fromRaw</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> from binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap.resY [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" kindref="member">MR.DistanceMapLoad.fromRaw</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" line="13" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" bodystart="13" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMapLoad_1aead3d31ae57eff03c26fbd715a4f3e15" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
+        <definition>static unsafe MR.DistanceMap MR.DistanceMapLoad.fromMrDistanceMap</definition>
+        <argsstring>(string path, MR.Const_DistanceMapLoadSettings? settings=null)</argsstring>
+        <name>fromMrDistanceMap</name>
+        <qualifiedname>MR.DistanceMapLoad.fromMrDistanceMap</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1aead3d31ae57eff03c26fbd715a4f3e15" kindref="member">MR.DistanceMapLoad.fromMrDistanceMap</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" line="31" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" bodystart="31" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMapLoad_1a14f9d19844f30c80e3d9e795f15edce1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
+        <definition>static unsafe MR.DistanceMap MR.DistanceMapLoad.fromTiff</definition>
+        <argsstring>(string path, MR.Const_DistanceMapLoadSettings? settings=null)</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR.DistanceMapLoad.fromTiff</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1a14f9d19844f30c80e3d9e795f15edce1" kindref="member">MR.DistanceMapLoad.fromTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" line="49" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" bodystart="49" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMapLoad_1a4332ee3da23fc2a0131acb34496d9b4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
+        <definition>static unsafe MR.DistanceMap MR.DistanceMapLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string path, MR.Const_DistanceMapLoadSettings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.DistanceMapLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1a4332ee3da23fc2a0131acb34496d9b4a" kindref="member">MR.DistanceMapLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" line="67" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapLoad.cs" bodystart="4" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DistanceMapLoad_1a4332ee3da23fc2a0131acb34496d9b4a" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1DistanceMapLoad_1aead3d31ae57eff03c26fbd715a4f3e15" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoad</scope><name>fromMrDistanceMap</name></member>
+      <member refid="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoad</scope><name>fromRaw</name></member>
+      <member refid="classMR_1_1DistanceMapLoad_1a14f9d19844f30c80e3d9e795f15edce1" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoad</scope><name>fromTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

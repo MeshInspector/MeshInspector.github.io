@@ -1,0 +1,1252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSceneLoad_8h" kind="file" language="C++">
+    <compoundname>MRSceneLoad.h</compoundname>
+    <includes refid="MRUnitInfo_8h" local="no">MRCMesh/MRUnitInfo.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRSceneLoad.h</label>
+        <link refid="MRSceneLoad_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="14" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref></type>
+        <definition>typedef struct MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="15" column="146" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_SceneLoad_Result MR_std_function_void_from_MR_SceneLoad_Result</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_SceneLoad_Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="16" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref></type>
+        <definition>typedef struct MR_std_optional_MR_LengthUnit MR_std_optional_MR_LengthUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_LengthUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="17" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_SceneRootObject MR_std_shared_ptr_MR_SceneRootObject</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_SceneRootObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="18" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref></type>
+        <definition>typedef struct MR_std_vector_std_filesystem_path MR_std_vector_std_filesystem_path</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_filesystem_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="20" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref></type>
+        <definition>typedef struct MR_SceneLoad_Settings MR_SceneLoad_Settings</definition>
+        <argsstring></argsstring>
+        <name>MR_SceneLoad_Settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::SceneLoad::Settings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="25" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref></type>
+        <definition>typedef struct MR_SceneLoad_Result MR_SceneLoad_Result</definition>
+        <argsstring></argsstring>
+        <name>MR_SceneLoad_Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scene loading result Generated from class <computeroutput>MR::SceneLoad::Result</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="30" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSceneLoad_8h_1a32709ea3248de9c17aef21ca3b925fde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_LengthUnit * MR_SceneLoad_Settings_Get_targetUnit</definition>
+        <argsstring>(const MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_Get_targetUnit</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>targetUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="37" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="37" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a05131a0a5cd054ac28e807d98322d434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Settings_Set_targetUnit</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this, const MR_LengthUnit *value)</argsstring>
+        <name>MR_SceneLoad_Settings_Set_targetUnit</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>targetUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>targetUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>targetUnit</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a23dd96bc2273700905180e215bba4fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_SceneLoad_Settings_GetMutable_targetUnit</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_GetMutable_targetUnit</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>targetUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="53" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="53" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a781c68e8778119778c41a25015784db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_SceneLoad_Settings_Get_progress</definition>
+        <argsstring>(const MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_Get_progress</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report loading progress and allow the user to cancel it Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="59" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="59" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a972544170940594154f3376bf92e88f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Settings_Set_progress</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_SceneLoad_Settings_Set_progress</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report loading progress and allow the user to cancel it Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1ab3f8a369442eb7ac37582ad351b686ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_SceneLoad_Settings_GetMutable_progress</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_GetMutable_progress</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report loading progress and allow the user to cancel it Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="72" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="72" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a2d35d80868c4775e0a0effd625d92d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref * MR_SceneLoad_Settings_Get_openFolder</definition>
+        <argsstring>(const MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_Get_openFolder</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>openFolder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="77" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="77" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1adc4e95f94728e3592dc101c96509c8a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Settings_Set_openFolder</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this, MR_PassBy value_pass_by, MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref *value)</argsstring>
+        <name>MR_SceneLoad_Settings_Set_openFolder</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>openFolder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>openFolder</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>openFolder</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1aef3acf329e8d8c0218d2b53b18578897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref * MR_SceneLoad_Settings_GetMutable_openFolder</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_GetMutable_openFolder</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>openFolder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="88" column="141" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="88" declcolumn="141"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a122e3272e6e62353d5b659bbab8457b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Settings * MR_SceneLoad_Settings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SceneLoad_Settings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" kindref="member">MR_SceneLoad_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="92" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="92" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a6a0d77451a10f8a000d521cda744bdf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Settings * MR_SceneLoad_Settings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SceneLoad_Settings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSceneLoad_8h_1a2fc6688c6e9c76d275127b95d74a1106" kindref="member">MR_SceneLoad_Settings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSceneLoad_8h_1ac0edf918eb2b163817130d36a8755488" kindref="member">MR_SceneLoad_Settings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSceneLoad_8h_1aea3cf5217247073f5476477464441ee8" kindref="member">MR_SceneLoad_Settings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="97" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="97" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a95a209c65c0298c5d2606895be44ba6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Settings * MR_SceneLoad_Settings_ConstructFrom</definition>
+        <argsstring>(const MR_LengthUnit *targetUnit, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress, MR_PassBy openFolder_pass_by, MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref *openFolder)</argsstring>
+        <name>MR_SceneLoad_Settings_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>targetUnit</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>openFolder_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref> *</type>
+          <declname>openFolder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SceneLoad::Settings</computeroutput> elementwise. Parameter <computeroutput>targetUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>targetUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>openFolder</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" kindref="member">MR_SceneLoad_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="106" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="106" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1aea3cf5217247073f5476477464441ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API const MR_SceneLoad_Settings * MR_SceneLoad_Settings_OffsetPtr</definition>
+        <argsstring>(const MR_SceneLoad_Settings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SceneLoad_Settings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="110" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="110" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1ac0edf918eb2b163817130d36a8755488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Settings * MR_SceneLoad_Settings_OffsetMutablePtr</definition>
+        <argsstring>(MR_SceneLoad_Settings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SceneLoad_Settings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="114" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="114" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a829c4760a4f5ff5cddc49828ed767814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Settings * MR_SceneLoad_Settings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_SceneLoad_Settings *_other)</argsstring>
+        <name>MR_SceneLoad_Settings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SceneLoad::Settings::Settings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" kindref="member">MR_SceneLoad_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="119" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="119" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Settings_Destroy</definition>
+        <argsstring>(const MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SceneLoad_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="122" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a2fc6688c6e9c76d275127b95d74a1106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Settings_DestroyArray</definition>
+        <argsstring>(const MR_SceneLoad_Settings *_this)</argsstring>
+        <name>MR_SceneLoad_Settings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SceneLoad_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a04542bfd3390405824b1acef3c692d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Settings * MR_SceneLoad_Settings_AssignFromAnother</definition>
+        <argsstring>(MR_SceneLoad_Settings *_this, MR_PassBy _other_pass_by, MR_SceneLoad_Settings *_other)</argsstring>
+        <name>MR_SceneLoad_Settings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SceneLoad::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="132" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="132" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1acfdecc59e2a7a30587bf82a9d01114cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_SceneRootObject * MR_SceneLoad_Result_Get_scene</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_Get_scene</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The loaded scene or empty object Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>scene</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="138" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="138" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a39fc373b6039b510f94c7865ee1e268f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_Set_scene</definition>
+        <argsstring>(MR_SceneLoad_Result *_this, MR_PassBy value_pass_by, MR_std_shared_ptr_MR_SceneRootObject *value)</argsstring>
+        <name>MR_SceneLoad_Result_Set_scene</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The loaded scene or empty object Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>scene</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>scene</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>scene</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a9db48d0605c2574dbce5f8c5d65426fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_SceneRootObject * MR_SceneLoad_Result_GetMutable_scene</definition>
+        <argsstring>(MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_GetMutable_scene</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The loaded scene or empty object Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>scene</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="151" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="151" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1ab25c6cfceb60caad2b86b9bbb54d0d0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_SceneLoad_Result_Get_isSceneConstructed</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_Get_isSceneConstructed</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>isSceneConstructed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="157" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="157" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a80711f0aa2e4e71794815f1852d41b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_Set_isSceneConstructed</definition>
+        <argsstring>(MR_SceneLoad_Result *_this, bool value)</argsstring>
+        <name>MR_SceneLoad_Result_Set_isSceneConstructed</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>isSceneConstructed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isSceneConstructed</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="163" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1afb60232e429e5a5e143848a181ed5354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_SceneLoad_Result_GetMutable_isSceneConstructed</definition>
+        <argsstring>(MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_GetMutable_isSceneConstructed</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>isSceneConstructed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="169" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1aef06758ff6b13b8cf3f183e8c30994fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+        <definition>MRC_API const MR_std_vector_std_filesystem_path * MR_SceneLoad_Result_Get_loadedFiles</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_Get_loadedFiles</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of successfully loaded files Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>loadedFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="175" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="175" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a0baf5945e58dc4a54df45d25046e0c34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_Set_loadedFiles</definition>
+        <argsstring>(MR_SceneLoad_Result *_this, MR_PassBy value_pass_by, MR_std_vector_std_filesystem_path *value)</argsstring>
+        <name>MR_SceneLoad_Result_Set_loadedFiles</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of successfully loaded files Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>loadedFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>loadedFiles</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>loadedFiles</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a2676fb7af70c15442200f34a671e39a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_filesystem_path * MR_SceneLoad_Result_GetMutable_loadedFiles</definition>
+        <argsstring>(MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_GetMutable_loadedFiles</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of successfully loaded files Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>loadedFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="188" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="188" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a540126241b571440c9be9c5580b9b487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_SceneLoad_Result_Get_errorSummary</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_Get_errorSummary</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Error summary text. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>errorSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="195" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="195" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a4dcdcd979d2e10ea2fb70649bbc28241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_Set_errorSummary</definition>
+        <argsstring>(MR_SceneLoad_Result *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_SceneLoad_Result_Set_errorSummary</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+<para>Error summary text. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>errorSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>errorSummary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>errorSummary</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="205" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a69e290b0218a5d3ec717a35f61171269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_SceneLoad_Result_GetMutable_errorSummary</definition>
+        <argsstring>(MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_GetMutable_errorSummary</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Error summary text. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>errorSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="212" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="212" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a9337c4b3a78f9c0bd995357cb778d2aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_SceneLoad_Result_Get_warningSummary</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_Get_warningSummary</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Warning summary text. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>warningSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="219" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="219" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a10660c1c89da8ffe7f6fad0141d31c99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_Set_warningSummary</definition>
+        <argsstring>(MR_SceneLoad_Result *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_SceneLoad_Result_Set_warningSummary</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+<para>Warning summary text. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>warningSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warningSummary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warningSummary</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="229" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1ad3c7fe9fec4227a6eca42ca651d1f9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_SceneLoad_Result_GetMutable_warningSummary</definition>
+        <argsstring>(MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_GetMutable_warningSummary</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Warning summary text. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>warningSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="236" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="236" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a89c48169d0ef98a409430a3a4c77e0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_Result_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SceneLoad_Result_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="240" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="240" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a1377a2f85c0bc92557bcc4d6a0e768f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_Result_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SceneLoad_Result_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSceneLoad_8h_1a32285b90fa0f95716d243e98ba29baf5" kindref="member">MR_SceneLoad_Result_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSceneLoad_8h_1a0852df88ca2ace083c92a742dba8637e" kindref="member">MR_SceneLoad_Result_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSceneLoad_8h_1ae84cce1209c28fabffcc04dac201c951" kindref="member">MR_SceneLoad_Result_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="245" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="245" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a7df7fe8fae6cc5ec37cb458b3b66b3f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_Result_ConstructFrom</definition>
+        <argsstring>(MR_PassBy scene_pass_by, MR_std_shared_ptr_MR_SceneRootObject *scene, bool isSceneConstructed, MR_PassBy loadedFiles_pass_by, MR_std_vector_std_filesystem_path *loadedFiles, const char *errorSummary, const char *errorSummary_end, const char *warningSummary, const char *warningSummary_end)</argsstring>
+        <name>MR_SceneLoad_Result_ConstructFrom</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>scene_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref> *</type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSceneConstructed</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>loadedFiles_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>loadedFiles</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>errorSummary</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>errorSummary_end</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>warningSummary</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>warningSummary_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SceneLoad::Result</computeroutput> elementwise. The reference to the parameter <computeroutput>scene</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>loadedFiles</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>errorSummary</computeroutput> can not be null. If <computeroutput>errorSummary_end</computeroutput> is null, then <computeroutput>errorSummary</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>errorSummary</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warningSummary</computeroutput> can not be null. If <computeroutput>warningSummary_end</computeroutput> is null, then <computeroutput>warningSummary</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warningSummary</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="258" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="258" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1ae84cce1209c28fabffcc04dac201c951" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API const MR_SceneLoad_Result * MR_SceneLoad_Result_OffsetPtr</definition>
+        <argsstring>(const MR_SceneLoad_Result *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SceneLoad_Result_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="262" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="262" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a0852df88ca2ace083c92a742dba8637e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_Result_OffsetMutablePtr</definition>
+        <argsstring>(MR_SceneLoad_Result *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SceneLoad_Result_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="266" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="266" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a75f6fe595bc5bbc6f8a87e61ebef12ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_Result_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_SceneLoad_Result *_other)</argsstring>
+        <name>MR_SceneLoad_Result_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SceneLoad::Result::Result</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="271" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="271" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_Destroy</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SceneLoad_Result</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="274" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="274" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a32285b90fa0f95716d243e98ba29baf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_Result_DestroyArray</definition>
+        <argsstring>(const MR_SceneLoad_Result *_this)</argsstring>
+        <name>MR_SceneLoad_Result_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SceneLoad_Result</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="277" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="277" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a453e363ccebb4b74961c569eee051d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_Result_AssignFromAnother</definition>
+        <argsstring>(MR_SceneLoad_Result *_this, MR_PassBy _other_pass_by, MR_SceneLoad_Result *_other)</argsstring>
+        <name>MR_SceneLoad_Result_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SceneLoad::Result::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="284" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="284" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a0c09b40b038909b783e554e7ef97790a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref> *</type>
+        <definition>MRC_API MR_SceneLoad_Result * MR_SceneLoad_fromAnySupportedFormat</definition>
+        <argsstring>(const MR_std_vector_std_filesystem_path *files, const MR_SceneLoad_Settings *settings)</argsstring>
+        <name>MR_SceneLoad_fromAnySupportedFormat</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects Generated from function <computeroutput>MR::SceneLoad::fromAnySupportedFormat</computeroutput>. Parameter <computeroutput>files</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="293" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="293" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneLoad_8h_1a4cb5cb37b1b62f59b54b21087d353b9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SceneLoad_asyncFromAnySupportedFormat</definition>
+        <argsstring>(const MR_std_vector_std_filesystem_path *files, const MR_std_function_void_from_MR_SceneLoad_Result *postLoadCallback, const MR_SceneLoad_Settings *settings)</argsstring>
+        <name>MR_SceneLoad_asyncFromAnySupportedFormat</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref> *</type>
+          <declname>postLoadCallback</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::SceneLoad::asyncFromAnySupportedFormat</computeroutput>. Parameter <computeroutput>files</computeroutput> can not be null. It is a single object. Parameter <computeroutput>postLoadCallback</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="300" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" declline="300" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRUnitInfo_8h" kindref="compound">MRCMesh/MRUnitInfo.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRSceneLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref><sp/><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_s__c201.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref><sp/><ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_SceneLoad_Result.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRSceneLoad_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_SceneRootObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRSceneLoad_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRSceneLoad_8h_1a32709ea3248de9c17aef21ca3b925fde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRSceneLoad_8h_1a32709ea3248de9c17aef21ca3b925fde" kindref="member">MR_SceneLoad_Settings_Get_targetUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRSceneLoad_8h_1a05131a0a5cd054ac28e807d98322d434" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a05131a0a5cd054ac28e807d98322d434" kindref="member">MR_SceneLoad_Settings_Set_targetUnit</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRSceneLoad_8h_1a23dd96bc2273700905180e215bba4fe3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRSceneLoad_8h_1a23dd96bc2273700905180e215bba4fe3" kindref="member">MR_SceneLoad_Settings_GetMutable_targetUnit</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRSceneLoad_8h_1a781c68e8778119778c41a25015784db2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRSceneLoad_8h_1a781c68e8778119778c41a25015784db2" kindref="member">MR_SceneLoad_Settings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRSceneLoad_8h_1a972544170940594154f3376bf92e88f5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a972544170940594154f3376bf92e88f5" kindref="member">MR_SceneLoad_Settings_Set_progress</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRSceneLoad_8h_1ab3f8a369442eb7ac37582ad351b686ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRSceneLoad_8h_1ab3f8a369442eb7ac37582ad351b686ec" kindref="member">MR_SceneLoad_Settings_GetMutable_progress</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRSceneLoad_8h_1a2d35d80868c4775e0a0effd625d92d75" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref><sp/>*<ref refid="MRSceneLoad_8h_1a2d35d80868c4775e0a0effd625d92d75" kindref="member">MR_SceneLoad_Settings_Get_openFolder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRSceneLoad_8h_1adc4e95f94728e3592dc101c96509c8a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1adc4e95f94728e3592dc101c96509c8a6" kindref="member">MR_SceneLoad_Settings_Set_openFolder</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRSceneLoad_8h_1aef3acf329e8d8c0218d2b53b18578897" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref><sp/>*<ref refid="MRSceneLoad_8h_1aef3acf329e8d8c0218d2b53b18578897" kindref="member">MR_SceneLoad_Settings_GetMutable_openFolder</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRSceneLoad_8h_1a122e3272e6e62353d5b659bbab8457b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1a122e3272e6e62353d5b659bbab8457b5" kindref="member">MR_SceneLoad_Settings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRSceneLoad_8h_1a6a0d77451a10f8a000d521cda744bdf1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1a6a0d77451a10f8a000d521cda744bdf1" kindref="member">MR_SceneLoad_Settings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRSceneLoad_8h_1a95a209c65c0298c5d2606895be44ba6b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1a95a209c65c0298c5d2606895be44ba6b" kindref="member">MR_SceneLoad_Settings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*targetUnit,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/>MR_PassBy<sp/>openFolder_pass_by,<sp/><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref><sp/>*openFolder);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRSceneLoad_8h_1aea3cf5217247073f5476477464441ee8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1aea3cf5217247073f5476477464441ee8" kindref="member">MR_SceneLoad_Settings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRSceneLoad_8h_1ac0edf918eb2b163817130d36a8755488" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1ac0edf918eb2b163817130d36a8755488" kindref="member">MR_SceneLoad_Settings_OffsetMutablePtr</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRSceneLoad_8h_1a829c4760a4f5ff5cddc49828ed767814" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1a829c4760a4f5ff5cddc49828ed767814" kindref="member">MR_SceneLoad_Settings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" kindref="member">MR_SceneLoad_Settings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRSceneLoad_8h_1a2fc6688c6e9c76d275127b95d74a1106" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a2fc6688c6e9c76d275127b95d74a1106" kindref="member">MR_SceneLoad_Settings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRSceneLoad_8h_1a04542bfd3390405824b1acef3c692d33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*<ref refid="MRSceneLoad_8h_1a04542bfd3390405824b1acef3c692d33" kindref="member">MR_SceneLoad_Settings_AssignFromAnother</ref>(<ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRSceneLoad_8h_1acfdecc59e2a7a30587bf82a9d01114cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneLoad_8h_1acfdecc59e2a7a30587bf82a9d01114cd" kindref="member">MR_SceneLoad_Result_Get_scene</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRSceneLoad_8h_1a39fc373b6039b510f94c7865ee1e268f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a39fc373b6039b510f94c7865ee1e268f" kindref="member">MR_SceneLoad_Result_Set_scene</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRSceneLoad_8h_1a9db48d0605c2574dbce5f8c5d65426fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneLoad_8h_1a9db48d0605c2574dbce5f8c5d65426fd" kindref="member">MR_SceneLoad_Result_GetMutable_scene</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRSceneLoad_8h_1ab25c6cfceb60caad2b86b9bbb54d0d0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSceneLoad_8h_1ab25c6cfceb60caad2b86b9bbb54d0d0e" kindref="member">MR_SceneLoad_Result_Get_isSceneConstructed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRSceneLoad_8h_1a80711f0aa2e4e71794815f1852d41b04" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a80711f0aa2e4e71794815f1852d41b04" kindref="member">MR_SceneLoad_Result_Set_isSceneConstructed</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRSceneLoad_8h_1afb60232e429e5a5e143848a181ed5354" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSceneLoad_8h_1afb60232e429e5a5e143848a181ed5354" kindref="member">MR_SceneLoad_Result_GetMutable_isSceneConstructed</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRSceneLoad_8h_1aef06758ff6b13b8cf3f183e8c30994fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*<ref refid="MRSceneLoad_8h_1aef06758ff6b13b8cf3f183e8c30994fb" kindref="member">MR_SceneLoad_Result_Get_loadedFiles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRSceneLoad_8h_1a0baf5945e58dc4a54df45d25046e0c34" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a0baf5945e58dc4a54df45d25046e0c34" kindref="member">MR_SceneLoad_Result_Set_loadedFiles</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRSceneLoad_8h_1a2676fb7af70c15442200f34a671e39a6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*<ref refid="MRSceneLoad_8h_1a2676fb7af70c15442200f34a671e39a6" kindref="member">MR_SceneLoad_Result_GetMutable_loadedFiles</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight></codeline>
+<codeline lineno="195" refid="MRSceneLoad_8h_1a540126241b571440c9be9c5580b9b487" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1a540126241b571440c9be9c5580b9b487" kindref="member">MR_SceneLoad_Result_Get_errorSummary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight></codeline>
+<codeline lineno="205" refid="MRSceneLoad_8h_1a4dcdcd979d2e10ea2fb70649bbc28241" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4dcdcd979d2e10ea2fb70649bbc28241" kindref="member">MR_SceneLoad_Result_Set_errorSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight></codeline>
+<codeline lineno="212" refid="MRSceneLoad_8h_1a69e290b0218a5d3ec717a35f61171269" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1a69e290b0218a5d3ec717a35f61171269" kindref="member">MR_SceneLoad_Result_GetMutable_errorSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight></codeline>
+<codeline lineno="219" refid="MRSceneLoad_8h_1a9337c4b3a78f9c0bd995357cb778d2aa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1a9337c4b3a78f9c0bd995357cb778d2aa" kindref="member">MR_SceneLoad_Result_Get_warningSummary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight></codeline>
+<codeline lineno="229" refid="MRSceneLoad_8h_1a10660c1c89da8ffe7f6fad0141d31c99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a10660c1c89da8ffe7f6fad0141d31c99" kindref="member">MR_SceneLoad_Result_Set_warningSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight></codeline>
+<codeline lineno="236" refid="MRSceneLoad_8h_1ad3c7fe9fec4227a6eca42ca651d1f9d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1ad3c7fe9fec4227a6eca42ca651d1f9d0" kindref="member">MR_SceneLoad_Result_GetMutable_warningSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRSceneLoad_8h_1a89c48169d0ef98a409430a3a4c77e0f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a89c48169d0ef98a409430a3a4c77e0f3" kindref="member">MR_SceneLoad_Result_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRSceneLoad_8h_1a1377a2f85c0bc92557bcc4d6a0e768f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a1377a2f85c0bc92557bcc4d6a0e768f1" kindref="member">MR_SceneLoad_Result_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRSceneLoad_8h_1a7df7fe8fae6cc5ec37cb458b3b66b3f0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a7df7fe8fae6cc5ec37cb458b3b66b3f0" kindref="member">MR_SceneLoad_Result_ConstructFrom</ref>(MR_PassBy<sp/>scene_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*scene,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSceneConstructed,<sp/>MR_PassBy<sp/>loadedFiles_pass_by,<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*loadedFiles,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*errorSummary,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*errorSummary_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*warningSummary,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*warningSummary_end);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRSceneLoad_8h_1ae84cce1209c28fabffcc04dac201c951" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1ae84cce1209c28fabffcc04dac201c951" kindref="member">MR_SceneLoad_Result_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRSceneLoad_8h_1a0852df88ca2ace083c92a742dba8637e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a0852df88ca2ace083c92a742dba8637e" kindref="member">MR_SceneLoad_Result_OffsetMutablePtr</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRSceneLoad_8h_1a75f6fe595bc5bbc6f8a87e61ebef12ff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a75f6fe595bc5bbc6f8a87e61ebef12ff" kindref="member">MR_SceneLoad_Result_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRSceneLoad_8h_1a32285b90fa0f95716d243e98ba29baf5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a32285b90fa0f95716d243e98ba29baf5" kindref="member">MR_SceneLoad_Result_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRSceneLoad_8h_1a453e363ccebb4b74961c569eee051d90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a453e363ccebb4b74961c569eee051d90" kindref="member">MR_SceneLoad_Result_AssignFromAnother</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRSceneLoad_8h_1a0c09b40b038909b783e554e7ef97790a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a0c09b40b038909b783e554e7ef97790a" kindref="member">MR_SceneLoad_fromAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="MRSceneLoad_8h_1a4cb5cb37b1b62f59b54b21087d353b9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4cb5cb37b1b62f59b54b21087d353b9c" kindref="member">MR_SceneLoad_asyncFromAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref><sp/>*postLoadCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h"/>
+  </compounddef>
+</doxygen>

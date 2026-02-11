@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneSelectionChangeRestart" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneSelectionChangeRestart</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
+    <includes refid="MRSceneSelectionChange_8h" local="no">MRSceneSelectionChange.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SceneSelectionChangeRestart_1ae03b497a188281988804ecd125fd8f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SceneSelectionChangeRestart::updateSelection</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) override</argsstring>
+        <name>updateSelection</name>
+        <qualifiedname>MR::SceneSelectionChangeRestart::updateSelection</qualifiedname>
+        <reimplements refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6">updateSelection</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>do something on selection change, args - newly selected objects </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="31" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>restart on state change </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneSelectionChangeRestart</label>
+        <link refid="classMR_1_1SceneSelectionChangeRestart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneSelectionChangeRestart</label>
+        <link refid="classMR_1_1SceneSelectionChangeRestart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" bodystart="29" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneSelectionChangeRestart_1ae03b497a188281988804ecd125fd8f7c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>updateSelection</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>~ISceneSelectionChange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

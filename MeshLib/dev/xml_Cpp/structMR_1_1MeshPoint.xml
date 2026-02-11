@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshPoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshPoint</compoundname>
+    <includes refid="MRMeshThickness_8h" local="no">MRMeshThickness.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshPoint_1aada8def241781f58cfc3cfe595c86622" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MeshTriPoint MR::MeshPoint::triPoint</definition>
+        <argsstring></argsstring>
+        <name>triPoint</name>
+        <qualifiedname>MR::MeshPoint::triPoint</qualifiedname>
+        <briefdescription>
+<para>relative position on mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="19" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshPoint_1a3a24b45014eebfd444ca4f0e15a72c3d" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::MeshPoint::pt</definition>
+        <argsstring></argsstring>
+        <name>pt</name>
+        <qualifiedname>MR::MeshPoint::pt</qualifiedname>
+        <briefdescription>
+<para>3d coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="20" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshPoint_1ae6a8983e822178897c427087d4f65a28" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::MeshPoint::inDir</definition>
+        <argsstring></argsstring>
+        <name>inDir</name>
+        <qualifiedname>MR::MeshPoint::inDir</qualifiedname>
+        <briefdescription>
+<para>unit direction inside the mesh = minus normal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshPoint_1ab79fe5ae069fdadbd3770bdfe85a1109" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref></type>
+        <definition>FacePredicate MR::MeshPoint::notIncidentFaces</definition>
+        <argsstring></argsstring>
+        <name>notIncidentFaces</name>
+        <qualifiedname>MR::MeshPoint::notIncidentFaces</qualifiedname>
+        <briefdescription>
+<para>predicate that returns true for mesh faces not-incident to the point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="22" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MeshPoint_1a33ee706b3bfff045b2ba04b21a5c7f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::MeshPoint::set</definition>
+        <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;p)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::MeshPoint::set</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="24" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>describes the point of measurement on mesh </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MeshPoint</label>
+        <link refid="structMR_1_1MeshPoint"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>triPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="18" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshPoint_1ae6a8983e822178897c427087d4f65a28" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>inDir</name></member>
+      <member refid="structMR_1_1MeshPoint_1ab79fe5ae069fdadbd3770bdfe85a1109" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>notIncidentFaces</name></member>
+      <member refid="structMR_1_1MeshPoint_1a3a24b45014eebfd444ca4f0e15a72c3d" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>pt</name></member>
+      <member refid="structMR_1_1MeshPoint_1a33ee706b3bfff045b2ba04b21a5c7f5a" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>set</name></member>
+      <member refid="structMR_1_1MeshPoint_1aada8def241781f58cfc3cfe595c86622" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>triPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

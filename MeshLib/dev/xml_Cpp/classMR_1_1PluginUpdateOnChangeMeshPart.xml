@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PluginUpdateOnChangeMeshPart" kind="class" language="C++" prot="public">
+    <compoundname>MR::PluginUpdateOnChangeMeshPart</compoundname>
+    <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1PluginUpdateOnChangeMeshPart_1a8966c139b8539e3583cf02308b060484" prot="public" static="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>using MR::PluginUpdateOnChangeMeshPart::UpdateFunc =  std::function&lt;void()&gt;</definition>
+        <argsstring></argsstring>
+        <name>UpdateFunc</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::UpdateFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="62" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1PluginUpdateOnChangeMeshPart_1ac672aeb6f42f88a437ce92709a6aba0b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PluginUpdateOnChangeMeshPart::dirty_</definition>
+        <argsstring></argsstring>
+        <name>dirty_</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::dirty_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="72" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PluginUpdateOnChangeMeshPart_1a66e69a046397d4cb09c381d2e7021cbf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a8966c139b8539e3583cf02308b060484" kindref="member">UpdateFunc</ref></type>
+        <definition>UpdateFunc MR::PluginUpdateOnChangeMeshPart::func_</definition>
+        <argsstring></argsstring>
+        <name>func_</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::func_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="73" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PluginUpdateOnChangeMeshPart_1a2fd3a2923aaecd02cf580577dc7b634f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
+        <definition>std::vector&lt;boost::signals2::scoped_connection&gt; MR::PluginUpdateOnChangeMeshPart::connections_</definition>
+        <argsstring></argsstring>
+        <name>connections_</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::connections_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="74" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PluginUpdateOnChangeMeshPart_1af80c0adcc1ca6dfd7b24e4d98aed5dcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PluginUpdateOnChangeMeshPart::setUpdateFunc</definition>
+        <argsstring>(UpdateFunc func)</argsstring>
+        <name>setUpdateFunc</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::setUpdateFunc</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a8966c139b8539e3583cf02308b060484" kindref="member">UpdateFunc</ref></type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+<para>setup your update function that will be called if plugin is dirty in this frame </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="64" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PluginUpdateOnChangeMeshPart_1ab8919af457390e1c709327e3828a8c6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::PluginUpdateOnChangeMeshPart::preDrawUpdate</definition>
+        <argsstring>() override</argsstring>
+        <name>preDrawUpdate</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::preDrawUpdate</qualifiedname>
+        <reimplements refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8">preDrawUpdate</reimplements>
+        <briefdescription>
+<para>called each frame in before drawDialog </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="65" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1PluginUpdateOnChangeMeshPart_1a9767c4ad35864bc85b2f759c2aad5888" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::PluginUpdateOnChangeMeshPart::onPluginEnable_</definition>
+        <argsstring>() override</argsstring>
+        <name>onPluginEnable_</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::onPluginEnable_</qualifiedname>
+        <reimplements refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3">onPluginEnable_</reimplements>
+        <briefdescription>
+<para>sets dirty initially for first update, so no need to call UpdateFunc manually </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="68" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PluginUpdateOnChangeMeshPart_1a5c3907d5d352c381ea77f8c3081e136d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::PluginUpdateOnChangeMeshPart::onPluginDisable_</definition>
+        <argsstring>() override</argsstring>
+        <name>onPluginDisable_</name>
+        <qualifiedname>MR::PluginUpdateOnChangeMeshPart::onPluginDisable_</qualifiedname>
+        <reimplements refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1">onPluginDisable_</reimplements>
+        <briefdescription>
+<para>clears connections and UpdateFunc </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="70" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper class to update plugin if any of active object meshes or selected faces have changed note that events only marks plugin dirty and update happens before drawDialog function inherit your plugin from it </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="1">
+        <label>MR::PluginUpdateOnChangeMeshPart</label>
+        <link refid="classMR_1_1PluginUpdateOnChangeMeshPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="1">
+        <label>MR::PluginUpdateOnChangeMeshPart</label>
+        <link refid="classMR_1_1PluginUpdateOnChangeMeshPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="59" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="60" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a2fd3a2923aaecd02cf580577dc7b634f" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>connections_</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1ac672aeb6f42f88a437ce92709a6aba0b" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>dirty_</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a66e69a046397d4cb09c381d2e7021cbf" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>func_</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a5c3907d5d352c381ea77f8c3081e136d" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>onPluginDisable_</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a9767c4ad35864bc85b2f759c2aad5888" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>onPluginEnable_</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1ab8919af457390e1c709327e3828a8c6b" prot="public" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>preDrawUpdate</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1af80c0adcc1ca6dfd7b24e4d98aed5dcc" prot="public" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>setUpdateFunc</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>shouldClose_</name></member>
+      <member refid="classMR_1_1PluginUpdateOnChangeMeshPart_1a8966c139b8539e3583cf02308b060484" prot="public" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>UpdateFunc</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>~IPluginUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_Id_UndirectedEdgeTag</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1af05ac2375f26ba64b81ede1f3177c99b" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_Id_UndirectedEdgeTag::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83735" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ab187e2fbd85e0b16152c0a9952fee6cf" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_Id_UndirectedEdgeTag::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.element_type_byte_size</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83736" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a5b9a75d1992a0e33ff4a5c3d2652031d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Id_UndirectedEdgeTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83737" bodyend="83740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a557d3f6491fbb206d9b08b5e12fc76db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Id_UndirectedEdgeTag.__contains__</definition>
+        <argsstring>(self, UndirectedEdgeId x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83741" bodyend="83744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a758fde2447d0a8199ff4badfa5048455" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83746" bodyend="83749"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a2d31a37b17998e7ffa6fb2930b79b156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83751" bodyend="83754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a829458fe83f62283ef97d5775eb3f765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Id_UndirectedEdgeTag.__eq__</definition>
+        <argsstring>(self, std_vector_Id_UndirectedEdgeTag arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83755" bodyend="83756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a5ef61d62fcf47df46bfc7943ecbd6112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+        <definition> std_vector_Id_UndirectedEdgeTag mrmeshpy.std_vector_Id_UndirectedEdgeTag.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83758" bodyend="83761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ab1eaeb227897d87e41c6a917a18a6022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.std_vector_Id_UndirectedEdgeTag.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83763" bodyend="83764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1af5277383faaa6bf3581089ed98a4f474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83766" bodyend="83767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a6c7027dc9c3739b4dc12791a4cbeab95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83769" bodyend="83770"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1aac36634c03985d676e29e655428d8aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__init__</definition>
+        <argsstring>(self, std_vector_Id_UndirectedEdgeTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83772" bodyend="83773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a2626bc4b4c20d894b11bffdc1b0a5661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref>]</type>
+        <definition> typing.Iterator[UndirectedEdgeId] mrmeshpy.std_vector_Id_UndirectedEdgeTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83774" bodyend="83775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1aa84223a7edf19f8c2cc749b51bad74f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Id_UndirectedEdgeTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83776" bodyend="83777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1aec65b6313ccfb043c44b0a21855479a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Id_UndirectedEdgeTag.__ne__</definition>
+        <argsstring>(self, std_vector_Id_UndirectedEdgeTag arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83778" bodyend="83779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ae398ca81382cf0e0946daf55a40a26a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_vector_Id_UndirectedEdgeTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83780" bodyend="83783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a3d21d85ee87bb4036eacb13a85a3c0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__setitem__</definition>
+        <argsstring>(self, int arg0, UndirectedEdgeId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83785" bodyend="83786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a8c65b2ea2e215ffe0579b56da6ba3d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83788" bodyend="83791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1acd9cf0b1c0c4a5b2414b9a87f36a5e57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.append</definition>
+        <argsstring>(self, UndirectedEdgeId x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83792" bodyend="83795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a37af50035548e82343688b82a3aac8b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83796" bodyend="83799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1adb19d97fa90b48f91af87bdfd2dff6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Id_UndirectedEdgeTag.count</definition>
+        <argsstring>(self, UndirectedEdgeId x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83800" bodyend="83803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1af0d52e0baa6af7b424e33af49466be6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Id_UndirectedEdgeTag.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83804" bodyend="83807"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a746f0915622065082981c5a35470af8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Id_UndirectedEdgeTag.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83808" bodyend="83809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a8773501e998810685ce48c3f3b2c723a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.extend</definition>
+        <argsstring>(self, std_vector_Id_UndirectedEdgeTag L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83811" bodyend="83814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a9f83b01fe033009278e8074fc8209d84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83816" bodyend="83819"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a1ab57beb4d4c523bf3f98511e48c0c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.insert</definition>
+        <argsstring>(self, int i, UndirectedEdgeId x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83820" bodyend="83823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a46cd626f5527b00b89ce943a11de10b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.std_vector_Id_UndirectedEdgeTag.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83825" bodyend="83828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a501a34d1fd207009bf5a28202d08fd38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.std_vector_Id_UndirectedEdgeTag.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83830" bodyend="83833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a100a19147132460a3bcc56227ffcb35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.remove</definition>
+        <argsstring>(self, UndirectedEdgeId x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83834" bodyend="83837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a1fc5cc8c405efddc3c1bbd33f117b2f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83839" bodyend="83840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a738a1d451a7f93568a813bc5dd04d22b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Id_UndirectedEdgeTag.resize</definition>
+        <argsstring>(self, int arg0, UndirectedEdgeId arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83842" bodyend="83843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ab9e22a875b45add5f03f694feaee25f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Id_UndirectedEdgeTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_Id_UndirectedEdgeTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83844" bodyend="83845"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_UndirectedEdgeId
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_Id_UndirectedEdgeTag</label>
+        <link refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83731" bodyend="83845"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a5b9a75d1992a0e33ff4a5c3d2652031d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a557d3f6491fbb206d9b08b5e12fc76db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a758fde2447d0a8199ff4badfa5048455" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a2d31a37b17998e7ffa6fb2930b79b156" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a829458fe83f62283ef97d5775eb3f765" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a5ef61d62fcf47df46bfc7943ecbd6112" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ab1eaeb227897d87e41c6a917a18a6022" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1af05ac2375f26ba64b81ede1f3177c99b" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1af5277383faaa6bf3581089ed98a4f474" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a6c7027dc9c3739b4dc12791a4cbeab95" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1aac36634c03985d676e29e655428d8aab" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a2626bc4b4c20d894b11bffdc1b0a5661" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1aa84223a7edf19f8c2cc749b51bad74f7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1aec65b6313ccfb043c44b0a21855479a4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ae398ca81382cf0e0946daf55a40a26a9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a3d21d85ee87bb4036eacb13a85a3c0cf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a8c65b2ea2e215ffe0579b56da6ba3d09" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1acd9cf0b1c0c4a5b2414b9a87f36a5e57" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a37af50035548e82343688b82a3aac8b6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1adb19d97fa90b48f91af87bdfd2dff6e7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1af0d52e0baa6af7b424e33af49466be6d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ab187e2fbd85e0b16152c0a9952fee6cf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a746f0915622065082981c5a35470af8c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a8773501e998810685ce48c3f3b2c723a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a9f83b01fe033009278e8074fc8209d84" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a1ab57beb4d4c523bf3f98511e48c0c21" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a46cd626f5527b00b89ce943a11de10b9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a501a34d1fd207009bf5a28202d08fd38" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a100a19147132460a3bcc56227ffcb35c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a1fc5cc8c405efddc3c1bbd33f117b2f0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1a738a1d451a7f93568a813bc5dd04d22b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag_1ab9e22a875b45add5f03f694feaee25f1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Id_UndirectedEdgeTag</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

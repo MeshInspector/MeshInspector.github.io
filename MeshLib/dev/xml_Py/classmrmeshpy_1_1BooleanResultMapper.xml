@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BooleanResultMapper" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BooleanResultMapper</compoundname>
+    <innerclass refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" prot="public">mrmeshpy::BooleanResultMapper::MapObject</innerclass>
+    <innerclass refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps" prot="public">mrmeshpy::BooleanResultMapper::Maps</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1aa14da908ce24e51bb3f9ad0d2b2024f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultMapper.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3847" bodyend="3848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a87e52c7df15d2e63ba4442445f57e0cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref></type>
+        <definition> BooleanResultMapper mrmeshpy.BooleanResultMapper.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3851" bodyend="3852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a87e52c7df15d2e63ba4442445f57e0cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref></type>
+        <definition> BooleanResultMapper mrmeshpy.BooleanResultMapper.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3855" bodyend="3856"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a1fa7cb3afbc8de4f32bdf8704e663fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultMapper.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3858" bodyend="3859"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a7f1b35e7c83e56a91a52a5ed3179b3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultMapper.__init__</definition>
+        <argsstring>(self, BooleanResultMapper arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3861" bodyend="3864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a7269ec8516e94108a559c3570821f31b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.BooleanResultMapper.filteredOldFaceBitSet</definition>
+        <argsstring>(self, FaceBitSet oldBS, BooleanResultMapper.MapObject obj)</argsstring>
+        <name>filteredOldFaceBitSet</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.filteredOldFaceBitSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" kindref="compound">BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns updated oldBS leaving only faces that has corresponding ones in result mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3865" bodyend="3868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1ab60e169572a408e4f0808aa22f713da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1Maps" kindref="compound">BooleanResultMapper.Maps</ref></type>
+        <definition> BooleanResultMapper.Maps mrmeshpy.BooleanResultMapper.getMaps</definition>
+        <argsstring>(self, BooleanResultMapper.MapObject index)</argsstring>
+        <name>getMaps</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.getMaps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" kindref="compound">BooleanResultMapper.MapObject</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3869" bodyend="3870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a85c54607925a403a57379533d0035427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.BooleanResultMapper.map</definition>
+        <argsstring>(self, FaceBitSet oldBS, BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" kindref="compound">BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns faces bitset of result mesh corresponding input one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3872" bodyend="3875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a200a9f083b12b224673ffe24d638d866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.BooleanResultMapper.map</definition>
+        <argsstring>(self, VertBitSet oldBS, BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" kindref="compound">BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns vertices bitset of result mesh corresponding input one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3877" bodyend="3880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a413f091d16bb9b41059c977368802928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.BooleanResultMapper.map</definition>
+        <argsstring>(self, EdgeBitSet oldBS, BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" kindref="compound">BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns edges bitset of result mesh corresponding input one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3882" bodyend="3885"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1a7e7be14161a2a76c6da4c092ebdf8a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.BooleanResultMapper.map</definition>
+        <argsstring>(self, UndirectedEdgeBitSet oldBS, BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultMapper_1_1MapObject" kindref="compound">BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns undirected edges bitset of result mesh corresponding input one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3887" bodyend="3890"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultMapper_1ac57dad95088541d21d6685d6fd9962d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.BooleanResultMapper.newFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>newFaces</name>
+        <qualifiedname>mrmeshpy.BooleanResultMapper.newFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns only new faces that are created during boolean operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3891" bodyend="3894"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BooleanResultMapper
+
+\\struct MR::BooleanResultMapper
+\\brief Structure to map old mesh BitSets to new
+\\details Structure to easily map topology of MR::boolean input meshes to result mesh
+
+This structure allows to map faces, vertices and edges of mesh `A` and mesh `B` input of MR::boolean to result mesh topology primitives
+\\sa \\ref MR::boolean
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3717" bodyend="3894"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1aa14da908ce24e51bb3f9ad0d2b2024f8" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a1fa7cb3afbc8de4f32bdf8704e663fea" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a7f1b35e7c83e56a91a52a5ed3179b3f4" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a7269ec8516e94108a559c3570821f31b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>filteredOldFaceBitSet</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1ab60e169572a408e4f0808aa22f713da7" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>getMaps</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a85c54607925a403a57379533d0035427" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a200a9f083b12b224673ffe24d638d866" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a413f091d16bb9b41059c977368802928" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a7e7be14161a2a76c6da4c092ebdf8a0d" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1ac57dad95088541d21d6685d6fd9962d6" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>newFaces</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a87e52c7df15d2e63ba4442445f57e0cd" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultMapper_1a87e52c7df15d2e63ba4442445f57e0cd" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultMapper</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

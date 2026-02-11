@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BaseFitParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BaseFitParams</compoundname>
+    <derivedcompoundref refid="structMR_1_1FitBoxParams" prot="public" virt="non-virtual">MR::FitBoxParams</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1FitDataParams" prot="public" virt="non-virtual">MR::FitDataParams</derivedcompoundref>
+    <includes refid="MRFitData_8h" local="no">MRFitData.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BaseFitParams_1ae74aad8ea3ab5114c97b3b5cf02a6cd6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BaseFitParams::factor</definition>
+        <argsstring></argsstring>
+        <name>factor</name>
+        <qualifiedname>MR::BaseFitParams::factor</qualifiedname>
+        <initializer>{ 1.f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BaseFitParams_1a1ba0fadee2fc4bad0655f2b0f15211ab" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BaseFitParams::snapView</definition>
+        <argsstring></argsstring>
+        <name>snapView</name>
+        <qualifiedname>MR::BaseFitParams::snapView</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>part of the screen for scene location snapView - to snap camera angle to closest canonical quaternion orthographic view: camera moves a bit, fit FOV by the whole width or height perspective view: camera is static, fit FOV to closest border. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::BaseFitParams</label>
+        <link refid="structMR_1_1BaseFitParams"/>
+      </node>
+      <node id="2">
+        <label>MR::FitBoxParams</label>
+        <link refid="structMR_1_1FitBoxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::FitDataParams</label>
+        <link refid="structMR_1_1FitDataParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="20" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BaseFitParams_1ae74aad8ea3ab5114c97b3b5cf02a6cd6" prot="public" virt="non-virtual"><scope>MR::BaseFitParams</scope><name>factor</name></member>
+      <member refid="structMR_1_1BaseFitParams_1a1ba0fadee2fc4bad0655f2b0f15211ab" prot="public" virt="non-virtual"><scope>MR::BaseFitParams</scope><name>snapView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

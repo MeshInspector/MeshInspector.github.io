@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BasinVolumeCalculator" kind="class" language="C++" prot="public">
+    <compoundname>MR::BasinVolumeCalculator</compoundname>
+    <includes refid="MRBasinVolume_8h" local="no">MRBasinVolume.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1BasinVolumeCalculator_1a875e1b0b5335b4276b04e6ed2aa93274" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::BasinVolumeCalculator::sum_</definition>
+        <argsstring></argsstring>
+        <name>sum_</name>
+        <qualifiedname>MR::BasinVolumeCalculator::sum_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" line="21" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a9b99b97f9c008057ea3281d4f9461d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::BasinVolumeCalculator::addTerrainTri</definition>
+        <argsstring>(Triangle3f t, float level)</argsstring>
+        <name>addTerrainTri</name>
+        <qualifiedname>MR::BasinVolumeCalculator::addTerrainTri</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1ac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>pass every triangle of the basin here, and the water level; <simplesect kind="return"><para>true if the triangle is at least partially below the water level and influences on the volume </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" line="15" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1ac7233d0978a844b09ce6707086caf51c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double MR::BasinVolumeCalculator::getVolume</definition>
+        <argsstring>() const</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>MR::BasinVolumeCalculator::getVolume</qualifiedname>
+        <briefdescription>
+<para>call it after all addTerrainTri to get the volume </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" line="18" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the class to compute the volume of water some basin can accumulate, considering that water upper surface has constant z-level </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a9b99b97f9c008057ea3281d4f9461d89" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>addTerrainTri</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1ac7233d0978a844b09ce6707086caf51c" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>getVolume</name></member>
+      <member refid="classMR_1_1BasinVolumeCalculator_1a875e1b0b5335b4276b04e6ed2aa93274" prot="private" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>sum_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

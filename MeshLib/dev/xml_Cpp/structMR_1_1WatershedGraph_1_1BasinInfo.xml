@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WatershedGraph_1_1BasinInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WatershedGraph::BasinInfo</compoundname>
+    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a2e9b6e24cf6016e21030cbec21fb1240" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::WatershedGraph::BasinInfo::lowestVert</definition>
+        <argsstring></argsstring>
+        <name>lowestVert</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::lowestVert</qualifiedname>
+        <briefdescription>
+<para>in the whole basin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="17" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1ab2cb4ea433e1e7448b0b1d3bafa8c2f2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::lowestLevel</definition>
+        <argsstring></argsstring>
+        <name>lowestLevel</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::lowestLevel</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>lowest level (z-coordinate of lowestVert) in the basin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="18" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a890dc5714dfd53c95b4678e7afd830d0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::area</definition>
+        <argsstring></argsstring>
+        <name>area</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::area</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>precipitation area that flows in this basin (and if it is full, continue flowing next) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="19" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a01068990cefec48cd1195061d70f5b9a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::lowestBdLevel</definition>
+        <argsstring></argsstring>
+        <name>lowestBdLevel</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::lowestBdLevel</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>lowest position on the boundary of the basin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a4ed853b22498692e3105c691d03fbd9e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::maxVolume</definition>
+        <argsstring></argsstring>
+        <name>maxVolume</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::maxVolume</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="21" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a5c26879d176c92192f673552c21b3ea9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::accVolume</definition>
+        <argsstring></argsstring>
+        <name>accVolume</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::accVolume</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>accumulated water volume in the basin so far </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="22" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1af87b0b720148b1f8a07ced0557424191" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::lastUpdateAmount</definition>
+        <argsstring></argsstring>
+        <name>lastUpdateAmount</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::lastUpdateAmount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the amount when accVolume was last updated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="23" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1ac517049cbab38022a0ae418971403ec9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::lastMergeLevel</definition>
+        <argsstring></argsstring>
+        <name>lastMergeLevel</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::lastMergeLevel</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>water level in the basin when it was formed (by merge or creation) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="24" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a52315365a6d8090680080cd9e1d62360" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::lastMergeVolume</definition>
+        <argsstring></argsstring>
+        <name>lastMergeVolume</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::lastMergeVolume</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>water volume in the basin when it was formed (by merge or creation) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="25" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1BasinInfo_1ad87c8f736d8d1dea1c3085b690ddbab3" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref></type>
+        <definition>Graph::EdgeId MR::WatershedGraph::BasinInfo::overflowVia</definition>
+        <argsstring></argsstring>
+        <name>overflowVia</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::overflowVia</qualifiedname>
+        <briefdescription>
+<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="26" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a6505f36f6b37f2d51d0564a3de4b98e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::WatershedGraph::BasinInfo::BasinInfo</definition>
+        <argsstring>()</argsstring>
+        <name>BasinInfo</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::BasinInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a8a9b12285fe8639813ace28a93ef0f29" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::amountTillOverflow</definition>
+        <argsstring>() const</argsstring>
+        <name>amountTillOverflow</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::amountTillOverflow</qualifiedname>
+        <briefdescription>
+<para>Apparently I need this for <computeroutput><ref refid="classMR_1_1Vector" kindref="compound">MR::Vector</ref></computeroutput> to register default-constructibility inside the enclosing class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>amount of precipitation (in same units as mesh coordinates and water level), which can be added before overflowing the basin </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="32" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1WatershedGraph_1_1BasinInfo_1adf005a578ca2b6fe35277c7ea358737e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::WatershedGraph::BasinInfo::approxLevel</definition>
+        <argsstring>() const</argsstring>
+        <name>approxLevel</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::approxLevel</qualifiedname>
+        <briefdescription>
+<para>approximate current level of water (z-coordinate) in the basin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="40" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1WatershedGraph_1_1BasinInfo_1a0b1a50cc94b8a8eb3779ca22881e63d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::WatershedGraph::BasinInfo::updateAccVolume</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>updateAccVolume</name>
+        <qualifiedname>MR::WatershedGraph::BasinInfo::updateAccVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+<para>updates accumulated volume in the basin to the moment of given precipitation amount </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>due to rounding errors</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="52" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="52" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>associated with each vertex in graph </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="16" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a5c26879d176c92192f673552c21b3ea9" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>accVolume</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a8a9b12285fe8639813ace28a93ef0f29" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>amountTillOverflow</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1adf005a578ca2b6fe35277c7ea358737e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>approxLevel</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a890dc5714dfd53c95b4678e7afd830d0" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>area</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a6505f36f6b37f2d51d0564a3de4b98e0" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>BasinInfo</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1ac517049cbab38022a0ae418971403ec9" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lastMergeLevel</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a52315365a6d8090680080cd9e1d62360" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lastMergeVolume</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1af87b0b720148b1f8a07ced0557424191" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lastUpdateAmount</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a01068990cefec48cd1195061d70f5b9a" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lowestBdLevel</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1ab2cb4ea433e1e7448b0b1d3bafa8c2f2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lowestLevel</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a2e9b6e24cf6016e21030cbec21fb1240" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lowestVert</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a4ed853b22498692e3105c691d03fbd9e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>maxVolume</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1ad87c8f736d8d1dea1c3085b690ddbab3" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>overflowVia</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1BasinInfo_1a0b1a50cc94b8a8eb3779ca22881e63d3" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>updateAccVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

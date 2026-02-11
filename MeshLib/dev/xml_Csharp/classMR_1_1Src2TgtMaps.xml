@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Src2TgtMaps" kind="class" language="C#" prot="public">
+    <compoundname>MR::Src2TgtMaps</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Src2TgtMaps</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Src2TgtMaps_1a090cf9be2f9680c3ebebd7a07a0dc35c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Src2TgtMaps.Src2TgtMaps</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Src2TgtMaps</name>
+        <qualifiedname>MR.Src2TgtMaps.Src2TgtMaps</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="90" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Src2TgtMaps_1a90af47c62c3530950b0c66b0088df40f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Src2TgtMaps.Src2TgtMaps</definition>
+        <argsstring>(MR._ByValue_Src2TgtMaps _other)</argsstring>
+        <name>Src2TgtMaps</name>
+        <qualifiedname>MR.Src2TgtMaps.Src2TgtMaps</qualifiedname>
+        <param>
+          <type>MR._ByValue_Src2TgtMaps</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Src2TgtMaps.Src2TgtMaps</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="95" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="95" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Src2TgtMaps_1ac564843abe4cae9efd21f7fea20a91b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Src2TgtMaps.Src2TgtMaps</definition>
+        <argsstring>(Const_Src2TgtMaps _other)</argsstring>
+        <name>Src2TgtMaps</name>
+        <qualifiedname>MR.Src2TgtMaps.Src2TgtMaps</qualifiedname>
+        <param>
+          <type>Const_Src2TgtMaps</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Src2TgtMaps.Src2TgtMaps</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Src2TgtMaps_1afeb4501454205c739291ad3a5d68bf76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Src2TgtMaps.Src2TgtMaps</definition>
+        <argsstring>(Src2TgtMaps _other)</argsstring>
+        <name>Src2TgtMaps</name>
+        <qualifiedname>MR.Src2TgtMaps.Src2TgtMaps</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Src2TgtMaps" kindref="compound">Src2TgtMaps</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Src2TgtMaps.Src2TgtMaps</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="111" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Src2TgtMaps_1adcde982780e6df30db8b042f650f794a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Src2TgtMaps.Src2TgtMaps</definition>
+        <argsstring>(MR.FaceMap? outFmap, MR.VertMap? outVmap, MR.WholeEdgeMap? outEmap)</argsstring>
+        <name>Src2TgtMaps</name>
+        <qualifiedname>MR.Src2TgtMaps.Src2TgtMaps</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
+          <declname>outFmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>outVmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref>?</type>
+          <declname>outEmap</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Src2TgtMaps.Src2TgtMaps</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="116" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Src2TgtMaps_1acc5600fda77163d37ab2a67b82a3f329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Src2TgtMaps" kindref="compound">MR.Src2TgtMaps</ref></type>
+        <definition>unsafe MR.Src2TgtMaps MR.Src2TgtMaps.assign</definition>
+        <argsstring>(MR._ByValue_Src2TgtMaps _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Src2TgtMaps.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Src2TgtMaps</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Src2TgtMaps.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="129" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="129" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>use this adapter to call functions expecting <ref refid="classMR_1_1PartMapping" kindref="compound">PartMapping</ref> parameter to receive src2tgt dense maps Generated from class <computeroutput><ref refid="classMR_1_1Src2TgtMaps" kindref="compound">MR.Src2TgtMaps</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Src2TgtMaps</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Src2TgtMaps</label>
+        <link refid="classMR_1_1Src2TgtMaps"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Src2TgtMaps &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Src2TgtMaps</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Src2TgtMaps</label>
+        <link refid="classMR_1_1Src2TgtMaps"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Src2TgtMaps &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="89" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Src2TgtMaps_1acc5600fda77163d37ab2a67b82a3f329" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>assign</name></member>
+      <member refid="classMR_1_1Src2TgtMaps_1a090cf9be2f9680c3ebebd7a07a0dc35c" prot="package" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
+      <member refid="classMR_1_1Src2TgtMaps_1a90af47c62c3530950b0c66b0088df40f" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
+      <member refid="classMR_1_1Src2TgtMaps_1ac564843abe4cae9efd21f7fea20a91b3" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
+      <member refid="classMR_1_1Src2TgtMaps_1afeb4501454205c739291ad3a5d68bf76" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
+      <member refid="classMR_1_1Src2TgtMaps_1adcde982780e6df30db8b042f650f794a" prot="public" virt="non-virtual"><scope>MR::Src2TgtMaps</scope><name>Src2TgtMaps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

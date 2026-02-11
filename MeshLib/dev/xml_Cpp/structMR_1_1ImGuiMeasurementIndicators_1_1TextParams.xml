@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMeasurementIndicators::TextParams</compoundname>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" prot="public">MR::ImGuiMeasurementIndicators::TextParams::Line</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::ImGuiMeasurementIndicators::TextParams::borderColor</definition>
+        <argsstring></argsstring>
+        <name>borderColor</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextParams::borderColor</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Color_1a059a69f5238fa686b0c063d87ebecf40" kindref="member">Color::transparent</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optional. The convention is that this should only be set if the text is possible to hover. The border is drawn only if the alpha of this isn&apos;t zero. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="287" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a970d4a8634d4cca0de8e512e0ba92fb4" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" kindref="compound">Line</ref> &gt;</type>
+        <definition>std::optional&lt;Line&gt; MR::ImGuiMeasurementIndicators::TextParams::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextParams::line</qualifiedname>
+        <briefdescription>
+<para>Optional. Draw a line to this point from the text bubble. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="296" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a5ac7777ca9e66b4056a2ecb88153b5ea" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMeasurementIndicators::TextParams::isHovered</definition>
+        <argsstring></argsstring>
+        <name>isHovered</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextParams::isHovered</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Should imply <computeroutput>borderColor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="299" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1af838c4e58173e3c9d3464ff2aa9941f6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMeasurementIndicators::TextParams::isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextParams::isActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Should imply <computeroutput>isHovered</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="301" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a3ddcb12e9e357887d1e2769769196eed" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMeasurementIndicators::TextParams::isSelected</definition>
+        <argsstring></argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::TextParams::isSelected</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>This is independent from the bools above, but currently requires <computeroutput>borderColor</computeroutput> to be meaningful. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="304" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::ImGuiMeasurementIndicators::TextParams</label>
+        <link refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>borderColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="284" bodyend="305"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams</scope><name>borderColor</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1af838c4e58173e3c9d3464ff2aa9941f6" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams</scope><name>isActive</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a5ac7777ca9e66b4056a2ecb88153b5ea" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams</scope><name>isHovered</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a3ddcb12e9e357887d1e2769769196eed" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams</scope><name>isSelected</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a970d4a8634d4cca0de8e512e0ba92fb4" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams</scope><name>line</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

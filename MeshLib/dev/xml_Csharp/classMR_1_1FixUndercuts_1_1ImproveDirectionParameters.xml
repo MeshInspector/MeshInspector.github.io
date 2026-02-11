@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::FixUndercuts::ImproveDirectionParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.FixUndercuts.Const_ImproveDirectionParameters</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a23080597f11537815cebb203a747701a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.FixUndercuts.ImproveDirectionParameters.hintDirection</definition>
+        <argsstring></argsstring>
+        <name>hintDirection</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.hintDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="686" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="686" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1aaf7fe53da7d5d1c173bc6d561c7e5f9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixUndercuts.ImproveDirectionParameters.baseAngleStep</definition>
+        <argsstring></argsstring>
+        <name>baseAngleStep</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.baseAngleStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="689" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a8987cee399c786f246a79f77f645ddfc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixUndercuts.ImproveDirectionParameters.maxBaseAngle</definition>
+        <argsstring></argsstring>
+        <name>maxBaseAngle</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.maxBaseAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="692" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="692" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1ae28ab534ab259e3d603eecedd230d12c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FixUndercuts.ImproveDirectionParameters.polarAngleStep</definition>
+        <argsstring></argsstring>
+        <name>polarAngleStep</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.polarAngleStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="695" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="695" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1aad9a6a7a49e13f5e706e49f20d206f3f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ImproveDirectionParameters</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="699" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="699" bodyend="703"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1acce3085933a97bd0ed0660aaa88b61f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</definition>
+        <argsstring>()</argsstring>
+        <name>ImproveDirectionParameters</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="709" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="709" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a2b384a8bc5d48f0e6e9dfcb2e20332d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</definition>
+        <argsstring>(MR.Vector3f hintDirection, float baseAngleStep, float maxBaseAngle, float polarAngleStep)</argsstring>
+        <name>ImproveDirectionParameters</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>hintDirection</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseAngleStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxBaseAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>polarAngleStep</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" kindref="compound">MR.FixUndercuts.ImproveDirectionParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="720" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="720" bodyend="726"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a098408f41992c85b6b9051a42da34491" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</definition>
+        <argsstring>(MR.FixUndercuts.Const_ImproveDirectionParameters _other)</argsstring>
+        <name>ImproveDirectionParameters</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</qualifiedname>
+        <param>
+          <type>MR.FixUndercuts.Const_ImproveDirectionParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="731" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="731" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1aef2dc3df4ce571d1d7a8163b1f336dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</definition>
+        <argsstring>(ImproveDirectionParameters _other)</argsstring>
+        <name>ImproveDirectionParameters</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" kindref="compound">ImproveDirectionParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FixUndercuts.ImproveDirectionParameters.ImproveDirectionParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="743" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="743" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a30ca6dfdbb0b7a47e390cbe2c987f334" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" kindref="compound">MR.FixUndercuts.ImproveDirectionParameters</ref></type>
+        <definition>unsafe MR.FixUndercuts.ImproveDirectionParameters MR.FixUndercuts.ImproveDirectionParameters.assign</definition>
+        <argsstring>(MR.FixUndercuts.Const_ImproveDirectionParameters _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FixUndercuts.ImproveDirectionParameters.assign</qualifiedname>
+        <param>
+          <type>MR.FixUndercuts.Const_ImproveDirectionParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FixUndercuts.ImproveDirectionParameters.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="748" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="748" bodyend="755"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" kindref="compound">MR.FixUndercuts.ImproveDirectionParameters</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kindref="compound">MR.FixUndercuts.DistMapImproveDirectionParameters</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ImproveDirectionParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FixUndercuts.ImproveDirectionParameters</label>
+        <link refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ImproveDirectionParameters &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ImproveDirectionParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FixUndercuts.ImproveDirectionParameters</label>
+        <link refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ImproveDirectionParameters &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="683" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="684" bodyend="756"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a30ca6dfdbb0b7a47e390cbe2c987f334" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1aaf7fe53da7d5d1c173bc6d561c7e5f9e" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>baseAngleStep</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a23080597f11537815cebb203a747701a" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>hintDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1aad9a6a7a49e13f5e706e49f20d206f3f" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>ImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1acce3085933a97bd0ed0660aaa88b61f9" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>ImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a2b384a8bc5d48f0e6e9dfcb2e20332d2" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>ImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a098408f41992c85b6b9051a42da34491" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>ImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1aef2dc3df4ce571d1d7a8163b1f336dfa" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>ImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a8987cee399c786f246a79f77f645ddfc" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>maxBaseAngle</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1ae28ab534ab259e3d603eecedd230d12c" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::ImproveDirectionParameters</scope><name>polarAngleStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

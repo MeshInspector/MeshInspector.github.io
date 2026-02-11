@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NodeNode" kind="class" language="C#" prot="public">
+    <compoundname>MR::NodeNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NodeNode</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NodeNode_1a9c64f2332e43f1728aabb94013875894" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>new unsafe ref MR.NodeId MR.NodeNode.aNode</definition>
+        <argsstring></argsstring>
+        <name>aNode</name>
+        <qualifiedname>MR.NodeNode.aNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1501" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1501" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1NodeNode_1aab61070e7af069f5165ab2424b9499ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>new unsafe ref MR.NodeId MR.NodeNode.bNode</definition>
+        <argsstring></argsstring>
+        <name>bNode</name>
+        <qualifiedname>MR.NodeNode.bNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1503" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1503" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NodeNode_1ab21d6aed99349ef7fea6643675d3729d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NodeNode.NodeNode</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NodeNode</name>
+        <qualifiedname>MR.NodeNode.NodeNode</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1507" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1507" bodyend="1511"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NodeNode_1a1b443c190a800d1396417d42f0b7756f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NodeNode.NodeNode</definition>
+        <argsstring>()</argsstring>
+        <name>NodeNode</name>
+        <qualifiedname>MR.NodeNode.NodeNode</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1517" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1517" bodyend="1523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NodeNode_1a42143bd900e96aeaa15bdbdaadc38e37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NodeNode.NodeNode</definition>
+        <argsstring>(MR.NodeId aNode, MR.NodeId bNode)</argsstring>
+        <name>NodeNode</name>
+        <qualifiedname>MR.NodeNode.NodeNode</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>aNode</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>bNode</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1NodeNode" kindref="compound">MR.NodeNode</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1528" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1528" bodyend="1534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NodeNode_1ab32c44f82547df4cd2abe6c732ba8bfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NodeNode.NodeNode</definition>
+        <argsstring>(MR.Const_NodeNode _other)</argsstring>
+        <name>NodeNode</name>
+        <qualifiedname>MR.NodeNode.NodeNode</qualifiedname>
+        <param>
+          <type>MR.Const_NodeNode</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NodeNode.NodeNode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1539" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1539" bodyend="1546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NodeNode_1a92bdded20eba9783dae9ea060fc4ad26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NodeNode.NodeNode</definition>
+        <argsstring>(NodeNode _other)</argsstring>
+        <name>NodeNode</name>
+        <qualifiedname>MR.NodeNode.NodeNode</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NodeNode" kindref="compound">NodeNode</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NodeNode.NodeNode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1551" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1551" bodyend="1551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NodeNode_1a87a6a1b86496781f0815995d0060879c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NodeNode" kindref="compound">MR.NodeNode</ref></type>
+        <definition>unsafe MR.NodeNode MR.NodeNode.assign</definition>
+        <argsstring>(MR.Const_NodeNode _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NodeNode.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NodeNode</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NodeNode.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1556" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1556" bodyend="1563"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1NodeNode" kindref="compound">MR.NodeNode</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NodeNode</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NodeNode</label>
+        <link refid="classMR_1_1NodeNode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NodeNode &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NodeNode</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NodeNode</label>
+        <link refid="classMR_1_1NodeNode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NodeNode &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1499" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1500" bodyend="1564"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NodeNode_1a9c64f2332e43f1728aabb94013875894" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>aNode</name></member>
+      <member refid="classMR_1_1NodeNode_1a87a6a1b86496781f0815995d0060879c" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>assign</name></member>
+      <member refid="classMR_1_1NodeNode_1aab61070e7af069f5165ab2424b9499ba" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>bNode</name></member>
+      <member refid="classMR_1_1NodeNode_1ab21d6aed99349ef7fea6643675d3729d" prot="package" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
+      <member refid="classMR_1_1NodeNode_1a1b443c190a800d1396417d42f0b7756f" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
+      <member refid="classMR_1_1NodeNode_1a42143bd900e96aeaa15bdbdaadc38e37" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
+      <member refid="classMR_1_1NodeNode_1ab32c44f82547df4cd2abe6c732ba8bfe" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
+      <member refid="classMR_1_1NodeNode_1a92bdded20eba9783dae9ea060fc4ad26" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

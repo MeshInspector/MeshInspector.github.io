@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NormalsToPoints_1_1ISolver" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::NormalsToPoints::ISolver</compoundname>
+    <includes refid="MRNormalsToPoints_8h" local="no">MRNormalsToPoints.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NormalsToPoints_1_1ISolver_1a97ac4ee2142618c5639b5a67cccef1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::NormalsToPoints::ISolver::~ISolver</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ISolver</name>
+        <qualifiedname>MR::NormalsToPoints::ISolver::~ISolver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" line="31" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NormalsToPoints_1_1ISolver_1ac59de77fbc45059cde04afe08a262666" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::NormalsToPoints::ISolver::prepare</definition>
+        <argsstring>(const MeshTopology &amp;topology, float guideWeight)=0</argsstring>
+        <name>prepare</name>
+        <qualifiedname>MR::NormalsToPoints::ISolver::prepare</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" line="32" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NormalsToPoints_1_1ISolver_1ae336851ab46c31fc8f961484c2b45b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::NormalsToPoints::ISolver::run</definition>
+        <argsstring>(const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points, float maxInitialDistSq)=0</argsstring>
+        <name>run</name>
+        <qualifiedname>MR::NormalsToPoints::ISolver::run</qualifiedname>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>guide</declname>
+        </param>
+        <param>
+          <type>const FaceNormals &amp;</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxInitialDistSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" line="33" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>pImpl </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" bodystart="29" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NormalsToPoints_1_1ISolver_1ac59de77fbc45059cde04afe08a262666" prot="public" virt="pure-virtual"><scope>MR::NormalsToPoints::ISolver</scope><name>prepare</name></member>
+      <member refid="classMR_1_1NormalsToPoints_1_1ISolver_1ae336851ab46c31fc8f961484c2b45b5a" prot="public" virt="pure-virtual"><scope>MR::NormalsToPoints::ISolver</scope><name>run</name></member>
+      <member refid="classMR_1_1NormalsToPoints_1_1ISolver_1a97ac4ee2142618c5639b5a67cccef1c2" prot="public" virt="virtual"><scope>MR::NormalsToPoints::ISolver</scope><name>~ISolver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

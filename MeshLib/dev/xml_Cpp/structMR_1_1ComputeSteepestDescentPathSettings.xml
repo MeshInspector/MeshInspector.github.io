@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ComputeSteepestDescentPathSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ComputeSteepestDescentPathSettings</compoundname>
+    <includes refid="MRSurfacePath_8h" local="no">MRSurfacePath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ComputeSteepestDescentPathSettings_1a9c5b63e96c36543a3af9203630d6325c" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MeshTriPoint MR::ComputeSteepestDescentPathSettings::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR::ComputeSteepestDescentPathSettings::end</qualifiedname>
+        <briefdescription>
+<para>if valid, then the descent is stopped as soon as same triangle with (end) is reached </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="72" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSteepestDescentPathSettings_1adb7629a9e4ce0c21efc00fd5f1b3932f" prot="public" static="no" mutable="no">
+        <type>VertId *</type>
+        <definition>VertId* MR::ComputeSteepestDescentPathSettings::outVertexReached</definition>
+        <argsstring></argsstring>
+        <name>outVertexReached</name>
+        <qualifiedname>MR::ComputeSteepestDescentPathSettings::outVertexReached</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="74" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSteepestDescentPathSettings_1a133dd657607eb8f8e2745935031c0ed0" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> *</type>
+        <definition>EdgePoint* MR::ComputeSteepestDescentPathSettings::outBdReached</definition>
+        <argsstring></argsstring>
+        <name>outBdReached</name>
+        <qualifiedname>MR::ComputeSteepestDescentPathSettings::outBdReached</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="76" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ComputeSteepestDescentPathSettings</label>
+        <link refid="structMR_1_1ComputeSteepestDescentPathSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>end</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>outBdReached</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::EdgePoint</label>
+        <link refid="structMR_1_1EdgePoint"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="69" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="70" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1a9c5b63e96c36543a3af9203630d6325c" prot="public" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>end</name></member>
+      <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1a133dd657607eb8f8e2745935031c0ed0" prot="public" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>outBdReached</name></member>
+      <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1adb7629a9e4ce0c21efc00fd5f1b3932f" prot="public" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>outVertexReached</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

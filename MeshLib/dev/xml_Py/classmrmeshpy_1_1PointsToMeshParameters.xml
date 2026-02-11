@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsToMeshParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsToMeshParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a6fb1ec885e7f0c17df1f687cba2b09ca" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_minWeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minWeight</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_minWeight</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45616" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1adccffbe49ec55cc30fdf48403863da71" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_progress</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a4e3456c19053dab1b24fa7d6657f3731" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_ptColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_ptColors</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_ptColors</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45618" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1afa5e78ae8246a62fbf30bd3c281c8184" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_sigma</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_sigma</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_sigma</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45619" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1a686af4ee1802e0d16fb86bdfbe8e1e4b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_vColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vColors</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_vColors</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsToMeshParameters_1ac7d0df4351049db96b881f65b88eadb3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsToMeshParameters::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters._offsetof_voxelSize</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45621" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1aa0b4f1e75dc3bdba4798a5246251d6dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45624" bodyend="45625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></type>
+        <definition> PointsToMeshParameters mrmeshpy.PointsToMeshParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45628" bodyend="45629"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></type>
+        <definition> PointsToMeshParameters mrmeshpy.PointsToMeshParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45632" bodyend="45633"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ac8719faad46d177c5c0b8cca1af6531e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45635" bodyend="45636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1abefb38c66f6ee20b7d74200caddd32d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.__init__</definition>
+        <argsstring>(self, PointsToMeshParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45638" bodyend="45641"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ad8ea8854f998238bda997e17a00625a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.__init__</definition>
+        <argsstring>(self, float sigma, float minWeight, float voxelSize, VertColors ptColors, VertColors vColors, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minWeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>ptColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>vColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45643" bodyend="45646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1aed14ef4130d1188cb31d2c2fd103b0d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointsToMeshParameters.minWeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>minWeight</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.minWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45648" bodyend="45651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ad7bfdc0ea43fd7af3fce90b7927a31ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.minWeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minWeight</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.minWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45653" bodyend="45654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1af62032a5650ece11b6e5caec73ebc931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.PointsToMeshParameters.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45656" bodyend="45659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1af4bc95eb4e477741fad621fa48d2c211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45661" bodyend="45662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1ac577765f6f059a8f6063ed55fda7655f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.PointsToMeshParameters.ptColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>ptColors</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.ptColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional input: colors of input points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45664" bodyend="45667"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a519b18c35214589756f21a50559eb21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.ptColors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>ptColors</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.ptColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45669" bodyend="45670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a0c13ded96d73eb82a6b4e05b1b5e3746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointsToMeshParameters.sigma</definition>
+        <argsstring>(self)</argsstring>
+        <name>sigma</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.sigma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>it the distance of highest influence of a point;
+the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45672" bodyend="45676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a64be4241fa90a4b92be85e7824f19521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.sigma</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>sigma</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.sigma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45678" bodyend="45679"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a94397601d0a17461593aa86a44b693af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.PointsToMeshParameters.vColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>vColors</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.vColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: averaged colors of mesh vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45681" bodyend="45684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1a0613b95e78f37f47258e1afcf697fb45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.vColors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>vColors</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.vColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45686" bodyend="45687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1aaaad0c4d8e268e5eec9d20a26d911514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointsToMeshParameters.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Size of voxel in grid conversions;
+The user is responsible for setting some positive value here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45689" bodyend="45693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshParameters_1abb067a143a69e555be0b1b721d16ea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsToMeshParameters.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.PointsToMeshParameters.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45695" bodyend="45696"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointsToMeshParameters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointsToMeshParameters</label>
+        <link refid="classmrmeshpy_1_1PointsToMeshParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_minWeight</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_ptColors</edgelabel>
+          <edgelabel>_offsetof_sigma</edgelabel>
+          <edgelabel>_offsetof_vColors</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45612" bodyend="45696"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aa0b4f1e75dc3bdba4798a5246251d6dc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ac8719faad46d177c5c0b8cca1af6531e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1abefb38c66f6ee20b7d74200caddd32d0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ad8ea8854f998238bda997e17a00625a0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6fb1ec885e7f0c17df1f687cba2b09ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_minWeight</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1adccffbe49ec55cc30fdf48403863da71" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a4e3456c19053dab1b24fa7d6657f3731" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_ptColors</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1afa5e78ae8246a62fbf30bd3c281c8184" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_sigma</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a686af4ee1802e0d16fb86bdfbe8e1e4b" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_vColors</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ac7d0df4351049db96b881f65b88eadb3" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aed14ef4130d1188cb31d2c2fd103b0d8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>minWeight</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ad7bfdc0ea43fd7af3fce90b7927a31ca" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>minWeight</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1af62032a5650ece11b6e5caec73ebc931" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1af4bc95eb4e477741fad621fa48d2c211" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ac577765f6f059a8f6063ed55fda7655f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>ptColors</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a519b18c35214589756f21a50559eb21e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>ptColors</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a0c13ded96d73eb82a6b4e05b1b5e3746" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>sigma</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a64be4241fa90a4b92be85e7824f19521" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>sigma</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a94397601d0a17461593aa86a44b693af" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>vColors</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a0613b95e78f37f47258e1afcf697fb45" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>vColors</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aaaad0c4d8e268e5eec9d20a26d911514" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshParameters_1abb067a143a69e555be0b1b721d16ea9b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

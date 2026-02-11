@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__IntersectionGroup" kind="group">
+    <compoundname>IntersectionGroup</compoundname>
+    <title>Intersection</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__IntersectionGroup_1ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; Line3&lt; T &gt; &gt;</type>
+        <definition>std::optional&lt; Line3&lt; T &gt; &gt; MR::intersection</definition>
+        <argsstring>(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR::intersection</qualifiedname>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane1</declname>
+        </param>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane2</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>errorLimit</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon() *T(20)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds an intersection between a plane1 and a plane2 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>plane1</parametername>
+<parametername>plane2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be normalized for check parallelism </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if they are parallel (even if they match) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="22" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="22" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga5aa33ccde105060c1f523292e81dfcbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; Vector3&lt; T &gt; &gt;</type>
+        <definition>std::optional&lt; Vector3&lt; T &gt; &gt; MR::intersection</definition>
+        <argsstring>(const Plane3&lt; T &gt; &amp;plane, const Line3&lt; T &gt; &amp;line, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR::intersection</qualifiedname>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>errorLimit</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon() *T(20)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds an intersection between a plane and a line <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>plane</parametername>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be normalized for check parallelism </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if they are parallel (even line belongs to plane) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="40" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1gad9c4f2546d1a40da39bccf700c70ee49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; Vector3&lt; T &gt; &gt;</type>
+        <definition>std::optional&lt; Vector3&lt; T &gt; &gt; MR::intersection</definition>
+        <argsstring>(const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR::intersection</qualifiedname>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line1</declname>
+        </param>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line2</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>errorLimit</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon() *T(20)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds an intersection between a line1 and a line2 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line1</parametername>
+<parametername>line2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be normalized for check parallelism </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if they are not intersect (even if they match) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>check for calculation</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="53" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="53" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga09243a2c7d047fea71d5b6ee805bb486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::optional&lt; Vector2f &gt;</type>
+        <definition>std::optional&lt; Vector2f &gt; MR::intersection</definition>
+        <argsstring>(const LineSegm2f &amp;segm1, const LineSegm2f &amp;segm2)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR::intersection</qualifiedname>
+        <param>
+          <type>const LineSegm2f &amp;</type>
+          <declname>segm1</declname>
+        </param>
+        <param>
+          <type>const LineSegm2f &amp;</type>
+          <declname>segm2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds an intersection between a segm1 and a segm2 <simplesect kind="return"><para>nullopt if they don&apos;t intersect (even if they match) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="74" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="74" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga8fe41c203bb90cc8a7dc06426f6682f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt; T &gt; MR::distanceSq</definition>
+        <argsstring>(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</argsstring>
+        <name>distanceSq</name>
+        <qualifiedname>MR::distanceSq</qualifiedname>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane1</declname>
+        </param>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane2</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>errorLimit</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon() *T(20)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds squared distance between a plane1 and a plane2 <simplesect kind="return"><para>nullopt if they intersect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="90" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="90" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga9f71b2c20cd6a91f42d8d76dbc038190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt; T &gt; MR::distance</definition>
+        <argsstring>(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</argsstring>
+        <name>distance</name>
+        <qualifiedname>MR::distance</qualifiedname>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane1</declname>
+        </param>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane2</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>errorLimit</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon() *T(20)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds distance between a plane1 and a plane2 <simplesect kind="return"><para>nullopt if they intersect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="104" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="104" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga0687cd4a683d6fecc91850b82a02be37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt; T &gt; MR::distance</definition>
+        <argsstring>(const Plane3&lt; T &gt; &amp;plane, const Line3&lt; T &gt; &amp;line, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</argsstring>
+        <name>distance</name>
+        <qualifiedname>MR::distance</qualifiedname>
+        <param>
+          <type>const Plane3&lt; T &gt; &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>errorLimit</declname>
+          <defval>std::numeric_limits&lt; T &gt;::epsilon() *T(20)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds distance between a plane and a line; <simplesect kind="return"><para>nullopt if they intersect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="116" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1gaab24181e6c7cccda09f6e6fc5045f3a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>LineSegm3&lt; T &gt;</type>
+        <definition>LineSegm3&lt; T &gt; MR::closestPoints</definition>
+        <argsstring>(const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2)</argsstring>
+        <name>closestPoints</name>
+        <qualifiedname>MR::closestPoints</qualifiedname>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line1</declname>
+        </param>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the closest points between two lines in 3D; for parallel lines the selection is arbitrary; <simplesect kind="return"><para>two equal points if the lines intersect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>lines are parallel</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="130" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="130" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga174ea372194ccce008006eeca81c9c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>LineSegm3&lt; T &gt;</type>
+        <definition>LineSegm3&lt; T &gt; MR::closestPoints</definition>
+        <argsstring>(const Line3&lt; T &gt; &amp;ln, const LineSegm3&lt; T &gt; &amp;ls)</argsstring>
+        <name>closestPoints</name>
+        <qualifiedname>MR::closestPoints</qualifiedname>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>ln</declname>
+        </param>
+        <param>
+          <type>const LineSegm3&lt; T &gt; &amp;</type>
+          <declname>ls</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the closest points between an infinite line and finite line segment in 3D; for parallel lines the selection is arbitrary; <simplesect kind="return"><para>two equal points if the lines intersect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>lines are parallel</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="154" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="154" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga4396b23b8c03f5aa66c3cd584dbdfe48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>LineSegm3&lt; T &gt;</type>
+        <definition>LineSegm3&lt; T &gt; MR::closestPoints</definition>
+        <argsstring>(const Line3&lt; T &gt; &amp;line, const Box3&lt; T &gt; &amp;box)</argsstring>
+        <name>closestPoints</name>
+        <qualifiedname>MR::closestPoints</qualifiedname>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const Box3&lt; T &gt; &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+<para>finds the closest points between a line and a box wireframe (not solid) in 3D </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>consider box edges parallel to unit vector #iDir</para>
+<para>line is parallel to box edge</para>
+<para>t is line parameter: 0 - line.p, 1 - line.p + line.d</para>
+<para>u is box edge parameter, find the point closest to line(t)</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="177" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1ga1ff63020d1319814baf4c97e72dfcc2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::intersection</definition>
+        <argsstring>(const Line&lt; V &gt; &amp;line, const Sphere&lt; V &gt; &amp;sphere)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR::intersection</qualifiedname>
+        <param>
+          <type>const Line&lt; V &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const Sphere&lt; V &gt; &amp;</type>
+          <declname>sphere</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds intersection points between a line and a sphere; if found then returns parameters on the line </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" line="269" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersection.h" bodystart="269" bodyend="285"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

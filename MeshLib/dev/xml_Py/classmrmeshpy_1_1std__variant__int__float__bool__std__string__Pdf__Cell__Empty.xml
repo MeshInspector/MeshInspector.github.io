@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1acc9b0b08a957a646d454c43181a657c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79189" bodyend="79190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a8962e3f571ed4bc619fcf21e49a2ef36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self, std_variant_int_float_bool_std_string_Pdf_Cell_Empty arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty" kindref="compound">std_variant_int_float_bool_std_string_Pdf_Cell_Empty</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79192" bodyend="79193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a1b1440c3152d0778d8c7598e88cea6a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79195" bodyend="79196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ab7d1f47b1fe7c736b634971bb19654fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self, float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79198" bodyend="79199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a84ef61df699e993780cda59130aaea1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self, bool arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79201" bodyend="79202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ac2945943ac45f63ce7f4ec490e4d7d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self, str arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79204" bodyend="79205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1aba19a9a3b2a61b93dafeae53ff257c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</definition>
+        <argsstring>(self, Pdf.Cell.Empty arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1Cell_1_1Empty" kindref="compound">Pdf.Cell.Empty</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79207" bodyend="79208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ae5418a4029dab82ff2237434e74242a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79209" bodyend="79212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a03888de272aae4d24bfd9aed76b87663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1Cell_1_1Empty" kindref="compound">Pdf.Cell.Empty</ref></type>
+        <definition> Pdf.Cell.Empty mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_Pdf_Cell_Empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Pdf_Cell_Empty</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_Pdf_Cell_Empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79213" bodyend="79216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ac74c8d2350a480fc698bb2642a63d862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_bool</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_bool</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_bool</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79217" bodyend="79220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ae0f9d058183677f550117df79d666055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_float</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_float</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_float</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79221" bodyend="79224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a102aa40ea58ea9ada35c969e7937194b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_int</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_int</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_int</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79225" bodyend="79228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1af95a9745749dbdfb492eea52e6b42be8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_std_string</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_std_string</name>
+        <qualifiedname>mrmeshpy.std_variant_int_float_bool_std_string_Pdf_Cell_Empty.get_std_string</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79229" bodyend="79232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  Pdf.Cell.Value
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79184" bodyend="79232"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1acc9b0b08a957a646d454c43181a657c2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a8962e3f571ed4bc619fcf21e49a2ef36" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a1b1440c3152d0778d8c7598e88cea6a5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ab7d1f47b1fe7c736b634971bb19654fd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a84ef61df699e993780cda59130aaea1f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ac2945943ac45f63ce7f4ec490e4d7d5f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1aba19a9a3b2a61b93dafeae53ff257c07" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ae5418a4029dab82ff2237434e74242a3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ac74c8d2350a480fc698bb2642a63d862" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>get_bool</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1ae0f9d058183677f550117df79d666055" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>get_float</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a102aa40ea58ea9ada35c969e7937194b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>get_int</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1a03888de272aae4d24bfd9aed76b87663" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>get_Pdf_Cell_Empty</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__Cell__Empty_1af95a9745749dbdfb492eea52e6b42be8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_int_float_bool_std_string_Pdf_Cell_Empty</scope><name>get_std_string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

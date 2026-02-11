@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshOnVoxelsT" kind="class" language="C++" prot="public">
+    <compoundname>MR::MeshOnVoxelsT</compoundname>
+    <includes refid="MRMoveMeshToVoxelMaxDeriv_8h" local="no">MRMoveMeshToVoxelMaxDeriv.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename MeshType</type>
+      </param>
+      <param>
+        <type>typename VolumeType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1af1555f79b2a0654fd04dc375fef93dc6" prot="private" static="no" mutable="no">
+        <type>MeshType &amp;</type>
+        <definition>MeshType&amp; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::mesh_</definition>
+        <argsstring></argsstring>
+        <name>mesh_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::mesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="215" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1ae4da34829de99e8f2c5a2c184c5d4449" prot="private" static="no" mutable="no">
+        <type>const VolumeType &amp;</type>
+        <definition>const VolumeType&amp; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::volume_</definition>
+        <argsstring></argsstring>
+        <name>volume_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::volume_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="216" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1a19c39d3f004d6bbfc0b0075e0e2ddba1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::voxelSize_</definition>
+        <argsstring></argsstring>
+        <name>voxelSize_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::voxelSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="217" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1af5a63a5e009887b0f25a64e6b5f074e6" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor</ref>&lt; VolumeType &gt;</type>
+        <definition>VoxelsVolumeAccessor&lt;VolumeType&gt; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::accessor_</definition>
+        <argsstring></argsstring>
+        <name>accessor_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::accessor_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="218" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1a49b79cc6eac8b8039ff28dce66a22600" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" kindref="compound">VoxelsVolumeInterpolatedAccessor</ref>&lt; <ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor</ref>&lt; VolumeType &gt; &gt;</type>
+        <definition>VoxelsVolumeInterpolatedAccessor&lt;VoxelsVolumeAccessor&lt;VolumeType&gt; &gt; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::interpolator_</definition>
+        <argsstring></argsstring>
+        <name>interpolator_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::interpolator_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="219" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1a13b0625d34855ef74b546cefe6412c12" prot="private" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xf_</definition>
+        <argsstring></argsstring>
+        <name>xf_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="220" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1a575e119acee3b39878fb5d9d146720dc" prot="private" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xfInv_</definition>
+        <argsstring></argsstring>
+        <name>xfInv_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xfInv_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="220" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1ae7483268919fc5d3b6af61c27af7dae1" prot="private" static="no" mutable="no">
+        <type>Matrix3f</type>
+        <definition>Matrix3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xfNormal_</definition>
+        <argsstring></argsstring>
+        <name>xfNormal_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xfNormal_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="221" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1a72560acbdd6f6c3baa56ece0eb15e5c3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::noXf_</definition>
+        <argsstring></argsstring>
+        <name>noXf_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::noXf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="222" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshOnVoxelsT_1ae85e3e7185b4e8cbfab807397b915a52" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::numVerts_</definition>
+        <argsstring></argsstring>
+        <name>numVerts_</name>
+        <qualifiedname>MR::MeshOnVoxelsT::numVerts_</qualifiedname>
+        <briefdescription>
+<para>Xf is unit or translation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="223" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1ab7eae2f762b72e60e07cd5db6b8b2ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::MeshOnVoxelsT</definition>
+        <argsstring>(MeshType &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;volume, const AffineXf3f &amp;volumeXf)</argsstring>
+        <name>MeshOnVoxelsT</name>
+        <qualifiedname>MR::MeshOnVoxelsT::MeshOnVoxelsT</qualifiedname>
+        <param>
+          <type>MeshType &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>meshXf</declname>
+        </param>
+        <param>
+          <type>const VolumeType &amp;</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>volumeXf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="139" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a1b322982116a13162da2b64a54ffc5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::MeshOnVoxelsT</definition>
+        <argsstring>(const MeshOnVoxelsT &amp;other)</argsstring>
+        <name>MeshOnVoxelsT</name>
+        <qualifiedname>MR::MeshOnVoxelsT::MeshOnVoxelsT</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="140" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a0ccc7e9cad6df03bf25b347c38523ca0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> MeshType &amp;</type>
+        <definition>MRVOXELS_API MeshType &amp; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::mesh</definition>
+        <argsstring>() const</argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::MeshOnVoxelsT::mesh</qualifiedname>
+        <briefdescription>
+<para>Access to base data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="143" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a88f2d28749bdf9bfb0f0ef8a613b240c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> const VolumeType &amp;</type>
+        <definition>MRVOXELS_API const VolumeType &amp; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::volume</definition>
+        <argsstring>() const</argsstring>
+        <name>volume</name>
+        <qualifiedname>MR::MeshOnVoxelsT::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="145" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a12227796564ddc80465829d668777dbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> int</type>
+        <definition>MRVOXELS_API int MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::numVerts</definition>
+        <argsstring>() const</argsstring>
+        <name>numVerts</name>
+        <qualifiedname>MR::MeshOnVoxelsT::numVerts</qualifiedname>
+        <briefdescription>
+<para>Cached number of valid vertices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="149" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a256eaf8e5d728b140dd616866d8516f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <definition>MRVOXELS_API float MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::voxelSize</definition>
+        <argsstring>() const</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::MeshOnVoxelsT::voxelSize</qualifiedname>
+        <briefdescription>
+<para>Voxel size as scalar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="152" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1af0ad76908c340e791ac6be32f5ad272b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> AffineXf3f</type>
+        <definition>MRVOXELS_API AffineXf3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xf</definition>
+        <argsstring>() const</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transformation mesh to volume All points are in voxels volume space, unless otherwise is implied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="157" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a76a21f869bff0cb1d85a80906e310f10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Vector3f</type>
+        <definition>MRVOXELS_API Vector3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xf</definition>
+        <argsstring>(const Vector3f &amp;pt) const</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xf</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="159" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1aecb9e08f49135604a5f49d18194c20cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> AffineXf3f</type>
+        <definition>MRVOXELS_API AffineXf3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xfInv</definition>
+        <argsstring>() const</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xfInv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="161" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a53f243743c47a840a26a5421adebced0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Vector3f</type>
+        <definition>MRVOXELS_API Vector3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::xfInv</definition>
+        <argsstring>(const Vector3f &amp;pt) const</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>MR::MeshOnVoxelsT::xfInv</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="163" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a1e804485d47771585c930ff0a81a66a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Vector3f</type>
+        <definition>MRVOXELS_API Vector3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::point</definition>
+        <argsstring>(VertId v) const</argsstring>
+        <name>point</name>
+        <qualifiedname>MR::MeshOnVoxelsT::point</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Vertex position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="167" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a3f6e6954e2e6f3fcd2d0e7ab8457fade" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <definition>MRVOXELS_API float MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getValue</definition>
+        <argsstring>(const Vector3f &amp;pos) const</argsstring>
+        <name>getValue</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getValue</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Volume value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="170" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a6dd75cbf4661108c487f954a05415b11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Vector3f</type>
+        <definition>MRVOXELS_API Vector3f MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getOffsetVector</definition>
+        <argsstring>(VertId v) const</argsstring>
+        <name>getOffsetVector</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getOffsetVector</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Get offset vector (mesh normal for a vertex with <computeroutput>voxelSize</computeroutput> length) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="173" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1ab69563c8e51540d8c264e0ee402a355d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> void</type>
+        <definition>MRVOXELS_API void MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getPoints</definition>
+        <argsstring>(std::vector&lt; Vector3f &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getPoints</qualifiedname>
+        <param>
+          <type>std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Get row of points with <computeroutput>offset</computeroutput> stride. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="184" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a33f94216a2214a0e15f277f63c9b006c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> void</type>
+        <definition>MRVOXELS_API void MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getValues</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</argsstring>
+        <name>getValues</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getValues</qualifiedname>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Get volume values for a row of points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="187" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a2f76915f609b8c542aba9417771526a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <definition>static MRVOXELS_API float MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::pseudoIndex</definition>
+        <argsstring>(float index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>MR::MeshOnVoxelsT::pseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a pseudo-index for a zero-based point index in a zero-centered row of <computeroutput>count</computeroutput> points Pseudo-index is a signed number; for whole index, is is whole or half-whole </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="177" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a90497ee87e024abb594efb89847f8190" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <definition>static MRVOXELS_API float MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::pseudoIndex</definition>
+        <argsstring>(int index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>MR::MeshOnVoxelsT::pseudoIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="179" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1aeb9d223b5a1d489a0436b404e0f76e80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <definition>static MRVOXELS_API float MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::indexFromPseudoIndex</definition>
+        <argsstring>(float pseudoIndex, int count)</argsstring>
+        <name>indexFromPseudoIndex</name>
+        <qualifiedname>MR::MeshOnVoxelsT::indexFromPseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pseudoIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="181" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a4de846d8d930e15bb6fa705a3f1f7a12" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> void</type>
+        <definition>static MRVOXELS_API void MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getDerivatives</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;result, const std::vector&lt; float &gt; &amp;values)</argsstring>
+        <name>getDerivatives</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getDerivatives</qualifiedname>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>Get derivatives from result of <computeroutput>getValues</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="190" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1ab03c8e85d6fdbd1979958ae95134380e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Parabolaf</type>
+        <definition>static Parabolaf MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getBestParabola</definition>
+        <argsstring>(auto begin, auto end)</argsstring>
+        <name>getBestParabola</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getBestParabola</qualifiedname>
+        <param>
+          <type>auto</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>auto</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Get best fit parabola in pseudo-index space for a zero-centered array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="193" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="193" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a83f8e2bd9eba7c5f3d14e26e47be466b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>degree</declname>
+            <defname>degree</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceMR_1aede2a83d70208855b602da974aafc690" kindref="member">Polynomialf</ref>&lt; degree &gt;</type>
+        <definition>static Polynomialf&lt; degree &gt; MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getBestPolynomial</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;values)</argsstring>
+        <name>getBestPolynomial</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getBestPolynomial</qualifiedname>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="203" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="203" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1af6da6c7878b946722d02edfeac307b8a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1ac65c37e27766cd612f9f5c957df76238" kindref="member">PolynomialWrapperf</ref></type>
+        <definition>static MRVOXELS_API PolynomialWrapperf MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getBestPolynomial</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;values, size_t degree)</argsstring>
+        <name>getBestPolynomial</name>
+        <qualifiedname>MR::MeshOnVoxelsT::getBestPolynomial</qualifiedname>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="212" column="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper class to organize mesh and voxels volume access and build point sequences <simplesect kind="note"><para>this class is not thread-safe but accessing same volume from different instances is ok </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="137" bodyend="224"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshOnVoxelsT_1af5a63a5e009887b0f25a64e6b5f074e6" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>accessor_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1ab03c8e85d6fdbd1979958ae95134380e" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getBestParabola</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a83f8e2bd9eba7c5f3d14e26e47be466b" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getBestPolynomial</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1af6da6c7878b946722d02edfeac307b8a" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getBestPolynomial</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a4de846d8d930e15bb6fa705a3f1f7a12" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getDerivatives</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a6dd75cbf4661108c487f954a05415b11" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getOffsetVector</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1ab69563c8e51540d8c264e0ee402a355d" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getPoints</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a3f6e6954e2e6f3fcd2d0e7ab8457fade" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getValue</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a33f94216a2214a0e15f277f63c9b006c" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getValues</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1aeb9d223b5a1d489a0436b404e0f76e80" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>indexFromPseudoIndex</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a49b79cc6eac8b8039ff28dce66a22600" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>interpolator_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a0ccc7e9cad6df03bf25b347c38523ca0" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>mesh</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1af1555f79b2a0654fd04dc375fef93dc6" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>mesh_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1ab7eae2f762b72e60e07cd5db6b8b2ed1" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>MeshOnVoxelsT</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a1b322982116a13162da2b64a54ffc5c1" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>MeshOnVoxelsT</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a72560acbdd6f6c3baa56ece0eb15e5c3" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>noXf_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a12227796564ddc80465829d668777dbd" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>numVerts</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1ae85e3e7185b4e8cbfab807397b915a52" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>numVerts_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a1e804485d47771585c930ff0a81a66a6" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>point</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a2f76915f609b8c542aba9417771526a1" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>pseudoIndex</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a90497ee87e024abb594efb89847f8190" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>pseudoIndex</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a88f2d28749bdf9bfb0f0ef8a613b240c" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>volume</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1ae4da34829de99e8f2c5a2c184c5d4449" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>volume_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a256eaf8e5d728b140dd616866d8516f0" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a19c39d3f004d6bbfc0b0075e0e2ddba1" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>voxelSize_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1af0ad76908c340e791ac6be32f5ad272b" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xf</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a76a21f869bff0cb1d85a80906e310f10" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xf</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a13b0625d34855ef74b546cefe6412c12" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xf_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1aecb9e08f49135604a5f49d18194c20cf" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xfInv</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a53f243743c47a840a26a5421adebced0" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xfInv</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1a575e119acee3b39878fb5d9d146720dc" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xfInv_</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1ae7483268919fc5d3b6af61c27af7dae1" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>xfNormal_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

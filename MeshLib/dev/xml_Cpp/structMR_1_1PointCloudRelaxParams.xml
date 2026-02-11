@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointCloudRelaxParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointCloudRelaxParams</compoundname>
+    <basecompoundref refid="structMR_1_1RelaxParams" prot="public" virt="non-virtual">MR::RelaxParams</basecompoundref>
+    <derivedcompoundref refid="structMR_1_1PointCloudApproxRelaxParams" prot="public" virt="non-virtual">MR::PointCloudApproxRelaxParams</derivedcompoundref>
+    <includes refid="MRPointCloudRelax_8h" local="no">MRPointCloudRelax.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointCloudRelaxParams_1ab8de6ecb0effc2fb5ae7f053955d6caf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PointCloudRelaxParams::neighborhoodRadius</definition>
+        <argsstring></argsstring>
+        <name>neighborhoodRadius</name>
+        <qualifiedname>MR::PointCloudRelaxParams::neighborhoodRadius</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::PointCloudApproxRelaxParams</label>
+        <link refid="structMR_1_1PointCloudApproxRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::PointCloudRelaxParams</label>
+        <link refid="structMR_1_1PointCloudRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RelaxParams</label>
+        <link refid="structMR_1_1RelaxParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::PointCloudRelaxParams</label>
+        <link refid="structMR_1_1PointCloudRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RelaxParams</label>
+        <link refid="structMR_1_1RelaxParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RelaxParams_1a47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>_padding</name></member>
+      <member refid="structMR_1_1RelaxParams_1a7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>force</name></member>
+      <member refid="structMR_1_1RelaxParams_1af6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>iterations</name></member>
+      <member refid="structMR_1_1RelaxParams_1ae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="structMR_1_1RelaxParams_1ae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="structMR_1_1PointCloudRelaxParams_1ab8de6ecb0effc2fb5ae7f053955d6caf" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>neighborhoodRadius</name></member>
+      <member refid="structMR_1_1RelaxParams_1abeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

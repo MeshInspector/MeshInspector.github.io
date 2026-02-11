@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1WeightedShell" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::WeightedShell</compoundname>
+    <innerclass refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" prot="public">mrmeshpy::WeightedShell::DistanceVolumeCreationParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" prot="public">mrmeshpy::WeightedShell::ParametersBase</innerclass>
+    <innerclass refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric" prot="public">mrmeshpy::WeightedShell::ParametersMetric</innerclass>
+    <innerclass refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" prot="public">mrmeshpy::WeightedShell::ParametersRegions</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a60d7fab143066fe31def99ff2210fcca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+        <definition> VertScalars mrmeshpy.WeightedShell.calculateShellWeightsFromRegions</definition>
+        <argsstring>(Mesh mesh, std_vector_WeightedShell_ParametersRegions_Region regions, float interpolationDist)</argsstring>
+        <name>calculateShellWeightsFromRegions</name>
+        <qualifiedname>mrmeshpy.WeightedShell.calculateShellWeightsFromRegions</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region" kindref="compound">std_vector_WeightedShell_ParametersRegions_Region</ref></type>
+          <declname>regions</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>interpolationDist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>interpolate set of regions and assign weight to each vertex of the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74516" bodyend="74519"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a4a099d2c4672b96f37fcb36f88c56fd5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.WeightedShell.meshShell</definition>
+        <argsstring>(Mesh mesh, VertScalars vertWeights, WeightedShell.ParametersMetric params)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>mrmeshpy.WeightedShell.meshShell</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+          <declname>vertWeights</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric" kindref="compound">WeightedShell.ParametersMetric</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>consider a mesh where each vertex has additive weight (taken from vertWeights and not from params), and this weight is linearly interpolated in mesh triangles,
+and the distance to a point is considered equal to (euclidean distance - weight),
+constructs iso-surface of such distance field corresponding to params.offset value using marching cubes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74522" bodyend="74527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a2d83e61538adb64e6794f50777edbf4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.WeightedShell.meshShell</definition>
+        <argsstring>(Mesh mesh, WeightedShell.ParametersRegions params)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>mrmeshpy.WeightedShell.meshShell</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" kindref="compound">WeightedShell.ParametersRegions</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this overload supports linear interpolation between the regions with different weight
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74530" bodyend="74533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a54793092d9968066699373eb04976556" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.WeightedShell.meshShell</definition>
+        <argsstring>(Mesh mesh, WeightedShell.ParametersRegions params, func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams volumeBuilder)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>mrmeshpy.WeightedShell.meshShell</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions" kindref="compound">WeightedShell.ParametersRegions</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c" kindref="compound">func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</ref></type>
+          <declname>volumeBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this overload allows to control how distance volume is build during the offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74536" bodyend="74539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a0900ecdf72988176191ce3e0ac1a754c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
+        <definition> FunctionVolume mrmeshpy.WeightedShell.meshToDistanceVolume</definition>
+        <argsstring>(Mesh mesh, WeightedShell.DistanceVolumeCreationParams params)</argsstring>
+        <name>meshToDistanceVolume</name>
+        <qualifiedname>mrmeshpy.WeightedShell.meshToDistanceVolume</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">WeightedShell.DistanceVolumeCreationParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>makes FunctionVolume representing minimal distance to mesh with weighted vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74541" bodyend="74544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a8278229855cfaa3d63cd86fea7b45ebe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.WeightedShell.pointsShell</definition>
+        <argsstring>(PointCloud cloud, VertScalars pointWeights, WeightedShell.ParametersMetric params)</argsstring>
+        <name>pointsShell</name>
+        <qualifiedname>mrmeshpy.WeightedShell.pointsShell</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+          <declname>pointWeights</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric" kindref="compound">WeightedShell.ParametersMetric</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>consider a point cloud where each point has additive weight (taken from pointWeights and not from params),
+and the distance to a point is considered equal to (euclidean distance - weight),
+constructs iso-surface of such distance field corresponding to params.offset value using marching cubes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74546" bodyend="74551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1a686d03d220cb47f14b4e8c22942203a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
+        <definition> FunctionVolume mrmeshpy.WeightedShell.pointsToDistanceVolume</definition>
+        <argsstring>(PointCloud cloud, WeightedShell.DistanceVolumeCreationParams params)</argsstring>
+        <name>pointsToDistanceVolume</name>
+        <qualifiedname>mrmeshpy.WeightedShell.pointsToDistanceVolume</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">WeightedShell.DistanceVolumeCreationParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>makes FunctionVolume representing minimal distance to weighted points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74553" bodyend="74556"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74292" bodyend="74556"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a60d7fab143066fe31def99ff2210fcca" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>calculateShellWeightsFromRegions</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a4a099d2c4672b96f37fcb36f88c56fd5" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a2d83e61538adb64e6794f50777edbf4a" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a54793092d9968066699373eb04976556" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a0900ecdf72988176191ce3e0ac1a754c" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>meshToDistanceVolume</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a8278229855cfaa3d63cd86fea7b45ebe" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>pointsShell</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1a686d03d220cb47f14b4e8c22942203a0" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell</scope><name>pointsToDistanceVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

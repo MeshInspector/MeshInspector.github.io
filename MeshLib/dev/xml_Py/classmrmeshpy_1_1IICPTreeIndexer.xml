@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IICPTreeIndexer" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IICPTreeIndexer</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IICPTreeIndexer_1adcdadc1f90ba94a19a147e1bbc043de6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IICPTreeIndexer" kindref="compound">IICPTreeIndexer</ref></type>
+        <definition> IICPTreeIndexer mrmeshpy.IICPTreeIndexer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IICPTreeIndexer.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23530" bodyend="23531"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IICPTreeIndexer_1a910104b191e117a5cbf28c575c126d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.IICPTreeIndexer.fromSameNode</definition>
+        <argsstring>(self, int l, Id_ICPElemtTag eI, Id_ICPElemtTag eJ)</argsstring>
+        <name>fromSameNode</name>
+        <qualifiedname>mrmeshpy.IICPTreeIndexer.fromSameNode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>eI</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>eJ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if eI and eJ are from same node
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23532" bodyend="23535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IICPTreeIndexer_1a71aca42ae4cb99abf65ca479b54054de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjBitSet" kindref="compound">ObjBitSet</ref></type>
+        <definition> ObjBitSet mrmeshpy.IICPTreeIndexer.getElementLeaves</definition>
+        <argsstring>(self, int l, Id_ICPElemtTag eId)</argsstring>
+        <name>getElementLeaves</name>
+        <qualifiedname>mrmeshpy.IICPTreeIndexer.getElementLeaves</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>eId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns bitset of leaves of given node
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23536" bodyend="23539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IICPTreeIndexer_1a7e27539999b0a2cbd1f73ecd6c0a6030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag" kindref="compound">TypedBitSet_Id_ICPElemtTag</ref></type>
+        <definition> TypedBitSet_Id_ICPElemtTag mrmeshpy.IICPTreeIndexer.getElementNodes</definition>
+        <argsstring>(self, int l, Id_ICPElemtTag eId)</argsstring>
+        <name>getElementNodes</name>
+        <qualifiedname>mrmeshpy.IICPTreeIndexer.getElementNodes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
+          <declname>eId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>valid for l &gt; 0, returns bitset of subnodes that is associated with eId
+should be valid for l == `getNumLayers`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23540" bodyend="23544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IICPTreeIndexer_1a4e03380b6e3dcc48f0df5e48347c4092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.IICPTreeIndexer.getNumElements</definition>
+        <argsstring>(self, int l)</argsstring>
+        <name>getNumElements</name>
+        <qualifiedname>mrmeshpy.IICPTreeIndexer.getNumElements</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>l == 0 - objs_.size()
+l == 1 - number of nodes one layer above objects
+l == 2 - number of nodes one layer above nodes lvl1
+...
+l == `getNumLayers` - 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23545" bodyend="23552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IICPTreeIndexer_1a797e561cd32e45a1051e7be62547787a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.IICPTreeIndexer.getNumLayers</definition>
+        <argsstring>(self)</argsstring>
+        <name>getNumLayers</name>
+        <qualifiedname>mrmeshpy.IICPTreeIndexer.getNumLayers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23553" bodyend="23554"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IICPTreeIndexer
+
+structure to find leafs and groups of each in cascade mode
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23523" bodyend="23554"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IICPTreeIndexer_1a910104b191e117a5cbf28c575c126d6d" prot="public" virt="non-virtual"><scope>mrmeshpy::IICPTreeIndexer</scope><name>fromSameNode</name></member>
+      <member refid="classmrmeshpy_1_1IICPTreeIndexer_1a71aca42ae4cb99abf65ca479b54054de" prot="public" virt="non-virtual"><scope>mrmeshpy::IICPTreeIndexer</scope><name>getElementLeaves</name></member>
+      <member refid="classmrmeshpy_1_1IICPTreeIndexer_1a7e27539999b0a2cbd1f73ecd6c0a6030" prot="public" virt="non-virtual"><scope>mrmeshpy::IICPTreeIndexer</scope><name>getElementNodes</name></member>
+      <member refid="classmrmeshpy_1_1IICPTreeIndexer_1a4e03380b6e3dcc48f0df5e48347c4092" prot="public" virt="non-virtual"><scope>mrmeshpy::IICPTreeIndexer</scope><name>getNumElements</name></member>
+      <member refid="classmrmeshpy_1_1IICPTreeIndexer_1a797e561cd32e45a1051e7be62547787a" prot="public" virt="non-virtual"><scope>mrmeshpy::IICPTreeIndexer</scope><name>getNumLayers</name></member>
+      <member refid="classmrmeshpy_1_1IICPTreeIndexer_1adcdadc1f90ba94a19a147e1bbc043de6" prot="public" virt="non-virtual"><scope>mrmeshpy::IICPTreeIndexer</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

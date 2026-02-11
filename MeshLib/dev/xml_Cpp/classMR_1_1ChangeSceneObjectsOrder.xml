@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeSceneObjectsOrder" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeSceneObjectsOrder</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeSceneObjectsOrder_8h" local="no">MRChangeSceneObjectsOrder.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneObjectsOrder_1a19fb2c5245ef48fe78651c37f650ea27" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;Object&gt; &gt; MR::ChangeSceneObjectsOrder::childrenOrder_</definition>
+        <argsstring></argsstring>
+        <name>childrenOrder_</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::childrenOrder_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="52" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneObjectsOrder_1a32dedc19d4b8af7fb8b7dd6bd12fce64" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Object&gt; MR::ChangeSceneObjectsOrder::obj_</definition>
+        <argsstring></argsstring>
+        <name>obj_</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::obj_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="53" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneObjectsOrder_1a3dbdb30878462f6929f3f80ba5087cc6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeSceneObjectsOrder::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="54" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1ac98e7e6f6de1cbc791db5f23b6409542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeSceneObjectsOrder::ChangeSceneObjectsOrder</definition>
+        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</argsstring>
+        <name>ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::ChangeSceneObjectsOrder</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Constructed before change order. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="16" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1ad692afbfc325fae56914094bc8b1f71d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangeSceneObjectsOrder::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="24" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1a48cb146f899e3b77bed59f4bd1073e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ChangeSceneObjectsOrder::action</definition>
+        <argsstring>(HistoryAction::Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="26" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="26" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1ae5412f501f79caacfb257cd392119c50" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ChangeSceneObjectsOrder::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangeSceneObjectsOrder::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="45" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="45" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for scene objects order change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="13" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1a48cb146f899e3b77bed59f4bd1073e11" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1ac98e7e6f6de1cbc791db5f23b6409542" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1a19fb2c5245ef48fe78651c37f650ea27" prot="private" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>childrenOrder_</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1ae5412f501f79caacfb257cd392119c50" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1ad692afbfc325fae56914094bc8b1f71d" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1a3dbdb30878462f6929f3f80ba5087cc6" prot="private" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>name_</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1a32dedc19d4b8af7fb8b7dd6bd12fce64" prot="private" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>obj_</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

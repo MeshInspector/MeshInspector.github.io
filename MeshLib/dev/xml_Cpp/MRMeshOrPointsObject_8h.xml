@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshOrPointsObject_8h" kind="file" language="C++">
+    <compoundname>MRMeshOrPointsObject.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="no">variant</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMeshOrPointsObject.h</label>
+        <link refid="MRMeshOrPointsObject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>variant</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMR_1_1MeshOrPointsObject" prot="public">MR::MeshOrPointsObject</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classMR_1_1MeshOrPointsObject" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOrPointsObject" kindref="compound">MeshOrPointsObject</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1MeshOrPointsObject_1ac8508f73963cbf0f41996e64e54b0024" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPointsObject_1ac8508f73963cbf0f41996e64e54b0024" kindref="member">MeshOrPointsObject</ref>()<sp/>{<sp/><ref refid="classMR_1_1MeshOrPointsObject_1abcbc6506c74c783ee36216d1ce536bed" kindref="member">reset</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1MeshOrPointsObject_1ab22b562641023d5b2592738bf0480984" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MeshOrPointsObject_1ab22b562641023d5b2592738bf0480984" kindref="member">MeshOrPointsObject</ref>(<sp/>std::shared_ptr&lt;VisualObject&gt;<sp/>vo<sp/>);</highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1MeshOrPointsObject_1a9beccad2400ae701a8c18c40c5447852" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPointsObject_1a9beccad2400ae701a8c18c40c5447852" kindref="member">MeshOrPointsObject</ref>(<sp/>std::shared_ptr&lt;ObjectMesh&gt;<sp/>om<sp/>)<sp/>{<sp/><ref refid="classMR_1_1MeshOrPointsObject_1a0505cbf8b2c451d7d7f6f9c0f61da8e2" kindref="member">set</ref>(<sp/>std::move(<sp/>om<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1MeshOrPointsObject_1af56c4211ae251d9b95a7c29819faf571" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPointsObject_1af56c4211ae251d9b95a7c29819faf571" kindref="member">MeshOrPointsObject</ref>(<sp/>std::shared_ptr&lt;ObjectPoints&gt;<sp/>op<sp/>)<sp/>{<sp/><ref refid="classMR_1_1MeshOrPointsObject_1a0505cbf8b2c451d7d7f6f9c0f61da8e2" kindref="member">set</ref>(<sp/>std::move(<sp/>op<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1MeshOrPointsObject_1a0505cbf8b2c451d7d7f6f9c0f61da8e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPointsObject_1a0505cbf8b2c451d7d7f6f9c0f61da8e2" kindref="member">set</ref>(<sp/>std::shared_ptr&lt;ObjectMesh&gt;<sp/>om<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1MeshOrPointsObject_1aecab05340fb5d8f04a295dc8567a3d2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>*<sp/><ref refid="classMR_1_1MeshOrPointsObject_1aecab05340fb5d8f04a295dc8567a3d2b" kindref="member">asObjectMesh</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1MeshOrPointsObject_1a78cd109414fa5e7350904aef325773a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPointsObject_1a78cd109414fa5e7350904aef325773a0" kindref="member">set</ref>(<sp/>std::shared_ptr&lt;ObjectPoints&gt;<sp/>op<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1MeshOrPointsObject_1afb102f7701f621951520af1a0b248d95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>*<sp/><ref refid="classMR_1_1MeshOrPointsObject_1afb102f7701f621951520af1a0b248d95" kindref="member">asObjectPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1MeshOrPointsObject_1abcbc6506c74c783ee36216d1ce536bed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPointsObject_1abcbc6506c74c783ee36216d1ce536bed" kindref="member">reset</ref>()<sp/>{<sp/><ref refid="classMR_1_1MeshOrPointsObject_1a0505cbf8b2c451d7d7f6f9c0f61da8e2" kindref="member">set</ref>(<sp/>std::shared_ptr&lt;ObjectMesh&gt;{}<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1MeshOrPointsObject_1ad5721ae1649791db63412d697972ad67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;VisualObject&gt;&amp;<sp/><ref refid="classMR_1_1MeshOrPointsObject_1ad5721ae1649791db63412d697972ad67" kindref="member">operator-&gt;</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>visualObject_;<sp/>}</highlight></codeline>
+<codeline lineno="32" refid="classMR_1_1MeshOrPointsObject_1a85885b5e86610e53fe93aea07accd2b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;VisualObject&gt;&amp;<sp/><ref refid="classMR_1_1MeshOrPointsObject_1a85885b5e86610e53fe93aea07accd2b7" kindref="member">get</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>visualObject_;<sp/>}</highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1MeshOrPointsObject_1adfeb28e41ada77721a8b726e820733aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPointsObject_1adfeb28e41ada77721a8b726e820733aa" kindref="member">operator==</ref>(<sp/>std::shared_ptr&lt;VisualObject&gt;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>visualObject_<sp/>==<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classMR_1_1MeshOrPointsObject_1acfaf7828131d41c6e9e01fc4618ff5b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref><sp/><ref refid="classMR_1_1MeshOrPointsObject_1acfaf7828131d41c6e9e01fc4618ff5b4" kindref="member">meshOrPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;ObjectMesh*,<sp/>ObjectPoints*&gt;<sp/>var_;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;VisualObject&gt;<sp/>visualObject_;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPointsObject.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointToPlaneAligningTransform" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointToPlaneAligningTransform</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointToPlaneAligningTransform</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a7fb23dbd09beb6a31a670a8e49d46501" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="191" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="191" bodyend="191"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1adf0ccc5bf8ba4a2664995b8df1966ea4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</definition>
+        <argsstring>()</argsstring>
+        <name>PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="196" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="196" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a730675895c20ac0c23a140c0dec5ec7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</definition>
+        <argsstring>(MR._ByValue_PointToPlaneAligningTransform _other)</argsstring>
+        <name>PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointToPlaneAligningTransform</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="206" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="206" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ae9ec4d7578223d98e25d47f15fe99417" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</definition>
+        <argsstring>(Const_PointToPlaneAligningTransform _other)</argsstring>
+        <name>PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type>Const_PointToPlaneAligningTransform</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="217" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="217" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a036de5fed1bedcf27a8f0fe039d49d4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</definition>
+        <argsstring>(PointToPlaneAligningTransform _other)</argsstring>
+        <name>PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="222" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="222" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ae3f2f0f271badb87ba3ba56bc7217398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">MR.PointToPlaneAligningTransform</ref></type>
+        <definition>unsafe MR.PointToPlaneAligningTransform MR.PointToPlaneAligningTransform.assign</definition>
+        <argsstring>(MR._ByValue_PointToPlaneAligningTransform _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointToPlaneAligningTransform</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointToPlaneAligningTransform.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="227" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="227" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointToPlaneAligningTransform.add</definition>
+        <argsstring>(in MR.Vector3d p1, in MR.Vector3d p2, in MR.Vector3d normal2, double? w=null)</argsstring>
+        <name>add</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.add</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>normal2</declname>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>w</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Add a pair of corresponding points and the normal of the tangent plane at the second point Generated from method <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" kindref="member">MR.PointToPlaneAligningTransform.add</ref></computeroutput>. Parameter <computeroutput>w</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="241" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a7e9785dfc55f0b60d3174c3092ae862c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointToPlaneAligningTransform.add</definition>
+        <argsstring>(in MR.Vector3f p1, in MR.Vector3f p2, in MR.Vector3f normal2, float? w=null)</argsstring>
+        <name>add</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.add</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal2</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>w</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Add a pair of corresponding points and the normal of the tangent plane at the second point Generated from method <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" kindref="member">MR.PointToPlaneAligningTransform.add</ref></computeroutput>. Parameter <computeroutput>w</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="263" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="263" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1aa09d622a0fc5d3f03c2bc307af1f23a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointToPlaneAligningTransform.prepare</definition>
+        <argsstring>()</argsstring>
+        <name>prepare</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.prepare</qualifiedname>
+        <briefdescription>
+<para>this method must be called after <ref refid="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" kindref="member">add()</ref> and before constant find...()/calculate...() to make the matrix symmetric Generated from method <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform_1aa09d622a0fc5d3f03c2bc307af1f23a4" kindref="member">MR.PointToPlaneAligningTransform.prepare</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="284" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="284" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a6e09edb9bf03275a105e13189b65dbdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointToPlaneAligningTransform.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.PointToPlaneAligningTransform.clear</qualifiedname>
+        <briefdescription>
+<para>Clear points and normals data Generated from method <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform_1a6e09edb9bf03275a105e13189b65dbdd" kindref="member">MR.PointToPlaneAligningTransform.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="295" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="295" bodyend="300"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it&apos;s need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">MR.PointToPlaneAligningTransform</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PointToPlaneAligningTransform</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1PointToPlaneAligningTransform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointToPlaneAligningTransform &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PointToPlaneAligningTransform</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1PointToPlaneAligningTransform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointToPlaneAligningTransform &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="189" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="190" bodyend="301"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a7e9785dfc55f0b60d3174c3092ae862c" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1ae3f2f0f271badb87ba3ba56bc7217398" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a6e09edb9bf03275a105e13189b65dbdd" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>clear</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a7fb23dbd09beb6a31a670a8e49d46501" prot="package" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1adf0ccc5bf8ba4a2664995b8df1966ea4" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a730675895c20ac0c23a140c0dec5ec7b" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1ae9ec4d7578223d98e25d47f15fe99417" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a036de5fed1bedcf27a8f0fe039d49d4b" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1aa09d622a0fc5d3f03c2bc307af1f23a4" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DirectionWidget_1_1Arrow" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DirectionWidget::Arrow</compoundname>
+    <includes refid="MRDirectionWidget_8h" local="no">MRDirectionWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DirectionWidget_1_1Arrow_1a0ecb81851105a8eb427a1f270b7659a2" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DirectionWidget::Arrow::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR::DirectionWidget::Arrow::dir</qualifiedname>
+        <briefdescription>
+<para>unit direction along arrow </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="76" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DirectionWidget_1_1Arrow_1a2f55bff335dea2ab2a6b581fe070bef4" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DirectionWidget::Arrow::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>MR::DirectionWidget::Arrow::base</qualifiedname>
+        <briefdescription>
+<para>the point from which the arrow starts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="77" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DirectionWidget_1_1Arrow_1ad87c52072ac6532b21210fb8f8f48921" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DirectionWidget::Arrow::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>MR::DirectionWidget::Arrow::length</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>the length of the arrow </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="78" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="74" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="75" bodyend="79"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DirectionWidget_1_1Arrow_1a2f55bff335dea2ab2a6b581fe070bef4" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::Arrow</scope><name>base</name></member>
+      <member refid="structMR_1_1DirectionWidget_1_1Arrow_1a0ecb81851105a8eb427a1f270b7659a2" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::Arrow</scope><name>dir</name></member>
+      <member refid="structMR_1_1DirectionWidget_1_1Arrow_1ad87c52072ac6532b21210fb8f8f48921" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::Arrow</scope><name>length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

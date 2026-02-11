@@ -1,0 +1,1151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Vector3" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Vector3</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRVector3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="structMR_1_1Vector3_1a1b7a343939b1a92e61700fb5bd609b56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T distanceSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>distanceSq</name>
+        <qualifiedname>MR::Vector3::distanceSq</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>squared distance between two points, which is faster to compute than just distance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="157" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1aa62b4ce06d0439125af427faabb987b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T distance</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>distance</name>
+        <qualifiedname>MR::Vector3::distance</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>distance between two points, better use distanceSq for higher performance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="164" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1af9065ae414e0307701366e479519540d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; cross</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>cross</name>
+        <qualifiedname>MR::Vector3::cross</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>cross product </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="171" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="171" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a12ace0a073b6d056e20f50fabe0b9940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>decltype(a.x *b.x)</type>
+        <definition>decltype(a.x *b.x) dot</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>dot</name>
+        <qualifiedname>MR::Vector3::dot</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>dot product </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="182" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1ac519c0badafc5dd614c0c6f8b8b28994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T sqr</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a)</argsstring>
+        <name>sqr</name>
+        <qualifiedname>MR::Vector3::sqr</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>squared length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="189" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1aa80c4d71ef5b56a6aaa251f91e636873" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T mixed</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>mixed</name>
+        <qualifiedname>MR::Vector3::mixed</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>mixed product </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="196" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1ae2acb767e75d8fddbe60a26218e7635a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; mult</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>mult</name>
+        <qualifiedname>MR::Vector3::mult</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>per component multiplication </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="203" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a3032e40b08150686195023c67dd9b749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; div</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>div</name>
+        <qualifiedname>MR::Vector3::div</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>per component division </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="210" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1ac91a0462b62bab22f973bb517dc805ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T angle</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>angle</name>
+        <qualifiedname>MR::Vector3::angle</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes minimal angle in [0,pi] between two vectors; the function is symmetric: <ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle( a, b )</ref> == <ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle( b, a )</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>this version is slower and less precise return std::acos( std::clamp( dot( a.normalized(), b.normalized() ), T(-1), T(1) ) );</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="219" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a14f7f0adb55e73e84d46a542b9b91186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; unitVector3</definition>
+        <argsstring>(T azimuth, T altitude)</argsstring>
+        <name>unitVector3</name>
+        <qualifiedname>MR::Vector3::unitVector3</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>altitude</declname>
+        </param>
+        <briefdescription>
+<para>returns a point on unit sphere given two angles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="249" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="249" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a2a77f8e96a4d822dc5af3a747356496c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>MR_BIND_IGNORE_PY auto</type>
+        <definition>MR_BIND_IGNORE_PY auto begin</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;v)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR::Vector3::begin</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>We don&apos;t need to bind those functions in Python, because this doesn&apos;t prevent <computeroutput>__iter__</computeroutput> from being generated for the type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="264" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="264" bodyend="264"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1Vector3_1a8ecb748650561c957b8b73afd24288cb" prot="public" static="no">
+        <type>T</type>
+        <definition>using MR::Vector3&lt; T &gt;::ValueType =  T</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <qualifiedname>MR::Vector3::ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1Vector3_1a7c629d81f031f089ef5fb3ea45689ea5" prot="public" static="no">
+        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt;</type>
+        <definition>using MR::Vector3&lt; T &gt;::MatrixType =  Matrix3&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>MatrixType</name>
+        <qualifiedname>MR::Vector3::MatrixType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1Vector3_1a1be16f68d003d1fe45b63bd915d50bff" prot="public" static="no">
+        <type><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3</ref>&lt; T &gt;</type>
+        <definition>using MR::Vector3&lt; T &gt;::SymMatrixType =  SymMatrix3&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>SymMatrixType</name>
+        <qualifiedname>MR::Vector3::SymMatrixType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1Vector3_1a5f40bccc013c893ac7558c2262a6eff1" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::Vector3&lt; T &gt;::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>MR::Vector3::elements</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="34" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Vector3_1a3d6f56ed3c525a928116d6c095997c5c" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::Vector3&lt; T &gt;::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR::Vector3::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="36" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Vector3_1a4cbb29e67931176028f57f29b2bd6953" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::Vector3&lt; T &gt;::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR::Vector3::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="36" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Vector3_1ae596ea6de55c00124d84150eadecd455" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::Vector3&lt; T &gt;::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR::Vector3::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Vector3_1ad8b62d7466c2f210d9618cc9c3fe555f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Vector3&lt; T &gt;::Vector3</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Vector3</name>
+        <qualifiedname>MR::Vector3::Vector3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="38" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a8d2060921c3ecd7d080f93c50e1bec51" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Vector3&lt; T &gt;::Vector3</definition>
+        <argsstring>(NoInit) noexcept</argsstring>
+        <name>Vector3</name>
+        <qualifiedname>MR::Vector3::Vector3</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="43" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1aa1b7f648b920d3afcfd29032b79ed8af" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Vector3&lt; T &gt;::Vector3</definition>
+        <argsstring>(T x, T y, T z) noexcept</argsstring>
+        <name>Vector3</name>
+        <qualifiedname>MR::Vector3::Vector3</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="44" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a9bfdd0e5562d8003259366aedc1074a5" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Vector3&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
+        <argsstring>(std::constructible_from&lt; T, U &gt;) explicit const expr Vector3(const Vector2&lt; U &gt; &amp;v) noexcept</argsstring>
+        <name>MR_REQUIRES_IF_SUPPORTED</name>
+        <qualifiedname>MR::Vector3::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
+        <param>
+          <type>std::constructible_from&lt; T, U &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="46" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a8b863a75d888921eb316d0faf64e45b7" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Vector3&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
+        <argsstring>(!std::is_same_v&lt; T, U &gt;) const expr explicit Vector3(const Vector3&lt; U &gt; &amp;v) noexcept</argsstring>
+        <name>MR_REQUIRES_IF_SUPPORTED</name>
+        <qualifiedname>MR::Vector3::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
+        <param>
+          <type>!std::is_same_v&lt; T, U &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Here <computeroutput>T == U</computeroutput> doesn&apos;t seem to cause any issues in the C++ code, but we&apos;re still disabling it because it somehow gets emitted when generating the bindings, and looks out of place there. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="59" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="59" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a91b0398c10d527ac2433b92451a3dfb8" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::Vector3&lt; T &gt;::operator[]</definition>
+        <argsstring>(int e) const noexcept</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::Vector3::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="62" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1afd88975c7b25f8752c951f16a74ac7f5" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::Vector3&lt; T &gt;::operator[]</definition>
+        <argsstring>(int e) noexcept</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::Vector3::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="63" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1aedb5f8de6324a8ee5e71243c4b67104c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Vector3&lt; T &gt;::lengthSq</definition>
+        <argsstring>() const</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR::Vector3::lengthSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="65" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a9b44af3c8a7c918cf88dac1811950e66" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::Vector3&lt; T &gt;::length</definition>
+        <argsstring>() const</argsstring>
+        <name>length</name>
+        <qualifiedname>MR::Vector3::length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Calling <computeroutput>sqrt</computeroutput> this way to hopefully support boost.multiprecision numbers. Returning <computeroutput>auto</computeroutput> to not break on integral types.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="66" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1abcd3a5ac10c0bd8323d2f67d4d63c474" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 MR::Vector3&lt; T &gt;::normalized</definition>
+        <argsstring>() const MR_REQUIRES_IF_SUPPORTED(std</argsstring>
+        <name>normalized</name>
+        <qualifiedname>MR::Vector3::normalized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="74" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a3ff2b05abbbe916d6b2c45fd9be74672" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" kindref="member">MR_SAME_TYPE_TEMPLATE_PARAM</ref>(T, TT)</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref> furthestBasisVector() const <ref refid="structMR_1_1Vector3_1a9bfdd0e5562d8003259366aedc1074a5" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(!std std::pair&lt; <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>, <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref> &gt; perpendicular() const <ref refid="structMR_1_1Vector3_1a9bfdd0e5562d8003259366aedc1074a5" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(std <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 furthestBasisVector() const MR_REQUIRES_IF_SUPPORTED(!std std::pair&lt; Vector3, Vector3 &gt; perpendicular() const MR_REQUIRES_IF_SUPPORTED(std Vector3 MR::Vector3&lt; T &gt;::transformed</definition>
+        <argsstring>(const AffineXf3&lt; TT &gt; *xf) const MR_REQUIRES_IF_SUPPORTED(std</argsstring>
+        <name>transformed</name>
+        <qualifiedname>MR::Vector3::transformed</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; TT &gt; *</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>returns one of 3 basis unit vector that makes the biggest angle with the direction specified by this </para>
+        </briefdescription>
+        <detaileddescription>
+<para>returns 2 unit vector, which together with this vector make an orthogonal basis Currently not implemented for integral vectors. returns this vector transformed by xf if it is Need this, otherwise the bindings try to instantiate <computeroutput>AffineXf3</computeroutput> with non-FP arguments. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="91" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a08dc1dd8f81a858ba4f2a61519fd8add" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Vector3&lt; T &gt;::unsignZeroValues</definition>
+        <argsstring>() MR_REQUIRES_IF_SUPPORTED(std</argsstring>
+        <name>unsignZeroValues</name>
+        <qualifiedname>MR::Vector3::unsignZeroValues</qualifiedname>
+        <briefdescription>
+<para>get rid of signed zero values to be sure that equal vectors have identical binary representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="97" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1af10fc7b8e96744a5bf22924d7bb263ad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Vector3&lt; T &gt;::isFinite</definition>
+        <argsstring>() const MR_REQUIRES_IF_SUPPORTED(std</argsstring>
+        <name>isFinite</name>
+        <qualifiedname>MR::Vector3::isFinite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="104" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1Vector3_1af3522428d5137f019a3da623a19222ab" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::diagonal</definition>
+        <argsstring>(T a) noexcept</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR::Vector3::diagonal</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="49" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a048dcca2da540bf2d429cbca37e41092" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::plusX</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>plusX</name>
+        <qualifiedname>MR::Vector3::plusX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="50" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1aedf66abcd7c315536ba2e512839885d0" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::plusY</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>plusY</name>
+        <qualifiedname>MR::Vector3::plusY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="51" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1aba68004d56f0100e523093390f939910" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::plusZ</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>plusZ</name>
+        <qualifiedname>MR::Vector3::plusZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="52" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a117652ff51572cee9976692e6c8a73ac" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::minusX</definition>
+        <argsstring>() noexcept MR_REQUIRES_IF_SUPPORTED(!std</argsstring>
+        <name>minusX</name>
+        <qualifiedname>MR::Vector3::minusX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="53" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a22c8d018c591515e61ae946b1cef1ee8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::minusY</definition>
+        <argsstring>() noexcept MR_REQUIRES_IF_SUPPORTED(!std</argsstring>
+        <name>minusY</name>
+        <qualifiedname>MR::Vector3::minusY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="54" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3_1a291eb0254deb6bfb0f17700a8dc48b41" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref></type>
+        <definition>static constexpr Vector3 MR::Vector3&lt; T &gt;::minusZ</definition>
+        <argsstring>() noexcept MR_REQUIRES_IF_SUPPORTED(!std</argsstring>
+        <name>minusZ</name>
+        <qualifiedname>MR::Vector3::minusZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="55" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1Vector3_1aa313f8ba832a4b648631b27ecc640444" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Vector3::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="109" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a21621332debf444906aee7baa46ec9bd" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR::Vector3::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="110" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a6ff62d94821680cd4aa78b7f0e9fc08f" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>const Vector3&lt; T &gt; &amp; operator+</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Vector3::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>NOTE: We use <computeroutput>std::declval()</computeroutput> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <computeroutput>a.x</computeroutput> and such. TODO fix this when we update libclang. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="114" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a3cc31cdd83a971750db6f671c1cced49" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; decltype(-std::declval&lt; T &gt;())&gt;</type>
+        <definition>Vector3&lt; decltype(-std::declval&lt; T &gt;())&gt; operator-</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Vector3::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="115" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a6d9dc5cc123e820501fce18c0d514bef" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</type>
+        <definition>Vector3&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt; operator+</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Vector3::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="117" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a0e6e304d7db4cd0fbcec701048cb543c" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</type>
+        <definition>Vector3&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt; operator-</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Vector3::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="118" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a3151d264071a57eaa4833608fd6571d6" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</type>
+        <definition>Vector3&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt; operator*</definition>
+        <argsstring>(T a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Vector3::operator*</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1aaec8d078a94beb3ffac951b9ffd0b6cb" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</type>
+        <definition>Vector3&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt; operator*</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;b, T a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Vector3::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1abe4fb08c12b763d3aeec47507ccd0973" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt;</type>
+        <definition>Vector3&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt; operator/</definition>
+        <argsstring>(Vector3&lt; T &gt; b, T a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR::Vector3::operator/</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="121" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="121" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1afe3fa854886280e7a5f2d84d4e02ca54" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector3&lt; T &gt; &amp; operator+=</definition>
+        <argsstring>(Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::Vector3::operator+=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="129" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1aeb0fb4fa5959f1241cc261574f4bd9d6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector3&lt; T &gt; &amp; operator-=</definition>
+        <argsstring>(Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::Vector3::operator-=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="130" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1aa5a5528f7655565df55378e5da9cf887" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector3&lt; T &gt; &amp; operator*=</definition>
+        <argsstring>(Vector3&lt; T &gt; &amp;a, T b)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>MR::Vector3::operator*=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="131" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a7eff91fc4125a6e58692cd47a47988c8" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector3&lt; T &gt; &amp; operator/=</definition>
+        <argsstring>(Vector3&lt; T &gt; &amp;a, T b)</argsstring>
+        <name>operator/=</name>
+        <qualifiedname>MR::Vector3::operator/=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="132" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a6864066faa20838c17a4d2ff7ce6ca80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;s, const Vector3 &amp;vec)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>MR::Vector3::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="140" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Vector3_1a64b84f75251bb43ebfc98d129d849ab9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;s, Vector3 &amp;vec)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>MR::Vector3::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="145" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="145" bodyend="148"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>three-dimensional vector </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector3.h" bodystart="30" bodyend="149"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Vector3_1ac91a0462b62bab22f973bb517dc805ca" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>angle</name></member>
+      <member refid="structMR_1_1Vector3_1a2a77f8e96a4d822dc5af3a747356496c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>begin</name></member>
+      <member refid="structMR_1_1Vector3_1af9065ae414e0307701366e479519540d" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>cross</name></member>
+      <member refid="structMR_1_1Vector3_1af3522428d5137f019a3da623a19222ab" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>diagonal</name></member>
+      <member refid="structMR_1_1Vector3_1aa62b4ce06d0439125af427faabb987b1" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>distance</name></member>
+      <member refid="structMR_1_1Vector3_1a1b7a343939b1a92e61700fb5bd609b56" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>distanceSq</name></member>
+      <member refid="structMR_1_1Vector3_1a3032e40b08150686195023c67dd9b749" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>div</name></member>
+      <member refid="structMR_1_1Vector3_1a12ace0a073b6d056e20f50fabe0b9940" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>dot</name></member>
+      <member refid="structMR_1_1Vector3_1a5f40bccc013c893ac7558c2262a6eff1" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>elements</name></member>
+      <member refid="structMR_1_1Vector3_1af10fc7b8e96744a5bf22924d7bb263ad" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>isFinite</name></member>
+      <member refid="structMR_1_1Vector3_1a9b44af3c8a7c918cf88dac1811950e66" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>length</name></member>
+      <member refid="structMR_1_1Vector3_1aedb5f8de6324a8ee5e71243c4b67104c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>lengthSq</name></member>
+      <member refid="structMR_1_1Vector3_1a7c629d81f031f089ef5fb3ea45689ea5" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>MatrixType</name></member>
+      <member refid="structMR_1_1Vector3_1a117652ff51572cee9976692e6c8a73ac" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>minusX</name></member>
+      <member refid="structMR_1_1Vector3_1a22c8d018c591515e61ae946b1cef1ee8" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>minusY</name></member>
+      <member refid="structMR_1_1Vector3_1a291eb0254deb6bfb0f17700a8dc48b41" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>minusZ</name></member>
+      <member refid="structMR_1_1Vector3_1aa80c4d71ef5b56a6aaa251f91e636873" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>mixed</name></member>
+      <member refid="structMR_1_1Vector3_1a9bfdd0e5562d8003259366aedc1074a5" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="structMR_1_1Vector3_1a8b863a75d888921eb316d0faf64e45b7" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="structMR_1_1Vector3_1ae2acb767e75d8fddbe60a26218e7635a" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>mult</name></member>
+      <member refid="structMR_1_1Vector3_1abcd3a5ac10c0bd8323d2f67d4d63c474" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>normalized</name></member>
+      <member refid="structMR_1_1Vector3_1a21621332debf444906aee7baa46ec9bd" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Vector3_1a3151d264071a57eaa4833608fd6571d6" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Vector3_1aaec8d078a94beb3ffac951b9ffd0b6cb" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Vector3_1aa5a5528f7655565df55378e5da9cf887" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator*=</name></member>
+      <member refid="structMR_1_1Vector3_1a6ff62d94821680cd4aa78b7f0e9fc08f" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator+</name></member>
+      <member refid="structMR_1_1Vector3_1a6d9dc5cc123e820501fce18c0d514bef" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator+</name></member>
+      <member refid="structMR_1_1Vector3_1afe3fa854886280e7a5f2d84d4e02ca54" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator+=</name></member>
+      <member refid="structMR_1_1Vector3_1a3cc31cdd83a971750db6f671c1cced49" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator-</name></member>
+      <member refid="structMR_1_1Vector3_1a0e6e304d7db4cd0fbcec701048cb543c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator-</name></member>
+      <member refid="structMR_1_1Vector3_1aeb0fb4fa5959f1241cc261574f4bd9d6" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator-=</name></member>
+      <member refid="structMR_1_1Vector3_1abe4fb08c12b763d3aeec47507ccd0973" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator/</name></member>
+      <member refid="structMR_1_1Vector3_1a7eff91fc4125a6e58692cd47a47988c8" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator/=</name></member>
+      <member refid="structMR_1_1Vector3_1a6864066faa20838c17a4d2ff7ce6ca80" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structMR_1_1Vector3_1aa313f8ba832a4b648631b27ecc640444" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Vector3_1a64b84f75251bb43ebfc98d129d849ab9" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator&gt;&gt;</name></member>
+      <member refid="structMR_1_1Vector3_1a91b0398c10d527ac2433b92451a3dfb8" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Vector3_1afd88975c7b25f8752c951f16a74ac7f5" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Vector3_1a048dcca2da540bf2d429cbca37e41092" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>plusX</name></member>
+      <member refid="structMR_1_1Vector3_1aedf66abcd7c315536ba2e512839885d0" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>plusY</name></member>
+      <member refid="structMR_1_1Vector3_1aba68004d56f0100e523093390f939910" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>plusZ</name></member>
+      <member refid="structMR_1_1Vector3_1ac519c0badafc5dd614c0c6f8b8b28994" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>sqr</name></member>
+      <member refid="structMR_1_1Vector3_1a1be16f68d003d1fe45b63bd915d50bff" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>SymMatrixType</name></member>
+      <member refid="structMR_1_1Vector3_1a3ff2b05abbbe916d6b2c45fd9be74672" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>transformed</name></member>
+      <member refid="structMR_1_1Vector3_1a14f7f0adb55e73e84d46a542b9b91186" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>unitVector3</name></member>
+      <member refid="structMR_1_1Vector3_1a08dc1dd8f81a858ba4f2a61519fd8add" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>unsignZeroValues</name></member>
+      <member refid="structMR_1_1Vector3_1a8ecb748650561c957b8b73afd24288cb" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>ValueType</name></member>
+      <member refid="structMR_1_1Vector3_1ad8b62d7466c2f210d9618cc9c3fe555f" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>Vector3</name></member>
+      <member refid="structMR_1_1Vector3_1a8d2060921c3ecd7d080f93c50e1bec51" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>Vector3</name></member>
+      <member refid="structMR_1_1Vector3_1aa1b7f648b920d3afcfd29032b79ed8af" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>Vector3</name></member>
+      <member refid="structMR_1_1Vector3_1a3d6f56ed3c525a928116d6c095997c5c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>x</name></member>
+      <member refid="structMR_1_1Vector3_1a4cbb29e67931176028f57f29b2bd6953" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>y</name></member>
+      <member refid="structMR_1_1Vector3_1ae596ea6de55c00124d84150eadecd455" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

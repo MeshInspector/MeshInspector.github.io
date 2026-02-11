@@ -1,0 +1,1944 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRLineSegm_8h" kind="file" language="C++">
+    <compoundname>MRLineSegm.h</compoundname>
+    <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRLineSegm.h</label>
+        <link refid="MRLineSegm_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRLineSegm_8h_1a6992d64f6703ac6d7687c699042105a2" prot="public" static="no">
+        <type>struct <ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref></type>
+        <definition>typedef struct MR_Line2d MR_Line2d</definition>
+        <argsstring></argsstring>
+        <name>MR_Line2d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="14" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLineSegm_8h_1a42f4324f3958a2b1ca19cd1728c5db67" prot="public" static="no">
+        <type>struct <ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref></type>
+        <definition>typedef struct MR_Line2f MR_Line2f</definition>
+        <argsstring></argsstring>
+        <name>MR_Line2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="15" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLineSegm_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" prot="public" static="no">
+        <type>struct <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref></type>
+        <definition>typedef struct MR_LineSegm2f MR_LineSegm2f</definition>
+        <argsstring></argsstring>
+        <name>MR_LineSegm2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::LineSegm2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" prot="public" static="no">
+        <type>struct <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref></type>
+        <definition>typedef struct MR_LineSegm2d MR_LineSegm2d</definition>
+        <argsstring></argsstring>
+        <name>MR_LineSegm2d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::LineSegm2d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="26" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLineSegm_8h_1a39540ed403db4865d7d6ce134f7654c1" prot="public" static="no">
+        <type>struct <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></type>
+        <definition>typedef struct MR_LineSegm3f MR_LineSegm3f</definition>
+        <argsstring></argsstring>
+        <name>MR_LineSegm3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::LineSegm3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="31" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" prot="public" static="no">
+        <type>struct <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref></type>
+        <definition>typedef struct MR_LineSegm3d MR_LineSegm3d</definition>
+        <argsstring></argsstring>
+        <name>MR_LineSegm3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::LineSegm3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="36" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRLineSegm_8h_1a0320ac0fb39e1f357583e692bfc25014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API const MR_Vector2f * MR_LineSegm2f_Get_a</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_Get_a</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm2f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="41" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="41" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ae4158a03ddca4d4bcfd3058a3540a3b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2f_Set_a</definition>
+        <argsstring>(MR_LineSegm2f *_this, MR_Vector2f value)</argsstring>
+        <name>MR_LineSegm2f_Set_a</name>
+        <param>
+          <type><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm2f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ae131fe50e7ef8161cb87a1c645593846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API MR_Vector2f * MR_LineSegm2f_GetMutable_a</definition>
+        <argsstring>(MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm2f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="52" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="52" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad44dc088e7575ff2bcacb0ec9931ae98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API const MR_Vector2f * MR_LineSegm2f_Get_b</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_Get_b</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm2f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="57" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="57" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a5c6142ce46280f970caa8d614f181006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2f_Set_b</definition>
+        <argsstring>(MR_LineSegm2f *_this, MR_Vector2f value)</argsstring>
+        <name>MR_LineSegm2f_Set_b</name>
+        <param>
+          <type><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm2f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="63" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a840592d0fed2d6951c9f1758bbe9e584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API MR_Vector2f * MR_LineSegm2f_GetMutable_b</definition>
+        <argsstring>(MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm2f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="68" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aa4e8ac884b785d6739ca278abd3670fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API MR_LineSegm2f * MR_LineSegm2f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_LineSegm2f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1ade1040c029b44c0441540e7144c364e0" kindref="member">MR_LineSegm2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="72" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="72" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a7fb5b2fe7580daadd0f81875b8048512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API MR_LineSegm2f * MR_LineSegm2f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_LineSegm2f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRLineSegm_8h_1a73bb1aa985e70652e5cf31a2127eb5f0" kindref="member">MR_LineSegm2f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRLineSegm_8h_1ad34976f67b1752e04c017120c961fc38" kindref="member">MR_LineSegm2f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRLineSegm_8h_1aea3f27ca6f59beaa3d241e41ae37a4de" kindref="member">MR_LineSegm2f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="77" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="77" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aea3f27ca6f59beaa3d241e41ae37a4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API const MR_LineSegm2f * MR_LineSegm2f_OffsetPtr</definition>
+        <argsstring>(const MR_LineSegm2f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm2f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="81" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="81" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad34976f67b1752e04c017120c961fc38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API MR_LineSegm2f * MR_LineSegm2f_OffsetMutablePtr</definition>
+        <argsstring>(MR_LineSegm2f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm2f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="85" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="85" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ac27e2daad959ca5b4a74f600eda88d23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API MR_LineSegm2f * MR_LineSegm2f_ConstructFromAnother</definition>
+        <argsstring>(const MR_LineSegm2f *_other)</argsstring>
+        <name>MR_LineSegm2f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm2f::LineSegm2f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1ade1040c029b44c0441540e7144c364e0" kindref="member">MR_LineSegm2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="91" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="91" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a570744a9b29068aef42cce1cac5a3744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API MR_LineSegm2f * MR_LineSegm2f_Construct</definition>
+        <argsstring>(const MR_Vector2f *a, const MR_Vector2f *b)</argsstring>
+        <name>MR_LineSegm2f_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm2f::LineSegm2f</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1ade1040c029b44c0441540e7144c364e0" kindref="member">MR_LineSegm2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="99" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="99" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ade1040c029b44c0441540e7144c364e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2f_Destroy</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm2f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a73bb1aa985e70652e5cf31a2127eb5f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2f_DestroyArray</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm2f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="105" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a2b0194dd68c36de4a1528e3c115071be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+        <definition>MRC_API MR_LineSegm2f * MR_LineSegm2f_AssignFromAnother</definition>
+        <argsstring>(MR_LineSegm2f *_this, const MR_LineSegm2f *_other)</argsstring>
+        <name>MR_LineSegm2f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::LineSegm2f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="113" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="113" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a57c2b6b455ab08daef11843bac0505aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+        <definition>MRC_API MR_Vector2f MR_LineSegm2f_dir</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_dir</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns directional vector of the line Generated from method <computeroutput>MR::LineSegm2f::dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="118" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="118" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a8f95521b1fb33cb45403c53c5d7eada2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_LineSegm2f_lengthSq</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_lengthSq</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns squared length of this line segment Generated from method <computeroutput>MR::LineSegm2f::lengthSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="123" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="123" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a7dfa32dbf58eb19d390529ee9a27bc1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_LineSegm2f_length</definition>
+        <argsstring>(const MR_LineSegm2f *_this)</argsstring>
+        <name>MR_LineSegm2f_length</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the length of this line segment Generated from method <computeroutput>MR::LineSegm2f::length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="128" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="128" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a162b2d2416d27ba55e55cf4c442eef7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+        <definition>MRC_API MR_Vector2f MR_LineSegm2f_call</definition>
+        <argsstring>(const MR_LineSegm2f *_this, float param)</argsstring>
+        <name>MR_LineSegm2f_call</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns point on the line, where param=0 returns a and param=1 returns b Generated from method <computeroutput>MR::LineSegm2f::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="133" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="133" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad5dca05ef52fdccd2ccb1dac98f82401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API const MR_Vector2d * MR_LineSegm2d_Get_a</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_Get_a</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm2d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="138" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="138" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a02a21b9a802b956d86d2eaf199f8ac9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2d_Set_a</definition>
+        <argsstring>(MR_LineSegm2d *_this, MR_Vector2d value)</argsstring>
+        <name>MR_LineSegm2d_Set_a</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm2d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="144" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aa3bd81ad493b16f5d01d1738616d2ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API MR_Vector2d * MR_LineSegm2d_GetMutable_a</definition>
+        <argsstring>(MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm2d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="149" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="149" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ab96cd68541eb30e8aac8af83d4b5564f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API const MR_Vector2d * MR_LineSegm2d_Get_b</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_Get_b</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm2d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="154" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="154" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a41fc66fe5c5b663a5552b49e4d732b1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2d_Set_b</definition>
+        <argsstring>(MR_LineSegm2d *_this, MR_Vector2d value)</argsstring>
+        <name>MR_LineSegm2d_Set_b</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm2d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="160" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a3196e781f82e85af591f94b75e576771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API MR_Vector2d * MR_LineSegm2d_GetMutable_b</definition>
+        <argsstring>(MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm2d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="165" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="165" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad64bd93b6a221f092186ab80bd1d8ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API MR_LineSegm2d * MR_LineSegm2d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_LineSegm2d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1a44070725c31665257f8057b49e96c59d" kindref="member">MR_LineSegm2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="169" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="169" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1adbc7f7f47cd7670e75d7f5e1c9c03e6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API MR_LineSegm2d * MR_LineSegm2d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_LineSegm2d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRLineSegm_8h_1a958b7e8b7bd19dd0adf4ede9d5225b6f" kindref="member">MR_LineSegm2d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRLineSegm_8h_1af47ffca32aef3ed7150b016f2951886e" kindref="member">MR_LineSegm2d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRLineSegm_8h_1a38866f0aec602babc9294523c5c845df" kindref="member">MR_LineSegm2d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="174" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="174" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a38866f0aec602babc9294523c5c845df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API const MR_LineSegm2d * MR_LineSegm2d_OffsetPtr</definition>
+        <argsstring>(const MR_LineSegm2d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm2d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="178" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="178" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1af47ffca32aef3ed7150b016f2951886e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API MR_LineSegm2d * MR_LineSegm2d_OffsetMutablePtr</definition>
+        <argsstring>(MR_LineSegm2d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm2d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="182" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="182" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1af54494c071e4ebfb4516c3bcd5f214c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API MR_LineSegm2d * MR_LineSegm2d_ConstructFromAnother</definition>
+        <argsstring>(const MR_LineSegm2d *_other)</argsstring>
+        <name>MR_LineSegm2d_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm2d::LineSegm2d</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1a44070725c31665257f8057b49e96c59d" kindref="member">MR_LineSegm2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="188" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="188" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aeabb595f40c93921a5b3e0b8f2a5a8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API MR_LineSegm2d * MR_LineSegm2d_Construct</definition>
+        <argsstring>(const MR_Vector2d *a, const MR_Vector2d *b)</argsstring>
+        <name>MR_LineSegm2d_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm2d::LineSegm2d</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1a44070725c31665257f8057b49e96c59d" kindref="member">MR_LineSegm2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="196" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="196" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a44070725c31665257f8057b49e96c59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2d_Destroy</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm2d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="199" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="199" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a958b7e8b7bd19dd0adf4ede9d5225b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm2d_DestroyArray</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm2d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="202" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a09f1349941472a94981a8933d9c067a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+        <definition>MRC_API MR_LineSegm2d * MR_LineSegm2d_AssignFromAnother</definition>
+        <argsstring>(MR_LineSegm2d *_this, const MR_LineSegm2d *_other)</argsstring>
+        <name>MR_LineSegm2d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::LineSegm2d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="210" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="210" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a44e317d6d6c09d3ba50aad149560d76e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+        <definition>MRC_API MR_Vector2d MR_LineSegm2d_dir</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_dir</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns directional vector of the line Generated from method <computeroutput>MR::LineSegm2d::dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="215" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="215" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad1eb189b443166c589cba36c3879a3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_LineSegm2d_lengthSq</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_lengthSq</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns squared length of this line segment Generated from method <computeroutput>MR::LineSegm2d::lengthSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="220" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="220" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a919bfcac49cac7926813d77886c4794c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_LineSegm2d_length</definition>
+        <argsstring>(const MR_LineSegm2d *_this)</argsstring>
+        <name>MR_LineSegm2d_length</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the length of this line segment Generated from method <computeroutput>MR::LineSegm2d::length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="225" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="225" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a6ff94eab5d3a7c65812fe047a4b78545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+        <definition>MRC_API MR_Vector2d MR_LineSegm2d_call</definition>
+        <argsstring>(const MR_LineSegm2d *_this, double param)</argsstring>
+        <name>MR_LineSegm2d_call</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns point on the line, where param=0 returns a and param=1 returns b Generated from method <computeroutput>MR::LineSegm2d::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="230" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="230" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a2cb340097ffc649076338e80dab231f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_LineSegm3f_Get_a</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_Get_a</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="235" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="235" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a2f7022ce228345a3fbd77d9d81b1c37e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3f_Set_a</definition>
+        <argsstring>(MR_LineSegm3f *_this, MR_Vector3f value)</argsstring>
+        <name>MR_LineSegm3f_Set_a</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="241" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="241" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a5fa96542c224970e60ccdc555e787189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_LineSegm3f_GetMutable_a</definition>
+        <argsstring>(MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="246" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="246" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a66f1766e85c4ef2f82f68d236155f21a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_LineSegm3f_Get_b</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_Get_b</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm3f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="251" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="251" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a6e1c64d7e8f03367f1875a6cda0eeb2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3f_Set_b</definition>
+        <argsstring>(MR_LineSegm3f *_this, MR_Vector3f value)</argsstring>
+        <name>MR_LineSegm3f_Set_b</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm3f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="257" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad9e7fa47f5231e5ecce9e22f64114ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_LineSegm3f_GetMutable_b</definition>
+        <argsstring>(MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm3f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="262" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="262" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a7fdc3cec973da3330b721e8fef4737c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API MR_LineSegm3f * MR_LineSegm3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_LineSegm3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1ac635bdef395f4977b00fb787034c5aab" kindref="member">MR_LineSegm3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="266" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="266" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a54b093c2bdbb7db3533553134363ca02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API MR_LineSegm3f * MR_LineSegm3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_LineSegm3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRLineSegm_8h_1a7d24c59c51c6c3277e27de69e3b0d2a1" kindref="member">MR_LineSegm3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRLineSegm_8h_1a4c3d6206fe8b3a4e5573a0d8fcc08e32" kindref="member">MR_LineSegm3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRLineSegm_8h_1a49e9fc7c6003e46fb0435a1cda957175" kindref="member">MR_LineSegm3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="271" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="271" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a49e9fc7c6003e46fb0435a1cda957175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API const MR_LineSegm3f * MR_LineSegm3f_OffsetPtr</definition>
+        <argsstring>(const MR_LineSegm3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="275" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="275" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a4c3d6206fe8b3a4e5573a0d8fcc08e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API MR_LineSegm3f * MR_LineSegm3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_LineSegm3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="279" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="279" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a1b8d00b92e64a37011f6b25d4cf0e87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API MR_LineSegm3f * MR_LineSegm3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_LineSegm3f *_other)</argsstring>
+        <name>MR_LineSegm3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm3f::LineSegm3f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1ac635bdef395f4977b00fb787034c5aab" kindref="member">MR_LineSegm3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="285" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="285" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a73482e0db89f44749445146499f0ad55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API MR_LineSegm3f * MR_LineSegm3f_Construct</definition>
+        <argsstring>(const MR_Vector3f *a, const MR_Vector3f *b)</argsstring>
+        <name>MR_LineSegm3f_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm3f::LineSegm3f</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1ac635bdef395f4977b00fb787034c5aab" kindref="member">MR_LineSegm3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="293" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="293" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ac635bdef395f4977b00fb787034c5aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3f_Destroy</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a7d24c59c51c6c3277e27de69e3b0d2a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3f_DestroyArray</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="299" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="299" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1abd3e265ec936dc016e8bf64f47f68fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+        <definition>MRC_API MR_LineSegm3f * MR_LineSegm3f_AssignFromAnother</definition>
+        <argsstring>(MR_LineSegm3f *_this, const MR_LineSegm3f *_other)</argsstring>
+        <name>MR_LineSegm3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::LineSegm3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="307" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="307" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ad3aeaa2d3520487584f67e7c64945a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_LineSegm3f_dir</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_dir</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns directional vector of the line Generated from method <computeroutput>MR::LineSegm3f::dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="312" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="312" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ac918cfb58e0d05e1fc6afa7206d01b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_LineSegm3f_lengthSq</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_lengthSq</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns squared length of this line segment Generated from method <computeroutput>MR::LineSegm3f::lengthSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="317" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="317" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a22a4e0af9733407c93dc954295ab2ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_LineSegm3f_length</definition>
+        <argsstring>(const MR_LineSegm3f *_this)</argsstring>
+        <name>MR_LineSegm3f_length</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the length of this line segment Generated from method <computeroutput>MR::LineSegm3f::length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="322" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="322" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a4793b81e0084f776353197158035962d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_LineSegm3f_call</definition>
+        <argsstring>(const MR_LineSegm3f *_this, float param)</argsstring>
+        <name>MR_LineSegm3f_call</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns point on the line, where param=0 returns a and param=1 returns b Generated from method <computeroutput>MR::LineSegm3f::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="327" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="327" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aca00a7f95ad3b65caccc1406e6a42e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_LineSegm3d_Get_a</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_Get_a</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm3d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="332" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="332" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aca35fd03f8718eec0b1e0e7afa28c71c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3d_Set_a</definition>
+        <argsstring>(MR_LineSegm3d *_this, MR_Vector3d value)</argsstring>
+        <name>MR_LineSegm3d_Set_a</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm3d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a478c07ec2d93d908d4fc31d91aa30dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_LineSegm3d_GetMutable_a</definition>
+        <argsstring>(MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm3d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="343" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="343" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a731322b585ea66912218fec5db30d42b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_LineSegm3d_Get_b</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_Get_b</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::LineSegm3d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="348" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="348" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a6b63c82c1c9c92e05e0c5f97054c9142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3d_Set_b</definition>
+        <argsstring>(MR_LineSegm3d *_this, MR_Vector3d value)</argsstring>
+        <name>MR_LineSegm3d_Set_b</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::LineSegm3d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="354" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="354" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1afc0b472352ed5f48a762e14c7028a5cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_LineSegm3d_GetMutable_b</definition>
+        <argsstring>(MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::LineSegm3d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="359" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="359" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a0b09f9a88cb88f9621e419341276809c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API MR_LineSegm3d * MR_LineSegm3d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_LineSegm3d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1a9669d9102d77729aaabaa6a0d5fd8f5d" kindref="member">MR_LineSegm3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="363" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="363" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a60891f4695a347497ba5ff832faaf3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API MR_LineSegm3d * MR_LineSegm3d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_LineSegm3d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRLineSegm_8h_1ab0ac885a7200dd69f9a7319f5dbe99af" kindref="member">MR_LineSegm3d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRLineSegm_8h_1a5054765788f414d6001cf45e3038c0e8" kindref="member">MR_LineSegm3d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRLineSegm_8h_1afa4b17ae98daa6ab72ffb5454f9ab3bf" kindref="member">MR_LineSegm3d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="368" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="368" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1afa4b17ae98daa6ab72ffb5454f9ab3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API const MR_LineSegm3d * MR_LineSegm3d_OffsetPtr</definition>
+        <argsstring>(const MR_LineSegm3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm3d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="372" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="372" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a5054765788f414d6001cf45e3038c0e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API MR_LineSegm3d * MR_LineSegm3d_OffsetMutablePtr</definition>
+        <argsstring>(MR_LineSegm3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_LineSegm3d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="376" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="376" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a8cda5ded953cb2c98045210d91623dc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API MR_LineSegm3d * MR_LineSegm3d_ConstructFromAnother</definition>
+        <argsstring>(const MR_LineSegm3d *_other)</argsstring>
+        <name>MR_LineSegm3d_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm3d::LineSegm3d</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1a9669d9102d77729aaabaa6a0d5fd8f5d" kindref="member">MR_LineSegm3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="382" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="382" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a0cc7d7823b7fca3055304f1f5186a2a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API MR_LineSegm3d * MR_LineSegm3d_Construct</definition>
+        <argsstring>(const MR_Vector3d *a, const MR_Vector3d *b)</argsstring>
+        <name>MR_LineSegm3d_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::LineSegm3d::LineSegm3d</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLineSegm_8h_1a9669d9102d77729aaabaa6a0d5fd8f5d" kindref="member">MR_LineSegm3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="390" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="390" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a9669d9102d77729aaabaa6a0d5fd8f5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3d_Destroy</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="393" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="393" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ab0ac885a7200dd69f9a7319f5dbe99af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_LineSegm3d_DestroyArray</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="396" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="396" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a8d0b32602fbcb60442b2576c9d7c9f4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+        <definition>MRC_API MR_LineSegm3d * MR_LineSegm3d_AssignFromAnother</definition>
+        <argsstring>(MR_LineSegm3d *_this, const MR_LineSegm3d *_other)</argsstring>
+        <name>MR_LineSegm3d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::LineSegm3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="404" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="404" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a7a21cde020b72cb9caa0ee3cfb61b6b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MRC_API MR_Vector3d MR_LineSegm3d_dir</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_dir</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns directional vector of the line Generated from method <computeroutput>MR::LineSegm3d::dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="409" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="409" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a3c4cb2cd33b38d724efe2699a4c4fcda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_LineSegm3d_lengthSq</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_lengthSq</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns squared length of this line segment Generated from method <computeroutput>MR::LineSegm3d::lengthSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="414" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="414" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1ab2282d4818b9126bc7c9b1728fc29c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_LineSegm3d_length</definition>
+        <argsstring>(const MR_LineSegm3d *_this)</argsstring>
+        <name>MR_LineSegm3d_length</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the length of this line segment Generated from method <computeroutput>MR::LineSegm3d::length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="419" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="419" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a34202d30a839ffb42f04e40732dc244a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MRC_API MR_Vector3d MR_LineSegm3d_call</definition>
+        <argsstring>(const MR_LineSegm3d *_this, double param)</argsstring>
+        <name>MR_LineSegm3d_call</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns point on the line, where param=0 returns a and param=1 returns b Generated from method <computeroutput>MR::LineSegm3d::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="424" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="424" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1acddc390665da482b99470d9853a26e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_doSegmentsIntersect_MR_Vector2f</definition>
+        <argsstring>(const MR_LineSegm2f *x, const MR_LineSegm2f *y, float *xPos, float *yPos)</argsstring>
+        <name>MR_doSegmentsIntersect_MR_Vector2f</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>xPos</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>yPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if two 2D segments intersect, optionally outputs intersection point as a parameter on both segments Generated from function <computeroutput>MR::doSegmentsIntersect&lt;MR::Vector2f&gt;</computeroutput>. Parameter <computeroutput>x</computeroutput> can not be null. It is a single object. Parameter <computeroutput>y</computeroutput> can not be null. It is a single object. Parameter <computeroutput>xPos</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>yPos</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="433" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="433" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a501bcebc30a7a96b3a8075c30dbc864f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_doSegmentsIntersect_MR_Vector2d</definition>
+        <argsstring>(const MR_LineSegm2d *x, const MR_LineSegm2d *y, double *xPos, double *yPos)</argsstring>
+        <name>MR_doSegmentsIntersect_MR_Vector2d</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>xPos</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>yPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if two 2D segments intersect, optionally outputs intersection point as a parameter on both segments Generated from function <computeroutput>MR::doSegmentsIntersect&lt;MR::Vector2d&gt;</computeroutput>. Parameter <computeroutput>x</computeroutput> can not be null. It is a single object. Parameter <computeroutput>y</computeroutput> can not be null. It is a single object. Parameter <computeroutput>xPos</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>yPos</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="442" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="442" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1a7657c64289bd289e1da76d7e1e0ec461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_doSegmentLineIntersect_MR_Vector2f</definition>
+        <argsstring>(const MR_LineSegm2f *x, const MR_Line2f *y, float *xPos, float *yPos)</argsstring>
+        <name>MR_doSegmentLineIntersect_MR_Vector2f</name>
+        <param>
+          <type>const <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>xPos</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>yPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if 2D line segment and 2D line intersect, optionally outputs intersection point as a parameter on both Generated from function <computeroutput>MR::doSegmentLineIntersect&lt;MR::Vector2f&gt;</computeroutput>. Parameter <computeroutput>x</computeroutput> can not be null. It is a single object. Parameter <computeroutput>y</computeroutput> can not be null. It is a single object. Parameter <computeroutput>xPos</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>yPos</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="451" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="451" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLineSegm_8h_1aab89adaeaba1d28515011b377cde14c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_doSegmentLineIntersect_MR_Vector2d</definition>
+        <argsstring>(const MR_LineSegm2d *x, const MR_Line2d *y, double *xPos, double *yPos)</argsstring>
+        <name>MR_doSegmentLineIntersect_MR_Vector2d</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>xPos</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>yPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if 2D line segment and 2D line intersect, optionally outputs intersection point as a parameter on both Generated from function <computeroutput>MR::doSegmentLineIntersect&lt;MR::Vector2d&gt;</computeroutput>. Parameter <computeroutput>x</computeroutput> can not be null. It is a single object. Parameter <computeroutput>y</computeroutput> can not be null. It is a single object. Parameter <computeroutput>xPos</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>yPos</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="460" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" declline="460" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRLineSegm_8h_1a6992d64f6703ac6d7687c699042105a2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref><sp/><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRLineSegm_8h_1a42f4324f3958a2b1ca19cd1728c5db67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
+<codeline lineno="21" refid="MRLineSegm_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
+<codeline lineno="26" refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
+<codeline lineno="31" refid="MRLineSegm_8h_1a39540ed403db4865d7d6ce134f7654c1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
+<codeline lineno="36" refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRLineSegm_8h_1a0320ac0fb39e1f357583e692bfc25014" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRLineSegm_8h_1a0320ac0fb39e1f357583e692bfc25014" kindref="member">MR_LineSegm2f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRLineSegm_8h_1ae4158a03ddca4d4bcfd3058a3540a3b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae4158a03ddca4d4bcfd3058a3540a3b7" kindref="member">MR_LineSegm2f_Set_a</ref>(<ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRLineSegm_8h_1ae131fe50e7ef8161cb87a1c645593846" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRLineSegm_8h_1ae131fe50e7ef8161cb87a1c645593846" kindref="member">MR_LineSegm2f_GetMutable_a</ref>(<ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRLineSegm_8h_1ad44dc088e7575ff2bcacb0ec9931ae98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRLineSegm_8h_1ad44dc088e7575ff2bcacb0ec9931ae98" kindref="member">MR_LineSegm2f_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRLineSegm_8h_1a5c6142ce46280f970caa8d614f181006" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a5c6142ce46280f970caa8d614f181006" kindref="member">MR_LineSegm2f_Set_b</ref>(<ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRLineSegm_8h_1a840592d0fed2d6951c9f1758bbe9e584" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRLineSegm_8h_1a840592d0fed2d6951c9f1758bbe9e584" kindref="member">MR_LineSegm2f_GetMutable_b</ref>(<ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRLineSegm_8h_1aa4e8ac884b785d6739ca278abd3670fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1aa4e8ac884b785d6739ca278abd3670fe" kindref="member">MR_LineSegm2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRLineSegm_8h_1a7fb5b2fe7580daadd0f81875b8048512" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1a7fb5b2fe7580daadd0f81875b8048512" kindref="member">MR_LineSegm2f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRLineSegm_8h_1aea3f27ca6f59beaa3d241e41ae37a4de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1aea3f27ca6f59beaa3d241e41ae37a4de" kindref="member">MR_LineSegm2f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRLineSegm_8h_1ad34976f67b1752e04c017120c961fc38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1ad34976f67b1752e04c017120c961fc38" kindref="member">MR_LineSegm2f_OffsetMutablePtr</ref>(<ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRLineSegm_8h_1ac27e2daad959ca5b4a74f600eda88d23" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1ac27e2daad959ca5b4a74f600eda88d23" kindref="member">MR_LineSegm2f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRLineSegm_8h_1a570744a9b29068aef42cce1cac5a3744" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1a570744a9b29068aef42cce1cac5a3744" kindref="member">MR_LineSegm2f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRLineSegm_8h_1ade1040c029b44c0441540e7144c364e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ade1040c029b44c0441540e7144c364e0" kindref="member">MR_LineSegm2f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRLineSegm_8h_1a73bb1aa985e70652e5cf31a2127eb5f0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a73bb1aa985e70652e5cf31a2127eb5f0" kindref="member">MR_LineSegm2f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRLineSegm_8h_1a2b0194dd68c36de4a1528e3c115071be" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*<ref refid="MRLineSegm_8h_1a2b0194dd68c36de4a1528e3c115071be" kindref="member">MR_LineSegm2f_AssignFromAnother</ref>(<ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRLineSegm_8h_1a57c2b6b455ab08daef11843bac0505aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="MRLineSegm_8h_1a57c2b6b455ab08daef11843bac0505aa" kindref="member">MR_LineSegm2f_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRLineSegm_8h_1a8f95521b1fb33cb45403c53c5d7eada2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a8f95521b1fb33cb45403c53c5d7eada2" kindref="member">MR_LineSegm2f_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRLineSegm_8h_1a7dfa32dbf58eb19d390529ee9a27bc1c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a7dfa32dbf58eb19d390529ee9a27bc1c" kindref="member">MR_LineSegm2f_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRLineSegm_8h_1a162b2d2416d27ba55e55cf4c442eef7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="MRLineSegm_8h_1a162b2d2416d27ba55e55cf4c442eef7c" kindref="member">MR_LineSegm2f_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>param);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRLineSegm_8h_1ad5dca05ef52fdccd2ccb1dac98f82401" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRLineSegm_8h_1ad5dca05ef52fdccd2ccb1dac98f82401" kindref="member">MR_LineSegm2d_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRLineSegm_8h_1a02a21b9a802b956d86d2eaf199f8ac9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a02a21b9a802b956d86d2eaf199f8ac9a" kindref="member">MR_LineSegm2d_Set_a</ref>(<ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRLineSegm_8h_1aa3bd81ad493b16f5d01d1738616d2ac8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRLineSegm_8h_1aa3bd81ad493b16f5d01d1738616d2ac8" kindref="member">MR_LineSegm2d_GetMutable_a</ref>(<ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRLineSegm_8h_1ab96cd68541eb30e8aac8af83d4b5564f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRLineSegm_8h_1ab96cd68541eb30e8aac8af83d4b5564f" kindref="member">MR_LineSegm2d_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRLineSegm_8h_1a41fc66fe5c5b663a5552b49e4d732b1b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a41fc66fe5c5b663a5552b49e4d732b1b" kindref="member">MR_LineSegm2d_Set_b</ref>(<ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRLineSegm_8h_1a3196e781f82e85af591f94b75e576771" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRLineSegm_8h_1a3196e781f82e85af591f94b75e576771" kindref="member">MR_LineSegm2d_GetMutable_b</ref>(<ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRLineSegm_8h_1ad64bd93b6a221f092186ab80bd1d8ed6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1ad64bd93b6a221f092186ab80bd1d8ed6" kindref="member">MR_LineSegm2d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRLineSegm_8h_1adbc7f7f47cd7670e75d7f5e1c9c03e6d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1adbc7f7f47cd7670e75d7f5e1c9c03e6d" kindref="member">MR_LineSegm2d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRLineSegm_8h_1a38866f0aec602babc9294523c5c845df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1a38866f0aec602babc9294523c5c845df" kindref="member">MR_LineSegm2d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRLineSegm_8h_1af47ffca32aef3ed7150b016f2951886e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1af47ffca32aef3ed7150b016f2951886e" kindref="member">MR_LineSegm2d_OffsetMutablePtr</ref>(<ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRLineSegm_8h_1af54494c071e4ebfb4516c3bcd5f214c9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1af54494c071e4ebfb4516c3bcd5f214c9" kindref="member">MR_LineSegm2d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRLineSegm_8h_1aeabb595f40c93921a5b3e0b8f2a5a8ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1aeabb595f40c93921a5b3e0b8f2a5a8ae" kindref="member">MR_LineSegm2d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRLineSegm_8h_1a44070725c31665257f8057b49e96c59d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a44070725c31665257f8057b49e96c59d" kindref="member">MR_LineSegm2d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRLineSegm_8h_1a958b7e8b7bd19dd0adf4ede9d5225b6f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a958b7e8b7bd19dd0adf4ede9d5225b6f" kindref="member">MR_LineSegm2d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="MRLineSegm_8h_1a09f1349941472a94981a8933d9c067a5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*<ref refid="MRLineSegm_8h_1a09f1349941472a94981a8933d9c067a5" kindref="member">MR_LineSegm2d_AssignFromAnother</ref>(<ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRLineSegm_8h_1a44e317d6d6c09d3ba50aad149560d76e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/><ref refid="MRLineSegm_8h_1a44e317d6d6c09d3ba50aad149560d76e" kindref="member">MR_LineSegm2d_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRLineSegm_8h_1ad1eb189b443166c589cba36c3879a3a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ad1eb189b443166c589cba36c3879a3a5" kindref="member">MR_LineSegm2d_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRLineSegm_8h_1a919bfcac49cac7926813d77886c4794c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a919bfcac49cac7926813d77886c4794c" kindref="member">MR_LineSegm2d_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRLineSegm_8h_1a6ff94eab5d3a7c65812fe047a4b78545" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/><ref refid="MRLineSegm_8h_1a6ff94eab5d3a7c65812fe047a4b78545" kindref="member">MR_LineSegm2d_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>param);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRLineSegm_8h_1a2cb340097ffc649076338e80dab231f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a2cb340097ffc649076338e80dab231f7" kindref="member">MR_LineSegm3f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRLineSegm_8h_1a2f7022ce228345a3fbd77d9d81b1c37e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a2f7022ce228345a3fbd77d9d81b1c37e" kindref="member">MR_LineSegm3f_Set_a</ref>(<ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRLineSegm_8h_1a5fa96542c224970e60ccdc555e787189" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a5fa96542c224970e60ccdc555e787189" kindref="member">MR_LineSegm3f_GetMutable_a</ref>(<ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRLineSegm_8h_1a66f1766e85c4ef2f82f68d236155f21a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a66f1766e85c4ef2f82f68d236155f21a" kindref="member">MR_LineSegm3f_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRLineSegm_8h_1a6e1c64d7e8f03367f1875a6cda0eeb2b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a6e1c64d7e8f03367f1875a6cda0eeb2b" kindref="member">MR_LineSegm3f_Set_b</ref>(<ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRLineSegm_8h_1ad9e7fa47f5231e5ecce9e22f64114ab6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRLineSegm_8h_1ad9e7fa47f5231e5ecce9e22f64114ab6" kindref="member">MR_LineSegm3f_GetMutable_b</ref>(<ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRLineSegm_8h_1a7fdc3cec973da3330b721e8fef4737c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a7fdc3cec973da3330b721e8fef4737c8" kindref="member">MR_LineSegm3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRLineSegm_8h_1a54b093c2bdbb7db3533553134363ca02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a54b093c2bdbb7db3533553134363ca02" kindref="member">MR_LineSegm3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRLineSegm_8h_1a49e9fc7c6003e46fb0435a1cda957175" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a49e9fc7c6003e46fb0435a1cda957175" kindref="member">MR_LineSegm3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRLineSegm_8h_1a4c3d6206fe8b3a4e5573a0d8fcc08e32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a4c3d6206fe8b3a4e5573a0d8fcc08e32" kindref="member">MR_LineSegm3f_OffsetMutablePtr</ref>(<ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MRLineSegm_8h_1a1b8d00b92e64a37011f6b25d4cf0e87c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a1b8d00b92e64a37011f6b25d4cf0e87c" kindref="member">MR_LineSegm3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRLineSegm_8h_1a73482e0db89f44749445146499f0ad55" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1a73482e0db89f44749445146499f0ad55" kindref="member">MR_LineSegm3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="MRLineSegm_8h_1ac635bdef395f4977b00fb787034c5aab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ac635bdef395f4977b00fb787034c5aab" kindref="member">MR_LineSegm3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRLineSegm_8h_1a7d24c59c51c6c3277e27de69e3b0d2a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a7d24c59c51c6c3277e27de69e3b0d2a1" kindref="member">MR_LineSegm3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRLineSegm_8h_1abd3e265ec936dc016e8bf64f47f68fcf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*<ref refid="MRLineSegm_8h_1abd3e265ec936dc016e8bf64f47f68fcf" kindref="member">MR_LineSegm3f_AssignFromAnother</ref>(<ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRLineSegm_8h_1ad3aeaa2d3520487584f67e7c64945a78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRLineSegm_8h_1ad3aeaa2d3520487584f67e7c64945a78" kindref="member">MR_LineSegm3f_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="MRLineSegm_8h_1ac918cfb58e0d05e1fc6afa7206d01b72" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ac918cfb58e0d05e1fc6afa7206d01b72" kindref="member">MR_LineSegm3f_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="MRLineSegm_8h_1a22a4e0af9733407c93dc954295ab2ded" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a22a4e0af9733407c93dc954295ab2ded" kindref="member">MR_LineSegm3f_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MRLineSegm_8h_1a4793b81e0084f776353197158035962d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRLineSegm_8h_1a4793b81e0084f776353197158035962d" kindref="member">MR_LineSegm3f_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>param);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="MRLineSegm_8h_1aca00a7f95ad3b65caccc1406e6a42e68" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRLineSegm_8h_1aca00a7f95ad3b65caccc1406e6a42e68" kindref="member">MR_LineSegm3d_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="MRLineSegm_8h_1aca35fd03f8718eec0b1e0e7afa28c71c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1aca35fd03f8718eec0b1e0e7afa28c71c" kindref="member">MR_LineSegm3d_Set_a</ref>(<ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="MRLineSegm_8h_1a478c07ec2d93d908d4fc31d91aa30dc3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a478c07ec2d93d908d4fc31d91aa30dc3" kindref="member">MR_LineSegm3d_GetMutable_a</ref>(<ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="MRLineSegm_8h_1a731322b585ea66912218fec5db30d42b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a731322b585ea66912218fec5db30d42b" kindref="member">MR_LineSegm3d_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354" refid="MRLineSegm_8h_1a6b63c82c1c9c92e05e0c5f97054c9142" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a6b63c82c1c9c92e05e0c5f97054c9142" kindref="member">MR_LineSegm3d_Set_b</ref>(<ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="MRLineSegm_8h_1afc0b472352ed5f48a762e14c7028a5cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRLineSegm_8h_1afc0b472352ed5f48a762e14c7028a5cb" kindref="member">MR_LineSegm3d_GetMutable_b</ref>(<ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="MRLineSegm_8h_1a0b09f9a88cb88f9621e419341276809c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a0b09f9a88cb88f9621e419341276809c" kindref="member">MR_LineSegm3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="MRLineSegm_8h_1a60891f4695a347497ba5ff832faaf3dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a60891f4695a347497ba5ff832faaf3dd" kindref="member">MR_LineSegm3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="MRLineSegm_8h_1afa4b17ae98daa6ab72ffb5454f9ab3bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1afa4b17ae98daa6ab72ffb5454f9ab3bf" kindref="member">MR_LineSegm3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="MRLineSegm_8h_1a5054765788f414d6001cf45e3038c0e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a5054765788f414d6001cf45e3038c0e8" kindref="member">MR_LineSegm3d_OffsetMutablePtr</ref>(<ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382" refid="MRLineSegm_8h_1a8cda5ded953cb2c98045210d91623dc6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a8cda5ded953cb2c98045210d91623dc6" kindref="member">MR_LineSegm3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="MRLineSegm_8h_1a0cc7d7823b7fca3055304f1f5186a2a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a0cc7d7823b7fca3055304f1f5186a2a0" kindref="member">MR_LineSegm3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="MRLineSegm_8h_1a9669d9102d77729aaabaa6a0d5fd8f5d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a9669d9102d77729aaabaa6a0d5fd8f5d" kindref="member">MR_LineSegm3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396" refid="MRLineSegm_8h_1ab0ac885a7200dd69f9a7319f5dbe99af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ab0ac885a7200dd69f9a7319f5dbe99af" kindref="member">MR_LineSegm3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404" refid="MRLineSegm_8h_1a8d0b32602fbcb60442b2576c9d7c9f4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*<ref refid="MRLineSegm_8h_1a8d0b32602fbcb60442b2576c9d7c9f4d" kindref="member">MR_LineSegm3d_AssignFromAnother</ref>(<ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409" refid="MRLineSegm_8h_1a7a21cde020b72cb9caa0ee3cfb61b6b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRLineSegm_8h_1a7a21cde020b72cb9caa0ee3cfb61b6b0" kindref="member">MR_LineSegm3d_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414" refid="MRLineSegm_8h_1a3c4cb2cd33b38d724efe2699a4c4fcda" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a3c4cb2cd33b38d724efe2699a4c4fcda" kindref="member">MR_LineSegm3d_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419" refid="MRLineSegm_8h_1ab2282d4818b9126bc7c9b1728fc29c25" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ab2282d4818b9126bc7c9b1728fc29c25" kindref="member">MR_LineSegm3d_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424" refid="MRLineSegm_8h_1a34202d30a839ffb42f04e40732dc244a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRLineSegm_8h_1a34202d30a839ffb42f04e40732dc244a" kindref="member">MR_LineSegm3d_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>param);</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="433" refid="MRLineSegm_8h_1acddc390665da482b99470d9853a26e93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1acddc390665da482b99470d9853a26e93" kindref="member">MR_doSegmentsIntersect_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*yPos);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442" refid="MRLineSegm_8h_1a501bcebc30a7a96b3a8075c30dbc864f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a501bcebc30a7a96b3a8075c30dbc864f" kindref="member">MR_doSegmentsIntersect_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*yPos);</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451" refid="MRLineSegm_8h_1a7657c64289bd289e1da76d7e1e0ec461" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a7657c64289bd289e1da76d7e1e0ec461" kindref="member">MR_doSegmentLineIntersect_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/>*y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*yPos);</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="460" refid="MRLineSegm_8h_1aab89adaeaba1d28515011b377cde14c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1aab89adaeaba1d28515011b377cde14c2" kindref="member">MR_doSegmentLineIntersect_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*yPos);</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="462"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="463"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="464"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h"/>
+  </compounddef>
+</doxygen>

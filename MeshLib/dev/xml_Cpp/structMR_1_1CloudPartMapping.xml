@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CloudPartMapping" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CloudPartMapping</compoundname>
+    <includes refid="MRCloudPartMapping_8h" local="no">MRCloudPartMapping.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1CloudPartMapping_1a58a157b8e17755eba5fbff6ad4e90483" prot="public" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::CloudPartMapping::src2tgtVerts</definition>
+        <argsstring></argsstring>
+        <name>src2tgtVerts</name>
+        <qualifiedname>MR::CloudPartMapping::src2tgtVerts</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>from.id -&gt; this.id, efficient when full cloud without many invalid points is added into another cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" line="12" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1CloudPartMapping_1a067263261bdd0276850b5722ebbdb8f1" prot="public" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::CloudPartMapping::tgt2srcVerts</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcVerts</name>
+        <qualifiedname>MR::CloudPartMapping::tgt2srcVerts</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>this.id -&gt; from.id, efficient when any cloud or its part is added into empty cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" line="14" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>mapping among elements of source point cloud, from which a part is taken, and target (this) point cloud </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CloudPartMapping_1a58a157b8e17755eba5fbff6ad4e90483" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="structMR_1_1CloudPartMapping_1a067263261bdd0276850b5722ebbdb8f1" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>tgt2srcVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

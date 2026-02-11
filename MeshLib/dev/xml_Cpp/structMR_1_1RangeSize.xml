@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RangeSize" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RangeSize</compoundname>
+    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RangeSize_1a5dde8b6f1f684eac4b8bf2c2bc72386e" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::RangeSize::leaf</definition>
+        <argsstring></argsstring>
+        <name>leaf</name>
+        <qualifiedname>MR::RangeSize::leaf</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="356" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RangeSize_1a8d9671c602785383a783dc97504805ec" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::RangeSize::tile</definition>
+        <argsstring></argsstring>
+        <name>tile</name>
+        <qualifiedname>MR::RangeSize::tile</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="357" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="355" bodyend="358"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RangeSize_1a5dde8b6f1f684eac4b8bf2c2bc72386e" prot="public" virt="non-virtual"><scope>MR::RangeSize</scope><name>leaf</name></member>
+      <member refid="structMR_1_1RangeSize_1a8d9671c602785383a783dc97504805ec" prot="public" virt="non-virtual"><scope>MR::RangeSize</scope><name>tile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

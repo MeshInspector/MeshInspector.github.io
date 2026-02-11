@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PostDrawListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::PostDrawListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PostDrawListener_1ad257fd42a294be0f29daa5eb4ad27cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::PostDrawListener::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(PostDrawListener)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::PostDrawListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1PostDrawListener" kindref="compound">PostDrawListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="187" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PostDrawListener_1a6d4baebc484718242dcb7de8e2d75b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::PostDrawListener::~PostDrawListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>~PostDrawListener</name>
+        <qualifiedname>MR::PostDrawListener::~PostDrawListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="188" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PostDrawListener_1a236ae2c20bdef3b1c5b902d133b72c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::PostDrawListener::connect</definition>
+        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::PostDrawListener::connect</qualifiedname>
+        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="189" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structMR_1_1PostDrawListener_1a05affc1a2bebb67a6d5111e3a324a96b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::PostDrawListener::postDraw_</definition>
+        <argsstring>()=0</argsstring>
+        <name>postDraw_</name>
+        <qualifiedname>MR::PostDrawListener::postDraw_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="191" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::PostDrawListener</label>
+        <link refid="structMR_1_1PostDrawListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::PostDrawListener</label>
+        <link refid="structMR_1_1PostDrawListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="186" bodyend="192"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PostDrawListener_1a236ae2c20bdef3b1c5b902d133b72c70" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>connect</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PostDrawListener</scope><name>connection_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>disconnect</name></member>
+      <member refid="structMR_1_1PostDrawListener_1ad257fd42a294be0f29daa5eb4ad27cbd" prot="public" virt="non-virtual"><scope>MR::PostDrawListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="structMR_1_1PostDrawListener_1a05affc1a2bebb67a6d5111e3a324a96b" prot="protected" virt="pure-virtual"><scope>MR::PostDrawListener</scope><name>postDraw_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>~IConnectable</name></member>
+      <member refid="structMR_1_1PostDrawListener_1a6d4baebc484718242dcb7de8e2d75b24" prot="public" virt="virtual"><scope>MR::PostDrawListener</scope><name>~PostDrawListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

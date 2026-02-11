@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointCloudMakeNormals_8h" kind="file" language="C++">
+    <compoundname>MRPointCloudMakeNormals.h</compoundname>
+    <includes refid="MREnums_8h" local="no">MRCMesh/MREnums.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPointCloudMakeNormals.h</label>
+        <link refid="MRPointCloudMakeNormals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1af3305840a3b0b98761ca0684499fe801" prot="public" static="no">
+        <type>struct <ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref></type>
+        <definition>typedef struct MR_AllLocalTriangulations MR_AllLocalTriangulations</definition>
+        <argsstring></argsstring>
+        <name>MR_AllLocalTriangulations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="12" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1ab9532c7498f492993c731c877ba0332b" prot="public" static="no">
+        <type>struct <ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref></type>
+        <definition>typedef struct MR_Buffer_MR_VertId MR_Buffer_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_Buffer_MR_VertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="13" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
+        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1aa15c8fc617d3f9c35203c043e5c8a078" prot="public" static="no">
+        <type>struct <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref></type>
+        <definition>typedef struct MR_std_optional_MR_VertCoords MR_std_optional_MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="17" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertCoords * MR_makeUnorientedNormals_4_float</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, float radius, const MR_std_function_bool_from_float *progress, const MR_OrientNormals *orient)</argsstring>
+        <name>MR_makeUnorientedNormals_4_float</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref> *</type>
+          <declname>orient</declname>
+        </param>
+        <briefdescription>
+<para>Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of neighborhood to consider </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orient</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>OrientNormals::Smart here means orientation from best fit plane </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput>MR::makeUnorientedNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>orient</computeroutput> has a default argument: <computeroutput>OrientNormals::Smart</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertCoords_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="30" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="30" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a1ed2352488ecf1ff132a5f1cfdcdf41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertCoords * MR_makeUnorientedNormals_4_MR_AllLocalTriangulations</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, const MR_AllLocalTriangulations *triangs, const MR_std_function_bool_from_float *progress, const MR_OrientNormals *orient)</argsstring>
+        <name>MR_makeUnorientedNormals_4_MR_AllLocalTriangulations</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref> *</type>
+          <declname>triangs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref> *</type>
+          <declname>orient</declname>
+        </param>
+        <briefdescription>
+<para>Makes normals for valid points of given point cloud by averaging neighbor triangle normals weighted by triangle&apos;s angle \triangs triangulation neighbours of each point. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orient</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>OrientNormals::Smart here means orientation from normals of neigbour triangles </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput>MR::makeUnorientedNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triangs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>orient</computeroutput> has a default argument: <computeroutput>OrientNormals::Smart</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertCoords_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="43" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="43" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a6b1b9c567e3cbcd04226d295d9bd24ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertCoords * MR_makeUnorientedNormals_5</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, const MR_Buffer_MR_VertId *closeVerts, int numNei, const MR_std_function_bool_from_float *progress, const MR_OrientNormals *orient)</argsstring>
+        <name>MR_makeUnorientedNormals_5</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref> *</type>
+          <declname>closeVerts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numNei</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref> *</type>
+          <declname>orient</declname>
+        </param>
+        <briefdescription>
+<para>Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>closeVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orient</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>OrientNormals::Smart here means orientation from best fit plane </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput>MR::makeUnorientedNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>closeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>orient</computeroutput> has a default argument: <computeroutput>OrientNormals::Smart</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertCoords_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="56" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="56" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a5a13f367562612b96e1812a44f8611b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_orientNormals_4_float</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, MR_VertCoords *normals, float radius, const MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_orientNormals_4_float</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Select orientation of given normals to make directions of close points consistent;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of neighborhood to consider </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if progress returned false Generated from function <computeroutput>MR::orientNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a6cc0394a0a39ded9b80960ae36ecfc5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_orientNormals_4_MR_AllLocalTriangulations</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, MR_VertCoords *normals, const MR_AllLocalTriangulations *triangs, const MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_orientNormals_4_MR_AllLocalTriangulations</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref> *</type>
+          <declname>triangs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Select orientation of given normals to make directions of close points consistent;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of neighborhood to consider </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if progress returned false Unlike simple orientNormals this method constructs local triangulations around each point (with most neighbours within given radius and all neighbours within 2*radius) and considers all triangulation neighbors and not other points from the ball around each point. Generated from function <computeroutput>MR::orientNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triangs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1ad69b5ab0b03e95dba943bff8e4a54485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_orientNormals_5</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, MR_VertCoords *normals, const MR_Buffer_MR_VertId *closeVerts, int numNei, const MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_orientNormals_5</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref> *</type>
+          <declname>closeVerts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numNei</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Select orientation of given normals to make directions of close points consistent;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>closeVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if progress returned false Generated from function <computeroutput>MR::orientNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. Parameter <computeroutput>closeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1af985fc6b33ff6efd4bf53fe4e2a211fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertCoords * MR_makeOrientedNormals_float</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, float radius, const MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_makeOrientedNormals_float</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of neighborhood to consider </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput>MR::makeOrientedNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertCoords_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="101" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="101" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1ae777ba80ae7a9c1bb2b72387ffcfa13a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertCoords * MR_makeOrientedNormals_MR_AllLocalTriangulations</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, MR_AllLocalTriangulations *triangs, const MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_makeOrientedNormals_MR_AllLocalTriangulations</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref> *</type>
+          <declname>triangs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent; \triangs triangulation neighbours of each point, which are oriented during the call as well. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput>MR::makeOrientedNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>triangs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertCoords_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="112" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="112" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a701075ee7e53714f6743d79fa938a9d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_VertCoords * MR_makeNormals</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, const int *avgNeighborhoodSize)</argsstring>
+        <name>MR_makeNormals</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>avgNeighborhoodSize</declname>
+        </param>
+        <briefdescription>
+<para>Makes consistent normals for valid points of given point cloud. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>avgNeighborhoodSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>avg num of neighbors of each individual point Generated from function <computeroutput>MR::makeNormals</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>avgNeighborhoodSize</computeroutput> has a default argument: <computeroutput>48</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1ae3e5b113c183c12e3130be9227a248e5" kindref="member">MR_VertCoords_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="121" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" declline="121" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MREnums_8h" kindref="compound">MRCMesh/MREnums.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRPointCloudMakeNormals_8h_1af3305840a3b0b98761ca0684499fe801" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRPointCloudMakeNormals_8h_1ab9532c7498f492993c731c877ba0332b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRPointCloudMakeNormals_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRPointCloudMakeNormals_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRPointCloudMakeNormals_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRPointCloudMakeNormals_8h_1aa15c8fc617d3f9c35203c043e5c8a078" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" kindref="member">MR_makeUnorientedNormals_4_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref><sp/>*orient);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRPointCloudMakeNormals_8h_1a1ed2352488ecf1ff132a5f1cfdcdf41b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1a1ed2352488ecf1ff132a5f1cfdcdf41b" kindref="member">MR_makeUnorientedNormals_4_MR_AllLocalTriangulations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/>*triangs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref><sp/>*orient);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRPointCloudMakeNormals_8h_1a6b1b9c567e3cbcd04226d295d9bd24ad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1a6b1b9c567e3cbcd04226d295d9bd24ad" kindref="member">MR_makeUnorientedNormals_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/>*closeVerts,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNei,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref><sp/>*orient);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRPointCloudMakeNormals_8h_1a5a13f367562612b96e1812a44f8611b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudMakeNormals_8h_1a5a13f367562612b96e1812a44f8611b5" kindref="member">MR_orientNormals_4_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*normals,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRPointCloudMakeNormals_8h_1a6cc0394a0a39ded9b80960ae36ecfc5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudMakeNormals_8h_1a6cc0394a0a39ded9b80960ae36ecfc5e" kindref="member">MR_orientNormals_4_MR_AllLocalTriangulations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/>*triangs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRPointCloudMakeNormals_8h_1ad69b5ab0b03e95dba943bff8e4a54485" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudMakeNormals_8h_1ad69b5ab0b03e95dba943bff8e4a54485" kindref="member">MR_orientNormals_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/>*closeVerts,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNei,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRPointCloudMakeNormals_8h_1af985fc6b33ff6efd4bf53fe4e2a211fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1af985fc6b33ff6efd4bf53fe4e2a211fa" kindref="member">MR_makeOrientedNormals_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRPointCloudMakeNormals_8h_1ae777ba80ae7a9c1bb2b72387ffcfa13a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1ae777ba80ae7a9c1bb2b72387ffcfa13a" kindref="member">MR_makeOrientedNormals_MR_AllLocalTriangulations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/>*triangs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="comment">//[[deprecated(<sp/>&quot;use<sp/>makeOrientedNormals(...)<sp/>instead&quot;<sp/>)]]</highlight></codeline>
+<codeline lineno="121" refid="MRPointCloudMakeNormals_8h_1a701075ee7e53714f6743d79fa938a9d3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1a701075ee7e53714f6743d79fa938a9d3" kindref="member">MR_makeNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*avgNeighborhoodSize);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h"/>
+  </compounddef>
+</doxygen>

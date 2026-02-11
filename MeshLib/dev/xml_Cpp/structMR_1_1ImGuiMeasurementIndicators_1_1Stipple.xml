@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMeasurementIndicators::Stipple</compoundname>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment" prot="public">MR::ImGuiMeasurementIndicators::Stipple::Segment</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ImGuiMeasurementIndicators::Stipple::patternLength</definition>
+        <argsstring></argsstring>
+        <name>patternLength</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Stipple::patternLength</qualifiedname>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the period of the stipple pattern, in pixels. This is automatically multiplied by <computeroutput><ref refid="namespaceMR_1_1UI_1a5d2fd1d58ef16bcced4cfefc67d2c023" kindref="member">UI::scale()</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1ae57c16098d513998573613bc01be95d3" prot="public" static="no" mutable="no">
+        <type>std::span&lt; const <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment" kindref="compound">Segment</ref> &gt;</type>
+        <definition>std::span&lt;const Segment&gt; MR::ImGuiMeasurementIndicators::Stipple::segments</definition>
+        <argsstring></argsstring>
+        <name>segments</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Stipple::segments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="36" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for drawing dotted lines. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="20" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Stipple</scope><name>patternLength</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1ae57c16098d513998573613bc01be95d3" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Stipple</scope><name>segments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

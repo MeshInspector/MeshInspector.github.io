@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DirectoryRecursive" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DirectoryRecursive</compoundname>
+    <includes refid="MRDirectory_8h" local="no">MRDirectory.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DirectoryRecursive_1a0377432c17ff4de701e83f6c0ac198ae" prot="public" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::DirectoryRecursive::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR::DirectoryRecursive::dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="29" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DirectoryRecursive_1a2e941bde547838e6a74d34b9aed8d49e" prot="public" static="no" mutable="no">
+        <type>std::error_code &amp;</type>
+        <definition>std::error_code&amp; MR::DirectoryRecursive::ec</definition>
+        <argsstring></argsstring>
+        <name>ec</name>
+        <qualifiedname>MR::DirectoryRecursive::ec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="30" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>object of this struct can be passed to range-based-for to enumerate all entries in a filesystem directory <emphasis>including</emphasis> all subdirectories and <emphasis>without</emphasis> throwing exceptions e.g. std::error_code ec; for ( auto dirEntry : <ref refid="structMR_1_1DirectoryRecursive" kindref="compound">DirectoryRecursive</ref>{ std::filesystem::current_path(), ec } ) { ... } </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="28" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DirectoryRecursive_1a0377432c17ff4de701e83f6c0ac198ae" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursive</scope><name>dir</name></member>
+      <member refid="structMR_1_1DirectoryRecursive_1a2e941bde547838e6a74d34b9aed8d49e" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursive</scope><name>ec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectSave" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectSave</compoundname>
+    <innerclass refid="classmrmeshpy_1_1ObjectSave_1_1Settings" prot="public">mrmeshpy::ObjectSave::Settings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1a362cee4f571f314a45e7244b451bc939" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.toAnySupportedFormat</definition>
+        <argsstring>(Object object, os.PathLike|str|bytes file, ObjectSave.Settings settings=...)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.ObjectSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave.Settings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>save a scene object to a given file
+if the file format is scene-capable, saves all the object&apos;s entities
+otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40558" bodyend="40563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1a7103ae18f0e9ba31c36ab465e0f7de96" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.toAnySupportedSceneFormat</definition>
+        <argsstring>(Object object, os.PathLike|str|bytes file, ObjectSave.Settings settings=...)</argsstring>
+        <name>toAnySupportedSceneFormat</name>
+        <qualifiedname>mrmeshpy.ObjectSave.toAnySupportedSceneFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave.Settings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>save an object tree to a given file
+file format must be scene-capable
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40565" bodyend="40569"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40506" bodyend="40569"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectSave_1a362cee4f571f314a45e7244b451bc939" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1a7103ae18f0e9ba31c36ab465e0f7de96" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave</scope><name>toAnySupportedSceneFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

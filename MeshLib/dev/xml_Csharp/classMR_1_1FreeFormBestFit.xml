@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FreeFormBestFit" kind="class" language="C#" prot="public">
+    <compoundname>MR::FreeFormBestFit</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FreeFormBestFit</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a394d5389a6b3ceaa8237640d82501722" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FreeFormBestFit.FreeFormBestFit</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FreeFormBestFit</name>
+        <qualifiedname>MR.FreeFormBestFit.FreeFormBestFit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="424" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="424" bodyend="424"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a266fdecc68e2c18a8a1ed7c5cec82cf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FreeFormBestFit.FreeFormBestFit</definition>
+        <argsstring>(MR._ByValue_FreeFormBestFit _other)</argsstring>
+        <name>FreeFormBestFit</name>
+        <qualifiedname>MR.FreeFormBestFit.FreeFormBestFit</qualifiedname>
+        <param>
+          <type>MR._ByValue_FreeFormBestFit</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FreeFormBestFit.FreeFormBestFit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="429" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="429" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a7ca0350ac7bf51b4b866a6d2cad97cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FreeFormBestFit.FreeFormBestFit</definition>
+        <argsstring>(Const_FreeFormBestFit _other)</argsstring>
+        <name>FreeFormBestFit</name>
+        <qualifiedname>MR.FreeFormBestFit.FreeFormBestFit</qualifiedname>
+        <param>
+          <type>Const_FreeFormBestFit</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FreeFormBestFit.FreeFormBestFit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="440" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="440" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a3ba25bdb56559b82d9be3bc3e1a70601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FreeFormBestFit.FreeFormBestFit</definition>
+        <argsstring>(FreeFormBestFit _other)</argsstring>
+        <name>FreeFormBestFit</name>
+        <qualifiedname>MR.FreeFormBestFit.FreeFormBestFit</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FreeFormBestFit" kindref="compound">FreeFormBestFit</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FreeFormBestFit.FreeFormBestFit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="445" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="445" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a4fb615e35bfcdba0125d52463672556d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FreeFormBestFit.FreeFormBestFit</definition>
+        <argsstring>(in MR.Box3d box, MR.Vector3i? resolution=null)</argsstring>
+        <name>FreeFormBestFit</name>
+        <qualifiedname>MR.FreeFormBestFit.FreeFormBestFit</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box3d" kindref="compound">MR.Box3d</ref></type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref>?</type>
+          <declname>resolution</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>initialize the class, compute cached values and reserve space for matrices Generated from constructor <computeroutput>MR.FreeFormBestFit.FreeFormBestFit</computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>Vector3i.diagonal(2)</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="452" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="452" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a5d02e7ce8cdd134d0fdd49843c180502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FreeFormBestFit" kindref="compound">MR.FreeFormBestFit</ref></type>
+        <definition>unsafe MR.FreeFormBestFit MR.FreeFormBestFit.assign</definition>
+        <argsstring>(MR._ByValue_FreeFormBestFit _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FreeFormBestFit.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FreeFormBestFit</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FreeFormBestFit.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="473" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="473" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a594be8b0f738975d8b12dbd4cde65072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FreeFormBestFit.addPair</definition>
+        <argsstring>(in MR.Vector3d src, in MR.Vector3d tgt, double? w=null)</argsstring>
+        <name>addPair</name>
+        <qualifiedname>MR.FreeFormBestFit.addPair</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>tgt</declname>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>w</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>add pair of source and target point to accumulator Generated from method <computeroutput><ref refid="classMR_1_1FreeFormBestFit_1a594be8b0f738975d8b12dbd4cde65072" kindref="member">MR.FreeFormBestFit.addPair</ref></computeroutput>. Parameter <computeroutput>w</computeroutput> defaults to <computeroutput>1.0</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="487" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="487" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1aaec89868e60063e0ffb49592788e4b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FreeFormBestFit.addPair</definition>
+        <argsstring>(in MR.Vector3f src, in MR.Vector3f tgt, float? w=null)</argsstring>
+        <name>addPair</name>
+        <qualifiedname>MR.FreeFormBestFit.addPair</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>tgt</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>w</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FreeFormBestFit_1a594be8b0f738975d8b12dbd4cde65072" kindref="member">MR.FreeFormBestFit.addPair</ref></computeroutput>. Parameter <computeroutput>w</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="505" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="505" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1aded679f21405b803a05f29a716ffdc51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FreeFormBestFit.addOther</definition>
+        <argsstring>(MR.Const_FreeFormBestFit other)</argsstring>
+        <name>addOther</name>
+        <qualifiedname>MR.FreeFormBestFit.addOther</qualifiedname>
+        <param>
+          <type>MR.Const_FreeFormBestFit</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>adds other instance of <ref refid="classMR_1_1FreeFormBestFit" kindref="compound">FreeFormBestFit</ref> if it has same ref grid Generated from method <computeroutput><ref refid="classMR_1_1FreeFormBestFit_1aded679f21405b803a05f29a716ffdc51" kindref="member">MR.FreeFormBestFit.addOther</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="523" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a618a671b722e2c4d0e1a908ff76e7c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FreeFormBestFit.setStabilizer</definition>
+        <argsstring>(double stabilizer)</argsstring>
+        <name>setStabilizer</name>
+        <qualifiedname>MR.FreeFormBestFit.setStabilizer</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>stabilizer</declname>
+        </param>
+        <briefdescription>
+<para>stabilizer adds additional weights to keep result grid closer to origins recommended values (0;1], but it can be higher Generated from method <computeroutput><ref refid="classMR_1_1FreeFormBestFit_1a618a671b722e2c4d0e1a908ff76e7c60" kindref="member">MR.FreeFormBestFit.setStabilizer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="535" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="535" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a0720513cc5a7f74b0f9bebbdba2ae984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVector3f</type>
+        <definition>unsafe MR.Std.Vector_MRVector3f MR.FreeFormBestFit.findBestDeformationReferenceGrid</definition>
+        <argsstring>()</argsstring>
+        <name>findBestDeformationReferenceGrid</name>
+        <qualifiedname>MR.FreeFormBestFit.findBestDeformationReferenceGrid</qualifiedname>
+        <briefdescription>
+<para>finds best grid points positions to align source points to target points Generated from method <computeroutput><ref refid="classMR_1_1FreeFormBestFit_1a0720513cc5a7f74b0f9bebbdba2ae984" kindref="member">MR.FreeFormBestFit.findBestDeformationReferenceGrid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="546" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="546" bodyend="551"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FreeFormBestFit_1a3d1dc926aa9e51905652a325ec922e43" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.FreeFormBestFit.operator FreeFormBestFit</definition>
+        <argsstring>(in MR.Box3d box)</argsstring>
+        <name>operator FreeFormBestFit</name>
+        <qualifiedname>MR.FreeFormBestFit.operator FreeFormBestFit</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box3d" kindref="compound">MR.Box3d</ref></type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+<para>initialize the class, compute cached values and reserve space for matrices Generated from constructor <computeroutput>MR.FreeFormBestFit.FreeFormBestFit</computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>Vector3i.diagonal(2)</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="468" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="468" bodyend="468"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class to accumulate source and target points for free form alignment Calculates best Free Form transform to fit given source-&gt;target deformation origin ref grid as box corners ( resolution parameter specifies how to divide box ) Generated from class <computeroutput><ref refid="classMR_1_1FreeFormBestFit" kindref="compound">MR.FreeFormBestFit</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FreeFormBestFit</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FreeFormBestFit</label>
+        <link refid="classMR_1_1FreeFormBestFit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FreeFormBestFit &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FreeFormBestFit</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FreeFormBestFit</label>
+        <link refid="classMR_1_1FreeFormBestFit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FreeFormBestFit &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="422" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="423" bodyend="552"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FreeFormBestFit_1aded679f21405b803a05f29a716ffdc51" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addOther</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a594be8b0f738975d8b12dbd4cde65072" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1aaec89868e60063e0ffb49592788e4b31" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a5d02e7ce8cdd134d0fdd49843c180502" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>assign</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a0720513cc5a7f74b0f9bebbdba2ae984" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>findBestDeformationReferenceGrid</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a394d5389a6b3ceaa8237640d82501722" prot="package" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a266fdecc68e2c18a8a1ed7c5cec82cf8" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a7ca0350ac7bf51b4b866a6d2cad97cdd" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a3ba25bdb56559b82d9be3bc3e1a70601" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a4fb615e35bfcdba0125d52463672556d" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a3d1dc926aa9e51905652a325ec922e43" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>operator FreeFormBestFit</name></member>
+      <member refid="classMR_1_1FreeFormBestFit_1a618a671b722e2c4d0e1a908ff76e7c60" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>setStabilizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

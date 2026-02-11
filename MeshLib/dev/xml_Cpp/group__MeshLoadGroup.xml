@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshLoadGroup" kind="group">
+    <compoundname>MeshLoadGroup</compoundname>
+    <title>Mesh Load</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga0230084d7f2168e0171883198494ca0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromMrmesh</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromMrmesh</name>
+        <qualifiedname>MR::MeshLoad::fromMrmesh</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in internal MeshLib format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="87" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="87" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga4725e7b67ed74363c6782045a4122ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromMrmesh</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromMrmesh</name>
+        <qualifiedname>MR::MeshLoad::fromMrmesh</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads mesh from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="91" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="91" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga9dacefdac7728d37b984dcab6ed88bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromOff</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromOff</name>
+        <qualifiedname>MR::MeshLoad::fromOff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .OFF format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="94" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="94" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gaf2da62e6f9eb917bd0def906f852e597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromOff</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromOff</name>
+        <qualifiedname>MR::MeshLoad::fromOff</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in .OFF format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="97" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="97" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga132c2f040df5ba0e5b7c26b62a687a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromObj</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>MR::MeshLoad::fromObj</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .OBJ format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="100" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="100" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gac407c8e26de276d27c9bbb8fe40eade0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromObj</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>MR::MeshLoad::fromObj</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads mesh from stream in .OBJ format; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="104" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga1b2267cc39cb8d9f8cc2942df5a0b12b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnyStl</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromAnyStl</name>
+        <qualifiedname>MR::MeshLoad::fromAnyStl</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in any .STL format: both binary and ASCII </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="107" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="107" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga49f8924ac46a8d5087ce59fb9be4ecfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnyStl</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromAnyStl</name>
+        <qualifiedname>MR::MeshLoad::fromAnyStl</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads mesh from stream in any .STL format: both binary and ASCII; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="111" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="111" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga800a25cbcfacd411f62b7c5f66035242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromBinaryStl</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromBinaryStl</name>
+        <qualifiedname>MR::MeshLoad::fromBinaryStl</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in binary .STL format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="114" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="114" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga08e50aacade413e567cd3bc388b51163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromBinaryStl</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromBinaryStl</name>
+        <qualifiedname>MR::MeshLoad::fromBinaryStl</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="118" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="118" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gaf50c150b1dd81fc6068b1ceff67e4fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromASCIIStl</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromASCIIStl</name>
+        <qualifiedname>MR::MeshLoad::fromASCIIStl</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in textual .STL format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="121" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="121" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga48e8ba7fe63a7dd81cac9f267a869133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromASCIIStl</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromASCIIStl</name>
+        <qualifiedname>MR::MeshLoad::fromASCIIStl</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in textual .STL format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="124" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga1cb0c1de8fa23fcac57b58ccd15c147a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromPly</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>MR::MeshLoad::fromPly</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .PLY format; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="127" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="127" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga288b39c5cb10846a9c11e14ca00ada85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromPly</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>MR::MeshLoad::fromPly</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads mesh from stream in .PLY format; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="131" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="131" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga1335c7ebd417b7e14d4a7fbec71b1e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromDxf</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>MR::MeshLoad::fromDxf</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .DXF format; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="134" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="134" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga6c226ac764bb215351691358c90e3eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromDxf</definition>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>MR::MeshLoad::fromDxf</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in .DXF format; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="137" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="137" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gac9118492a6cd095ff8e563c0987fc477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::MeshLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in the format detected from file extension </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="140" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="140" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga7aaa3a9fdc4e9ca9e86331c938c43fcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnySupportedFormat</definition>
+        <argsstring>(std::istream &amp;in, const std::string &amp;extension, const MeshLoadSettings &amp;settings={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::MeshLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>const MeshLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads mesh from stream in the format detected from given extension-string (<computeroutput>*.ext</computeroutput>); important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="144" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="144" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga1609740c1af4ee05a62c65f39f25323a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::MeshLoad::telemetryLogSize</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>telemetryLogSize</name>
+        <qualifiedname>MR::MeshLoad::telemetryLogSize</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>emits telemetry signal with the integer logarithm of mesh size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="147" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="147" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

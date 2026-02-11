@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Palette_1_1Parameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Palette::Parameters</compoundname>
+    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Palette_1_1Parameters_1a9a1c14b8de7d2c34b832c70062d489b9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; MR::Palette::Parameters::ranges</definition>
+        <argsstring></argsstring>
+        <name>ranges</name>
+        <qualifiedname>MR::Palette::Parameters::ranges</qualifiedname>
+        <initializer>= { 0.f, 1.f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="149" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Palette_1_1Parameters_1a10918a054375c316bd8e2fcb0685a726" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>std::vector&lt;Color&gt; MR::Palette::Parameters::baseColors</definition>
+        <argsstring></argsstring>
+        <name>baseColors</name>
+        <qualifiedname>MR::Palette::Parameters::baseColors</qualifiedname>
+        <briefdescription>
+<para>range limits for palette </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="150" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Palette_1_1Parameters_1ae9f6c64d1d00c242d6863b39c8a466fe" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a2bd3b23d498c69cd04c544b6c7068f3a" kindref="member">MinMaxf</ref></type>
+        <definition>MinMaxf MR::Palette::Parameters::legendLimits</definition>
+        <argsstring></argsstring>
+        <name>legendLimits</name>
+        <qualifiedname>MR::Palette::Parameters::legendLimits</qualifiedname>
+        <briefdescription>
+<para>palette base colors (need for calculate real colors according discretization) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="151" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Palette_1_1Parameters_1a25a6807ebee10dcb03a9e00733288113" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Palette::Parameters::discretization</definition>
+        <argsstring></argsstring>
+        <name>discretization</name>
+        <qualifiedname>MR::Palette::Parameters::discretization</qualifiedname>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>if valid - limit legend range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="152" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>base parameters of palette </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Box&lt; float &gt;</label>
+        <link refid="structMR_1_1Box"/>
+      </node>
+      <node id="1">
+        <label>MR::Palette::Parameters</label>
+        <link refid="structMR_1_1Palette_1_1Parameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>legendLimits</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="147" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="148" bodyend="153"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Palette_1_1Parameters_1a10918a054375c316bd8e2fcb0685a726" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>baseColors</name></member>
+      <member refid="structMR_1_1Palette_1_1Parameters_1a25a6807ebee10dcb03a9e00733288113" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>discretization</name></member>
+      <member refid="structMR_1_1Palette_1_1Parameters_1ae9f6c64d1d00c242d6863b39c8a466fe" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>legendLimits</name></member>
+      <member refid="structMR_1_1Palette_1_1Parameters_1a9a1c14b8de7d2c34b832c70062d489b9" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>ranges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

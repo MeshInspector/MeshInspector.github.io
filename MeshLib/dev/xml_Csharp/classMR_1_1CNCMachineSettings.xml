@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CNCMachineSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::CNCMachineSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CNCMachineSettings</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Const_CNCMachineSettings &gt;</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a96a48f21d0f72fdd7df57b610b50abf8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CNCMachineSettings.CNCMachineSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CNCMachineSettings</name>
+        <qualifiedname>MR.CNCMachineSettings.CNCMachineSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="135" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1ab3f97403c8937617189408cad25573d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CNCMachineSettings.CNCMachineSettings</definition>
+        <argsstring>()</argsstring>
+        <name>CNCMachineSettings</name>
+        <qualifiedname>MR.CNCMachineSettings.CNCMachineSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="140" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a132a8bff9228105157d3173e487f921c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CNCMachineSettings.CNCMachineSettings</definition>
+        <argsstring>(MR._ByValue_CNCMachineSettings _other)</argsstring>
+        <name>CNCMachineSettings</name>
+        <qualifiedname>MR.CNCMachineSettings.CNCMachineSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_CNCMachineSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CNCMachineSettings.CNCMachineSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="150" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="150" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a71343f7e63e5ab7e071e81df9a0b10ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CNCMachineSettings.CNCMachineSettings</definition>
+        <argsstring>(Const_CNCMachineSettings _other)</argsstring>
+        <name>CNCMachineSettings</name>
+        <qualifiedname>MR.CNCMachineSettings.CNCMachineSettings</qualifiedname>
+        <param>
+          <type>Const_CNCMachineSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CNCMachineSettings.CNCMachineSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="161" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a9cf4aba6b7bc597e704fd3b8624dbe4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CNCMachineSettings.CNCMachineSettings</definition>
+        <argsstring>(CNCMachineSettings _other)</argsstring>
+        <name>CNCMachineSettings</name>
+        <qualifiedname>MR.CNCMachineSettings.CNCMachineSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CNCMachineSettings.CNCMachineSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="166" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a8cd76680b53ba086d3293c7ca02ac46e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">MR.CNCMachineSettings</ref></type>
+        <definition>unsafe MR.CNCMachineSettings MR.CNCMachineSettings.assign</definition>
+        <argsstring>(MR._ByValue_CNCMachineSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CNCMachineSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_CNCMachineSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CNCMachineSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="171" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="171" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aa751b0b116d67b9cb83085125cb1efd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CNCMachineSettings.setRotationAxis</definition>
+        <argsstring>(MR.CNCMachineSettings.RotationAxisName paramName, in MR.Vector3f rotationAxis)</argsstring>
+        <name>setRotationAxis</name>
+        <qualifiedname>MR.CNCMachineSettings.setRotationAxis</qualifiedname>
+        <param>
+          <type>MR.CNCMachineSettings.RotationAxisName</type>
+          <declname>paramName</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>rotationAxis</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CNCMachineSettings_1aa751b0b116d67b9cb83085125cb1efd2" kindref="member">MR.CNCMachineSettings.setRotationAxis</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="184" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="184" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aecded64948d296460945405eb18b1f9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CNCMachineSettings.setRotationLimits</definition>
+        <argsstring>(MR.CNCMachineSettings.RotationAxisName paramName, MR._InOpt_Vector2f rotationLimits)</argsstring>
+        <name>setRotationLimits</name>
+        <qualifiedname>MR.CNCMachineSettings.setRotationLimits</qualifiedname>
+        <param>
+          <type>MR.CNCMachineSettings.RotationAxisName</type>
+          <declname>paramName</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_Vector2f</type>
+          <declname>rotationLimits</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CNCMachineSettings_1aecded64948d296460945405eb18b1f9e" kindref="member">MR.CNCMachineSettings.setRotationLimits</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="199" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="199" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aa3e5d82cbca168f43e18a41de2099a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CNCMachineSettings.setRotationOrder</definition>
+        <argsstring>(MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName rotationAxesOrder)</argsstring>
+        <name>setRotationOrder</name>
+        <qualifiedname>MR.CNCMachineSettings.setRotationOrder</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRCNCMachineSettingsRotationAxisName</type>
+          <declname>rotationAxesOrder</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CNCMachineSettings_1aa3e5d82cbca168f43e18a41de2099a42" kindref="member">MR.CNCMachineSettings.setRotationOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="210" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="210" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a7c5a3d8b7e6f235b34f24802618d9164" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CNCMachineSettings.setFeedrateIdle</definition>
+        <argsstring>(float feedrateIdle)</argsstring>
+        <name>setFeedrateIdle</name>
+        <qualifiedname>MR.CNCMachineSettings.setFeedrateIdle</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>feedrateIdle</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CNCMachineSettings_1a7c5a3d8b7e6f235b34f24802618d9164" kindref="member">MR.CNCMachineSettings.setFeedrateIdle</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="222" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="222" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a79d26578bb84a72e098ced3fca4517ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CNCMachineSettings.setHomePosition</definition>
+        <argsstring>(in MR.Vector3f homePosition)</argsstring>
+        <name>setHomePosition</name>
+        <qualifiedname>MR.CNCMachineSettings.setHomePosition</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>homePosition</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CNCMachineSettings_1a79d26578bb84a72e098ced3fca4517ab" kindref="member">MR.CNCMachineSettings.setHomePosition</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="232" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="232" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a49a5713cd05b825f45bd113702303424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.CNCMachineSettings.Equals</definition>
+        <argsstring>(MR.Const_CNCMachineSettings? rhs)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.CNCMachineSettings.Equals</qualifiedname>
+        <param>
+          <type>MR.Const_CNCMachineSettings?</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="259" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="259" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a171d75b6d259c0b4818c8a7410e75cf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.CNCMachineSettings.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.CNCMachineSettings.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="266" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="266" bodyend="273"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a4dd9282030f1490657fde831d167695b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.CNCMachineSettings.operator==</definition>
+        <argsstring>(MR.CNCMachineSettings _this, MR.Const_CNCMachineSettings rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.CNCMachineSettings.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">MR.CNCMachineSettings</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_CNCMachineSettings</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CNCMachineSettings.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="245" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="245" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1ad9107ddb6c62812ccad2bb4b16018c59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.CNCMachineSettings.operator!=</definition>
+        <argsstring>(MR.CNCMachineSettings _this, MR.Const_CNCMachineSettings rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.CNCMachineSettings.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">MR.CNCMachineSettings</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_CNCMachineSettings</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="252" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="252" bodyend="255"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class with CNC machine emulation settings Generated from class <computeroutput><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">MR.CNCMachineSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CNCMachineSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CNCMachineSettings</label>
+        <link refid="classMR_1_1CNCMachineSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CNCMachineSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_CNCMachineSettings &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CNCMachineSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CNCMachineSettings</label>
+        <link refid="classMR_1_1CNCMachineSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CNCMachineSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_CNCMachineSettings &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" line="133" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCNCMachineSettings.cs" bodystart="134" bodyend="274"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CNCMachineSettings_1a8cd76680b53ba086d3293c7ca02ac46e" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a96a48f21d0f72fdd7df57b610b50abf8" prot="package" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1ab3f97403c8937617189408cad25573d3" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a132a8bff9228105157d3173e487f921c" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a71343f7e63e5ab7e071e81df9a0b10ee" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a9cf4aba6b7bc597e704fd3b8624dbe4a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a49a5713cd05b825f45bd113702303424" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Equals</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a171d75b6d259c0b4818c8a7410e75cf0" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Equals</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1ad9107ddb6c62812ccad2bb4b16018c59" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a4dd9282030f1490657fde831d167695b" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator==</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a7c5a3d8b7e6f235b34f24802618d9164" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setFeedrateIdle</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1a79d26578bb84a72e098ced3fca4517ab" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setHomePosition</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1aa751b0b116d67b9cb83085125cb1efd2" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationAxis</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1aecded64948d296460945405eb18b1f9e" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationLimits</name></member>
+      <member refid="classMR_1_1CNCMachineSettings_1aa3e5d82cbca168f43e18a41de2099a42" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

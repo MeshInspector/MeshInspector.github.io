@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LineSegm" kind="struct" language="C++" prot="public">
+    <compoundname>MR::LineSegm</compoundname>
+    <includes refid="MRLineSegm_8h" local="no">MRLineSegm.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1LineSegm_1a3257b02c520c257af06a8750951851e6" prot="public" static="no">
+        <type>typename V::ValueType</type>
+        <definition>using MR::LineSegm&lt; V &gt;::T =  typename V::ValueType</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>MR::LineSegm::T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1LineSegm_1a5a416b6364f2ec163ab839380998b247" prot="public" static="no" mutable="no">
+        <type>V</type>
+        <definition>V MR::LineSegm&lt; V &gt;::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::LineSegm::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="14" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LineSegm_1afcb4423f5becc13fff968c531455f4e8" prot="public" static="no" mutable="no">
+        <type>V</type>
+        <definition>V MR::LineSegm&lt; V &gt;::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::LineSegm::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="14" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1LineSegm_1a012f7dcffa0f21fdd89da4726c09fef7" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::LineSegm&lt; V &gt;::LineSegm</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>LineSegm</name>
+        <qualifiedname>MR::LineSegm::LineSegm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="16" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LineSegm_1af25a41f042c3bade3e1bd129c6c69702" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::LineSegm&lt; V &gt;::LineSegm</definition>
+        <argsstring>(const V &amp;a, const V &amp;b) noexcept</argsstring>
+        <name>LineSegm</name>
+        <qualifiedname>MR::LineSegm::LineSegm</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const V &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="17" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LineSegm_1a5fe5f232802842f5c2716a95abb8c28b" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr</type>
+        <definition>MR::LineSegm&lt; V &gt;::LineSegm</definition>
+        <argsstring>(const LineSegm&lt; U &gt; &amp;p) noexcept</argsstring>
+        <name>LineSegm</name>
+        <qualifiedname>MR::LineSegm::LineSegm</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm</ref>&lt; U &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="19" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LineSegm_1ac7639a48742e5c77367777128549d36e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::LineSegm&lt; V &gt;::dir</definition>
+        <argsstring>() const</argsstring>
+        <name>dir</name>
+        <qualifiedname>MR::LineSegm::dir</qualifiedname>
+        <briefdescription>
+<para>returns directional vector of the line </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="21" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LineSegm_1aa0c1c59c920a38b8c03970caf1da046a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1LineSegm_1a3257b02c520c257af06a8750951851e6" kindref="member">T</ref></type>
+        <definition>T MR::LineSegm&lt; V &gt;::lengthSq</definition>
+        <argsstring>() const</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR::LineSegm::lengthSq</qualifiedname>
+        <briefdescription>
+<para>returns squared length of this line segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="23" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LineSegm_1a086b850940021667f55efa192653d966" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1LineSegm_1a3257b02c520c257af06a8750951851e6" kindref="member">T</ref></type>
+        <definition>T MR::LineSegm&lt; V &gt;::length</definition>
+        <argsstring>() const</argsstring>
+        <name>length</name>
+        <qualifiedname>MR::LineSegm::length</qualifiedname>
+        <briefdescription>
+<para>returns the length of this line segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="25" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LineSegm_1aadd80884a169b1942afb5da781c1a137" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::LineSegm&lt; V &gt;::operator()</definition>
+        <argsstring>(T param) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::LineSegm::operator()</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LineSegm_1a3257b02c520c257af06a8750951851e6" kindref="member">T</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+<para>returns point on the line, where param=0 returns a and param=1 returns b </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="27" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a segment of straight dimensional line </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineSegm.h" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structMR_1_1LineSegm_1a5a416b6364f2ec163ab839380998b247" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>a</name></member>
+      <member refid="structMR_1_1LineSegm_1afcb4423f5becc13fff968c531455f4e8" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>b</name></member>
+      <member refid="structMR_1_1LineSegm_1ac7639a48742e5c77367777128549d36e" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>dir</name></member>
+      <member refid="structMR_1_1LineSegm_1a086b850940021667f55efa192653d966" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>length</name></member>
+      <member refid="structMR_1_1LineSegm_1aa0c1c59c920a38b8c03970caf1da046a" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>lengthSq</name></member>
+      <member refid="structMR_1_1LineSegm_1a012f7dcffa0f21fdd89da4726c09fef7" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>LineSegm</name></member>
+      <member refid="structMR_1_1LineSegm_1af25a41f042c3bade3e1bd129c6c69702" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>LineSegm</name></member>
+      <member refid="structMR_1_1LineSegm_1a5fe5f232802842f5c2716a95abb8c28b" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>LineSegm</name></member>
+      <member refid="structMR_1_1LineSegm_1aadd80884a169b1942afb5da781c1a137" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>operator()</name></member>
+      <member refid="structMR_1_1LineSegm_1a3257b02c520c257af06a8750951851e6" prot="public" virt="non-virtual"><scope>MR::LineSegm</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

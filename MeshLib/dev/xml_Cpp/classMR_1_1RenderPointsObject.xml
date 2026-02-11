@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderPointsObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderPointsObject</compoundname>
+    <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</derivedcompoundref>
+    <includes refid="MRRenderPointsObject_8h" local="no">MRRenderPointsObject.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1RenderPointsObject_1a402f81a43c073fbc9f96cc00b7c5077c" prot="private" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int MR::RenderPointsObject::GLuint</definition>
+        <argsstring></argsstring>
+        <name>GLuint</name>
+        <qualifiedname>MR::RenderPointsObject::GLuint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="38" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1aed2b8b05c3c7519bfe2c85df7a6124ce" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> *</type>
+        <definition>const ObjectPointsHolder* MR::RenderPointsObject::objPoints_</definition>
+        <argsstring></argsstring>
+        <name>objPoints_</name>
+        <qualifiedname>MR::RenderPointsObject::objPoints_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="22" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1af7f747b6141a2a43f5fe85791d6bd77d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderPointsObject::vertPosSize_</definition>
+        <argsstring></argsstring>
+        <name>vertPosSize_</name>
+        <qualifiedname>MR::RenderPointsObject::vertPosSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1ac0bd3cb24bdb6a15962c47a2447966dc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderPointsObject::vertNormalsSize_</definition>
+        <argsstring></argsstring>
+        <name>vertNormalsSize_</name>
+        <qualifiedname>MR::RenderPointsObject::vertNormalsSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a4156810ade49aca280e67aca3937bb66" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderPointsObject::vertColorsSize_</definition>
+        <argsstring></argsstring>
+        <name>vertColorsSize_</name>
+        <qualifiedname>MR::RenderPointsObject::vertColorsSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1aa5aab9cd809a4ad258aca00d84fbbb95" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderPointsObject::validIndicesSize_</definition>
+        <argsstring></argsstring>
+        <name>validIndicesSize_</name>
+        <qualifiedname>MR::RenderPointsObject::validIndicesSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a749d5cb9ba3be7ab645dc609d69d14a9" prot="private" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::RenderPointsObject::vertSelectionTextureSize_</definition>
+        <argsstring></argsstring>
+        <name>vertSelectionTextureSize_</name>
+        <qualifiedname>MR::RenderPointsObject::vertSelectionTextureSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a5dd09f8e05c96b4f63784975c9042064" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderPointsObject::cachedRenderDiscretization_</definition>
+        <argsstring></argsstring>
+        <name>cachedRenderDiscretization_</name>
+        <qualifiedname>MR::RenderPointsObject::cachedRenderDiscretization_</qualifiedname>
+        <initializer>{ 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="30" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a0cd33f857603f30cc7019841c8cd2834" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::RenderPointsObject::pointsArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>pointsArrayObjId_</name>
+        <qualifiedname>MR::RenderPointsObject::pointsArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="39" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1ad415d7d7d6b525e1a38ce1842423e3ff" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::RenderPointsObject::pointsPickerArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>pointsPickerArrayObjId_</name>
+        <qualifiedname>MR::RenderPointsObject::pointsPickerArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="40" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a1262364c57d7b4f5be8ecebc8fec7623" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderPointsObject::vertPosBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertPosBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::vertPosBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="42" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1ab60c5e27348b15cdd6f5e173048b1867" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderPointsObject::vertNormalsBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertNormalsBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::vertNormalsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="43" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1ac62b2364a6230473ff75c581419198f7" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderPointsObject::vertColorsBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertColorsBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::vertColorsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="44" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1af731ea29b071139e31d495c2e7f612d6" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderPointsObject::validIndicesBuffer_</definition>
+        <argsstring></argsstring>
+        <name>validIndicesBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::validIndicesBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="45" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a79b67c831da94741e6b14f17ac6faba8" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderPointsObject::vertSelectionTex_</definition>
+        <argsstring></argsstring>
+        <name>vertSelectionTex_</name>
+        <qualifiedname>MR::RenderPointsObject::vertSelectionTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="47" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1a190fde47b7ebc6bba6f178656c8cbadc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderPointsObject::maxTexSize_</definition>
+        <argsstring></argsstring>
+        <name>maxTexSize_</name>
+        <qualifiedname>MR::RenderPointsObject::maxTexSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="49" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1aeae2cd6d8994e9c5031722b0d441e84a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderPointsObject::hasNormalsBackup_</definition>
+        <argsstring></argsstring>
+        <name>hasNormalsBackup_</name>
+        <qualifiedname>MR::RenderPointsObject::hasNormalsBackup_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="62" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderPointsObject_1ae6a20c745b81bdea4bd2bf57eb14c38c" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MR::RenderPointsObject::dirty_</definition>
+        <argsstring></argsstring>
+        <name>dirty_</name>
+        <qualifiedname>MR::RenderPointsObject::dirty_</qualifiedname>
+        <briefdescription>
+<para>Marks dirty buffers that need to be uploaded to OpenGL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="65" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1ab99ca8621e3c55c14e02d3452bbdd239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderPointsObject::RenderPointsObject</definition>
+        <argsstring>(const VisualObject &amp;visObj)</argsstring>
+        <name>RenderPointsObject</name>
+        <qualifiedname>MR::RenderPointsObject::RenderPointsObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>visObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="13" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a15d475f3d61005249719bb402493d9d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderPointsObject::~RenderPointsObject</definition>
+        <argsstring>()</argsstring>
+        <name>~RenderPointsObject</name>
+        <qualifiedname>MR::RenderPointsObject::~RenderPointsObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="14" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1ad39fc2c9b30695ac78272431c20efe9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::RenderPointsObject::render</definition>
+        <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
+        <name>render</name>
+        <qualifiedname>MR::RenderPointsObject::render</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4">render</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if something was rendered, or false if nothing to render. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
+<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="16" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a88bbfafb06a1d55fbcc5d082f4239094" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RenderPointsObject::renderPicker</definition>
+        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>MR::RenderPointsObject::renderPicker</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738">renderPicker</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="17" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1ac57d8a541df401cff5ddf7566f0b9bb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::RenderPointsObject::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::RenderPointsObject::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="18" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1ae58d2cc13f9eff9285ade09909b14ec7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::RenderPointsObject::glBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>MR::RenderPointsObject::glBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe">glBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object allocated in OpenGL </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="19" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a84ee58e0127a952e60ebcae7ee3a712a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RenderPointsObject::forceBindAll</definition>
+        <argsstring>() override</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>MR::RenderPointsObject::forceBindAll</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215">forceBindAll</reimplements>
+        <briefdescription>
+<para>binds all data for this render object, not to bind ever again (until object becomes dirty) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="20" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1abe46eb8f26f7bdddca1354574c7f66d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector3f &gt;</type>
+        <definition>RenderBufferRef&lt; Vector3f &gt; MR::RenderPointsObject::loadVertPosBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertPosBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::loadVertPosBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="32" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1ac1a8138c3e18e2285b96706e6d1c5e59" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector3f &gt;</type>
+        <definition>RenderBufferRef&lt; Vector3f &gt; MR::RenderPointsObject::loadVertNormalsBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertNormalsBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::loadVertNormalsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="33" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1aba1063bd619daf3a27172a7772b51802" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>RenderBufferRef&lt; Color &gt; MR::RenderPointsObject::loadVertColorsBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertColorsBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::loadVertColorsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="34" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1abb55b07472c35535c3a52fdb38572aaf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; VertId &gt;</type>
+        <definition>RenderBufferRef&lt; VertId &gt; MR::RenderPointsObject::loadValidIndicesBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadValidIndicesBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::loadValidIndicesBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="35" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a3ad4dd638f1d316808ba9c4b3d347185" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; unsigned &gt;</type>
+        <definition>RenderBufferRef&lt; unsigned &gt; MR::RenderPointsObject::loadVertSelectionTextureBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertSelectionTextureBuffer_</name>
+        <qualifiedname>MR::RenderPointsObject::loadVertSelectionTextureBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="36" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a3b8aeb7199a7a44fa681ac40a963109e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderPointsObject::bindPoints_</definition>
+        <argsstring>(GLStaticHolder::ShaderType shaderType)</argsstring>
+        <name>bindPoints_</name>
+        <qualifiedname>MR::RenderPointsObject::bindPoints_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">GLStaticHolder::ShaderType</ref></type>
+          <declname>shaderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a2b9f3c5d4353c49afd98c9e1e6f348c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderPointsObject::bindPointsPicker_</definition>
+        <argsstring>()</argsstring>
+        <name>bindPointsPicker_</name>
+        <qualifiedname>MR::RenderPointsObject::bindPointsPicker_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a3f040e8bc237525dfbbe1ae891f0fdfc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderPointsObject::initBuffers_</definition>
+        <argsstring>()</argsstring>
+        <name>initBuffers_</name>
+        <qualifiedname>MR::RenderPointsObject::initBuffers_</qualifiedname>
+        <briefdescription>
+<para>Create a new set of OpenGL buffer objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a65f3a6b1aeb4a76749c06c416bc1a9b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderPointsObject::freeBuffers_</definition>
+        <argsstring>()</argsstring>
+        <name>freeBuffers_</name>
+        <qualifiedname>MR::RenderPointsObject::freeBuffers_</qualifiedname>
+        <briefdescription>
+<para>Release the OpenGL buffer objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderPointsObject_1a940488a4fc333003f6cd9dcede643e73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderPointsObject::update_</definition>
+        <argsstring>()</argsstring>
+        <name>update_</name>
+        <qualifiedname>MR::RenderPointsObject::update_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="60" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="4">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderPointsObject</label>
+        <link refid="classMR_1_1RenderPointsObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderPointsObject</label>
+        <link refid="classMR_1_1RenderPointsObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h" bodystart="11" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderPointsObject_1a3b8aeb7199a7a44fa681ac40a963109e" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>bindPoints_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a2b9f3c5d4353c49afd98c9e1e6f348c1" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>bindPointsPicker_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a5dd09f8e05c96b4f63784975c9042064" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>cachedRenderDiscretization_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ae6a20c745b81bdea4bd2bf57eb14c38c" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>dirty_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a84ee58e0127a952e60ebcae7ee3a712a" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a65f3a6b1aeb4a76749c06c416bc1a9b5" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>freeBuffers_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ae58d2cc13f9eff9285ade09909b14ec7" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a402f81a43c073fbc9f96cc00b7c5077c" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>GLuint</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1aeae2cd6d8994e9c5031722b0d441e84a" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>hasNormalsBackup_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ac57d8a541df401cff5ddf7566f0b9bb4" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a3f040e8bc237525dfbbe1ae891f0fdfc" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>initBuffers_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1abb55b07472c35535c3a52fdb38572aaf" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>loadValidIndicesBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1aba1063bd619daf3a27172a7772b51802" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>loadVertColorsBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ac1a8138c3e18e2285b96706e6d1c5e59" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>loadVertNormalsBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1abe46eb8f26f7bdddca1354574c7f66d8" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>loadVertPosBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a3ad4dd638f1d316808ba9c4b3d347185" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>loadVertSelectionTextureBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a190fde47b7ebc6bba6f178656c8cbadc" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>maxTexSize_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1aed2b8b05c3c7519bfe2c85df7a6124ce" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>objPoints_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a0cd33f857603f30cc7019841c8cd2834" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>pointsArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ad415d7d7d6b525e1a38ce1842423e3ff" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>pointsPickerArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ad39fc2c9b30695ac78272431c20efe9e" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a88bbfafb06a1d55fbcc5d082f4239094" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ab99ca8621e3c55c14e02d3452bbdd239" prot="public" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>RenderPointsObject</name></member>
+      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a940488a4fc333003f6cd9dcede643e73" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>update_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1af731ea29b071139e31d495c2e7f612d6" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>validIndicesBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1aa5aab9cd809a4ad258aca00d84fbbb95" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>validIndicesSize_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ac62b2364a6230473ff75c581419198f7" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertColorsBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a4156810ade49aca280e67aca3937bb66" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertColorsSize_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ab60c5e27348b15cdd6f5e173048b1867" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertNormalsBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1ac0bd3cb24bdb6a15962c47a2447966dc" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertNormalsSize_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a1262364c57d7b4f5be8ecebc8fec7623" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertPosBuffer_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1af7f747b6141a2a43f5fe85791d6bd77d" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertPosSize_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a79b67c831da94741e6b14f17ac6faba8" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertSelectionTex_</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a749d5cb9ba3be7ab645dc609d69d14a9" prot="private" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>vertSelectionTextureSize_</name></member>
+      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderPointsObject</scope><name>~IRenderObject</name></member>
+      <member refid="classMR_1_1RenderPointsObject_1a15d475f3d61005249719bb402493d9d8" prot="public" virt="non-virtual"><scope>MR::RenderPointsObject</scope><name>~RenderPointsObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

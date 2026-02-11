@@ -1,0 +1,1076 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MREndMill_8h" kind="file" language="C++">
+    <compoundname>MREndMill.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MREndMill.h</label>
+        <link refid="MREndMill_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_EndMillCutter_Type</name>
+        <enumvalue id="MREndMill_8h_1a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b" prot="public">
+          <name>MR_EndMillCutter_Type_Flat</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>flat end mill </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MREndMill_8h_1a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58" prot="public">
+          <name>MR_EndMillCutter_Type_Ball</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>ball end mill </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MREndMill_8h_1a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1" prot="public">
+          <name>MR_EndMillCutter_Type_BullNose</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>bull nose end mill </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MREndMill_8h_1a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74" prot="public">
+          <name>MR_EndMillCutter_Type_Chamfer</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>chamfer end mill </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MREndMill_8h_1a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec" prot="public">
+          <name>MR_EndMillCutter_Type_Count</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>chamfer end mill </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>cutter type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" bodystart="16" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MREndMill_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="11" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREndMill_8h_1a473ae07be6ee28af7d0e50e2f0b1ab11" prot="public" static="no">
+        <type>enum <ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref></type>
+        <definition>typedef enum MR_EndMillCutter_Type MR_EndMillCutter_Type</definition>
+        <argsstring></argsstring>
+        <name>MR_EndMillCutter_Type</name>
+        <briefdescription>
+<para>cutter type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="27" column="23"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" prot="public" static="no">
+        <type>struct <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref></type>
+        <definition>typedef struct MR_EndMillCutter MR_EndMillCutter</definition>
+        <argsstring></argsstring>
+        <name>MR_EndMillCutter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>end mill cutter specifications Generated from class <computeroutput>MR::EndMillCutter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="32" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" prot="public" static="no">
+        <type>struct <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref></type>
+        <definition>typedef struct MR_EndMillTool MR_EndMillTool</definition>
+        <argsstring></argsstring>
+        <name>MR_EndMillTool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>end mill tool specifications Generated from class <computeroutput>MR::EndMillTool</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="37" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MREndMill_8h_1aa4cefc9b570680126738930904e13c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref> *</type>
+        <definition>MRC_API const MR_EndMillCutter_Type * MR_EndMillCutter_Get_type</definition>
+        <argsstring>(const MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_Get_type</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="42" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="42" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a828d4c31e5f1c906e793f17a9115bbd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillCutter_Set_type</definition>
+        <argsstring>(MR_EndMillCutter *_this, MR_EndMillCutter_Type value)</argsstring>
+        <name>MR_EndMillCutter_Set_type</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a29890165b4871985fe86ea395202855a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter_Type * MR_EndMillCutter_GetMutable_type</definition>
+        <argsstring>(MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_GetMutable_type</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="53" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="53" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1acde0dff128af8f2729e155231133debe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EndMillCutter_Get_cornerRadius</definition>
+        <argsstring>(const MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_Get_cornerRadius</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(bull nose) corner radius Returns a pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cornerRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="59" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="59" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1abc490613d1dc4cbc293819e289187c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillCutter_Set_cornerRadius</definition>
+        <argsstring>(MR_EndMillCutter *_this, float value)</argsstring>
+        <name>MR_EndMillCutter_Set_cornerRadius</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(bull nose) corner radius Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cornerRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cornerRadius</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a8ae2df10b5729e93defb77a9abd8aa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EndMillCutter_GetMutable_cornerRadius</definition>
+        <argsstring>(MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_GetMutable_cornerRadius</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(bull nose) corner radius Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cornerRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="71" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="71" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a5900c365d88249c6f9c01a11dba4b870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EndMillCutter_Get_cuttingAngle</definition>
+        <argsstring>(const MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_Get_cuttingAngle</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(chamfer) cutting angle Returns a pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cuttingAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="77" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="77" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a1acd71e4cb4ef1b56e76a7e8d9aaf24a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillCutter_Set_cuttingAngle</definition>
+        <argsstring>(MR_EndMillCutter *_this, float value)</argsstring>
+        <name>MR_EndMillCutter_Set_cuttingAngle</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(chamfer) cutting angle Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cuttingAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cuttingAngle</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a547b8e959983d4f65d553700fba4afa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EndMillCutter_GetMutable_cuttingAngle</definition>
+        <argsstring>(MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_GetMutable_cuttingAngle</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(chamfer) cutting angle Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cuttingAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="89" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="89" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a3b9e81a12a5205746750a95bc07fbb50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EndMillCutter_Get_endDiameter</definition>
+        <argsstring>(const MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_Get_endDiameter</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(chamfer) end diameter Returns a pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>endDiameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="95" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1acf65efa4cbcdc6cb4c0fe38f51ec2b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillCutter_Set_endDiameter</definition>
+        <argsstring>(MR_EndMillCutter *_this, float value)</argsstring>
+        <name>MR_EndMillCutter_Set_endDiameter</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(chamfer) end diameter Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>endDiameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>endDiameter</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1adb0a23450d1a8037d36afae22007c63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EndMillCutter_GetMutable_endDiameter</definition>
+        <argsstring>(MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_GetMutable_endDiameter</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(chamfer) end diameter Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>endDiameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="107" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="107" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1ab56f9f8a6d5393d3bbb193e59ee687bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillCutter_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_EndMillCutter_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" kindref="member">MR_EndMillCutter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="111" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="111" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1af8a3cf53f756e1060e558d4b4d02d95e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillCutter_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_EndMillCutter_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MREndMill_8h_1acaebb867f67397bba9f6c0242f99a1e6" kindref="member">MR_EndMillCutter_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MREndMill_8h_1a4599e99fb2475402ae7e8fe31ebb486c" kindref="member">MR_EndMillCutter_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MREndMill_8h_1a1a66d7c9923592ae7b03afb1ace753f0" kindref="member">MR_EndMillCutter_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="116" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="116" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a1b7cf8af60c1869bec6adb92e7ad35c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillCutter_ConstructFrom</definition>
+        <argsstring>(MR_EndMillCutter_Type type, float cornerRadius, float cuttingAngle, float endDiameter)</argsstring>
+        <name>MR_EndMillCutter_ConstructFrom</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cornerRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cuttingAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>endDiameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::EndMillCutter</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" kindref="member">MR_EndMillCutter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="122" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="122" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a1a66d7c9923592ae7b03afb1ace753f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API const MR_EndMillCutter * MR_EndMillCutter_OffsetPtr</definition>
+        <argsstring>(const MR_EndMillCutter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_EndMillCutter_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="126" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="126" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a4599e99fb2475402ae7e8fe31ebb486c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillCutter_OffsetMutablePtr</definition>
+        <argsstring>(MR_EndMillCutter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_EndMillCutter_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="130" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="130" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1ae76e1707eaac4a0b9e755dadbf98e58b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillCutter_ConstructFromAnother</definition>
+        <argsstring>(const MR_EndMillCutter *_other)</argsstring>
+        <name>MR_EndMillCutter_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::EndMillCutter::EndMillCutter</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" kindref="member">MR_EndMillCutter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="136" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="136" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1ac357ec87451e04b87382169c92365271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillCutter_Destroy</definition>
+        <argsstring>(const MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_Destroy</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_EndMillCutter</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1acaebb867f67397bba9f6c0242f99a1e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillCutter_DestroyArray</definition>
+        <argsstring>(const MR_EndMillCutter *_this)</argsstring>
+        <name>MR_EndMillCutter_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_EndMillCutter</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="142" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a126cfad5f4725a5453df565d8b94fb34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillCutter_AssignFromAnother</definition>
+        <argsstring>(MR_EndMillCutter *_this, const MR_EndMillCutter *_other)</argsstring>
+        <name>MR_EndMillCutter_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::EndMillCutter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="150" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="150" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1aa625cdae893e9d11ef3cbd613de120a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EndMillTool_Get_length</definition>
+        <argsstring>(const MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_Get_length</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overall tool length Returns a pointer to a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="156" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="156" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a21bea832b18cbd410964df41a64e5b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillTool_Set_length</definition>
+        <argsstring>(MR_EndMillTool *_this, float value)</argsstring>
+        <name>MR_EndMillTool_Set_length</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overall tool length Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>length</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1ad38c58a8492f2f4ce79f0b12626cec3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EndMillTool_GetMutable_length</definition>
+        <argsstring>(MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_GetMutable_length</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overall tool length Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="168" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="168" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1aab585b219d22bff4a6dc79882559f705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EndMillTool_Get_diameter</definition>
+        <argsstring>(const MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_Get_diameter</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool diameter Returns a pointer to a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>diameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="174" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="174" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a60d0d9bcc3e2c99d6cb8e8b3a1295106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillTool_Set_diameter</definition>
+        <argsstring>(MR_EndMillTool *_this, float value)</argsstring>
+        <name>MR_EndMillTool_Set_diameter</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool diameter Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>diameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>diameter</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="180" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a1b075fe97a62e8ab7fb9c521f6ff2970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EndMillTool_GetMutable_diameter</definition>
+        <argsstring>(MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_GetMutable_diameter</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool diameter Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>diameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="186" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="186" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a46fcccd6d0cf806d1dbc63b13a782616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API const MR_EndMillCutter * MR_EndMillTool_Get_cutter</definition>
+        <argsstring>(const MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_Get_cutter</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>cutter Returns a pointer to a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>cutter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="192" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="192" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a6540d31d8f0f5c815bdd0b882b1e3875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillTool_Set_cutter</definition>
+        <argsstring>(MR_EndMillTool *_this, const MR_EndMillCutter *value)</argsstring>
+        <name>MR_EndMillTool_Set_cutter</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>cutter Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>cutter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cutter</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cutter</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1aa18497af707d8c4fdbe1d474e54cb4b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+        <definition>MRC_API MR_EndMillCutter * MR_EndMillTool_GetMutable_cutter</definition>
+        <argsstring>(MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_GetMutable_cutter</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>cutter Returns a mutable pointer to a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>cutter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="206" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="206" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a5d8bda03d7416d13906a7b26da6c794f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API MR_EndMillTool * MR_EndMillTool_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_EndMillTool_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" kindref="member">MR_EndMillTool_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="210" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="210" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a564b2a327cfaa95c4b17ed54077216d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API MR_EndMillTool * MR_EndMillTool_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_EndMillTool_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MREndMill_8h_1abb4b0abffa000ba0461aa24d36b9b5ac" kindref="member">MR_EndMillTool_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MREndMill_8h_1a15cdb034ce56dcabd4a7c73abb650812" kindref="member">MR_EndMillTool_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MREndMill_8h_1a5cfd0d61bdbda70560a946b7d0207d73" kindref="member">MR_EndMillTool_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="215" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="215" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a4aa9804022b659598e6141d37f8adc5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API MR_EndMillTool * MR_EndMillTool_ConstructFrom</definition>
+        <argsstring>(float length, float diameter, const MR_EndMillCutter *cutter)</argsstring>
+        <name>MR_EndMillTool_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>diameter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref> *</type>
+          <declname>cutter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::EndMillTool</computeroutput> elementwise. Parameter <computeroutput>cutter</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>cutter</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" kindref="member">MR_EndMillTool_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="222" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="222" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a5cfd0d61bdbda70560a946b7d0207d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API const MR_EndMillTool * MR_EndMillTool_OffsetPtr</definition>
+        <argsstring>(const MR_EndMillTool *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_EndMillTool_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="226" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="226" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a15cdb034ce56dcabd4a7c73abb650812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API MR_EndMillTool * MR_EndMillTool_OffsetMutablePtr</definition>
+        <argsstring>(MR_EndMillTool *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_EndMillTool_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="230" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="230" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1ae3d2a237364f48f2bb9ed2ca9a95c168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API MR_EndMillTool * MR_EndMillTool_ConstructFromAnother</definition>
+        <argsstring>(const MR_EndMillTool *_other)</argsstring>
+        <name>MR_EndMillTool_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::EndMillTool::EndMillTool</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" kindref="member">MR_EndMillTool_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="236" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="236" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillTool_Destroy</definition>
+        <argsstring>(const MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_Destroy</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_EndMillTool</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="239" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1abb4b0abffa000ba0461aa24d36b9b5ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EndMillTool_DestroyArray</definition>
+        <argsstring>(const MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_EndMillTool</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="242" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="242" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a75f8e5d2a73a5967f8b24071a50df9d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+        <definition>MRC_API MR_EndMillTool * MR_EndMillTool_AssignFromAnother</definition>
+        <argsstring>(MR_EndMillTool *_this, const MR_EndMillTool *_other)</argsstring>
+        <name>MR_EndMillTool_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::EndMillTool::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="250" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="250" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a756aeab3798c063379fb5c21aa5a4468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_EndMillTool_getMinimalCutLength</definition>
+        <argsstring>(const MR_EndMillTool *_this)</argsstring>
+        <name>MR_EndMillTool_getMinimalCutLength</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute the minimal cut length based on the cutter parameters Generated from method <computeroutput>MR::EndMillTool::getMinimalCutLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="255" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="255" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREndMill_8h_1a4466650e1507551c5b426ce42313b165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_Mesh * MR_EndMillTool_toMesh</definition>
+        <argsstring>(const MR_EndMillTool *_this, const int *horizontalResolution, const int *verticalResolution)</argsstring>
+        <name>MR_EndMillTool_toMesh</name>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>horizontalResolution</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>verticalResolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create a tool mesh Generated from method <computeroutput>MR::EndMillTool::toMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>horizontalResolution</computeroutput> has a default argument: <computeroutput>32</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>verticalResolution</computeroutput> has a default argument: <computeroutput>32</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMesh_8h_1a0fdcb7b4857a7f6b0fa52a17112cace6" kindref="member">MR_Mesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" line="263" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h" declline="263" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MREndMill_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b" kindref="member">MR_EndMillCutter_Type_Flat</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="20" refid="MREndMill_8h_1a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58" kindref="member">MR_EndMillCutter_Type_Ball</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="22" refid="MREndMill_8h_1a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1" kindref="member">MR_EndMillCutter_Type_BullNose</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="24" refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74" kindref="member">MR_EndMillCutter_Type_Chamfer</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="26" refid="MREndMill_8h_1a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec" kindref="member">MR_EndMillCutter_Type_Count</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="27" refid="MREndMill_8h_1a473ae07be6ee28af7d0e50e2f0b1ab11" refkind="member"><highlight class="normal">}<sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MREndMill_8h_1aa4cefc9b570680126738930904e13c04" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref><sp/>*<ref refid="MREndMill_8h_1aa4cefc9b570680126738930904e13c04" kindref="member">MR_EndMillCutter_Get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MREndMill_8h_1a828d4c31e5f1c906e793f17a9115bbd9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a828d4c31e5f1c906e793f17a9115bbd9" kindref="member">MR_EndMillCutter_Set_type</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this,<sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref><sp/>value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MREndMill_8h_1a29890165b4871985fe86ea395202855a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref><sp/>*<ref refid="MREndMill_8h_1a29890165b4871985fe86ea395202855a" kindref="member">MR_EndMillCutter_GetMutable_type</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MREndMill_8h_1acde0dff128af8f2729e155231133debe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1acde0dff128af8f2729e155231133debe" kindref="member">MR_EndMillCutter_Get_cornerRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MREndMill_8h_1abc490613d1dc4cbc293819e289187c8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1abc490613d1dc4cbc293819e289187c8f" kindref="member">MR_EndMillCutter_Set_cornerRadius</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MREndMill_8h_1a8ae2df10b5729e93defb77a9abd8aa88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1a8ae2df10b5729e93defb77a9abd8aa88" kindref="member">MR_EndMillCutter_GetMutable_cornerRadius</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MREndMill_8h_1a5900c365d88249c6f9c01a11dba4b870" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1a5900c365d88249c6f9c01a11dba4b870" kindref="member">MR_EndMillCutter_Get_cuttingAngle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MREndMill_8h_1a1acd71e4cb4ef1b56e76a7e8d9aaf24a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a1acd71e4cb4ef1b56e76a7e8d9aaf24a" kindref="member">MR_EndMillCutter_Set_cuttingAngle</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MREndMill_8h_1a547b8e959983d4f65d553700fba4afa1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1a547b8e959983d4f65d553700fba4afa1" kindref="member">MR_EndMillCutter_GetMutable_cuttingAngle</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MREndMill_8h_1a3b9e81a12a5205746750a95bc07fbb50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1a3b9e81a12a5205746750a95bc07fbb50" kindref="member">MR_EndMillCutter_Get_endDiameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MREndMill_8h_1acf65efa4cbcdc6cb4c0fe38f51ec2b47" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1acf65efa4cbcdc6cb4c0fe38f51ec2b47" kindref="member">MR_EndMillCutter_Set_endDiameter</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MREndMill_8h_1adb0a23450d1a8037d36afae22007c63e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1adb0a23450d1a8037d36afae22007c63e" kindref="member">MR_EndMillCutter_GetMutable_endDiameter</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MREndMill_8h_1ab56f9f8a6d5393d3bbb193e59ee687bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1ab56f9f8a6d5393d3bbb193e59ee687bd" kindref="member">MR_EndMillCutter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MREndMill_8h_1af8a3cf53f756e1060e558d4b4d02d95e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1af8a3cf53f756e1060e558d4b4d02d95e" kindref="member">MR_EndMillCutter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MREndMill_8h_1a1b7cf8af60c1869bec6adb92e7ad35c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1a1b7cf8af60c1869bec6adb92e7ad35c2" kindref="member">MR_EndMillCutter_ConstructFrom</ref>(<ref refid="MREndMill_8h_1a83570155983a77f6db263535b4f438ab" kindref="member">MR_EndMillCutter_Type</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cornerRadius,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cuttingAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>endDiameter);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MREndMill_8h_1a1a66d7c9923592ae7b03afb1ace753f0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1a1a66d7c9923592ae7b03afb1ace753f0" kindref="member">MR_EndMillCutter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MREndMill_8h_1a4599e99fb2475402ae7e8fe31ebb486c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1a4599e99fb2475402ae7e8fe31ebb486c" kindref="member">MR_EndMillCutter_OffsetMutablePtr</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MREndMill_8h_1ae76e1707eaac4a0b9e755dadbf98e58b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1ae76e1707eaac4a0b9e755dadbf98e58b" kindref="member">MR_EndMillCutter_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" kindref="member">MR_EndMillCutter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MREndMill_8h_1acaebb867f67397bba9f6c0242f99a1e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1acaebb867f67397bba9f6c0242f99a1e6" kindref="member">MR_EndMillCutter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MREndMill_8h_1a126cfad5f4725a5453df565d8b94fb34" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1a126cfad5f4725a5453df565d8b94fb34" kindref="member">MR_EndMillCutter_AssignFromAnother</ref>(<ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MREndMill_8h_1aa625cdae893e9d11ef3cbd613de120a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1aa625cdae893e9d11ef3cbd613de120a6" kindref="member">MR_EndMillTool_Get_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MREndMill_8h_1a21bea832b18cbd410964df41a64e5b83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a21bea832b18cbd410964df41a64e5b83" kindref="member">MR_EndMillTool_Set_length</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MREndMill_8h_1ad38c58a8492f2f4ce79f0b12626cec3e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1ad38c58a8492f2f4ce79f0b12626cec3e" kindref="member">MR_EndMillTool_GetMutable_length</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MREndMill_8h_1aab585b219d22bff4a6dc79882559f705" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1aab585b219d22bff4a6dc79882559f705" kindref="member">MR_EndMillTool_Get_diameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MREndMill_8h_1a60d0d9bcc3e2c99d6cb8e8b3a1295106" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a60d0d9bcc3e2c99d6cb8e8b3a1295106" kindref="member">MR_EndMillTool_Set_diameter</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MREndMill_8h_1a1b075fe97a62e8ab7fb9c521f6ff2970" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREndMill_8h_1a1b075fe97a62e8ab7fb9c521f6ff2970" kindref="member">MR_EndMillTool_GetMutable_diameter</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MREndMill_8h_1a46fcccd6d0cf806d1dbc63b13a782616" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1a46fcccd6d0cf806d1dbc63b13a782616" kindref="member">MR_EndMillTool_Get_cutter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MREndMill_8h_1a6540d31d8f0f5c815bdd0b882b1e3875" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a6540d31d8f0f5c815bdd0b882b1e3875" kindref="member">MR_EndMillTool_Set_cutter</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="MREndMill_8h_1aa18497af707d8c4fdbe1d474e54cb4b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*<ref refid="MREndMill_8h_1aa18497af707d8c4fdbe1d474e54cb4b0" kindref="member">MR_EndMillTool_GetMutable_cutter</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="MREndMill_8h_1a5d8bda03d7416d13906a7b26da6c794f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1a5d8bda03d7416d13906a7b26da6c794f" kindref="member">MR_EndMillTool_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MREndMill_8h_1a564b2a327cfaa95c4b17ed54077216d1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1a564b2a327cfaa95c4b17ed54077216d1" kindref="member">MR_EndMillTool_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MREndMill_8h_1a4aa9804022b659598e6141d37f8adc5a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1a4aa9804022b659598e6141d37f8adc5a" kindref="member">MR_EndMillTool_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>length,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>diameter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a0775be5ed04dda6e9b978e00a1ce786b" kindref="member">MR_EndMillCutter</ref><sp/>*cutter);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MREndMill_8h_1a5cfd0d61bdbda70560a946b7d0207d73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1a5cfd0d61bdbda70560a946b7d0207d73" kindref="member">MR_EndMillTool_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MREndMill_8h_1a15cdb034ce56dcabd4a7c73abb650812" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1a15cdb034ce56dcabd4a7c73abb650812" kindref="member">MR_EndMillTool_OffsetMutablePtr</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MREndMill_8h_1ae3d2a237364f48f2bb9ed2ca9a95c168" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1ae3d2a237364f48f2bb9ed2ca9a95c168" kindref="member">MR_EndMillTool_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" kindref="member">MR_EndMillTool_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MREndMill_8h_1abb4b0abffa000ba0461aa24d36b9b5ac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1abb4b0abffa000ba0461aa24d36b9b5ac" kindref="member">MR_EndMillTool_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MREndMill_8h_1a75f8e5d2a73a5967f8b24071a50df9d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*<ref refid="MREndMill_8h_1a75f8e5d2a73a5967f8b24071a50df9d7" kindref="member">MR_EndMillTool_AssignFromAnother</ref>(<ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MREndMill_8h_1a756aeab3798c063379fb5c21aa5a4468" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1a756aeab3798c063379fb5c21aa5a4468" kindref="member">MR_EndMillTool_getMinimalCutLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MREndMill_8h_1a4466650e1507551c5b426ce42313b165" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MREndMill_8h_1a4466650e1507551c5b426ce42313b165" kindref="member">MR_EndMillTool_toMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*horizontalResolution,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*verticalResolution);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREndMill.h"/>
+  </compounddef>
+</doxygen>

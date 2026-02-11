@@ -1,0 +1,1600 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SurfaceManipulationWidget" kind="class" language="C++" prot="public">
+    <compoundname>MR::SurfaceManipulationWidget</compoundname>
+    <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener &gt;</basecompoundref>
+    <includes refid="MRSurfaceManipulationWidget_8h" local="no">MRSurfaceManipulationWidget.h</includes>
+    <innerclass refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" prot="public">MR::SurfaceManipulationWidget::Settings</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>WorkMode</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::WorkMode</qualifiedname>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9" prot="public">
+          <name>Add</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717" prot="public">
+          <name>Remove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4" prot="public">
+          <name>Relax</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93ca799723f39baf497704a3d39e7c03555f" prot="public">
+          <name>Laplacian</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f" prot="public">
+          <name>Patch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>widget work modes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DeviationCalculationMethod</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::DeviationCalculationMethod</qualifiedname>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4acabf254f8195fce8d901b3cce7092ea9" prot="public">
+          <name>PointToPoint</name>
+          <briefdescription>
+<para>distance between the start and end points </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4a621eeaff7db1283a0db27b4e7233a8ed" prot="public">
+          <name>PointToPlane</name>
+          <briefdescription>
+<para>distance between the initial plane (starting point and normal to it) and the end point </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4ac93a47dc243a30fb1778ef562c03732c" prot="public">
+          <name>ExactDistance</name>
+          <briefdescription>
+<para>distance between the start and end meshes </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Method for calculating mesh changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="37" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="38" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a1470ce9a66bc6a7554b36d69c81102e1" prot="protected" static="no" mutable="no">
+        <type><ref refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" kindref="compound">Settings</ref></type>
+        <definition>Settings MR::SurfaceManipulationWidget::settings_</definition>
+        <argsstring></argsstring>
+        <name>settings_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::settings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="147" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a83f58ee4ef74ddd5127a9de59ad0658e" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::SurfaceManipulationWidget::obj_</definition>
+        <argsstring></argsstring>
+        <name>obj_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::obj_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="149" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1aa0fd16498ab8c5a8415556c1e670724b" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::unchangeableVerts_</definition>
+        <argsstring></argsstring>
+        <name>unchangeableVerts_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::unchangeableVerts_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="150" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a3c9ed0bdb3a5f708f5d1da2cc0ab3c4f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SurfaceManipulationWidget::minRadius_</definition>
+        <argsstring></argsstring>
+        <name>minRadius_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::minRadius_</qualifiedname>
+        <initializer>= 1.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="151" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1af9cf7388fbbb8c4053cd1f1403584d2d" prot="protected" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::SurfaceManipulationWidget::mousePos_</definition>
+        <argsstring></argsstring>
+        <name>mousePos_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::mousePos_</qualifiedname>
+        <briefdescription>
+<para>mouse position of last updateRegion_ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="152" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a99fb8181934e4dd3ab25d74b4a21de94" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::activePickedVertices_</definition>
+        <argsstring></argsstring>
+        <name>activePickedVertices_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::activePickedVertices_</qualifiedname>
+        <briefdescription>
+<para>vertices that are considered under mouse in curernt frame (could be many in case of fast mouse mouvement) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="153" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a2bb3cc2556966f7a514fefa8774cf9b9" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::singleEditingRegion_</definition>
+        <argsstring></argsstring>
+        <name>singleEditingRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::singleEditingRegion_</qualifiedname>
+        <briefdescription>
+<para>current (under the cursor) region of tool application </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="154" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a56cce88aefa27259841a2dee896b8812" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::visualizationRegion_</definition>
+        <argsstring></argsstring>
+        <name>visualizationRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::visualizationRegion_</qualifiedname>
+        <briefdescription>
+<para>vertices of triangles partially or fully highlighted with red </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="155" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1acc7693d8223133cb63b0540ec58107aa" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::generalEditingRegion_</definition>
+        <argsstring></argsstring>
+        <name>generalEditingRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::generalEditingRegion_</qualifiedname>
+        <briefdescription>
+<para>united region of tool application since the last mouse down </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="156" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a36f9a86b24ef8363fa101445a7131338" prot="protected" static="no" mutable="no">
+        <type>VertScalars</type>
+        <definition>VertScalars MR::SurfaceManipulationWidget::pointsShift_</definition>
+        <argsstring></argsstring>
+        <name>pointsShift_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::pointsShift_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="157" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1aefb48658b014a85090a083256f594b26" prot="protected" static="no" mutable="no">
+        <type>VertScalars</type>
+        <definition>VertScalars MR::SurfaceManipulationWidget::editingDistanceMap_</definition>
+        <argsstring></argsstring>
+        <name>editingDistanceMap_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::editingDistanceMap_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="158" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1af47cba96ac32e05d6105943185dc431b" prot="protected" static="no" mutable="no">
+        <type>VertScalars</type>
+        <definition>VertScalars MR::SurfaceManipulationWidget::visualizationDistanceMap_</definition>
+        <argsstring></argsstring>
+        <name>visualizationDistanceMap_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::visualizationDistanceMap_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="159" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1acea1c4613933b5524111e4ac139eb1c9" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::changedRegion_</definition>
+        <argsstring></argsstring>
+        <name>changedRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::changedRegion_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="160" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a448684abe0f6d4ad9d419eed84251565" prot="protected" static="no" mutable="no">
+        <type>VertScalars</type>
+        <definition>VertScalars MR::SurfaceManipulationWidget::valueChanges_</definition>
+        <argsstring></argsstring>
+        <name>valueChanges_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::valueChanges_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="161" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a4636a687b93fa094ea26c634950fee2a" prot="protected" static="no" mutable="no">
+        <type>VertScalars</type>
+        <definition>VertScalars MR::SurfaceManipulationWidget::lastStableValueChanges_</definition>
+        <argsstring></argsstring>
+        <name>lastStableValueChanges_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::lastStableValueChanges_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="162" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1ac6d7a49981ff378d5f791c4ec36bc73b" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Mesh&gt; MR::SurfaceManipulationWidget::originalMesh_</definition>
+        <argsstring></argsstring>
+        <name>originalMesh_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::originalMesh_</qualifiedname>
+        <briefdescription>
+<para>original input mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="163" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1ac7a2498fe16f6962cd02e3789909ab03" prot="protected" static="no" mutable="no">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::SurfaceManipulationWidget::unknownSign_</definition>
+        <argsstring></argsstring>
+        <name>unknownSign_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::unknownSign_</qualifiedname>
+        <briefdescription>
+<para>cached data to avoid reallocating memory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="164" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1aa4fd8214477b4cb504db49be1146ed47" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::SurfaceManipulationWidget::lastStableObjMesh_</definition>
+        <argsstring></argsstring>
+        <name>lastStableObjMesh_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::lastStableObjMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="165" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a76be206635ab7abc679ccdad3f0ab7e8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::firstInit_</definition>
+        <argsstring></argsstring>
+        <name>firstInit_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::firstInit_</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="166" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1ab29aa143377b68d247fab12b0da55a6a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::badRegion_</definition>
+        <argsstring></argsstring>
+        <name>badRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::badRegion_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>need to save settings in re-initial </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="167" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a2bce77a98a1b42394a4f68d72bcb1637" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::mousePressed_</definition>
+        <argsstring></argsstring>
+        <name>mousePressed_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::mousePressed_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>in selected region less than 3 points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="169" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a49f49c64ee7dbba1fc0f33d9b4710f54" prot="protected" static="no" mutable="no">
+        <type>std::chrono::time_point&lt; std::chrono::high_resolution_clock &gt;</type>
+        <definition>std::chrono::time_point&lt;std::chrono::high_resolution_clock&gt; MR::SurfaceManipulationWidget::timePoint_</definition>
+        <argsstring></argsstring>
+        <name>timePoint_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::timePoint_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="171" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a19b5f418f871baaab19f8b61b09a900a" prot="protected" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::SurfaceManipulationWidget::meshChangedConnection_</definition>
+        <argsstring></argsstring>
+        <name>meshChangedConnection_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::meshChangedConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="172" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1ab48b92dfb4eab8bf8e44861c6b4d3751" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::ownMeshChangedSignal_</definition>
+        <argsstring></argsstring>
+        <name>ownMeshChangedSignal_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::ownMeshChangedSignal_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="173" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a184c41be698549192241c93c8cb1a573" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::connectionsInitialized_</definition>
+        <argsstring></argsstring>
+        <name>connectionsInitialized_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::connectionsInitialized_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="175" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a3fb404481401039261c3c4d8d7272b08" prot="protected" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::SurfaceManipulationWidget::touchVertId_</definition>
+        <argsstring></argsstring>
+        <name>touchVertId_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::touchVertId_</qualifiedname>
+        <briefdescription>
+<para><ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="178" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a90ca984430afc6677edfa65a39a5d5bb" prot="protected" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::SurfaceManipulationWidget::touchVertIniPos_</definition>
+        <argsstring></argsstring>
+        <name>touchVertIniPos_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::touchVertIniPos_</qualifiedname>
+        <briefdescription>
+<para>we fix this vertex in <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and move it manually </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="179" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a07b29d80acee8bb71f3b36cf6f3c61d3" prot="protected" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::SurfaceManipulationWidget::storedDown_</definition>
+        <argsstring></argsstring>
+        <name>storedDown_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::storedDown_</qualifiedname>
+        <briefdescription>
+<para>initial position of fixed vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="180" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a45c714522ca37331bf7eef51f07139fd" prot="protected" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Laplacian&gt; MR::SurfaceManipulationWidget::laplacian_</definition>
+        <argsstring></argsstring>
+        <name>laplacian_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::laplacian_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="181" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a646602a8d3e1d1781c7aa8ed9b2050e3" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; SmartChangeMeshPointsAction &gt;</type>
+        <definition>std::shared_ptr&lt;SmartChangeMeshPointsAction&gt; MR::SurfaceManipulationWidget::historyAction_</definition>
+        <argsstring></argsstring>
+        <name>historyAction_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::historyAction_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="185" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a09c56116fa4c39bcc7554e4142816027" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::appendHistoryAction_</definition>
+        <argsstring></argsstring>
+        <name>appendHistoryAction_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::appendHistoryAction_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>true if historyAction_ is prepared but not yet appended to <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>, which is done on first mouse move </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="188" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a3853225f96fef25c2dbce20227c54c7d" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Palette" kindref="compound">Palette</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Palette&gt; MR::SurfaceManipulationWidget::palette_</definition>
+        <argsstring></argsstring>
+        <name>palette_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::palette_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="190" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a08839c74598549c345ed5f06ffaa769f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::enableDeviationTexture_</definition>
+        <argsstring></argsstring>
+        <name>enableDeviationTexture_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::enableDeviationTexture_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="191" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a4f7ed13fa0a8080d470fade319e360f7" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4" kindref="member">DeviationCalculationMethod</ref></type>
+        <definition>DeviationCalculationMethod MR::SurfaceManipulationWidget::deviationCalculationMethod_</definition>
+        <argsstring></argsstring>
+        <name>deviationCalculationMethod_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::deviationCalculationMethod_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4ac93a47dc243a30fb1778ef562c03732c" kindref="member">DeviationCalculationMethod::ExactDistance</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="192" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a93cf79c946234166435c0c26b7334a74" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::sameValidVerticesAsInOriginMesh_</definition>
+        <argsstring></argsstring>
+        <name>sameValidVerticesAsInOriginMesh_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::sameValidVerticesAsInOriginMesh_</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="193" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a8c958ed29a4e3f960ce7aab676126adb" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::ignoreOcclusion_</definition>
+        <argsstring></argsstring>
+        <name>ignoreOcclusion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::ignoreOcclusion_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>allow the user to edit parts of object that are hidden in the current view by other objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="196" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SurfaceManipulationWidget_1a03c8e502f4a92fa8e57e0d50ed97524a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::editOnlyCodirectedSurface_</definition>
+        <argsstring></argsstring>
+        <name>editOnlyCodirectedSurface_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::editOnlyCodirectedSurface_</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="197" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a5e42cf09e263f1d12221d3ac465d7d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::SurfaceManipulationWidget::SurfaceManipulationWidget</definition>
+        <argsstring>()</argsstring>
+        <name>SurfaceManipulationWidget</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::SurfaceManipulationWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="23" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ae10a540d1dd7c3a27ad59f51e774c2c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API</type>
+        <definition>virtual MRVIEWER_API MR::SurfaceManipulationWidget::~SurfaceManipulationWidget</definition>
+        <argsstring>()</argsstring>
+        <name>~SurfaceManipulationWidget</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::~SurfaceManipulationWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="24" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a3aed52f4737f381cd25e1431f64076b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::init</definition>
+        <argsstring>(const std::shared_ptr&lt; ObjectMesh &gt; &amp;objectMesh)</argsstring>
+        <name>init</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::init</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
+          <declname>objectMesh</declname>
+        </param>
+        <briefdescription>
+<para>initialize widget according <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="58" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a5cb57f3a962333b146ea7b607f88fc8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::reset</qualifiedname>
+        <briefdescription>
+<para>reset widget state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="60" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a93366e4a5e29c99eca29d636b62f11f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::setFixedRegion</definition>
+        <argsstring>(const FaceBitSet &amp;region)</argsstring>
+        <name>setFixedRegion</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::setFixedRegion</qualifiedname>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>lock the mesh region (vertices in this region cannot be moved, added or deleted) <simplesect kind="note"><para>boundary edges can be split to improve quality of the patch </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="63" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a080d25b56fe008a5917ca1d4ccc0b4d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::setSettings</definition>
+        <argsstring>(const Settings &amp;settings)</argsstring>
+        <name>setSettings</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::setSettings</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>set widget settings (mesh change settings) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="66" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a81c3f5f93d6cfba31ce7a84815bebb22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API const <ref refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+        <definition>MRVIEWER_API const Settings &amp; MR::SurfaceManipulationWidget::getSettings</definition>
+        <argsstring>()</argsstring>
+        <name>getSettings</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::getSettings</qualifiedname>
+        <briefdescription>
+<para>get widget settings </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="68" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ad230b880c3a56720a1b95832f33ad364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::SurfaceManipulationWidget::getMinRadius</definition>
+        <argsstring>()</argsstring>
+        <name>getMinRadius</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::getMinRadius</qualifiedname>
+        <briefdescription>
+<para>mimum radius of editing area. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="71" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ac630e539a99b5bafb846ed70cae75f35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Palette" kindref="compound">Palette</ref> &amp;</type>
+        <definition>Palette &amp; MR::SurfaceManipulationWidget::palette</definition>
+        <argsstring>()</argsstring>
+        <name>palette</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::palette</qualifiedname>
+        <briefdescription>
+<para>get palette used for visualization point shifts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="74" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ae60bdd11677d2000b6deeb48ddfe3d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::updateTexture</definition>
+        <argsstring>()</argsstring>
+        <name>updateTexture</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateTexture</qualifiedname>
+        <briefdescription>
+<para>update texture used for colorize surface (use after change colorMap in palette) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="76" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ac926b09e4e210e422759de45d1bf1524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::updateUVs</definition>
+        <argsstring>()</argsstring>
+        <name>updateUVs</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateUVs</qualifiedname>
+        <briefdescription>
+<para>update texture uv coords used for colorize surface (use after change ranges in palette) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="78" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1adfd4d3e29bc38873330fb5027d094047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::enableDeviationVisualization</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>enableDeviationVisualization</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::enableDeviationVisualization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>enable visualization of mesh deviations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="80" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ae948213111d10c051644135fdc8202ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::setDeviationCalculationMethod</definition>
+        <argsstring>(DeviationCalculationMethod method)</argsstring>
+        <name>setDeviationCalculationMethod</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::setDeviationCalculationMethod</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4" kindref="member">DeviationCalculationMethod</ref></type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+<para>set method for calculating mesh changes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="82" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1aa487fd48c518601775f073d134a6c8dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4" kindref="member">DeviationCalculationMethod</ref></type>
+        <definition>MRVIEWER_API DeviationCalculationMethod MR::SurfaceManipulationWidget::deviationCalculationMethod</definition>
+        <argsstring>() const</argsstring>
+        <name>deviationCalculationMethod</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::deviationCalculationMethod</qualifiedname>
+        <briefdescription>
+<para>get method for calculating mesh changes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="84" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a25e49cf9c1e37ef211bba3608e20b972" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SurfaceManipulationWidget::sameValidVerticesAsInOriginMesh</definition>
+        <argsstring>() const</argsstring>
+        <name>sameValidVerticesAsInOriginMesh</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::sameValidVerticesAsInOriginMesh</qualifiedname>
+        <briefdescription>
+<para>checks for a one-to-one correspondence between the vertices of the original grid and the modified one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ac635419fd9d47ae6f1f285cec8699a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API Vector2f</type>
+        <definition>MRVIEWER_API Vector2f MR::SurfaceManipulationWidget::getMinMax</definition>
+        <argsstring>()</argsstring>
+        <name>getMinMax</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::getMinMax</qualifiedname>
+        <briefdescription>
+<para>get min / max point shifts for (usefull for setup palette) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="88" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1afd5d519105a1e182ae6cf1677ea9d415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::setIgnoreOcclusion</definition>
+        <argsstring>(bool ignore)</argsstring>
+        <name>setIgnoreOcclusion</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::setIgnoreOcclusion</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ignore</declname>
+        </param>
+        <briefdescription>
+<para>allow the user to edit parts of object that are hidden in the current view by other objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ad1d225be203cab7da3f671f7238ec0db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SurfaceManipulationWidget::ignoreOcclusion</definition>
+        <argsstring>() const</argsstring>
+        <name>ignoreOcclusion</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::ignoreOcclusion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="92" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a18aa909790d847163a6e7d2ad4ed145a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::setEditOnlyCodirectedSurface</definition>
+        <argsstring>(bool edit)</argsstring>
+        <name>setEditOnlyCodirectedSurface</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::setEditOnlyCodirectedSurface</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>edit</declname>
+        </param>
+        <briefdescription>
+<para>restricts editable area to vertices whose normals look into the same half-space as normal under cursor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="95" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ad2b38b4c5264c1e038e71ddbea2b4e19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::isEditOnlyCodirectedSurface</definition>
+        <argsstring>() const</argsstring>
+        <name>isEditOnlyCodirectedSurface</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::isEditOnlyCodirectedSurface</qualifiedname>
+        <briefdescription>
+<para>get state of an editable region restriction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="97" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a33c798997c7d3436ab160f4c1dc6009e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SurfaceManipulationWidget::onMouseDown_</definition>
+        <argsstring>(MouseButton button, int modifiers) override</argsstring>
+        <name>onMouseDown_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::onMouseDown_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modifiers</declname>
+        </param>
+        <briefdescription>
+<para>start modifying mesh surface </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="100" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a5a6ffbc1bd572579e06797db251f2859" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SurfaceManipulationWidget::onMouseUp_</definition>
+        <argsstring>(MouseButton button, int modifiers) override</argsstring>
+        <name>onMouseUp_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::onMouseUp_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modifiers</declname>
+        </param>
+        <briefdescription>
+<para>stop modifying mesh surface, generate history action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="102" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ab7e117d491cc1bbee8e7a16a851943c8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::SurfaceManipulationWidget::onMouseMove_</definition>
+        <argsstring>(int mouse_x, int mouse_y) override</argsstring>
+        <name>onMouseMove_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::onMouseMove_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>mouse_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mouse_y</declname>
+        </param>
+        <briefdescription>
+<para>update </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="104" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a96de0be0839e0a27813a5cf42983d280" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::SurfaceManipulationWidget::postDraw_</definition>
+        <argsstring>() override</argsstring>
+        <name>postDraw_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::postDraw_</qualifiedname>
+        <briefdescription>
+<para>need to visualize bad region (draw grey circle) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="106" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a6e1f9dd3fd90ff7bee82f9a283a538a9" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::SurfaceManipulationWidget::checkModifiers_</definition>
+        <argsstring>(int modifiers) const</argsstring>
+        <name>checkModifiers_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::checkModifiers_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>modifiers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>customize modifiers check on mouse down <simplesect kind="return"><para>true if widget consumes event, false if modifiers do not satisfy widget requirements </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="110" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1acf0223f8672aa29b9aef4a60cc78fe13" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SurfaceManipulationWidget::appendMeshDataChangeHistory_</definition>
+        <argsstring>(ObjectMeshData &amp;&amp;newMeshData, const FaceBitSet &amp;newFaces)</argsstring>
+        <name>appendMeshDataChangeHistory_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::appendMeshDataChangeHistory_</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> &amp;&amp;</type>
+          <declname>newMeshData</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>newFaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called to change mesh data with history record newFaces seems to be useful </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="114" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a6bf4b908832273c2d2b0dff19ba3eddc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::reallocData_</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>reallocData_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::reallocData_</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="116" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a2f27b490ad008b35fb24b4fb9d4ae8da" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::clearData_</definition>
+        <argsstring>()</argsstring>
+        <name>clearData_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::clearData_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="117" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a959fcbd7bbe023bb87adc1de1a8dda45" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::initConnections_</definition>
+        <argsstring>()</argsstring>
+        <name>initConnections_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::initConnections_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="119" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a87e780495d7aae0fc12390c68b58631d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::resetConnections_</definition>
+        <argsstring>()</argsstring>
+        <name>resetConnections_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::resetConnections_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="120" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a5e617c68f73988a733f41d84e9f780ec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::changeSurface_</definition>
+        <argsstring>()</argsstring>
+        <name>changeSurface_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::changeSurface_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="122" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ae4b9515fa9dae25aae35292c7e2b87e6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateUVmap_</definition>
+        <argsstring>(bool set, bool wholeMesh=false)</argsstring>
+        <name>updateUVmap_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateUVmap_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>set</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wholeMesh</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="123" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1abf2e20a55a28b2f567d2c8197674fd9d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateRegion_</definition>
+        <argsstring>(const Vector2f &amp;mousePos)</argsstring>
+        <name>updateRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateRegion_</qualifiedname>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="124" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a405e5904bb2f5f323394b020acdb5b67" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::invalidateMetricsCache_</definition>
+        <argsstring>()</argsstring>
+        <name>invalidateMetricsCache_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::invalidateMetricsCache_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="125" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1add0ddfdc3b43ddc99dec3be877b7a919" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::abortEdit_</definition>
+        <argsstring>()</argsstring>
+        <name>abortEdit_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::abortEdit_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="126" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ad41aeaafb3e4c8632a313f4d729c3561" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::laplacianPickVert_</definition>
+        <argsstring>(const PointOnFace &amp;pick)</argsstring>
+        <name>laplacianPickVert_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::laplacianPickVert_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref> &amp;</type>
+          <declname>pick</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="128" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a297618816e83dce980de3f9075d4657a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::laplacianMoveVert_</definition>
+        <argsstring>(const Vector2f &amp;mousePos)</argsstring>
+        <name>laplacianMoveVert_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::laplacianMoveVert_</qualifiedname>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="129" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1afd37fd93e8c51f4037dda6a9b72ee3d7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateVizualizeSelection_</definition>
+        <argsstring>()</argsstring>
+        <name>updateVizualizeSelection_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateVizualizeSelection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="131" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a48b4a6109c413aa4b50e445d75db016a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateRegionUVs_</definition>
+        <argsstring>(const VertBitSet &amp;region)</argsstring>
+        <name>updateRegionUVs_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateRegionUVs_</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="133" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a8d43ee87f7e0a5475028a3d1b0ba4940" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateValueChanges_</definition>
+        <argsstring>(const VertBitSet &amp;region)</argsstring>
+        <name>updateValueChanges_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateValueChanges_</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="134" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ad651996bd721dcebc5e4a9da9d307617" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateValueChangesPointToPoint_</definition>
+        <argsstring>(const VertBitSet &amp;region)</argsstring>
+        <name>updateValueChangesPointToPoint_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateValueChangesPointToPoint_</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="135" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1af7d88774175c7d5272ce114c8f7ec8d4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateValueChangesPointToPlane_</definition>
+        <argsstring>(const VertBitSet &amp;region)</argsstring>
+        <name>updateValueChangesPointToPlane_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateValueChangesPointToPlane_</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="136" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1aa523360f594c4085afd84c62654681d4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateValueChangesExactDistance_</definition>
+        <argsstring>(const VertBitSet &amp;region)</argsstring>
+        <name>updateValueChangesExactDistance_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateValueChangesExactDistance_</qualifiedname>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="137" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a1ec79535e6a70009906b9e2f0008cb22" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::createLastStableObjMesh_</definition>
+        <argsstring>()</argsstring>
+        <name>createLastStableObjMesh_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::createLastStableObjMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="138" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a8b49dc6133efe789f4fa17bb75f3641c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::removeLastStableObjMesh_</definition>
+        <argsstring>()</argsstring>
+        <name>removeLastStableObjMesh_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::removeLastStableObjMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="139" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1ad1d907cbe938c1010826d617b7b662e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::compressChangePointsAction_</definition>
+        <argsstring>()</argsstring>
+        <name>compressChangePointsAction_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::compressChangePointsAction_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this function is called after all modifications are finished; if we previously appended SmartChangeMeshPointsAction, then switch it from uncompressed to compressed format to occupy less amount of memory </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="143" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceManipulationWidget_1a70ba5734344437097ab6791ef9f24943" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::updateDistancesAndRegion_</definition>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;start, VertScalars &amp;distances, VertBitSet &amp;region, const VertBitSet *untouchable)</argsstring>
+        <name>updateDistancesAndRegion_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::updateDistancesAndRegion_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertScalars &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>untouchable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="145" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>widget for surface modifying @detail available 3 modes: add (move surface region in direction of normal) remove (move surface region in opposite direction to normal) relax (relax surface region) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SurfaceManipulationWidget</label>
+        <link refid="classMR_1_1SurfaceManipulationWidget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SurfaceManipulationWidget</label>
+        <link refid="classMR_1_1SurfaceManipulationWidget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>settings_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::SurfaceManipulationWidget::Settings</label>
+        <link refid="structMR_1_1SurfaceManipulationWidget_1_1Settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="21" bodyend="198"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1add0ddfdc3b43ddc99dec3be877b7a919" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>abortEdit_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a99fb8181934e4dd3ab25d74b4a21de94" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>activePickedVertices_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a09c56116fa4c39bcc7554e4142816027" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendHistoryAction_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1acf0223f8672aa29b9aef4a60cc78fe13" prot="protected" virt="virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendMeshDataChangeHistory_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ab29aa143377b68d247fab12b0da55a6a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>badRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1acea1c4613933b5524111e4ac139eb1c9" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>changedRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a5e617c68f73988a733f41d84e9f780ec" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>changeSurface_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a6e1f9dd3fd90ff7bee82f9a283a538a9" prot="protected" virt="virtual"><scope>MR::SurfaceManipulationWidget</scope><name>checkModifiers_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a2f27b490ad008b35fb24b4fb9d4ae8da" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>clearData_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ad1d907cbe938c1010826d617b7b662e8" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>compressChangePointsAction_</name></member>
+      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::SurfaceManipulationWidget</scope><name>connect</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a184c41be698549192241c93c8cb1a573" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>connectionsInitialized_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a1ec79535e6a70009906b9e2f0008cb22" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>createLastStableObjMesh_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a07fc1d71375854270d1a16b8d06209f4" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>DeviationCalculationMethod</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1aa487fd48c518601775f073d134a6c8dc" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>deviationCalculationMethod</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a4f7ed13fa0a8080d470fade319e360f7" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>deviationCalculationMethod_</name></member>
+      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::SurfaceManipulationWidget</scope><name>disconnect</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1aefb48658b014a85090a083256f594b26" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>editingDistanceMap_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a03c8e502f4a92fa8e57e0d50ed97524a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>editOnlyCodirectedSurface_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a08839c74598549c345ed5f06ffaa769f" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>enableDeviationTexture_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1adfd4d3e29bc38873330fb5027d094047" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>enableDeviationVisualization</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a76be206635ab7abc679ccdad3f0ab7e8" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>firstInit_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1acc7693d8223133cb63b0540ec58107aa" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>generalEditingRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ac635419fd9d47ae6f1f285cec8699a52" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinMax</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ad230b880c3a56720a1b95832f33ad364" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinRadius</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a81c3f5f93d6cfba31ce7a84815bebb22" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getSettings</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a646602a8d3e1d1781c7aa8ed9b2050e3" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>historyAction_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ad1d225be203cab7da3f671f7238ec0db" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a8c958ed29a4e3f960ce7aab676126adb" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a3aed52f4737f381cd25e1431f64076b9" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>init</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a959fcbd7bbe023bb87adc1de1a8dda45" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>initConnections_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a405e5904bb2f5f323394b020acdb5b67" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>invalidateMetricsCache_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ad2b38b4c5264c1e038e71ddbea2b4e19" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>isEditOnlyCodirectedSurface</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a45c714522ca37331bf7eef51f07139fd" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>laplacian_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a297618816e83dce980de3f9075d4657a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>laplacianMoveVert_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ad41aeaafb3e4c8632a313f4d729c3561" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>laplacianPickVert_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1aa4fd8214477b4cb504db49be1146ed47" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>lastStableObjMesh_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a4636a687b93fa094ea26c634950fee2a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>lastStableValueChanges_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a19b5f418f871baaab19f8b61b09a900a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>meshChangedConnection_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a3c9ed0bdb3a5f708f5d1da2cc0ab3c4f" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>minRadius_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1af9cf7388fbbb8c4053cd1f1403584d2d" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>mousePos_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a2bce77a98a1b42394a4f68d72bcb1637" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>mousePressed_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a83f58ee4ef74ddd5127a9de59ad0658e" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>obj_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a33c798997c7d3436ab160f4c1dc6009e" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>onMouseDown_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ab7e117d491cc1bbee8e7a16a851943c8" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>onMouseMove_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a5a6ffbc1bd572579e06797db251f2859" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>onMouseUp_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ac6d7a49981ff378d5f791c4ec36bc73b" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>originalMesh_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ab48b92dfb4eab8bf8e44861c6b4d3751" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ownMeshChangedSignal_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ac630e539a99b5bafb846ed70cae75f35" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>palette</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a3853225f96fef25c2dbce20227c54c7d" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>palette_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a36f9a86b24ef8363fa101445a7131338" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>pointsShift_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a96de0be0839e0a27813a5cf42983d280" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>postDraw_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a6bf4b908832273c2d2b0dff19ba3eddc" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>reallocData_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a8b49dc6133efe789f4fa17bb75f3641c" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>removeLastStableObjMesh_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a5cb57f3a962333b146ea7b607f88fc8e" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>reset</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a87e780495d7aae0fc12390c68b58631d" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>resetConnections_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a25e49cf9c1e37ef211bba3608e20b972" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>sameValidVerticesAsInOriginMesh</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a93cf79c946234166435c0c26b7334a74" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>sameValidVerticesAsInOriginMesh_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ae948213111d10c051644135fdc8202ee" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>setDeviationCalculationMethod</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a18aa909790d847163a6e7d2ad4ed145a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>setEditOnlyCodirectedSurface</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a93366e4a5e29c99eca29d636b62f11f8" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>setFixedRegion</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1afd5d519105a1e182ae6cf1677ea9d415" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>setIgnoreOcclusion</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a080d25b56fe008a5917ca1d4ccc0b4d3" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>setSettings</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a1470ce9a66bc6a7554b36d69c81102e1" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>settings_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a2bb3cc2556966f7a514fefa8774cf9b9" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>singleEditingRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a07b29d80acee8bb71f3b36cf6f3c61d3" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>storedDown_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a5e42cf09e263f1d12221d3ac465d7d1e" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>SurfaceManipulationWidget</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a49f49c64ee7dbba1fc0f33d9b4710f54" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>timePoint_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a3fb404481401039261c3c4d8d7272b08" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>touchVertId_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a90ca984430afc6677edfa65a39a5d5bb" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>touchVertIniPos_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1aa0fd16498ab8c5a8415556c1e670724b" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>unchangeableVerts_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ac7a2498fe16f6962cd02e3789909ab03" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>unknownSign_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a70ba5734344437097ab6791ef9f24943" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateDistancesAndRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1abf2e20a55a28b2f567d2c8197674fd9d" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a48b4a6109c413aa4b50e445d75db016a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateRegionUVs_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ae60bdd11677d2000b6deeb48ddfe3d6f" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateTexture</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ae4b9515fa9dae25aae35292c7e2b87e6" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateUVmap_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ac926b09e4e210e422759de45d1bf1524" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateUVs</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a8d43ee87f7e0a5475028a3d1b0ba4940" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateValueChanges_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1aa523360f594c4085afd84c62654681d4" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateValueChangesExactDistance_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1af7d88774175c7d5272ce114c8f7ec8d4" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateValueChangesPointToPlane_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ad651996bd721dcebc5e4a9da9d307617" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateValueChangesPointToPoint_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1afd37fd93e8c51f4037dda6a9b72ee3d7" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>updateVizualizeSelection_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a448684abe0f6d4ad9d419eed84251565" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>valueChanges_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1af47cba96ac32e05d6105943185dc431b" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>visualizationDistanceMap_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1a56cce88aefa27259841a2dee896b8812" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>visualizationRegion_</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93c" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>WorkMode</name></member>
+      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::SurfaceManipulationWidget</scope><name>~MultiListener</name></member>
+      <member refid="classMR_1_1SurfaceManipulationWidget_1ae10a540d1dd7c3a27ad59f51e774c2c4" prot="public" virt="virtual"><scope>MR::SurfaceManipulationWidget</scope><name>~SurfaceManipulationWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

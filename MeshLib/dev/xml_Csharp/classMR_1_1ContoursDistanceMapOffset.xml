@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ContoursDistanceMapOffset" kind="class" language="C#" prot="public">
+    <compoundname>MR::ContoursDistanceMapOffset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ContoursDistanceMapOffset</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOffset_1a62849ddcd287448ec0487aa0fa633106" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.ContoursDistanceMapOffset.OffsetType</type>
+        <definition>new unsafe ref MR.ContoursDistanceMapOffset.OffsetType MR.ContoursDistanceMapOffset.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR.ContoursDistanceMapOffset.type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="982" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="982" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOffset_1a074928ea620298d8d0aea4d335e4b1df" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ContoursDistanceMapOffset</name>
+        <qualifiedname>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="986" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="986" bodyend="990"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOffset_1afc6849d78aeb8451349d0f3773a6ceaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</definition>
+        <argsstring>(MR.Const_ContoursDistanceMapOffset _other)</argsstring>
+        <name>ContoursDistanceMapOffset</name>
+        <qualifiedname>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</qualifiedname>
+        <param>
+          <type>MR.Const_ContoursDistanceMapOffset</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="996" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="996" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOffset_1acf5624d7c8f1ce8249a4dc371bd56aac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</definition>
+        <argsstring>(ContoursDistanceMapOffset _other)</argsstring>
+        <name>ContoursDistanceMapOffset</name>
+        <qualifiedname>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1008" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1008" bodyend="1008"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ContoursDistanceMapOffset_1ab887015f04908c1af36de6cf8d0d535e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</definition>
+        <argsstring>(MR.Const_UndirectedEdgeScalars perEdgeOffset, MR.ContoursDistanceMapOffset.OffsetType type)</argsstring>
+        <name>ContoursDistanceMapOffset</name>
+        <qualifiedname>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeScalars</type>
+          <declname>perEdgeOffset</declname>
+        </param>
+        <param>
+          <type>MR.ContoursDistanceMapOffset.OffsetType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ContoursDistanceMapOffset" kindref="compound">MR.ContoursDistanceMapOffset</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1013" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1013" bodyend="1020"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure with parameters for optional offset in <computeroutput>distanceMapFromContours</computeroutput> function Generated from class <computeroutput><ref refid="classMR_1_1ContoursDistanceMapOffset" kindref="compound">MR.ContoursDistanceMapOffset</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ContoursDistanceMapOffset</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ContoursDistanceMapOffset</label>
+        <link refid="classMR_1_1ContoursDistanceMapOffset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ContoursDistanceMapOffset &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ContoursDistanceMapOffset</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ContoursDistanceMapOffset</label>
+        <link refid="classMR_1_1ContoursDistanceMapOffset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ContoursDistanceMapOffset &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="980" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="981" bodyend="1021"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ContoursDistanceMapOffset_1a074928ea620298d8d0aea4d335e4b1df" prot="package" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOffset_1afc6849d78aeb8451349d0f3773a6ceaa" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOffset_1acf5624d7c8f1ce8249a4dc371bd56aac" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOffset_1ab887015f04908c1af36de6cf8d0d535e" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1ContoursDistanceMapOffset_1a62849ddcd287448ec0487aa0fa633106" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

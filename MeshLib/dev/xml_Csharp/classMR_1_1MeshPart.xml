@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshPart" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshPart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshPart</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshPart_1a4005c7b5c03d43e56f3a675face2319a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <definition>new unsafe MR.? Const_FaceBitSet MR.MeshPart.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.MeshPart.region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="119" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="120" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshPart_1a046d356fd6127ddb740336c570f22667" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshPart.MeshPart</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshPart</name>
+        <qualifiedname>MR.MeshPart.MeshPart</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="133" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="133" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshPart_1afee302dac0ea33de609f293141e3302f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshPart.MeshPart</definition>
+        <argsstring>(MR.Const_MeshPart other)</argsstring>
+        <name>MeshPart</name>
+        <qualifiedname>MR.MeshPart.MeshPart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshPart.MeshPart</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="144" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="144" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshPart_1acc547607fd529b5856cb5e945d2db163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshPart.MeshPart</definition>
+        <argsstring>(MeshPart other)</argsstring>
+        <name>MeshPart</name>
+        <qualifiedname>MR.MeshPart.MeshPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshPart.MeshPart</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="157" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshPart_1a587b572d332aa10e5b651f23fd27dbda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshPart.MeshPart</definition>
+        <argsstring>(MR.Const_Mesh m, MR.Const_FaceBitSet? bs=null)</argsstring>
+        <name>MeshPart</name>
+        <qualifiedname>MR.MeshPart.MeshPart</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>bs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshPart.MeshPart</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="162" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="162" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshPart_1ac07770f65e3ddf53a66284e1b60c9c33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshPart" kindref="compound">MR.MeshPart</ref></type>
+        <definition>unsafe MR.MeshPart MR.MeshPart.assign</definition>
+        <argsstring>(MR.Const_MeshPart other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshPart.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshPart.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="180" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="180" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshPart_1a741b697c68b2b50fb9318d5adacab881" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.MeshPart.operator MeshPart</definition>
+        <argsstring>(MR.Const_Mesh m)</argsstring>
+        <name>operator MeshPart</name>
+        <qualifiedname>MR.MeshPart.operator MeshPart</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshPart.MeshPart</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="175" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="175" bodyend="175"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores reference on whole mesh (if region is nullptr) or on its part (if region pointer is valid) Generated from class <computeroutput><ref refid="classMR_1_1MeshPart" kindref="compound">MR.MeshPart</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshPart</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshPart</label>
+        <link refid="classMR_1_1MeshPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshPart &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshPart</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshPart</label>
+        <link refid="classMR_1_1MeshPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshPart &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="117" bodyend="191"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshPart_1ac07770f65e3ddf53a66284e1b60c9c33" prot="public" virt="non-virtual"><scope>MR::MeshPart</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshPart_1a046d356fd6127ddb740336c570f22667" prot="package" virt="non-virtual"><scope>MR::MeshPart</scope><name>MeshPart</name></member>
+      <member refid="classMR_1_1MeshPart_1afee302dac0ea33de609f293141e3302f" prot="public" virt="non-virtual"><scope>MR::MeshPart</scope><name>MeshPart</name></member>
+      <member refid="classMR_1_1MeshPart_1acc547607fd529b5856cb5e945d2db163" prot="public" virt="non-virtual"><scope>MR::MeshPart</scope><name>MeshPart</name></member>
+      <member refid="classMR_1_1MeshPart_1a587b572d332aa10e5b651f23fd27dbda" prot="public" virt="non-virtual"><scope>MR::MeshPart</scope><name>MeshPart</name></member>
+      <member refid="classMR_1_1MeshPart_1a741b697c68b2b50fb9318d5adacab881" prot="public" virt="non-virtual"><scope>MR::MeshPart</scope><name>operator MeshPart</name></member>
+      <member refid="classMR_1_1MeshPart_1a4005c7b5c03d43e56f3a675face2319a" prot="public" virt="non-virtual"><scope>MR::MeshPart</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

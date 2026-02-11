@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TimeUnit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TimeUnit</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TimeUnit_1a56253606a92be98af3ec4fc3ae7f3efa" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TimeUnit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1TimeUnit" kindref="compound">TimeUnit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56657" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TimeUnit_1a08147564a9705dfaf95750f98c8180cc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TimeUnit::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.TimeUnit._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1TimeUnit" kindref="compound">TimeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56658" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TimeUnit_1a9fda75270ce924dca29bc09da2faa99a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TimeUnit::milliseconds</definition>
+        <argsstring></argsstring>
+        <name>milliseconds</name>
+        <qualifiedname>mrmeshpy.TimeUnit.milliseconds</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1TimeUnit" kindref="compound">TimeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56659" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TimeUnit_1aaf7b6594d7c6776e690d9997a803b4e1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TimeUnit::seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <qualifiedname>mrmeshpy.TimeUnit.seconds</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1TimeUnit" kindref="compound">TimeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56660" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1ab17e74d61e101b1588682bbb0aa74220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TimeUnit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56661" bodyend="56662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1af2c4582922286195e14230a4d1f5be2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TimeUnit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56663" bodyend="56664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1a718ad8d435a7275e5da12eecbd1218f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TimeUnit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56665" bodyend="56666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1a1e5914c90af09c1c39d098648642b2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TimeUnit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56667" bodyend="56668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1a014faa5848bf34637a168f5e952a2fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TimeUnit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56669" bodyend="56670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1a1685ceba3b46677a4427248dacc5745e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TimeUnit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56671" bodyend="56672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1a6e35edea9e75f8a27c4e0f50df7aaace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TimeUnit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56673" bodyend="56674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1adb720c80ef36c5d2a3be5a20eb885a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TimeUnit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56675" bodyend="56676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1ae4a4194f7a4b7c1d48a6b8468dfa0612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TimeUnit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56677" bodyend="56678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1a5543b9bbe14cc20a7c0c55e3ff4d58f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TimeUnit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.TimeUnit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56679" bodyend="56680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1aad3251492157247d1ae6a880e45b3662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TimeUnit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.TimeUnit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56682" bodyend="56683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TimeUnit_1af03561f201ce246fc5ba0a1a8c6dec6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TimeUnit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.TimeUnit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56685" bodyend="56686"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  seconds
+
+  milliseconds
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TimeUnit</label>
+        <link refid="classmrmeshpy_1_1TimeUnit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>milliseconds</edgelabel>
+          <edgelabel>seconds</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56647" bodyend="56686"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TimeUnit_1ab17e74d61e101b1588682bbb0aa74220" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1af2c4582922286195e14230a4d1f5be2c" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a718ad8d435a7275e5da12eecbd1218f1" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a1e5914c90af09c1c39d098648642b2e5" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a014faa5848bf34637a168f5e952a2fe2" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a1685ceba3b46677a4427248dacc5745e" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a56253606a92be98af3ec4fc3ae7f3efa" prot="private" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a6e35edea9e75f8a27c4e0f50df7aaace" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1adb720c80ef36c5d2a3be5a20eb885a3c" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1ae4a4194f7a4b7c1d48a6b8468dfa0612" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a5543b9bbe14cc20a7c0c55e3ff4d58f8" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a08147564a9705dfaf95750f98c8180cc" prot="protected" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1a9fda75270ce924dca29bc09da2faa99a" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>milliseconds</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1aad3251492157247d1ae6a880e45b3662" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1aaf7b6594d7c6776e690d9997a803b4e1" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>seconds</name></member>
+      <member refid="classmrmeshpy_1_1TimeUnit_1af03561f201ce246fc5ba0a1a8c6dec6f" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ShellVertexInfo" kind="class" language="C#" prot="public">
+    <compoundname>MR::ShellVertexInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ShellVertexInfo</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ShellVertexInfo_1aca9cc2ddd7f032a8f961c23a63bcc9db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.ShellVertexInfo.inRange</definition>
+        <argsstring></argsstring>
+        <name>inRange</name>
+        <qualifiedname>MR.ShellVertexInfo.inRange</qualifiedname>
+        <briefdescription>
+<para>true when shell vertex is within settings.maxDist from source mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="385" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShellVertexInfo_1a4d7016911b00a4a1aaee7399886979a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.ShellVertexInfo.projOnBd</definition>
+        <argsstring></argsstring>
+        <name>projOnBd</name>
+        <qualifiedname>MR.ShellVertexInfo.projOnBd</qualifiedname>
+        <briefdescription>
+<para>shell vertex projects on source mesh boundary (never true for winding rule mode) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="388" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShellVertexInfo_1a54791d3b610c18423ccdfc5cb8cdf01e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.ShellVertexInfo.rightSide</definition>
+        <argsstring></argsstring>
+        <name>rightSide</name>
+        <qualifiedname>MR.ShellVertexInfo.rightSide</qualifiedname>
+        <briefdescription>
+<para>whether shell vertex is on requested side of source mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="391" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="391" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ShellVertexInfo_1a0dd305b9d243d90e0a37f3c3308d147d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShellVertexInfo.ShellVertexInfo</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ShellVertexInfo</name>
+        <qualifiedname>MR.ShellVertexInfo.ShellVertexInfo</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="395" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="395" bodyend="399"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ShellVertexInfo_1adb81a03e579833c96ec39a703b96e723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShellVertexInfo.ShellVertexInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ShellVertexInfo</name>
+        <qualifiedname>MR.ShellVertexInfo.ShellVertexInfo</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="405" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="405" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShellVertexInfo_1afb436060e4924e982bfa05d14b595141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShellVertexInfo.ShellVertexInfo</definition>
+        <argsstring>(bool inRange, bool projOnBd, bool rightSide)</argsstring>
+        <name>ShellVertexInfo</name>
+        <qualifiedname>MR.ShellVertexInfo.ShellVertexInfo</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>inRange</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projOnBd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rightSide</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ShellVertexInfo" kindref="compound">MR.ShellVertexInfo</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="416" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="416" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShellVertexInfo_1a5bc16f741e350ed1fcb2925ab0d68640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShellVertexInfo.ShellVertexInfo</definition>
+        <argsstring>(MR.Const_ShellVertexInfo _other)</argsstring>
+        <name>ShellVertexInfo</name>
+        <qualifiedname>MR.ShellVertexInfo.ShellVertexInfo</qualifiedname>
+        <param>
+          <type>MR.Const_ShellVertexInfo</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ShellVertexInfo.ShellVertexInfo</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="427" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="427" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShellVertexInfo_1a44383a10e7b570c44464be97bcb4dc8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ShellVertexInfo.ShellVertexInfo</definition>
+        <argsstring>(ShellVertexInfo _other)</argsstring>
+        <name>ShellVertexInfo</name>
+        <qualifiedname>MR.ShellVertexInfo.ShellVertexInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ShellVertexInfo" kindref="compound">ShellVertexInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ShellVertexInfo.ShellVertexInfo</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="439" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="439" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShellVertexInfo_1a2d4e6661d744a45562f0e5eef498d734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ShellVertexInfo" kindref="compound">MR.ShellVertexInfo</ref></type>
+        <definition>unsafe MR.ShellVertexInfo MR.ShellVertexInfo.assign</definition>
+        <argsstring>(MR.Const_ShellVertexInfo _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ShellVertexInfo.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ShellVertexInfo</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ShellVertexInfo.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="444" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="444" bodyend="451"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>information about shell vertex Generated from class <computeroutput><ref refid="classMR_1_1ShellVertexInfo" kindref="compound">MR.ShellVertexInfo</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ShellVertexInfo</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ShellVertexInfo</label>
+        <link refid="classMR_1_1ShellVertexInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ShellVertexInfo &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ShellVertexInfo</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ShellVertexInfo</label>
+        <link refid="classMR_1_1ShellVertexInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ShellVertexInfo &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="382" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="383" bodyend="452"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ShellVertexInfo_1a2d4e6661d744a45562f0e5eef498d734" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>assign</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1aca9cc2ddd7f032a8f961c23a63bcc9db" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>inRange</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1a4d7016911b00a4a1aaee7399886979a8" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>projOnBd</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1a54791d3b610c18423ccdfc5cb8cdf01e" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>rightSide</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1a0dd305b9d243d90e0a37f3c3308d147d" prot="package" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1adb81a03e579833c96ec39a703b96e723" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1afb436060e4924e982bfa05d14b595141" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1a5bc16f741e350ed1fcb2925ab0d68640" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
+      <member refid="classMR_1_1ShellVertexInfo_1a44383a10e7b570c44464be97bcb4dc8e" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

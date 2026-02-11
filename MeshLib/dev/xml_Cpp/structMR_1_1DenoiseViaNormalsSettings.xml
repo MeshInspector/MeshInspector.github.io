@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DenoiseViaNormalsSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DenoiseViaNormalsSettings</compoundname>
+    <includes refid="MRNormalDenoising_8h" local="no">MRNormalDenoising.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1ad6004983564c77dbe469d819de9b1100" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DenoiseViaNormalsSettings::fastIndicatorComputation</definition>
+        <argsstring></argsstring>
+        <name>fastIndicatorComputation</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::fastIndicatorComputation</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>use approximated computation, which is much faster than precise solution </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="36" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1aa7cab391c3f837a22f2d158c7647315a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DenoiseViaNormalsSettings::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::beta</qualifiedname>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="39" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1ad5c55319dff328b55475f07390acd505" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DenoiseViaNormalsSettings::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::gamma</qualifiedname>
+        <initializer>= 5.f</initializer>
+        <briefdescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="42" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1a0020d91ac083f2d70a466e4f209e12b9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::DenoiseViaNormalsSettings::normalIters</definition>
+        <argsstring></argsstring>
+        <name>normalIters</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::normalIters</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="45" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1a82e9e950294e56f0bed7e0ad545b68e9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::DenoiseViaNormalsSettings::pointIters</definition>
+        <argsstring></argsstring>
+        <name>pointIters</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::pointIters</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="48" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1a6852271fa1efbc4da52e0fb5b851810f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DenoiseViaNormalsSettings::guideWeight</definition>
+        <argsstring></argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::guideWeight</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="51" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1aefcab784c5b10d3504130c0306359d5d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DenoiseViaNormalsSettings::limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::limitNearInitial</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true then maximal displacement of each point during denoising will be limited </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1ab298fec8f17af7398ab708ce69c2af2d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DenoiseViaNormalsSettings::maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::maxInitialDist</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1ad7f7b82ea225f8e0f9a358b607d7fead" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::DenoiseViaNormalsSettings::outCreases</definition>
+        <argsstring></argsstring>
+        <name>outCreases</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::outCreases</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optionally returns creases found during smoothing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="60" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DenoiseViaNormalsSettings_1a63ddf357508ffd766addcbe0684a1619" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::DenoiseViaNormalsSettings::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>to get the progress and optionally cancel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="63" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="34" bodyend="64"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1aa7cab391c3f837a22f2d158c7647315a" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>beta</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1a63ddf357508ffd766addcbe0684a1619" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1ad6004983564c77dbe469d819de9b1100" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1ad5c55319dff328b55475f07390acd505" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>gamma</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1a6852271fa1efbc4da52e0fb5b851810f" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>guideWeight</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1aefcab784c5b10d3504130c0306359d5d" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>limitNearInitial</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1ab298fec8f17af7398ab708ce69c2af2d" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>maxInitialDist</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1a0020d91ac083f2d70a466e4f209e12b9" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>normalIters</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1ad7f7b82ea225f8e0f9a358b607d7fead" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>outCreases</name></member>
+      <member refid="structMR_1_1DenoiseViaNormalsSettings_1a82e9e950294e56f0bed7e0ad545b68e9" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

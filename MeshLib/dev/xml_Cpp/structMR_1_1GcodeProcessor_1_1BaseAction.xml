@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GcodeProcessor_1_1BaseAction" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GcodeProcessor::BaseAction</compoundname>
+    <includes refid="MRGcodeProcessor_8h" local="no">MRGcodeProcessor.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Vec</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1GcodeProcessor_1_1BaseAction_1a3c7b474aeb8051a9fb1afb927f011f45" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; Vec &gt;</type>
+        <definition>std::vector&lt;Vec&gt; MR::GcodeProcessor::BaseAction&lt; Vec &gt;::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>MR::GcodeProcessor::BaseAction::path</qualifiedname>
+        <briefdescription>
+<para>tool movement parsed from gcode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="24" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GcodeProcessor_1_1BaseAction_1a9270868b501d221ffbe92fc1d7c8916e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::GcodeProcessor::BaseAction&lt; Vec &gt;::warning</definition>
+        <argsstring></argsstring>
+        <name>warning</name>
+        <qualifiedname>MR::GcodeProcessor::BaseAction::warning</qualifiedname>
+        <briefdescription>
+<para>parser warning </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="26" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structMR_1_1GcodeProcessor_1_1BaseAction_1a3c7b474aeb8051a9fb1afb927f011f45" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::BaseAction</scope><name>path</name></member>
+      <member refid="structMR_1_1GcodeProcessor_1_1BaseAction_1a9270868b501d221ffbe92fc1d7c8916e" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::BaseAction</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

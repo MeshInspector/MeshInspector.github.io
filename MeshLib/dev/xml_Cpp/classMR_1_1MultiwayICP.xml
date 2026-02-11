@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MultiwayICP" kind="class" language="C++" prot="public">
+    <compoundname>MR::MultiwayICP</compoundname>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1MultiwayICP_1a37a8e0d52c2729455ea42255f7d90942" prot="public" static="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="namespaceMR_1a3d0081672e0ccdc9545b8df2b84c3663" kindref="member">ICPPairsGrid</ref>, <ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref> &gt;</type>
+        <definition>using MR::MultiwayICP::PairsPerLayer =  Vector&lt;ICPPairsGrid, ICPLayer&gt;</definition>
+        <argsstring></argsstring>
+        <name>PairsPerLayer</name>
+        <qualifiedname>MR::MultiwayICP::PairsPerLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="136" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1MultiwayICP_1aa5dbf24096b532624b188e0e55eaaf94" prot="private" static="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="namespaceMR_1aad6ac9cd0268793575ae31767169ad0e" kindref="member">MultiObjsSamples</ref>, <ref refid="namespaceMR_1ab448f2e256aabf3e97eaaef010380fb1" kindref="member">ICPElementId</ref> &gt;, <ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref> &gt;</type>
+        <definition>using MR::MultiwayICP::LayerSamples =  Vector&lt;Vector&lt;MultiObjsSamples, ICPElementId&gt;, ICPLayer&gt;</definition>
+        <argsstring></argsstring>
+        <name>LayerSamples</name>
+        <qualifiedname>MR::MultiwayICP::LayerSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="161" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a67d743f94307957dc8309ca50283451c" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1acc39cd0582abbbb48612bd904fe74210" kindref="member">ICPObjects</ref></type>
+        <definition>ICPObjects MR::MultiwayICP::objs_</definition>
+        <argsstring></argsstring>
+        <name>objs_</name>
+        <qualifiedname>MR::MultiwayICP::objs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="144" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a56fc2bb0a42d10a3967eda6a97ed73b6" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1MultiwayICP_1a37a8e0d52c2729455ea42255f7d90942" kindref="member">PairsPerLayer</ref></type>
+        <definition>PairsPerLayer MR::MultiwayICP::pairsGridPerLayer_</definition>
+        <argsstring></argsstring>
+        <name>pairsGridPerLayer_</name>
+        <qualifiedname>MR::MultiwayICP::pairsGridPerLayer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="145" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1ae64b41544363b3494a2250e7166770e2" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref></type>
+        <definition>ICPProperties MR::MultiwayICP::prop_</definition>
+        <argsstring></argsstring>
+        <name>prop_</name>
+        <qualifiedname>MR::MultiwayICP::prop_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="146" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1ae1f07463fc82b5a5b7ff0e64eaed8fe6" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref></type>
+        <definition>ICPExitType MR::MultiwayICP::resultType_</definition>
+        <argsstring></argsstring>
+        <name>resultType_</name>
+        <qualifiedname>MR::MultiwayICP::resultType_</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94" kindref="member">ICPExitType::NotStarted</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="148" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a8e2ae11d44e75182a5e19bab6b114d70" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(int)&gt;</type>
+        <definition>std::function&lt;void( int )&gt; MR::MultiwayICP::perIterationCb_</definition>
+        <argsstring></argsstring>
+        <name>perIterationCb_</name>
+        <qualifiedname>MR::MultiwayICP::perIterationCb_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="150" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a9e848face193cbd3f78527ce9a837664" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1IICPTreeIndexer" kindref="compound">IICPTreeIndexer</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IICPTreeIndexer&gt; MR::MultiwayICP::cascadeIndexer_</definition>
+        <argsstring></argsstring>
+        <name>cascadeIndexer_</name>
+        <qualifiedname>MR::MultiwayICP::cascadeIndexer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="152" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a4c9a073989b8f8ce4226cd288340a649" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MultiwayICP::samplingSize_</definition>
+        <argsstring></argsstring>
+        <name>samplingSize_</name>
+        <qualifiedname>MR::MultiwayICP::samplingSize_</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="170" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a8a6bea316cbe5135619267fc08711fb2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MultiwayICP::maxGroupSize_</definition>
+        <argsstring></argsstring>
+        <name>maxGroupSize_</name>
+        <qualifiedname>MR::MultiwayICP::maxGroupSize_</qualifiedname>
+        <initializer>{ 64 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this parameter indicates maximum number of objects that might be aligned simultaneously in multi-way mode N&lt;0 - means all of the objects N=1 - means that all objects are aligned independently N&gt;1 - means that registration is applied cascade with N grouping step: 1) separate all objects to groups with N members 2) align objects inside these groups 3) join groups and create groups of these joined objects (2nd layer groups) 4) align this groups N&gt;number of objects - same as 0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="180" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MultiwayICP_1a40bccf930578d259a3f3417df82131c8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MultiwayICP::iter_</definition>
+        <argsstring></argsstring>
+        <name>iter_</name>
+        <qualifiedname>MR::MultiwayICP::iter_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="181" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a4fc483cb7fd8b04e2e37761a891b6a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::MultiwayICP::MultiwayICP</definition>
+        <argsstring>(const ICPObjects &amp;objects, const MultiwayICPSamplingParameters &amp;samplingParams)</argsstring>
+        <name>MultiwayICP</name>
+        <qualifiedname>MR::MultiwayICP::MultiwayICP</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1acc39cd0582abbbb48612bd904fe74210" kindref="member">ICPObjects</ref> &amp;</type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref> &amp;</type>
+          <declname>samplingParams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="88" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a45afa9e21d3905737cd8bafd86926578" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; AffineXf3f, ObjId &gt;</type>
+        <definition>MRMESH_API Vector&lt; AffineXf3f, ObjId &gt; MR::MultiwayICP::calculateTransformations</definition>
+        <argsstring>(const ProgressCallback &amp;cb={})</argsstring>
+        <name>calculateTransformations</name>
+        <qualifiedname>MR::MultiwayICP::calculateTransformations</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>runs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; <simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="93" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a176d6154b15b1c250f3f5cd3fb1a35cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; AffineXf3f, ObjId &gt;</type>
+        <definition>MRMESH_API Vector&lt; AffineXf3f, ObjId &gt; MR::MultiwayICP::calculateTransformationsFixFirst</definition>
+        <argsstring>(const ProgressCallback &amp;cb={})</argsstring>
+        <name>calculateTransformationsFixFirst</name>
+        <qualifiedname>MR::MultiwayICP::calculateTransformationsFixFirst</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>runs <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; <simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the first object is fixed and does not change here </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="98" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1afab250201279bb04e86b137138ef54de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::MultiwayICP::resamplePoints</definition>
+        <argsstring>(const MultiwayICPSamplingParameters &amp;samplingParams)</argsstring>
+        <name>resamplePoints</name>
+        <qualifiedname>MR::MultiwayICP::resamplePoints</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref> &amp;</type>
+          <declname>samplingParams</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on all objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="101" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a266ccb33611f47b517672664e5ecca33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::MultiwayICP::updateAllPointPairs</definition>
+        <argsstring>(const ProgressCallback &amp;cb={})</argsstring>
+        <name>updateAllPointPairs</name>
+        <qualifiedname>MR::MultiwayICP::updateAllPointPairs</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in each pair updates the target data and performs basic filtering (activation) in cascade mode only useful for stats update </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="105" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1afa420b3638e8c4e0b5ac70acb575a741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::setParams</definition>
+        <argsstring>(const ICPProperties &amp;prop)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>MR::MultiwayICP::setParams</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref> &amp;</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+<para>tune algorithm params before run <ref refid="classMR_1_1MultiwayICP_1a45afa9e21d3905737cd8bafd86926578" kindref="member">calculateTransformations()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="108" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a1df773567dfe9ebaffb468a5e35325fe" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref> &amp;</type>
+        <definition>const ICPProperties &amp; MR::MultiwayICP::getParams</definition>
+        <argsstring>() const</argsstring>
+        <name>getParams</name>
+        <qualifiedname>MR::MultiwayICP::getParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="109" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a64ac3c584445bc45cecd3c1c41d10ae6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::MultiwayICP::getMeanSqDistToPoint</definition>
+        <argsstring>(std::optional&lt; double &gt; value={}) const</argsstring>
+        <name>getMeanSqDistToPoint</name>
+        <qualifiedname>MR::MultiwayICP::getMeanSqDistToPoint</qualifiedname>
+        <param>
+          <type>std::optional&lt; double &gt;</type>
+          <declname>value</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes root-mean-square deviation between points or the standard deviation from given value if present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="113" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1adef2b42123425d640c3ba527a8ba8f08" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>MRMESH_API float MR::MultiwayICP::getMeanSqDistToPlane</definition>
+        <argsstring>(std::optional&lt; double &gt; value={}) const</argsstring>
+        <name>getMeanSqDistToPlane</name>
+        <qualifiedname>MR::MultiwayICP::getMeanSqDistToPlane</qualifiedname>
+        <param>
+          <type>std::optional&lt; double &gt;</type>
+          <declname>value</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes root-mean-square deviation from points to target planes or the standard deviation from given value if present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="117" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a7d58f57c70792f0ec9ef82aa6e95407a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::MultiwayICP::getNumSamples</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumSamples</name>
+        <qualifiedname>MR::MultiwayICP::getNumSamples</qualifiedname>
+        <briefdescription>
+<para>computes the number of samples able to form pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="120" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a2b9103b68bd7af393660d7dafc751954" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::MultiwayICP::getNumActivePairs</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumActivePairs</name>
+        <qualifiedname>MR::MultiwayICP::getNumActivePairs</qualifiedname>
+        <briefdescription>
+<para>computes the number of active point pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="123" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ae36a340dd4d403cc4894bc8a8b87d0d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::setPerIterationCallback</definition>
+        <argsstring>(std::function&lt; void(int inter)&gt; callback)</argsstring>
+        <name>setPerIterationCallback</name>
+        <qualifiedname>MR::MultiwayICP::setPerIterationCallback</qualifiedname>
+        <param>
+          <type>std::function&lt; void(int inter)&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>sets callback that will be called for each iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="126" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ae4d25815f9e27aeb558a76b1268fb602" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::devIndependentEquationsModeEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>devIndependentEquationsModeEnabled</name>
+        <qualifiedname>MR::MultiwayICP::devIndependentEquationsModeEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if in independent equations mode - creates separate equation system for each object otherwise creates single large equation system for all objects </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="130" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a44f6380f606dbdbaf88e1bf6357735dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::devEnableIndependentEquationsMode</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>devEnableIndependentEquationsMode</name>
+        <qualifiedname>MR::MultiwayICP::devEnableIndependentEquationsMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="131" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a088270c2bee7aaaea93a48fc5d48c2fd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>MRMESH_API std::string MR::MultiwayICP::getStatusInfo</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatusInfo</name>
+        <qualifiedname>MR::MultiwayICP::getStatusInfo</qualifiedname>
+        <briefdescription>
+<para>returns status info string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="134" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a3a6e071719c0f164a01aeca591915112" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1MultiwayICP_1a37a8e0d52c2729455ea42255f7d90942" kindref="member">PairsPerLayer</ref> &amp;</type>
+        <definition>const PairsPerLayer &amp; MR::MultiwayICP::getPairsPerLayer</definition>
+        <argsstring>() const</argsstring>
+        <name>getPairsPerLayer</name>
+        <qualifiedname>MR::MultiwayICP::getPairsPerLayer</qualifiedname>
+        <briefdescription>
+<para>returns all pairs of all layers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="138" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ae32c804d4589f4cbb0cd5821bace1d83" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1IICPTreeIndexer" kindref="compound">IICPTreeIndexer</ref> *</type>
+        <definition>const IICPTreeIndexer * MR::MultiwayICP::getCascadeIndexer</definition>
+        <argsstring>() const</argsstring>
+        <name>getCascadeIndexer</name>
+        <qualifiedname>MR::MultiwayICP::getCascadeIndexer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns pointer to class that is used to navigate among layers of cascade registration if nullptr - cascade mode is not used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="142" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a9cef041fd9f97265e8a65b58da4c1d50" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::setupLayers_</definition>
+        <argsstring>(MultiwayICPSamplingParameters::CascadeMode mode)</argsstring>
+        <name>setupLayers_</name>
+        <qualifiedname>MR::MultiwayICP::setupLayers_</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1MultiwayICPSamplingParameters_1a116ec3c17f34bc7480ee09bcd334bd58" kindref="member">MultiwayICPSamplingParameters::CascadeMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>reserves space in pairsGridPerLayer_ according to mode and GroupIndexer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="155" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a39d3179ef0e08c041feb9a6ea743c6ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::reservePairsLayer0_</definition>
+        <argsstring>(Vector&lt; VertBitSet, ObjId &gt; &amp;&amp;samples, const ProgressCallback &amp;cb)</argsstring>
+        <name>reservePairsLayer0_</name>
+        <qualifiedname>MR::MultiwayICP::reservePairsLayer0_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; VertBitSet, ObjId &gt; &amp;&amp;</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reserves memory for all pairs if currently in cascade mode (objs.size() &gt; maxGroupSize_) reserves only for pairs inside groups </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="159" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1af5f10a46e2d0c92e7aabcc19b6db162a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; <ref refid="classMR_1_1Vector" kindref="compound">LayerSamples</ref> &gt;</type>
+        <definition>std::optional&lt; LayerSamples &gt; MR::MultiwayICP::resampleUpperLayers_</definition>
+        <argsstring>(const ProgressCallback &amp;cb)</argsstring>
+        <name>resampleUpperLayers_</name>
+        <qualifiedname>MR::MultiwayICP::resampleUpperLayers_</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="162" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ad4cba2a0484136f958167fca4d15321e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::reserveUpperLayerPairs_</definition>
+        <argsstring>(LayerSamples &amp;&amp;samples, const ProgressCallback &amp;cb)</argsstring>
+        <name>reserveUpperLayerPairs_</name>
+        <qualifiedname>MR::MultiwayICP::reserveUpperLayerPairs_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector" kindref="compound">LayerSamples</ref> &amp;&amp;</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="163" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ad59df8b1f291757da812d4af0dfa7a3e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::updateLayerPairs_</definition>
+        <argsstring>(ICPLayer l, const ProgressCallback &amp;cb={})</argsstring>
+        <name>updateLayerPairs_</name>
+        <qualifiedname>MR::MultiwayICP::updateLayerPairs_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref></type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>calculates and updates pairs 2nd and next steps of cascade mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="166" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1aac84694b3dad7ab10183d26471c51a5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::deactivateFarDistPairs_</definition>
+        <argsstring>(ICPLayer l)</argsstring>
+        <name>deactivateFarDistPairs_</name>
+        <qualifiedname>MR::MultiwayICP::deactivateFarDistPairs_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>deactivate pairs that does not meet farDistFactor criterion, for given layer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="168" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a7c47d89642fc6f92227adf5b750b008b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::doIteration_</definition>
+        <argsstring>(bool p2pl)</argsstring>
+        <name>doIteration_</name>
+        <qualifiedname>MR::MultiwayICP::doIteration_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>p2pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="182" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a720a2f67df1e304085a809a4d5cfdc74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::p2ptIter_</definition>
+        <argsstring>()</argsstring>
+        <name>p2ptIter_</name>
+        <qualifiedname>MR::MultiwayICP::p2ptIter_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="183" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a10f40b7180edaa50e5b9f16581e895df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::p2plIter_</definition>
+        <argsstring>()</argsstring>
+        <name>p2plIter_</name>
+        <qualifiedname>MR::MultiwayICP::p2plIter_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="184" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1ac1829b80cb1af2135f9988384b408cc2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::multiwayIter_</definition>
+        <argsstring>(bool p2pl=true)</argsstring>
+        <name>multiwayIter_</name>
+        <qualifiedname>MR::MultiwayICP::multiwayIter_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>p2pl</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="185" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a9688460bcc7dc60199dc457ab849bc3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MultiwayICP::cascadeIter_</definition>
+        <argsstring>(bool p2pl=true)</argsstring>
+        <name>cascadeIter_</name>
+        <qualifiedname>MR::MultiwayICP::cascadeIter_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>p2pl</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="186" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a282279a00c7e92bd0b8b7fb4db086da3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::calcGen_</definition>
+        <argsstring>(bool p2pl, const ProgressCallback &amp;cb)</argsstring>
+        <name>calcGen_</name>
+        <qualifiedname>MR::MultiwayICP::calcGen_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>p2pl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="188" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a107897a8d7571fca54e0cae91cabb0be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::calcP2Pt_</definition>
+        <argsstring>(const ProgressCallback &amp;cb)</argsstring>
+        <name>calcP2Pt_</name>
+        <qualifiedname>MR::MultiwayICP::calcP2Pt_</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="189" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a6fdebd6ba8aa32213489601272d4a6bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::calcP2Pl_</definition>
+        <argsstring>(const ProgressCallback &amp;cb)</argsstring>
+        <name>calcP2Pl_</name>
+        <qualifiedname>MR::MultiwayICP::calcP2Pl_</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="190" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a394e89415d977414c72bd9f6d8bec1a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MultiwayICP::calcCombined_</definition>
+        <argsstring>(const ProgressCallback &amp;cb)</argsstring>
+        <name>calcCombined_</name>
+        <qualifiedname>MR::MultiwayICP::calcCombined_</qualifiedname>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="191" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-samples/GlobalRegistration.cpp"></programlisting> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="85" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="86" bodyend="192"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MultiwayICP_1a394e89415d977414c72bd9f6d8bec1a4" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcCombined_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a282279a00c7e92bd0b8b7fb4db086da3" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcGen_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a6fdebd6ba8aa32213489601272d4a6bf" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcP2Pl_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a107897a8d7571fca54e0cae91cabb0be" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcP2Pt_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a45afa9e21d3905737cd8bafd86926578" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformations</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a176d6154b15b1c250f3f5cd3fb1a35cc" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformationsFixFirst</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a9e848face193cbd3f78527ce9a837664" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>cascadeIndexer_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a9688460bcc7dc60199dc457ab849bc3a" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>cascadeIter_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1aac84694b3dad7ab10183d26471c51a5f" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>deactivateFarDistPairs_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a44f6380f606dbdbaf88e1bf6357735dc" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>devEnableIndependentEquationsMode</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ae4d25815f9e27aeb558a76b1268fb602" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>devIndependentEquationsModeEnabled</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a7c47d89642fc6f92227adf5b750b008b" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>doIteration_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ae32c804d4589f4cbb0cd5821bace1d83" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getCascadeIndexer</name></member>
+      <member refid="classMR_1_1MultiwayICP_1adef2b42123425d640c3ba527a8ba8f08" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getMeanSqDistToPlane</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a64ac3c584445bc45cecd3c1c41d10ae6" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getMeanSqDistToPoint</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a2b9103b68bd7af393660d7dafc751954" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a7d58f57c70792f0ec9ef82aa6e95407a" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getNumSamples</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a3a6e071719c0f164a01aeca591915112" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getPairsPerLayer</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a1df773567dfe9ebaffb468a5e35325fe" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getParams</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a088270c2bee7aaaea93a48fc5d48c2fd" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getStatusInfo</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a40bccf930578d259a3f3417df82131c8" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>iter_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1aa5dbf24096b532624b188e0e55eaaf94" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>LayerSamples</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a8a6bea316cbe5135619267fc08711fb2" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>maxGroupSize_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a4fc483cb7fd8b04e2e37761a891b6a15" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>MultiwayICP</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ac1829b80cb1af2135f9988384b408cc2" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>multiwayIter_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a67d743f94307957dc8309ca50283451c" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>objs_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a10f40b7180edaa50e5b9f16581e895df" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>p2plIter_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a720a2f67df1e304085a809a4d5cfdc74" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>p2ptIter_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a56fc2bb0a42d10a3967eda6a97ed73b6" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>pairsGridPerLayer_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a37a8e0d52c2729455ea42255f7d90942" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>PairsPerLayer</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a8e2ae11d44e75182a5e19bab6b114d70" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>perIterationCb_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ae64b41544363b3494a2250e7166770e2" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>prop_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1afab250201279bb04e86b137138ef54de" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resamplePoints</name></member>
+      <member refid="classMR_1_1MultiwayICP_1af5f10a46e2d0c92e7aabcc19b6db162a" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resampleUpperLayers_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a39d3179ef0e08c041feb9a6ea743c6ef" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>reservePairsLayer0_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ad4cba2a0484136f958167fca4d15321e" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>reserveUpperLayerPairs_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ae1f07463fc82b5a5b7ff0e64eaed8fe6" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resultType_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a4c9a073989b8f8ce4226cd288340a649" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>samplingSize_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1afa420b3638e8c4e0b5ac70acb575a741" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setParams</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ae36a340dd4d403cc4894bc8a8b87d0d6" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setPerIterationCallback</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a9cef041fd9f97265e8a65b58da4c1d50" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setupLayers_</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a266ccb33611f47b517672664e5ecca33" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateAllPointPairs</name></member>
+      <member refid="classMR_1_1MultiwayICP_1ad59df8b1f291757da812d4af0dfa7a3e" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateLayerPairs_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

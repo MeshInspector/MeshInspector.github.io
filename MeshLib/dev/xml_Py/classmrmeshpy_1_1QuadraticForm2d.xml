@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1QuadraticForm2d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::QuadraticForm2d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuadraticForm2d_1a54e8b31a0c1399d3cd6acc215a8cdb7d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuadraticForm2d::_offsetof_A</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_A</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d._offsetof_A</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuadraticForm2d_1a798ec53dbbd74ae06b48ba2c73a5606a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuadraticForm2d::_offsetof_c</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_c</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d._offsetof_c</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48349" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a5989f1914263a7e7a3a7d36a239d7a9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48354" bodyend="48355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1af866607ecfd5d6efc18315e5c1f8dcd3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm2d" kindref="compound">QuadraticForm2d</ref></type>
+        <definition> QuadraticForm2d mrmeshpy.QuadraticForm2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48358" bodyend="48359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1af866607ecfd5d6efc18315e5c1f8dcd3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm2d" kindref="compound">QuadraticForm2d</ref></type>
+        <definition> QuadraticForm2d mrmeshpy.QuadraticForm2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48362" bodyend="48363"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a0aaa70c601a094a1f0490fae1cb74239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48365" bodyend="48366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a9aa3c70edafad3f27125ab1060753629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.__init__</definition>
+        <argsstring>(self, QuadraticForm2d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm2d" kindref="compound">QuadraticForm2d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48368" bodyend="48371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a6356cbe26d7793cc02705aa9a8e9232b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.__init__</definition>
+        <argsstring>(self, SymMatrix2d A, float c)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix2d" kindref="compound">SymMatrix2d</ref></type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48373" bodyend="48376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a936e82e3aef409ba722868d9334e4124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.addDistToLine</definition>
+        <argsstring>(self, Vector2d lineUnitDir)</argsstring>
+        <name>addDistToLine</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.addDistToLine</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>lineUnitDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds to this squared distance to line passing via origin with given unit direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48378" bodyend="48381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1ab20cff5e28e49d70e794c42302def265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.addDistToLine</definition>
+        <argsstring>(self, Vector2d lineUnitDir, float weight)</argsstring>
+        <name>addDistToLine</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.addDistToLine</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>lineUnitDir</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48383" bodyend="48384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1ae46f577609082cc398f0f80d85e67f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.addDistToOrigin</definition>
+        <argsstring>(self, float weight)</argsstring>
+        <name>addDistToOrigin</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.addDistToOrigin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds to this squared distance to the origin point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48385" bodyend="48388"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a0029cb5d8bb32c82f0f2a7574f53e715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.addDistToPlane</definition>
+        <argsstring>(self, Vector2d planeUnitNormal)</argsstring>
+        <name>addDistToPlane</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.addDistToPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>planeUnitNormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds to this squared distance to plane passing via origin with given unit normal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48390" bodyend="48393"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1af2b82aafdf68d1f4a1453ba7119c1852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuadraticForm2d.addDistToPlane</definition>
+        <argsstring>(self, Vector2d planeUnitNormal, float weight)</argsstring>
+        <name>addDistToPlane</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.addDistToPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>planeUnitNormal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48395" bodyend="48396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuadraticForm2d_1a843a2937af343af6d77c38ad8e905099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.QuadraticForm2d.eval</definition>
+        <argsstring>(self, Vector2d x)</argsstring>
+        <name>eval</name>
+        <qualifiedname>mrmeshpy.QuadraticForm2d.eval</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>evaluates the function at given x
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48397" bodyend="48400"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::QuadraticForm2d
+
+quadratic form: f = x^T A x + c
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.QuadraticForm2d</label>
+        <link refid="classmrmeshpy_1_1QuadraticForm2d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_A</edgelabel>
+          <edgelabel>_offsetof_c</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48342" bodyend="48400"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a5989f1914263a7e7a3a7d36a239d7a9c" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a0aaa70c601a094a1f0490fae1cb74239" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a9aa3c70edafad3f27125ab1060753629" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a6356cbe26d7793cc02705aa9a8e9232b" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a54e8b31a0c1399d3cd6acc215a8cdb7d" prot="protected" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>_offsetof_A</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a798ec53dbbd74ae06b48ba2c73a5606a" prot="protected" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>_offsetof_c</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a936e82e3aef409ba722868d9334e4124" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>addDistToLine</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1ab20cff5e28e49d70e794c42302def265" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>addDistToLine</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1ae46f577609082cc398f0f80d85e67f31" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>addDistToOrigin</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a0029cb5d8bb32c82f0f2a7574f53e715" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>addDistToPlane</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1af2b82aafdf68d1f4a1453ba7119c1852" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>addDistToPlane</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1a843a2937af343af6d77c38ad8e905099" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>eval</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1af866607ecfd5d6efc18315e5c1f8dcd3" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1QuadraticForm2d_1af866607ecfd5d6efc18315e5c1f8dcd3" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2d</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

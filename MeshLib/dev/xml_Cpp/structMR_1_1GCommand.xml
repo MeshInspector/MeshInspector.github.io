@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GCommand" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GCommand</compoundname>
+    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1GCommand_1aaf3da1692be265b849e66df425724a1b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a88f1fdd848610bc41226918baa28e601" kindref="member">MoveType</ref></type>
+        <definition>MoveType MR::GCommand::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR::GCommand::type</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a88f1fdd848610bc41226918baa28e601a32a843da6ea40ab3b17a3421ccdf671b" kindref="member">MoveType::Linear</ref></initializer>
+        <briefdescription>
+<para>type of command GX (G0, G1, etc). By default - G1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="113" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GCommand_1a46bdc412f995f806c9a1cbb17969eb3a" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ae1af7aec8f28c8e85182ca94f5802435" kindref="member">ArcPlane</ref></type>
+        <definition>ArcPlane MR::GCommand::arcPlane</definition>
+        <argsstring></argsstring>
+        <name>arcPlane</name>
+        <qualifiedname>MR::GCommand::arcPlane</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1ae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ArcPlane::None</ref></initializer>
+        <briefdescription>
+<para>Place for comment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="115" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GCommand_1ad006b4b0a0cbf74a8cedc89dd7fc1df8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GCommand::feed</definition>
+        <argsstring></argsstring>
+        <name>feed</name>
+        <qualifiedname>MR::GCommand::feed</qualifiedname>
+        <initializer>= std::numeric_limits&lt;float&gt;::quiet_NaN()</initializer>
+        <briefdescription>
+<para>feedrate for move </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GCommand_1a3f8b88883ebac5b476b7a042edd30d65" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GCommand::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR::GCommand::x</qualifiedname>
+        <initializer>= std::numeric_limits&lt;float&gt;::quiet_NaN()</initializer>
+        <briefdescription>
+<para>coordinates of destination point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GCommand_1a153e73394a743e67aaeaeefb04deac21" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GCommand::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR::GCommand::y</qualifiedname>
+        <initializer>= std::numeric_limits&lt;float&gt;::quiet_NaN()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="120" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GCommand_1aec5c0f6069885854d6838a98f1bacae3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::GCommand::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR::GCommand::z</qualifiedname>
+        <initializer>= std::numeric_limits&lt;float&gt;::quiet_NaN()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GCommand_1acaf374ee91304204bb3990d59a7d32fc" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::GCommand::arcCenter</definition>
+        <argsstring></argsstring>
+        <name>arcCenter</name>
+        <qualifiedname>MR::GCommand::arcCenter</qualifiedname>
+        <initializer>= Vector3f::diagonal( std::numeric_limits&lt;float&gt;::quiet_NaN() )</initializer>
+        <briefdescription>
+<para>if moveType is ArcCW or ArcCCW center of the arc shoult be specified </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="123" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="111" bodyend="124"/>
+    <listofallmembers>
+      <member refid="structMR_1_1GCommand_1acaf374ee91304204bb3990d59a7d32fc" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcCenter</name></member>
+      <member refid="structMR_1_1GCommand_1a46bdc412f995f806c9a1cbb17969eb3a" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcPlane</name></member>
+      <member refid="structMR_1_1GCommand_1ad006b4b0a0cbf74a8cedc89dd7fc1df8" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>feed</name></member>
+      <member refid="structMR_1_1GCommand_1aaf3da1692be265b849e66df425724a1b" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>type</name></member>
+      <member refid="structMR_1_1GCommand_1a3f8b88883ebac5b476b7a042edd30d65" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>x</name></member>
+      <member refid="structMR_1_1GCommand_1a153e73394a743e67aaeaeefb04deac21" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>y</name></member>
+      <member refid="structMR_1_1GCommand_1aec5c0f6069885854d6838a98f1bacae3" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

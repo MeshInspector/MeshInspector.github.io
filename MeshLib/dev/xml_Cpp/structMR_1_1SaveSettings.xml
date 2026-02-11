@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SaveSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SaveSettings</compoundname>
+    <derivedcompoundref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" prot="public" virt="non-virtual">MR::MeshSave::CtmSaveOptions</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public" virt="non-virtual">MR::PointsSave::CtmSavePointsOptions</derivedcompoundref>
+    <includes refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a88539fbafc85e15a6dbc49b2b3144a15" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveSettings::onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>onlyValidPoints</name>
+        <qualifiedname>MR::SaveSettings::onlyValidPoints</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1af59abe4d1987a4ccd1c117cfe7f3c160" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveSettings::packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>packPrimitives</name>
+        <qualifiedname>MR::SaveSettings::packPrimitives</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a6aa78ab8ac3342aaeb267aa07e82721a" prot="public" static="no" mutable="no">
+        <type>const VertColors *</type>
+        <definition>const VertColors* MR::SaveSettings::colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR::SaveSettings::colors</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional per-vertex color to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a2adbb4514d02bbf6b87e95a090e1a2d9" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; *</type>
+        <definition>const std::vector&lt;Color&gt;* MR::SaveSettings::primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>primitiveColors</name>
+        <qualifiedname>MR::SaveSettings::primitiveColors</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="33" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a71c2ed63cb6a101dbd9b47f8ca9898fd" prot="public" static="no" mutable="no">
+        <type>const VertUVCoords *</type>
+        <definition>const VertUVCoords* MR::SaveSettings::uvMap</definition>
+        <argsstring></argsstring>
+        <name>uvMap</name>
+        <qualifiedname>MR::SaveSettings::uvMap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional per-vertex uv coordinate to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="36" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1ac0798760baa0755ad37dde251b754b9d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SaveSettings::saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>saveTriCornerUVCoords</name>
+        <qualifiedname>MR::SaveSettings::saveTriCornerUVCoords</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="40" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a0cd4cf82acb2f094f43f785282fcb76a" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref> *</type>
+        <definition>const MeshTexture* MR::SaveSettings::texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>MR::SaveSettings::texture</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional texture to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="43" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a3614a6ca71783b2dd64369d4f122ee69" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::SaveSettings::materialName</definition>
+        <argsstring></argsstring>
+        <name>materialName</name>
+        <qualifiedname>MR::SaveSettings::materialName</qualifiedname>
+        <initializer>= &quot;Default&quot;</initializer>
+        <briefdescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="46" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a972e4972bf3626cb56f22c55b69cccc0" prot="public" static="no" mutable="no">
+        <type>const AffineXf3d *</type>
+        <definition>const AffineXf3d* MR::SaveSettings::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::SaveSettings::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="49" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a1b152fd38e636ee6803cabaac71794cc" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <definition>std::optional&lt;LengthUnit&gt; MR::SaveSettings::lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR::SaveSettings::lengthUnit</qualifiedname>
+        <briefdescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="52" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a127d98f930cd561a8633297e3422f649" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>std::optional&lt;Color&gt; MR::SaveSettings::solidColor</definition>
+        <argsstring></argsstring>
+        <name>solidColor</name>
+        <qualifiedname>MR::SaveSettings::solidColor</qualifiedname>
+        <briefdescription>
+<para>the color of whole object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="55" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SaveSettings_1a0f2bb31407f2693aa939c47e0052b527" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::SaveSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::SaveSettings::progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="58" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>determines how to save points/lines/mesh </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::MeshSave::CtmSaveOptions</label>
+        <link refid="structMR_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::PointsSave::CtmSavePointsOptions</label>
+        <link refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="17" bodyend="59"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SaveSettings_1a6aa78ab8ac3342aaeb267aa07e82721a" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>colors</name></member>
+      <member refid="structMR_1_1SaveSettings_1a1b152fd38e636ee6803cabaac71794cc" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>lengthUnit</name></member>
+      <member refid="structMR_1_1SaveSettings_1a3614a6ca71783b2dd64369d4f122ee69" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>materialName</name></member>
+      <member refid="structMR_1_1SaveSettings_1a88539fbafc85e15a6dbc49b2b3144a15" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>onlyValidPoints</name></member>
+      <member refid="structMR_1_1SaveSettings_1af59abe4d1987a4ccd1c117cfe7f3c160" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>packPrimitives</name></member>
+      <member refid="structMR_1_1SaveSettings_1a2adbb4514d02bbf6b87e95a090e1a2d9" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>primitiveColors</name></member>
+      <member refid="structMR_1_1SaveSettings_1a0f2bb31407f2693aa939c47e0052b527" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1SaveSettings_1ac0798760baa0755ad37dde251b754b9d" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="structMR_1_1SaveSettings_1a127d98f930cd561a8633297e3422f649" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>solidColor</name></member>
+      <member refid="structMR_1_1SaveSettings_1a0cd4cf82acb2f094f43f785282fcb76a" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>texture</name></member>
+      <member refid="structMR_1_1SaveSettings_1a71c2ed63cb6a101dbd9b47f8ca9898fd" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>uvMap</name></member>
+      <member refid="structMR_1_1SaveSettings_1a972e4972bf3626cb56f22c55b69cccc0" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

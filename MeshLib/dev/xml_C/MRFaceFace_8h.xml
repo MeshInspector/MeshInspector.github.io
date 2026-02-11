@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFaceFace_8h" kind="file" language="C++">
+    <compoundname>MRFaceFace.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRFaceFace.h</label>
+        <link refid="MRFaceFace_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" prot="public" static="no">
+        <type>struct <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref></type>
+        <definition>typedef struct MR_FaceFace MR_FaceFace</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceFace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a pair of faces Generated from class <computeroutput>MR::FaceFace</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" prot="public" static="no">
+        <type>struct <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeUndirectedEdge MR_UndirectedEdgeUndirectedEdge</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a pair of undirected edges Generated from class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="21" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API const MR_FaceId * MR_FaceFace_Get_aFace</definition>
+        <argsstring>(const MR_FaceFace *_this)</argsstring>
+        <name>MR_FaceFace_Get_aFace</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::FaceFace</computeroutput> named <computeroutput>aFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="26" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="26" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FaceFace_Set_aFace</definition>
+        <argsstring>(MR_FaceFace *_this, MR_FaceId value)</argsstring>
+        <name>MR_FaceFace_Set_aFace</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::FaceFace</computeroutput> named <computeroutput>aFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>aFace</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>aFace</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="32" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_FaceId * MR_FaceFace_GetMutable_aFace</definition>
+        <argsstring>(MR_FaceFace *_this)</argsstring>
+        <name>MR_FaceFace_GetMutable_aFace</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceFace</computeroutput> named <computeroutput>aFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="37" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="37" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API const MR_FaceId * MR_FaceFace_Get_bFace</definition>
+        <argsstring>(const MR_FaceFace *_this)</argsstring>
+        <name>MR_FaceFace_Get_bFace</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::FaceFace</computeroutput> named <computeroutput>bFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="42" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="42" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FaceFace_Set_bFace</definition>
+        <argsstring>(MR_FaceFace *_this, MR_FaceId value)</argsstring>
+        <name>MR_FaceFace_Set_bFace</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::FaceFace</computeroutput> named <computeroutput>bFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bFace</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bFace</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_FaceId * MR_FaceFace_GetMutable_bFace</definition>
+        <argsstring>(MR_FaceFace *_this)</argsstring>
+        <name>MR_FaceFace_GetMutable_bFace</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceFace</computeroutput> named <computeroutput>bFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="53" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="53" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API MR_FaceFace * MR_FaceFace_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_FaceFace_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" kindref="member">MR_FaceFace_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="57" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="57" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API MR_FaceFace * MR_FaceFace_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_FaceFace_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" kindref="member">MR_FaceFace_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" kindref="member">MR_FaceFace_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" kindref="member">MR_FaceFace_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="62" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="62" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API const MR_FaceFace * MR_FaceFace_OffsetPtr</definition>
+        <argsstring>(const MR_FaceFace *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FaceFace_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="66" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="66" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API MR_FaceFace * MR_FaceFace_OffsetMutablePtr</definition>
+        <argsstring>(MR_FaceFace *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FaceFace_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="70" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="70" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API MR_FaceFace * MR_FaceFace_ConstructFromAnother</definition>
+        <argsstring>(const MR_FaceFace *_other)</argsstring>
+        <name>MR_FaceFace_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FaceFace::FaceFace</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" kindref="member">MR_FaceFace_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="76" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="76" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API MR_FaceFace * MR_FaceFace_Construct</definition>
+        <argsstring>(MR_FaceId a, MR_FaceId b)</argsstring>
+        <name>MR_FaceFace_Construct</name>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FaceFace::FaceFace</computeroutput>. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" kindref="member">MR_FaceFace_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="82" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="82" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FaceFace_Destroy</definition>
+        <argsstring>(const MR_FaceFace *_this)</argsstring>
+        <name>MR_FaceFace_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_FaceFace</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FaceFace_DestroyArray</definition>
+        <argsstring>(const MR_FaceFace *_this)</argsstring>
+        <name>MR_FaceFace_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_FaceFace</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <definition>MRC_API MR_FaceFace * MR_FaceFace_AssignFromAnother</definition>
+        <argsstring>(MR_FaceFace *_this, const MR_FaceFace *_other)</argsstring>
+        <name>MR_FaceFace_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FaceFace::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="96" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="96" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API const MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</definition>
+        <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput> named <computeroutput>aUndirEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="101" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="101" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</definition>
+        <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this, MR_UndirectedEdgeId value)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput> named <computeroutput>aUndirEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>aUndirEdge</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>aUndirEdge</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</definition>
+        <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput> named <computeroutput>aUndirEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="112" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="112" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API const MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</definition>
+        <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput> named <computeroutput>bUndirEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="117" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="117" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</definition>
+        <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this, MR_UndirectedEdgeId value)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput> named <computeroutput>bUndirEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bUndirEdge</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bUndirEdge</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="123" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</definition>
+        <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput> named <computeroutput>bUndirEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="128" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="128" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" kindref="member">MR_UndirectedEdgeUndirectedEdge_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="132" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="132" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" kindref="member">MR_UndirectedEdgeUndirectedEdge_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="137" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="137" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API const MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_OffsetPtr</definition>
+        <argsstring>(const MR_UndirectedEdgeUndirectedEdge *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="141" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="141" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</definition>
+        <argsstring>(MR_UndirectedEdgeUndirectedEdge *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="145" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="145" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</definition>
+        <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_other)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::UndirectedEdgeUndirectedEdge::UndirectedEdgeUndirectedEdge</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" kindref="member">MR_UndirectedEdgeUndirectedEdge_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="151" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="151" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_Construct</definition>
+        <argsstring>(MR_UndirectedEdgeId a, MR_UndirectedEdgeId b)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_Construct</name>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::UndirectedEdgeUndirectedEdge::UndirectedEdgeUndirectedEdge</computeroutput>. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" kindref="member">MR_UndirectedEdgeUndirectedEdge_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="157" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="157" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_Destroy</definition>
+        <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_UndirectedEdgeUndirectedEdge</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="160" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_DestroyArray</definition>
+        <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_UndirectedEdgeUndirectedEdge</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="163" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</definition>
+        <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this, const MR_UndirectedEdgeUndirectedEdge *_other)</argsstring>
+        <name>MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeUndirectedEdge::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="171" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="171" declcolumn="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" kindref="member">MR_FaceFace_Get_aFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" kindref="member">MR_FaceFace_Set_aFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" kindref="member">MR_FaceFace_GetMutable_aFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" kindref="member">MR_FaceFace_Get_bFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" kindref="member">MR_FaceFace_Set_bFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" kindref="member">MR_FaceFace_GetMutable_bFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" kindref="member">MR_FaceFace_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" kindref="member">MR_FaceFace_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" kindref="member">MR_FaceFace_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" kindref="member">MR_FaceFace_OffsetMutablePtr</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" kindref="member">MR_FaceFace_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" kindref="member">MR_FaceFace_Construct</ref>(<ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>b);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" kindref="member">MR_FaceFace_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" kindref="member">MR_FaceFace_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" kindref="member">MR_FaceFace_AssignFromAnother</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" kindref="member">MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" kindref="member">MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" kindref="member">MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" kindref="member">MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" kindref="member">MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" kindref="member">MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" kindref="member">MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" kindref="member">MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" kindref="member">MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" kindref="member">MR_UndirectedEdgeUndirectedEdge_Construct</ref>(<ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>b);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" kindref="member">MR_UndirectedEdgeUndirectedEdge_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" kindref="member">MR_UndirectedEdgeUndirectedEdge_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" kindref="member">MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UnionFind" kind="class" language="C++" prot="public">
+    <compoundname>MR::UnionFind</compoundname>
+    <includes refid="MRUnionFind_8h" local="no">MRUnionFind.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1UnionFind_1ad07cce64defb1fcef686551aecfd55d0" prot="public" static="no">
+        <type>typename I::ValueType</type>
+        <definition>using MR::UnionFind&lt; I &gt;::SizeType =  typename I::ValueType</definition>
+        <argsstring></argsstring>
+        <name>SizeType</name>
+        <qualifiedname>MR::UnionFind::SizeType</qualifiedname>
+        <briefdescription>
+<para>the type that can hold the number of elements of the maximal set (e.g. int for FaceId and size_t for VoxelId) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UnionFind_1a1b2c81b705c8244a87ae8287f87139d7" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref>, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt;</type>
+        <definition>Vector&lt;I, I&gt; MR::UnionFind&lt; I &gt;::parents_</definition>
+        <argsstring></argsstring>
+        <name>parents_</name>
+        <qualifiedname>MR::UnionFind::parents_</qualifiedname>
+        <briefdescription>
+<para>parent element of each element </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="150" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1UnionFind_1a7cde5d5801abded20752408ce29b27fc" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1UnionFind_1ad07cce64defb1fcef686551aecfd55d0" kindref="member">SizeType</ref>, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt;</type>
+        <definition>Vector&lt;SizeType, I&gt; MR::UnionFind&lt; I &gt;::sizes_</definition>
+        <argsstring></argsstring>
+        <name>sizes_</name>
+        <qualifiedname>MR::UnionFind::sizes_</qualifiedname>
+        <briefdescription>
+<para>size of each set, contain valid values only for sets&apos; roots </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="153" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a67ccf008e0816480dca10b19c530a7b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UnionFind&lt; I &gt;::UnionFind</definition>
+        <argsstring>()=default</argsstring>
+        <name>UnionFind</name>
+        <qualifiedname>MR::UnionFind::UnionFind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="25" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a661398df57a710beae6f4b7c19ac3006" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UnionFind&lt; I &gt;::UnionFind</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>UnionFind</name>
+        <qualifiedname>MR::UnionFind::UnionFind</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1ab0d01d793fad21820791310d7318235e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::UnionFind&lt; I &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::UnionFind::size</qualifiedname>
+        <briefdescription>
+<para>returns the number of elements in union-find </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="31" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a6a74089f75f3b88edf1a6fb0beba1e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::UnionFind&lt; I &gt;::reset</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::UnionFind::reset</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a0739ab9258f8fc25ef45ce06106fffce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::pair&lt; <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref>, bool &gt;</type>
+        <definition>std::pair&lt; I, bool &gt; MR::UnionFind&lt; I &gt;::unite</definition>
+        <argsstring>(I first, I second)</argsstring>
+        <name>unite</name>
+        <qualifiedname>MR::UnionFind::unite</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unite two elements, <simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>select root by size for best performance</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="47" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="47" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1aa570cc6f33bbb51fb5859608b9c68fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::UnionFind&lt; I &gt;::united</definition>
+        <argsstring>(I first, I second)</argsstring>
+        <name>united</name>
+        <qualifiedname>MR::UnionFind::united</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given two elements are from one set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a785b1dcdaf9a761a91a1331bfda21900" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::UnionFind&lt; I &gt;::isRoot</definition>
+        <argsstring>(I a) const</argsstring>
+        <name>isRoot</name>
+        <qualifiedname>MR::UnionFind::isRoot</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given element is the root of some set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="77" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1aa982a275fa599ec51d07ad997c3902d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::parent</definition>
+        <argsstring>(I a) const</argsstring>
+        <name>parent</name>
+        <qualifiedname>MR::UnionFind::parent</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>return parent element of this element, which is equal to given element only for set&apos;s root </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="80" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a26e79fd903c0229dbd2f66a80549c75b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::find</definition>
+        <argsstring>(I a)</argsstring>
+        <name>find</name>
+        <qualifiedname>MR::UnionFind::find</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure updates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="83" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1abf32e7c70e8d67a82d759ad44a5b08c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::findUpdateRange</definition>
+        <argsstring>(I a, I begin, I end)</argsstring>
+        <name>findUpdateRange</name>
+        <qualifiedname>MR::UnionFind::findUpdateRange</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="86" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a5b1ee758f69d77277361f8cbe1e0d77e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref>, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt; &amp;</type>
+        <definition>const Vector&lt; I, I &gt; &amp; MR::UnionFind&lt; I &gt;::roots</definition>
+        <argsstring>()</argsstring>
+        <name>roots</name>
+        <qualifiedname>MR::UnionFind::roots</qualifiedname>
+        <briefdescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="92" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1addfb36167fbd876c96379b175c755a5b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref>, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt; &amp;</type>
+        <definition>const Vector&lt; I, I &gt; &amp; MR::UnionFind&lt; I &gt;::parents</definition>
+        <argsstring>() const</argsstring>
+        <name>parents</name>
+        <qualifiedname>MR::UnionFind::parents</qualifiedname>
+        <briefdescription>
+<para>gets the parents of all elements as is </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="100" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a009ad612aecca5afb9b91768536c406f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1UnionFind_1ad07cce64defb1fcef686551aecfd55d0" kindref="member">SizeType</ref></type>
+        <definition>SizeType MR::UnionFind&lt; I &gt;::sizeOfComp</definition>
+        <argsstring>(I a)</argsstring>
+        <name>sizeOfComp</name>
+        <qualifiedname>MR::UnionFind::sizeOfComp</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns the number of elements in the set containing given element </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="103" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a6999428ebe2645b250dfe6cf51038735" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::findRootNoUpdate_</definition>
+        <argsstring>(I a) const</argsstring>
+        <name>findRootNoUpdate_</name>
+        <qualifiedname>MR::UnionFind::findRootNoUpdate_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element without optimizing data structure updates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="107" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="107" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a797743a9600c69d6615d32c970c89f96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::updateRoot_</definition>
+        <argsstring>(I a, const I r)</argsstring>
+        <name>updateRoot_</name>
+        <qualifiedname>MR::UnionFind::updateRoot_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>sets new root </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for the element</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>and all its ancestors, returns new root</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>update parents</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="115" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="115" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1a43bbe8cb9f207115aca9f60ff07ba132" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::updateRoot_</definition>
+        <argsstring>(I a)</argsstring>
+        <name>updateRoot_</name>
+        <qualifiedname>MR::UnionFind::updateRoot_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>find the root of given element, and set it as parent for it and other parents </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="128" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind_1abcac94e459f2fffa4c01f3e406bf184f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::UnionFind&lt; I &gt;::updateRootInRange_</definition>
+        <argsstring>(I a, const I r, I begin, I end)</argsstring>
+        <name>updateRootInRange_</name>
+        <qualifiedname>MR::UnionFind::updateRootInRange_</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>sets new root </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for the element</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>and all its ancestors if they are in the range [begin, end) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>update parents</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" line="131" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="131" bodyend="147"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. FaceId </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="624" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="20" bodyend="154"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UnionFind_1a26e79fd903c0229dbd2f66a80549c75b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>find</name></member>
+      <member refid="classMR_1_1UnionFind_1a6999428ebe2645b250dfe6cf51038735" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>findRootNoUpdate_</name></member>
+      <member refid="classMR_1_1UnionFind_1abf32e7c70e8d67a82d759ad44a5b08c1" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>findUpdateRange</name></member>
+      <member refid="classMR_1_1UnionFind_1a785b1dcdaf9a761a91a1331bfda21900" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>isRoot</name></member>
+      <member refid="classMR_1_1UnionFind_1aa982a275fa599ec51d07ad997c3902d3" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parent</name></member>
+      <member refid="classMR_1_1UnionFind_1addfb36167fbd876c96379b175c755a5b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents</name></member>
+      <member refid="classMR_1_1UnionFind_1a1b2c81b705c8244a87ae8287f87139d7" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents_</name></member>
+      <member refid="classMR_1_1UnionFind_1a6a74089f75f3b88edf1a6fb0beba1e13" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>reset</name></member>
+      <member refid="classMR_1_1UnionFind_1a5b1ee758f69d77277361f8cbe1e0d77e" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>roots</name></member>
+      <member refid="classMR_1_1UnionFind_1ab0d01d793fad21820791310d7318235e" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>size</name></member>
+      <member refid="classMR_1_1UnionFind_1a009ad612aecca5afb9b91768536c406f" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>sizeOfComp</name></member>
+      <member refid="classMR_1_1UnionFind_1a7cde5d5801abded20752408ce29b27fc" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>sizes_</name></member>
+      <member refid="classMR_1_1UnionFind_1ad07cce64defb1fcef686551aecfd55d0" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>SizeType</name></member>
+      <member refid="classMR_1_1UnionFind_1a67ccf008e0816480dca10b19c530a7b1" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
+      <member refid="classMR_1_1UnionFind_1a661398df57a710beae6f4b7c19ac3006" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
+      <member refid="classMR_1_1UnionFind_1a0739ab9258f8fc25ef45ce06106fffce" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>unite</name></member>
+      <member refid="classMR_1_1UnionFind_1aa570cc6f33bbb51fb5859608b9c68fbc" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>united</name></member>
+      <member refid="classMR_1_1UnionFind_1a797743a9600c69d6615d32c970c89f96" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
+      <member refid="classMR_1_1UnionFind_1a43bbe8cb9f207115aca9f60ff07ba132" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
+      <member refid="classMR_1_1UnionFind_1abcac94e459f2fffa4c01f3e406bf184f" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRootInRange_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

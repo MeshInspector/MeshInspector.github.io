@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Matrix3i64" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Matrix3i64</compoundname>
+    <includes refid="MRMatrix3_8h" local="no">MRMatrix3.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Matrix3i64_1a80d5fa8422f97c8078f3cef1aef1b6f1" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref></type>
+        <definition>MR_Vector3i64 MR_Matrix3i64::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR_Matrix3i64::x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="56" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Matrix3i64_1acda23cf4996d5db525e584b51c3e7c99" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref></type>
+        <definition>MR_Vector3i64 MR_Matrix3i64::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR_Matrix3i64::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="57" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Matrix3i64_1ad8cc37c9fc5ee3d20affbd56eebe3aa8" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref></type>
+        <definition>MR_Vector3i64 MR_Matrix3i64::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR_Matrix3i64::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="58" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>arbitrary 3x3 matrix Generated from class <computeroutput>MR::Matrix3i64</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR_Matrix3i64</label>
+        <link refid="structMR__Matrix3i64"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+          <edgelabel>z</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR_Vector3i64</label>
+        <link refid="structMR__Vector3i64"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="54" bodyend="59"/>
+    <listofallmembers>
+      <member refid="structMR__Matrix3i64_1a80d5fa8422f97c8078f3cef1aef1b6f1" prot="public" virt="non-virtual"><scope>MR_Matrix3i64</scope><name>x</name></member>
+      <member refid="structMR__Matrix3i64_1acda23cf4996d5db525e584b51c3e7c99" prot="public" virt="non-virtual"><scope>MR_Matrix3i64</scope><name>y</name></member>
+      <member refid="structMR__Matrix3i64_1ad8cc37c9fc5ee3d20affbd56eebe3aa8" prot="public" virt="non-virtual"><scope>MR_Matrix3i64</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Tgt2SrcMaps" kind="class" language="C++" prot="public">
+    <compoundname>MR::Tgt2SrcMaps</compoundname>
+    <includes refid="MRPartMappingAdapters_8h" local="no">MRPartMappingAdapters.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1a9d1aa77a4d94484528e724c1559cc9b7" prot="private" static="no" mutable="no">
+        <type>FaceMap *</type>
+        <definition>FaceMap* MR::Tgt2SrcMaps::outFmap_</definition>
+        <argsstring></argsstring>
+        <name>outFmap_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::outFmap_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="40" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1a2db6e54b7e0811eab2f6e7705de2c2eb" prot="private" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::Tgt2SrcMaps::outVmap_</definition>
+        <argsstring></argsstring>
+        <name>outVmap_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::outVmap_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="41" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1a6ce995cdfe728b9feb528f96667f7f58" prot="private" static="no" mutable="no">
+        <type>WholeEdgeMap *</type>
+        <definition>WholeEdgeMap* MR::Tgt2SrcMaps::outEmap_</definition>
+        <argsstring></argsstring>
+        <name>outEmap_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::outEmap_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="42" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1a5dcc6532f4ca3394a1a2a5e9c50682b0" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+        <definition>PartMapping MR::Tgt2SrcMaps::map_</definition>
+        <argsstring></argsstring>
+        <name>map_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::map_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1a4470dd9fa15bf6617facc05bb46c6cb0" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref></type>
+        <definition>FaceMapOrHashMap MR::Tgt2SrcMaps::tgt2srcFaces_</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcFaces_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::tgt2srcFaces_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="44" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1aab854f5443c1add5ddedcc2e5941f070" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref></type>
+        <definition>VertMapOrHashMap MR::Tgt2SrcMaps::tgt2srcVerts_</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcVerts_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::tgt2srcVerts_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="45" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Tgt2SrcMaps_1a26b2fe14ea09031aeeaac3c8ee0b1e9d" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref></type>
+        <definition>WholeEdgeMapOrHashMap MR::Tgt2SrcMaps::tgt2srcEdges_</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcEdges_</name>
+        <qualifiedname>MR::Tgt2SrcMaps::tgt2srcEdges_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="46" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Tgt2SrcMaps_1aa3682117ec9b9d0ef8ecb9b276b92eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::Tgt2SrcMaps::Tgt2SrcMaps</definition>
+        <argsstring>(FaceMap *outFmap, VertMap *outVmap, WholeEdgeMap *outEmap)</argsstring>
+        <name>Tgt2SrcMaps</name>
+        <qualifiedname>MR::Tgt2SrcMaps::Tgt2SrcMaps</qualifiedname>
+        <param>
+          <type>FaceMap *</type>
+          <declname>outFmap</declname>
+        </param>
+        <param>
+          <type>VertMap *</type>
+          <declname>outVmap</declname>
+        </param>
+        <param>
+          <type>WholeEdgeMap *</type>
+          <declname>outEmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="33" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Tgt2SrcMaps_1a14c3003ffc8403f5dea22328cb1eb28e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::Tgt2SrcMaps::~Tgt2SrcMaps</definition>
+        <argsstring>()</argsstring>
+        <name>~Tgt2SrcMaps</name>
+        <qualifiedname>MR::Tgt2SrcMaps::~Tgt2SrcMaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="34" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Tgt2SrcMaps_1a725d82739c07f928cd88750f4d3d6583" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Tgt2SrcMaps::operator const PartMapping &amp;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator const PartMapping &amp;</name>
+        <qualifiedname>MR::Tgt2SrcMaps::operator const PartMapping &amp;</qualifiedname>
+        <briefdescription>
+<para>maps are moved back to user here </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="36" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Tgt2SrcMaps_1a8266fef859ccf3d06f819a2681185063" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> &amp;</type>
+        <definition>const PartMapping &amp; MR::Tgt2SrcMaps::getPartMapping</definition>
+        <argsstring>() const</argsstring>
+        <name>getPartMapping</name>
+        <qualifiedname>MR::Tgt2SrcMaps::getPartMapping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="37" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>use this adapter to call functions expecting <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> parameter to receive tgt2src dense maps </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="31" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a8266fef859ccf3d06f819a2681185063" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>getPartMapping</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a5dcc6532f4ca3394a1a2a5e9c50682b0" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>map_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a725d82739c07f928cd88750f4d3d6583" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>operator const PartMapping &amp;</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a6ce995cdfe728b9feb528f96667f7f58" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outEmap_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a9d1aa77a4d94484528e724c1559cc9b7" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outFmap_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a2db6e54b7e0811eab2f6e7705de2c2eb" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outVmap_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a26b2fe14ea09031aeeaac3c8ee0b1e9d" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcEdges_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a4470dd9fa15bf6617facc05bb46c6cb0" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcFaces_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1aa3682117ec9b9d0ef8ecb9b276b92eb9" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1aab854f5443c1add5ddedcc2e5941f070" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcVerts_</name></member>
+      <member refid="classMR_1_1Tgt2SrcMaps_1a14c3003ffc8403f5dea22328cb1eb28e" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>~Tgt2SrcMaps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

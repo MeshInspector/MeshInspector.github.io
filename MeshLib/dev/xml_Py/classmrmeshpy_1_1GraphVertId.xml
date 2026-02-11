@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GraphVertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GraphVertId</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__GraphVertId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_GraphVertId</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GraphVertId_1a1736a6d76713b52ef16d52422210fe31" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GraphVertId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22314" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphVertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22317" bodyend="22318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphVertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22321" bodyend="22322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a1624d77b05c850643eee06a67f5fc032" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22325" bodyend="22326"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a1624d77b05c850643eee06a67f5fc032" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22329" bodyend="22330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a1624d77b05c850643eee06a67f5fc032" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22333" bodyend="22334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a6323a05d9fd7830b679373e6f13b8391" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.operatorminusminus</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operatorminusminus</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operatorminusminus</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22337" bodyend="22338"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a1e7bb67e8acf0f3b9bca76c7a5b00e55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphVertId.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22339" bodyend="22340"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a3fa80cacd4937c7fd1a7d69593ff2a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphVertId.__eq__</definition>
+        <argsstring>(self, GraphVertId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22341" bodyend="22342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a81e2cbf42d7d460133126b4c4d528d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.__iadd__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22343" bodyend="22344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a71edc5cace2f3c96c7525c4956cd3a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphVertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22346" bodyend="22347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1ad402445566d3a8e388517d42ac05b96f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphVertId.__init__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Allow constructing from `int` and other integral types.
+This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
+  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
+We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
+  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
+  but `UndirectedEdgeId x(EdgeId{});` doesn&apos;t. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don&apos;t think it affects anything else.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22349" bodyend="22358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a37b695a95c23a7e046a79c45a452dbbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphVertId.__init__</definition>
+        <argsstring>(self, GraphVertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22360" bodyend="22363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1abbc7e8e6e96e21375e0f8b487092e0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GraphVertId.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22364" bodyend="22365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a4464c8737528545111cf96e1712c5ac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.__isub__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22366" bodyend="22367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1aa873bc596181fb6687065c7c356193d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphVertId.__ne__</definition>
+        <argsstring>(self, GraphVertId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22368" bodyend="22369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a48aa6e23efff07cdd74240da0cbb5676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GraphVertId.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.GraphVertId.__repr__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a1108e3ec531b7d90d82f03b9ffd2b78b">__repr__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22370" bodyend="22371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a6813b5171d45532069c99f9bf6c99832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GraphVertId.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.GraphVertId.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22372" bodyend="22373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1aea5723ff8b7043b06ba0720f86cf7bac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphVertId.operator</definition>
+        <argsstring>(self, GraphVertId b)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22375" bodyend="22376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1aa976c95a040c2ef8ae98f20c5542a9b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.operator</definition>
+        <argsstring>(self)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e">operator</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22378" bodyend="22379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1a82a8c31ad0980e28bb183c8b00117480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.GraphVertId.operatorminusminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminusminus</name>
+        <qualifiedname>mrmeshpy.GraphVertId.operatorminusminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22381" bodyend="22382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertId_1adb1fbc8d900eb1256a7ceaf4c8cd62f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphVertId.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.GraphVertId.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22383" bodyend="22384"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GraphVertId
+Aliases:  Vector_GraphVertId_GraphVertId.reference, Vector_GraphVertId_GraphVertId.value_type, TypedBitSet_GraphVertId_IndexType, Graph.VertId, Vector_GraphVertId_GraphVertId.const_reference
+
+stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.GraphVertId</label>
+        <link refid="classmrmeshpy_1_1GraphVertId"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.NoDefInit_GraphVertId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__GraphVertId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22307" bodyend="22384"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a1e7bb67e8acf0f3b9bca76c7a5b00e55" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a3fa80cacd4937c7fd1a7d69593ff2a1e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a1736a6d76713b52ef16d52422210fe31" prot="private" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a81e2cbf42d7d460133126b4c4d528d0a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a71edc5cace2f3c96c7525c4956cd3a02" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1ad402445566d3a8e388517d42ac05b96f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a37b695a95c23a7e046a79c45a452dbbc" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1abbc7e8e6e96e21375e0f8b487092e0f2" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a4464c8737528545111cf96e1712c5ac9" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1aa873bc596181fb6687065c7c356193d8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a48aa6e23efff07cdd74240da0cbb5676" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a6813b5171d45532069c99f9bf6c99832" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a1624d77b05c850643eee06a67f5fc032" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a1624d77b05c850643eee06a67f5fc032" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a1624d77b05c850643eee06a67f5fc032" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1aea5723ff8b7043b06ba0720f86cf7bac" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1aa976c95a040c2ef8ae98f20c5542a9b1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a6323a05d9fd7830b679373e6f13b8391" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a82a8c31ad0980e28bb183c8b00117480" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1adb1fbc8d900eb1256a7ceaf4c8cd62f9" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

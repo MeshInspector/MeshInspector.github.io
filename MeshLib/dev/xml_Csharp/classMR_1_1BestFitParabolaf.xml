@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BestFitParabolaf" kind="class" language="C#" prot="public">
+    <compoundname>MR::BestFitParabolaf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BestFitParabolaf</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1a5ae486dd7f5cf5a2b6815e88dd3aedbb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BestFitParabolaf.BestFitParabolaf</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BestFitParabolaf</name>
+        <qualifiedname>MR.BestFitParabolaf.BestFitParabolaf</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="75" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1ad7f9cd5d7c6753d9d61fa1125346ffeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BestFitParabolaf.BestFitParabolaf</definition>
+        <argsstring>()</argsstring>
+        <name>BestFitParabolaf</name>
+        <qualifiedname>MR.BestFitParabolaf.BestFitParabolaf</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1a790634ba65314c304caed6b4600fc7da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BestFitParabolaf.BestFitParabolaf</definition>
+        <argsstring>(MR.Const_BestFitParabolaf _other)</argsstring>
+        <name>BestFitParabolaf</name>
+        <qualifiedname>MR.BestFitParabolaf.BestFitParabolaf</qualifiedname>
+        <param>
+          <type>MR.Const_BestFitParabolaf</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BestFitParabolaf.BestFitParabolaf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1a656de04d25835d400371d7961e9e005f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BestFitParabolaf.BestFitParabolaf</definition>
+        <argsstring>(BestFitParabolaf _other)</argsstring>
+        <name>BestFitParabolaf</name>
+        <qualifiedname>MR.BestFitParabolaf.BestFitParabolaf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BestFitParabolaf" kindref="compound">BestFitParabolaf</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BestFitParabolaf.BestFitParabolaf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1a36edccb2a1f1cabc500bd3bcabc10848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BestFitParabolaf" kindref="compound">MR.BestFitParabolaf</ref></type>
+        <definition>unsafe MR.BestFitParabolaf MR.BestFitParabolaf.assign</definition>
+        <argsstring>(MR.Const_BestFitParabolaf _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BestFitParabolaf.assign</qualifiedname>
+        <param>
+          <type>MR.Const_BestFitParabolaf</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BestFitParabolaf.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="106" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1afbcaca824ae91bcfbcd43b02ab8db432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.BestFitParabolaf.addPoint</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.BestFitParabolaf.addPoint</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>accumulates one more point for parabola fitting Generated from method <computeroutput><ref refid="classMR_1_1BestFitParabolaf_1afbcaca824ae91bcfbcd43b02ab8db432" kindref="member">MR.BestFitParabolaf.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="119" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitParabolaf_1adf33dc76211e05f2a3c914beaaa96b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.BestFitParabolaf.addPoint</definition>
+        <argsstring>(float x, float y, float weight)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.BestFitParabolaf.addPoint</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>accumulates one more point with given weight for parabola fitting Generated from method <computeroutput><ref refid="classMR_1_1BestFitParabolaf_1afbcaca824ae91bcfbcd43b02ab8db432" kindref="member">MR.BestFitParabolaf.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="130" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="130" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>accumulates a number of (x,y) points to find the best-least-squares parabola approximating them Generated from class <computeroutput><ref refid="classMR_1_1BestFitParabolaf" kindref="compound">MR.BestFitParabolaf</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BestFitParabolaf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BestFitParabolaf</label>
+        <link refid="classMR_1_1BestFitParabolaf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BestFitParabolaf &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BestFitParabolaf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BestFitParabolaf</label>
+        <link refid="classMR_1_1BestFitParabolaf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BestFitParabolaf &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitParabola.cs" bodystart="74" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BestFitParabolaf_1afbcaca824ae91bcfbcd43b02ab8db432" prot="public" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1BestFitParabolaf_1adf33dc76211e05f2a3c914beaaa96b32" prot="public" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1BestFitParabolaf_1a36edccb2a1f1cabc500bd3bcabc10848" prot="public" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>assign</name></member>
+      <member refid="classMR_1_1BestFitParabolaf_1a5ae486dd7f5cf5a2b6815e88dd3aedbb" prot="package" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>BestFitParabolaf</name></member>
+      <member refid="classMR_1_1BestFitParabolaf_1ad7f9cd5d7c6753d9d61fa1125346ffeb" prot="public" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>BestFitParabolaf</name></member>
+      <member refid="classMR_1_1BestFitParabolaf_1a790634ba65314c304caed6b4600fc7da" prot="public" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>BestFitParabolaf</name></member>
+      <member refid="classMR_1_1BestFitParabolaf_1a656de04d25835d400371d7961e9e005f" prot="public" virt="non-virtual"><scope>MR::BestFitParabolaf</scope><name>BestFitParabolaf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

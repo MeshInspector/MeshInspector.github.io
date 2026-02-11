@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewerSetup_1_1LoadedModule" kind="struct" language="C++" prot="private">
+    <compoundname>MR::ViewerSetup::LoadedModule</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ViewerSetup_1_1LoadedModule_1a35513ae94fe050c531007ff11ed80236" prot="public" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::ViewerSetup::LoadedModule::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <qualifiedname>MR::ViewerSetup::LoadedModule::filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="56" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="54" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="55" bodyend="62"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ViewerSetup_1_1LoadedModule_1a35513ae94fe050c531007ff11ed80236" prot="public" virt="non-virtual"><scope>MR::ViewerSetup::LoadedModule</scope><name>filename</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

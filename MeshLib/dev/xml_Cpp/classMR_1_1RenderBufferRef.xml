@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderBufferRef" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderBufferRef</compoundname>
+    <includes refid="MRRenderHelpers_8h" local="no">MRRenderHelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderBufferRef_1acb3fe9475e447c6066baf1d90e3e65f0" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* MR::RenderBufferRef&lt; T &gt;::data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>MR::RenderBufferRef::data_</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="57" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderBufferRef_1a3500a41c6639f20f7392403f7e53b555" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::RenderBufferRef&lt; T &gt;::glSize_</definition>
+        <argsstring></argsstring>
+        <name>glSize_</name>
+        <qualifiedname>MR::RenderBufferRef::glSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="58" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderBufferRef_1a353a5e6c8ff738829be1d24a11b68e98" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderBufferRef&lt; T &gt;::dirty_</definition>
+        <argsstring></argsstring>
+        <name>dirty_</name>
+        <qualifiedname>MR::RenderBufferRef::dirty_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="59" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1a9e1c48f420c1514b02967cc0d7ef9331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderBufferRef&lt; T &gt;::RenderBufferRef</definition>
+        <argsstring>()=default</argsstring>
+        <name>RenderBufferRef</name>
+        <qualifiedname>MR::RenderBufferRef::RenderBufferRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="18" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1a9ef74c7c5c8784c3ba97c00757557b9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderBufferRef&lt; T &gt;::RenderBufferRef</definition>
+        <argsstring>(T *data, std::size_t glSize, bool dirty)</argsstring>
+        <name>RenderBufferRef</name>
+        <qualifiedname>MR::RenderBufferRef::RenderBufferRef</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>glSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dirty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="20" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1afd6a6d54cfc1f72dc7ecca75f9897146" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::RenderBufferRef&lt; T &gt;::operator[]</definition>
+        <argsstring>(std::size_t i) const noexcept</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::RenderBufferRef::operator[]</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>returns reference to i-th element </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="30" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1a83514f8c96c2dd11af082fa0aac85927" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * MR::RenderBufferRef&lt; T &gt;::data</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>data</name>
+        <qualifiedname>MR::RenderBufferRef::data</qualifiedname>
+        <briefdescription>
+<para>returns pointer to buffer data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="36" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1a7a999ec2f9bcbbe78e53db8df8a5adc1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::RenderBufferRef&lt; T &gt;::size</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::RenderBufferRef::size</qualifiedname>
+        <briefdescription>
+<para>returns actual buffer size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="41" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1acebacbff1abf583d126240b1b7ccf6ea" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::RenderBufferRef&lt; T &gt;::glSize</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>glSize</name>
+        <qualifiedname>MR::RenderBufferRef::glSize</qualifiedname>
+        <briefdescription>
+<para>returns number of elements that are about to be loaded or already loaded to GL memory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="46" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderBufferRef_1af2f9934c38612f16da90a865122e6119" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RenderBufferRef&lt; T &gt;::dirty</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>dirty</name>
+        <qualifiedname>MR::RenderBufferRef::dirty</qualifiedname>
+        <briefdescription>
+<para>returns true if associated data were updated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="51" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>provides access to shared buffer with type casting </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="16" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderBufferRef_1a83514f8c96c2dd11af082fa0aac85927" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>data</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1acb3fe9475e447c6066baf1d90e3e65f0" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>data_</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1af2f9934c38612f16da90a865122e6119" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>dirty</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1a353a5e6c8ff738829be1d24a11b68e98" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>dirty_</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1acebacbff1abf583d126240b1b7ccf6ea" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>glSize</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1a3500a41c6639f20f7392403f7e53b555" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>glSize_</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1afd6a6d54cfc1f72dc7ecca75f9897146" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>operator[]</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1a9e1c48f420c1514b02967cc0d7ef9331" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>RenderBufferRef</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1a9ef74c7c5c8784c3ba97c00757557b9f" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>RenderBufferRef</name></member>
+      <member refid="classMR_1_1RenderBufferRef_1a7a999ec2f9bcbbe78e53db8df8a5adc1" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

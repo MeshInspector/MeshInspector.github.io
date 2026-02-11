@@ -1,0 +1,1275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ab1d6b7a8c44458c400ce8ef751b464d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69941" bodyend="69942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1aaaa9e8063bf445273af1e2dbe276c701" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.VertBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69944" bodyend="69947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69950" bodyend="69951"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69954" bodyend="69955"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1aa5af83d2653845ae064d1435c7d8480e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__and__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69956" bodyend="69957"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a90d8fc6df47156026f4605757f37cc5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertBitSet.__eq__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__eq__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97">__eq__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69958" bodyend="69959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a963265eb5ca4824e14573ba8ec3c222c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__iand__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69960" bodyend="69961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ac5300e210459d3297c77078cc8012cde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69963" bodyend="69964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a5e9ea2c23391ffc6d8610617d50f16e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69966" bodyend="69969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69971" bodyend="69974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69976" bodyend="69979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a09325d1f8440d6a37d104ec90e76417f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.__init__</definition>
+        <argsstring>(self, VertBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69981" bodyend="69984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1aaa02955649899351574bdb711f8a1d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__ior__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69985" bodyend="69986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a66b0e7fd33a06a866dd8255fe91c2d04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__isub__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69987" bodyend="69988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a6754140522b9c6757067c0ae5f9417e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>]</type>
+        <definition> typing.Iterator[VertId] mrmeshpy.VertBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69989" bodyend="69990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a9a8634a40088c704704ad95aad3d30cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__ixor__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69991" bodyend="69992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a9efeed7746912f8eefde3651b2b84ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__or__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69993" bodyend="69994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1aa258db5bc3b9034510a9ec6078c3f579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69995" bodyend="69996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a1f0f881ea4e3f3b24bf41c8f332821b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__sub__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69997" bodyend="69998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ae8b54bdad9527607a3c845367a841f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.__xor__</definition>
+        <argsstring>(self, VertBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.VertBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69999" bodyend="70000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a9573ba046dc518f718dc54cdfe3a7ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.autoResizeSet</definition>
+        <argsstring>(self, VertId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.VertBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70002" bodyend="70003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1abdb9b4c9bf9d6feab7218dbd6c90cca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBitSet.autoResizeSet</definition>
+        <argsstring>(self, VertId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.VertBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70005" bodyend="70006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a895c899ff819d3345c29c696ffe7f0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, VertId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.VertBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70007" bodyend="70008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a51196eeaa539cf37011f5a70f5cb705c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.VertBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70009" bodyend="70012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a65e01f79d16a5b3a2d0a430bfffc4c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.VertBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70013" bodyend="70014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ae218e1d2f65809cf30f2c5e4e82c974f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.VertBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70015" bodyend="70016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a671d974e3917cbd35d21d166c5ef3a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.VertBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70017" bodyend="70018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1acdf8c8b798c4ca1df71ddf3ef059f89c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.find_next</definition>
+        <argsstring>(self, VertId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.VertBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70019" bodyend="70020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a4bb0eab5cb1e5e2a32a9369f785269a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.flip</definition>
+        <argsstring>(self, VertId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.VertBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70022" bodyend="70023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a923b94b589af8fed85512bd7f69d30f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.flip</definition>
+        <argsstring>(self, VertId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.VertBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70025" bodyend="70026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a1451203822d962e43430fcb158262ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.VertBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70028" bodyend="70029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a37f41cbcfb20d51c5e7d62fc48863620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
+        <argsstring>(self, VertMap map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70031" bodyend="70032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a928e80730c3c91bfc5fa63d712b00067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
+        <argsstring>(self, VertBMap map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBMap" kindref="compound">VertBMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70034" bodyend="70035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a6fbf25408f9a3ab6d9ace0759d5d8c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70037" bodyend="70038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a0dd6727dddb55c9c3e0ff75e94165d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
+        <argsstring>(self, VertMap map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70040" bodyend="70041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ab72b94e7c26240ed7ed6036513b35a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70043" bodyend="70044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a72aaf506df1eb81e3ed3d5d901ee5735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertBitSet.intersects</definition>
+        <argsstring>(self, VertBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.VertBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70045" bodyend="70048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a38bc9eaf27d3493ec525b62f183f85a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertBitSet.is_subset_of</definition>
+        <argsstring>(self, VertBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.VertBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70049" bodyend="70052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1adbc7b69bb5c18786e77b0b9af8458292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.VertBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70053" bodyend="70056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1adfe3e9304b4feef7ae6f93b2e1ab939f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.reset</definition>
+        <argsstring>(self, VertId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VertBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70058" bodyend="70059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a5b0f3a3ab5bdc55b7a90ee733759d738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.reset</definition>
+        <argsstring>(self, VertId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VertBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70061" bodyend="70062"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1afbd9917feba520645d641149b016dd4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VertBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70064" bodyend="70065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ab7a546fa721a02a5f681cb423c6dce46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.set</definition>
+        <argsstring>(self, VertId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VertBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70067" bodyend="70068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1acace22a4d842126f30b3ca89aac21f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.set</definition>
+        <argsstring>(self, VertId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VertBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70070" bodyend="70071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a51615def0c1275a0b4d21c07814da964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.set</definition>
+        <argsstring>(self, VertId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VertBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70073" bodyend="70074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a60571d01e01503f5174f0db9169a6e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.VertBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70076" bodyend="70077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a3652e64411b74768b888e13563fff46c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.VertBitSet.subtract</definition>
+        <argsstring>(self, VertBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.VertBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70078" bodyend="70081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ae8808edaa025987527112d525ce4857c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertBitSet.test</definition>
+        <argsstring>(self, VertId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.VertBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70082" bodyend="70083"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a3d0f63e972577eb1589e92bc88bc42b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertBitSet.test_set</definition>
+        <argsstring>(self, VertId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.VertBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70084" bodyend="70085"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VertBitSet
+Aliases:  Vector_VertBitSet_ObjId.value_type, ColorMapAggregator_VertTag_ElementBitSet, Vector_VertBitSet_ObjId.reference, Vector_VertBitSet_ObjId.const_reference
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.VertBitSet</label>
+        <link refid="classmrmeshpy_1_1VertBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VertBitSet</label>
+        <link refid="classmrmeshpy_1_1VertBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69931" bodyend="70085"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertBitSet_1aa5af83d2653845ae064d1435c7d8480e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a90d8fc6df47156026f4605757f37cc5d" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a963265eb5ca4824e14573ba8ec3c222c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ab1d6b7a8c44458c400ce8ef751b464d3" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ac5300e210459d3297c77078cc8012cde" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a5e9ea2c23391ffc6d8610617d50f16e2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a09325d1f8440d6a37d104ec90e76417f" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1aaa02955649899351574bdb711f8a1d3a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a66b0e7fd33a06a866dd8255fe91c2d04" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a6754140522b9c6757067c0ae5f9417e4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a9a8634a40088c704704ad95aad3d30cb" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a9efeed7746912f8eefde3651b2b84ced" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1aa258db5bc3b9034510a9ec6078c3f579" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a1f0f881ea4e3f3b24bf41c8f332821b6" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ae8b54bdad9527607a3c845367a841f82" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a9573ba046dc518f718dc54cdfe3a7ddb" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1abdb9b4c9bf9d6feab7218dbd6c90cca2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a895c899ff819d3345c29c696ffe7f0f6" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a51196eeaa539cf37011f5a70f5cb705c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1aaaa9e8063bf445273af1e2dbe276c701" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a65e01f79d16a5b3a2d0a430bfffc4c26" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ae218e1d2f65809cf30f2c5e4e82c974f" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a671d974e3917cbd35d21d166c5ef3a41" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1acdf8c8b798c4ca1df71ddf3ef059f89c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a4bb0eab5cb1e5e2a32a9369f785269a1" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a923b94b589af8fed85512bd7f69d30f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a1451203822d962e43430fcb158262ffc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a37f41cbcfb20d51c5e7d62fc48863620" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a928e80730c3c91bfc5fa63d712b00067" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a6fbf25408f9a3ab6d9ace0759d5d8c46" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a0dd6727dddb55c9c3e0ff75e94165d55" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ab72b94e7c26240ed7ed6036513b35a2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a72aaf506df1eb81e3ed3d5d901ee5735" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a38bc9eaf27d3493ec525b62f183f85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1adbc7b69bb5c18786e77b0b9af8458292" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1adfe3e9304b4feef7ae6f93b2e1ab939f" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a5b0f3a3ab5bdc55b7a90ee733759d738" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1afbd9917feba520645d641149b016dd4b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ab7a546fa721a02a5f681cb423c6dce46" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1acace22a4d842126f30b3ca89aac21f33" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a51615def0c1275a0b4d21c07814da964" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a60571d01e01503f5174f0db9169a6e31" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a3652e64411b74768b888e13563fff46c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ae8808edaa025987527112d525ce4857c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a3d0f63e972577eb1589e92bc88bc42b8" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

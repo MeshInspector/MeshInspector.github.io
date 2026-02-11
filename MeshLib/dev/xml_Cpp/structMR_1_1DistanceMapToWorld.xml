@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DistanceMapToWorld" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DistanceMapToWorld</compoundname>
+    <includes refid="MRDistanceMapParams_8h" local="no">MRDistanceMapParams.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DistanceMapToWorld_1a32e6a45804b42ebcebd70500b984bc2a" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DistanceMapToWorld::orgPoint</definition>
+        <argsstring></argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>MR::DistanceMapToWorld::orgPoint</qualifiedname>
+        <briefdescription>
+<para>world coordinates of distance map origin corner </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="173" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceMapToWorld_1a5ff6040f3379ccf4fa8afcb7d12a0d5c" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DistanceMapToWorld::pixelXVec</definition>
+        <argsstring></argsstring>
+        <name>pixelXVec</name>
+        <qualifiedname>MR::DistanceMapToWorld::pixelXVec</qualifiedname>
+        <initializer>{ Vector3f::plusX() }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>vector in world space of pixel x positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelYVec</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="177" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceMapToWorld_1ac20206aa1ac29437ea53266ea70723dc" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DistanceMapToWorld::pixelYVec</definition>
+        <argsstring></argsstring>
+        <name>pixelYVec</name>
+        <qualifiedname>MR::DistanceMapToWorld::pixelYVec</qualifiedname>
+        <initializer>{ Vector3f::plusY() }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>vector in world space of pixel y positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelXVec</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="181" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceMapToWorld_1a866ac1e7f146d2a868527a502d376c74" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DistanceMapToWorld::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>MR::DistanceMapToWorld::direction</qualifiedname>
+        <initializer>{ Vector3f::plusZ() }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>vector of depth direction <simplesect kind="note"><para>typically it should be normalized and orthogonal to <computeroutput>pixelXVec</computeroutput> <computeroutput>pixelYVec</computeroutput> plane </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="184" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="184" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a118712037e7a77efe4bad0bf7ee6d591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::DistanceMapToWorld::DistanceMapToWorld</definition>
+        <argsstring>()=default</argsstring>
+        <name>DistanceMapToWorld</name>
+        <qualifiedname>MR::DistanceMapToWorld::DistanceMapToWorld</qualifiedname>
+        <briefdescription>
+<para>Default ctor init all fields with zeros, make sure to fill them manually. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="138" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DistanceMapToWorld::DistanceMapToWorld</definition>
+        <argsstring>(const MeshToDistanceMapParams &amp;params)</argsstring>
+        <name>DistanceMapToWorld</name>
+        <qualifiedname>MR::DistanceMapToWorld::DistanceMapToWorld</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Init fields by <computeroutput><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></computeroutput> struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="141" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::DistanceMapToWorld::DistanceMapToWorld</definition>
+        <argsstring>(const ContourToDistanceMapParams &amp;params)</argsstring>
+        <name>DistanceMapToWorld</name>
+        <qualifiedname>MR::DistanceMapToWorld::DistanceMapToWorld</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Init fields by <computeroutput><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></computeroutput> struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="144" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a58ecb87a75e584402ddd3420513d89df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::DistanceMapToWorld::DistanceMapToWorld</definition>
+        <argsstring>(const AffineXf3f &amp;xf)</argsstring>
+        <name>DistanceMapToWorld</name>
+        <qualifiedname>MR::DistanceMapToWorld::DistanceMapToWorld</qualifiedname>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>Converts from AffineXf3f. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="147" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a92e916455b2d6b276605af3bca683742" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::DistanceMapToWorld::toWorld</definition>
+        <argsstring>(float x, float y, float depth) const</argsstring>
+        <name>toWorld</name>
+        <qualifiedname>MR::DistanceMapToWorld::toWorld</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get world coordinate by depth map info x - float X coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1) y - float Y coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1) float depth value (value in distance map, represent depth in world) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="160" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a74d96fa90a47e012874bf6708e586545" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::DistanceMapToWorld::operator AffineXf3f</definition>
+        <argsstring>() const</argsstring>
+        <name>operator AffineXf3f</name>
+        <qualifiedname>MR::DistanceMapToWorld::operator AffineXf3f</qualifiedname>
+        <briefdescription>
+<para>converts in transformation X: <ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X(p)</ref> == toWorld( p.x, p.y, p.z ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="166" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a0360bc9aa1c6d3b0fbb427a31737d45e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::DistanceMapToWorld::xf</definition>
+        <argsstring>() const</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::DistanceMapToWorld::xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="170" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="170" bodyend="170"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This structure store data to transform distance map to world coordinates. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="136" bodyend="185"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DistanceMapToWorld_1a866ac1e7f146d2a868527a502d376c74" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>direction</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a118712037e7a77efe4bad0bf7ee6d591" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a58ecb87a75e584402ddd3420513d89df" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a74d96fa90a47e012874bf6708e586545" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator AffineXf3f</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a32e6a45804b42ebcebd70500b984bc2a" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>orgPoint</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a5ff6040f3379ccf4fa8afcb7d12a0d5c" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>pixelXVec</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1ac20206aa1ac29437ea53266ea70723dc" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>pixelYVec</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a92e916455b2d6b276605af3bca683742" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>toWorld</name></member>
+      <member refid="structMR_1_1DistanceMapToWorld_1a0360bc9aa1c6d3b0fbb427a31737d45e" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

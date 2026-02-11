@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FewSmallest__MRPointsProjectionResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::FewSmallest_MRPointsProjectionResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FewSmallest_MRPointsProjectionResult</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a128b5f32f49597c5230a172bde0cea45" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FewSmallest_MRPointsProjectionResult</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="155" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="155" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a833d3856af94cb66dfd101b6f6c30a66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>FewSmallest_MRPointsProjectionResult</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a006254d6bfd802bd084b351cb9c75726" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</definition>
+        <argsstring>(MR._ByValue_FewSmallest_MRPointsProjectionResult _other)</argsstring>
+        <name>FewSmallest_MRPointsProjectionResult</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
+        <param>
+          <type>MR._ByValue_FewSmallest_MRPointsProjectionResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::FewSmallest</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="170" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a17645e539761a6f83ec76f2fd277479d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</definition>
+        <argsstring>(Const_FewSmallest_MRPointsProjectionResult _other)</argsstring>
+        <name>FewSmallest_MRPointsProjectionResult</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
+        <param>
+          <type>Const_FewSmallest_MRPointsProjectionResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::FewSmallest</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="181" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a15869337685e9891dba2e64ef4ccc33c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</definition>
+        <argsstring>(FewSmallest_MRPointsProjectionResult _other)</argsstring>
+        <name>FewSmallest_MRPointsProjectionResult</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FewSmallest__MRPointsProjectionResult" kindref="compound">FewSmallest_MRPointsProjectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::FewSmallest</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="186" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a6061e0a60693c44da1bdbbb0258de4a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</definition>
+        <argsstring>(ulong maxElms)</argsstring>
+        <name>FewSmallest_MRPointsProjectionResult</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>maxElms</declname>
+        </param>
+        <briefdescription>
+<para>configure the object to store at most given number of elements Generated from constructor <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::FewSmallest</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="192" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a95e0e62ce78763b764c06117e0f9e802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FewSmallest__MRPointsProjectionResult" kindref="compound">MR.FewSmallest_MRPointsProjectionResult</ref></type>
+        <definition>unsafe MR.FewSmallest_MRPointsProjectionResult MR.FewSmallest_MRPointsProjectionResult.assign</definition>
+        <argsstring>(MR._ByValue_FewSmallest_MRPointsProjectionResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FewSmallest_MRPointsProjectionResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="202" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="202" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a96414153dbd63137f8c644077f045ad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FewSmallest_MRPointsProjectionResult.reset</definition>
+        <argsstring>(ulong maxElms)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.reset</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>maxElms</declname>
+        </param>
+        <briefdescription>
+<para>clears the content and reconfigure the object to store at most given number of elements Generated from method <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::reset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="215" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="215" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1abb8a5b7b216680dd1041777c54718b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FewSmallest_MRPointsProjectionResult.push</definition>
+        <argsstring>(MR.Const_PointsProjectionResult t)</argsstring>
+        <name>push</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.push</qualifiedname>
+        <param>
+          <type>MR.Const_PointsProjectionResult</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>considers one more element, storing it if it is within the smallest Generated from method <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::push</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="226" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a42f9e24121eebfed83297a5cbbb93b26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FewSmallest_MRPointsProjectionResult.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.clear</qualifiedname>
+        <briefdescription>
+<para>removes all stored elements Generated from method <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="237" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="237" bodyend="242"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>the class stores some number of smallest elements from a larger number of candidates Generated from class <computeroutput>MR.FewSmallest&lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FewSmallest_MRPointsProjectionResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FewSmallest_MRPointsProjectionResult</label>
+        <link refid="classMR_1_1FewSmallest__MRPointsProjectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FewSmallest_MRPointsProjectionResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FewSmallest_MRPointsProjectionResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FewSmallest_MRPointsProjectionResult</label>
+        <link refid="classMR_1_1FewSmallest__MRPointsProjectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FewSmallest_MRPointsProjectionResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="153" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="154" bodyend="243"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a95e0e62ce78763b764c06117e0f9e802" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a42f9e24121eebfed83297a5cbbb93b26" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>clear</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a128b5f32f49597c5230a172bde0cea45" prot="package" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a833d3856af94cb66dfd101b6f6c30a66" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a006254d6bfd802bd084b351cb9c75726" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a17645e539761a6f83ec76f2fd277479d" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a15869337685e9891dba2e64ef4ccc33c" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a6061e0a60693c44da1bdbbb0258de4a2" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1abb8a5b7b216680dd1041777c54718b70" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>push</name></member>
+      <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a96414153dbd63137f8c644077f045ad0" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

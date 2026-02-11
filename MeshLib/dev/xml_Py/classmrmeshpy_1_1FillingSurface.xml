@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface</compoundname>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface" prot="public">mrmeshpy::FillingSurface::CellularSurface</innerclass>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1Kind" prot="public">mrmeshpy::FillingSurface::Kind</innerclass>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1TPMS" prot="public">mrmeshpy::FillingSurface::TPMS</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1a9c0bc533eecdd7ce66062a112bc10ff4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.FillingSurface::ConstMeshParamsRef</definition>
+        <argsstring></argsstring>
+        <name>ConstMeshParamsRef</name>
+        <qualifiedname>mrmeshpy.FillingSurface.ConstMeshParamsRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19876" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1a378e479e28df0b98c92bb631caf53281" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.FillingSurface::MeshParamsRef</definition>
+        <argsstring></argsstring>
+        <name>MeshParamsRef</name>
+        <qualifiedname>mrmeshpy.FillingSurface.MeshParamsRef</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__std__r5e01003d37e636c8789042e3eb6cd773" kindref="compound">std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_std_reference_wrapper_FillingSurface_CellularSurface_Params</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19877" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1aaf44b9735f29261e56e19f801e5779bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.FillingSurface.getKindNames</definition>
+        <argsstring>()</argsstring>
+        <name>getKindNames</name>
+        <qualifiedname>mrmeshpy.FillingSurface.getKindNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19879" bodyend="19880"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19482" bodyend="19880"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1a9c0bc533eecdd7ce66062a112bc10ff4" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface</scope><name>ConstMeshParamsRef</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1aaf44b9735f29261e56e19f801e5779bf" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface</scope><name>getKindNames</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1a378e479e28df0b98c92bb631caf53281" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface</scope><name>MeshParamsRef</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

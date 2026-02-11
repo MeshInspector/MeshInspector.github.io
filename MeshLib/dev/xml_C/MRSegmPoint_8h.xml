@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSegmPoint_8h" kind="file" language="C++">
+    <compoundname>MRSegmPoint.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRSegmPoint.h</label>
+        <link refid="MRSegmPoint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSegmPoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" prot="public" static="no">
+        <type>struct <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref></type>
+        <definition>typedef struct MR_SegmPointf MR_SegmPointf</definition>
+        <argsstring></argsstring>
+        <name>MR_SegmPointf</name>
+        <briefdescription>
+<para>encodes a point inside a line segment using relative distance in [0,1] Generated from class <computeroutput>MR::SegmPointf</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" prot="public" static="no">
+        <type>struct <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></type>
+        <definition>typedef struct MR_SegmPointd MR_SegmPointd</definition>
+        <argsstring></argsstring>
+        <name>MR_SegmPointd</name>
+        <briefdescription>
+<para>encodes a point inside a line segment using relative distance in [0,1] Generated from class <computeroutput>MR::SegmPointd</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SegmPointf_Get_eps</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SegmPointf_Get_eps</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SegmPointf</computeroutput> named <computeroutput>eps</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 Returns a pointer to a member variable of class <computeroutput>MR::SegmPointf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="25" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="25" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a026633425e2739ec558b8689fd20ba9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SegmPointf_Get_a</definition>
+        <argsstring>(const MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_Get_a</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 Modifies a member variable of class <computeroutput>MR::SegmPointf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="31" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="31" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a5df392e93245decf685001fb773aed3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SegmPointf_Set_a</definition>
+        <argsstring>(MR_SegmPointf *_this, float value)</argsstring>
+        <name>MR_SegmPointf_Set_a</name>
+        <param>
+          <type><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 Returns a mutable pointer to a member variable of class <computeroutput>MR::SegmPointf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="37" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1ac488e92a8808c38cb1649dd1b4db7ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SegmPointf_GetMutable_a</definition>
+        <argsstring>(MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_GetMutable_a</name>
+        <param>
+          <type><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="43" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="43" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1aa8abb9e4a8cdf4755b6ce592a605df32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SegmPointf_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" kindref="member">MR_SegmPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="47" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="47" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a694ed6dfac80f5127ed502e098663eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SegmPointf_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSegmPoint_8h_1af3b7e6d1eec2c390091dd25acc04c260" kindref="member">MR_SegmPointf_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSegmPoint_8h_1a5c94f46cbe2feb347a6a1f5a1f9ccac2" kindref="member">MR_SegmPointf_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSegmPoint_8h_1a4e60eda0dc4c526f10e9a8f6929922b7" kindref="member">MR_SegmPointf_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="52" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="52" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a4e60eda0dc4c526f10e9a8f6929922b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API const MR_SegmPointf * MR_SegmPointf_OffsetPtr</definition>
+        <argsstring>(const MR_SegmPointf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SegmPointf_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="56" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="56" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a5c94f46cbe2feb347a6a1f5a1f9ccac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_OffsetMutablePtr</definition>
+        <argsstring>(MR_SegmPointf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SegmPointf_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="60" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="60" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a7795f7961d03019f5976ee20f74e0b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_ConstructFromAnother</definition>
+        <argsstring>(const MR_SegmPointf *_other)</argsstring>
+        <name>MR_SegmPointf_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SegmPointf::SegmPointf</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" kindref="member">MR_SegmPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="66" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1af1078e1d920eee46fde899fda59ceb54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_Construct</definition>
+        <argsstring>(float a)</argsstring>
+        <name>MR_SegmPointf_Construct</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SegmPointf::SegmPointf</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" kindref="member">MR_SegmPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="70" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="70" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SegmPointf_Destroy</definition>
+        <argsstring>(const MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_Destroy</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SegmPointf</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1af3b7e6d1eec2c390091dd25acc04c260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SegmPointf_DestroyArray</definition>
+        <argsstring>(const MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SegmPointf</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a007859ad1020a3b630176f108927c36c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_SegmPointf_ConvertTo_float</definition>
+        <argsstring>(const MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_ConvertTo_float</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from conversion operator <computeroutput>MR::SegmPointf::operator float</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="80" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1ad9642b91f656b75365931c99213e096a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SegmPointf_ConvertTo_float_ref</definition>
+        <argsstring>(MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_ConvertTo_float_ref</name>
+        <param>
+          <type><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from conversion operator <computeroutput>MR::SegmPointf::operator float &amp;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="85" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="85" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a962219d63f5ef6c2fe6b300ec2ddf585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_AssignFromAnother</definition>
+        <argsstring>(MR_SegmPointf *_this, const MR_SegmPointf *_other)</argsstring>
+        <name>MR_SegmPointf_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SegmPointf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="93" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="93" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1afdc2cd129e1c4b3b9853972726a85f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_SegmPointf_inVertex</definition>
+        <argsstring>(const MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_inVertex</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns [0,1] if the point is in a vertex or -1 otherwise Generated from method <computeroutput>MR::SegmPointf::inVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="98" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="98" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a1c872cd6b7849b6e69e3751a4ef063b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+        <definition>MRC_API MR_SegmPointf * MR_SegmPointf_sym</definition>
+        <argsstring>(const MR_SegmPointf *_this)</argsstring>
+        <name>MR_SegmPointf_sym</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>represents the same point relative to oppositely directed segment Generated from method <computeroutput>MR::SegmPointf::sym</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" kindref="member">MR_SegmPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="104" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="104" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a1586fd7fee7958dae7316d3bf9990b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_SegmPointf</definition>
+        <argsstring>(const MR_SegmPointf *_this, const MR_SegmPointf *rhs)</argsstring>
+        <name>MR_equal_MR_SegmPointf</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if two points have equal (a) representation Generated from method <computeroutput>MR::SegmPointf::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rhs</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="110" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1ad07c4033340dd0a1b004aa9aa076029b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_SegmPointf_float</definition>
+        <argsstring>(const MR_SegmPointf *_this, float rhs)</argsstring>
+        <name>MR_equal_MR_SegmPointf_float</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SegmPointf::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1aa9d74e9f5ae6d34ba2ad7458b81cd713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_SegmPointd_Get_eps</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SegmPointd_Get_eps</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SegmPointd</computeroutput> named <computeroutput>eps</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 Returns a pointer to a member variable of class <computeroutput>MR::SegmPointd</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="118" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="118" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_SegmPointd_Get_a</definition>
+        <argsstring>(const MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_Get_a</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 Modifies a member variable of class <computeroutput>MR::SegmPointd</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="124" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="124" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SegmPointd_Set_a</definition>
+        <argsstring>(MR_SegmPointd *_this, double value)</argsstring>
+        <name>MR_SegmPointd_Set_a</name>
+        <param>
+          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 Returns a mutable pointer to a member variable of class <computeroutput>MR::SegmPointd</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="130" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_SegmPointd_GetMutable_a</definition>
+        <argsstring>(MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="136" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="136" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SegmPointd_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="140" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="140" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SegmPointd_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" kindref="member">MR_SegmPointd_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" kindref="member">MR_SegmPointd_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" kindref="member">MR_SegmPointd_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="145" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="145" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API const MR_SegmPointd * MR_SegmPointd_OffsetPtr</definition>
+        <argsstring>(const MR_SegmPointd *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SegmPointd_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="149" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="149" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_OffsetMutablePtr</definition>
+        <argsstring>(MR_SegmPointd *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SegmPointd_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="153" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="153" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_ConstructFromAnother</definition>
+        <argsstring>(const MR_SegmPointd *_other)</argsstring>
+        <name>MR_SegmPointd_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SegmPointd::SegmPointd</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="159" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="159" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_Construct</definition>
+        <argsstring>(double a)</argsstring>
+        <name>MR_SegmPointd_Construct</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SegmPointd::SegmPointd</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="163" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="163" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SegmPointd_Destroy</definition>
+        <argsstring>(const MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SegmPointd</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SegmPointd_DestroyArray</definition>
+        <argsstring>(const MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SegmPointd</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="169" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_SegmPointd_ConvertTo_double</definition>
+        <argsstring>(const MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_ConvertTo_double</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from conversion operator <computeroutput>MR::SegmPointd::operator double</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="173" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="173" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_SegmPointd_ConvertTo_double_ref</definition>
+        <argsstring>(MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_ConvertTo_double_ref</name>
+        <param>
+          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from conversion operator <computeroutput>MR::SegmPointd::operator double &amp;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="178" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="178" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_AssignFromAnother</definition>
+        <argsstring>(MR_SegmPointd *_this, const MR_SegmPointd *_other)</argsstring>
+        <name>MR_SegmPointd_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SegmPointd::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="186" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="186" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_SegmPointd_inVertex</definition>
+        <argsstring>(const MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_inVertex</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns [0,1] if the point is in a vertex or -1 otherwise Generated from method <computeroutput>MR::SegmPointd::inVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="191" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="191" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <definition>MRC_API MR_SegmPointd * MR_SegmPointd_sym</definition>
+        <argsstring>(const MR_SegmPointd *_this)</argsstring>
+        <name>MR_SegmPointd_sym</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>represents the same point relative to oppositely directed segment Generated from method <computeroutput>MR::SegmPointd::sym</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="197" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="197" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_SegmPointd</definition>
+        <argsstring>(const MR_SegmPointd *_this, const MR_SegmPointd *rhs)</argsstring>
+        <name>MR_equal_MR_SegmPointd</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if two points have equal (a) representation Generated from method <computeroutput>MR::SegmPointd::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rhs</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="203" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="203" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_SegmPointd_double</definition>
+        <argsstring>(const MR_SegmPointd *_this, double rhs)</argsstring>
+        <name>MR_equal_MR_SegmPointd_double</name>
+        <param>
+          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SegmPointd::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" declline="207" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSegmPoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" kindref="member">MR_SegmPointf_Get_eps</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRSegmPoint_8h_1a026633425e2739ec558b8689fd20ba9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a026633425e2739ec558b8689fd20ba9c" kindref="member">MR_SegmPointf_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRSegmPoint_8h_1a5df392e93245decf685001fb773aed3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a5df392e93245decf685001fb773aed3f" kindref="member">MR_SegmPointf_Set_a</ref>(<ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRSegmPoint_8h_1ac488e92a8808c38cb1649dd1b4db7ada" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1ac488e92a8808c38cb1649dd1b4db7ada" kindref="member">MR_SegmPointf_GetMutable_a</ref>(<ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRSegmPoint_8h_1aa8abb9e4a8cdf4755b6ce592a605df32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1aa8abb9e4a8cdf4755b6ce592a605df32" kindref="member">MR_SegmPointf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRSegmPoint_8h_1a694ed6dfac80f5127ed502e098663eff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1a694ed6dfac80f5127ed502e098663eff" kindref="member">MR_SegmPointf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRSegmPoint_8h_1a4e60eda0dc4c526f10e9a8f6929922b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4e60eda0dc4c526f10e9a8f6929922b7" kindref="member">MR_SegmPointf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRSegmPoint_8h_1a5c94f46cbe2feb347a6a1f5a1f9ccac2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1a5c94f46cbe2feb347a6a1f5a1f9ccac2" kindref="member">MR_SegmPointf_OffsetMutablePtr</ref>(<ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRSegmPoint_8h_1a7795f7961d03019f5976ee20f74e0b3b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1a7795f7961d03019f5976ee20f74e0b3b" kindref="member">MR_SegmPointf_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRSegmPoint_8h_1af1078e1d920eee46fde899fda59ceb54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1af1078e1d920eee46fde899fda59ceb54" kindref="member">MR_SegmPointf_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a7175f9673977cfbd09a355283b1966d3" kindref="member">MR_SegmPointf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRSegmPoint_8h_1af3b7e6d1eec2c390091dd25acc04c260" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1af3b7e6d1eec2c390091dd25acc04c260" kindref="member">MR_SegmPointf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRSegmPoint_8h_1a007859ad1020a3b630176f108927c36c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a007859ad1020a3b630176f108927c36c" kindref="member">MR_SegmPointf_ConvertTo_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRSegmPoint_8h_1ad9642b91f656b75365931c99213e096a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1ad9642b91f656b75365931c99213e096a" kindref="member">MR_SegmPointf_ConvertTo_float_ref</ref>(<ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRSegmPoint_8h_1a962219d63f5ef6c2fe6b300ec2ddf585" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1a962219d63f5ef6c2fe6b300ec2ddf585" kindref="member">MR_SegmPointf_AssignFromAnother</ref>(<ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRSegmPoint_8h_1afdc2cd129e1c4b3b9853972726a85f13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1afdc2cd129e1c4b3b9853972726a85f13" kindref="member">MR_SegmPointf_inVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRSegmPoint_8h_1a1c872cd6b7849b6e69e3751a4ef063b8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*<ref refid="MRSegmPoint_8h_1a1c872cd6b7849b6e69e3751a4ef063b8" kindref="member">MR_SegmPointf_sym</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRSegmPoint_8h_1a1586fd7fee7958dae7316d3bf9990b0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1586fd7fee7958dae7316d3bf9990b0a" kindref="member">MR_equal_MR_SegmPointf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRSegmPoint_8h_1ad07c4033340dd0a1b004aa9aa076029b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1ad07c4033340dd0a1b004aa9aa076029b" kindref="member">MR_equal_MR_SegmPointf_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rhs);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRSegmPoint_8h_1aa9d74e9f5ae6d34ba2ad7458b81cd713" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1aa9d74e9f5ae6d34ba2ad7458b81cd713" kindref="member">MR_SegmPointd_Get_eps</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" kindref="member">MR_SegmPointd_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" kindref="member">MR_SegmPointd_Set_a</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" kindref="member">MR_SegmPointd_GetMutable_a</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" kindref="member">MR_SegmPointd_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" kindref="member">MR_SegmPointd_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" kindref="member">MR_SegmPointd_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" kindref="member">MR_SegmPointd_OffsetMutablePtr</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" kindref="member">MR_SegmPointd_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" kindref="member">MR_SegmPointd_Construct</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" kindref="member">MR_SegmPointd_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" kindref="member">MR_SegmPointd_ConvertTo_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" kindref="member">MR_SegmPointd_ConvertTo_double_ref</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" kindref="member">MR_SegmPointd_AssignFromAnother</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" kindref="member">MR_SegmPointd_inVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" kindref="member">MR_SegmPointd_sym</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" kindref="member">MR_equal_MR_SegmPointd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" kindref="member">MR_equal_MR_SegmPointd_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhs);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h"/>
+  </compounddef>
+</doxygen>

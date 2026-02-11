@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1StateBasePlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::StateBasePlugin</compoundname>
+    <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
+    <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
+    <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
+    <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; Connectables &gt;</derivedcompoundref>
+    <includes refid="MRStatePlugin_8h" local="no">MRStatePlugin.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::StateBasePlugin::plugin_name</definition>
+        <argsstring></argsstring>
+        <name>plugin_name</name>
+        <qualifiedname>MR::StateBasePlugin::plugin_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="117" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::StateBasePlugin::isEnabled_</definition>
+        <argsstring></argsstring>
+        <name>isEnabled_</name>
+        <qualifiedname>MR::StateBasePlugin::isEnabled_</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="127" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::StateBasePlugin::dialogIsOpen_</definition>
+        <argsstring></argsstring>
+        <name>dialogIsOpen_</name>
+        <qualifiedname>MR::StateBasePlugin::dialogIsOpen_</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="128" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::StateBasePlugin::dialogIsCollapsed_</definition>
+        <argsstring></argsstring>
+        <name>dialogIsCollapsed_</name>
+        <qualifiedname>MR::StateBasePlugin::dialogIsCollapsed_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="129" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a9228096dfb940b935e8dada25c4b0c37" kindref="member">StatePluginTabs</ref></type>
+        <definition>StatePluginTabs MR::StateBasePlugin::tab_</definition>
+        <argsstring></argsstring>
+        <name>tab_</name>
+        <qualifiedname>MR::StateBasePlugin::tab_</qualifiedname>
+        <initializer>{<ref refid="namespaceMR_1a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387" kindref="member">StatePluginTabs::Other</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="131" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::StateBasePlugin::StateBasePlugin</definition>
+        <argsstring>(std::string name, StatePluginTabs tab=StatePluginTabs::Other)</argsstring>
+        <name>StateBasePlugin</name>
+        <qualifiedname>MR::StateBasePlugin::StateBasePlugin</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a9228096dfb940b935e8dada25c4b0c37" kindref="member">StatePluginTabs</ref></type>
+          <declname>tab</declname>
+          <defval><ref refid="namespaceMR_1a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387" kindref="member">StatePluginTabs::Other</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="80" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::StateBasePlugin::~StateBasePlugin</definition>
+        <argsstring>()=default</argsstring>
+        <name>~StateBasePlugin</name>
+        <qualifiedname>MR::StateBasePlugin::~StateBasePlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="81" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::StateBasePlugin::drawDialog</definition>
+        <argsstring>(ImGuiContext *ctx)</argsstring>
+        <name>drawDialog</name>
+        <qualifiedname>MR::StateBasePlugin::drawDialog</qualifiedname>
+        <reimplementedby refid="classMR_1_1AddCustomThemePlugin_1a7b6dc8e71e87ec8ef33f6747eeb60b72">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1BinaryOperations_1a4f95cb89a4264a9f31a3acf0fe27003f">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1CameraOrientation_1a84a6d26e91901eef8efc27aa3a167aef">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1CaptureScreenshotMenuItem_1a4a5e3c289d1d3b62a2a24aa4ff792400">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1MoveObjectByMouse_1af9eebac5b509f6da74156f568536c564">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1OpenRawVoxelsPlugin_1ab8b2265a3371f30c9bd4bf6899a16df8">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1SelectObjectByClick_1a399a69727e32d794b8eb24565f369fe7">drawDialog</reimplementedby>
+        <reimplementedby refid="classMR_1_1ViewerSettingsPlugin_1a119e03f41d8f3bdf0c9ee522b8ad623b">drawDialog</reimplementedby>
+        <param>
+          <type>ImGuiContext *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="83" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::StateBasePlugin::action</definition>
+        <argsstring>() override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::StateBasePlugin::action</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
+        <briefdescription>
+<para>returns true if state of item changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="85" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::StateBasePlugin::isActive</definition>
+        <argsstring>() const override</argsstring>
+        <name>isActive</name>
+        <qualifiedname>MR::StateBasePlugin::isActive</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2">isActive</reimplements>
+        <briefdescription>
+<para>for state items returns true if activated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="87" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::StateBasePlugin::blocking</definition>
+        <argsstring>() const override</argsstring>
+        <name>blocking</name>
+        <qualifiedname>MR::StateBasePlugin::blocking</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc">blocking</reimplements>
+        <reimplementedby refid="classMR_1_1CameraOrientation_1aded26055d65895c92ebe389028088749">blocking</reimplementedby>
+        <reimplementedby refid="classMR_1_1CaptureScreenshotMenuItem_1ac4b0cdb8632f4960672d36407fae15e8">blocking</reimplementedby>
+        <reimplementedby refid="classMR_1_1MoveObjectByMouse_1af8619e80df46a41878d35b50d427ef0c">blocking</reimplementedby>
+        <reimplementedby refid="classMR_1_1SelectObjectByClick_1a4e224981a48ecad3ccd0f3644cfeecd5">blocking</reimplementedby>
+        <reimplementedby refid="classMR_1_1ViewerSettingsPlugin_1ac31f0ed7c0847408208b9cd59d7a9c40">blocking</reimplementedby>
+        <briefdescription>
+<para>true if this item is blocking (only one blocking item can be active at once) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="89" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::StateBasePlugin::shutdown</definition>
+        <argsstring>() override</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>MR::StateBasePlugin::shutdown</qualifiedname>
+        <reimplements refid="classMR_1_1ViewerPlugin_1a764e7d792fea63f8186ed87f2560578f">shutdown</reimplements>
+        <briefdescription>
+<para>This function is called before shutdown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="91" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::StateBasePlugin::isEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>isEnabled</name>
+        <qualifiedname>MR::StateBasePlugin::isEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="93" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a12b5e139ab1d9458373e61c275e80457" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::StateBasePlugin::enable</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>enable</name>
+        <qualifiedname>MR::StateBasePlugin::enable</qualifiedname>
+        <reimplementedby refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255">enable</reimplementedby>
+        <reimplementedby refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255">enable</reimplementedby>
+        <reimplementedby refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255">enable</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="94" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::StateBasePlugin::dialogIsOpen</definition>
+        <argsstring>() const</argsstring>
+        <name>dialogIsOpen</name>
+        <qualifiedname>MR::StateBasePlugin::dialogIsOpen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="96" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string &amp; MR::StateBasePlugin::uiName</definition>
+        <argsstring>() const override</argsstring>
+        <name>uiName</name>
+        <qualifiedname>MR::StateBasePlugin::uiName</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93">uiName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>can be overridden by some plugins with ui it is used for highlighting active and closing plugins by Esc key note that it is not <ref refid="structMR_1_1RibbonSchema" kindref="compound">RibbonSchema</ref> caption </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="100" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::StateBasePlugin::setUIName</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>setUIName</name>
+        <qualifiedname>MR::StateBasePlugin::setUIName</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>set plugin name that will be used for dialog in <computeroutput>ImGuiBeginWindow_</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="103" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="namespaceMR_1a9228096dfb940b935e8dada25c4b0c37" kindref="member">StatePluginTabs</ref></type>
+        <definition>MRVIEWER_API StatePluginTabs MR::StateBasePlugin::getTab</definition>
+        <argsstring>() const</argsstring>
+        <name>getTab</name>
+        <qualifiedname>MR::StateBasePlugin::getTab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="105" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::string</type>
+        <definition>virtual MRVIEWER_API std::string MR::StateBasePlugin::getTooltip</definition>
+        <argsstring>() const</argsstring>
+        <name>getTooltip</name>
+        <qualifiedname>MR::StateBasePlugin::getTooltip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="109" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::StateBasePlugin::sortString</definition>
+        <argsstring>() const</argsstring>
+        <name>sortString</name>
+        <qualifiedname>MR::StateBasePlugin::sortString</qualifiedname>
+        <briefdescription>
+<para>returns special string for sorting plugins in menu (plugin name by default) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="112" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::StateBasePlugin::checkStringMask</definition>
+        <argsstring>(const std::string &amp;mask) const</argsstring>
+        <name>checkStringMask</name>
+        <qualifiedname>MR::StateBasePlugin::checkStringMask</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>check if search mask satisfies for this plugin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="115" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const char *</type>
+        <definition>static MRVIEWER_API const char * MR::StateBasePlugin::UINameSuffix</definition>
+        <argsstring>()</argsstring>
+        <name>UINameSuffix</name>
+        <qualifiedname>MR::StateBasePlugin::UINameSuffix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="98" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const char *</type>
+        <definition>static MRVIEWER_API const char * MR::StateBasePlugin::getTabName</definition>
+        <argsstring>(StatePluginTabs tab)</argsstring>
+        <name>getTabName</name>
+        <qualifiedname>MR::StateBasePlugin::getTabName</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1a9228096dfb940b935e8dada25c4b0c37" kindref="member">StatePluginTabs</ref></type>
+          <declname>tab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="107" column="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::StateBasePlugin::ImGuiBeginWindow_</definition>
+        <argsstring>(ImGui::CustomStatePluginWindowParameters params)</argsstring>
+        <name>ImGuiBeginWindow_</name>
+        <qualifiedname>MR::StateBasePlugin::ImGuiBeginWindow_</qualifiedname>
+        <param>
+          <type><ref refid="structImGui_1_1CustomStatePluginWindowParameters" kindref="compound">ImGui::CustomStatePluginWindowParameters</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>begin plugin with given parameters sets params.collapsed from <computeroutput>dialogIsCollapsed_</computeroutput> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="122" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::StateBasePlugin::onEnable_</definition>
+        <argsstring>()</argsstring>
+        <name>onEnable_</name>
+        <qualifiedname>MR::StateBasePlugin::onEnable_</qualifiedname>
+        <reimplementedby refid="classMR_1_1AddCustomThemePlugin_1a6b49acec36e8be2f2af1a907b6cd1a58">onEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1BinaryOperations_1a1bbd341fda7ffa2756396b7558bd9a5a">onEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1CameraOrientation_1acb7cb75211af29c82f3846598c3afee9">onEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1OpenRawVoxelsPlugin_1a9b83f1639b9738321f86e6613a0aa2c6">onEnable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1ViewerSettingsPlugin_1ad68314882fab9a5eb41c7e70678268cd">onEnable_</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="124" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::StateBasePlugin::onDisable_</definition>
+        <argsstring>()</argsstring>
+        <name>onDisable_</name>
+        <qualifiedname>MR::StateBasePlugin::onDisable_</qualifiedname>
+        <reimplementedby refid="classMR_1_1AddCustomThemePlugin_1aecb55e414ac02583076be1cb68472e49">onDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1BinaryOperations_1a46f705084eaeb59669db6a08444a55a0">onDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1MoveObjectByMouse_1a71368bcc18bdc5ca465c55ffc7f9681e">onDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1OpenRawVoxelsPlugin_1a3ce3cfe039e0ebb3cccbc7f179257e85">onDisable_</reimplementedby>
+        <reimplementedby refid="classMR_1_1ViewerSettingsPlugin_1a8a96ddb6300fd5de84ba523be91b69dc">onDisable_</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="125" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="6">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="4">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="8">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+      <node id="17">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="7">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="5">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="4">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="78" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>action</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>blocking</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>checkStringMask</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>dialogIsOpen</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>dialogIsOpen_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>drawDialog</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>dropItems</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>DropItemsList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>dropList_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a12b5e139ab1d9458373e61c275e80457" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>enable</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>getDynamicTooltip</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>getTab</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>getTabName</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>getTooltip</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>init</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>isActive</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>isEnabled</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>isEnabled_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>name</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onDisable_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onEnable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onPluginDisable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onPluginEnable_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>plugin_name</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>preDrawUpdate</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>RibbonMenuItem</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>setRibbonItemType</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>setUIName</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>shouldClose_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>sortString</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>StateBasePlugin</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>tab_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>type</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>type_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>uiName</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>UINameSuffix</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>updateSelection</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>viewer</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~IPluginUpdate</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~ISceneStateCheck</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~RibbonMenuItem</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~StateBasePlugin</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

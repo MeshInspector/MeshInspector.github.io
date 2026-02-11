@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillHoleParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillHoleParams</compoundname>
+    <innerclass refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" prot="public">mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1a813121f8d0d1d1709c9dcc2299e88dae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams::_offsetof_maxPolygonSubdivisions</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxPolygonSubdivisions</name>
+        <qualifiedname>mrmeshpy.FillHoleParams._offsetof_maxPolygonSubdivisions</qualifiedname>
+        <initializer>=  120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1a665b307ab2f3af91bd15decd11c5d76a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams::_offsetof_metric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_metric</name>
+        <qualifiedname>mrmeshpy.FillHoleParams._offsetof_metric</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1a6a29eac524bac140a6f38c760093f69d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams::_offsetof_multipleEdgesResolveMode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_multipleEdgesResolveMode</name>
+        <qualifiedname>mrmeshpy.FillHoleParams._offsetof_multipleEdgesResolveMode</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1af49215e2e15fcbd1772d5daa79c3c95d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams::_offsetof_outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outNewFaces</name>
+        <qualifiedname>mrmeshpy.FillHoleParams._offsetof_outNewFaces</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1a9d82eef9964a77b92ba48b7c9f9d036f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams::_offsetof_smoothBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_smoothBd</name>
+        <qualifiedname>mrmeshpy.FillHoleParams._offsetof_smoothBd</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1a261661c3afcdacc0ef86c7fc087151b9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams::_offsetof_stopBeforeBadTriangulation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stopBeforeBadTriangulation</name>
+        <qualifiedname>mrmeshpy.FillHoleParams._offsetof_stopBeforeBadTriangulation</qualifiedname>
+        <initializer>=  128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19356" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1ac513e8639f3912c1eea0342af851ef62" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
+        <definition>FillHoleParams mrmeshpy.FillHoleParams::multipleEdgesResolveMode</definition>
+        <argsstring></argsstring>
+        <name>multipleEdgesResolveMode</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.multipleEdgesResolveMode</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kindref="compound">MultipleEdgesResolveMode</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19357" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a704bd2de83dd80bdfc22f6bc7e4b4385" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19360" bodyend="19361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a6689d4dba6daadee02ae3f57e7abc491" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
+        <definition> FillHoleParams mrmeshpy.FillHoleParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19364" bodyend="19365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a6689d4dba6daadee02ae3f57e7abc491" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
+        <definition> FillHoleParams mrmeshpy.FillHoleParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19368" bodyend="19369"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a6d100544ab02d1306844a3bc88aa502f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19371" bodyend="19372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a6ea60fb20536d5583c2926e150e9969b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.__init__</definition>
+        <argsstring>(self, FillHoleParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19374" bodyend="19377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a0b22ae80817b0edd43be603706481bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.__init__</definition>
+        <argsstring>(self, FillHoleMetric metric, bool smoothBd, FaceBitSet outNewFaces, FillHoleParams.MultipleEdgesResolveMode multipleEdgesResolveMode, bool makeDegenerateBand, int maxPolygonSubdivisions, bool_output stopBeforeBadTriangulation)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smoothBd</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>outNewFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kindref="compound">FillHoleParams.MultipleEdgesResolveMode</ref></type>
+          <declname>multipleEdgesResolveMode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>makeDegenerateBand</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxPolygonSubdivisions</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>stopBeforeBadTriangulation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19379" bodyend="19382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a24efeb586d736e95d23aa978bf229bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillHoleParams.makeDegenerateBand</definition>
+        <argsstring>(self)</argsstring>
+        <name>makeDegenerateBand</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.makeDegenerateBand</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true creates degenerate faces band around hole to have sharp angle visualization
+\\warning This flag bad for result topology, most likely you do not need it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19384" bodyend="19388"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a3910a3a9e928527abc669454450d2927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.makeDegenerateBand</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>makeDegenerateBand</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.makeDegenerateBand</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19390" bodyend="19391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a1bc9c3f29de00e541e9f197aca75bdf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleParams.maxPolygonSubdivisions</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxPolygonSubdivisions</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.maxPolygonSubdivisions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The maximum number of polygon subdivisions on a triangle and two smaller polygons,
+must be 2 or larger
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19393" bodyend="19397"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a6c500d9b33dbffdbf9c3fb1836d6c8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.maxPolygonSubdivisions</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxPolygonSubdivisions</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.maxPolygonSubdivisions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19399" bodyend="19400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a8cd42154ff75ddd4ec91336d84716e7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+        <definition> FillHoleMetric mrmeshpy.FillHoleParams.metric</definition>
+        <argsstring>(self)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Specifies triangulation metric\\n
+default for MR::fillHole: getCircumscribedFillMetric\\n
+\\sa \\ref FillHoleMetric
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19402" bodyend="19407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a5b958606e3b0a79096f8e31eee880280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.metric</definition>
+        <argsstring>(self, FillHoleMetric arg1)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19409" bodyend="19410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a7c1e16ffc92fc76725b31d7450c23715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.FillHoleParams.outNewFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.outNewFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If not nullptr accumulate new faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19412" bodyend="19415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a2b1955dd009c972cae6589fb15731dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.outNewFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.outNewFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19417" bodyend="19418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a56a753028bb12d4a5fe4594e1506d1cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillHoleParams.smoothBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>smoothBd</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.smoothBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true, hole filling will minimize the sum of metrics including boundary edges,
+where one triangle was present before hole filling, and another is added during hole filling.
+This makes boundary edges same smooth as inner edges of the patch.
+If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19420" bodyend="19426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a11cd6abd412a4d40a72e78f227d3c87d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.smoothBd</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>smoothBd</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.smoothBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19428" bodyend="19429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a820474505533e74bf774d617d017df9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillHoleParams.stopBeforeBadTriangulation</definition>
+        <argsstring>(self)</argsstring>
+        <name>stopBeforeBadTriangulation</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.stopBeforeBadTriangulation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Input/output value, if it is present: 
+returns true if triangulation was bad and do not actually fill hole, 
+if triangulation is ok returns false; 
+if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19431" bodyend="19437"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1a3b9ce0146c7bb1f9abe344f521616fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleParams.stopBeforeBadTriangulation</definition>
+        <argsstring>(self, bool_output arg1)</argsstring>
+        <name>stopBeforeBadTriangulation</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.stopBeforeBadTriangulation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19439" bodyend="19440"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FillHoleParams
+
+\\struct MR::FillHoleParams
+\\brief Parameters structure for MR::fillHole\\n
+Structure has some options to control MR::fillHole
+
+\\sa \\ref fillHole
+\\sa \\ref FillHoleMetric
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillHoleParams</label>
+        <link refid="classmrmeshpy_1_1FillHoleParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxPolygonSubdivisions</edgelabel>
+          <edgelabel>_offsetof_metric</edgelabel>
+          <edgelabel>_offsetof_multipleEdgesResolveMode</edgelabel>
+          <edgelabel>_offsetof_outNewFaces</edgelabel>
+          <edgelabel>_offsetof_smoothBd</edgelabel>
+          <edgelabel>_offsetof_stopBeforeBadTriangulation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>multipleEdgesResolveMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FillHoleParams</label>
+        <link refid="classmrmeshpy_1_1FillHoleParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxPolygonSubdivisions</edgelabel>
+          <edgelabel>_offsetof_metric</edgelabel>
+          <edgelabel>_offsetof_multipleEdgesResolveMode</edgelabel>
+          <edgelabel>_offsetof_outNewFaces</edgelabel>
+          <edgelabel>_offsetof_smoothBd</edgelabel>
+          <edgelabel>_offsetof_stopBeforeBadTriangulation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>multipleEdgesResolveMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19299" bodyend="19440"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a704bd2de83dd80bdfc22f6bc7e4b4385" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a6d100544ab02d1306844a3bc88aa502f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a6ea60fb20536d5583c2926e150e9969b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a0b22ae80817b0edd43be603706481bb7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a813121f8d0d1d1709c9dcc2299e88dae" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>_offsetof_maxPolygonSubdivisions</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a665b307ab2f3af91bd15decd11c5d76a" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>_offsetof_metric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a6a29eac524bac140a6f38c760093f69d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>_offsetof_multipleEdgesResolveMode</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1af49215e2e15fcbd1772d5daa79c3c95d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>_offsetof_outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a9d82eef9964a77b92ba48b7c9f9d036f" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>_offsetof_smoothBd</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a261661c3afcdacc0ef86c7fc087151b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>_offsetof_stopBeforeBadTriangulation</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a24efeb586d736e95d23aa978bf229bde" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>makeDegenerateBand</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a3910a3a9e928527abc669454450d2927" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>makeDegenerateBand</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a1bc9c3f29de00e541e9f197aca75bdf7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>maxPolygonSubdivisions</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a6c500d9b33dbffdbf9c3fb1836d6c8b7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>maxPolygonSubdivisions</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a8cd42154ff75ddd4ec91336d84716e7a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a5b958606e3b0a79096f8e31eee880280" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1ac513e8639f3912c1eea0342af851ef62" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>multipleEdgesResolveMode</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a6689d4dba6daadee02ae3f57e7abc491" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a6689d4dba6daadee02ae3f57e7abc491" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a7c1e16ffc92fc76725b31d7450c23715" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a2b1955dd009c972cae6589fb15731dd8" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a56a753028bb12d4a5fe4594e1506d1cb" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>smoothBd</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a11cd6abd412a4d40a72e78f227d3c87d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>smoothBd</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a820474505533e74bf774d617d017df9b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>stopBeforeBadTriangulation</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1a3b9ce0146c7bb1f9abe344f521616fef" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams</scope><name>stopBeforeBadTriangulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

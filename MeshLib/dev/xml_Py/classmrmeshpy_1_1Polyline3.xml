@@ -1,0 +1,1173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Polyline3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Polyline3</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Polyline3_1a30b49f5d07fdce9188e2a5590a1c04c0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Polyline3::_offsetof_points</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_points</name>
+        <qualifiedname>mrmeshpy.Polyline3._offsetof_points</qualifiedname>
+        <initializer>=  88</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Polyline3_1a967dafa9b899629dfac3f4cbb257540d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Polyline3::_offsetof_topology</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_topology</name>
+        <qualifiedname>mrmeshpy.Polyline3._offsetof_topology</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46048" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1aac74f9189db51a504d6dfee0d5251205" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polyline3.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46053" bodyend="46054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a7791559c650d1a0eabef6308cbd94a4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.Polyline3.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Polyline3.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46057" bodyend="46058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a7791559c650d1a0eabef6308cbd94a4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.Polyline3.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Polyline3.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46061" bodyend="46062"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a5c6996e5792732139902540410b69e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polyline3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46064" bodyend="46065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ac3144d138f3c1a82e0f97b1ff19b9c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float contour)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polyline3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>contour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates polyline from one contour (open or closed)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46067" bodyend="46070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ad02f5fff3af1d003804ee81ccadca3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.__init__</definition>
+        <argsstring>(self, std_vector_std_vector_Vector3_float contours)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polyline3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+          <declname>contours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates polyline from several contours (each can be open or closed)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46072" bodyend="46075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a44923a6c648ddd37a9f4bdf25c7e6f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.__init__</definition>
+        <argsstring>(self, std_vector_Id_VertTag comp2firstVert, VertCoords ps)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polyline3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>comp2firstVert</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates comp2firstVert.size()-1 not-closed polylines
+each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a polyline [a,b)
+\\param ps point coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46077" bodyend="46082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a9c8eb7f9f8a0658fb7cfc50818c955fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.__init__</definition>
+        <argsstring>(self, Polyline3 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Polyline3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46084" bodyend="46087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a8db399a2403043d32ae4d18faf341c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.addFromEdgePath</definition>
+        <argsstring>(self, Mesh mesh, std_vector_Id_EdgeTag path)</argsstring>
+        <name>addFromEdgePath</name>
+        <qualifiedname>mrmeshpy.Polyline3.addFromEdgePath</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__EdgeTag" kindref="compound">std_vector_Id_EdgeTag</ref></type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds path to this polyline
+\\return the edge from first new to second new vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46088" bodyend="46092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1aada8fe3fe15f19deda41095816140b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.addFromGeneralSurfacePath</definition>
+        <argsstring>(self, Mesh mesh, MeshTriPoint start, std_vector_EdgePoint path, MeshTriPoint end)</argsstring>
+        <name>addFromGeneralSurfacePath</name>
+        <qualifiedname>mrmeshpy.Polyline3.addFromGeneralSurfacePath</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePoint" kindref="compound">std_vector_EdgePoint</ref></type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds general path = start-path-end (where both start and end are optional) to this polyline
+\\return the edge from first new to second new vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46093" bodyend="46097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1afd85273e4e73a3cc25c450bf9c2dae18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.addFromPoints</definition>
+        <argsstring>(self, Vector3f vs, int num, bool closed)</argsstring>
+        <name>addFromPoints</name>
+        <qualifiedname>mrmeshpy.Polyline3.addFromPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>vs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds connected line in this, passing progressively via points *[vs, vs+num)
+\\details if closed argument is true then the last and the first points will be additionally connected
+\\return the edge from first new to second new vertex    
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46099" bodyend="46104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ab91ecbadb8e605ef17d5dd9ac59ddc65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.addFromPoints</definition>
+        <argsstring>(self, Vector3f vs, int num)</argsstring>
+        <name>addFromPoints</name>
+        <qualifiedname>mrmeshpy.Polyline3.addFromPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>vs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds connected line in this, passing progressively via points *[vs, vs+num)
+\\details if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created
+\\return the edge from first new to second new vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46106" bodyend="46111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ad1d5b81c02670038514b1e948c28fcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.addFromSurfacePath</definition>
+        <argsstring>(self, Mesh mesh, std_vector_EdgePoint path)</argsstring>
+        <name>addFromSurfacePath</name>
+        <qualifiedname>mrmeshpy.Polyline3.addFromSurfacePath</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePoint" kindref="compound">std_vector_EdgePoint</ref></type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds path to this polyline
+\\return the edge from first new to second new vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46112" bodyend="46116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a8628f78cfa58bb81fe6eb0f587db1b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.addPart</definition>
+        <argsstring>(self, Polyline3 from_, VertMap outVmap=None, WholeEdgeMap outEmap=None)</argsstring>
+        <name>addPart</name>
+        <qualifiedname>mrmeshpy.Polyline3.addPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>from_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+          <declname>outEmap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends polyline (from) in addition to this polyline: creates new edges, verts and points;
+\\param outVmap,outEmap (optionally) returns mappings: from.id -&gt; this.id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46117" bodyend="46121"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1aa9f8d6d0589d51ffeeb65017ea87e93e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.addPartByMask</definition>
+        <argsstring>(self, Polyline3 from_, UndirectedEdgeBitSet mask, VertMap outVmap=None, EdgeMap outEmap=None)</argsstring>
+        <name>addPartByMask</name>
+        <qualifiedname>mrmeshpy.Polyline3.addPartByMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>from_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>outEmap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends polyline (from) in addition to this polyline: creates new edges, verts and points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46122" bodyend="46125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a4796ecef51fa8e4a44e085a32fbe7839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Polyline3.averageEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>averageEdgeLength</name>
+        <qualifiedname>mrmeshpy.Polyline3.averageEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns average edge length in the polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46126" bodyend="46129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1aabe16074e6015948907bc5f4c07fbf58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.Polyline3.computeBoundingBox</definition>
+        <argsstring>(self, AffineXf3f toWorld=None)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>mrmeshpy.Polyline3.computeBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>toWorld</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>passes through all valid points and finds the minimal bounding box containing all of them
+\\details if toWorld transformation is given then returns minimal bounding box in world space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46130" bodyend="46134"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a2eca00503ee246c60ad6350ca7d384e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+        <definition> std_vector_std_vector_Vector3_float mrmeshpy.Polyline3.contours</definition>
+        <argsstring>(self, std_vector_std_vector_Id_VertTag vertMap=None)</argsstring>
+        <name>contours</name>
+        <qualifiedname>mrmeshpy.Polyline3.contours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag" kindref="compound">std_vector_std_vector_Id_VertTag</ref></type>
+          <declname>vertMap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>convert Polyline to simple contour structures with vector of points inside
+\\details if all even edges are consistently oriented, then the output contours will be oriented the same
+\\param vertMap optional output map for for each contour point to corresponding VertId
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46135" bodyend="46140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1abe1dabb349ccaa0c164765682a6c9de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.destPnt</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>destPnt</name>
+        <qualifiedname>mrmeshpy.Polyline3.destPnt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns coordinates of the edge destination
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46141" bodyend="46144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a50dc4459f6935dabca5ae38f5eeafcf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.edgeCenter</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>edgeCenter</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgeCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns edge&apos;s centroid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46145" bodyend="46148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a7834da229ac4efe71fb5858f4cbc6711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Polyline3.edgeLength</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>edgeLength</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns Euclidean length of the edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46149" bodyend="46152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a66788e913cce9d44bc98f72f85c33c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Polyline3.edgeLengthSq</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>edgeLengthSq</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgeLengthSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns squared Euclidean length of the edge (faster to compute than length)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46153" bodyend="46156"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a877453b103cb531c5a9b897997a4b1fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.edgePoint</definition>
+        <argsstring>(self, EdgeId e, float f)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns a point on the edge: origin point for f=0 and destination point for f=1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46158" bodyend="46161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1aba104ef2091d00242df01e90bc6ffdae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.edgePoint</definition>
+        <argsstring>(self, EdgePoint ep)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes coordinates of point given as edge and relative position on it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46163" bodyend="46166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a3f5b94429ff1156b7cbfe336daef2717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+        <definition> LineSegm3f mrmeshpy.Polyline3.edgeSegment</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>edgeSegment</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgeSegment</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns line segment of given edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46167" bodyend="46170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a23ef58b8fb99f8418318ffb7e346cd4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.edgeVector</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>edgeVector</name>
+        <qualifiedname>mrmeshpy.Polyline3.edgeVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns vector equal to edge destination point minus edge origin point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46171" bodyend="46174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ae49315586307b441a76d407841f0f368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.findCenterFromPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>findCenterFromPoints</name>
+        <qualifiedname>mrmeshpy.Polyline3.findCenterFromPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes average position of all valid polyline vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46175" bodyend="46178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1add1c82058c2fe69bc74de02cf06e3fda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePolyline3" kindref="compound">AABBTreePolyline3</ref></type>
+        <definition> AABBTreePolyline3 mrmeshpy.Polyline3.getAABBTree</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAABBTree</name>
+        <qualifiedname>mrmeshpy.Polyline3.getAABBTree</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46179" bodyend="46182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a0fb08decf564f7308acb3138a18202bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePolyline3" kindref="compound">AABBTreePolyline3</ref></type>
+        <definition> AABBTreePolyline3 mrmeshpy.Polyline3.getAABBTreeNotCreate</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAABBTreeNotCreate</name>
+        <qualifiedname>mrmeshpy.Polyline3.getAABBTreeNotCreate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached aabb-tree for this polyline, but does not create it if it did not exist
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46183" bodyend="46186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a92d6d8177f4f3b286591175a50c9606b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.Polyline3.getBoundingBox</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>mrmeshpy.Polyline3.getBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the minimal bounding box containing all valid vertices (implemented via getAABBTree())
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46187" bodyend="46190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a2af37851e05cb4fcecb1247d2e7159c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Polyline3.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Polyline3.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46191" bodyend="46194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ad891eb8acd5418ea77b145c95e0a098a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.invalidateCaches</definition>
+        <argsstring>(self)</argsstring>
+        <name>invalidateCaches</name>
+        <qualifiedname>mrmeshpy.Polyline3.invalidateCaches</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Invalidates caches (e.g. aabb-tree) after a change in polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46195" bodyend="46198"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ab4a837b9d6f561981ff035f86c214526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.loopDirArea</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>loopDirArea</name>
+        <qualifiedname>mrmeshpy.Polyline3.loopDirArea</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates directed loop area if iterating in `e` direction
+.z = FLT_MAX if `e` does not represent a loop
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46199" bodyend="46203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ae319dd3465b976f3a4b077087739a3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.mirror</definition>
+        <argsstring>(self, Plane3f plane)</argsstring>
+        <name>mirror</name>
+        <qualifiedname>mrmeshpy.Polyline3.mirror</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+          <declname>plane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reflects the polyline from a given plane. Enabled only for Polyline3f
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46204" bodyend="46207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1ac7ec65ba9d42571a0b79bdb9459e78bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Polyline3.orgPnt</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>orgPnt</name>
+        <qualifiedname>mrmeshpy.Polyline3.orgPnt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns coordinates of the edge origin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46208" bodyend="46211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a94b546850cacb2f4a424c1fc89c554e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.pack</definition>
+        <argsstring>(self, VertMap outVmap=None, WholeEdgeMap outEmap=None)</argsstring>
+        <name>pack</name>
+        <qualifiedname>mrmeshpy.Polyline3.pack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+          <declname>outEmap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tightly packs all arrays eliminating lone edges and invalid verts and points,
+optionally returns mappings: old.id -&gt; new.id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46212" bodyend="46216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a346c21f8d4ca7c501d318b432e045f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.splitEdge</definition>
+        <argsstring>(self, EdgeId e, Vector3f newVertPos)</argsstring>
+        <name>splitEdge</name>
+        <qualifiedname>mrmeshpy.Polyline3.splitEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>newVertPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>split given edge on two parts:
+dest(returned-edge) = org(e) - newly created vertex,
+org(returned-edge) = org(e-before-split),
+dest(e) = dest(e-before-split)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46218" bodyend="46224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a5f1706889b135f4569cf438e86a6f762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.Polyline3.splitEdge</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>splitEdge</name>
+        <qualifiedname>mrmeshpy.Polyline3.splitEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same, but split given edge on two equal parts
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46226" bodyend="46229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1aff279aaef2ede055940f6e67e6dec6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition> EdgePoint mrmeshpy.Polyline3.toEdgePoint</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>toEdgePoint</name>
+        <qualifiedname>mrmeshpy.Polyline3.toEdgePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>converts vertex into edge-point representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46231" bodyend="46234"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a0ff8d7169959d06d25ce6d62bc6bfeee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition> EdgePoint mrmeshpy.Polyline3.toEdgePoint</definition>
+        <argsstring>(self, EdgeId e, Vector3f p)</argsstring>
+        <name>toEdgePoint</name>
+        <qualifiedname>mrmeshpy.Polyline3.toEdgePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>converts edge and point&apos;s coordinates into edge-point representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46236" bodyend="46239"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a24bae15e127a6b28c54e62c8a3a8d102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Polyline3.totalLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>mrmeshpy.Polyline3.totalLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns total length of the polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46240" bodyend="46243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Polyline3_1a89af2d7c13bf4131d058f158416297f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Polyline3.transform</definition>
+        <argsstring>(self, AffineXf3f xf)</argsstring>
+        <name>transform</name>
+        <qualifiedname>mrmeshpy.Polyline3.transform</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>applies given transformation to all valid polyline vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46244" bodyend="46247"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Polyline3
+Aliases:  std_shared_ptr_Polyline3, PolylineTraits_Vector3f.Polyline, std_shared_ptr_const_Polyline3
+
+polyline that stores points of type V
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Polyline3</label>
+        <link refid="classmrmeshpy_1_1Polyline3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_points</edgelabel>
+          <edgelabel>_offsetof_topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46040" bodyend="46247"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Polyline3_1aac74f9189db51a504d6dfee0d5251205" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a5c6996e5792732139902540410b69e54" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ac3144d138f3c1a82e0f97b1ff19b9c69" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ad02f5fff3af1d003804ee81ccadca3d8" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a44923a6c648ddd37a9f4bdf25c7e6f3e" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a9c8eb7f9f8a0658fb7cfc50818c955fa" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a30b49f5d07fdce9188e2a5590a1c04c0" prot="protected" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>_offsetof_points</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a967dafa9b899629dfac3f4cbb257540d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>_offsetof_topology</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a8db399a2403043d32ae4d18faf341c7c" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addFromEdgePath</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1aada8fe3fe15f19deda41095816140b0d" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addFromGeneralSurfacePath</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1afd85273e4e73a3cc25c450bf9c2dae18" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addFromPoints</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ab91ecbadb8e605ef17d5dd9ac59ddc65" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addFromPoints</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ad1d5b81c02670038514b1e948c28fcab" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addFromSurfacePath</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a8628f78cfa58bb81fe6eb0f587db1b09" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addPart</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1aa9f8d6d0589d51ffeeb65017ea87e93e" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>addPartByMask</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a4796ecef51fa8e4a44e085a32fbe7839" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>averageEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1aabe16074e6015948907bc5f4c07fbf58" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>computeBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a2eca00503ee246c60ad6350ca7d384e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>contours</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1abe1dabb349ccaa0c164765682a6c9de0" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>destPnt</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a50dc4459f6935dabca5ae38f5eeafcf8" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgeCenter</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a7834da229ac4efe71fb5858f4cbc6711" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgeLength</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a66788e913cce9d44bc98f72f85c33c4d" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgeLengthSq</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a877453b103cb531c5a9b897997a4b1fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgePoint</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1aba104ef2091d00242df01e90bc6ffdae" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgePoint</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a3f5b94429ff1156b7cbfe336daef2717" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgeSegment</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a23ef58b8fb99f8418318ffb7e346cd4c" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>edgeVector</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ae49315586307b441a76d407841f0f368" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>findCenterFromPoints</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1add1c82058c2fe69bc74de02cf06e3fda" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>getAABBTree</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a0fb08decf564f7308acb3138a18202bc" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a92d6d8177f4f3b286591175a50c9606b" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a2af37851e05cb4fcecb1247d2e7159c6" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ad891eb8acd5418ea77b145c95e0a098a" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>invalidateCaches</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ab4a837b9d6f561981ff035f86c214526" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>loopDirArea</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ae319dd3465b976f3a4b077087739a3d8" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>mirror</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a7791559c650d1a0eabef6308cbd94a4f" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a7791559c650d1a0eabef6308cbd94a4f" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1ac7ec65ba9d42571a0b79bdb9459e78bc" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>orgPnt</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a94b546850cacb2f4a424c1fc89c554e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>pack</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a346c21f8d4ca7c501d318b432e045f56" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>splitEdge</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a5f1706889b135f4569cf438e86a6f762" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>splitEdge</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1aff279aaef2ede055940f6e67e6dec6d8" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>toEdgePoint</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a0ff8d7169959d06d25ce6d62bc6bfeee" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>toEdgePoint</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a24bae15e127a6b28c54e62c8a3a8d102" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>totalLength</name></member>
+      <member refid="classmrmeshpy_1_1Polyline3_1a89af2d7c13bf4131d058f158416297f2" prot="public" virt="non-virtual"><scope>mrmeshpy::Polyline3</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

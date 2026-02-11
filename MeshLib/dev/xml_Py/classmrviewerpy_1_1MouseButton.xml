@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1MouseButton" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::MouseButton</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrviewerpy_1_1MouseButton_1acbcb5008e6f539a3d843e1b3eb01e3f9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.MouseButton::Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <qualifiedname>mrviewerpy.MouseButton.Left</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="67" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrviewerpy_1_1MouseButton_1ada219ac60cf9ad60443781b1a5d98562" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.MouseButton::Middle</definition>
+        <argsstring></argsstring>
+        <name>Middle</name>
+        <qualifiedname>mrviewerpy.MouseButton.Middle</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrviewerpy_1_1MouseButton_1a9380a5f6f96e214a67f31ec306f87cbf" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.MouseButton::Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <qualifiedname>mrviewerpy.MouseButton.Right</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="69" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrviewerpy_1_1MouseButton_1ab59b38ad61a5e14b7cf6b9eeb718e660" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.MouseButton::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a57d1a0543cf4ee0c0bbbb970260ffb50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrviewerpy.MouseButton.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="71" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a38af1345f9392c6aa6c4b195f2e9b138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.MouseButton.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="73" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1abd811ff1d07526f1b13fd20f6a1abb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.MouseButton.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="75" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="75" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1ac5d01bf90b9f86de58f7c4b33747575d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.MouseButton.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="77" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a874503ed08071caca66d920841839e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.MouseButton.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="79" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a6904b07f845560235908972cb578cb5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.MouseButton.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="81" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1ad68ee7e14dad671d2cb4b4bde478dfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrviewerpy.MouseButton.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="83" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="83" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a1d4510c10a24c423d2762d2aff22ea05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.MouseButton.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="85" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="85" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1ad2c6ae16775f1e36b65813526204cb70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.MouseButton.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="87" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="87" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a5526bd5099583207a25be1ddaf78a908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.MouseButton.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrviewerpy.MouseButton.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="89" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1a581099cb087a341271271a7d45da906a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.MouseButton.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrviewerpy.MouseButton.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="92" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1MouseButton_1af002ea3c8afc833514c7088b162e88a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.MouseButton.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrviewerpy.MouseButton.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="95" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Left
+
+  Right
+
+  Middle
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrviewerpy.MouseButton</label>
+        <link refid="classmrviewerpy_1_1MouseButton"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Left</edgelabel>
+          <edgelabel>Middle</edgelabel>
+          <edgelabel>Right</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="57" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1MouseButton_1a57d1a0543cf4ee0c0bbbb970260ffb50" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__eq__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a38af1345f9392c6aa6c4b195f2e9b138" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__getstate__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1abd811ff1d07526f1b13fd20f6a1abb18" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__hash__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1ac5d01bf90b9f86de58f7c4b33747575d" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__index__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a874503ed08071caca66d920841839e6e" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__init__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a6904b07f845560235908972cb578cb5b" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__int__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1ab59b38ad61a5e14b7cf6b9eeb718e660" prot="private" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__members__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1ad68ee7e14dad671d2cb4b4bde478dfd7" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__ne__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a1d4510c10a24c423d2762d2aff22ea05" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__repr__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1ad2c6ae16775f1e36b65813526204cb70" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__setstate__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a5526bd5099583207a25be1ddaf78a908" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>__str__</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1acbcb5008e6f539a3d843e1b3eb01e3f9" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>Left</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1ada219ac60cf9ad60443781b1a5d98562" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>Middle</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a581099cb087a341271271a7d45da906a" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>name</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1a9380a5f6f96e214a67f31ec306f87cbf" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>Right</name></member>
+      <member refid="classmrviewerpy_1_1MouseButton_1af002ea3c8afc833514c7088b162e88a9" prot="public" virt="non-virtual"><scope>mrviewerpy::MouseButton</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

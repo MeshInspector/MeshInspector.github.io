@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineMaker" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineMaker</compoundname>
+    <includes refid="MRPolylineTopology_8h" local="no">MRPolylineTopology.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineMaker_1a8235ea5e1d4e4a8485abb6d0d548fbba" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
+        <definition>PolylineTopology&amp; MR::PolylineMaker::topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR::PolylineMaker::topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="342" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineMaker_1af40f932e2b6c35a118333ea82cae91ea" prot="private" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::PolylineMaker::e0_</definition>
+        <argsstring></argsstring>
+        <name>e0_</name>
+        <qualifiedname>MR::PolylineMaker::e0_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="380" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineMaker_1ae66bdcca134da14e2ccd252d0f4fa12e" prot="private" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::PolylineMaker::eLast_</definition>
+        <argsstring></argsstring>
+        <name>eLast_</name>
+        <qualifiedname>MR::PolylineMaker::eLast_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="380" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PolylineMaker_1a8c386bea061f3eab0448adbfa67dceb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PolylineMaker::PolylineMaker</definition>
+        <argsstring>(PolylineTopology &amp;t)</argsstring>
+        <name>PolylineMaker</name>
+        <qualifiedname>MR::PolylineMaker::PolylineMaker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="343" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="343" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineMaker_1a4728051228e7a8b6910c567e9a075840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::PolylineMaker::start</definition>
+        <argsstring>(VertId v)</argsstring>
+        <name>start</name>
+        <qualifiedname>MR::PolylineMaker::start</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates first edge of polyline <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first vertex of the polyline </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="347" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="347" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineMaker_1abaa25d6997f93c9797a20cf3975b2eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::PolylineMaker::proceed</definition>
+        <argsstring>(VertId v)</argsstring>
+        <name>proceed</name>
+        <qualifiedname>MR::PolylineMaker::proceed</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes next edge of polyline <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>next vertex of the polyline </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="356" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="356" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineMaker_1a6b10efd85c33f60e8896d7ce1971364f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PolylineMaker::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <qualifiedname>MR::PolylineMaker::close</qualifiedname>
+        <briefdescription>
+<para>closes the polyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="365" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="365" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineMaker_1a4a15b5f552bb650a6fab86110c95ad3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PolylineMaker::finishOpen</definition>
+        <argsstring>(VertId v)</argsstring>
+        <name>finishOpen</name>
+        <qualifiedname>MR::PolylineMaker::finishOpen</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>finishes the polyline adding final vertex in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="372" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="372" bodyend="377"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>simplifies construction of connected polyline in the topology </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::PolylineMaker</label>
+        <link refid="structMR_1_1PolylineMaker"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PolylineTopology</label>
+        <link refid="classMR_1_1PolylineTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="341" bodyend="381"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineMaker_1a6b10efd85c33f60e8896d7ce1971364f" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>close</name></member>
+      <member refid="structMR_1_1PolylineMaker_1af40f932e2b6c35a118333ea82cae91ea" prot="private" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>e0_</name></member>
+      <member refid="structMR_1_1PolylineMaker_1ae66bdcca134da14e2ccd252d0f4fa12e" prot="private" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>eLast_</name></member>
+      <member refid="structMR_1_1PolylineMaker_1a4a15b5f552bb650a6fab86110c95ad3f" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>finishOpen</name></member>
+      <member refid="structMR_1_1PolylineMaker_1a8c386bea061f3eab0448adbfa67dceb0" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
+      <member refid="structMR_1_1PolylineMaker_1abaa25d6997f93c9797a20cf3975b2eef" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>proceed</name></member>
+      <member refid="structMR_1_1PolylineMaker_1a4728051228e7a8b6910c567e9a075840" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>start</name></member>
+      <member refid="structMR_1_1PolylineMaker_1a8235ea5e1d4e4a8485abb6d0d548fbba" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>topology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

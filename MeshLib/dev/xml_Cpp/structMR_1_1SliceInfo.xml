@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SliceInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SliceInfo</compoundname>
+    <basecompoundref refid="structMR_1_1SliceInfoBase" prot="public" virt="non-virtual">MR::SliceInfoBase</basecompoundref>
+    <includes refid="MRScanHelpers_8h" local="no">MRScanHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SliceInfo_1a44785160df691c40ebdf392f66282315" prot="public" static="no" mutable="no">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::SliceInfo::imagePos</definition>
+        <argsstring></argsstring>
+        <name>imagePos</name>
+        <qualifiedname>MR::SliceInfo::imagePos</qualifiedname>
+        <briefdescription>
+<para>image position </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="33" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>slice information these fields will be ignored in sorting <simplesect kind="see"><para><ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::SliceInfo</label>
+        <link refid="structMR_1_1SliceInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SliceInfoBase</label>
+        <link refid="structMR_1_1SliceInfoBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::SliceInfo</label>
+        <link refid="structMR_1_1SliceInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SliceInfoBase</label>
+        <link refid="structMR_1_1SliceInfoBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="31" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SliceInfoBase_1a0f4b29a9c38aac83de066f74ddc95c4d" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>fileNum</name></member>
+      <member refid="structMR_1_1SliceInfo_1a44785160df691c40ebdf392f66282315" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>imagePos</name></member>
+      <member refid="structMR_1_1SliceInfoBase_1ae54aec5158705c1e248f53879d6639cf" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>instanceNum</name></member>
+      <member refid="structMR_1_1SliceInfoBase_1a2d712987f45ca23b27e048c4decf6293" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="structMR_1_1SliceInfoBase_1a1c860dd386f07581661cc74f394a1470" prot="public" virt="non-virtual"><scope>MR::SliceInfo</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

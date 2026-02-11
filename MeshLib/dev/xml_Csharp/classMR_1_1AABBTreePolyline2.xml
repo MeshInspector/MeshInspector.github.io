@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AABBTreePolyline2" kind="class" language="C#" prot="public">
+    <compoundname>MR::AABBTreePolyline2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreePolyline2</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1aee37908c870676c62cd73d9fdb2d96af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.AABBTreePolyline2.operator MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</definition>
+        <argsstring>(AABBTreePolyline2 self)</argsstring>
+        <name>operator MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</name>
+        <qualifiedname>MR.AABBTreePolyline2.operator MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreePolyline2" kindref="compound">AABBTreePolyline2</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="200" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="200" bodyend="207"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1a32ce5794a4c5b1dfe741c18a3a5dafce" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreePolyline2.AABBTreePolyline2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>AABBTreePolyline2</name>
+        <qualifiedname>MR.AABBTreePolyline2.AABBTreePolyline2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="209" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="209" bodyend="209"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1a1a3886e9949968030bd9ffc321a3ade0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreePolyline2.AABBTreePolyline2</definition>
+        <argsstring>()</argsstring>
+        <name>AABBTreePolyline2</name>
+        <qualifiedname>MR.AABBTreePolyline2.AABBTreePolyline2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="214" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="214" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1a14dbccf82b8605444e0bfa9ead2d5987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreePolyline2.AABBTreePolyline2</definition>
+        <argsstring>(MR._ByValue_AABBTreePolyline2 _other)</argsstring>
+        <name>AABBTreePolyline2</name>
+        <qualifiedname>MR.AABBTreePolyline2.AABBTreePolyline2</qualifiedname>
+        <param>
+          <type>MR._ByValue_AABBTreePolyline2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.AABBTreePolyline2.AABBTreePolyline2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="224" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="224" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1aaf772ea3502c7441b1706fa172fec74e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreePolyline2.AABBTreePolyline2</definition>
+        <argsstring>(MR.Const_Polyline2 polyline)</argsstring>
+        <name>AABBTreePolyline2</name>
+        <qualifiedname>MR.AABBTreePolyline2.AABBTreePolyline2</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+<para>creates tree for given polyline Generated from constructor <computeroutput>MR.AABBTreePolyline2.AABBTreePolyline2</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="236" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="236" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1a6e5004793e047f07d950eb8f8a40c466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AABBTreePolyline2" kindref="compound">MR.AABBTreePolyline2</ref></type>
+        <definition>unsafe MR.AABBTreePolyline2 MR.AABBTreePolyline2.assign</definition>
+        <argsstring>(MR._ByValue_AABBTreePolyline2 _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.AABBTreePolyline2.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_AABBTreePolyline2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AABBTreePolyline2.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="247" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="247" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePolyline2_1ae88e9fa7e3a63e0387f04e0a5d2bf4f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AABBTreePolyline2.getLeafOrderAndReset</definition>
+        <argsstring>(MR.UndirectedEdgeBMap leafMap)</argsstring>
+        <name>getLeafOrderAndReset</name>
+        <qualifiedname>MR.AABBTreePolyline2.getLeafOrderAndReset</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBMap" kindref="compound">MR.UndirectedEdgeBMap</ref></type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePolyline2_1ae88e9fa7e3a63e0387f04e0a5d2bf4f0" kindref="member">MR.AABBTreePolyline2.getLeafOrderAndReset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="264" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="264" bodyend="269"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>bounding volume hierarchy for line segments Generated from class <computeroutput><ref refid="classMR_1_1AABBTreePolyline2" kindref="compound">MR.AABBTreePolyline2</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AABBTreeBase&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&gt;&gt;</computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_AABBTreePolyline2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AABBTreePolyline2</label>
+        <link refid="classMR_1_1AABBTreePolyline2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_AABBTreePolyline2 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_AABBTreePolyline2</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AABBTreePolyline2</label>
+        <link refid="classMR_1_1AABBTreePolyline2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_AABBTreePolyline2 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="197" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="198" bodyend="270"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AABBTreePolyline2_1a32ce5794a4c5b1dfe741c18a3a5dafce" prot="package" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1AABBTreePolyline2_1a1a3886e9949968030bd9ffc321a3ade0" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1AABBTreePolyline2_1a14dbccf82b8605444e0bfa9ead2d5987" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1AABBTreePolyline2_1aaf772ea3502c7441b1706fa172fec74e" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1AABBTreePolyline2_1a6e5004793e047f07d950eb8f8a40c466" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>assign</name></member>
+      <member refid="classMR_1_1AABBTreePolyline2_1ae88e9fa7e3a63e0387f04e0a5d2bf4f0" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1AABBTreePolyline2_1aee37908c870676c62cd73d9fdb2d96af" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline2</scope><name>operator MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

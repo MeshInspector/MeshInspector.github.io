@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertBMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertBMap</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertBMap_1a3b43d1a085657a606885a1d9892fe4ac" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertBMap::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.VertBMap._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertBMap_1aa2dae5d083c8bb5d9070fc8136fe719a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertBMap::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.VertBMap._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69917" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBMap_1af961f524bed48f365a207989e1b16ae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertBMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69918" bodyend="69919"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBMap_1a7dc0588fcf4893f669c9d3050e1d744d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__VertId__VertId" kindref="compound">Buffer_VertId_VertId</ref></type>
+        <definition> Buffer_VertId_VertId mrmeshpy.VertBMap.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.VertBMap.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69921" bodyend="69922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBMap_1ab44b478450714a2c670f4e21fe343081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertBMap.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.VertBMap.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69924" bodyend="69927"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBMap_1aded3350ff29c4fea2f261236d876e117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertBMap.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.VertBMap.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69929" bodyend="69930"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VertBMap
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VertBMap</label>
+        <link refid="classmrmeshpy_1_1VertBMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69910" bodyend="69930"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertBMap_1af961f524bed48f365a207989e1b16ae2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertBMap_1a3b43d1a085657a606885a1d9892fe4ac" prot="protected" virt="non-virtual"><scope>mrmeshpy::VertBMap</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1VertBMap_1aa2dae5d083c8bb5d9070fc8136fe719a" prot="protected" virt="non-virtual"><scope>mrmeshpy::VertBMap</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1VertBMap_1a7dc0588fcf4893f669c9d3050e1d744d" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBMap</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1VertBMap_1ab44b478450714a2c670f4e21fe343081" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBMap</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1VertBMap_1aded3350ff29c4fea2f261236d876e117" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBMap</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

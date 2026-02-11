@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AlignType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AlignType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlignType_1a22fbf25a15407460ea7721ef5636d9b1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlignType::Center</definition>
+        <argsstring></argsstring>
+        <name>Center</name>
+        <qualifiedname>mrmeshpy.AlignType.Center</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlignType_1a07aedae05cb588479d8d0264cd3dfac5" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlignType::Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <qualifiedname>mrmeshpy.AlignType.Left</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlignType_1af0b5a7826ae92c6762e6011efbde8d95" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlignType::Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <qualifiedname>mrmeshpy.AlignType.Right</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1500" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlignType_1ace3eca6fcd6696cd0d3614337966732e" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlignType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.AlignType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1501" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a8df5ef7654deb4c509401a81493a0d02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AlignType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.AlignType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1502" bodyend="1503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a81e0cee4dbd21b255ae1de4caa79c50b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AlignType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.AlignType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1504" bodyend="1505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1ae91f2408fe2ed2dda38e9b2cf2a655d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AlignType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.AlignType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1506" bodyend="1507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1ad5c18b99b787b3b002a1b08e7efb87c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AlignType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.AlignType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1508" bodyend="1509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a7f60ff72ef504a9a5e0f87c72f18a338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlignType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlignType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1510" bodyend="1511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a5cd4483394d0aa3bdd8f722e39ddd08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AlignType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.AlignType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1512" bodyend="1513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a680bae46753be79c1bd849f65536278e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AlignType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.AlignType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1514" bodyend="1515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1abe0afb5f4d64037e333912429788db17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AlignType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.AlignType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1516" bodyend="1517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a821d55075c30a6a0b8ec9e4116ca5059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlignType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.AlignType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1518" bodyend="1519"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a6daae1c0415b95e01e72fecce025205b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AlignType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.AlignType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1520" bodyend="1521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a0813ee08c41dfc7286ccf7c8e5d8b973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AlignType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.AlignType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1523" bodyend="1524"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlignType_1a8460652d54553284873c0fbe14f5d2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AlignType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.AlignType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1526" bodyend="1527"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Left
+
+  Center
+
+  Right
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AlignType</label>
+        <link refid="classmrmeshpy_1_1AlignType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Center</edgelabel>
+          <edgelabel>Left</edgelabel>
+          <edgelabel>Right</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1488" bodyend="1527"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AlignType_1a8df5ef7654deb4c509401a81493a0d02" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a81e0cee4dbd21b255ae1de4caa79c50b" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1ae91f2408fe2ed2dda38e9b2cf2a655d0" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1ad5c18b99b787b3b002a1b08e7efb87c9" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a7f60ff72ef504a9a5e0f87c72f18a338" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a5cd4483394d0aa3bdd8f722e39ddd08d" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1ace3eca6fcd6696cd0d3614337966732e" prot="private" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a680bae46753be79c1bd849f65536278e" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1abe0afb5f4d64037e333912429788db17" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a821d55075c30a6a0b8ec9e4116ca5059" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a6daae1c0415b95e01e72fecce025205b" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a22fbf25a15407460ea7721ef5636d9b1" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>Center</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a07aedae05cb588479d8d0264cd3dfac5" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>Left</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a0813ee08c41dfc7286ccf7c8e5d8b973" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1af0b5a7826ae92c6762e6011efbde8d95" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>Right</name></member>
+      <member refid="classmrmeshpy_1_1AlignType_1a8460652d54553284873c0fbe14f5d2e3" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

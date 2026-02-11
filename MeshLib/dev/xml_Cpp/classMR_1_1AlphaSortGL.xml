@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AlphaSortGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::AlphaSortGL</compoundname>
+    <includes refid="MRAlphaSortGL_8h" local="no">MRAlphaSortGL.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int MR::AlphaSortGL::GLuint</definition>
+        <argsstring></argsstring>
+        <name>GLuint</name>
+        <qualifiedname>MR::AlphaSortGL::GLuint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="9" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1a0454bd66896c6920f95935a9b912c86c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::AlphaSortGL::inited_</definition>
+        <argsstring></argsstring>
+        <name>inited_</name>
+        <qualifiedname>MR::AlphaSortGL::inited_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1a75952c43ce2023a5846fe2c217aade68" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::AlphaSortGL::width_</definition>
+        <argsstring></argsstring>
+        <name>width_</name>
+        <qualifiedname>MR::AlphaSortGL::width_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1a5ed7fc2e1aa975289be84b4edad85900" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::AlphaSortGL::height_</definition>
+        <argsstring></argsstring>
+        <name>height_</name>
+        <qualifiedname>MR::AlphaSortGL::height_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1a52508ec269eec967e59b2b66b21b7064" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::AlphaSortGL::transparency_quad_vbo</definition>
+        <argsstring></argsstring>
+        <name>transparency_quad_vbo</name>
+        <qualifiedname>MR::AlphaSortGL::transparency_quad_vbo</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="30" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1aaa8e6a0cf08119d12bf967037d14b163" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::AlphaSortGL::transparency_quad_vao</definition>
+        <argsstring></argsstring>
+        <name>transparency_quad_vao</name>
+        <qualifiedname>MR::AlphaSortGL::transparency_quad_vao</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1aa1d9663df2593527774931d650f4eb07" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::AlphaSortGL::transparency_heads_texture_vbo</definition>
+        <argsstring></argsstring>
+        <name>transparency_heads_texture_vbo</name>
+        <qualifiedname>MR::AlphaSortGL::transparency_heads_texture_vbo</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1a22d434ab88fc814c368503391ecbf9ce" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::AlphaSortGL::transparency_shared_shader_data_vbo</definition>
+        <argsstring></argsstring>
+        <name>transparency_shared_shader_data_vbo</name>
+        <qualifiedname>MR::AlphaSortGL::transparency_shared_shader_data_vbo</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1ae664db9403426212925c2830af13a450" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::AlphaSortGL::transparency_atomic_counter_vbo</definition>
+        <argsstring></argsstring>
+        <name>transparency_atomic_counter_vbo</name>
+        <qualifiedname>MR::AlphaSortGL::transparency_atomic_counter_vbo</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="34" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AlphaSortGL_1a092a3e3580628d2319d36f5389f87b26" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::AlphaSortGL::transparency_static_clean_vbo</definition>
+        <argsstring></argsstring>
+        <name>transparency_static_clean_vbo</name>
+        <qualifiedname>MR::AlphaSortGL::transparency_static_clean_vbo</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="35" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AlphaSortGL_1a1dd61ddfaca7ad57995cff3e85436742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::AlphaSortGL::~AlphaSortGL</definition>
+        <argsstring>()</argsstring>
+        <name>~AlphaSortGL</name>
+        <qualifiedname>MR::AlphaSortGL::~AlphaSortGL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="11" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaSortGL_1aba382f76f34a17ef1f0536debd4b6683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AlphaSortGL::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <qualifiedname>MR::AlphaSortGL::init</qualifiedname>
+        <briefdescription>
+<para>Initialize all GL buffers and arrays. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="14" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaSortGL_1ac0008d001179507a880971efa7b03847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AlphaSortGL::free</definition>
+        <argsstring>()</argsstring>
+        <name>free</name>
+        <qualifiedname>MR::AlphaSortGL::free</qualifiedname>
+        <briefdescription>
+<para>Free all GL data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="16" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaSortGL_1aa3555625f912cb6a3c62641f8cdb5653" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AlphaSortGL::clearTransparencyTextures</definition>
+        <argsstring>() const</argsstring>
+        <name>clearTransparencyTextures</name>
+        <qualifiedname>MR::AlphaSortGL::clearTransparencyTextures</qualifiedname>
+        <briefdescription>
+<para>Set all textures used for alpha sorting to zero (heads texture, atomics texture) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="19" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaSortGL_1a8ce534a2e3836fdcf88ee61badbb7eac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AlphaSortGL::drawTransparencyTextureToScreen</definition>
+        <argsstring>() const</argsstring>
+        <name>drawTransparencyTextureToScreen</name>
+        <qualifiedname>MR::AlphaSortGL::drawTransparencyTextureToScreen</qualifiedname>
+        <briefdescription>
+<para>Draws alpha sorting overlay quad texture to screen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="21" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaSortGL_1aab9cdfaf33634bcf9bae0eec5a82ebb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AlphaSortGL::updateTransparencyTexturesSize</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>updateTransparencyTexturesSize</name>
+        <qualifiedname>MR::AlphaSortGL::updateTransparencyTexturesSize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Updates size of textures used in alpha sorting (according to viewport size) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="23" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="6" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AlphaSortGL_1aa3555625f912cb6a3c62641f8cdb5653" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>clearTransparencyTextures</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a8ce534a2e3836fdcf88ee61badbb7eac" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>drawTransparencyTextureToScreen</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1ac0008d001179507a880971efa7b03847" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>free</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a29e1a40f8ddae233dc49511e5daa9200" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>GLuint</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a5ed7fc2e1aa975289be84b4edad85900" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>height_</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1aba382f76f34a17ef1f0536debd4b6683" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>init</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a0454bd66896c6920f95935a9b912c86c" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>inited_</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1ae664db9403426212925c2830af13a450" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_atomic_counter_vbo</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1aa1d9663df2593527774931d650f4eb07" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_heads_texture_vbo</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1aaa8e6a0cf08119d12bf967037d14b163" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_quad_vao</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a52508ec269eec967e59b2b66b21b7064" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_quad_vbo</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a22d434ab88fc814c368503391ecbf9ce" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_shared_shader_data_vbo</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a092a3e3580628d2319d36f5389f87b26" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_static_clean_vbo</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1aab9cdfaf33634bcf9bae0eec5a82ebb9" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>updateTransparencyTexturesSize</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a75952c43ce2023a5846fe2c217aade68" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>width_</name></member>
+      <member refid="classMR_1_1AlphaSortGL_1a1dd61ddfaca7ad57995cff3e85436742" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>~AlphaSortGL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

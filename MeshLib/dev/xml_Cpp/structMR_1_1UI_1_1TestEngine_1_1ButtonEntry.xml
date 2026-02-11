@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::ButtonEntry</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRUITestEngine.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1a09f3fe261438edd0071ac8dd34a503a1" prot="public" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool MR::UI::TestEngine::ButtonEntry::simulateClick</definition>
+        <argsstring></argsstring>
+        <name>simulateClick</name>
+        <qualifiedname>MR::UI::TestEngine::ButtonEntry::simulateClick</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Set this to true to simulate a button click. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="108" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1ae266c30a230c916a84c4bc1704ab96d2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::UI::TestEngine::ButtonEntry::kindName</definition>
+        <argsstring></argsstring>
+        <name>kindName</name>
+        <qualifiedname>MR::UI::TestEngine::ButtonEntry::kindName</qualifiedname>
+        <initializer>= &quot;button&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="110" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="106" bodyend="111"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1ae266c30a230c916a84c4bc1704ab96d2" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ButtonEntry</scope><name>kindName</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1a09f3fe261438edd0071ac8dd34a503a1" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ButtonEntry</scope><name>simulateClick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

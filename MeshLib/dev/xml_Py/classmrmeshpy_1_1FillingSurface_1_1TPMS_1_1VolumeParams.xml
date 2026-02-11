@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface::TPMS::VolumeParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public" virt="non-virtual">mrmeshpy.FillingSurface.TPMS.MeshParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1af11dbd3974914f884fe39b19a0101801" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.VolumeParams::_offsetof_frequency</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_frequency</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams._offsetof_frequency</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aa3b8f6fa11dbf3af4054cfa62e60ff1f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.VolumeParams::_offsetof_resolution</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_resolution</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams._offsetof_resolution</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1adce121483c5da7ce577efe3fadd427d7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.VolumeParams::_offsetof_type</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_type</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams._offsetof_type</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19763" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a42dc2f07ed688e680ef4d3a0631cf771" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19766" bodyend="19767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9a5d7ab7eb8860227ee9f025cda7e5c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">FillingSurface.TPMS.VolumeParams</ref></type>
+        <definition> FillingSurface.TPMS.VolumeParams mrmeshpy.FillingSurface.TPMS.VolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1afcc57ea4156360d1912bff44dcb96a10">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1afcc57ea4156360d1912bff44dcb96a10">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19770" bodyend="19771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9a5d7ab7eb8860227ee9f025cda7e5c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">FillingSurface.TPMS.VolumeParams</ref></type>
+        <definition> FillingSurface.TPMS.VolumeParams mrmeshpy.FillingSurface.TPMS.VolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1afcc57ea4156360d1912bff44dcb96a10">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1afcc57ea4156360d1912bff44dcb96a10">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19774" bodyend="19775"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a543cb98da621056781b29a030ef9c1d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19777" bodyend="19778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a617bf41d7c76392e0d9a027e3fcdbed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</definition>
+        <argsstring>(self, FillingSurface.TPMS.VolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">FillingSurface.TPMS.VolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19780" bodyend="19783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a8f354172230e02cf805441bb047febc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</definition>
+        <argsstring>(self, FillingSurface.TPMS.Type type, float frequency, float resolution)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19785" bodyend="19788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aac667a15167043878d6b6c5e7c4dad7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.TPMS.VolumeParams.frequency</definition>
+        <argsstring>(self)</argsstring>
+        <name>frequency</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.frequency</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Frequency of oscillations (determines size of the &quot;cells&quot; in the &quot;grid&quot;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19790" bodyend="19793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1add818e7d0c2b1ca0f444b85baf99f7c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.frequency</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>frequency</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.frequency</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19795" bodyend="19796"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ac4ae779abf6b89858e5d3da1d2bdbfd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.TPMS.VolumeParams.resolution</definition>
+        <argsstring>(self)</argsstring>
+        <name>resolution</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.resolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Ratio `n / T`, between the number of voxels and period of oscillations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19798" bodyend="19801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a7197046985085ea7e4af681137726a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.resolution</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>resolution</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.resolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19803" bodyend="19804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a7968fb3bbfc884b49c6ea1a608e4121b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+        <definition> FillingSurface.TPMS.Type mrmeshpy.FillingSurface.TPMS.VolumeParams.type</definition>
+        <argsstring>(self)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Type of the surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19806" bodyend="19809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9e9ee33417a4f3112b7da6ef4e12e0aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.VolumeParams.type</definition>
+        <argsstring>(self, FillingSurface.TPMS.Type arg1)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19811" bodyend="19813"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FillingSurface::TPMS::VolumeParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.FillingSurface.TPMS.VolumeParams</label>
+        <link refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FillingSurface.TPMS.MeshParams</label>
+        <link refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillingSurface.TPMS.VolumeParams</label>
+        <link refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_frequency</edgelabel>
+          <edgelabel>_offsetof_resolution</edgelabel>
+          <edgelabel>_offsetof_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19757" bodyend="19812"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a42dc2f07ed688e680ef4d3a0631cf771" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a543cb98da621056781b29a030ef9c1d7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a617bf41d7c76392e0d9a027e3fcdbed9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a8f354172230e02cf805441bb047febc3" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1af11dbd3974914f884fe39b19a0101801" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>_offsetof_frequency</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aa3b8f6fa11dbf3af4054cfa62e60ff1f" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>_offsetof_resolution</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1adce121483c5da7ce577efe3fadd427d7" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>_offsetof_type</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aac667a15167043878d6b6c5e7c4dad7f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>frequency</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1add818e7d0c2b1ca0f444b85baf99f7c7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>frequency</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9a5d7ab7eb8860227ee9f025cda7e5c7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9a5d7ab7eb8860227ee9f025cda7e5c7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ac4ae779abf6b89858e5d3da1d2bdbfd3" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>resolution</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a7197046985085ea7e4af681137726a78" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>resolution</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a7968fb3bbfc884b49c6ea1a608e4121b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>type</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9e9ee33417a4f3112b7da6ef4e12e0aa" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

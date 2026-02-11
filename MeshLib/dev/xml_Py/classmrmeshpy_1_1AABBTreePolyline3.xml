@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AABBTreePolyline3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AABBTreePolyline3</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f" prot="public" virt="non-virtual">mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePolyline3_1adefbc8798e09252111ce0aade24d52e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePolyline3.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePolyline3.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aed1b0b76fd5610588bd2892bbbd9ad72">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1006" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePolyline3_1a5a1336c6bb85fd26e1421a1252a55e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePolyline3.__init__</definition>
+        <argsstring>(self, Polyline3 polyline)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePolyline3.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aed1b0b76fd5610588bd2892bbbd9ad72">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree for given polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1009" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePolyline3_1aa57a293f118f3131053d7757459d8509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePolyline3.__init__</definition>
+        <argsstring>(self, Mesh mesh, UndirectedEdgeBitSet edgeSet)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePolyline3.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aed1b0b76fd5610588bd2892bbbd9ad72">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>edgeSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree for selected edges on the mesh (only for 3d tree)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1014" bodyend="1017"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AABBTreePolyline3
+
+bounding volume hierarchy for line segments
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreePolyline3</label>
+        <link refid="classmrmeshpy_1_1AABBTreePolyline3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreePolyline3</label>
+        <link refid="classmrmeshpy_1_1AABBTreePolyline3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="999" bodyend="1017"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreePolyline3_1adefbc8798e09252111ce0aade24d52e4" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePolyline3_1a5a1336c6bb85fd26e1421a1252a55e94" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePolyline3_1aa57a293f118f3131053d7757459d8509" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__init__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

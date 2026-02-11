@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ObjectSave" kind="namespace" language="C++">
+    <compoundname>MR::ObjectSave</compoundname>
+    <innerclass refid="structMR_1_1ObjectSave_1_1Settings" prot="public">MR::ObjectSave::Settings</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref> &amp;)</type>
+        <definition>using MR::ObjectSave::ObjectSaver =  Expected&lt;void&gt;( * )( const Object&amp;, const std::filesystem::path&amp;, const Settings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>ObjectSaver</name>
+        <qualifiedname>MR::ObjectSave::ObjectSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1ObjectSave_1a69e0def5ecc5e5bf5dc89d3a4fe892ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::ObjectSave::toAnySupportedSceneFormat</definition>
+        <argsstring>(const Object &amp;object, const std::filesystem::path &amp;file, const Settings &amp;settings={})</argsstring>
+        <name>toAnySupportedSceneFormat</name>
+        <qualifiedname>MR::ObjectSave::toAnySupportedSceneFormat</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save an object tree to a given file file format must be scene-capable </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSave.h" line="17" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSave.h" declline="17" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ObjectSave_1add2495742f624ca0843f8ace8045dce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::ObjectSave::toAnySupportedFormat</definition>
+        <argsstring>(const Object &amp;object, const std::filesystem::path &amp;file, const Settings &amp;settings={})</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR::ObjectSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save a scene object to a given file if the file format is scene-capable, saves all the object&apos;s entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSave.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSave.h" declline="23" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1ObjectLoad" kindref="compound">ObjectLoad</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="323" column="1"/>
+  </compounddef>
+</doxygen>

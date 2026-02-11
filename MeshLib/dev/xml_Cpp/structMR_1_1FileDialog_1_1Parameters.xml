@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FileDialog_1_1Parameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FileDialog::Parameters</compoundname>
+    <basecompoundref refid="structMR_1_1FileParameters" prot="public" virt="non-virtual">MR::FileParameters</basecompoundref>
+    <includes refid="MRFileDialog_8h" local="no">MRFileDialog.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FileDialog_1_1Parameters_1acb4f09069a5538c14fe2e0553c3569d1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FileDialog::Parameters::folderDialog</definition>
+        <argsstring></argsstring>
+        <name>folderDialog</name>
+        <qualifiedname>MR::FileDialog::Parameters::folderDialog</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="87" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FileDialog_1_1Parameters_1a3b16808165abc1930db418e488d58225" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FileDialog::Parameters::multiselect</definition>
+        <argsstring></argsstring>
+        <name>multiselect</name>
+        <qualifiedname>MR::FileDialog::Parameters::multiselect</qualifiedname>
+        <initializer>{true}</initializer>
+        <briefdescription>
+<para>open dialog only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="88" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FileDialog_1_1Parameters_1a5957d3b8f636e18b3629def114de4b46" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FileDialog::Parameters::saveDialog</definition>
+        <argsstring></argsstring>
+        <name>saveDialog</name>
+        <qualifiedname>MR::FileDialog::Parameters::saveDialog</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>open dialog only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="89" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FileDialog::Parameters</label>
+        <link refid="structMR_1_1FileDialog_1_1Parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FileParameters</label>
+        <link refid="structMR_1_1FileParameters"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FileDialog::Parameters</label>
+        <link refid="structMR_1_1FileDialog_1_1Parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FileParameters</label>
+        <link refid="structMR_1_1FileParameters"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="85" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="86" bodyend="90"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FileParameters_1a4712ec5afb78d48f6b26fd4813a720e7" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>baseFolder</name></member>
+      <member refid="structMR_1_1FileParameters_1a136b19b9c9c5b93c2788ccacc848e219" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>fileName</name></member>
+      <member refid="structMR_1_1FileParameters_1af94f67fb7131833e77aa1c32e60f68d1" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>filters</name></member>
+      <member refid="structMR_1_1FileDialog_1_1Parameters_1acb4f09069a5538c14fe2e0553c3569d1" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>folderDialog</name></member>
+      <member refid="structMR_1_1FileDialog_1_1Parameters_1a3b16808165abc1930db418e488d58225" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>multiselect</name></member>
+      <member refid="structMR_1_1FileDialog_1_1Parameters_1a5957d3b8f636e18b3629def114de4b46" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>saveDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

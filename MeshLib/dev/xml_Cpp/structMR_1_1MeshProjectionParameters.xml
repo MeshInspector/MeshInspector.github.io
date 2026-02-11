@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshProjectionParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshProjectionParameters</compoundname>
+    <includes refid="MRPointsToMeshProjector_8h" local="no">MRPointsToMeshProjector.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshProjectionParameters_1a1c122d1dc6393cbf06a33b2b7d33ef8e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MeshProjectionParameters::loDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>MR::MeshProjectionParameters::loDistLimitSq</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="31" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshProjectionParameters_1a93e080458c496f555a43b92f40f7e547" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MeshProjectionParameters::upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>MR::MeshProjectionParameters::upDistLimitSq</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshProjectionParameters_1a758389fe44297258e47fdd1ef104916b" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::MeshProjectionParameters::refXf</definition>
+        <argsstring></argsstring>
+        <name>refXf</name>
+        <qualifiedname>MR::MeshProjectionParameters::refXf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional reference mesh to world transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="38" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshProjectionParameters_1a7ce5f16c30935b50d1c953fc917000dc" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::MeshProjectionParameters::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::MeshProjectionParameters::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional test points to world transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="41" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="28" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshProjectionParameters_1a1c122d1dc6393cbf06a33b2b7d33ef8e" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="structMR_1_1MeshProjectionParameters_1a758389fe44297258e47fdd1ef104916b" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>refXf</name></member>
+      <member refid="structMR_1_1MeshProjectionParameters_1a93e080458c496f555a43b92f40f7e547" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="structMR_1_1MeshProjectionParameters_1a7ce5f16c30935b50d1c953fc917000dc" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

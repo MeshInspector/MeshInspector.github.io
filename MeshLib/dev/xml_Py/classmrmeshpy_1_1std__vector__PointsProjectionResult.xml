@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__PointsProjectionResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_PointsProjectionResult</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1adc5f1a2d3ccc31fae8a2fc63e3c71a25" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_PointsProjectionResult::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86569" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aea05b0fae2e846c8d16ae66ec0ec9127" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_PointsProjectionResult::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.element_type_byte_size</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86570" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ab5c573dcc83467880490ec70576e4c40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointsProjectionResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86571" bodyend="86574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ae8ce23c6c48ae7067e05f63c2925e52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointsProjectionResult.__contains__</definition>
+        <argsstring>(self, PointsProjectionResult x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86575" bodyend="86578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a08a82811e6b4539f709c57ac52f32d59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86580" bodyend="86583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a84a4c2731af592c44631e1bcfeee226c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86585" bodyend="86588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a21550cfac269acc56966798938c44716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointsProjectionResult.__eq__</definition>
+        <argsstring>(self, std_vector_PointsProjectionResult arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointsProjectionResult" kindref="compound">std_vector_PointsProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86589" bodyend="86590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a2b6f857550baad41fb6e3b3322c9e6ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__PointsProjectionResult" kindref="compound">std_vector_PointsProjectionResult</ref></type>
+        <definition> std_vector_PointsProjectionResult mrmeshpy.std_vector_PointsProjectionResult.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86592" bodyend="86595"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a46b42891f340f09184da95eb031e4f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+        <definition> PointsProjectionResult mrmeshpy.std_vector_PointsProjectionResult.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86597" bodyend="86598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ab0afbc2c1f55e6229b81233b0c57ee89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86600" bodyend="86601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ada304a68c5927f82e3183e2ab2dc9320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86603" bodyend="86604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1acea9d2e6ac434bcd433c8e0468be612c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__init__</definition>
+        <argsstring>(self, std_vector_PointsProjectionResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointsProjectionResult" kindref="compound">std_vector_PointsProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86606" bodyend="86607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1afd6a510251470547c19bee3dac8186e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref>]</type>
+        <definition> typing.Iterator[PointsProjectionResult] mrmeshpy.std_vector_PointsProjectionResult.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86608" bodyend="86609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ab266936a1040fe1169ab93d35d59068a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointsProjectionResult.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86610" bodyend="86611"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a06faa60d1e16f2f8c48a6006216f0550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointsProjectionResult.__ne__</definition>
+        <argsstring>(self, std_vector_PointsProjectionResult arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointsProjectionResult" kindref="compound">std_vector_PointsProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86612" bodyend="86613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aef78907e680fd54711ec9bbbb5c9cc6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__setitem__</definition>
+        <argsstring>(self, int arg0, PointsProjectionResult arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86615" bodyend="86616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aad43e452811a4ce4357b49440e32c489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_PointsProjectionResult arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointsProjectionResult" kindref="compound">std_vector_PointsProjectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86618" bodyend="86621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a291c332d8e014ed9b7b12d6fec056d87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.append</definition>
+        <argsstring>(self, PointsProjectionResult x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86622" bodyend="86625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a8ca2ae0ba4dc66a3f58b0554980f2b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86626" bodyend="86629"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a722dbc00ab1d48fdbbeb587cb52c49ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointsProjectionResult.count</definition>
+        <argsstring>(self, PointsProjectionResult x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86630" bodyend="86633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a429843c0490126ac2cbd23e153f477bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointsProjectionResult.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86634" bodyend="86637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a95099cb6a0332960fc1bed6d113f4dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointsProjectionResult.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86638" bodyend="86639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a055ee60216f6cbda963b990726fe11cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.extend</definition>
+        <argsstring>(self, std_vector_PointsProjectionResult L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointsProjectionResult" kindref="compound">std_vector_PointsProjectionResult</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86641" bodyend="86644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a7ee1f9fcb0b6b4e5a6a84245eb44c42c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86646" bodyend="86649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aeb20ec4f0d369e30e170ffdcb7e79cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.insert</definition>
+        <argsstring>(self, int i, PointsProjectionResult x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86650" bodyend="86653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a90d7647f31f90007926a144402cb400f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+        <definition> PointsProjectionResult mrmeshpy.std_vector_PointsProjectionResult.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86655" bodyend="86658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ae2660a49058e635434e584b19fe268b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+        <definition> PointsProjectionResult mrmeshpy.std_vector_PointsProjectionResult.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86660" bodyend="86663"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a0ff6186e19469c2da988b7f4b0cf542e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.remove</definition>
+        <argsstring>(self, PointsProjectionResult x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86664" bodyend="86667"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ace8e1210a308a65a2d657a18b55d7f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86669" bodyend="86670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a9a4237339854b26173d6f06182ee83dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointsProjectionResult.resize</definition>
+        <argsstring>(self, int arg0, PointsProjectionResult arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86672" bodyend="86673"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a5b2f2e4ecacf2012b6431821ada56bbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointsProjectionResult.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_PointsProjectionResult.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86674" bodyend="86675"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_PointsProjectionResult</label>
+        <link refid="classmrmeshpy_1_1std__vector__PointsProjectionResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86568" bodyend="86675"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ab5c573dcc83467880490ec70576e4c40" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ae8ce23c6c48ae7067e05f63c2925e52d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a08a82811e6b4539f709c57ac52f32d59" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a84a4c2731af592c44631e1bcfeee226c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a21550cfac269acc56966798938c44716" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a2b6f857550baad41fb6e3b3322c9e6ac" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a46b42891f340f09184da95eb031e4f30" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1adc5f1a2d3ccc31fae8a2fc63e3c71a25" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ab0afbc2c1f55e6229b81233b0c57ee89" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ada304a68c5927f82e3183e2ab2dc9320" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1acea9d2e6ac434bcd433c8e0468be612c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1afd6a510251470547c19bee3dac8186e6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ab266936a1040fe1169ab93d35d59068a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a06faa60d1e16f2f8c48a6006216f0550" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aef78907e680fd54711ec9bbbb5c9cc6a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aad43e452811a4ce4357b49440e32c489" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a291c332d8e014ed9b7b12d6fec056d87" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a8ca2ae0ba4dc66a3f58b0554980f2b36" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a722dbc00ab1d48fdbbeb587cb52c49ea" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a429843c0490126ac2cbd23e153f477bd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aea05b0fae2e846c8d16ae66ec0ec9127" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a95099cb6a0332960fc1bed6d113f4dc5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a055ee60216f6cbda963b990726fe11cc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a7ee1f9fcb0b6b4e5a6a84245eb44c42c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1aeb20ec4f0d369e30e170ffdcb7e79cfb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a90d7647f31f90007926a144402cb400f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ae2660a49058e635434e584b19fe268b6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a0ff6186e19469c2da988b7f4b0cf542e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1ace8e1210a308a65a2d657a18b55d7f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a9a4237339854b26173d6f06182ee83dd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointsProjectionResult_1a5b2f2e4ecacf2012b6431821ada56bbb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointsProjectionResult</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

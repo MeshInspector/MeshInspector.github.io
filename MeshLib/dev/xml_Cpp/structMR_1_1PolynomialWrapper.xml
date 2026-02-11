@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolynomialWrapper" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolynomialWrapper</compoundname>
+    <includes refid="MRBestFitPolynomial_8h" local="no">MRBestFitPolynomial.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolynomialWrapper_1ae0ebee6b847c1068f7f9a612844c6043" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ac2fd3accc312c98127c44a0460f5af5d" kindref="member">Polynomialx</ref>&lt; T &gt;</type>
+        <definition>Polynomialx&lt;T&gt; MR::PolynomialWrapper&lt; T &gt;::poly</definition>
+        <argsstring></argsstring>
+        <name>poly</name>
+        <qualifiedname>MR::PolynomialWrapper::poly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="75" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PolynomialWrapper_1abe4466e0d13a4b608b0de2bfa541792a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>degree</declname>
+            <defname>degree</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::PolynomialWrapper&lt; T &gt;::PolynomialWrapper</definition>
+        <argsstring>(const Polynomial&lt; T, degree &gt; &amp;p)</argsstring>
+        <name>PolynomialWrapper</name>
+        <qualifiedname>MR::PolynomialWrapper::PolynomialWrapper</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Polynomial" kindref="compound">Polynomial</ref>&lt; T, degree &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="78" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolynomialWrapper_1af0d6206aca2da0368e96f793d2b14219" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> T</type>
+        <definition>MRMESH_API T MR::PolynomialWrapper&lt; T &gt;::operator()</definition>
+        <argsstring>(T x) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::PolynomialWrapper::operator()</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="82" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolynomialWrapper_1acdd3cc2e21021c7f7efe573ec76a3ad9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1PolynomialWrapper" kindref="compound">PolynomialWrapper</ref>&lt; T &gt;</type>
+        <definition>MRMESH_API PolynomialWrapper&lt; T &gt; MR::PolynomialWrapper&lt; T &gt;::deriv</definition>
+        <argsstring>() const</argsstring>
+        <name>deriv</name>
+        <qualifiedname>MR::PolynomialWrapper::deriv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="84" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolynomialWrapper_1aeb39bb3ae145bc05890641bb1bef0cc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; T &gt;</type>
+        <definition>MRMESH_API std::optional&lt; T &gt; MR::PolynomialWrapper&lt; T &gt;::intervalMin</definition>
+        <argsstring>(T a, T b) const</argsstring>
+        <name>intervalMin</name>
+        <qualifiedname>MR::PolynomialWrapper::intervalMin</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="86" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This is a unifying interface for a polynomial of some degree, known only in runtime. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="74" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolynomialWrapper_1acdd3cc2e21021c7f7efe573ec76a3ad9" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>deriv</name></member>
+      <member refid="structMR_1_1PolynomialWrapper_1aeb39bb3ae145bc05890641bb1bef0cc0" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>intervalMin</name></member>
+      <member refid="structMR_1_1PolynomialWrapper_1af0d6206aca2da0368e96f793d2b14219" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>operator()</name></member>
+      <member refid="structMR_1_1PolynomialWrapper_1ae0ebee6b847c1068f7f9a612844c6043" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>poly</name></member>
+      <member refid="structMR_1_1PolynomialWrapper_1abe4466e0d13a4b608b0de2bfa541792a" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>PolynomialWrapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

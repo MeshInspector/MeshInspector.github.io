@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1abdff2ee712299469ec3b2e718bcee227" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18706" bodyend="18707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a448ba04da404dc8788b5a74ce50aee04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment" kindref="compound">Features.Traits.Unary_Features_Primitives_ConeSegment</ref></type>
+        <definition> Features.Traits.Unary_Features_Primitives_ConeSegment mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18710" bodyend="18711"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a448ba04da404dc8788b5a74ce50aee04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment" kindref="compound">Features.Traits.Unary_Features_Primitives_ConeSegment</ref></type>
+        <definition> Features.Traits.Unary_Features_Primitives_ConeSegment mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18714" bodyend="18715"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1abf5386ac5da4768f8b3a4da73cad0311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18717" bodyend="18718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a27d80318146593ac4af281de0f5e8260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</definition>
+        <argsstring>(self, Features.Traits.Unary_Features_Primitives_ConeSegment arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment" kindref="compound">Features.Traits.Unary_Features_Primitives_ConeSegment</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18720" bodyend="18723"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1abf5386ac5da4768f8b3a4da73cad0311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18725" bodyend="18728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a6988f739eb40cbd9b90346d769f93618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.name</definition>
+        <argsstring>(self, Features.Primitives.ConeSegment prim)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Features.Traits.Unary_Features_Primitives_ConeSegment.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+          <declname>prim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18729" bodyend="18731"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Features::Traits::Unary&lt;MR::Features::Primitives::ConeSegment&gt;
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18700" bodyend="18730"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1abdff2ee712299469ec3b2e718bcee227" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1abf5386ac5da4768f8b3a4da73cad0311" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a27d80318146593ac4af281de0f5e8260" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1abf5386ac5da4768f8b3a4da73cad0311" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a6988f739eb40cbd9b90346d769f93618" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a448ba04da404dc8788b5a74ce50aee04" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment_1a448ba04da404dc8788b5a74ce50aee04" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Traits::Unary_Features_Primitives_ConeSegment</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

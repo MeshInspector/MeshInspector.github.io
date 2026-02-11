@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneStateOrCheck" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneStateOrCheck</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Checks...</basecompoundref>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRSceneStateCheck.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Checks</declname>
+        <defname>Checks</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SceneStateOrCheck_1ae67477acae1bc80561b69cecd0b6cbdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::SceneStateOrCheck&lt; Checks &gt;::~SceneStateOrCheck</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SceneStateOrCheck</name>
+        <qualifiedname>MR::SceneStateOrCheck::~SceneStateOrCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="158" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneStateOrCheck_1a57e94f064ff40fa6070445911ca81421" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::SceneStateOrCheck&lt; Checks &gt;::isAvailable</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::SceneStateOrCheck::isAvailable</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>objs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="159" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="159" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>checks that at least one of argument checks is true </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Checks...</label>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateOrCheck&lt; Checks &gt;</label>
+        <link refid="classMR_1_1SceneStateOrCheck"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Checks...</label>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateOrCheck&lt; Checks &gt;</label>
+        <link refid="classMR_1_1SceneStateOrCheck"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="156" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneStateOrCheck_1a57e94f064ff40fa6070445911ca81421" prot="public" virt="virtual"><scope>MR::SceneStateOrCheck</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1SceneStateOrCheck_1ae67477acae1bc80561b69cecd0b6cbdf" prot="public" virt="virtual"><scope>MR::SceneStateOrCheck</scope><name>~SceneStateOrCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

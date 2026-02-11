@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__bool__from__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_bool_from_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1a16f5f75bf4e197bfaf8d4afe9220bdad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75937" bodyend="75938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1a2ffbedd8ec5869a6e4ecb3e54153fefe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_float.__call__</definition>
+        <argsstring>(self, float arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75939" bodyend="75940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1a222b3c318779fb841f44439ed2e1c7c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75942" bodyend="75943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1a542f46b4085b0402d27f6d71e8a5ade2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_float.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75945" bodyend="75946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1ae67986490c28ab88eb138c0feba8217f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_float.__init__</definition>
+        <argsstring>(self, func_bool_from_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75948" bodyend="75949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1a3f0c922c8e7bc5b0a2e830c03ac51222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_float.__init__</definition>
+        <argsstring>(self, typing.Callable[[float], bool] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[float]</array>
+        </param>
+        <param>
+          <type>bool]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75951" bodyend="75952"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1ad6d634acd80c222748955d2088cd1071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_float.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75953" bodyend="75956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__float_1a38b796d65db24beda7abbeddc1c76435" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_float.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_bool_from_float.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75957" bodyend="75960"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75936" bodyend="75960"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1a16f5f75bf4e197bfaf8d4afe9220bdad" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1a2ffbedd8ec5869a6e4ecb3e54153fefe" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1a222b3c318779fb841f44439ed2e1c7c9" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1a542f46b4085b0402d27f6d71e8a5ade2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1ae67986490c28ab88eb138c0feba8217f" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1a3f0c922c8e7bc5b0a2e830c03ac51222" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1ad6d634acd80c222748955d2088cd1071" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__float_1a38b796d65db24beda7abbeddc1c76435" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_float</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

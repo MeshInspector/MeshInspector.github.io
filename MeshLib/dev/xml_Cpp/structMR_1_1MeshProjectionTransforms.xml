@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshProjectionTransforms" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshProjectionTransforms</compoundname>
+    <includes refid="MRMeshProject_8h" local="no">MRMeshProject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshProjectionTransforms_1a8cbd1dfcea56dc62de55af9d1fd30497" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::MeshProjectionTransforms::rigidXfPoint</definition>
+        <argsstring></argsstring>
+        <name>rigidXfPoint</name>
+        <qualifiedname>MR::MeshProjectionTransforms::rigidXfPoint</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>this xf is applied to point to move it into projection space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="35" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshProjectionTransforms_1ac7e30a3a60e0e50ecf202b7761b16e8d" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::MeshProjectionTransforms::nonRigidXfTree</definition>
+        <argsstring></argsstring>
+        <name>nonRigidXfTree</name>
+        <qualifiedname>MR::MeshProjectionTransforms::nonRigidXfTree</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>this xf is applied to AABB tree to move it into projection space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="36" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="34" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshProjectionTransforms_1ac7e30a3a60e0e50ecf202b7761b16e8d" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>nonRigidXfTree</name></member>
+      <member refid="structMR_1_1MeshProjectionTransforms_1a8cbd1dfcea56dc62de55af9d1fd30497" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>rigidXfPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

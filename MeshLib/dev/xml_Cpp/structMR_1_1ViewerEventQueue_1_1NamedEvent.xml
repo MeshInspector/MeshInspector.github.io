@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewerEventQueue_1_1NamedEvent" kind="struct" language="C++" prot="private">
+    <compoundname>MR::ViewerEventQueue::NamedEvent</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ViewerEventQueue_1_1NamedEvent_1ab5b099b7d40ec529bc932d45cefc5593" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ViewerEventQueue::NamedEvent::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ViewerEventQueue::NamedEvent::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="28" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ViewerEventQueue_1_1NamedEvent_1a62992c1610b7cedfa3ba9d8fe46078b1" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1af677bfbbed9f6c283d0a3101b5e91aea" kindref="member">ViewerEventCallback</ref></type>
+        <definition>ViewerEventCallback MR::ViewerEventQueue::NamedEvent::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::ViewerEventQueue::NamedEvent::cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="27" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ViewerEventQueue_1_1NamedEvent_1a62992c1610b7cedfa3ba9d8fe46078b1" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue::NamedEvent</scope><name>cb</name></member>
+      <member refid="structMR_1_1ViewerEventQueue_1_1NamedEvent_1ab5b099b7d40ec529bc932d45cefc5593" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue::NamedEvent</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

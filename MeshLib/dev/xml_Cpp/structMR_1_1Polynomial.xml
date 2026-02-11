@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Polynomial" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Polynomial</compoundname>
+    <includes refid="MRBestFitPolynomial_8h" local="no">MRBestFitPolynomial.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>size_t</type>
+        <declname>degree</declname>
+        <defname>degree</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1Polynomial_1a4a45c4c270e2285f289518dc03257056" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::Polynomial&lt; T, degree &gt;::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>MR::Polynomial::n</qualifiedname>
+        <initializer>= degree + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="33" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Polynomial_1a3cc5be84c9490736e6839f7d4f54e839" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> Eigen::Vector&lt; T, <ref refid="structMR_1_1Polynomial_1a4a45c4c270e2285f289518dc03257056" kindref="member">n</ref> &gt;</type>
+        <definition>MR_BIND_IGNORE Eigen::Vector&lt;T, n&gt; MR::Polynomial&lt; T, degree &gt;::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::Polynomial::a</qualifiedname>
+        <briefdescription>
+<para>We&apos;re not binding Eigen at the moment, so this has to be hidden. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="36" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Polynomial_1a7b90334059066d4883920a0f7fa6942f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename NewT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Polynomial" kindref="compound">Polynomial</ref>&lt; NewT, degree &gt;</type>
+        <definition>Polynomial&lt; NewT, degree &gt; MR::Polynomial&lt; T, degree &gt;::cast</definition>
+        <argsstring>() const</argsstring>
+        <name>cast</name>
+        <qualifiedname>MR::Polynomial::cast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="39" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="39" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Polynomial_1a647fa3efb019e9541f3faabd5316bbe3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> T</type>
+        <definition>MRMESH_API T MR::Polynomial&lt; T, degree &gt;::operator()</definition>
+        <argsstring>(T x) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Polynomial::operator()</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="42" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Polynomial_1af4cea678a8bd6d42610d8b839862f4d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; T &gt;</type>
+        <definition>MRMESH_API std::vector&lt; T &gt; MR::Polynomial&lt; T, degree &gt;::solve</definition>
+        <argsstring>(T tol) const</argsstring>
+        <name>solve</name>
+        <qualifiedname>MR::Polynomial::solve</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>tol</declname>
+        </param>
+    <requiresclause>( canSolvePolynomial( degree ) )    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="44" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Polynomial_1aa365a06c840a632101e61a9d0ba31866" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Polynomial" kindref="compound">Polynomial</ref>&lt; T, degree==0 ? 0 :degree - 1 &gt;</type>
+        <definition>MRMESH_API Polynomial&lt; T, degree==0 ? 0 :degree - 1 &gt; MR::Polynomial&lt; T, degree &gt;::deriv</definition>
+        <argsstring>() const</argsstring>
+        <name>deriv</name>
+        <qualifiedname>MR::Polynomial::deriv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="47" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Polynomial_1a6420dd28fcfe1d9d94da2689048ed849" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> T</type>
+        <definition>MRMESH_API T MR::Polynomial&lt; T, degree &gt;::intervalMin</definition>
+        <argsstring>(T a, T b) const</argsstring>
+        <name>intervalMin</name>
+        <qualifiedname>MR::Polynomial::intervalMin</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>b</declname>
+        </param>
+    <requiresclause>( canMinimizePolynomial( degree ) )    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="49" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Please note that these template classes are explicitly instantiated in the corresponding .cpp files. The following degrees are instantiated: [2; 6]. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="32" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Polynomial_1a3cc5be84c9490736e6839f7d4f54e839" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>a</name></member>
+      <member refid="structMR_1_1Polynomial_1a7b90334059066d4883920a0f7fa6942f" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>cast</name></member>
+      <member refid="structMR_1_1Polynomial_1aa365a06c840a632101e61a9d0ba31866" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>deriv</name></member>
+      <member refid="structMR_1_1Polynomial_1a6420dd28fcfe1d9d94da2689048ed849" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>intervalMin</name></member>
+      <member refid="structMR_1_1Polynomial_1a4a45c4c270e2285f289518dc03257056" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>n</name></member>
+      <member refid="structMR_1_1Polynomial_1a647fa3efb019e9541f3faabd5316bbe3" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>operator()</name></member>
+      <member refid="structMR_1_1Polynomial_1af4cea678a8bd6d42610d8b839862f4d2" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>solve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

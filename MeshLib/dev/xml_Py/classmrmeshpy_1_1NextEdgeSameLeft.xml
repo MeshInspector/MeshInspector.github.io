@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NextEdgeSameLeft" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NextEdgeSameLeft</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft" prot="public" virt="non-virtual">mrmeshpy.RingIterator_NextEdgeSameLeft</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1a8d0e7e8516b9e4dc42e405d0a703a43c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NextEdgeSameLeft.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameLeft.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0246611578600bb04a4e870ce2defe1a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1abbb22a2822cdf7a570181583195b2861">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1ac71797176508f6b96e6454c8aa9d283e">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36797" bodyend="36798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1a284d7a40f0132dafc293a76e79afab85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NextEdgeSameLeft" kindref="compound">NextEdgeSameLeft</ref></type>
+        <definition> NextEdgeSameLeft mrmeshpy.NextEdgeSameLeft.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameLeft.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a5660337769ca4129e239f37d23c753c5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a5660337769ca4129e239f37d23c753c5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0930fa4627b59a5faf89f9f7d55bff90">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36801" bodyend="36802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1a284d7a40f0132dafc293a76e79afab85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NextEdgeSameLeft" kindref="compound">NextEdgeSameLeft</ref></type>
+        <definition> NextEdgeSameLeft mrmeshpy.NextEdgeSameLeft.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameLeft.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a5660337769ca4129e239f37d23c753c5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a5660337769ca4129e239f37d23c753c5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0930fa4627b59a5faf89f9f7d55bff90">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36805" bodyend="36806"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1a4a4fb9ea9be3541a9e50b29057efa53a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NextEdgeSameLeft.__init__</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameLeft.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0246611578600bb04a4e870ce2defe1a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1abbb22a2822cdf7a570181583195b2861">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1ac71797176508f6b96e6454c8aa9d283e">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36808" bodyend="36809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1ada15bc9558ca75457060b7ab05c00dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NextEdgeSameLeft.__init__</definition>
+        <argsstring>(self, NextEdgeSameLeft arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameLeft.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1a0246611578600bb04a4e870ce2defe1a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1abbb22a2822cdf7a570181583195b2861">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft_1ac71797176508f6b96e6454c8aa9d283e">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NextEdgeSameLeft" kindref="compound">NextEdgeSameLeft</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36811" bodyend="36814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameLeft_1afe69a1c41ec494f67a3934c7c7135707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.NextEdgeSameLeft.next</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>next</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameLeft.next</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36815" bodyend="36816"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NextEdgeSameLeft
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.NextEdgeSameLeft</label>
+        <link refid="classmrmeshpy_1_1NextEdgeSameLeft"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RingIterator_NextEdgeSameLeft</label>
+        <link refid="classmrmeshpy_1_1RingIterator__NextEdgeSameLeft"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36791" bodyend="36816"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1a8d0e7e8516b9e4dc42e405d0a703a43c" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1a4a4fb9ea9be3541a9e50b29057efa53a" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1ada15bc9558ca75457060b7ab05c00dc5" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1afe69a1c41ec494f67a3934c7c7135707" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>next</name></member>
+      <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1a284d7a40f0132dafc293a76e79afab85" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NextEdgeSameLeft_1a284d7a40f0132dafc293a76e79afab85" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameLeft</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

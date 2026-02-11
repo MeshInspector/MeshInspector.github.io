@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BendTextAlongCurveParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::BendTextAlongCurveParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BendTextAlongCurveParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a96294c444b76cc0b4de5ecc058edb713" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1SymbolMeshParams" kindref="compound">MR.SymbolMeshParams</ref></type>
+        <definition>new unsafe MR.SymbolMeshParams MR.BendTextAlongCurveParams.symbolMesh</definition>
+        <argsstring></argsstring>
+        <name>symbolMesh</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.symbolMesh</qualifiedname>
+        <briefdescription>
+<para>parameters of contours to mesh conversion </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="642" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="642" bodyend="642"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a5abf2dfc1e1d0107397bcb9af86d8ea8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.BendTextAlongCurveParams.pivotCurveTime</definition>
+        <argsstring></argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.pivotCurveTime</qualifiedname>
+        <briefdescription>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="645" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1ad599e8074622c78868d1dd724eb4d9e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>new unsafe ref MR.Vector2f MR.BendTextAlongCurveParams.pivotBoxPoint</definition>
+        <argsstring></argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.pivotBoxPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Position of the curve(pivotCurveTime) in the test&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="649" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a0af85221c1a3b61eadd08fca95189b88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.BendTextAlongCurveParams.fontHeight</definition>
+        <argsstring></argsstring>
+        <name>fontHeight</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.fontHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="652" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a8ce5561c484258cc44566645452c8fff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.BendTextAlongCurveParams.surfaceOffset</definition>
+        <argsstring></argsstring>
+        <name>surfaceOffset</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.surfaceOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="655" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a0ed3ad48bc21cbd47567d2612ed993c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BendTextAlongCurveParams.fontBasedSizeCalc</definition>
+        <argsstring></argsstring>
+        <name>fontBasedSizeCalc</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.fontBasedSizeCalc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="658" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a4d395c0158b3d29dd5b51b76f077c614" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BendTextAlongCurveParams.periodicCurve</definition>
+        <argsstring></argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.periodicCurve</qualifiedname>
+        <briefdescription>
+<para>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="661" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1ad1516c94b11cceaa954c0922a5aa1fd9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BendTextAlongCurveParams.stretch</definition>
+        <argsstring></argsstring>
+        <name>stretch</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.stretch</qualifiedname>
+        <briefdescription>
+<para>stretch whole text along curve to fit in unit curve range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="664" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="664" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1a526e18bef731e1560ab5bea40716245e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendTextAlongCurveParams.BendTextAlongCurveParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BendTextAlongCurveParams</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="683" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="683" bodyend="687"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1ac920e84c5df108f873d9b5e8a1d2dc6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendTextAlongCurveParams.BendTextAlongCurveParams</definition>
+        <argsstring>()</argsstring>
+        <name>BendTextAlongCurveParams</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="693" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="693" bodyend="699"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1a955aca15a3785e82e514c7e91b488813" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendTextAlongCurveParams.BendTextAlongCurveParams</definition>
+        <argsstring>(MR._ByValue_SymbolMeshParams symbolMesh, float pivotCurveTime, MR.Vector2f pivotBoxPoint, float fontHeight, float surfaceOffset, bool fontBasedSizeCalc, bool periodicCurve, bool stretch)</argsstring>
+        <name>BendTextAlongCurveParams</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_SymbolMeshParams</type>
+          <declname>symbolMesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pivotCurveTime</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pivotBoxPoint</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fontHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>surfaceOffset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fontBasedSizeCalc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>periodicCurve</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stretch</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BendTextAlongCurveParams" kindref="compound">MR.BendTextAlongCurveParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="704" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="704" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1a5ccd4d2139d456f366933e826d549bad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendTextAlongCurveParams.BendTextAlongCurveParams</definition>
+        <argsstring>(MR._ByValue_BendTextAlongCurveParams _other)</argsstring>
+        <name>BendTextAlongCurveParams</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_BendTextAlongCurveParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="716" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="716" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1ab29d5b51e091a609bccbc81fb2e71d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</definition>
+        <argsstring>(Const_BendTextAlongCurveParams _other)</argsstring>
+        <name>BendTextAlongCurveParams</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
+        <param>
+          <type>Const_BendTextAlongCurveParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="728" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="728" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1ae9325a499c2eb2d778543efb71b4aeeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</definition>
+        <argsstring>(BendTextAlongCurveParams _other)</argsstring>
+        <name>BendTextAlongCurveParams</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BendTextAlongCurveParams" kindref="compound">BendTextAlongCurveParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="733" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="733" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendTextAlongCurveParams_1ab8c2e73e265544201025016b2e9db8a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BendTextAlongCurveParams" kindref="compound">MR.BendTextAlongCurveParams</ref></type>
+        <definition>unsafe MR.BendTextAlongCurveParams MR.BendTextAlongCurveParams.assign</definition>
+        <argsstring>(MR._ByValue_BendTextAlongCurveParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BendTextAlongCurveParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BendTextAlongCurveParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BendTextAlongCurveParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="738" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="738" bodyend="745"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1BendTextAlongCurveParams" kindref="compound">MR.BendTextAlongCurveParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BendTextAlongCurveParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BendTextAlongCurveParams</label>
+        <link refid="classMR_1_1BendTextAlongCurveParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BendTextAlongCurveParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BendTextAlongCurveParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BendTextAlongCurveParams</label>
+        <link refid="classMR_1_1BendTextAlongCurveParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BendTextAlongCurveParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="639" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="640" bodyend="746"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1ab8c2e73e265544201025016b2e9db8a4" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a526e18bef731e1560ab5bea40716245e" prot="package" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1ac920e84c5df108f873d9b5e8a1d2dc6c" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a955aca15a3785e82e514c7e91b488813" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a5ccd4d2139d456f366933e826d549bad" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1ab29d5b51e091a609bccbc81fb2e71d5f" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1ae9325a499c2eb2d778543efb71b4aeeb" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a0ed3ad48bc21cbd47567d2612ed993c0" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontBasedSizeCalc</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a0af85221c1a3b61eadd08fca95189b88" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontHeight</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a4d395c0158b3d29dd5b51b76f077c614" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1ad599e8074622c78868d1dd724eb4d9e3" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a5abf2dfc1e1d0107397bcb9af86d8ea8" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1ad1516c94b11cceaa954c0922a5aa1fd9" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>stretch</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a8ce5561c484258cc44566645452c8fff" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>surfaceOffset</name></member>
+      <member refid="classMR_1_1BendTextAlongCurveParams_1a96294c444b76cc0b4de5ecc058edb713" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>symbolMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

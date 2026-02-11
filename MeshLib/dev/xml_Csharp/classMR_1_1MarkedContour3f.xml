@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MarkedContour3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::MarkedContour3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MarkedContour3f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MarkedContour3f_1a14017c6c385dd31ce235e5c19510f81c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRVector3f</type>
+        <definition>new unsafe MR.Std.Vector_MRVector3f MR.MarkedContour3f.contour</definition>
+        <argsstring></argsstring>
+        <name>contour</name>
+        <qualifiedname>MR.MarkedContour3f.contour</qualifiedname>
+        <briefdescription>
+<para>indices of control (marked) points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="113" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MarkedContour3f_1a037878be29beea2f2c5a995f54fa46de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
+        <definition>new unsafe MR.BitSet MR.MarkedContour3f.marks</definition>
+        <argsstring></argsstring>
+        <name>marks</name>
+        <qualifiedname>MR.MarkedContour3f.marks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="116" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1ad736ea236aa05942fcc55bb848d5f639" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MarkedContour3f.MarkedContour3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MarkedContour3f</name>
+        <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="142" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="142" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1a38e4c78b533f999833d11f60f9c489d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MarkedContour3f.MarkedContour3f</definition>
+        <argsstring>()</argsstring>
+        <name>MarkedContour3f</name>
+        <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1aae8161072a871f02b8f316a21790b646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MarkedContour3f.MarkedContour3f</definition>
+        <argsstring>(MR.Std._ByValue_Vector_MRVector3f contour, MR._ByValue_BitSet marks)</argsstring>
+        <name>MarkedContour3f</name>
+        <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRVector3f</type>
+          <declname>contour</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BitSet</type>
+          <declname>marks</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MarkedContour3f" kindref="compound">MR.MarkedContour3f</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="163" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1a50e80fb31187ecc0aa4bc3ccfce03ff6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MarkedContour3f.MarkedContour3f</definition>
+        <argsstring>(MR._ByValue_MarkedContour3f _other)</argsstring>
+        <name>MarkedContour3f</name>
+        <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
+        <param>
+          <type>MR._ByValue_MarkedContour3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MarkedContour3f.MarkedContour3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1ac1e15dce1ab6625e9ba99fcb0bb2883f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MarkedContour3f.MarkedContour3f</definition>
+        <argsstring>(Const_MarkedContour3f _other)</argsstring>
+        <name>MarkedContour3f</name>
+        <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
+        <param>
+          <type>Const_MarkedContour3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MarkedContour3f.MarkedContour3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="188" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1a4d7f92a99cf77e2dde85d14f07dd3071" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MarkedContour3f.MarkedContour3f</definition>
+        <argsstring>(MarkedContour3f _other)</argsstring>
+        <name>MarkedContour3f</name>
+        <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MarkedContour3f.MarkedContour3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="193" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarkedContour3f_1a597abedd622780ed1fc5f404ab7535dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MarkedContour3f" kindref="compound">MR.MarkedContour3f</ref></type>
+        <definition>unsafe MR.MarkedContour3f MR.MarkedContour3f.assign</definition>
+        <argsstring>(MR._ByValue_MarkedContour3f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MarkedContour3f.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MarkedContour3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MarkedContour3f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="198" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="198" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MarkedContour3f" kindref="compound">MR.MarkedContour3f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MarkedContour3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MarkedContour3f</label>
+        <link refid="classMR_1_1MarkedContour3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MarkedContour3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MarkedContour3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MarkedContour3f</label>
+        <link refid="classMR_1_1MarkedContour3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MarkedContour3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="111" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="112" bodyend="206"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MarkedContour3f_1a597abedd622780ed1fc5f404ab7535dc" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1a14017c6c385dd31ce235e5c19510f81c" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>contour</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1ad736ea236aa05942fcc55bb848d5f639" prot="package" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1a38e4c78b533f999833d11f60f9c489d2" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1aae8161072a871f02b8f316a21790b646" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1a50e80fb31187ecc0aa4bc3ccfce03ff6" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1ac1e15dce1ab6625e9ba99fcb0bb2883f" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1a4d7f92a99cf77e2dde85d14f07dd3071" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
+      <member refid="classMR_1_1MarkedContour3f_1a037878be29beea2f2c5a995f54fa46de" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>marks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

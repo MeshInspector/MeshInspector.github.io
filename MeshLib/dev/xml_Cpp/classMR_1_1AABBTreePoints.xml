@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AABBTreePoints" kind="class" language="C++" prot="public">
+    <compoundname>MR::AABBTreePoints</compoundname>
+    <includes refid="MRAABBTreePoints_8h" local="no">MRAABBTreePoints.h</includes>
+    <innerclass refid="structMR_1_1AABBTreePoints_1_1Node" prot="public">MR::AABBTreePoints::Node</innerclass>
+    <innerclass refid="structMR_1_1AABBTreePoints_1_1Point" prot="public">MR::AABBTreePoints::Point</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1AABBTreePoints_1a00cc491c7e366a8a33115d69e567c898" prot="public" static="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1AABBTreePoints_1_1Node" kindref="compound">Node</ref>, NodeId &gt;</type>
+        <definition>using MR::AABBTreePoints::NodeVec =  Vector&lt;Node, NodeId&gt;</definition>
+        <argsstring></argsstring>
+        <name>NodeVec</name>
+        <qualifiedname>MR::AABBTreePoints::NodeVec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1AABBTreePoints_1a2f7aeba60ac6d266e6f4c8994d4f534c" prot="public" static="no">
+        <type>TaggedBitSet&lt; <ref refid="namespaceMR_1a377a98e08f145435910c6f6f568722b3" kindref="member">NodeTag</ref> &gt;</type>
+        <definition>using MR::AABBTreePoints::NodeBitSet =  TaggedBitSet&lt;NodeTag&gt;</definition>
+        <argsstring></argsstring>
+        <name>NodeBitSet</name>
+        <qualifiedname>MR::AABBTreePoints::NodeBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1AABBTreePoints_1a797d5bcdfaacbc53e37b10ddac496527" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::AABBTreePoints::MaxNumPointsInLeaf</definition>
+        <argsstring></argsstring>
+        <name>MaxNumPointsInLeaf</name>
+        <qualifiedname>MR::AABBTreePoints::MaxNumPointsInLeaf</qualifiedname>
+        <initializer>= 16</initializer>
+        <briefdescription>
+<para>maximum number of points in leaf node of tree (all of leafs should have this number of points except last one) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="57" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AABBTreePoints_1ab12d4e1a4a948a8e1e7a315d6e44c722" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1AABBTreePoints_1_1Point" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt;Point&gt; MR::AABBTreePoints::orderedPoints_</definition>
+        <argsstring></argsstring>
+        <name>orderedPoints_</name>
+        <qualifiedname>MR::AABBTreePoints::orderedPoints_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="80" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AABBTreePoints_1a737638e7e9ea70005cae4b6ed43f2b24" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AABBTreePoints_1a00cc491c7e366a8a33115d69e567c898" kindref="member">NodeVec</ref></type>
+        <definition>NodeVec MR::AABBTreePoints::nodes_</definition>
+        <argsstring></argsstring>
+        <name>nodes_</name>
+        <qualifiedname>MR::AABBTreePoints::nodes_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="81" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1AABBTreePoints_1ab727b425d862eaa2f2f61e6b1e287174" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class UniqueThreadSafeOwner&lt; AABBTreePoints &gt;</definition>
+        <argsstring></argsstring>
+        <name>UniqueThreadSafeOwner&lt; AABBTreePoints &gt;</name>
+        <qualifiedname>MR::AABBTreePoints::UniqueThreadSafeOwner&lt; AABBTreePoints &gt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref>&lt; <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="84" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1AABBTreePoints_1a35c04a1429847484ecc187e053a7a5d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class SharedThreadSafeOwner&lt; AABBTreePoints &gt;</definition>
+        <argsstring></argsstring>
+        <name>SharedThreadSafeOwner&lt; AABBTreePoints &gt;</name>
+        <qualifiedname>MR::AABBTreePoints::SharedThreadSafeOwner&lt; AABBTreePoints &gt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt; <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="84" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a6f80276e2b9c2f30d60c17bf896f6137" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1AABBTreePoints_1a00cc491c7e366a8a33115d69e567c898" kindref="member">NodeVec</ref> &amp;</type>
+        <definition>const NodeVec &amp; MR::AABBTreePoints::nodes</definition>
+        <argsstring>() const</argsstring>
+        <name>nodes</name>
+        <qualifiedname>MR::AABBTreePoints::nodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="32" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a067a3df7f5d829eb589583ac6cd370b4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1AABBTreePoints_1_1Node" kindref="compound">Node</ref> &amp;</type>
+        <definition>const Node &amp; MR::AABBTreePoints::operator[]</definition>
+        <argsstring>(NodeId nid) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::AABBTreePoints::operator[]</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>nid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a9326f1fdd5cacabcf51e5eb51f56e53e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::AABBTreePoints::getBoundingBox</definition>
+        <argsstring>() const</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR::AABBTreePoints::getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns the root node bounding box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a41964dab96066d649af6862a0978c4e2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; <ref refid="structMR_1_1AABBTreePoints_1_1Point" kindref="compound">Point</ref> &gt; &amp;</type>
+        <definition>const std::vector&lt; Point &gt; &amp; MR::AABBTreePoints::orderedPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>orderedPoints</name>
+        <qualifiedname>MR::AABBTreePoints::orderedPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="43" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1afe5c12db028de0c7152524376a92c38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::AABBTreePoints::AABBTreePoints</definition>
+        <argsstring>(const PointCloud &amp;pointCloud)</argsstring>
+        <name>AABBTreePoints</name>
+        <qualifiedname>MR::AABBTreePoints::AABBTreePoints</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <briefdescription>
+<para>creates tree for given point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="46" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1ab159b10db8a36b63387eb1149c826dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::AABBTreePoints::AABBTreePoints</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>AABBTreePoints</name>
+        <qualifiedname>MR::AABBTreePoints::AABBTreePoints</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>creates tree for vertices of given mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="48" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a976151993a24b9b4ac94b8aff478f69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::AABBTreePoints::AABBTreePoints</definition>
+        <argsstring>(const VertCoords &amp;points, const VertBitSet *validPoints=nullptr)</argsstring>
+        <name>AABBTreePoints</name>
+        <qualifiedname>MR::AABBTreePoints::AABBTreePoints</qualifiedname>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>validPoints</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>creates tree from given valid points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="50" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a8154a2813c0a69767e82f1f67be5161c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
+        <definition>MR_BIND_IGNORE MR::AABBTreePoints::AABBTreePoints</definition>
+        <argsstring>(const VertCoords &amp;points, const VertBitSet &amp;validPoints)</argsstring>
+        <name>AABBTreePoints</name>
+        <qualifiedname>MR::AABBTreePoints::AABBTreePoints</qualifiedname>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>validPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates tree from given valid points This is skipped in the bindings because it conflicts with the overload taking a pointer in C#. Since that overload is strictly more useful, we&apos;re keeping that one. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="54" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a65f478734833e01a7796565862c32038" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::AABBTreePoints::AABBTreePoints</definition>
+        <argsstring>(AABBTreePoints &amp;&amp;) noexcept=default</argsstring>
+        <name>AABBTreePoints</name>
+        <qualifiedname>MR::AABBTreePoints::AABBTreePoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="59" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a0f0edac8d95fa30b01aeb66950911da9" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
+        <definition>AABBTreePoints &amp; MR::AABBTreePoints::operator=</definition>
+        <argsstring>(AABBTreePoints &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::AABBTreePoints::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="60" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1afda8c5fe845e055b0d3e838046ee1996" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::AABBTreePoints::getLeafOrder</definition>
+        <argsstring>(VertBMap &amp;vertMap) const</argsstring>
+        <name>getLeafOrder</name>
+        <qualifiedname>MR::AABBTreePoints::getLeafOrder</qualifiedname>
+        <param>
+          <type>VertBMap &amp;</type>
+          <declname>vertMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the mapping original VertId to new id following the points order in the tree; buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="64" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a0423d1153871df30826966748ac710a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::AABBTreePoints::getLeafOrderAndReset</definition>
+        <argsstring>(VertBMap &amp;vertMap)</argsstring>
+        <name>getLeafOrderAndReset</name>
+        <qualifiedname>MR::AABBTreePoints::getLeafOrderAndReset</qualifiedname>
+        <param>
+          <type>VertBMap &amp;</type>
+          <declname>vertMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the mapping original VertId to new id following the points order in the tree; then resets leaf order as if the points were renumberd following the mapping; buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="68" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a1a8a3bec838147878ea5d896d024d881" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::AABBTreePoints::heapBytes</definition>
+        <argsstring>() const</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::AABBTreePoints::heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="71" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1ab5f64a7b70e62b9965109f36108247e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::AABBTreePoints::refit</definition>
+        <argsstring>(const VertCoords &amp;newCoords, const VertBitSet &amp;changedVerts)</argsstring>
+        <name>refit</name>
+        <qualifiedname>MR::AABBTreePoints::refit</qualifiedname>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>newCoords</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>changedVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updates bounding boxes of the nodes containing changed vertices; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newCoords</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coordinates of all vertices including changed ones; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>changedVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertex ids with modified coordinates (since tree construction or last refit) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="77" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NodeId</type>
+        <definition>static NodeId MR::AABBTreePoints::rootNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>rootNodeId</name>
+        <qualifiedname>MR::AABBTreePoints::rootNodeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="34" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1ad21bcf3af3436eba60ab424d669d58e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::AABBTreePoints::AABBTreePoints</definition>
+        <argsstring>(const AABBTreePoints &amp;)=default</argsstring>
+        <name>AABBTreePoints</name>
+        <qualifiedname>MR::AABBTreePoints::AABBTreePoints</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="83" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a8508065a350fbec7a0cf1f3f56a0ff3e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
+        <definition>AABBTreePoints &amp; MR::AABBTreePoints::operator=</definition>
+        <argsstring>(const AABBTreePoints &amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::AABBTreePoints::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="84" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>bounding volume hierarchy for point cloud structure </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="16" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AABBTreePoints_1afe5c12db028de0c7152524376a92c38b" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1ab159b10db8a36b63387eb1149c826dbd" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a976151993a24b9b4ac94b8aff478f69e" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a8154a2813c0a69767e82f1f67be5161c" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a65f478734833e01a7796565862c32038" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1ad21bcf3af3436eba60ab424d669d58e4" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a9326f1fdd5cacabcf51e5eb51f56e53e" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1afda8c5fe845e055b0d3e838046ee1996" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>getLeafOrder</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a0423d1153871df30826966748ac710a8" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a1a8a3bec838147878ea5d896d024d881" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a797d5bcdfaacbc53e37b10ddac496527" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>MaxNumPointsInLeaf</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a2f7aeba60ac6d266e6f4c8994d4f534c" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>NodeBitSet</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a6f80276e2b9c2f30d60c17bf896f6137" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>nodes</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a737638e7e9ea70005cae4b6ed43f2b24" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>nodes_</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a00cc491c7e366a8a33115d69e567c898" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>NodeVec</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a0f0edac8d95fa30b01aeb66950911da9" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator=</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a8508065a350fbec7a0cf1f3f56a0ff3e" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator=</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a067a3df7f5d829eb589583ac6cd370b4" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator[]</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a41964dab96066d649af6862a0978c4e2" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>orderedPoints</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1ab12d4e1a4a948a8e1e7a315d6e44c722" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>orderedPoints_</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1ab5f64a7b70e62b9965109f36108247e0" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>refit</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a35c04a1429847484ecc187e053a7a5d3" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>SharedThreadSafeOwner&lt; AABBTreePoints &gt;</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1ab727b425d862eaa2f2f61e6b1e287174" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>UniqueThreadSafeOwner&lt; AABBTreePoints &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

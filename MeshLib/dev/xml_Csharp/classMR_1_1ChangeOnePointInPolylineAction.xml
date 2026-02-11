@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeOnePointInPolylineAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeOnePointInPolylineAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeOnePointInPolylineAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a9b786df6f5ac21a2407421070a809902" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeOnePointInPolylineAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeOnePointInPolylineAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeOnePointInPolylineAction" kindref="compound">ChangeOnePointInPolylineAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1279" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1279" bodyend="1284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1aa353c19c15b340eb6aebef735279fd60" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeOnePointInPolylineAction.operator ChangeOnePointInPolylineAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeOnePointInPolylineAction?</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.operator ChangeOnePointInPolylineAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1287" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1287" bodyend="1294"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a5f8c9d5d3a4ee72c3eaaa0b3555d54b5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1296" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1296" bodyend="1296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a21e3a4fad6347cb898ca2aa1e836a798" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1298" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1298" bodyend="1298"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a5be505a4256e3d3d31985508f47ecb42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(MR._ByValue_ChangeOnePointInPolylineAction _other)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeOnePointInPolylineAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1303" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1303" bodyend="1309"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1aa897f0f0fcb2daff3aea612bf737526c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(Const_ChangeOnePointInPolylineAction _other)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>Const_ChangeOnePointInPolylineAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1314" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1314" bodyend="1314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1adad9aff3af078eea25ea18900e297ace" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(ChangeOnePointInPolylineAction _other)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeOnePointInPolylineAction" kindref="compound">ChangeOnePointInPolylineAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1319" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1319" bodyend="1319"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a51d591fa750cb9b5938fa03a65788f69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(string name, MR.Const_ObjectLines obj, MR.VertId pointId)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectLines</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember point&apos;s coordinates before making any changes in it Generated from constructor <computeroutput>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1325" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1325" bodyend="1335"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1aecf2ccea7941f87c6ef6bf42377850a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</definition>
+        <argsstring>(string name, MR.Const_ObjectLines obj, MR.VertId pointId, in MR.Vector3f newCoords)</argsstring>
+        <name>ChangeOnePointInPolylineAction</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectLines</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>newCoords</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember point&apos;s coordinates and immediate set new coordinates Generated from constructor <computeroutput>MR.ChangeOnePointInPolylineAction.ChangeOnePointInPolylineAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1341" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1341" bodyend="1354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1a43f59d7b7d001428dda48d1100edff17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeOnePointInPolylineAction" kindref="compound">MR.ChangeOnePointInPolylineAction</ref></type>
+        <definition>unsafe MR.ChangeOnePointInPolylineAction MR.ChangeOnePointInPolylineAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeOnePointInPolylineAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeOnePointInPolylineAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeOnePointInPolylineAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1359" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1359" bodyend="1366"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOnePointInPolylineAction_1aaddf77920eb8860879f0702f7ea1fb57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeOnePointInPolylineAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeOnePointInPolylineAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeOnePointInPolylineAction_1aaddf77920eb8860879f0702f7ea1fb57" kindref="member">MR.ChangeOnePointInPolylineAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1371" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1371" bodyend="1376"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action that modifies one point&apos;s coordinates inside ObjectPolyline Generated from class <computeroutput><ref refid="classMR_1_1ChangeOnePointInPolylineAction" kindref="compound">MR.ChangeOnePointInPolylineAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeOnePointInPolylineAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeOnePointInPolylineAction</label>
+        <link refid="classMR_1_1ChangeOnePointInPolylineAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeOnePointInPolylineAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeOnePointInPolylineAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeOnePointInPolylineAction</label>
+        <link refid="classMR_1_1ChangeOnePointInPolylineAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeOnePointInPolylineAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="1276" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="1277" bodyend="1377"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1aaddf77920eb8860879f0702f7ea1fb57" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a43f59d7b7d001428dda48d1100edff17" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a5f8c9d5d3a4ee72c3eaaa0b3555d54b5" prot="package" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a21e3a4fad6347cb898ca2aa1e836a798" prot="package" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a5be505a4256e3d3d31985508f47ecb42" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1aa897f0f0fcb2daff3aea612bf737526c" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1adad9aff3af078eea25ea18900e297ace" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a51d591fa750cb9b5938fa03a65788f69" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1aecf2ccea7941f87c6ef6bf42377850a9" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>ChangeOnePointInPolylineAction</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1aa353c19c15b340eb6aebef735279fd60" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>operator ChangeOnePointInPolylineAction?</name></member>
+      <member refid="classMR_1_1ChangeOnePointInPolylineAction_1a9b786df6f5ac21a2407421070a809902" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInPolylineAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

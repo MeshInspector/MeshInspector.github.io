@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a0da3b4014ff7e7d964a2ea8babd2094b" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92270" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a19b106bb4cbf81a6c729b0204b1c1894" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.element_type_byte_size</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92271" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1adbfcab28e1151a11e787ea8702755c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92272" bodyend="92275"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ac8f298da56e4ce841309804910d63bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__contains__</definition>
+        <argsstring>(self, ObjectLinesHolder x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92276" bodyend="92279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a78bfa2295fbced30cd0887040fbc76e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92281" bodyend="92284"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ac28d6ce0913233a91b52386c27e1b062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92286" bodyend="92289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ad893f0712f4ce69ea68c73066e329c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__eq__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectLinesHolder arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kindref="compound">std_vector_std_shared_ptr_ObjectLinesHolder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92290" bodyend="92291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ab9011b9db24473a3855ccc9bb0e4919a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kindref="compound">std_vector_std_shared_ptr_ObjectLinesHolder</ref></type>
+        <definition> std_vector_std_shared_ptr_ObjectLinesHolder mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92293" bodyend="92296"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1aec3163f64b7abb9dc93d1289de4a4121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+        <definition> ObjectLinesHolder mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92298" bodyend="92299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a0a48215d5f760a5623d7713d517ea965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92301" bodyend="92302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ab4008af006544e695b3455a8223bee3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92304" bodyend="92305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a774ca4047cb8260d5735f815d9cdd88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__init__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectLinesHolder arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kindref="compound">std_vector_std_shared_ptr_ObjectLinesHolder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92307" bodyend="92308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1acd92a4711164fea489b75a738d7a41da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref>]</type>
+        <definition> typing.Iterator[ObjectLinesHolder] mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92309" bodyend="92310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a01e8e155584ec58e9e6ee63c726a7e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92311" bodyend="92312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ac6b3db896caa7c0ae4bfafc6114e2b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__ne__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectLinesHolder arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kindref="compound">std_vector_std_shared_ptr_ObjectLinesHolder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92313" bodyend="92314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a7d152ff8d2eb48a817ba3d53cdce0550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92315" bodyend="92318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ab11c3adeb81690fa408bd4e097e459cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__setitem__</definition>
+        <argsstring>(self, int arg0, ObjectLinesHolder arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92320" bodyend="92321"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a4131d77728dd5319729386bc3078615c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_std_shared_ptr_ObjectLinesHolder arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kindref="compound">std_vector_std_shared_ptr_ObjectLinesHolder</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92323" bodyend="92326"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a73715d121a6c9c966cd4dcd1c3fa3188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.append</definition>
+        <argsstring>(self, ObjectLinesHolder x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92327" bodyend="92330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1af92d39f85630dda1b5a53dd6af591740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92331" bodyend="92334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ad4e6ec0358867f0702524034f10ed075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.count</definition>
+        <argsstring>(self, ObjectLinesHolder x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92335" bodyend="92338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a87c597f621b035847cbff05f691d6634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92339" bodyend="92342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1abb0c8f6cfef36ce27e8fb38fb6416362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92343" bodyend="92344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a25f3f4295a21825d1fe33d1475c0761f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.extend</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectLinesHolder L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder" kindref="compound">std_vector_std_shared_ptr_ObjectLinesHolder</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92346" bodyend="92349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a181e6daf884cd968cdfdf33efaa48fa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92351" bodyend="92354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a63b03ae7c2614f292e57ee991b7bd953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.insert</definition>
+        <argsstring>(self, int i, ObjectLinesHolder x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92355" bodyend="92358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1acfe0e15ce2e2118467a6631a386d4b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+        <definition> ObjectLinesHolder mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92360" bodyend="92363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a45772398b91eb065e485a0122e4f8957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+        <definition> ObjectLinesHolder mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92365" bodyend="92368"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a067e9f27e4119d407289cf0f6ea3b1e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.remove</definition>
+        <argsstring>(self, ObjectLinesHolder x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92369" bodyend="92372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1aab2b47feb59df469a0cdfd3f86277efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92374" bodyend="92375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ae3eb18804eeb1781a1952b08e39447b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.resize</definition>
+        <argsstring>(self, int arg0, ObjectLinesHolder arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92377" bodyend="92378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a5cab04eb61134be329c087f9bdb75960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92379" bodyend="92380"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_std_shared_ptr_ObjectLinesHolder</label>
+        <link refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92269" bodyend="92380"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1adbfcab28e1151a11e787ea8702755c86" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ac8f298da56e4ce841309804910d63bf3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a78bfa2295fbced30cd0887040fbc76e6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ac28d6ce0913233a91b52386c27e1b062" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ad893f0712f4ce69ea68c73066e329c66" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ab9011b9db24473a3855ccc9bb0e4919a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1aec3163f64b7abb9dc93d1289de4a4121" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a0da3b4014ff7e7d964a2ea8babd2094b" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a0a48215d5f760a5623d7713d517ea965" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ab4008af006544e695b3455a8223bee3c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a774ca4047cb8260d5735f815d9cdd88a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1acd92a4711164fea489b75a738d7a41da" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a01e8e155584ec58e9e6ee63c726a7e76" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ac6b3db896caa7c0ae4bfafc6114e2b93" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a7d152ff8d2eb48a817ba3d53cdce0550" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ab11c3adeb81690fa408bd4e097e459cc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a4131d77728dd5319729386bc3078615c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a73715d121a6c9c966cd4dcd1c3fa3188" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1af92d39f85630dda1b5a53dd6af591740" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ad4e6ec0358867f0702524034f10ed075" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a87c597f621b035847cbff05f691d6634" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a19b106bb4cbf81a6c729b0204b1c1894" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1abb0c8f6cfef36ce27e8fb38fb6416362" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a25f3f4295a21825d1fe33d1475c0761f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a181e6daf884cd968cdfdf33efaa48fa6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a63b03ae7c2614f292e57ee991b7bd953" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1acfe0e15ce2e2118467a6631a386d4b82" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a45772398b91eb065e485a0122e4f8957" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a067e9f27e4119d407289cf0f6ea3b1e3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1aab2b47feb59df469a0cdfd3f86277efc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1ae3eb18804eeb1781a1952b08e39447b7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder_1a5cab04eb61134be329c087f9bdb75960" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectLinesHolder</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

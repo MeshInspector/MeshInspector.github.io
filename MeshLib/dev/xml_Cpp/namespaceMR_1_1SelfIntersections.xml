@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1SelfIntersections" kind="namespace" language="C++">
+    <compoundname>MR::SelfIntersections</compoundname>
+    <innerclass refid="structMR_1_1SelfIntersections_1_1Settings" prot="public">MR::SelfIntersections::Settings</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1SelfIntersections_1a24ad77f8c120ef0bda1b37e38b622319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::SelfIntersections::getFaces</definition>
+        <argsstring>(const Mesh &amp;mesh, bool touchIsIntersection=true, ProgressCallback cb={})</argsstring>
+        <name>getFaces</name>
+        <qualifiedname>MR::SelfIntersections::getFaces</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchIsIntersection</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Find all self-intersections faces component-wise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="38" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" declline="38" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1SelfIntersections_1a31221cba193e98804d912de6685cd94a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::SelfIntersections::fix</definition>
+        <argsstring>(Mesh &amp;mesh, const Settings &amp;settings)</argsstring>
+        <name>fix</name>
+        <qualifiedname>MR::SelfIntersections::fix</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1SelfIntersections_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Finds and fixes self-intersections per component: </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="41" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" declline="41" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1087 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Triangulation" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Triangulation</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Triangulation_1aff36405a02cf2800e641da7a13d95281" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Triangulation::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57529" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Triangulation_1a752df1edcbdcdecba7a2ab2bab103ae1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Triangulation::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Triangulation._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57530" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a836e15f2d1da31a0bc2fe4c36e51f018" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57533" bodyend="57534"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a94427e3a164be2345790c45375c6f6bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+        <definition> Triangulation mrmeshpy.Triangulation.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Triangulation.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57537" bodyend="57538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a94427e3a164be2345790c45375c6f6bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+        <definition> Triangulation mrmeshpy.Triangulation.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Triangulation.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57541" bodyend="57542"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1af2ec51c1016d4be8dd7c588d830f76b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Triangulation.__eq__</definition>
+        <argsstring>(self, Triangulation b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57543" bodyend="57544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57546" bodyend="57547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57549" bodyend="57550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a122af967d382a95e5eaf702b740af358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57552" bodyend="57555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0a08e4006ce95cac612f3729dce9d08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57557" bodyend="57560"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0658cf7372b2710ac06d22e11966b10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__init__</definition>
+        <argsstring>(self, int size, std_array_Id_VertTag_3 val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57562" bodyend="57565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a18db844c0e14e74acef5f11aedcfec10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__init__</definition>
+        <argsstring>(self, std_vector_std_array_Id_VertTag_3ul vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57567" bodyend="57570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a6424be3cb7c5cb200b7db2c6065aab12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__init__</definition>
+        <argsstring>(self, Triangulation arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57572" bodyend="57575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a73fb0d7a528b364c2c33a30c3a220a1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref>]</type>
+        <definition> typing.Iterator[std_array_Id_VertTag_3] mrmeshpy.Triangulation.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57576" bodyend="57577"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a1a6948a47c2bbd87c5fef44fd788b25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Triangulation.__ne__</definition>
+        <argsstring>(self, Triangulation b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57578" bodyend="57579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a7c8588ffda758d70e47598c8ce6c64dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.__setitem__</definition>
+        <argsstring>(self, FaceId arg0, std_array_Id_VertTag_3 arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57580" bodyend="57581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1abb38c96138514db406b072c2c9665cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.autoResizeAt</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Triangulation.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57582" bodyend="57585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a33fe331219c2a9306a7db9a239f9c76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.autoResizeSet</definition>
+        <argsstring>(self, FaceId pos, int len, std_array_Id_VertTag_3 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Triangulation.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57587" bodyend="57591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a8ef9e450c31a8f4e9657a7583fd919a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.autoResizeSet</definition>
+        <argsstring>(self, FaceId i, std_array_Id_VertTag_3 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Triangulation.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57593" bodyend="57596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Triangulation.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57598" bodyend="57599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Triangulation.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57601" bodyend="57602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a1a2fcb1f1179f1e9c6336cf1cc5d76c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Triangulation.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Triangulation.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57603" bodyend="57606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aabc100356ebd31a32c0a67f2960c03de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Triangulation.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Triangulation.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57607" bodyend="57610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a75c44b29e9e11fc30eff2e741be75825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Triangulation.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Triangulation.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57611" bodyend="57612"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a7da76ccd9c7752de40b79a733923390e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Triangulation.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57613" bodyend="57614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1afd6bf4a8f2c4593cee59d3d6adf50b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Triangulation.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57616" bodyend="57617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1afd6bf4a8f2c4593cee59d3d6adf50b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Triangulation.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57619" bodyend="57620"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a4b00d2542d78d0cf7bfd0f2d9dc29a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Triangulation.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57621" bodyend="57622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1ada41072f20d6d61d150a405cd8ba6f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Triangulation.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Triangulation.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57623" bodyend="57624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a9abed058a50ba3f0f48d799703a07018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Triangulation.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Triangulation.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57625" bodyend="57628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Triangulation.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57630" bodyend="57631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Triangulation.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57633" bodyend="57634"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a02090118bbd5752afd16091540dd453a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Triangulation.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Triangulation.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57635" bodyend="57638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a2569fa69861b1a82c708ac90e3cba155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Triangulation.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57639" bodyend="57640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0103cfaafefedcf26d000883f1b55179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.push_back</definition>
+        <argsstring>(self, std_array_Id_VertTag_3 t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Triangulation.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57642" bodyend="57643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0103cfaafefedcf26d000883f1b55179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.push_back</definition>
+        <argsstring>(self, std_array_Id_VertTag_3 t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Triangulation.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57645" bodyend="57646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1accbe047f240df9b89715340d6f088078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Triangulation.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57647" bodyend="57648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a8601dc79c9690ea9c0305e7988b10443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Triangulation.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57650" bodyend="57651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a7ac7b6c2b27cdaff7df5439cb72ae9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.resize</definition>
+        <argsstring>(self, int newSize, std_array_Id_VertTag_3 t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Triangulation.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57653" bodyend="57654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a70cd776efa9b05482f16588902ff72cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Triangulation.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57656" bodyend="57659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aeed07673823904502a3a117d927e2d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, std_array_Id_VertTag_3 value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Triangulation.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57661" bodyend="57664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a14e7423ffe04d7ddfd3da5115146a9f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Triangulation.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Triangulation.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57665" bodyend="57666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0118ac93024351a2285467a5f6b0b098" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.swap</definition>
+        <argsstring>(self, Triangulation b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Triangulation.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57667" bodyend="57668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1abfb2d240cab03cb909d0cdc9b914384c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
+        <definition> std_vector_std_array_Id_VertTag_3ul mrmeshpy.Triangulation.vec</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Triangulation.vec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57670" bodyend="57673"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a1aa47da400e6cebd47813b191e7f236e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.vec</definition>
+        <argsstring>(self, std_vector_std_array_Id_VertTag_3ul arg1)</argsstring>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Triangulation.vec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57675" bodyend="57676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1ab7a2bee04a51c2a8a12fd564b5711718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
+        <definition> std_vector_std_array_Id_VertTag_3ul mrmeshpy.Triangulation.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Triangulation.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57678" bodyend="57681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5e60d1773bdd4b134f31cb53d9796ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.vec_</definition>
+        <argsstring>(self, std_vector_std_array_Id_VertTag_3ul arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Triangulation.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57683" bodyend="57684"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Triangulation
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Triangulation</label>
+        <link refid="classmrmeshpy_1_1Triangulation"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57519" bodyend="57684"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Triangulation_1af2ec51c1016d4be8dd7c588d830f76b8" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1aff36405a02cf2800e641da7a13d95281" prot="private" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a836e15f2d1da31a0bc2fe4c36e51f018" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a122af967d382a95e5eaf702b740af358" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a0a08e4006ce95cac612f3729dce9d08c" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a0658cf7372b2710ac06d22e11966b10d" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a18db844c0e14e74acef5f11aedcfec10" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a6424be3cb7c5cb200b7db2c6065aab12" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a73fb0d7a528b364c2c33a30c3a220a1f" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a1a6948a47c2bbd87c5fef44fd788b25e" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a7c8588ffda758d70e47598c8ce6c64dd" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a752df1edcbdcdecba7a2ab2bab103ae1" prot="protected" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1abb38c96138514db406b072c2c9665cbd" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a33fe331219c2a9306a7db9a239f9c76f" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a8ef9e450c31a8f4e9657a7583fd919a5" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a1a2fcb1f1179f1e9c6336cf1cc5d76c5" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1aabc100356ebd31a32c0a67f2960c03de" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a75c44b29e9e11fc30eff2e741be75825" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a7da76ccd9c7752de40b79a733923390e" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1afd6bf4a8f2c4593cee59d3d6adf50b72" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1afd6bf4a8f2c4593cee59d3d6adf50b72" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a4b00d2542d78d0cf7bfd0f2d9dc29a9e" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1ada41072f20d6d61d150a405cd8ba6f37" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a9abed058a50ba3f0f48d799703a07018" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a02090118bbd5752afd16091540dd453a" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a94427e3a164be2345790c45375c6f6bc" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a94427e3a164be2345790c45375c6f6bc" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a2569fa69861b1a82c708ac90e3cba155" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a0103cfaafefedcf26d000883f1b55179" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a0103cfaafefedcf26d000883f1b55179" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1accbe047f240df9b89715340d6f088078" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a8601dc79c9690ea9c0305e7988b10443" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a7ac7b6c2b27cdaff7df5439cb72ae9f0" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a70cd776efa9b05482f16588902ff72cd" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1aeed07673823904502a3a117d927e2d9b" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a14e7423ffe04d7ddfd3da5115146a9f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a0118ac93024351a2285467a5f6b0b098" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1abfb2d240cab03cb909d0cdc9b914384c" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a1aa47da400e6cebd47813b191e7f236e" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1ab7a2bee04a51c2a8a12fd564b5711718" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Triangulation_1a5e60d1773bdd4b134f31cb53d9796ce6" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

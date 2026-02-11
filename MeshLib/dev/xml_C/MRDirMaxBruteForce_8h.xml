@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRDirMaxBruteForce_8h" kind="file" language="C++">
+    <compoundname>MRDirMaxBruteForce.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRDirMaxBruteForce.h</label>
+        <link refid="MRDirMaxBruteForce_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
+        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="10" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a1278957cdc2df07940e90426e9a58809" prot="public" static="no">
+        <type>struct <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref></type>
+        <definition>typedef struct MR_MeshVertPart MR_MeshVertPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshVertPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="11" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" prot="public" static="no">
+        <type>struct <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref></type>
+        <definition>typedef struct MR_MinMaxArg_float_MR_VertId MR_MinMaxArg_float_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_MinMaxArg_float_MR_VertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="12" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
+        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
+        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="14" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
+        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="15" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" prot="public" static="no">
+        <type>struct MR_Vector2f</type>
+        <definition>typedef struct MR_Vector2f MR_Vector2f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
+        <type>struct MR_Vector3f</type>
+        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDirMaxBruteForce_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref></type>
+        <definition>typedef struct MR_VertCoords2 MR_VertCoords2</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_VertCoords *points, const MR_VertBitSet *region)</argsstring>
+        <name>MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the point having the largest projection on given direction by traversing all region points Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="28" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="28" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</definition>
+        <argsstring>(const MR_Vector2f *dir, const MR_VertCoords2 *points, const MR_VertBitSet *region)</argsstring>
+        <name>MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the point having the largest projection on given direction by traversing all region points Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="35" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="35" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_PointCloud *cloud, const MR_VertBitSet *region)</argsstring>
+        <name>MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the point in the cloud having the largest projection on given direction by traversing all valid points Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="42" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="42" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_Polyline3 *polyline)</argsstring>
+        <name>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertex in the polyline having the largest projection on given direction by traversing all valid vertices Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="48" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="48" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</definition>
+        <argsstring>(const MR_Vector2f *dir, const MR_Polyline2 *polyline)</argsstring>
+        <name>MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertex in the polyline having the largest projection on given direction by traversing all valid vertices Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="54" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_MeshPart *mp)</argsstring>
+        <name>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertex in the mesh part having the largest projection on given direction by traversing all (region) faces Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="60" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="60" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_MeshVertPart *mp)</argsstring>
+        <name>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertex in the mesh part having the largest projection on given direction by traversing all (region) vertices Generated from function <computeroutput>MR::findDirMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="66" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="66" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_VertCoords *points, const MR_VertBitSet *region)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the points having the smallest and the largest projections on given direction by traversing all region points Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="74" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="74" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</definition>
+        <argsstring>(const MR_Vector2f *dir, const MR_VertCoords2 *points, const MR_VertBitSet *region)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the points having the smallest and the largest projections on given direction by traversing all region points Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="82" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="82" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_PointCloud *cloud, const MR_VertBitSet *region)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the points in the cloud having the smallest and the largest projections on given direction by traversing all valid points Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="90" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="90" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_Polyline3 *polyline)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertex in the polyline having the smallest and the largest projections on given direction by traversing all valid vertices Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="97" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="97" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</definition>
+        <argsstring>(const MR_Vector2f *dir, const MR_Polyline2 *polyline)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref> *</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertex in the polyline having the smallest and the largest projections on given direction by traversing all valid vertices Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="104" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="104" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_MeshPart *mp)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertices in the mesh part having the smallest and the largest projections on given direction by traversing all (region) faces Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="111" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="111" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</definition>
+        <argsstring>(const MR_Vector3f *dir, const MR_MeshVertPart *mp)</argsstring>
+        <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the vertices in the mesh part having the smallest and the largest projections on given direction by traversing all (region) vertices Generated from function <computeroutput>MR::findDirMinMaxBruteForce</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="118" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="118" declcolumn="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="MRDirMaxBruteForce_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRDirMaxBruteForce_8h_1a1278957cdc2df07940e90426e9a58809" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMinMaxArg.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRDirMaxBruteForce_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRDirMaxBruteForce_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRDirMaxBruteForce_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRDirMaxBruteForce_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRDirMaxBruteForce_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRDirMaxBruteForce_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRDirMaxBruteForce_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRDirMaxBruteForce_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h"/>
+  </compounddef>
+</doxygen>

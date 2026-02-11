@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelLocation" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelLocation</compoundname>
+    <includes refid="MRVolumeIndexer_8h" local="no">MRVolumeIndexer.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kind="variable"><name>id</name></member>
+      <member refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" kind="variable"><name>pos</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__VoxelGroup_1ga3f90dd1eb37b8e96421048a44936a299" kind="function"><name>operator bool</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>contains both linear <ref refid="classMR_1_1Id" kindref="compound">Id</ref> and 3D coordinates of the same voxel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="56" bodyend="62"/>
+    <listofallmembers>
+      <member refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>id</name></member>
+      <member refid="group__VoxelGroup_1ga3f90dd1eb37b8e96421048a44936a299" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>operator bool</name></member>
+      <member refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

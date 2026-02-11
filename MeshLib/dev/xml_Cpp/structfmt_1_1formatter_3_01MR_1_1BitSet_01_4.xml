@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>fmt::formatter&lt; MR::BitSet &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">fmt::formatter&lt; std::string &gt;</basecompoundref>
+    <includes refid="MRFormat_8h" local="no">MRFormat.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4_1aa10c77c63d00564d3cf16cce044c58c7" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Context</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto fmt::formatter&lt; MR::BitSet &gt;::format</definition>
+        <argsstring>(const MR::BitSet &amp;bs, Context &amp;ctx) const</argsstring>
+        <name>format</name>
+        <qualifiedname>fmt::formatter&lt; MR::BitSet &gt;::format</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">MR::BitSet</ref> &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>Context &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="168" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="168" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4_1a55698202c257b2fffb501dd7aafa2112" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>static MRMESH_API std::string fmt::formatter&lt; MR::BitSet &gt;::toString</definition>
+        <argsstring>(const MR::BitSet &amp;bs)</argsstring>
+        <name>toString</name>
+        <qualifiedname>fmt::formatter&lt; MR::BitSet &gt;::toString</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">MR::BitSet</ref> &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="175" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>fmt::formatter&lt; MR::BitSet &gt;</label>
+        <link refid="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fmt::formatter&lt; std::string &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>fmt::formatter&lt; MR::BitSet &gt;</label>
+        <link refid="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fmt::formatter&lt; std::string &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="166" bodyend="176"/>
+    <listofallmembers>
+      <member refid="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4_1aa10c77c63d00564d3cf16cce044c58c7" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; MR::BitSet &gt;</scope><name>format</name></member>
+      <member refid="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4_1a55698202c257b2fffb501dd7aafa2112" prot="private" virt="non-virtual"><scope>fmt::formatter&lt; MR::BitSet &gt;</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

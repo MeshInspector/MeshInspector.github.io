@@ -1,0 +1,1906 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshLoadObj_8h" kind="file" language="C++">
+    <compoundname>MRMeshLoadObj.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
+    <includes refid="MRColor_8h" local="no">MRCMesh/MRColor.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRCMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMeshLoadObj.h</label>
+        <link refid="MRMeshLoadObj_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="15" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1a248aef9b7513a21932ba1dfcfbd3410d" prot="public" static="no">
+        <type>struct <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref></type>
+        <definition>typedef struct MR_TexturePerFace MR_TexturePerFace</definition>
+        <argsstring></argsstring>
+        <name>MR_TexturePerFace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="16" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" prot="public" static="no">
+        <type>struct <ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref></type>
+        <definition>typedef struct MR_Vector_std_filesystem_path_MR_TextureId MR_Vector_std_filesystem_path_MR_TextureId</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector_std_filesystem_path_MR_TextureId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="17" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
+        <definition>typedef struct MR_VertColors MR_VertColors</definition>
+        <argsstring></argsstring>
+        <name>MR_VertColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref></type>
+        <definition>typedef struct MR_VertCoords2 MR_VertCoords2</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="19" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1afddfdf9f07abac630b268df02dbaed95" prot="public" static="no">
+        <type>struct <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_LoadedObjects_std_string MR_expected_MR_LoadedObjects_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_LoadedObjects_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="20" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" prot="public" static="no">
+        <type>struct <ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref></type>
+        <definition>typedef struct MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="21" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="22" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
+        <definition>typedef struct MR_std_istream MR_std_istream</definition>
+        <argsstring></argsstring>
+        <name>MR_std_istream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1af8e34c593afc89cf4494928ca552201f" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref></type>
+        <definition>typedef struct MR_std_optional_MR_Color MR_std_optional_MR_Color</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="24" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="25" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" prot="public" static="no">
+        <type>struct <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref></type>
+        <definition>typedef struct MR_MeshLoad_ObjLoadSettings MR_MeshLoad_ObjLoadSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="30" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" prot="public" static="no">
+        <type>struct <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref></type>
+        <definition>typedef struct MR_MeshLoad_NamedMesh MR_MeshLoad_NamedMesh</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshLoad_NamedMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="34" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a7d6f6e89e192bf5c53edb02973350f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_MeshLoad_ObjLoadSettings_Get_customXf</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Get_customXf</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then vertices will be returned relative to some transformation to avoid precision loss Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>customXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="40" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aca6d0e0784c943d6199c351a0fd04c1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_ObjLoadSettings_Set_customXf</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this, bool value)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Set_customXf</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then vertices will be returned relative to some transformation to avoid precision loss Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>customXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>customXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ad028ab5ca82b2e196f3462c55f60d272" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_MeshLoad_ObjLoadSettings_GetMutable_customXf</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_GetMutable_customXf</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then vertices will be returned relative to some transformation to avoid precision loss Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>customXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1abcbe943655c40454f73ef2a61c44a287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_MeshLoad_ObjLoadSettings_Get_countSkippedFaces</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Get_countSkippedFaces</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the number of skipped faces (faces than can&apos;t be created) will be counted Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>countSkippedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="58" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="58" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ad10cfa80305a5ad39f38a9765440724f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_ObjLoadSettings_Set_countSkippedFaces</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this, bool value)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Set_countSkippedFaces</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the number of skipped faces (faces than can&apos;t be created) will be counted Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>countSkippedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>countSkippedFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a890a9bcdc4029071dc4f65c5bf6abae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_MeshLoad_ObjLoadSettings_GetMutable_countSkippedFaces</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_GetMutable_countSkippedFaces</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the number of skipped faces (faces than can&apos;t be created) will be counted Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>countSkippedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a5411d5a1ad3ffc67bad55f453f9d3d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_MeshLoad_ObjLoadSettings_Get_callback</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Get_callback</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="76" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="76" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a671c77eb695ab5d96f22ffdc874284f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_ObjLoadSettings_Set_callback</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Set_callback</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aac7000a0dc9e580c3989cd4270766c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_MeshLoad_ObjLoadSettings_GetMutable_callback</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_GetMutable_callback</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="89" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="89" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a56ec179b932db38e622c560eae3ba3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_MeshLoad_ObjLoadSettings_Get_telemetrySignal</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Get_telemetrySignal</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="95" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="95" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a45a333e728b801eef0ceda86fbb765f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_ObjLoadSettings_Set_telemetrySignal</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this, bool value)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Set_telemetrySignal</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>telemetrySignal</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a5331fd5a5749029418d41d1bcdf3bed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_MeshLoad_ObjLoadSettings_GetMutable_telemetrySignal</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_GetMutable_telemetrySignal</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a382c49c4f163150aa642dc8ae8adc68e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" kindref="member">MR_MeshLoad_ObjLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="111" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="111" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a808980271f1aee4fa2bb9903f5c6e895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshLoadObj_8h_1a4daa231d1bcc45f92994b741eab96b87" kindref="member">MR_MeshLoad_ObjLoadSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshLoadObj_8h_1a65ef621c416fddfcd6765a20d6ce7828" kindref="member">MR_MeshLoad_ObjLoadSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshLoadObj_8h_1ae3bed515da8b80fe853b818ac96b067d" kindref="member">MR_MeshLoad_ObjLoadSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="116" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="116" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a119deddf037cf5b481851455dd76ab9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_ConstructFrom</definition>
+        <argsstring>(bool customXf, bool countSkippedFaces, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback, bool telemetrySignal)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_ConstructFrom</name>
+        <param>
+          <type>bool</type>
+          <declname>customXf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>countSkippedFaces</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>callback_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" kindref="member">MR_MeshLoad_ObjLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="122" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="122" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ae3bed515da8b80fe853b818ac96b067d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API const MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_OffsetPtr</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="126" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="126" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a65ef621c416fddfcd6765a20d6ce7828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="130" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="130" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ad2f834221feb96ef7ffbe91adf9935a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_MeshLoad_ObjLoadSettings *_other)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshLoad::ObjLoadSettings::ObjLoadSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" kindref="member">MR_MeshLoad_ObjLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="135" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="135" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_ObjLoadSettings_Destroy</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshLoad_ObjLoadSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="138" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a4daa231d1bcc45f92994b741eab96b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_ObjLoadSettings_DestroyArray</definition>
+        <argsstring>(const MR_MeshLoad_ObjLoadSettings *_this)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshLoad_ObjLoadSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a441d82930ac203df83f87f66c56916a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_ObjLoadSettings * MR_MeshLoad_ObjLoadSettings_AssignFromAnother</definition>
+        <argsstring>(MR_MeshLoad_ObjLoadSettings *_this, MR_PassBy _other_pass_by, MR_MeshLoad_ObjLoadSettings *_other)</argsstring>
+        <name>MR_MeshLoad_ObjLoadSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshLoad::ObjLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="148" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="148" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aedc33b67cb623d870698d53d4ea4de32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_MeshLoad_NamedMesh_Get_name</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_name</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="153" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="153" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1af377583d0102d993f57a23fb55b25689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_name</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_name</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="161" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ab64f68e3eac053641d454b0df1506658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_MeshLoad_NamedMesh_GetMutable_name</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_name</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="166" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="166" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1abf2a0a41a084d7db8bb8d71f02f6f02c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API const MR_Mesh * MR_MeshLoad_NamedMesh_Get_mesh</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_mesh</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="171" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="171" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1adf9d691dc5b8cb93feca6c4d8afc6ca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_mesh</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_PassBy value_pass_by, MR_Mesh *value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_mesh</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="177" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1add5d024571d76392a56c6c84a83fb444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_Mesh * MR_MeshLoad_NamedMesh_GetMutable_mesh</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_mesh</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="182" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="182" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a0fdb0e7b60089dfa7553f0b2d5048db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+        <definition>MRC_API const MR_VertCoords2 * MR_MeshLoad_NamedMesh_Get_uvCoords</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_uvCoords</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="187" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="187" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a977469297556af67cd6211c90273f083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_uvCoords</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_PassBy value_pass_by, MR_VertCoords2 *value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_uvCoords</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvCoords</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1add7ce00f8fd67c636820283b14f0a932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+        <definition>MRC_API MR_VertCoords2 * MR_MeshLoad_NamedMesh_GetMutable_uvCoords</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_uvCoords</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="198" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="198" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aa64071ebe839d9799af19d1734ec0594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+        <definition>MRC_API const MR_VertColors * MR_MeshLoad_NamedMesh_Get_colors</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_colors</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="203" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="203" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aef08cd5b6480e272dabb2fa00a076364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_colors</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_PassBy value_pass_by, MR_VertColors *value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_colors</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="209" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="209" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a9b9f734846251288f474628809a92c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+        <definition>MRC_API MR_VertColors * MR_MeshLoad_NamedMesh_GetMutable_colors</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_colors</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="214" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="214" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a77675f811f855b7c8d47faa78bea859b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref> *</type>
+        <definition>MRC_API const MR_Vector_std_filesystem_path_MR_TextureId * MR_MeshLoad_NamedMesh_Get_textureFiles</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_textureFiles</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>textureFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="219" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="219" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ad3dae35dd8f0965da5f92d1e3776d47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_textureFiles</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_PassBy value_pass_by, MR_Vector_std_filesystem_path_MR_TextureId *value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_textureFiles</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>textureFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textureFiles</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>textureFiles</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="225" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a78b5c24a85ceebe5d0694dcb0b5480cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref> *</type>
+        <definition>MRC_API MR_Vector_std_filesystem_path_MR_TextureId * MR_MeshLoad_NamedMesh_GetMutable_textureFiles</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_textureFiles</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>textureFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="230" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="230" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a27e9c54af9f98e4be583f237f3c62210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *</type>
+        <definition>MRC_API const MR_TexturePerFace * MR_MeshLoad_NamedMesh_Get_texturePerFace</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_texturePerFace</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="235" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="235" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a3275927527f9c2af74217e50a4f5d7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_texturePerFace</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_PassBy value_pass_by, MR_TexturePerFace *value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_texturePerFace</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texturePerFace</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="241" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="241" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a5172443c0f92a61d6891bf5e37f138fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *</type>
+        <definition>MRC_API MR_TexturePerFace * MR_MeshLoad_NamedMesh_GetMutable_texturePerFace</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_texturePerFace</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="246" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="246" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1abb2afacf7cd3924e8099baf53e82889d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_Color * MR_MeshLoad_NamedMesh_Get_diffuseColor</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_diffuseColor</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>diffuseColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="251" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="251" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a3ef939881f58d88100b8ee9587c3532b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_diffuseColor</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, const MR_Color *value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_diffuseColor</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>diffuseColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>diffuseColor</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>diffuseColor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="258" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a623bbbb193daddd325bb6a9beda0f4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Color * MR_MeshLoad_NamedMesh_GetMutable_diffuseColor</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_diffuseColor</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>diffuseColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="263" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="263" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ae9bb092c8a18deabdb27259efdfb6f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_MeshLoad_NamedMesh_Get_xf</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="269" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="269" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a4a618cc857120d9c8c518261b9683076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_xf</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_AffineXf3f value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_xf</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="276" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a037c9405b90768f60a25dc613e040c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_MeshLoad_NamedMesh_GetMutable_xf</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="282" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="282" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a513afc76410f883f92ae19551e810472" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_MeshLoad_NamedMesh_Get_skippedFaceCount</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_skippedFaceCount</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter of skipped faces (faces than can&apos;t be created), not zero only if ObjLoadSettings.countSkippedFaces Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="288" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="288" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a15289f0375e1b43b9be5f9eb6df6c3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_skippedFaceCount</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, int value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_skippedFaceCount</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter of skipped faces (faces than can&apos;t be created), not zero only if ObjLoadSettings.countSkippedFaces Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>skippedFaceCount</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="294" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="294" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a6b0427868f71ee34500195d814a95f72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_MeshLoad_NamedMesh_GetMutable_skippedFaceCount</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_skippedFaceCount</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter of skipped faces (faces than can&apos;t be created), not zero only if ObjLoadSettings.countSkippedFaces Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="300" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="300" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1accea96be2616278b9d8d636e12569634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_MeshLoad_NamedMesh_Get_duplicatedVertexCount</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Get_duplicatedVertexCount</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter of duplicated vertices (that created for resolve non-manifold geometry) Returns a pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>duplicatedVertexCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="306" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="306" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a3b9d9c6696dfc0557ec1bb726030dbb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Set_duplicatedVertexCount</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, int value)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Set_duplicatedVertexCount</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>duplicatedVertexCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>duplicatedVertexCount</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="312" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a2f47f143e79bc299e58f805b6f263fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_MeshLoad_NamedMesh_GetMutable_duplicatedVertexCount</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_GetMutable_duplicatedVertexCount</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter of duplicated vertices (that created for resolve non-manifold geometry) Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>duplicatedVertexCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="318" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="318" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ae8d9614ec1355ef1359825797ffadb3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" kindref="member">MR_MeshLoad_NamedMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="322" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="322" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1afb574ef0bbe9ea09c0cdd317ead58bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshLoadObj_8h_1aa5ecb134fca3f2d1bcdeab27b0be272e" kindref="member">MR_MeshLoad_NamedMesh_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshLoadObj_8h_1aeb12fcd1300e3c071ac250e26a20e9f8" kindref="member">MR_MeshLoad_NamedMesh_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshLoadObj_8h_1a24fb74f569ddefaca2a89188b61634ea" kindref="member">MR_MeshLoad_NamedMesh_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="327" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="327" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a9b7d4e2202cbc9d059cfead692496785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_ConstructFrom</definition>
+        <argsstring>(const char *name, const char *name_end, MR_PassBy mesh_pass_by, MR_Mesh *mesh, MR_PassBy uvCoords_pass_by, MR_VertCoords2 *uvCoords, MR_PassBy colors_pass_by, MR_VertColors *colors, MR_PassBy textureFiles_pass_by, MR_Vector_std_filesystem_path_MR_TextureId *textureFiles, MR_PassBy texturePerFace_pass_by, MR_TexturePerFace *texturePerFace, const MR_Color *diffuseColor, MR_AffineXf3f xf, int skippedFaceCount, int duplicatedVertexCount)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_ConstructFrom</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>mesh_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>uvCoords_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>colors_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>textureFiles_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref> *</type>
+          <declname>textureFiles</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>texturePerFace_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *</type>
+          <declname>texturePerFace</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>diffuseColor</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>skippedFaceCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duplicatedVertexCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>textureFiles</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>diffuseColor</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>diffuseColor</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" kindref="member">MR_MeshLoad_NamedMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="343" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="343" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a24fb74f569ddefaca2a89188b61634ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API const MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_OffsetPtr</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="347" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="347" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aeb12fcd1300e3c071ac250e26a20e9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="351" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="351" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a8f10302e3f01d565fb3f9b3215061494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_MeshLoad_NamedMesh *_other)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshLoad::NamedMesh::NamedMesh</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" kindref="member">MR_MeshLoad_NamedMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="356" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="356" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_Destroy</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshLoad_NamedMesh</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="359" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="359" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aa5ecb134fca3f2d1bcdeab27b0be272e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshLoad_NamedMesh_DestroyArray</definition>
+        <argsstring>(const MR_MeshLoad_NamedMesh *_this)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshLoad_NamedMesh</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="362" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="362" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a185cca1a49380b085c4083feb77ee414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_NamedMesh * MR_MeshLoad_NamedMesh_AssignFromAnother</definition>
+        <argsstring>(MR_MeshLoad_NamedMesh *_this, MR_PassBy _other_pass_by, MR_MeshLoad_NamedMesh *_other)</argsstring>
+        <name>MR_MeshLoad_NamedMesh_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshLoad::NamedMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="369" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="369" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ac96f8c15580abc354164605e96393362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string * MR_MeshLoad_fromSceneObjFile_3</definition>
+        <argsstring>(const char *file, const char *file_end, bool combineAllObjects, const MR_MeshLoad_ObjLoadSettings *settings)</argsstring>
+        <name>MR_MeshLoad_fromSceneObjFile_3</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads meshes from .obj file Generated from function <computeroutput>MR::MeshLoad::fromSceneObjFile</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="377" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="377" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ae3b78db95efe836a94cbbb1838b17a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string * MR_MeshLoad_fromSceneObjFile_4</definition>
+        <argsstring>(MR_std_istream *in, bool combineAllObjects, const char *dir, const char *dir_end, const MR_MeshLoad_ObjLoadSettings *settings)</argsstring>
+        <name>MR_MeshLoad_fromSceneObjFile_4</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>dir_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads meshes from a stream with .obj file contents important on Windows: in stream must be open in binary mode <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>working directory where materials and textures are located Generated from function <computeroutput>MR::MeshLoad::fromSceneObjFile</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="388" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="388" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1a76e35124931a0eef1615f3ed01a8a36f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string * MR_MeshLoad_fromSceneObjFile_5</definition>
+        <argsstring>(const char *data, MR_uint64_t size, bool combineAllObjects, const char *dir, const char *dir_end, const MR_MeshLoad_ObjLoadSettings *settings)</argsstring>
+        <name>MR_MeshLoad_fromSceneObjFile_5</name>
+        <param>
+          <type>const char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>dir_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads meshes from memory array with .obj file contents <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>working directory where materials and textures are located Generated from function <computeroutput>MR::MeshLoad::fromSceneObjFile</computeroutput>. Parameter <computeroutput>dir</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="397" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="397" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1ab58d91bc21bcb6e7d7d4b97f0cc15fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_LoadedObjects_std_string * MR_MeshLoad_loadObjectFromObj</definition>
+        <argsstring>(const char *file, const char *file_end, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_MeshLoad_loadObjectFromObj</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reads all objects from .OBJ file Generated from function <computeroutput>MR::MeshLoad::loadObjectFromObj</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjects_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" line="405" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h" declline="405" declcolumn="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRColor_8h" kindref="compound">MRCMesh/MRColor.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRMeshLoadObj_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRMeshLoadObj_8h_1a248aef9b7513a21932ba1dfcfbd3410d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref><sp/><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRMeshLoadObj_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRMeshLoadObj_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRMeshLoadObj_8h_1afddfdf9f07abac630b268df02dbaed95" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjects_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_MeshLoad_NamedMesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRMeshLoadObj_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRMeshLoadObj_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRMeshLoadObj_8h_1af8e34c593afc89cf4494928ca552201f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRMeshLoadObj_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRMeshLoadObj_8h_1a7d6f6e89e192bf5c53edb02973350f48" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a7d6f6e89e192bf5c53edb02973350f48" kindref="member">MR_MeshLoad_ObjLoadSettings_Get_customXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRMeshLoadObj_8h_1aca6d0e0784c943d6199c351a0fd04c1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aca6d0e0784c943d6199c351a0fd04c1a" kindref="member">MR_MeshLoad_ObjLoadSettings_Set_customXf</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRMeshLoadObj_8h_1ad028ab5ca82b2e196f3462c55f60d272" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1ad028ab5ca82b2e196f3462c55f60d272" kindref="member">MR_MeshLoad_ObjLoadSettings_GetMutable_customXf</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRMeshLoadObj_8h_1abcbe943655c40454f73ef2a61c44a287" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1abcbe943655c40454f73ef2a61c44a287" kindref="member">MR_MeshLoad_ObjLoadSettings_Get_countSkippedFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRMeshLoadObj_8h_1ad10cfa80305a5ad39f38a9765440724f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1ad10cfa80305a5ad39f38a9765440724f" kindref="member">MR_MeshLoad_ObjLoadSettings_Set_countSkippedFaces</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRMeshLoadObj_8h_1a890a9bcdc4029071dc4f65c5bf6abae1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a890a9bcdc4029071dc4f65c5bf6abae1" kindref="member">MR_MeshLoad_ObjLoadSettings_GetMutable_countSkippedFaces</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRMeshLoadObj_8h_1a5411d5a1ad3ffc67bad55f453f9d3d55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a5411d5a1ad3ffc67bad55f453f9d3d55" kindref="member">MR_MeshLoad_ObjLoadSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRMeshLoadObj_8h_1a671c77eb695ab5d96f22ffdc874284f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a671c77eb695ab5d96f22ffdc874284f8" kindref="member">MR_MeshLoad_ObjLoadSettings_Set_callback</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRMeshLoadObj_8h_1aac7000a0dc9e580c3989cd4270766c41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1aac7000a0dc9e580c3989cd4270766c41" kindref="member">MR_MeshLoad_ObjLoadSettings_GetMutable_callback</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRMeshLoadObj_8h_1a56ec179b932db38e622c560eae3ba3c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a56ec179b932db38e622c560eae3ba3c4" kindref="member">MR_MeshLoad_ObjLoadSettings_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRMeshLoadObj_8h_1a45a333e728b801eef0ceda86fbb765f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a45a333e728b801eef0ceda86fbb765f8" kindref="member">MR_MeshLoad_ObjLoadSettings_Set_telemetrySignal</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRMeshLoadObj_8h_1a5331fd5a5749029418d41d1bcdf3bed0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a5331fd5a5749029418d41d1bcdf3bed0" kindref="member">MR_MeshLoad_ObjLoadSettings_GetMutable_telemetrySignal</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRMeshLoadObj_8h_1a382c49c4f163150aa642dc8ae8adc68e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a382c49c4f163150aa642dc8ae8adc68e" kindref="member">MR_MeshLoad_ObjLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRMeshLoadObj_8h_1a808980271f1aee4fa2bb9903f5c6e895" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a808980271f1aee4fa2bb9903f5c6e895" kindref="member">MR_MeshLoad_ObjLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMeshLoadObj_8h_1a119deddf037cf5b481851455dd76ab9f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a119deddf037cf5b481851455dd76ab9f" kindref="member">MR_MeshLoad_ObjLoadSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>customXf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>countSkippedFaces,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRMeshLoadObj_8h_1ae3bed515da8b80fe853b818ac96b067d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ae3bed515da8b80fe853b818ac96b067d" kindref="member">MR_MeshLoad_ObjLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRMeshLoadObj_8h_1a65ef621c416fddfcd6765a20d6ce7828" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a65ef621c416fddfcd6765a20d6ce7828" kindref="member">MR_MeshLoad_ObjLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRMeshLoadObj_8h_1ad2f834221feb96ef7ffbe91adf9935a8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ad2f834221feb96ef7ffbe91adf9935a8" kindref="member">MR_MeshLoad_ObjLoadSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" kindref="member">MR_MeshLoad_ObjLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRMeshLoadObj_8h_1a4daa231d1bcc45f92994b741eab96b87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a4daa231d1bcc45f92994b741eab96b87" kindref="member">MR_MeshLoad_ObjLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRMeshLoadObj_8h_1a441d82930ac203df83f87f66c56916a3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a441d82930ac203df83f87f66c56916a3" kindref="member">MR_MeshLoad_ObjLoadSettings_AssignFromAnother</ref>(<ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRMeshLoadObj_8h_1aedc33b67cb623d870698d53d4ea4de32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1aedc33b67cb623d870698d53d4ea4de32" kindref="member">MR_MeshLoad_NamedMesh_Get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRMeshLoadObj_8h_1af377583d0102d993f57a23fb55b25689" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1af377583d0102d993f57a23fb55b25689" kindref="member">MR_MeshLoad_NamedMesh_Set_name</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRMeshLoadObj_8h_1ab64f68e3eac053641d454b0df1506658" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ab64f68e3eac053641d454b0df1506658" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_name</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRMeshLoadObj_8h_1abf2a0a41a084d7db8bb8d71f02f6f02c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1abf2a0a41a084d7db8bb8d71f02f6f02c" kindref="member">MR_MeshLoad_NamedMesh_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRMeshLoadObj_8h_1adf9d691dc5b8cb93feca6c4d8afc6ca6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf9d691dc5b8cb93feca6c4d8afc6ca6" kindref="member">MR_MeshLoad_NamedMesh_Set_mesh</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRMeshLoadObj_8h_1add5d024571d76392a56c6c84a83fb444" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1add5d024571d76392a56c6c84a83fb444" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_mesh</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRMeshLoadObj_8h_1a0fdb0e7b60089dfa7553f0b2d5048db7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a0fdb0e7b60089dfa7553f0b2d5048db7" kindref="member">MR_MeshLoad_NamedMesh_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRMeshLoadObj_8h_1a977469297556af67cd6211c90273f083" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a977469297556af67cd6211c90273f083" kindref="member">MR_MeshLoad_NamedMesh_Set_uvCoords</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRMeshLoadObj_8h_1add7ce00f8fd67c636820283b14f0a932" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1add7ce00f8fd67c636820283b14f0a932" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_uvCoords</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRMeshLoadObj_8h_1aa64071ebe839d9799af19d1734ec0594" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1aa64071ebe839d9799af19d1734ec0594" kindref="member">MR_MeshLoad_NamedMesh_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRMeshLoadObj_8h_1aef08cd5b6480e272dabb2fa00a076364" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aef08cd5b6480e272dabb2fa00a076364" kindref="member">MR_MeshLoad_NamedMesh_Set_colors</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRMeshLoadObj_8h_1a9b9f734846251288f474628809a92c64" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a9b9f734846251288f474628809a92c64" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_colors</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRMeshLoadObj_8h_1a77675f811f855b7c8d47faa78bea859b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a77675f811f855b7c8d47faa78bea859b" kindref="member">MR_MeshLoad_NamedMesh_Get_textureFiles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRMeshLoadObj_8h_1ad3dae35dd8f0965da5f92d1e3776d47f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1ad3dae35dd8f0965da5f92d1e3776d47f" kindref="member">MR_MeshLoad_NamedMesh_Set_textureFiles</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRMeshLoadObj_8h_1a78b5c24a85ceebe5d0694dcb0b5480cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a78b5c24a85ceebe5d0694dcb0b5480cc" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_textureFiles</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRMeshLoadObj_8h_1a27e9c54af9f98e4be583f237f3c62210" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a27e9c54af9f98e4be583f237f3c62210" kindref="member">MR_MeshLoad_NamedMesh_Get_texturePerFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRMeshLoadObj_8h_1a3275927527f9c2af74217e50a4f5d7ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a3275927527f9c2af74217e50a4f5d7ab" kindref="member">MR_MeshLoad_NamedMesh_Set_texturePerFace</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRMeshLoadObj_8h_1a5172443c0f92a61d6891bf5e37f138fc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a5172443c0f92a61d6891bf5e37f138fc" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_texturePerFace</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRMeshLoadObj_8h_1abb2afacf7cd3924e8099baf53e82889d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1abb2afacf7cd3924e8099baf53e82889d" kindref="member">MR_MeshLoad_NamedMesh_Get_diffuseColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRMeshLoadObj_8h_1a3ef939881f58d88100b8ee9587c3532b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a3ef939881f58d88100b8ee9587c3532b" kindref="member">MR_MeshLoad_NamedMesh_Set_diffuseColor</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRMeshLoadObj_8h_1a623bbbb193daddd325bb6a9beda0f4a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a623bbbb193daddd325bb6a9beda0f4a4" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_diffuseColor</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRMeshLoadObj_8h_1ae9bb092c8a18deabdb27259efdfb6f28" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ae9bb092c8a18deabdb27259efdfb6f28" kindref="member">MR_MeshLoad_NamedMesh_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRMeshLoadObj_8h_1a4a618cc857120d9c8c518261b9683076" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a4a618cc857120d9c8c518261b9683076" kindref="member">MR_MeshLoad_NamedMesh_Set_xf</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRMeshLoadObj_8h_1a037c9405b90768f60a25dc613e040c60" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a037c9405b90768f60a25dc613e040c60" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_xf</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRMeshLoadObj_8h_1a513afc76410f883f92ae19551e810472" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a513afc76410f883f92ae19551e810472" kindref="member">MR_MeshLoad_NamedMesh_Get_skippedFaceCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="MRMeshLoadObj_8h_1a15289f0375e1b43b9be5f9eb6df6c3b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a15289f0375e1b43b9be5f9eb6df6c3b0" kindref="member">MR_MeshLoad_NamedMesh_Set_skippedFaceCount</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="MRMeshLoadObj_8h_1a6b0427868f71ee34500195d814a95f72" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a6b0427868f71ee34500195d814a95f72" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_skippedFaceCount</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="MRMeshLoadObj_8h_1accea96be2616278b9d8d636e12569634" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1accea96be2616278b9d8d636e12569634" kindref="member">MR_MeshLoad_NamedMesh_Get_duplicatedVertexCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRMeshLoadObj_8h_1a3b9d9c6696dfc0557ec1bb726030dbb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a3b9d9c6696dfc0557ec1bb726030dbb7" kindref="member">MR_MeshLoad_NamedMesh_Set_duplicatedVertexCount</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="MRMeshLoadObj_8h_1a2f47f143e79bc299e58f805b6f263fc1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshLoadObj_8h_1a2f47f143e79bc299e58f805b6f263fc1" kindref="member">MR_MeshLoad_NamedMesh_GetMutable_duplicatedVertexCount</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="MRMeshLoadObj_8h_1ae8d9614ec1355ef1359825797ffadb3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ae8d9614ec1355ef1359825797ffadb3f" kindref="member">MR_MeshLoad_NamedMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MRMeshLoadObj_8h_1afb574ef0bbe9ea09c0cdd317ead58bc2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1afb574ef0bbe9ea09c0cdd317ead58bc2" kindref="member">MR_MeshLoad_NamedMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="MRMeshLoadObj_8h_1a9b7d4e2202cbc9d059cfead692496785" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a9b7d4e2202cbc9d059cfead692496785" kindref="member">MR_MeshLoad_NamedMesh_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/>MR_PassBy<sp/>mesh_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>MR_PassBy<sp/>uvCoords_pass_by,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/>MR_PassBy<sp/>colors_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/>MR_PassBy<sp/>textureFiles_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kindref="member">MR_Vector_std_filesystem_path_MR_TextureId</ref><sp/>*textureFiles,<sp/>MR_PassBy<sp/>texturePerFace_pass_by,<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*texturePerFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*diffuseColor,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>skippedFaceCount,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>duplicatedVertexCount);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="MRMeshLoadObj_8h_1a24fb74f569ddefaca2a89188b61634ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a24fb74f569ddefaca2a89188b61634ea" kindref="member">MR_MeshLoad_NamedMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="MRMeshLoadObj_8h_1aeb12fcd1300e3c071ac250e26a20e9f8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1aeb12fcd1300e3c071ac250e26a20e9f8" kindref="member">MR_MeshLoad_NamedMesh_OffsetMutablePtr</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="MRMeshLoadObj_8h_1a8f10302e3f01d565fb3f9b3215061494" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a8f10302e3f01d565fb3f9b3215061494" kindref="member">MR_MeshLoad_NamedMesh_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" kindref="member">MR_MeshLoad_NamedMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="MRMeshLoadObj_8h_1aa5ecb134fca3f2d1bcdeab27b0be272e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa5ecb134fca3f2d1bcdeab27b0be272e" kindref="member">MR_MeshLoad_NamedMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="MRMeshLoadObj_8h_1a185cca1a49380b085c4083feb77ee414" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a185cca1a49380b085c4083feb77ee414" kindref="member">MR_MeshLoad_NamedMesh_AssignFromAnother</ref>(<ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kindref="member">MR_MeshLoad_NamedMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="MRMeshLoadObj_8h_1ac96f8c15580abc354164605e96393362" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ac96f8c15580abc354164605e96393362" kindref="member">MR_MeshLoad_fromSceneObjFile_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="MRMeshLoadObj_8h_1ae3b78db95efe836a94cbbb1838b17a2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ae3b78db95efe836a94cbbb1838b17a2d" kindref="member">MR_MeshLoad_fromSceneObjFile_4</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397" refid="MRMeshLoadObj_8h_1a76e35124931a0eef1615f3ed01a8a36f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a76e35124931a0eef1615f3ed01a8a36f" kindref="member">MR_MeshLoad_fromSceneObjFile_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/>MR_uint64_t<sp/>size,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405" refid="MRMeshLoadObj_8h_1ab58d91bc21bcb6e7d7d4b97f0cc15fcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ab58d91bc21bcb6e7d7d4b97f0cc15fcc" kindref="member">MR_MeshLoad_loadObjectFromObj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshLoadObj.h"/>
+  </compounddef>
+</doxygen>

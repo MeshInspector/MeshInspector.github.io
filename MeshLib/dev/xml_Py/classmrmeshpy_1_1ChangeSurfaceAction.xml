@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeSurfaceAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeSurfaceAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeSurfaceAction_1aa1fdecdba64d6eedff4fb6497999d410" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeSurfaceAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9001" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1af522d1a5d5d20fc19335aa7fd0191a1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSurfaceAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9004" bodyend="9005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1ad07cc571ec36da355e75853374690846" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSurfaceAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9007" bodyend="9008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1a2a0a4dd025b4ed16801d3502d0163fa2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeSurfaceAction" kindref="compound">ChangeSurfaceAction</ref></type>
+        <definition> ChangeSurfaceAction mrmeshpy.ChangeSurfaceAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9011" bodyend="9012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1a2a0a4dd025b4ed16801d3502d0163fa2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeSurfaceAction" kindref="compound">ChangeSurfaceAction</ref></type>
+        <definition> ChangeSurfaceAction mrmeshpy.ChangeSurfaceAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9015" bodyend="9016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1a2eb8ca67a33fb686b3eaf80d183eea83" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSurfaceAction.setObjectDirty</definition>
+        <argsstring>(ObjectVoxels obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9018" bodyend="9019"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1abb97e56bf28aa65aa9c94a8dd673d542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSurfaceAction.__init__</definition>
+        <argsstring>(self, str name, ObjectVoxels obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s surface before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9021" bodyend="9024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1a4a4e2fd4f312c4ef7240806f829b4ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSurfaceAction.__init__</definition>
+        <argsstring>(self, ChangeSurfaceAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeSurfaceAction" kindref="compound">ChangeSurfaceAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9026" bodyend="9029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1a4b1d524254e1576660c36bbe64475ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeSurfaceAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9030" bodyend="9031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSurfaceAction_1a79108c0c407e6c687f6b6464e9d6289e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeSurfaceAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeSurfaceAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9032" bodyend="9033"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeSurfaceAction
+
+Undo action for ObjectVoxels surface change (need for faster undo redo)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeSurfaceAction</label>
+        <link refid="classmrmeshpy_1_1ChangeSurfaceAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeSurfaceAction</label>
+        <link refid="classmrmeshpy_1_1ChangeSurfaceAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8995" bodyend="9033"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1af522d1a5d5d20fc19335aa7fd0191a1f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1abb97e56bf28aa65aa9c94a8dd673d542" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1a4a4e2fd4f312c4ef7240806f829b4ac6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1ad07cc571ec36da355e75853374690846" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1a4b1d524254e1576660c36bbe64475ce2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1a79108c0c407e6c687f6b6464e9d6289e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1aa1fdecdba64d6eedff4fb6497999d410" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1a2a0a4dd025b4ed16801d3502d0163fa2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1a2a0a4dd025b4ed16801d3502d0163fa2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSurfaceAction_1a2eb8ca67a33fb686b3eaf80d183eea83" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSurfaceAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

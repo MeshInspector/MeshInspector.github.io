@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cone3Approximation" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cone3Approximation</compoundname>
+    <includes refid="MRConeApproximator_8h" local="no">MRConeApproximator.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cone3Approximation_1a4f3109da8ed6b25d890b8bfc1f89094b" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Cone3ApproximationParams" kindref="compound">Cone3ApproximationParams</ref></type>
+        <definition>Cone3ApproximationParams MR::Cone3Approximation&lt; T &gt;::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::Cone3Approximation::params_</qualifiedname>
+        <briefdescription>
+<para>cone fitter main params </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="180" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a9d2c7bacbeba26d79da0394635646651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Cone3Approximation&lt; T &gt;::Cone3Approximation</definition>
+        <argsstring>()=default</argsstring>
+        <name>Cone3Approximation</name>
+        <qualifiedname>MR::Cone3Approximation::Cone3Approximation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="150" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a7c6a542eabe69884f78ec5044ab1df50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::solve</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone, const Cone3ApproximationParams &amp;params={})</argsstring>
+        <name>solve</name>
+        <qualifiedname>MR::Cone3Approximation::solve</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Cone3ApproximationParams" kindref="compound">Cone3ApproximationParams</ref> &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>returns RMS for original points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="153" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="153" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a3c513067ff953bd8f92e83a7d348f9d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::solveFixedAxis_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone, bool useConeInputAsInitialGuess=false)</argsstring>
+        <name>solveFixedAxis_</name>
+        <qualifiedname>MR::Cone3Approximation::solveFixedAxis_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useConeInputAsInitialGuess</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>solver for single axis case. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Looks like a bug in Eigen. Eigen::LevenbergMarquardtSpace::Status have error codes only. Not return value for Success minimization. So just log status</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="183" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="183" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a2fa9475cf33503ccff5f3a8f82d7735c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::solveApproximationPCM_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
+        <name>solveApproximationPCM_</name>
+        <qualifiedname>MR::Cone3Approximation::solveApproximationPCM_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="223" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1ac8c3efd06f653881f8192df119edcd84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::solveSpecificAxisFit_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
+        <name>solveSpecificAxisFit_</name>
+        <qualifiedname>MR::Cone3Approximation::solveSpecificAxisFit_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="228" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1ac59c616cf8debcc13993e583f4d64efa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::solveHemisphereSearchFit_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
+        <name>solveHemisphereSearchFit_</name>
+        <qualifiedname>MR::Cone3Approximation::solveHemisphereSearchFit_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+<para>brute force solver across hole hemisphere for cone axis original extimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>[0 .. pi/2]</para>
+<para>[0 .. 2*pi)</para>
+<para>cone main axis original extimation</para>
+<para>create approximator and minimize functor</para>
+<para>Looks like a bug in Eigen. Eigen::LevenbergMarquardtSpace::Status have error codes only. Not return value for Success minimization.</para>
+<para>calculate approximation error and store best result.</para>
+<para>find best result</para>
+<para>calculate cone height</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="234" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="234" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a534ae47637caf18b75d741f2a9936ca1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::calculateConeHeight_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
+        <name>calculateConeHeight_</name>
+        <qualifiedname>MR::Cone3Approximation::calculateConeHeight_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+<para>Calculate and return a length of cone based on set of initil points and inifinite cone surface given by cone param. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="310" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="310" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1aa94e0199d51f662c4f78b558a302894b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Cone3Approximation&lt; T &gt;::getApproximationRMS_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, const Cone3&lt; T &gt; &amp;cone)</argsstring>
+        <name>getApproximationRMS_</name>
+        <qualifiedname>MR::Cone3Approximation::getApproximationRMS_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="320" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="320" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1aad362142860c8f5aeeee579fdb9c6a35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt;</type>
+        <definition>MR::Vector3&lt; T &gt; MR::Cone3Approximation&lt; T &gt;::computeCenter_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points)</argsstring>
+        <name>computeCenter_</name>
+        <qualifiedname>MR::Cone3Approximation::computeCenter_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Compute the average of the sample points.</para>
+<para>C in pdf</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="332" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="332" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a406543b70850f573820436acb7e7f80d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Cone3Approximation&lt; T &gt;::computeCenterAndNormal_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, MR::Vector3&lt; T &gt; &amp;center, MR::Vector3&lt; T &gt; &amp;U)</argsstring>
+        <name>computeCenterAndNormal_</name>
+        <qualifiedname>MR::Cone3Approximation::computeCenterAndNormal_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>U</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>The cone axis is estimated from ZZTZ (see the <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf, formula 120).</para>
+<para>U in pdf</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="345" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="345" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1ab151a5fb5fc67e8ba6ba82a1dcf3445d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt;</type>
+        <definition>Cone3&lt; T &gt; MR::Cone3Approximation&lt; T &gt;::computeInitialCone_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, const MR::Vector3&lt; T &gt; &amp;center, const MR::Vector3&lt; T &gt; &amp;axis)</argsstring>
+        <name>computeInitialCone_</name>
+        <qualifiedname>MR::Cone3Approximation::computeInitialCone_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the initial parameters of the cone, which will later be used for minimization. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>coneAxis</para>
+<para>C is center, U is coneAxis, X is points Compute the signed heights of the points along the cone axis relative to C. These are the projections of the points onto the line C+t*U. Also compute the radial distances of the points from the line C+t*U</para>
+<para>The radial distance is considered to be a function of height. Fit the (h,r) pairs with a line: r = rAverage = hrSlope * (h = hAverage);</para>
+<para>line y=a*x+b</para>
+<para>If U is directed so that r increases as h increases, U is the correct cone axis estimate. However, if r decreases as h increases, -U is the correct cone axis estimate.</para>
+<para>Compute the extreme radial distance values for the points.</para>
+<para>Using trigonometry and right triangles, compute the tangent function of the cone angle.</para>
+<para>Compute the cone vertex.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="361" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="361" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a43ac810d08c41553a6981d566dda8cb0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Cone3Approximation&lt; T &gt;::findBestFitLine_</definition>
+        <argsstring>(const std::vector&lt; MR::Vector2&lt; T &gt; &gt; &amp;xyPairs, T &amp;lineA, T &amp;lineB, MR::Vector2&lt; T &gt; *avg=nullptr)</argsstring>
+        <name>findBestFitLine_</name>
+        <qualifiedname>MR::Cone3Approximation::findBestFitLine_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector2" kindref="compound">MR::Vector2</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>xyPairs</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>lineA</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>lineB</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2" kindref="compound">MR::Vector2</ref>&lt; T &gt; *</type>
+          <declname>avg</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Function for finding the best approximation of a straight line in general form y = a*x + b. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>x-coordinate of the i-th point</para>
+<para>constant 1.0 for dummy term b</para>
+<para>y-coordinate of the i-th point</para>
+<para>Solve the system of equations Ax = b using the least squares method</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="426" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="426" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1a8fb802af54e05d993846ffdab567d8a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Cone3Approximation&lt; T &gt;::fitParamsToCone_</definition>
+        <argsstring>(Eigen::Vector&lt; T, Eigen::Dynamic &gt; &amp;fittedParams, Cone3&lt; T &gt; &amp;cone)</argsstring>
+        <name>fitParamsToCone_</name>
+        <qualifiedname>MR::Cone3Approximation::fitParamsToCone_</qualifiedname>
+        <param>
+          <type>Eigen::Vector&lt; T, Eigen::Dynamic &gt; &amp;</type>
+          <declname>fittedParams</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+<para>Convert data from Eigen minimizator representation to cone params. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="461" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="461" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cone3Approximation_1ad54d2c4d217ddd10bdf15b7c4e3455ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Cone3Approximation&lt; T &gt;::coneToFitParams_</definition>
+        <argsstring>(Cone3&lt; T &gt; &amp;cone, Eigen::Vector&lt; T, Eigen::Dynamic &gt; &amp;fittedParams)</argsstring>
+        <name>coneToFitParams_</name>
+        <qualifiedname>MR::Cone3Approximation::coneToFitParams_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cone3" kindref="compound">Cone3</ref>&lt; T &gt; &amp;</type>
+          <declname>cone</declname>
+        </param>
+        <param>
+          <type>Eigen::Vector&lt; T, Eigen::Dynamic &gt; &amp;</type>
+          <declname>fittedParams</declname>
+        </param>
+        <briefdescription>
+<para>Convert data from cone params to Eigen minimizator representation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>The fittedParams guess for the cone vertex.</para>
+<para>The initial guess for the weighted cone axis.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="473" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="473" bodyend="485"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for approximation cloud point by cone. We will calculate the initial approximation of the cone and then use a minimizer to refine the parameters. minimizer is LevenbergMarquardt now. TODO: Possible we could add GaussNewton in future. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="147" bodyend="488"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cone3Approximation_1a534ae47637caf18b75d741f2a9936ca1" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>calculateConeHeight_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1aad362142860c8f5aeeee579fdb9c6a35" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeCenter_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a406543b70850f573820436acb7e7f80d" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeCenterAndNormal_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1ab151a5fb5fc67e8ba6ba82a1dcf3445d" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeInitialCone_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a9d2c7bacbeba26d79da0394635646651" prot="public" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>Cone3Approximation</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1ad54d2c4d217ddd10bdf15b7c4e3455ec" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>coneToFitParams_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a43ac810d08c41553a6981d566dda8cb0" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>findBestFitLine_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a8fb802af54e05d993846ffdab567d8a4" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>fitParamsToCone_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1aa94e0199d51f662c4f78b558a302894b" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>getApproximationRMS_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a4f3109da8ed6b25d890b8bfc1f89094b" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>params_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a7c6a542eabe69884f78ec5044ab1df50" prot="public" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solve</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a2fa9475cf33503ccff5f3a8f82d7735c" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveApproximationPCM_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1a3c513067ff953bd8f92e83a7d348f9d2" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveFixedAxis_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1ac59c616cf8debcc13993e583f4d64efa" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveHemisphereSearchFit_</name></member>
+      <member refid="classMR_1_1Cone3Approximation_1ac8c3efd06f653881f8192df119edcd84" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveSpecificAxisFit_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

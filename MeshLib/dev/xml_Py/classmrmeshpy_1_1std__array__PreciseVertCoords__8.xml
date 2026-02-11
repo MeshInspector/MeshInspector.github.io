@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__PreciseVertCoords__8" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_PreciseVertCoords_8</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1ac32c3fcc67acf0df889af8d3bbdf187f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+        <definition> PreciseVertCoords mrmeshpy.std_array_PreciseVertCoords_8.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78207" bodyend="78208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1abb42242c2883f6efd05d420792e70701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_PreciseVertCoords_8.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78210" bodyend="78211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a236e509c3d95232dff45aa7394822730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_PreciseVertCoords_8.__init__</definition>
+        <argsstring>(self, std_array_PreciseVertCoords_8 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8" kindref="compound">std_array_PreciseVertCoords_8</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78213" bodyend="78214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a0f1b0ff28a529eb67d43df9f535fe136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_PreciseVertCoords_8.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 8elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78216" bodyend="78219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a2369fa07d3f237f4a05a5e9ed23bcd83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>]</type>
+        <definition> typing.Iterator[PreciseVertCoords] mrmeshpy.std_array_PreciseVertCoords_8.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78220" bodyend="78221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a4c2afd0eecf09210058b03b54f2c1752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_PreciseVertCoords_8.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78222" bodyend="78223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a9c40ec269a3f4960595e40b740a900a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_PreciseVertCoords_8.__setitem__</definition>
+        <argsstring>(self, int arg0, PreciseVertCoords arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_PreciseVertCoords_8.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78224" bodyend="78225"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78206" bodyend="78225"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1ac32c3fcc67acf0df889af8d3bbdf187f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1abb42242c2883f6efd05d420792e70701" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a236e509c3d95232dff45aa7394822730" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a0f1b0ff28a529eb67d43df9f535fe136" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a2369fa07d3f237f4a05a5e9ed23bcd83" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a4c2afd0eecf09210058b03b54f2c1752" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__PreciseVertCoords__8_1a9c40ec269a3f4960595e40b740a900a2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_PreciseVertCoords_8</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

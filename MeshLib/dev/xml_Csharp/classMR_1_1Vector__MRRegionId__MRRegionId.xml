@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Vector__MRRegionId__MRRegionId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Vector_MRRegionId_MRRegionId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRRegionId_MRRegionId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Vector__MRRegionId__MRRegionId_1ad76743ce8ccfd48ac48fa76b64b7ce19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRRegionId</type>
+        <definition>new unsafe MR.Std.Vector_MRRegionId MR.Vector_MRRegionId_MRRegionId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43853" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43853" bodyend="43853"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a8215749ee5443fa67b0e593d253e0922" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe new ref MR.RegionId MR.Vector_MRRegionId_MRRegionId.this[MR.RegionId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.RegionId i]</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.this[MR.RegionId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44027" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44028" bodyend="44035"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1afcb083888419d4606e480e3a85d39a9e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43872" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43872" bodyend="43876"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1aeef5e1e5cb6fb4020d98c6f0725b5f83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43882" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43882" bodyend="43888"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a469fac9628c8360bc8f9c2bf782752a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(MR._ByValue_Vector_MRRegionId_MRRegionId _other)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRRegionId_MRRegionId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43893" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43893" bodyend="43900"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a162f18d356e61bc535a2c1e254e48436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(Const_Vector_MRRegionId_MRRegionId _other)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRRegionId_MRRegionId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43905" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43905" bodyend="43905"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a453590eaeea2f69ce508945f250d02f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(Vector_MRRegionId_MRRegionId _other)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRRegionId__MRRegionId" kindref="compound">Vector_MRRegionId_MRRegionId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43910" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43910" bodyend="43910"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a3fca328c8639914e8332eca8a57d3622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43916" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43916" bodyend="43922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a3d0581154b96b441210c25323ec14f34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(ulong size, in MR.RegionId val)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43928" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43928" bodyend="43937"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a6980de2652b69d8e360e8cd3173b1e9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <name>Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43943" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43943" bodyend="43950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a37648c8bee6637e0cb9633a7d9af77fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRRegionId__MRRegionId" kindref="compound">MR.Vector_MRRegionId_MRRegionId</ref></type>
+        <definition>unsafe MR.Vector_MRRegionId_MRRegionId MR.Vector_MRRegionId_MRRegionId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRRegionId_MRRegionId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRRegionId_MRRegionId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43961" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43961" bodyend="43968"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1af533ed1085366ba0cc1532406a3d707f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43973" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43973" bodyend="43978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a520cf4509a2b757896a0bdef0918a581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43983" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43983" bodyend="43988"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a3e19de3e548ed23f186cbd623686ff1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.resize</definition>
+        <argsstring>(ulong newSize, in MR.RegionId t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43993" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43993" bodyend="44001"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a0781521683d91e1b2a7ed20810f7eb27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.resizeNoInit</definition>
+        <argsstring>(ulong targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.resizeNoInit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resizeNoInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44007" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44007" bodyend="44012"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a154aa7760ffac535a82a747cf8a0449a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::reserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44017" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44017" bodyend="44022"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1aed5aade2098f184e7c915f65cee5b5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44041" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44041" bodyend="44046"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1ac83455460c7ddcaa3d2550a963ab4707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, in MR.RegionId value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44052" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44052" bodyend="44060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a634d15080b9409c8f839e97fb38439fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.autoResizeSet</definition>
+        <argsstring>(MR.RegionId pos, ulong len, MR.RegionId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44067" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44067" bodyend="44072"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a0544f305555849e903b59d835ab59a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.autoResizeSet</definition>
+        <argsstring>(MR.RegionId i, MR.RegionId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44078" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44078" bodyend="44083"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1af406af19043680359caa621ef39d30ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref MR.RegionId MR.Vector_MRRegionId_MRRegionId.autoResizeAt</definition>
+        <argsstring>(MR.RegionId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::autoResizeAt</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44089" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44089" bodyend="44094"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a0e9c595fc14781065ef0bce5a9d834b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.pushBack</definition>
+        <argsstring>(in MR.RegionId t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.pushBack</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44099" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44099" bodyend="44107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1add95627192695569c54009054ed149b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, in MR.RegionId t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44112" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44112" bodyend="44120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1af83bb99d3526010a90122f3385884340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44125" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44125" bodyend="44130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a0bd93d0650126de44648d932e18aa065" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref MR.RegionId MR.Vector_MRRegionId_MRRegionId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44135" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44135" bodyend="44140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a37ea89b0154fbf88b756ea7c06162fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe new ref MR.RegionId MR.Vector_MRRegionId_MRRegionId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::front</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44145" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44145" bodyend="44150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1ab51307d5a50246814c407906dbd2d2cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe new ref MR.RegionId MR.Vector_MRRegionId_MRRegionId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44155" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44155" bodyend="44160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1afd6287e91ab2366b8210c01348cd6fb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; MR.RegionId &gt; MR.Vector_MRRegionId_MRRegionId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::data</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44165" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44165" bodyend="44171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1af0dedc2f5bcd2890b26e56cf29733561" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRRegionId_MRRegionId.swap</definition>
+        <argsstring>(MR.Vector_MRRegionId_MRRegionId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRRegionId__MRRegionId" kindref="compound">MR.Vector_MRRegionId_MRRegionId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::swap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44176" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44176" bodyend="44181"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a04955736b00222e52c2f0f30f6f7c249" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Vector_MRRegionId_MRRegionId.operator Vector_MRRegionId_MRRegionId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <name>operator Vector_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.operator Vector_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43956" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43956" bodyend="43956"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Vector_MRRegionId_MRRegionId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Vector__MRRegionId__MRRegionId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRRegionId_MRRegionId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Vector_MRRegionId_MRRegionId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Vector_MRRegionId_MRRegionId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Vector__MRRegionId__MRRegionId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRRegionId_MRRegionId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Vector_MRRegionId_MRRegionId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43850" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43851" bodyend="44182"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a37648c8bee6637e0cb9633a7d9af77fe" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1af406af19043680359caa621ef39d30ec" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a634d15080b9409c8f839e97fb38439fc" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a0544f305555849e903b59d835ab59a29" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1ab51307d5a50246814c407906dbd2d2cc" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>back</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1af533ed1085366ba0cc1532406a3d707f" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1afd6287e91ab2366b8210c01348cd6fb6" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>data</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a0bd93d0650126de44648d932e18aa065" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a37ea89b0154fbf88b756ea7c06162fc9" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a04955736b00222e52c2f0f30f6f7c249" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>operator Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1af83bb99d3526010a90122f3385884340" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a0e9c595fc14781065ef0bce5a9d834b0" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1add95627192695569c54009054ed149b6" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a154aa7760ffac535a82a747cf8a0449a" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a520cf4509a2b757896a0bdef0918a581" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a3e19de3e548ed23f186cbd623686ff1f" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a0781521683d91e1b2a7ed20810f7eb27" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1aed5aade2098f184e7c915f65cee5b5be" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1ac83455460c7ddcaa3d2550a963ab4707" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1af0dedc2f5bcd2890b26e56cf29733561" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a8215749ee5443fa67b0e593d253e0922" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>this[MR.RegionId i]</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1ad76743ce8ccfd48ac48fa76b64b7ce19" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1afcb083888419d4606e480e3a85d39a9e" prot="package" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1aeef5e1e5cb6fb4020d98c6f0725b5f83" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a469fac9628c8360bc8f9c2bf782752a2" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a162f18d356e61bc535a2c1e254e48436" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a453590eaeea2f69ce508945f250d02f6" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a3fca328c8639914e8332eca8a57d3622" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a3d0581154b96b441210c25323ec14f34" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a6980de2652b69d8e360e8cd3173b1e9b" prot="public" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>Vector_MRRegionId_MRRegionId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1ac6f16d72c3d6d0c9490dfef4634a6cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75987" bodyend="75988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1af27cc370c86e4068198e5e87e07ae615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__call__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75989" bodyend="75990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1ae760ee06f4222f2b6f4bbcd3a0c77a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75992" bodyend="75993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a1e2b0b2b019dca5a0a6292f18b32ea22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75995" bodyend="75996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a0ed7f9573227eb8348ec2bcbc0360350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self, func_bool_from_unsigned_long_unsigned_long arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long" kindref="compound">func_bool_from_unsigned_long_unsigned_long</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75998" bodyend="75999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a232f6f6cbfc3d8f4bf6dba83bf902b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</definition>
+        <argsstring>(self, typing.Callable[[int, int], bool] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[int, int]</array>
+        </param>
+        <param>
+          <type>bool]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76001" bodyend="76002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a289817b2368fffc56fd5904606214c61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_unsigned_long_unsigned_long.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76003" bodyend="76006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a1159b5871570f8b9e9f77cce7d3f0689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_unsigned_long_unsigned_long.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_bool_from_unsigned_long_unsigned_long.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76007" bodyend="76010"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75986" bodyend="76010"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1ac6f16d72c3d6d0c9490dfef4634a6cd3" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1af27cc370c86e4068198e5e87e07ae615" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1ae760ee06f4222f2b6f4bbcd3a0c77a9d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a1e2b0b2b019dca5a0a6292f18b32ea22" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a0ed7f9573227eb8348ec2bcbc0360350" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a232f6f6cbfc3d8f4bf6dba83bf902b28" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a289817b2368fffc56fd5904606214c61" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__unsigned__long__unsigned__long_1a1159b5871570f8b9e9f77cce7d3f0689" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_unsigned_long_unsigned_long</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

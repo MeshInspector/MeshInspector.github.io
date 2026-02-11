@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AncillaryImGuiLabel" kind="class" language="C++" prot="public">
+    <compoundname>MR::AncillaryImGuiLabel</compoundname>
+    <basecompoundref refid="structMR_1_1PreDrawListener" prot="public" virt="non-virtual">MR::PreDrawListener</basecompoundref>
+    <includes refid="MRAncillaryLabels_8h" local="no">MRAncillaryLabels.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AncillaryImGuiLabel_1ad8142d902afd24b85597ecece31a3aa5" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Object&gt; MR::AncillaryImGuiLabel::parent_</definition>
+        <argsstring></argsstring>
+        <name>parent_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::parent_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="93" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AncillaryImGuiLabel_1ad212525dca4ea08ac96d5b0f63597d34" prot="private" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::AncillaryImGuiLabel::pivot_</definition>
+        <argsstring></argsstring>
+        <name>pivot_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::pivot_</qualifiedname>
+        <initializer>= { 0.5f, 0.5f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="94" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AncillaryImGuiLabel_1a78335c86e7eb53022d705b33cf1892cf" prot="private" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::AncillaryImGuiLabel::localPos_</definition>
+        <argsstring></argsstring>
+        <name>localPos_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::localPos_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="95" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AncillaryImGuiLabel_1a36fb8b5b6334b963f646aee4256ad1b5" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+        <definition>PositionedText MR::AncillaryImGuiLabel::labelData_</definition>
+        <argsstring></argsstring>
+        <name>labelData_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::labelData_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="96" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AncillaryImGuiLabel_1ac4fa1fcffc9c13b6910fb6e6b7087ecd" prot="private" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">ImGuiMeasurementIndicators::Params</ref> &gt;</type>
+        <definition>std::optional&lt;ImGuiMeasurementIndicators::Params&gt; MR::AncillaryImGuiLabel::overrideParams_</definition>
+        <argsstring></argsstring>
+        <name>overrideParams_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::overrideParams_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="97" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AncillaryImGuiLabel_1ab231bb252e2d3b79f2f764d53997070c" prot="private" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::AncillaryImGuiLabel::parentXfConnection_</definition>
+        <argsstring></argsstring>
+        <name>parentXfConnection_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::parentXfConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="98" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1ade10d031eb7e19c1db2f6ef122332293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::AncillaryImGuiLabel::AncillaryImGuiLabel</definition>
+        <argsstring>()=default</argsstring>
+        <name>AncillaryImGuiLabel</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::AncillaryImGuiLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="64" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1a1158ea26daf5004c4d2540df1b304635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AncillaryImGuiLabel::make</definition>
+        <argsstring>(Object &amp;parent, const PositionedText &amp;text)</argsstring>
+        <name>make</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::make</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Make label in parent space coordinates, follows parent worldXf. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="67" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1a7e8e1d86bdfbcaf76f8ab68bca823f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AncillaryImGuiLabel::make</definition>
+        <argsstring>(std::shared_ptr&lt; Object &gt; parent, const PositionedText &amp;text)</argsstring>
+        <name>make</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::make</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make label in parent space coordinates, follows parent worldXf Note: label should be deleted or reset if parent is deleted or removed from scene </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="71" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1af2c939215a0b357749552a0faff1ab62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AncillaryImGuiLabel::make</definition>
+        <argsstring>(const PositionedText &amp;text)</argsstring>
+        <name>make</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::make</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Make label in world space coordinates. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="74" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1ac293c89711518e59735abe0b6892db0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AncillaryImGuiLabel::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::reset</qualifiedname>
+        <briefdescription>
+<para>clears this instance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="77" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1a683dd458c5757baf3ea50d2c409ad687" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::AncillaryImGuiLabel::getPivot</definition>
+        <argsstring>() const</argsstring>
+        <name>getPivot</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::getPivot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pivot point { 0, 0 } for top left corner, { 0.5f, 0.5f } for center (default), { 1, 1 } for bottom right corner. { -0.7f, 1.7f } looks ok next to a point (label to up and right from the point) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="82" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1a5eb068178518baee522fef0411e2c080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AncillaryImGuiLabel::setPivot</definition>
+        <argsstring>(Vector2f pivot)</argsstring>
+        <name>setPivot</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::setPivot</qualifiedname>
+        <param>
+          <type>Vector2f</type>
+          <declname>pivot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="83" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1af8e9dfaf0178c9e62c73d71a35452d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AncillaryImGuiLabel::overrideParams</definition>
+        <argsstring>(const ImGuiMeasurementIndicators::Params &amp;params)</argsstring>
+        <name>overrideParams</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::overrideParams</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">ImGuiMeasurementIndicators::Params</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Optionally override rendering params for this label. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="86" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1ada56277ca5d0380069c5558c23bc43c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::AncillaryImGuiLabel::resetOverrideParams</definition>
+        <argsstring>()</argsstring>
+        <name>resetOverrideParams</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::resetOverrideParams</qualifiedname>
+        <briefdescription>
+<para>use default parameters instead of overridden ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="89" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1AncillaryImGuiLabel_1a90fbc9e1b7c99ffa778d6bc285be99f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::AncillaryImGuiLabel::preDraw_</definition>
+        <argsstring>() override</argsstring>
+        <name>preDraw_</name>
+        <qualifiedname>MR::AncillaryImGuiLabel::preDraw_</qualifiedname>
+        <reimplements refid="structMR_1_1PreDrawListener_1a4e0adfc848772aeae37ad04a7d61d787">preDraw_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="91" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Helper class that draws <ref refid="namespaceImGui" kindref="compound">ImGui</ref> label. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::AncillaryImGuiLabel</label>
+        <link refid="classMR_1_1AncillaryImGuiLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="2">
+        <label>MR::PreDrawListener</label>
+        <link refid="structMR_1_1PreDrawListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::AncillaryImGuiLabel</label>
+        <link refid="classMR_1_1AncillaryImGuiLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="2">
+        <label>MR::PreDrawListener</label>
+        <link refid="structMR_1_1PreDrawListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="62" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ade10d031eb7e19c1db2f6ef122332293" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>AncillaryImGuiLabel</name></member>
+      <member refid="structMR_1_1PreDrawListener_1a69d5ba4966a5c7fc86d0f9f39924c180" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>connect</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>connection_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>disconnect</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a683dd458c5757baf3ea50d2c409ad687" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>getPivot</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a36fb8b5b6334b963f646aee4256ad1b5" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>labelData_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a78335c86e7eb53022d705b33cf1892cf" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>localPos_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a1158ea26daf5004c4d2540df1b304635" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a7e8e1d86bdfbcaf76f8ab68bca823f56" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1af2c939215a0b357749552a0faff1ab62" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
+      <member refid="structMR_1_1PreDrawListener_1aaaad0be432409ee6a00436099613fe77" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1af8e9dfaf0178c9e62c73d71a35452d9d" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>overrideParams</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ac4fa1fcffc9c13b6910fb6e6b7087ecd" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>overrideParams_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ad8142d902afd24b85597ecece31a3aa5" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>parent_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ab231bb252e2d3b79f2f764d53997070c" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>parentXfConnection_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ad212525dca4ea08ac96d5b0f63597d34" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>pivot_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a90fbc9e1b7c99ffa778d6bc285be99f4" prot="private" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>preDraw_</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ac293c89711518e59735abe0b6892db0d" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>reset</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1ada56277ca5d0380069c5558c23bc43c2" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>resetOverrideParams</name></member>
+      <member refid="classMR_1_1AncillaryImGuiLabel_1a5eb068178518baee522fef0411e2c080" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>setPivot</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>~ConnectionHolder</name></member>
+      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>~IConnectable</name></member>
+      <member refid="structMR_1_1PreDrawListener_1a315d3fdaaa28ec7d64ac68a04c1a8429" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>~PreDrawListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

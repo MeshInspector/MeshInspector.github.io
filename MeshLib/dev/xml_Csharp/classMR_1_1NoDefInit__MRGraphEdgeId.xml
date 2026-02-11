@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NoDefInit__MRGraphEdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::NoDefInit_MRGraphEdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRGraphEdgeId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NoDefInit__MRGraphEdgeId_1a92e21cc427c472ec4a7eb0b02af28f14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NoDefInit_MRGraphEdgeId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2019" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2019" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1af073a6bfa22550e2ae2701a351ddad00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoDefInit_MRGraphEdgeId.operator MR.Box_GraphEdgeId</definition>
+        <argsstring>(NoDefInit_MRGraphEdgeId self)</argsstring>
+        <name>operator MR.Box_GraphEdgeId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.operator MR.Box_GraphEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRGraphEdgeId" kindref="compound">NoDefInit_MRGraphEdgeId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2010" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2010" bodyend="2017"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1a38fd9a765665fa8a6bf761776a2ab71a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NoDefInit_MRGraphEdgeId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2023" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2023" bodyend="2027"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1aaa69138ef4de93b9833a717f12ae4ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>NoDefInit_MRGraphEdgeId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2033" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2033" bodyend="2039"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1af71bf39446b527b30c54b34c401529ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</definition>
+        <argsstring>(MR.Const_NoDefInit_MRGraphEdgeId _other)</argsstring>
+        <name>NoDefInit_MRGraphEdgeId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRGraphEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2044" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2044" bodyend="2051"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1adceb0591aadd384e7c9307e0c8e448f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</definition>
+        <argsstring>(NoDefInit_MRGraphEdgeId _other)</argsstring>
+        <name>NoDefInit_MRGraphEdgeId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRGraphEdgeId" kindref="compound">NoDefInit_MRGraphEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2056" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2056" bodyend="2056"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1afc55479b2c8207d74ca61fa2381eca4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NoDefInit__MRGraphEdgeId" kindref="compound">MR.NoDefInit_MRGraphEdgeId</ref></type>
+        <definition>unsafe MR.NoDefInit_MRGraphEdgeId MR.NoDefInit_MRGraphEdgeId.assign</definition>
+        <argsstring>(MR.Const_NoDefInit_MRGraphEdgeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRGraphEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2061" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2061" bodyend="2068"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1a6a4fdc552d1bb76eaae9d215b088c696" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.NoDefInit_MRGraphEdgeId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2073" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2073" bodyend="2078"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1ac586d21c43f3ccd32dbea3bee42072eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe ref MR.GraphEdgeId MR.NoDefInit_MRGraphEdgeId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2083" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2083" bodyend="2088"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphEdgeId_1ae4054ea59ecd5664a6dbbed7af99e006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe ref MR.GraphEdgeId MR.NoDefInit_MRGraphEdgeId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.NoDefInit_MRGraphEdgeId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2093" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2093" bodyend="2098"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRGraphEdgeId</label>
+        <link refid="classMR_1_1NoDefInit__MRGraphEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRGraphEdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.GraphEdgeId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRGraphEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRGraphEdgeId</label>
+        <link refid="classMR_1_1NoDefInit__MRGraphEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRGraphEdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.GraphEdgeId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2007" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2008" bodyend="2099"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1ae4054ea59ecd5664a6dbbed7af99e006" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1afc55479b2c8207d74ca61fa2381eca4c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a6a4fdc552d1bb76eaae9d215b088c696" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>get</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a92e21cc427c472ec4a7eb0b02af28f14" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>id</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a38fd9a765665fa8a6bf761776a2ab71a" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1aaa69138ef4de93b9833a717f12ae4ccb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1af71bf39446b527b30c54b34c401529ab" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1adceb0591aadd384e7c9307e0c8e448f6" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1af073a6bfa22550e2ae2701a351ddad00" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator MR.Box_GraphEdgeId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1ac586d21c43f3ccd32dbea3bee42072eb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>subAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

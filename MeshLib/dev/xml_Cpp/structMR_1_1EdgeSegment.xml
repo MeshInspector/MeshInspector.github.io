@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgeSegment" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgeSegment</compoundname>
+    <includes refid="MREdgePoint_8h" local="no">MREdgePoint.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1EdgeSegment_1ac984995bf16ae26205209c4da35c2f63" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::EdgeSegment::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <qualifiedname>MR::EdgeSegment::e</qualifiedname>
+        <briefdescription>
+<para>id of the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="63" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1EdgeSegment_1aaa89099133adbadcd8e04016b7dfd5ef" prot="public" static="no" mutable="no">
+        <type>SegmPointf</type>
+        <definition>SegmPointf MR::EdgeSegment::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::EdgeSegment::a</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>start of the segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="65" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1EdgeSegment_1a74fca78a4ea23f1e08811bcd012a03e1" prot="public" static="no" mutable="no">
+        <type>SegmPointf</type>
+        <definition>SegmPointf MR::EdgeSegment::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::EdgeSegment::b</qualifiedname>
+        <initializer>{ 1.0f }</initializer>
+        <briefdescription>
+<para>end of the segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1adbe97beb7bc790ab2d46f0863a5bbacf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgeSegment::EdgeSegment</definition>
+        <argsstring>()=default</argsstring>
+        <name>EdgeSegment</name>
+        <qualifiedname>MR::EdgeSegment::EdgeSegment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="68" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1a2cd476f962cb44bbb72355daf9bd9735" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgeSegment::EdgeSegment</definition>
+        <argsstring>(EdgeId e, float a=0.0f, float b=1.0f)</argsstring>
+        <name>EdgeSegment</name>
+        <qualifiedname>MR::EdgeSegment::EdgeSegment</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0.0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="69" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1a1d81986816953f871379b4fd7f212b0f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition>EdgePoint MR::EdgeSegment::edgePointA</definition>
+        <argsstring>() const</argsstring>
+        <name>edgePointA</name>
+        <qualifiedname>MR::EdgeSegment::edgePointA</qualifiedname>
+        <briefdescription>
+<para>returns starting <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="71" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1aea79b437b030390db5737ed448df376c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition>EdgePoint MR::EdgeSegment::edgePointB</definition>
+        <argsstring>() const</argsstring>
+        <name>edgePointB</name>
+        <qualifiedname>MR::EdgeSegment::edgePointB</qualifiedname>
+        <briefdescription>
+<para>returns ending <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="73" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1aaed1cd16846104a721ea8ee3f83cb046" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::EdgeSegment::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::EdgeSegment::valid</qualifiedname>
+        <briefdescription>
+<para>returns true if the edge is valid and start point is less than end point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="75" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1ab68223c4ba6ec2ad9ef572c8ef6c929b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::EdgeSegment::operator==</definition>
+        <argsstring>(const EdgeSegment &amp;rhs) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::EdgeSegment::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1EdgeSegment" kindref="compound">EdgeSegment</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeSegment_1a58bb10eea905d9ba81c91be627dfad8d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+        <definition>EdgeSegment MR::EdgeSegment::sym</definition>
+        <argsstring>() const</argsstring>
+        <name>sym</name>
+        <qualifiedname>MR::EdgeSegment::sym</qualifiedname>
+        <briefdescription>
+<para>represents the same segment relative to sym edge in </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="79" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a segment on one edge. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="61" bodyend="80"/>
+    <listofallmembers>
+      <member refid="structMR_1_1EdgeSegment_1aaa89099133adbadcd8e04016b7dfd5ef" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>a</name></member>
+      <member refid="structMR_1_1EdgeSegment_1a74fca78a4ea23f1e08811bcd012a03e1" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>b</name></member>
+      <member refid="structMR_1_1EdgeSegment_1ac984995bf16ae26205209c4da35c2f63" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>e</name></member>
+      <member refid="structMR_1_1EdgeSegment_1a1d81986816953f871379b4fd7f212b0f" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>edgePointA</name></member>
+      <member refid="structMR_1_1EdgeSegment_1aea79b437b030390db5737ed448df376c" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>edgePointB</name></member>
+      <member refid="structMR_1_1EdgeSegment_1adbe97beb7bc790ab2d46f0863a5bbacf" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>EdgeSegment</name></member>
+      <member refid="structMR_1_1EdgeSegment_1a2cd476f962cb44bbb72355daf9bd9735" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>EdgeSegment</name></member>
+      <member refid="structMR_1_1EdgeSegment_1ab68223c4ba6ec2ad9ef572c8ef6c929b" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>operator==</name></member>
+      <member refid="structMR_1_1EdgeSegment_1a58bb10eea905d9ba81c91be627dfad8d" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>sym</name></member>
+      <member refid="structMR_1_1EdgeSegment_1aaed1cd16846104a721ea8ee3f83cb046" prot="public" virt="non-virtual"><scope>MR::EdgeSegment</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

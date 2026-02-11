@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NextEdgeSameOrigin" kind="class" language="C++" prot="public">
+    <compoundname>MR::NextEdgeSameOrigin</compoundname>
+    <includes refid="MRRingIterator_8h" local="no">MRRingIterator.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1NextEdgeSameOrigin_1a8070f5936409b360ddf3e16183706321" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> *</type>
+        <definition>const MeshTopology* MR::NextEdgeSameOrigin::topology_</definition>
+        <argsstring></argsstring>
+        <name>topology_</name>
+        <qualifiedname>MR::NextEdgeSameOrigin::topology_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="42" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NextEdgeSameOrigin_1a473b57e8323241ba360af0221af56cff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::NextEdgeSameOrigin::NextEdgeSameOrigin</definition>
+        <argsstring>(const MeshTopology &amp;topology)</argsstring>
+        <name>NextEdgeSameOrigin</name>
+        <qualifiedname>MR::NextEdgeSameOrigin::NextEdgeSameOrigin</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="45" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NextEdgeSameOrigin_1a1e86c0b25fbb38bc73f3e5edcda87a35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::NextEdgeSameOrigin::next</definition>
+        <argsstring>(EdgeId e) const</argsstring>
+        <name>next</name>
+        <qualifiedname>MR::NextEdgeSameOrigin::next</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="46" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="41" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NextEdgeSameOrigin_1a1e86c0b25fbb38bc73f3e5edcda87a35" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>next</name></member>
+      <member refid="classMR_1_1NextEdgeSameOrigin_1a473b57e8323241ba360af0221af56cff" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1NextEdgeSameOrigin_1a8070f5936409b360ddf3e16183706321" prot="private" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>topology_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

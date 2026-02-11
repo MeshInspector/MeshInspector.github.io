@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRObjectsAccess_8h" kind="file" language="C++">
+    <compoundname>MRObjectsAccess.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRObjectsAccess.h</label>
+        <link refid="MRObjectsAccess_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_ObjectSelectivityType</name>
+        <enumvalue id="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652aed5e6b9147a2f6c83541563dc5c18c7d" prot="public">
+          <name>MR_ObjectSelectivityType_Selectable</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>object itself and all its ancestors are selectable </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652aa948bb8e20a9f9d73031a6180d86beb2" prot="public">
+          <name>MR_ObjectSelectivityType_LocalSelectable</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>object itself is selectable </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a411320681287d08ff511d1f332c94047" prot="public">
+          <name>MR_ObjectSelectivityType_Selected</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>object itself is selected and all its ancestors are selectable </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a76ee1aca7822eba291ddc29a19bdc249" prot="public">
+          <name>MR_ObjectSelectivityType_LocalSelected</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>object itself is selected </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a8a1f0769baaa377e2fa561b566fcd6fe" prot="public">
+          <name>MR_ObjectSelectivityType_Any</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>any object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="25" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1accce9c9179cadabc541edda0fc7a2571" prot="public" static="no">
+        <type>struct <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></type>
+        <definition>typedef struct MR_Object MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="11" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1acc2f4e4d04631180d278fad84fbbc6cf" prot="public" static="no">
+        <type>struct <ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_Object MR_std_vector_std_shared_ptr_MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="12" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" prot="public" static="no">
+        <type>struct <ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="13" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a4d579dbc5475dc25e3943a58b1d84886" prot="public" static="no">
+        <type>struct <ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectLines MR_std_vector_std_shared_ptr_MR_ObjectLines</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="14" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" prot="public" static="no">
+        <type>struct <ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="15" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a4a64bdc6d260f63671c4a3296cca77c8" prot="public" static="no">
+        <type>struct <ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectMesh MR_std_vector_std_shared_ptr_MR_ObjectMesh</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="16" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" prot="public" static="no">
+        <type>struct <ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="17" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a9ce2a71a3bbf5ba7357042e52780851c" prot="public" static="no">
+        <type>struct <ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectPoints MR_std_vector_std_shared_ptr_MR_ObjectPoints</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="18" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" prot="public" static="no">
+        <type>struct <ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="19" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" prot="public" static="no">
+        <type>struct <ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectVoxels MR_std_vector_std_shared_ptr_MR_ObjectVoxels</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_ObjectVoxels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="20" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" prot="public" static="no">
+        <type>struct <ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_VisualObject MR_std_vector_std_shared_ptr_MR_VisualObject</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_VisualObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="21" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a59af93879ebdd85f9465fa18f8558998" prot="public" static="no">
+        <type>enum <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref></type>
+        <definition>typedef enum MR_ObjectSelectivityType MR_ObjectSelectivityType</definition>
+        <argsstring></argsstring>
+        <name>MR_ObjectSelectivityType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="36" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRObjectsAccess_8h_1ae77a78641bbe60344efbb85cfc61916d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_Object * MR_getTopmostVisibleObjects_MR_Object</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_Object</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::Object&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_Object_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="43" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="43" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a743c6acc0ba3c42669ae068aa03628e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_VisualObject * MR_getTopmostVisibleObjects_MR_VisualObject</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_VisualObject</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::VisualObject&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_VisualObject_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="50" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="50" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a148c9115eda73f591b21b204494833da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectPoints * MR_getTopmostVisibleObjects_MR_ObjectPoints</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectPoints</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectPoints&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectPoints_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="57" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="57" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a8b574e213ab95b5f369f9ea820205e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder * MR_getTopmostVisibleObjects_MR_ObjectPointsHolder</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectPointsHolder</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectPointsHolder&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="64" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="64" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a190b3deba69f0012c3b234afbca18b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectLines * MR_getTopmostVisibleObjects_MR_ObjectLines</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectLines</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectLines&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectLines_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="71" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="71" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a3b57989f5b1c7deed915d08172a92849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder * MR_getTopmostVisibleObjects_MR_ObjectLinesHolder</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectLinesHolder</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectLinesHolder&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="78" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="78" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a164191fab5b14784f3b07f8bed04164a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectMesh * MR_getTopmostVisibleObjects_MR_ObjectMesh</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectMesh</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectMesh&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectMesh_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="85" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="85" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a77158fe16b4c0c6de676920b75f04e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder * MR_getTopmostVisibleObjects_MR_ObjectMeshHolder</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectMeshHolder</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectMeshHolder&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="92" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="92" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1ade356c5dc600e7c6ff7b2d271e9ffce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap * MR_getTopmostVisibleObjects_MR_ObjectDistanceMap</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectDistanceMap</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectDistanceMap&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="99" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="99" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1ae196d49fa0bd0dc57e7b90647d10d235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_shared_ptr_MR_ObjectVoxels * MR_getTopmostVisibleObjects_MR_ObjectVoxels</definition>
+        <argsstring>(MR_Object *root, const MR_ObjectSelectivityType *type)</argsstring>
+        <name>MR_getTopmostVisibleObjects_MR_ObjectVoxels</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;MR::ObjectVoxels&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> is a single object. Parameter <computeroutput>type</computeroutput> has a default argument: <computeroutput>ObjectSelectivityType::Selectable</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_shared_ptr_MR_ObjectVoxels_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="106" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="106" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectsAccess_8h_1a0b9040d62d188f1d436db30f904abd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_objectHasSelectableChildren</definition>
+        <argsstring>(const MR_Object *object, const bool *recurse)</argsstring>
+        <name>MR_objectHasSelectableChildren</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const bool *</type>
+          <declname>recurse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns whether the object has selectable children <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recurse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- if true, look up for selectable children at any depth Generated from function <computeroutput>MR::objectHasSelectableChildren</computeroutput>. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. Parameter <computeroutput>recurse</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" declline="113" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRObjectsAccess_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRObjectsAccess_8h_1acc2f4e4d04631180d278fad84fbbc6cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/><ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectDistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRObjectsAccess_8h_1a4d579dbc5475dc25e3943a58b1d84886" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref><sp/><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectLines.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectLinesHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRObjectsAccess_8h_1a4a64bdc6d260f63671c4a3296cca77c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectMeshHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRObjectsAccess_8h_1a9ce2a71a3bbf5ba7357042e52780851c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectPointsHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref><sp/><ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27" refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652aed5e6b9147a2f6c83541563dc5c18c7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652aed5e6b9147a2f6c83541563dc5c18c7d" kindref="member">MR_ObjectSelectivityType_Selectable</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="29" refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652aa948bb8e20a9f9d73031a6180d86beb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652aa948bb8e20a9f9d73031a6180d86beb2" kindref="member">MR_ObjectSelectivityType_LocalSelectable</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="31" refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a411320681287d08ff511d1f332c94047" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a411320681287d08ff511d1f332c94047" kindref="member">MR_ObjectSelectivityType_Selected</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="33" refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a76ee1aca7822eba291ddc29a19bdc249" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a76ee1aca7822eba291ddc29a19bdc249" kindref="member">MR_ObjectSelectivityType_LocalSelected</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="35" refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a8a1f0769baaa377e2fa561b566fcd6fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a8a1f0769baaa377e2fa561b566fcd6fe" kindref="member">MR_ObjectSelectivityType_Any</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="36" refid="MRObjectsAccess_8h_1a59af93879ebdd85f9465fa18f8558998" refkind="member"><highlight class="normal">}<sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRObjectsAccess_8h_1ae77a78641bbe60344efbb85cfc61916d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRObjectsAccess_8h_1ae77a78641bbe60344efbb85cfc61916d" kindref="member">MR_getTopmostVisibleObjects_MR_Object</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRObjectsAccess_8h_1a743c6acc0ba3c42669ae068aa03628e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a743c6acc0ba3c42669ae068aa03628e2" kindref="member">MR_getTopmostVisibleObjects_MR_VisualObject</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRObjectsAccess_8h_1a148c9115eda73f591b21b204494833da" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a148c9115eda73f591b21b204494833da" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectPoints</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRObjectsAccess_8h_1a8b574e213ab95b5f369f9ea820205e53" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a8b574e213ab95b5f369f9ea820205e53" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectPointsHolder</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRObjectsAccess_8h_1a190b3deba69f0012c3b234afbca18b09" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a190b3deba69f0012c3b234afbca18b09" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectLines</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRObjectsAccess_8h_1a3b57989f5b1c7deed915d08172a92849" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a3b57989f5b1c7deed915d08172a92849" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectLinesHolder</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRObjectsAccess_8h_1a164191fab5b14784f3b07f8bed04164a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a164191fab5b14784f3b07f8bed04164a" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectMesh</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRObjectsAccess_8h_1a77158fe16b4c0c6de676920b75f04e29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref><sp/>*<ref refid="MRObjectsAccess_8h_1a77158fe16b4c0c6de676920b75f04e29" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectMeshHolder</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRObjectsAccess_8h_1ade356c5dc600e7c6ff7b2d271e9ffce3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="MRObjectsAccess_8h_1ade356c5dc600e7c6ff7b2d271e9ffce3" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectDistanceMap</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRObjectsAccess_8h_1ae196d49fa0bd0dc57e7b90647d10d235" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*<ref refid="MRObjectsAccess_8h_1ae196d49fa0bd0dc57e7b90647d10d235" kindref="member">MR_getTopmostVisibleObjects_MR_ObjectVoxels</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kindref="member">MR_ObjectSelectivityType</ref><sp/>*type);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRObjectsAccess_8h_1a0b9040d62d188f1d436db30f904abd85" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a0b9040d62d188f1d436db30f904abd85" kindref="member">MR_objectHasSelectableChildren</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*recurse);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h"/>
+  </compounddef>
+</doxygen>

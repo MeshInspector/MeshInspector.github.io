@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VolumeSegmenter" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VolumeSegmenter</compoundname>
+    <innerclass refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" prot="public">mrmeshpy::VolumeSegmenter::SeedType</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1ade48bdef6cd07f2b78baa3d7d17cbba7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72396" bodyend="72397"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a6b9d2546a9283194ceb8f41abdbaf1f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.__init__</definition>
+        <argsstring>(self, VdbVolume volume)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72399" bodyend="72400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a013ea3d2d9706c64a2d2e6e6c5e4cba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.__init__</definition>
+        <argsstring>(self, VolumeSegmenter arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeSegmenter" kindref="compound">VolumeSegmenter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72402" bodyend="72405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1abe21b19d285902c9de6af963bea11073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.addPathSeeds</definition>
+        <argsstring>(self, VoxelMetricParameters metricParameters, VolumeSegmenter.SeedType seedType, float exponentModifier=-1.0)</argsstring>
+        <name>addPathSeeds</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.addPathSeeds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></type>
+          <declname>metricParameters</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>exponentModifier</declname>
+          <defval>-1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Builds path with given parameters, marks result as seedType seeds
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72406" bodyend="72409"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a9c1721c2d96d451f5962a4b11a51eb44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.addSeeds</definition>
+        <argsstring>(self, std_vector_Vector3_int seeds, VolumeSegmenter.SeedType seedType)</argsstring>
+        <name>addSeeds</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.addSeeds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__int" kindref="compound">std_vector_Vector3_int</ref></type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Adds new seeds to stored
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72410" bodyend="72413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1ad70a18a50e034880f7e2b1fd04ab962b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.VolumeSegmenter.createMeshFromSegmentation</definition>
+        <argsstring>(self, VoxelBitSet segmentation)</argsstring>
+        <name>createMeshFromSegmentation</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.createMeshFromSegmentation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>segmentation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns mesh of given segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72414" bodyend="72417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a3294010a643ca39c7fb5ea0ca641d42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.VolumeSegmenter.getMinVoxel</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMinVoxel</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.getMinVoxel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Min voxel of volume part box in whole volume space, filled after segmentation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72418" bodyend="72421"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1ac2a3d36ede1c1386e9e70d8b124dcfed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__int" kindref="compound">std_vector_Vector3_int</ref></type>
+        <definition> std_vector_Vector3_int mrmeshpy.VolumeSegmenter.getSeeds</definition>
+        <argsstring>(self, VolumeSegmenter.SeedType seedType)</argsstring>
+        <name>getSeeds</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.getSeeds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return currently stored seeds
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72422" bodyend="72425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a3c3475282c2a602d2f7a50d0c629df9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.VolumeSegmenter.getVolumePartDimensions</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolumePartDimensions</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.getVolumePartDimensions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Dimensions of volume part, filled after segmentation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72426" bodyend="72429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a0b06b635daa58e4559682648ee9ed67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.VolumeSegmenter.segmentVolume</definition>
+        <argsstring>(self, float segmentationExponentModifier=3000.0, int voxelsExpansion=25, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>segmentVolume</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.segmentVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>segmentationExponentModifier</declname>
+          <defval>3000.0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voxelsExpansion</declname>
+          <defval>25</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72430" bodyend="72433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1a29e348e4928c82001b6a621223041a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.setSeeds</definition>
+        <argsstring>(self, std_vector_Vector3_int seeds, VolumeSegmenter.SeedType seedType)</argsstring>
+        <name>setSeeds</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.setSeeds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__int" kindref="compound">std_vector_Vector3_int</ref></type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Reset seeds with given ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72434" bodyend="72437"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VolumeSegmenter
+
+
+ \\brief Class for voxels segmentation
+
+ &lt;table border=0&gt; &lt;caption id=&quot;VolumeSegmenter_examples&quot;&gt;&lt;/caption&gt;
+ &lt;tr&gt; &lt;td&gt; \\image html voxel_segmentation/voxel_segmentation_0_0.png &quot;Before (a)&quot; width = 350cm &lt;/td&gt;
+      &lt;td&gt; \\image html voxel_segmentation/voxel_segmentation_0_1.png &quot;Before (b)&quot; width = 350cm &lt;/td&gt; &lt;/tr&gt;
+      &lt;td&gt; \\image html voxel_segmentation/voxel_segmentation_0_2.png &quot;After&quot; width = 350cm &lt;/td&gt; &lt;/tr&gt;
+ &lt;/table&gt;</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72340" bodyend="72437"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1ade48bdef6cd07f2b78baa3d7d17cbba7" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a6b9d2546a9283194ceb8f41abdbaf1f4" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a013ea3d2d9706c64a2d2e6e6c5e4cba9" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1abe21b19d285902c9de6af963bea11073" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>addPathSeeds</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a9c1721c2d96d451f5962a4b11a51eb44" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>addSeeds</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1ad70a18a50e034880f7e2b1fd04ab962b" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>createMeshFromSegmentation</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a3294010a643ca39c7fb5ea0ca641d42e" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>getMinVoxel</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1ac2a3d36ede1c1386e9e70d8b124dcfed" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>getSeeds</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a3c3475282c2a602d2f7a50d0c629df9a" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>getVolumePartDimensions</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a0b06b635daa58e4559682648ee9ed67b" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>segmentVolume</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1a29e348e4928c82001b6a621223041a10" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter</scope><name>setSeeds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

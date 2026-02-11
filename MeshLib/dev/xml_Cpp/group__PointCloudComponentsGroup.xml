@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__PointCloudComponentsGroup" kind="group">
+    <compoundname>PointCloudComponentsGroup</compoundname>
+    <title>PointCloudComponents</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gaf9095649bbc7febf7cf56b9b88cf267f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; VertBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; VertBitSet &gt; MR::PointCloudComponents::getLargeComponentsUnion</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, float maxDist, int minSize, ProgressCallback pc={})</argsstring>
+        <name>getLargeComponentsUnion</name>
+        <qualifiedname>MR::PointCloudComponents::getLargeComponentsUnion</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>pc</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the union of point cloud components containing at least minSize points and connected by a distance no greater than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must be more than 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="19" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="19" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga14df913179759fda2f2122b83b643423" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; VertBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; VertBitSet &gt; MR::PointCloudComponents::getLargeComponentsUnion</definition>
+        <argsstring>(UnionFind&lt; VertId &gt; &amp;unionStructs, const VertBitSet &amp;region, int minSize, ProgressCallback pc={})</argsstring>
+        <name>getLargeComponentsUnion</name>
+        <qualifiedname>MR::PointCloudComponents::getLargeComponentsUnion</qualifiedname>
+        <param>
+          <type>UnionFind&lt; VertId &gt; &amp;</type>
+          <declname>unionStructs</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>pc</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the union of vertices components containing at least minSize points <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unionStructs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>prepared point union structure </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>have side effect: call unionStructs.roots() that change unionStructs </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="24" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="24" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga96d04280c74669348a5a1a121f860883" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; VertBitSet &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; std::vector&lt; VertBitSet &gt; &gt; MR::PointCloudComponents::getLargeComponents</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, float maxDist, int minSize, ProgressCallback pc={})</argsstring>
+        <name>getLargeComponents</name>
+        <qualifiedname>MR::PointCloudComponents::getLargeComponents</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>pc</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns vector of point cloud components containing at least minSize points and connected by a distance no greater than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must be more than 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="29" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="29" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gac22fef282be15fa19c019501c0b5e92b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt; MR::PointCloudComponents::getAllComponents</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, float maxDist, int maxComponentCount=INT_MAX, ProgressCallback pc={})</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::PointCloudComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+          <defval>INT_MAX</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>pc</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all components of point cloud connected by a distance no greater than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>\detail if components number more than the maxComponentCount, they will be combined into groups of the same size </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>be careful, if point cloud is large enough and has many components, the memory overflow will occur </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="37" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="37" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gae7a32b050223cbf6c42329521657f9a8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; UnionFind&lt; VertId &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; UnionFind&lt; VertId &gt; &gt; MR::PointCloudComponents::getUnionFindStructureVerts</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, float maxDist, const VertBitSet *region=nullptr, ProgressCallback pc={})</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR::PointCloudComponents::getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>pc</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>gets union - find structure for vertices in </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>connected by a distance no greater than</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="41" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="41" declcolumn="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

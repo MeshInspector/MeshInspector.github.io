@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Dirty" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Dirty</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Dirty_1af576d59e2ad57d233e8eff473e297d56" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Dirty::_offsetof_f</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_f</name>
+        <qualifiedname>mrmeshpy.Dirty._offsetof_f</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13095" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a7e7236a2b979f0fc8a7ae363756ae8e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dirty.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dirty.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13099" bodyend="13100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a68420e953874454cf69a06ed9dd048b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dirty" kindref="compound">Dirty</ref></type>
+        <definition> Dirty mrmeshpy.Dirty.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Dirty.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13103" bodyend="13104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a68420e953874454cf69a06ed9dd048b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dirty" kindref="compound">Dirty</ref></type>
+        <definition> Dirty mrmeshpy.Dirty.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Dirty.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13107" bodyend="13108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1ac0438a1ea853844cde55849f4de762f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dirty.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dirty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13110" bodyend="13111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a8a323327f5a65d62bc70624009962bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dirty.__init__</definition>
+        <argsstring>(self, Dirty arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dirty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dirty" kindref="compound">Dirty</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13113" bodyend="13116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a006a5e8319a3fd6921cebee60f2a38e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Dirty.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.Dirty.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13117" bodyend="13118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a2e2ccad623a0b15c14d29e18efbb9bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Dirty.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Dirty.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13119" bodyend="13120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a8e325a7b06c87d57cc6d12ce46405a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Dirty.convert_to_uint32_t</definition>
+        <argsstring>(self)</argsstring>
+        <name>convert_to_uint32_t</name>
+        <qualifiedname>mrmeshpy.Dirty.convert_to_uint32_t</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13121" bodyend="13122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1afa6d831ef1f29e1106b974215391cd91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dirty" kindref="compound">Dirty</ref></type>
+        <definition> Dirty mrmeshpy.Dirty.operator</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Dirty.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13124" bodyend="13125"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Dirty
+
+Marks dirty buffers that need to be uploaded to OpenGL.
+Dirty flags must be moved together with renderObj_,
+but not copied since renderObj_ is not copied as well
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Dirty</label>
+        <link refid="classmrmeshpy_1_1Dirty"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_f</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13087" bodyend="13125"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Dirty_1a7e7236a2b979f0fc8a7ae363756ae8e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1ac0438a1ea853844cde55849f4de762f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1a8a323327f5a65d62bc70624009962bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1a006a5e8319a3fd6921cebee60f2a38e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1a2e2ccad623a0b15c14d29e18efbb9bc8" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1af576d59e2ad57d233e8eff473e297d56" prot="protected" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>_offsetof_f</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1a8e325a7b06c87d57cc6d12ce46405a2f" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>convert_to_uint32_t</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1a68420e953874454cf69a06ed9dd048b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1a68420e953874454cf69a06ed9dd048b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1afa6d831ef1f29e1106b974215391cd91" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

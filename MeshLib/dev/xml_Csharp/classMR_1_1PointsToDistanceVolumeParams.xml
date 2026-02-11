@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointsToDistanceVolumeParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointsToDistanceVolumeParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsToDistanceVolumeParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1acb1ef65210623db843c66d65d307e196" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.PointsToDistanceVolumeParams.sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.sigma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="192" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1adbef596027a558f43194134340ad1b25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.PointsToDistanceVolumeParams.minWeight</definition>
+        <argsstring></argsstring>
+        <name>minWeight</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.minWeight</qualifiedname>
+        <briefdescription>
+<para>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="195" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1a4f357b8a92d7d96dee1473d3b61586e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_VertCoords</type>
+        <definition>new unsafe MR.? Const_VertCoords MR.PointsToDistanceVolumeParams.ptNormals</definition>
+        <argsstring></argsstring>
+        <name>ptNormals</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.ptNormals</qualifiedname>
+        <briefdescription>
+<para>optional input: if this pointer is set then function will use these normals instead of ones present in cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="198" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="199" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1a2058c4708b7528d1d26f891ff721b220" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.PointsToDistanceVolumeParams.origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.origin</qualifiedname>
+        <briefdescription>
+<para>origin point of voxels box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="211" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1a55203693765836a074062cfbd502d8f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.PointsToDistanceVolumeParams.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.cb</qualifiedname>
+        <briefdescription>
+<para>progress callback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="214" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="214" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1a889f580258530ca3392af7cb5c4a44bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.PointsToDistanceVolumeParams.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.voxelSize</qualifiedname>
+        <briefdescription>
+<para>size of voxel on each axis </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="217" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1a714c26b509911b35254732e978ec4f5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>new unsafe ref MR.Vector3i MR.PointsToDistanceVolumeParams.dimensions</definition>
+        <argsstring></argsstring>
+        <name>dimensions</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.dimensions</qualifiedname>
+        <briefdescription>
+<para>num voxels along each axis </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="220" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1a6aa9c34ab0746a14ffa75147a63dafe5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointsToDistanceVolumeParams.operator MR.DistanceVolumeParams</definition>
+        <argsstring>(PointsToDistanceVolumeParams self)</argsstring>
+        <name>operator MR.DistanceVolumeParams</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.operator MR.DistanceVolumeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="181" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="181" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1a31c866b0c0f458a6901754853f78fcee" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointsToDistanceVolumeParams</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="239" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="239" bodyend="243"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1a614d53054e6698b689f1a4705c57f41e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</definition>
+        <argsstring>()</argsstring>
+        <name>PointsToDistanceVolumeParams</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="249" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="249" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1a0f34f8bf8654f7250be67d3bf22bc225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</definition>
+        <argsstring>(MR._ByValue_PointsToDistanceVolumeParams _other)</argsstring>
+        <name>PointsToDistanceVolumeParams</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointsToDistanceVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="260" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="260" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1a3d50c0e705905c62777da4071d8f7be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</definition>
+        <argsstring>(Const_PointsToDistanceVolumeParams _other)</argsstring>
+        <name>PointsToDistanceVolumeParams</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</qualifiedname>
+        <param>
+          <type>Const_PointsToDistanceVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="272" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="272" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1a83f1609a45afd0aedef5f7b2d212ad0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</definition>
+        <argsstring>(PointsToDistanceVolumeParams _other)</argsstring>
+        <name>PointsToDistanceVolumeParams</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="277" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="277" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsToDistanceVolumeParams_1ae609b3910ef0c644ce0dc7158d6d4439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR.PointsToDistanceVolumeParams</ref></type>
+        <definition>unsafe MR.PointsToDistanceVolumeParams MR.PointsToDistanceVolumeParams.assign</definition>
+        <argsstring>(MR._ByValue_PointsToDistanceVolumeParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointsToDistanceVolumeParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointsToDistanceVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointsToDistanceVolumeParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="282" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="282" bodyend="289"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR.PointsToDistanceVolumeParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PointsToDistanceVolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointsToDistanceVolumeParams</label>
+        <link refid="classMR_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointsToDistanceVolumeParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PointsToDistanceVolumeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointsToDistanceVolumeParams</label>
+        <link refid="classMR_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointsToDistanceVolumeParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="178" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="179" bodyend="290"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1ae609b3910ef0c644ce0dc7158d6d4439" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a55203693765836a074062cfbd502d8f2" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a714c26b509911b35254732e978ec4f5b" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1adbef596027a558f43194134340ad1b25" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>minWeight</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a6aa9c34ab0746a14ffa75147a63dafe5" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>operator MR.DistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a2058c4708b7528d1d26f891ff721b220" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>origin</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a31c866b0c0f458a6901754853f78fcee" prot="package" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a614d53054e6698b689f1a4705c57f41e" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a0f34f8bf8654f7250be67d3bf22bc225" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a3d50c0e705905c62777da4071d8f7be5" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a83f1609a45afd0aedef5f7b2d212ad0b" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a4f357b8a92d7d96dee1473d3b61586e6" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>ptNormals</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1acb1ef65210623db843c66d65d307e196" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>sigma</name></member>
+      <member refid="classMR_1_1PointsToDistanceVolumeParams_1a889f580258530ca3392af7cb5c4a44bc" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

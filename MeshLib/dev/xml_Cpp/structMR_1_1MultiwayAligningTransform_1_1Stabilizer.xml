@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiwayAligningTransform::Stabilizer</compoundname>
+    <includes refid="MRMultiwayAligningTransform_8h" local="no">MRMultiwayAligningTransform.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MultiwayAligningTransform_1_1Stabilizer_1ad0025a9806d714127a0820f48a343136" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::MultiwayAligningTransform::Stabilizer::rot</definition>
+        <argsstring></argsstring>
+        <name>rot</name>
+        <qualifiedname>MR::MultiwayAligningTransform::Stabilizer::rot</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>any not-zero number stabilizes solution for rotation angles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="59" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiwayAligningTransform_1_1Stabilizer_1a7145307fcfb6ab1a4ad9426e6d2ac36b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::MultiwayAligningTransform::Stabilizer::shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <qualifiedname>MR::MultiwayAligningTransform::Stabilizer::shift</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>length units </para>
+        </briefdescription>
+        <detaileddescription>
+<para>any not-zero number stabilizes solution for translation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="62" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object); large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h" bodystart="57" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer_1ad0025a9806d714127a0820f48a343136" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform::Stabilizer</scope><name>rot</name></member>
+      <member refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer_1a7145307fcfb6ab1a4ad9426e6d2ac36b" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform::Stabilizer</scope><name>shift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

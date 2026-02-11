@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a42a2805a3e500a11fbda79d87353ed6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolynomialWrapper__float" kindref="compound">PolynomialWrapper_float</ref></type>
+        <definition> PolynomialWrapper_float mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getBestPolynomial</definition>
+        <argsstring>(std_vector_float values, int degree)</argsstring>
+        <name>getBestPolynomial</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getBestPolynomial</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32948" bodyend="32949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a757070f13d9de3a8585703f392b910ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getDerivatives</definition>
+        <argsstring>(std_vector_float result, std_vector_float values)</argsstring>
+        <name>getDerivatives</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getDerivatives</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get derivatives from result of `getValues`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32951" bodyend="32954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ae0f2ea1564dc2c1cc9740ed2666bdd8b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.indexFromPseudoIndex</definition>
+        <argsstring>(float pseudoIndex, int count)</argsstring>
+        <name>indexFromPseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.indexFromPseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pseudoIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32956" bodyend="32957"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a9bd6e0269355f0dc32187c0f9767a5ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.pseudoIndex</definition>
+        <argsstring>(float index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.pseudoIndex</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get a pseudo-index for a zero-based point index in a zero-centered row of `count` points
+Pseudo-index is a signed number; for whole index, is is whole or half-whole
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32960" bodyend="32964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a4c7d2ba0a031668e24975ad16e5839c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.pseudoIndex</definition>
+        <argsstring>(int index, int count)</argsstring>
+        <name>pseudoIndex</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.pseudoIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32967" bodyend="32968"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a6ed3bf72eb5d74df03f5a2f89eefe746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.__init__</definition>
+        <argsstring>(self, Mesh mesh, AffineXf3f meshXf, SimpleVolumeMinMax volume, AffineXf3f volumeXf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>meshXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>volumeXf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32970" bodyend="32971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aa0ed41594567f76540cd9b85560d4f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.__init__</definition>
+        <argsstring>(self, MeshOnVoxelsT_Mesh_SimpleVolumeMinMax arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax" kindref="compound">MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32973" bodyend="32976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a380ae038e29f3e7a6724f6172945b0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.__init__</definition>
+        <argsstring>(self, MeshOnVoxelsT_Mesh_SimpleVolumeMinMax other)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax" kindref="compound">MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32978" bodyend="32979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a06a13987d12d724fc669f8778c6e423f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getOffsetVector</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>getOffsetVector</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getOffsetVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get offset vector (mesh normal for a vertex with `voxelSize` length)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32980" bodyend="32983"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aef0be3993012a3da9f25e1247bfcfe12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getPoints</definition>
+        <argsstring>(self, std_vector_Vector3_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get row of points with `offset` stride
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32984" bodyend="32987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ac7139fba9c0a66484cce451d5cfaf198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getValue</definition>
+        <argsstring>(self, Vector3f pos)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Volume value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32988" bodyend="32991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ad25f2c9646826d2534ddba71cd5da907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getValues</definition>
+        <argsstring>(self, std_vector_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <name>getValues</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.getValues</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get volume values for a row of points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32992" bodyend="32995"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ac92882451fa636bf0caf841a56532f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Access to base data
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32996" bodyend="32999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a4ec494f823991623909bd94a19044fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.numVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>numVerts</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.numVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cached number of valid vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33000" bodyend="33003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ae577c40d3269eadc2150834dd87641b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.point</definition>
+        <argsstring>(self, VertId v)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Vertex position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33004" bodyend="33007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a7c705efe3d88bc3f71a64d50779f2541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+        <definition> SimpleVolumeMinMax mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.volume</definition>
+        <argsstring>(self)</argsstring>
+        <name>volume</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.volume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33008" bodyend="33009"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a2f6c94c2bb55700026f87452752aabc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Voxel size as scalar
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33010" bodyend="33013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a8348f7cd9e39e0635510b16fda83a789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Transformation mesh to volume
+All points are in voxels volume space, unless otherwise is implied
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33015" bodyend="33019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a741c29aa1a63b5192f4c7ff99ad6435c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xf</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33021" bodyend="33022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ad0b1dd40d49992e9e13e5e253abfdb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xfInv</definition>
+        <argsstring>(self)</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33024" bodyend="33025"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a1565b495b0b9c9304e2e13d924df54cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xfInv</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>xfInv</name>
+        <qualifiedname>mrmeshpy.MeshOnVoxelsT_Mesh_SimpleVolumeMinMax.xfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33027" bodyend="33028"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshOnVoxelsT&lt;MR::Mesh, MR::SimpleVolumeMinMax&gt;
+Aliases:  MeshOnVoxelsSimple
+
+Helper class to organize mesh and voxels volume access and build point sequences
+\\note this class is not thread-safe but accessing same volume from different instances is ok
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32939" bodyend="33028"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a6ed3bf72eb5d74df03f5a2f89eefe746" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aa0ed41594567f76540cd9b85560d4f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a380ae038e29f3e7a6724f6172945b0bd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a42a2805a3e500a11fbda79d87353ed6b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>getBestPolynomial</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a757070f13d9de3a8585703f392b910ea" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>getDerivatives</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a06a13987d12d724fc669f8778c6e423f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>getOffsetVector</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1aef0be3993012a3da9f25e1247bfcfe12" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>getPoints</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ac7139fba9c0a66484cce451d5cfaf198" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>getValue</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ad25f2c9646826d2534ddba71cd5da907" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>getValues</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ae0f2ea1564dc2c1cc9740ed2666bdd8b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>indexFromPseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ac92882451fa636bf0caf841a56532f18" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a4ec494f823991623909bd94a19044fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>numVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ae577c40d3269eadc2150834dd87641b2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a9bd6e0269355f0dc32187c0f9767a5ca" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>pseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a4c7d2ba0a031668e24975ad16e5839c8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>pseudoIndex</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a7c705efe3d88bc3f71a64d50779f2541" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>volume</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a2f6c94c2bb55700026f87452752aabc0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a8348f7cd9e39e0635510b16fda83a789" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a741c29aa1a63b5192f4c7ff99ad6435c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1ad0b1dd40d49992e9e13e5e253abfdb18" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>xfInv</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax_1a1565b495b0b9c9304e2e13d924df54cb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_Mesh_SimpleVolumeMinMax</scope><name>xfInv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

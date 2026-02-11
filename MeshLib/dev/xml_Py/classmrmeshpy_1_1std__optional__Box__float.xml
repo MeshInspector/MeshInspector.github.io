@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__optional__Box__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_optional_Box_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__Box__float_1a6a20ec07123b9dec3938103b17fea7dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_optional_Box_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_optional_Box_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78499" bodyend="78500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__Box__float_1a9239d725cea0108473659f6d1e88ff56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_Box_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_Box_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78502" bodyend="78503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__Box__float_1a2ebef345e4350ff5a7747a6a7b70a897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_Box_float.__init__</definition>
+        <argsstring>(self, std_optional_Box_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_Box_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Box__float" kindref="compound">std_optional_Box_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78505" bodyend="78506"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__Box__float_1acf505744ff7943bf7c0d304208018d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_Box_float.__init__</definition>
+        <argsstring>(self, Box1f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_Box_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box1f" kindref="compound">Box1f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78508" bodyend="78509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__Box__float_1a5ff7f3750f2f1755677bfbadc267d20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_Box_float.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_Box_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78511" bodyend="78512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__Box__float_1a88351f647823ce78e669cb25ba14bb8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box1f" kindref="compound">Box1f</ref></type>
+        <definition> Box1f mrmeshpy.std_optional_Box_float.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.std_optional_Box_float.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78513" bodyend="78514"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_optional_Box1f
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78495" bodyend="78514"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__optional__Box__float_1a6a20ec07123b9dec3938103b17fea7dd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_Box_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__Box__float_1a9239d725cea0108473659f6d1e88ff56" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_Box_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__Box__float_1a2ebef345e4350ff5a7747a6a7b70a897" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_Box_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__Box__float_1acf505744ff7943bf7c0d304208018d07" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_Box_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__Box__float_1a5ff7f3750f2f1755677bfbadc267d20a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_Box_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__Box__float_1a88351f647823ce78e669cb25ba14bb8d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_Box_float</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

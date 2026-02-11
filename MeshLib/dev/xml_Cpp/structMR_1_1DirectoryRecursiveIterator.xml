@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DirectoryRecursiveIterator" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DirectoryRecursiveIterator</compoundname>
+    <includes refid="MRDirectory_8h" local="no">MRDirectory.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" prot="public" static="no" mutable="no">
+        <type>std::filesystem::recursive_directory_iterator</type>
+        <definition>std::filesystem::recursive_directory_iterator MR::DirectoryRecursiveIterator::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <qualifiedname>MR::DirectoryRecursiveIterator::it</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="48" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DirectoryRecursiveIterator_1a1d7ccfb4cee663b44ee8386962c7898d" prot="public" static="no" mutable="no">
+        <type>std::error_code &amp;</type>
+        <definition>std::error_code&amp; MR::DirectoryRecursiveIterator::ec</definition>
+        <argsstring></argsstring>
+        <name>ec</name>
+        <qualifiedname>MR::DirectoryRecursiveIterator::ec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="49" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1DirectoryRecursiveIterator_1af1ca3bdb83138eed5c4e5dd621505ffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref> &amp;</type>
+        <definition>DirectoryRecursiveIterator &amp; MR::DirectoryRecursiveIterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::DirectoryRecursiveIterator::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="50" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1DirectoryRecursiveIterator_1a86cbbbe84f0161d57736c0baca9e7f48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::DirectoryRecursiveIterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::DirectoryRecursiveIterator::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>recursive iterator of directory items that will save any errors in (ec) instead of throwing exceptions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="47" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DirectoryRecursiveIterator_1a1d7ccfb4cee663b44ee8386962c7898d" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>ec</name></member>
+      <member refid="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>it</name></member>
+      <member refid="structMR_1_1DirectoryRecursiveIterator_1a86cbbbe84f0161d57736c0baca9e7f48" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>operator*</name></member>
+      <member refid="structMR_1_1DirectoryRecursiveIterator_1af1ca3bdb83138eed5c4e5dd621505ffb" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>operator++</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

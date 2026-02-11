@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FlowAggregator_1_1Flows" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FlowAggregator::Flows</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1aa14b12de6ee482662965d8c822d74cbb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlowAggregator.Flows::_offsetof_flowPerEdge</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_flowPerEdge</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows._offsetof_flowPerEdge</qualifiedname>
+        <initializer>=  144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a0848cda37f786025d1936f8b5c980e11" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlowAggregator.Flows::_offsetof_polyline</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_polyline</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows._offsetof_polyline</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20994" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a7820b4f47d1082b1e565608cda2df307" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowAggregator.Flows.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20999" bodyend="21000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a3e98f49d883a725e85df980081a77d62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FlowAggregator_1_1Flows" kindref="compound">FlowAggregator.Flows</ref></type>
+        <definition> FlowAggregator.Flows mrmeshpy.FlowAggregator.Flows.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21003" bodyend="21004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a3e98f49d883a725e85df980081a77d62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FlowAggregator_1_1Flows" kindref="compound">FlowAggregator.Flows</ref></type>
+        <definition> FlowAggregator.Flows mrmeshpy.FlowAggregator.Flows.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21007" bodyend="21008"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a4559046a855b29393944c6bf75195f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowAggregator.Flows.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21010" bodyend="21011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a0c64a326114e0c54afb94c7e843b4798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowAggregator.Flows.__init__</definition>
+        <argsstring>(self, FlowAggregator.Flows arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FlowAggregator_1_1Flows" kindref="compound">FlowAggregator.Flows</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21013" bodyend="21016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a857c637ce45cd4b87a2329d87f07e349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlowAggregator.Flows.__init__</definition>
+        <argsstring>(self, Polyline3 polyline, UndirectedEdgeScalars flowPerEdge)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlowAggregator.Flows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+          <declname>flowPerEdge</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21018" bodyend="21022"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FlowAggregator::Flows
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FlowAggregator.Flows</label>
+        <link refid="classmrmeshpy_1_1FlowAggregator_1_1Flows"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_flowPerEdge</edgelabel>
+          <edgelabel>_offsetof_polyline</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20989" bodyend="21021"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a7820b4f47d1082b1e565608cda2df307" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a4559046a855b29393944c6bf75195f50" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a0c64a326114e0c54afb94c7e843b4798" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a857c637ce45cd4b87a2329d87f07e349" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1aa14b12de6ee482662965d8c822d74cbb" prot="protected" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>_offsetof_flowPerEdge</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a0848cda37f786025d1936f8b5c980e11" prot="protected" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>_offsetof_polyline</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a3e98f49d883a725e85df980081a77d62" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1_1Flows_1a3e98f49d883a725e85df980081a77d62" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator::Flows</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

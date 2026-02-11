@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DividePolylineParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DividePolylineParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1a036f493dab0f171e98181ba87a8f807d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_closeLineAfterCut</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closeLineAfterCut</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_closeLineAfterCut</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1a71468d6a9c11905267077e9d80e7db08" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_onEdgeSplitCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeSplitCallback</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_onEdgeSplitCallback</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1aa274e9efec930e2bb89428c77a6ec5a4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_otherOutEmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherOutEmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_otherOutEmap</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1a85dddc7ccdd70dd118c5b4a7223dd570" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_otherOutVmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherOutVmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_otherOutVmap</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1a5a75957fd8da921dd9db256262da8412" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_otherPart</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherPart</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_otherPart</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1af6e40e03ec272fb0539cf48f277f61df" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_outEmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outEmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_outEmap</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DividePolylineParameters_1ab3efacf61acb0b4cc9ccbeb7dfb074b9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DividePolylineParameters::_offsetof_outVmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outVmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters._offsetof_outVmap</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14155" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a59bd4f9c70ef2b4c25ad20d1b6c6df43" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14158" bodyend="14159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1ade4bd06726e9615169a461edfe572066" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DividePolylineParameters" kindref="compound">DividePolylineParameters</ref></type>
+        <definition> DividePolylineParameters mrmeshpy.DividePolylineParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14162" bodyend="14163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1ade4bd06726e9615169a461edfe572066" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DividePolylineParameters" kindref="compound">DividePolylineParameters</ref></type>
+        <definition> DividePolylineParameters mrmeshpy.DividePolylineParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14166" bodyend="14167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a7c5efe6a217f57857a383be05785ebe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14169" bodyend="14170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1adb2496f3319f79a27183f06f243c2ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.__init__</definition>
+        <argsstring>(self, DividePolylineParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DividePolylineParameters" kindref="compound">DividePolylineParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14172" bodyend="14175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a76f17699d42a8ce4afcc7567d77d2201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.__init__</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag_float onEdgeSplitCallback, bool closeLineAfterCut, VertMap outVmap, EdgeMap outEmap, Polyline3 otherPart, VertMap otherOutVmap, EdgeMap otherOutEmap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+          <declname>onEdgeSplitCallback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closeLineAfterCut</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>outEmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>otherOutVmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>otherOutEmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14177" bodyend="14180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a79f9af5246a113b0b95d008a33e04a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DividePolylineParameters.closeLineAfterCut</definition>
+        <argsstring>(self)</argsstring>
+        <name>closeLineAfterCut</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.closeLineAfterCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open)
+if close, only cut edges (no new edges will be created)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14182" bodyend="14186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a9eb1e1be378fd558e623292aa2c070af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.closeLineAfterCut</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>closeLineAfterCut</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.closeLineAfterCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14188" bodyend="14189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1ada14ff611e0942671e1374fad1e8166d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag_float mrmeshpy.DividePolylineParameters.onEdgeSplitCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.onEdgeSplitCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14191" bodyend="14194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1aa33aece542c16fa5e7cafeb61575243d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.onEdgeSplitCallback</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag_float arg1)</argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.onEdgeSplitCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14196" bodyend="14197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a591727c4b0d2811fd020f6f4c8d30dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+        <definition> EdgeMap mrmeshpy.DividePolylineParameters.otherOutEmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherOutEmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.otherOutEmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>map from input polyline edges to other output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14199" bodyend="14202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a51834e9ec6f3cb59c1e8ff83f3661488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.otherOutEmap</definition>
+        <argsstring>(self, EdgeMap arg1)</argsstring>
+        <name>otherOutEmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.otherOutEmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14204" bodyend="14205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1aacd3cc3e8427da0cc2899323c64c8811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.DividePolylineParameters.otherOutVmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherOutVmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.otherOutVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>map from input polyline verts to other output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14207" bodyend="14210"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a5ee9a8b7963f78c410296c42888deb7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.otherOutVmap</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>otherOutVmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.otherOutVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14212" bodyend="14213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1aea21e1ccc934be587a626c4c4551907c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.DividePolylineParameters.otherPart</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherPart</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.otherPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>otherPart Optional return, polyline composed from edges on the negative side of the plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14215" bodyend="14218"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a87181b45f088da49a50a8702880de5f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.otherPart</definition>
+        <argsstring>(self, Polyline3 arg1)</argsstring>
+        <name>otherPart</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.otherPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14220" bodyend="14221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1ab27bf31332596277dbe37a3873d34eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+        <definition> EdgeMap mrmeshpy.DividePolylineParameters.outEmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>outEmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.outEmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>map from input polyline edges to output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14223" bodyend="14226"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1afc375da8a1fecaeee0d4be5e7fe122c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.outEmap</definition>
+        <argsstring>(self, EdgeMap arg1)</argsstring>
+        <name>outEmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.outEmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14228" bodyend="14229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a3f3c144ac951b6cf62b63768972ebf9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.DividePolylineParameters.outVmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>outVmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.outVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>map from input polyline verts to output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14231" bodyend="14234"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DividePolylineParameters_1a586b278f4dd8ac5e1430a8d9e5cc68ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DividePolylineParameters.outVmap</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>outVmap</name>
+        <qualifiedname>mrmeshpy.DividePolylineParameters.outVmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14236" bodyend="14237"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DividePolylineParameters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DividePolylineParameters</label>
+        <link refid="classmrmeshpy_1_1DividePolylineParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_closeLineAfterCut</edgelabel>
+          <edgelabel>_offsetof_onEdgeSplitCallback</edgelabel>
+          <edgelabel>_offsetof_otherOutEmap</edgelabel>
+          <edgelabel>_offsetof_otherOutVmap</edgelabel>
+          <edgelabel>_offsetof_otherPart</edgelabel>
+          <edgelabel>_offsetof_outEmap</edgelabel>
+          <edgelabel>_offsetof_outVmap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14145" bodyend="14237"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a59bd4f9c70ef2b4c25ad20d1b6c6df43" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a7c5efe6a217f57857a383be05785ebe9" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1adb2496f3319f79a27183f06f243c2ad9" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a76f17699d42a8ce4afcc7567d77d2201" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a036f493dab0f171e98181ba87a8f807d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_closeLineAfterCut</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a71468d6a9c11905267077e9d80e7db08" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_onEdgeSplitCallback</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1aa274e9efec930e2bb89428c77a6ec5a4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_otherOutEmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a85dddc7ccdd70dd118c5b4a7223dd570" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_otherOutVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a5a75957fd8da921dd9db256262da8412" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1af6e40e03ec272fb0539cf48f277f61df" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_outEmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1ab3efacf61acb0b4cc9ccbeb7dfb074b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>_offsetof_outVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a79f9af5246a113b0b95d008a33e04a33" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a9eb1e1be378fd558e623292aa2c070af" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1ada14ff611e0942671e1374fad1e8166d" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1aa33aece542c16fa5e7cafeb61575243d" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1ade4bd06726e9615169a461edfe572066" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1ade4bd06726e9615169a461edfe572066" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a591727c4b0d2811fd020f6f4c8d30dfa" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>otherOutEmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a51834e9ec6f3cb59c1e8ff83f3661488" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>otherOutEmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1aacd3cc3e8427da0cc2899323c64c8811" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>otherOutVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a5ee9a8b7963f78c410296c42888deb7d" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>otherOutVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1aea21e1ccc934be587a626c4c4551907c" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a87181b45f088da49a50a8702880de5f2" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1ab27bf31332596277dbe37a3873d34eed" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>outEmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1afc375da8a1fecaeee0d4be5e7fe122c4" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>outEmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a3f3c144ac951b6cf62b63768972ebf9d" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>outVmap</name></member>
+      <member refid="classmrmeshpy_1_1DividePolylineParameters_1a586b278f4dd8ac5e1430a8d9e5cc68ea" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>outVmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

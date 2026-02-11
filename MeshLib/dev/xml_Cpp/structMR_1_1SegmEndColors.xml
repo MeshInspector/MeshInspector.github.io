@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SegmEndColors" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SegmEndColors</compoundname>
+    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SegmEndColors_1a074d144106e966fd84ea6ac76b9a172b" prot="public" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::SegmEndColors::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::SegmEndColors::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="18" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SegmEndColors_1a34ba656028d463bdd70196ca015bdeab" prot="public" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::SegmEndColors::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::SegmEndColors::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="18" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>colors of segment ends </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="17" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SegmEndColors_1a074d144106e966fd84ea6ac76b9a172b" prot="public" virt="non-virtual"><scope>MR::SegmEndColors</scope><name>a</name></member>
+      <member refid="structMR_1_1SegmEndColors_1a34ba656028d463bdd70196ca015bdeab" prot="public" virt="non-virtual"><scope>MR::SegmEndColors</scope><name>b</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

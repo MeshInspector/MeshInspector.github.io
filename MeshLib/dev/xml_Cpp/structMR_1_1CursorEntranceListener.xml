@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CursorEntranceListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::CursorEntranceListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1CursorEntranceListener_1a2e6ad6df00a5718db8e060aec257534b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::CursorEntranceListener::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(CursorEntranceListener)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::CursorEntranceListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1CursorEntranceListener" kindref="compound">CursorEntranceListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="408" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1CursorEntranceListener_1abd94cdf4627914e91f8f24f1aef2cb54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::CursorEntranceListener::~CursorEntranceListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>~CursorEntranceListener</name>
+        <qualifiedname>MR::CursorEntranceListener::~CursorEntranceListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="409" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1CursorEntranceListener_1a2d5c27d95f9984ab5220e7c158d41841" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::CursorEntranceListener::connect</definition>
+        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::CursorEntranceListener::connect</qualifiedname>
+        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="410" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structMR_1_1CursorEntranceListener_1adab2592cc61c2b1c1c6cf9edd031f71b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::CursorEntranceListener::cursorEntrance_</definition>
+        <argsstring>(bool enter)=0</argsstring>
+        <name>cursorEntrance_</name>
+        <qualifiedname>MR::CursorEntranceListener::cursorEntrance_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="412" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class to subscribe on CursorEntranceSingal </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::CursorEntranceListener</label>
+        <link refid="structMR_1_1CursorEntranceListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::CursorEntranceListener</label>
+        <link refid="structMR_1_1CursorEntranceListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="407" bodyend="413"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CursorEntranceListener_1a2d5c27d95f9984ab5220e7c158d41841" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>connect</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::CursorEntranceListener</scope><name>connection_</name></member>
+      <member refid="structMR_1_1CursorEntranceListener_1adab2592cc61c2b1c1c6cf9edd031f71b" prot="protected" virt="pure-virtual"><scope>MR::CursorEntranceListener</scope><name>cursorEntrance_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>disconnect</name></member>
+      <member refid="structMR_1_1CursorEntranceListener_1a2e6ad6df00a5718db8e060aec257534b" prot="public" virt="non-virtual"><scope>MR::CursorEntranceListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="structMR_1_1CursorEntranceListener_1abd94cdf4627914e91f8f24f1aef2cb54" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>~CursorEntranceListener</name></member>
+      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>~IConnectable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

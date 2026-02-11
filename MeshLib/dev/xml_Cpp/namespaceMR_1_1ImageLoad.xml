@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ImageLoad" kind="namespace" language="C++">
+    <compoundname>MR::ImageLoad</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;(*)(const std::filesystem::path &amp;)</type>
+        <definition>using MR::ImageLoad::ImageLoader =  Expected&lt;Image&gt;( * )( const std::filesystem::path&amp; )</definition>
+        <argsstring></argsstring>
+        <name>ImageLoader</name>
+        <qualifiedname>MR::ImageLoad::ImageLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1ImageLoad_1ab4748a7b41e7803211a8015322e020e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Image &gt; MR::ImageLoad::fromJpeg</definition>
+        <argsstring>(const std::filesystem::path &amp;path, bool ignoreDecompressErrors=false)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>MR::ImageLoad::fromJpeg</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads from .jpg format <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ignoreDecompressErrors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true do not return decompression error if the header was read sucessfully </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="20" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" declline="20" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImageLoad_1af2f74031c0a87951c6e6265193e491bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Image &gt; MR::ImageLoad::fromJpeg</definition>
+        <argsstring>(std::istream &amp;in, bool ignoreDecompressErrors=false)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>MR::ImageLoad::fromJpeg</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="21" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" declline="21" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImageLoad_1a3f2b6d3e696c684fb005f0afdf2ae4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Image &gt; MR::ImageLoad::fromJpeg</definition>
+        <argsstring>(const char *data, size_t size, bool ignoreDecompressErrors=false)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>MR::ImageLoad::fromJpeg</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="22" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" declline="22" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImageLoad_1af27fe391469ee464adae9aeb0019ac28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Image &gt; MR::ImageLoad::fromPng</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>fromPng</name>
+        <qualifiedname>MR::ImageLoad::fromPng</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>loads from .png format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" line="19" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" declline="19" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImageLoad_1a036b1bc335fefcd579c125e0dba99c0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Image &gt; MR::ImageLoad::fromPng</definition>
+        <argsstring>(std::istream &amp;in)</argsstring>
+        <name>fromPng</name>
+        <qualifiedname>MR::ImageLoad::fromPng</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" line="20" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" declline="20" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImageLoad_1a81b47ff32b023a8954f6ccf9cd62595e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; Image &gt; MR::ImageLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::ImageLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>loads from .tiff format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" line="20" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" declline="20" declcolumn="25"/>
+      </memberdef>
+      <member refid="group__ImageLoadGroup_1gad0427ed61cb0d0f0200d126cac01cc2b" kind="function"><name>fromAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1PointsSave" kindref="compound">PointsSave</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

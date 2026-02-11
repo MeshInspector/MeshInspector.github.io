@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MultiwayICPSamplingParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MultiwayICPSamplingParameters</compoundname>
+    <innerclass refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" prot="public">mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1ab506c75ad599df511bb2039aefa72f7d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayICPSamplingParameters::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters._offsetof_cb</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a62395476ca436f6c99dcbd0bb8967456" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayICPSamplingParameters::_offsetof_maxGroupSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxGroupSize</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters._offsetof_maxGroupSize</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1aa570d8b9414176878769544c956a40a0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayICPSamplingParameters::_offsetof_samplingVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_samplingVoxelSize</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters._offsetof_samplingVoxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36575" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a5cf8c1671a99cfaf0d468c5918ccf21f" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+        <definition>MultiwayICPSamplingParameters mrmeshpy.MultiwayICPSamplingParameters::cascadeMode</definition>
+        <argsstring></argsstring>
+        <name>cascadeMode</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.cascadeMode</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" kindref="compound">CascadeMode</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36576" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a1b84f25c7c4f6f7ca5db4c252a97331f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36579" bodyend="36580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a7f64999e155bbae3c14a06118a1fc8f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+        <definition> MultiwayICPSamplingParameters mrmeshpy.MultiwayICPSamplingParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36583" bodyend="36584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a7f64999e155bbae3c14a06118a1fc8f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+        <definition> MultiwayICPSamplingParameters mrmeshpy.MultiwayICPSamplingParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36587" bodyend="36588"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a8e1b916f18a23676e9917165e460c298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36590" bodyend="36591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a4ba96ae4ac48a7089262c9cee16b8b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.__init__</definition>
+        <argsstring>(self, MultiwayICPSamplingParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36593" bodyend="36596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1aa70ecc60467259fe2cc6c0bda187b18f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.__init__</definition>
+        <argsstring>(self, float samplingVoxelSize, int maxGroupSize, MultiwayICPSamplingParameters.CascadeMode cascadeMode, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxGroupSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" kindref="compound">MultiwayICPSamplingParameters.CascadeMode</ref></type>
+          <declname>cascadeMode</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36598" bodyend="36601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a8916a35e537204d39bec1d1a7ee40917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.MultiwayICPSamplingParameters.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for progress reports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36603" bodyend="36606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1aacd30c99164f8435264b593528a2e426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36608" bodyend="36609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a2b0b79712254a9d8b4c8e4f0faeff64c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MultiwayICPSamplingParameters.maxGroupSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxGroupSize</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.maxGroupSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>size of maximum icp group to work with;
+if the number of objects exceeds this value, icp is applied in cascade mode;
+maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects;
+maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36611" bodyend="36617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1ace71b1f560d45add2cb566d5e5d141da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.maxGroupSize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxGroupSize</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.maxGroupSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36619" bodyend="36620"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a718ae84c1d3efcc7f985a05af1b9c805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MultiwayICPSamplingParameters.samplingVoxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>samplingVoxelSize</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.samplingVoxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sampling size of each object, 0 has special meaning &quot;take all valid points&quot;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36622" bodyend="36625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1ac885a075c469d50768c6725682527fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.samplingVoxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>samplingVoxelSize</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.samplingVoxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36627" bodyend="36628"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MultiwayICPSamplingParameters
+
+Parameters that are used for sampling of the MultiwayICP objects
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MultiwayICPSamplingParameters</label>
+        <link refid="classmrmeshpy_1_1MultiwayICPSamplingParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_maxGroupSize</edgelabel>
+          <edgelabel>_offsetof_samplingVoxelSize</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cascadeMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.MultiwayICPSamplingParameters</label>
+        <link refid="classmrmeshpy_1_1MultiwayICPSamplingParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_maxGroupSize</edgelabel>
+          <edgelabel>_offsetof_samplingVoxelSize</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cascadeMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36529" bodyend="36628"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a1b84f25c7c4f6f7ca5db4c252a97331f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a8e1b916f18a23676e9917165e460c298" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a4ba96ae4ac48a7089262c9cee16b8b86" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1aa70ecc60467259fe2cc6c0bda187b18f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1ab506c75ad599df511bb2039aefa72f7d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a62395476ca436f6c99dcbd0bb8967456" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>_offsetof_maxGroupSize</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1aa570d8b9414176878769544c956a40a0" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>_offsetof_samplingVoxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a5cf8c1671a99cfaf0d468c5918ccf21f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>cascadeMode</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a8916a35e537204d39bec1d1a7ee40917" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1aacd30c99164f8435264b593528a2e426" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a2b0b79712254a9d8b4c8e4f0faeff64c" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>maxGroupSize</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1ace71b1f560d45add2cb566d5e5d141da" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>maxGroupSize</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a7f64999e155bbae3c14a06118a1fc8f1" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a7f64999e155bbae3c14a06118a1fc8f1" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1a718ae84c1d3efcc7f985a05af1b9c805" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>samplingVoxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1ac885a075c469d50768c6725682527fdf" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters</scope><name>samplingVoxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

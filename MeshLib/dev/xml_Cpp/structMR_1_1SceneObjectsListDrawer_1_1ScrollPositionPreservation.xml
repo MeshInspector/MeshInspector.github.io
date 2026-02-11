@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation" kind="struct" language="C++" prot="private">
+    <compoundname>MR::SceneObjectsListDrawer::ScrollPositionPreservation</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation_1abbf3505abf910c44d4b8d50aaae3fb11" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SceneObjectsListDrawer::ScrollPositionPreservation::relativeMousePos</definition>
+        <argsstring></argsstring>
+        <name>relativeMousePos</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::ScrollPositionPreservation::relativeMousePos</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="142" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation_1aef48e5d11739e2460d49ae418a9b07ad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SceneObjectsListDrawer::ScrollPositionPreservation::absLinePosRatio</definition>
+        <argsstring></argsstring>
+        <name>absLinePosRatio</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::ScrollPositionPreservation::absLinePosRatio</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="143" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Drag objects servant data struct to handle changed scene window size scroll </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="140" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="141" bodyend="144"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation_1aef48e5d11739e2460d49ae418a9b07ad" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::ScrollPositionPreservation</scope><name>absLinePosRatio</name></member>
+      <member refid="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation_1abbf3505abf910c44d4b8d50aaae3fb11" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::ScrollPositionPreservation</scope><name>relativeMousePos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeMeshUVCoordsAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeMeshUVCoordsAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a5005e5fe0ca8170661e44c9d89faf83c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeMeshUVCoordsAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8154" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1af7a054e31829b1b7aa0b7774439b7a46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshUVCoordsAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8157" bodyend="8158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a541eae6f248abc92a15969df944cfb65" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshUVCoordsAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8160" bodyend="8161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a82c738d720475efa9dc0e490ae69f9b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction" kindref="compound">ChangeMeshUVCoordsAction</ref></type>
+        <definition> ChangeMeshUVCoordsAction mrmeshpy.ChangeMeshUVCoordsAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8164" bodyend="8165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a82c738d720475efa9dc0e490ae69f9b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction" kindref="compound">ChangeMeshUVCoordsAction</ref></type>
+        <definition> ChangeMeshUVCoordsAction mrmeshpy.ChangeMeshUVCoordsAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8168" bodyend="8169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a6df577910238b81a9eb5754e6e0692b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshUVCoordsAction.setObjectDirty</definition>
+        <argsstring>(ObjectMeshHolder obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8171" bodyend="8172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1ad28a4d72e8948a42ae82c19f7dec76c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshUVCoordsAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMeshHolder obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s uv-coordinates before making any changes in them
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8174" bodyend="8177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a110e30329a94dfd774529cf8901af056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshUVCoordsAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMeshHolder obj, VertCoords2 newUvCoords)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>newUvCoords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s uv-coordinates and immediate set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8179" bodyend="8182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a93df5811d716bb8582e8719489fe88d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshUVCoordsAction.__init__</definition>
+        <argsstring>(self, ChangeMeshUVCoordsAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction" kindref="compound">ChangeMeshUVCoordsAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8184" bodyend="8187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a99b06945e778845f032894667777e3ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeMeshUVCoordsAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8188" bodyend="8189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1aa3a3d800630b2c1d5205cab9c54d2645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeMeshUVCoordsAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeMeshUVCoordsAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8190" bodyend="8191"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeMeshUVCoordsAction
+
+Undo action for ObjectMeshHolder uvCoords change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeMeshUVCoordsAction</label>
+        <link refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeMeshUVCoordsAction</label>
+        <link refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8148" bodyend="8191"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1af7a054e31829b1b7aa0b7774439b7a46" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1ad28a4d72e8948a42ae82c19f7dec76c1" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a110e30329a94dfd774529cf8901af056" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a93df5811d716bb8582e8719489fe88d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a541eae6f248abc92a15969df944cfb65" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a99b06945e778845f032894667777e3ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1aa3a3d800630b2c1d5205cab9c54d2645" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a5005e5fe0ca8170661e44c9d89faf83c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a82c738d720475efa9dc0e490ae69f9b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a82c738d720475efa9dc0e490ae69f9b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a6df577910238b81a9eb5754e6e0692b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshUVCoordsAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

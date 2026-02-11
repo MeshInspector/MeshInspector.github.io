@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Pdf::AlignmentHorizontal</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a2a632d34d0b807e8181c8abbea07ec59" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.AlignmentHorizontal::Center</definition>
+        <argsstring></argsstring>
+        <name>Center</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.Center</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" kindref="compound">Pdf.AlignmentHorizontal</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a2af3085d8df34db0bcb173c3cb5731c9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.AlignmentHorizontal::Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.Left</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" kindref="compound">Pdf.AlignmentHorizontal</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1aecbb284cadb5b23b6a35996025555ee1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.AlignmentHorizontal::Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.Right</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" kindref="compound">Pdf.AlignmentHorizontal</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42532" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1af549bd326b967580e8ffddf8da5d18d7" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.AlignmentHorizontal::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" kindref="compound">Pdf.AlignmentHorizontal</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42533" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a98f4c469264da77cab406553b1f9b524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Pdf.AlignmentHorizontal.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42534" bodyend="42535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1ad51e12bca66d0ee6761b16d79bb94019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Pdf.AlignmentHorizontal.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42536" bodyend="42537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1ae951f9b607a7b467d5be87a48a1a85d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Pdf.AlignmentHorizontal.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42538" bodyend="42539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a0d323cdb7fb4421778a6725702b90eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Pdf.AlignmentHorizontal.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42540" bodyend="42541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a67ffe9ee73ccfba57da37521722ba10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.AlignmentHorizontal.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42542" bodyend="42543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1abe41cb7f29d60b70d39a4b94a8720049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Pdf.AlignmentHorizontal.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42544" bodyend="42545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a7dd7e1f611fdb27bfc944b624cdf0a17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Pdf.AlignmentHorizontal.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42546" bodyend="42547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a49e466542b4c6304c15152625ea39c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Pdf.AlignmentHorizontal.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42548" bodyend="42549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1add464c3e68b5f8a8ee95b6d05290964d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.AlignmentHorizontal.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42550" bodyend="42551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a1c91f4eceab0141b07b49bc63a5cd278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Pdf.AlignmentHorizontal.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42552" bodyend="42553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a4b56c804f72de59abfd742ca96f66ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Pdf.AlignmentHorizontal.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42555" bodyend="42556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1ad29a2cd27f3ee1ab3abad1c31932f8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Pdf.AlignmentHorizontal.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.Pdf.AlignmentHorizontal.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42558" bodyend="42560"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Left
+
+  Center
+
+  Right
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Pdf.AlignmentHorizontal</label>
+        <link refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Center</edgelabel>
+          <edgelabel>Left</edgelabel>
+          <edgelabel>Right</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42520" bodyend="42559"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a98f4c469264da77cab406553b1f9b524" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1ad51e12bca66d0ee6761b16d79bb94019" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1ae951f9b607a7b467d5be87a48a1a85d4" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a0d323cdb7fb4421778a6725702b90eb8" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a67ffe9ee73ccfba57da37521722ba10c" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1abe41cb7f29d60b70d39a4b94a8720049" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1af549bd326b967580e8ffddf8da5d18d7" prot="private" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a7dd7e1f611fdb27bfc944b624cdf0a17" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a49e466542b4c6304c15152625ea39c59" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1add464c3e68b5f8a8ee95b6d05290964d" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a1c91f4eceab0141b07b49bc63a5cd278" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a2a632d34d0b807e8181c8abbea07ec59" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>Center</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a2af3085d8df34db0bcb173c3cb5731c9" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>Left</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1a4b56c804f72de59abfd742ca96f66ad5" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1aecbb284cadb5b23b6a35996025555ee1" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>Right</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal_1ad29a2cd27f3ee1ab3abad1c31932f8da" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::AlignmentHorizontal</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

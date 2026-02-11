@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LineObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LineObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1FeatureObject" prot="public" virt="non-virtual">mrmeshpy.FeatureObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a9f771fceacd8a496939afc60f25543c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LineObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.LineObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25804" bodyend="25805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ae00f673b3c233b01f2583b9535e48127" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LineObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.LineObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25807" bodyend="25808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ae037f8278647af9487b05813bc1b0a6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LineObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.LineObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25810" bodyend="25811"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple plane object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25813" bodyend="25816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best plane to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25818" bodyend="25821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ab4779c6f90afaa1ab6ef95d5354e1a18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LineObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.LineObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25822" bodyend="25823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ac6575cb2096dfa85f7474ca964215fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LineObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.LineObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25824" bodyend="25825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a0a51955f3410656c8857f0147e5a3dec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.LineObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.LineObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25826" bodyend="25827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a797c0e1d17fe80281036cad697cdcc15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.LineObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.LineObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25828" bodyend="25829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a5e1a40660087aa58c7fed739068ea468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.LineObject.getBasePoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>mrmeshpy.LineObject.getBasePoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc">getBasePoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns point considered as base for the feature
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25830" bodyend="25833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a1b9f39fc45f39f309dc0ec5f79d9e98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.LineObject.getCenter</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>mrmeshpy.LineObject.getCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates center from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25834" bodyend="25837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a02c34bc61d9d0844df1974abfb5ffbb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.LineObject.getDirection</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getDirection</name>
+        <qualifiedname>mrmeshpy.LineObject.getDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates direction from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25838" bodyend="25841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a3604fea8ccb94c45eab9698e13a72d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.LineObject.getLength</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getLength</name>
+        <qualifiedname>mrmeshpy.LineObject.getLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates line size from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25842" bodyend="25845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ae76ff23a43a0bb26351f4a2ed57b755f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.LineObject.getPointA</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getPointA</name>
+        <qualifiedname>mrmeshpy.LineObject.getPointA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the starting point, aka `center - dir * len/2`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25846" bodyend="25849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a3a14171b043c8913e6622c13bd944930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.LineObject.getPointB</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getPointB</name>
+        <qualifiedname>mrmeshpy.LineObject.getPointB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the finishing point, aka `center + dir * len/2`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25850" bodyend="25853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a9d035b98ac2182a829684babd5ec5e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.LineObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.LineObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25854" bodyend="25855"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a0ceacfa42b4a7fc459d3cb9c774d9d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineObject.setCenter</definition>
+        <argsstring>(self, Vector3f center, ViewportId id=...)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>mrmeshpy.LineObject.setCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25856" bodyend="25859"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1adc67124f61f23dcac4eeaf3e4f714ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineObject.setDirection</definition>
+        <argsstring>(self, Vector3f normal, ViewportId id=...)</argsstring>
+        <name>setDirection</name>
+        <qualifiedname>mrmeshpy.LineObject.setDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given normal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25860" bodyend="25863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a345e4d97039cb629997452626d2ca400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineObject.setLength</definition>
+        <argsstring>(self, float size, ViewportId id=...)</argsstring>
+        <name>setLength</name>
+        <qualifiedname>mrmeshpy.LineObject.setLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to scale size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25864" bodyend="25867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ae277cf72dcad1ae300fe560003afdf58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.LineObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.LineObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25868" bodyend="25869"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1afa7d13e6a3c01fdbe0dd30dd27213202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LineObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.LineObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25870" bodyend="25871"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::LineObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Line.type
+
+Object to show plane feature
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.LineObject</label>
+        <link refid="classmrmeshpy_1_1LineObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LineObject</label>
+        <link refid="classmrmeshpy_1_1LineObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25796" bodyend="25871"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1ab4779c6f90afaa1ab6ef95d5354e1a18" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1ac6575cb2096dfa85f7474ca964215fe6" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a0a51955f3410656c8857f0147e5a3dec" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a797c0e1d17fe80281036cad697cdcc15" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a5e1a40660087aa58c7fed739068ea468" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a1b9f39fc45f39f309dc0ec5f79d9e98a" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a02c34bc61d9d0844df1974abfb5ffbb5" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getDirection</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a3604fea8ccb94c45eab9698e13a72d46" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getLength</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1ae76ff23a43a0bb26351f4a2ed57b755f" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getPointA</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a3a14171b043c8913e6622c13bd944930" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>getPointB</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a9d035b98ac2182a829684babd5ec5e2e" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a0ceacfa42b4a7fc459d3cb9c774d9d7a" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1adc67124f61f23dcac4eeaf3e4f714ec9" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setDirection</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a345e4d97039cb629997452626d2ca400" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setLength</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1ae277cf72dcad1ae300fe560003afdf58" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a9f771fceacd8a496939afc60f25543c0" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1ae00f673b3c233b01f2583b9535e48127" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1ae037f8278647af9487b05813bc1b0a6e" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1afa7d13e6a3c01fdbe0dd30dd27213202" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

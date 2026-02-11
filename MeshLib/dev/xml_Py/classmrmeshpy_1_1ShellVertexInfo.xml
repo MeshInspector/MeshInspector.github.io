@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ShellVertexInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ShellVertexInfo</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ShellVertexInfo_1a83c85dae2a393a5964c6057b80ef3f17" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ShellVertexInfo::_offsetof_inRange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_inRange</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo._offsetof_inRange</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52025" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ShellVertexInfo_1ac2677e05279844e7e21fc4bb9f5108b3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ShellVertexInfo::_offsetof_projOnBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projOnBd</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo._offsetof_projOnBd</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52026" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ShellVertexInfo_1aa1fbcba3b377a81ec0d238c084c750a7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ShellVertexInfo::_offsetof_rightSide</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rightSide</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo._offsetof_rightSide</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52027" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a4ac47398c702234ceddbd8c90d99c46b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52030" bodyend="52031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a8d76bc1890ded7e56d86a94aba02e01c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ShellVertexInfo" kindref="compound">ShellVertexInfo</ref></type>
+        <definition> ShellVertexInfo mrmeshpy.ShellVertexInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52034" bodyend="52035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a8d76bc1890ded7e56d86a94aba02e01c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ShellVertexInfo" kindref="compound">ShellVertexInfo</ref></type>
+        <definition> ShellVertexInfo mrmeshpy.ShellVertexInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52038" bodyend="52039"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1aa6f3b79ef58e520ec73e91a5281dd87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52041" bodyend="52042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a0a240e1e487b84daf187c42c80eb0cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.__init__</definition>
+        <argsstring>(self, ShellVertexInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ShellVertexInfo" kindref="compound">ShellVertexInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52044" bodyend="52047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1aa3ebb7ba92b1824fc34103cdb66dc649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.__init__</definition>
+        <argsstring>(self, bool inRange, bool projOnBd, bool rightSide)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inRange</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projOnBd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rightSide</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52049" bodyend="52052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a97cba472e2ab2890f49eb13ca4ac4945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ShellVertexInfo.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if shell vertex is in range, does not project on boundary and located on proper side
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52053" bodyend="52056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a762bc455398b2eae6578c17cde345bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ShellVertexInfo.inRange</definition>
+        <argsstring>(self)</argsstring>
+        <name>inRange</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.inRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true when shell vertex is within settings.maxDist from source mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52058" bodyend="52061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1aca43c354a8cde25e1419d1119e499573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.inRange</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>inRange</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.inRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52063" bodyend="52064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1ac1a3a24d7ee08d4bf91ebcf422b0b7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ShellVertexInfo.projOnBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>projOnBd</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.projOnBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>shell vertex projects on source mesh boundary (never true for winding rule mode)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52066" bodyend="52069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a21430aef6dbe2062c076e1d22d4ef605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.projOnBd</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>projOnBd</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.projOnBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52071" bodyend="52072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a9a68e128ba699812a4892a4d01680b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ShellVertexInfo.rightSide</definition>
+        <argsstring>(self)</argsstring>
+        <name>rightSide</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.rightSide</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether shell vertex is on requested side of source mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52074" bodyend="52077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShellVertexInfo_1a366d62d1f90ced72e9c243c37cce93ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShellVertexInfo.rightSide</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>rightSide</name>
+        <qualifiedname>mrmeshpy.ShellVertexInfo.rightSide</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52079" bodyend="52080"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ShellVertexInfo
+
+information about shell vertex
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ShellVertexInfo</label>
+        <link refid="classmrmeshpy_1_1ShellVertexInfo"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_inRange</edgelabel>
+          <edgelabel>_offsetof_projOnBd</edgelabel>
+          <edgelabel>_offsetof_rightSide</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52019" bodyend="52080"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a4ac47398c702234ceddbd8c90d99c46b" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1aa6f3b79ef58e520ec73e91a5281dd87a" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a0a240e1e487b84daf187c42c80eb0cdd" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1aa3ebb7ba92b1824fc34103cdb66dc649" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a83c85dae2a393a5964c6057b80ef3f17" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>_offsetof_inRange</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1ac2677e05279844e7e21fc4bb9f5108b3" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>_offsetof_projOnBd</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1aa1fbcba3b377a81ec0d238c084c750a7" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>_offsetof_rightSide</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a762bc455398b2eae6578c17cde345bec" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>inRange</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1aca43c354a8cde25e1419d1119e499573" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>inRange</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a8d76bc1890ded7e56d86a94aba02e01c" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a8d76bc1890ded7e56d86a94aba02e01c" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1ac1a3a24d7ee08d4bf91ebcf422b0b7f3" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>projOnBd</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a21430aef6dbe2062c076e1d22d4ef605" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>projOnBd</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a9a68e128ba699812a4892a4d01680b3b" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>rightSide</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a366d62d1f90ced72e9c243c37cce93ac" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>rightSide</name></member>
+      <member refid="classmrmeshpy_1_1ShellVertexInfo_1a97cba472e2ab2890f49eb13ca4ac4945" prot="public" virt="non-virtual"><scope>mrmeshpy::ShellVertexInfo</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

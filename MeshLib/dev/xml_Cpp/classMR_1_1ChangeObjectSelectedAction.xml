@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeObjectSelectedAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeObjectSelectedAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeObjectFields_8h" local="no">MRChangeObjectFields.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1ChangeObjectSelectedAction_1a937d04b50120a0a1c237ab976bf7f0d7" prot="public" static="no">
+        <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref></type>
+        <definition>using MR::ChangeObjectSelectedAction::Obj =  Object</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::Obj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="72" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangeObjectSelectedAction_1a931b41831fc1114c3f239a626ab884c2" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Object&gt; MR::ChangeObjectSelectedAction::obj_</definition>
+        <argsstring></argsstring>
+        <name>obj_</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::obj_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="118" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeObjectSelectedAction_1ae9366b82532b9a58d52fa26eb2553dde" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ChangeObjectSelectedAction::selected_</definition>
+        <argsstring></argsstring>
+        <name>selected_</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::selected_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="119" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeObjectSelectedAction_1a300d4fcfb582294732bd34e1dc059074" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeObjectSelectedAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="120" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1aa52b1585ac548e84db85dd7223403ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeObjectSelectedAction::ChangeObjectSelectedAction</definition>
+        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</argsstring>
+        <name>ChangeObjectSelectedAction</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::ChangeObjectSelectedAction</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s isSelected property before making any changes in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="75" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1a1f6eeb88304ee19cffcc8662646ee76f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangeObjectSelectedAction::ChangeObjectSelectedAction</definition>
+        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj, bool newValue)</argsstring>
+        <name>ChangeObjectSelectedAction</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::ChangeObjectSelectedAction</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s isSelected property and immediately set new value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="84" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="84" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1ae709358ae5d269b3ef15942ba7ccea30" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangeObjectSelectedAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="95" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1aace3c2763b5625fb8eea898a21f5fc26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ChangeObjectSelectedAction::action</definition>
+        <argsstring>(HistoryAction::Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="100" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="100" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1a3755cc9192950a33d25ab548bc24ccc9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::ChangeObjectSelectedAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="112" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="112" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1a0e4345611526b79dadfda82096257f79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::ChangeObjectSelectedAction::setObjectDirty</definition>
+        <argsstring>(const std::shared_ptr&lt; Object &gt; &amp;)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR::ChangeObjectSelectedAction::setObjectDirty</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="109" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="109" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for object selected state </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1ChangeObjectSelectedAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1ChangeObjectSelectedAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="69" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="70" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1aace3c2763b5625fb8eea898a21f5fc26" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1aa52b1585ac548e84db85dd7223403ca9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1a1f6eeb88304ee19cffcc8662646ee76f" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1a3755cc9192950a33d25ab548bc24ccc9" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1ae709358ae5d269b3ef15942ba7ccea30" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1a300d4fcfb582294732bd34e1dc059074" prot="private" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>name_</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1a937d04b50120a0a1c237ab976bf7f0d7" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Obj</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1a931b41831fc1114c3f239a626ab884c2" prot="private" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>obj_</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1ae9366b82532b9a58d52fa26eb2553dde" prot="private" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>selected_</name></member>
+      <member refid="classMR_1_1ChangeObjectSelectedAction_1a0e4345611526b79dadfda82096257f79" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

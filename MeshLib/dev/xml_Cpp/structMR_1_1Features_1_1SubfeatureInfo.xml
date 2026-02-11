@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Features_1_1SubfeatureInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Features::SubfeatureInfo</compoundname>
+    <includes refid="MRSubfeatures_8h" local="no">MRSubfeatures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Features_1_1SubfeatureInfo_1a541784a82382634e352793d6981d3214" prot="public" static="no" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::Features::SubfeatureInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::Features::SubfeatureInfo::name</qualifiedname>
+        <briefdescription>
+<para>A user-friendly name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Features_1_1SubfeatureInfo_1ae56a2191502d5ecf2fee0d83939a5013" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Features::SubfeatureInfo::isInfinite</definition>
+        <argsstring></argsstring>
+        <name>isInfinite</name>
+        <qualifiedname>MR::Features::SubfeatureInfo::isInfinite</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Whether the feature has infinite length. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="17" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Features_1_1SubfeatureInfo_1a257610a5ab6c4efc5a75b08c06e5402a" prot="public" static="no" mutable="no">
+        <type>std::function&lt; <ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>(const <ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Features::Primitives::Variant</ref> &amp;feature)&gt;</type>
+        <definition>std::function&lt;Primitives::Variant( const Features::Primitives::Variant&amp; feature )&gt; MR::Features::SubfeatureInfo::create</definition>
+        <argsstring></argsstring>
+        <name>create</name>
+        <qualifiedname>MR::Features::SubfeatureInfo::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call this to create this subfeature. Pass the same feature you passed to <computeroutput><ref refid="namespaceMR_1_1Features_1a97570d41ec01a7111b742503bdc2c5dc" kindref="member">forEachSubfeature()</ref></computeroutput>, or a DIFFERENT one to create the same kind of subfeature relative to that. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="21" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Describes a single feature produced by <computeroutput><ref refid="namespaceMR_1_1Features_1a97570d41ec01a7111b742503bdc2c5dc" kindref="member">forEachSubfeature()</ref></computeroutput>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" bodystart="12" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Features_1_1SubfeatureInfo_1a257610a5ab6c4efc5a75b08c06e5402a" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>create</name></member>
+      <member refid="structMR_1_1Features_1_1SubfeatureInfo_1ae56a2191502d5ecf2fee0d83939a5013" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>isInfinite</name></member>
+      <member refid="structMR_1_1Features_1_1SubfeatureInfo_1a541784a82382634e352793d6981d3214" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

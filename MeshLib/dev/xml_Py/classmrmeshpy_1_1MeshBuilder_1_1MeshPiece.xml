@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshBuilder::MeshPiece</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a0f388ffdaefd0de397d56846b8dd80b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.MeshPiece::_offsetof_fmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fmap</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece._offsetof_fmap</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a4a07f111cb1b8f144590b7669c048028" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.MeshPiece::_offsetof_rem</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rem</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece._offsetof_rem</qualifiedname>
+        <initializer>=  200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a1637b2c9ad9427fdff6428257534b0cb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.MeshPiece::_offsetof_topology</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_topology</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece._offsetof_topology</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a58ed13321bfa77cd8fba0bcb72557425" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.MeshPiece::_offsetof_vmap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vmap</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece._offsetof_vmap</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31321" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1ac5fd9a8b38446983e7d6a829df8ab3c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31325" bodyend="31326"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a800b547760737affa08818a695386c2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MeshBuilder.MeshPiece</ref></type>
+        <definition> MeshBuilder.MeshPiece mrmeshpy.MeshBuilder.MeshPiece.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31329" bodyend="31330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a800b547760737affa08818a695386c2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MeshBuilder.MeshPiece</ref></type>
+        <definition> MeshBuilder.MeshPiece mrmeshpy.MeshBuilder.MeshPiece.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31333" bodyend="31334"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1abb34cc2ada2c00fd2b8f4d20bc318098" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31336" bodyend="31337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1ac9fdb23ca5af094f7b9017ed508537ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.__init__</definition>
+        <argsstring>(self, MeshBuilder.MeshPiece arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MeshBuilder.MeshPiece</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31339" bodyend="31342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a120bb6370d73b03461d02db18f584e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.__init__</definition>
+        <argsstring>(self, FaceMap fmap, VertMap vmap, MeshTopology topology, FaceBitSet rem)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>fmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>vmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>rem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31344" bodyend="31347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1af980874964126c29c37e9c7c577b8dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition> FaceMap mrmeshpy.MeshBuilder.MeshPiece.fmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>fmap</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.fmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>face of part -&gt; face of whole mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31349" bodyend="31352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a831fec21fffce1fa7a99f9023c59b3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.fmap</definition>
+        <argsstring>(self, FaceMap arg1)</argsstring>
+        <name>fmap</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.fmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31354" bodyend="31355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1ae73d27d628605debc20661f9c7c3b536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.MeshBuilder.MeshPiece.rem</definition>
+        <argsstring>(self)</argsstring>
+        <name>rem</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.rem</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>remaining triangles of part, not in topology
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31357" bodyend="31360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1acad0cdf57a8cba57f5b9bd05dd1407d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.rem</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>rem</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.rem</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31362" bodyend="31363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a0f41c9c9509538f53fe50a5052e0578a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.MeshBuilder.MeshPiece.vmap</definition>
+        <argsstring>(self)</argsstring>
+        <name>vmap</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.vmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vert of part -&gt; vert of whole mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31365" bodyend="31368"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1aded23fea09f686dcee2e7f51c92118cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.MeshPiece.vmap</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>vmap</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.MeshPiece.vmap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31370" bodyend="31372"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshBuilder::MeshPiece
+
+a part of a whole mesh to be constructed
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshBuilder.MeshPiece</label>
+        <link refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_fmap</edgelabel>
+          <edgelabel>_offsetof_rem</edgelabel>
+          <edgelabel>_offsetof_topology</edgelabel>
+          <edgelabel>_offsetof_vmap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31312" bodyend="31371"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1ac5fd9a8b38446983e7d6a829df8ab3c3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1abb34cc2ada2c00fd2b8f4d20bc318098" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1ac9fdb23ca5af094f7b9017ed508537ee" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a120bb6370d73b03461d02db18f584e04" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a0f388ffdaefd0de397d56846b8dd80b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>_offsetof_fmap</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a4a07f111cb1b8f144590b7669c048028" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>_offsetof_rem</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a1637b2c9ad9427fdff6428257534b0cb" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>_offsetof_topology</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a58ed13321bfa77cd8fba0bcb72557425" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>_offsetof_vmap</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1af980874964126c29c37e9c7c577b8dcb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>fmap</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a831fec21fffce1fa7a99f9023c59b3ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>fmap</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a800b547760737affa08818a695386c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a800b547760737affa08818a695386c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1ae73d27d628605debc20661f9c7c3b536" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>rem</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1acad0cdf57a8cba57f5b9bd05dd1407d7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>rem</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1a0f41c9c9509538f53fe50a5052e0578a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>vmap</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1MeshPiece_1aded23fea09f686dcee2e7f51c92118cf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::MeshPiece</scope><name>vmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRDirectory_8h" kind="file" language="C++">
+    <compoundname>MRDirectory.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="no">filesystem</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRDirectory.h</label>
+        <link refid="MRDirectory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>filesystem</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1Directory" prot="public">MR::Directory</innerclass>
+    <innerclass refid="structMR_1_1DirectoryRecursive" prot="public">MR::DirectoryRecursive</innerclass>
+    <innerclass refid="structMR_1_1DirectoryIterator" prot="public">MR::DirectoryIterator</innerclass>
+    <innerclass refid="structMR_1_1DirectoryRecursiveIterator" prot="public">MR::DirectoryRecursiveIterator</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1Directory" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Directory" kindref="compound">Directory</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1Directory_1a65306e29fafdd199b5c607289be0a79c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="structMR_1_1Directory_1a65306e29fafdd199b5c607289be0a79c" kindref="member">dir</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1Directory_1aa0c34b86b17fa7255361f1bb764e006d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="structMR_1_1Directory_1aa0c34b86b17fa7255361f1bb764e006d" kindref="member">ec</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1DirectoryRecursive" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryRecursive" kindref="compound">DirectoryRecursive</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="structMR_1_1DirectoryRecursive_1a0377432c17ff4de701e83f6c0ac198ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="structMR_1_1DirectoryRecursive_1a0377432c17ff4de701e83f6c0ac198ae" kindref="member">dir</ref>;</highlight></codeline>
+<codeline lineno="30" refid="structMR_1_1DirectoryRecursive_1a2e941bde547838e6a74d34b9aed8d49e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="structMR_1_1DirectoryRecursive_1a2e941bde547838e6a74d34b9aed8d49e" kindref="member">ec</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1DirectoryIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::directory_iterator<sp/><ref refid="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" kindref="member">it</ref>;</highlight></codeline>
+<codeline lineno="37" refid="structMR_1_1DirectoryIterator_1a4d7767889be907087117c4ee9fd0789d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="structMR_1_1DirectoryIterator_1a4d7767889be907087117c4ee9fd0789d" kindref="member">ec</ref>;</highlight></codeline>
+<codeline lineno="38" refid="structMR_1_1DirectoryIterator_1a97ffa4ef6cc99e6cfa211a4bed48c6f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref><sp/>&amp;<sp/><ref refid="structMR_1_1DirectoryIterator_1a97ffa4ef6cc99e6cfa211a4bed48c6f4" kindref="member">operator ++</ref>()<sp/>{<sp/><ref refid="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" kindref="member">it</ref>.increment(<sp/><ref refid="structMR_1_1DirectoryIterator_1a4d7767889be907087117c4ee9fd0789d" kindref="member">ec</ref><sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1DirectoryIterator_1a0614a693a34cc58e9e59902bf38e38ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryIterator_1a0614a693a34cc58e9e59902bf38e38ef" kindref="member">operator *</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" kindref="member">it</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="namespaceMR_1abbb65999efa5888bba732313759eafa5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="namespaceMR_1abbb65999efa5888bba732313759eafa5" kindref="member">findPathWithExtension</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/>&amp;<sp/>pathWithoutExtension<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structMR_1_1DirectoryRecursiveIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48" refid="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::recursive_directory_iterator<sp/><ref refid="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" kindref="member">it</ref>;</highlight></codeline>
+<codeline lineno="49" refid="structMR_1_1DirectoryRecursiveIterator_1a1d7ccfb4cee663b44ee8386962c7898d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="structMR_1_1DirectoryRecursiveIterator_1a1d7ccfb4cee663b44ee8386962c7898d" kindref="member">ec</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structMR_1_1DirectoryRecursiveIterator_1af1ca3bdb83138eed5c4e5dd621505ffb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref><sp/>&amp;<sp/><ref refid="structMR_1_1DirectoryRecursiveIterator_1af1ca3bdb83138eed5c4e5dd621505ffb" kindref="member">operator ++</ref>()<sp/>{<sp/><ref refid="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" kindref="member">it</ref>.increment(<sp/><ref refid="structMR_1_1DirectoryRecursiveIterator_1a1d7ccfb4cee663b44ee8386962c7898d" kindref="member">ec</ref><sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="51" refid="structMR_1_1DirectoryRecursiveIterator_1a86cbbbe84f0161d57736c0baca9e7f48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryRecursiveIterator_1a86cbbbe84f0161d57736c0baca9e7f48" kindref="member">operator *</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" kindref="member">it</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="namespaceMR_1a8037d5f405b7159ef4d26ac722d943f1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref><sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Directory" kindref="compound">Directory</ref><sp/>&amp;<sp/>sd<sp/>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref>{<sp/>std::filesystem::directory_iterator(<sp/>sd.<ref refid="structMR_1_1Directory_1a65306e29fafdd199b5c607289be0a79c" kindref="member">dir</ref>,<sp/>sd.<ref refid="structMR_1_1Directory_1aa0c34b86b17fa7255361f1bb764e006d" kindref="member">ec</ref><sp/>),<sp/>sd.<ref refid="structMR_1_1Directory_1aa0c34b86b17fa7255361f1bb764e006d" kindref="member">ec</ref><sp/>};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="59" refid="namespaceMR_1a4926258bf30d6156c19b0f6e042d77c7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::filesystem::directory_iterator<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Directory" kindref="compound">Directory</ref><sp/>&amp;<sp/>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="namespaceMR_1a5c22b27c2464d046430fef62ea6832e0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a5534d2437ed57cabae82ae75a441b224" kindref="member">operator !=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::directory_iterator<sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!a.<ref refid="structMR_1_1DirectoryIterator_1a4d7767889be907087117c4ee9fd0789d" kindref="member">ec</ref><sp/>&amp;&amp;<sp/>a.<ref refid="structMR_1_1DirectoryIterator_1a43d198bfa65499a30571596ae9d9b943" kindref="member">it</ref><sp/>!=<sp/>b;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="namespaceMR_1acb74ec61600c1cedc296814bdcedd962" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref><sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryRecursive" kindref="compound">DirectoryRecursive</ref><sp/>&amp;<sp/>sd<sp/>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref>{<sp/>std::filesystem::recursive_directory_iterator(<sp/>sd.<ref refid="structMR_1_1DirectoryRecursive_1a0377432c17ff4de701e83f6c0ac198ae" kindref="member">dir</ref>,<sp/>sd.<ref refid="structMR_1_1DirectoryRecursive_1a2e941bde547838e6a74d34b9aed8d49e" kindref="member">ec</ref><sp/>),<sp/>sd.<ref refid="structMR_1_1DirectoryRecursive_1a2e941bde547838e6a74d34b9aed8d49e" kindref="member">ec</ref><sp/>};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="74" refid="namespaceMR_1abae985da68516747ebfd8b040b5cefcb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::filesystem::recursive_directory_iterator<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryRecursive" kindref="compound">DirectoryRecursive</ref><sp/>&amp;<sp/>)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="namespaceMR_1a039594731b2ed053db57ed622292346d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a5534d2437ed57cabae82ae75a441b224" kindref="member">operator !=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::recursive_directory_iterator<sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!a.<ref refid="structMR_1_1DirectoryRecursiveIterator_1a1d7ccfb4cee663b44ee8386962c7898d" kindref="member">ec</ref><sp/>&amp;&amp;<sp/>a.<ref refid="structMR_1_1DirectoryRecursiveIterator_1affefc79c1a274349122ac58b55d2db20" kindref="member">it</ref><sp/>!=<sp/>b;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1029 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_QuadraticForm3f_VertId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3215d0cf16603887fbabfba53d7bfaba" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_QuadraticForm3f_VertId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65767" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab78532426c109e5cb9dc811d7836c6b7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_QuadraticForm3f_VertId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ac9102ff342cb46e902cdca5246f3cf4d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_QuadraticForm3f_VertId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad9edfb3758ab3dfd31b28d69d14c3e17" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_QuadraticForm3f_VertId::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65770" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ae52ee32aafc6ce727d8ad453dabcb432" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65773" bodyend="65774"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+        <definition> Vector_QuadraticForm3f_VertId mrmeshpy.Vector_QuadraticForm3f_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65777" bodyend="65778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+        <definition> Vector_QuadraticForm3f_VertId mrmeshpy.Vector_QuadraticForm3f_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65781" bodyend="65782"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.__getitem__</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65784" bodyend="65785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.__getitem__</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65787" bodyend="65788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a28f13bfc963c6ead49bd7fdcdc2a71f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65790" bodyend="65793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a846560f9db0ae3969b95068be89b8c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65795" bodyend="65798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a83681333e9802fbfa3fc5f8ab4a84532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
+        <argsstring>(self, int size, QuadraticForm3f val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65800" bodyend="65803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3ba5f634b56f32f7bcf554dd97f42a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
+        <argsstring>(self, std_vector_QuadraticForm_Vector3_float vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float" kindref="compound">std_vector_QuadraticForm_Vector3_float</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65805" bodyend="65808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aceac97a6183f8ce2c0e65f2aae1e9ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
+        <argsstring>(self, Vector_QuadraticForm3f_VertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65810" bodyend="65813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad6373381ad0ee8d3fd173e7a90b6c57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref>]</type>
+        <definition> typing.Iterator[QuadraticForm3f] mrmeshpy.Vector_QuadraticForm3f_VertId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65814" bodyend="65815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab9f78e44731f7952981983d03425db9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__setitem__</definition>
+        <argsstring>(self, VertId arg0, QuadraticForm3f arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65816" bodyend="65817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7e0de8386073d1a43828f0103e66a259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.autoResizeAt</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65818" bodyend="65821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a63cfa7296aff774689031fed705ad293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.autoResizeSet</definition>
+        <argsstring>(self, VertId pos, int len, QuadraticForm3f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65823" bodyend="65827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2c9bab578069669cfc0f2b1a4576bda2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.autoResizeSet</definition>
+        <argsstring>(self, VertId i, QuadraticForm3f val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65829" bodyend="65832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa79444a3caa16cf5ae3b1c2bc5560958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65834" bodyend="65835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa79444a3caa16cf5ae3b1c2bc5560958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65837" bodyend="65838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a1195f5680f120337ea9270ae12209c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.Vector_QuadraticForm3f_VertId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65839" bodyend="65842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a05297cb60e0a9165966eb4d71abc174b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.Vector_QuadraticForm3f_VertId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65843" bodyend="65846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a90641c9a18bcd221ccdeae5e9ebe9033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_QuadraticForm3f_VertId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65847" bodyend="65848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7c87e4787aed13e9133883f6690abbda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65849" bodyend="65850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65852" bodyend="65853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65855" bodyend="65856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3780cfd6c580407663cec4bbe66c0d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65857" bodyend="65858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2485ba6e7c887e88f754666ab900d21f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_QuadraticForm3f_VertId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65859" bodyend="65860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1afbe21c0d8be792ad30524ac6f2b9c107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.Vector_QuadraticForm3f_VertId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65861" bodyend="65864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65866" bodyend="65867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+        <definition> QuadraticForm3f mrmeshpy.Vector_QuadraticForm3f_VertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65869" bodyend="65870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7f3eecd9d4097e1c72d5255135518f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_QuadraticForm3f_VertId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65871" bodyend="65874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a45a98b15df66a2b95af5b81292eaa187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65875" bodyend="65876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.push_back</definition>
+        <argsstring>(self, QuadraticForm3f t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65878" bodyend="65879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.push_back</definition>
+        <argsstring>(self, QuadraticForm3f t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65881" bodyend="65882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6aa9176958ac7cc290e7713c11db98b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65883" bodyend="65884"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a8765da75aa308e90eeb12130e962e9ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65886" bodyend="65887"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6dd436ae52923dc428ce3e7e9b2c04eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.resize</definition>
+        <argsstring>(self, int newSize, QuadraticForm3f t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65889" bodyend="65890"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10a94daa0677e63ca09e41725f1746a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65892" bodyend="65895"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1acb2a426344a59e4162b13b8c694bc20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, QuadraticForm3f value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65897" bodyend="65900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5044fdf412d8151a8c547bae47c158df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_QuadraticForm3f_VertId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65901" bodyend="65902"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9c04db2356c4f7f41b603536036ae3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.swap</definition>
+        <argsstring>(self, Vector_QuadraticForm3f_VertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65903" bodyend="65904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10436e531c16a4f4ec85528615993360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float" kindref="compound">std_vector_QuadraticForm_Vector3_float</ref></type>
+        <definition> std_vector_QuadraticForm_Vector3_float mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65906" bodyend="65909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa76fcb60e708371d250ab8d4aa62923f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</definition>
+        <argsstring>(self, std_vector_QuadraticForm_Vector3_float arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float" kindref="compound">std_vector_QuadraticForm_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65911" bodyend="65912"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::QuadraticForm3f, MR::VertId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_QuadraticForm3f_VertId</label>
+        <link refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="65757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="65757" bodyend="65912"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ae52ee32aafc6ce727d8ad453dabcb432" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a28f13bfc963c6ead49bd7fdcdc2a71f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a846560f9db0ae3969b95068be89b8c10" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a83681333e9802fbfa3fc5f8ab4a84532" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3ba5f634b56f32f7bcf554dd97f42a53" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aceac97a6183f8ce2c0e65f2aae1e9ba7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad6373381ad0ee8d3fd173e7a90b6c57a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab9f78e44731f7952981983d03425db9d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3215d0cf16603887fbabfba53d7bfaba" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7e0de8386073d1a43828f0103e66a259" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a63cfa7296aff774689031fed705ad293" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2c9bab578069669cfc0f2b1a4576bda2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa79444a3caa16cf5ae3b1c2bc5560958" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa79444a3caa16cf5ae3b1c2bc5560958" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a1195f5680f120337ea9270ae12209c1d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a05297cb60e0a9165966eb4d71abc174b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a90641c9a18bcd221ccdeae5e9ebe9033" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7c87e4787aed13e9133883f6690abbda" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab78532426c109e5cb9dc811d7836c6b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3780cfd6c580407663cec4bbe66c0d16" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2485ba6e7c887e88f754666ab900d21f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1afbe21c0d8be792ad30524ac6f2b9c107" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7f3eecd9d4097e1c72d5255135518f15" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a45a98b15df66a2b95af5b81292eaa187" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ac9102ff342cb46e902cdca5246f3cf4d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6aa9176958ac7cc290e7713c11db98b2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a8765da75aa308e90eeb12130e962e9ce" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6dd436ae52923dc428ce3e7e9b2c04eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10a94daa0677e63ca09e41725f1746a7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1acb2a426344a59e4162b13b8c694bc20f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5044fdf412d8151a8c547bae47c158df" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9c04db2356c4f7f41b603536036ae3be" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad9edfb3758ab3dfd31b28d69d14c3e17" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10436e531c16a4f4ec85528615993360" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa76fcb60e708371d250ab8d4aa62923f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

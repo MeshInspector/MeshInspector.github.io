@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRConeApproximator_8h" kind="file" language="C++">
+    <compoundname>MRConeApproximator.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRConeApproximator.h</label>
+        <link refid="MRConeApproximator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_ConeFitterType</name>
+        <enumvalue id="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a900d3bd90002320be1881584e751eeb7" prot="public">
+          <name>MR_ConeFitterType_ApproximationPCM</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a927f33d0db325ced85efb14acd20a3f3" prot="public">
+          <name>MR_ConeFitterType_HemisphereSearchFit</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050" prot="public">
+          <name>MR_ConeFitterType_SpecificAxisFit</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" bodystart="13" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRConeApproximator_8h_1a821e66a791ff86124d452054a8b9fd36" prot="public" static="no">
+        <type>enum <ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref></type>
+        <definition>typedef enum MR_ConeFitterType MR_ConeFitterType</definition>
+        <argsstring></argsstring>
+        <name>MR_ConeFitterType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="18" column="19"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" prot="public" static="no">
+        <type>struct <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref></type>
+        <definition>typedef struct MR_Cone3ApproximationParams MR_Cone3ApproximationParams</definition>
+        <argsstring></argsstring>
+        <name>MR_Cone3ApproximationParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::Cone3ApproximationParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="22" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRConeApproximator_8h_1af1df3835daba1df53d51c5d9729d8c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="27" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="27" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a2735d1ceb4db8efe51b1353c8e892fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this, int value)</argsstring>
+        <name>MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="32" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a7d82c86840ff0512cfb3de9def2425ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="37" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="37" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1ae0140c106b96e05cbe40f27eb72baf69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref> *</type>
+        <definition>MRC_API const MR_ConeFitterType * MR_Cone3ApproximationParams_Get_coneFitterType</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_Get_coneFitterType</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>coneFitterType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="42" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="42" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1ad77f5e1021a691896a71dfb605180d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Cone3ApproximationParams_Set_coneFitterType</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this, MR_ConeFitterType value)</argsstring>
+        <name>MR_Cone3ApproximationParams_Set_coneFitterType</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>coneFitterType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coneFitterType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>coneFitterType</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1aaa4be5eb959955ab96cacfe2b28228b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref> *</type>
+        <definition>MRC_API MR_ConeFitterType * MR_Cone3ApproximationParams_GetMutable_coneFitterType</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_GetMutable_coneFitterType</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>coneFitterType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="53" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="53" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a496dfd1ccf9b4e06dd413a0d8576f440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchPhiResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="58" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="58" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1acfc1fc031f4203f12a8c6555b725177b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this, int value)</argsstring>
+        <name>MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchPhiResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hemisphereSearchPhiResolution</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="63" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a6dcb485ec2220dcc73f7f393a8ad4010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchPhiResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="68" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="68" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1afaabe1beff6e502ed77bbc14d9ef8e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchThetaResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="73" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="73" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a559c439f335ec8843dc78bfa2c183811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this, int value)</argsstring>
+        <name>MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchThetaResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hemisphereSearchThetaResolution</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a308f6404f5cc53221f0166f941d570c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchThetaResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="83" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="83" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a0f20e46f3a9b755682137ca67336c6f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cone3ApproximationParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" kindref="member">MR_Cone3ApproximationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="87" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="87" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a9a235d02c155edf8e04f76f799816fba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Cone3ApproximationParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRConeApproximator_8h_1ac9e4997105f041f93ecda3d2a5d55137" kindref="member">MR_Cone3ApproximationParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRConeApproximator_8h_1acf9e7914e6a4fd357837a44b12480278" kindref="member">MR_Cone3ApproximationParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRConeApproximator_8h_1aaeceabd97b77e8b8581ef9895ab46b5d" kindref="member">MR_Cone3ApproximationParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="92" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="92" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1aab29a43f394703b0a1229d0e9dea3d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_ConstructFrom</definition>
+        <argsstring>(int levenbergMarquardtMaxIteration, MR_ConeFitterType coneFitterType, int hemisphereSearchPhiResolution, int hemisphereSearchThetaResolution)</argsstring>
+        <name>MR_Cone3ApproximationParams_ConstructFrom</name>
+        <param>
+          <type>int</type>
+          <declname>levenbergMarquardtMaxIteration</declname>
+        </param>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref></type>
+          <declname>coneFitterType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hemisphereSearchPhiResolution</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hemisphereSearchThetaResolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Cone3ApproximationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>coneFitterType</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" kindref="member">MR_Cone3ApproximationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="98" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="98" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1aaeceabd97b77e8b8581ef9895ab46b5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API const MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_OffsetPtr</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cone3ApproximationParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="102" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="102" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1acf9e7914e6a4fd357837a44b12480278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_Cone3ApproximationParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cone3ApproximationParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="106" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="106" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1a161febfc2031dbaa70d4bfe58bcb3aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_other)</argsstring>
+        <name>MR_Cone3ApproximationParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Cone3ApproximationParams::Cone3ApproximationParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" kindref="member">MR_Cone3ApproximationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="112" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="112" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Cone3ApproximationParams_Destroy</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Cone3ApproximationParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="115" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1ac9e4997105f041f93ecda3d2a5d55137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Cone3ApproximationParams_DestroyArray</definition>
+        <argsstring>(const MR_Cone3ApproximationParams *_this)</argsstring>
+        <name>MR_Cone3ApproximationParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Cone3ApproximationParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConeApproximator_8h_1ade8ead504553505ba136e1259b683a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+        <definition>MRC_API MR_Cone3ApproximationParams * MR_Cone3ApproximationParams_AssignFromAnother</definition>
+        <argsstring>(MR_Cone3ApproximationParams *_this, const MR_Cone3ApproximationParams *_other)</argsstring>
+        <name>MR_Cone3ApproximationParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cone3ApproximationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" line="126" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h" declline="126" declcolumn="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>approximation<sp/>of<sp/>cone<sp/>axis<sp/>by<sp/>principal<sp/>component<sp/>method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a900d3bd90002320be1881584e751eeb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a900d3bd90002320be1881584e751eeb7" kindref="member">MR_ConeFitterType_ApproximationPCM</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="16" refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a927f33d0db325ced85efb14acd20a3f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a927f33d0db325ced85efb14acd20a3f3" kindref="member">MR_ConeFitterType_HemisphereSearchFit</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="17" refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050" kindref="member">MR_ConeFitterType_SpecificAxisFit</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="18" refid="MRConeApproximator_8h_1a821e66a791ff86124d452054a8b9fd36" refkind="member"><highlight class="normal">}<sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRConeApproximator_8h_1af1df3835daba1df53d51c5d9729d8c24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1af1df3835daba1df53d51c5d9729d8c24" kindref="member">MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRConeApproximator_8h_1a2735d1ceb4db8efe51b1353c8e892fab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1a2735d1ceb4db8efe51b1353c8e892fab" kindref="member">MR_Cone3ApproximationParams_Set_levenbergMarquardtMaxIteration</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRConeApproximator_8h_1a7d82c86840ff0512cfb3de9def2425ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1a7d82c86840ff0512cfb3de9def2425ed" kindref="member">MR_Cone3ApproximationParams_GetMutable_levenbergMarquardtMaxIteration</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRConeApproximator_8h_1ae0140c106b96e05cbe40f27eb72baf69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref><sp/>*<ref refid="MRConeApproximator_8h_1ae0140c106b96e05cbe40f27eb72baf69" kindref="member">MR_Cone3ApproximationParams_Get_coneFitterType</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRConeApproximator_8h_1ad77f5e1021a691896a71dfb605180d42" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ad77f5e1021a691896a71dfb605180d42" kindref="member">MR_Cone3ApproximationParams_Set_coneFitterType</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this,<sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref><sp/>value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRConeApproximator_8h_1aaa4be5eb959955ab96cacfe2b28228b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref><sp/>*<ref refid="MRConeApproximator_8h_1aaa4be5eb959955ab96cacfe2b28228b2" kindref="member">MR_Cone3ApproximationParams_GetMutable_coneFitterType</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRConeApproximator_8h_1a496dfd1ccf9b4e06dd413a0d8576f440" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1a496dfd1ccf9b4e06dd413a0d8576f440" kindref="member">MR_Cone3ApproximationParams_Get_hemisphereSearchPhiResolution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRConeApproximator_8h_1acfc1fc031f4203f12a8c6555b725177b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1acfc1fc031f4203f12a8c6555b725177b" kindref="member">MR_Cone3ApproximationParams_Set_hemisphereSearchPhiResolution</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRConeApproximator_8h_1a6dcb485ec2220dcc73f7f393a8ad4010" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1a6dcb485ec2220dcc73f7f393a8ad4010" kindref="member">MR_Cone3ApproximationParams_GetMutable_hemisphereSearchPhiResolution</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRConeApproximator_8h_1afaabe1beff6e502ed77bbc14d9ef8e17" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1afaabe1beff6e502ed77bbc14d9ef8e17" kindref="member">MR_Cone3ApproximationParams_Get_hemisphereSearchThetaResolution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRConeApproximator_8h_1a559c439f335ec8843dc78bfa2c183811" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1a559c439f335ec8843dc78bfa2c183811" kindref="member">MR_Cone3ApproximationParams_Set_hemisphereSearchThetaResolution</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRConeApproximator_8h_1a308f6404f5cc53221f0166f941d570c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1a308f6404f5cc53221f0166f941d570c7" kindref="member">MR_Cone3ApproximationParams_GetMutable_hemisphereSearchThetaResolution</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRConeApproximator_8h_1a0f20e46f3a9b755682137ca67336c6f8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1a0f20e46f3a9b755682137ca67336c6f8" kindref="member">MR_Cone3ApproximationParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRConeApproximator_8h_1a9a235d02c155edf8e04f76f799816fba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1a9a235d02c155edf8e04f76f799816fba" kindref="member">MR_Cone3ApproximationParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRConeApproximator_8h_1aab29a43f394703b0a1229d0e9dea3d1b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1aab29a43f394703b0a1229d0e9dea3d1b" kindref="member">MR_Cone3ApproximationParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>levenbergMarquardtMaxIteration,<sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref><sp/>coneFitterType,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hemisphereSearchPhiResolution,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hemisphereSearchThetaResolution);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRConeApproximator_8h_1aaeceabd97b77e8b8581ef9895ab46b5d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1aaeceabd97b77e8b8581ef9895ab46b5d" kindref="member">MR_Cone3ApproximationParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRConeApproximator_8h_1acf9e7914e6a4fd357837a44b12480278" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1acf9e7914e6a4fd357837a44b12480278" kindref="member">MR_Cone3ApproximationParams_OffsetMutablePtr</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRConeApproximator_8h_1a161febfc2031dbaa70d4bfe58bcb3aab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1a161febfc2031dbaa70d4bfe58bcb3aab" kindref="member">MR_Cone3ApproximationParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" kindref="member">MR_Cone3ApproximationParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRConeApproximator_8h_1ac9e4997105f041f93ecda3d2a5d55137" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ac9e4997105f041f93ecda3d2a5d55137" kindref="member">MR_Cone3ApproximationParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRConeApproximator_8h_1ade8ead504553505ba136e1259b683a85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*<ref refid="MRConeApproximator_8h_1ade8ead504553505ba136e1259b683a85" kindref="member">MR_Cone3ApproximationParams_AssignFromAnother</ref>(<ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRConeApproximator.h"/>
+  </compounddef>
+</doxygen>

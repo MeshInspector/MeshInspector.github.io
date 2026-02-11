@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SurfaceDistanceBuilder" kind="class" language="C#" prot="public">
+    <compoundname>MR::SurfaceDistanceBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SurfaceDistanceBuilder</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ab697c3f512fe93be9605dd4ae237f378" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SurfaceDistanceBuilder</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="337" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="337" bodyend="337"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a0ef5acb22e3b599c8c37f78a8fbb4d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</definition>
+        <argsstring>(MR._ByValue_SurfaceDistanceBuilder _other)</argsstring>
+        <name>SurfaceDistanceBuilder</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
+        <param>
+          <type>MR._ByValue_SurfaceDistanceBuilder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="342" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="342" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a095d7fe21a5b1e30ce741e8952c88bd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</definition>
+        <argsstring>(Const_SurfaceDistanceBuilder _other)</argsstring>
+        <name>SurfaceDistanceBuilder</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
+        <param>
+          <type>Const_SurfaceDistanceBuilder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="353" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="353" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a6f42ceebb34c05980f09e582c944955f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</definition>
+        <argsstring>(SurfaceDistanceBuilder _other)</argsstring>
+        <name>SurfaceDistanceBuilder</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SurfaceDistanceBuilder" kindref="compound">SurfaceDistanceBuilder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="358" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="358" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a93b00eac0ec2f1998771af9fe8e56ba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertBitSet? region)</argsstring>
+        <name>SurfaceDistanceBuilder</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="363" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="363" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a39a246ce6017171a27b69a9766a6968b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</definition>
+        <argsstring>(MR.Const_Mesh mesh, in MR.Vector3f target, MR.Const_VertBitSet? region)</argsstring>
+        <name>SurfaceDistanceBuilder</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="375" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ac7b35a0449debbc29aacef0410c9edc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SurfaceDistanceBuilder.addStartRegion</definition>
+        <argsstring>(MR.Const_VertBitSet region, float startDistance)</argsstring>
+        <name>addStartRegion</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.addStartRegion</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>startDistance</declname>
+        </param>
+        <briefdescription>
+<para>initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne) Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1ac7b35a0449debbc29aacef0410c9edc7" kindref="member">MR.SurfaceDistanceBuilder.addStartRegion</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="391" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SurfaceDistanceBuilder.addStartVertices</definition>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_Float startVertices)</argsstring>
+        <name>addStartVertices</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.addStartVertices</qualifiedname>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_Float</type>
+          <declname>startVertices</declname>
+        </param>
+        <briefdescription>
+<para>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased) Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" kindref="member">MR.SurfaceDistanceBuilder.addStartVertices</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="402" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="402" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ac143451e18c893f7e2fe051a14bcdd10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SurfaceDistanceBuilder.addStart</definition>
+        <argsstring>(MR.Const_MeshTriPoint start)</argsstring>
+        <name>addStart</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.addStart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTriPoint</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne) Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1ac143451e18c893f7e2fe051a14bcdd10" kindref="member">MR.SurfaceDistanceBuilder.addStart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="413" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="413" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ae7c224f695e6ef1421a4fabaef34be54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SurfaceDistanceBuilder.setMaxVertUpdates</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setMaxVertUpdates</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.setMaxVertUpdates</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1ae7c224f695e6ef1421a4fabaef34be54" kindref="member">MR.SurfaceDistanceBuilder.setMaxVertUpdates</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="425" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="425" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1af7464bf0dd439f0b95d8cb0b82e711bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.SurfaceDistanceBuilder.growOne</definition>
+        <argsstring>()</argsstring>
+        <name>growOne</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.growOne</qualifiedname>
+        <briefdescription>
+<para>processes one more candidate vertex, which is returned Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1af7464bf0dd439f0b95d8cb0b82e711bd" kindref="member">MR.SurfaceDistanceBuilder.growOne</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="436" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="436" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a6336b38bddbb9c98ed1c33e416a2933d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
+        <definition>unsafe MR.VertScalars MR.SurfaceDistanceBuilder.takeDistanceMap</definition>
+        <argsstring>()</argsstring>
+        <name>takeDistanceMap</name>
+        <qualifiedname>MR.SurfaceDistanceBuilder.takeDistanceMap</qualifiedname>
+        <briefdescription>
+<para>takes ownership over constructed distance map Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1a6336b38bddbb9c98ed1c33e416a2933d" kindref="member">MR.SurfaceDistanceBuilder.takeDistanceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="447" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="447" bodyend="452"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this class is responsible for iterative construction of distance map along the surface Generated from class <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder" kindref="compound">MR.SurfaceDistanceBuilder</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SurfaceDistanceBuilder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SurfaceDistanceBuilder</label>
+        <link refid="classMR_1_1SurfaceDistanceBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SurfaceDistanceBuilder &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SurfaceDistanceBuilder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SurfaceDistanceBuilder</label>
+        <link refid="classMR_1_1SurfaceDistanceBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SurfaceDistanceBuilder &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="335" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="336" bodyend="453"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ac143451e18c893f7e2fe051a14bcdd10" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStart</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ac7b35a0449debbc29aacef0410c9edc7" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1af7464bf0dd439f0b95d8cb0b82e711bd" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>growOne</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ae7c224f695e6ef1421a4fabaef34be54" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>setMaxVertUpdates</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ab697c3f512fe93be9605dd4ae237f378" prot="package" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a0ef5acb22e3b599c8c37f78a8fbb4d47" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a095d7fe21a5b1e30ce741e8952c88bd1" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a6f42ceebb34c05980f09e582c944955f" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a93b00eac0ec2f1998771af9fe8e56ba2" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a39a246ce6017171a27b69a9766a6968b" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a6336b38bddbb9c98ed1c33e416a2933d" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>takeDistanceMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

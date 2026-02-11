@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SlicePlane" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SlicePlane</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SlicePlane_1ad7c3e9629324f7712a4ccb2efdd3e92d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SlicePlane::None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <qualifiedname>mrmeshpy.SlicePlane.None</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SlicePlane_1a9668ef887f88e93295a228ee1e7624f7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SlicePlane::XY</definition>
+        <argsstring></argsstring>
+        <name>XY</name>
+        <qualifiedname>mrmeshpy.SlicePlane.XY</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SlicePlane_1a0291ea9791b9f3acc8b450158b693bad" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SlicePlane::YZ</definition>
+        <argsstring></argsstring>
+        <name>YZ</name>
+        <qualifiedname>mrmeshpy.SlicePlane.YZ</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SlicePlane_1a3740b9d59234ac78cee99a1179c928bd" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SlicePlane::ZX</definition>
+        <argsstring></argsstring>
+        <name>ZX</name>
+        <qualifiedname>mrmeshpy.SlicePlane.ZX</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52634" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SlicePlane_1af80db8d9a4128b9121b0b051379cf996" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SlicePlane::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52635" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1a5ad2d55919b48d14b157587a997749da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SlicePlane.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52636" bodyend="52637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1aaa5562578e114843c31b2df9cfafc2b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SlicePlane.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52638" bodyend="52639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1af644a088afa006cadc5fa2d0ba417bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SlicePlane.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52640" bodyend="52641"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1a8fde60f5b31092adcd749e7b2c63f643" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SlicePlane.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52642" bodyend="52643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1ad174ef7351926908bef11587210b551b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SlicePlane_1ad7c3e9629324f7712a4ccb2efdd3e92d" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.SlicePlane.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52644" bodyend="52645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1af51d3b79ac2be18200266ebcb8a0c7b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SlicePlane.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52646" bodyend="52647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1a613e36cd5503916af1fcc3c3a1793191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SlicePlane.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52648" bodyend="52649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1a487b239f95a1d541711dca1cf7a1e05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SlicePlane.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52650" bodyend="52651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1af80cb8de11dd2a37fafdb1f64d8e8391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SlicePlane_1ad7c3e9629324f7712a4ccb2efdd3e92d" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.SlicePlane.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52652" bodyend="52653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1a3879c07c61602a333fc42fa41023a021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SlicePlane.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SlicePlane.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52654" bodyend="52655"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1a6aa7e9bad8add1ab92ea57227756e10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SlicePlane.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SlicePlane.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52657" bodyend="52658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SlicePlane_1aa6b5cca49245dcb9bf68e55e3fa2d777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SlicePlane.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SlicePlane.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52660" bodyend="52661"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  YZ : = 0 cause main axis is x - [0]
+
+  ZX : = 1 cause main axis is y - [1]
+
+  XY : = 2 cause main axis is z - [2]
+
+  None : special value not to limit path in one slice
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SlicePlane</label>
+        <link refid="classmrmeshpy_1_1SlicePlane"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>None</edgelabel>
+          <edgelabel>XY</edgelabel>
+          <edgelabel>YZ</edgelabel>
+          <edgelabel>ZX</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52619" bodyend="52661"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a5ad2d55919b48d14b157587a997749da" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1aaa5562578e114843c31b2df9cfafc2b8" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1af644a088afa006cadc5fa2d0ba417bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a8fde60f5b31092adcd749e7b2c63f643" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1ad174ef7351926908bef11587210b551b" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1af51d3b79ac2be18200266ebcb8a0c7b2" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1af80db8d9a4128b9121b0b051379cf996" prot="private" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a613e36cd5503916af1fcc3c3a1793191" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a487b239f95a1d541711dca1cf7a1e05e" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1af80cb8de11dd2a37fafdb1f64d8e8391" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a3879c07c61602a333fc42fa41023a021" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a6aa7e9bad8add1ab92ea57227756e10e" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1ad7c3e9629324f7712a4ccb2efdd3e92d" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>None</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1aa6b5cca49245dcb9bf68e55e3fa2d777" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a9668ef887f88e93295a228ee1e7624f7" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>XY</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a0291ea9791b9f3acc8b450158b693bad" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>YZ</name></member>
+      <member refid="classmrmeshpy_1_1SlicePlane_1a3740b9d59234ac78cee99a1179c928bd" prot="public" virt="non-virtual"><scope>mrmeshpy::SlicePlane</scope><name>ZX</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

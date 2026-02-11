@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SymMatrix3__unsigned__char" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SymMatrix3_unsigned_char</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1aee4f2289800da9b5bd8e05a28b7255c4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix3_unsigned_char::_offsetof_xx</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xx</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char._offsetof_xx</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54029" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ace73561e43a62ff105461a0c0c999f67" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix3_unsigned_char::_offsetof_xy</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xy</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char._offsetof_xy</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a4b5b752d84b8f0244dce8624bd7712cc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix3_unsigned_char::_offsetof_xz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char._offsetof_xz</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a5ca78507d9ef36a9110854685b1784a0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix3_unsigned_char::_offsetof_yy</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_yy</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char._offsetof_yy</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54032" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a4276424da143f02d2dae3b149d94b28e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix3_unsigned_char::_offsetof_yz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_yz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char._offsetof_yz</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54033" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ae5df36782297ce0074ce0203e8bd3bca" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymMatrix3_unsigned_char::_offsetof_zz</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_zz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char._offsetof_zz</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54034" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a43bc75ff70b6bb13635554f5b54dd4b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54037" bodyend="54038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ab6d83be87e345e79734da34d26d8be4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.diagonal</definition>
+        <argsstring>(int diagVal)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.diagonal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>diagVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54040" bodyend="54041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a0edbc5f1caae4124b92b093ad8ecca6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.identity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54043" bodyend="54044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a246c18d81bd9c9bea05b280296a391da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54047" bodyend="54048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a246c18d81bd9c9bea05b280296a391da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54051" bodyend="54052"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a1be62085ded9a226f33f352ccc3a9ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.__iadd__</definition>
+        <argsstring>(self, SymMatrix3_unsigned_char b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54053" bodyend="54054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ace9748956dcc5a511493d1cf361a64d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.__imatmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54055" bodyend="54056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a5e16b8aaae72bd6b740da56f02330d5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54058" bodyend="54059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a71406ff60478f09c733ee70cf5245746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.__init__</definition>
+        <argsstring>(self, SymMatrix3_unsigned_char arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54061" bodyend="54064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a69c6c75ca75b93eb352705bbe2df317c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.__isub__</definition>
+        <argsstring>(self, SymMatrix3_unsigned_char b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54065" bodyend="54066"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a7986227952d1a96080515fbf5fae62cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.__itruediv__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54067" bodyend="54068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a1a06d67fffaf4b64e2f0581bca4dfe3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.det</definition>
+        <argsstring>(self)</argsstring>
+        <name>det</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.det</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes determinant of the matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54069" bodyend="54072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a77b4ab4496d39854268978c07e5e25f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.inverse</definition>
+        <argsstring>(self)</argsstring>
+        <name>inverse</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.inverse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes inverse matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54074" bodyend="54077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ab7a029f5062099d9d02d2875b03e2fc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymMatrix3__unsigned__char" kindref="compound">SymMatrix3_unsigned_char</ref></type>
+        <definition> SymMatrix3_unsigned_char mrmeshpy.SymMatrix3_unsigned_char.inverse</definition>
+        <argsstring>(self, int det)</argsstring>
+        <name>inverse</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.inverse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>det</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes inverse matrix given determinant of this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54079" bodyend="54082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ab7e5d139829d07e39ba7f67b7e80cc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.normSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>normSq</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.normSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the squared norm of the matrix, which is equal to the sum of 9 squared elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54083" bodyend="54086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a366ff3b4a7f7b4c092b7259b5bcd1c09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.trace</definition>
+        <argsstring>(self)</argsstring>
+        <name>trace</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.trace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes trace of the matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54087" bodyend="54090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a28dfddba8f0a91709903ecaaef013271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.xx</definition>
+        <argsstring>(self)</argsstring>
+        <name>xx</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.xx</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54092" bodyend="54095"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a77dfa2a934f1980eb7ce3c24c989f2ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.xx</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xx</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.xx</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54097" bodyend="54098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a5e8eb490074900b3376842e4a87b5695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.xy</definition>
+        <argsstring>(self)</argsstring>
+        <name>xy</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.xy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54100" bodyend="54103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a69861aa3f9cd594fb626499b3c0b74ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.xy</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xy</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.xy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54105" bodyend="54106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a9451ceaa32ad41854108f781de81e047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.xz</definition>
+        <argsstring>(self)</argsstring>
+        <name>xz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.xz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54108" bodyend="54111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a088c46e3b51ef5e7c6c97e2d03bb7910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.xz</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>xz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.xz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54113" bodyend="54114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a3777664243f0fdc4add17ee46b625296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.yy</definition>
+        <argsstring>(self)</argsstring>
+        <name>yy</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.yy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54116" bodyend="54119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a47ea5c10448ae38f22a092348c741082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.yy</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>yy</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.yy</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54121" bodyend="54122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a4b495bf3d305f99570d5ccae76c345b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.yz</definition>
+        <argsstring>(self)</argsstring>
+        <name>yz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.yz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54124" bodyend="54127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1afe7b49ba741e98b656bad32af10a3e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.yz</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>yz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.yz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54129" bodyend="54130"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a8d15af1b31691c3de9a439696062fbab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymMatrix3_unsigned_char.zz</definition>
+        <argsstring>(self)</argsstring>
+        <name>zz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.zz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>zero matrix by default
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54132" bodyend="54135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a6e55d91d92f89967561fa387df455be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymMatrix3_unsigned_char.zz</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>zz</name>
+        <qualifiedname>mrmeshpy.SymMatrix3_unsigned_char.zz</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54137" bodyend="54138"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SymMatrix3&lt;unsigned char&gt;
+Aliases:  Vector3_unsigned_char.SymMatrixType
+
+symmetric 3x3 matrix
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SymMatrix3_unsigned_char</label>
+        <link refid="classmrmeshpy_1_1SymMatrix3__unsigned__char"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_xx</edgelabel>
+          <edgelabel>_offsetof_xy</edgelabel>
+          <edgelabel>_offsetof_xz</edgelabel>
+          <edgelabel>_offsetof_yy</edgelabel>
+          <edgelabel>_offsetof_yz</edgelabel>
+          <edgelabel>_offsetof_zz</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54022" bodyend="54138"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a1be62085ded9a226f33f352ccc3a9ff3" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ace9748956dcc5a511493d1cf361a64d8" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a43bc75ff70b6bb13635554f5b54dd4b1" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a5e16b8aaae72bd6b740da56f02330d5d" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a71406ff60478f09c733ee70cf5245746" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a69c6c75ca75b93eb352705bbe2df317c" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a7986227952d1a96080515fbf5fae62cc" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1aee4f2289800da9b5bd8e05a28b7255c4" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>_offsetof_xx</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ace73561e43a62ff105461a0c0c999f67" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>_offsetof_xy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a4b5b752d84b8f0244dce8624bd7712cc" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>_offsetof_xz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a5ca78507d9ef36a9110854685b1784a0" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>_offsetof_yy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a4276424da143f02d2dae3b149d94b28e" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>_offsetof_yz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ae5df36782297ce0074ce0203e8bd3bca" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>_offsetof_zz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a1a06d67fffaf4b64e2f0581bca4dfe3c" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>det</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ab6d83be87e345e79734da34d26d8be4e" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>diagonal</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a0edbc5f1caae4124b92b093ad8ecca6a" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>identity</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a77b4ab4496d39854268978c07e5e25f6" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>inverse</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ab7a029f5062099d9d02d2875b03e2fc4" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>inverse</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1ab7e5d139829d07e39ba7f67b7e80cc20" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>normSq</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a246c18d81bd9c9bea05b280296a391da" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a246c18d81bd9c9bea05b280296a391da" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a366ff3b4a7f7b4c092b7259b5bcd1c09" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>trace</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a28dfddba8f0a91709903ecaaef013271" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>xx</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a77dfa2a934f1980eb7ce3c24c989f2ed" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>xx</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a5e8eb490074900b3376842e4a87b5695" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>xy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a69861aa3f9cd594fb626499b3c0b74ad" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>xy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a9451ceaa32ad41854108f781de81e047" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>xz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a088c46e3b51ef5e7c6c97e2d03bb7910" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>xz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a3777664243f0fdc4add17ee46b625296" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>yy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a47ea5c10448ae38f22a092348c741082" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>yy</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a4b495bf3d305f99570d5ccae76c345b3" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>yz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1afe7b49ba741e98b656bad32af10a3e04" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>yz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a8d15af1b31691c3de9a439696062fbab" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>zz</name></member>
+      <member refid="classmrmeshpy_1_1SymMatrix3__unsigned__char_1a6e55d91d92f89967561fa387df455be3" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3_unsigned_char</scope><name>zz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__optional__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_optional_double</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__double_1ac7c9fd2f34e7f39ad694bf89b7db501d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_optional_double.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_optional_double.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78647" bodyend="78648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__double_1ac1e5c5e4869233c06d0ab3c865dadb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78650" bodyend="78651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__double_1a22c9ead6ab6978293aa3f8bddc985e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_double.__init__</definition>
+        <argsstring>(self, std_optional_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__double" kindref="compound">std_optional_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78653" bodyend="78654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__double_1a7c822ca2195366424a60ccd9090d45ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_double.__init__</definition>
+        <argsstring>(self, float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78656" bodyend="78657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__double_1ac3d03ecbf64e6c8d3a069da7dbef5754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_optional_double.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_optional_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78659" bodyend="78660"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__optional__double_1ac16c77886d3c7754aa9d13843e723965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.std_optional_double.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.std_optional_double.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78661" bodyend="78662"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78646" bodyend="78662"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__optional__double_1ac7c9fd2f34e7f39ad694bf89b7db501d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_double</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__double_1ac1e5c5e4869233c06d0ab3c865dadb9d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__double_1a22c9ead6ab6978293aa3f8bddc985e41" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__double_1a7c822ca2195366424a60ccd9090d45ec" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__double_1ac3d03ecbf64e6c8d3a069da7dbef5754" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__optional__double_1ac16c77886d3c7754aa9d13843e723965" prot="public" virt="non-virtual"><scope>mrmeshpy::std_optional_double</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

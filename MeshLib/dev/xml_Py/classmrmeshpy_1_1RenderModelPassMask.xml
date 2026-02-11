@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RenderModelPassMask" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RenderModelPassMask</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RenderModelPassMask_1a73d63ade64b368965e4b17461aa9eb0e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RenderModelPassMask::All</definition>
+        <argsstring></argsstring>
+        <name>All</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.All</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RenderModelPassMask_1a638282176c5333596451b0be50a6a540" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RenderModelPassMask::NoDepthTest</definition>
+        <argsstring></argsstring>
+        <name>NoDepthTest</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.NoDepthTest</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RenderModelPassMask_1a90672cf10a8de02117e853e9accccdf1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RenderModelPassMask::Opaque</definition>
+        <argsstring></argsstring>
+        <name>Opaque</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.Opaque</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RenderModelPassMask_1a875b68ccb6cf4a035889e37b57557028" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RenderModelPassMask::Transparent</definition>
+        <argsstring></argsstring>
+        <name>Transparent</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.Transparent</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RenderModelPassMask_1af0139f80597fa0b0496aa6f9a9d856f9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RenderModelPassMask::VolumeRendering</definition>
+        <argsstring></argsstring>
+        <name>VolumeRendering</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.VolumeRendering</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RenderModelPassMask_1a4c988d390be9d264e7f596f7e387d843" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RenderModelPassMask::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50109" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a98893ada6704edcd145aec12c2fd10b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__and__</definition>
+        <argsstring>(self, RenderModelPassMask b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__and__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50110" bodyend="50111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1acd5595e54da3b5e6fde3513dc86a10fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RenderModelPassMask.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50112" bodyend="50113"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a9becb2ffeeb21f6cedfca4471e85c6f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RenderModelPassMask.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50114" bodyend="50115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a8c761defc678256a903dd611532d3dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RenderModelPassMask.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50116" bodyend="50117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1ae7a7d4677c46a0f6e8451e15f64f5044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__iand__</definition>
+        <argsstring>(self, RenderModelPassMask b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__iand__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50118" bodyend="50119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1ae7720a940f602c7fbd852ef354d6cf9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__imatmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50120" bodyend="50121"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a43ce6f4506ce4ca444d2ad7ce6c3323a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RenderModelPassMask.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50122" bodyend="50123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1aaabb8cc73465ccf59ae6bd327c3fdced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RenderModelPassMask.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50124" bodyend="50125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a6774a763afbed45245a67771ef7e6e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RenderModelPassMask.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50126" bodyend="50127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a1a63aafc9db85237ae6dba8b90ed0667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__invert__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__invert__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__invert__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50128" bodyend="50129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a648e562700a6088dbe18c7724997a367" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__ior__</definition>
+        <argsstring>(self, RenderModelPassMask b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__ior__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50130" bodyend="50131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a8c2db09cadffa13d563506555ab68c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__mul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50132" bodyend="50133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a34a5b280bb397aa01f9de62864d76970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RenderModelPassMask.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50134" bodyend="50135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a54f3ff9db8b1fc8d297cffdc7a9df32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__or__</definition>
+        <argsstring>(self, RenderModelPassMask b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__or__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50136" bodyend="50137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a138699e6e1624d87db2bc8588d9abc3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RenderModelPassMask.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50138" bodyend="50139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a75ca7efe576b3f97a9e850dd9e811d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RenderModelPassMask" kindref="compound">RenderModelPassMask</ref></type>
+        <definition> RenderModelPassMask mrmeshpy.RenderModelPassMask.__rmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50140" bodyend="50141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a83f079e91411c8ec1195a9d34316695f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RenderModelPassMask.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50142" bodyend="50143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a9edff95055b0c261311efac6e215c633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RenderModelPassMask.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50144" bodyend="50145"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1a26ee61f934856e0f6031de1808fdfa03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RenderModelPassMask.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50147" bodyend="50148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RenderModelPassMask_1ad80752455edc558bff49a834355e643a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RenderModelPassMask.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.RenderModelPassMask.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50150" bodyend="50151"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Opaque
+
+  Transparent
+
+  VolumeRendering
+
+  NoDepthTest
+
+  All
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RenderModelPassMask</label>
+        <link refid="classmrmeshpy_1_1RenderModelPassMask"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>All</edgelabel>
+          <edgelabel>NoDepthTest</edgelabel>
+          <edgelabel>Opaque</edgelabel>
+          <edgelabel>Transparent</edgelabel>
+          <edgelabel>VolumeRendering</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50090" bodyend="50151"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a98893ada6704edcd145aec12c2fd10b4" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1acd5595e54da3b5e6fde3513dc86a10fb" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a9becb2ffeeb21f6cedfca4471e85c6f2" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a8c761defc678256a903dd611532d3dce" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1ae7a7d4677c46a0f6e8451e15f64f5044" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1ae7720a940f602c7fbd852ef354d6cf9e" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a43ce6f4506ce4ca444d2ad7ce6c3323a" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1aaabb8cc73465ccf59ae6bd327c3fdced" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a6774a763afbed45245a67771ef7e6e76" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a1a63aafc9db85237ae6dba8b90ed0667" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__invert__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a648e562700a6088dbe18c7724997a367" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a4c988d390be9d264e7f596f7e387d843" prot="private" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a8c2db09cadffa13d563506555ab68c16" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a34a5b280bb397aa01f9de62864d76970" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a54f3ff9db8b1fc8d297cffdc7a9df32a" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a138699e6e1624d87db2bc8588d9abc3e" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a75ca7efe576b3f97a9e850dd9e811d95" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a83f079e91411c8ec1195a9d34316695f" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a9edff95055b0c261311efac6e215c633" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a73d63ade64b368965e4b17461aa9eb0e" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>All</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a26ee61f934856e0f6031de1808fdfa03" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a638282176c5333596451b0be50a6a540" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>NoDepthTest</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a90672cf10a8de02117e853e9accccdf1" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>Opaque</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1a875b68ccb6cf4a035889e37b57557028" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>Transparent</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1ad80752455edc558bff49a834355e643a" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1RenderModelPassMask_1af0139f80597fa0b0496aa6f9a9d856f9" prot="public" virt="non-virtual"><scope>mrmeshpy::RenderModelPassMask</scope><name>VolumeRendering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

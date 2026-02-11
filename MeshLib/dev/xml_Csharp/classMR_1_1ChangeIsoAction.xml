@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeIsoAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeIsoAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeIsoAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a961d9f487d617c3189526c53e55f917e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeIsoAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeIsoAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeIsoAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeIsoAction" kindref="compound">ChangeIsoAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="194" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="194" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1af84e7308ae186c45662971bfa4bac273" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeIsoAction.operator ChangeIsoAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeIsoAction?</name>
+        <qualifiedname>MR.ChangeIsoAction.operator ChangeIsoAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="202" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="202" bodyend="209"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a39c7f3314d6f2648d1d7f2540762ed18" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeIsoAction.ChangeIsoAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeIsoAction</name>
+        <qualifiedname>MR.ChangeIsoAction.ChangeIsoAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="211" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a0e2a8b87c7737360a02ddf773110699e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeIsoAction.ChangeIsoAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeIsoAction</name>
+        <qualifiedname>MR.ChangeIsoAction.ChangeIsoAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="213" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="213" bodyend="213"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a0a8d020b6c8c67de77b8ae5b40a95902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeIsoAction.ChangeIsoAction</definition>
+        <argsstring>(MR._ByValue_ChangeIsoAction _other)</argsstring>
+        <name>ChangeIsoAction</name>
+        <qualifiedname>MR.ChangeIsoAction.ChangeIsoAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeIsoAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeIsoAction.ChangeIsoAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="218" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="218" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1ab1ee054a94f29caa63ad34e349cafe20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeIsoAction.ChangeIsoAction</definition>
+        <argsstring>(Const_ChangeIsoAction _other)</argsstring>
+        <name>ChangeIsoAction</name>
+        <qualifiedname>MR.ChangeIsoAction.ChangeIsoAction</qualifiedname>
+        <param>
+          <type>Const_ChangeIsoAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeIsoAction.ChangeIsoAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="229" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1aa631dd4f79511831a7e9189d9c5a2544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeIsoAction.ChangeIsoAction</definition>
+        <argsstring>(ChangeIsoAction _other)</argsstring>
+        <name>ChangeIsoAction</name>
+        <qualifiedname>MR.ChangeIsoAction.ChangeIsoAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeIsoAction" kindref="compound">ChangeIsoAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeIsoAction.ChangeIsoAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="234" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="234" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1ac3a9b65274e4da8253ace748a75e970d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeIsoAction.ChangeIsoAction</definition>
+        <argsstring>(string name, MR.Const_ObjectVoxels obj)</argsstring>
+        <name>ChangeIsoAction</name>
+        <qualifiedname>MR.ChangeIsoAction.ChangeIsoAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectVoxels</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s iso before making any changes in it Generated from constructor <computeroutput>MR.ChangeIsoAction.ChangeIsoAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="240" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="240" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a0156ca16e9dbe05a2bbcb02db951205e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeIsoAction" kindref="compound">MR.ChangeIsoAction</ref></type>
+        <definition>unsafe MR.ChangeIsoAction MR.ChangeIsoAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeIsoAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeIsoAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeIsoAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeIsoAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="255" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="255" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a96c5e06b6962b3b23cce2734cec81a14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeIsoAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeIsoAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeIsoAction_1a96c5e06b6962b3b23cce2734cec81a14" kindref="member">MR.ChangeIsoAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="267" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="267" bodyend="272"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> iso-value change Generated from class <computeroutput><ref refid="classMR_1_1ChangeIsoAction" kindref="compound">MR.ChangeIsoAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeIsoAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeIsoAction</label>
+        <link refid="classMR_1_1ChangeIsoAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeIsoAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeIsoAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeIsoAction</label>
+        <link refid="classMR_1_1ChangeIsoAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeIsoAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="191" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="192" bodyend="273"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeIsoAction_1a96c5e06b6962b3b23cce2734cec81a14" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1a0156ca16e9dbe05a2bbcb02db951205e" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1a39c7f3314d6f2648d1d7f2540762ed18" prot="package" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1a0e2a8b87c7737360a02ddf773110699e" prot="package" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1a0a8d020b6c8c67de77b8ae5b40a95902" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1ab1ee054a94f29caa63ad34e349cafe20" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1aa631dd4f79511831a7e9189d9c5a2544" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1ac3a9b65274e4da8253ace748a75e970d" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1af84e7308ae186c45662971bfa4bac273" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>operator ChangeIsoAction?</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1a961d9f487d617c3189526c53e55f917e" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

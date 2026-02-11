@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NoDefInit__MRRegionId" kind="class" language="C#" prot="public">
+    <compoundname>MR::NoDefInit_MRRegionId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRRegionId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NoDefInit__MRRegionId_1a627e883e1aa1f8e7e764444c633d5e0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NoDefInit_MRRegionId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2910" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2910" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1a0d5c3997a6f013385417195cb6d18c3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoDefInit_MRRegionId.operator MR.Box_RegionId</definition>
+        <argsstring>(NoDefInit_MRRegionId self)</argsstring>
+        <name>operator MR.Box_RegionId</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.operator MR.Box_RegionId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRRegionId" kindref="compound">NoDefInit_MRRegionId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2901" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2901" bodyend="2908"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1ac53ffe133969e29cadb2c390f249be82" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NoDefInit_MRRegionId</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2914" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2914" bodyend="2918"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1a2f403b7c62c7298107ef16e72860d717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</definition>
+        <argsstring>()</argsstring>
+        <name>NoDefInit_MRRegionId</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2924" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2924" bodyend="2930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1ace72b746ff1dfe669614b9ac52736149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</definition>
+        <argsstring>(MR.Const_NoDefInit_MRRegionId _other)</argsstring>
+        <name>NoDefInit_MRRegionId</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRRegionId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2935" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2935" bodyend="2942"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1af7db29d7a01af4a184505ef07f5d2292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</definition>
+        <argsstring>(NoDefInit_MRRegionId _other)</argsstring>
+        <name>NoDefInit_MRRegionId</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.NoDefInit_MRRegionId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRRegionId" kindref="compound">NoDefInit_MRRegionId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2947" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2947" bodyend="2947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1a0b38cec3b4933968a9ab42b13e7203ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NoDefInit__MRRegionId" kindref="compound">MR.NoDefInit_MRRegionId</ref></type>
+        <definition>unsafe MR.NoDefInit_MRRegionId MR.NoDefInit_MRRegionId.assign</definition>
+        <argsstring>(MR.Const_NoDefInit_MRRegionId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRRegionId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2952" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2952" bodyend="2959"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1ac8b0db799d389dd6f0baa735bf61a7c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.NoDefInit_MRRegionId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2964" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2964" bodyend="2969"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1addd77ec28cbe1fe043b7c70e4db4063a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref MR.RegionId MR.NoDefInit_MRRegionId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2974" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2974" bodyend="2979"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRRegionId_1a71e35d778d47510c570e10c98ac4f5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref MR.RegionId MR.NoDefInit_MRRegionId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.NoDefInit_MRRegionId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2984" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2984" bodyend="2989"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRRegionId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRRegionId</label>
+        <link refid="classMR_1_1NoDefInit__MRRegionId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRRegionId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.RegionId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRRegionId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRRegionId</label>
+        <link refid="classMR_1_1NoDefInit__MRRegionId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRRegionId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.RegionId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2898" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2899" bodyend="2990"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1a71e35d778d47510c570e10c98ac4f5d4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1a0b38cec3b4933968a9ab42b13e7203ee" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>assign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1ac8b0db799d389dd6f0baa735bf61a7c4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>get</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1a627e883e1aa1f8e7e764444c633d5e0e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>id</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1ac53ffe133969e29cadb2c390f249be82" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>NoDefInit_MRRegionId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1a2f403b7c62c7298107ef16e72860d717" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>NoDefInit_MRRegionId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1ace72b746ff1dfe669614b9ac52736149" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>NoDefInit_MRRegionId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1af7db29d7a01af4a184505ef07f5d2292" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>NoDefInit_MRRegionId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1a0d5c3997a6f013385417195cb6d18c3c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>operator MR.Box_RegionId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRRegionId_1addd77ec28cbe1fe043b7c70e4db4063a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRRegionId</scope><name>subAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

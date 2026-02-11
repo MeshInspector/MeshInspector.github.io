@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Dipole" kind="class" language="C#" prot="public">
+    <compoundname>MR::Dipole</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Dipole</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Dipole_1a8a5ecdaacb9d43b4d1ec1d5ce6a31248" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.Dipole.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>MR.Dipole.pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="146" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Dipole_1a91297c3509a06a99ba29e9038203f612" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Dipole.area</definition>
+        <argsstring></argsstring>
+        <name>area</name>
+        <qualifiedname>MR.Dipole.area</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="148" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Dipole_1ae71aa75f960018d48ff55c3df491211c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.Dipole.dirArea</definition>
+        <argsstring></argsstring>
+        <name>dirArea</name>
+        <qualifiedname>MR.Dipole.dirArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="150" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Dipole_1ae59d6648178b1e595328451e22a40f01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Dipole.rr</definition>
+        <argsstring></argsstring>
+        <name>rr</name>
+        <qualifiedname>MR.Dipole.rr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="153" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Dipole_1abdc03a97b5c2d232ab8c485639e0e68c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipole.Dipole</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Dipole</name>
+        <qualifiedname>MR.Dipole.Dipole</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="157" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="157" bodyend="161"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Dipole_1a08300a16c049be264bf19428639bdbf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipole.Dipole</definition>
+        <argsstring>()</argsstring>
+        <name>Dipole</name>
+        <qualifiedname>MR.Dipole.Dipole</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipole_1abc5fffb7c77410a7637df2c44e96dc5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipole.Dipole</definition>
+        <argsstring>(MR.Vector3f pos, float area, MR.Vector3f dirArea, float rr)</argsstring>
+        <name>Dipole</name>
+        <qualifiedname>MR.Dipole.Dipole</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>area</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>dirArea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rr</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="178" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipole_1aa40fb1b370d1f9ac4f18a4afed70acd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipole.Dipole</definition>
+        <argsstring>(MR.Const_Dipole _other)</argsstring>
+        <name>Dipole</name>
+        <qualifiedname>MR.Dipole.Dipole</qualifiedname>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Dipole.Dipole</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="189" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipole_1afaa805650aefcff0c54d890db0967666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Dipole.Dipole</definition>
+        <argsstring>(Dipole _other)</argsstring>
+        <name>Dipole</name>
+        <qualifiedname>MR.Dipole.Dipole</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Dipole.Dipole</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="201" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipole_1aade2fdc4de2654ed1c2e6580bf2e9ebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></type>
+        <definition>unsafe MR.Dipole MR.Dipole.assign</definition>
+        <argsstring>(MR.Const_Dipole _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Dipole.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipole.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="206" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="206" bodyend="213"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Single oriented point or two oppositely charged points close together, representing a mesh part (one or more triangles) <ulink url="https://www.dgp.toronto.edu/projects/fast-winding-numbers/fast-winding-numbers-for-soups-and-clouds-siggraph-2018-barill-et-al.pdf">https://www.dgp.toronto.edu/projects/fast-winding-numbers/fast-winding-numbers-for-soups-and-clouds-siggraph-2018-barill-et-al.pdf</ulink> Generated from class <computeroutput><ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Dipole</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Dipole</label>
+        <link refid="classMR_1_1Dipole"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Dipole &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Dipole</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Dipole</label>
+        <link refid="classMR_1_1Dipole"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Dipole &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="145" bodyend="214"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Dipole_1a91297c3509a06a99ba29e9038203f612" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>area</name></member>
+      <member refid="classMR_1_1Dipole_1aade2fdc4de2654ed1c2e6580bf2e9ebe" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>assign</name></member>
+      <member refid="classMR_1_1Dipole_1abdc03a97b5c2d232ab8c485639e0e68c" prot="package" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
+      <member refid="classMR_1_1Dipole_1a08300a16c049be264bf19428639bdbf6" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
+      <member refid="classMR_1_1Dipole_1abc5fffb7c77410a7637df2c44e96dc5a" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
+      <member refid="classMR_1_1Dipole_1aa40fb1b370d1f9ac4f18a4afed70acd5" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
+      <member refid="classMR_1_1Dipole_1afaa805650aefcff0c54d890db0967666" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
+      <member refid="classMR_1_1Dipole_1ae71aa75f960018d48ff55c3df491211c" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>dirArea</name></member>
+      <member refid="classMR_1_1Dipole_1a8a5ecdaacb9d43b4d1ec1d5ce6a31248" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>pos</name></member>
+      <member refid="classMR_1_1Dipole_1ae59d6648178b1e595328451e22a40f01" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>rr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

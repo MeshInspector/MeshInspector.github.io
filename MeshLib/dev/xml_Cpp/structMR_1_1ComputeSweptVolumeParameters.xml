@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ComputeSweptVolumeParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ComputeSweptVolumeParameters</compoundname>
+    <includes refid="MRSweptVolume_8h" local="no">MRSweptVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ComputeSweptVolumeParameters_1a30734a48ed1db5decfd6bc50b5e5a9c6" prot="public" static="no" mutable="no">
+        <type>const Polyline3 &amp;</type>
+        <definition>const Polyline3&amp; MR::ComputeSweptVolumeParameters::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>MR::ComputeSweptVolumeParameters::path</qualifiedname>
+        <briefdescription>
+<para>toolpath </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="26" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSweptVolumeParameters_1aa31ab5fc3b9d49a142a4879771d70f71" prot="public" static="no" mutable="no">
+        <type>MeshPart</type>
+        <definition>MeshPart MR::ComputeSweptVolumeParameters::toolMesh</definition>
+        <argsstring></argsstring>
+        <name>toolMesh</name>
+        <qualifiedname>MR::ComputeSweptVolumeParameters::toolMesh</qualifiedname>
+        <briefdescription>
+<para>tool mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSweptVolumeParameters_1a1dd7253af2235866a183bfa91f3aca3e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref> *</type>
+        <definition>const EndMillTool* MR::ComputeSweptVolumeParameters::toolSpec</definition>
+        <argsstring></argsstring>
+        <name>toolSpec</name>
+        <qualifiedname>MR::ComputeSweptVolumeParameters::toolSpec</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool specifications, can be used for more precise computations the tool spec and the tool mesh are expected to relate to the same tool if omitted, tool mesh is used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSweptVolumeParameters_1a1234a4f577e760334131d6161b7c68ca" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ComputeSweptVolumeParameters::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::ComputeSweptVolumeParameters::voxelSize</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>voxel size for internal voxel volumes TODO: replace with tolerance and make the voxel size implementation-specific </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSweptVolumeParameters_1a4cbfdf9b6dd57369b2f808629eb3a4a4" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::ComputeSweptVolumeParameters::memoryLimit</definition>
+        <argsstring></argsstring>
+        <name>memoryLimit</name>
+        <qualifiedname>MR::ComputeSweptVolumeParameters::memoryLimit</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>(distance volume) max memory amount used for the distance volume, zero for no limits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="37" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ComputeSweptVolumeParameters_1a710c3b728313851d1a392af1f9514232" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::ComputeSweptVolumeParameters::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::ComputeSweptVolumeParameters::cb</qualifiedname>
+        <briefdescription>
+<para>progress callback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="39" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for computeSweptVolume* functions. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ComputeSweptVolumeParameters</label>
+        <link refid="structMR_1_1ComputeSweptVolumeParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>toolSpec</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::EndMillCutter</label>
+        <link refid="structMR_1_1EndMillCutter"/>
+      </node>
+      <node id="2">
+        <label>MR::EndMillTool</label>
+        <link refid="structMR_1_1EndMillTool"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cutter</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="24" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ComputeSweptVolumeParameters_1a710c3b728313851d1a392af1f9514232" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>cb</name></member>
+      <member refid="structMR_1_1ComputeSweptVolumeParameters_1a4cbfdf9b6dd57369b2f808629eb3a4a4" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>
+      <member refid="structMR_1_1ComputeSweptVolumeParameters_1a30734a48ed1db5decfd6bc50b5e5a9c6" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>path</name></member>
+      <member refid="structMR_1_1ComputeSweptVolumeParameters_1aa31ab5fc3b9d49a142a4879771d70f71" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolMesh</name></member>
+      <member refid="structMR_1_1ComputeSweptVolumeParameters_1a1dd7253af2235866a183bfa91f3aca3e" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolSpec</name></member>
+      <member refid="structMR_1_1ComputeSweptVolumeParameters_1a1234a4f577e760334131d6161b7c68ca" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

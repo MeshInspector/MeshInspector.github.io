@@ -1,0 +1,971 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Color" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Color</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Color_1a18b2d4e3bb103cceda17acc39cad59c7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Color::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.Color._offsetof_a</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Color_1abe953a4b4e91962bb60e20c356a12c25" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Color::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.Color._offsetof_b</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Color_1a209e24332f166f5c56751576ac725b3c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Color::_offsetof_g</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_g</name>
+        <qualifiedname>mrmeshpy.Color._offsetof_g</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Color_1a4d151470c11cd95e309230fed1bfa83e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Color::_offsetof_r</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_r</name>
+        <qualifiedname>mrmeshpy.Color._offsetof_r</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9478" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a2c30948cc9ae0d908bfa837e42bff944" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9485" bodyend="9486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a2c30948cc9ae0d908bfa837e42bff944" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9489" bodyend="9490"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a93d3cce61ec4222fdbde820e37d2fbda" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.black</definition>
+        <argsstring>()</argsstring>
+        <name>black</name>
+        <qualifiedname>mrmeshpy.Color.black</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9492" bodyend="9493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a0ba034724a2d4aa0c0381bbaa9ab6645" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.blue</definition>
+        <argsstring>()</argsstring>
+        <name>blue</name>
+        <qualifiedname>mrmeshpy.Color.blue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9495" bodyend="9496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1ae1e8645eaa96360f41fa9db678680506" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.brown</definition>
+        <argsstring>()</argsstring>
+        <name>brown</name>
+        <qualifiedname>mrmeshpy.Color.brown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9498" bodyend="9499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1ae6b9f4a7c030b92766eb97d4233af846" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.gray</definition>
+        <argsstring>()</argsstring>
+        <name>gray</name>
+        <qualifiedname>mrmeshpy.Color.gray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9501" bodyend="9502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1afc1acbdbe23f7df40db8467c5901e62d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.green</definition>
+        <argsstring>()</argsstring>
+        <name>green</name>
+        <qualifiedname>mrmeshpy.Color.green</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9504" bodyend="9505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a81fd81d62a0a69fa9a45c3a663c8b5ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Color.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9508" bodyend="9509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a81fd81d62a0a69fa9a45c3a663c8b5ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Color.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9512" bodyend="9513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a2fc9d9558f28358f4780bf745b4050aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.purple</definition>
+        <argsstring>()</argsstring>
+        <name>purple</name>
+        <qualifiedname>mrmeshpy.Color.purple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9515" bodyend="9516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a875849e70ad2b84f7c73ad0562a3d5e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.red</definition>
+        <argsstring>()</argsstring>
+        <name>red</name>
+        <qualifiedname>mrmeshpy.Color.red</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9518" bodyend="9519"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1aa38f781ccae064e8525ec3c6b6f8aab7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.transparent</definition>
+        <argsstring>()</argsstring>
+        <name>transparent</name>
+        <qualifiedname>mrmeshpy.Color.transparent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9521" bodyend="9522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1aeb38ec2d68b95a2dd4f9e09451e69a68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Color.valToUint8</definition>
+        <argsstring>(int val)</argsstring>
+        <name>valToUint8</name>
+        <qualifiedname>mrmeshpy.Color.valToUint8</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9525" bodyend="9526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1af7910508af114fb1a5988d54917aa728" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Color.valToUint8</definition>
+        <argsstring>(float val)</argsstring>
+        <name>valToUint8</name>
+        <qualifiedname>mrmeshpy.Color.valToUint8</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9529" bodyend="9530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1afc8b23a3815ca20aa0d602030f864f28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.white</definition>
+        <argsstring>()</argsstring>
+        <name>white</name>
+        <qualifiedname>mrmeshpy.Color.white</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9532" bodyend="9533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a2b252bd9fad560b609e1b07130911fa1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.yellow</definition>
+        <argsstring>()</argsstring>
+        <name>yellow</name>
+        <qualifiedname>mrmeshpy.Color.yellow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9535" bodyend="9536"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1abe6f1d57bfc9763609bb097d29faa518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__add__</definition>
+        <argsstring>(self, Color b)</argsstring>
+        <name>__add__</name>
+        <qualifiedname>mrmeshpy.Color.__add__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9537" bodyend="9538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a67d6fe1de8978240efac628ffa3ad8bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Color.__eq__</definition>
+        <argsstring>(self, Color b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Color.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9539" bodyend="9540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1aa732aacc8453e31f5d72d5590e6e1a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Color.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Color.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9542" bodyend="9543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1aa732aacc8453e31f5d72d5590e6e1a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Color.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Color.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9545" bodyend="9546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a634c6ecff85368eb1c2c8fac3a6fbd46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__iadd__</definition>
+        <argsstring>(self, Color other)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.Color.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9547" bodyend="9548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1ad23a5b98a68f42db43f96c8a1707d125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__imatmul__</definition>
+        <argsstring>(self, float m)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.Color.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9549" bodyend="9550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a5e86b0313ca5cca6c14620d9526f0f42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9552" bodyend="9553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1ab1f03aa02f777b4eebe863e65ddd5b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, int r, int g, int b, int a)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9555" bodyend="9556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a8f4ade93b84b5507726f9260f901a044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, int r, int g, int b)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9558" bodyend="9559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a42dda127ff1c6e861ce4c831a0fabc36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, float r, float g, float b, float a)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9561" bodyend="9562"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a89c72f925c67d099769d7e87336da22d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, float r, float g, float b)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9564" bodyend="9565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1aea93dc4b1b6a0df7a024e5bcdfa5cc1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, Vector4i vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9567" bodyend="9568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a0a4ffe227855c50dcf222a5d769eaa95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, Vector4f vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4f" kindref="compound">Vector4f</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9570" bodyend="9571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a478e4152cbbd9c44ec66cc4e31e79d19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__init__</definition>
+        <argsstring>(self, Color arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Color.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9573" bodyend="9576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a865f12167ce1dfe87bee7fa500f4361b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__isub__</definition>
+        <argsstring>(self, Color other)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.Color.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9577" bodyend="9578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1ab08fa5ee4cbe2fec078cea6d72862502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__itruediv__</definition>
+        <argsstring>(self, float m)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.Color.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9579" bodyend="9580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a55a64d13559ddf96fad2ebafca07fa6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__mul__</definition>
+        <argsstring>(self, float a)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.Color.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9581" bodyend="9582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1acf59bafee74b1b82de6359f93fc00641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Color.__ne__</definition>
+        <argsstring>(self, Color b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Color.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9583" bodyend="9584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1af6df1600be5ca9d1dd195c2c70aa6054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__rmul__</definition>
+        <argsstring>(self, float b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.Color.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9585" bodyend="9586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a8b037a0619c092ee939b95d8ae78289f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Color.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Color.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9587" bodyend="9588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a05222ed7aa410ad01f7783d6b216b69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__sub__</definition>
+        <argsstring>(self, Color b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.Color.__sub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9589" bodyend="9590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a05e3f3e2a88a44d9cfe774cb82c9570c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.__truediv__</definition>
+        <argsstring>(self, float a)</argsstring>
+        <name>__truediv__</name>
+        <qualifiedname>mrmeshpy.Color.__truediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9591" bodyend="9592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a5d2c4e3c4663a1c82000ae8cb91f2c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Color.getUInt32</definition>
+        <argsstring>(self)</argsstring>
+        <name>getUInt32</name>
+        <qualifiedname>mrmeshpy.Color.getUInt32</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9593" bodyend="9594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Color_1a5c46e09c1b0b9e2b09b0a1c633958083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.Color.scaledAlpha</definition>
+        <argsstring>(self, float m)</argsstring>
+        <name>scaledAlpha</name>
+        <qualifiedname>mrmeshpy.Color.scaledAlpha</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9595" bodyend="9596"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Color
+Aliases:  std_vector_Color_reference, Vector_Color_VertId_reference, Vector_Color_FaceId_reference, std_vector_Color_value_type, Vector_Color_VertId_value_type, std_vector_Color_const_reference, Vector_Color_Id_EdgeTag_const_reference, Vector_Color_FaceId_const_reference, Vector_Color_Id_EdgeTag_value_type, Vector_Color_FaceId_value_type, Vector_Color_VertId_const_reference, Vector_Color_UndirectedEdgeId_value_type, Vector_Color_UndirectedEdgeId_const_reference, Vector_Color_UndirectedEdgeId_reference, Vector_Color_Id_EdgeTag_reference
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Color</label>
+        <link refid="classmrmeshpy_1_1Color"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_g</edgelabel>
+          <edgelabel>_offsetof_r</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9470" bodyend="9596"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Color_1abe6f1d57bfc9763609bb097d29faa518" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a67d6fe1de8978240efac628ffa3ad8bb" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1aa732aacc8453e31f5d72d5590e6e1a9e" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1aa732aacc8453e31f5d72d5590e6e1a9e" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a634c6ecff85368eb1c2c8fac3a6fbd46" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1ad23a5b98a68f42db43f96c8a1707d125" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a2c30948cc9ae0d908bfa837e42bff944" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a2c30948cc9ae0d908bfa837e42bff944" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a5e86b0313ca5cca6c14620d9526f0f42" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1ab1f03aa02f777b4eebe863e65ddd5b6d" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a8f4ade93b84b5507726f9260f901a044" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a42dda127ff1c6e861ce4c831a0fabc36" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a89c72f925c67d099769d7e87336da22d" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1aea93dc4b1b6a0df7a024e5bcdfa5cc1a" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a0a4ffe227855c50dcf222a5d769eaa95" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a478e4152cbbd9c44ec66cc4e31e79d19" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a865f12167ce1dfe87bee7fa500f4361b" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1ab08fa5ee4cbe2fec078cea6d72862502" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a55a64d13559ddf96fad2ebafca07fa6d" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1acf59bafee74b1b82de6359f93fc00641" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1af6df1600be5ca9d1dd195c2c70aa6054" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a8b037a0619c092ee939b95d8ae78289f" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a05222ed7aa410ad01f7783d6b216b69e" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a05e3f3e2a88a44d9cfe774cb82c9570c" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>__truediv__</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a18b2d4e3bb103cceda17acc39cad59c7" prot="protected" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1Color_1abe953a4b4e91962bb60e20c356a12c25" prot="protected" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a209e24332f166f5c56751576ac725b3c" prot="protected" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>_offsetof_g</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a4d151470c11cd95e309230fed1bfa83e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>_offsetof_r</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a93d3cce61ec4222fdbde820e37d2fbda" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>black</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a0ba034724a2d4aa0c0381bbaa9ab6645" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>blue</name></member>
+      <member refid="classmrmeshpy_1_1Color_1ae1e8645eaa96360f41fa9db678680506" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>brown</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a5d2c4e3c4663a1c82000ae8cb91f2c12" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>getUInt32</name></member>
+      <member refid="classmrmeshpy_1_1Color_1ae6b9f4a7c030b92766eb97d4233af846" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>gray</name></member>
+      <member refid="classmrmeshpy_1_1Color_1afc1acbdbe23f7df40db8467c5901e62d" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>green</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a81fd81d62a0a69fa9a45c3a663c8b5ee" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a81fd81d62a0a69fa9a45c3a663c8b5ee" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a2fc9d9558f28358f4780bf745b4050aa" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>purple</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a875849e70ad2b84f7c73ad0562a3d5e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>red</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a5c46e09c1b0b9e2b09b0a1c633958083" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>scaledAlpha</name></member>
+      <member refid="classmrmeshpy_1_1Color_1aa38f781ccae064e8525ec3c6b6f8aab7" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>transparent</name></member>
+      <member refid="classmrmeshpy_1_1Color_1aeb38ec2d68b95a2dd4f9e09451e69a68" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>valToUint8</name></member>
+      <member refid="classmrmeshpy_1_1Color_1af7910508af114fb1a5988d54917aa728" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>valToUint8</name></member>
+      <member refid="classmrmeshpy_1_1Color_1afc8b23a3815ca20aa0d602030f864f28" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>white</name></member>
+      <member refid="classmrmeshpy_1_1Color_1a2b252bd9fad560b609e1b07130911fa1" prot="public" virt="non-virtual"><scope>mrmeshpy::Color</scope><name>yellow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

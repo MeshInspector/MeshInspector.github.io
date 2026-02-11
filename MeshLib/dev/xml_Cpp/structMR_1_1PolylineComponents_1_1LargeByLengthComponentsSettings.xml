@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineComponents::LargeByLengthComponentsSettings</compoundname>
+    <includes refid="MRPolylineComponents_8h" local="no">MRPolylineComponents.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1ab156e4253bbd59fe13340074cbd665c9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::PolylineComponents::LargeByLengthComponentsSettings::maxLargeComponents</definition>
+        <argsstring></argsstring>
+        <name>maxLargeComponents</name>
+        <qualifiedname>MR::PolylineComponents::LargeByLengthComponentsSettings::maxLargeComponents</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>return at most given number of largest by length connected components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="35" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a5f82c05aa96cc5f5e952e7fc9ed1cf7d" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* MR::PolylineComponents::LargeByLengthComponentsSettings::numSmallerComponents</definition>
+        <argsstring></argsstring>
+        <name>numSmallerComponents</name>
+        <qualifiedname>MR::PolylineComponents::LargeByLengthComponentsSettings::numSmallerComponents</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output: the number of components in addition to returned ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="38" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1abc19be05235214b2db88c9ce8fa747b0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PolylineComponents::LargeByLengthComponentsSettings::minLength</definition>
+        <argsstring></argsstring>
+        <name>minLength</name>
+        <qualifiedname>MR::PolylineComponents::LargeByLengthComponentsSettings::minLength</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>do not consider a component large if its length is below this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" bodystart="33" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1ab156e4253bbd59fe13340074cbd665c9" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>maxLargeComponents</name></member>
+      <member refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1abc19be05235214b2db88c9ce8fa747b0" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>minLength</name></member>
+      <member refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a5f82c05aa96cc5f5e952e7fc9ed1cf7d" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>numSmallerComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

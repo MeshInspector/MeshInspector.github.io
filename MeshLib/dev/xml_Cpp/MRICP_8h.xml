@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRICP_8h" kind="file" language="C++">
+    <compoundname>MRICP.h</compoundname>
+    <includes local="yes">MRPch/MRBindingMacros.h</includes>
+    <includes refid="MRICPEnums_8h" local="yes">MRICPEnums.h</includes>
+    <includes refid="MRMeshOrPoints_8h" local="yes">MRMeshOrPoints.h</includes>
+    <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
+    <includes refid="MRAffineXf_8h" local="yes">MRAffineXf.h</includes>
+    <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
+    <includes local="no">cfloat</includes>
+    <includedby refid="MRMultiwayICP_8h" local="yes">MRMultiwayICP.h</includedby>
+    <incdepgraph>
+      <node id="29">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="1">
+        <label>MRICP.h</label>
+        <link refid="MRICP_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRICPEnums.h</label>
+        <link refid="MRICPEnums_8h"/>
+      </node>
+      <node id="30">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="18">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMeshOrPoints.h</label>
+        <link refid="MRMeshOrPoints_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRPointCloudPart.h</label>
+        <link refid="MRPointCloudPart_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="2">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="35">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="24">
+        <label>algorithm</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="31">
+        <label>cfloat</label>
+      </node>
+      <node id="25">
+        <label>cmath</label>
+      </node>
+      <node id="38">
+        <label>concepts</label>
+      </node>
+      <node id="21">
+        <label>cstddef</label>
+      </node>
+      <node id="26">
+        <label>cstring</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="27">
+        <label>iosfwd</label>
+      </node>
+      <node id="39">
+        <label>iterator</label>
+      </node>
+      <node id="32">
+        <label>optional</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="22">
+        <label>type_traits</label>
+      </node>
+      <node id="28">
+        <label>utility</label>
+      </node>
+      <node id="33">
+        <label>variant</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRICP.h</label>
+        <link refid="MRICP_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMultiwayICP.h</label>
+        <link refid="MRMultiwayICP_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1ICPPairData" prot="public">MR::ICPPairData</innerclass>
+    <innerclass refid="structMR_1_1PointPair" prot="public">MR::PointPair</innerclass>
+    <innerclass refid="structMR_1_1IPointPairs" prot="public">MR::IPointPairs</innerclass>
+    <innerclass refid="structMR_1_1PointPairs" prot="public">MR::PointPairs</innerclass>
+    <innerclass refid="structMR_1_1NumSum" prot="public">MR::NumSum</innerclass>
+    <innerclass refid="structMR_1_1ICPProperties" prot="public">MR::ICPProperties</innerclass>
+    <innerclass refid="classMR_1_1ICP" prot="public">MR::ICP</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRICPEnums_8h" kindref="compound">MRICPEnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshOrPoints_8h" kindref="compound">MRMeshOrPoints.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix3_8h" kindref="compound">MRMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRConstants_8h" kindref="compound">MRConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRAffineXf_8h" kindref="compound">MRAffineXf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1ICPPairData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1ICPPairData_1af30195d74b2a6994fdfadd8768407c38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1ICPPairData_1af30195d74b2a6994fdfadd8768407c38" kindref="member">srcPoint</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1ICPPairData_1a26326a83f053dc2e5ea6f564143ac410" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1ICPPairData_1a26326a83f053dc2e5ea6f564143ac410" kindref="member">srcNorm</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structMR_1_1ICPPairData_1a5a8aa18bdc6d6ceb392dafa06cbf3ba7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1ICPPairData_1a5a8aa18bdc6d6ceb392dafa06cbf3ba7" kindref="member">tgtPoint</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1ICPPairData_1a7f615835e680ec678113e7e2367e3a09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1ICPPairData_1a7f615835e680ec678113e7e2367e3a09" kindref="member">tgtNorm</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1ICPPairData_1afe05b997a712f074a3053f11dab0a7eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData_1afe05b997a712f074a3053f11dab0a7eb" kindref="member">distSq</ref><sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1ICPPairData_1acade73682f0a4e356ccf90131e1a5fa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData_1acade73682f0a4e356ccf90131e1a5fa2" kindref="member">weight</ref><sp/>=<sp/>1.f;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1ICPPairData_1a0769d0c92668ab4c85a05584e5a73b24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData_1a0769d0c92668ab4c85a05584e5a73b24" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="structMR_1_1PointPair" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43" refid="structMR_1_1PointPair_1a0be978719b10258123e31ffe3413c532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PointPair_1a0be978719b10258123e31ffe3413c532" kindref="member">srcVertId</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structMR_1_1PointPair_1a6e96779ac71de15fae84c9c1dee17cb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PointPair_1a6e96779ac71de15fae84c9c1dee17cb7" kindref="member">tgtCloseVert</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="structMR_1_1PointPair_1a087147661647b219169ee6e63da113fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair_1a087147661647b219169ee6e63da113fd" kindref="member">normalsAngleCos</ref><sp/>=<sp/>1.f;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="structMR_1_1PointPair_1ae8d7edf5f01746179a2eb12b3e66b1d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair_1ae8d7edf5f01746179a2eb12b3e66b1d0" kindref="member">tgtOnBd</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1PointPair_1a5f761c6549a8d74c43a943993e9f7426" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair_1a5f761c6549a8d74c43a943993e9f7426" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPair" kindref="compound">PointPair</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="structMR_1_1IPointPairs" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62" refid="structMR_1_1IPointPairs_1adbe70eca8faa13ce9fa22e4f15cb2d5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs_1adbe70eca8faa13ce9fa22e4f15cb2d5a" kindref="member">IPointPairs</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63" refid="structMR_1_1IPointPairs_1a3fcd8de5d97b49b84e9c984b494f10dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs_1a3fcd8de5d97b49b84e9c984b494f10dc" kindref="member">IPointPairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1IPointPairs_1abb689ad7795aaeb7236800bec89a0cab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/><ref refid="structMR_1_1IPointPairs_1abb689ad7795aaeb7236800bec89a0cab" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="structMR_1_1IPointPairs_1a995abf137ecf1f8e0771844779cc9405" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs_1a995abf137ecf1f8e0771844779cc9405" kindref="member">IPointPairs</ref>(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="66" refid="structMR_1_1IPointPairs_1ab45a73b14fac3dc080a3e99e4070de26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>operator=(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1IPointPairs_1ae584abe0ef15be5d6f3fc244f176751b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~<ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>()<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structMR_1_1IPointPairs_1a3dd0343a154cad09f33735a106dcc64b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>const<sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/>operator[](<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>)<sp/>const<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70" refid="structMR_1_1IPointPairs_1afcac114c6d43447ea0cae96eb9270de8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/>operator[](<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="71" refid="structMR_1_1IPointPairs_1a21b4f073206e446af1e8c0c8895e56a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs_1a21b4f073206e446af1e8c0c8895e56a8" kindref="member">size</ref>()<sp/>const<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72" refid="structMR_1_1IPointPairs_1ab838ce7cceeb506514a4124c9587f032" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref><sp/><ref refid="structMR_1_1IPointPairs_1ab838ce7cceeb506514a4124c9587f032" kindref="member">active</ref>;<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="structMR_1_1PointPairs" refkind="compound"><highlight class="normal">struct<sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>:<sp/>public<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77" refid="structMR_1_1PointPairs_1ab99f3e132fe375fd87cd27dafb991537" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="structMR_1_1PointPairs_1ab99f3e132fe375fd87cd27dafb991537" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vec[idx];<sp/>}</highlight></codeline>
+<codeline lineno="78" refid="structMR_1_1PointPairs_1af0bfe85ad789f3bba2ddfb104733e314" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref>&amp;<sp/><ref refid="structMR_1_1PointPairs_1af0bfe85ad789f3bba2ddfb104733e314" kindref="member">operator[]</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vec[idx];<sp/>}</highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1PointPairs_1a57a171fbd5024682750b723475ed0c7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPairs_1a57a171fbd5024682750b723475ed0c7b" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vec.size();<sp/>}</highlight></codeline>
+<codeline lineno="80" refid="structMR_1_1PointPairs_1aa5242248a93789d989a923092a5d7592" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;PointPair&gt;<sp/><ref refid="structMR_1_1PointPairs_1aa5242248a93789d989a923092a5d7592" kindref="member">vec</ref>;<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="namespaceMR_1a6bc994c1ebf7a119332f7d7a212cdd5e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6bc994c1ebf7a119332f7d7a212cdd5e" kindref="member">getNumSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pairs.<ref refid="structMR_1_1IPointPairs_1ab838ce7cceeb506514a4124c9587f032" kindref="member">active</ref>.<ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="namespaceMR_1a5f3e72229b19af1e43886673711093af" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a5f3e72229b19af1e43886673711093af" kindref="member">getNumActivePairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="structMR_1_1NumSum" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91" refid="structMR_1_1NumSum_1afd716f4242e9554e7900e18a890be1fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="92" refid="structMR_1_1NumSum_1adab70c85e9a40a08c221e2a031274326" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="structMR_1_1NumSum_1a0fe6b707b49d42eb921bab61a351f02f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a57c6b7abb0d440f81d2e0e563f66c947" kindref="member">operator + </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/>&amp;<sp/>b<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>a.<ref refid="structMR_1_1NumSum_1afd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref><sp/>+<sp/>b.<ref refid="structMR_1_1NumSum_1afd716f4242e9554e7900e18a890be1fa" kindref="member">num</ref>,<sp/>a.<ref refid="structMR_1_1NumSum_1adab70c85e9a40a08c221e2a031274326" kindref="member">sum</ref><sp/>+<sp/>b.<ref refid="structMR_1_1NumSum_1adab70c85e9a40a08c221e2a031274326" kindref="member">sum</ref><sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="structMR_1_1NumSum_1a6e4c85d138945344d45fda05ab558710" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1NumSum_1a6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>num<sp/>&lt;=<sp/>0<sp/>)<sp/>?<sp/>FLT_MAX<sp/>:<sp/>(float)std::sqrt(<sp/>sum<sp/>/<sp/>num<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="namespaceMR_1a06aeabf6e11d59cffd728866af776927" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="namespaceMR_1a06aeabf6e11d59cffd728866af776927" kindref="member">getSumSqDistToPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/>std::optional&lt;double&gt;<sp/>inaccuracy<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="namespaceMR_1a35d3b6b2ab98a2f5c105722dca3a23dd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref><sp/><ref refid="namespaceMR_1a35d3b6b2ab98a2f5c105722dca3a23dd" kindref="member">getSumSqDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/>std::optional&lt;double&gt;<sp/>inaccuracy<sp/>=<sp/>{});</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="namespaceMR_1a8fac39607138c4e9d594cffbdf5f28d7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8fac39607138c4e9d594cffbdf5f28d7" kindref="member">getMeanSqDistToPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a06aeabf6e11d59cffd728866af776927" kindref="member">getSumSqDistToPoint</ref>(<sp/>pairs<sp/>).<ref refid="structMR_1_1NumSum_1a6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="namespaceMR_1a2f004671404b2a06e56c484d5e5a3e40" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a2f004671404b2a06e56c484d5e5a3e40" kindref="member">getMeanSqDistToPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a35d3b6b2ab98a2f5c105722dca3a23dd" kindref="member">getSumSqDistToPlane</ref>(<sp/>pairs<sp/>).<ref refid="structMR_1_1NumSum_1a6e4c85d138945344d45fda05ab558710" kindref="member">rootMeanSqF</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="namespaceMR_1a6fa1b58fb6b78b02b4707c3338def0c1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="namespaceMR_1a6fa1b58fb6b78b02b4707c3338def0c1" kindref="member">getICPStatusInfo</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterations,<sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>exitType<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="namespaceMR_1a3c1276014561af6523a99bd293dd9940" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="namespaceMR_1a3c1276014561af6523a99bd293dd9940" kindref="member">getAligningXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref><sp/>&amp;<sp/>p2pl,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677" kindref="member">ICPMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaleLimit,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>fixedRotationAxis<sp/>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="structMR_1_1ICPProperties" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124" refid="structMR_1_1ICPProperties_1aaebab641b9a81a0d03d0a64d155ea22f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1adc079b022ca7581fe4f508ab8f6a80ec" kindref="member">ICPMethod</ref><sp/>method<sp/>=<sp/>ICPMethod::PointToPlane;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="structMR_1_1ICPProperties_1aea1145693fe2129927a24c786165f31f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plAngleLimit<sp/>=<sp/>PI_F<sp/>/<sp/>6.0f;<sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="structMR_1_1ICPProperties_1af5cb06bed691cb37cc63ad3e96ebc6f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plScaleLimit<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structMR_1_1ICPProperties_1a108845995db78805f41524217e474500" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold<sp/>=<sp/>0.7f;<sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="structMR_1_1ICPProperties_1a43460c0d16c0f302226c8e09b6b98811" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq<sp/>=<sp/>1.f;<sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="structMR_1_1ICPProperties_1aa4083e706852873ed258324b8d2b6626" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>farDistFactor<sp/>=<sp/>3.f;<sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="structMR_1_1ICPProperties_1a77f672ea419da2fb458fb981c25d5be2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a2f8db848fea33b9619ade1fc1ac08677" kindref="member">ICPMode</ref><sp/>icpMode<sp/>=<sp/>ICPMode::AnyRigidXf;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="structMR_1_1ICPProperties_1a1fe34b378f38697c828575c8204e7b57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1ICPProperties_1a1fe34b378f38697c828575c8204e7b57" kindref="member">fixedRotationAxis</ref>;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="structMR_1_1ICPProperties_1a4b5daff61d36ce0e211995eee0f2507f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterLimit<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="structMR_1_1ICPProperties_1a242dd3555fcbbe8a0857210ed77ff1fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>badIterStopCount<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="structMR_1_1ICPProperties_1afe075e9e4944999f30c142f357d071d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>exitVal<sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="structMR_1_1ICPProperties_1a229d248012276b39cb1c7102f4184f4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="namespaceMR_1aecd7603141fb9c3b9658281cdd4e2ca9" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aecd7603141fb9c3b9658281cdd4e2ca9" kindref="member">deactivateFarPairs</ref>(<sp/><ref refid="structMR_1_1IPointPairs" kindref="compound">IPointPairs</ref>&amp;<sp/>pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq<sp/>);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="namespaceMR_1ae1720596759ae985fe19f03af8b48c36" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ae1720596759ae985fe19f03af8b48c36" kindref="member">updatePointPairs</ref>(<sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref>&amp;<sp/>pairs,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>tgt,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest<sp/>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="classMR_1_1ICP" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="classMR_1_1ICP" kindref="compound">ICP</ref></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="195" refid="classMR_1_1ICP_1abf8abfc1336998ff9b7f0baff945f17f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ICP_1abf8abfc1336998ff9b7f0baff945f17f" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf,</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>=<sp/>{}<sp/>)<sp/>:<sp/>ICP(<sp/>{<sp/>flt,<sp/>fltXf<sp/>},<sp/>{<sp/>ref,<sp/>refXf<sp/>},<sp/>fltSamples,<sp/>refSamples<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="197" refid="classMR_1_1ICP_1aca4490fa0871ec586b8cdb403a73cba7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1ICP_1aca4490fa0871ec586b8cdb403a73cba7" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="classMR_1_1ICP_1aeeebad873ae2a9669d93fc0063a7d823" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1ICP_1aeeebad873ae2a9669d93fc0063a7d823" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf,</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>)<sp/>:<sp/><ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>(<sp/>{<sp/>flt,<sp/>fltXf<sp/>},<sp/>{<sp/>ref,<sp/>refXf<sp/>},<sp/>samplingVoxelSize<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="207" refid="classMR_1_1ICP_1ae577ff855840dbf373087da916d01fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1ICP_1ae577ff855840dbf373087da916d01fc5" kindref="member">ICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="classMR_1_1ICP_1a432cc96b69c08b035a5c6bf6bf8919da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a432cc96b69c08b035a5c6bf6bf8919da" kindref="member">setParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/>prop)<sp/>{<sp/>prop_<sp/>=<sp/>prop;<sp/>}</highlight></codeline>
+<codeline lineno="211" refid="classMR_1_1ICP_1a24aedd24a0e67bee11231cdf423fafcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a24aedd24a0e67bee11231cdf423fafcc" kindref="member">setCosineLimit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cos);</highlight></codeline>
+<codeline lineno="212" refid="classMR_1_1ICP_1af226a6c2f4724b14d1427eac21236263" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1af226a6c2f4724b14d1427eac21236263" kindref="member">setDistanceLimit</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dist<sp/>);</highlight></codeline>
+<codeline lineno="213" refid="classMR_1_1ICP_1a82d109dc700457986de7a786d6000429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a82d109dc700457986de7a786d6000429" kindref="member">setBadIterCount</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter<sp/>);</highlight></codeline>
+<codeline lineno="214" refid="classMR_1_1ICP_1af7075821af276952c330c5171ffc772c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1af7075821af276952c330c5171ffc772c" kindref="member">setFarDistFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="classMR_1_1ICP_1a4f146d207e9738307404735d50df2c02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a4f146d207e9738307404735d50df2c02" kindref="member">setFltSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fltSamples<sp/>);</highlight></codeline>
+<codeline lineno="218" refid="classMR_1_1ICP_1a7306dd698567c8bfa4b7c01a5eb5881f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a7306dd698567c8bfa4b7c01a5eb5881f" kindref="member">sampleFltPoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="classMR_1_1ICP_1a71d2c3ad12814f1fc80c984f56f97ab5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a71d2c3ad12814f1fc80c984f56f97ab5" kindref="member">setRefSamples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>refSamples<sp/>);</highlight></codeline>
+<codeline lineno="222" refid="classMR_1_1ICP_1a46b29e7fe70c13a2bc3b83971e92b564" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a46b29e7fe70c13a2bc3b83971e92b564" kindref="member">sampleRefPoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="classMR_1_1ICP_1a56cde0df43df6f53274400daea013890" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a56cde0df43df6f53274400daea013890" kindref="member">samplePoints</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize<sp/>)<sp/>{<sp/>sampleFltPoints(<sp/>samplingVoxelSize<sp/>);<sp/>sampleRefPoints(<sp/>samplingVoxelSize<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="classMR_1_1ICP_1abd481b32d31b8f82a05f815143b28820" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated]]<sp/><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1abd481b32d31b8f82a05f815143b28820" kindref="member">recomputeBitSet</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fltSamplingVoxelSize<sp/>)<sp/>{<sp/>sampleFltPoints(<sp/>fltSamplingVoxelSize<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="classMR_1_1ICP_1ab88edcca6724a83490260b5136044e36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1ab88edcca6724a83490260b5136044e36" kindref="member">setXfs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>refXf<sp/>);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="classMR_1_1ICP_1a648f51132c41c3a5914156ba001be0b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a648f51132c41c3a5914156ba001be0b0" kindref="member">setFloatXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>fltXf<sp/>);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="classMR_1_1ICP_1af17a6cc396cbd9fef3d4f6b0d57646be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3f<sp/><ref refid="classMR_1_1ICP_1af17a6cc396cbd9fef3d4f6b0d57646be" kindref="member">autoSelectFloatXf</ref>();</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="classMR_1_1ICP_1ab1c8fb3d4bbd3f143c7af4c10fd3cefa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1ab1c8fb3d4bbd3f143c7af4c10fd3cefa" kindref="member">updatePointPairs</ref>();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="classMR_1_1ICP_1a3b44361c18aeb9ceab9d26c86c5939ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/><ref refid="classMR_1_1ICP_1a3b44361c18aeb9ceab9d26c86c5939ef" kindref="member">getParams</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prop_;<sp/>}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="classMR_1_1ICP_1ae72751da7183b696497da8a66bf7e256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="classMR_1_1ICP_1ae72751da7183b696497da8a66bf7e256" kindref="member">getStatusInfo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="classMR_1_1ICP_1a13f3b74f82ce6db64eeb57d6a5c043e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a13f3b74f82ce6db64eeb57d6a5c043e5" kindref="member">getNumSamples</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6bc994c1ebf7a119332f7d7a212cdd5e" kindref="member">MR::getNumSamples</ref>(<sp/>flt2refPairs_<sp/>)<sp/>+<sp/><ref refid="namespaceMR_1a6bc994c1ebf7a119332f7d7a212cdd5e" kindref="member">MR::getNumSamples</ref>(<sp/>ref2fltPairs_<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="classMR_1_1ICP_1a65b7b6725dccffc2b4ed1ff739c1b43c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1a65b7b6725dccffc2b4ed1ff739c1b43c" kindref="member">getNumActivePairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a5f3e72229b19af1e43886673711093af" kindref="member">MR::getNumActivePairs</ref>(<sp/>flt2refPairs_<sp/>)<sp/>+<sp/><ref refid="namespaceMR_1a5f3e72229b19af1e43886673711093af" kindref="member">MR::getNumActivePairs</ref>(<sp/>ref2fltPairs_<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="classMR_1_1ICP_1ae230860d711e0bc5b25d98ee5d0e9e41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1ae230860d711e0bc5b25d98ee5d0e9e41" kindref="member">getMeanSqDistToPoint</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="classMR_1_1ICP_1ad235353480650c74fddf9b25b125ca02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ICP_1ad235353480650c74fddf9b25b125ca02" kindref="member">getMeanSqDistToPlane</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="classMR_1_1ICP_1a615de191aaa0811f84bcd43de0798d0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>&amp;<sp/><ref refid="classMR_1_1ICP_1a615de191aaa0811f84bcd43de0798d0d" kindref="member">getFlt2RefPairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>flt2refPairs_;<sp/>}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="classMR_1_1ICP_1a5ae6b714ad76474375e6365bb6a882a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>&amp;<sp/><ref refid="classMR_1_1ICP_1a5ae6b714ad76474375e6365bb6a882a6" kindref="member">getRef2FltPairs</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ref2fltPairs_;<sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="classMR_1_1ICP_1a3f40555a05bfe2e6e231d81811b6baa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3f<sp/><ref refid="classMR_1_1ICP_1a3f40555a05bfe2e6e231d81811b6baa7" kindref="member">calculateTransformation</ref>();</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref><sp/>flt_;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref><sp/>ref_;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref><sp/>prop_;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>flt2refPairs_;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointPairs" kindref="compound">PointPairs</ref><sp/>ref2fltPairs_;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac977096020e15e4b699043b2c550bf83" kindref="member">ICPExitType</ref><sp/>resultType_{<sp/>ICPExitType::NotStarted<sp/>};</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>deactivatefarDistPairs_();</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2ptIter_();</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>p2plIter_();</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcGen_(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>::*dist)()<sp/>const,<sp/>bool<sp/>(<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>::*iter)()<sp/>);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcP2Pt_();</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcP2Pl_();</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>calcCombined_();</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h"/>
+  </compounddef>
+</doxygen>

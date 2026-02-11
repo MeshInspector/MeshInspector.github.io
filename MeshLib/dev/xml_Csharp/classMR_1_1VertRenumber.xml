@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertRenumber" kind="class" language="C#" prot="public">
+    <compoundname>MR::VertRenumber</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertRenumber</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1ab06d0e2c7302c68a630d2c99c7c2abc1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertRenumber.VertRenumber</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VertRenumber</name>
+        <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="656" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="656" bodyend="656"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1aeed452c284c54dc70df0d8ef01384b8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertRenumber.VertRenumber</definition>
+        <argsstring>(MR._ByValue_VertRenumber _other)</argsstring>
+        <name>VertRenumber</name>
+        <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertRenumber</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertRenumber.VertRenumber</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="661" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="661" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a8e3374a5cb5764bb78512c8ac571f1c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertRenumber.VertRenumber</definition>
+        <argsstring>(Const_VertRenumber _other)</argsstring>
+        <name>VertRenumber</name>
+        <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
+        <param>
+          <type>Const_VertRenumber</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertRenumber.VertRenumber</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="672" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="672" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1aaf48f76b31c9a3fecf9272ecf5a3bbd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertRenumber.VertRenumber</definition>
+        <argsstring>(VertRenumber _other)</argsstring>
+        <name>VertRenumber</name>
+        <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertRenumber" kindref="compound">VertRenumber</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertRenumber.VertRenumber</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="677" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="677" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1ae83d02049622d130ff89fc1b6751877e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertRenumber.VertRenumber</definition>
+        <argsstring>(MR.Const_VertBitSet validVerts, bool saveValidOnly)</argsstring>
+        <name>VertRenumber</name>
+        <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveValidOnly</declname>
+        </param>
+        <briefdescription>
+<para>prepares the mapping Generated from constructor <computeroutput>MR.VertRenumber.VertRenumber</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="683" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="683" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a9e94f668782c3f28619bb3f6b06a26c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertRenumber" kindref="compound">MR.VertRenumber</ref></type>
+        <definition>unsafe MR.VertRenumber MR.VertRenumber.assign</definition>
+        <argsstring>(MR._ByValue_VertRenumber _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VertRenumber.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertRenumber</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertRenumber.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="694" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="694" bodyend="701"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>maps valid points to packed sequential indices Generated from class <computeroutput><ref refid="classMR_1_1VertRenumber" kindref="compound">MR.VertRenumber</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VertRenumber</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertRenumber</label>
+        <link refid="classMR_1_1VertRenumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertRenumber &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VertRenumber</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertRenumber</label>
+        <link refid="classMR_1_1VertRenumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertRenumber &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="654" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="655" bodyend="702"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VertRenumber_1a9e94f668782c3f28619bb3f6b06a26c0" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>assign</name></member>
+      <member refid="classMR_1_1VertRenumber_1ab06d0e2c7302c68a630d2c99c7c2abc1" prot="package" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+      <member refid="classMR_1_1VertRenumber_1aeed452c284c54dc70df0d8ef01384b8b" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+      <member refid="classMR_1_1VertRenumber_1a8e3374a5cb5764bb78512c8ac571f1c3" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+      <member refid="classMR_1_1VertRenumber_1aaf48f76b31c9a3fecf9272ecf5a3bbd8" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+      <member refid="classMR_1_1VertRenumber_1ae83d02049622d130ff89fc1b6751877e" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

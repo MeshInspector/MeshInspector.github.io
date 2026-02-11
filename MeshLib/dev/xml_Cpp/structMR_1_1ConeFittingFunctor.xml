@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ConeFittingFunctor" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ConeFittingFunctor</compoundname>
+    <includes refid="MRConeApproximator_8h" local="no">MRConeApproximator.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1ConeFittingFunctor_1aedc71caa1d99e08276a1064f710e7005" prot="public" static="no">
+        <type>T</type>
+        <definition>using MR::ConeFittingFunctor&lt; T &gt;::Scalar =  T</definition>
+        <argsstring></argsstring>
+        <name>Scalar</name>
+        <qualifiedname>MR::ConeFittingFunctor::Scalar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1ConeFittingFunctor_1a369f95839764bbea9a5f5db04ec360ae" prot="public" static="no">
+        <type>Eigen::Matrix&lt; T, Eigen::Dynamic, 1 &gt;</type>
+        <definition>using MR::ConeFittingFunctor&lt; T &gt;::InputType =  Eigen::Matrix&lt;T, Eigen::Dynamic, 1&gt;</definition>
+        <argsstring></argsstring>
+        <name>InputType</name>
+        <qualifiedname>MR::ConeFittingFunctor::InputType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="40" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1ConeFittingFunctor_1ad11690cdf0c6a6de76d2859de79fa518" prot="public" static="no">
+        <type>Eigen::Matrix&lt; T, Eigen::Dynamic, 1 &gt;</type>
+        <definition>using MR::ConeFittingFunctor&lt; T &gt;::ValueType =  Eigen::Matrix&lt;T, Eigen::Dynamic, 1&gt;</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <qualifiedname>MR::ConeFittingFunctor::ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1ConeFittingFunctor_1ac2e6bb7e397f17483383aef3880628d3" prot="public" static="no">
+        <type>Eigen::Matrix&lt; T, Eigen::Dynamic, Eigen::Dynamic &gt;</type>
+        <definition>using MR::ConeFittingFunctor&lt; T &gt;::JacobianType =  Eigen::Matrix&lt;T, Eigen::Dynamic, Eigen::Dynamic&gt;</definition>
+        <argsstring></argsstring>
+        <name>JacobianType</name>
+        <qualifiedname>MR::ConeFittingFunctor::JacobianType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ConeFittingFunctor_1ab4532230e1c01c5aa993bb6427bcc60a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; Eigen::Vector3&lt; T &gt; &gt;</type>
+        <definition>std::vector&lt;Eigen::Vector3&lt;T&gt; &gt; MR::ConeFittingFunctor&lt; T &gt;::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR::ConeFittingFunctor::points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="44" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ConeFittingFunctor_1a8dd8ae0c1112caf1a8fcd5fca885de56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ConeFittingFunctor&lt; T &gt;::setPoints</definition>
+        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;pointsMR)</argsstring>
+        <name>setPoints</name>
+        <qualifiedname>MR::ConeFittingFunctor::setPoints</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
+          <declname>pointsMR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ConeFittingFunctor_1a5ce1dbf9d17f2aa05b508ef6df6e7151" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::ConeFittingFunctor&lt; T &gt;::inputs</definition>
+        <argsstring>() const</argsstring>
+        <name>inputs</name>
+        <qualifiedname>MR::ConeFittingFunctor::inputs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="55" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ConeFittingFunctor_1a2a2b7bdfec9781f51f20b12d1e1547aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::ConeFittingFunctor&lt; T &gt;::values</definition>
+        <argsstring>() const</argsstring>
+        <name>values</name>
+        <qualifiedname>MR::ConeFittingFunctor::values</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="59" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ConeFittingFunctor_1a75f4a1b12abfd495f279861dbfe344c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::ConeFittingFunctor&lt; T &gt;::operator()</definition>
+        <argsstring>(const InputType &amp;x, ValueType &amp;F) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::ConeFittingFunctor::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ConeFittingFunctor_1a369f95839764bbea9a5f5db04ec360ae" kindref="member">InputType</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ConeFittingFunctor_1ad11690cdf0c6a6de76d2859de79fa518" kindref="member">ValueType</ref> &amp;</type>
+          <declname>F</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf formula 103 F[i](V,W) = D^T * (I - W * W^T) * D where: D = V - X[i] and P = (V,W) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="67" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="67" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ConeFittingFunctor_1ab7852ba7e80ebd7f4f5dcc9d8d7c318d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::ConeFittingFunctor&lt; T &gt;::df</definition>
+        <argsstring>(const InputType &amp;x, JacobianType &amp;J) const</argsstring>
+        <name>df</name>
+        <qualifiedname>MR::ConeFittingFunctor::df</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ConeFittingFunctor_1a369f95839764bbea9a5f5db04ec360ae" kindref="member">InputType</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ConeFittingFunctor_1ac2e6bb7e397f17483383aef3880628d3" kindref="member">JacobianType</ref> &amp;</type>
+          <declname>J</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Here we calculate a Jacobian. function name requested by Eigen lib. </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Derivative of f with respect to the components of vertex V</para>
+<para>Derivative of f with respect to the components of the vector W</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="90" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="90" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>to use Levenberg-Marquardt minimization we need a special type of functor to look1: <ulink url="https:///">https:///</ulink> github.com/cryos/eigen/blob/master/unsupported/test/NonLinearOptimization.cpp : lmder_functor to look2: <ulink url="https:///">https:///</ulink> eigen.tuxfamily.org/dox-devel/unsupported/group__NonLinearOptimization__Module.html </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="38" bodyend="124"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ConeFittingFunctor_1ab7852ba7e80ebd7f4f5dcc9d8d7c318d" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>df</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1a5ce1dbf9d17f2aa05b508ef6df6e7151" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>inputs</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1a369f95839764bbea9a5f5db04ec360ae" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>InputType</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1ac2e6bb7e397f17483383aef3880628d3" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>JacobianType</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1a75f4a1b12abfd495f279861dbfe344c6" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>operator()</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1ab4532230e1c01c5aa993bb6427bcc60a" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>points</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1aedc71caa1d99e08276a1064f710e7005" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>Scalar</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1a8dd8ae0c1112caf1a8fcd5fca885de56" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>setPoints</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1a2a2b7bdfec9781f51f20b12d1e1547aa" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>values</name></member>
+      <member refid="structMR_1_1ConeFittingFunctor_1ad11690cdf0c6a6de76d2859de79fa518" prot="public" virt="non-virtual"><scope>MR::ConeFittingFunctor</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMeasurementIndicators::LineCap</compoundname>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1ac337c328d1e23a188ffa5660266acf20" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6a" kindref="member">LineCapDecoration</ref></type>
+        <definition>LineCapDecoration MR::ImGuiMeasurementIndicators::LineCap::decoration</definition>
+        <argsstring></argsstring>
+        <name>decoration</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::LineCap::decoration</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="331" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="331" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1aea63e8c86e90a9f540bdce73fd2def7a" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">Text</ref></type>
+        <definition>Text MR::ImGuiMeasurementIndicators::LineCap::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::LineCap::text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="333" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1a410882924f1531864aeae4b56402feca" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kindref="compound">TextParams</ref></type>
+        <definition>TextParams MR::ImGuiMeasurementIndicators::LineCap::textParams</definition>
+        <argsstring></argsstring>
+        <name>textParams</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::LineCap::textParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="334" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::ImGuiMeasurementIndicators::LineCap</label>
+        <link refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>text</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>textParams</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ImGuiMeasurementIndicators::Text</label>
+        <link refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text"/>
+      </node>
+      <node id="3">
+        <label>MR::ImGuiMeasurementIndicators::TextParams</label>
+        <link refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>borderColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="330" bodyend="335"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1ac337c328d1e23a188ffa5660266acf20" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::LineCap</scope><name>decoration</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1aea63e8c86e90a9f540bdce73fd2def7a" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::LineCap</scope><name>text</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1a410882924f1531864aeae4b56402feca" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::LineCap</scope><name>textParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SystemPath" kind="class" language="C++" prot="public">
+    <compoundname>MR::SystemPath</compoundname>
+    <includes refid="MRSystemPath_8h" local="no">MRSystemPath.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Directory</name>
+        <qualifiedname>MR::SystemPath::Directory</qualifiedname>
+        <enumvalue id="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057baddcf50c29294d4414f3f7c1bbc892cb5" prot="public">
+          <name>Resources</name>
+          <briefdescription>
+<para>resources (.json, .png) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057ba59c4ad3f3cb3d812d68fab7a354d4a63" prot="public">
+          <name>Fonts</name>
+          <briefdescription>
+<para>fonts (.ttf, .otf) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057babb38096ab39160dc20d44f3ea6b44507" prot="public">
+          <name>Plugins</name>
+          <briefdescription>
+<para>plugins (.dll, .so, .dylib) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057baa9b9ad9b15630bfc857db491ee781e53" prot="public">
+          <name>PythonModules</name>
+          <briefdescription>
+<para>Python modules (.pyd, .so, .dylib, .pyi) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057bae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>directory category </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SystemFontType</name>
+        <qualifiedname>MR::SystemPath::SystemFontType</qualifiedname>
+        <enumvalue id="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8ad2203cb1237cb6460cbad94564e39345" prot="public">
+          <name>Regular</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8a114c3050111d8b8ddd830b99ccebd246" prot="public">
+          <name>Bold</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8a1d874710ccdcd46b95397049d2e7500c" prot="public">
+          <name>Italic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8a1e8fb6e2ee37a07189ff20a09cb4d6d5" prot="public">
+          <name>BoldItalic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>supported types of system fonts fonts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="48" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1SystemPath_1adca67651e9ad888aca1f1b9fd171366d" prot="public" static="no">
+        <type>std::array&lt; std::filesystem::path, size_t(<ref refid="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">SystemFontType::Count</ref>)&gt;</type>
+        <definition>using MR::SystemPath::SystemFontPaths =  std::array&lt;std::filesystem::path, size_t( SystemFontType::Count )&gt;</definition>
+        <argsstring></argsstring>
+        <name>SystemFontPaths</name>
+        <qualifiedname>MR::SystemPath::SystemFontPaths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="57" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a453e2e3c6fb9d007fc46ed589a2eb367" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::filesystem::path &gt; &amp;</type>
+        <definition>static MRMESH_API const Expected&lt; std::filesystem::path &gt; &amp; MR::SystemPath::getExecutablePath</definition>
+        <argsstring>()</argsstring>
+        <name>getExecutablePath</name>
+        <qualifiedname>MR::SystemPath::getExecutablePath</qualifiedname>
+        <briefdescription>
+<para>get the current executable&apos;s file path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="17" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1adf165ab90985e307595cba9624b8d2e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::filesystem::path &gt; &amp;</type>
+        <definition>static MRMESH_API const Expected&lt; std::filesystem::path &gt; &amp; MR::SystemPath::getLibraryPath</definition>
+        <argsstring>()</argsstring>
+        <name>getLibraryPath</name>
+        <qualifiedname>MR::SystemPath::getLibraryPath</qualifiedname>
+        <briefdescription>
+<para>get the MRMesh binary&apos;s file path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="20" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a5ca780a1511c9e6e7957e5f8e55109ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::filesystem::path &gt;</type>
+        <definition>static MRMESH_API Expected&lt; std::filesystem::path &gt; MR::SystemPath::getLibraryPathForSymbol</definition>
+        <argsstring>(const void *symbol)</argsstring>
+        <name>getLibraryPathForSymbol</name>
+        <qualifiedname>MR::SystemPath::getLibraryPathForSymbol</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the location of a shared library containing the given symbol <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pointer to a function </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="24" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a9b8d7ac188dd7cc6efe81de03c7196d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::filesystem::path &gt;</type>
+        <definition>static MRMESH_API Expected&lt; std::filesystem::path &gt; MR::SystemPath::getExecutableDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getExecutableDirectory</name>
+        <qualifiedname>MR::SystemPath::getExecutableDirectory</qualifiedname>
+        <briefdescription>
+<para>get the current executable&apos;s directory path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="27" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a61497af06afdddd7901fdb3138504926" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::filesystem::path &gt;</type>
+        <definition>static MRMESH_API Expected&lt; std::filesystem::path &gt; MR::SystemPath::getLibraryDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getLibraryDirectory</name>
+        <qualifiedname>MR::SystemPath::getLibraryDirectory</qualifiedname>
+        <briefdescription>
+<para>get the MRMesh binary&apos;s directory path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="30" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1af6465d9083394a40711dd0845916bef1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::filesystem::path</type>
+        <definition>static MRMESH_API std::filesystem::path MR::SystemPath::getDirectory</definition>
+        <argsstring>(Directory dir)</argsstring>
+        <name>getDirectory</name>
+        <qualifiedname>MR::SystemPath::getDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057b" kindref="member">Directory</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>get the directory path for specified category </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="60" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1ac35cd65b07ab2b9ec30b9e1607cba77e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>static MRMESH_API void MR::SystemPath::overrideDirectory</definition>
+        <argsstring>(Directory dir, const std::filesystem::path &amp;path)</argsstring>
+        <name>overrideDirectory</name>
+        <qualifiedname>MR::SystemPath::overrideDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057b" kindref="member">Directory</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>override the directory path for specified category, useful for custom configurations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="62" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1aaa1081b4d630747efb71d1a82122d425" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>static std::filesystem::path MR::SystemPath::getResourcesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getResourcesDirectory</name>
+        <qualifiedname>MR::SystemPath::getResourcesDirectory</qualifiedname>
+        <briefdescription>
+<para>get the resource files&apos; directory path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="65" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a65c749ec96a56b9a992aed05254ecd8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>static std::filesystem::path MR::SystemPath::getFontsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getFontsDirectory</name>
+        <qualifiedname>MR::SystemPath::getFontsDirectory</qualifiedname>
+        <briefdescription>
+<para>get the font files&apos; directory path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="67" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a182f27ccc099fa1f6a791cfcee12ad21" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>static std::filesystem::path MR::SystemPath::getPluginsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getPluginsDirectory</name>
+        <qualifiedname>MR::SystemPath::getPluginsDirectory</qualifiedname>
+        <briefdescription>
+<para>get the plugin binaries&apos; directory path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="69" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a017792d241221ffcfa4c3a06904c3e9c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>static std::filesystem::path MR::SystemPath::getPythonModulesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getPythonModulesDirectory</name>
+        <qualifiedname>MR::SystemPath::getPythonModulesDirectory</qualifiedname>
+        <briefdescription>
+<para>get the Python modules&apos; binaries&apos; directory path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="71" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a357e5d407233a5d10fdeb480f4563c4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::vector&lt; <ref refid="classMR_1_1SystemPath_1adca67651e9ad888aca1f1b9fd171366d" kindref="member">SystemFontPaths</ref> &gt; &amp;</type>
+        <definition>static MRMESH_API const std::vector&lt; SystemFontPaths &gt; &amp; MR::SystemPath::getSystemFonts</definition>
+        <argsstring>()</argsstring>
+        <name>getSystemFonts</name>
+        <qualifiedname>MR::SystemPath::getSystemFonts</qualifiedname>
+        <briefdescription>
+<para>get name all system fonts that have italics, bold, bold italics </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="73" column="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>system directory path manager </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="13" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SystemPath_1afb3badbeb3302b38006c0c0bb407057b" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Directory</name></member>
+      <member refid="classMR_1_1SystemPath_1af6465d9083394a40711dd0845916bef1" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1a9b8d7ac188dd7cc6efe81de03c7196d9" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getExecutableDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1a453e2e3c6fb9d007fc46ed589a2eb367" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getExecutablePath</name></member>
+      <member refid="classMR_1_1SystemPath_1a65c749ec96a56b9a992aed05254ecd8a" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getFontsDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1a61497af06afdddd7901fdb3138504926" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1adf165ab90985e307595cba9624b8d2e6" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryPath</name></member>
+      <member refid="classMR_1_1SystemPath_1a5ca780a1511c9e6e7957e5f8e55109ae" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getLibraryPathForSymbol</name></member>
+      <member refid="classMR_1_1SystemPath_1a182f27ccc099fa1f6a791cfcee12ad21" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getPluginsDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1a017792d241221ffcfa4c3a06904c3e9c" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getPythonModulesDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1aaa1081b4d630747efb71d1a82122d425" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getResourcesDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1a357e5d407233a5d10fdeb480f4563c4a" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getSystemFonts</name></member>
+      <member refid="classMR_1_1SystemPath_1ac35cd65b07ab2b9ec30b9e1607cba77e" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>overrideDirectory</name></member>
+      <member refid="classMR_1_1SystemPath_1adca67651e9ad888aca1f1b9fd171366d" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemFontPaths</name></member>
+      <member refid="classMR_1_1SystemPath_1a0cf7d55377d8e831c45ed8aa549b7ac8" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemFontType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

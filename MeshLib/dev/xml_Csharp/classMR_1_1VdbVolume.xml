@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VdbVolume" kind="class" language="C#" prot="public">
+    <compoundname>MR::VdbVolume</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VdbVolume</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VdbVolume_1a3ea5720107997e4344a2722e86344bfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+        <definition>new unsafe MR.FloatGrid MR.VdbVolume.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR.VdbVolume.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1493" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1493" bodyend="1493"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VdbVolume_1ab9777edc2a724188b5e58575000d3703" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>new unsafe ref MR.Vector3i MR.VdbVolume.dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.VdbVolume.dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1495" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VdbVolume_1aa96b1cfd98d0aaa70138791f74fd15e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.VdbVolume.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.VdbVolume.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1497" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VdbVolume_1aeb7a12a06eb03414c60a0c3564be5a97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.VdbVolume.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.VdbVolume.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1499" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VdbVolume_1a1f4759c23c33dfab74c6255a97da8894" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.VdbVolume.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.VdbVolume.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1501" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1501" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1a5400eebfe3c053d0ea854fea6deb8532" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.VdbVolume.operator MR.VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>(VdbVolume self)</argsstring>
+        <name>operator MR.VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.VdbVolume.operator MR.VoxelsVolume_MRFloatGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1476" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1476" bodyend="1483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1a0995f24406f533002ac34a7bf2b49d53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.VdbVolume.operator MR.Box_Box1f</definition>
+        <argsstring>(VdbVolume self)</argsstring>
+        <name>operator MR.Box_Box1f</name>
+        <qualifiedname>MR.VdbVolume.operator MR.Box_Box1f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1484" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1484" bodyend="1491"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1a7587f572db9e70d799bd19e6dfd871f2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VdbVolume.VdbVolume</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VdbVolume</name>
+        <qualifiedname>MR.VdbVolume.VdbVolume</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1520" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1520" bodyend="1524"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1a437a67b5b5c63277aa02b1154d7cce16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VdbVolume.VdbVolume</definition>
+        <argsstring>()</argsstring>
+        <name>VdbVolume</name>
+        <qualifiedname>MR.VdbVolume.VdbVolume</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1530" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1530" bodyend="1536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1abd0a3edaaacf689f74b81ab20a385a47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VdbVolume.VdbVolume</definition>
+        <argsstring>(MR._ByValue_VdbVolume _other)</argsstring>
+        <name>VdbVolume</name>
+        <qualifiedname>MR.VdbVolume.VdbVolume</qualifiedname>
+        <param>
+          <type>MR._ByValue_VdbVolume</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VdbVolume.VdbVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1541" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1541" bodyend="1548"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1aec5e97451fd154c955efd00db9c9e430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VdbVolume.VdbVolume</definition>
+        <argsstring>(Const_VdbVolume _other)</argsstring>
+        <name>VdbVolume</name>
+        <qualifiedname>MR.VdbVolume.VdbVolume</qualifiedname>
+        <param>
+          <type>Const_VdbVolume</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VdbVolume.VdbVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1553" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1553" bodyend="1553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1a64b7f05a83174ed8ee5ed9ee14437c7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VdbVolume.VdbVolume</definition>
+        <argsstring>(VdbVolume _other)</argsstring>
+        <name>VdbVolume</name>
+        <qualifiedname>MR.VdbVolume.VdbVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VdbVolume.VdbVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1558" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1558" bodyend="1558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1ae769456b94972b06bde76e94324d7d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>unsafe MR.VdbVolume MR.VdbVolume.assign</definition>
+        <argsstring>(MR._ByValue_VdbVolume _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VdbVolume.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_VdbVolume</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VdbVolume.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1563" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1563" bodyend="1570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VdbVolume_1a470d897a5436403d590f87220291c47d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></type>
+        <definition>unsafe ref MR.Box1f MR.VdbVolume.intersect</definition>
+        <argsstring>(in MR.Box1f b)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>MR.VdbVolume.intersect</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VdbVolume_1a470d897a5436403d590f87220291c47d" kindref="member">MR.VdbVolume.intersect</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1575" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1575" bodyend="1583"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;</computeroutput> <computeroutput><ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VdbVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VdbVolume</label>
+        <link refid="classMR_1_1VdbVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VdbVolume &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Box1f &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VdbVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VdbVolume</label>
+        <link refid="classMR_1_1VdbVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VdbVolume &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Box1f &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1473" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1474" bodyend="1584"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VdbVolume_1ae769456b94972b06bde76e94324d7d15" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1VdbVolume_1a3ea5720107997e4344a2722e86344bfe" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>data</name></member>
+      <member refid="classMR_1_1VdbVolume_1ab9777edc2a724188b5e58575000d3703" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>dims</name></member>
+      <member refid="classMR_1_1VdbVolume_1a470d897a5436403d590f87220291c47d" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>intersect</name></member>
+      <member refid="classMR_1_1VdbVolume_1a1f4759c23c33dfab74c6255a97da8894" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>max</name></member>
+      <member refid="classMR_1_1VdbVolume_1aeb7a12a06eb03414c60a0c3564be5a97" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>min</name></member>
+      <member refid="classMR_1_1VdbVolume_1a0995f24406f533002ac34a7bf2b49d53" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator MR.Box_Box1f</name></member>
+      <member refid="classMR_1_1VdbVolume_1a5400eebfe3c053d0ea854fea6deb8532" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator MR.VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1VdbVolume_1a7587f572db9e70d799bd19e6dfd871f2" prot="package" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
+      <member refid="classMR_1_1VdbVolume_1a437a67b5b5c63277aa02b1154d7cce16" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
+      <member refid="classMR_1_1VdbVolume_1abd0a3edaaacf689f74b81ab20a385a47" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
+      <member refid="classMR_1_1VdbVolume_1aec5e97451fd154c955efd00db9c9e430" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
+      <member refid="classMR_1_1VdbVolume_1a64b7f05a83174ed8ee5ed9ee14437c7a" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
+      <member refid="classMR_1_1VdbVolume_1aa96b1cfd98d0aaa70138791f74fd15e0" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

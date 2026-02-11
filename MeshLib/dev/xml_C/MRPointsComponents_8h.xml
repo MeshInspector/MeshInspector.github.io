@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointsComponents_8h" kind="file" language="C++">
+    <compoundname>MRPointsComponents.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPointsComponents.h</label>
+        <link refid="MRPointsComponents_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
+        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="10" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref></type>
+        <definition>typedef struct MR_UnionFind_MR_VertId MR_UnionFind_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_UnionFind_MR_VertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="11" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" prot="public" static="no">
+        <type>struct <ref refid="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" kindref="member">MR_expected_MR_UnionFind_MR_VertId_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_UnionFind_MR_VertId_std_string MR_expected_MR_UnionFind_MR_VertId_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_UnionFind_MR_VertId_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="13" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1ad28f0eefdef309c3ac3580e15985c342" prot="public" static="no">
+        <type>struct <ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_VertBitSet_std_string MR_expected_MR_VertBitSet_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_VertBitSet_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" prot="public" static="no">
+        <type>struct <ref refid="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" kindref="member">MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</ref></type>
+        <definition>typedef struct MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="15" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" prot="public" static="no">
+        <type>struct <ref refid="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" kindref="member">MR_expected_std_vector_MR_VertBitSet_std_string</ref></type>
+        <definition>typedef struct MR_expected_std_vector_MR_VertBitSet_std_string MR_expected_std_vector_MR_VertBitSet_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_std_vector_MR_VertBitSet_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="16" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsComponents_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="17" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPointsComponents_8h_1a0b2c242f30beec6a05527fcad7c228af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_VertBitSet_std_string * MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, float maxDist, int minSize, MR_PassBy pc_pass_by, MR_std_function_bool_from_float *pc)</argsstring>
+        <name>MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the union of point cloud components containing at least minSize points and connected by a distance no greater than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must be more than 1 Generated from function <computeroutput>MR::PointCloudComponents::getLargeComponentsUnion</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pc</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_VertBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="26" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" declline="26" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsComponents_8h_1ac784cd659ee05c427f87f551b8e663bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_VertBitSet_std_string * MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *unionStructs, const MR_VertBitSet *region, int minSize, MR_PassBy pc_pass_by, MR_std_function_bool_from_float *pc)</argsstring>
+        <name>MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>unionStructs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the union of vertices components containing at least minSize points <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unionStructs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>prepared point union structure </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>have side effect: call unionStructs.roots() that change unionStructs Generated from function <computeroutput>MR::PointCloudComponents::getLargeComponentsUnion</computeroutput>. Parameter <computeroutput>unionStructs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pc</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_VertBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="36" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" declline="36" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsComponents_8h_1a7700ab098b641cf0a583d9f8745c969a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" kindref="member">MR_expected_std_vector_MR_VertBitSet_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_VertBitSet_std_string * MR_PointCloudComponents_getLargeComponents</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, float maxDist, int minSize, MR_PassBy pc_pass_by, MR_std_function_bool_from_float *pc)</argsstring>
+        <name>MR_PointCloudComponents_getLargeComponents</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns vector of point cloud components containing at least minSize points and connected by a distance no greater than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must be more than 1 Generated from function <computeroutput>MR::PointCloudComponents::getLargeComponents</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pc</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_VertBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="44" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" declline="44" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsComponents_8h_1a64ed75d965e26160c7d9f38525cfb501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" kindref="member">MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string * MR_PointCloudComponents_getAllComponents</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, float maxDist, const int *maxComponentCount, MR_PassBy pc_pass_by, MR_std_function_bool_from_float *pc)</argsstring>
+        <name>MR_PointCloudComponents_getAllComponents</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all components of point cloud connected by a distance no greater than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>\detail if components number more than the maxComponentCount, they will be combined into groups of the same size </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>be careful, if point cloud is large enough and has many components, the memory overflow will occur </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput>MR::PointCloudComponents::getAllComponents</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>maxComponentCount</computeroutput> has a default argument: <computeroutput>2147483647</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pc</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="56" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" declline="56" declcolumn="70"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsComponents_8h_1ad79cbad772347e0646b0914c52b2e091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" kindref="member">MR_expected_MR_UnionFind_MR_VertId_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_UnionFind_MR_VertId_std_string * MR_PointCloudComponents_getUnionFindStructureVerts</definition>
+        <argsstring>(const MR_PointCloud *pointCloud, float maxDist, const MR_VertBitSet *region, MR_PassBy pc_pass_by, MR_std_function_bool_from_float *pc)</argsstring>
+        <name>MR_PointCloudComponents_getUnionFindStructureVerts</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets union - find structure for vertices in<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>connected by a distance no greater than</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from function <computeroutput>MR::PointCloudComponents::getUnionFindStructureVerts</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>pc</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_UnionFind_MR_VertId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" line="64" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h" declline="64" declcolumn="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="MRPointsComponents_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRPointsComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRPointsComponents_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" kindref="member">MR_expected_MR_UnionFind_MR_VertId_std_string</ref><sp/><ref refid="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" kindref="member">MR_expected_MR_UnionFind_MR_VertId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_UnionFind_MR_VertId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRPointsComponents_8h_1ad28f0eefdef309c3ac3580e15985c342" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VertBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" kindref="member">MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</ref><sp/><ref refid="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" kindref="member">MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_pair_std_vector_MR_VertBitSet_int_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" kindref="member">MR_expected_std_vector_MR_VertBitSet_std_string</ref><sp/><ref refid="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" kindref="member">MR_expected_std_vector_MR_VertBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_VertBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRPointsComponents_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRPointsComponents_8h_1a0b2c242f30beec6a05527fcad7c228af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MRPointsComponents_8h_1a0b2c242f30beec6a05527fcad7c228af" kindref="member">MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize,<sp/>MR_PassBy<sp/>pc_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pc);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRPointsComponents_8h_1ac784cd659ee05c427f87f551b8e663bf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MRPointsComponents_8h_1ac784cd659ee05c427f87f551b8e663bf" kindref="member">MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*unionStructs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize,<sp/>MR_PassBy<sp/>pc_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pc);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRPointsComponents_8h_1a7700ab098b641cf0a583d9f8745c969a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsComponents_8h_1a4cf5aa682ccf0ecddb2606cda1365ab1" kindref="member">MR_expected_std_vector_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MRPointsComponents_8h_1a7700ab098b641cf0a583d9f8745c969a" kindref="member">MR_PointCloudComponents_getLargeComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize,<sp/>MR_PassBy<sp/>pc_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pc);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRPointsComponents_8h_1a64ed75d965e26160c7d9f38525cfb501" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsComponents_8h_1a360ac9b60df106ebfee946e32da4eedb" kindref="member">MR_expected_std_pair_std_vector_MR_VertBitSet_int_std_string</ref><sp/>*<ref refid="MRPointsComponents_8h_1a64ed75d965e26160c7d9f38525cfb501" kindref="member">MR_PointCloudComponents_getAllComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*maxComponentCount,<sp/>MR_PassBy<sp/>pc_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pc);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRPointsComponents_8h_1ad79cbad772347e0646b0914c52b2e091" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsComponents_8h_1a82dfc901421e2146a37c83edcd359b2c" kindref="member">MR_expected_MR_UnionFind_MR_VertId_std_string</ref><sp/>*<ref refid="MRPointsComponents_8h_1ad79cbad772347e0646b0914c52b2e091" kindref="member">MR_PointCloudComponents_getUnionFindStructureVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/>MR_PassBy<sp/>pc_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pc);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsComponents.h"/>
+  </compounddef>
+</doxygen>

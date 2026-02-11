@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TransparencyMode" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TransparencyMode</compoundname>
+    <includes refid="MRRenderModelParameters_8h" local="no">MRRenderModelParameters.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structMR_1_1TransparencyMode_1a9dbfa2d5793105fa2d992a5d8f5c0709" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::TransparencyMode::alphaSort_</definition>
+        <argsstring></argsstring>
+        <name>alphaSort_</name>
+        <qualifiedname>MR::TransparencyMode::alphaSort_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="29" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TransparencyMode_1a266993981e4804655c82409123a7afbb" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::TransparencyMode::bgDepthTexId_</definition>
+        <argsstring></argsstring>
+        <name>bgDepthTexId_</name>
+        <qualifiedname>MR::TransparencyMode::bgDepthTexId_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="30" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TransparencyMode_1a9ee3f91c4ae1af39b717dfa243478bbe" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::TransparencyMode::fgColorTexId_</definition>
+        <argsstring></argsstring>
+        <name>fgColorTexId_</name>
+        <qualifiedname>MR::TransparencyMode::fgColorTexId_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="31" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TransparencyMode_1a8d9d3933011df383d7bcc3cd915a2bf2" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::TransparencyMode::fgDepthTexId_</definition>
+        <argsstring></argsstring>
+        <name>fgDepthTexId_</name>
+        <qualifiedname>MR::TransparencyMode::fgDepthTexId_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="32" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1ad5ce7dfebc8414530e9eee5461a1f289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::TransparencyMode::TransparencyMode</definition>
+        <argsstring>()=default</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR::TransparencyMode::TransparencyMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="12" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1acef2ea274f971cc74df7a2fd99b36015" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::TransparencyMode::TransparencyMode</definition>
+        <argsstring>(bool alphaSort)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR::TransparencyMode::TransparencyMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>alphaSort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1a9a8e6098b919361c7b52509a09b4a721" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::TransparencyMode::TransparencyMode</definition>
+        <argsstring>(unsigned bgDepthTexId, unsigned fgColorTexId, unsigned fgDepthTexId)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR::TransparencyMode::TransparencyMode</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>bgDepthTexId</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>fgColorTexId</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>fgDepthTexId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1a9a2031185aed72838a49ebb2a1957c8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::TransparencyMode::isAlphaSortEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>isAlphaSortEnabled</name>
+        <qualifiedname>MR::TransparencyMode::isAlphaSortEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1aa9bc33f5eeaa24b171e44533af4de142" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::TransparencyMode::isDepthPeelingEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>isDepthPeelingEnabled</name>
+        <qualifiedname>MR::TransparencyMode::isDepthPeelingEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1a65df6f08609eca59bd1831503bf815c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned MR::TransparencyMode::getBGDepthPeelingDepthTextureId</definition>
+        <argsstring>() const</argsstring>
+        <name>getBGDepthPeelingDepthTextureId</name>
+        <qualifiedname>MR::TransparencyMode::getBGDepthPeelingDepthTextureId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1ace104b53c144673ddef1e4151a3a1cf0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned MR::TransparencyMode::getFGDepthPeelingColorTextureId</definition>
+        <argsstring>() const</argsstring>
+        <name>getFGDepthPeelingColorTextureId</name>
+        <qualifiedname>MR::TransparencyMode::getFGDepthPeelingColorTextureId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TransparencyMode_1a4e77adaf3e1aa2e86d6f1158bf0841d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned MR::TransparencyMode::getFGDepthPeelingDepthTextureId</definition>
+        <argsstring>() const</argsstring>
+        <name>getFGDepthPeelingDepthTextureId</name>
+        <qualifiedname>MR::TransparencyMode::getFGDepthPeelingDepthTextureId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="26" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>struct to determine transparent rendering mode </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRenderModelParameters.h" bodystart="10" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TransparencyMode_1a9dbfa2d5793105fa2d992a5d8f5c0709" prot="private" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>alphaSort_</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a266993981e4804655c82409123a7afbb" prot="private" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>bgDepthTexId_</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a9ee3f91c4ae1af39b717dfa243478bbe" prot="private" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>fgColorTexId_</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a8d9d3933011df383d7bcc3cd915a2bf2" prot="private" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>fgDepthTexId_</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a65df6f08609eca59bd1831503bf815c5" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>getBGDepthPeelingDepthTextureId</name></member>
+      <member refid="structMR_1_1TransparencyMode_1ace104b53c144673ddef1e4151a3a1cf0" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>getFGDepthPeelingColorTextureId</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a4e77adaf3e1aa2e86d6f1158bf0841d6" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>getFGDepthPeelingDepthTextureId</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a9a2031185aed72838a49ebb2a1957c8c" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>isAlphaSortEnabled</name></member>
+      <member refid="structMR_1_1TransparencyMode_1aa9bc33f5eeaa24b171e44533af4de142" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>isDepthPeelingEnabled</name></member>
+      <member refid="structMR_1_1TransparencyMode_1ad5ce7dfebc8414530e9eee5461a1f289" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="structMR_1_1TransparencyMode_1acef2ea274f971cc74df7a2fd99b36015" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="structMR_1_1TransparencyMode_1a9a8e6098b919361c7b52509a09b4a721" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

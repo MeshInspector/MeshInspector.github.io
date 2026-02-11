@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrcudapy_1_1FastWindingNumber" kind="class" language="Python" prot="public">
+    <compoundname>mrcudapy::FastWindingNumber</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">meshlib.mrmeshpy.IFastWindingNumber</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">meshlib.mrmeshpy.IFastWindingNumberByParts</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1a43010b9a604d12093a31f3a24e986709" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="40" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1a6d96e6a54e561488ac8e75a3db57c289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.__init__</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Mesh mesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs this from AABB tree of given mesh;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1a4b83d09ad2d66fa7d43e6c9d658fcde7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.__init__</definition>
+        <argsstring>(self, FastWindingNumber arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrcudapy_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1aeb8b41d05598fc70538563ce64efb0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.calcFromGrid</definition>
+        <argsstring>(self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</argsstring>
+        <name>calcFromGrid</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.calcFromGrid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_float</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.AffineXf3f</type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="52" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1a79f1b2f8b30d09facf58170613773ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.calcFromGridByParts</definition>
+        <argsstring>(self, meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, float beta, int layerOverlap, meshlib.mrmeshpy.func_bool_from_float cb)</argsstring>
+        <name>calcFromGridByParts</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.calcFromGridByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</type>
+          <declname>resFunc</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.AffineXf3f</type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>see methods&apos; descriptions in IFastWindingNumberByParts
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="54" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1a36e07c5949e8e58a6f20420f8a0202c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.calcFromGridWithDistances</definition>
+        <argsstring>(self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, meshlib.mrmeshpy.DistanceToMeshOptions options, meshlib.mrmeshpy.func_bool_from_float cb)</argsstring>
+        <name>calcFromGridWithDistances</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.calcFromGridWithDistances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_float</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.AffineXf3f</type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.DistanceToMeshOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="58" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1ad5ad9834bc94fda9b02b5a0ee5af7c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.calcFromGridWithDistancesByParts</definition>
+        <argsstring>(self, meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, meshlib.mrmeshpy.DistanceToMeshOptions options, int layerOverlap, meshlib.mrmeshpy.func_bool_from_float cb)</argsstring>
+        <name>calcFromGridWithDistancesByParts</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.calcFromGridWithDistancesByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</type>
+          <declname>resFunc</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.AffineXf3f</type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.DistanceToMeshOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1a7ee4623a45ba71e0d805bd475b9808c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.calcFromVector</definition>
+        <argsstring>(self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.std_vector_Vector3_float points, float beta, meshlib.mrmeshpy.FaceId skipFace, meshlib.mrmeshpy.func_bool_from_float cb)</argsstring>
+        <name>calcFromVector</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.calcFromVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_float</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_Vector3_float</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.FaceId</type>
+          <declname>skipFace</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>see methods&apos; descriptions in IFastWindingNumber
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1FastWindingNumber_1ad7feb91d3a3cef77741220cd46fc814c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.FastWindingNumber.calcSelfIntersections</definition>
+        <argsstring>(self, meshlib.mrmeshpy.FaceBitSet res, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</argsstring>
+        <name>calcSelfIntersections</name>
+        <qualifiedname>mrcudapy.FastWindingNumber.calcSelfIntersections</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.FaceBitSet</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="66" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cuda::FastWindingNumber
+
+the class for fast approximate computation of winding number for a mesh (using its AABB tree)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>meshlib::mrmeshpy::IFastWindingNumber</label>
+      </node>
+      <node id="3">
+        <label>meshlib::mrmeshpy::IFastWindingNumberByParts</label>
+      </node>
+      <node id="1">
+        <label>mrcudapy.FastWindingNumber</label>
+        <link refid="classmrcudapy_1_1FastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>meshlib::mrmeshpy::IFastWindingNumber</label>
+      </node>
+      <node id="3">
+        <label>meshlib::mrmeshpy::IFastWindingNumberByParts</label>
+      </node>
+      <node id="1">
+        <label>mrcudapy.FastWindingNumber</label>
+        <link refid="classmrcudapy_1_1FastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="32" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1a43010b9a604d12093a31f3a24e986709" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1a6d96e6a54e561488ac8e75a3db57c289" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1a4b83d09ad2d66fa7d43e6c9d658fcde7" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1aeb8b41d05598fc70538563ce64efb0f2" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>calcFromGrid</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1a79f1b2f8b30d09facf58170613773ada" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>calcFromGridByParts</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1a36e07c5949e8e58a6f20420f8a0202c8" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1ad5ad9834bc94fda9b02b5a0ee5af7c3c" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>calcFromGridWithDistancesByParts</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1a7ee4623a45ba71e0d805bd475b9808c5" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>calcFromVector</name></member>
+      <member refid="classmrcudapy_1_1FastWindingNumber_1ad7feb91d3a3cef77741220cd46fc814c" prot="public" virt="non-virtual"><scope>mrcudapy::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

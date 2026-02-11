@@ -1,0 +1,1462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineTopology" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineTopology</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineTopology_1abf31b54f1104c38ddf4a5204ce3c83e3" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineTopology::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46866" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a2d3f117016bf55d9b0f85069db37fe36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46869" bodyend="46870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ab26fd811534e5752f4ba01eefe3b6fe3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+        <definition> PolylineTopology mrmeshpy.PolylineTopology.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46873" bodyend="46874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ab26fd811534e5752f4ba01eefe3b6fe3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+        <definition> PolylineTopology mrmeshpy.PolylineTopology.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46877" bodyend="46878"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a3be5c06a4fcb9e577bbecd89ac6ae486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.__eq__</definition>
+        <argsstring>(self, PolylineTopology b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>comparison via edges (all other members are considered as not important caches)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46879" bodyend="46882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ad6f3e5bef5e445aef0638a20bb50ed5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46884" bodyend="46885"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1acfcb2b0913edc559a1cd92403b9dddbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.__init__</definition>
+        <argsstring>(self, PolylineTopology arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46887" bodyend="46890"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0493a0855f54cf30b8850d19b96f2a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.__ne__</definition>
+        <argsstring>(self, PolylineTopology b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46891" bodyend="46892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a1d33fde6014d0b1009d17e5758119d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.addPart</definition>
+        <argsstring>(self, PolylineTopology from_, VertMap outVmap=None, WholeEdgeMap outEmap=None)</argsstring>
+        <name>addPart</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.addPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>from_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+          <declname>outEmap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends polyline topology (from) in addition to the current topology: creates new edges, verts;
+\\param outVmap,outEmap (optionally) returns mappings: from.id -&gt; this.id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46893" bodyend="46897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a9804e11494985a8b83f996e1cefedff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.addPartByMask</definition>
+        <argsstring>(self, PolylineTopology from_, UndirectedEdgeBitSet mask, VertMap outVmap=None, EdgeMap outEmap=None)</argsstring>
+        <name>addPartByMask</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.addPartByMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>from_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>outEmap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends polyline topology (from) in addition to the current topology: creates new edges, verts;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46898" bodyend="46901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1aeac0fb181631b139bb1c20c6bac61f67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PolylineTopology.addVertId</definition>
+        <argsstring>(self)</argsstring>
+        <name>addVertId</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.addVertId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates new vert-id not associated with any edge yet
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46902" bodyend="46905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a30834e6ca1404bd14749a0a4632934b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.buildOpenLines</definition>
+        <argsstring>(self, std_vector_Id_VertTag comp2firstVert)</argsstring>
+        <name>buildOpenLines</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.buildOpenLines</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>comp2firstVert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>build topology of comp2firstVert.size()-1 not-closed polylines
+each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a polyline [a,b)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46906" bodyend="46910"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1afddbbb9a4d98c4c4b2eeb17a09b4a069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.checkValidity</definition>
+        <argsstring>(self)</argsstring>
+        <name>checkValidity</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.checkValidity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>verifies that all internal data structures are valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46911" bodyend="46914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a4ae3b8057087c8399f7149573b810b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.computeNotLoneUndirectedEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeNotLoneUndirectedEdges</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.computeNotLoneUndirectedEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the number of not-lone (valid) undirected edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46915" bodyend="46918"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a263801b4db87798430bec632fa4beee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.computeValidsFromEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeValidsFromEdges</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.computeValidsFromEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes numValidVerts_ and validVerts_ from edgePerVertex_
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46919" bodyend="46922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1afa0d4fae7ecd3e6a516c1f341f452b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.deleteEdge</definition>
+        <argsstring>(self, UndirectedEdgeId ue)</argsstring>
+        <name>deleteEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.deleteEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>ue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given edge becomes lone after the call, so it is un-spliced from connected edges, and if it was not connected at origin or destination, then that vertex is deleted as well
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46923" bodyend="46926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a8cb34e3ceee5a50a6c10d171e5ab10ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.deleteEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet es)</argsstring>
+        <name>deleteEdges</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.deleteEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calls deleteEdge for every set bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46927" bodyend="46930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a375f6a9ad8bc105f92177111f0eea646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PolylineTopology.dest</definition>
+        <argsstring>(self, EdgeId he)</argsstring>
+        <name>dest</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.dest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>he</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns destination vertex of half-edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46931" bodyend="46934"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0f8f9c45d0da506eaceec72fc57601fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.edgeCapacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeCapacity</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.edgeCapacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of allocated edge records
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46935" bodyend="46938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ae2a326839b565b3297f94556b07e7884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__EdgeId__VertId" kindref="compound">Vector_EdgeId_VertId</ref></type>
+        <definition> Vector_EdgeId_VertId mrmeshpy.PolylineTopology.edgePerVertex</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgePerVertex</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.edgePerVertex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for all valid vertices this vector contains an edge with the origin there
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46939" bodyend="46942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a6a7ebe7bbd28e3c3797fb09820ddd2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.edgeReserve</definition>
+        <argsstring>(self, int newCapacity)</argsstring>
+        <name>edgeReserve</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.edgeReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newCapacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the capacity of half-edges vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46943" bodyend="46946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1afc1668b44813fd2e64a1891def24e8f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.edgeSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeSize</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.edgeSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of half-edge records including lone ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46947" bodyend="46950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ac08632672bf0f50ee6f27526e0ca17bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.edgeWithOrg</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>edgeWithOrg</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.edgeWithOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns valid edge if given vertex is present in the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46951" bodyend="46954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a5d0b4d44debf7e5715c0754f9f3fc58e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.findEdge</definition>
+        <argsstring>(self, VertId o, VertId d)</argsstring>
+        <name>findEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.findEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds and returns edge from o to d in the mesh; returns invalid edge otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46955" bodyend="46958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0c46030b6f2b69779d9bcb8b060b47e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.flip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>changes the orientation of all edges: every edge e is replaced with e.sym()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46959" bodyend="46962"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1addda9d6ee157cdf7a2ab48e84ba5b70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__VertId__EdgeId" kindref="compound">Vector_VertId_EdgeId</ref></type>
+        <definition> Vector_VertId_EdgeId mrmeshpy.PolylineTopology.getOrgs</definition>
+        <argsstring>(self)</argsstring>
+        <name>getOrgs</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.getOrgs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for all edges this vector contains its origin
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46963" bodyend="46966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1aa9683e4bc05969f5b2259853858f7462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PolylineTopology.getPathVertices</definition>
+        <argsstring>(self, std_vector_Id_EdgeTag path)</argsstring>
+        <name>getPathVertices</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.getPathVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__EdgeTag" kindref="compound">std_vector_Id_EdgeTag</ref></type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all vertices incident to path edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46967" bodyend="46970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0d20501d538a3542d374fbca94cb3c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PolylineTopology.getValidVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>getValidVerts</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.getValidVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached set of all valid vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46971" bodyend="46974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a33026a88cade021d46bdab4b16952782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.getVertDegree</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>getVertDegree</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.getVertDegree</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns 0 if given vertex does not exist, 1 if it has one incident edge, and 2 if it has two incident edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46975" bodyend="46978"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1aa0340e9c0fc0241ef57d54bbcb4f2ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PolylineTopology.getVertIds</definition>
+        <argsstring>(self, VertBitSet region)</argsstring>
+        <name>getVertIds</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.getVertIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46979" bodyend="46982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1abce5fc972b875f85ca4b48e6905ad539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.hasEdge</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>hasEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.hasEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given edge is within valid range and not-lone
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46983" bodyend="46986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1aba363183e3e1f9aeed72efe8792055f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.hasVert</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>hasVert</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.hasVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given vertex is present in the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46987" bodyend="46990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a6d1e3e4bc7dbd49f4929e6aeefb31784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46991" bodyend="46994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a04b3ff99733d27c26f05021a02603877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.isClosed</definition>
+        <argsstring>(self)</argsstring>
+        <name>isClosed</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.isClosed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the polyline does not have any holes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46995" bodyend="46998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1afddc6410e8a702df2a4ff54c20a3aed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.isConsistentlyOriented</definition>
+        <argsstring>(self)</argsstring>
+        <name>isConsistentlyOriented</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.isConsistentlyOriented</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if for each edge e: e == e.next() || e.odd() == next( e ).sym().odd()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46999" bodyend="47002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a3b2f6dea8f9ee8153908bd95c1f78d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.isLoneEdge</definition>
+        <argsstring>(self, EdgeId a)</argsstring>
+        <name>isLoneEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.isLoneEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47003" bodyend="47006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0496fe48eefbd63097cd128fd4ee002b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.lastNotLoneEdge</definition>
+        <argsstring>(self)</argsstring>
+        <name>lastNotLoneEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.lastNotLoneEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns last not lone edge id, or invalid id if no such edge exists
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47007" bodyend="47010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0ff995e8bea245bebe82663893d25559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.PolylineTopology.lastNotLoneUndirectedEdge</definition>
+        <argsstring>(self)</argsstring>
+        <name>lastNotLoneUndirectedEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.lastNotLoneUndirectedEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns last not lone undirected edge id, or invalid id if no such edge exists
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47011" bodyend="47014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a397d39aafb06969b79175b391cc0ebe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PolylineTopology.lastValidVert</definition>
+        <argsstring>(self)</argsstring>
+        <name>lastValidVert</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.lastValidVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns last valid vertex id, or invalid id if no single valid vertex exists
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47015" bodyend="47018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ab1736bccb9edd2045c3d1de8339faafb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.makeEdge</definition>
+        <argsstring>(self)</argsstring>
+        <name>makeEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.makeEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates an edge not associated with any vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47020" bodyend="47023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ac19cb2303c10e32ea9f39a6b75f842d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.makeEdge</definition>
+        <argsstring>(self, VertId a, VertId b, EdgeId e=...)</argsstring>
+        <name>makeEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.makeEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>makes an edge connecting vertices a and b
+\\param e if valid then the function does not make new edge, but connects the vertices using given one (and returns it)
+\\details if
+  1) any of the vertices is invalid or not within the vertSize(),
+  2) or a==b,
+  3) or either a or b already has 2 incident edges,
+  4) given edge e is not lone or not within the edgeSize()
+then makeEdge(a,b) does nothing and returns invalid edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47025" bodyend="47035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1acbd93fb490464206972018a3bfb038a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.makeEdges</definition>
+        <argsstring>(self, Edges edges)</argsstring>
+        <name>makeEdges</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.makeEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Edges" kindref="compound">Edges</ref></type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end
+\\return the total number of edges created
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47036" bodyend="47040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ab7a4df4166dd48edeb1a90d297608acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.makePolyline</definition>
+        <argsstring>(self, VertId vs, int num)</argsstring>
+        <name>makePolyline</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.makePolyline</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>vs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds polyline in this topology passing progressively via vertices *[vs, vs+num);
+if vs[0] == vs[num-1] then a closed polyline is created;
+return the edge from first to second vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47041" bodyend="47046"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ac3036dbc2879fa2e30f981f1d584e2d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.next</definition>
+        <argsstring>(self, EdgeId he)</argsstring>
+        <name>next</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.next</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>he</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>next (counter clock wise) half-edge in the origin ring
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47047" bodyend="47050"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a4d5ebdccfa36ec4c6c1ebe0a2172b2e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.numValidVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>numValidVerts</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.numValidVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of valid vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47051" bodyend="47054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ad295570826815d1a78e299378af30c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PolylineTopology.org</definition>
+        <argsstring>(self, EdgeId he)</argsstring>
+        <name>org</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.org</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>he</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns origin vertex of half-edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47055" bodyend="47058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a8760f32f41e73e478af79e3ce23348bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.pack</definition>
+        <argsstring>(self, VertMap outVmap=None, WholeEdgeMap outEmap=None)</argsstring>
+        <name>pack</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.pack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outVmap</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+          <declname>outEmap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tightly packs all arrays eliminating lone edges and invalid vertices
+\\param outVmap,outEmap if given returns mappings: old.id -&gt; new.id;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47059" bodyend="47063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a631c7b99fe0b3410342309f5e3e7cb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineTopology.read</definition>
+        <argsstring>(self, typing.Any s)</argsstring>
+        <name>read</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.read</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads this from binary stream
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47064" bodyend="47067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ac9a8c826ada1dd5321bc9c2d8881301d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.setOrg</definition>
+        <argsstring>(self, EdgeId a, VertId v)</argsstring>
+        <name>setOrg</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.setOrg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets new origin to the full origin ring including this edge
+\\details edgePerVertex_ table is updated accordingly
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47068" bodyend="47072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a51d223e3a1e2029be13b5fa385305c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.splice</definition>
+        <argsstring>(self, EdgeId a, EdgeId b)</argsstring>
+        <name>splice</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.splice</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given two half edges do either of two: \\n
+1) if a and b were from distinct rings, puts them in one ring; \\n
+2) if a and b were from the same ring, puts them in separate rings;
+\\details the cut in rings in both cases is made after a and b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47073" bodyend="47079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a0b118b8f8de78843945bbc18d7c833a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.PolylineTopology.splitEdge</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>splitEdge</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.splitEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>split given edge on two parts:
+dest(returned-edge) = org(e) - newly created vertex,
+org(returned-edge) = org(e-before-split),
+dest(e) = dest(e-before-split)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47080" bodyend="47086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ad31ed3a3afe4bf02fc70e7ade047e09d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.undirectedEdgeCapacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>undirectedEdgeCapacity</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.undirectedEdgeCapacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of allocated undirected edges (pairs of half-edges)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47087" bodyend="47090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ae78fca5314a3d52f750c179d09f9dca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.undirectedEdgeSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>undirectedEdgeSize</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.undirectedEdgeSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of undirected edges (pairs of half-edges) including lone ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47091" bodyend="47094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1ab7e5e4112b932cbf686e8d87f1cf18e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.vertCapacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertCapacity</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.vertCapacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of allocated vert records
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47095" bodyend="47098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a30cc41e46f2bf4466b90ed5dc25935be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.vertReserve</definition>
+        <argsstring>(self, int newCapacity)</argsstring>
+        <name>vertReserve</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.vertReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newCapacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the capacity of vertices vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47099" bodyend="47102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a001e3bc8a5cffdb2ab5f96e89ccf2599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.vertResize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>vertResize</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.vertResize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>explicitly increases the size of vertices vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47103" bodyend="47106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a7d85c1041b7efa5a53b778b61a34f131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.vertResizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>vertResizeWithReserve</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.vertResizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47107" bodyend="47110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a9b9e41df2552a3639bcec00ebfdb0439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineTopology.vertSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertSize</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.vertSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of vertex records including invalid ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47111" bodyend="47114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineTopology_1a214149bb6af514d203d590caa9ece622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineTopology.write</definition>
+        <argsstring>(self, typing.Any s)</argsstring>
+        <name>write</name>
+        <qualifiedname>mrmeshpy.PolylineTopology.write</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves this in binary stream
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47115" bodyend="47118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineTopology
+
+topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46860" bodyend="47118"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a3be5c06a4fcb9e577bbecd89ac6ae486" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1abf31b54f1104c38ddf4a5204ce3c83e3" prot="private" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a2d3f117016bf55d9b0f85069db37fe36" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ad6f3e5bef5e445aef0638a20bb50ed5a" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1acfcb2b0913edc559a1cd92403b9dddbd" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0493a0855f54cf30b8850d19b96f2a79" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a1d33fde6014d0b1009d17e5758119d1b" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>addPart</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a9804e11494985a8b83f996e1cefedff9" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>addPartByMask</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1aeac0fb181631b139bb1c20c6bac61f67" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>addVertId</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a30834e6ca1404bd14749a0a4632934b7" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>buildOpenLines</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1afddbbb9a4d98c4c4b2eeb17a09b4a069" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>checkValidity</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a4ae3b8057087c8399f7149573b810b52" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a263801b4db87798430bec632fa4beee5" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>computeValidsFromEdges</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1afa0d4fae7ecd3e6a516c1f341f452b75" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>deleteEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a8cb34e3ceee5a50a6c10d171e5ab10ac" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>deleteEdges</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a375f6a9ad8bc105f92177111f0eea646" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>dest</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0f8f9c45d0da506eaceec72fc57601fe" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>edgeCapacity</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ae2a326839b565b3297f94556b07e7884" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>edgePerVertex</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a6a7ebe7bbd28e3c3797fb09820ddd2e5" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>edgeReserve</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1afc1668b44813fd2e64a1891def24e8f5" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>edgeSize</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ac08632672bf0f50ee6f27526e0ca17bb" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>edgeWithOrg</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a5d0b4d44debf7e5715c0754f9f3fc58e" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>findEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0c46030b6f2b69779d9bcb8b060b47e4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1addda9d6ee157cdf7a2ab48e84ba5b70f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>getOrgs</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1aa9683e4bc05969f5b2259853858f7462" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>getPathVertices</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0d20501d538a3542d374fbca94cb3c26" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>getValidVerts</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a33026a88cade021d46bdab4b16952782" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>getVertDegree</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1aa0340e9c0fc0241ef57d54bbcb4f2ef7" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>getVertIds</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1abce5fc972b875f85ca4b48e6905ad539" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>hasEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1aba363183e3e1f9aeed72efe8792055f4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>hasVert</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a6d1e3e4bc7dbd49f4929e6aeefb31784" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a04b3ff99733d27c26f05021a02603877" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>isClosed</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1afddc6410e8a702df2a4ff54c20a3aed2" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>isConsistentlyOriented</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a3b2f6dea8f9ee8153908bd95c1f78d34" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>isLoneEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0496fe48eefbd63097cd128fd4ee002b" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>lastNotLoneEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0ff995e8bea245bebe82663893d25559" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>lastNotLoneUndirectedEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a397d39aafb06969b79175b391cc0ebe2" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>lastValidVert</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ab1736bccb9edd2045c3d1de8339faafb" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>makeEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ac19cb2303c10e32ea9f39a6b75f842d4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>makeEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1acbd93fb490464206972018a3bfb038a4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>makeEdges</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ab7a4df4166dd48edeb1a90d297608acf" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>makePolyline</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ac3036dbc2879fa2e30f981f1d584e2d8" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>next</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a4d5ebdccfa36ec4c6c1ebe0a2172b2e1" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>numValidVerts</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ab26fd811534e5752f4ba01eefe3b6fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ab26fd811534e5752f4ba01eefe3b6fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ad295570826815d1a78e299378af30c9d" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>org</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a8760f32f41e73e478af79e3ce23348bc" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>pack</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a631c7b99fe0b3410342309f5e3e7cb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>read</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ac9a8c826ada1dd5321bc9c2d8881301d" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>setOrg</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a51d223e3a1e2029be13b5fa385305c06" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>splice</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a0b118b8f8de78843945bbc18d7c833a0" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>splitEdge</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ad31ed3a3afe4bf02fc70e7ade047e09d" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ae78fca5314a3d52f750c179d09f9dca1" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>undirectedEdgeSize</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1ab7e5e4112b932cbf686e8d87f1cf18e4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>vertCapacity</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a30cc41e46f2bf4466b90ed5dc25935be" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>vertReserve</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a001e3bc8a5cffdb2ab5f96e89ccf2599" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>vertResize</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a7d85c1041b7efa5a53b778b61a34f131" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>vertResizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a9b9e41df2552a3639bcec00ebfdb0439" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>vertSize</name></member>
+      <member refid="classmrmeshpy_1_1PolylineTopology_1a214149bb6af514d203d590caa9ece622" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineTopology</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

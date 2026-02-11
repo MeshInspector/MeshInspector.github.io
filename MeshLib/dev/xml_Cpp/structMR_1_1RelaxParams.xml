@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RelaxParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RelaxParams</compoundname>
+    <derivedcompoundref refid="structMR_1_1MeshRelaxParams" prot="public" virt="non-virtual">MR::MeshRelaxParams</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PointCloudRelaxParams" prot="public" virt="non-virtual">MR::PointCloudRelaxParams</derivedcompoundref>
+    <includes refid="MRRelaxParams_8h" local="no">MRRelaxParams.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RelaxParams_1af6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RelaxParams::iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MR::RelaxParams::iterations</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>number of iterations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="14" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RelaxParams_1abeb08d7e70411cf9ef2826c0f058b909" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::RelaxParams::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::RelaxParams::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>region to relax </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RelaxParams_1a7f58a3b0b7e5c09209f53edd90b4371a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RelaxParams::force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <qualifiedname>MR::RelaxParams::force</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+<para>speed of relaxing, typical values (0.0, 0.5] </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RelaxParams_1ae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RelaxParams::limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>MR::RelaxParams::limitNearInitial</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true then maximal displacement of each point during denoising will be limited </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RelaxParams_1ae2779bd159120c7d84c4d2e13186af7e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RelaxParams::maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>MR::RelaxParams::maxInitialDist</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RelaxParams_1a47663082758ba9a1d7d9942c1d2550fc" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> int</type>
+        <definition>MR_BIND_IGNORE int MR::RelaxParams::_padding</definition>
+        <argsstring></argsstring>
+        <name>_padding</name>
+        <qualifiedname>MR::RelaxParams::_padding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fixes ABI incompatibility. Without this GCC 12+ warns here with <computeroutput>-Wabi=16</computeroutput>. Read our <computeroutput>cmake/Modules/CompilerOptions.cmake</computeroutput> (the part about <computeroutput>-Wabi=16</computeroutput>) for details. This is enabled for GCC 11 and older because they&apos;re buggy, and for GCC 12 because for it we enable the warning to catch other similar cases. For other compilers it&apos;s disabled for clarity, but should have no effect on struct layout. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="32" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::MeshApproxRelaxParams</label>
+        <link refid="structMR_1_1MeshApproxRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MeshEqualizeTriAreasParams</label>
+        <link refid="structMR_1_1MeshEqualizeTriAreasParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshRelaxParams</label>
+        <link refid="structMR_1_1MeshRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::PointCloudApproxRelaxParams</label>
+        <link refid="structMR_1_1PointCloudApproxRelaxParams"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::PointCloudRelaxParams</label>
+        <link refid="structMR_1_1PointCloudRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RelaxParams</label>
+        <link refid="structMR_1_1RelaxParams"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="12" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RelaxParams_1a47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>_padding</name></member>
+      <member refid="structMR_1_1RelaxParams_1a7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>force</name></member>
+      <member refid="structMR_1_1RelaxParams_1af6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>iterations</name></member>
+      <member refid="structMR_1_1RelaxParams_1ae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="structMR_1_1RelaxParams_1ae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="structMR_1_1RelaxParams_1abeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

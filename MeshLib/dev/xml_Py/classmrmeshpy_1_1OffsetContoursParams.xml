@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetContoursParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetContoursParams</compoundname>
+    <innerclass refid="classmrmeshpy_1_1OffsetContoursParams_1_1CornerType" prot="public">mrmeshpy::OffsetContoursParams::CornerType</innerclass>
+    <innerclass refid="classmrmeshpy_1_1OffsetContoursParams_1_1EndType" prot="public">mrmeshpy::OffsetContoursParams::EndType</innerclass>
+    <innerclass refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type" prot="public">mrmeshpy::OffsetContoursParams::Type</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1a706cbeac121e64ccad7488f88e8f0bba" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams::_offsetof_endType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_endType</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams._offsetof_endType</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1aeb3cad677d11565e62824eb22faa4bd4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams::_offsetof_indicesMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_indicesMap</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams._offsetof_indicesMap</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1a4dd1d604bb00e36a4c0dcf77658b1925" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams::_offsetof_maxSharpAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxSharpAngle</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams._offsetof_maxSharpAngle</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1a16ed6017fcf5eda127901374454ea5d6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams::_offsetof_minAnglePrecision</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minAnglePrecision</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams._offsetof_minAnglePrecision</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1a44a2d8767faf820488183ddd10e8cfe3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursParams::_offsetof_type</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_type</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams._offsetof_type</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41353" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1a5317bae72b0117f2388fe2b904a040d6" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref></type>
+        <definition>OffsetContoursParams mrmeshpy.OffsetContoursParams::cornerType</definition>
+        <argsstring></argsstring>
+        <name>cornerType</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.cornerType</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1CornerType" kindref="compound">CornerType</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1af9d483eac484edab25b3aba3b7fff897" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref></type>
+        <definition>OffsetContoursParams mrmeshpy.OffsetContoursParams::endType</definition>
+        <argsstring></argsstring>
+        <name>endType</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.endType</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1EndType" kindref="compound">EndType</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursParams_1afb38f5f25bc39aeee019688aca5e08f8" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref></type>
+        <definition>OffsetContoursParams mrmeshpy.OffsetContoursParams::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.type</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type" kindref="compound">Type</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41356" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1af91bedf445489337605fe26365782cda" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41359" bodyend="41360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a06021c976676ca5f290a76169a0540ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref></type>
+        <definition> OffsetContoursParams mrmeshpy.OffsetContoursParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41363" bodyend="41364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a06021c976676ca5f290a76169a0540ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref></type>
+        <definition> OffsetContoursParams mrmeshpy.OffsetContoursParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41367" bodyend="41368"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a1888c82171c13a7c2334c74f84a4b376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41370" bodyend="41371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a48bb08f8f2aed847242624a80c519748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.__init__</definition>
+        <argsstring>(self, OffsetContoursParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41373" bodyend="41376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a55b2c0e7ca56db46f0eb09d2572aa6d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.__init__</definition>
+        <argsstring>(self, OffsetContoursParams.Type type, OffsetContoursParams.EndType endType, OffsetContoursParams.CornerType cornerType, float minAnglePrecision, float maxSharpAngle, std_vector_std_vector_OffsetContoursOrigins indicesMap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1Type" kindref="compound">OffsetContoursParams.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1EndType" kindref="compound">OffsetContoursParams.EndType</ref></type>
+          <declname>endType</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursParams_1_1CornerType" kindref="compound">OffsetContoursParams.CornerType</ref></type>
+          <declname>cornerType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAnglePrecision</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSharpAngle</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins" kindref="compound">std_vector_std_vector_OffsetContoursOrigins</ref></type>
+          <declname>indicesMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41378" bodyend="41381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1ab26d1ebc28e323a0e91c2a444abb3803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins" kindref="compound">std_vector_std_vector_OffsetContoursOrigins</ref></type>
+        <definition> std_vector_std_vector_OffsetContoursOrigins mrmeshpy.OffsetContoursParams.indicesMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>indicesMap</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.indicesMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output that maps result contour ids to input contour ids
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41383" bodyend="41386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a209817ade13bff0a74c4658c8ab3d398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.indicesMap</definition>
+        <argsstring>(self, std_vector_std_vector_OffsetContoursOrigins arg1)</argsstring>
+        <name>indicesMap</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.indicesMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins" kindref="compound">std_vector_std_vector_OffsetContoursOrigins</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41388" bodyend="41389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1ae780243b043613374bca88420840bb4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OffsetContoursParams.maxSharpAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxSharpAngle</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.maxSharpAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>120 deg
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41391" bodyend="41394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a9db244cf9b363c92394efff55a5b3584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.maxSharpAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxSharpAngle</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.maxSharpAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41396" bodyend="41397"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a6792121c20a94bb535dbe48d312ac560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OffsetContoursParams.minAnglePrecision</definition>
+        <argsstring>(self)</argsstring>
+        <name>minAnglePrecision</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.minAnglePrecision</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>20 deg
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41399" bodyend="41402"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursParams_1a2a87433db0c78e3647f4143f679308e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursParams.minAnglePrecision</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minAnglePrecision</name>
+        <qualifiedname>mrmeshpy.OffsetContoursParams.minAnglePrecision</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41404" bodyend="41405"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OffsetContoursParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetContoursParams</label>
+        <link refid="classmrmeshpy_1_1OffsetContoursParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_endType</edgelabel>
+          <edgelabel>_offsetof_indicesMap</edgelabel>
+          <edgelabel>_offsetof_maxSharpAngle</edgelabel>
+          <edgelabel>_offsetof_minAnglePrecision</edgelabel>
+          <edgelabel>_offsetof_type</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cornerType</edgelabel>
+          <edgelabel>endType</edgelabel>
+          <edgelabel>type</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.OffsetContoursParams</label>
+        <link refid="classmrmeshpy_1_1OffsetContoursParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_endType</edgelabel>
+          <edgelabel>_offsetof_indicesMap</edgelabel>
+          <edgelabel>_offsetof_maxSharpAngle</edgelabel>
+          <edgelabel>_offsetof_minAnglePrecision</edgelabel>
+          <edgelabel>_offsetof_type</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cornerType</edgelabel>
+          <edgelabel>endType</edgelabel>
+          <edgelabel>type</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41233" bodyend="41405"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1af91bedf445489337605fe26365782cda" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a1888c82171c13a7c2334c74f84a4b376" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a48bb08f8f2aed847242624a80c519748" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a55b2c0e7ca56db46f0eb09d2572aa6d2" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a706cbeac121e64ccad7488f88e8f0bba" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>_offsetof_endType</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1aeb3cad677d11565e62824eb22faa4bd4" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>_offsetof_indicesMap</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a4dd1d604bb00e36a4c0dcf77658b1925" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>_offsetof_maxSharpAngle</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a16ed6017fcf5eda127901374454ea5d6" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>_offsetof_minAnglePrecision</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a44a2d8767faf820488183ddd10e8cfe3" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>_offsetof_type</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a5317bae72b0117f2388fe2b904a040d6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>cornerType</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1af9d483eac484edab25b3aba3b7fff897" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>endType</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1ab26d1ebc28e323a0e91c2a444abb3803" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>indicesMap</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a209817ade13bff0a74c4658c8ab3d398" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>indicesMap</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1ae780243b043613374bca88420840bb4e" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>maxSharpAngle</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a9db244cf9b363c92394efff55a5b3584" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>maxSharpAngle</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a6792121c20a94bb535dbe48d312ac560" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>minAnglePrecision</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a2a87433db0c78e3647f4143f679308e4" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>minAnglePrecision</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a06021c976676ca5f290a76169a0540ed" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1a06021c976676ca5f290a76169a0540ed" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursParams_1afb38f5f25bc39aeee019688aca5e08f8" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

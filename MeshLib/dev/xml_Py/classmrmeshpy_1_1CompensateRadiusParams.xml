@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CompensateRadiusParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CompensateRadiusParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1a0070352b4fff128a823f7fe954a52c35" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_callback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callback</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_callback</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9954" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1a6844fccf0267ee801994278fb6be7e31" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_direction</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_direction</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_direction</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9955" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1ae43ae73d17172d9295f0ad6feb08dcf1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_maxIterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxIterations</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_maxIterations</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9956" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1a3e0a7339f2ea232f8edf525540df36fe" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_region</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9957" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1a5ee90920b2804a52bd4c1ca4d06179d2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_relaxExpansion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_relaxExpansion</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_relaxExpansion</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9958" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1ac610a9c6d9c34bbb3806e834f740595e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_relaxForce</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_relaxForce</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_relaxForce</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9959" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1a797e58e70f60ec9a7d14970056b5b829" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_relaxIterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_relaxIterations</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_relaxIterations</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9960" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CompensateRadiusParams_1a0c8ea50858c5b9268a92dedaa308bd59" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CompensateRadiusParams::_offsetof_toolRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toolRadius</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams._offsetof_toolRadius</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9961" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a0be5350559fe574d86cf432f6996bfba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9965" bodyend="9966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1aa226297db1d1e69a4a023bbd476362bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CompensateRadiusParams" kindref="compound">CompensateRadiusParams</ref></type>
+        <definition> CompensateRadiusParams mrmeshpy.CompensateRadiusParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9969" bodyend="9970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1aa226297db1d1e69a4a023bbd476362bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CompensateRadiusParams" kindref="compound">CompensateRadiusParams</ref></type>
+        <definition> CompensateRadiusParams mrmeshpy.CompensateRadiusParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9973" bodyend="9974"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1ad9e3fda74f66d1c973ed007025e8c8ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9976" bodyend="9977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a0eb91639a3e857d1803cc4d262b13f9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.__init__</definition>
+        <argsstring>(self, CompensateRadiusParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CompensateRadiusParams" kindref="compound">CompensateRadiusParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9979" bodyend="9982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1ab2f58cd60ed2bc15b595318b28d85828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.__init__</definition>
+        <argsstring>(self, Vector3f direction, float toolRadius, FaceBitSet region, int maxIterations, int relaxExpansion, int relaxIterations, float relaxForce, func_bool_from_float callback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toolRadius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxExpansion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>relaxForce</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9984" bodyend="9987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1abe785aeb4bbc5bdb2bd8576838606d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CompensateRadiusParams.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Z direction of milling tool
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9989" bodyend="9992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1afaf4ce1854d4ae7a567341d0431f216e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.direction</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9994" bodyend="9995"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a58a4531d6e26eb8550d4f58b407a91d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CompensateRadiusParams.maxIterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.maxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum iteration of applying algorithm (each iteration improves result a little bit)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9997" bodyend="10000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1adb624dc3258fbd54b568aa84d375f282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.maxIterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.maxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10002" bodyend="10003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a8257cade406fca2581a938ad39a4ba33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.CompensateRadiusParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>region of the mesh that will be compensated
+it should not contain closed components
+also please note that boundaries of the region are fixed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10005" bodyend="10010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a31a3750fc097c0e39299f3915db132c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10012" bodyend="10013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a0e429ccfe71fedcd44f1e24dfff5433a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CompensateRadiusParams.relaxExpansion</definition>
+        <argsstring>(self)</argsstring>
+        <name>relaxExpansion</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.relaxExpansion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>how many hops to expand around each moved vertex for relaxation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10015" bodyend="10018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a189a12e998e0d7b694f166fa0eedf4f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.relaxExpansion</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>relaxExpansion</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.relaxExpansion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10020" bodyend="10021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1aed51e2f2eccb85c769a119d08088f828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CompensateRadiusParams.relaxForce</definition>
+        <argsstring>(self)</argsstring>
+        <name>relaxForce</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.relaxForce</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>force of relaxations on each compensation iteration
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10023" bodyend="10026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a005fef12b7f5fb26268d6bf4a3b3a5c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.relaxForce</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>relaxForce</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.relaxForce</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10028" bodyend="10029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1abc7e05dc326f54601dfd5b799b5bd5fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CompensateRadiusParams.relaxIterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.relaxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>how many iterations of relax is applied on each compensation iteration
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10031" bodyend="10034"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1af69bd06a033b9ccacdd9f5c43745238d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.relaxIterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.relaxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10036" bodyend="10037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a97da59e2b94b6907a634f10f360ad432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CompensateRadiusParams.toolRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>toolRadius</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.toolRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>radius of spherical tool
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10039" bodyend="10042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CompensateRadiusParams_1a60297c6eeae616f543cffac0a4c8f612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CompensateRadiusParams.toolRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>toolRadius</name>
+        <qualifiedname>mrmeshpy.CompensateRadiusParams.toolRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10044" bodyend="10045"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CompensateRadiusParams
+
+structure with parameters for `compensateRadius` function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CompensateRadiusParams</label>
+        <link refid="classmrmeshpy_1_1CompensateRadiusParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callback</edgelabel>
+          <edgelabel>_offsetof_direction</edgelabel>
+          <edgelabel>_offsetof_maxIterations</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_relaxExpansion</edgelabel>
+          <edgelabel>_offsetof_relaxForce</edgelabel>
+          <edgelabel>_offsetof_relaxIterations</edgelabel>
+          <edgelabel>_offsetof_toolRadius</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9948" bodyend="10045"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a0be5350559fe574d86cf432f6996bfba" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1ad9e3fda74f66d1c973ed007025e8c8ec" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a0eb91639a3e857d1803cc4d262b13f9a" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1ab2f58cd60ed2bc15b595318b28d85828" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a0070352b4fff128a823f7fe954a52c35" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_callback</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a6844fccf0267ee801994278fb6be7e31" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_direction</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1ae43ae73d17172d9295f0ad6feb08dcf1" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a3e0a7339f2ea232f8edf525540df36fe" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a5ee90920b2804a52bd4c1ca4d06179d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_relaxExpansion</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1ac610a9c6d9c34bbb3806e834f740595e" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_relaxForce</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a797e58e70f60ec9a7d14970056b5b829" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_relaxIterations</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a0c8ea50858c5b9268a92dedaa308bd59" prot="protected" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>_offsetof_toolRadius</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1abe785aeb4bbc5bdb2bd8576838606d34" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1afaf4ce1854d4ae7a567341d0431f216e" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a58a4531d6e26eb8550d4f58b407a91d1" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1adb624dc3258fbd54b568aa84d375f282" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1aa226297db1d1e69a4a023bbd476362bb" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1aa226297db1d1e69a4a023bbd476362bb" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a8257cade406fca2581a938ad39a4ba33" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a31a3750fc097c0e39299f3915db132c6" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a0e429ccfe71fedcd44f1e24dfff5433a" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>relaxExpansion</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a189a12e998e0d7b694f166fa0eedf4f4" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>relaxExpansion</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1aed51e2f2eccb85c769a119d08088f828" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>relaxForce</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a005fef12b7f5fb26268d6bf4a3b3a5c2" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>relaxForce</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1abc7e05dc326f54601dfd5b799b5bd5fb" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>relaxIterations</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1af69bd06a033b9ccacdd9f5c43745238d" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>relaxIterations</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a97da59e2b94b6907a634f10f360ad432" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>toolRadius</name></member>
+      <member refid="classmrmeshpy_1_1CompensateRadiusParams_1a60297c6eeae616f543cffac0a4c8f612" prot="public" virt="non-virtual"><scope>mrmeshpy::CompensateRadiusParams</scope><name>toolRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

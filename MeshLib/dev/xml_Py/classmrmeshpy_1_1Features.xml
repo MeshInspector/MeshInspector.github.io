@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult" prot="public">mrmeshpy::Features::MeasureResult</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1Primitives" prot="public">mrmeshpy::Features::Primitives</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1SubfeatureInfo" prot="public">mrmeshpy::Features::SubfeatureInfo</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1Traits" prot="public">mrmeshpy::Features::Traits</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1acb6f65c8fd48131aec4e26f7c7d5d162" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.forEachSubfeature</definition>
+        <argsstring>(std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane feature, func_void_from_Features_SubfeatureInfo func)</argsstring>
+        <name>forEachSubfeature</name>
+        <qualifiedname>mrmeshpy.Features.forEachSubfeature</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>feature</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Features__SubfeatureInfo" kindref="compound">func_void_from_Features_SubfeatureInfo</ref></type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Decomposes a feature to its subfeatures, by calling `func()` on each subfeature.
+This only returns the direct subfeatures. You can call this recursively to obtain all features,
+  but beware of duplicates (there&apos;s no easy way to filter them).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18794" bodyend="18799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1ad97fd9c9cf882c635f3dec2f07387a94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult" kindref="compound">Features.MeasureResult</ref></type>
+        <definition> Features.MeasureResult mrmeshpy.Features.measure</definition>
+        <argsstring>(std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane a, std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane b)</argsstring>
+        <name>measure</name>
+        <qualifiedname>mrmeshpy.Features.measure</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Same, but with variants as both argument.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18801" bodyend="18804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a996d5fcb08328cd94dc6d9de4052472d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.name</definition>
+        <argsstring>(std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane var)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Features.name</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Same but for a variant.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18806" bodyend="18809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a254b592f45566e24d546a95fd349e4c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.primitiveCircle</definition>
+        <argsstring>(Vector3f point, Vector3f normal, float rad)</argsstring>
+        <name>primitiveCircle</name>
+        <qualifiedname>mrmeshpy.Features.primitiveCircle</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`normal` doesn&apos;t need to be normalized.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18811" bodyend="18814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a01c138695163c7ebbb156b1ef8be4902" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.primitiveCone</definition>
+        <argsstring>(Vector3f a, Vector3f b, float rad)</argsstring>
+        <name>primitiveCone</name>
+        <qualifiedname>mrmeshpy.Features.primitiveCone</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`a` is the center of the base, `b` is the pointy end.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18816" bodyend="18819"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1aa4a6658f898277dedc11d754a8a873c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.primitiveCylinder</definition>
+        <argsstring>(Vector3f a, Vector3f b, float rad)</argsstring>
+        <name>primitiveCylinder</name>
+        <qualifiedname>mrmeshpy.Features.primitiveCylinder</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`a` and `b` are centers of the sides.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18821" bodyend="18824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a14df8ee3b04eb7793598b826daa070da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+        <definition> std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane mrmeshpy.Features.primitiveFromObject</definition>
+        <argsstring>(Object object)</argsstring>
+        <name>primitiveFromObject</name>
+        <qualifiedname>mrmeshpy.Features.primitiveFromObject</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns null if the object type is unknown. This overload ignores the parent xf.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18826" bodyend="18829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a7d77a3762fe75d35d712d52fdd1c9370" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+        <definition> std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane mrmeshpy.Features.primitiveFromObjectWithWorldXf</definition>
+        <argsstring>(Object object)</argsstring>
+        <name>primitiveFromObjectWithWorldXf</name>
+        <qualifiedname>mrmeshpy.Features.primitiveFromObjectWithWorldXf</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns null if the object type is unknown. This overload respects the parent&apos;s `worldXf()`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18831" bodyend="18834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1aa4e170873bdc144b93f70130a34cf000" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObject" kindref="compound">FeatureObject</ref></type>
+        <definition> FeatureObject mrmeshpy.Features.primitiveToObject</definition>
+        <argsstring>(std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane primitive, float infiniteExtent)</argsstring>
+        <name>primitiveToObject</name>
+        <qualifiedname>mrmeshpy.Features.primitiveToObject</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>primitive</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>infiniteExtent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Can return null on some primitive configurations.
+`infiniteExtent` is how large we make &quot;infinite&quot; objects. Half-infinite objects divide this by 2.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18836" bodyend="18840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1ab088810a3855b28bf72ad4385b8f51f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(Vector3f point)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Those map various MR types to our primitives. Some of those are identity functions.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18843" bodyend="18846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a73d6d106123915dace61e2db9ec484df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(Sphere3f sphere)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+          <declname>sphere</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18849" bodyend="18850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1abaa6c2dca134a19f48fa2023d48b0877" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(Line3f line)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3f" kindref="compound">Line3f</ref></type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18853" bodyend="18854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a9934caa65ce1a6d934390136ffd1da77" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(LineSegm3f segm)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>segm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18857" bodyend="18858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a96987b088a132365f936a5c64758f708" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(Cylinder3f cyl)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Cylinder3f" kindref="compound">Cylinder3f</ref></type>
+          <declname>cyl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18861" bodyend="18862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(Cone3f cone)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Cone3f" kindref="compound">Cone3f</ref></type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18865" bodyend="18866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1aac503a731bf8fbf839b66c52d8306395" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.toString</definition>
+        <argsstring>(Features.MeasureResult.Status status)</argsstring>
+        <name>toString</name>
+        <qualifiedname>mrmeshpy.Features.toString</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`MeasureResult::Status` enum to string.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18868" bodyend="18871"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1acf9a442deb2f29886a91bad01573e058" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Features.transformPrimitive</definition>
+        <argsstring>(AffineXf3f xf, Sphere3f primitive)</argsstring>
+        <name>transformPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.transformPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+          <declname>primitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Transform a primitive by an xf.
+Non-uniform scaling and skewing are not supported.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18874" bodyend="18878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+        <definition> Features.Primitives.Plane mrmeshpy.Features.transformPrimitive</definition>
+        <argsstring>(AffineXf3f xf, Features.Primitives.Plane primitive)</argsstring>
+        <name>transformPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.transformPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+          <declname>primitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18881" bodyend="18882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1abfb88b70e348bca8e75b19074d676ece" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.transformPrimitive</definition>
+        <argsstring>(AffineXf3f xf, Features.Primitives.ConeSegment primitive)</argsstring>
+        <name>transformPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.transformPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+          <declname>primitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18885" bodyend="18886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a2de1e615a059d78336bc70ee9fe3aa31" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+        <definition> std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane mrmeshpy.Features.transformPrimitive</definition>
+        <argsstring>(AffineXf3f xf, std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane primitive)</argsstring>
+        <name>transformPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.transformPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>primitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18889" bodyend="18890"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17980" bodyend="18890"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1acb6f65c8fd48131aec4e26f7c7d5d162" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>forEachSubfeature</name></member>
+      <member refid="classmrmeshpy_1_1Features_1ad97fd9c9cf882c635f3dec2f07387a94" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>measure</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a996d5fcb08328cd94dc6d9de4052472d" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a254b592f45566e24d546a95fd349e4c8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveCircle</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a01c138695163c7ebbb156b1ef8be4902" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveCone</name></member>
+      <member refid="classmrmeshpy_1_1Features_1aa4a6658f898277dedc11d754a8a873c5" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveCylinder</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a14df8ee3b04eb7793598b826daa070da" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveFromObject</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a7d77a3762fe75d35d712d52fdd1c9370" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveFromObjectWithWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1Features_1aa4e170873bdc144b93f70130a34cf000" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveToObject</name></member>
+      <member refid="classmrmeshpy_1_1Features_1ab088810a3855b28bf72ad4385b8f51f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a73d6d106123915dace61e2db9ec484df" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1abaa6c2dca134a19f48fa2023d48b0877" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a9934caa65ce1a6d934390136ffd1da77" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a96987b088a132365f936a5c64758f708" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1aac503a731bf8fbf839b66c52d8306395" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toString</name></member>
+      <member refid="classmrmeshpy_1_1Features_1acf9a442deb2f29886a91bad01573e058" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1abfb88b70e348bca8e75b19074d676ece" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a2de1e615a059d78336bc70ee9fe3aa31" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a9ede8b5d883eb8ac5a22571b9b4d9141" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue::_offsetof_isSet</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isSet</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue._offsetof_isSet</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ae8d7c71e2a29f50bcf6625711bd8abf3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue::_offsetof_var</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_var</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue._offsetof_var</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39240" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a186670c05f0b046025cbf90213ec8f8b" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue::Var</definition>
+        <argsstring></argsstring>
+        <name>Var</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.Var</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__variant__float__Vector3__float" kindref="compound">std_variant_float_Vector3_float</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39242" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1aa04a32741b0a62c8a8ffbc5bcea1cf2c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39245" bodyend="39246"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1afa46780699b9120fb596075581aad0aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonReferenceValue mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39249" bodyend="39250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1afa46780699b9120fb596075581aad0aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonReferenceValue mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39253" bodyend="39254"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a95ae5779fdf15ebed5b9fe0ad7da5a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39256" bodyend="39257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a914478731e0359d673b1c39213bc8515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</definition>
+        <argsstring>(self, ObjectComparableWithReference.ComparisonReferenceValue arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39259" bodyend="39262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a4cea92857b028809293db08af46b0d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</definition>
+        <argsstring>(self, bool isSet, std_variant_float_Vector3_float var)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSet</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__float__Vector3__float" kindref="compound">std_variant_float_Vector3_float</ref></type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39264" bodyend="39267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ab885247959439ff4993c6ef0d02a971b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__float__Vector3__float" kindref="compound">std_variant_float_Vector3_float</ref></type>
+        <definition> std_variant_float_Vector3_float mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.var</definition>
+        <argsstring>(self)</argsstring>
+        <name>var</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.var</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If `isSet == false`, this will hold zeroes, or some other default values.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39269" bodyend="39272"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a5967ac3fbea24cf387f3769447f5cb5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.var</definition>
+        <argsstring>(self, std_variant_float_Vector3_float arg1)</argsstring>
+        <name>var</name>
+        <qualifiedname>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue.var</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__float__Vector3__float" kindref="compound">std_variant_float_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39274" bodyend="39276"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectComparableWithReference::ComparisonReferenceValue
+
+This can&apos;t be `std::optional&lt;Var&gt;`, because we still need the variant to know the correct type.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue</label>
+        <link refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_isSet</edgelabel>
+          <edgelabel>_offsetof_var</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39233" bodyend="39275"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1aa04a32741b0a62c8a8ffbc5bcea1cf2c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a95ae5779fdf15ebed5b9fe0ad7da5a34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a914478731e0359d673b1c39213bc8515" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a4cea92857b028809293db08af46b0d57" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a9ede8b5d883eb8ac5a22571b9b4d9141" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>_offsetof_isSet</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ae8d7c71e2a29f50bcf6625711bd8abf3" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>_offsetof_var</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1afa46780699b9120fb596075581aad0aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1afa46780699b9120fb596075581aad0aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a186670c05f0b046025cbf90213ec8f8b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>Var</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ab885247959439ff4993c6ef0d02a971b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a5967ac3fbea24cf387f3769447f5cb5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

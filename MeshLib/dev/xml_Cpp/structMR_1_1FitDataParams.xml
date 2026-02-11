@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FitDataParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FitDataParams</compoundname>
+    <basecompoundref refid="structMR_1_1BaseFitParams" prot="public" virt="non-virtual">MR::BaseFitParams</basecompoundref>
+    <includes refid="MRFitData_8h" local="no">MRFitData.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FitDataParams_1a423ab9ff17d938fcf943e0989297eba6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">FitMode</ref></type>
+        <definition>FitMode MR::FitDataParams::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>MR::FitDataParams::mode</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192" kindref="member">FitMode::Visible</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="30" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FitDataParams_1ad080d5785a8217efd7dd3134b61d933f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;VisualObject&gt; &gt; MR::FitDataParams::objsList</definition>
+        <argsstring></argsstring>
+        <name>objsList</name>
+        <qualifiedname>MR::FitDataParams::objsList</qualifiedname>
+        <briefdescription>
+<para>fit mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="31" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1FitDataParams_1a787fc08baa43be923ee963b3e338ea46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::FitDataParams::FitDataParams</definition>
+        <argsstring>(float factor_=1.f, bool snapView_=false, FitMode mode_=FitMode::Visible, const std::vector&lt; std::shared_ptr&lt; VisualObject &gt; &gt; &amp;objsList_={})</argsstring>
+        <name>FitDataParams</name>
+        <qualifiedname>MR::FitDataParams::FitDataParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>factor_</declname>
+          <defval>1.f</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>snapView_</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">FitMode</ref></type>
+          <declname>mode_</declname>
+          <defval><ref refid="namespaceMR_1a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192" kindref="member">FitMode::Visible</ref></defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &gt; &amp;</type>
+          <declname>objsList_</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>custom objects list. used only with CustomObjectsList mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="33" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseFitParams</label>
+        <link refid="structMR_1_1BaseFitParams"/>
+      </node>
+      <node id="1">
+        <label>MR::FitDataParams</label>
+        <link refid="structMR_1_1FitDataParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseFitParams</label>
+        <link refid="structMR_1_1BaseFitParams"/>
+      </node>
+      <node id="1">
+        <label>MR::FitDataParams</label>
+        <link refid="structMR_1_1FitDataParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h" bodystart="29" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BaseFitParams_1ae74aad8ea3ab5114c97b3b5cf02a6cd6" prot="public" virt="non-virtual"><scope>MR::FitDataParams</scope><name>factor</name></member>
+      <member refid="structMR_1_1FitDataParams_1a787fc08baa43be923ee963b3e338ea46" prot="public" virt="non-virtual"><scope>MR::FitDataParams</scope><name>FitDataParams</name></member>
+      <member refid="structMR_1_1FitDataParams_1a423ab9ff17d938fcf943e0989297eba6" prot="public" virt="non-virtual"><scope>MR::FitDataParams</scope><name>mode</name></member>
+      <member refid="structMR_1_1FitDataParams_1ad080d5785a8217efd7dd3134b61d933f" prot="public" virt="non-virtual"><scope>MR::FitDataParams</scope><name>objsList</name></member>
+      <member refid="structMR_1_1BaseFitParams_1a1ba0fadee2fc4bad0655f2b0f15211ab" prot="public" virt="non-virtual"><scope>MR::FitDataParams</scope><name>snapView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

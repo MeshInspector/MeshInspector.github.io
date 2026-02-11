@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CurvePoint" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CurvePoint</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CurvePoint_1a521c3c2866b54ebbc116954d350357e5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CurvePoint::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.CurvePoint._offsetof_dir</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CurvePoint_1a97ecad322bb012f409db89938a86236c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CurvePoint::_offsetof_pos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pos</name>
+        <qualifiedname>mrmeshpy.CurvePoint._offsetof_pos</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CurvePoint_1ac83f10a28cfeddb8f5b84a728db5ff18" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CurvePoint::_offsetof_snorm</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_snorm</name>
+        <qualifiedname>mrmeshpy.CurvePoint._offsetof_snorm</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11142" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1aa70987032136d9e4a106bc56e75ca802" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11145" bodyend="11146"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a6613a16091a98a5832fcb7741896b70c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+        <definition> CurvePoint mrmeshpy.CurvePoint.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CurvePoint.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11149" bodyend="11150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a6613a16091a98a5832fcb7741896b70c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+        <definition> CurvePoint mrmeshpy.CurvePoint.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CurvePoint.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11153" bodyend="11154"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1ad2600792245be2611a3d54d5e371727a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11156" bodyend="11157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a598eaf88c6a48bf20a1af53472b66221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.__init__</definition>
+        <argsstring>(self, CurvePoint arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11159" bodyend="11162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a87efc95c2710f318f7b84f3231763235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.__init__</definition>
+        <argsstring>(self, Vector3f pos, Vector3f dir, Vector3f snorm)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>snorm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11164" bodyend="11167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a3995e1696f7809e35b92bb9e2864ba02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CurvePoint.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.CurvePoint.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>direction along the curve
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11169" bodyend="11172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a5525b663768ab1853c37575546ad1983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.dir</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.CurvePoint.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11174" bodyend="11175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a1d6e4c070a71aeee55539390231cd8d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CurvePoint.pos</definition>
+        <argsstring>(self)</argsstring>
+        <name>pos</name>
+        <qualifiedname>mrmeshpy.CurvePoint.pos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>position on the curve
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11177" bodyend="11180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a1bead788c586ee20589820458c7b8dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.pos</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>pos</name>
+        <qualifiedname>mrmeshpy.CurvePoint.pos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11182" bodyend="11183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a7328183c1e940121673a9fbb77db1ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CurvePoint.snorm</definition>
+        <argsstring>(self)</argsstring>
+        <name>snorm</name>
+        <qualifiedname>mrmeshpy.CurvePoint.snorm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the normal of the surface where the curve is located
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11185" bodyend="11188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurvePoint_1a2756f92d9e7081e63ec5e5af492d3638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurvePoint.snorm</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>snorm</name>
+        <qualifiedname>mrmeshpy.CurvePoint.snorm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11190" bodyend="11191"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CurvePoint
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CurvePoint</label>
+        <link refid="classmrmeshpy_1_1CurvePoint"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dir</edgelabel>
+          <edgelabel>_offsetof_pos</edgelabel>
+          <edgelabel>_offsetof_snorm</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11136" bodyend="11191"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CurvePoint_1aa70987032136d9e4a106bc56e75ca802" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1ad2600792245be2611a3d54d5e371727a" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a598eaf88c6a48bf20a1af53472b66221" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a87efc95c2710f318f7b84f3231763235" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a521c3c2866b54ebbc116954d350357e5" prot="protected" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a97ecad322bb012f409db89938a86236c" prot="protected" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>_offsetof_pos</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1ac83f10a28cfeddb8f5b84a728db5ff18" prot="protected" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>_offsetof_snorm</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a3995e1696f7809e35b92bb9e2864ba02" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a5525b663768ab1853c37575546ad1983" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a6613a16091a98a5832fcb7741896b70c" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a6613a16091a98a5832fcb7741896b70c" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a1d6e4c070a71aeee55539390231cd8d0" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>pos</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a1bead788c586ee20589820458c7b8dee" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>pos</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a7328183c1e940121673a9fbb77db1ec5" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>snorm</name></member>
+      <member refid="classmrmeshpy_1_1CurvePoint_1a2756f92d9e7081e63ec5e5af492d3638" prot="public" virt="non-virtual"><scope>mrmeshpy::CurvePoint</scope><name>snorm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

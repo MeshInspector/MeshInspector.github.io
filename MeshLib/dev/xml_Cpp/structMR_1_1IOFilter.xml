@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IOFilter" kind="struct" language="C++" prot="public">
+    <compoundname>MR::IOFilter</compoundname>
+    <includes refid="MRIOFilters_8h" local="no">MRIOFilters.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1IOFilter_1ad4426ebb26f3474b6d69ca07c8e35980" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::IOFilter::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::IOFilter::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IOFilter_1a8806427d8212780dc5b20506b24b1223" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::IOFilter::extensions</definition>
+        <argsstring></argsstring>
+        <name>extensions</name>
+        <qualifiedname>MR::IOFilter::extensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1IOFilter_1a5f6f14f66f3758e05a9ca414470b17e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::IOFilter::IOFilter</definition>
+        <argsstring>()=default</argsstring>
+        <name>IOFilter</name>
+        <qualifiedname>MR::IOFilter::IOFilter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="18" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1IOFilter_1a54c41ce2b24a4ff3c52cb1bc4b87094a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::IOFilter::IOFilter</definition>
+        <argsstring>(std::string _name, std::string _ext)</argsstring>
+        <name>IOFilter</name>
+        <qualifiedname>MR::IOFilter::IOFilter</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1IOFilter_1a80dd32b51dbd9885a56ae8cf65001c7a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::partial_ordering</type>
+        <definition>std::partial_ordering MR::IOFilter::operator&lt;=&gt;</definition>
+        <argsstring>(const IOFilter &amp;) const =default</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::IOFilter::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1IOFilter" kindref="compound">IOFilter</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>&quot;*.ext&quot; or &quot;*.ext1;*.ext2;*.ext3&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="27" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1IOFilter_1a608730d6a06e28828607af1531f9a765" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::IOFilter::isSupportedExtension</definition>
+        <argsstring>(const std::string &amp;ext) const</argsstring>
+        <name>isSupportedExtension</name>
+        <qualifiedname>MR::IOFilter::isSupportedExtension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="29" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" bodystart="17" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structMR_1_1IOFilter_1a8806427d8212780dc5b20506b24b1223" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>extensions</name></member>
+      <member refid="structMR_1_1IOFilter_1a5f6f14f66f3758e05a9ca414470b17e3" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>IOFilter</name></member>
+      <member refid="structMR_1_1IOFilter_1a54c41ce2b24a4ff3c52cb1bc4b87094a" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>IOFilter</name></member>
+      <member refid="structMR_1_1IOFilter_1a608730d6a06e28828607af1531f9a765" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>isSupportedExtension</name></member>
+      <member refid="structMR_1_1IOFilter_1ad4426ebb26f3474b6d69ca07c8e35980" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>name</name></member>
+      <member refid="structMR_1_1IOFilter_1a80dd32b51dbd9885a56ae8cf65001c7a" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>operator&lt;=&gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

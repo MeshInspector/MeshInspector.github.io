@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenuItemAdderT" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenuItemAdderT</compoundname>
+    <basecompoundref refid="classMR_1_1RibbonMenuItemAdder" prot="private" virt="non-virtual">MR::RibbonMenuItemAdder</basecompoundref>
+    <includes refid="MRRibbonRegisterItem_8h" local="no">MRRibbonRegisterItem.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenuItemAdderT_1aa36f28686fe351fe8a9522c754c08124" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::RibbonMenuItemAdderT&lt; T &gt;::RibbonMenuItemAdderT</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>RibbonMenuItemAdderT</name>
+        <qualifiedname>MR::RibbonMenuItemAdderT::RibbonMenuItemAdderT</qualifiedname>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" bodystart="30" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenuItemAdderT_1a58433d43071c60302e398b1b130e5018" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>static auto MR::RibbonMenuItemAdderT&lt; T &gt;::makeT_</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>makeT_</name>
+        <qualifiedname>MR::RibbonMenuItemAdderT::makeT_</qualifiedname>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" line="35" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" bodystart="35" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::RibbonMenuItemAdder</label>
+        <link refid="classMR_1_1RibbonMenuItemAdder"/>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenuItemAdderT&lt; T &gt;</label>
+        <link refid="classMR_1_1RibbonMenuItemAdderT"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::RibbonMenuItemAdder</label>
+        <link refid="classMR_1_1RibbonMenuItemAdder"/>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenuItemAdderT&lt; T &gt;</label>
+        <link refid="classMR_1_1RibbonMenuItemAdderT"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" bodystart="25" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonMenuItemAdderT_1a58433d43071c60302e398b1b130e5018" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItemAdderT</scope><name>makeT_</name></member>
+      <member refid="classMR_1_1RibbonMenuItemAdderT_1aa36f28686fe351fe8a9522c754c08124" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItemAdderT</scope><name>RibbonMenuItemAdderT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

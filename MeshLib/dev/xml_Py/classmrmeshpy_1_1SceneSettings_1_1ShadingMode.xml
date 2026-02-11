@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneSettings::ShadingMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a92fa324321d201e234f573d906f23062" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.ShadingMode::AutoDetect</definition>
+        <argsstring></argsstring>
+        <name>AutoDetect</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.AutoDetect</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" kindref="compound">SceneSettings.ShadingMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a6b52373f434b34f97dbe15f908914851" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.ShadingMode::Flat</definition>
+        <argsstring></argsstring>
+        <name>Flat</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.Flat</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" kindref="compound">SceneSettings.ShadingMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a260878ef6e52c5cdf7b32e8a941abf42" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.ShadingMode::Smooth</definition>
+        <argsstring></argsstring>
+        <name>Smooth</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.Smooth</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" kindref="compound">SceneSettings.ShadingMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51299" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a161c82eb0b58a8265b00e335769f374b" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.ShadingMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" kindref="compound">SceneSettings.ShadingMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51300" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a0161672359ccf20b46c2a14f5e30b2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneSettings.ShadingMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51301" bodyend="51302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a18ac3432ca47c7ae0fe58b0ceb9dc106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.ShadingMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51303" bodyend="51304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a5a475b2d3562d7b49c477a47743f4680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.ShadingMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51305" bodyend="51306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a2e65ae03a99eab91136046df17102e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.ShadingMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51307" bodyend="51308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a28600d8f0afe9307f840ce7ce6ebb586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.ShadingMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51309" bodyend="51310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1ae105e1163c63a45e93e4d02a27680d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.ShadingMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51311" bodyend="51312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a6014193887cf38848547c74b72d65945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneSettings.ShadingMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51313" bodyend="51314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1ae573b0d18f954665fdda1ae5db1c2f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.ShadingMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51315" bodyend="51316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a6f29614bd74b966006fa64378dbeb3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.ShadingMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51317" bodyend="51318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a56295f828403e2eed1a40aea6f6b5a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.ShadingMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51319" bodyend="51320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a04aee76da7f8cda8ee3af0b57c4fde93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.ShadingMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51322" bodyend="51323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a866692d0000f18ef81f8578923787e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.ShadingMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SceneSettings.ShadingMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51325" bodyend="51327"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  AutoDetect
+
+  Smooth
+
+  Flat
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SceneSettings.ShadingMode</label>
+        <link refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AutoDetect</edgelabel>
+          <edgelabel>Flat</edgelabel>
+          <edgelabel>Smooth</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51287" bodyend="51326"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a0161672359ccf20b46c2a14f5e30b2e6" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a18ac3432ca47c7ae0fe58b0ceb9dc106" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a5a475b2d3562d7b49c477a47743f4680" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a2e65ae03a99eab91136046df17102e88" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a28600d8f0afe9307f840ce7ce6ebb586" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1ae105e1163c63a45e93e4d02a27680d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a161c82eb0b58a8265b00e335769f374b" prot="private" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a6014193887cf38848547c74b72d65945" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1ae573b0d18f954665fdda1ae5db1c2f8e" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a6f29614bd74b966006fa64378dbeb3dd" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a56295f828403e2eed1a40aea6f6b5a81" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a92fa324321d201e234f573d906f23062" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>AutoDetect</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a6b52373f434b34f97dbe15f908914851" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>Flat</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a04aee76da7f8cda8ee3af0b57c4fde93" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a260878ef6e52c5cdf7b32e8a941abf42" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>Smooth</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode_1a866692d0000f18ef81f8578923787e2c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::ShadingMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord" kind="struct" language="C++" prot="private">
+    <compoundname>MR::PolylineTopology::HalfEdgeRecord</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1ab1ed86ede6d5b6c5be5ed47055c9ee11" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::PolylineTopology::HalfEdgeRecord::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>MR::PolylineTopology::HalfEdgeRecord::next</qualifiedname>
+        <briefdescription>
+<para>next counter clock wise half-edge in the origin ring </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="213" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1a3cd5f11c0bc84108cea084772f379962" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PolylineTopology::HalfEdgeRecord::org</definition>
+        <argsstring></argsstring>
+        <name>org</name>
+        <qualifiedname>MR::PolylineTopology::HalfEdgeRecord::org</qualifiedname>
+        <briefdescription>
+<para>vertex at the origin of the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="214" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1acd6560a0f28fb19765459a10c4f673c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PolylineTopology::HalfEdgeRecord::operator==</definition>
+        <argsstring>(const HalfEdgeRecord &amp;b) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::PolylineTopology::HalfEdgeRecord::operator==</qualifiedname>
+        <param>
+          <type>const HalfEdgeRecord &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="216" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1afa0f07a20d1c7be61d394cfe05af0d19" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PolylineTopology::HalfEdgeRecord::HalfEdgeRecord</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>HalfEdgeRecord</name>
+        <qualifiedname>MR::PolylineTopology::HalfEdgeRecord::HalfEdgeRecord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="220" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1ad486c946604c41af89e8d9bf4ae0f231" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PolylineTopology::HalfEdgeRecord::HalfEdgeRecord</definition>
+        <argsstring>(NoInit) noexcept</argsstring>
+        <name>HalfEdgeRecord</name>
+        <qualifiedname>MR::PolylineTopology::HalfEdgeRecord::HalfEdgeRecord</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="221" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="221" bodyend="221"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>data of every half-edge </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="211" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="212" bodyend="222"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1afa0f07a20d1c7be61d394cfe05af0d19" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
+      <member refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1ad486c946604c41af89e8d9bf4ae0f231" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
+      <member refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1ab1ed86ede6d5b6c5be5ed47055c9ee11" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>next</name></member>
+      <member refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1acd6560a0f28fb19765459a10c4f673c4" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>operator==</name></member>
+      <member refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord_1a3cd5f11c0bc84108cea084772f379962" prot="public" virt="non-virtual"><scope>MR::PolylineTopology::HalfEdgeRecord</scope><name>org</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

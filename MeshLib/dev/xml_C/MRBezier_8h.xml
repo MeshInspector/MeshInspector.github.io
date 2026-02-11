@@ -1,0 +1,1337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRBezier_8h" kind="file" language="C++">
+    <compoundname>MRBezier.h</compoundname>
+    <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">MRCMisc/std_array_double_4.h</includes>
+    <includes local="no">MRCMisc/std_array_float_4.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRBezier.h</label>
+        <link refid="MRBezier_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="8">
+        <label>MRCMisc/std_array_double_4.h</label>
+      </node>
+      <node id="9">
+        <label>MRCMisc/std_array_float_4.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" prot="public" static="no">
+        <type>struct <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref></type>
+        <definition>typedef struct MR_CubicBezierCurve2f MR_CubicBezierCurve2f</definition>
+        <argsstring></argsstring>
+        <name>MR_CubicBezierCurve2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cubic Bezier curve Generated from class <computeroutput>MR::CubicBezierCurve2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="19" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" prot="public" static="no">
+        <type>struct <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref></type>
+        <definition>typedef struct MR_CubicBezierCurve2d MR_CubicBezierCurve2d</definition>
+        <argsstring></argsstring>
+        <name>MR_CubicBezierCurve2d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cubic Bezier curve Generated from class <computeroutput>MR::CubicBezierCurve2d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="24" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" prot="public" static="no">
+        <type>struct <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref></type>
+        <definition>typedef struct MR_CubicBezierCurve3f MR_CubicBezierCurve3f</definition>
+        <argsstring></argsstring>
+        <name>MR_CubicBezierCurve3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cubic Bezier curve Generated from class <computeroutput>MR::CubicBezierCurve3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="29" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" prot="public" static="no">
+        <type>struct <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref></type>
+        <definition>typedef struct MR_CubicBezierCurve3d MR_CubicBezierCurve3d</definition>
+        <argsstring></argsstring>
+        <name>MR_CubicBezierCurve3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cubic Bezier curve Generated from class <computeroutput>MR::CubicBezierCurve3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="34" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRBezier_8h_1abf193efa250873bc046967a70f0042e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CubicBezierCurve2f_Get_elements</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve2f_Get_elements</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve2f</computeroutput> named <computeroutput>elements</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="38" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="38" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ad4c0eac06bda36fdeb903bd9f2ed6d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API const MR_Vector2f * MR_CubicBezierCurve2f_Get_p</definition>
+        <argsstring>(const MR_CubicBezierCurve2f *_this)</argsstring>
+        <name>MR_CubicBezierCurve2f_Get_p</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve2f</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="44" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="44" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a85de9b94e3f95a254ab93cae2debb2a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API MR_Vector2f * MR_CubicBezierCurve2f_GetMutable_p</definition>
+        <argsstring>(MR_CubicBezierCurve2f *_this)</argsstring>
+        <name>MR_CubicBezierCurve2f_GetMutable_p</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a mutable pointer to a member variable of class <computeroutput>MR::CubicBezierCurve2f</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="50" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1aa5275e5e5fa7725ad4162476faa52ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API size_t</type>
+        <definition>MRC_API size_t MR_CubicBezierCurve2f_GetSize_p</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve2f_GetSize_p</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns the size of the array member of class <computeroutput>MR::CubicBezierCurve2f</computeroutput> named <computeroutput>p</computeroutput>. The size is <computeroutput>4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="53" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="53" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a1f6030cf2ca07a60e9ac87ea98ec0ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2f * MR_CubicBezierCurve2f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve2f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a01672567c26ea1b6c8e51a5af86087a7" kindref="member">MR_CubicBezierCurve2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="57" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="57" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a32bac8cc950ea1f0f9722ea7775a3766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2f * MR_CubicBezierCurve2f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CubicBezierCurve2f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRBezier_8h_1abb72deb8ec410ace34243119beb4e161" kindref="member">MR_CubicBezierCurve2f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRBezier_8h_1a4b2213940d33405493ea2c3e89e22408" kindref="member">MR_CubicBezierCurve2f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRBezier_8h_1afe3286f3893adc7d6179b6a001e8dd58" kindref="member">MR_CubicBezierCurve2f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="62" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="62" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1afe3286f3893adc7d6179b6a001e8dd58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+        <definition>MRC_API const MR_CubicBezierCurve2f * MR_CubicBezierCurve2f_OffsetPtr</definition>
+        <argsstring>(const MR_CubicBezierCurve2f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve2f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="66" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="66" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a4b2213940d33405493ea2c3e89e22408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2f * MR_CubicBezierCurve2f_OffsetMutablePtr</definition>
+        <argsstring>(MR_CubicBezierCurve2f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve2f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="70" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="70" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a33062ef5e904aa852fe0a90423fa3fde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2f * MR_CubicBezierCurve2f_ConstructFromAnother</definition>
+        <argsstring>(const MR_CubicBezierCurve2f *_other)</argsstring>
+        <name>MR_CubicBezierCurve2f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CubicBezierCurve2f::CubicBezierCurve2f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a01672567c26ea1b6c8e51a5af86087a7" kindref="member">MR_CubicBezierCurve2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="76" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="76" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a01672567c26ea1b6c8e51a5af86087a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve2f_Destroy</definition>
+        <argsstring>(const MR_CubicBezierCurve2f *_this)</argsstring>
+        <name>MR_CubicBezierCurve2f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve2f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1abb72deb8ec410ace34243119beb4e161" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve2f_DestroyArray</definition>
+        <argsstring>(const MR_CubicBezierCurve2f *_this)</argsstring>
+        <name>MR_CubicBezierCurve2f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve2f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="82" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a112441e35844bbcd2f0822e5d7856c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2f * MR_CubicBezierCurve2f_AssignFromAnother</definition>
+        <argsstring>(MR_CubicBezierCurve2f *_this, const MR_CubicBezierCurve2f *_other)</argsstring>
+        <name>MR_CubicBezierCurve2f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CubicBezierCurve2f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="90" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="90" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1af66b0981288b67784c9ea4a77c83bdb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+        <definition>MRC_API MR_Vector2f MR_CubicBezierCurve2f_getPoint</definition>
+        <argsstring>(const MR_CubicBezierCurve2f *_this, float t)</argsstring>
+        <name>MR_CubicBezierCurve2f_getPoint</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes point on the curve from parameter value Generated from method <computeroutput>MR::CubicBezierCurve2f::getPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="95" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1abcb685400cfe8907493a104affc99475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_std_array_float_4</type>
+        <definition>MRC_API MR_std_array_float_4 MR_CubicBezierCurve2f_getWeights</definition>
+        <argsstring>(float t)</argsstring>
+        <name>MR_CubicBezierCurve2f_getWeights</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from method <computeroutput>MR::CubicBezierCurve2f::getWeights</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="99" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="99" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a183cb719b4252f9aa35440e6d5d26976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CubicBezierCurve2d_Get_elements</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve2d_Get_elements</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve2d</computeroutput> named <computeroutput>elements</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="103" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="103" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a4cad5297dc4a340c5882003878be6551" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API const MR_Vector2d * MR_CubicBezierCurve2d_Get_p</definition>
+        <argsstring>(const MR_CubicBezierCurve2d *_this)</argsstring>
+        <name>MR_CubicBezierCurve2d_Get_p</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve2d</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="109" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="109" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a79f0c404c0455d62e9a7d181e7d00380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API MR_Vector2d * MR_CubicBezierCurve2d_GetMutable_p</definition>
+        <argsstring>(MR_CubicBezierCurve2d *_this)</argsstring>
+        <name>MR_CubicBezierCurve2d_GetMutable_p</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a mutable pointer to a member variable of class <computeroutput>MR::CubicBezierCurve2d</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="115" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="115" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ac4a10e82e1e3e9681490f58a219dc602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API size_t</type>
+        <definition>MRC_API size_t MR_CubicBezierCurve2d_GetSize_p</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve2d_GetSize_p</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns the size of the array member of class <computeroutput>MR::CubicBezierCurve2d</computeroutput> named <computeroutput>p</computeroutput>. The size is <computeroutput>4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="118" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="118" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ac97c493a60a27830e006c7a0d2416061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2d * MR_CubicBezierCurve2d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve2d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a31c16b54f8e94eaccbdc8cbfeaf2f2c0" kindref="member">MR_CubicBezierCurve2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="122" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1afa931bde18e42e3fb7d34b4c491a3b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2d * MR_CubicBezierCurve2d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CubicBezierCurve2d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRBezier_8h_1ac1b5406820df03df1d3ece11578d4442" kindref="member">MR_CubicBezierCurve2d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRBezier_8h_1aff7835188e7ba3c96a545e08e794ee07" kindref="member">MR_CubicBezierCurve2d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRBezier_8h_1ae85765834bc0044c009998ea5b013501" kindref="member">MR_CubicBezierCurve2d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="127" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="127" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ae85765834bc0044c009998ea5b013501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+        <definition>MRC_API const MR_CubicBezierCurve2d * MR_CubicBezierCurve2d_OffsetPtr</definition>
+        <argsstring>(const MR_CubicBezierCurve2d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve2d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="131" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="131" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1aff7835188e7ba3c96a545e08e794ee07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2d * MR_CubicBezierCurve2d_OffsetMutablePtr</definition>
+        <argsstring>(MR_CubicBezierCurve2d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve2d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="135" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="135" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a703c929eb05bb90c778e997f96aad97c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2d * MR_CubicBezierCurve2d_ConstructFromAnother</definition>
+        <argsstring>(const MR_CubicBezierCurve2d *_other)</argsstring>
+        <name>MR_CubicBezierCurve2d_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CubicBezierCurve2d::CubicBezierCurve2d</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a31c16b54f8e94eaccbdc8cbfeaf2f2c0" kindref="member">MR_CubicBezierCurve2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="141" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="141" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a31c16b54f8e94eaccbdc8cbfeaf2f2c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve2d_Destroy</definition>
+        <argsstring>(const MR_CubicBezierCurve2d *_this)</argsstring>
+        <name>MR_CubicBezierCurve2d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve2d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="144" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ac1b5406820df03df1d3ece11578d4442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve2d_DestroyArray</definition>
+        <argsstring>(const MR_CubicBezierCurve2d *_this)</argsstring>
+        <name>MR_CubicBezierCurve2d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve2d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1aa345082f60847b7c3ad6e429a4cb5c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve2d * MR_CubicBezierCurve2d_AssignFromAnother</definition>
+        <argsstring>(MR_CubicBezierCurve2d *_this, const MR_CubicBezierCurve2d *_other)</argsstring>
+        <name>MR_CubicBezierCurve2d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CubicBezierCurve2d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="155" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="155" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a62238ff980e7cffcb8e3b2a4dbf2b769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+        <definition>MRC_API MR_Vector2d MR_CubicBezierCurve2d_getPoint</definition>
+        <argsstring>(const MR_CubicBezierCurve2d *_this, double t)</argsstring>
+        <name>MR_CubicBezierCurve2d_getPoint</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes point on the curve from parameter value Generated from method <computeroutput>MR::CubicBezierCurve2d::getPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="160" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="160" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ac24f9dbbfda75a0213633658d985a57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_std_array_double_4</type>
+        <definition>MRC_API MR_std_array_double_4 MR_CubicBezierCurve2d_getWeights</definition>
+        <argsstring>(double t)</argsstring>
+        <name>MR_CubicBezierCurve2d_getWeights</name>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from method <computeroutput>MR::CubicBezierCurve2d::getWeights</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="164" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="164" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ae89a25b1d7ad2456ec0e8960473e6945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CubicBezierCurve3f_Get_elements</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve3f_Get_elements</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve3f</computeroutput> named <computeroutput>elements</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="168" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="168" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a9baaf0d75b4c4741fdfa8d999ccecd71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_CubicBezierCurve3f_Get_p</definition>
+        <argsstring>(const MR_CubicBezierCurve3f *_this)</argsstring>
+        <name>MR_CubicBezierCurve3f_Get_p</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve3f</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="174" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="174" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a94a1cab3f574cdaecbd5e773bc8e49a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_CubicBezierCurve3f_GetMutable_p</definition>
+        <argsstring>(MR_CubicBezierCurve3f *_this)</argsstring>
+        <name>MR_CubicBezierCurve3f_GetMutable_p</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a mutable pointer to a member variable of class <computeroutput>MR::CubicBezierCurve3f</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="180" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="180" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a697c5b09edd74a7740f3305f9e734e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API size_t</type>
+        <definition>MRC_API size_t MR_CubicBezierCurve3f_GetSize_p</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve3f_GetSize_p</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns the size of the array member of class <computeroutput>MR::CubicBezierCurve3f</computeroutput> named <computeroutput>p</computeroutput>. The size is <computeroutput>4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="183" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="183" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a56529241efc9f1c00f9412b67fe6d579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3f * MR_CubicBezierCurve3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a043fdd39ae91a3b602aef1c4891729ff" kindref="member">MR_CubicBezierCurve3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="187" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="187" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a6a1097ec7d5a24e735e373f5c8d68b48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3f * MR_CubicBezierCurve3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CubicBezierCurve3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRBezier_8h_1a46002afc8d89ecc60751af189bfc4639" kindref="member">MR_CubicBezierCurve3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRBezier_8h_1a51d50641cae6fef3e7e5ef6e6e612f05" kindref="member">MR_CubicBezierCurve3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRBezier_8h_1a3b68ed98d4f33984adcd269920aab67b" kindref="member">MR_CubicBezierCurve3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="192" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="192" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a3b68ed98d4f33984adcd269920aab67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+        <definition>MRC_API const MR_CubicBezierCurve3f * MR_CubicBezierCurve3f_OffsetPtr</definition>
+        <argsstring>(const MR_CubicBezierCurve3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="196" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="196" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a51d50641cae6fef3e7e5ef6e6e612f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3f * MR_CubicBezierCurve3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_CubicBezierCurve3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="200" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="200" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1afce96f6938c846585f0c7df0c795bd79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3f * MR_CubicBezierCurve3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_CubicBezierCurve3f *_other)</argsstring>
+        <name>MR_CubicBezierCurve3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CubicBezierCurve3f::CubicBezierCurve3f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a043fdd39ae91a3b602aef1c4891729ff" kindref="member">MR_CubicBezierCurve3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="206" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="206" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a043fdd39ae91a3b602aef1c4891729ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve3f_Destroy</definition>
+        <argsstring>(const MR_CubicBezierCurve3f *_this)</argsstring>
+        <name>MR_CubicBezierCurve3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="209" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="209" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a46002afc8d89ecc60751af189bfc4639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve3f_DestroyArray</definition>
+        <argsstring>(const MR_CubicBezierCurve3f *_this)</argsstring>
+        <name>MR_CubicBezierCurve3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="212" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1ad897c35896d0a703fc99a68dca4c855b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3f * MR_CubicBezierCurve3f_AssignFromAnother</definition>
+        <argsstring>(MR_CubicBezierCurve3f *_this, const MR_CubicBezierCurve3f *_other)</argsstring>
+        <name>MR_CubicBezierCurve3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CubicBezierCurve3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="220" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="220" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1aaa303ff201e4f597d1779d95e25570c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_CubicBezierCurve3f_getPoint</definition>
+        <argsstring>(const MR_CubicBezierCurve3f *_this, float t)</argsstring>
+        <name>MR_CubicBezierCurve3f_getPoint</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes point on the curve from parameter value Generated from method <computeroutput>MR::CubicBezierCurve3f::getPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="225" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="225" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a21045c4e26279b6262c6bf488b3b8b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_std_array_float_4</type>
+        <definition>MRC_API MR_std_array_float_4 MR_CubicBezierCurve3f_getWeights</definition>
+        <argsstring>(float t)</argsstring>
+        <name>MR_CubicBezierCurve3f_getWeights</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from method <computeroutput>MR::CubicBezierCurve3f::getWeights</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="229" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="229" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a05452a3fb160fd08476a2daa2c9e28da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CubicBezierCurve3d_Get_elements</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve3d_Get_elements</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve3d</computeroutput> named <computeroutput>elements</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="233" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1aa8c1b1bb716ac61365e0a534f93c72dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_CubicBezierCurve3d_Get_p</definition>
+        <argsstring>(const MR_CubicBezierCurve3d *_this)</argsstring>
+        <name>MR_CubicBezierCurve3d_Get_p</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a pointer to a member variable of class <computeroutput>MR::CubicBezierCurve3d</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="239" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="239" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a55f5e102e272593fa0e315264f8201ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_CubicBezierCurve3d_GetMutable_p</definition>
+        <argsstring>(MR_CubicBezierCurve3d *_this)</argsstring>
+        <name>MR_CubicBezierCurve3d_GetMutable_p</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>4 control points Returns a mutable pointer to a member variable of class <computeroutput>MR::CubicBezierCurve3d</computeroutput> named <computeroutput>p</computeroutput>. This is a pointer to the first element of an array. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="245" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="245" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a5ed191de3d5bfc523f20c84f54e27b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API size_t</type>
+        <definition>MRC_API size_t MR_CubicBezierCurve3d_GetSize_p</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve3d_GetSize_p</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns the size of the array member of class <computeroutput>MR::CubicBezierCurve3d</computeroutput> named <computeroutput>p</computeroutput>. The size is <computeroutput>4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="248" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="248" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a90db69e36168c12ee1d48c96bd4d4e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3d * MR_CubicBezierCurve3d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CubicBezierCurve3d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a14cce647bf39e71f39ae6bd7e8064ada" kindref="member">MR_CubicBezierCurve3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="252" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="252" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a56f034a4f635beee45e3705bec63b5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3d * MR_CubicBezierCurve3d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CubicBezierCurve3d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRBezier_8h_1af97f6e0ac61c9d8865ae9ded2429e0e3" kindref="member">MR_CubicBezierCurve3d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRBezier_8h_1a032930890ecdd9b101466ea5a0f5256f" kindref="member">MR_CubicBezierCurve3d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRBezier_8h_1a7ba3a0c96c5f42d892913d0fabbc0eac" kindref="member">MR_CubicBezierCurve3d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="257" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="257" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a7ba3a0c96c5f42d892913d0fabbc0eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+        <definition>MRC_API const MR_CubicBezierCurve3d * MR_CubicBezierCurve3d_OffsetPtr</definition>
+        <argsstring>(const MR_CubicBezierCurve3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve3d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="261" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="261" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a032930890ecdd9b101466ea5a0f5256f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3d * MR_CubicBezierCurve3d_OffsetMutablePtr</definition>
+        <argsstring>(MR_CubicBezierCurve3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CubicBezierCurve3d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="265" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="265" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a474959be6a2b2db8eb535025d9f42adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3d * MR_CubicBezierCurve3d_ConstructFromAnother</definition>
+        <argsstring>(const MR_CubicBezierCurve3d *_other)</argsstring>
+        <name>MR_CubicBezierCurve3d_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CubicBezierCurve3d::CubicBezierCurve3d</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBezier_8h_1a14cce647bf39e71f39ae6bd7e8064ada" kindref="member">MR_CubicBezierCurve3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="271" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="271" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a14cce647bf39e71f39ae6bd7e8064ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve3d_Destroy</definition>
+        <argsstring>(const MR_CubicBezierCurve3d *_this)</argsstring>
+        <name>MR_CubicBezierCurve3d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="274" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="274" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1af97f6e0ac61c9d8865ae9ded2429e0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CubicBezierCurve3d_DestroyArray</definition>
+        <argsstring>(const MR_CubicBezierCurve3d *_this)</argsstring>
+        <name>MR_CubicBezierCurve3d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="277" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="277" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a8c8fd43a525b10a9b92e7b54367e08d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+        <definition>MRC_API MR_CubicBezierCurve3d * MR_CubicBezierCurve3d_AssignFromAnother</definition>
+        <argsstring>(MR_CubicBezierCurve3d *_this, const MR_CubicBezierCurve3d *_other)</argsstring>
+        <name>MR_CubicBezierCurve3d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CubicBezierCurve3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="285" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="285" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a6c2dc690fe6685f1db073d4fad75f671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MRC_API MR_Vector3d MR_CubicBezierCurve3d_getPoint</definition>
+        <argsstring>(const MR_CubicBezierCurve3d *_this, double t)</argsstring>
+        <name>MR_CubicBezierCurve3d_getPoint</name>
+        <param>
+          <type>const <ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes point on the curve from parameter value Generated from method <computeroutput>MR::CubicBezierCurve3d::getPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="290" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="290" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRBezier_8h_1a4a460a8638ceb9b89676938b771b69c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_std_array_double_4</type>
+        <definition>MRC_API MR_std_array_double_4 MR_CubicBezierCurve3d_getWeights</definition>
+        <argsstring>(double t)</argsstring>
+        <name>MR_CubicBezierCurve3d_getWeights</name>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from method <computeroutput>MR::CubicBezierCurve3d::getWeights</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" line="294" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h" declline="294" declcolumn="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/std_array_double_4.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/std_array_float_4.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRBezier_8h_1abf193efa250873bc046967a70f0042e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBezier_8h_1abf193efa250873bc046967a70f0042e7" kindref="member">MR_CubicBezierCurve2f_Get_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRBezier_8h_1ad4c0eac06bda36fdeb903bd9f2ed6d6c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRBezier_8h_1ad4c0eac06bda36fdeb903bd9f2ed6d6c" kindref="member">MR_CubicBezierCurve2f_Get_p</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRBezier_8h_1a85de9b94e3f95a254ab93cae2debb2a5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRBezier_8h_1a85de9b94e3f95a254ab93cae2debb2a5" kindref="member">MR_CubicBezierCurve2f_GetMutable_p</ref>(<ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRBezier_8h_1aa5275e5e5fa7725ad4162476faa52ebf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1aa5275e5e5fa7725ad4162476faa52ebf" kindref="member">MR_CubicBezierCurve2f_GetSize_p</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRBezier_8h_1a1f6030cf2ca07a60e9ac87ea98ec0ec8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*<ref refid="MRBezier_8h_1a1f6030cf2ca07a60e9ac87ea98ec0ec8" kindref="member">MR_CubicBezierCurve2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRBezier_8h_1a32bac8cc950ea1f0f9722ea7775a3766" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*<ref refid="MRBezier_8h_1a32bac8cc950ea1f0f9722ea7775a3766" kindref="member">MR_CubicBezierCurve2f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRBezier_8h_1afe3286f3893adc7d6179b6a001e8dd58" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*<ref refid="MRBezier_8h_1afe3286f3893adc7d6179b6a001e8dd58" kindref="member">MR_CubicBezierCurve2f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRBezier_8h_1a4b2213940d33405493ea2c3e89e22408" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*<ref refid="MRBezier_8h_1a4b2213940d33405493ea2c3e89e22408" kindref="member">MR_CubicBezierCurve2f_OffsetMutablePtr</ref>(<ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRBezier_8h_1a33062ef5e904aa852fe0a90423fa3fde" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*<ref refid="MRBezier_8h_1a33062ef5e904aa852fe0a90423fa3fde" kindref="member">MR_CubicBezierCurve2f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRBezier_8h_1a01672567c26ea1b6c8e51a5af86087a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a01672567c26ea1b6c8e51a5af86087a7" kindref="member">MR_CubicBezierCurve2f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRBezier_8h_1abb72deb8ec410ace34243119beb4e161" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1abb72deb8ec410ace34243119beb4e161" kindref="member">MR_CubicBezierCurve2f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRBezier_8h_1a112441e35844bbcd2f0822e5d7856c62" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*<ref refid="MRBezier_8h_1a112441e35844bbcd2f0822e5d7856c62" kindref="member">MR_CubicBezierCurve2f_AssignFromAnother</ref>(<ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRBezier_8h_1af66b0981288b67784c9ea4a77c83bdb2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="MRBezier_8h_1af66b0981288b67784c9ea4a77c83bdb2" kindref="member">MR_CubicBezierCurve2f_getPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRBezier_8h_1abcb685400cfe8907493a104affc99475" refkind="member"><highlight class="normal">MRC_API<sp/>MR_std_array_float_4<sp/><ref refid="MRBezier_8h_1abcb685400cfe8907493a104affc99475" kindref="member">MR_CubicBezierCurve2f_getWeights</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRBezier_8h_1a183cb719b4252f9aa35440e6d5d26976" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBezier_8h_1a183cb719b4252f9aa35440e6d5d26976" kindref="member">MR_CubicBezierCurve2d_Get_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRBezier_8h_1a4cad5297dc4a340c5882003878be6551" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRBezier_8h_1a4cad5297dc4a340c5882003878be6551" kindref="member">MR_CubicBezierCurve2d_Get_p</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRBezier_8h_1a79f0c404c0455d62e9a7d181e7d00380" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRBezier_8h_1a79f0c404c0455d62e9a7d181e7d00380" kindref="member">MR_CubicBezierCurve2d_GetMutable_p</ref>(<ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRBezier_8h_1ac4a10e82e1e3e9681490f58a219dc602" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac4a10e82e1e3e9681490f58a219dc602" kindref="member">MR_CubicBezierCurve2d_GetSize_p</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRBezier_8h_1ac97c493a60a27830e006c7a0d2416061" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*<ref refid="MRBezier_8h_1ac97c493a60a27830e006c7a0d2416061" kindref="member">MR_CubicBezierCurve2d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="MRBezier_8h_1afa931bde18e42e3fb7d34b4c491a3b09" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*<ref refid="MRBezier_8h_1afa931bde18e42e3fb7d34b4c491a3b09" kindref="member">MR_CubicBezierCurve2d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRBezier_8h_1ae85765834bc0044c009998ea5b013501" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*<ref refid="MRBezier_8h_1ae85765834bc0044c009998ea5b013501" kindref="member">MR_CubicBezierCurve2d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRBezier_8h_1aff7835188e7ba3c96a545e08e794ee07" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*<ref refid="MRBezier_8h_1aff7835188e7ba3c96a545e08e794ee07" kindref="member">MR_CubicBezierCurve2d_OffsetMutablePtr</ref>(<ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRBezier_8h_1a703c929eb05bb90c778e997f96aad97c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*<ref refid="MRBezier_8h_1a703c929eb05bb90c778e997f96aad97c" kindref="member">MR_CubicBezierCurve2d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRBezier_8h_1a31c16b54f8e94eaccbdc8cbfeaf2f2c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a31c16b54f8e94eaccbdc8cbfeaf2f2c0" kindref="member">MR_CubicBezierCurve2d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRBezier_8h_1ac1b5406820df03df1d3ece11578d4442" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac1b5406820df03df1d3ece11578d4442" kindref="member">MR_CubicBezierCurve2d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRBezier_8h_1aa345082f60847b7c3ad6e429a4cb5c48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*<ref refid="MRBezier_8h_1aa345082f60847b7c3ad6e429a4cb5c48" kindref="member">MR_CubicBezierCurve2d_AssignFromAnother</ref>(<ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRBezier_8h_1a62238ff980e7cffcb8e3b2a4dbf2b769" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/><ref refid="MRBezier_8h_1a62238ff980e7cffcb8e3b2a4dbf2b769" kindref="member">MR_CubicBezierCurve2d_getPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRBezier_8h_1ac24f9dbbfda75a0213633658d985a57a" refkind="member"><highlight class="normal">MRC_API<sp/>MR_std_array_double_4<sp/><ref refid="MRBezier_8h_1ac24f9dbbfda75a0213633658d985a57a" kindref="member">MR_CubicBezierCurve2d_getWeights</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRBezier_8h_1ae89a25b1d7ad2456ec0e8960473e6945" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBezier_8h_1ae89a25b1d7ad2456ec0e8960473e6945" kindref="member">MR_CubicBezierCurve3f_Get_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRBezier_8h_1a9baaf0d75b4c4741fdfa8d999ccecd71" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRBezier_8h_1a9baaf0d75b4c4741fdfa8d999ccecd71" kindref="member">MR_CubicBezierCurve3f_Get_p</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRBezier_8h_1a94a1cab3f574cdaecbd5e773bc8e49a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRBezier_8h_1a94a1cab3f574cdaecbd5e773bc8e49a0" kindref="member">MR_CubicBezierCurve3f_GetMutable_p</ref>(<ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRBezier_8h_1a697c5b09edd74a7740f3305f9e734e7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a697c5b09edd74a7740f3305f9e734e7f" kindref="member">MR_CubicBezierCurve3f_GetSize_p</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRBezier_8h_1a56529241efc9f1c00f9412b67fe6d579" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*<ref refid="MRBezier_8h_1a56529241efc9f1c00f9412b67fe6d579" kindref="member">MR_CubicBezierCurve3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRBezier_8h_1a6a1097ec7d5a24e735e373f5c8d68b48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*<ref refid="MRBezier_8h_1a6a1097ec7d5a24e735e373f5c8d68b48" kindref="member">MR_CubicBezierCurve3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRBezier_8h_1a3b68ed98d4f33984adcd269920aab67b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*<ref refid="MRBezier_8h_1a3b68ed98d4f33984adcd269920aab67b" kindref="member">MR_CubicBezierCurve3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRBezier_8h_1a51d50641cae6fef3e7e5ef6e6e612f05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*<ref refid="MRBezier_8h_1a51d50641cae6fef3e7e5ef6e6e612f05" kindref="member">MR_CubicBezierCurve3f_OffsetMutablePtr</ref>(<ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="MRBezier_8h_1afce96f6938c846585f0c7df0c795bd79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*<ref refid="MRBezier_8h_1afce96f6938c846585f0c7df0c795bd79" kindref="member">MR_CubicBezierCurve3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRBezier_8h_1a043fdd39ae91a3b602aef1c4891729ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a043fdd39ae91a3b602aef1c4891729ff" kindref="member">MR_CubicBezierCurve3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRBezier_8h_1a46002afc8d89ecc60751af189bfc4639" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46002afc8d89ecc60751af189bfc4639" kindref="member">MR_CubicBezierCurve3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRBezier_8h_1ad897c35896d0a703fc99a68dca4c855b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*<ref refid="MRBezier_8h_1ad897c35896d0a703fc99a68dca4c855b" kindref="member">MR_CubicBezierCurve3f_AssignFromAnother</ref>(<ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRBezier_8h_1aaa303ff201e4f597d1779d95e25570c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRBezier_8h_1aaa303ff201e4f597d1779d95e25570c8" kindref="member">MR_CubicBezierCurve3f_getPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRBezier_8h_1a21045c4e26279b6262c6bf488b3b8b46" refkind="member"><highlight class="normal">MRC_API<sp/>MR_std_array_float_4<sp/><ref refid="MRBezier_8h_1a21045c4e26279b6262c6bf488b3b8b46" kindref="member">MR_CubicBezierCurve3f_getWeights</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRBezier_8h_1a05452a3fb160fd08476a2daa2c9e28da" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBezier_8h_1a05452a3fb160fd08476a2daa2c9e28da" kindref="member">MR_CubicBezierCurve3d_Get_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRBezier_8h_1aa8c1b1bb716ac61365e0a534f93c72dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRBezier_8h_1aa8c1b1bb716ac61365e0a534f93c72dc" kindref="member">MR_CubicBezierCurve3d_Get_p</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRBezier_8h_1a55f5e102e272593fa0e315264f8201ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRBezier_8h_1a55f5e102e272593fa0e315264f8201ed" kindref="member">MR_CubicBezierCurve3d_GetMutable_p</ref>(<ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRBezier_8h_1a5ed191de3d5bfc523f20c84f54e27b97" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a5ed191de3d5bfc523f20c84f54e27b97" kindref="member">MR_CubicBezierCurve3d_GetSize_p</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRBezier_8h_1a90db69e36168c12ee1d48c96bd4d4e59" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*<ref refid="MRBezier_8h_1a90db69e36168c12ee1d48c96bd4d4e59" kindref="member">MR_CubicBezierCurve3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRBezier_8h_1a56f034a4f635beee45e3705bec63b5eb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*<ref refid="MRBezier_8h_1a56f034a4f635beee45e3705bec63b5eb" kindref="member">MR_CubicBezierCurve3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRBezier_8h_1a7ba3a0c96c5f42d892913d0fabbc0eac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*<ref refid="MRBezier_8h_1a7ba3a0c96c5f42d892913d0fabbc0eac" kindref="member">MR_CubicBezierCurve3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRBezier_8h_1a032930890ecdd9b101466ea5a0f5256f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*<ref refid="MRBezier_8h_1a032930890ecdd9b101466ea5a0f5256f" kindref="member">MR_CubicBezierCurve3d_OffsetMutablePtr</ref>(<ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRBezier_8h_1a474959be6a2b2db8eb535025d9f42adf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*<ref refid="MRBezier_8h_1a474959be6a2b2db8eb535025d9f42adf" kindref="member">MR_CubicBezierCurve3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="MRBezier_8h_1a14cce647bf39e71f39ae6bd7e8064ada" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a14cce647bf39e71f39ae6bd7e8064ada" kindref="member">MR_CubicBezierCurve3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRBezier_8h_1af97f6e0ac61c9d8865ae9ded2429e0e3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1af97f6e0ac61c9d8865ae9ded2429e0e3" kindref="member">MR_CubicBezierCurve3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MRBezier_8h_1a8c8fd43a525b10a9b92e7b54367e08d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*<ref refid="MRBezier_8h_1a8c8fd43a525b10a9b92e7b54367e08d6" kindref="member">MR_CubicBezierCurve3d_AssignFromAnother</ref>(<ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRBezier_8h_1a6c2dc690fe6685f1db073d4fad75f671" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRBezier_8h_1a6c2dc690fe6685f1db073d4fad75f671" kindref="member">MR_CubicBezierCurve3d_getPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="MRBezier_8h_1a4a460a8638ceb9b89676938b771b69c5" refkind="member"><highlight class="normal">MRC_API<sp/>MR_std_array_double_4<sp/><ref refid="MRBezier_8h_1a4a460a8638ceb9b89676938b771b69c5" kindref="member">MR_CubicBezierCurve3d_getWeights</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBezier.h"/>
+  </compounddef>
+</doxygen>

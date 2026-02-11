@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointAccumulator" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointAccumulator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointAccumulator</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1ac16f7dd5f0c6ab73f22ab78dfdfe1a72" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAccumulator.PointAccumulator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointAccumulator</name>
+        <qualifiedname>MR.PointAccumulator.PointAccumulator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="197" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="197" bodyend="197"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a932c86d48f51c256c4309ec041300043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAccumulator.PointAccumulator</definition>
+        <argsstring>()</argsstring>
+        <name>PointAccumulator</name>
+        <qualifiedname>MR.PointAccumulator.PointAccumulator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="202" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a82a382b601a6cba70a5ca98a3064f641" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointAccumulator.PointAccumulator</definition>
+        <argsstring>(MR.Const_PointAccumulator _other)</argsstring>
+        <name>PointAccumulator</name>
+        <qualifiedname>MR.PointAccumulator.PointAccumulator</qualifiedname>
+        <param>
+          <type>MR.Const_PointAccumulator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointAccumulator.PointAccumulator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="212" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1acd23e7684122defb7cb9651ed7942bc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointAccumulator.PointAccumulator</definition>
+        <argsstring>(PointAccumulator _other)</argsstring>
+        <name>PointAccumulator</name>
+        <qualifiedname>MR.PointAccumulator.PointAccumulator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointAccumulator.PointAccumulator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="223" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="223" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a2d4061cfc95ff5a9eb459cb722aab0b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointAccumulator" kindref="compound">MR.PointAccumulator</ref></type>
+        <definition>unsafe MR.PointAccumulator MR.PointAccumulator.assign</definition>
+        <argsstring>(MR.Const_PointAccumulator _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointAccumulator.assign</qualifiedname>
+        <param>
+          <type>MR.Const_PointAccumulator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointAccumulator.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="228" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="228" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a83d85286f7441e8e519cc9c6dd1ed2c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointAccumulator.addPoint</definition>
+        <argsstring>(in MR.Vector3d pt)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.PointAccumulator.addPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointAccumulator_1a83d85286f7441e8e519cc9c6dd1ed2c9" kindref="member">MR.PointAccumulator.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="240" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="240" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a85bffe3466166ba6c4a888e4ebfa805a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointAccumulator.addPoint</definition>
+        <argsstring>(in MR.Vector3d pt, double weight)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.PointAccumulator.addPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointAccumulator_1a83d85286f7441e8e519cc9c6dd1ed2c9" kindref="member">MR.PointAccumulator.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="253" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="253" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a4239c771afb18ec319cc8cb95cf319ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointAccumulator.addPoint</definition>
+        <argsstring>(in MR.Vector3f pt)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.PointAccumulator.addPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointAccumulator_1a83d85286f7441e8e519cc9c6dd1ed2c9" kindref="member">MR.PointAccumulator.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="266" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="266" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointAccumulator_1a180e1fff824b9e1bb0a4e8545de66d56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointAccumulator.addPoint</definition>
+        <argsstring>(in MR.Vector3f pt, float weight)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.PointAccumulator.addPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointAccumulator_1a83d85286f7441e8e519cc9c6dd1ed2c9" kindref="member">MR.PointAccumulator.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="279" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="279" bodyend="287"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class to accumulate points and make best line / plane approximation Generated from class <computeroutput><ref refid="classMR_1_1PointAccumulator" kindref="compound">MR.PointAccumulator</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PointAccumulator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointAccumulator</label>
+        <link refid="classMR_1_1PointAccumulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointAccumulator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PointAccumulator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointAccumulator</label>
+        <link refid="classMR_1_1PointAccumulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointAccumulator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="195" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="196" bodyend="288"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointAccumulator_1a83d85286f7441e8e519cc9c6dd1ed2c9" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a85bffe3466166ba6c4a888e4ebfa805a" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a4239c771afb18ec319cc8cb95cf319ec" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a180e1fff824b9e1bb0a4e8545de66d56" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a2d4061cfc95ff5a9eb459cb722aab0b3" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointAccumulator_1ac16f7dd5f0c6ab73f22ab78dfdfe1a72" prot="package" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>PointAccumulator</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a932c86d48f51c256c4309ec041300043" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>PointAccumulator</name></member>
+      <member refid="classMR_1_1PointAccumulator_1a82a382b601a6cba70a5ca98a3064f641" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>PointAccumulator</name></member>
+      <member refid="classMR_1_1PointAccumulator_1acd23e7684122defb7cb9651ed7942bc2" prot="public" virt="non-virtual"><scope>MR::PointAccumulator</scope><name>PointAccumulator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

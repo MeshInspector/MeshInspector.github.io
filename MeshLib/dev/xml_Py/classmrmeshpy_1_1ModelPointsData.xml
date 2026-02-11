@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ModelPointsData" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ModelPointsData</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelPointsData_1a3bfadab6d85ee3685f5001a6d50af45d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelPointsData::_offsetof_fakeObjId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fakeObjId</name>
+        <qualifiedname>mrmeshpy.ModelPointsData._offsetof_fakeObjId</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelPointsData_1a6603d2ec9c087a66654d1f5e6c29dc91" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelPointsData::_offsetof_points</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_points</name>
+        <qualifiedname>mrmeshpy.ModelPointsData._offsetof_points</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelPointsData_1a1e211c46c71f4a93a2c7ef69279e3de6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelPointsData::_offsetof_validPoints</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_validPoints</name>
+        <qualifiedname>mrmeshpy.ModelPointsData._offsetof_validPoints</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelPointsData_1a33f20c26c3c53cad477d3b7432b5a698" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelPointsData::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.ModelPointsData._offsetof_xf</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35839" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1aeb921c0225a4604b566969e5163e522d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35842" bodyend="35843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1ae6d024475379eee939c05e48262990ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></type>
+        <definition> ModelPointsData mrmeshpy.ModelPointsData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35846" bodyend="35847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1ae6d024475379eee939c05e48262990ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></type>
+        <definition> ModelPointsData mrmeshpy.ModelPointsData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35850" bodyend="35851"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1aa408cb6d98af314d89dbb10cf0686f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35853" bodyend="35854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1adff43ba8c762549f569c6bd024150438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.__init__</definition>
+        <argsstring>(self, ModelPointsData arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35856" bodyend="35859"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1ae73d3548f61a7e5f567c6668e9fb24b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.__init__</definition>
+        <argsstring>(self, VertCoords points, VertBitSet validPoints, AffineXf3f xf, ObjId fakeObjId)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>validPoints</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>fakeObjId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35861" bodyend="35864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1a58ba55ebecbb69cf8e30846c2279cc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+        <definition> ObjId mrmeshpy.ModelPointsData.fakeObjId</definition>
+        <argsstring>(self)</argsstring>
+        <name>fakeObjId</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.fakeObjId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if present this value will override ObjId in result ObjVertId
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35866" bodyend="35869"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1a53aea249235cb3683709942631ea79fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.fakeObjId</definition>
+        <argsstring>(self, ObjId arg1)</argsstring>
+        <name>fakeObjId</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.fakeObjId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35871" bodyend="35872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1aa18bf8d974014e6fd40936e540f2a6e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.ModelPointsData.points</definition>
+        <argsstring>(self)</argsstring>
+        <name>points</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.points</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all points of model
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35874" bodyend="35877"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1aba2fcad267c107148cefe2c5c678990a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.points</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>points</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.points</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35879" bodyend="35880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1aa96ba0cf65f424e18db0767e15a50e3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ModelPointsData.validPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>validPoints</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.validPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>bitset of valid points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35882" bodyend="35885"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1aaa1f8e5abf328f0b5fcf5b32f51329b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.validPoints</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>validPoints</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.validPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35887" bodyend="35888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1abe61df310a9b75e6c170382d51ea5c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ModelPointsData.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>model world xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35890" bodyend="35893"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelPointsData_1a2590d06609fe7d9f9a20aa77053a06cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelPointsData.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.ModelPointsData.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35895" bodyend="35896"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ModelPointsData
+Aliases:  Vector_ModelPointsData_ObjId.const_reference, Vector_ModelPointsData_ObjId.reference, std_vector_ModelPointsData_const_reference, Vector_ModelPointsData_ObjId.value_type, std_vector_ModelPointsData_value_type, std_vector_ModelPointsData_reference
+
+structure to contain pointers to model data
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ModelPointsData</label>
+        <link refid="classmrmeshpy_1_1ModelPointsData"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_fakeObjId</edgelabel>
+          <edgelabel>_offsetof_points</edgelabel>
+          <edgelabel>_offsetof_validPoints</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35829" bodyend="35896"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1aeb921c0225a4604b566969e5163e522d" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1aa408cb6d98af314d89dbb10cf0686f6d" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1adff43ba8c762549f569c6bd024150438" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1ae73d3548f61a7e5f567c6668e9fb24b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a3bfadab6d85ee3685f5001a6d50af45d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>_offsetof_fakeObjId</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a6603d2ec9c087a66654d1f5e6c29dc91" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>_offsetof_points</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a1e211c46c71f4a93a2c7ef69279e3de6" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>_offsetof_validPoints</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a33f20c26c3c53cad477d3b7432b5a698" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a58ba55ebecbb69cf8e30846c2279cc86" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>fakeObjId</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a53aea249235cb3683709942631ea79fd" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>fakeObjId</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1ae6d024475379eee939c05e48262990ec" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1ae6d024475379eee939c05e48262990ec" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1aa18bf8d974014e6fd40936e540f2a6e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>points</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1aba2fcad267c107148cefe2c5c678990a" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>points</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1aa96ba0cf65f424e18db0767e15a50e3e" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>validPoints</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1aaa1f8e5abf328f0b5fcf5b32f51329b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>validPoints</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1abe61df310a9b75e6c170382d51ea5c32" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1ModelPointsData_1a2590d06609fe7d9f9a20aa77053a06cd" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

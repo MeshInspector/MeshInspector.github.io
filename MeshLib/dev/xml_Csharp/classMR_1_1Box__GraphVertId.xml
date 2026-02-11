@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__GraphVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_GraphVertId</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__GraphVertId" prot="public" virt="non-virtual">MR.ConstBox_GraphVertId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__GraphVertId_1ad91f280703e370b02a6d5e7a701bcc06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref int</type>
+        <definition>new ref int MR.Box_GraphVertId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Box_GraphVertId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5449" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a7ec4430bbe33326a7322b09a2943ebd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_GraphVertId.Box_GraphVertId</definition>
+        <argsstring>(GraphVertId other)</argsstring>
+        <name>Box_GraphVertId</name>
+        <qualifiedname>MR.Box_GraphVertId.Box_GraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5454" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5454" bodyend="5454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a7bb8c4c06763723835f247685f4afea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_GraphVertId.Box_GraphVertId</definition>
+        <argsstring>(ConstBox_GraphVertId _other)</argsstring>
+        <name>Box_GraphVertId</name>
+        <qualifiedname>MR.Box_GraphVertId.Box_GraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">ConstBox_GraphVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5461" bodyend="5465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a9eadf8453f60048436dca2603303c1f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_GraphVertId.Assign</definition>
+        <argsstring>(ConstBox_GraphVertId _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_GraphVertId.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">ConstBox_GraphVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5470" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5470" bodyend="5470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a34c4413b521c967e2ebc144f250bb19b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_GraphVertId.Box_GraphVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Box_GraphVertId</name>
+        <qualifiedname>MR.Box_GraphVertId.Box_GraphVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5475" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5475" bodyend="5481"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1afa087953f3f36b484dd74cae57a37017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_GraphVertId.Box_GraphVertId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box_GraphVertId</name>
+        <qualifiedname>MR.Box_GraphVertId.Box_GraphVertId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1GraphVertId_1adfd9e8389556291277a8b67418f1c8bb" kindref="member">MR.GraphVertId.GraphVertId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5486" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5486" bodyend="5493"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a833925ec7e2a7442016b954f1d655d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_GraphVertId.Box_GraphVertId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>Box_GraphVertId</name>
+        <qualifiedname>MR.Box_GraphVertId.Box_GraphVertId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1GraphVertId_1adfd9e8389556291277a8b67418f1c8bb" kindref="member">MR.GraphVertId.GraphVertId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5505" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5505" bodyend="5511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1aba8b7731385ee41a9103318467cbbd1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.Box_GraphVertId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Box_GraphVertId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1GraphVertId_1a9da20466c194cf01298a75a42b099c7b" kindref="member">MR.GraphVertId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5516" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5516" bodyend="5521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a8dd3e64776e6c24992430674ae6fe6e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_GraphVertId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.Box_GraphVertId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5526" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5526" bodyend="5531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a3014c27c8d6902d54d584fd651512856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_GraphVertId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.Box_GraphVertId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5536" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5536" bodyend="5541"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a4afe519d534eda53de634a28992e6ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe ref MR.GraphVertId MR.Box_GraphVertId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_GraphVertId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5546" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5546" bodyend="5551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a370119303b12347b8536efb893e29e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe ref MR.GraphVertId MR.Box_GraphVertId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_GraphVertId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GraphVertId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5556" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5556" bodyend="5561"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a2a38ae1da4e248d2d456b9b094fb88d7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_GraphVertId.Box_GraphVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_GraphVertId</name>
+        <qualifiedname>MR.Box_GraphVertId.Box_GraphVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5456" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5456" bodyend="5456"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;</computeroutput> This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_GraphVertId</label>
+        <link refid="classMR_1_1ConstBox__GraphVertId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_GraphVertId</label>
+        <link refid="classMR_1_1Box__GraphVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_GraphVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.GraphVertId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_GraphVertId</label>
+        <link refid="classMR_1_1ConstBox__GraphVertId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_GraphVertId</label>
+        <link refid="classMR_1_1Box__GraphVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_GraphVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.GraphVertId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5442" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5443" bodyend="5562"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__GraphVertId_1a370119303b12347b8536efb893e29e22" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a9eadf8453f60048436dca2603303c1f3" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a7ec4430bbe33326a7322b09a2943ebd1" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Box_GraphVertId</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a2a38ae1da4e248d2d456b9b094fb88d7" prot="package" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Box_GraphVertId</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a7bb8c4c06763723835f247685f4afea5" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Box_GraphVertId</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a34c4413b521c967e2ebc144f250bb19b" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Box_GraphVertId</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1afa087953f3f36b484dd74cae57a37017" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Box_GraphVertId</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a833925ec7e2a7442016b954f1d655d42" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Box_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1afbc10467dabca5bd611c9fbe19bf38cb" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1a680ca807f4109ca6b9fea19b9b3b0f72" prot="package" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1af51fd6fa099b9f6c5cae799da2349519" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1af352f1c5155e5b07b96f7e792f5294e9" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1a26423d1b4d91bc08b3ca79ab5b6505da" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1ab1ee6c1e6dde576dba638d3e7ba93642" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a8dd3e64776e6c24992430674ae6fe6e7" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>decr</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1a8851dba988f9f28f7863faf964d3d33b" prot="protected" virt="virtual"><scope>MR::Box_GraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1a8ea342160c81d171a0b820006f33f9f9" prot="public" virt="virtual"><scope>MR::Box_GraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1abfc2901043c2726f4ec4b8aebb042c4a" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1ac9624f1f479bad6e7bc3428f01f509e8" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1aba8b7731385ee41a9103318467cbbd1f" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>get</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1ad91f280703e370b02a6d5e7a701bcc06" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>id</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a3014c27c8d6902d54d584fd651512856" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>incr</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1abe4cd7e2e602a9d7a19e94cc3cf227d9" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>less</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1ac738cdf3bc3d1671cc35cc9d682d750e" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1acac7d039b8dd40b4254d34b016cf37fa" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1a3960df1e13295cabdc148a5a4b254ef5" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1afc959ea62bc76b3f9d6cbede96c9e232" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1aa7e4944395cd01b147b403d86e104156" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator++</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1aadcdcdf2a0f9bcee38e651d77d81a362" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator--</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1aafe6fab9899e301351928583fb62f5cd" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Box__GraphVertId_1a4afe519d534eda53de634a28992e6ffc" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1ConstBox__GraphVertId_1af60428b746fa365bd63997d126c3a9cb" prot="public" virt="non-virtual"><scope>MR::Box_GraphVertId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

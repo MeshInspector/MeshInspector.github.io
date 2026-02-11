@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectImGuiLabel" kind="class" language="C++" prot="public">
+    <compoundname>MR::ObjectImGuiLabel</compoundname>
+    <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
+    <includes refid="MRObjectImGuiLabel_8h" local="no">MRObjectImGuiLabel.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ObjectImGuiLabel_1a9b04860d4fe72c53939b87642ecb60db" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ObjectImGuiLabel::labelText_</definition>
+        <argsstring></argsstring>
+        <name>labelText_</name>
+        <qualifiedname>MR::ObjectImGuiLabel::labelText_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="53" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1aa741c583955da892db95f53810f8c3c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::ObjectImGuiLabel::ObjectImGuiLabel</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectImGuiLabel</name>
+        <qualifiedname>MR::ObjectImGuiLabel::ObjectImGuiLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="15" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a633284d262f92c81c91042d0d7afa510" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectImGuiLabel::ObjectImGuiLabel</definition>
+        <argsstring>(ObjectImGuiLabel &amp;&amp;) noexcept=default</argsstring>
+        <name>ObjectImGuiLabel</name>
+        <qualifiedname>MR::ObjectImGuiLabel::ObjectImGuiLabel</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="17" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a0e9dc3b13cbd0cb09a69c514d5291c09" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref> &amp;</type>
+        <definition>ObjectImGuiLabel &amp; MR::ObjectImGuiLabel::operator=</definition>
+        <argsstring>(ObjectImGuiLabel &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::ObjectImGuiLabel::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="18" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1afb01986bd3392c39d58639ca6930d453" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MR::ObjectImGuiLabel::typeName</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR::ObjectImGuiLabel::typeName</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="24" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a318823aeb622433aaf249f176f348858" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool MR::ObjectImGuiLabel::hasVisualRepresentation</definition>
+        <argsstring>() const override</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR::ObjectImGuiLabel::hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d">hasVisualRepresentation</reimplements>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="29" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a13d6da0884bda64f02742d0ef95e405d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>MRVIEWER_API std::shared_ptr&lt; Object &gt; MR::ObjectImGuiLabel::clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR::ObjectImGuiLabel::clone</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clones this object only, without its children, making new object the owner of all copied resources </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="31" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a374ae05761f1cc1baaa0aefae2e3ab18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>MRVIEWER_API std::shared_ptr&lt; Object &gt; MR::ObjectImGuiLabel::shallowClone</definition>
+        <argsstring>() const override</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR::ObjectImGuiLabel::shallowClone</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clones this object only, without its children, making new object to share resources with this object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="32" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1ac27691a344b4f3f1b54d1688ba8e8cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::ObjectImGuiLabel::ObjectImGuiLabel</definition>
+        <argsstring>(ProtectedStruct, const ObjectImGuiLabel &amp;obj)</argsstring>
+        <name>ObjectImGuiLabel</name>
+        <qualifiedname>MR::ObjectImGuiLabel::ObjectImGuiLabel</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1ObjectImGuiLabel_1a13d6da0884bda64f02742d0ef95e405d" kindref="member">clone()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="35" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a6d8fffe2f08691c35f0d8b8c93b2a77a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const std::string &amp;</type>
+        <definition>MRVIEWER_API const std::string &amp; MR::ObjectImGuiLabel::getLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>getLabel</name>
+        <qualifiedname>MR::ObjectImGuiLabel::getLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="37" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a1ee5ba9077c61fe96bb854b9faa1f035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ObjectImGuiLabel::setLabel</definition>
+        <argsstring>(std::string value)</argsstring>
+        <name>setLabel</name>
+        <qualifiedname>MR::ObjectImGuiLabel::setLabel</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="38" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1ad4950c2015ba9b26d4b9ec5eea4e4005" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static constexpr const char * MR::ObjectImGuiLabel::StaticTypeName</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>MR::ObjectImGuiLabel::StaticTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="20" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a34315902af99698ee22add153a552200" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectImGuiLabel::ObjectImGuiLabel</definition>
+        <argsstring>(const ObjectImGuiLabel &amp;other)=default</argsstring>
+        <name>ObjectImGuiLabel</name>
+        <qualifiedname>MR::ObjectImGuiLabel::ObjectImGuiLabel</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1ae4f6ce3d96a615ecb839a20f8f26df80" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ObjectImGuiLabel::swapBase_</definition>
+        <argsstring>(Object &amp;other) override</argsstring>
+        <name>swapBase_</name>
+        <qualifiedname>MR::ObjectImGuiLabel::swapBase_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="44" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a37942a1ac8acb313c33f8b29ee289ae2" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ObjectImGuiLabel::serializeFields_</definition>
+        <argsstring>(Json::Value &amp;root) const override</argsstring>
+        <name>serializeFields_</name>
+        <qualifiedname>MR::ObjectImGuiLabel::serializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="46" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1a36e5ab56ab7eccc1b81fb3acff771764" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ObjectImGuiLabel::deserializeFields_</definition>
+        <argsstring>(const Json::Value &amp;root) override</argsstring>
+        <name>deserializeFields_</name>
+        <qualifiedname>MR::ObjectImGuiLabel::deserializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="48" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectImGuiLabel_1aa16b165837fdfa31d8bcf7f4ddf768b2" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ObjectImGuiLabel::setupRenderObject_</definition>
+        <argsstring>() const override</argsstring>
+        <name>setupRenderObject_</name>
+        <qualifiedname>MR::ObjectImGuiLabel::setupRenderObject_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="50" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Renders a label using <ref refid="namespaceImGui" kindref="compound">ImGui</ref>, on top of all geometry without z-buffering. But those are still depth-sorted among each other. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="1">
+        <label>MR::ObjectImGuiLabel</label>
+        <link refid="classMR_1_1ObjectImGuiLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectImGuiLabel</label>
+        <link refid="classMR_1_1ObjectImGuiLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="7">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="11">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="10">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" bodystart="13" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>addTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ambientStrength_</name></member>
+      <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ancillary_</name></member>
+      <member refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>asType</name></member>
+      <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>asType</name></member>
+      <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>backFacesColor_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>children</name></member>
+      <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>children</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>children_</name></member>
+      <member refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>className</name></member>
+      <member refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>clipByPlane_</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a13d6da0884bda64f02742d0ef95e405d" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>coloringType_</name></member>
+      <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>depthTest_</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a36e5ab56ab7eccc1b81fb3acff771764" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a6d8fffe2f08691c35f0d8b8c93b2a77a" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getLabel</name></member>
+      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>globalAlpha_</name></member>
+      <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a318823aeb622433aaf249f176f348858" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>invertNormals_</name></member>
+      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a9b04860d4fe72c53939b87642ecb60db" prot="private" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>labelText_</name></member>
+      <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>locked_</name></member>
+      <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>name</name></member>
+      <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>name_</name></member>
+      <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>needRedraw_</name></member>
+      <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1aa741c583955da892db95f53810f8c3c2" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectImGuiLabel</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a633284d262f92c81c91042d0d7afa510" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectImGuiLabel</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1ac27691a344b4f3f1b54d1688ba8e8cd2" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectImGuiLabel</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a34315902af99698ee22add153a552200" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>ObjectImGuiLabel</name></member>
+      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a0e9dc3b13cbd0cb09a69c514d5291c09" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectImGuiLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectImGuiLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectImGuiLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectImGuiLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>parent</name></member>
+      <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>parent</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>parent_</name></member>
+      <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>parentLocked_</name></member>
+      <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>pickable_</name></member>
+      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>renderObj_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>selected_</name></member>
+      <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>selectedColor_</name></member>
+      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a37942a1ac8acb313c33f8b29ee289ae2" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1VisualObject_1a5ec593dbd42519c53e6ebe322386f9a6" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a1ee5ba9077c61fe96bb854b9faa1f035" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setLabel</name></member>
+      <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setName</name></member>
+      <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1aa16b165837fdfa31d8bcf7f4ddf768b2" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1a374ae05761f1cc1baaa0aefae2e3ab18" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>shininess_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>showName_</name></member>
+      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>specularStrength_</name></member>
+      <member refid="classMR_1_1VisualObject_1aada7c90048febb2b7885af4b99e67f0e" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>StaticClassName</name></member>
+      <member refid="classMR_1_1VisualObject_1a98cd3516a6d384fb7370afbc397cf704" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1ad4950c2015ba9b26d4b9ec5eea4e4005" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>StaticTypeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>swap</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1ae4f6ce3d96a615ecb839a20f8f26df80" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>tags</name></member>
+      <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>tags_</name></member>
+      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectImGuiLabel_1afb01986bd3392c39d58639ca6930d453" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>typeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>unselectedColor_</name></member>
+      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>visibilityMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>worldXfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>xf</name></member>
+      <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>xf_</name></member>
+      <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>XfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>~Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ObjectImGuiLabel</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>~VisualObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

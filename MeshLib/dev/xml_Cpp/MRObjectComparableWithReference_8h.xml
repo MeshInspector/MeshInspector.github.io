@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRObjectComparableWithReference_8h" kind="file" language="C++">
+    <compoundname>MRObjectComparableWithReference.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
+    <includes local="no">optional</includes>
+    <includes local="no">variant</includes>
+    <includedby refid="MRDistanceMeasurementObject_8h" local="yes">MRDistanceMeasurementObject.h</includedby>
+    <includedby refid="MRPointMeasurementObject_8h" local="yes">MRPointMeasurementObject.h</includedby>
+    <includedby refid="MRPointObject_8h" local="yes">MRPointObject.h</includedby>
+    <includedby refid="MRUIQualityControl_8h" local="yes">MRUIQualityControl.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRObjectComparableWithReference.h</label>
+        <link refid="MRObjectComparableWithReference_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="23">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="22">
+        <label>utility</label>
+      </node>
+      <node id="24">
+        <label>variant</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRDistanceMeasurementObject.h</label>
+        <link refid="MRDistanceMeasurementObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRFeatureObjectImpls.h</label>
+        <link refid="MRFeatureObjectImpls_8h"/>
+      </node>
+      <node id="1">
+        <label>MRObjectComparableWithReference.h</label>
+        <link refid="MRObjectComparableWithReference_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRPointMeasurementObject.h</label>
+        <link refid="MRPointMeasurementObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRPointObject.h</label>
+        <link refid="MRPointObject_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRRenderMeasurementObjects.h</label>
+        <link refid="MRRenderMeasurementObjects_8h"/>
+      </node>
+      <node id="7">
+        <label>MRUIQualityControl.h</label>
+        <link refid="MRUIQualityControl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMR_1_1ObjectComparableWithReference" prot="public">MR::ObjectComparableWithReference</innerclass>
+    <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" prot="public">MR::ObjectComparableWithReference::ComparableProperty</innerclass>
+    <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" prot="public">MR::ObjectComparableWithReference::ComparisonTolerance</innerclass>
+    <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" prot="public">MR::ObjectComparableWithReference::ComparisonReferenceValue</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1ObjectComparableWithReference" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ObjectComparableWithReference_1a83e6e08749efd393e0a34bdf6804bc2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a83e6e08749efd393e0a34bdf6804bc2e" kindref="member">~ObjectComparableWithReference</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1ObjectComparableWithReference_1a39179dbfa89d894ecf784f2398c9c78b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a39179dbfa89d894ecf784f2398c9c78b" kindref="member">ObjectComparableWithReference</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1ObjectComparableWithReference_1ae825a8e0a74fc989c2bcd3147ff8bed2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1ae825a8e0a74fc989c2bcd3147ff8bed2" kindref="member">ObjectComparableWithReference</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1ObjectComparableWithReference_1aab13b511da066b66c07235be25abce0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1aab13b511da066b66c07235be25abce0b" kindref="member">ObjectComparableWithReference</ref>(<sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1ObjectComparableWithReference_1ad1905b7160fa76212ab3913f59d132ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1ad1905b7160fa76212ab3913f59d132ce" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1ObjectComparableWithReference_1a6079e4aac0a4e04a8055a9f639264096" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a6079e4aac0a4e04a8055a9f639264096" kindref="member">operator=</ref>(<sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"></codeline>
+<codeline lineno="29" refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::size_t<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classMR_1_1ObjectComparableWithReference_1adf521b4333a73a595da64ed48a3a7076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string_view<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1adf521b4333a73a595da64ed48a3a7076" kindref="member">getComparablePropertyName</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ComparableProperty</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty_1ab9ac8279a8d66047dae4a3de73f94647" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty_1a27219918674f15345809979f639c640e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;float&gt;<sp/>referenceValue<sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classMR_1_1ObjectComparableWithReference_1a329df4e0165f775043393c15f51db899" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::optional&lt;ComparableProperty&gt;<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a329df4e0165f775043393c15f51db899" kindref="member">computeComparableProperty</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab4637be6f5bd62c250414fb3bfd3000" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>positive<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="61" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a1833d1474b6f1ccbc444523a384c218a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>negative<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="classMR_1_1ObjectComparableWithReference_1ae22bf9ebca049eed0868db359a75e855" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::optional&lt;ComparisonTolerance&gt;<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1ae22bf9ebca049eed0868db359a75e855" kindref="member">getComparisonTolerence</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classMR_1_1ObjectComparableWithReference_1a7df2402af378c17572454d7492ba7eec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a7df2402af378c17572454d7492ba7eec" kindref="member">setComparisonTolerance</ref>(<sp/>std::size_t<sp/>i,<sp/>std::optional&lt;ComparisonTolerance&gt;<sp/>newTolerance<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classMR_1_1ObjectComparableWithReference_1ac27662b0d2266f41b4dfab6844dba1e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1ac27662b0d2266f41b4dfab6844dba1e4" kindref="member">comparisonToleranceIsAlwaysOnlyPositive</ref>(<sp/>std::size_t<sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/>(void)i;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"></codeline>
+<codeline lineno="80" refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::size_t<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>numComparableProperties();<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="classMR_1_1ObjectComparableWithReference_1ac3f2255c124f60526c36eb2cc32be9f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string_view<sp/><ref refid="classMR_1_1ObjectComparableWithReference_1ac3f2255c124f60526c36eb2cc32be9f9" kindref="member">getComparisonReferenceValueName</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ab6bd7006ecd86f31248360a557a17d09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ab6bd7006ecd86f31248360a557a17d09" kindref="member">Var</ref><sp/>=<sp/>std::variant&lt;float,<sp/>Vector3f&gt;;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a8efb7f0e3b145e075d5c168695ee5698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSet<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1abd15c83314b1e4ade65944996e7f5026" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ab6bd7006ecd86f31248360a557a17d09" kindref="member">Var</ref><sp/><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1abd15c83314b1e4ade65944996e7f5026" kindref="member">var</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e" kindref="member">getComparisonReferenceValue</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="104" refid="classMR_1_1ObjectComparableWithReference_1acb98cc0c1aa80731b206a983e8e79b0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1acb98cc0c1aa80731b206a983e8e79b0a" kindref="member">setComparisonReferenceValue</ref>(<sp/>std::size_t<sp/>i,<sp/>std::optional&lt;ComparisonReferenceValue::Var&gt;<sp/>value<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="105" refid="classMR_1_1ObjectComparableWithReference_1a09b21bda8f6435e0b9c520c31f2607ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectComparableWithReference_1a09b21bda8f6435e0b9c520c31f2607ed" kindref="member">setComparisonReferenceVal</ref>(<sp/>std::size_t<sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref>&amp;<sp/>value<sp/>)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>value.<ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1a8efb7f0e3b145e075d5c168695ee5698" kindref="member">isSet</ref><sp/>)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setComparisonReferenceValue(<sp/>i,<sp/>value.<ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1abd15c83314b1e4ade65944996e7f5026" kindref="member">var</ref><sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setComparisonReferenceValue(<sp/>i,<sp/>std::nullopt<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h"/>
+  </compounddef>
+</doxygen>

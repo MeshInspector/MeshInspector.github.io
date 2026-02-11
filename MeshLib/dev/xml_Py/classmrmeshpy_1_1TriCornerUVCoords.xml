@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriCornerUVCoords" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriCornerUVCoords</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriCornerUVCoords_1af60edcca9a88d4359fa57ec588281621" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriCornerUVCoords::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57070" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriCornerUVCoords_1ae0680088eea7d6fc6a2c6201753f4569" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriCornerUVCoords::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57071" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1add5184330dfcabb4cff37a7ba2012bfc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57074" bodyend="57075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2721f5e6a8875e0cd88236cb8055c0a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+        <definition> TriCornerUVCoords mrmeshpy.TriCornerUVCoords.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57078" bodyend="57079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2721f5e6a8875e0cd88236cb8055c0a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+        <definition> TriCornerUVCoords mrmeshpy.TriCornerUVCoords.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57082" bodyend="57083"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a0b4de0eec72232943716b10f444debc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriCornerUVCoords.__eq__</definition>
+        <argsstring>(self, TriCornerUVCoords b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57084" bodyend="57085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2379d99f141cde44e0b95ea10bf692f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57087" bodyend="57088"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2379d99f141cde44e0b95ea10bf692f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57090" bodyend="57091"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a88329cc3a9b2dedcc205ed591f61ee4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57093" bodyend="57096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a1ecb81512ea3a666961bd398e602f540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57098" bodyend="57101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ab468e1cad3ac9d5ee4a0a8b194a127cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__init__</definition>
+        <argsstring>(self, int size, std_array_Vector2_float_3 val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57103" bodyend="57106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2fb0091b22d8181041089b85d66262e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__init__</definition>
+        <argsstring>(self, std_vector_std_array_Vector2_float_3ul vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Vector2__float__3ul" kindref="compound">std_vector_std_array_Vector2_float_3ul</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57108" bodyend="57111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a1294dc3068c496ccd2094c7db7714348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__init__</definition>
+        <argsstring>(self, TriCornerUVCoords arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57113" bodyend="57116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1af3000bb5217b553520ebe4f0f58a354e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref>]</type>
+        <definition> typing.Iterator[std_array_Vector2_float_3] mrmeshpy.TriCornerUVCoords.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57117" bodyend="57118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1aa342846b999cc9d7748b7c9481cf702d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriCornerUVCoords.__ne__</definition>
+        <argsstring>(self, TriCornerUVCoords b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57119" bodyend="57120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ae517047db0fc16f053d2180f6713e5ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.__setitem__</definition>
+        <argsstring>(self, FaceId arg0, std_array_Vector2_float_3 arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57121" bodyend="57122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a5d213815740116c9b9fd2a401d35ff3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.autoResizeAt</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57123" bodyend="57126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2cd9526c7ea3c69fed1b7793a5ba36f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.autoResizeSet</definition>
+        <argsstring>(self, FaceId pos, int len, std_array_Vector2_float_3 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57128" bodyend="57132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ad5b6805fff4013ea75eb305d9a36a63b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.autoResizeSet</definition>
+        <argsstring>(self, FaceId i, std_array_Vector2_float_3 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57134" bodyend="57137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ac167d14b481f7356fcd6948085bb9a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57139" bodyend="57140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ac167d14b481f7356fcd6948085bb9a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57142" bodyend="57143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ae259f38781727baadfca1b229be2653f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.TriCornerUVCoords.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57144" bodyend="57147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a4bba9b8fc5b09af9b8287492f9e89bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.TriCornerUVCoords.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57148" bodyend="57151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1aa0077b6ded71e63b0cc4ab16006069c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriCornerUVCoords.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57152" bodyend="57153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ac3be0024bb3aa0f818579600ce380d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57154" bodyend="57155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a7fd27d3361408905508e723523e87c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57157" bodyend="57158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a7fd27d3361408905508e723523e87c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57160" bodyend="57161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1aa922e9711c2290c8ca241d3c5b96059e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57162" bodyend="57163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a2ecc4b6029e2cda3cc88f41b7ab20314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriCornerUVCoords.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57164" bodyend="57165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1afb65304de4a4d86200f3e1067f05e6f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.TriCornerUVCoords.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57166" bodyend="57169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a157220c31c699f3d96464c9c75eb95ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57171" bodyend="57172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a157220c31c699f3d96464c9c75eb95ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+        <definition> std_array_Vector2_float_3 mrmeshpy.TriCornerUVCoords.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57174" bodyend="57175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1ad49e882bf2a3be2a72d814974904daed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriCornerUVCoords.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57176" bodyend="57179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a9dbe8386f07e7f4e5789bed382f9dd73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57180" bodyend="57181"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1afdd2b32445a30055a58eee5c924f3086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.push_back</definition>
+        <argsstring>(self, std_array_Vector2_float_3 t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57183" bodyend="57184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1afdd2b32445a30055a58eee5c924f3086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.push_back</definition>
+        <argsstring>(self, std_array_Vector2_float_3 t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57186" bodyend="57187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a9f982205fc7f7f2df2a533b80eeb572e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57188" bodyend="57189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a5fb0a059782b79cf0323e583a681ee54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57191" bodyend="57192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a9df0f57aa81d6df77ba55cb94a1a0ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.resize</definition>
+        <argsstring>(self, int newSize, std_array_Vector2_float_3 t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57194" bodyend="57195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a3deadd22aebf6c6bfbbdc86f155edc64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57197" bodyend="57200"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a5c066662122177f6295d1b311ed8df5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, std_array_Vector2_float_3 value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector2__float__3" kindref="compound">std_array_Vector2_float_3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57202" bodyend="57205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1aaf244527595f53c5145191bb06d35e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriCornerUVCoords.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57206" bodyend="57207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1afd6aa706bdcc3b71b88f16245678c623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.swap</definition>
+        <argsstring>(self, TriCornerUVCoords b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57208" bodyend="57209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a773e2ca28db9288e3132ba26dfceb7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Vector2__float__3ul" kindref="compound">std_vector_std_array_Vector2_float_3ul</ref></type>
+        <definition> std_vector_std_array_Vector2_float_3ul mrmeshpy.TriCornerUVCoords.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57211" bodyend="57214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriCornerUVCoords_1a8eb10eeafb2b781040e9a7b5f0bc0ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriCornerUVCoords.vec_</definition>
+        <argsstring>(self, std_vector_std_array_Vector2_float_3ul arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.TriCornerUVCoords.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Vector2__float__3ul" kindref="compound">std_vector_std_array_Vector2_float_3ul</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57216" bodyend="57217"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriCornerUVCoords
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TriCornerUVCoords</label>
+        <link refid="classmrmeshpy_1_1TriCornerUVCoords"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57060" bodyend="57217"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a0b4de0eec72232943716b10f444debc5" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2379d99f141cde44e0b95ea10bf692f6" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2379d99f141cde44e0b95ea10bf692f6" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1af60edcca9a88d4359fa57ec588281621" prot="private" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1add5184330dfcabb4cff37a7ba2012bfc" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a88329cc3a9b2dedcc205ed591f61ee4e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a1ecb81512ea3a666961bd398e602f540" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ab468e1cad3ac9d5ee4a0a8b194a127cf" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2fb0091b22d8181041089b85d66262e1" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a1294dc3068c496ccd2094c7db7714348" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1af3000bb5217b553520ebe4f0f58a354e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1aa342846b999cc9d7748b7c9481cf702d" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ae517047db0fc16f053d2180f6713e5ca" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ae0680088eea7d6fc6a2c6201753f4569" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a5d213815740116c9b9fd2a401d35ff3c" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2cd9526c7ea3c69fed1b7793a5ba36f9" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ad5b6805fff4013ea75eb305d9a36a63b" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ac167d14b481f7356fcd6948085bb9a35" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ac167d14b481f7356fcd6948085bb9a35" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ae259f38781727baadfca1b229be2653f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a4bba9b8fc5b09af9b8287492f9e89bff" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1aa0077b6ded71e63b0cc4ab16006069c0" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ac3be0024bb3aa0f818579600ce380d8e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a7fd27d3361408905508e723523e87c72" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a7fd27d3361408905508e723523e87c72" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1aa922e9711c2290c8ca241d3c5b96059e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2ecc4b6029e2cda3cc88f41b7ab20314" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1afb65304de4a4d86200f3e1067f05e6f3" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a157220c31c699f3d96464c9c75eb95ad" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a157220c31c699f3d96464c9c75eb95ad" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1ad49e882bf2a3be2a72d814974904daed" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2721f5e6a8875e0cd88236cb8055c0a1" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a2721f5e6a8875e0cd88236cb8055c0a1" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a9dbe8386f07e7f4e5789bed382f9dd73" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1afdd2b32445a30055a58eee5c924f3086" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1afdd2b32445a30055a58eee5c924f3086" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a9f982205fc7f7f2df2a533b80eeb572e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a5fb0a059782b79cf0323e583a681ee54" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a9df0f57aa81d6df77ba55cb94a1a0ccd" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a3deadd22aebf6c6bfbbdc86f155edc64" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a5c066662122177f6295d1b311ed8df5f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1aaf244527595f53c5145191bb06d35e62" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1afd6aa706bdcc3b71b88f16245678c623" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a773e2ca28db9288e3132ba26dfceb7c6" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a8eb10eeafb2b781040e9a7b5f0bc0ae7" prot="public" virt="non-virtual"><scope>mrmeshpy::TriCornerUVCoords</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

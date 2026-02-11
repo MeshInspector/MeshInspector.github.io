@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshLoadObjGroup" kind="group">
+    <compoundname>MeshLoadObjGroup</compoundname>
+    <title>Mesh Load Obj</title>
+    <innerclass refid="structMR_1_1MeshLoad_1_1ObjLoadSettings" prot="public">MR::MeshLoad::ObjLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1MeshLoad_1_1NamedMesh" prot="public">MR::MeshLoad::NamedMesh</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1gace2b31e89c8b25c9b8475eacea73c38a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshLoad::ObjLoadSettings::customXf</definition>
+        <argsstring></argsstring>
+        <name>customXf</name>
+        <qualifiedname>MR::MeshLoad::ObjLoadSettings::customXf</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true then vertices will be returned relative to some transformation to avoid precision loss </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1gaa88281fa5522b4dfb24b0d60f21ad3c7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshLoad::ObjLoadSettings::countSkippedFaces</definition>
+        <argsstring></argsstring>
+        <name>countSkippedFaces</name>
+        <qualifiedname>MR::MeshLoad::ObjLoadSettings::countSkippedFaces</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true, the number of skipped faces (faces than can&apos;t be created) will be counted </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1gaeda2f2f6435f3ba3f78394fb87ed0b35" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::MeshLoad::ObjLoadSettings::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR::MeshLoad::ObjLoadSettings::callback</qualifiedname>
+        <briefdescription>
+<para>callback for set progress and stop process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="33" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga84ada408307af26a9c2f008bedd2a4fc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshLoad::ObjLoadSettings::telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR::MeshLoad::ObjLoadSettings::telemetrySignal</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>permit telemetry signal about loading </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="36" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga05826b92a46319385603f88ae180c23a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::MeshLoad::NamedMesh::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="41" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1gab4ded5f4899c9c9bd466b211bd8e2bf1" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh MR::MeshLoad::NamedMesh::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga216284f1a34367048f2f39d7688b1a72" prot="public" static="no" mutable="no">
+        <type>VertUVCoords</type>
+        <definition>VertUVCoords MR::MeshLoad::NamedMesh::uvCoords</definition>
+        <argsstring></argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::uvCoords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="43" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1gacad26bb0f966762a6201f66dbe3e0f03" prot="public" static="no" mutable="no">
+        <type>VertColors</type>
+        <definition>VertColors MR::MeshLoad::NamedMesh::colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="44" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1gae14992ee2961e93c9690326874a825e4" prot="public" static="no" mutable="no">
+        <type>Vector&lt; std::filesystem::path, TextureId &gt;</type>
+        <definition>Vector&lt;std::filesystem::path, TextureId&gt; MR::MeshLoad::NamedMesh::textureFiles</definition>
+        <argsstring></argsstring>
+        <name>textureFiles</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::textureFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="45" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga311db5316a105349238e8f439b00d599" prot="public" static="no" mutable="no">
+        <type>Vector&lt; TextureId, FaceId &gt;</type>
+        <definition>Vector&lt;TextureId, FaceId&gt; MR::MeshLoad::NamedMesh::texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>texturePerFace</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::texturePerFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="46" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga24c0d1fb11f0d559f180bff7fc3fc188" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; Color &gt;</type>
+        <definition>std::optional&lt;Color&gt; MR::MeshLoad::NamedMesh::diffuseColor</definition>
+        <argsstring></argsstring>
+        <name>diffuseColor</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::diffuseColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="47" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga62b08df84e9ae3aa8d59b93d284d02d7" prot="public" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::MeshLoad::NamedMesh::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::xf</qualifiedname>
+        <briefdescription>
+<para>transform of the loaded mesh, not identity only if <ref refid="group__MeshLoadObjGroup_1gace2b31e89c8b25c9b8475eacea73c38a" kindref="member">ObjLoadSettings.customXf</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="50" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga7655251160688728be82b103fa220dd3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MeshLoad::NamedMesh::skippedFaceCount</definition>
+        <argsstring></argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::skippedFaceCount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>counter of skipped faces (faces than can&apos;t be created), not zero only if <ref refid="group__MeshLoadObjGroup_1gaa88281fa5522b4dfb24b0d60f21ad3c7" kindref="member">ObjLoadSettings.countSkippedFaces</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="53" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga26a8bc92daf43830d65572e1f00a40dc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MeshLoad::NamedMesh::duplicatedVertexCount</definition>
+        <argsstring></argsstring>
+        <name>duplicatedVertexCount</name>
+        <qualifiedname>MR::MeshLoad::NamedMesh::duplicatedVertexCount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>counter of duplicated vertices (that created for resolve non-manifold geometry) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="56" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1gab52f28ac17e79efc94fc00389e683c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
+        <argsstring>(const std::filesystem::path &amp;file, bool combineAllObjects, const ObjLoadSettings &amp;settings={})</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>MR::MeshLoad::fromSceneObjFile</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>const ObjLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads meshes from .obj file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="60" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga0a0e35247ea58005627d346e49a5de82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
+        <argsstring>(std::istream &amp;in, bool combineAllObjects, const std::filesystem::path &amp;dir, const ObjLoadSettings &amp;settings={})</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>MR::MeshLoad::fromSceneObjFile</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const ObjLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads meshes from a stream with .obj file contents important on Windows: in stream must be open in binary mode <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>working directory where materials and textures are located </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="66" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga11ad7be5532b39f13f4f6df8f2b49fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
+        <argsstring>(const char *data, size_t size, bool combineAllObjects, const std::filesystem::path &amp;dir, const ObjLoadSettings &amp;settings={})</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>MR::MeshLoad::fromSceneObjFile</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const ObjLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads meshes from memory array with .obj file contents <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>working directory where materials and textures are located </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="71" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1gae5d6ebb9bff1143f8f529031d34001f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; LoadedObjects &gt;</type>
+        <definition>MRMESH_API Expected&lt; LoadedObjects &gt; MR::MeshLoad::loadObjectFromObj</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>loadObjectFromObj</name>
+        <qualifiedname>MR::MeshLoad::loadObjectFromObj</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>reads all objects from .OBJ file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="75" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

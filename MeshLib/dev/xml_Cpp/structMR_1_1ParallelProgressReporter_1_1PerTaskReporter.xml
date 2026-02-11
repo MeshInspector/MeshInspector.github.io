@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ParallelProgressReporter::PerTaskReporter</compoundname>
+    <includes refid="MRParallelProgressReporter_8h" local="no">MRParallelProgressReporter.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter_1af7f58457a6816a15728067d8fb9ae549" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ParallelProgressReporter" kindref="compound">ParallelProgressReporter</ref> *</type>
+        <definition>ParallelProgressReporter* MR::ParallelProgressReporter::PerTaskReporter::reporter_</definition>
+        <argsstring></argsstring>
+        <name>reporter_</name>
+        <qualifiedname>MR::ParallelProgressReporter::PerTaskReporter::reporter_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="33" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter_1a8a3bbfef3276f1831b2a645909a93a94" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo" kindref="compound">TaskInfo</ref> *</type>
+        <definition>TaskInfo* MR::ParallelProgressReporter::PerTaskReporter::task_</definition>
+        <argsstring></argsstring>
+        <name>task_</name>
+        <qualifiedname>MR::ParallelProgressReporter::PerTaskReporter::task_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="34" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter_1af373a60a30b69ecccf117ed007327929" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::ParallelProgressReporter::PerTaskReporter::operator()</definition>
+        <argsstring>(float p) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::ParallelProgressReporter::PerTaskReporter::operator()</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="32" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Local reporter. It should be passed as a callback to task. <simplesect kind="note"><para>One local reporter must not be invoked concurrently. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ParallelProgressReporter</label>
+        <link refid="classMR_1_1ParallelProgressReporter"/>
+      </node>
+      <node id="1">
+        <label>MR::ParallelProgressReporter::PerTaskReporter</label>
+        <link refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>reporter_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>task_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ParallelProgressReporter::TaskInfo</label>
+        <link refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter_1af373a60a30b69ecccf117ed007327929" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>operator()</name></member>
+      <member refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter_1af7f58457a6816a15728067d8fb9ae549" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>reporter_</name></member>
+      <member refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter_1a8a3bbfef3276f1831b2a645909a93a94" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>task_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

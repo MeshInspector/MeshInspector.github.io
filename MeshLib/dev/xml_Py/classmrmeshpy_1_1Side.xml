@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Side" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Side</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Side_1a49374e4a3cbf83954dc6f3e6e3b34b02" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Side::Negative</definition>
+        <argsstring></argsstring>
+        <name>Negative</name>
+        <qualifiedname>mrmeshpy.Side.Negative</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Side" kindref="compound">Side</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52089" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Side_1ab1a746a760859f7c57c036a45c413f9d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Side::Positive</definition>
+        <argsstring></argsstring>
+        <name>Positive</name>
+        <qualifiedname>mrmeshpy.Side.Positive</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Side" kindref="compound">Side</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52090" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Side_1a751de8f49b6cbf5549a4fd9a1ec289fe" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Side::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.Side.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1Side" kindref="compound">Side</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52091" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1ae0cd28c4ea87b7d3d7c401271f115d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Side.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Side.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52092" bodyend="52093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a015df08455b7c213838491f671f687ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Side.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.Side.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52094" bodyend="52095"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1adc003012dbc5d5b550ce3f5fe588597d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Side.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Side.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52096" bodyend="52097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a5c35151cea22c7c8bac2606fe0149565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Side.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.Side.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52098" bodyend="52099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1abfc89d33ccc9111b89854f90695b4219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Side.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Side.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52100" bodyend="52101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1ac217fba4ba5c50a1126abe6ec80f4114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Side.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.Side.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52102" bodyend="52103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a2a8a07c1c5c8abf52eae8161eabbd202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Side.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Side.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52104" bodyend="52105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a8f263b6a880fb8f7b0854ac465af6f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Side.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Side.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52106" bodyend="52107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a2cc9a9623fc69bba6d0ae7d104385f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Side.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.Side.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52108" bodyend="52109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1ac1afcbfc72a2be0a60798402b3bf1895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Side.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.Side.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52110" bodyend="52111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a7f3ef33f8751db84677f72c9aabe94e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Side.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Side.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52113" bodyend="52114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Side_1a25077d3be91bb803ab9a781c77f52162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Side.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.Side.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52116" bodyend="52117"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Negative
+
+  Positive
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Side</label>
+        <link refid="classmrmeshpy_1_1Side"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Negative</edgelabel>
+          <edgelabel>Positive</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52081" bodyend="52117"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Side_1ae0cd28c4ea87b7d3d7c401271f115d54" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a015df08455b7c213838491f671f687ea" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1adc003012dbc5d5b550ce3f5fe588597d" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a5c35151cea22c7c8bac2606fe0149565" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1abfc89d33ccc9111b89854f90695b4219" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1ac217fba4ba5c50a1126abe6ec80f4114" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a751de8f49b6cbf5549a4fd9a1ec289fe" prot="private" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a2a8a07c1c5c8abf52eae8161eabbd202" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a8f263b6a880fb8f7b0854ac465af6f5e" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a2cc9a9623fc69bba6d0ae7d104385f70" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1ac1afcbfc72a2be0a60798402b3bf1895" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a7f3ef33f8751db84677f72c9aabe94e1" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a49374e4a3cbf83954dc6f3e6e3b34b02" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>Negative</name></member>
+      <member refid="classmrmeshpy_1_1Side_1ab1a746a760859f7c57c036a45c413f9d" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>Positive</name></member>
+      <member refid="classmrmeshpy_1_1Side_1a25077d3be91bb803ab9a781c77f52162" prot="public" virt="non-virtual"><scope>mrmeshpy::Side</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

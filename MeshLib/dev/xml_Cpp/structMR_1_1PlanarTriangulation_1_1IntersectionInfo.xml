@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlanarTriangulation::IntersectionInfo</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a2fa82e2dbbf17f35ba932bcd731f08c6" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PlanarTriangulation::IntersectionInfo::lOrg</definition>
+        <argsstring></argsstring>
+        <name>lOrg</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::lOrg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1ba150196ca38c47b298c26615eab80e" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PlanarTriangulation::IntersectionInfo::lDest</definition>
+        <argsstring></argsstring>
+        <name>lDest</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::lDest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="31" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a8b5c188731f0cecbac0ccc0fd4a6bfb7" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PlanarTriangulation::IntersectionInfo::uOrg</definition>
+        <argsstring></argsstring>
+        <name>uOrg</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::uOrg</qualifiedname>
+        <briefdescription>
+<para>ids of upper intersection edge vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a317063d55c098c2ef928c24f84e7d072" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PlanarTriangulation::IntersectionInfo::uDest</definition>
+        <argsstring></argsstring>
+        <name>uDest</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::uDest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a71da63d690481e338c26321212fbdb4b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PlanarTriangulation::IntersectionInfo::lRatio</definition>
+        <argsstring></argsstring>
+        <name>lRatio</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::lRatio</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ratio of intersection 0.0 -&gt; point is lOrg 1.0 -&gt; point is lDest </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a486648a6478caadcce4b7e8b5ccfe262" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PlanarTriangulation::IntersectionInfo::uRatio</definition>
+        <argsstring></argsstring>
+        <name>uRatio</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::uRatio</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>0.0 -&gt; point is uOrg 1.0 -&gt; point is uDest </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a3ed890ec3241e636e8fd100f7ed41f04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PlanarTriangulation::IntersectionInfo::isIntersection</definition>
+        <argsstring>() const</argsstring>
+        <name>isIntersection</name>
+        <qualifiedname>MR::PlanarTriangulation::IntersectionInfo::isIntersection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Info about intersection point for mapping. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="28" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a3ed890ec3241e636e8fd100f7ed41f04" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>isIntersection</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1ba150196ca38c47b298c26615eab80e" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lDest</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a2fa82e2dbbf17f35ba932bcd731f08c6" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lOrg</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a71da63d690481e338c26321212fbdb4b" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lRatio</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a317063d55c098c2ef928c24f84e7d072" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>uDest</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a8b5c188731f0cecbac0ccc0fd4a6bfb7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>uOrg</name></member>
+      <member refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a486648a6478caadcce4b7e8b5ccfe262" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>uRatio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

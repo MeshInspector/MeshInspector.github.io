@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CombinedHistoryAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CombinedHistoryAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a57c4735a99342bc64589f0e88be4cc71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CombinedHistoryAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9909" bodyend="9910"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1ad35db21ec08fcf7fdaf99fffc51e311c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref></type>
+        <definition> CombinedHistoryAction mrmeshpy.CombinedHistoryAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9913" bodyend="9914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1ad35db21ec08fcf7fdaf99fffc51e311c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref></type>
+        <definition> CombinedHistoryAction mrmeshpy.CombinedHistoryAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9917" bodyend="9918"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a293151c0c57666b9de27632a66aebd13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CombinedHistoryAction.__init__</definition>
+        <argsstring>(self, str name, std_vector_std_shared_ptr_HistoryAction actions)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction" kindref="compound">std_vector_std_shared_ptr_HistoryAction</ref></type>
+          <declname>actions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Will call action() for each actions in given order (undo in reverse, redo in forward)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9920" bodyend="9923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a2f3a1db171aa0c42d68d905c98a18a6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CombinedHistoryAction.__init__</definition>
+        <argsstring>(self, CombinedHistoryAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9925" bodyend="9928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1aa9fd05810e1eeb2a0db6a696e36b8fdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CombinedHistoryAction.action</definition>
+        <argsstring>(self, HistoryAction.Type type)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HistoryAction_1_1Type" kindref="compound">HistoryAction.Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9929" bodyend="9930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a277ba8210377e1c5257254561f6d5b37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.CombinedHistoryAction.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9931" bodyend="9932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a103c6cd5ed4f1dace730c705c82bb9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.CombinedHistoryAction.filter</definition>
+        <argsstring>(self, func_bool_from_std_shared_ptr_HistoryAction filteringCondition)</argsstring>
+        <name>filter</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.filter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction" kindref="compound">func_bool_from_std_shared_ptr_HistoryAction</ref></type>
+          <declname>filteringCondition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove some actions according to condition inside combined actions.
+Do deep filtering.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9933" bodyend="9937"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1aed389df0ad90db4ac3ec880ffe23d3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction" kindref="compound">std_vector_std_shared_ptr_HistoryAction</ref></type>
+        <definition> std_vector_std_shared_ptr_HistoryAction mrmeshpy.CombinedHistoryAction.getStack</definition>
+        <argsstring>(self)</argsstring>
+        <name>getStack</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.getStack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9939" bodyend="9940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1aed389df0ad90db4ac3ec880ffe23d3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction" kindref="compound">std_vector_std_shared_ptr_HistoryAction</ref></type>
+        <definition> std_vector_std_shared_ptr_HistoryAction mrmeshpy.CombinedHistoryAction.getStack</definition>
+        <argsstring>(self)</argsstring>
+        <name>getStack</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.getStack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9942" bodyend="9943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1adda1b97205488ebee4dbac9e83b44648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CombinedHistoryAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9944" bodyend="9945"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a070223efdcb3794d1a3de1c811bff3e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CombinedHistoryAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9946" bodyend="9947"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CombinedHistoryAction
+
+History action for combine some history actions
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.CombinedHistoryAction</label>
+        <link refid="classmrmeshpy_1_1CombinedHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CombinedHistoryAction</label>
+        <link refid="classmrmeshpy_1_1CombinedHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9901" bodyend="9947"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a57c4735a99342bc64589f0e88be4cc71" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a293151c0c57666b9de27632a66aebd13" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a2f3a1db171aa0c42d68d905c98a18a6f" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1aa9fd05810e1eeb2a0db6a696e36b8fdc" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a277ba8210377e1c5257254561f6d5b37" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a103c6cd5ed4f1dace730c705c82bb9e6" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>filter</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1aed389df0ad90db4ac3ec880ffe23d3e9" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>getStack</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1aed389df0ad90db4ac3ec880ffe23d3e9" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>getStack</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1adda1b97205488ebee4dbac9e83b44648" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a070223efdcb3794d1a3de1c811bff3e7" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1ad35db21ec08fcf7fdaf99fffc51e311c" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1ad35db21ec08fcf7fdaf99fffc51e311c" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

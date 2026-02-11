@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderFeatures::RenderFeatureLinesComponent</compoundname>
+    <basecompoundref refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent" prot="public" virt="non-virtual">MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</basecompoundref>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <templateparamlist>
+      <param>
+        <type>bool</type>
+        <declname>IsPrimary</declname>
+        <defname>IsPrimary</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent_1a7780f5f2881aa774435bb9e299ce6d99" prot="private" static="no">
+        <type><ref refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent" kindref="compound">RenderFeatureComponent</ref>&lt; IsPrimary, <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref>, <ref refid="classMR_1_1RenderLinesObject" kindref="compound">RenderLinesObject</ref> &gt;</type>
+        <definition>using MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;::Base =  RenderFeatureComponent&lt;IsPrimary, ObjectLines, RenderLinesObject&gt;</definition>
+        <argsstring></argsstring>
+        <name>Base</name>
+        <qualifiedname>MR::RenderFeatures::RenderFeatureLinesComponent::Base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="196" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent_1a10691a67ce3667f2e4e0d7e5fda3550d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;::getLines</definition>
+        <argsstring>()</argsstring>
+        <name>getLines</name>
+        <qualifiedname>MR::RenderFeatures::RenderFeatureLinesComponent::getLines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="199" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="199" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This renderobject draws custom lines. If <computeroutput>IsPrimary</computeroutput> is true, the visual properties are copied from the target datamodel object. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="2">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderLinesObject</label>
+        <link refid="classMR_1_1RenderLinesObject"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt; &gt;</label>
+        <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="11">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ObjectLines</label>
+        <link refid="classMR_1_1ObjectLines"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ObjectLinesHolder</label>
+        <link refid="classMR_1_1ObjectLinesHolder"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>linesChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>worldBox_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>dashed_</edgelabel>
+          <edgelabel>showPoints_</edgelabel>
+          <edgelabel>smoothConnections_</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>dashPattern_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::RenderLinesObject</label>
+        <link refid="classMR_1_1RenderLinesObject"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>target_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt; &gt;</label>
+        <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>subobject</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::Signal&lt; void(uint32_t mask)&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="15">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="19">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="24">
+        <label>MR::ViewportProperty&lt; MR::Vector4 &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="23">
+        <label>MR::ViewportProperty&lt; MR::XfBasedCache&lt; Box3f &gt; &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="20">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="10">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="27">
+        <label>ObjectType</label>
+      </node>
+      <node id="14">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="22">
+        <label>boost::signals2::signal&lt; void(uint32_t mask) &gt;</label>
+      </node>
+      <node id="18">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="195" bodyend="200"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent_1a7780f5f2881aa774435bb9e299ce6d99" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>Base</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a84c3a8d6e9caedfefff441da8809dec0" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent_1a10691a67ce3667f2e4e0d7e5fda3550d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>getLines</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a536334f5c2028c4b2480759621cc6e9a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a25db5445ddf1fea48fe51be05daa5605" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>operator=</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a58baf835fad2015a8cef32639cd2115d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>RenderLinesObject</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1afbeda6ef29a8b84bed77e748228e20e7" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>shouldRender</name></member>
+      <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>subobject</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>Wrapper</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>Wrapper</name></member>
+      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>~IRenderObject</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a72fd92c9c31f2a2920ea89af4c0e4885" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>~RenderLinesObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

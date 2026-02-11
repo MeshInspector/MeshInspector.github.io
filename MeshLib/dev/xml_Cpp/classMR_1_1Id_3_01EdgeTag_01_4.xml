@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Id_3_01EdgeTag_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::Id&lt; EdgeTag &gt;</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" prot="public" static="no">
+        <type>int</type>
+        <definition>using MR::Id&lt; EdgeTag &gt;::ValueType =  int</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="87" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Id_3_01EdgeTag_01_4_1a19801b2e2d0e826b58ca9669f7dac65b" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" kindref="member">ValueType</ref></type>
+        <definition>ValueType MR::Id&lt; EdgeTag &gt;::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::id_</qualifiedname>
+        <briefdescription>
+<para>See the primary template for explanation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="134" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1ac0140b6e8a97bcc17487801e892a6003" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::Id</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Id</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::Id</qualifiedname>
+        <briefdescription>
+<para>the type used for internal representation of <ref refid="classMR_1_1Id" kindref="compound">Id</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="89" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a77df19a8a2e03823ee055e0db7fbe356" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Id&lt; EdgeTag &gt;::Id</definition>
+        <argsstring>(NoInit) noexcept</argsstring>
+        <name>Id</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::Id</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="90" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a840cf2a8cf28a0165be6397be158f260" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::Id</definition>
+        <argsstring>(UndirectedEdgeId u) noexcept</argsstring>
+        <name>Id</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::Id</qualifiedname>
+        <param>
+          <type>UndirectedEdgeId</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="91" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a9ecd864ebabe41d630495953386477a0" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::Id</definition>
+        <argsstring>(ValueType i) noexcept</argsstring>
+        <name>Id</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::Id</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" kindref="member">ValueType</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="92" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1ac5356dd4d6dde8ef2c1d226fdbef9cee" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::Id</definition>
+        <argsstring>(unsigned int i) noexcept</argsstring>
+        <name>Id</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::Id</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="93" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1abf4b4e956fdabe2163fa73c7badbca33" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::Id</definition>
+        <argsstring>(size_t i) noexcept</argsstring>
+        <name>Id</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::Id</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="94" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a8cc7f74c2b79e63aa44cdb7db510ae42" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::operator ValueType</definition>
+        <argsstring>() const</argsstring>
+        <name>operator ValueType</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="95" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a43ac9ad72d19e4b6f5675b8b96c652a0" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="96" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a13312efb8f446fa9444259e04b4cffed" prot="public" static="no" constexpr="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="97" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1ad1f14bb94fff614d875bbb57566a723d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" kindref="member">ValueType</ref> &amp;</type>
+        <definition>ValueType &amp; MR::Id&lt; EdgeTag &gt;::get</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="98" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a5c6be27b7a94189ed4c2a57703d12aaf" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+        <definition>Id MR::Id&lt; EdgeTag &gt;::sym</definition>
+        <argsstring>() const</argsstring>
+        <name>sym</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::sym</qualifiedname>
+        <briefdescription>
+<para>returns identifier of the edge with same ends but opposite orientation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="101" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1adb7992572d96f0023ada021c504bd740" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::even</definition>
+        <argsstring>() const</argsstring>
+        <name>even</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::even</qualifiedname>
+        <briefdescription>
+<para>among each pair of sym-edges: one is always even and the other is odd </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="103" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a03f26c6b5582be6b7d5bf3f6cbad03fe" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::odd</definition>
+        <argsstring>() const</argsstring>
+        <name>odd</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::odd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="104" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1af896dd5985669fa799c9a67731de9f4a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>UndirectedEdgeId</type>
+        <definition>UndirectedEdgeId MR::Id&lt; EdgeTag &gt;::undirected</definition>
+        <argsstring>() const</argsstring>
+        <name>undirected</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::undirected</qualifiedname>
+        <briefdescription>
+<para>returns unique identifier of the edge ignoring its direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="106" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a3f7a223ecb166a3824a973d1110973c0" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Id&lt; EdgeTag &gt;::operator UndirectedEdgeId</definition>
+        <argsstring>() const</argsstring>
+        <name>operator UndirectedEdgeId</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator UndirectedEdgeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="107" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a71461e35e7e20a3b626172c335f26d1c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::operator==</definition>
+        <argsstring>(Id b) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="109" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a80a085a4a6880d693cf33a92b683e701" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::operator!=</definition>
+        <argsstring>(Id b) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="110" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1abd42b3dbd3597aa66ab534d948f4ea0a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::operator&lt;</definition>
+        <argsstring>(Id b) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="111" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a1c0ffa168bd2e0628fd177f7d0282dd1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::operator==</definition>
+        <argsstring>(Id&lt; U &gt; b) const =delete</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; U &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="114" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1ab0b2924c1a39cdbd51b9e6ba15071b96" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::operator!=</definition>
+        <argsstring>(Id&lt; U &gt; b) const =delete</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; U &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="116" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a195838433072ab04864a419ca78e4759" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::Id&lt; EdgeTag &gt;::operator&lt;</definition>
+        <argsstring>(Id&lt; U &gt; b) const =delete</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; U &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="118" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a1376d0927886735bd5653f5cedc93ca3" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
+        <definition>Id &amp; MR::Id&lt; EdgeTag &gt;::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator--</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="120" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a89bead284bc8be429fec5a0a89956ffd" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
+        <definition>Id &amp; MR::Id&lt; EdgeTag &gt;::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="121" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a3deafe993dc4fbdebf1a90a3c34a52c6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+        <definition>Id MR::Id&lt; EdgeTag &gt;::operator--</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator--</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="123" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a6c442b69f926a20fdcbc22d94bc6fb5a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
+        <definition>Id MR::Id&lt; EdgeTag &gt;::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator++</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="124" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a065314585ee8844ced1f5f546fe545d1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
+        <definition>Id &amp; MR::Id&lt; EdgeTag &gt;::operator-=</definition>
+        <argsstring>(ValueType a)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator-=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" kindref="member">ValueType</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="126" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Id_3_01EdgeTag_01_4_1a337b0c21aac551ab640f040502beb1e2" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
+        <definition>Id &amp; MR::Id&lt; EdgeTag &gt;::operator+=</definition>
+        <argsstring>(ValueType a)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::Id&lt; EdgeTag &gt;::operator+=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" kindref="member">ValueType</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="127" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="85" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1adb7992572d96f0023ada021c504bd740" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>even</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1ad1f14bb94fff614d875bbb57566a723d" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>get</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1ac0140b6e8a97bcc17487801e892a6003" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a77df19a8a2e03823ee055e0db7fbe356" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a840cf2a8cf28a0165be6397be158f260" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a9ecd864ebabe41d630495953386477a0" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1ac5356dd4d6dde8ef2c1d226fdbef9cee" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1abf4b4e956fdabe2163fa73c7badbca33" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a19801b2e2d0e826b58ca9669f7dac65b" prot="private" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>id_</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a03f26c6b5582be6b7d5bf3f6cbad03fe" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>odd</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a13312efb8f446fa9444259e04b4cffed" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a3f7a223ecb166a3824a973d1110973c0" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator UndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a8cc7f74c2b79e63aa44cdb7db510ae42" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator ValueType</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a80a085a4a6880d693cf33a92b683e701" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1ab0b2924c1a39cdbd51b9e6ba15071b96" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a89bead284bc8be429fec5a0a89956ffd" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a6c442b69f926a20fdcbc22d94bc6fb5a" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a337b0c21aac551ab640f040502beb1e2" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator+=</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a1376d0927886735bd5653f5cedc93ca3" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator--</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a3deafe993dc4fbdebf1a90a3c34a52c6" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator--</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a065314585ee8844ced1f5f546fe545d1" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator-=</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1abd42b3dbd3597aa66ab534d948f4ea0a" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator&lt;</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a195838433072ab04864a419ca78e4759" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator&lt;</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a71461e35e7e20a3b626172c335f26d1c" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a1c0ffa168bd2e0628fd177f7d0282dd1" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a5c6be27b7a94189ed4c2a57703d12aaf" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>sym</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1af896dd5985669fa799c9a67731de9f4a" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>undirected</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a43ac9ad72d19e4b6f5675b8b96c652a0" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>valid</name></member>
+      <member refid="classMR_1_1Id_3_01EdgeTag_01_4_1a509c057fae5c553d16a4e96dd80cbed8" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

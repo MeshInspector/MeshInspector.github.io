@@ -1,0 +1,1660 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshToDistanceVolume_8h" kind="file" language="C++">
+    <compoundname>MRMeshToDistanceVolume.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMeshToDistanceVolume.h</label>
+        <link refid="MRMeshToDistanceVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
+        <type>struct MR_AffineXf3f</type>
+        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AffineXf3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></type>
+        <definition>typedef struct MR_DistanceToMeshOptions MR_DistanceToMeshOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_DistanceToMeshOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref></type>
+        <definition>typedef struct MR_DistanceVolumeParams MR_DistanceVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_DistanceVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="14" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1ab294732b2988d23c13fd8799dc19a43a" prot="public" static="no">
+        <type>struct <ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref></type>
+        <definition>typedef struct MR_FunctionVolume MR_FunctionVolume</definition>
+        <argsstring></argsstring>
+        <name>MR_FunctionVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="16" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
+        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref></type>
+        <definition>typedef struct MR_SignedDistanceToMeshOptions MR_SignedDistanceToMeshOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_SignedDistanceToMeshOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="19" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" kindref="member">MR_expected_MR_SimpleBinaryVolume_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_SimpleBinaryVolume_std_string MR_expected_MR_SimpleBinaryVolume_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_SimpleBinaryVolume_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="20" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_SimpleVolumeMinMax_std_string MR_expected_MR_SimpleVolumeMinMax_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_SimpleVolumeMinMax_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="21" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref></type>
+        <definition>typedef struct MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="22" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_IFastWindingNumber MR_std_shared_ptr_MR_IFastWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_IFastWindingNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="23" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_IPointsToMeshProjector MR_std_shared_ptr_MR_IPointsToMeshProjector</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_IPointsToMeshProjector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="24" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref></type>
+        <definition>typedef struct MR_MeshToDistanceVolumeParams MR_MeshToDistanceVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshToDistanceVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="29" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref></type>
+        <definition>typedef struct MR_CloseToMeshVolumeParams MR_CloseToMeshVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_CloseToMeshVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="33" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" prot="public" static="no">
+        <type>struct <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref></type>
+        <definition>typedef struct MR_MeshToDirectionVolumeParams MR_MeshToDirectionVolumeParams</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshToDirectionVolumeParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="37" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac711a3aa45ce552c9bb7fc4326051324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_DistanceVolumeParams * MR_MeshToDistanceVolumeParams_Get_vol</definition>
+        <argsstring>(const MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Get_vol</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="42" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="42" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1abc0d318f7038912397e50b69bd7cf81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDistanceVolumeParams_Set_vol</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this, MR_PassBy value_pass_by, MR_DistanceVolumeParams *value)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Set_vol</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a2bfc8579640df1f555313b79185fc857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_DistanceVolumeParams * MR_MeshToDistanceVolumeParams_GetMutable_vol</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_GetMutable_vol</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="53" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="53" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1afd1d04e22502252dc3bb88ae17403833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_SignedDistanceToMeshOptions * MR_MeshToDistanceVolumeParams_Get_dist</definition>
+        <argsstring>(const MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Get_dist</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="58" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="58" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a3b92e280b5d9bc41c8371a546f3bc4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDistanceVolumeParams_Set_dist</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this, const MR_SignedDistanceToMeshOptions *value)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Set_dist</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1abdb6d035a55ae46cc1a2abb8a6951130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_MeshToDistanceVolumeParams_GetMutable_dist</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_GetMutable_dist</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="70" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="70" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a7d377692cd3a6bbb0cfa9638e80e4d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_IFastWindingNumber * MR_MeshToDistanceVolumeParams_Get_fwn</definition>
+        <argsstring>(const MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Get_fwn</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="75" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="75" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a16f27b17b4ae4e966b97733a6b07050a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDistanceVolumeParams_Set_fwn</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this, MR_PassBy value_pass_by, MR_std_shared_ptr_MR_IFastWindingNumber *value)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Set_fwn</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fwn</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="81" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a4c83040bde4861749bbff2ac2983091a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_IFastWindingNumber * MR_MeshToDistanceVolumeParams_GetMutable_fwn</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_GetMutable_fwn</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="86" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="86" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1aaf2a1f87bf40b996bc1d7af236191ba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" kindref="member">MR_MeshToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="90" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="90" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1af088e8e79ad7cb6f34435ad951ccaa71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a8ee46ab41a2a180765b0c7a538b7e223" kindref="member">MR_MeshToDistanceVolumeParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1af817996f9bcf13a4f419686c66333b47" kindref="member">MR_MeshToDistanceVolumeParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1aa237c9ece0e58518dff32f349d34a3e2" kindref="member">MR_MeshToDistanceVolumeParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="95" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="95" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac7b3d2b85111044ae12f5ab26729c780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_ConstructFrom</definition>
+        <argsstring>(MR_PassBy vol_pass_by, MR_DistanceVolumeParams *vol, const MR_SignedDistanceToMeshOptions *dist, MR_PassBy fwn_pass_by, MR_std_shared_ptr_MR_IFastWindingNumber *fwn)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_ConstructFrom</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>vol_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>fwn_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref> *</type>
+          <declname>fwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" kindref="member">MR_MeshToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="104" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="104" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1aa237c9ece0e58518dff32f349d34a3e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_OffsetPtr</definition>
+        <argsstring>(const MR_MeshToDistanceVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="108" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="108" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1af817996f9bcf13a4f419686c66333b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="112" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="112" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a1043b3916a031c64e21551f104536432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_MeshToDistanceVolumeParams *_other)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshToDistanceVolumeParams::MeshToDistanceVolumeParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" kindref="member">MR_MeshToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="117" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="117" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDistanceVolumeParams_Destroy</definition>
+        <argsstring>(const MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshToDistanceVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="120" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a8ee46ab41a2a180765b0c7a538b7e223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDistanceVolumeParams_DestroyArray</definition>
+        <argsstring>(const MR_MeshToDistanceVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshToDistanceVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="123" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a51b0b5b7a86d52f7fd4eb7097a28b667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDistanceVolumeParams * MR_MeshToDistanceVolumeParams_AssignFromAnother</definition>
+        <argsstring>(MR_MeshToDistanceVolumeParams *_this, MR_PassBy _other_pass_by, MR_MeshToDistanceVolumeParams *_other)</argsstring>
+        <name>MR_MeshToDistanceVolumeParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="130" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="130" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a96b3a322d0e016ec58d9b539b8fc5f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_SimpleVolumeMinMax_std_string * MR_meshToDistanceVolume</definition>
+        <argsstring>(const MR_MeshPart *mp, const MR_MeshToDistanceVolumeParams *params)</argsstring>
+        <name>MR_meshToDistanceVolume</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes SimpleVolume filled with (signed or unsigned) distances from Mesh with given settings Generated from function <computeroutput>MR::meshToDistanceVolume</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="137" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="137" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1acb9f6b363f8bc54088265afb2a7fe7e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *</type>
+        <definition>MRC_API MR_FunctionVolume * MR_meshToDistanceFunctionVolume</definition>
+        <argsstring>(const MR_MeshPart *mp, const MR_MeshToDistanceVolumeParams *params)</argsstring>
+        <name>MR_meshToDistanceFunctionVolume</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes FunctionVolume representing (signed or unsigned) distances from Mesh with given settings Generated from function <computeroutput>MR::meshToDistanceFunctionVolume</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsVolume_8h_1a148acc6ef9eec38ed406af2b65314405" kindref="member">MR_FunctionVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="144" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="144" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a469dbe9d62f56a23b9651e563a4b5c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_CloseToMeshVolumeParams_Get_closeDist</definition>
+        <argsstring>(const MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Get_closeDist</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise Returns a pointer to a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="150" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="150" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1af2469bf4dd776259f5c000a457982109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CloseToMeshVolumeParams_Set_closeDist</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this, float value)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Set_closeDist</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>closeDist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a2bcc9e0185b1b69327e04236cb873141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_CloseToMeshVolumeParams_GetMutable_closeDist</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_GetMutable_closeDist</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise Returns a mutable pointer to a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="162" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="162" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ad1d9efe88e304462ac00db15f355763c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_DistanceVolumeParams * MR_CloseToMeshVolumeParams_Get_vol</definition>
+        <argsstring>(const MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Get_vol</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dimensions, location, and scaling in world space of the expected volume Returns a pointer to a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="168" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="168" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac2e8ce1dab09f89e0163983f832d400d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CloseToMeshVolumeParams_Set_vol</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this, MR_PassBy value_pass_by, MR_DistanceVolumeParams *value)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Set_vol</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dimensions, location, and scaling in world space of the expected volume Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="175" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ae72760ccf40e2f1a5e60284897097427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_DistanceVolumeParams * MR_CloseToMeshVolumeParams_GetMutable_vol</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_GetMutable_vol</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dimensions, location, and scaling in world space of the expected volume Returns a mutable pointer to a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="181" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="181" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1af7ac51fb64d29deff0020777eb650959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_CloseToMeshVolumeParams_Get_meshToWorld</definition>
+        <argsstring>(const MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Get_meshToWorld</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional transformation from mesh space to world space Returns a pointer to a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>meshToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="187" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="187" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a81171934c32a9ca5fb5c9cdc5e02bbf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CloseToMeshVolumeParams_Set_meshToWorld</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Set_meshToWorld</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional transformation from mesh space to world space Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>meshToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshToWorld</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshToWorld</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a1b0e095f0d255ffc6ae9b757b0eafd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_CloseToMeshVolumeParams_GetMutable_meshToWorld</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_GetMutable_meshToWorld</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional transformation from mesh space to world space Returns a mutable pointer to a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>meshToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="200" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="200" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a771ae2e8427f133d78771a3d416a40e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" kindref="member">MR_CloseToMeshVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="204" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="204" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a1902c188a56a4157991ef94b72ca0f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a660f5d26c16b1bede6b98cfe444c409f" kindref="member">MR_CloseToMeshVolumeParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1aa9d44389cfe834c14ef79334a5a7096e" kindref="member">MR_CloseToMeshVolumeParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a5dfcee978666e34db43aa99b005123c8" kindref="member">MR_CloseToMeshVolumeParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="209" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a73343d5c644d4f1c90a8f45ca5371c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_ConstructFrom</definition>
+        <argsstring>(float closeDist, MR_PassBy vol_pass_by, MR_DistanceVolumeParams *vol, const MR_AffineXf3f *meshToWorld)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>closeDist</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>vol_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>meshToWorld</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshToWorld</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" kindref="member">MR_CloseToMeshVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="216" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="216" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a5dfcee978666e34db43aa99b005123c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_OffsetPtr</definition>
+        <argsstring>(const MR_CloseToMeshVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="220" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="220" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1aa9d44389cfe834c14ef79334a5a7096e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="224" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="224" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac0bb771df8a3087657071ef35a337436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_CloseToMeshVolumeParams *_other)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CloseToMeshVolumeParams::CloseToMeshVolumeParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" kindref="member">MR_CloseToMeshVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="229" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="229" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CloseToMeshVolumeParams_Destroy</definition>
+        <argsstring>(const MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_CloseToMeshVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="232" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a660f5d26c16b1bede6b98cfe444c409f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CloseToMeshVolumeParams_DestroyArray</definition>
+        <argsstring>(const MR_CloseToMeshVolumeParams *_this)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_CloseToMeshVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="235" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac992bea9026474db2953b1fce91a00c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+        <definition>MRC_API MR_CloseToMeshVolumeParams * MR_CloseToMeshVolumeParams_AssignFromAnother</definition>
+        <argsstring>(MR_CloseToMeshVolumeParams *_this, MR_PassBy _other_pass_by, MR_CloseToMeshVolumeParams *_other)</argsstring>
+        <name>MR_CloseToMeshVolumeParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CloseToMeshVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="242" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="242" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ab8474bb8d34959241004fdfaccb44b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" kindref="member">MR_expected_MR_SimpleBinaryVolume_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_SimpleBinaryVolume_std_string * MR_makeCloseToMeshVolume</definition>
+        <argsstring>(const MR_MeshPart *mp, const MR_CloseToMeshVolumeParams *params)</argsstring>
+        <name>MR_makeCloseToMeshVolume</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes a binary volume with close-to-surface predicate values according to the given parameters Generated from function <computeroutput>MR::makeCloseToMeshVolume</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_SimpleBinaryVolume_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="249" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="249" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1addd92e9dd41842f48503abb3024c6ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_SimpleVolumeMinMax_std_string * MR_meshRegionToIndicatorVolume</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_FaceBitSet *region, float offset, const MR_DistanceVolumeParams *params)</argsstring>
+        <name>MR_meshRegionToIndicatorVolume</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns a volume filled with the values: (unsigned distance to region-part) - (unsigned distance to not-region-part); v &lt; 0: this point is within offset distance to region-part of mesh and it is closer to region-part than to not-region-part Generated from function <computeroutput>MR::meshRegionToIndicatorVolume</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="258" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="258" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac27b703ae4fd30e931e59615d73974a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_DistanceVolumeParams * MR_MeshToDirectionVolumeParams_Get_vol</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Get_vol</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="263" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="263" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a0d01cb5c00df4e8bdbb4ee1a315b9ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDirectionVolumeParams_Set_vol</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this, MR_PassBy value_pass_by, MR_DistanceVolumeParams *value)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Set_vol</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="269" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a301ccfeea24ef6e02b15dfd5247465ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <definition>MRC_API MR_DistanceVolumeParams * MR_MeshToDirectionVolumeParams_GetMutable_vol</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_GetMutable_vol</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="274" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="274" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ac143728966e66ac4e99c04ea56fb61c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_DistanceToMeshOptions * MR_MeshToDirectionVolumeParams_Get_dist</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Get_dist</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="280" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="280" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a9d27bfb97c185de3ef77d7eb161a6037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDirectionVolumeParams_Set_dist</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this, const MR_DistanceToMeshOptions *value)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Set_dist</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="288" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="288" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a438dfbfb7b84c46b0b756881efeab583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_MeshToDirectionVolumeParams_GetMutable_dist</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_GetMutable_dist</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="294" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="294" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ae30d88642d35b9bfdbc372ca1246b402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_IPointsToMeshProjector * MR_MeshToDirectionVolumeParams_Get_projector</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Get_projector</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="299" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="299" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a4d6c12692b65df96fdd4d53ec43a9514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDirectionVolumeParams_Set_projector</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this, MR_PassBy value_pass_by, MR_std_shared_ptr_MR_IPointsToMeshProjector *value)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Set_projector</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>projector</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>projector</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="305" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="305" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a7f6abd96d40a8caf0db594b2616a7339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_IPointsToMeshProjector * MR_MeshToDirectionVolumeParams_GetMutable_projector</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_GetMutable_projector</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="310" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="310" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a2c0daedaad68fa916f688afa292c9638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" kindref="member">MR_MeshToDirectionVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="314" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="314" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a4aee63fb42199e03bf6a0d641e7c77aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a406c37eea8129fbc9a937069d66c1e97" kindref="member">MR_MeshToDirectionVolumeParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1ae2df252e0bfe165bc785e223fd0ea5ba" kindref="member">MR_MeshToDirectionVolumeParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1ad87266b699c510887e66b1d54404574b" kindref="member">MR_MeshToDirectionVolumeParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="319" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="319" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1af8383d214b9638487eaded7e33d4af88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_ConstructFrom</definition>
+        <argsstring>(MR_PassBy vol_pass_by, MR_DistanceVolumeParams *vol, const MR_DistanceToMeshOptions *dist, MR_PassBy projector_pass_by, MR_std_shared_ptr_MR_IPointsToMeshProjector *projector)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_ConstructFrom</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>vol_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>projector_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref> *</type>
+          <declname>projector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>projector</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" kindref="member">MR_MeshToDirectionVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="328" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="328" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ad87266b699c510887e66b1d54404574b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API const MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_OffsetPtr</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="332" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="332" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ae2df252e0bfe165bc785e223fd0ea5ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="336" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="336" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a1e18ef9311b53c98140e7dc383f7afc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_MeshToDirectionVolumeParams *_other)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshToDirectionVolumeParams::MeshToDirectionVolumeParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" kindref="member">MR_MeshToDirectionVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="341" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="341" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDirectionVolumeParams_Destroy</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshToDirectionVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="344" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="344" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a406c37eea8129fbc9a937069d66c1e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshToDirectionVolumeParams_DestroyArray</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *_this)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshToDirectionVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="347" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="347" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1a862d6d6f4a84f0201283659c593a745c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+        <definition>MRC_API MR_MeshToDirectionVolumeParams * MR_MeshToDirectionVolumeParams_AssignFromAnother</definition>
+        <argsstring>(MR_MeshToDirectionVolumeParams *_this, MR_PassBy _other_pass_by, MR_MeshToDirectionVolumeParams *_other)</argsstring>
+        <name>MR_MeshToDirectionVolumeParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshToDirectionVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="354" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="354" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshToDistanceVolume_8h_1ae551c765200db3f95f41b2be38ccfcb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string * MR_meshToDirectionVolume</definition>
+        <argsstring>(const MR_MeshToDirectionVolumeParams *params)</argsstring>
+        <name>MR_meshToDirectionVolume</name>
+        <param>
+          <type>const <ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts mesh into 4d voxels, so that each cell in 3d space holds the direction from the closest point on mesh to the cell position. Resulting volume is encoded by 3 separate 3d volumes, corresponding to <computeroutput>x</computeroutput>, <computeroutput>y</computeroutput> and <computeroutput>z</computeroutput> components of vectors respectively. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Expected to have valid (not null) projector, with invoked method IPointsToMeshProjector::updateMeshData Generated from function <computeroutput>MR::meshToDirectionVolume</computeroutput>. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" line="362" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h" declline="362" declcolumn="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRMeshToDistanceVolume_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRMeshToDistanceVolume_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMeshToDistanceVolume_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRMeshToDistanceVolume_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRMeshToDistanceVolume_8h_1ab294732b2988d23c13fd8799dc19a43a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRMeshToDistanceVolume_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRMeshToDistanceVolume_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRMeshToDistanceVolume_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" kindref="member">MR_expected_MR_SimpleBinaryVolume_std_string</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" kindref="member">MR_expected_MR_SimpleBinaryVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleBinaryVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolumeMinMax_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_array_MR_SimpleVolumeMinMax_3_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_IFastWindingNumber.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_IPointsToMeshProjector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRMeshToDistanceVolume_8h_1ac711a3aa45ce552c9bb7fc4326051324" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ac711a3aa45ce552c9bb7fc4326051324" kindref="member">MR_MeshToDistanceVolumeParams_Get_vol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRMeshToDistanceVolume_8h_1abc0d318f7038912397e50b69bd7cf81e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1abc0d318f7038912397e50b69bd7cf81e" kindref="member">MR_MeshToDistanceVolumeParams_Set_vol</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRMeshToDistanceVolume_8h_1a2bfc8579640df1f555313b79185fc857" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a2bfc8579640df1f555313b79185fc857" kindref="member">MR_MeshToDistanceVolumeParams_GetMutable_vol</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRMeshToDistanceVolume_8h_1afd1d04e22502252dc3bb88ae17403833" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1afd1d04e22502252dc3bb88ae17403833" kindref="member">MR_MeshToDistanceVolumeParams_Get_dist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRMeshToDistanceVolume_8h_1a3b92e280b5d9bc41c8371a546f3bc4a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a3b92e280b5d9bc41c8371a546f3bc4a4" kindref="member">MR_MeshToDistanceVolumeParams_Set_dist</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRMeshToDistanceVolume_8h_1abdb6d035a55ae46cc1a2abb8a6951130" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1abdb6d035a55ae46cc1a2abb8a6951130" kindref="member">MR_MeshToDistanceVolumeParams_GetMutable_dist</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRMeshToDistanceVolume_8h_1a7d377692cd3a6bbb0cfa9638e80e4d51" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a7d377692cd3a6bbb0cfa9638e80e4d51" kindref="member">MR_MeshToDistanceVolumeParams_Get_fwn</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRMeshToDistanceVolume_8h_1a16f27b17b4ae4e966b97733a6b07050a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a16f27b17b4ae4e966b97733a6b07050a" kindref="member">MR_MeshToDistanceVolumeParams_Set_fwn</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRMeshToDistanceVolume_8h_1a4c83040bde4861749bbff2ac2983091a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a4c83040bde4861749bbff2ac2983091a" kindref="member">MR_MeshToDistanceVolumeParams_GetMutable_fwn</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRMeshToDistanceVolume_8h_1aaf2a1f87bf40b996bc1d7af236191ba1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1aaf2a1f87bf40b996bc1d7af236191ba1" kindref="member">MR_MeshToDistanceVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRMeshToDistanceVolume_8h_1af088e8e79ad7cb6f34435ad951ccaa71" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1af088e8e79ad7cb6f34435ad951ccaa71" kindref="member">MR_MeshToDistanceVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRMeshToDistanceVolume_8h_1ac7b3d2b85111044ae12f5ab26729c780" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ac7b3d2b85111044ae12f5ab26729c780" kindref="member">MR_MeshToDistanceVolumeParams_ConstructFrom</ref>(MR_PassBy<sp/>vol_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*vol,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*dist,<sp/>MR_PassBy<sp/>fwn_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/>*fwn);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRMeshToDistanceVolume_8h_1aa237c9ece0e58518dff32f349d34a3e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1aa237c9ece0e58518dff32f349d34a3e2" kindref="member">MR_MeshToDistanceVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRMeshToDistanceVolume_8h_1af817996f9bcf13a4f419686c66333b47" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1af817996f9bcf13a4f419686c66333b47" kindref="member">MR_MeshToDistanceVolumeParams_OffsetMutablePtr</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRMeshToDistanceVolume_8h_1a1043b3916a031c64e21551f104536432" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a1043b3916a031c64e21551f104536432" kindref="member">MR_MeshToDistanceVolumeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" kindref="member">MR_MeshToDistanceVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRMeshToDistanceVolume_8h_1a8ee46ab41a2a180765b0c7a538b7e223" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a8ee46ab41a2a180765b0c7a538b7e223" kindref="member">MR_MeshToDistanceVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRMeshToDistanceVolume_8h_1a51b0b5b7a86d52f7fd4eb7097a28b667" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a51b0b5b7a86d52f7fd4eb7097a28b667" kindref="member">MR_MeshToDistanceVolumeParams_AssignFromAnother</ref>(<ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRMeshToDistanceVolume_8h_1a96b3a322d0e016ec58d9b539b8fc5f6b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a96b3a322d0e016ec58d9b539b8fc5f6b" kindref="member">MR_meshToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRMeshToDistanceVolume_8h_1acb9f6b363f8bc54088265afb2a7fe7e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1acb9f6b363f8bc54088265afb2a7fe7e7" kindref="member">MR_meshToDistanceFunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kindref="member">MR_MeshToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRMeshToDistanceVolume_8h_1a469dbe9d62f56a23b9651e563a4b5c18" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a469dbe9d62f56a23b9651e563a4b5c18" kindref="member">MR_CloseToMeshVolumeParams_Get_closeDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRMeshToDistanceVolume_8h_1af2469bf4dd776259f5c000a457982109" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1af2469bf4dd776259f5c000a457982109" kindref="member">MR_CloseToMeshVolumeParams_Set_closeDist</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRMeshToDistanceVolume_8h_1a2bcc9e0185b1b69327e04236cb873141" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a2bcc9e0185b1b69327e04236cb873141" kindref="member">MR_CloseToMeshVolumeParams_GetMutable_closeDist</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRMeshToDistanceVolume_8h_1ad1d9efe88e304462ac00db15f355763c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ad1d9efe88e304462ac00db15f355763c" kindref="member">MR_CloseToMeshVolumeParams_Get_vol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRMeshToDistanceVolume_8h_1ac2e8ce1dab09f89e0163983f832d400d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1ac2e8ce1dab09f89e0163983f832d400d" kindref="member">MR_CloseToMeshVolumeParams_Set_vol</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRMeshToDistanceVolume_8h_1ae72760ccf40e2f1a5e60284897097427" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ae72760ccf40e2f1a5e60284897097427" kindref="member">MR_CloseToMeshVolumeParams_GetMutable_vol</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRMeshToDistanceVolume_8h_1af7ac51fb64d29deff0020777eb650959" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1af7ac51fb64d29deff0020777eb650959" kindref="member">MR_CloseToMeshVolumeParams_Get_meshToWorld</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRMeshToDistanceVolume_8h_1a81171934c32a9ca5fb5c9cdc5e02bbf0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a81171934c32a9ca5fb5c9cdc5e02bbf0" kindref="member">MR_CloseToMeshVolumeParams_Set_meshToWorld</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRMeshToDistanceVolume_8h_1a1b0e095f0d255ffc6ae9b757b0eafd40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRMeshToDistanceVolume_8h_1a1b0e095f0d255ffc6ae9b757b0eafd40" kindref="member">MR_CloseToMeshVolumeParams_GetMutable_meshToWorld</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRMeshToDistanceVolume_8h_1a771ae2e8427f133d78771a3d416a40e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a771ae2e8427f133d78771a3d416a40e0" kindref="member">MR_CloseToMeshVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRMeshToDistanceVolume_8h_1a1902c188a56a4157991ef94b72ca0f75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a1902c188a56a4157991ef94b72ca0f75" kindref="member">MR_CloseToMeshVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRMeshToDistanceVolume_8h_1a73343d5c644d4f1c90a8f45ca5371c9b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a73343d5c644d4f1c90a8f45ca5371c9b" kindref="member">MR_CloseToMeshVolumeParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/>MR_PassBy<sp/>vol_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*vol,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*meshToWorld);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRMeshToDistanceVolume_8h_1a5dfcee978666e34db43aa99b005123c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a5dfcee978666e34db43aa99b005123c8" kindref="member">MR_CloseToMeshVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRMeshToDistanceVolume_8h_1aa9d44389cfe834c14ef79334a5a7096e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1aa9d44389cfe834c14ef79334a5a7096e" kindref="member">MR_CloseToMeshVolumeParams_OffsetMutablePtr</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRMeshToDistanceVolume_8h_1ac0bb771df8a3087657071ef35a337436" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ac0bb771df8a3087657071ef35a337436" kindref="member">MR_CloseToMeshVolumeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" kindref="member">MR_CloseToMeshVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRMeshToDistanceVolume_8h_1a660f5d26c16b1bede6b98cfe444c409f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a660f5d26c16b1bede6b98cfe444c409f" kindref="member">MR_CloseToMeshVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRMeshToDistanceVolume_8h_1ac992bea9026474db2953b1fce91a00c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ac992bea9026474db2953b1fce91a00c1" kindref="member">MR_CloseToMeshVolumeParams_AssignFromAnother</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRMeshToDistanceVolume_8h_1ab8474bb8d34959241004fdfaccb44b78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a05f6b2f8f77734bcc45fd8c370fddce2" kindref="member">MR_expected_MR_SimpleBinaryVolume_std_string</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ab8474bb8d34959241004fdfaccb44b78" kindref="member">MR_makeCloseToMeshVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kindref="member">MR_CloseToMeshVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRMeshToDistanceVolume_8h_1addd92e9dd41842f48503abb3024c6ae7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1addd92e9dd41842f48503abb3024c6ae7" kindref="member">MR_meshRegionToIndicatorVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRMeshToDistanceVolume_8h_1ac27b703ae4fd30e931e59615d73974a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ac27b703ae4fd30e931e59615d73974a5" kindref="member">MR_MeshToDirectionVolumeParams_Get_vol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRMeshToDistanceVolume_8h_1a0d01cb5c00df4e8bdbb4ee1a315b9ad7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a0d01cb5c00df4e8bdbb4ee1a315b9ad7" kindref="member">MR_MeshToDirectionVolumeParams_Set_vol</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="MRMeshToDistanceVolume_8h_1a301ccfeea24ef6e02b15dfd5247465ad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a301ccfeea24ef6e02b15dfd5247465ad" kindref="member">MR_MeshToDirectionVolumeParams_GetMutable_vol</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note<sp/>that<sp/>signMode<sp/>is<sp/>ignored<sp/>in<sp/>this<sp/>algorithm</highlight></codeline>
+<codeline lineno="280" refid="MRMeshToDistanceVolume_8h_1ac143728966e66ac4e99c04ea56fb61c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ac143728966e66ac4e99c04ea56fb61c7" kindref="member">MR_MeshToDirectionVolumeParams_Get_dist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note<sp/>that<sp/>signMode<sp/>is<sp/>ignored<sp/>in<sp/>this<sp/>algorithm</highlight></codeline>
+<codeline lineno="288" refid="MRMeshToDistanceVolume_8h_1a9d27bfb97c185de3ef77d7eb161a6037" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a9d27bfb97c185de3ef77d7eb161a6037" kindref="member">MR_MeshToDirectionVolumeParams_Set_dist</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note<sp/>that<sp/>signMode<sp/>is<sp/>ignored<sp/>in<sp/>this<sp/>algorithm</highlight></codeline>
+<codeline lineno="294" refid="MRMeshToDistanceVolume_8h_1a438dfbfb7b84c46b0b756881efeab583" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a438dfbfb7b84c46b0b756881efeab583" kindref="member">MR_MeshToDirectionVolumeParams_GetMutable_dist</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRMeshToDistanceVolume_8h_1ae30d88642d35b9bfdbc372ca1246b402" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ae30d88642d35b9bfdbc372ca1246b402" kindref="member">MR_MeshToDirectionVolumeParams_Get_projector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRMeshToDistanceVolume_8h_1a4d6c12692b65df96fdd4d53ec43a9514" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a4d6c12692b65df96fdd4d53ec43a9514" kindref="member">MR_MeshToDirectionVolumeParams_Set_projector</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="MRMeshToDistanceVolume_8h_1a7f6abd96d40a8caf0db594b2616a7339" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a7f6abd96d40a8caf0db594b2616a7339" kindref="member">MR_MeshToDirectionVolumeParams_GetMutable_projector</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRMeshToDistanceVolume_8h_1a2c0daedaad68fa916f688afa292c9638" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a2c0daedaad68fa916f688afa292c9638" kindref="member">MR_MeshToDirectionVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRMeshToDistanceVolume_8h_1a4aee63fb42199e03bf6a0d641e7c77aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a4aee63fb42199e03bf6a0d641e7c77aa" kindref="member">MR_MeshToDirectionVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRMeshToDistanceVolume_8h_1af8383d214b9638487eaded7e33d4af88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1af8383d214b9638487eaded7e33d4af88" kindref="member">MR_MeshToDirectionVolumeParams_ConstructFrom</ref>(MR_PassBy<sp/>vol_pass_by,<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*vol,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*dist,<sp/>MR_PassBy<sp/>projector_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1aa4a4ae722e7df7893e0de3e384c50c9c" kindref="member">MR_std_shared_ptr_MR_IPointsToMeshProjector</ref><sp/>*projector);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="MRMeshToDistanceVolume_8h_1ad87266b699c510887e66b1d54404574b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ad87266b699c510887e66b1d54404574b" kindref="member">MR_MeshToDirectionVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="MRMeshToDistanceVolume_8h_1ae2df252e0bfe165bc785e223fd0ea5ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ae2df252e0bfe165bc785e223fd0ea5ba" kindref="member">MR_MeshToDirectionVolumeParams_OffsetMutablePtr</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="MRMeshToDistanceVolume_8h_1a1e18ef9311b53c98140e7dc383f7afc9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a1e18ef9311b53c98140e7dc383f7afc9" kindref="member">MR_MeshToDirectionVolumeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" kindref="member">MR_MeshToDirectionVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="MRMeshToDistanceVolume_8h_1a406c37eea8129fbc9a937069d66c1e97" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a406c37eea8129fbc9a937069d66c1e97" kindref="member">MR_MeshToDirectionVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354" refid="MRMeshToDistanceVolume_8h_1a862d6d6f4a84f0201283659c593a745c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1a862d6d6f4a84f0201283659c593a745c" kindref="member">MR_MeshToDirectionVolumeParams_AssignFromAnother</ref>(<ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="MRMeshToDistanceVolume_8h_1ae551c765200db3f95f41b2be38ccfcb2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref><sp/>*<ref refid="MRMeshToDistanceVolume_8h_1ae551c765200db3f95f41b2be38ccfcb2" kindref="member">MR_meshToDirectionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kindref="member">MR_MeshToDirectionVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMeshToDistanceVolume.h"/>
+  </compounddef>
+</doxygen>

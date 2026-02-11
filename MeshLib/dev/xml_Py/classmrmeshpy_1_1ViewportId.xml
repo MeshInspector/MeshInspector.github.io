@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ViewportId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ViewportId</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ViewportId_1a7feea8088e88f7d55c89088b7b77f4e0" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ViewportId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71298" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ac3cf231d4d7315b9d0ccfb9e3aa276e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71301" bodyend="71302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ac086e69328ded8ce79e6381f8adcecc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition> ViewportId mrmeshpy.ViewportId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71305" bodyend="71306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ac086e69328ded8ce79e6381f8adcecc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition> ViewportId mrmeshpy.ViewportId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71309" bodyend="71310"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1acd125b66f4150467e14d2fb4f67e67fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportId.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71311" bodyend="71312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1a8df8466851a4ede903ddbf96c40d6cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportId.__eq__</definition>
+        <argsstring>(self, ViewportId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71313" bodyend="71314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1a16fc58855044ff9a543afab39250d565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71316" bodyend="71317"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ab661330ce66781cde3f3428058e0506e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportId.__init__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71319" bodyend="71320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ac3b1c9b8bf7b191d2d84737491b8aee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportId.__init__</definition>
+        <argsstring>(self, ViewportId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71322" bodyend="71325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1a42eab0367c64f7edf270cae3b01d721b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref>]</type>
+        <definition> typing.Iterator[ViewportId] mrmeshpy.ViewportId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71326" bodyend="71327"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1a6a29161e3b4be8400b2a6f51083c1511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportId.__ne__</definition>
+        <argsstring>(self, ViewportId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ViewportId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71328" bodyend="71329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1a5c83edfd210f9a851ff41f62297aa3e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition> ViewportId mrmeshpy.ViewportId.next</definition>
+        <argsstring>(self)</argsstring>
+        <name>next</name>
+        <qualifiedname>mrmeshpy.ViewportId.next</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71330" bodyend="71331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1aef4cd409901813f430cee28ad42f1b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportId.operator</definition>
+        <argsstring>(self, ViewportId b)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportId.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71333" bodyend="71334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1a05458a1ec140f6acbd2a4fc811645ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition> ViewportId mrmeshpy.ViewportId.prev</definition>
+        <argsstring>(self)</argsstring>
+        <name>prev</name>
+        <qualifiedname>mrmeshpy.ViewportId.prev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71335" bodyend="71336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ab632ad177266fb12dc4c8edcaf6c0d30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportId.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.ViewportId.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71337" bodyend="71338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportId_1ad6099fd5fd5dfacbd52e7e4956a0cc1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ViewportId.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ViewportId.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71339" bodyend="71340"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ViewportId
+Aliases:  ViewportIterator.value_type
+
+stores unique identifier of a viewport, which is power of two;
+id=0 has a special meaning of default viewport in some contexts
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71290" bodyend="71340"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportId_1acd125b66f4150467e14d2fb4f67e67fa" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a8df8466851a4ede903ddbf96c40d6cf6" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a7feea8088e88f7d55c89088b7b77f4e0" prot="private" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ac3cf231d4d7315b9d0ccfb9e3aa276e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a16fc58855044ff9a543afab39250d565" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ab661330ce66781cde3f3428058e0506e" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ac3b1c9b8bf7b191d2d84737491b8aee2" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a42eab0367c64f7edf270cae3b01d721b" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a6a29161e3b4be8400b2a6f51083c1511" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a5c83edfd210f9a851ff41f62297aa3e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>next</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ac086e69328ded8ce79e6381f8adcecc8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ac086e69328ded8ce79e6381f8adcecc8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1aef4cd409901813f430cee28ad42f1b10" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1a05458a1ec140f6acbd2a4fc811645ffc" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>prev</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ab632ad177266fb12dc4c8edcaf6c0d30" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1ViewportId_1ad6099fd5fd5dfacbd52e7e4956a0cc1c" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportId</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

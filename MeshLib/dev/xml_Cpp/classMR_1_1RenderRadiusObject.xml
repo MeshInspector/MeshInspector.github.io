@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderRadiusObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderRadiusObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderRadiusObject_1a3e7001e966df8b712209ead08e424f15" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref> *</type>
+        <definition>const RadiusMeasurementObject* MR::RenderRadiusObject::object_</definition>
+        <argsstring></argsstring>
+        <name>object_</name>
+        <qualifiedname>MR::RenderRadiusObject::object_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="38" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderRadiusObject_1ae0a131fb1ca489418c836ffa5183dc25" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderDimensions_1_1RadiusTask" kindref="compound">RenderDimensions::RadiusTask</ref></type>
+        <definition>RenderDimensions::RadiusTask MR::RenderRadiusObject::task_</definition>
+        <argsstring></argsstring>
+        <name>task_</name>
+        <qualifiedname>MR::RenderRadiusObject::task_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="39" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderRadiusObject_1a1b393dc9324dbd862ab77d37032a2d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderRadiusObject::RenderRadiusObject</definition>
+        <argsstring>(const VisualObject &amp;object)</argsstring>
+        <name>RenderRadiusObject</name>
+        <qualifiedname>MR::RenderRadiusObject::RenderRadiusObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="41" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderRadiusObject_1aeb4f25d9cbdba5ac07a6aebb2c96751e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RenderRadiusObject::renderUi</definition>
+        <argsstring>(const UiRenderParams &amp;params) override</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR::RenderRadiusObject::renderUi</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="42" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderRadiusObject</label>
+        <link refid="classMR_1_1RenderRadiusObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderRadiusObject</label>
+        <link refid="classMR_1_1RenderRadiusObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="37" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderRadiusObject_1a3e7001e966df8b712209ead08e424f15" prot="private" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>object_</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderRadiusObject_1a1b393dc9324dbd862ab77d37032a2d71" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>RenderRadiusObject</name></member>
+      <member refid="classMR_1_1RenderRadiusObject_1aeb4f25d9cbdba5ac07a6aebb2c96751e" prot="public" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderRadiusObject_1ae0a131fb1ca489418c836ffa5183dc25" prot="private" virt="non-virtual"><scope>MR::RenderRadiusObject</scope><name>task_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1609 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlaneObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::PlaneObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PlaneObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1abb9ad5312c4739eb83df1b3620d0f065" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PlaneObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(PlaneObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.PlaneObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1147" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1147" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a9796c0171f995bb5d8ccca08febae6ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PlaneObject.operator MR.Object</definition>
+        <argsstring>(PlaneObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.PlaneObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1153" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1153" bodyend="1158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a0aa519f0711fed614fd31a5d562e547d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PlaneObject.operator MR.VisualObject</definition>
+        <argsstring>(PlaneObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.PlaneObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1159" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1159" bodyend="1164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aa1c68e6cbd7f1c28f8a2343ca081807e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PlaneObject.operator MR.FeatureObject</definition>
+        <argsstring>(PlaneObject self)</argsstring>
+        <name>operator MR.FeatureObject</name>
+        <qualifiedname>MR.PlaneObject.operator MR.FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1165" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1165" bodyend="1170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a132481ba6b364dc15be6a92047f3c6f4" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PlaneObject.operator PlaneObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator PlaneObject?</name>
+        <qualifiedname>MR.PlaneObject.operator PlaneObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1173" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1173" bodyend="1180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a61c90915e6019040426190fad86a800c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PlaneObject.operator PlaneObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator PlaneObject?</name>
+        <qualifiedname>MR.PlaneObject.operator PlaneObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1181" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1181" bodyend="1188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ae62ef88b04cb0294f8bdfcfda1b7ee79" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PlaneObject.operator PlaneObject?</definition>
+        <argsstring>(MR.FeatureObject parent)</argsstring>
+        <name>operator PlaneObject?</name>
+        <qualifiedname>MR.PlaneObject.operator PlaneObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1189" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1189" bodyend="1196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a7771cadbb9db46e2a129ff9ac8a2746a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PlaneObject.operator PlaneObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>operator PlaneObject</name>
+        <qualifiedname>MR.PlaneObject.operator PlaneObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best plane to approx given points Generated from constructor <computeroutput>MR.PlaneObject.PlaneObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1239" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1239" bodyend="1239"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a59a981f268b7b1d1e32720509b108940" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneObject.PlaneObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PlaneObject</name>
+        <qualifiedname>MR.PlaneObject.PlaneObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1198" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1198" bodyend="1198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1af254286ca2eeafe9c5ed739f925d89e3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneObject.PlaneObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>PlaneObject</name>
+        <qualifiedname>MR.PlaneObject.PlaneObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1200" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1200" bodyend="1200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a873fb56b5f5008f7f9f33e1223ed4c4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneObject.PlaneObject</definition>
+        <argsstring>()</argsstring>
+        <name>PlaneObject</name>
+        <qualifiedname>MR.PlaneObject.PlaneObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1205" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aa4915d2900f6017a2e9711c153bbaac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneObject.PlaneObject</definition>
+        <argsstring>(MR._ByValue_PlaneObject _other)</argsstring>
+        <name>PlaneObject</name>
+        <qualifiedname>MR.PlaneObject.PlaneObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_PlaneObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlaneObject.PlaneObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1215" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1215" bodyend="1221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a1e8f54fb913bad0074776619ab999177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneObject.PlaneObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>PlaneObject</name>
+        <qualifiedname>MR.PlaneObject.PlaneObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best plane to approx given points Generated from constructor <computeroutput>MR.PlaneObject.PlaneObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1227" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1227" bodyend="1233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a4a781447008827b687d778f14f4af6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PlaneObject" kindref="compound">MR.PlaneObject</ref></type>
+        <definition>unsafe MR.PlaneObject MR.PlaneObject.assign</definition>
+        <argsstring>(MR._ByValue_PlaneObject _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PlaneObject.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PlaneObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PlaneObject.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1244" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1244" bodyend="1254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aece7d6643b21abb8566257539f4cf71c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setNormal</definition>
+        <argsstring>(in MR.Vector3f normal, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setNormal</name>
+        <qualifiedname>MR.PlaneObject.setNormal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given normal Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aece7d6643b21abb8566257539f4cf71c" kindref="member">MR.PlaneObject.setNormal</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1261" bodyend="1269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aec8e6ca503e33322d8768c7b54ace235" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setCenter</definition>
+        <argsstring>(in MR.Vector3f center, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>MR.PlaneObject.setCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given center Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aec8e6ca503e33322d8768c7b54ace235" kindref="member">MR.PlaneObject.setCenter</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1276" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1276" bodyend="1284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a4b8c059a9bcdc5db81ff412bdccebfc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSize</definition>
+        <argsstring>(float size, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSize</name>
+        <qualifiedname>MR.PlaneObject.setSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to scale size Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a4b8c059a9bcdc5db81ff412bdccebfc7" kindref="member">MR.PlaneObject.setSize</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1291" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1291" bodyend="1296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a69528c309b5ff1f1910e0977d668f9fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSizeX</definition>
+        <argsstring>(float size, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSizeX</name>
+        <qualifiedname>MR.PlaneObject.setSizeX</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a69528c309b5ff1f1910e0977d668f9fa" kindref="member">MR.PlaneObject.setSizeX</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1302" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1302" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a2e33584f94a0e5aa3ad431034d547b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSizeY</definition>
+        <argsstring>(float size, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSizeY</name>
+        <qualifiedname>MR.PlaneObject.setSizeY</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a2e33584f94a0e5aa3ad431034d547b64" kindref="member">MR.PlaneObject.setSizeY</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1313" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1313" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a48be5b43e14f97352368acae3f7b63ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.PlaneObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a48be5b43e14f97352368acae3f7b63ba" kindref="member">MR.PlaneObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1324" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1324" bodyend="1332"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a173d06866ab579c10da1391d5cbb97f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.PlaneObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a173d06866ab579c10da1391d5cbb97f3" kindref="member">MR.PlaneObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1338" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1338" bodyend="1343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1afbfe04f0639b847b21ae64e0d3586ad6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setDecorationsColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR.PlaneObject.setDecorationsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1afbfe04f0639b847b21ae64e0d3586ad6" kindref="member">MR.PlaneObject.setDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1349" bodyend="1357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a3ca03bb030511802f9215b8aa5b6bcb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setDecorationsColorForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.PlaneObject.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a3ca03bb030511802f9215b8aa5b6bcb1" kindref="member">MR.PlaneObject.setDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1362" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1362" bodyend="1367"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a604f7a9022869c7e2f2c970045c18450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.PlaneObject.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a604f7a9022869c7e2f2c970045c18450" kindref="member">MR.PlaneObject.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1372" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1372" bodyend="1377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1adcbdc8004664e2e660e383f4159630eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.PlaneObject.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1adcbdc8004664e2e660e383f4159630eb" kindref="member">MR.PlaneObject.setLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1382" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1382" bodyend="1387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aa1ff9b6d5a2b9a285bb3c37ec72c5e53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR.PlaneObject.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aa1ff9b6d5a2b9a285bb3c37ec72c5e53" kindref="member">MR.PlaneObject.setSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1392" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1392" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a1905f15ffa1a4c50c911af950a3a518d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR.PlaneObject.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a1905f15ffa1a4c50c911af950a3a518d" kindref="member">MR.PlaneObject.setSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1402" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1402" bodyend="1407"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a0af9d49ae8495952e751bf687a37293c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR.PlaneObject.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a0af9d49ae8495952e751bf687a37293c" kindref="member">MR.PlaneObject.setMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1412" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1412" bodyend="1417"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a018470d39b94261fa307d1eede57fa4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.PlaneObject.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a018470d39b94261fa307d1eede57fa4c" kindref="member">MR.PlaneObject.setSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1422" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1422" bodyend="1427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a70819db394ba0c02f5992e6f052fedb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR.PlaneObject.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a70819db394ba0c02f5992e6f052fedb1" kindref="member">MR.PlaneObject.setSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1432" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1432" bodyend="1437"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aae15222118b47edb4daf582b39670b43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.PlaneObject.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aae15222118b47edb4daf582b39670b43" kindref="member">MR.PlaneObject.setSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1442" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1442" bodyend="1447"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a4404b37634b77c3cd4891e5c0942e1a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.PlaneObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a4404b37634b77c3cd4891e5c0942e1a1" kindref="member">MR.PlaneObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1453" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1453" bodyend="1458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a411a56b5ac8bfb7291ea43948950c140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.PlaneObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a411a56b5ac8bfb7291ea43948950c140" kindref="member">MR.PlaneObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1464" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1464" bodyend="1469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1af71d80072a899b518c7bffd7462b30e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.PlaneObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1af71d80072a899b518c7bffd7462b30e4" kindref="member">MR.PlaneObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1475" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1475" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a859d34924fc987d12b67431f5773a9d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.PlaneObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a859d34924fc987d12b67431f5773a9d1" kindref="member">MR.PlaneObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1486" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1486" bodyend="1491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aac88660c37308bc023ec31bcd49f070f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.PlaneObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aac88660c37308bc023ec31bcd49f070f" kindref="member">MR.PlaneObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1497" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1497" bodyend="1502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aed48a1057a743d97ba97dbdc86727cdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.PlaneObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aed48a1057a743d97ba97dbdc86727cdc" kindref="member">MR.PlaneObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1509" bodyend="1514"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ae3bb493bf6f75cf33adc57934f521909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.PlaneObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ae3bb493bf6f75cf33adc57934f521909" kindref="member">MR.PlaneObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1521" bodyend="1529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a5731d9c01f62e16265cd171a629b9f88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.PlaneObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a5731d9c01f62e16265cd171a629b9f88" kindref="member">MR.PlaneObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1536" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1536" bodyend="1542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ac3629402b773c04e5541fbdab323c222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.PlaneObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ac3629402b773c04e5541fbdab323c222" kindref="member">MR.PlaneObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1548" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1548" bodyend="1553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ade067edefcd4f3cbfec11b97b0893cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.PlaneObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ade067edefcd4f3cbfec11b97b0893cfb" kindref="member">MR.PlaneObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1560" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1560" bodyend="1568"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aae45903f76d3b3670c876f6007bb959e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.PlaneObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aae45903f76d3b3670c876f6007bb959e" kindref="member">MR.PlaneObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1575" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1575" bodyend="1580"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1afb86ceeb3cff38699fd5fcac93502a7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.PlaneObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1afb86ceeb3cff38699fd5fcac93502a7b" kindref="member">MR.PlaneObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1586" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1586" bodyend="1591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ab9471f9c906028bc6bde3a4f61abcd0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.PlaneObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ab9471f9c906028bc6bde3a4f61abcd0b" kindref="member">MR.PlaneObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1600" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1600" bodyend="1606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a2b5b1c44b0a87f788daaa9cff0def18d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.PlaneObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a2b5b1c44b0a87f788daaa9cff0def18d" kindref="member">MR.PlaneObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1613" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1613" bodyend="1618"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a10f09fe95fd1d30c0e18b985a6df4f6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.PlaneObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a10f09fe95fd1d30c0e18b985a6df4f6a" kindref="member">MR.PlaneObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1624" bodyend="1629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a76616630c9bd7f1383dad8b477ae4849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.PlaneObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a76616630c9bd7f1383dad8b477ae4849" kindref="member">MR.PlaneObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1635" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1635" bodyend="1640"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a72b2b7429a942281252416727d4ec0ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.PlaneObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a72b2b7429a942281252416727d4ec0ef" kindref="member">MR.PlaneObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1646" bodyend="1651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a9ae277c65fe75bd2385740ff6e097293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.PlaneObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a9ae277c65fe75bd2385740ff6e097293" kindref="member">MR.PlaneObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1657" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1657" bodyend="1662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1aa9027c0581c49635fe6f9bd1f3f4f730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.PlaneObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aa9027c0581c49635fe6f9bd1f3f4f730" kindref="member">MR.PlaneObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1669" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1669" bodyend="1674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a1a6ecc8ee15a6cd4fec4f7839f6745df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.PlaneObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a1a6ecc8ee15a6cd4fec4f7839f6745df" kindref="member">MR.PlaneObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1680" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1680" bodyend="1685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ae4f165da52c2e9b9a4d62a969b50533c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.PlaneObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ae4f165da52c2e9b9a4d62a969b50533c" kindref="member">MR.PlaneObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1691" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1691" bodyend="1696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ad41e19d01616451f717ff91964fae32c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.PlaneObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ad41e19d01616451f717ff91964fae32c" kindref="member">MR.PlaneObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1701" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1701" bodyend="1710"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a40198378be1fe7b83f782c7d9aa0ed9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.PlaneObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a40198378be1fe7b83f782c7d9aa0ed9f" kindref="member">MR.PlaneObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1716" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1716" bodyend="1721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ad18d6c0e9342aaaebea808fba8c5072d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.PlaneObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ad18d6c0e9342aaaebea808fba8c5072d" kindref="member">MR.PlaneObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1727" bodyend="1735"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a6415b2fd874251b918b15c1724c1be12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.PlaneObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a6415b2fd874251b918b15c1724c1be12" kindref="member">MR.PlaneObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1741" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1741" bodyend="1746"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a62fcdcff3f243f68b1cba4a9445e4d1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.PlaneObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a62fcdcff3f243f68b1cba4a9445e4d1b" kindref="member">MR.PlaneObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1753" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1753" bodyend="1758"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1af054aef4d7132221161449600e6d1dfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.PlaneObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1af054aef4d7132221161449600e6d1dfe" kindref="member">MR.PlaneObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1763" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1763" bodyend="1768"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a57bc3c55fed545da703ce3cc90bbafe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.PlaneObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a57bc3c55fed545da703ce3cc90bbafe3" kindref="member">MR.PlaneObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1773" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1773" bodyend="1778"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a9ed3841dc4cd9386670b2e2291689028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlaneObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.PlaneObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a9ed3841dc4cd9386670b2e2291689028" kindref="member">MR.PlaneObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1785" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1785" bodyend="1790"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a8b3e3e7ebbcbf4a5e896e923f45fe97b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlaneObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.PlaneObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a8b3e3e7ebbcbf4a5e896e923f45fe97b" kindref="member">MR.PlaneObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1800" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1800" bodyend="1806"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1adf9dfd9666a135bb23005615b862da7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlaneObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.PlaneObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1adf9dfd9666a135bb23005615b862da7c" kindref="member">MR.PlaneObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1814" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1814" bodyend="1819"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ab98f4d3c63a5d7c00066e5ed0326a33a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.PlaneObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ab98f4d3c63a5d7c00066e5ed0326a33a" kindref="member">MR.PlaneObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1825" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1825" bodyend="1830"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a23fee4c0ec71579a0926fe8022704314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.PlaneObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a23fee4c0ec71579a0926fe8022704314" kindref="member">MR.PlaneObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1836" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1836" bodyend="1841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a5d04ba60606fd33e4729b9666ca8d4fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlaneObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.PlaneObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a5d04ba60606fd33e4729b9666ca8d4fa" kindref="member">MR.PlaneObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1847" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1847" bodyend="1852"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1af7fb5840b662b37783c12ef7ea750a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.PlaneObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1af7fb5840b662b37783c12ef7ea750a29" kindref="member">MR.PlaneObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1859" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1859" bodyend="1864"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ac589d359a78bbb72ea7c5f3a1b3dfdb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.PlaneObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ac589d359a78bbb72ea7c5f3a1b3dfdb4" kindref="member">MR.PlaneObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1871" bodyend="1876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a525f3082663f5306b8c88f66f23b0aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.PlaneObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a525f3082663f5306b8c88f66f23b0aae" kindref="member">MR.PlaneObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1882" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1882" bodyend="1887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1a2e49ae91ed8a21bb9b5260019efa53bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.PlaneObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a2e49ae91ed8a21bb9b5260019efa53bd" kindref="member">MR.PlaneObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1895" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1895" bodyend="1900"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1ad375aedadee0297c78ebb6c9729911ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlaneObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.PlaneObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ad375aedadee0297c78ebb6c9729911ff" kindref="member">MR.PlaneObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1908" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1908" bodyend="1917"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneObject_1adcd5ab0d351cac2753a4b8e0c2258559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlaneObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.PlaneObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1adcd5ab0d351cac2753a4b8e0c2258559" kindref="member">MR.PlaneObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1924" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1924" bodyend="1933"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show plane feature Generated from class <computeroutput><ref refid="classMR_1_1PlaneObject" kindref="compound">MR.PlaneObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PlaneObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlaneObject</label>
+        <link refid="classMR_1_1PlaneObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_PlaneObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PlaneObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlaneObject</label>
+        <link refid="classMR_1_1PlaneObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_PlaneObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1145" bodyend="1934"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PlaneObject_1a8b3e3e7ebbcbf4a5e896e923f45fe97b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1PlaneObject_1adf9dfd9666a135bb23005615b862da7c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1PlaneObject_1ad375aedadee0297c78ebb6c9729911ff" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1PlaneObject_1a6415b2fd874251b918b15c1724c1be12" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1PlaneObject_1a4a781447008827b687d778f14f4af6c2" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1PlaneObject_1aac88660c37308bc023ec31bcd49f070f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1PlaneObject_1a9ed3841dc4cd9386670b2e2291689028" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1PlaneObject_1aa1c68e6cbd7f1c28f8a2343ca081807e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.FeatureObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1a9796c0171f995bb5d8ccca08febae6ce" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1PlaneObject_1abb9ad5312c4739eb83df1b3620d0f065" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1PlaneObject_1a0aa519f0711fed614fd31a5d562e547d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1a7771cadbb9db46e2a129ff9ac8a2746a" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator PlaneObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1a132481ba6b364dc15be6a92047f3c6f4" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator PlaneObject?</name></member>
+      <member refid="classMR_1_1PlaneObject_1a61c90915e6019040426190fad86a800c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator PlaneObject?</name></member>
+      <member refid="classMR_1_1PlaneObject_1ae62ef88b04cb0294f8bdfcfda1b7ee79" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator PlaneObject?</name></member>
+      <member refid="classMR_1_1PlaneObject_1a59a981f268b7b1d1e32720509b108940" prot="package" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1af254286ca2eeafe9c5ed739f925d89e3" prot="package" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1a873fb56b5f5008f7f9f33e1223ed4c4e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1aa4915d2900f6017a2e9711c153bbaac5" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1a1e8f54fb913bad0074776619ab999177" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
+      <member refid="classMR_1_1PlaneObject_1ab98f4d3c63a5d7c00066e5ed0326a33a" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1PlaneObject_1adcd5ab0d351cac2753a4b8e0c2258559" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1PlaneObject_1ae4f165da52c2e9b9a4d62a969b50533c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1PlaneObject_1a1a6ecc8ee15a6cd4fec4f7839f6745df" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1PlaneObject_1a173d06866ab579c10da1391d5cbb97f3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1PlaneObject_1a5d04ba60606fd33e4729b9666ca8d4fa" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>select</name></member>
+      <member refid="classMR_1_1PlaneObject_1a859d34924fc987d12b67431f5773a9d1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1PlaneObject_1a9ae277c65fe75bd2385740ff6e097293" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1PlaneObject_1af7fb5840b662b37783c12ef7ea750a29" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1PlaneObject_1ade067edefcd4f3cbfec11b97b0893cfb" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1PlaneObject_1ac3629402b773c04e5541fbdab323c222" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1PlaneObject_1aec8e6ca503e33322d8768c7b54ace235" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setCenter</name></member>
+      <member refid="classMR_1_1PlaneObject_1a10f09fe95fd1d30c0e18b985a6df4f6a" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1PlaneObject_1afbfe04f0639b847b21ae64e0d3586ad6" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1PlaneObject_1a3ca03bb030511802f9215b8aa5b6bcb1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1PlaneObject_1ab9471f9c906028bc6bde3a4f61abcd0b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1PlaneObject_1ae3bb493bf6f75cf33adc57934f521909" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1PlaneObject_1a5731d9c01f62e16265cd171a629b9f88" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1PlaneObject_1aae45903f76d3b3670c876f6007bb959e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1PlaneObject_1afb86ceeb3cff38699fd5fcac93502a7b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1PlaneObject_1aed48a1057a743d97ba97dbdc86727cdc" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1PlaneObject_1a62fcdcff3f243f68b1cba4a9445e4d1b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1PlaneObject_1adcbdc8004664e2e660e383f4159630eb" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1PlaneObject_1af054aef4d7132221161449600e6d1dfe" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1PlaneObject_1a0af9d49ae8495952e751bf687a37293c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1PlaneObject_1ad41e19d01616451f717ff91964fae32c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1PlaneObject_1aece7d6643b21abb8566257539f4cf71c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setNormal</name></member>
+      <member refid="classMR_1_1PlaneObject_1a57bc3c55fed545da703ce3cc90bbafe3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1PlaneObject_1a2b5b1c44b0a87f788daaa9cff0def18d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1PlaneObject_1a604f7a9022869c7e2f2c970045c18450" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1PlaneObject_1a76616630c9bd7f1383dad8b477ae4849" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1PlaneObject_1a4b8c059a9bcdc5db81ff412bdccebfc7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSize</name></member>
+      <member refid="classMR_1_1PlaneObject_1a69528c309b5ff1f1910e0977d668f9fa" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSizeX</name></member>
+      <member refid="classMR_1_1PlaneObject_1a2e33584f94a0e5aa3ad431034d547b64" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSizeY</name></member>
+      <member refid="classMR_1_1PlaneObject_1a72b2b7429a942281252416727d4ec0ef" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1PlaneObject_1a70819db394ba0c02f5992e6f052fedb1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1PlaneObject_1aae15222118b47edb4daf582b39670b43" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1PlaneObject_1a018470d39b94261fa307d1eede57fa4c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1PlaneObject_1a1905f15ffa1a4c50c911af950a3a518d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1PlaneObject_1aa1ff9b6d5a2b9a285bb3c37ec72c5e53" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1PlaneObject_1aa9027c0581c49635fe6f9bd1f3f4f730" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1PlaneObject_1a525f3082663f5306b8c88f66f23b0aae" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1PlaneObject_1ac589d359a78bbb72ea7c5f3a1b3dfdb4" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1PlaneObject_1a4404b37634b77c3cd4891e5c0942e1a1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1PlaneObject_1a411a56b5ac8bfb7291ea43948950c140" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1PlaneObject_1ad18d6c0e9342aaaebea808fba8c5072d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1PlaneObject_1a48be5b43e14f97352368acae3f7b63ba" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1PlaneObject_1a40198378be1fe7b83f782c7d9aa0ed9f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1PlaneObject_1a23fee4c0ec71579a0926fe8022704314" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1PlaneObject_1a2e49ae91ed8a21bb9b5260019efa53bd" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1PlaneObject_1af71d80072a899b518c7bffd7462b30e4" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

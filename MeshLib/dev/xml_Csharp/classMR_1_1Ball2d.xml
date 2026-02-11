@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Ball2d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Ball2d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Ball2d</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Ball2d_1abc44fb6101d36de7be6f7ab86d4e9ff0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>new unsafe ref MR.Vector2d MR.Ball2d.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Ball2d.center</qualifiedname>
+        <briefdescription>
+<para>&lt; ball&apos;s center </para>
+        </briefdescription>
+        <detaileddescription>
+<para>ball&apos;s squared radius </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="879" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Ball2d_1a89effc589f13b59a90e2fa6c3c795f92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.Ball2d.radiusSq</definition>
+        <argsstring></argsstring>
+        <name>radiusSq</name>
+        <qualifiedname>MR.Ball2d.radiusSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="882" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="882" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Ball2d_1a56c4d4f800d0afc0baa251df0d65ea71" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball2d.Ball2d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Ball2d</name>
+        <qualifiedname>MR.Ball2d.Ball2d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="886" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="886" bodyend="890"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Ball2d_1ac28ca766a9ae0486e66609c96750acae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball2d.Ball2d</definition>
+        <argsstring>()</argsstring>
+        <name>Ball2d</name>
+        <qualifiedname>MR.Ball2d.Ball2d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="896" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="896" bodyend="902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball2d_1ae6a2ed15ce8804760785c6dede46b572" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball2d.Ball2d</definition>
+        <argsstring>(MR.Vector2d center, double radiusSq)</argsstring>
+        <name>Ball2d</name>
+        <qualifiedname>MR.Ball2d.Ball2d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>radiusSq</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Ball2d" kindref="compound">MR.Ball2d</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="907" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball2d_1a629c7b0363b324f0eb679408a461aaa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball2d.Ball2d</definition>
+        <argsstring>(MR.Const_Ball2d _other)</argsstring>
+        <name>Ball2d</name>
+        <qualifiedname>MR.Ball2d.Ball2d</qualifiedname>
+        <param>
+          <type>MR.Const_Ball2d</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Ball2d.Ball2d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="918" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="918" bodyend="925"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball2d_1a4373f3d40d28a7faddaacf7a9a2b98a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Ball2d.Ball2d</definition>
+        <argsstring>(Ball2d _other)</argsstring>
+        <name>Ball2d</name>
+        <qualifiedname>MR.Ball2d.Ball2d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Ball2d" kindref="compound">Ball2d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Ball2d.Ball2d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="930" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="930" bodyend="930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball2d_1a8862684a97d370ca3f83a4755c8fa005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Ball2d" kindref="compound">MR.Ball2d</ref></type>
+        <definition>unsafe MR.Ball2d MR.Ball2d.assign</definition>
+        <argsstring>(MR.Const_Ball2d _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Ball2d.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Ball2d</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Ball2d.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="935" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="935" bodyend="942"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a ball = points surrounded by a sphere in arbitrary space with vector type V Generated from class <computeroutput><ref refid="classMR_1_1Ball2d" kindref="compound">MR.Ball2d</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Ball2d</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Ball2d</label>
+        <link refid="classMR_1_1Ball2d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Ball2d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Ball2d</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Ball2d</label>
+        <link refid="classMR_1_1Ball2d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Ball2d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="876" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="877" bodyend="943"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Ball2d_1a8862684a97d370ca3f83a4755c8fa005" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>assign</name></member>
+      <member refid="classMR_1_1Ball2d_1a56c4d4f800d0afc0baa251df0d65ea71" prot="package" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
+      <member refid="classMR_1_1Ball2d_1ac28ca766a9ae0486e66609c96750acae" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
+      <member refid="classMR_1_1Ball2d_1ae6a2ed15ce8804760785c6dede46b572" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
+      <member refid="classMR_1_1Ball2d_1a629c7b0363b324f0eb679408a461aaa7" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
+      <member refid="classMR_1_1Ball2d_1a4373f3d40d28a7faddaacf7a9a2b98a8" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
+      <member refid="classMR_1_1Ball2d_1abc44fb6101d36de7be6f7ab86d4e9ff0" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>center</name></member>
+      <member refid="classMR_1_1Ball2d_1a89effc589f13b59a90e2fa6c3c795f92" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>radiusSq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

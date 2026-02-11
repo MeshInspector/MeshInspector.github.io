@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SpaceMouse_1_1Handler" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::SpaceMouse::Handler</compoundname>
+    <derivedcompoundref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" prot="public" virt="non-virtual">MR::SpaceMouse::HandlerHidapi</derivedcompoundref>
+    <includes refid="MRSpaceMouseHandler_8h" local="no">MRSpaceMouseHandler.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Handler_1acef4a0601b4b1e8c5eaa19be8b3a7437" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::SpaceMouse::Handler::~Handler</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Handler</name>
+        <qualifiedname>MR::SpaceMouse::Handler::~Handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandler.h" line="14" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Handler_1a76724a238382d5e5db89b510fbb469b6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::SpaceMouse::Handler::initialize</definition>
+        <argsstring>()=0</argsstring>
+        <name>initialize</name>
+        <qualifiedname>MR::SpaceMouse::Handler::initialize</qualifiedname>
+        <reimplementedby refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a72e91164e356ea478b0e5df93aaed69c">initialize</reimplementedby>
+        <briefdescription>
+<para>initialize device </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandler.h" line="17" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Handler_1a01f9deabc5763930ffe1c5e13e08278d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::SpaceMouse::Handler::handle</definition>
+        <argsstring>()=0</argsstring>
+        <name>handle</name>
+        <qualifiedname>MR::SpaceMouse::Handler::handle</qualifiedname>
+        <reimplementedby refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a20c6b0e22bec8be84b2034de74bf6073">handle</reimplementedby>
+        <briefdescription>
+<para>handle device state and call <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> signals </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandler.h" line="20" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>base class for handler of spacemouse devices </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::SpaceMouse::Handler</label>
+        <link refid="classMR_1_1SpaceMouse_1_1Handler"/>
+      </node>
+      <node id="2">
+        <label>MR::SpaceMouse::HandlerHidapi</label>
+        <link refid="classMR_1_1SpaceMouse_1_1HandlerHidapi"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandler.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandler.h" bodystart="12" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SpaceMouse_1_1Handler_1a01f9deabc5763930ffe1c5e13e08278d" prot="public" virt="pure-virtual"><scope>MR::SpaceMouse::Handler</scope><name>handle</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Handler_1a76724a238382d5e5db89b510fbb469b6" prot="public" virt="pure-virtual"><scope>MR::SpaceMouse::Handler</scope><name>initialize</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Handler_1acef4a0601b4b1e8c5eaa19be8b3a7437" prot="public" virt="virtual"><scope>MR::SpaceMouse::Handler</scope><name>~Handler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

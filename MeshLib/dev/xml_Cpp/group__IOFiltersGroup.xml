@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__IOFiltersGroup" kind="group">
+    <compoundname>IOFiltersGroup</compoundname>
+    <title>IO Filters</title>
+    <innerclass refid="structMR_1_1IOFilter" prot="public">MR::IOFilter</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" prot="public" static="no">
+        <type>std::vector&lt; IOFilter &gt;</type>
+        <definition>using MR::IOFilters =  std::vector&lt;IOFilter&gt;</definition>
+        <argsstring></argsstring>
+        <name>IOFilters</name>
+        <qualifiedname>MR::IOFilters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__IOFiltersGroup_1ga92c17e5c77b16529d727a2fe2b1c1148" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> IOFilters</type>
+        <definition>MRMESH_API IOFilters MR::operator|</definition>
+        <argsstring>(const IOFilters &amp;a, const IOFilters &amp;b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>MR::operator|</qualifiedname>
+        <param>
+          <type>const IOFilters &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const IOFilters &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns union of input filters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="35" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="35" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOFiltersGroup_1gadd9420cabaaa71b707111e6213f0fdc6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; IOFilter &gt;</type>
+        <definition>MRMESH_API std::optional&lt; IOFilter &gt; MR::findFilter</definition>
+        <argsstring>(const IOFilters &amp;filters, const std::string &amp;extension)</argsstring>
+        <name>findFilter</name>
+        <qualifiedname>MR::findFilter</qualifiedname>
+        <param>
+          <type>const IOFilters &amp;</type>
+          <declname>filters</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+<para>find a corresponding filter for a given extension </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="38" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="38" declcolumn="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectLinesHolder" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjectLinesHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectLinesHolder</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a457b9ea6b48bafa84fa8e2bf506010e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectLinesHolder.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(ObjectLinesHolder self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.ObjectLinesHolder.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="990" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="990" bodyend="995"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aceac3f7ba1d4a0edbf4644a456b6babf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectLinesHolder.operator MR.Object</definition>
+        <argsstring>(ObjectLinesHolder self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.ObjectLinesHolder.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="996" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="996" bodyend="1001"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a60b7b52772551a234d181f2479a086b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectLinesHolder.operator MR.VisualObject</definition>
+        <argsstring>(ObjectLinesHolder self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.ObjectLinesHolder.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1002" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1002" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a1817de989535c1eda08bbfd8cfa9ced2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectLinesHolder.operator ObjectLinesHolder?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator ObjectLinesHolder?</name>
+        <qualifiedname>MR.ObjectLinesHolder.operator ObjectLinesHolder?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1010" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1010" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a58f13df1ea6235b94d4fbae64653c529" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectLinesHolder.operator ObjectLinesHolder?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator ObjectLinesHolder?</name>
+        <qualifiedname>MR.ObjectLinesHolder.operator ObjectLinesHolder?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1018" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1018" bodyend="1025"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1abea1cba4657632a07bda9159287f489e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectLinesHolder.ObjectLinesHolder</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR.ObjectLinesHolder.ObjectLinesHolder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1027" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1027" bodyend="1027"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a024e730ac31539b14d3096958b41d586" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectLinesHolder.ObjectLinesHolder</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR.ObjectLinesHolder.ObjectLinesHolder</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1029" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1029" bodyend="1029"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1af4367445e06741ec00ddb1f018f49707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectLinesHolder.ObjectLinesHolder</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR.ObjectLinesHolder.ObjectLinesHolder</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1034" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1034" bodyend="1039"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a781ff8a03817eb3a6a9ee4bdaa8b0863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectLinesHolder.ObjectLinesHolder</definition>
+        <argsstring>(MR._ByValue_ObjectLinesHolder _other)</argsstring>
+        <name>ObjectLinesHolder</name>
+        <qualifiedname>MR.ObjectLinesHolder.ObjectLinesHolder</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectLinesHolder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjectLinesHolder.ObjectLinesHolder</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1044" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1044" bodyend="1050"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ada3b4d2e2d5930cefd12eaeb18d4a183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></type>
+        <definition>unsafe MR.ObjectLinesHolder MR.ObjectLinesHolder.assign</definition>
+        <argsstring>(MR._ByValue_ObjectLinesHolder _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjectLinesHolder.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectLinesHolder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjectLinesHolder.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1055" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1055" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1acafd009ea598f84d8c3707d061e17856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.ObjectLinesHolder.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1acafd009ea598f84d8c3707d061e17856" kindref="member">MR.ObjectLinesHolder.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1070" bodyend="1075"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aca3b56e0ee3729ecd7359a7a486ff596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.ObjectLinesHolder.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1aca3b56e0ee3729ecd7359a7a486ff596" kindref="member">MR.ObjectLinesHolder.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1081" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1081" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ae2c1d0147771ff0b9f36cdefabaeb635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setDashPattern</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar pattern, MR._InOpt_ViewportId vpId=default)</argsstring>
+        <name>setDashPattern</name>
+        <qualifiedname>MR.ObjectLinesHolder.setDashPattern</qualifiedname>
+        <param>
+          <type>MR.Const_Vector4_UnsignedChar</type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>vpId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>specify dash pattern in pixels [0] - dash [1] - space [2] - dash [3] - space Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ae2c1d0147771ff0b9f36cdefabaeb635" kindref="member">MR.ObjectLinesHolder.setDashPattern</ref></computeroutput>. Parameter <computeroutput>vpId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1098" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1098" bodyend="1103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ae26b5166b3e2840f1195276ae65c8787" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setLineWidth</definition>
+        <argsstring>(float width)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.ObjectLinesHolder.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ae26b5166b3e2840f1195276ae65c8787" kindref="member">MR.ObjectLinesHolder.setLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1108" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1108" bodyend="1113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a870b816dc3870a7a0a04ed9b0da3e57a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setPointSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.ObjectLinesHolder.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a870b816dc3870a7a0a04ed9b0da3e57a" kindref="member">MR.ObjectLinesHolder.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1118" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1118" bodyend="1123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ada9c0e8aa916adb6a4396dce053696f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setVertsColorMap</definition>
+        <argsstring>(MR._ByValue_VertColors vertsColorMap)</argsstring>
+        <name>setVertsColorMap</name>
+        <qualifiedname>MR.ObjectLinesHolder.setVertsColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertColors</type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>sets per-vertex colors of the object Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ada9c0e8aa916adb6a4396dce053696f6" kindref="member">MR.ObjectLinesHolder.setVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1129" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1129" bodyend="1134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a525aed64853ffb3c819c3e7fe22635e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.updateVertsColorMap</definition>
+        <argsstring>(MR.VertColors vertsColorMap)</argsstring>
+        <name>updateVertsColorMap</name>
+        <qualifiedname>MR.ObjectLinesHolder.updateVertsColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>swaps per-vertex colors of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a525aed64853ffb3c819c3e7fe22635e7" kindref="member">MR.ObjectLinesHolder.updateVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1140" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1140" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ac840d48ca9f137c5d61bbf7a169829dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setLinesColorMap</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeColors linesColorMap)</argsstring>
+        <name>setLinesColorMap</name>
+        <qualifiedname>MR.ObjectLinesHolder.setLinesColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeColors</type>
+          <declname>linesColorMap</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ac840d48ca9f137c5d61bbf7a169829dc" kindref="member">MR.ObjectLinesHolder.setLinesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1150" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1150" bodyend="1155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a369d8a9801b01a0ebd04e2344257cff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.updateLinesColorMap</definition>
+        <argsstring>(MR.UndirectedEdgeColors updated)</argsstring>
+        <name>updateLinesColorMap</name>
+        <qualifiedname>MR.ObjectLinesHolder.updateLinesColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeColors" kindref="compound">MR.UndirectedEdgeColors</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a369d8a9801b01a0ebd04e2344257cff4" kindref="member">MR.ObjectLinesHolder.updateLinesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1160" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1160" bodyend="1165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a0385005da43358f055657527ce079fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.copyColors</definition>
+        <argsstring>(MR.Const_ObjectLinesHolder src, MR.Const_VertMap thisToSrc)</argsstring>
+        <name>copyColors</name>
+        <qualifiedname>MR.ObjectLinesHolder.copyColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectLinesHolder</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertMap</type>
+          <declname>thisToSrc</declname>
+        </param>
+        <briefdescription>
+<para>copies vertex colors from given source object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>using given map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisToSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a0385005da43358f055657527ce079fc9" kindref="member">MR.ObjectLinesHolder.copyColors</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1171" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1171" bodyend="1176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a83dfbb04681642ae725e5eae9828ed7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.ObjectLinesHolder.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a83dfbb04681642ae725e5eae9828ed7c" kindref="member">MR.ObjectLinesHolder.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1182" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1182" bodyend="1187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1af83e9cfe6d5bc4912d03181719645d3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.ObjectLinesHolder.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1af83e9cfe6d5bc4912d03181719645d3d" kindref="member">MR.ObjectLinesHolder.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1193" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1193" bodyend="1198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a49873d8a27c705e21621e2aaf4788377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.ObjectLinesHolder.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a49873d8a27c705e21621e2aaf4788377" kindref="member">MR.ObjectLinesHolder.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1204" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1204" bodyend="1209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aa9fb8aee413ecbc091db272247b1fa36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.ObjectLinesHolder.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1aa9fb8aee413ecbc091db272247b1fa36" kindref="member">MR.ObjectLinesHolder.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1215" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1215" bodyend="1220"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a22cc60c1959300d8156d8b3a6ba09856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.ObjectLinesHolder.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a22cc60c1959300d8156d8b3a6ba09856" kindref="member">MR.ObjectLinesHolder.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1226" bodyend="1231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1af07343fb5bf18de31cae7ca370a3e754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.ObjectLinesHolder.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1af07343fb5bf18de31cae7ca370a3e754" kindref="member">MR.ObjectLinesHolder.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1237" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1237" bodyend="1242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1af3dea2908843ea0257dc01c5705230f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.ObjectLinesHolder.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1af3dea2908843ea0257dc01c5705230f2" kindref="member">MR.ObjectLinesHolder.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1249" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1249" bodyend="1254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aaee0a5ff284061553d7f92efd8320c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.ObjectLinesHolder.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1aaee0a5ff284061553d7f92efd8320c79" kindref="member">MR.ObjectLinesHolder.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1261" bodyend="1269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a06fe41f3f9ae4fbd6d462129f8153a37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectLinesHolder.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a06fe41f3f9ae4fbd6d462129f8153a37" kindref="member">MR.ObjectLinesHolder.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1276" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1276" bodyend="1282"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ae2d62f7dc82e9a968492466f44c22abb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectLinesHolder.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ae2d62f7dc82e9a968492466f44c22abb" kindref="member">MR.ObjectLinesHolder.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1288" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1288" bodyend="1293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a58ad6553ff1ca76732f23a8ea18b1c02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.ObjectLinesHolder.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a58ad6553ff1ca76732f23a8ea18b1c02" kindref="member">MR.ObjectLinesHolder.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1300" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1300" bodyend="1308"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8ee364cc1bc57e4d874671fa6ebac1a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.ObjectLinesHolder.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a8ee364cc1bc57e4d874671fa6ebac1a1" kindref="member">MR.ObjectLinesHolder.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1315" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1315" bodyend="1320"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1aa9d409a92a146612dd17df8924aece02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.ObjectLinesHolder.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1aa9d409a92a146612dd17df8924aece02" kindref="member">MR.ObjectLinesHolder.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1326" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1326" bodyend="1331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ab4e4ebdeacecac8ed284cccb9ad77e7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.ObjectLinesHolder.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ab4e4ebdeacecac8ed284cccb9ad77e7c" kindref="member">MR.ObjectLinesHolder.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1338" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1338" bodyend="1343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1af48847f23000c0be48babc30839639ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.ObjectLinesHolder.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1af48847f23000c0be48babc30839639ec" kindref="member">MR.ObjectLinesHolder.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1349" bodyend="1354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a2ed84d60d18ba3cf925946a4b7e424c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.ObjectLinesHolder.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a2ed84d60d18ba3cf925946a4b7e424c0" kindref="member">MR.ObjectLinesHolder.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1360" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1360" bodyend="1365"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a3770332b4cc02576140fa3ec91e80d69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.ObjectLinesHolder.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a3770332b4cc02576140fa3ec91e80d69" kindref="member">MR.ObjectLinesHolder.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1371" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1371" bodyend="1376"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1add5a3039c1f2aa9b17621c652da9d807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.ObjectLinesHolder.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1add5a3039c1f2aa9b17621c652da9d807" kindref="member">MR.ObjectLinesHolder.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1382" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1382" bodyend="1387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a1240ce40a9372bb592604f81b8f790ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.ObjectLinesHolder.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a1240ce40a9372bb592604f81b8f790ee" kindref="member">MR.ObjectLinesHolder.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1394" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1394" bodyend="1399"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a497a6ffbee081140099e22359592d6c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.ObjectLinesHolder.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a497a6ffbee081140099e22359592d6c4" kindref="member">MR.ObjectLinesHolder.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1405" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1405" bodyend="1410"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a267c5004fbd90eeaa6526f04df90585d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.ObjectLinesHolder.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a267c5004fbd90eeaa6526f04df90585d" kindref="member">MR.ObjectLinesHolder.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1415" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1415" bodyend="1424"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a23bc2d8563b97833cb33687d1e4966b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.ObjectLinesHolder.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a23bc2d8563b97833cb33687d1e4966b9" kindref="member">MR.ObjectLinesHolder.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1430" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1430" bodyend="1438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a9bc5c65a915adf6fd066441efc60a8e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.ObjectLinesHolder.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>forgets specific transform in given viewport (or forgets all specific transforms for {} input) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a9bc5c65a915adf6fd066441efc60a8e1" kindref="member">MR.ObjectLinesHolder.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1445" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1445" bodyend="1450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a65593e1d76b4abbeee51ec9ff2571be0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.ObjectLinesHolder.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a65593e1d76b4abbeee51ec9ff2571be0" kindref="member">MR.ObjectLinesHolder.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1456" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1456" bodyend="1461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1add4200bb273aa1ad688ee04e87dd7cab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.ObjectLinesHolder.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1add4200bb273aa1ad688ee04e87dd7cab" kindref="member">MR.ObjectLinesHolder.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1467" bodyend="1475"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a1eae45e94e12cb4ed78e28e998efb1e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.ObjectLinesHolder.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a1eae45e94e12cb4ed78e28e998efb1e6" kindref="member">MR.ObjectLinesHolder.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1482" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1482" bodyend="1487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a8523b4a276471124149601b3c729719a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.ObjectLinesHolder.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a8523b4a276471124149601b3c729719a" kindref="member">MR.ObjectLinesHolder.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1492" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1492" bodyend="1497"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a9477c58489846496201433b795f5f882" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.ObjectLinesHolder.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a9477c58489846496201433b795f5f882" kindref="member">MR.ObjectLinesHolder.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1502" bodyend="1507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ae48512ab70b2c9cbd5da183a7af4386e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectLinesHolder.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.ObjectLinesHolder.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ae48512ab70b2c9cbd5da183a7af4386e" kindref="member">MR.ObjectLinesHolder.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1514" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1514" bodyend="1519"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a34cbec462268c5b5fa06a5e6a9dfdfb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectLinesHolder.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.ObjectLinesHolder.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a34cbec462268c5b5fa06a5e6a9dfdfb8" kindref="member">MR.ObjectLinesHolder.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1529" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1529" bodyend="1535"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a88164208272f1ce752cdde00977c8732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectLinesHolder.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.ObjectLinesHolder.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a88164208272f1ce752cdde00977c8732" kindref="member">MR.ObjectLinesHolder.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1543" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1543" bodyend="1548"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a469ad6102789a8fc9ad0d468aabd9a1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.ObjectLinesHolder.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a469ad6102789a8fc9ad0d468aabd9a1b" kindref="member">MR.ObjectLinesHolder.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1554" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1554" bodyend="1559"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a49456270c385529352de0504d1fa88cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.ObjectLinesHolder.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a49456270c385529352de0504d1fa88cc" kindref="member">MR.ObjectLinesHolder.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1565" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1565" bodyend="1570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1ae54a88db297faf27e316329a7a5e04e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectLinesHolder.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.ObjectLinesHolder.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ae54a88db297faf27e316329a7a5e04e6" kindref="member">MR.ObjectLinesHolder.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1576" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1576" bodyend="1581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a4fc510feacb6ed169f64a3f5274ea8c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.ObjectLinesHolder.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a4fc510feacb6ed169f64a3f5274ea8c6" kindref="member">MR.ObjectLinesHolder.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1588" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1588" bodyend="1593"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a9774ff895970af4d6630514a96d2f652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.ObjectLinesHolder.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a9774ff895970af4d6630514a96d2f652" kindref="member">MR.ObjectLinesHolder.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1600" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1600" bodyend="1605"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a775c4b2b396fe45d10ec521a8682d032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.ObjectLinesHolder.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a775c4b2b396fe45d10ec521a8682d032" kindref="member">MR.ObjectLinesHolder.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1611" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1611" bodyend="1616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a63cd86411490fdcf18e95acd0c79eb38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectLinesHolder.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.ObjectLinesHolder.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a63cd86411490fdcf18e95acd0c79eb38" kindref="member">MR.ObjectLinesHolder.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1624" bodyend="1629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a95796a688a3cecb939a7e472e449c182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectLinesHolder.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.ObjectLinesHolder.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a95796a688a3cecb939a7e472e449c182" kindref="member">MR.ObjectLinesHolder.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1637" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1637" bodyend="1646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a488e52d32720f183129a9fc7b7279fd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectLinesHolder.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.ObjectLinesHolder.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a488e52d32720f183129a9fc7b7279fd1" kindref="member">MR.ObjectLinesHolder.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="1653" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="1653" bodyend="1662"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>an object that stores a lines Generated from class <computeroutput><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectGcode" kindref="compound">MR.ObjectGcode</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjectLinesHolder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectLinesHolder</label>
+        <link refid="classMR_1_1ObjectLinesHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectLinesHolder &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjectLinesHolder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectLinesHolder</label>
+        <link refid="classMR_1_1ObjectLinesHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectLinesHolder &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="987" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="988" bodyend="1663"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectLinesHolder_1a34cbec462268c5b5fa06a5e6a9dfdfb8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>addChild</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a88164208272f1ce752cdde00977c8732" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a95796a688a3cecb939a7e472e449c182" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>addTag</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1acafd009ea598f84d8c3707d061e17856" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ada3b4d2e2d5930cefd12eaeb18d4a183" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af07343fb5bf18de31cae7ca370a3e754" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a0385005da43358f055657527ce079fc9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyColors</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ae48512ab70b2c9cbd5da183a7af4386e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1abea1cba4657632a07bda9159287f489e" prot="package" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a024e730ac31539b14d3096958b41d586" prot="package" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af4367445e06741ec00ddb1f018f49707" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a781ff8a03817eb3a6a9ee4bdaa8b0863" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aceac3f7ba1d4a0edbf4644a456b6babf" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a457b9ea6b48bafa84fa8e2bf506010e4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a60b7b52772551a234d181f2479a086b0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a1817de989535c1eda08bbfd8cfa9ced2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator ObjectLinesHolder?</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a58f13df1ea6235b94d4fbae64653c529" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator ObjectLinesHolder?</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a469ad6102789a8fc9ad0d468aabd9a1b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a488e52d32720f183129a9fc7b7279fd1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a497a6ffbee081140099e22359592d6c4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a83dfbb04681642ae725e5eae9828ed7c" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a9bc5c65a915adf6fd066441efc60a8e1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ae54a88db297faf27e316329a7a5e04e6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>select</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a22cc60c1959300d8156d8b3a6ba09856" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1add5a3039c1f2aa9b17621c652da9d807" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a4fc510feacb6ed169f64a3f5274ea8c6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a58ad6553ff1ca76732f23a8ea18b1c02" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ae2d62f7dc82e9a968492466f44c22abb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af48847f23000c0be48babc30839639ec" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ae2c1d0147771ff0b9f36cdefabaeb635" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setDashPattern</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aca3b56e0ee3729ecd7359a7a486ff596" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aaee0a5ff284061553d7f92efd8320c79" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a06fe41f3f9ae4fbd6d462129f8153a37" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8ee364cc1bc57e4d874671fa6ebac1a1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aa9d409a92a146612dd17df8924aece02" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af3dea2908843ea0257dc01c5705230f2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a1eae45e94e12cb4ed78e28e998efb1e6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ac840d48ca9f137c5d61bbf7a169829dc" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setLinesColorMap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ae26b5166b3e2840f1195276ae65c8787" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a8523b4a276471124149601b3c729719a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a267c5004fbd90eeaa6526f04df90585d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setName</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a9477c58489846496201433b795f5f882" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ab4e4ebdeacecac8ed284cccb9ad77e7c" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a870b816dc3870a7a0a04ed9b0da3e57a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a2ed84d60d18ba3cf925946a4b7e424c0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a3770332b4cc02576140fa3ec91e80d69" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a1240ce40a9372bb592604f81b8f790ee" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1ada9c0e8aa916adb6a4396dce053696f6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVertsColorMap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a775c4b2b396fe45d10ec521a8682d032" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a9774ff895970af4d6630514a96d2f652" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1af83e9cfe6d5bc4912d03181719645d3d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a49873d8a27c705e21621e2aaf4788377" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1add4200bb273aa1ad688ee04e87dd7cab" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a23bc2d8563b97833cb33687d1e4966b9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setXf</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a65593e1d76b4abbeee51ec9ff2571be0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a49456270c385529352de0504d1fa88cc" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a63cd86411490fdcf18e95acd0c79eb38" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>swap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1aa9fb8aee413ecbc091db272247b1fa36" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a369d8a9801b01a0ebd04e2344257cff4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>updateLinesColorMap</name></member>
+      <member refid="classMR_1_1ObjectLinesHolder_1a525aed64853ffb3c819c3e7fe22635e7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>updateVertsColorMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

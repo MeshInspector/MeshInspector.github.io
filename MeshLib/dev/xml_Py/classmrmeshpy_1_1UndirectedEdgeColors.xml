@@ -1,0 +1,1069 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UndirectedEdgeColors" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UndirectedEdgeColors</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UndirectedEdgeColors_1afcecf3774a3cfbecbeff4ef7df95acad" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UndirectedEdgeColors::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58985" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UndirectedEdgeColors_1a709145b88376af639e115e6a3c0239f2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UndirectedEdgeColors::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58986" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ad94e2495744b9e510a615a16571fcfc3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58989" bodyend="58990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aeb43b079c6b554d8ac5f92de1eb43551" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+        <definition> UndirectedEdgeColors mrmeshpy.UndirectedEdgeColors.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58993" bodyend="58994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aeb43b079c6b554d8ac5f92de1eb43551" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+        <definition> UndirectedEdgeColors mrmeshpy.UndirectedEdgeColors.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58997" bodyend="58998"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a2d238d03b675ef9f1296991a4f5c77fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeColors.__eq__</definition>
+        <argsstring>(self, UndirectedEdgeColors b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58999" bodyend="59000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a66b4e195d1f69c1cfb05473b8c473a2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.__getitem__</definition>
+        <argsstring>(self, UndirectedEdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59002" bodyend="59003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a66b4e195d1f69c1cfb05473b8c473a2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.__getitem__</definition>
+        <argsstring>(self, UndirectedEdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59005" bodyend="59006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1acd310a0f92296c57ca8d16457571762c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59008" bodyend="59011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ae86ec3023c1c61239cbc00a4c1fc4808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59013" bodyend="59016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a673d8adb42a4f29e7316b80f55a964ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__init__</definition>
+        <argsstring>(self, int size, Color val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59018" bodyend="59021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ad4cbc2fcbf7e302f2b97bdeef876b16e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__init__</definition>
+        <argsstring>(self, std_vector_Color vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59023" bodyend="59026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a6a28641a5d27baecacb61e3abe852029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__init__</definition>
+        <argsstring>(self, UndirectedEdgeColors arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59028" bodyend="59031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a7d67c2ba1847d3a258a133196c8b644d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref>]</type>
+        <definition> typing.Iterator[Color] mrmeshpy.UndirectedEdgeColors.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59032" bodyend="59033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aa58b08efdae5c80ce1e18e21219cf6d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeColors.__ne__</definition>
+        <argsstring>(self, UndirectedEdgeColors b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59034" bodyend="59035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a7634a862499fbdb26bea7fa99cc160dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.__setitem__</definition>
+        <argsstring>(self, UndirectedEdgeId arg0, Color arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59036" bodyend="59037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a6f7f1d1a9dc04e80b133128a86a0b101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.autoResizeAt</definition>
+        <argsstring>(self, UndirectedEdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59038" bodyend="59041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1af77fbe18133553508c47e0fc46f1258d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.autoResizeSet</definition>
+        <argsstring>(self, UndirectedEdgeId pos, int len, Color val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59043" bodyend="59047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ac5a7d15d94c41791d11397395325029e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.autoResizeSet</definition>
+        <argsstring>(self, UndirectedEdgeId i, Color val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59049" bodyend="59052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1af6b97fd1fb4bd6ce9251082cb553d59f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59054" bodyend="59055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1af6b97fd1fb4bd6ce9251082cb553d59f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59057" bodyend="59058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ae45d3496cb9cbc6f6b3a6724db60c8db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeColors.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59059" bodyend="59062"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ac8d60e545f0863f4f97fc65ee18cfefd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeColors.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59063" bodyend="59066"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a1b731f5a8d84d94cbc13ca0b6f92dfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirectedEdgeColors.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59067" bodyend="59068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ac52a20d6e9d022c70e3ea29223992146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59069" bodyend="59070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ad16d90f2f3b99130c4289eb3671dc1cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59072" bodyend="59073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ad16d90f2f3b99130c4289eb3671dc1cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59075" bodyend="59076"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1af9f10086e7c15b5085652ddf4304e906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59077" bodyend="59078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1adbd920bab359615aea9b44eab6e9832c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeColors.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59079" bodyend="59080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aae9a02f8e526ef2a1241dbb2c2a2b963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeColors.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59081" bodyend="59084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a72b094d1e56b11849250f1851907632a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59086" bodyend="59087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a72b094d1e56b11849250f1851907632a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.UndirectedEdgeColors.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59089" bodyend="59090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ad19562897f81e1e3a5d83708843a72a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirectedEdgeColors.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59091" bodyend="59094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a07c450ed219071bb8c07a2da5e4fd7dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59095" bodyend="59096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aa2fca683dbe8c6e5eb971e0a448ce6a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.push_back</definition>
+        <argsstring>(self, Color t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59098" bodyend="59099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aa2fca683dbe8c6e5eb971e0a448ce6a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.push_back</definition>
+        <argsstring>(self, Color t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59101" bodyend="59102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a0058d1414d6a69b6b9d65e50d67025cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59103" bodyend="59104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1afc00db4cbed3f25e03a8e9509b06d21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59106" bodyend="59107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1ad0025492952af72b330262418fea6904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.resize</definition>
+        <argsstring>(self, int newSize, Color t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59109" bodyend="59110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a98a45fadc0e06d0804431462e455e40e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.resizeNoInit</definition>
+        <argsstring>(self, int targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.resizeNoInit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59111" bodyend="59114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a71a96ab19e73d3702a65e7f6f8298b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59116" bodyend="59119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a60b1602d12bbff67cd0d023efecf373c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, Color value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59121" bodyend="59124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a0a5e44c672355a6af145aa6d4680413c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UndirectedEdgeColors.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59125" bodyend="59126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a6324ad4750ec7921294bedf59cf186bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.swap</definition>
+        <argsstring>(self, UndirectedEdgeColors b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59127" bodyend="59128"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1a19b4d865ba8b5c1990e4e9ae4f2abf2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
+        <definition> std_vector_Color mrmeshpy.UndirectedEdgeColors.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59130" bodyend="59133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeColors_1aae0f9b22049384f758ba2d3b79e3a805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeColors.vec_</definition>
+        <argsstring>(self, std_vector_Color arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeColors.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59135" bodyend="59136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UndirectedEdgeColors
+Aliases:  ColorMapAggregator_UndirectedEdgeTag_ColorMap
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UndirectedEdgeColors</label>
+        <link refid="classmrmeshpy_1_1UndirectedEdgeColors"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58974" bodyend="59136"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a2d238d03b675ef9f1296991a4f5c77fa" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a66b4e195d1f69c1cfb05473b8c473a2b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a66b4e195d1f69c1cfb05473b8c473a2b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1afcecf3774a3cfbecbeff4ef7df95acad" prot="private" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ad94e2495744b9e510a615a16571fcfc3" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1acd310a0f92296c57ca8d16457571762c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ae86ec3023c1c61239cbc00a4c1fc4808" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a673d8adb42a4f29e7316b80f55a964ea" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ad4cbc2fcbf7e302f2b97bdeef876b16e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a6a28641a5d27baecacb61e3abe852029" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a7d67c2ba1847d3a258a133196c8b644d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aa58b08efdae5c80ce1e18e21219cf6d4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a7634a862499fbdb26bea7fa99cc160dc" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a709145b88376af639e115e6a3c0239f2" prot="protected" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a6f7f1d1a9dc04e80b133128a86a0b101" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1af77fbe18133553508c47e0fc46f1258d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ac5a7d15d94c41791d11397395325029e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1af6b97fd1fb4bd6ce9251082cb553d59f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1af6b97fd1fb4bd6ce9251082cb553d59f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ae45d3496cb9cbc6f6b3a6724db60c8db" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ac8d60e545f0863f4f97fc65ee18cfefd" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a1b731f5a8d84d94cbc13ca0b6f92dfb7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ac52a20d6e9d022c70e3ea29223992146" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ad16d90f2f3b99130c4289eb3671dc1cb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ad16d90f2f3b99130c4289eb3671dc1cb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1af9f10086e7c15b5085652ddf4304e906" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1adbd920bab359615aea9b44eab6e9832c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aae9a02f8e526ef2a1241dbb2c2a2b963" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a72b094d1e56b11849250f1851907632a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a72b094d1e56b11849250f1851907632a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ad19562897f81e1e3a5d83708843a72a6" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aeb43b079c6b554d8ac5f92de1eb43551" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aeb43b079c6b554d8ac5f92de1eb43551" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a07c450ed219071bb8c07a2da5e4fd7dd" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aa2fca683dbe8c6e5eb971e0a448ce6a7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aa2fca683dbe8c6e5eb971e0a448ce6a7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a0058d1414d6a69b6b9d65e50d67025cc" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1afc00db4cbed3f25e03a8e9509b06d21c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ad0025492952af72b330262418fea6904" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a98a45fadc0e06d0804431462e455e40e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>resizeNoInit</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a71a96ab19e73d3702a65e7f6f8298b55" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a60b1602d12bbff67cd0d023efecf373c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a0a5e44c672355a6af145aa6d4680413c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a6324ad4750ec7921294bedf59cf186bf" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a19b4d865ba8b5c1990e4e9ae4f2abf2d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1aae0f9b22049384f758ba2d3b79e3a805" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeColors</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

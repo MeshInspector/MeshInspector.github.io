@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ad8a5d172f40174c7ff8ba0670ff2f2f0" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90932" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a59198cb3da781a9659b928a0f7557385" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.element_type_byte_size</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90933" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a88ca8646970eddab786adf0077f40e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90934" bodyend="90937"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1aed7505839feb4c787a2411d61e530045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__contains__</definition>
+        <argsstring>(self, tuple[EdgeId, EdgeId] x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>x</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90938" bodyend="90941"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a94fea4103b21a16857c9eaaf8831b24f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90943" bodyend="90946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a84b86db588d2a85c9e1efaf6cb7fac7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90948" bodyend="90951"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a50eeafc178977f4deeadf1a65d317258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__eq__</definition>
+        <argsstring>(self, std_vector_std_pair_Id_EdgeTag_Id_EdgeTag arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90952" bodyend="90953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a38ce6ec381468b4170f5307623c84768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> std_vector_std_pair_Id_EdgeTag_Id_EdgeTag mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90955" bodyend="90958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ac145658660522fea44aeb73aa9251937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[<ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>, <ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>]</type>
+        <definition> tuple[EdgeId, EdgeId] mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90960" bodyend="90961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a69d4deabdc3001bf2436159fce81c33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90963" bodyend="90964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a210dd67a00985f59e8cf4228f41b992e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90966" bodyend="90967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1afa209e2ab5b1012d5408f096d16e0eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, std_vector_std_pair_Id_EdgeTag_Id_EdgeTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90969" bodyend="90970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a7d008776b45038c21ca965138b198f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[tuple[<ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>, <ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>]]</type>
+        <definition> typing.Iterator[tuple[EdgeId, EdgeId]] mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90971" bodyend="90972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a2724b4c99f9c572ebaac1c5879495b98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90973" bodyend="90974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1af1516f97b76bf5e4e63ef7b6800c417d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__ne__</definition>
+        <argsstring>(self, std_vector_std_pair_Id_EdgeTag_Id_EdgeTag arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90975" bodyend="90976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ae927c11d805eab4f3f1ac4f41353539f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__setitem__</definition>
+        <argsstring>(self, int arg0, tuple[EdgeId, EdgeId] arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>arg1</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90978" bodyend="90979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a7d60f8811a1063dc2b73331408f16ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_std_pair_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90981" bodyend="90984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a2ab8f363415735fe11fc433a470d9b13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.append</definition>
+        <argsstring>(self, tuple[EdgeId, EdgeId] x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>x</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90985" bodyend="90988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ae84878a90845dc7f930b3e87062d99f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90989" bodyend="90992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a9c90b0fe87d9c9bd255ae60f227038c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.count</definition>
+        <argsstring>(self, tuple[EdgeId, EdgeId] x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>x</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90993" bodyend="90996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a2330ae7daa12fd5249a631659aaa20d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90997" bodyend="91000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ad2492863397ddb29b1631fbb70c2b237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91001" bodyend="91002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a3e5d755619b214ba945de842215fff76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.extend</definition>
+        <argsstring>(self, std_vector_std_pair_Id_EdgeTag_Id_EdgeTag L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91004" bodyend="91007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a6ae52f2f2a4fe7e4da03758a4560aaa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91009" bodyend="91012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a93dd9a393e78b8eaee750292b62a9a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.insert</definition>
+        <argsstring>(self, int i, tuple[EdgeId, EdgeId] x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>x</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91013" bodyend="91016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a06e8ccf96f8c06fa5a50fa27fccead83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[<ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>, <ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>]</type>
+        <definition> tuple[EdgeId, EdgeId] mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91018" bodyend="91021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a7a06ea9ed66399d137fb85939d4cd5e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[<ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>, <ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>]</type>
+        <definition> tuple[EdgeId, EdgeId] mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91023" bodyend="91026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a601dd78503959f1b30d4be775d7e803e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.remove</definition>
+        <argsstring>(self, tuple[EdgeId, EdgeId] x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>x</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91027" bodyend="91030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a19abae49c531b46ddbf6dbbd30dd4f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91032" bodyend="91033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a55c0e67236dd6e5b47715c3a9c98bf04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.resize</definition>
+        <argsstring>(self, int arg0, tuple[EdgeId, EdgeId] arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>arg1</declname>
+          <array>[EdgeId, EdgeId]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91035" bodyend="91036"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a3f3fcde4a13ebaef99e8ae91687f0f91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91037" bodyend="91038"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_EdgePair, std_vector_EdgePair, std_vector_std_pair_EdgeId_EdgeId
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</label>
+        <link refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90928" bodyend="91038"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a88ca8646970eddab786adf0077f40e82" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1aed7505839feb4c787a2411d61e530045" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a94fea4103b21a16857c9eaaf8831b24f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a84b86db588d2a85c9e1efaf6cb7fac7f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a50eeafc178977f4deeadf1a65d317258" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a38ce6ec381468b4170f5307623c84768" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ac145658660522fea44aeb73aa9251937" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ad8a5d172f40174c7ff8ba0670ff2f2f0" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a69d4deabdc3001bf2436159fce81c33f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a210dd67a00985f59e8cf4228f41b992e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1afa209e2ab5b1012d5408f096d16e0eba" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a7d008776b45038c21ca965138b198f15" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a2724b4c99f9c572ebaac1c5879495b98" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1af1516f97b76bf5e4e63ef7b6800c417d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ae927c11d805eab4f3f1ac4f41353539f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a7d60f8811a1063dc2b73331408f16ccf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a2ab8f363415735fe11fc433a470d9b13" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ae84878a90845dc7f930b3e87062d99f1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a9c90b0fe87d9c9bd255ae60f227038c6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a2330ae7daa12fd5249a631659aaa20d3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a59198cb3da781a9659b928a0f7557385" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1ad2492863397ddb29b1631fbb70c2b237" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a3e5d755619b214ba945de842215fff76" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a6ae52f2f2a4fe7e4da03758a4560aaa2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a93dd9a393e78b8eaee750292b62a9a75" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a06e8ccf96f8c06fa5a50fa27fccead83" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a7a06ea9ed66399d137fb85939d4cd5e2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a601dd78503959f1b30d4be775d7e803e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a19abae49c531b46ddbf6dbbd30dd4f3d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a55c0e67236dd6e5b47715c3a9c98bf04" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a3f3fcde4a13ebaef99e8ae91687f0f91" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

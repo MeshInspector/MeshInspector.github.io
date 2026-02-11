@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Vector4d" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Vector4d</compoundname>
+    <includes refid="MRVector4_8h" local="no">MRVector4.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Vector4d_1a345cd398420f0ee5decaaf48a4504e96" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR_Vector4d::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR_Vector4d::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="63" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Vector4d_1a779f0839be7daf9cc1769449648b1bdb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR_Vector4d::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR_Vector4d::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="64" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Vector4d_1a407ed198701596094a984d27457f2635" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR_Vector4d::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR_Vector4d::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="65" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Vector4d_1a8d544e2d561e2b2bd961ba90c44c0798" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR_Vector4d::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR_Vector4d::w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="66" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>four-dimensional vector Generated from class <computeroutput>MR::Vector4d</computeroutput>. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVector4.h" bodystart="62" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structMR__Vector4d_1a8d544e2d561e2b2bd961ba90c44c0798" prot="public" virt="non-virtual"><scope>MR_Vector4d</scope><name>w</name></member>
+      <member refid="structMR__Vector4d_1a345cd398420f0ee5decaaf48a4504e96" prot="public" virt="non-virtual"><scope>MR_Vector4d</scope><name>x</name></member>
+      <member refid="structMR__Vector4d_1a779f0839be7daf9cc1769449648b1bdb" prot="public" virt="non-virtual"><scope>MR_Vector4d</scope><name>y</name></member>
+      <member refid="structMR__Vector4d_1a407ed198701596094a984d27457f2635" prot="public" virt="non-virtual"><scope>MR_Vector4d</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

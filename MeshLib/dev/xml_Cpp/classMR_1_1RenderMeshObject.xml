@@ -1,0 +1,1532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderMeshObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderMeshObject</compoundname>
+    <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</derivedcompoundref>
+    <includes refid="MRRenderMeshObject_8h" local="no">MRRenderMeshObject.h</includes>
+    <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" prot="protected" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int MR::RenderMeshObject::GLuint</definition>
+        <argsstring></argsstring>
+        <name>GLuint</name>
+        <qualifiedname>MR::RenderMeshObject::GLuint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="50" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a3bbf015a92d7acdcb4f134a3af214b75" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> *</type>
+        <definition>const ObjectMeshHolder* MR::RenderMeshObject::objMesh_</definition>
+        <argsstring></argsstring>
+        <name>objMesh_</name>
+        <qualifiedname>MR::RenderMeshObject::objMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="24" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1ad8c179bd9f2914459146986ba590f4c2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::vertPosSize_</definition>
+        <argsstring></argsstring>
+        <name>vertPosSize_</name>
+        <qualifiedname>MR::RenderMeshObject::vertPosSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a8e4c0f111508fd26331871247ad7e055" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::vertNormalsSize_</definition>
+        <argsstring></argsstring>
+        <name>vertNormalsSize_</name>
+        <qualifiedname>MR::RenderMeshObject::vertNormalsSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a885637207dfa4ad9a32e22b1de0fc18a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::vertColorsSize_</definition>
+        <argsstring></argsstring>
+        <name>vertColorsSize_</name>
+        <qualifiedname>MR::RenderMeshObject::vertColorsSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a36832676f48c87a67ff5782e57a7bd66" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::vertUVSize_</definition>
+        <argsstring></argsstring>
+        <name>vertUVSize_</name>
+        <qualifiedname>MR::RenderMeshObject::vertUVSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="29" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a7c197e5a47c0adda4d0e19fe67bc8ad6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::faceIndicesSize_</definition>
+        <argsstring></argsstring>
+        <name>faceIndicesSize_</name>
+        <qualifiedname>MR::RenderMeshObject::faceIndicesSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="30" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a888fbd0e8bad27a4ff46ec6c1e1680e5" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::edgeSize_</definition>
+        <argsstring></argsstring>
+        <name>edgeSize_</name>
+        <qualifiedname>MR::RenderMeshObject::edgeSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1ab2808bb9f682b7671b601fa9ba3348c4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::selEdgeSize_</definition>
+        <argsstring></argsstring>
+        <name>selEdgeSize_</name>
+        <qualifiedname>MR::RenderMeshObject::selEdgeSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1ab85b5749a8074358f89fff480448ee5d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::bordersSize_</definition>
+        <argsstring></argsstring>
+        <name>bordersSize_</name>
+        <qualifiedname>MR::RenderMeshObject::bordersSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="33" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1adbbb4589a356ef6e74b8ec06392ff7ca" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::pointSize_</definition>
+        <argsstring></argsstring>
+        <name>pointSize_</name>
+        <qualifiedname>MR::RenderMeshObject::pointSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="34" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a8db2965251810b5f46ee770ee8e8c895" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::pointValidSize_</definition>
+        <argsstring></argsstring>
+        <name>pointValidSize_</name>
+        <qualifiedname>MR::RenderMeshObject::pointValidSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="35" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1af258359eadbf7873075ce2773a51e7aa" prot="protected" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::RenderMeshObject::faceSelectionTextureSize_</definition>
+        <argsstring></argsstring>
+        <name>faceSelectionTextureSize_</name>
+        <qualifiedname>MR::RenderMeshObject::faceSelectionTextureSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="36" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1af277e985bb5c295945722ce8b6dbef7f" prot="protected" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::RenderMeshObject::faceNormalsTextureSize_</definition>
+        <argsstring></argsstring>
+        <name>faceNormalsTextureSize_</name>
+        <qualifiedname>MR::RenderMeshObject::faceNormalsTextureSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a6fb6b9a55fd521017c1eea063af7225a" prot="protected" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::RenderMeshObject::texturePerFaceSize_</definition>
+        <argsstring></argsstring>
+        <name>texturePerFaceSize_</name>
+        <qualifiedname>MR::RenderMeshObject::texturePerFaceSize_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="38" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a12b1a94d2b98548e47229d4213609b1f" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::RenderMeshObject::edgesArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>edgesArrayObjId_</name>
+        <qualifiedname>MR::RenderMeshObject::edgesArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="52" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a1a9f41cc9d68f81801374e9f18c6b195" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::RenderMeshObject::borderArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>borderArrayObjId_</name>
+        <qualifiedname>MR::RenderMeshObject::borderArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="53" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a4dd4c30b4f09367586d6f0b6e520e85c" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::borderBuffer_</definition>
+        <argsstring></argsstring>
+        <name>borderBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::borderBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="54" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1aaca1c8b6779387b3ba8617dec0b4c336" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::RenderMeshObject::selectedEdgesArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>selectedEdgesArrayObjId_</name>
+        <qualifiedname>MR::RenderMeshObject::selectedEdgesArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="56" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a7aba022c31f49b9f2bc3a2cc1adb5247" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::selectedEdgesBuffer_</definition>
+        <argsstring></argsstring>
+        <name>selectedEdgesBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::selectedEdgesBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="57" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a3c74e85a422c5f8e54c993f9fcf43116" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::RenderMeshObject::meshArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>meshArrayObjId_</name>
+        <qualifiedname>MR::RenderMeshObject::meshArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="59" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1aee44a84c6224d63a0c86043eac07a7fd" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::RenderMeshObject::meshPickerArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>meshPickerArrayObjId_</name>
+        <qualifiedname>MR::RenderMeshObject::meshPickerArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="60" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a8f3dc8d13b36124134b86d4e81519767" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::vertPosBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertPosBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::vertPosBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="62" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a08d8c036ef75bf130d97cbcc7992b943" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::vertUVBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertUVBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::vertUVBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="63" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a7392ba05df67ae19e9e6af50c94ebe33" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::vertNormalsBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertNormalsBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::vertNormalsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="64" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a7be65ffb643076059379c9333885a89c" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::vertColorsBuffer_</definition>
+        <argsstring></argsstring>
+        <name>vertColorsBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::vertColorsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="65" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a066918630b8d458a0fd7897e3230084e" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::facesIndicesBuffer_</definition>
+        <argsstring></argsstring>
+        <name>facesIndicesBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::facesIndicesBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="67" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a5c61b0a36314bb6fd4e2c60cfc2f8447" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::faceSelectionTex_</definition>
+        <argsstring></argsstring>
+        <name>faceSelectionTex_</name>
+        <qualifiedname>MR::RenderMeshObject::faceSelectionTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="69" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1af99f6b1103fb8791d9d8a2fbd0275213" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::faceColorsTex_</definition>
+        <argsstring></argsstring>
+        <name>faceColorsTex_</name>
+        <qualifiedname>MR::RenderMeshObject::faceColorsTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="70" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a5931d691ce4183252190a5357ead412a" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::facesNormalsTex_</definition>
+        <argsstring></argsstring>
+        <name>facesNormalsTex_</name>
+        <qualifiedname>MR::RenderMeshObject::facesNormalsTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="71" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a7ca63f2d3385ab5f38ca500ab1d468f7" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::texturePerFace_</definition>
+        <argsstring></argsstring>
+        <name>texturePerFace_</name>
+        <qualifiedname>MR::RenderMeshObject::texturePerFace_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="72" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a8cd847a579adbca9c44e43ea25fe0166" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2DArray" kindref="compound">GlTexture2DArray</ref></type>
+        <definition>GlTexture2DArray MR::RenderMeshObject::textureArray_</definition>
+        <argsstring></argsstring>
+        <name>textureArray_</name>
+        <qualifiedname>MR::RenderMeshObject::textureArray_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="74" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1adec18a7be82779db2756036737e2119e" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::edgesTexture_</definition>
+        <argsstring></argsstring>
+        <name>edgesTexture_</name>
+        <qualifiedname>MR::RenderMeshObject::edgesTexture_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="76" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a0c5f65d0f55c35a44e6f210b7e3d5144" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::selEdgesTexture_</definition>
+        <argsstring></argsstring>
+        <name>selEdgesTexture_</name>
+        <qualifiedname>MR::RenderMeshObject::selEdgesTexture_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="77" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1ac5dda63e700cfe2742a7b9b1683649e6" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::borderTexture_</definition>
+        <argsstring></argsstring>
+        <name>borderTexture_</name>
+        <qualifiedname>MR::RenderMeshObject::borderTexture_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="78" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a1823d62e4541feb96b41da5e82b73db4" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::emptyVertsColorTexture_</definition>
+        <argsstring></argsstring>
+        <name>emptyVertsColorTexture_</name>
+        <qualifiedname>MR::RenderMeshObject::emptyVertsColorTexture_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="79" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a363bdae2a388d10c4408213932092acc" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::emptyLinesColorTexture_</definition>
+        <argsstring></argsstring>
+        <name>emptyLinesColorTexture_</name>
+        <qualifiedname>MR::RenderMeshObject::emptyLinesColorTexture_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="80" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a138e52649aef511c1435cf3ab8d36518" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderMeshObject::emptyScnLengthColorTexture_</definition>
+        <argsstring></argsstring>
+        <name>emptyScnLengthColorTexture_</name>
+        <qualifiedname>MR::RenderMeshObject::emptyScnLengthColorTexture_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="81" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1aa84f76f4e99e7839a00f31fd4bae51d4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderMeshObject::maxTexSize_</definition>
+        <argsstring></argsstring>
+        <name>maxTexSize_</name>
+        <qualifiedname>MR::RenderMeshObject::maxTexSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="83" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1ae21f610e2d016727daa229121b9d6b19" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+        <definition>GLuint MR::RenderMeshObject::pointsArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>pointsArrayObjId_</name>
+        <qualifiedname>MR::RenderMeshObject::pointsArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="85" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1abd4120926a03ab2bfdef3f597e01914a" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
+        <definition>GlBuffer MR::RenderMeshObject::pointValidBuffer_</definition>
+        <argsstring></argsstring>
+        <name>pointValidBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::pointValidBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="86" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a26ce599435acc57f19832bae104fde43" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderMeshObject::dirtyPointPos_</definition>
+        <argsstring></argsstring>
+        <name>dirtyPointPos_</name>
+        <qualifiedname>MR::RenderMeshObject::dirtyPointPos_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="87" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a9497665a3752c1392372f7259db26d4a" prot="protected" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MR::RenderMeshObject::dirty_</definition>
+        <argsstring></argsstring>
+        <name>dirty_</name>
+        <qualifiedname>MR::RenderMeshObject::dirty_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para>Marks dirty buffers that need to be uploaded to OpenGL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="115" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1a59ecce80e0a471b2f17c0b6f9d9582e8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderMeshObject::dirtyEdges_</definition>
+        <argsstring></argsstring>
+        <name>dirtyEdges_</name>
+        <qualifiedname>MR::RenderMeshObject::dirtyEdges_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>... </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="117" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderMeshObject_1afd5c5688fbd6d8c41b11f9295ba8d5ca" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderMeshObject::cornerMode</definition>
+        <argsstring></argsstring>
+        <name>cornerMode</name>
+        <qualifiedname>MR::RenderMeshObject::cornerMode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="122" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a345d0ef9d78fd5002d69d90414279694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderMeshObject::RenderMeshObject</definition>
+        <argsstring>(const VisualObject &amp;visObj)</argsstring>
+        <name>RenderMeshObject</name>
+        <qualifiedname>MR::RenderMeshObject::RenderMeshObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>visObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="15" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a41d19fc14c825a18bc7c451d9cc383db" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API</type>
+        <definition>virtual MRVIEWER_API MR::RenderMeshObject::~RenderMeshObject</definition>
+        <argsstring>()</argsstring>
+        <name>~RenderMeshObject</name>
+        <qualifiedname>MR::RenderMeshObject::~RenderMeshObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="16" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1af98f29118f3e40b2fea47777cc8c1109" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::RenderMeshObject::render</definition>
+        <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
+        <name>render</name>
+        <qualifiedname>MR::RenderMeshObject::render</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4">render</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a879e1173ef7bfb15f7742f2bbf9191eb">render</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if something was rendered, or false if nothing to render. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
+<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="18" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a3add1fec03d84c184958d143c13ab6ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::renderPicker</definition>
+        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>MR::RenderMeshObject::renderPicker</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738">renderPicker</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a8a25f7b901d90a80b7e6de43f0c00d53">renderPicker</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="19" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a8e555c261681a7483119dde9a5b3df25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API size_t</type>
+        <definition>virtual MRVIEWER_API size_t MR::RenderMeshObject::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::RenderMeshObject::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="20" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a5853532e2914421ec96d85838152300a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API size_t</type>
+        <definition>virtual MRVIEWER_API size_t MR::RenderMeshObject::glBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>MR::RenderMeshObject::glBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe">glBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object allocated in OpenGL </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="21" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a04bbec7fedef3e485ba0763e6aea76f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::forceBindAll</definition>
+        <argsstring>() override</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>MR::RenderMeshObject::forceBindAll</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215">forceBindAll</reimplements>
+        <briefdescription>
+<para>binds all data for this render object, not to bind ever again (until object becomes dirty) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="22" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a09391b9b6f5e18abac3559ba0fa60dba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector3f &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; Vector3f &gt; MR::RenderMeshObject::loadVertPosBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertPosBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadVertPosBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="40" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a2b96a7f804774902c41e8f23526c8f64" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector3f &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; Vector3f &gt; MR::RenderMeshObject::loadVertNormalsBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertNormalsBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadVertNormalsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="41" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a7b5e256ed1542191675f8be677499aef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; Color &gt; MR::RenderMeshObject::loadVertColorsBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertColorsBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadVertColorsBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="42" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a09963fce25ed38f25ca706ab8d5cfb26" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; <ref refid="namespaceMR_1a6f8b9797e8968735a685a81d8a6064d6" kindref="member">UVCoord</ref> &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; UVCoord &gt; MR::RenderMeshObject::loadVertUVBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadVertUVBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadVertUVBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="43" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a1f273db5bf7f2439e36be583f8892f98" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector3i &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; Vector3i &gt; MR::RenderMeshObject::loadFaceIndicesBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadFaceIndicesBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadFaceIndicesBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="44" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a8ec8db305432a9bd896e3ab72cfcd302" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; unsigned &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; unsigned &gt; MR::RenderMeshObject::loadFaceSelectionTextureBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadFaceSelectionTextureBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadFaceSelectionTextureBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="45" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a0b296b577bfee513d40bc073e4609f55" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector4f &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; Vector4f &gt; MR::RenderMeshObject::loadFaceNormalsTextureBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadFaceNormalsTextureBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadFaceNormalsTextureBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="46" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a0cec65e255a2fa58862a5f0d41fca6db" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; uint8_t &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; uint8_t &gt; MR::RenderMeshObject::loadTexturePerFaceTextureBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadTexturePerFaceTextureBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadTexturePerFaceTextureBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="47" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a365f57737ec03550ffd6b0397dbfdefb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; VertId &gt;</type>
+        <definition>MRVIEWER_API RenderBufferRef&lt; VertId &gt; MR::RenderMeshObject::loadPointValidIndicesBuffer_</definition>
+        <argsstring>()</argsstring>
+        <name>loadPointValidIndicesBuffer_</name>
+        <qualifiedname>MR::RenderMeshObject::loadPointValidIndicesBuffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="48" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a8a500aad7718b3d88a1cfbde197e72b4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::renderEdges_</definition>
+        <argsstring>(const ModelRenderParams &amp;parameters, RenderModelPassMask desiredPass, GLuint vao, const Color &amp;color, uint32_t dirtyFlag)</argsstring>
+        <name>renderEdges_</name>
+        <qualifiedname>MR::RenderMeshObject::renderEdges_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>parameters</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref></type>
+          <declname>desiredPass</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+          <declname>vao</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>dirtyFlag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="89" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a8604315323eee3c61682a674cda5b237" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::renderMeshEdges_</definition>
+        <argsstring>(const ModelRenderParams &amp;parameters, RenderModelPassMask desiredPass)</argsstring>
+        <name>renderMeshEdges_</name>
+        <qualifiedname>MR::RenderMeshObject::renderMeshEdges_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>parameters</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref></type>
+          <declname>desiredPass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="91" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1ac13b88dd9b0bca9ca0557fd294bc6362" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::renderMeshVerts_</definition>
+        <argsstring>(const ModelRenderParams &amp;parameters, RenderModelPassMask desiredPass)</argsstring>
+        <name>renderMeshVerts_</name>
+        <qualifiedname>MR::RenderMeshObject::renderMeshVerts_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>parameters</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref></type>
+          <declname>desiredPass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="92" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a2b24e6cc844c3b662a6ee587341852d8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindMesh_</definition>
+        <argsstring>(GLStaticHolder::ShaderType shaderType)</argsstring>
+        <name>bindMesh_</name>
+        <qualifiedname>MR::RenderMeshObject::bindMesh_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">GLStaticHolder::ShaderType</ref></type>
+          <declname>shaderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="94" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a37739458881d20481b031b0260717196" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindMeshPicker_</definition>
+        <argsstring>()</argsstring>
+        <name>bindMeshPicker_</name>
+        <qualifiedname>MR::RenderMeshObject::bindMeshPicker_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="96" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1ac848abf6091b54053cbabc02f272b7f7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindEdges_</definition>
+        <argsstring>()</argsstring>
+        <name>bindEdges_</name>
+        <qualifiedname>MR::RenderMeshObject::bindEdges_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="98" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1ac596c74446d18169502743da84ebc997" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindBorders_</definition>
+        <argsstring>()</argsstring>
+        <name>bindBorders_</name>
+        <qualifiedname>MR::RenderMeshObject::bindBorders_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="99" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a1e66ff524e4e671f0111c13050f9b827" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindSelectedEdges_</definition>
+        <argsstring>()</argsstring>
+        <name>bindSelectedEdges_</name>
+        <qualifiedname>MR::RenderMeshObject::bindSelectedEdges_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="100" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a49a93e018f0e5053de983c1cb3d4132d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindEmptyTextures_</definition>
+        <argsstring>(GLuint shaderId)</argsstring>
+        <name>bindEmptyTextures_</name>
+        <qualifiedname>MR::RenderMeshObject::bindEmptyTextures_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" kindref="member">GLuint</ref></type>
+          <declname>shaderId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="101" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a81f6adb8743b8118b6ef287ebf336a13" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::bindPoints_</definition>
+        <argsstring>(GLStaticHolder::ShaderType shaderType)</argsstring>
+        <name>bindPoints_</name>
+        <qualifiedname>MR::RenderMeshObject::bindPoints_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">GLStaticHolder::ShaderType</ref></type>
+          <declname>shaderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="102" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a74b9993ac9ec597c75dcaa9867e97114" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::drawMesh_</definition>
+        <argsstring>(bool solid, ViewportId viewportId, bool picker=false) const</argsstring>
+        <name>drawMesh_</name>
+        <qualifiedname>MR::RenderMeshObject::drawMesh_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>solid</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>picker</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="104" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a25ce65cf24e73a9b094c4ea775ab9710" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::initBuffers_</definition>
+        <argsstring>()</argsstring>
+        <name>initBuffers_</name>
+        <qualifiedname>MR::RenderMeshObject::initBuffers_</qualifiedname>
+        <briefdescription>
+<para>Create a new set of OpenGL buffer objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="107" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a4e92f378f23062d1117a5f705c975fa4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::freeBuffers_</definition>
+        <argsstring>()</argsstring>
+        <name>freeBuffers_</name>
+        <qualifiedname>MR::RenderMeshObject::freeBuffers_</qualifiedname>
+        <briefdescription>
+<para>Release the OpenGL buffer objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="110" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1abe7b4ee6ee91312d898e283b022cf5e0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RenderMeshObject::update_</definition>
+        <argsstring>(ViewportMask mask)</argsstring>
+        <name>update_</name>
+        <qualifiedname>MR::RenderMeshObject::update_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="112" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="4">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; false &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::RenderPlaneNormalComponent</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderMeshObject</label>
+        <link refid="classMR_1_1RenderMeshObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>MR::GlBuffer</label>
+        <link refid="classMR_1_1GlBuffer"/>
+      </node>
+      <node id="24">
+        <label>MR::GlTexture</label>
+        <link refid="classMR_1_1GlTexture"/>
+      </node>
+      <node id="23">
+        <label>MR::GlTexture2</label>
+        <link refid="classMR_1_1GlTexture2"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::GlTexture2DArray</label>
+        <link refid="classMR_1_1GlTexture2DArray"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="20">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="19">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::ObjectMeshData</label>
+        <link refid="structMR_1_1ObjectMeshData"/>
+      </node>
+      <node id="3">
+        <label>MR::ObjectMeshHolder</label>
+        <link refid="classMR_1_1ObjectMeshHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>creasesChangedSignal</edgelabel>
+          <edgelabel>edgeSelectionChangedSignal</edgelabel>
+          <edgelabel>faceSelectionChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>meshChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>data_</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>textures_</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>ancillaryTexture_</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>worldBox_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>flatShading_</edgelabel>
+          <edgelabel>onlyOddFragments_</edgelabel>
+          <edgelabel>polygonOffset_</edgelabel>
+          <edgelabel>shadingEnabled_</edgelabel>
+          <edgelabel>showBordersHighlight_</edgelabel>
+          <edgelabel>showEdges_</edgelabel>
+          <edgelabel>showFaces_</edgelabel>
+          <edgelabel>showPoints_</edgelabel>
+          <edgelabel>showSelectedEdges_</edgelabel>
+          <edgelabel>showSelectedFaces_</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>bordersColor_</edgelabel>
+          <edgelabel>edgeSelectionColor_</edgelabel>
+          <edgelabel>edgesColor_</edgelabel>
+          <edgelabel>faceSelectionColor_</edgelabel>
+          <edgelabel>pointsColor_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderMeshObject</label>
+        <link refid="classMR_1_1RenderMeshObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>objMesh_</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>borderBuffer_</edgelabel>
+          <edgelabel>facesIndicesBuffer_</edgelabel>
+          <edgelabel>pointValidBuffer_</edgelabel>
+          <edgelabel>selectedEdgesBuffer_</edgelabel>
+          <edgelabel>vertColorsBuffer_</edgelabel>
+          <edgelabel>vertNormalsBuffer_</edgelabel>
+          <edgelabel>vertPosBuffer_</edgelabel>
+          <edgelabel>vertUVBuffer_</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>borderTexture_</edgelabel>
+          <edgelabel>edgesTexture_</edgelabel>
+          <edgelabel>emptyLinesColorTexture_</edgelabel>
+          <edgelabel>emptyScnLengthColorTexture_</edgelabel>
+          <edgelabel>emptyVertsColorTexture_</edgelabel>
+          <edgelabel>faceColorsTex_</edgelabel>
+          <edgelabel>faceSelectionTex_</edgelabel>
+          <edgelabel>facesNormalsTex_</edgelabel>
+          <edgelabel>selEdgesTexture_</edgelabel>
+          <edgelabel>texturePerFace_</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>textureArray_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::Signal&lt; void(uint32_t mask)&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::Vector&lt; MR::MeshTexture, TextureId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+      <node id="10">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="9">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="21">
+        <label>MR::ViewportProperty&lt; MR::XfBasedCache&lt; Box3f &gt; &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="14">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="4">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="16">
+        <label>boost::signals2::signal&lt; void(uint32_t mask) &gt;</label>
+      </node>
+      <node id="12">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="13" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderMeshObject_1ac596c74446d18169502743da84ebc997" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindBorders_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ac848abf6091b54053cbabc02f272b7f7" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindEdges_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a49a93e018f0e5053de983c1cb3d4132d" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindEmptyTextures_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a2b24e6cc844c3b662a6ee587341852d8" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindMesh_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a37739458881d20481b031b0260717196" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindMeshPicker_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a81f6adb8743b8118b6ef287ebf336a13" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindPoints_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a1e66ff524e4e671f0111c13050f9b827" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindSelectedEdges_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a1a9f41cc9d68f81801374e9f18c6b195" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>borderArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a4dd4c30b4f09367586d6f0b6e520e85c" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>borderBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ab85b5749a8074358f89fff480448ee5d" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>bordersSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ac5dda63e700cfe2742a7b9b1683649e6" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>borderTexture_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1afd5c5688fbd6d8c41b11f9295ba8d5ca" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>cornerMode</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a9497665a3752c1392372f7259db26d4a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>dirty_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a59ecce80e0a471b2f17c0b6f9d9582e8" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>dirtyEdges_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a26ce599435acc57f19832bae104fde43" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>dirtyPointPos_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a74b9993ac9ec597c75dcaa9867e97114" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>drawMesh_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a12b1a94d2b98548e47229d4213609b1f" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>edgesArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a888fbd0e8bad27a4ff46ec6c1e1680e5" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>edgeSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1adec18a7be82779db2756036737e2119e" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>edgesTexture_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a363bdae2a388d10c4408213932092acc" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>emptyLinesColorTexture_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a138e52649aef511c1435cf3ab8d36518" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>emptyScnLengthColorTexture_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a1823d62e4541feb96b41da5e82b73db4" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>emptyVertsColorTexture_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1af99f6b1103fb8791d9d8a2fbd0275213" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceColorsTex_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a7c197e5a47c0adda4d0e19fe67bc8ad6" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceIndicesSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1af277e985bb5c295945722ce8b6dbef7f" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceNormalsTextureSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a5c61b0a36314bb6fd4e2c60cfc2f8447" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceSelectionTex_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1af258359eadbf7873075ce2773a51e7aa" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceSelectionTextureSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a066918630b8d458a0fd7897e3230084e" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>facesIndicesBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a5931d691ce4183252190a5357ead412a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>facesNormalsTex_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a04bbec7fedef3e485ba0763e6aea76f2" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a4e92f378f23062d1117a5f705c975fa4" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>freeBuffers_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a5853532e2914421ec96d85838152300a" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>GLuint</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8e555c261681a7483119dde9a5b3df25" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a25ce65cf24e73a9b094c4ea775ab9710" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>initBuffers_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a1f273db5bf7f2439e36be583f8892f98" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a0b296b577bfee513d40bc073e4609f55" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadFaceNormalsTextureBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8ec8db305432a9bd896e3ab72cfcd302" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadFaceSelectionTextureBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a365f57737ec03550ffd6b0397dbfdefb" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadPointValidIndicesBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a0cec65e255a2fa58862a5f0d41fca6db" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadTexturePerFaceTextureBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a7b5e256ed1542191675f8be677499aef" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertColorsBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a2b96a7f804774902c41e8f23526c8f64" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertNormalsBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a09391b9b6f5e18abac3559ba0fa60dba" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertPosBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a09963fce25ed38f25ca706ab8d5cfb26" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertUVBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1aa84f76f4e99e7839a00f31fd4bae51d4" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>maxTexSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a3c74e85a422c5f8e54c993f9fcf43116" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>meshArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1aee44a84c6224d63a0c86043eac07a7fd" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>meshPickerArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a3bbf015a92d7acdcb4f134a3af214b75" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>objMesh_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ae21f610e2d016727daa229121b9d6b19" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointsArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1adbbb4589a356ef6e74b8ec06392ff7ca" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1abd4120926a03ab2bfdef3f597e01914a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointValidBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8db2965251810b5f46ee770ee8e8c895" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointValidSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1af98f29118f3e40b2fea47777cc8c1109" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8a500aad7718b3d88a1cfbde197e72b4" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderEdges_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8604315323eee3c61682a674cda5b237" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderMeshEdges_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a345d0ef9d78fd5002d69d90414279694" prot="public" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>RenderMeshObject</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ac13b88dd9b0bca9ca0557fd294bc6362" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderMeshVerts_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a3add1fec03d84c184958d143c13ab6ba" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1aaca1c8b6779387b3ba8617dec0b4c336" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selectedEdgesArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a7aba022c31f49b9f2bc3a2cc1adb5247" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selectedEdgesBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ab2808bb9f682b7671b601fa9ba3348c4" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selEdgeSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a0c5f65d0f55c35a44e6f210b7e3d5144" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selEdgesTexture_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8cd847a579adbca9c44e43ea25fe0166" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>textureArray_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a7ca63f2d3385ab5f38ca500ab1d468f7" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>texturePerFace_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a6fb6b9a55fd521017c1eea063af7225a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>texturePerFaceSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1abe7b4ee6ee91312d898e283b022cf5e0" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>update_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a7be65ffb643076059379c9333885a89c" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertColorsBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a885637207dfa4ad9a32e22b1de0fc18a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertColorsSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a7392ba05df67ae19e9e6af50c94ebe33" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertNormalsBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8e4c0f111508fd26331871247ad7e055" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertNormalsSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a8f3dc8d13b36124134b86d4e81519767" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertPosBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1ad8c179bd9f2914459146986ba590f4c2" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertPosSize_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a08d8c036ef75bf130d97cbcc7992b943" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertUVBuffer_</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a36832676f48c87a67ff5782e57a7bd66" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertUVSize_</name></member>
+      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>~IRenderObject</name></member>
+      <member refid="classMR_1_1RenderMeshObject_1a41d19fc14c825a18bc7c451d9cc383db" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>~RenderMeshObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

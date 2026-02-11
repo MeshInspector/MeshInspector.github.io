@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneRootObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneRootObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1Object" prot="public" virt="non-virtual">mrmeshpy.Object</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1aa3b0993721cb0fa7d587593c94c467d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.RootName</definition>
+        <argsstring>()</argsstring>
+        <name>RootName</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.RootName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51143" bodyend="51144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a4f9060ba9b0c5cb94bb44b2683215545" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1aa76473a6f0c13bfc1014d96e47dfdae5">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51146" bodyend="51147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a180708645f4be2abff908badc8dbf6f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1af8199b682da32e4d8c5cfdbe423a1dd4">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51149" bodyend="51150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1ad0b88afc37c157585156789bc3e79b9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a59d494c503f96c13dc2ec927bc34ca1e">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51152" bodyend="51153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a29f18a4178d8908b92e79d074c204fd5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneRootObject.select</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>select</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.select</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada">select</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>selects the object, returns true if value changed, otherwise returns false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51155" bodyend="51156"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a88d4d67fa1559e5a62dff87ac8b801b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneRootObject.setAncillary</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.setAncillary</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069">setAncillary</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ancillary object is an object hidden (in scene menu) from a regular user
+such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51158" bodyend="51159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1aa33c99d47427db725d724c96475f4f72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneRootObject.setName</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setName</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.setName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef">setName</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51161" bodyend="51162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a2dd7053e85fc9d4ba144712a5a79c532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneRootObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a78e6900dc386c6dcc7d484090c140c74">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51163" bodyend="51164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a50416b9873674254c304fbf50524e7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a56da686c9c9740bc6bd8b96490bec744">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51165" bodyend="51166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a60b09d1c936f0f0d1f51416aba331b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1af7aa1dd011a7ad1260f8e39eadc81b79">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51167" bodyend="51168"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a15ca2cad6fdfde06e2c701f9ef40d0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.SceneRootObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a3cede34187cf92e2953b8c04cc66db22">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones current object only, without parent and/or children
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51169" bodyend="51170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a776b02e225f7200264afd891034828f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+        <definition> SceneRootObject mrmeshpy.SceneRootObject.cloneRoot</definition>
+        <argsstring>(self)</argsstring>
+        <name>cloneRoot</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.cloneRoot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as clone but returns correct type
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51171" bodyend="51174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRootObject_1a2039fa810ccd04200d0c092e8d60893f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneRootObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.SceneRootObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1afa703704e5f68c3a465825a46cf4a5bf">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51175" bodyend="51176"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SceneRootObject
+
+Object that is parent of all scene
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SceneRootObject</label>
+        <link refid="classmrmeshpy_1_1SceneRootObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SceneRootObject</label>
+        <link refid="classmrmeshpy_1_1SceneRootObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51136" bodyend="51176"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a2dd7053e85fc9d4ba144712a5a79c532" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a50416b9873674254c304fbf50524e7e6" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a60b09d1c936f0f0d1f51416aba331b0d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a15ca2cad6fdfde06e2c701f9ef40d0af" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a776b02e225f7200264afd891034828f4" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>cloneRoot</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1aa3b0993721cb0fa7d587593c94c467d8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>RootName</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a29f18a4178d8908b92e79d074c204fd5" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a88d4d67fa1559e5a62dff87ac8b801b5" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1aa33c99d47427db725d724c96475f4f72" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a4f9060ba9b0c5cb94bb44b2683215545" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a180708645f4be2abff908badc8dbf6f8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1ad0b88afc37c157585156789bc3e79b9f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1SceneRootObject_1a2039fa810ccd04200d0c092e8d60893f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRootObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

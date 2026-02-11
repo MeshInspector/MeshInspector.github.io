@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SelfIntersections_1_1Settings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SelfIntersections::Settings</compoundname>
+    <includes refid="MRFixSelfIntersections_8h" local="no">MRFixSelfIntersections.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1SelfIntersections_1_1Settings_1a89959b4882d33598d9220db080145bc5" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Method</name>
+        <qualifiedname>MR::SelfIntersections::Settings::Method</qualifiedname>
+        <enumvalue id="structMR_1_1SelfIntersections_1_1Settings_1a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" prot="public">
+          <name>Relax</name>
+          <briefdescription>
+<para>Relax mesh around self-intersections. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1SelfIntersections_1_1Settings_1a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7" prot="public">
+          <name>CutAndFill</name>
+          <briefdescription>
+<para>Cut and re-fill regions around self-intersections (may fall back to <computeroutput>Relax</computeroutput>) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Fix method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="19" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SelfIntersections_1_1Settings_1ae5606c4ebbd1f6f3acf27a76862219b0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SelfIntersections::Settings::touchIsIntersection</definition>
+        <argsstring></argsstring>
+        <name>touchIsIntersection</name>
+        <qualifiedname>MR::SelfIntersections::Settings::touchIsIntersection</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>If true then count touching faces as self-intersections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="16" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SelfIntersections_1_1Settings_1aface1dd6cc60f50dd76186b73d130994" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1SelfIntersections_1_1Settings_1a89959b4882d33598d9220db080145bc5" kindref="member">Method</ref></type>
+        <definition>Method MR::SelfIntersections::Settings::method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <qualifiedname>MR::SelfIntersections::Settings::method</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1SelfIntersections_1_1Settings_1a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" kindref="member">Method::Relax</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="25" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SelfIntersections_1_1Settings_1aca7a5619c15bc97f529b69737ac12bb6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SelfIntersections::Settings::relaxIterations</definition>
+        <argsstring></argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>MR::SelfIntersections::Settings::relaxIterations</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>Maximum relax iterations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SelfIntersections_1_1Settings_1a7798ca5ce166d10f94b4f994252918f8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SelfIntersections::Settings::maxExpand</definition>
+        <argsstring></argsstring>
+        <name>maxExpand</name>
+        <qualifiedname>MR::SelfIntersections::Settings::maxExpand</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="29" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SelfIntersections_1_1Settings_1a27581dba0d20048070937e95346b4224" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SelfIntersections::Settings::subdivideEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>subdivideEdgeLen</name>
+        <qualifiedname>MR::SelfIntersections::Settings::subdivideEdgeLen</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="32" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SelfIntersections_1_1Settings_1ad3d19d62f4659d2ff0a0415ffecba3c4" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::SelfIntersections::Settings::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR::SelfIntersections::Settings::callback</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>Callback function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="34" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Setting set for mesh self-intersections fix. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="14" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1ad3d19d62f4659d2ff0a0415ffecba3c4" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>callback</name></member>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1a7798ca5ce166d10f94b4f994252918f8" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>maxExpand</name></member>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1a89959b4882d33598d9220db080145bc5" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Method</name></member>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1aface1dd6cc60f50dd76186b73d130994" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>method</name></member>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1aca7a5619c15bc97f529b69737ac12bb6" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>relaxIterations</name></member>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1a27581dba0d20048070937e95346b4224" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>subdivideEdgeLen</name></member>
+      <member refid="structMR_1_1SelfIntersections_1_1Settings_1ae5606c4ebbd1f6f3acf27a76862219b0" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>touchIsIntersection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,964 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Pdf" kind="class" language="C++" prot="public">
+    <compoundname>MR::Pdf</compoundname>
+    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <innerclass refid="structMR_1_1Pdf_1_1Cell" prot="public">MR::Pdf::Cell</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1CellCustomParams" prot="public">MR::Pdf::CellCustomParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1ColumnInfo" prot="private">MR::Pdf::ColumnInfo</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1ImageParams" prot="public">MR::Pdf::ImageParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1PaletteRowStats" prot="public">MR::Pdf::PaletteRowStats</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1TableGeneralParams" prot="private">MR::Pdf::TableGeneralParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1TextCellParams" prot="public">MR::Pdf::TextCellParams</innerclass>
+    <innerclass refid="structMR_1_1Pdf_1_1TextParams" prot="public">MR::Pdf::TextParams</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AlignmentHorizontal</name>
+        <qualifiedname>MR::Pdf::AlignmentHorizontal</qualifiedname>
+        <enumvalue id="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" prot="public">
+          <name>Left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a4f1f6016fc9f3f2353c0cc7c67b292bd" prot="public">
+          <name>Center</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a92b09c7c48c520c3c55e497875da437c" prot="public">
+          <name>Right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="77" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" prot="public" static="no">
+        <type>std::function&lt; <ref refid="structMR_1_1Pdf_1_1CellCustomParams" kindref="compound">CellCustomParams</ref>(int row, int column, const std::string &amp;cellValueText)&gt;</type>
+        <definition>using MR::Pdf::TableCustomRule =  std::function&lt;CellCustomParams( int row, int column, const std::string&amp; cellValueText)&gt;</definition>
+        <argsstring></argsstring>
+        <name>TableCustomRule</name>
+        <qualifiedname>MR::Pdf::TableCustomRule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="214" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Pdf_1af29688048070498ce5dba46eae9b3533" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; State &gt;</type>
+        <definition>std::unique_ptr&lt;State&gt; MR::Pdf::state_</definition>
+        <argsstring></argsstring>
+        <name>state_</name>
+        <qualifiedname>MR::Pdf::state_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="249" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1a360b4022b52b899404ec80d306de31b5" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref></type>
+        <definition>PdfParameters MR::Pdf::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::Pdf::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="251" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1a96f5bdfefc90dd146f3a62b3b0b2b959" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(<ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref> &amp;)&gt;</type>
+        <definition>std::function&lt;void( Pdf&amp; )&gt; MR::Pdf::newPageAction_</definition>
+        <argsstring></argsstring>
+        <name>newPageAction_</name>
+        <qualifiedname>MR::Pdf::newPageAction_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="253" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1ad803fd5cf1c66985e58753ba3e7afd7d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::Pdf::cursorX_</definition>
+        <argsstring></argsstring>
+        <name>cursorX_</name>
+        <qualifiedname>MR::Pdf::cursorX_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="255" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1a4d3a805bd0724363077dac0aff11dfb4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::Pdf::cursorY_</definition>
+        <argsstring></argsstring>
+        <name>cursorY_</name>
+        <qualifiedname>MR::Pdf::cursorY_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="256" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1a819cae2eb9b4524146c934a75c1c5046" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Pdf::rowCounter_</definition>
+        <argsstring></argsstring>
+        <name>rowCounter_</name>
+        <qualifiedname>MR::Pdf::rowCounter_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>table parts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="263" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1acdab02eee4b0ac24132a835490f64033" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; ColumnInfo &gt;</type>
+        <definition>std::vector&lt;ColumnInfo&gt; MR::Pdf::columnsInfo_</definition>
+        <argsstring></argsstring>
+        <name>columnsInfo_</name>
+        <qualifiedname>MR::Pdf::columnsInfo_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="269" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1aaa0bf49b2fe8b53a2fa9c3fccdca1aea" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" kindref="member">TableCustomRule</ref></type>
+        <definition>TableCustomRule MR::Pdf::tableCustomRule_</definition>
+        <argsstring></argsstring>
+        <name>tableCustomRule_</name>
+        <qualifiedname>MR::Pdf::tableCustomRule_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="270" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Pdf_1ae024d2a255ca7e6b10a982238597494f" prot="private" static="no" mutable="no">
+        <type>struct MR::Pdf::TableGeneralParams</type>
+        <definition>struct MR::Pdf::TableGeneralParams MR::Pdf::tableParams_</definition>
+        <argsstring></argsstring>
+        <name>tableParams_</name>
+        <qualifiedname>MR::Pdf::tableParams_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="283" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Pdf_1a9f0c7ef105e92a128194a9adfc92d221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API</type>
+        <definition>MRIOEXTRAS_API MR::Pdf::Pdf</definition>
+        <argsstring>(const PdfParameters &amp;params=PdfParameters())</argsstring>
+        <name>Pdf</name>
+        <qualifiedname>MR::Pdf::Pdf</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref> &amp;</type>
+          <declname>params</declname>
+          <defval><ref refid="structMR_1_1PdfParameters" kindref="compound">PdfParameters</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a6b4f163cd54edddf7ed416f248944a41" kindref="member">newPage()</ref> method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="71" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1aee0d3ee8980ff7e8cfd1d6e28aee30a0" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>MRIOEXTRAS_API</type>
+        <definition>MRIOEXTRAS_API MR::Pdf::Pdf</definition>
+        <argsstring>(Pdf &amp;&amp;other) noexcept</argsstring>
+        <name>Pdf</name>
+        <qualifiedname>MR::Pdf::Pdf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="72" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a1daea35a2c1a89104e601e2698703aa3" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref> &amp;</type>
+        <definition>MRIOEXTRAS_API Pdf &amp; MR::Pdf::operator=</definition>
+        <argsstring>(Pdf other) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::Pdf::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="73" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ae6fd1a7d1d29456ea75c56e4266869b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API</type>
+        <definition>MRIOEXTRAS_API MR::Pdf::~Pdf</definition>
+        <argsstring>()</argsstring>
+        <name>~Pdf</name>
+        <qualifiedname>MR::Pdf::~Pdf</qualifiedname>
+        <briefdescription>
+<para>Dtor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Sic, passing by value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="75" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a291a56e9861b5beebfbdc37e96ed0a18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::addText</definition>
+        <argsstring>(const std::string &amp;text, bool isTitle=false)</argsstring>
+        <name>addText</name>
+        <qualifiedname>MR::Pdf::addText</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isTitle</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add text block in current cursor position. Move cursor. <ref refid="structMR_1_1Box" kindref="compound">Box</ref> horizontal size is page width without offset. <ref refid="structMR_1_1Box" kindref="compound">Box</ref> vertical size is automatically for text. horAlignment = left if isTitle - horAlignment = center, use titleFontSize </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="103" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a228772361fdf3d86347b01387e931dcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::addText</definition>
+        <argsstring>(const std::string &amp;text, const TextParams &amp;params)</argsstring>
+        <name>addText</name>
+        <qualifiedname>MR::Pdf::addText</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="104" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a5a380fcfda1b84fd2e540a00bfd65b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API float</type>
+        <definition>MRIOEXTRAS_API float MR::Pdf::getTextWidth</definition>
+        <argsstring>(const std::string &amp;text, const TextParams &amp;params)</argsstring>
+        <name>getTextWidth</name>
+        <qualifiedname>MR::Pdf::getTextWidth</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>return text width </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="106" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1abeba0e412b8eb52c6291c259c2433368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::addTable</definition>
+        <argsstring>(const std::vector&lt; std::pair&lt; std::string, float &gt; &gt; &amp;table)</argsstring>
+        <name>addTable</name>
+        <qualifiedname>MR::Pdf::addTable</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; std::string, float &gt; &gt; &amp;</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add set of pair string - value in current cursor position. Move cursor. <ref refid="structMR_1_1Box" kindref="compound">Box</ref> horizontal size is page width without offset. <ref refid="structMR_1_1Box" kindref="compound">Box</ref> vertical size is automatically for text. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="114" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a77343f24e2ba4af1f5eb5d348ffd9f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::addPaletteStatsTable</definition>
+        <argsstring>(const std::vector&lt; PaletteRowStats &gt; &amp;paletteStats)</argsstring>
+        <name>addPaletteStatsTable</name>
+        <qualifiedname>MR::Pdf::addPaletteStatsTable</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Pdf_1_1PaletteRowStats" kindref="compound">PaletteRowStats</ref> &gt; &amp;</type>
+          <declname>paletteStats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="123" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a4039adc925552c73016c055ff4af499a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::addImageFromFile</definition>
+        <argsstring>(const std::filesystem::path &amp;imagePath, const ImageParams &amp;params)</argsstring>
+        <name>addImageFromFile</name>
+        <qualifiedname>MR::Pdf::addImageFromFile</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>imagePath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="155" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ab5a8f63787fc46e9ce3d55e4589b934a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::addImage</definition>
+        <argsstring>(const Image &amp;image, const ImageParams &amp;params)</argsstring>
+        <name>addImage</name>
+        <qualifiedname>MR::Pdf::addImage</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="156" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a6b4f163cd54edddf7ed416f248944a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::newPage</definition>
+        <argsstring>()</argsstring>
+        <name>newPage</name>
+        <qualifiedname>MR::Pdf::newPage</qualifiedname>
+        <briefdescription>
+<para>Add new pageand move cursor on it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="159" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ae8f3b5dc8632f9d2f88485100f9295aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::setNewPageAction</definition>
+        <argsstring>(std::function&lt; void(Pdf &amp;)&gt; action)</argsstring>
+        <name>setNewPageAction</name>
+        <qualifiedname>MR::Pdf::setNewPageAction</qualifiedname>
+        <param>
+          <type>std::function&lt; void(<ref refid="classMR_1_1Pdf" kindref="compound">Pdf</ref> &amp;)&gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>set function to customize new page after creation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="161" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1abc9ed95ae6e1716fd51587b19efa6e06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::saveToFile</definition>
+        <argsstring>(const std::filesystem::path &amp;documentPath)</argsstring>
+        <name>saveToFile</name>
+        <qualifiedname>MR::Pdf::saveToFile</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>documentPath</declname>
+        </param>
+        <briefdescription>
+<para>Save document to file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="164" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a2d50ce4fd99aacbb45dbd1c55bcaef48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::setCursorPosX</definition>
+        <argsstring>(float posX)</argsstring>
+        <name>setCursorPosX</name>
+        <qualifiedname>MR::Pdf::setCursorPosX</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="166" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1abf4d77cea93bab673b2b6cf427789622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::setCursorPosY</definition>
+        <argsstring>(float posY)</argsstring>
+        <name>setCursorPosY</name>
+        <qualifiedname>MR::Pdf::setCursorPosY</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="167" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a2838fe45692b53926281ae909994b4b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Pdf::getCursorPosX</definition>
+        <argsstring>() const</argsstring>
+        <name>getCursorPosX</name>
+        <qualifiedname>MR::Pdf::getCursorPosX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="168" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a1cd00e797b07d3531ab22317e4a70e89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Pdf::getCursorPosY</definition>
+        <argsstring>() const</argsstring>
+        <name>getCursorPosY</name>
+        <qualifiedname>MR::Pdf::getCursorPosY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="169" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ad7472fd24c463fd3ed5142556cabfcda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API Vector2f</type>
+        <definition>MRIOEXTRAS_API Vector2f MR::Pdf::getPageSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getPageSize</name>
+        <qualifiedname>MR::Pdf::getPageSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="171" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a7d54d322194dad2bad57577d5cba8ccf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API Box2f</type>
+        <definition>MRIOEXTRAS_API Box2f MR::Pdf::getPageWorkArea</definition>
+        <argsstring>() const</argsstring>
+        <name>getPageWorkArea</name>
+        <qualifiedname>MR::Pdf::getPageWorkArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="172" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a1dd5556a4f0d253153c5fe0bd80ceab3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API</type>
+        <definition>MRIOEXTRAS_API MR::Pdf::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::Pdf::operator bool</qualifiedname>
+        <briefdescription>
+<para>Checking the ability to work with a document. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="175" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a261bf8bbc1276a8db04b94833e6d4f72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::newTable</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newTable</name>
+        <qualifiedname>MR::Pdf::newTable</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+<para>set up new table (clear table customization, reset parameters to default values) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="195" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ac86cc8971f93f1f4b2aef2eace885b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::Pdf::setTableColumnWidths</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;widths)</argsstring>
+        <name>setTableColumnWidths</name>
+        <qualifiedname>MR::Pdf::setTableColumnWidths</qualifiedname>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>widths</declname>
+        </param>
+        <briefdescription>
+<para>set table column widths </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="197" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1afaf69d5e8800ddef0ab9968082cc1da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::Pdf::addTableTitles</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;titles)</argsstring>
+        <name>addTableTitles</name>
+        <qualifiedname>MR::Pdf::addTableTitles</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>titles</declname>
+        </param>
+        <briefdescription>
+<para>add in pdf table row with titles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="199" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a46f8ba492e1e579c5577c40304761698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::Pdf::setColumnValuesFormat</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;formats)</argsstring>
+        <name>setColumnValuesFormat</name>
+        <qualifiedname>MR::Pdf::setColumnValuesFormat</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>formats</declname>
+        </param>
+        <briefdescription>
+<para>set format for conversion values to string for each column </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="201" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ab32723b16f57913d8b0edd654da12d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::Pdf::addRow</definition>
+        <argsstring>(const std::vector&lt; Cell &gt; &amp;cells)</argsstring>
+        <name>addRow</name>
+        <qualifiedname>MR::Pdf::addRow</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structMR_1_1Pdf_1_1Cell" kindref="compound">Cell</ref> &gt; &amp;</type>
+          <declname>cells</declname>
+        </param>
+        <briefdescription>
+<para>add in pdf table row with values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="203" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ad1c742e73c20c57c86e24c5cb37a9b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API float</type>
+        <definition>MRIOEXTRAS_API float MR::Pdf::getTableTextWidth</definition>
+        <argsstring>(const std::string &amp;text)</argsstring>
+        <name>getTableTextWidth</name>
+        <qualifiedname>MR::Pdf::getTableTextWidth</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parameters to customization table cell return text width (for table font parameters) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="206" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a390764a2cd1ac5662384be6f8151a476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::setTableCustomRule</definition>
+        <argsstring>(TableCustomRule rule)</argsstring>
+        <name>setTableCustomRule</name>
+        <qualifiedname>MR::Pdf::setTableCustomRule</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" kindref="member">TableCustomRule</ref></type>
+          <declname>rule</declname>
+        </param>
+        <briefdescription>
+<para>add rule to customize table cells </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="216" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="216" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ac3a17552d9efaf37834828527b2678c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::drawTextInRect</definition>
+        <argsstring>(const std::string &amp;text, const Box2f &amp;rect, const TextParams &amp;params)</argsstring>
+        <name>drawTextInRect</name>
+        <qualifiedname>MR::Pdf::drawTextInRect</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const Box2f &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>basic drawing methods without automatic cursor position control </para>
+        </briefdescription>
+        <detaileddescription>
+<para>draw text in specific rect on page text will be cropped by rect </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="222" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a01b1c81c898e6c8e22e8019345522303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::drawTextCell</definition>
+        <argsstring>(const std::string &amp;text, const TextCellParams &amp;params)</argsstring>
+        <name>drawTextCell</name>
+        <qualifiedname>MR::Pdf::drawTextCell</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1TextCellParams" kindref="compound">TextCellParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="232" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a27b3eabecb8bc7d25ee5f41a46a20b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API void</type>
+        <definition>MRIOEXTRAS_API void MR::Pdf::drawRect</definition>
+        <argsstring>(const Box2f &amp;rect, const Color &amp;fillColor, const Color &amp;strokeColor)</argsstring>
+        <name>drawRect</name>
+        <qualifiedname>MR::Pdf::drawRect</qualifiedname>
+        <param>
+          <type>const Box2f &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>fillColor</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>strokeColor</declname>
+        </param>
+        <briefdescription>
+<para>draw rect (filled with border) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="235" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Pdf_1ac888bbca1f9b94fbdf5450e269d857e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::reset_</definition>
+        <argsstring>()</argsstring>
+        <name>reset_</name>
+        <qualifiedname>MR::Pdf::reset_</qualifiedname>
+        <briefdescription>
+<para>close pdf document without saving. After this impossible add anything in document. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="239" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1addcce0be2d50261a49738521a62f021e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt; float &gt; MR::Pdf::calcTextLineWidths_</definition>
+        <argsstring>(const std::string &amp;text, float width, const TextParams &amp;params)</argsstring>
+        <name>calcTextLineWidths_</name>
+        <qualifiedname>MR::Pdf::calcTextLineWidths_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1TextParams" kindref="compound">TextParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>calculate the width of the lines, taking into account automatic hyphenation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="242" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1aa3b34fa71138ec809b069e67b98ea8fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::addImage_</definition>
+        <argsstring>(const HPDF_Image_Wraper &amp;image, const ImageParams &amp;params)</argsstring>
+        <name>addImage_</name>
+        <qualifiedname>MR::Pdf::addImage_</qualifiedname>
+        <param>
+          <type>const HPDF_Image_Wraper &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Pdf_1_1ImageParams" kindref="compound">ImageParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>base method to add hpdf image in current cursor position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="246" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1aec33bcd1877592e37a51611fc85c6cc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Pdf::checkDocument_</definition>
+        <argsstring>(const std::string &amp;logAction)</argsstring>
+        <name>checkDocument_</name>
+        <qualifiedname>MR::Pdf::checkDocument_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>logAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="258" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a437acac7583adc59f75670b40c32cf96" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::moveCursorToNewLine_</definition>
+        <argsstring>()</argsstring>
+        <name>moveCursorToNewLine_</name>
+        <qualifiedname>MR::Pdf::moveCursorToNewLine_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="259" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a56c9e3bd61f367c3efe2fecbbe7c3303" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Pdf::checkAndCreateNewPageIfNeed_</definition>
+        <argsstring>(float height)</argsstring>
+        <name>checkAndCreateNewPageIfNeed_</name>
+        <qualifiedname>MR::Pdf::checkAndCreateNewPageIfNeed_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="260" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for simple creation pdf. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="67" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="68" bodyend="284"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Pdf_1ab5a8f63787fc46e9ce3d55e4589b934a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage</name></member>
+      <member refid="classMR_1_1Pdf_1aa3b34fa71138ec809b069e67b98ea8fc" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage_</name></member>
+      <member refid="classMR_1_1Pdf_1a4039adc925552c73016c055ff4af499a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImageFromFile</name></member>
+      <member refid="classMR_1_1Pdf_1a77343f24e2ba4af1f5eb5d348ffd9f89" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addPaletteStatsTable</name></member>
+      <member refid="classMR_1_1Pdf_1ab32723b16f57913d8b0edd654da12d4a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addRow</name></member>
+      <member refid="classMR_1_1Pdf_1abeba0e412b8eb52c6291c259c2433368" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTable</name></member>
+      <member refid="classMR_1_1Pdf_1afaf69d5e8800ddef0ab9968082cc1da8" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTableTitles</name></member>
+      <member refid="classMR_1_1Pdf_1a291a56e9861b5beebfbdc37e96ed0a18" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="classMR_1_1Pdf_1a228772361fdf3d86347b01387e931dcd" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>AlignmentHorizontal</name></member>
+      <member refid="classMR_1_1Pdf_1addcce0be2d50261a49738521a62f021e" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>calcTextLineWidths_</name></member>
+      <member refid="classMR_1_1Pdf_1a56c9e3bd61f367c3efe2fecbbe7c3303" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>checkAndCreateNewPageIfNeed_</name></member>
+      <member refid="classMR_1_1Pdf_1aec33bcd1877592e37a51611fc85c6cc4" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>checkDocument_</name></member>
+      <member refid="classMR_1_1Pdf_1acdab02eee4b0ac24132a835490f64033" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>columnsInfo_</name></member>
+      <member refid="classMR_1_1Pdf_1ad803fd5cf1c66985e58753ba3e7afd7d" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>cursorX_</name></member>
+      <member refid="classMR_1_1Pdf_1a4d3a805bd0724363077dac0aff11dfb4" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>cursorY_</name></member>
+      <member refid="classMR_1_1Pdf_1a27b3eabecb8bc7d25ee5f41a46a20b81" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawRect</name></member>
+      <member refid="classMR_1_1Pdf_1a01b1c81c898e6c8e22e8019345522303" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextCell</name></member>
+      <member refid="classMR_1_1Pdf_1ac3a17552d9efaf37834828527b2678c9" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextInRect</name></member>
+      <member refid="classMR_1_1Pdf_1a2838fe45692b53926281ae909994b4b1" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getCursorPosX</name></member>
+      <member refid="classMR_1_1Pdf_1a1cd00e797b07d3531ab22317e4a70e89" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getCursorPosY</name></member>
+      <member refid="classMR_1_1Pdf_1ad7472fd24c463fd3ed5142556cabfcda" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageSize</name></member>
+      <member refid="classMR_1_1Pdf_1a7d54d322194dad2bad57577d5cba8ccf" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageWorkArea</name></member>
+      <member refid="classMR_1_1Pdf_1ad1c742e73c20c57c86e24c5cb37a9b6e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTableTextWidth</name></member>
+      <member refid="classMR_1_1Pdf_1a5a380fcfda1b84fd2e540a00bfd65b9e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTextWidth</name></member>
+      <member refid="classMR_1_1Pdf_1a437acac7583adc59f75670b40c32cf96" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>moveCursorToNewLine_</name></member>
+      <member refid="classMR_1_1Pdf_1a6b4f163cd54edddf7ed416f248944a41" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newPage</name></member>
+      <member refid="classMR_1_1Pdf_1a96f5bdfefc90dd146f3a62b3b0b2b959" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>newPageAction_</name></member>
+      <member refid="classMR_1_1Pdf_1a261bf8bbc1276a8db04b94833e6d4f72" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newTable</name></member>
+      <member refid="classMR_1_1Pdf_1a1dd5556a4f0d253153c5fe0bd80ceab3" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Pdf_1a1daea35a2c1a89104e601e2698703aa3" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Pdf_1a360b4022b52b899404ec80d306de31b5" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>params_</name></member>
+      <member refid="classMR_1_1Pdf_1a9f0c7ef105e92a128194a9adfc92d221" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="classMR_1_1Pdf_1aee0d3ee8980ff7e8cfd1d6e28aee30a0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="classMR_1_1Pdf_1ac888bbca1f9b94fbdf5450e269d857e8" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>reset_</name></member>
+      <member refid="classMR_1_1Pdf_1a819cae2eb9b4524146c934a75c1c5046" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>rowCounter_</name></member>
+      <member refid="classMR_1_1Pdf_1abc9ed95ae6e1716fd51587b19efa6e06" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>saveToFile</name></member>
+      <member refid="classMR_1_1Pdf_1a46f8ba492e1e579c5577c40304761698" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setColumnValuesFormat</name></member>
+      <member refid="classMR_1_1Pdf_1a2d50ce4fd99aacbb45dbd1c55bcaef48" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosX</name></member>
+      <member refid="classMR_1_1Pdf_1abf4d77cea93bab673b2b6cf427789622" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosY</name></member>
+      <member refid="classMR_1_1Pdf_1ae8f3b5dc8632f9d2f88485100f9295aa" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setNewPageAction</name></member>
+      <member refid="classMR_1_1Pdf_1ac86cc8971f93f1f4b2aef2eace885b2b" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableColumnWidths</name></member>
+      <member refid="classMR_1_1Pdf_1a390764a2cd1ac5662384be6f8151a476" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableCustomRule</name></member>
+      <member refid="classMR_1_1Pdf_1af29688048070498ce5dba46eae9b3533" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>state_</name></member>
+      <member refid="classMR_1_1Pdf_1a6e33eadc4d9e3e7f394dae468da894c5" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>TableCustomRule</name></member>
+      <member refid="classMR_1_1Pdf_1aaa0bf49b2fe8b53a2fa9c3fccdca1aea" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>tableCustomRule_</name></member>
+      <member refid="classMR_1_1Pdf_1ae024d2a255ca7e6b10a982238597494f" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>tableParams_</name></member>
+      <member refid="classMR_1_1Pdf_1ae6fd1a7d1d29456ea75c56e4266869b6" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>~Pdf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

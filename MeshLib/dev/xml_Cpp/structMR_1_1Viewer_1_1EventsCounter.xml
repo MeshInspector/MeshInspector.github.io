@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Viewer_1_1EventsCounter" kind="struct" language="C++" prot="private">
+    <compoundname>MR::Viewer::EventsCounter</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Viewer_1_1EventsCounter_1aaebf5d401977df7d575253b4ae39bada" prot="public" static="no" mutable="no">
+        <type>std::array&lt; size_t, size_t(<ref refid="classMR_1_1Viewer_1a2f8bda46d1cd218cc450c9b0f076f2b0ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">EventType::Count</ref>)&gt;</type>
+        <definition>std::array&lt;size_t, size_t( EventType::Count )&gt; MR::Viewer::EventsCounter::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <qualifiedname>MR::Viewer::EventsCounter::counter</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="580" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="580" bodyend="580"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Viewer_1_1EventsCounter_1a9cbbe6698b91f4932fc8498ac345c362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Viewer::EventsCounter::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::Viewer::EventsCounter::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="581" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="578" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="579" bodyend="582"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Viewer_1_1EventsCounter_1aaebf5d401977df7d575253b4ae39bada" prot="public" virt="non-virtual"><scope>MR::Viewer::EventsCounter</scope><name>counter</name></member>
+      <member refid="structMR_1_1Viewer_1_1EventsCounter_1a9cbbe6698b91f4932fc8498ac345c362" prot="public" virt="non-virtual"><scope>MR::Viewer::EventsCounter</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

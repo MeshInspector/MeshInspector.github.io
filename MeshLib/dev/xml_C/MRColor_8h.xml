@@ -1,0 +1,1074 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRColor_8h" kind="file" language="C++">
+    <compoundname>MRColor.h</compoundname>
+    <includes refid="MRVector4_8h" local="no">MRCMesh/MRVector4.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includedby refid="MRCtm_8h" local="no">MRCtm.h</includedby>
+    <includedby refid="MRImage_8h" local="no">MRImage.h</includedby>
+    <includedby refid="MRMeshLoadObj_8h" local="no">MRMeshLoadObj.h</includedby>
+    <includedby refid="MRMeshTexture_8h" local="no">MRMeshTexture.h</includedby>
+    <includedby refid="MRObjectVoxels_8h" local="no">MRObjectVoxels.h</includedby>
+    <includedby refid="MRPdf_8h" local="no">MRPdf.h</includedby>
+    <includedby refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includedby>
+    <includedby refid="MRTextureColors_8h" local="no">MRTextureColors.h</includedby>
+    <includedby refid="MRVector_8h" local="no">MRVector.h</includedby>
+    <includedby refid="MRViewportProperty_8h" local="no">MRViewportProperty.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="5">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRCtm.h</label>
+        <link refid="MRCtm_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPdf.h</label>
+        <link refid="MRPdf_8h"/>
+      </node>
+      <node id="1">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMeshLoadObj.h</label>
+        <link refid="MRMeshLoadObj_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMeshTexture.h</label>
+        <link refid="MRMeshTexture_8h"/>
+      </node>
+      <node id="8">
+        <label>MRSaveSettings.h</label>
+        <link refid="MRSaveSettings_8h"/>
+      </node>
+      <node id="9">
+        <label>MRTextureColors.h</label>
+        <link refid="MRTextureColors_8h"/>
+      </node>
+      <node id="10">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+      </node>
+      <node id="11">
+        <label>MRViewportProperty.h</label>
+        <link refid="MRViewportProperty_8h"/>
+      </node>
+      <node id="6">
+        <label>MRObjectVoxels.h</label>
+        <link refid="MRObjectVoxels_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR__Color" prot="public">MR_Color</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRColor_8h_1a14f0f26a43ddb92c3fa3c2192008224c" prot="public" static="no">
+        <type>struct <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref></type>
+        <definition>typedef struct MR_NoInit MR_NoInit</definition>
+        <argsstring></argsstring>
+        <name>MR_NoInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="13" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" prot="public" static="no">
+        <type>struct MR_Color</type>
+        <definition>typedef struct MR_Color MR_Color</definition>
+        <argsstring></argsstring>
+        <name>MR_Color</name>
+        <briefdescription>
+<para>Generated from class <computeroutput>MR::Color</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="23" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRColor_8h_1a1f82a176047a9b9b59d3798af28e5493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="26" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="26" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1af6cb833bab82da01ea7bc2534cb9ce02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+        <definition>MRC_API MR_Color * MR_Color_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Color_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput>MR_FreeArray()</computeroutput>. Use <computeroutput>MR_Color_OffsetMutablePtr()</computeroutput> and <computeroutput>MR_Color_OffsetPtr()</computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="31" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="31" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a221552db50796450f4e0e01ab89604fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_1</definition>
+        <argsstring>(const MR_NoInit *_1)</argsstring>
+        <name>MR_Color_Construct_1</name>
+        <param>
+          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>_1</computeroutput> might be preserved in the constructed object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="36" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="36" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a5432fdbb587a4e77d6ba943ae42bfd7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_4_int</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>MR_Color_Construct_4_int</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="39" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="39" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a929719e96be607bb3581249e983a7dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_3_int</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>MR_Color_Construct_3_int</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="42" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="42" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a43bd95305a889d743298c6bbc201889e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_4_float</definition>
+        <argsstring>(float r, float g, float b, float a)</argsstring>
+        <name>MR_Color_Construct_4_float</name>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="45" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="45" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1add30f2c9ba9b4041b731fc091c5e8e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_3_float</definition>
+        <argsstring>(float r, float g, float b)</argsstring>
+        <name>MR_Color_Construct_3_float</name>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="48" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="48" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a6bc40c889ded473b47b2814cd18c5f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_int</definition>
+        <argsstring>(const MR_Vector4i *vec)</argsstring>
+        <name>MR_Color_Construct_int</name>
+        <param>
+          <type>const <ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref> *</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. Parameter <computeroutput>vec</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>vec</computeroutput> might be preserved in the constructed object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="53" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="53" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1af8abb3d4210ef9f96be532110a25db89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_Construct_float</definition>
+        <argsstring>(const MR_Vector4f *vec)</argsstring>
+        <name>MR_Color_Construct_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref> *</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Color::Color</computeroutput>. Parameter <computeroutput>vec</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>vec</computeroutput> might be preserved in the constructed object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="58" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="58" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a9ef106230e42377718e5039685152b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref></type>
+        <definition>MRC_API MR_Vector4i MR_Color_ConvertTo_MR_Vector4i</definition>
+        <argsstring>(const MR_Color *_this)</argsstring>
+        <name>MR_Color_ConvertTo_MR_Vector4i</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from conversion operator <computeroutput>MR::Color::operator MR::Vector4i</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="62" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="62" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1adf074603b7588b71a26e64f72b9d22ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref></type>
+        <definition>MRC_API MR_Vector4f MR_Color_ConvertTo_MR_Vector4f</definition>
+        <argsstring>(const MR_Color *_this)</argsstring>
+        <name>MR_Color_ConvertTo_MR_Vector4f</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from conversion operator <computeroutput>MR::Color::operator MR::Vector4f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="66" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a4071c210210c68cad21c2c342e17e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API unsigned int</type>
+        <definition>MRC_API unsigned int MR_Color_getUInt32</definition>
+        <argsstring>(const MR_Color *_this)</argsstring>
+        <name>MR_Color_getUInt32</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::getUInt32</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="70" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="70" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1ab339ba2b0b12f9c3d2873e2f5b70f02b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_white</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_white</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::white</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="73" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="73" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a180de96347535e58dc5f8c8684168fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_black</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_black</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::black</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="76" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="76" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a0c650360a2922da3a6c55d0f9dc22e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_gray</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_gray</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::gray</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="79" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="79" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a51da2cd85ff0320545d0d5333fdcd8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_red</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_red</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::red</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="82" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="82" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a35ce1565a6c985fd2c898bafe7bd8f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_green</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_green</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::green</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="85" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="85" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a12f79b2043de66bd4752685919499d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_blue</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_blue</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::blue</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="88" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="88" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1ad4f89b246e704429f63f8fa2534114f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_yellow</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_yellow</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::yellow</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="91" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="91" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1abc4c26f4eefd7b011a44b0276e174a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_brown</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_brown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::brown</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="94" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="94" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1aaecba41c4592fc7b068efbc53a7953b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_purple</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_purple</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::purple</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="97" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="97" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1adeee9a8cba50150bc7adc6a4dce63291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_transparent</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Color_transparent</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::transparent</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="100" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="100" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a5b491b265eb94463d0c77681472f06e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API unsigned char</type>
+        <definition>MRC_API unsigned char MR_Color_valToUint8_int</definition>
+        <argsstring>(int val)</argsstring>
+        <name>MR_Color_valToUint8_int</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::valToUint8&lt;int&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="103" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1ac71f0568caa3d16cf27a24d558857f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API unsigned char</type>
+        <definition>MRC_API unsigned char MR_Color_valToUint8_float</definition>
+        <argsstring>(float val)</argsstring>
+        <name>MR_Color_valToUint8_float</name>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Color::valToUint8&lt;float&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="106" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="106" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a8e7a4d8cba6b0f19fb43ec534c7319cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const unsigned char *</type>
+        <definition>MRC_API const unsigned char * MR_Color_index</definition>
+        <argsstring>(const MR_Color *_this, int e)</argsstring>
+        <name>MR_Color_index</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::operator[]</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="111" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="111" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a35e523fd50231b638f1cc3c911181736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API unsigned char *</type>
+        <definition>MRC_API unsigned char * MR_Color_index_mut</definition>
+        <argsstring>(MR_Color *_this, int e)</argsstring>
+        <name>MR_Color_index_mut</name>
+        <param>
+          <type><ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::operator[]</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="116" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="116" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a09b683dd5087f2b9733375af18156d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+        <definition>MRC_API MR_Color * MR_Color_add_assign</definition>
+        <argsstring>(MR_Color *_this, const MR_Color *other)</argsstring>
+        <name>MR_Color_add_assign</name>
+        <param>
+          <type><ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::operator+=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="122" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="122" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1ad999086ae71284c733381e291945d4e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+        <definition>MRC_API MR_Color * MR_Color_sub_assign</definition>
+        <argsstring>(MR_Color *_this, const MR_Color *other)</argsstring>
+        <name>MR_Color_sub_assign</name>
+        <param>
+          <type><ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::operator-=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="128" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="128" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a52fefc63badbf4ff8f084e9a77d2d614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+        <definition>MRC_API MR_Color * MR_Color_mul_assign</definition>
+        <argsstring>(MR_Color *_this, float m)</argsstring>
+        <name>MR_Color_mul_assign</name>
+        <param>
+          <type><ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::operator*=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="133" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="133" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1abfff30425ec07c996c57ae3d31adec85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+        <definition>MRC_API MR_Color * MR_Color_div_assign</definition>
+        <argsstring>(MR_Color *_this, float m)</argsstring>
+        <name>MR_Color_div_assign</name>
+        <param>
+          <type><ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::operator/=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="138" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="138" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a7d3627298f071cfaee654b5977089645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_Color_scaledAlpha</definition>
+        <argsstring>(const MR_Color *_this, float m)</argsstring>
+        <name>MR_Color_scaledAlpha</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Color::scaledAlpha</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="142" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="142" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1aeaabef7358072522a188043eb3ade318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_Color</definition>
+        <argsstring>(const MR_Color *a, const MR_Color *b)</argsstring>
+        <name>MR_equal_MR_Color</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a9de8af2d9a9b115fd91e5f0f70f791fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_not_equal_MR_Color</definition>
+        <argsstring>(const MR_Color *a, const MR_Color *b)</argsstring>
+        <name>MR_not_equal_MR_Color</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator!=</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="152" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1ab0c5ede8e1e01d7d3e09c64342e269e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_add_MR_Color</definition>
+        <argsstring>(const MR_Color *a, const MR_Color *b)</argsstring>
+        <name>MR_add_MR_Color</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="157" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="157" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a03c01b7a212eabecb4671ad0e9f5cd6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_sub_MR_Color</definition>
+        <argsstring>(const MR_Color *a, const MR_Color *b)</argsstring>
+        <name>MR_sub_MR_Color</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="162" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="162" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a0c14b29f94c5b22c4765febe10c0887a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_mul_float_MR_Color</definition>
+        <argsstring>(float a, const MR_Color *b)</argsstring>
+        <name>MR_mul_float_MR_Color</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="166" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="166" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1ad8c2b8223953ae3aee128f33c1db685f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_mul_MR_Color_float</definition>
+        <argsstring>(const MR_Color *b, float a)</argsstring>
+        <name>MR_mul_MR_Color_float</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="170" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="170" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a85fee9e6a73751a62f8c8ecfeaf8ae27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_div_MR_Color_float</definition>
+        <argsstring>(const MR_Color *b, float a)</argsstring>
+        <name>MR_div_MR_Color_float</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="174" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="174" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRColor_8h_1a2d6645320c5c7c4c9d86eb851a0e9791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_blend</definition>
+        <argsstring>(const MR_Color *front, const MR_Color *back)</argsstring>
+        <name>MR_blend</name>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>front</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>back</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Blend two colors together <simplesect kind="note"><para>This operation is not commutative Generated from function <computeroutput>MR::blend</computeroutput>. Parameter <computeroutput>front</computeroutput> can not be null. It is a single object. Parameter <computeroutput>back</computeroutput> can not be null. It is a single object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="181" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" declline="181" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector4_8h" kindref="compound">MRCMesh/MRVector4.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRColor_8h_1a14f0f26a43ddb92c3fa3c2192008224c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR__Color" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="structMR__Color_1aa42eb9bb577b955386e4f8b1cc7e1f25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1aa42eb9bb577b955386e4f8b1cc7e1f25" kindref="member">r</ref>;</highlight></codeline>
+<codeline lineno="20" refid="structMR__Color_1a5dea71edd69bdc81ca83d36580a3677b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1a5dea71edd69bdc81ca83d36580a3677b" kindref="member">g</ref>;</highlight></codeline>
+<codeline lineno="21" refid="structMR__Color_1aa750e2f6bf418c8ccc3000069caf5b0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1aa750e2f6bf418c8ccc3000069caf5b0a" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structMR__Color_1a04e09b02dd7c8077a3425ccfd38f3b07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1a04e09b02dd7c8077a3425ccfd38f3b07" kindref="member">a</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" refkind="member"><highlight class="normal">}<sp/><ref refid="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" kindref="member">MR_Color</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRColor_8h_1a1f82a176047a9b9b59d3798af28e5493" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a1f82a176047a9b9b59d3798af28e5493" kindref="member">MR_Color_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRColor_8h_1af6cb833bab82da01ea7bc2534cb9ce02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRColor_8h_1af6cb833bab82da01ea7bc2534cb9ce02" kindref="member">MR_Color_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRColor_8h_1a221552db50796450f4e0e01ab89604fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a221552db50796450f4e0e01ab89604fe" kindref="member">MR_Color_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRColor_8h_1a5432fdbb587a4e77d6ba943ae42bfd7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a5432fdbb587a4e77d6ba943ae42bfd7a" kindref="member">MR_Color_Construct_4_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRColor_8h_1a929719e96be607bb3581249e983a7dc7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a929719e96be607bb3581249e983a7dc7" kindref="member">MR_Color_Construct_3_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRColor_8h_1a43bd95305a889d743298c6bbc201889e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a43bd95305a889d743298c6bbc201889e" kindref="member">MR_Color_Construct_4_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRColor_8h_1add30f2c9ba9b4041b731fc091c5e8e45" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1add30f2c9ba9b4041b731fc091c5e8e45" kindref="member">MR_Color_Construct_3_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRColor_8h_1a6bc40c889ded473b47b2814cd18c5f83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a6bc40c889ded473b47b2814cd18c5f83" kindref="member">MR_Color_Construct_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref><sp/>*vec);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRColor_8h_1af8abb3d4210ef9f96be532110a25db89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1af8abb3d4210ef9f96be532110a25db89" kindref="member">MR_Color_Construct_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*vec);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRColor_8h_1a9ef106230e42377718e5039685152b19" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref><sp/><ref refid="MRColor_8h_1a9ef106230e42377718e5039685152b19" kindref="member">MR_Color_ConvertTo_MR_Vector4i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRColor_8h_1adf074603b7588b71a26e64f72b9d22ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/><ref refid="MRColor_8h_1adf074603b7588b71a26e64f72b9d22ae" kindref="member">MR_Color_ConvertTo_MR_Vector4f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRColor_8h_1a4071c210210c68cad21c2c342e17e627" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRColor_8h_1a4071c210210c68cad21c2c342e17e627" kindref="member">MR_Color_getUInt32</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRColor_8h_1ab339ba2b0b12f9c3d2873e2f5b70f02b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ab339ba2b0b12f9c3d2873e2f5b70f02b" kindref="member">MR_Color_white</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRColor_8h_1a180de96347535e58dc5f8c8684168fab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a180de96347535e58dc5f8c8684168fab" kindref="member">MR_Color_black</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRColor_8h_1a0c650360a2922da3a6c55d0f9dc22e42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a0c650360a2922da3a6c55d0f9dc22e42" kindref="member">MR_Color_gray</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRColor_8h_1a51da2cd85ff0320545d0d5333fdcd8ad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a51da2cd85ff0320545d0d5333fdcd8ad" kindref="member">MR_Color_red</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRColor_8h_1a35ce1565a6c985fd2c898bafe7bd8f2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a35ce1565a6c985fd2c898bafe7bd8f2c" kindref="member">MR_Color_green</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRColor_8h_1a12f79b2043de66bd4752685919499d1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a12f79b2043de66bd4752685919499d1d" kindref="member">MR_Color_blue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRColor_8h_1ad4f89b246e704429f63f8fa2534114f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ad4f89b246e704429f63f8fa2534114f2" kindref="member">MR_Color_yellow</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRColor_8h_1abc4c26f4eefd7b011a44b0276e174a62" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1abc4c26f4eefd7b011a44b0276e174a62" kindref="member">MR_Color_brown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRColor_8h_1aaecba41c4592fc7b068efbc53a7953b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1aaecba41c4592fc7b068efbc53a7953b1" kindref="member">MR_Color_purple</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRColor_8h_1adeee9a8cba50150bc7adc6a4dce63291" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1adeee9a8cba50150bc7adc6a4dce63291" kindref="member">MR_Color_transparent</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRColor_8h_1a5b491b265eb94463d0c77681472f06e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRColor_8h_1a5b491b265eb94463d0c77681472f06e6" kindref="member">MR_Color_valToUint8_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRColor_8h_1ac71f0568caa3d16cf27a24d558857f34" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRColor_8h_1ac71f0568caa3d16cf27a24d558857f34" kindref="member">MR_Color_valToUint8_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRColor_8h_1a8e7a4d8cba6b0f19fb43ec534c7319cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRColor_8h_1a8e7a4d8cba6b0f19fb43ec534c7319cf" kindref="member">MR_Color_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRColor_8h_1a35e523fd50231b638f1cc3c911181736" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRColor_8h_1a35e523fd50231b638f1cc3c911181736" kindref="member">MR_Color_index_mut</ref>(<ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRColor_8h_1a09b683dd5087f2b9733375af18156d03" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRColor_8h_1a09b683dd5087f2b9733375af18156d03" kindref="member">MR_Color_add_assign</ref>(<ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRColor_8h_1ad999086ae71284c733381e291945d4e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRColor_8h_1ad999086ae71284c733381e291945d4e3" kindref="member">MR_Color_sub_assign</ref>(<ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRColor_8h_1a52fefc63badbf4ff8f084e9a77d2d614" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRColor_8h_1a52fefc63badbf4ff8f084e9a77d2d614" kindref="member">MR_Color_mul_assign</ref>(<ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRColor_8h_1abfff30425ec07c996c57ae3d31adec85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRColor_8h_1abfff30425ec07c996c57ae3d31adec85" kindref="member">MR_Color_div_assign</ref>(<ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRColor_8h_1a7d3627298f071cfaee654b5977089645" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a7d3627298f071cfaee654b5977089645" kindref="member">MR_Color_scaledAlpha</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRColor_8h_1aeaabef7358072522a188043eb3ade318" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRColor_8h_1aeaabef7358072522a188043eb3ade318" kindref="member">MR_equal_MR_Color</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRColor_8h_1a9de8af2d9a9b115fd91e5f0f70f791fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRColor_8h_1a9de8af2d9a9b115fd91e5f0f70f791fe" kindref="member">MR_not_equal_MR_Color</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRColor_8h_1ab0c5ede8e1e01d7d3e09c64342e269e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ab0c5ede8e1e01d7d3e09c64342e269e3" kindref="member">MR_add_MR_Color</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRColor_8h_1a03c01b7a212eabecb4671ad0e9f5cd6c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a03c01b7a212eabecb4671ad0e9f5cd6c" kindref="member">MR_sub_MR_Color</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRColor_8h_1a0c14b29f94c5b22c4765febe10c0887a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a0c14b29f94c5b22c4765febe10c0887a" kindref="member">MR_mul_float_MR_Color</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRColor_8h_1ad8c2b8223953ae3aee128f33c1db685f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ad8c2b8223953ae3aee128f33c1db685f" kindref="member">MR_mul_MR_Color_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRColor_8h_1a85fee9e6a73751a62f8c8ecfeaf8ae27" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a85fee9e6a73751a62f8c8ecfeaf8ae27" kindref="member">MR_div_MR_Color_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRColor_8h_1a2d6645320c5c7c4c9d86eb851a0e9791" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a2d6645320c5c7c4c9d86eb851a0e9791" kindref="member">MR_blend</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*front,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*back);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h"/>
+  </compounddef>
+</doxygen>

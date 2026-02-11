@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlaneAccumulator" kind="class" language="C#" prot="public">
+    <compoundname>MR::PlaneAccumulator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PlaneAccumulator</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1ae973bc14c1bed773a49c486dd16a737f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneAccumulator.PlaneAccumulator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PlaneAccumulator</name>
+        <qualifiedname>MR.PlaneAccumulator.PlaneAccumulator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="424" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="424" bodyend="424"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1aeb8fdb0c950bf55a9131635c4e8f1b76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneAccumulator.PlaneAccumulator</definition>
+        <argsstring>()</argsstring>
+        <name>PlaneAccumulator</name>
+        <qualifiedname>MR.PlaneAccumulator.PlaneAccumulator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="429" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="429" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a5dfbf2eff6134d62793fb71cc4a98ea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlaneAccumulator.PlaneAccumulator</definition>
+        <argsstring>(MR.Const_PlaneAccumulator _other)</argsstring>
+        <name>PlaneAccumulator</name>
+        <qualifiedname>MR.PlaneAccumulator.PlaneAccumulator</qualifiedname>
+        <param>
+          <type>MR.Const_PlaneAccumulator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlaneAccumulator.PlaneAccumulator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="439" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="439" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a3890e5e1ba667995733f33fee6a4f729" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlaneAccumulator.PlaneAccumulator</definition>
+        <argsstring>(PlaneAccumulator _other)</argsstring>
+        <name>PlaneAccumulator</name>
+        <qualifiedname>MR.PlaneAccumulator.PlaneAccumulator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlaneAccumulator" kindref="compound">PlaneAccumulator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlaneAccumulator.PlaneAccumulator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="450" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="450" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a8757cbb760594c7f17993d3822069e73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PlaneAccumulator" kindref="compound">MR.PlaneAccumulator</ref></type>
+        <definition>unsafe MR.PlaneAccumulator MR.PlaneAccumulator.assign</definition>
+        <argsstring>(MR.Const_PlaneAccumulator _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PlaneAccumulator.assign</qualifiedname>
+        <param>
+          <type>MR.Const_PlaneAccumulator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PlaneAccumulator.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="455" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="455" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1ab8cbac71d094d76975e6019ffcbf88bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneAccumulator.addPlane</definition>
+        <argsstring>(MR.Const_Plane3d pl)</argsstring>
+        <name>addPlane</name>
+        <qualifiedname>MR.PlaneAccumulator.addPlane</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3d</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneAccumulator_1ab8cbac71d094d76975e6019ffcbf88bd" kindref="member">MR.PlaneAccumulator.addPlane</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="467" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1ab708ec3c378d3d44f0b4636ce803765a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PlaneAccumulator.addPlane</definition>
+        <argsstring>(MR.Const_Plane3f pl)</argsstring>
+        <name>addPlane</name>
+        <qualifiedname>MR.PlaneAccumulator.addPlane</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3f</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlaneAccumulator_1ab8cbac71d094d76975e6019ffcbf88bd" kindref="member">MR.PlaneAccumulator.addPlane</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="477" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="477" bodyend="482"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class to accumulate planes to find then their crossing point Generated from class <computeroutput><ref refid="classMR_1_1PlaneAccumulator" kindref="compound">MR.PlaneAccumulator</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PlaneAccumulator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlaneAccumulator</label>
+        <link refid="classMR_1_1PlaneAccumulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PlaneAccumulator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PlaneAccumulator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlaneAccumulator</label>
+        <link refid="classMR_1_1PlaneAccumulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PlaneAccumulator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" line="422" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFit.cs" bodystart="423" bodyend="483"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PlaneAccumulator_1ab8cbac71d094d76975e6019ffcbf88bd" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1ab708ec3c378d3d44f0b4636ce803765a" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a8757cbb760594c7f17993d3822069e73" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>assign</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1ae973bc14c1bed773a49c486dd16a737f" prot="package" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1aeb8fdb0c950bf55a9131635c4e8f1b76" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a5dfbf2eff6134d62793fb71cc4a98ea1" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a3890e5e1ba667995733f33fee6a4f729" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

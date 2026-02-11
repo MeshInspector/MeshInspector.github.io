@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos" kind="struct" language="C++" prot="private">
+    <compoundname>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos_1aac3f312d34d510fa2cb505e772301f9d" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VoxelsVolumeInterpolatedAccessor&lt; Accessor &gt;::IndexAndPos::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos::index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" line="64" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos_1ab7f6394c8ea8c754ddd40ee5b1be5b5d" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::VoxelsVolumeInterpolatedAccessor&lt; Accessor &gt;::IndexAndPos::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos::pos</qualifiedname>
+        <briefdescription>
+<para>Zero-based voxel index in the volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" line="65" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" line="62" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" bodystart="63" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos_1aac3f312d34d510fa2cb505e772301f9d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</scope><name>index</name></member>
+      <member refid="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos_1ab7f6394c8ea8c754ddd40ee5b1be5b5d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</scope><name>pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

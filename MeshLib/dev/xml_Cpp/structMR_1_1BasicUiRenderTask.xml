@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BasicUiRenderTask" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::BasicUiRenderTask</compoundname>
+    <derivedcompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1UI_1_1NonOverlappingLabelTask" prot="public" virt="non-virtual">MR::UI::NonOverlappingLabelTask</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <innerclass refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" prot="public">MR::BasicUiRenderTask::BackwardPassParams</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InteractionMask</name>
+        <qualifiedname>MR::BasicUiRenderTask::InteractionMask</qualifiedname>
+        <enumvalue id="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5" prot="public">
+          <name>mouseHover</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6" prot="public">
+          <name>mouseScroll</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="73" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="74" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BasicUiRenderTask_1a381d7376f63599633389b7ff83ded538" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BasicUiRenderTask::renderTaskDepth</definition>
+        <argsstring></argsstring>
+        <name>renderTaskDepth</name>
+        <qualifiedname>MR::BasicUiRenderTask::renderTaskDepth</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The tasks are sorted by this depth, descending (larger depth = further away). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1aa45e39c8e875d9033360ff63d3f750f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::BasicUiRenderTask::~BasicUiRenderTask</definition>
+        <argsstring>()=default</argsstring>
+        <name>~BasicUiRenderTask</name>
+        <qualifiedname>MR::BasicUiRenderTask::~BasicUiRenderTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="62" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1a09fdc1e47a7a92974a945bfcc98be400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::BasicUiRenderTask::BasicUiRenderTask</definition>
+        <argsstring>()=default</argsstring>
+        <name>BasicUiRenderTask</name>
+        <qualifiedname>MR::BasicUiRenderTask::BasicUiRenderTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="64" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1a25c71025ea06023cb9d2007b8d3908a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::BasicUiRenderTask::BasicUiRenderTask</definition>
+        <argsstring>(const BasicUiRenderTask &amp;)=default</argsstring>
+        <name>BasicUiRenderTask</name>
+        <qualifiedname>MR::BasicUiRenderTask::BasicUiRenderTask</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="65" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1a7a289817074d4a9c546aca337082d21b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::BasicUiRenderTask::BasicUiRenderTask</definition>
+        <argsstring>(BasicUiRenderTask &amp;&amp;)=default</argsstring>
+        <name>BasicUiRenderTask</name>
+        <qualifiedname>MR::BasicUiRenderTask::BasicUiRenderTask</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="66" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1a0f482dbbdc6658514696e4dc9294a58a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &amp;</type>
+        <definition>BasicUiRenderTask &amp; MR::BasicUiRenderTask::operator=</definition>
+        <argsstring>(const BasicUiRenderTask &amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::BasicUiRenderTask::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="67" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1ae03db3414263164b9321a4ed5d41838a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &amp;</type>
+        <definition>BasicUiRenderTask &amp; MR::BasicUiRenderTask::operator=</definition>
+        <argsstring>(BasicUiRenderTask &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::BasicUiRenderTask::operator=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="68" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1a269508abb07dd29213d99aada7db6d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::BasicUiRenderTask::earlyBackwardPass</definition>
+        <argsstring>(const BackwardPassParams &amp;params)</argsstring>
+        <name>earlyBackwardPass</name>
+        <qualifiedname>MR::BasicUiRenderTask::earlyBackwardPass</qualifiedname>
+        <reimplementedby refid="classMR_1_1BasicClickableRectUiRenderTask_1a59897da65259f4cb8c6018ac88fa97fb">earlyBackwardPass</reimplementedby>
+        <reimplementedby refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1a63aa78da589b7f78e8aa0077dc5f1102">earlyBackwardPass</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BackwardPassParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is an optional early pass, where you can claim exclusive control over the mouse. This pass is executed in reverse draw order. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="100" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1a0e70a7984fb642613e50942b4f53c724" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::BasicUiRenderTask::renderPass</definition>
+        <argsstring>()=0</argsstring>
+        <name>renderPass</name>
+        <qualifiedname>MR::BasicUiRenderTask::renderPass</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderDimensions_1_1AngleTask_1aa3ac89e4fd5b5673725c56c28cd3cb1a">renderPass</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderDimensions_1_1LengthTask_1a8ae60075550540eed0dc6caa49b99b98">renderPass</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderDimensions_1_1PointTask_1ad8d95e8c048b7d9736a64d2b5324d512">renderPass</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a92a6cd4467f318bc11276902ed2cdc6a">renderPass</reimplementedby>
+        <reimplementedby refid="classMR_1_1UI_1_1NonOverlappingLabelTask_1a8e5b41bf7d246095c20537503873adde">renderPass</reimplementedby>
+        <briefdescription>
+<para>This is the main rendering pass. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="103" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><computeroutput><ref refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">IRenderObject::renderUi()</ref></computeroutput> can emit zero or more or more of those tasks. They are sorted by depth every frame. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BasicClickableRectUiRenderTask</label>
+        <link refid="classMR_1_1BasicClickableRectUiRenderTask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="3">
+        <label>MR::RenderDimensions::AngleTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1AngleTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderDimensions::LengthTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1LengthTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderDimensions::PointTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1PointTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderDimensions::RadiusTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1RadiusTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::UI::NonOverlappingLabelTask</label>
+        <link refid="classMR_1_1UI_1_1NonOverlappingLabelTask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="61" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BasicUiRenderTask_1a09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a269508abb07dd29213d99aada7db6d5e" prot="public" virt="virtual"><scope>MR::BasicUiRenderTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>InteractionMask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>operator=</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1ae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>operator=</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a0e70a7984fb642613e50942b4f53c724" prot="public" virt="pure-virtual"><scope>MR::BasicUiRenderTask</scope><name>renderPass</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>renderTaskDepth</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1aa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::BasicUiRenderTask</scope><name>~BasicUiRenderTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

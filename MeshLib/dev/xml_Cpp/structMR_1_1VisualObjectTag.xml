@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VisualObjectTag" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VisualObjectTag</compoundname>
+    <includes refid="MRVisualObjectTag_8h" local="no">MRVisualObjectTag.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VisualObjectTag_1a040722e4a5ea73462bb03e8dc331a267" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::VisualObjectTag::selectedColor</definition>
+        <argsstring></argsstring>
+        <name>selectedColor</name>
+        <qualifiedname>MR::VisualObjectTag::selectedColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VisualObjectTag_1aea8f1b7edc9df06d7955309b333fb83c" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::VisualObjectTag::unselectedColor</definition>
+        <argsstring></argsstring>
+        <name>unselectedColor</name>
+        <qualifiedname>MR::VisualObjectTag::unselectedColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>modified color set for visual objects </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::VisualObjectTag</label>
+        <link refid="structMR_1_1VisualObjectTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>selectedColor</edgelabel>
+          <edgelabel>unselectedColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VisualObjectTag_1a040722e4a5ea73462bb03e8dc331a267" prot="public" virt="non-virtual"><scope>MR::VisualObjectTag</scope><name>selectedColor</name></member>
+      <member refid="structMR_1_1VisualObjectTag_1aea8f1b7edc9df06d7955309b333fb83c" prot="public" virt="non-virtual"><scope>MR::VisualObjectTag</scope><name>unselectedColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

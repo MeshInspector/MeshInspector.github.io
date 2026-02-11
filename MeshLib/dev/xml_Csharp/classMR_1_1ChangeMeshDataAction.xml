@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeMeshDataAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeMeshDataAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshDataAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a0dba73219d89b37f3696b13783edfa90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeMeshDataAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeMeshDataAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeMeshDataAction" kindref="compound">ChangeMeshDataAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="231" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="231" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1af7de23f8d400fef4edf7ea00cd65f806" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeMeshDataAction.operator ChangeMeshDataAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeMeshDataAction?</name>
+        <qualifiedname>MR.ChangeMeshDataAction.operator ChangeMeshDataAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="239" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="239" bodyend="246"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a290e5eb3ee2402470161e827fedce259" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="248" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a649b380c3505d72838e3df6d2c4dfa6e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="250" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="250" bodyend="250"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(MR._ByValue_ChangeMeshDataAction _other)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshDataAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="255" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="255" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1ade315b669376cb9a6ba80e20878b978b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(Const_ChangeMeshDataAction _other)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>Const_ChangeMeshDataAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="266" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="266" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1ad524015f916a2afa8dba37f54d4a0e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(ChangeMeshDataAction _other)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeMeshDataAction" kindref="compound">ChangeMeshDataAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="271" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="271" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a5cad6fc3e613cdfd19d3712b94ea8bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(string name, MR.Const_ObjectMesh obj, bool cloneMesh)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectMesh</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cloneMesh</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s data before making any changes in it Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="277" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="277" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a2c65232d6d1dde587b54dab497c59b59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshDataAction.ChangeMeshDataAction</definition>
+        <argsstring>(string name, MR.Const_ObjectMesh obj, MR.Misc._Moved&lt; MR.ObjectMeshData &gt; newData)</argsstring>
+        <name>ChangeMeshDataAction</name>
+        <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectMesh</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref> &gt;</type>
+          <declname>newData</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s data and immediately set new data Generated from constructor <computeroutput>MR.ChangeMeshDataAction.ChangeMeshDataAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="293" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="293" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a4f73a8d6f982852ced02566dbfe24f1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeMeshDataAction" kindref="compound">MR.ChangeMeshDataAction</ref></type>
+        <definition>unsafe MR.ChangeMeshDataAction MR.ChangeMeshDataAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeMeshDataAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeMeshDataAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshDataAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeMeshDataAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="309" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="309" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a660f93b323bf38d2a50096ddef2602c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeMeshDataAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeMeshDataAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction_1a660f93b323bf38d2a50096ddef2602c5" kindref="member">MR.ChangeMeshDataAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="321" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="321" bodyend="326"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> change Generated from class <computeroutput><ref refid="classMR_1_1ChangeMeshDataAction" kindref="compound">MR.ChangeMeshDataAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeMeshDataAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeMeshDataAction</label>
+        <link refid="classMR_1_1ChangeMeshDataAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshDataAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeMeshDataAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeMeshDataAction</label>
+        <link refid="classMR_1_1ChangeMeshDataAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshDataAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="228" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="229" bodyend="327"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a660f93b323bf38d2a50096ddef2602c5" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a4f73a8d6f982852ced02566dbfe24f1c" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a290e5eb3ee2402470161e827fedce259" prot="package" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a649b380c3505d72838e3df6d2c4dfa6e" prot="package" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a8e81a27b0800e1b61e45e48a861ba9ba" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1ade315b669376cb9a6ba80e20878b978b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1ad524015f916a2afa8dba37f54d4a0e1b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a5cad6fc3e613cdfd19d3712b94ea8bfa" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a2c65232d6d1dde587b54dab497c59b59" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1af7de23f8d400fef4edf7ea00cd65f806" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator ChangeMeshDataAction?</name></member>
+      <member refid="classMR_1_1ChangeMeshDataAction_1a0dba73219d89b37f3696b13783edfa90" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

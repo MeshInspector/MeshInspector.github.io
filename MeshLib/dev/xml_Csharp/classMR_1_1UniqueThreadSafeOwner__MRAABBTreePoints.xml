@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints" kind="class" language="C#" prot="public">
+    <compoundname>MR::UniqueThreadSafeOwner_MRAABBTreePoints</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a44c1d6f5f20467035397f08d2979fe48" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UniqueThreadSafeOwner_MRAABBTreePoints</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="305" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="305" bodyend="305"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a71233dd249a625094860a0db9893156b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</definition>
+        <argsstring>()</argsstring>
+        <name>UniqueThreadSafeOwner_MRAABBTreePoints</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="310" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="310" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1ac411febec732137eeae96db074638e20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</definition>
+        <argsstring>(MR._ByValue_UniqueThreadSafeOwner_MRAABBTreePoints _other)</argsstring>
+        <name>UniqueThreadSafeOwner_MRAABBTreePoints</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniqueThreadSafeOwner_MRAABBTreePoints</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="320" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="320" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a4ae85e58f48197798e8128bfcc4b2a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</definition>
+        <argsstring>(Const_UniqueThreadSafeOwner_MRAABBTreePoints _other)</argsstring>
+        <name>UniqueThreadSafeOwner_MRAABBTreePoints</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</qualifiedname>
+        <param>
+          <type>Const_UniqueThreadSafeOwner_MRAABBTreePoints</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="331" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="331" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a5903d4d4c3d9b385296eac246417b0a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</definition>
+        <argsstring>(UniqueThreadSafeOwner_MRAABBTreePoints _other)</argsstring>
+        <name>UniqueThreadSafeOwner_MRAABBTreePoints</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints" kindref="compound">UniqueThreadSafeOwner_MRAABBTreePoints</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="336" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="336" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a0301c6be86c956efb4385be13cce9e2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints" kindref="compound">MR.UniqueThreadSafeOwner_MRAABBTreePoints</ref></type>
+        <definition>unsafe MR.UniqueThreadSafeOwner_MRAABBTreePoints MR.UniqueThreadSafeOwner_MRAABBTreePoints.assign</definition>
+        <argsstring>(MR._ByValue_UniqueThreadSafeOwner_MRAABBTreePoints _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniqueThreadSafeOwner_MRAABBTreePoints</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="341" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="341" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a8fe6d316a9e199472f0167de0ef8c35d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UniqueThreadSafeOwner_MRAABBTreePoints.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.reset</qualifiedname>
+        <briefdescription>
+<para>deletes owned object Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::reset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="357" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="357" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a897efe6fa045e20e7dfe5d0ffd8e8330" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref></type>
+        <definition>unsafe MR.? AABBTreePoints MR.UniqueThreadSafeOwner_MRAABBTreePoints.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.get</qualifiedname>
+        <briefdescription>
+<para>returns existing owned object and does not create new one Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="368" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="368" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a0aa6caea7d5b8f8275a41e715f054d62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref></type>
+        <definition>unsafe MR.AABBTreePoints MR.UniqueThreadSafeOwner_MRAABBTreePoints.getOrCreate</definition>
+        <argsstring>(MR.Std.Const_Function_MRAABBTreePointsFunc creator)</argsstring>
+        <name>getOrCreate</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.getOrCreate</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Function_MRAABBTreePointsFunc</type>
+          <declname>creator</declname>
+        </param>
+        <briefdescription>
+<para>returns existing owned object or creates new one using creator function Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::getOrCreate</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="380" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="380" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a6096365b6a53e7368363b30e51c0fc67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UniqueThreadSafeOwner_MRAABBTreePoints.update</definition>
+        <argsstring>(MR.Std.Const_Function_VoidFuncFromMRAABBTreePointsRef updater)</argsstring>
+        <name>update</name>
+        <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.update</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Function_VoidFuncFromMRAABBTreePointsRef</type>
+          <declname>updater</declname>
+        </param>
+        <briefdescription>
+<para>calls given updater for the owned object (if any) Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::update</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="391" bodyend="396"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class is base class for unique thread safe owning of some objects, for example <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <link refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UniqueThreadSafeOwner_MRAABBTreePoints &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <link refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UniqueThreadSafeOwner_MRAABBTreePoints &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="303" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="304" bodyend="397"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a0301c6be86c956efb4385be13cce9e2b" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>assign</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a897efe6fa045e20e7dfe5d0ffd8e8330" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>get</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a0aa6caea7d5b8f8275a41e715f054d62" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>getOrCreate</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a8fe6d316a9e199472f0167de0ef8c35d" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>reset</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a44c1d6f5f20467035397f08d2979fe48" prot="package" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a71233dd249a625094860a0db9893156b" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1ac411febec732137eeae96db074638e20" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a4ae85e58f48197798e8128bfcc4b2a4b" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a5903d4d4c3d9b385296eac246417b0a3" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a6096365b6a53e7368363b30e51c0fc67" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

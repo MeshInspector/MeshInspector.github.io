@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TouchpadController_1_1Handler" kind="class" language="C++" prot="public">
+    <compoundname>MR::TouchpadController::Handler</compoundname>
+    <includes refid="MRTouchpadController_8h" local="no">MRTouchpadController.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GestureState</name>
+        <qualifiedname>MR::TouchpadController::Handler::GestureState</qualifiedname>
+        <enumvalue id="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4a1a06729125544cab7cee73195fc044f0" prot="public">
+          <name>Begin</name>
+          <briefdescription>
+<para>gesture has started </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6" prot="public">
+          <name>Update</name>
+          <briefdescription>
+<para>gesture data has updated </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4a87557f11575c0ad78e4e28abedc13b6e" prot="public">
+          <name>End</name>
+          <briefdescription>
+<para>gesture has ended </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>gesture state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="54" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" bodystart="55" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TouchpadController_1_1Handler_1ac01d9ce7a2cd68d9da9c23a5ee93df0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::TouchpadController::Handler::~Handler</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Handler</name>
+        <qualifiedname>MR::TouchpadController::Handler::~Handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="51" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TouchpadController_1_1Handler_1aa44961190a75ca4d6cc9dd8281ca367a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TouchpadController::Handler::mouseScroll</definition>
+        <argsstring>(float dx, float dy, bool kinetic)</argsstring>
+        <name>mouseScroll</name>
+        <qualifiedname>MR::TouchpadController::Handler::mouseScroll</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>kinetic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>not a touchpad gesture but actually a mouse scroll; call it if mouse scrolls and touchpad swipe gestures are a single event on your platform (and when the event is actually is a mouse scroll) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="66" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TouchpadController_1_1Handler_1af1d038636cfb202e8e3709fc8518b6f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TouchpadController::Handler::rotate</definition>
+        <argsstring>(float angle, GestureState state)</argsstring>
+        <name>rotate</name>
+        <qualifiedname>MR::TouchpadController::Handler::rotate</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4" kindref="member">GestureState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>rotate gesture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="68" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TouchpadController_1_1Handler_1a04a8489fbc1241cbf36f1f10194ca21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TouchpadController::Handler::swipe</definition>
+        <argsstring>(float dx, float dy, bool kinetic, GestureState state)</argsstring>
+        <name>swipe</name>
+        <qualifiedname>MR::TouchpadController::Handler::swipe</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>kinetic</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4" kindref="member">GestureState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>swipe gesture; <computeroutput>kinetic</computeroutput> flag is set when the event is produced not by a user action but by hardware &apos;kinetic&apos; scrolling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="70" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TouchpadController_1_1Handler_1aa716478caa8b3f52ec82aff6b328c64e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TouchpadController::Handler::zoom</definition>
+        <argsstring>(float scale, bool kinetic, GestureState state)</argsstring>
+        <name>zoom</name>
+        <qualifiedname>MR::TouchpadController::Handler::zoom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>kinetic</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4" kindref="member">GestureState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>pitch (&apos;zoom&apos;) gesture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="72" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class for platform-dependent code handling touchpad events</para>
+<para>If you want to add touchpad gesture support on your platform, inherit this class, extend the <computeroutput><ref refid="classMR_1_1TouchpadController_1a7f99ad050f7c266930af4bf9ffc13c37" kindref="member">TouchpadController::initialize</ref></computeroutput> method and call the corresponding methods on the touchpad events. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="48" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" bodystart="49" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TouchpadController_1_1Handler_1a22bc334022e40146fa414493170af7b4" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>GestureState</name></member>
+      <member refid="classMR_1_1TouchpadController_1_1Handler_1aa44961190a75ca4d6cc9dd8281ca367a" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>mouseScroll</name></member>
+      <member refid="classMR_1_1TouchpadController_1_1Handler_1af1d038636cfb202e8e3709fc8518b6f2" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>rotate</name></member>
+      <member refid="classMR_1_1TouchpadController_1_1Handler_1a04a8489fbc1241cbf36f1f10194ca21e" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>swipe</name></member>
+      <member refid="classMR_1_1TouchpadController_1_1Handler_1aa716478caa8b3f52ec82aff6b328c64e" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>zoom</name></member>
+      <member refid="classMR_1_1TouchpadController_1_1Handler_1ac01d9ce7a2cd68d9da9c23a5ee93df0b" prot="public" virt="virtual"><scope>MR::TouchpadController::Handler</scope><name>~Handler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

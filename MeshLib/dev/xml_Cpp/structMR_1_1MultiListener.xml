@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiListener" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Connectables...</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Connectables</declname>
+        <defname>Connectables</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::MultiListener&lt; Connectables &gt;::~MultiListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>~MultiListener</name>
+        <qualifiedname>MR::MultiListener::~MultiListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="33" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::MultiListener&lt; Connectables &gt;::connect</definition>
+        <argsstring>(Viewer *viewer, int group=0, boost::signals2::connect_position pos=boost::signals2::connect_position::at_back)</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::MultiListener::connect</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>group</declname>
+          <defval>0</defval>
+          <briefdescription><para>unused if Connectables is empty </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>pos</declname>
+          <defval>boost::signals2::connect_position::at_back</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="35" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::MultiListener&lt; Connectables &gt;::disconnect</definition>
+        <argsstring>()</argsstring>
+        <name>disconnect</name>
+        <qualifiedname>MR::MultiListener::disconnect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>disconnect in reversed order</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="42" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="42" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::MultiListener&lt; Connectables &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::MultiListener&lt; Connectables &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="29" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::MultiListener</scope><name>connect</name></member>
+      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::MultiListener</scope><name>disconnect</name></member>
+      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::MultiListener</scope><name>~MultiListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

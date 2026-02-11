@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshBuilder_1_1MeshPiece" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::MeshPiece</compoundname>
+    <includes refid="MRMeshBuilder_8h" local="no">MRMeshBuilder.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1MeshPiece_1a9d2f3c57986b646bdf6618a914511a38" prot="public" static="no" mutable="no">
+        <type>FaceMap</type>
+        <definition>FaceMap MR::MeshBuilder::MeshPiece::fmap</definition>
+        <argsstring></argsstring>
+        <name>fmap</name>
+        <qualifiedname>MR::MeshBuilder::MeshPiece::fmap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="66" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1MeshPiece_1a0e2772f29127c4ade3e9c174019fa545" prot="public" static="no" mutable="no">
+        <type>VertMap</type>
+        <definition>VertMap MR::MeshBuilder::MeshPiece::vmap</definition>
+        <argsstring></argsstring>
+        <name>vmap</name>
+        <qualifiedname>MR::MeshBuilder::MeshPiece::vmap</qualifiedname>
+        <briefdescription>
+<para>face of part -&gt; face of whole mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="67" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1MeshPiece_1a9a4c27d8994760be58bd44c477f0a1d9" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MeshTopology MR::MeshBuilder::MeshPiece::topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR::MeshBuilder::MeshPiece::topology</qualifiedname>
+        <briefdescription>
+<para>vert of part -&gt; vert of whole mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="68" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1MeshPiece_1ae9d0ca02e23513325ee4fb19d39b6948" prot="public" static="no" mutable="no">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::MeshBuilder::MeshPiece::rem</definition>
+        <argsstring></argsstring>
+        <name>rem</name>
+        <qualifiedname>MR::MeshBuilder::MeshPiece::rem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="69" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a part of a whole mesh to be constructed </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MeshBuilder::MeshPiece</label>
+        <link refid="structMR_1_1MeshBuilder_1_1MeshPiece"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="65" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshBuilder_1_1MeshPiece_1a9d2f3c57986b646bdf6618a914511a38" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>fmap</name></member>
+      <member refid="structMR_1_1MeshBuilder_1_1MeshPiece_1ae9d0ca02e23513325ee4fb19d39b6948" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>rem</name></member>
+      <member refid="structMR_1_1MeshBuilder_1_1MeshPiece_1a9a4c27d8994760be58bd44c477f0a1d9" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>topology</name></member>
+      <member refid="structMR_1_1MeshBuilder_1_1MeshPiece_1a0e2772f29127c4ade3e9c174019fa545" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>vmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

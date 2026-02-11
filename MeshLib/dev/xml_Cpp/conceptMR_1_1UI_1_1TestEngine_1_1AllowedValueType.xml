@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType" kind="concept">
+    <compoundname>MR::UI::TestEngine::AllowedValueType</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRUITestEngine.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename T&gt;
+concept <ref refid="conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType" kindref="compound">MR::UI::TestEngine::AllowedValueType</ref> =  std::is_arithmetic_v&lt;T&gt; || std::is_same_v&lt;T, std::string&gt;    </initializer>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="61" column="1"/>
+  </compounddef>
+</doxygen>

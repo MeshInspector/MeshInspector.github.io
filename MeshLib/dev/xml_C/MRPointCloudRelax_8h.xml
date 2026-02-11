@@ -1,0 +1,1602 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointCloudRelax_8h" kind="file" language="C++">
+    <compoundname>MRPointCloudRelax.h</compoundname>
+    <includes refid="MRRelaxParams_8h" local="no">MRCMesh/MRRelaxParams.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPointCloudRelax.h</label>
+        <link refid="MRPointCloudRelax_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRRelaxParams.h</label>
+        <link refid="MRRelaxParams_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPointCloudRelax_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
+        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" prot="public" static="no">
+        <type>struct <ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref></type>
+        <definition>typedef struct MR_RelaxParams MR_RelaxParams</definition>
+        <argsstring></argsstring>
+        <name>MR_RelaxParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudRelax_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudRelax_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="17" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" prot="public" static="no">
+        <type>struct <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref></type>
+        <definition>typedef struct MR_PointCloudRelaxParams MR_PointCloudRelaxParams</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloudRelaxParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::PointCloudRelaxParams</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::RelaxParams</computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="28" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" prot="public" static="no">
+        <type>struct <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref></type>
+        <definition>typedef struct MR_PointCloudApproxRelaxParams MR_PointCloudApproxRelaxParams</definition>
+        <argsstring></argsstring>
+        <name>MR_PointCloudApproxRelaxParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::PointCloudRelaxParams</computeroutput> Indirect: (non-virtual) <computeroutput>MR::RelaxParams</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="37" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a39741d4c5b9c9cf9bef8eeee70091e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PointCloudRelaxParams_Get_neighborhoodRadius</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Get_neighborhoodRadius</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="44" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="44" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a0dca687b0245fa911c9eb3194e00c5ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Set_neighborhoodRadius</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, float value)</argsstring>
+        <name>MR_PointCloudRelaxParams_Set_neighborhoodRadius</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>neighborhoodRadius</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="51" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a40583eb79fbecf1f2608e48d32527a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="58" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="58" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a7a982de326c614525106e0ee2c7219bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_PointCloudRelaxParams_Get_iterations</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Get_iterations</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of iterations Returns a pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="64" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="64" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1acb5cdea8959581bf28ecb4fd88c6828f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Set_iterations</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, int value)</argsstring>
+        <name>MR_PointCloudRelaxParams_Set_iterations</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a4f4291d8cd40f316279dcefb593735a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_PointCloudRelaxParams_GetMutable_iterations</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_GetMutable_iterations</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of iterations Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="76" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="76" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a6cfe6e1613e759bf22698e8b133220c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_VertBitSet *const  * MR_PointCloudRelaxParams_Get_region</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Get_region</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region to relax Returns a pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="82" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="82" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ae738e33ff15b1a4b984816d595d7a3f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Set_region</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, const MR_VertBitSet *value)</argsstring>
+        <name>MR_PointCloudRelaxParams_Set_region</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="89" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ab439e74bcf8d5b83cd7e7ac5823eae5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <definition>MRC_API const MR_VertBitSet ** MR_PointCloudRelaxParams_GetMutable_region</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_GetMutable_region</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region to relax Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="95" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="95" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ae8e6ae2256c8bdf7f8d3b5fd4dfebe6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PointCloudRelaxParams_Get_force</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Get_force</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of relaxing, typical values (0.0, 0.5] Returns a pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="101" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="101" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1aaaae54bc68b98274448b323f03a79b5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Set_force</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, float value)</argsstring>
+        <name>MR_PointCloudRelaxParams_Set_force</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a51f0af1eafdbac253c55d6b63d51d798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PointCloudRelaxParams_GetMutable_force</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_GetMutable_force</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of relaxing, typical values (0.0, 0.5] Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="113" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="113" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a700dc0c764e35c9c1fc3661919451b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_PointCloudRelaxParams_Get_limitNearInitial</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Get_limitNearInitial</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="119" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="119" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ad8e8f84eeb16af11e99f2e0b5763075c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Set_limitNearInitial</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, bool value)</argsstring>
+        <name>MR_PointCloudRelaxParams_Set_limitNearInitial</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a3d16bbe8e477814b96e0217b33443358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_PointCloudRelaxParams_GetMutable_limitNearInitial</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_GetMutable_limitNearInitial</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="131" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1afd1eab7744e0f74fce410fdfb8a18e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PointCloudRelaxParams_Get_maxInitialDist</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Get_maxInitialDist</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="137" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="137" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a2adfa03e1c880c46a7ed01b96968f42a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Set_maxInitialDist</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, float value)</argsstring>
+        <name>MR_PointCloudRelaxParams_Set_maxInitialDist</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ade89f32a41952277c8cc375ed63ce18a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PointCloudRelaxParams_GetMutable_maxInitialDist</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_GetMutable_maxInitialDist</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="149" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="149" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a883d4a4ac37a2b28cecee8f56e411b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudRelaxParams * MR_PointCloudRelaxParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PointCloudRelaxParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudRelax_8h_1a8327f70871b0a5d1af999c174c4eb757" kindref="member">MR_PointCloudRelaxParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="153" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="153" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ac313522c3cd2e880a4a14f0bb15287d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudRelaxParams * MR_PointCloudRelaxParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PointCloudRelaxParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPointCloudRelax_8h_1a44d4c8829b4427a1a97bd4e51525f3de" kindref="member">MR_PointCloudRelaxParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPointCloudRelax_8h_1a37cc381bb89aa9b3ac2c6a15015196d9" kindref="member">MR_PointCloudRelaxParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPointCloudRelax_8h_1aa1d9fd4a3b0d2a3a5ad61c3d64662e9c" kindref="member">MR_PointCloudRelaxParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="158" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="158" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1aa1d9fd4a3b0d2a3a5ad61c3d64662e9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API const MR_PointCloudRelaxParams * MR_PointCloudRelaxParams_OffsetPtr</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointCloudRelaxParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="162" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="162" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a37cc381bb89aa9b3ac2c6a15015196d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudRelaxParams * MR_PointCloudRelaxParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_PointCloudRelaxParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointCloudRelaxParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="166" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="166" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a9117260d4581b2cc4573ba70627f71c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref> *</type>
+        <definition>MRC_API const MR_RelaxParams * MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *object)</argsstring>
+        <name>MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::PointCloudRelaxParams</computeroutput> to its base class <computeroutput>MR::RelaxParams</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="170" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="170" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a0ed7c2e380d638a9865870cf06672e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref> *</type>
+        <definition>MRC_API MR_RelaxParams * MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams</definition>
+        <argsstring>(MR_PointCloudRelaxParams *object)</argsstring>
+        <name>MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::PointCloudRelaxParams</computeroutput> to its base class <computeroutput>MR::RelaxParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="173" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="173" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a9b8361be70472a3f7c3bce696ffb5223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API const MR_PointCloudApproxRelaxParams * MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *object)</argsstring>
+        <name>MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::PointCloudRelaxParams</computeroutput> to a derived class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="178" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="178" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ae7f606fab30e51e1e33343ea3df6754e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudApproxRelaxParams * MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams</definition>
+        <argsstring>(MR_PointCloudRelaxParams *object)</argsstring>
+        <name>MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::PointCloudRelaxParams</computeroutput> to a derived class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="182" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="182" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a54cb8c09d5839555b9e81e0a1c2416bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudRelaxParams * MR_PointCloudRelaxParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_other)</argsstring>
+        <name>MR_PointCloudRelaxParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PointCloudRelaxParams::PointCloudRelaxParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudRelax_8h_1a8327f70871b0a5d1af999c174c4eb757" kindref="member">MR_PointCloudRelaxParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="188" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="188" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a8327f70871b0a5d1af999c174c4eb757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_Destroy</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PointCloudRelaxParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="191" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a44d4c8829b4427a1a97bd4e51525f3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudRelaxParams_DestroyArray</definition>
+        <argsstring>(const MR_PointCloudRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudRelaxParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PointCloudRelaxParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a9e28577b3ec9b26e2adef3effb1b105e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudRelaxParams * MR_PointCloudRelaxParams_AssignFromAnother</definition>
+        <argsstring>(MR_PointCloudRelaxParams *_this, const MR_PointCloudRelaxParams *_other)</argsstring>
+        <name>MR_PointCloudRelaxParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PointCloudRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="202" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="202" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1aef742ac7bd70fa90d91fec9025e8d375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_relax_3_MR_PointCloud</definition>
+        <argsstring>(MR_PointCloud *pointCloud, const MR_PointCloudRelaxParams *params, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_relax_3_MR_PointCloud</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback Generated from function <computeroutput>MR::relax</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a8f73122d5fe8b71d808f59bba8bcd17a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_relaxKeepVolume_3_MR_PointCloud</definition>
+        <argsstring>(MR_PointCloud *pointCloud, const MR_PointCloudRelaxParams *params, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_relaxKeepVolume_3_MR_PointCloud</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) do not really keeps volume but tries hard <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback Generated from function <computeroutput>MR::relaxKeepVolume</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="221" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1afe2f37beb5f943a3d7f14bcc80a64f9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref> *</type>
+        <definition>MRC_API const MR_RelaxApproxType * MR_PointCloudApproxRelaxParams_Get_type</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_type</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="226" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="226" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a0742100658434c4bd73ac3ba6f466503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_type</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, MR_RelaxApproxType value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_type</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="232" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1af9b5e5cbe61e4c019f2b7115abb47947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref> *</type>
+        <definition>MRC_API MR_RelaxApproxType * MR_PointCloudApproxRelaxParams_GetMutable_type</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_type</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="237" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="237" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1acfae989ced59b1e048557d4471019235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PointCloudApproxRelaxParams_Get_neighborhoodRadius</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_neighborhoodRadius</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="244" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="244" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1aec03302f1e1dc2003fc8c0801e72e5e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_neighborhoodRadius</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, float value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_neighborhoodRadius</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>neighborhoodRadius</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1aa2811309042b7da6a5761958804952c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PointCloudApproxRelaxParams_GetMutable_neighborhoodRadius</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_neighborhoodRadius</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="258" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="258" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1acca133afdfc2fb058cd2a96449af9782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_PointCloudApproxRelaxParams_Get_iterations</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_iterations</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of iterations Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="264" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="264" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a28053cc32c62e25c7ba34cd285a7b46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_iterations</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, int value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_iterations</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="270" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1acf9b275e5c9d5bb701fc86e136ceca05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_PointCloudApproxRelaxParams_GetMutable_iterations</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_iterations</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of iterations Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="276" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="276" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a8eabae8a7582fe92405ab8e3bd5f502d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_VertBitSet *const  * MR_PointCloudApproxRelaxParams_Get_region</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_region</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region to relax Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="282" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="282" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ad0e5738bacbff8f3ee696c0c68f52d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_region</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, const MR_VertBitSet *value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_region</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a0d55ee30e852d7740987f660cf9ffe7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <definition>MRC_API const MR_VertBitSet ** MR_PointCloudApproxRelaxParams_GetMutable_region</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_region</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region to relax Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="295" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="295" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a7d2035a938386d7302acfa3133cc83a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PointCloudApproxRelaxParams_Get_force</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_force</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of relaxing, typical values (0.0, 0.5] Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="301" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="301" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a9efb4fed8592eb2860c81c43b20d74c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_force</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, float value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_force</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="307" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="307" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1af6b5aeebcbedd648551ea8938ff9c4f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PointCloudApproxRelaxParams_GetMutable_force</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_force</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of relaxing, typical values (0.0, 0.5] Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="313" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="313" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a40bb9c1f23645016e12a2bb0c48d4fb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_PointCloudApproxRelaxParams_Get_limitNearInitial</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_limitNearInitial</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="319" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="319" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a589122d742e6dd62ce959b0cfba8c70e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_limitNearInitial</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, bool value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_limitNearInitial</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="325" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="325" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ae257aa45302bd3a2bc030c7de04d5250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_PointCloudApproxRelaxParams_GetMutable_limitNearInitial</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_limitNearInitial</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ac9b9795953e486939aaab7a0af9464b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_PointCloudApproxRelaxParams_Get_maxInitialDist</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Get_maxInitialDist</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="337" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="337" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1aa25cf64c41d5e04f8609032105547ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Set_maxInitialDist</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, float value)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Set_maxInitialDist</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="343" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="343" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a412518d688d076101baf69ce1fbdf724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_PointCloudApproxRelaxParams_GetMutable_maxInitialDist</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_GetMutable_maxInitialDist</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="349" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="349" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1af7ef368d7cbe6f432163b430eb090b7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudApproxRelaxParams * MR_PointCloudApproxRelaxParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudRelax_8h_1afeb20f852d996b16a21c290b4218f0aa" kindref="member">MR_PointCloudApproxRelaxParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="353" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="353" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1adf72b82a06d86ce38e222e7a393b7b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudApproxRelaxParams * MR_PointCloudApproxRelaxParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPointCloudRelax_8h_1a50fa4ed90fa7bab39a239b32c0a2dc5e" kindref="member">MR_PointCloudApproxRelaxParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPointCloudRelax_8h_1adf7308c41d21293c49f39164a7bffbdc" kindref="member">MR_PointCloudApproxRelaxParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPointCloudRelax_8h_1a61f27c8cf51f9f1ddcdafb930f9463e1" kindref="member">MR_PointCloudApproxRelaxParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="358" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="358" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a61f27c8cf51f9f1ddcdafb930f9463e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API const MR_PointCloudApproxRelaxParams * MR_PointCloudApproxRelaxParams_OffsetPtr</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="362" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="362" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1adf7308c41d21293c49f39164a7bffbdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudApproxRelaxParams * MR_PointCloudApproxRelaxParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="366" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="366" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1adcbc92c7d8f78695c65a4d453ade4778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref> *</type>
+        <definition>MRC_API const MR_RelaxParams * MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *object)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> to its base class <computeroutput>MR::RelaxParams</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="370" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="370" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a1fed44aea8807cf705cf6703c1203a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref> *</type>
+        <definition>MRC_API MR_RelaxParams * MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *object)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> to its base class <computeroutput>MR::RelaxParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="373" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="373" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1af75164cf8b84c9b67e6393fac752393b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API const MR_PointCloudRelaxParams * MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *object)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> to its base class <computeroutput>MR::PointCloudRelaxParams</computeroutput>. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="377" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="377" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a2d6ca2ac885d349044e12b54ce278499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudRelaxParams * MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *object)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Upcasts an instance of <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> to its base class <computeroutput>MR::PointCloudRelaxParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="380" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="380" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1abb2f74949db9d2ad1a0461e7ad2bfbdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudApproxRelaxParams * MR_PointCloudApproxRelaxParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_other)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PointCloudApproxRelaxParams::PointCloudApproxRelaxParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudRelax_8h_1afeb20f852d996b16a21c290b4218f0aa" kindref="member">MR_PointCloudApproxRelaxParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="386" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="386" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1afeb20f852d996b16a21c290b4218f0aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_Destroy</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PointCloudApproxRelaxParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="389" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="389" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a50fa4ed90fa7bab39a239b32c0a2dc5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointCloudApproxRelaxParams_DestroyArray</definition>
+        <argsstring>(const MR_PointCloudApproxRelaxParams *_this)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PointCloudApproxRelaxParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="392" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="392" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1ad489daac054fd874f4ad5ef8e16b45f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+        <definition>MRC_API MR_PointCloudApproxRelaxParams * MR_PointCloudApproxRelaxParams_AssignFromAnother</definition>
+        <argsstring>(MR_PointCloudApproxRelaxParams *_this, const MR_PointCloudApproxRelaxParams *_other)</argsstring>
+        <name>MR_PointCloudApproxRelaxParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PointCloudApproxRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="400" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="400" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointCloudRelax_8h_1a19fa4189c34f19fa6e45560edb134663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_relaxApprox_3_MR_PointCloud</definition>
+        <argsstring>(MR_PointCloud *pointCloud, const MR_PointCloudApproxRelaxParams *params, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_relaxApprox_3_MR_PointCloud</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) approx neighborhoods <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback Generated from function <computeroutput>MR::relaxApprox</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" line="410" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h" declline="410" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRRelaxParams_8h" kindref="compound">MRCMesh/MRRelaxParams.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRPointCloudRelax_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRPointCloudRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRelaxParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRPointCloudRelax_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRPointCloudRelax_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRPointCloudRelax_8h_1a39741d4c5b9c9cf9bef8eeee70091e26" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a39741d4c5b9c9cf9bef8eeee70091e26" kindref="member">MR_PointCloudRelaxParams_Get_neighborhoodRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRPointCloudRelax_8h_1a0dca687b0245fa911c9eb3194e00c5ca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a0dca687b0245fa911c9eb3194e00c5ca" kindref="member">MR_PointCloudRelaxParams_Set_neighborhoodRadius</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRPointCloudRelax_8h_1a40583eb79fbecf1f2608e48d32527a41" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a40583eb79fbecf1f2608e48d32527a41" kindref="member">MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRPointCloudRelax_8h_1a7a982de326c614525106e0ee2c7219bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a7a982de326c614525106e0ee2c7219bc" kindref="member">MR_PointCloudRelaxParams_Get_iterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRPointCloudRelax_8h_1acb5cdea8959581bf28ecb4fd88c6828f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1acb5cdea8959581bf28ecb4fd88c6828f" kindref="member">MR_PointCloudRelaxParams_Set_iterations</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRPointCloudRelax_8h_1a4f4291d8cd40f316279dcefb593735a9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a4f4291d8cd40f316279dcefb593735a9" kindref="member">MR_PointCloudRelaxParams_GetMutable_iterations</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRPointCloudRelax_8h_1a6cfe6e1613e759bf22698e8b133220c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a6cfe6e1613e759bf22698e8b133220c3" kindref="member">MR_PointCloudRelaxParams_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRPointCloudRelax_8h_1ae738e33ff15b1a4b984816d595d7a3f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1ae738e33ff15b1a4b984816d595d7a3f9" kindref="member">MR_PointCloudRelaxParams_Set_region</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRPointCloudRelax_8h_1ab439e74bcf8d5b83cd7e7ac5823eae5f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPointCloudRelax_8h_1ab439e74bcf8d5b83cd7e7ac5823eae5f" kindref="member">MR_PointCloudRelaxParams_GetMutable_region</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRPointCloudRelax_8h_1ae8e6ae2256c8bdf7f8d3b5fd4dfebe6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1ae8e6ae2256c8bdf7f8d3b5fd4dfebe6a" kindref="member">MR_PointCloudRelaxParams_Get_force</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRPointCloudRelax_8h_1aaaae54bc68b98274448b323f03a79b5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1aaaae54bc68b98274448b323f03a79b5e" kindref="member">MR_PointCloudRelaxParams_Set_force</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRPointCloudRelax_8h_1a51f0af1eafdbac253c55d6b63d51d798" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a51f0af1eafdbac253c55d6b63d51d798" kindref="member">MR_PointCloudRelaxParams_GetMutable_force</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRPointCloudRelax_8h_1a700dc0c764e35c9c1fc3661919451b01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a700dc0c764e35c9c1fc3661919451b01" kindref="member">MR_PointCloudRelaxParams_Get_limitNearInitial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRPointCloudRelax_8h_1ad8e8f84eeb16af11e99f2e0b5763075c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1ad8e8f84eeb16af11e99f2e0b5763075c" kindref="member">MR_PointCloudRelaxParams_Set_limitNearInitial</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRPointCloudRelax_8h_1a3d16bbe8e477814b96e0217b33443358" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a3d16bbe8e477814b96e0217b33443358" kindref="member">MR_PointCloudRelaxParams_GetMutable_limitNearInitial</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRPointCloudRelax_8h_1afd1eab7744e0f74fce410fdfb8a18e3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1afd1eab7744e0f74fce410fdfb8a18e3a" kindref="member">MR_PointCloudRelaxParams_Get_maxInitialDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRPointCloudRelax_8h_1a2adfa03e1c880c46a7ed01b96968f42a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a2adfa03e1c880c46a7ed01b96968f42a" kindref="member">MR_PointCloudRelaxParams_Set_maxInitialDist</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRPointCloudRelax_8h_1ade89f32a41952277c8cc375ed63ce18a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1ade89f32a41952277c8cc375ed63ce18a" kindref="member">MR_PointCloudRelaxParams_GetMutable_maxInitialDist</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRPointCloudRelax_8h_1a883d4a4ac37a2b28cecee8f56e411b89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a883d4a4ac37a2b28cecee8f56e411b89" kindref="member">MR_PointCloudRelaxParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRPointCloudRelax_8h_1ac313522c3cd2e880a4a14f0bb15287d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1ac313522c3cd2e880a4a14f0bb15287d8" kindref="member">MR_PointCloudRelaxParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRPointCloudRelax_8h_1aa1d9fd4a3b0d2a3a5ad61c3d64662e9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1aa1d9fd4a3b0d2a3a5ad61c3d64662e9c" kindref="member">MR_PointCloudRelaxParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRPointCloudRelax_8h_1a37cc381bb89aa9b3ac2c6a15015196d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a37cc381bb89aa9b3ac2c6a15015196d9" kindref="member">MR_PointCloudRelaxParams_OffsetMutablePtr</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRPointCloudRelax_8h_1a9117260d4581b2cc4573ba70627f71c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a9117260d4581b2cc4573ba70627f71c3" kindref="member">MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRPointCloudRelax_8h_1a0ed7c2e380d638a9865870cf06672e30" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a0ed7c2e380d638a9865870cf06672e30" kindref="member">MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRPointCloudRelax_8h_1a9b8361be70472a3f7c3bce696ffb5223" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a9b8361be70472a3f7c3bce696ffb5223" kindref="member">MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRPointCloudRelax_8h_1ae7f606fab30e51e1e33343ea3df6754e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1ae7f606fab30e51e1e33343ea3df6754e" kindref="member">MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRPointCloudRelax_8h_1a54cb8c09d5839555b9e81e0a1c2416bf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a54cb8c09d5839555b9e81e0a1c2416bf" kindref="member">MR_PointCloudRelaxParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRPointCloudRelax_8h_1a8327f70871b0a5d1af999c174c4eb757" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a8327f70871b0a5d1af999c174c4eb757" kindref="member">MR_PointCloudRelaxParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRPointCloudRelax_8h_1a44d4c8829b4427a1a97bd4e51525f3de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a44d4c8829b4427a1a97bd4e51525f3de" kindref="member">MR_PointCloudRelaxParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRPointCloudRelax_8h_1a9e28577b3ec9b26e2adef3effb1b105e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a9e28577b3ec9b26e2adef3effb1b105e" kindref="member">MR_PointCloudRelaxParams_AssignFromAnother</ref>(<ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="MRPointCloudRelax_8h_1aef742ac7bd70fa90d91fec9025e8d375" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1aef742ac7bd70fa90d91fec9025e8d375" kindref="member">MR_relax_3_MR_PointCloud</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*params,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRPointCloudRelax_8h_1a8f73122d5fe8b71d808f59bba8bcd17a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a8f73122d5fe8b71d808f59bba8bcd17a" kindref="member">MR_relaxKeepVolume_3_MR_PointCloud</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*params,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRPointCloudRelax_8h_1afe2f37beb5f943a3d7f14bcc80a64f9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1afe2f37beb5f943a3d7f14bcc80a64f9c" kindref="member">MR_PointCloudApproxRelaxParams_Get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRPointCloudRelax_8h_1a0742100658434c4bd73ac3ba6f466503" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a0742100658434c4bd73ac3ba6f466503" kindref="member">MR_PointCloudApproxRelaxParams_Set_type</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/><ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref><sp/>value);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRPointCloudRelax_8h_1af9b5e5cbe61e4c019f2b7115abb47947" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1af9b5e5cbe61e4c019f2b7115abb47947" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_type</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRPointCloudRelax_8h_1acfae989ced59b1e048557d4471019235" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1acfae989ced59b1e048557d4471019235" kindref="member">MR_PointCloudApproxRelaxParams_Get_neighborhoodRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRPointCloudRelax_8h_1aec03302f1e1dc2003fc8c0801e72e5e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1aec03302f1e1dc2003fc8c0801e72e5e5" kindref="member">MR_PointCloudApproxRelaxParams_Set_neighborhoodRadius</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRPointCloudRelax_8h_1aa2811309042b7da6a5761958804952c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1aa2811309042b7da6a5761958804952c7" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_neighborhoodRadius</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MRPointCloudRelax_8h_1acca133afdfc2fb058cd2a96449af9782" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1acca133afdfc2fb058cd2a96449af9782" kindref="member">MR_PointCloudApproxRelaxParams_Get_iterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRPointCloudRelax_8h_1a28053cc32c62e25c7ba34cd285a7b46e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a28053cc32c62e25c7ba34cd285a7b46e" kindref="member">MR_PointCloudApproxRelaxParams_Set_iterations</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRPointCloudRelax_8h_1acf9b275e5c9d5bb701fc86e136ceca05" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1acf9b275e5c9d5bb701fc86e136ceca05" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_iterations</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRPointCloudRelax_8h_1a8eabae8a7582fe92405ab8e3bd5f502d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a8eabae8a7582fe92405ab8e3bd5f502d" kindref="member">MR_PointCloudApproxRelaxParams_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRPointCloudRelax_8h_1ad0e5738bacbff8f3ee696c0c68f52d2b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1ad0e5738bacbff8f3ee696c0c68f52d2b" kindref="member">MR_PointCloudApproxRelaxParams_Set_region</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="MRPointCloudRelax_8h_1a0d55ee30e852d7740987f660cf9ffe7c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPointCloudRelax_8h_1a0d55ee30e852d7740987f660cf9ffe7c" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_region</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRPointCloudRelax_8h_1a7d2035a938386d7302acfa3133cc83a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a7d2035a938386d7302acfa3133cc83a2" kindref="member">MR_PointCloudApproxRelaxParams_Get_force</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRPointCloudRelax_8h_1a9efb4fed8592eb2860c81c43b20d74c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a9efb4fed8592eb2860c81c43b20d74c1" kindref="member">MR_PointCloudApproxRelaxParams_Set_force</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="MRPointCloudRelax_8h_1af6b5aeebcbedd648551ea8938ff9c4f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1af6b5aeebcbedd648551ea8938ff9c4f1" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_force</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRPointCloudRelax_8h_1a40bb9c1f23645016e12a2bb0c48d4fb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a40bb9c1f23645016e12a2bb0c48d4fb4" kindref="member">MR_PointCloudApproxRelaxParams_Get_limitNearInitial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="MRPointCloudRelax_8h_1a589122d742e6dd62ce959b0cfba8c70e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a589122d742e6dd62ce959b0cfba8c70e" kindref="member">MR_PointCloudApproxRelaxParams_Set_limitNearInitial</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="MRPointCloudRelax_8h_1ae257aa45302bd3a2bc030c7de04d5250" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1ae257aa45302bd3a2bc030c7de04d5250" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_limitNearInitial</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="MRPointCloudRelax_8h_1ac9b9795953e486939aaab7a0af9464b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1ac9b9795953e486939aaab7a0af9464b3" kindref="member">MR_PointCloudApproxRelaxParams_Get_maxInitialDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="MRPointCloudRelax_8h_1aa25cf64c41d5e04f8609032105547ad7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1aa25cf64c41d5e04f8609032105547ad7" kindref="member">MR_PointCloudApproxRelaxParams_Set_maxInitialDist</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="MRPointCloudRelax_8h_1a412518d688d076101baf69ce1fbdf724" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudRelax_8h_1a412518d688d076101baf69ce1fbdf724" kindref="member">MR_PointCloudApproxRelaxParams_GetMutable_maxInitialDist</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRPointCloudRelax_8h_1af7ef368d7cbe6f432163b430eb090b7f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1af7ef368d7cbe6f432163b430eb090b7f" kindref="member">MR_PointCloudApproxRelaxParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="MRPointCloudRelax_8h_1adf72b82a06d86ce38e222e7a393b7b84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1adf72b82a06d86ce38e222e7a393b7b84" kindref="member">MR_PointCloudApproxRelaxParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="MRPointCloudRelax_8h_1a61f27c8cf51f9f1ddcdafb930f9463e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a61f27c8cf51f9f1ddcdafb930f9463e1" kindref="member">MR_PointCloudApproxRelaxParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MRPointCloudRelax_8h_1adf7308c41d21293c49f39164a7bffbdc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1adf7308c41d21293c49f39164a7bffbdc" kindref="member">MR_PointCloudApproxRelaxParams_OffsetMutablePtr</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="MRPointCloudRelax_8h_1adcbc92c7d8f78695c65a4d453ade4778" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1adcbc92c7d8f78695c65a4d453ade4778" kindref="member">MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="MRPointCloudRelax_8h_1a1fed44aea8807cf705cf6703c1203a65" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a1fed44aea8807cf705cf6703c1203a65" kindref="member">MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="MRPointCloudRelax_8h_1af75164cf8b84c9b67e6393fac752393b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1af75164cf8b84c9b67e6393fac752393b" kindref="member">MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380" refid="MRPointCloudRelax_8h_1a2d6ca2ac885d349044e12b54ce278499" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1a2d6ca2ac885d349044e12b54ce278499" kindref="member">MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="MRPointCloudRelax_8h_1abb2f74949db9d2ad1a0461e7ad2bfbdf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1abb2f74949db9d2ad1a0461e7ad2bfbdf" kindref="member">MR_PointCloudApproxRelaxParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="MRPointCloudRelax_8h_1afeb20f852d996b16a21c290b4218f0aa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1afeb20f852d996b16a21c290b4218f0aa" kindref="member">MR_PointCloudApproxRelaxParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392" refid="MRPointCloudRelax_8h_1a50fa4ed90fa7bab39a239b32c0a2dc5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a50fa4ed90fa7bab39a239b32c0a2dc5e" kindref="member">MR_PointCloudApproxRelaxParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400" refid="MRPointCloudRelax_8h_1ad489daac054fd874f4ad5ef8e16b45f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*<ref refid="MRPointCloudRelax_8h_1ad489daac054fd874f4ad5ef8e16b45f1" kindref="member">MR_PointCloudApproxRelaxParams_AssignFromAnother</ref>(<ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="410" refid="MRPointCloudRelax_8h_1a19fa4189c34f19fa6e45560edb134663" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a19fa4189c34f19fa6e45560edb134663" kindref="member">MR_relaxApprox_3_MR_PointCloud</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/>*params,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudRelax.h"/>
+  </compounddef>
+</doxygen>

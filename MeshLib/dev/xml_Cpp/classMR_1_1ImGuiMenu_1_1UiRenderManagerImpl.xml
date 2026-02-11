@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" kind="class" language="C++" prot="protected">
+    <compoundname>MR::ImGuiMenu::UiRenderManagerImpl</compoundname>
+    <basecompoundref refid="structMR_1_1UiRenderManager" prot="public" virt="non-virtual">MR::UiRenderManager</basecompoundref>
+    <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a810c0bc5c84d12f69dbbdd1510c7ea20" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" kindref="member">BasicUiRenderTask::InteractionMask</ref></type>
+        <definition>BasicUiRenderTask::InteractionMask MR::ImGuiMenu::UiRenderManagerImpl::consumedInteractions</definition>
+        <argsstring></argsstring>
+        <name>consumedInteractions</name>
+        <qualifiedname>MR::ImGuiMenu::UiRenderManagerImpl::consumedInteractions</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Which things are blocked by our <computeroutput>renderUi()</computeroutput> calls. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="426" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="426" bodyend="426"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a7347c1740073a409a4350f361af9b816" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ImGuiMenu::UiRenderManagerImpl::preRenderViewport</definition>
+        <argsstring>(ViewportId viewport) override</argsstring>
+        <name>preRenderViewport</name>
+        <qualifiedname>MR::ImGuiMenu::UiRenderManagerImpl::preRenderViewport</qualifiedname>
+        <reimplements refid="structMR_1_1UiRenderManager_1ae586ca77f767a1b38c45269b184c7118">preRenderViewport</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+<para>This is called before doing <computeroutput><ref refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">IRenderObject::renderUi()</ref></computeroutput> on even object in a viewport. Each viewport is rendered separately. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="420" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a40f36215f485498d7757d2473e6d2d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ImGuiMenu::UiRenderManagerImpl::postRenderViewport</definition>
+        <argsstring>(ViewportId viewport) override</argsstring>
+        <name>postRenderViewport</name>
+        <qualifiedname>MR::ImGuiMenu::UiRenderManagerImpl::postRenderViewport</qualifiedname>
+        <reimplements refid="structMR_1_1UiRenderManager_1af9cfebf3c57b3c9b6283d7de32fc4adc">postRenderViewport</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+<para>This is called after doing <computeroutput><ref refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">IRenderObject::renderUi()</ref></computeroutput> on even object in a viewport. Each viewport is rendered separately. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="421" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a1aa058b02893d9bc3fd3589e0dc7bf21" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API <ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref></type>
+        <definition>MRVIEWER_API BasicUiRenderTask::BackwardPassParams MR::ImGuiMenu::UiRenderManagerImpl::beginBackwardPass</definition>
+        <argsstring>(ViewportId viewport, UiRenderParams::UiTaskList &amp;tasks) override</argsstring>
+        <name>beginBackwardPass</name>
+        <qualifiedname>MR::ImGuiMenu::UiRenderManagerImpl::beginBackwardPass</qualifiedname>
+        <reimplements refid="structMR_1_1UiRenderManager_1a9601bd6d868289506f00155eb4711f5e">beginBackwardPass</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UiRenderParams_1a7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref> &amp;</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the parameters for the <computeroutput>IRenderObject::earlyBackwardPass()</computeroutput>. This will be called exactly once per viewport, each time the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> in it is rendered. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="422" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a6eae746d6778e271123fb43ad2f8f4e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ImGuiMenu::UiRenderManagerImpl::finishBackwardPass</definition>
+        <argsstring>(ViewportId viewport, const BasicUiRenderTask::BackwardPassParams &amp;params) override</argsstring>
+        <name>finishBackwardPass</name>
+        <qualifiedname>MR::ImGuiMenu::UiRenderManagerImpl::finishBackwardPass</qualifiedname>
+        <reimplements refid="structMR_1_1UiRenderManager_1aba65991bd7f7faf987ac0662a31a5875">finishBackwardPass</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>After the backward pass is performed, the parameters should be passed back into this function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="423" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a51953f10f06ecbdf36131c6711172452" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::ImGuiMenu::UiRenderManagerImpl::canConsumeEvent</definition>
+        <argsstring>(BasicUiRenderTask::InteractionMask event) const</argsstring>
+        <name>canConsumeEvent</name>
+        <qualifiedname>MR::ImGuiMenu::UiRenderManagerImpl::canConsumeEvent</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" kindref="member">BasicUiRenderTask::InteractionMask</ref></type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this returns false, the event should be allowed to pass through to other plugins, even if <ref refid="namespaceImGui" kindref="compound">ImGui</ref> wants to consume it. Pass at most one bit at a time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="430" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ImGuiMenu::UiRenderManagerImpl</label>
+        <link refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::UiRenderManager</label>
+        <link refid="structMR_1_1UiRenderManager"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ImGuiMenu::UiRenderManagerImpl</label>
+        <link refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::UiRenderManager</label>
+        <link refid="structMR_1_1UiRenderManager"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="417" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="418" bodyend="431"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a1aa058b02893d9bc3fd3589e0dc7bf21" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>beginBackwardPass</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a51953f10f06ecbdf36131c6711172452" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>canConsumeEvent</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a810c0bc5c84d12f69dbbdd1510c7ea20" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>consumedInteractions</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a6eae746d6778e271123fb43ad2f8f4e2" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>finishBackwardPass</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a40f36215f485498d7757d2473e6d2d64" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>postRenderViewport</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a7347c1740073a409a4350f361af9b816" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>preRenderViewport</name></member>
+      <member refid="structMR_1_1UiRenderManager_1a068f0178b855d81e92b613b5872c99ee" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>~UiRenderManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

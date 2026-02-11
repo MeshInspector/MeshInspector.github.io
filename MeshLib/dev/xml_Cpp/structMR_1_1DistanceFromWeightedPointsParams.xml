@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DistanceFromWeightedPointsParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DistanceFromWeightedPointsParams</compoundname>
+    <derivedcompoundref refid="structMR_1_1DistanceFromWeightedPointsComputeParams" prot="public" virt="non-virtual">MR::DistanceFromWeightedPointsComputeParams</derivedcompoundref>
+    <includes refid="MRClosestWeightedPoint_8h" local="no">MRClosestWeightedPoint.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsParams_1a1eaf010a7c663adafe798fdd9007fe6c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a036c60a88f141a437ffed0bc572fce6d" kindref="member">VertMetric</ref></type>
+        <definition>VertMetric MR::DistanceFromWeightedPointsParams::pointWeight</definition>
+        <argsstring></argsstring>
+        <name>pointWeight</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsParams::pointWeight</qualifiedname>
+        <briefdescription>
+<para>function returning the weight of each point, must be set by the user </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="77" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsParams_1a18407dd8e4524c66ba05a120168bbf92" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DistanceFromWeightedPointsParams::minWeight</definition>
+        <argsstring></argsstring>
+        <name>minWeight</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsParams::minWeight</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="81" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsParams_1a2167c5cb63bc5340893e5ba8381e5de4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DistanceFromWeightedPointsParams::maxWeight</definition>
+        <argsstring></argsstring>
+        <name>maxWeight</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsParams::maxWeight</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="85" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsParams_1ad08ccac9ccc26dcee3fa49c052003500" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::DistanceFromWeightedPointsParams::maxWeightGrad</definition>
+        <argsstring></argsstring>
+        <name>maxWeightGrad</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsParams::maxWeightGrad</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal magnitude of gradient of points&apos; weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="89" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DistanceFromWeightedPointsParams_1a443641ce50f2d662bdd033199017d2c2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::DistanceFromWeightedPointsParams::bidirectionalMode</definition>
+        <argsstring></argsstring>
+        <name>bidirectionalMode</name>
+        <qualifiedname>MR::DistanceFromWeightedPointsParams::bidirectionalMode</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="95" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::DistanceFromWeightedPointsComputeParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::DistanceFromWeightedPointsParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsParams"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="75" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a443641ce50f2d662bdd033199017d2c2" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>bidirectionalMode</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a2167c5cb63bc5340893e5ba8381e5de4" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>maxWeight</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1ad08ccac9ccc26dcee3fa49c052003500" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>maxWeightGrad</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a18407dd8e4524c66ba05a120168bbf92" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>minWeight</name></member>
+      <member refid="structMR_1_1DistanceFromWeightedPointsParams_1a1eaf010a7c663adafe798fdd9007fe6c" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>pointWeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

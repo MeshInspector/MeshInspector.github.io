@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SliceInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SliceInfo</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1SliceInfoBase" prot="public" virt="non-virtual">mrmeshpy.SliceInfoBase</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SliceInfo_1a5b06affedcb4eab5e7e7cfc591bdbe66" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SliceInfo::_offsetof_imagePos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_imagePos</name>
+        <qualifiedname>mrmeshpy.SliceInfo._offsetof_imagePos</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52531" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a60713979c28d90dcf8935b1685eb0793" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SliceInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SliceInfo.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a336f884a47af9603207c2b0b8d60b0d6">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52534" bodyend="52535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SliceInfo" kindref="compound">SliceInfo</ref></type>
+        <definition> SliceInfo mrmeshpy.SliceInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SliceInfo.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a0847f6cd63155b71e4944759b50ca6d3">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52538" bodyend="52539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SliceInfo" kindref="compound">SliceInfo</ref></type>
+        <definition> SliceInfo mrmeshpy.SliceInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SliceInfo.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a0847f6cd63155b71e4944759b50ca6d3">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52542" bodyend="52543"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a121b8ea578c4bbba0a4638cbabfcec50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SliceInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SliceInfo.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a336f884a47af9603207c2b0b8d60b0d6">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52545" bodyend="52546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a2ce306c50570d3237ce0943266838645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SliceInfo.__init__</definition>
+        <argsstring>(self, SliceInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SliceInfo.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SliceInfoBase_1a336f884a47af9603207c2b0b8d60b0d6">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SliceInfo" kindref="compound">SliceInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52548" bodyend="52551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a61d1647f4cb3411328fc43febbae2405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.SliceInfo.imagePos</definition>
+        <argsstring>(self)</argsstring>
+        <name>imagePos</name>
+        <qualifiedname>mrmeshpy.SliceInfo.imagePos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>image position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52553" bodyend="52556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SliceInfo_1a32c5b34206eb31dea38865906a30d309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SliceInfo.imagePos</definition>
+        <argsstring>(self, Vector3d arg1)</argsstring>
+        <name>imagePos</name>
+        <qualifiedname>mrmeshpy.SliceInfo.imagePos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52558" bodyend="52559"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SliceInfo
+
+slice information
+these fields will be ignored in sorting
+\\sa SliceInfoBase
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SliceInfo</label>
+        <link refid="classmrmeshpy_1_1SliceInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SliceInfoBase</label>
+        <link refid="classmrmeshpy_1_1SliceInfoBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SliceInfo</label>
+        <link refid="classmrmeshpy_1_1SliceInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_imagePos</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SliceInfoBase</label>
+        <link refid="classmrmeshpy_1_1SliceInfoBase"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_fileNum</edgelabel>
+          <edgelabel>_offsetof_instanceNum</edgelabel>
+          <edgelabel>_offsetof_z</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52523" bodyend="52559"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a60713979c28d90dcf8935b1685eb0793" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a121b8ea578c4bbba0a4638cbabfcec50" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a2ce306c50570d3237ce0943266838645" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a5b06affedcb4eab5e7e7cfc591bdbe66" prot="protected" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>_offsetof_imagePos</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a61d1647f4cb3411328fc43febbae2405" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>imagePos</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a32c5b34206eb31dea38865906a30d309" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>imagePos</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SliceInfo_1a68709d81e4b3a911815d2bc53b1030de" prot="public" virt="non-virtual"><scope>mrmeshpy::SliceInfo</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

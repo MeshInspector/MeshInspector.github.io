@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface::TPMS::Type</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a5549bbbcfb52a78cea93212629312020" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.Type::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a4bfd7aac66600a2296e4dc3f78175163" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.Type::DoubleGyroid</definition>
+        <argsstring></argsstring>
+        <name>DoubleGyroid</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.DoubleGyroid</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1ab4da6e41ddfccb3741865dece393ba2c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.Type::SchwartzP</definition>
+        <argsstring></argsstring>
+        <name>SchwartzP</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.SchwartzP</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1acb613ca42e20cd7386a90e01bc3601f8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.Type::ThickGyroid</definition>
+        <argsstring></argsstring>
+        <name>ThickGyroid</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.ThickGyroid</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a5ee4d8fd7ed338540c1613923be2042f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.Type::ThickSchwartzP</definition>
+        <argsstring></argsstring>
+        <name>ThickSchwartzP</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.ThickSchwartzP</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19729" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1ab4a4e109d8848c19942fd8040e4a1bac" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.TPMS.Type::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type" kindref="compound">FillingSurface.TPMS.Type</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19730" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a18527908827003c5a171df63836db799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.TPMS.Type.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19731" bodyend="19732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1afa654817804d971e0404217e566d7391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.Type.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19733" bodyend="19734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a025a41a1ea7ff91aab6e41fe7fb93b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.Type.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19735" bodyend="19736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a6f1f74b9b6da79decf05f7ce7923eb59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.Type.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19737" bodyend="19738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a4829065106debde68cb18438916294f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.Type.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19739" bodyend="19740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a074d9576aef77d4fd49ad7d581b41c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.Type.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19741" bodyend="19742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a50cd8ab6ff75c3ac43dc3f03b2068fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.TPMS.Type.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19743" bodyend="19744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a1b52208a9997b14979bab016494a93e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillingSurface.TPMS.Type.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19745" bodyend="19746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a04055a5394347651a42bbb0fe513a566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.TPMS.Type.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19747" bodyend="19748"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1ac428065abb4f75288dcddd0d55c97540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillingSurface.TPMS.Type.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19749" bodyend="19750"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a06c26f37caa218000b0afb4b9cddfd2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillingSurface.TPMS.Type.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19752" bodyend="19753"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1aa0c35a5efaba5564bc8f660322ecf0ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.Type.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.Type.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19755" bodyend="19757"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  SchwartzP
+
+  ThickSchwartzP
+
+  DoubleGyroid
+
+  ThickGyroid
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillingSurface.TPMS.Type</label>
+        <link refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>DoubleGyroid</edgelabel>
+          <edgelabel>SchwartzP</edgelabel>
+          <edgelabel>ThickGyroid</edgelabel>
+          <edgelabel>ThickSchwartzP</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19711" bodyend="19756"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a18527908827003c5a171df63836db799" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1afa654817804d971e0404217e566d7391" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a025a41a1ea7ff91aab6e41fe7fb93b8b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a6f1f74b9b6da79decf05f7ce7923eb59" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a4829065106debde68cb18438916294f0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a074d9576aef77d4fd49ad7d581b41c64" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1ab4a4e109d8848c19942fd8040e4a1bac" prot="private" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a50cd8ab6ff75c3ac43dc3f03b2068fdb" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a1b52208a9997b14979bab016494a93e0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a04055a5394347651a42bbb0fe513a566" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1ac428065abb4f75288dcddd0d55c97540" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a5549bbbcfb52a78cea93212629312020" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a4bfd7aac66600a2296e4dc3f78175163" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>DoubleGyroid</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a06c26f37caa218000b0afb4b9cddfd2d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1ab4da6e41ddfccb3741865dece393ba2c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>SchwartzP</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1acb613ca42e20cd7386a90e01bc3601f8" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>ThickGyroid</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1a5ee4d8fd7ed338540c1613923be2042f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>ThickSchwartzP</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type_1aa0c35a5efaba5564bc8f660322ecf0ef" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::Type</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

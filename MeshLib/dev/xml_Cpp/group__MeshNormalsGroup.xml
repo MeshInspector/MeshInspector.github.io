@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshNormalsGroup" kind="group">
+    <compoundname>MeshNormalsGroup</compoundname>
+    <title>Mesh Normals</title>
+    <innerclass refid="structMR_1_1MeshNormals" prot="public">MR::MeshNormals</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" prot="public" static="no">
+        <type>std::array&lt; Vector3f, 3 &gt;</type>
+        <definition>using MR::TriangleCornerNormals =  std::array&lt;Vector3f, 3&gt;</definition>
+        <argsstring></argsstring>
+        <name>TriangleCornerNormals</name>
+        <qualifiedname>MR::TriangleCornerNormals</qualifiedname>
+        <briefdescription>
+<para>normals in three corner of a triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshNormalsGroup_1gab8d9ad3d41ea00136ac9d8c59766ab0c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceNormals</type>
+        <definition>MRMESH_API FaceNormals MR::computePerFaceNormals</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>computePerFaceNormals</name>
+        <qualifiedname>MR::computePerFaceNormals</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>returns a vector with face-normal in every element for valid mesh faces </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="23" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="23" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshNormalsGroup_1ga855f28ca0270228f5a867c2f2fc42e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::computePerFaceNormals4</definition>
+        <argsstring>(const Mesh &amp;mesh, Vector4f *faceNormals, size_t size)</argsstring>
+        <name>computePerFaceNormals4</name>
+        <qualifiedname>MR::computePerFaceNormals4</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>Vector4f *</type>
+          <declname>faceNormals</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>fills buffer with face-normals as Vector4f for valid mesh faces </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="26" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshNormalsGroup_1ga5cd4c5961165390a68a0b055b5befbfa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertNormals</type>
+        <definition>MRMESH_API VertNormals MR::computePerVertNormals</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>computePerVertNormals</name>
+        <qualifiedname>MR::computePerVertNormals</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>returns a vector with vertex normals in every element for valid mesh vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="29" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="29" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshNormalsGroup_1ga5f58b21ccaa06eb95ccacb6fdfa5f35c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertNormals</type>
+        <definition>MRMESH_API VertNormals MR::computePerVertPseudoNormals</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>computePerVertPseudoNormals</name>
+        <qualifiedname>MR::computePerVertPseudoNormals</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns a vector with vertex pseudonormals in every element for valid mesh vertices see <ulink url="http:///">http:///</ulink> citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&amp;rep=rep1&amp;type=pdf </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="33" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="33" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshNormalsGroup_1ga9d74c5dbc254d3fdb328a8ac37ba7529" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MeshNormals</type>
+        <definition>MRMESH_API MeshNormals MR::computeMeshNormals</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>computeMeshNormals</name>
+        <qualifiedname>MR::computeMeshNormals</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>computes both per-face and per-vertex normals more efficiently then just calling both previous functions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="36" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshNormalsGroup_1gaadd26fa2561ab2ec3b62b2dea079161c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector&lt; TriangleCornerNormals, FaceId &gt;</type>
+        <definition>MRMESH_API Vector&lt; TriangleCornerNormals, FaceId &gt; MR::computePerCornerNormals</definition>
+        <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet *creases)</argsstring>
+        <name>computePerCornerNormals</name>
+        <qualifiedname>MR::computePerCornerNormals</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>creases</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns a vector with corner normals in every element for valid mesh faces; corner normals of adjacent triangles are equal, unless they are separated by crease edges </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="42" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="42" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

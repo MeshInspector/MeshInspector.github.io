@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRParabola_8h" kind="file" language="C++">
+    <compoundname>MRParabola.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRParabola.h</label>
+        <link refid="MRParabola_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" prot="public" static="no">
+        <type>struct <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref></type>
+        <definition>typedef struct MR_Parabolaf MR_Parabolaf</definition>
+        <argsstring></argsstring>
+        <name>MR_Parabolaf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput>MR::Parabolaf</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="15" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" prot="public" static="no">
+        <type>struct <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref></type>
+        <definition>typedef struct MR_Parabolad MR_Parabolad</definition>
+        <argsstring></argsstring>
+        <name>MR_Parabolad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput>MR::Parabolad</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="20" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Parabolaf_Get_a</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_Get_a</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="25" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="25" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolaf_Set_a</definition>
+        <argsstring>(MR_Parabolaf *_this, float value)</argsstring>
+        <name>MR_Parabolaf_Set_a</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="30" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="30" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Parabolaf_GetMutable_a</definition>
+        <argsstring>(MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="35" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="35" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Parabolaf_Get_b</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_Get_b</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="40" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="40" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolaf_Set_b</definition>
+        <argsstring>(MR_Parabolaf *_this, float value)</argsstring>
+        <name>MR_Parabolaf_Set_b</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Parabolaf_GetMutable_b</definition>
+        <argsstring>(MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="50" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="50" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Parabolaf_Get_c</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_Get_c</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>c</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="55" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="55" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolaf_Set_c</definition>
+        <argsstring>(MR_Parabolaf *_this, float value)</argsstring>
+        <name>MR_Parabolaf_Set_c</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>c</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>c</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="60" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Parabolaf_GetMutable_c</definition>
+        <argsstring>(MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_GetMutable_c</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Parabolaf</computeroutput> named <computeroutput>c</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="65" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="65" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API MR_Parabolaf * MR_Parabolaf_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Parabolaf_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" kindref="member">MR_Parabolaf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="69" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="69" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API MR_Parabolaf * MR_Parabolaf_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Parabolaf_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" kindref="member">MR_Parabolaf_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" kindref="member">MR_Parabolaf_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" kindref="member">MR_Parabolaf_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="74" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="74" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API const MR_Parabolaf * MR_Parabolaf_OffsetPtr</definition>
+        <argsstring>(const MR_Parabolaf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Parabolaf_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="78" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="78" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API MR_Parabolaf * MR_Parabolaf_OffsetMutablePtr</definition>
+        <argsstring>(MR_Parabolaf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Parabolaf_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="82" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="82" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a43374250052334aa455c21e69e990666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API MR_Parabolaf * MR_Parabolaf_ConstructFromAnother</definition>
+        <argsstring>(const MR_Parabolaf *_other)</argsstring>
+        <name>MR_Parabolaf_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Parabolaf::Parabolaf</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" kindref="member">MR_Parabolaf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="88" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="88" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API MR_Parabolaf * MR_Parabolaf_Construct</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>MR_Parabolaf_Construct</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Parabolaf::Parabolaf</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" kindref="member">MR_Parabolaf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="92" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="92" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolaf_Destroy</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Parabolaf</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolaf_DestroyArray</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Parabolaf</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <definition>MRC_API MR_Parabolaf * MR_Parabolaf_AssignFromAnother</definition>
+        <argsstring>(MR_Parabolaf *_this, const MR_Parabolaf *_other)</argsstring>
+        <name>MR_Parabolaf_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Parabolaf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="106" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="106" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_Parabolaf_call</definition>
+        <argsstring>(const MR_Parabolaf *_this, float x)</argsstring>
+        <name>MR_Parabolaf_call</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute value of quadratic function at any x Generated from method <computeroutput>MR::Parabolaf::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="111" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="111" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_Parabolaf_extremArg</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_extremArg</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>argument (x) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput>MR::Parabolaf::extremArg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="116" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="116" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float</type>
+        <definition>MRC_API float MR_Parabolaf_extremVal</definition>
+        <argsstring>(const MR_Parabolaf *_this)</argsstring>
+        <name>MR_Parabolaf_extremVal</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput>MR::Parabolaf::extremVal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="121" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="121" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_Parabolad_Get_a</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_Get_a</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="126" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="126" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolad_Set_a</definition>
+        <argsstring>(MR_Parabolad *_this, double value)</argsstring>
+        <name>MR_Parabolad_Set_a</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="131" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_Parabolad_GetMutable_a</definition>
+        <argsstring>(MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="136" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="136" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_Parabolad_Get_b</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_Get_b</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="141" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="141" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolad_Set_b</definition>
+        <argsstring>(MR_Parabolad *_this, double value)</argsstring>
+        <name>MR_Parabolad_Set_b</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="146" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_Parabolad_GetMutable_b</definition>
+        <argsstring>(MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="151" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="151" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_Parabolad_Get_c</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_Get_c</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>c</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="156" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="156" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolad_Set_c</definition>
+        <argsstring>(MR_Parabolad *_this, double value)</argsstring>
+        <name>MR_Parabolad_Set_c</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>c</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>c</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="161" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_Parabolad_GetMutable_c</definition>
+        <argsstring>(MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_GetMutable_c</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Parabolad</computeroutput> named <computeroutput>c</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="166" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="166" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API MR_Parabolad * MR_Parabolad_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Parabolad_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" kindref="member">MR_Parabolad_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="170" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="170" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API MR_Parabolad * MR_Parabolad_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Parabolad_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" kindref="member">MR_Parabolad_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" kindref="member">MR_Parabolad_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" kindref="member">MR_Parabolad_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="175" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="175" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API const MR_Parabolad * MR_Parabolad_OffsetPtr</definition>
+        <argsstring>(const MR_Parabolad *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Parabolad_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="179" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="179" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API MR_Parabolad * MR_Parabolad_OffsetMutablePtr</definition>
+        <argsstring>(MR_Parabolad *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Parabolad_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="183" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="183" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API MR_Parabolad * MR_Parabolad_ConstructFromAnother</definition>
+        <argsstring>(const MR_Parabolad *_other)</argsstring>
+        <name>MR_Parabolad_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Parabolad::Parabolad</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" kindref="member">MR_Parabolad_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="189" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="189" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API MR_Parabolad * MR_Parabolad_Construct</definition>
+        <argsstring>(double a, double b, double c)</argsstring>
+        <name>MR_Parabolad_Construct</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Parabolad::Parabolad</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" kindref="member">MR_Parabolad_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="193" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="193" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolad_Destroy</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Parabolad</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="196" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Parabolad_DestroyArray</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Parabolad</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="199" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="199" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <definition>MRC_API MR_Parabolad * MR_Parabolad_AssignFromAnother</definition>
+        <argsstring>(MR_Parabolad *_this, const MR_Parabolad *_other)</argsstring>
+        <name>MR_Parabolad_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Parabolad::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="207" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="207" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_Parabolad_call</definition>
+        <argsstring>(const MR_Parabolad *_this, double x)</argsstring>
+        <name>MR_Parabolad_call</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute value of quadratic function at any x Generated from method <computeroutput>MR::Parabolad::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="212" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="212" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_Parabolad_extremArg</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_extremArg</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>argument (x) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput>MR::Parabolad::extremArg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="217" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="217" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_Parabolad_extremVal</definition>
+        <argsstring>(const MR_Parabolad *_this)</argsstring>
+        <name>MR_Parabolad_extremVal</name>
+        <param>
+          <type>const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput>MR::Parabolad::extremVal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="222" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="222" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" kindref="member">MR_Parabolaf_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" kindref="member">MR_Parabolaf_Set_a</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" kindref="member">MR_Parabolaf_GetMutable_a</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" kindref="member">MR_Parabolaf_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" kindref="member">MR_Parabolaf_Set_b</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" kindref="member">MR_Parabolaf_GetMutable_b</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" kindref="member">MR_Parabolaf_Get_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" kindref="member">MR_Parabolaf_Set_c</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" kindref="member">MR_Parabolaf_GetMutable_c</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" kindref="member">MR_Parabolaf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" kindref="member">MR_Parabolaf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" kindref="member">MR_Parabolaf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" kindref="member">MR_Parabolaf_OffsetMutablePtr</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRParabola_8h_1a43374250052334aa455c21e69e990666" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a43374250052334aa455c21e69e990666" kindref="member">MR_Parabolaf_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" kindref="member">MR_Parabolaf_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" kindref="member">MR_Parabolaf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" kindref="member">MR_Parabolaf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" kindref="member">MR_Parabolaf_AssignFromAnother</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" kindref="member">MR_Parabolaf_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" kindref="member">MR_Parabolaf_extremArg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" kindref="member">MR_Parabolaf_extremVal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" kindref="member">MR_Parabolad_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" kindref="member">MR_Parabolad_Set_a</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" kindref="member">MR_Parabolad_GetMutable_a</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" kindref="member">MR_Parabolad_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" kindref="member">MR_Parabolad_Set_b</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" kindref="member">MR_Parabolad_GetMutable_b</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" kindref="member">MR_Parabolad_Get_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" kindref="member">MR_Parabolad_Set_c</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" kindref="member">MR_Parabolad_GetMutable_c</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" kindref="member">MR_Parabolad_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" kindref="member">MR_Parabolad_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" kindref="member">MR_Parabolad_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" kindref="member">MR_Parabolad_OffsetMutablePtr</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" kindref="member">MR_Parabolad_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" kindref="member">MR_Parabolad_Construct</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" kindref="member">MR_Parabolad_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" kindref="member">MR_Parabolad_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" kindref="member">MR_Parabolad_AssignFromAnother</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" kindref="member">MR_Parabolad_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" kindref="member">MR_Parabolad_extremArg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" kindref="member">MR_Parabolad_extremVal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h"/>
+  </compounddef>
+</doxygen>

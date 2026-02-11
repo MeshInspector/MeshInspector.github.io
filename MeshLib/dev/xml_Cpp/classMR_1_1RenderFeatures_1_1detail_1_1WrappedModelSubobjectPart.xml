@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderFeatures::detail::WrappedModelSubobjectPart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseObjectType</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; false, BaseObjectType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, BaseObjectType &gt;</derivedcompoundref>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <templateparamlist>
+      <param>
+        <type>bool</type>
+        <declname>IsPrimary</declname>
+        <defname>IsPrimary</defname>
+      </param>
+      <param>
+        <type>typename BaseObjectType</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+<para>See <computeroutput><ref refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject" kindref="compound">WrappedModelSubobject</ref></computeroutput> below. This class holds optional components for it that depend on the template parameter. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseObjectType</label>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseObjectType</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="21" bodyend="21"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

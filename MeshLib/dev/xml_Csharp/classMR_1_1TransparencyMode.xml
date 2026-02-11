@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TransparencyMode" kind="class" language="C#" prot="public">
+    <compoundname>MR::TransparencyMode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TransparencyMode</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a1bcccbc116a57b71d80b641b3ab3e535" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransparencyMode.TransparencyMode</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.TransparencyMode</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="137" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="137" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a6a8955e1dec75a47c6f5a4d18d42dbc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransparencyMode.TransparencyMode</definition>
+        <argsstring>()</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.TransparencyMode</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="142" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="142" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a2cd1ea9626c0afc106cac03ca950f955" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransparencyMode.TransparencyMode</definition>
+        <argsstring>(MR.Const_TransparencyMode _other)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.TransparencyMode</qualifiedname>
+        <param>
+          <type>MR.Const_TransparencyMode</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransparencyMode.TransparencyMode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a80b8bed4a7468fbd7870defb2878f2f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TransparencyMode.TransparencyMode</definition>
+        <argsstring>(TransparencyMode _other)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.TransparencyMode</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransparencyMode.TransparencyMode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="163" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a1afbb71b2f2cb29009fd73ef7a15749f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransparencyMode.TransparencyMode</definition>
+        <argsstring>(bool alphaSort)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.TransparencyMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>alphaSort</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransparencyMode.TransparencyMode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="168" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="168" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a897638ae357f52b77a383dc848282572" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransparencyMode.TransparencyMode</definition>
+        <argsstring>(uint bgDepthTexId, uint fgColorTexId, uint fgDepthTexId)</argsstring>
+        <name>TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.TransparencyMode</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>bgDepthTexId</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>fgColorTexId</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>fgDepthTexId</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransparencyMode.TransparencyMode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="183" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="183" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a2083c535cedd9ffb672899a2f766c04a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TransparencyMode" kindref="compound">MR.TransparencyMode</ref></type>
+        <definition>unsafe MR.TransparencyMode MR.TransparencyMode.assign</definition>
+        <argsstring>(MR.Const_TransparencyMode _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TransparencyMode.assign</qualifiedname>
+        <param>
+          <type>MR.Const_TransparencyMode</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TransparencyMode.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="193" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="193" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1TransparencyMode_1a77f5e900df67cb2b1dd9290115247248" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.TransparencyMode.operator TransparencyMode</definition>
+        <argsstring>(bool alphaSort)</argsstring>
+        <name>operator TransparencyMode</name>
+        <qualifiedname>MR.TransparencyMode.operator TransparencyMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>alphaSort</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransparencyMode.TransparencyMode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="178" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="178" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>struct to determine transparent rendering mode Generated from class <computeroutput><ref refid="classMR_1_1TransparencyMode" kindref="compound">MR.TransparencyMode</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TransparencyMode</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TransparencyMode</label>
+        <link refid="classMR_1_1TransparencyMode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TransparencyMode &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TransparencyMode</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TransparencyMode</label>
+        <link refid="classMR_1_1TransparencyMode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TransparencyMode &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="135" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="136" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TransparencyMode_1a2083c535cedd9ffb672899a2f766c04a" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>assign</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a77f5e900df67cb2b1dd9290115247248" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>operator TransparencyMode</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a1bcccbc116a57b71d80b641b3ab3e535" prot="package" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a6a8955e1dec75a47c6f5a4d18d42dbc6" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a2cd1ea9626c0afc106cac03ca950f955" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a80b8bed4a7468fbd7870defb2878f2f3" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a1afbb71b2f2cb29009fd73ef7a15749f" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+      <member refid="classMR_1_1TransparencyMode_1a897638ae357f52b77a383dc848282572" prot="public" virt="non-virtual"><scope>MR::TransparencyMode</scope><name>TransparencyMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

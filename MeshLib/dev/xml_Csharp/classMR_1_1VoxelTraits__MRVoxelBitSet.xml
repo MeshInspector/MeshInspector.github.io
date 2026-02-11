@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelTraits__MRVoxelBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelTraits_MRVoxelBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVoxelBitSet</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVoxelBitSet_1aa647287d5abbe52643910ee9141fe485" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VoxelTraits_MRVoxelBitSet</name>
+        <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3869" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3869" bodyend="3869"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVoxelBitSet_1a80a05872b0b8ff5b326621ad02c63c45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>VoxelTraits_MRVoxelBitSet</name>
+        <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3874" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3874" bodyend="3879"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVoxelBitSet_1aab16965ff29be7523d5d45ee1c6cc026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</definition>
+        <argsstring>(MR.Const_VoxelTraits_MRVoxelBitSet _other)</argsstring>
+        <name>VoxelTraits_MRVoxelBitSet</name>
+        <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelTraits_MRVoxelBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VoxelTraits&lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3884" bodyend="3890"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVoxelBitSet_1af215ee84e4e27c3434fcd0012f948ad6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</definition>
+        <argsstring>(VoxelTraits_MRVoxelBitSet _other)</argsstring>
+        <name>VoxelTraits_MRVoxelBitSet</name>
+        <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelTraits__MRVoxelBitSet" kindref="compound">VoxelTraits_MRVoxelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VoxelTraits&lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3895" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3895" bodyend="3895"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVoxelBitSet_1a30fe54c58556198842e56f2de4581489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelTraits__MRVoxelBitSet" kindref="compound">MR.VoxelTraits_MRVoxelBitSet</ref></type>
+        <definition>unsafe MR.VoxelTraits_MRVoxelBitSet MR.VoxelTraits_MRVoxelBitSet.assign</definition>
+        <argsstring>(MR.Const_VoxelTraits_MRVoxelBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.assign</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelTraits_MRVoxelBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VoxelTraits&lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3900" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3900" bodyend="3907"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.VoxelTraits&lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VoxelTraits_MRVoxelBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VoxelTraits_MRVoxelBitSet</label>
+        <link refid="classMR_1_1VoxelTraits__MRVoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VoxelTraits_MRVoxelBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VoxelTraits_MRVoxelBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VoxelTraits_MRVoxelBitSet</label>
+        <link refid="classMR_1_1VoxelTraits__MRVoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VoxelTraits_MRVoxelBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3867" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3868" bodyend="3908"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1a30fe54c58556198842e56f2de4581489" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1aa647287d5abbe52643910ee9141fe485" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1a80a05872b0b8ff5b326621ad02c63c45" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1aab16965ff29be7523d5d45ee1c6cc026" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1af215ee84e4e27c3434fcd0012f948ad6" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,761 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshSave" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshSave</compoundname>
+    <innerclass refid="classMR_1_1MeshSave_1_1BinaryStlSaver" prot="public">MR::MeshSave::BinaryStlSaver</innerclass>
+    <innerclass refid="classMR_1_1MeshSave_1_1CtmSaveOptions" prot="public">MR::MeshSave::CtmSaveOptions</innerclass>
+    <innerclass refid="classMR_1_1MeshSave_1_1NamedXfMesh" prot="public">MR::MeshSave::NamedXfMesh</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a82ad98b2d8570ddfd98a9ada68bedd02" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toCtm</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.MeshSave.Const_CtmSaveOptions options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.MeshSave.Const_CtmSaveOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>saves in .ctm file Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a82ad98b2d8570ddfd98a9ada68bedd02" kindref="member">MR.MeshSave.toCtm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1235" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1235" bodyend="1246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a7988fc2ac6b3ff08bf3d5b057b2dcf3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toCtm</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.MeshSave.Const_CtmSaveOptions options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.MeshSave.Const_CtmSaveOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a82ad98b2d8570ddfd98a9ada68bedd02" kindref="member">MR.MeshSave.toCtm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1251" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1251" bodyend="1258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1ae2479c9649075a3f2cc85dcd9f6a2c76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toCtm</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a82ad98b2d8570ddfd98a9ada68bedd02" kindref="member">MR.MeshSave.toCtm</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1264" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1264" bodyend="1275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a3ad87e7d784e27d6adc5fb131ce7190f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toCtm</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a82ad98b2d8570ddfd98a9ada68bedd02" kindref="member">MR.MeshSave.toCtm</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1281" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1281" bodyend="1288"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toMrmesh</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toMrmesh</name>
+        <qualifiedname>MR.MeshSave.toMrmesh</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in internal file format; <ref refid="classMR_1_1SaveSettings_1a035062075a5d478d4550b55b8488db94" kindref="member">SaveSettings.onlyValidPoints</ref> = true is ignored Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" kindref="member">MR.MeshSave.toMrmesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="195" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="195" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1ac2c2b377fe8f0b1af7f12c5a533390a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toMrmesh</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toMrmesh</name>
+        <qualifiedname>MR.MeshSave.toMrmesh</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" kindref="member">MR.MeshSave.toMrmesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="212" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="212" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a045084fbf724cd87a0ec2bf4682e1d14" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toOff</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toOff</name>
+        <qualifiedname>MR.MeshSave.toOff</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in .off file Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a045084fbf724cd87a0ec2bf4682e1d14" kindref="member">MR.MeshSave.toOff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="226" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="226" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a7fde929e61d1c424328633bb577f653b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toOff</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toOff</name>
+        <qualifiedname>MR.MeshSave.toOff</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a045084fbf724cd87a0ec2bf4682e1d14" kindref="member">MR.MeshSave.toOff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="243" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="243" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a3f63fa876435f5e2be05def3a8bab696" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toObj</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings settings, int firstVertId)</argsstring>
+        <name>toObj</name>
+        <qualifiedname>MR.MeshSave.toObj</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>firstVertId</declname>
+        </param>
+        <briefdescription>
+<para>saves in .obj file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstVertId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the index of first mesh vertex in the output file (if this object is not the first there) Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a3f63fa876435f5e2be05def3a8bab696" kindref="member">MR.MeshSave.toObj</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="257" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="257" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1aa6c61af05b186988ddbfbf81f9660203" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toObj</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings settings, int firstVertId)</argsstring>
+        <name>toObj</name>
+        <qualifiedname>MR.MeshSave.toObj</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>firstVertId</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a3f63fa876435f5e2be05def3a8bab696" kindref="member">MR.MeshSave.toObj</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="273" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="273" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a4ad6e217bcb00b312977ee1389b07234" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toObj</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toObj</name>
+        <qualifiedname>MR.MeshSave.toObj</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a3f63fa876435f5e2be05def3a8bab696" kindref="member">MR.MeshSave.toObj</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="286" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="286" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a619f441ff9310c0d9a2b3898edf3f89f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toObj</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toObj</name>
+        <qualifiedname>MR.MeshSave.toObj</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a3f63fa876435f5e2be05def3a8bab696" kindref="member">MR.MeshSave.toObj</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="303" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="303" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a0c2051ee3c93474a670223aaaa9f3fca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toBinaryStl</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toBinaryStl</name>
+        <qualifiedname>MR.MeshSave.toBinaryStl</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in binary .stl file; <ref refid="classMR_1_1SaveSettings_1a035062075a5d478d4550b55b8488db94" kindref="member">SaveSettings.onlyValidPoints</ref> = false is ignored Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a0c2051ee3c93474a670223aaaa9f3fca" kindref="member">MR.MeshSave.toBinaryStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="318" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="318" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1abf025a8b9a325d09756a65e4834cc75c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toBinaryStl</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toBinaryStl</name>
+        <qualifiedname>MR.MeshSave.toBinaryStl</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a0c2051ee3c93474a670223aaaa9f3fca" kindref="member">MR.MeshSave.toBinaryStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="335" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="335" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a672e206f199a8e91b384ef0d10be6c84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toAsciiStl</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAsciiStl</name>
+        <qualifiedname>MR.MeshSave.toAsciiStl</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in textual .stl file; <ref refid="classMR_1_1SaveSettings_1a035062075a5d478d4550b55b8488db94" kindref="member">SaveSettings.onlyValidPoints</ref> = false is ignored Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a672e206f199a8e91b384ef0d10be6c84" kindref="member">MR.MeshSave.toAsciiStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="350" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="350" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1adec3c806f6f93d278b0acd537b9c14f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toAsciiStl</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAsciiStl</name>
+        <qualifiedname>MR.MeshSave.toAsciiStl</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a672e206f199a8e91b384ef0d10be6c84" kindref="member">MR.MeshSave.toAsciiStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="367" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="367" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toPly</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR.MeshSave.toPly</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in .ply file Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" kindref="member">MR.MeshSave.toPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="381" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="381" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a514066fad470bf952bfed44dd4319730" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toPly</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR.MeshSave.toPly</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" kindref="member">MR.MeshSave.toPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="398" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="398" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toModel3mf</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toModel3mf</name>
+        <qualifiedname>MR.MeshSave.toModel3mf</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in 3mf .model file Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" kindref="member">MR.MeshSave.toModel3mf</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="412" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="412" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a61c969185f711a6e683a9d463fe16bce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toModel3mf</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toModel3mf</name>
+        <qualifiedname>MR.MeshSave.toModel3mf</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" kindref="member">MR.MeshSave.toModel3mf</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="429" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="429" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a86d400df0182cfeb6eed1dc2b42559f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.to3mf</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>to3mf</name>
+        <qualifiedname>MR.MeshSave.to3mf</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in .3mf file Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a86d400df0182cfeb6eed1dc2b42559f4" kindref="member">MR.MeshSave.to3mf</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="443" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="443" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1aa009db2d7a6ab5d15d78d0f165207e1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.MeshSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and save mesh to it Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1aa009db2d7a6ab5d15d78d0f165207e1a" kindref="member">MR.MeshSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="461" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="461" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a5e4197c7f5c3e43327eafd82e320b59f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_Mesh mesh, string extension, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.MeshSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>extension in <computeroutput>*.ext</computeroutput> format Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1aa009db2d7a6ab5d15d78d0f165207e1a" kindref="member">MR.MeshSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="479" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="479" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a117c7529099c0cd29ea66b02883be913" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.sceneToObj</definition>
+        <argsstring>(MR.Std.Const_Vector_MRMeshSaveNamedXfMesh objects, string file, MR.VertColors? colors=null)</argsstring>
+        <name>sceneToObj</name>
+        <qualifiedname>MR.MeshSave.sceneToObj</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshSaveNamedXfMesh</type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>colors</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a117c7529099c0cd29ea66b02883be913" kindref="member">MR.MeshSave.sceneToObj</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" line="284" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" bodystart="284" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a5f1d5bbc7487d46b5807ddc77e0f5719" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.sceneToObj</definition>
+        <argsstring>(MR.Std.Const_Vector_MRMeshSaveNamedXfMesh objects, MR.Std.Ostream out_, MR.VertColors? colors=null)</argsstring>
+        <name>sceneToObj</name>
+        <qualifiedname>MR.MeshSave.sceneToObj</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshSaveNamedXfMesh</type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>colors</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a117c7529099c0cd29ea66b02883be913" kindref="member">MR.MeshSave.sceneToObj</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" line="300" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" bodystart="300" bodyend="307"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" bodystart="4" bodyend="308"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshSave_1a117c7529099c0cd29ea66b02883be913" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>sceneToObj</name></member>
+      <member refid="classMR_1_1MeshSave_1a5f1d5bbc7487d46b5807ddc77e0f5719" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>sceneToObj</name></member>
+      <member refid="classMR_1_1MeshSave_1a86d400df0182cfeb6eed1dc2b42559f4" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>to3mf</name></member>
+      <member refid="classMR_1_1MeshSave_1aa009db2d7a6ab5d15d78d0f165207e1a" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1MeshSave_1a5e4197c7f5c3e43327eafd82e320b59f" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1MeshSave_1a672e206f199a8e91b384ef0d10be6c84" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toAsciiStl</name></member>
+      <member refid="classMR_1_1MeshSave_1adec3c806f6f93d278b0acd537b9c14f5" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toAsciiStl</name></member>
+      <member refid="classMR_1_1MeshSave_1a0c2051ee3c93474a670223aaaa9f3fca" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toBinaryStl</name></member>
+      <member refid="classMR_1_1MeshSave_1abf025a8b9a325d09756a65e4834cc75c" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toBinaryStl</name></member>
+      <member refid="classMR_1_1MeshSave_1a82ad98b2d8570ddfd98a9ada68bedd02" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1MeshSave_1a7988fc2ac6b3ff08bf3d5b057b2dcf3c" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1MeshSave_1ae2479c9649075a3f2cc85dcd9f6a2c76" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1MeshSave_1a3ad87e7d784e27d6adc5fb131ce7190f" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toModel3mf</name></member>
+      <member refid="classMR_1_1MeshSave_1a61c969185f711a6e683a9d463fe16bce" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toModel3mf</name></member>
+      <member refid="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toMrmesh</name></member>
+      <member refid="classMR_1_1MeshSave_1ac2c2b377fe8f0b1af7f12c5a533390a1" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toMrmesh</name></member>
+      <member refid="classMR_1_1MeshSave_1a3f63fa876435f5e2be05def3a8bab696" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toObj</name></member>
+      <member refid="classMR_1_1MeshSave_1aa6c61af05b186988ddbfbf81f9660203" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toObj</name></member>
+      <member refid="classMR_1_1MeshSave_1a4ad6e217bcb00b312977ee1389b07234" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toObj</name></member>
+      <member refid="classMR_1_1MeshSave_1a619f441ff9310c0d9a2b3898edf3f89f" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toObj</name></member>
+      <member refid="classMR_1_1MeshSave_1a045084fbf724cd87a0ec2bf4682e1d14" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toOff</name></member>
+      <member refid="classMR_1_1MeshSave_1a7fde929e61d1c424328633bb577f653b" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toOff</name></member>
+      <member refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toPly</name></member>
+      <member refid="classMR_1_1MeshSave_1a514066fad470bf952bfed44dd4319730" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toPly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

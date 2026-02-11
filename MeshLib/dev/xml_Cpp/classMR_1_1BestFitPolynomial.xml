@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BestFitPolynomial" kind="class" language="C++" prot="public">
+    <compoundname>MR::BestFitPolynomial</compoundname>
+    <includes refid="MRBestFitPolynomial_8h" local="no">MRBestFitPolynomial.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>size_t</type>
+        <declname>degree</declname>
+        <defname>degree</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1BestFitPolynomial_1a13a2ebadd5fbd25d8f33140180f42872" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::BestFitPolynomial&lt; T, degree &gt;::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>MR::BestFitPolynomial::n</qualifiedname>
+        <initializer>= degree + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="108" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1BestFitPolynomial_1ae2b44071a699cacf014676fb2a412844" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::BestFitPolynomial&lt; T, degree &gt;::lambda_</definition>
+        <argsstring></argsstring>
+        <name>lambda_</name>
+        <qualifiedname>MR::BestFitPolynomial::lambda_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="109" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1BestFitPolynomial_1ab37a26de7750260f6bef88829d8c1623" prot="private" static="no" mutable="no">
+        <type>Eigen::Matrix&lt; T, n, n &gt;</type>
+        <definition>Eigen::Matrix&lt;T, n, n&gt; MR::BestFitPolynomial&lt; T, degree &gt;::XtX_</definition>
+        <argsstring></argsstring>
+        <name>XtX_</name>
+        <qualifiedname>MR::BestFitPolynomial::XtX_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="110" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1BestFitPolynomial_1ab39d9541e1b4bbc6fc15378029539704" prot="private" static="no" mutable="no">
+        <type>Eigen::Vector&lt; T, n &gt;</type>
+        <definition>Eigen::Vector&lt;T, n&gt; MR::BestFitPolynomial&lt; T, degree &gt;::XtY_</definition>
+        <argsstring></argsstring>
+        <name>XtY_</name>
+        <qualifiedname>MR::BestFitPolynomial::XtY_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="111" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1BestFitPolynomial_1a90d9825444089ba7fba1db98f428afe1" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::BestFitPolynomial&lt; T, degree &gt;::sumWeight_</definition>
+        <argsstring></argsstring>
+        <name>sumWeight_</name>
+        <qualifiedname>MR::BestFitPolynomial::sumWeight_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="112" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BestFitPolynomial_1a6e839e3a51321f2d22350459fa2c280d" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::BestFitPolynomial&lt; T, degree &gt;::BestFitPolynomial</definition>
+        <argsstring>(T reg)</argsstring>
+        <name>BestFitPolynomial</name>
+        <qualifiedname>MR::BestFitPolynomial::BestFitPolynomial</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Regularization term (L2-reg) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="98" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitPolynomial_1a131a7e21452f03e4a9613d1d168482c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::BestFitPolynomial&lt; T, degree &gt;::addPoint</definition>
+        <argsstring>(T x, T y)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR::BestFitPolynomial::addPoint</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="100" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitPolynomial_1a8100999b4e841b219d7accb5a05c23bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::BestFitPolynomial&lt; T, degree &gt;::addPoint</definition>
+        <argsstring>(T x, T y, T weight)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR::BestFitPolynomial::addPoint</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="102" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BestFitPolynomial_1a94178932bf3011077ad8a874c0e442ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Polynomial" kindref="compound">Polynomial</ref>&lt; T, degree &gt;</type>
+        <definition>MRMESH_API Polynomial&lt; T, degree &gt; MR::BestFitPolynomial&lt; T, degree &gt;::getBestPolynomial</definition>
+        <argsstring>() const</argsstring>
+        <name>getBestPolynomial</name>
+        <qualifiedname>MR::BestFitPolynomial::getBestPolynomial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>The result might have leading coefficient equal to zero. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="105" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="94" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="95" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BestFitPolynomial_1a131a7e21452f03e4a9613d1d168482c8" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1a8100999b4e841b219d7accb5a05c23bb" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1a6e839e3a51321f2d22350459fa2c280d" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>BestFitPolynomial</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1a94178932bf3011077ad8a874c0e442ab" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>getBestPolynomial</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1ae2b44071a699cacf014676fb2a412844" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>lambda_</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1a13a2ebadd5fbd25d8f33140180f42872" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>n</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1a90d9825444089ba7fba1db98f428afe1" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>sumWeight_</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1ab37a26de7750260f6bef88829d8c1623" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>XtX_</name></member>
+      <member refid="classMR_1_1BestFitPolynomial_1ab39d9541e1b4bbc6fc15378029539704" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>XtY_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

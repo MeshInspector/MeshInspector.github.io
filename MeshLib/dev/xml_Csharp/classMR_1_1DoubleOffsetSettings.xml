@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DoubleOffsetSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::DoubleOffsetSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_DoubleOffsetSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a5cd5f6a010b99c09df87fb0aae2cd519" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DoubleOffsetSettings.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.DoubleOffsetSettings.voxelSize</qualifiedname>
+        <briefdescription>
+<para>the size of voxel in intermediate voxel grid representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1130" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a14d6af458c9b44f00eb966af1ac36dd6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DoubleOffsetSettings.offsetA</definition>
+        <argsstring></argsstring>
+        <name>offsetA</name>
+        <qualifiedname>MR.DoubleOffsetSettings.offsetA</qualifiedname>
+        <briefdescription>
+<para>the amount of first offset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1133" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1ad4a2f49ea855db13ffa05de40ac5bc6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DoubleOffsetSettings.offsetB</definition>
+        <argsstring></argsstring>
+        <name>offsetB</name>
+        <qualifiedname>MR.DoubleOffsetSettings.offsetB</qualifiedname>
+        <briefdescription>
+<para>the amount of second offset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1136" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a9ec8ac52ed6944d712035a3a2e55694f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DoubleOffsetSettings.adaptivity</definition>
+        <argsstring></argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>MR.DoubleOffsetSettings.adaptivity</qualifiedname>
+        <briefdescription>
+<para>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1139" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a324d9f6d09eef2ad0413ea6a02c1278f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">MR.IFastWindingNumber</ref></type>
+        <definition>new unsafe MR.IFastWindingNumber MR.DoubleOffsetSettings.fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR.DoubleOffsetSettings.fwn</qualifiedname>
+        <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1142" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1142" bodyend="1142"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a2f6349bb80f304ef41106eb5a80ae0ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DoubleOffsetSettings.windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR.DoubleOffsetSettings.windingNumberThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1146" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1ae98d1e82eb925021d2b35f64848c2d53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DoubleOffsetSettings.windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR.DoubleOffsetSettings.windingNumberBeta</qualifiedname>
+        <briefdescription>
+<para>determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1149" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a6ba0e87d5ecb61bb73ad0c91c9464d7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DoubleOffsetSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.DoubleOffsetSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report algorithm&apos;s progress and to cancel it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1152" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1152" bodyend="1152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1aff9d3956da3b10042a46f329fe2acb2b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DoubleOffsetSettings</name>
+        <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1178" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1178" bodyend="1182"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1a51fd92e6cb6509b1b4d1327df581b65e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
+        <argsstring>()</argsstring>
+        <name>DoubleOffsetSettings</name>
+        <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1188" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1188" bodyend="1194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1a1abbcd684871c938d895141169c3a0fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
+        <argsstring>(float voxelSize, float offsetA, float offsetB, float adaptivity, MR._ByValueShared_IFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <name>DoubleOffsetSettings</name>
+        <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetA</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetB</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>adaptivity</declname>
+        </param>
+        <param>
+          <type>MR._ByValueShared_IFastWindingNumber</type>
+          <declname>fwn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DoubleOffsetSettings" kindref="compound">MR.DoubleOffsetSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1199" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1199" bodyend="1207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1aabb407489a745f7746a3420686db7330" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
+        <argsstring>(MR._ByValue_DoubleOffsetSettings _other)</argsstring>
+        <name>DoubleOffsetSettings</name>
+        <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_DoubleOffsetSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DoubleOffsetSettings.DoubleOffsetSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1212" bodyend="1219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1ae8af862c7f7094cf508ec57672b8edc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
+        <argsstring>(Const_DoubleOffsetSettings _other)</argsstring>
+        <name>DoubleOffsetSettings</name>
+        <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
+        <param>
+          <type>Const_DoubleOffsetSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DoubleOffsetSettings.DoubleOffsetSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1224" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1224" bodyend="1224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1a4ddb4db5e3a1339dc03a7cfe46d1298d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
+        <argsstring>(DoubleOffsetSettings _other)</argsstring>
+        <name>DoubleOffsetSettings</name>
+        <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DoubleOffsetSettings.DoubleOffsetSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1229" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1229" bodyend="1229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1ae8542453b19abc8cf9c99d2614ab1e75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DoubleOffsetSettings" kindref="compound">MR.DoubleOffsetSettings</ref></type>
+        <definition>unsafe MR.DoubleOffsetSettings MR.DoubleOffsetSettings.assign</definition>
+        <argsstring>(MR._ByValue_DoubleOffsetSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.DoubleOffsetSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_DoubleOffsetSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.DoubleOffsetSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1234" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1234" bodyend="1241"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DoubleOffsetSettings" kindref="compound">MR.DoubleOffsetSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DoubleOffsetSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DoubleOffsetSettings</label>
+        <link refid="classMR_1_1DoubleOffsetSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DoubleOffsetSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DoubleOffsetSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DoubleOffsetSettings</label>
+        <link refid="classMR_1_1DoubleOffsetSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DoubleOffsetSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1127" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1128" bodyend="1242"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a9ec8ac52ed6944d712035a3a2e55694f" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>adaptivity</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1ae8542453b19abc8cf9c99d2614ab1e75" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1aff9d3956da3b10042a46f329fe2acb2b" prot="package" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a51fd92e6cb6509b1b4d1327df581b65e" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a1abbcd684871c938d895141169c3a0fe" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1aabb407489a745f7746a3420686db7330" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1ae8af862c7f7094cf508ec57672b8edc0" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a4ddb4db5e3a1339dc03a7cfe46d1298d" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a324d9f6d09eef2ad0413ea6a02c1278f" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>fwn</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a14d6af458c9b44f00eb966af1ac36dd6" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>offsetA</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1ad4a2f49ea855db13ffa05de40ac5bc6e" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>offsetB</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a6ba0e87d5ecb61bb73ad0c91c9464d7c" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a5cd5f6a010b99c09df87fb0aae2cd519" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1ae98d1e82eb925021d2b35f64848c2d53" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1a2f6349bb80f304ef41106eb5a80ae0ef" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

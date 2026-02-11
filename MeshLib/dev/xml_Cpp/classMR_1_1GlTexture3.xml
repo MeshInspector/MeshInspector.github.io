@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GlTexture3" kind="class" language="C++" prot="public">
+    <compoundname>MR::GlTexture3</compoundname>
+    <basecompoundref refid="classMR_1_1GlTexture" prot="public" virt="non-virtual">MR::GlTexture</basecompoundref>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GlTexture3_1aa0f0de0b1da4807ed2dd1aa0b57e878c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::GlTexture3::GlTexture3</definition>
+        <argsstring>()</argsstring>
+        <name>GlTexture3</name>
+        <qualifiedname>MR::GlTexture3::GlTexture3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="81" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1GlTexture3_1a49ccd143a196b6bfd0e18aaf10e40773" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::GlTexture3::texImage_</definition>
+        <argsstring>(const Settings &amp;settings, const char *arr) override</argsstring>
+        <name>texImage_</name>
+        <qualifiedname>MR::GlTexture3::texImage_</qualifiedname>
+        <reimplements refid="classMR_1_1GlTexture_1a7edea799f883097742210ebea4aefac5">texImage_</reimplements>
+        <param>
+          <type>const <ref refid="structMR_1_1GlTexture_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="83" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents OpenGL 3D texture owner, and allows uploading data in it remembering texture size </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::GlTexture</label>
+        <link refid="classMR_1_1GlTexture"/>
+      </node>
+      <node id="1">
+        <label>MR::GlTexture3</label>
+        <link refid="classMR_1_1GlTexture3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::GlTexture</label>
+        <link refid="classMR_1_1GlTexture"/>
+      </node>
+      <node id="1">
+        <label>MR::GlTexture3</label>
+        <link refid="classMR_1_1GlTexture3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="79" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GlTexture_1ae1b7d7ab7174f46431b88ca69d8ee589" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>bind</name></member>
+      <member refid="classMR_1_1GlTexture_1a14068864ba6ea4ba93a3504914da5318" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>del</name></member>
+      <member refid="classMR_1_1GlTexture_1a93b01874cfb524236811acf50f7af69c" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>gen</name></member>
+      <member refid="classMR_1_1GlTexture_1a573e81765c41c4a83462f9a3a00823de" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>getId</name></member>
+      <member refid="classMR_1_1GlTexture_1a7be43c41cc0cfc57c53d4e3cac02a449" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>GlTexture</name></member>
+      <member refid="classMR_1_1GlTexture_1a628b06fbd65ce8a5e40f9f3f62e15d5e" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>GlTexture</name></member>
+      <member refid="classMR_1_1GlTexture_1ab3beacb78e2572350f1b40b817059e4f" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>GlTexture</name></member>
+      <member refid="classMR_1_1GlTexture3_1aa0f0de0b1da4807ed2dd1aa0b57e878c" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>GlTexture3</name></member>
+      <member refid="classMR_1_1GlTexture_1a9ba560fc0c6f4da706a9249b33cc51d4" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlTexture_1a3ac4435c96afe603c9f4fac5e7bbb2cc" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlTexture_1a5a0c8eb224d884d8a585e73ef2c4ca2f" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlTexture_1a5574566e892c3526ffd4737e97872d9e" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlTexture_1a41901568843aff73ce764e7d07c0a81f" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>NO_TEX</name></member>
+      <member refid="classMR_1_1GlTexture_1ac05f999428948991b9e2451bf4d1cf19" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>operator=</name></member>
+      <member refid="classMR_1_1GlTexture_1a04a1b44a9277a7f2dad9ca4c4ea14815" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>operator=</name></member>
+      <member refid="classMR_1_1GlTexture_1a31f2ca34c59318a7c4d59d8a4a37782a" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>size</name></member>
+      <member refid="classMR_1_1GlTexture_1a24981e85fee9e75367aa3d9d3293f542" prot="protected" virt="non-virtual"><scope>MR::GlTexture3</scope><name>size_</name></member>
+      <member refid="classMR_1_1GlTexture3_1a49ccd143a196b6bfd0e18aaf10e40773" prot="private" virt="virtual"><scope>MR::GlTexture3</scope><name>texImage_</name></member>
+      <member refid="classMR_1_1GlTexture_1a9bb5bb53fefb3f277a36f6fabfe202cf" prot="protected" virt="non-virtual"><scope>MR::GlTexture3</scope><name>textureID_</name></member>
+      <member refid="classMR_1_1GlTexture_1a3b04ff9e583e09691f0a425bc68ea939" prot="protected" virt="non-virtual"><scope>MR::GlTexture3</scope><name>type_</name></member>
+      <member refid="classMR_1_1GlTexture_1af07d1c7bc9944130437dcddb3c74465a" prot="public" virt="non-virtual"><scope>MR::GlTexture3</scope><name>valid</name></member>
+      <member refid="classMR_1_1GlTexture_1a381d704de87710189350e842dab5ad18" prot="public" virt="virtual"><scope>MR::GlTexture3</scope><name>~GlTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

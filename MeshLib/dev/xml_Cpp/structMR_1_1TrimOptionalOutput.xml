@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TrimOptionalOutput" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TrimOptionalOutput</compoundname>
+    <includes refid="MRMeshTrimWithPlane_8h" local="no">MRMeshTrimWithPlane.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TrimOptionalOutput_1ab2764c07e0136d9d3309b44b8bf8eca7" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::TrimOptionalOutput::outCutEdges</definition>
+        <argsstring></argsstring>
+        <name>outCutEdges</name>
+        <qualifiedname>MR::TrimOptionalOutput::outCutEdges</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>newly appeared hole boundary edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="58" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimOptionalOutput_1ad716fbc89b71f32103375687ec684177" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespaceMR_1a099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> &gt; *</type>
+        <definition>std::vector&lt;EdgeLoop&gt;* MR::TrimOptionalOutput::outCutContours</definition>
+        <argsstring></argsstring>
+        <name>outCutContours</name>
+        <qualifiedname>MR::TrimOptionalOutput::outCutContours</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>newly appeared hole contours where each edge does not have right face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimOptionalOutput_1a95f7939b3615030e5bcc1dd29d3552c1" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> *</type>
+        <definition>FaceHashMap* MR::TrimOptionalOutput::new2Old</definition>
+        <argsstring></argsstring>
+        <name>new2Old</name>
+        <qualifiedname>MR::TrimOptionalOutput::new2Old</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>mapping from newly appeared triangle to its original triangle (part to full) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="62" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimOptionalOutput_1a913d446d93ee465bae6bc24cdfcb9287" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
+        <definition>Mesh* MR::TrimOptionalOutput::otherPart</definition>
+        <argsstring></argsstring>
+        <name>otherPart</name>
+        <qualifiedname>MR::TrimOptionalOutput::otherPart</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>left part of the trimmed mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="64" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimOptionalOutput_1ab4ca89a01b605f3076a298047ecc240b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> *</type>
+        <definition>FaceHashMap* MR::TrimOptionalOutput::otherNew2Old</definition>
+        <argsstring></argsstring>
+        <name>otherNew2Old</name>
+        <qualifiedname>MR::TrimOptionalOutput::otherNew2Old</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>mapping from newly appeared triangle to its original triangle (part to full) in otherPart </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="66" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TrimOptionalOutput_1a9601138c046f6c418c5ba8bb4036d9ef" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespaceMR_1a099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> &gt; *</type>
+        <definition>std::vector&lt;EdgeLoop&gt;* MR::TrimOptionalOutput::otherOutCutContours</definition>
+        <argsstring></argsstring>
+        <name>otherOutCutContours</name>
+        <qualifiedname>MR::TrimOptionalOutput::otherOutCutContours</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>newly appeared hole contours where each edge does not have right face in otherPart </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="68" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores optional output params for trimWithPlane function </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="1">
+        <label>MR::TrimOptionalOutput</label>
+        <link refid="structMR_1_1TrimOptionalOutput"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>otherPart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="56" bodyend="69"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TrimOptionalOutput_1a95f7939b3615030e5bcc1dd29d3552c1" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>new2Old</name></member>
+      <member refid="structMR_1_1TrimOptionalOutput_1ab4ca89a01b605f3076a298047ecc240b" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherNew2Old</name></member>
+      <member refid="structMR_1_1TrimOptionalOutput_1a9601138c046f6c418c5ba8bb4036d9ef" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherOutCutContours</name></member>
+      <member refid="structMR_1_1TrimOptionalOutput_1a913d446d93ee465bae6bc24cdfcb9287" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherPart</name></member>
+      <member refid="structMR_1_1TrimOptionalOutput_1ad716fbc89b71f32103375687ec684177" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>outCutContours</name></member>
+      <member refid="structMR_1_1TrimOptionalOutput_1ab2764c07e0136d9d3309b44b8bf8eca7" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>outCutEdges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

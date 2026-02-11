@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SystemMemory" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SystemMemory</compoundname>
+    <includes refid="MRSystem_8h" local="no">MRSystem.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SystemMemory_1a3087e60be22adc17e00bcb62da97a040" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::SystemMemory::physicalTotal</definition>
+        <argsstring></argsstring>
+        <name>physicalTotal</name>
+        <qualifiedname>MR::SystemMemory::physicalTotal</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>total amount of physical memory in the system, in bytes (0 if no info) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" line="87" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SystemMemory_1a76875970bb84c9474cc9e582162fe351" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::SystemMemory::physicalAvailable</definition>
+        <argsstring></argsstring>
+        <name>physicalAvailable</name>
+        <qualifiedname>MR::SystemMemory::physicalAvailable</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>available amount of physical memory in the system, in bytes (0 if no info) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" line="90" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" bodystart="85" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SystemMemory_1a76875970bb84c9474cc9e582162fe351" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>physicalAvailable</name></member>
+      <member refid="structMR_1_1SystemMemory_1a3087e60be22adc17e00bcb62da97a040" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>physicalTotal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

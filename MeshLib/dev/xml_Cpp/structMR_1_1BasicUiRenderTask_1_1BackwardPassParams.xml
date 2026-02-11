@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BasicUiRenderTask::BackwardPassParams</compoundname>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams_1a29e14da81c0701108ac352055c7e9b99" prot="public" static="no" mutable="yes">
+        <type><ref refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" kindref="member">InteractionMask</ref></type>
+        <definition>InteractionMask MR::BasicUiRenderTask::BackwardPassParams::consumedInteractions</definition>
+        <argsstring></argsstring>
+        <name>consumedInteractions</name>
+        <qualifiedname>MR::BasicUiRenderTask::BackwardPassParams::consumedInteractions</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Which interactions should be blocked by this object. This is passed along between all <computeroutput>renderUi()</computeroutput> calls in a single frame, and then the end result is used. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="84" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams_1a7664329c16a19590708d5686044a648a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BasicUiRenderTask::BackwardPassParams::tryConsumeMouseHover</definition>
+        <argsstring>() const</argsstring>
+        <name>tryConsumeMouseHover</name>
+        <qualifiedname>MR::BasicUiRenderTask::BackwardPassParams::tryConsumeMouseHover</qualifiedname>
+        <briefdescription>
+<para>If nothing else is hovered, this returns true and writes <computeroutput>mouseHover</computeroutput> to <computeroutput>consumedInteractions</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="87" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="87" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="80" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="81" bodyend="96"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams_1a29e14da81c0701108ac352055c7e9b99" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask::BackwardPassParams</scope><name>consumedInteractions</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams_1a7664329c16a19590708d5686044a648a" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask::BackwardPassParams</scope><name>tryConsumeMouseHover</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

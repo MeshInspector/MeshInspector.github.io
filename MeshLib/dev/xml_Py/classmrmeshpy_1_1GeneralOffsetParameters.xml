@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GeneralOffsetParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GeneralOffsetParameters</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1SharpOffsetParameters" prot="public" virt="non-virtual">mrmeshpy.SharpOffsetParameters</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeneralOffsetParameters_1a0284f167ddac9da84a40d19706cdbd08" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeneralOffsetParameters::_offsetof_mode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mode</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters._offsetof_mode</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21665" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeneralOffsetParameters_1af3ca4c13ed0c8600865f551368ad327c" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref></type>
+        <definition>OffsetMode mrmeshpy.GeneralOffsetParameters::Mode</definition>
+        <argsstring></argsstring>
+        <name>Mode</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters.Mode</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21667" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeneralOffsetParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21670" bodyend="21671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref></type>
+        <definition> GeneralOffsetParameters mrmeshpy.GeneralOffsetParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21674" bodyend="21675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref></type>
+        <definition> GeneralOffsetParameters mrmeshpy.GeneralOffsetParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21678" bodyend="21679"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeneralOffsetParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21681" bodyend="21682"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeneralOffsetParameters.__init__</definition>
+        <argsstring>(self, GeneralOffsetParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeneralOffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21684" bodyend="21687"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GeneralOffsetParameters
+
+allows the user to select in the parameters which offset algorithm to call
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.GeneralOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1GeneralOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SharpOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1SharpOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GeneralOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1GeneralOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_offsetof_mode</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Mode</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_offsetof_callBack</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.OffsetMode</label>
+        <link refid="classmrmeshpy_1_1OffsetMode"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Sharpening</edgelabel>
+          <edgelabel>Smooth</edgelabel>
+          <edgelabel>Standard</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_offsetof_closeHolesInHoleWindingNumber</edgelabel>
+          <edgelabel>_offsetof_fwn</edgelabel>
+          <edgelabel>_offsetof_memoryEfficient</edgelabel>
+          <edgelabel>_offsetof_signDetectionMode</edgelabel>
+          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
+          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SharpOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1SharpOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_offsetof_maxNewRank2VertDev</edgelabel>
+          <edgelabel>_offsetof_maxNewRank3VertDev</edgelabel>
+          <edgelabel>_offsetof_maxOldVertPosCorrection</edgelabel>
+          <edgelabel>_offsetof_minNewVertDev</edgelabel>
+          <edgelabel>_offsetof_outSharpEdges</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21659" bodyend="21687"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1a0284f167ddac9da84a40d19706cdbd08" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_mode</name></member>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1af3ca4c13ed0c8600865f551368ad327c" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>Mode</name></member>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

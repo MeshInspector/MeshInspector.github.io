@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneSettings_1_1FloatType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneSettings::FloatType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a0357cb33f54fef9cfbbd1468d00a4e0f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::AmbientCoefSelectedObj</definition>
+        <argsstring></argsstring>
+        <name>AmbientCoefSelectedObj</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.AmbientCoefSelectedObj</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a868bd1268b1525cbaad02d0f0d77a405" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a3f56d3287221fcc4c032015f51a8fd3a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureLineWidth</definition>
+        <argsstring></argsstring>
+        <name>FeatureLineWidth</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureLineWidth</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a52fcfbbcb8f39301e8f6f1d6df5b6294" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureLinesAlpha</definition>
+        <argsstring></argsstring>
+        <name>FeatureLinesAlpha</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureLinesAlpha</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ae7745a0c2e0f52f256a2e6d31d5f053c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureMeshAlpha</definition>
+        <argsstring></argsstring>
+        <name>FeatureMeshAlpha</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureMeshAlpha</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1add32b84d3d7baa43f5a215d52a4029f5" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeaturePointSize</definition>
+        <argsstring></argsstring>
+        <name>FeaturePointSize</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeaturePointSize</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ad6fe82810b09da680580d57c0bc60f36" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeaturePointsAlpha</definition>
+        <argsstring></argsstring>
+        <name>FeaturePointsAlpha</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeaturePointsAlpha</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a3b68b036135757aa965230e5cb1c6c79" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureSubLineWidth</definition>
+        <argsstring></argsstring>
+        <name>FeatureSubLineWidth</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureSubLineWidth</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1acd03c67433a7c1f273445194f1fc2580" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureSubLinesAlpha</definition>
+        <argsstring></argsstring>
+        <name>FeatureSubLinesAlpha</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureSubLinesAlpha</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a01eaeffda71e36e141094856269e514f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureSubMeshAlpha</definition>
+        <argsstring></argsstring>
+        <name>FeatureSubMeshAlpha</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureSubMeshAlpha</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aaa45aadfe2c32135a7a868e6255f7c08" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureSubPointSize</definition>
+        <argsstring></argsstring>
+        <name>FeatureSubPointSize</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureSubPointSize</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a8d8f33d8707fb7c5dee56882cfbc7236" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::FeatureSubPointsAlpha</definition>
+        <argsstring></argsstring>
+        <name>FeatureSubPointsAlpha</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.FeatureSubPointsAlpha</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51259" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1af737ac8c9e7a5435334716fa8d18347d" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSettings.FloatType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" kindref="compound">SceneSettings.FloatType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51260" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aad05dcee7d1dbf4d6efc45d28e156a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneSettings.FloatType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51261" bodyend="51262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aece7a8c90d6e3a0028bdc867bfa601b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.FloatType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51263" bodyend="51264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a7ecd86dd59d60e8b2cbda055e203a7b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.FloatType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51265" bodyend="51266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aa89580c8214680080ce86738be4e93db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.FloatType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51267" bodyend="51268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ae9b667d07988a5b2450022076acc0dbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.FloatType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51269" bodyend="51270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aade170c031aaf8c7b6f7ce9d543a1c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.FloatType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51271" bodyend="51272"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aed9c08fa4a79abe4db0ce87e0c4b0fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneSettings.FloatType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51273" bodyend="51274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a6f9be6ef6dcc23df18422eb4a3c47535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.FloatType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51275" bodyend="51276"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1adfe419caad34b2265c7dac8a2b25e057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.FloatType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51277" bodyend="51278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a3192df274299d70119aaae3bdbfb3f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.FloatType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51279" bodyend="51280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ac5d4aca13114a5e4f6fea3f32fd0aa45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.FloatType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51282" bodyend="51283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1_1FloatType_1af1deee15a634910aff9ff7d62b04d67c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SceneSettings.FloatType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SceneSettings.FloatType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51285" bodyend="51287"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  FeaturePointsAlpha
+
+  FeatureLinesAlpha
+
+  FeatureMeshAlpha
+
+  FeatureSubPointsAlpha
+
+  FeatureSubLinesAlpha
+
+  FeatureSubMeshAlpha
+
+  FeatureLineWidth : Line width of line features (line, circle, ...).
+
+  FeatureSubLineWidth : Line width of line subfeatures (axes, base circles, ...).
+
+  FeaturePointSize : Size of the point feature.
+
+  FeatureSubPointSize : Size of point subfeatures (various centers).
+
+  AmbientCoefSelectedObj : Ambient multiplication coefficient for ambientStrength for selected objects
+
+  Count : Ambient multiplication coefficient for ambientStrength for selected objects
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SceneSettings.FloatType</label>
+        <link refid="classmrmeshpy_1_1SceneSettings_1_1FloatType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AmbientCoefSelectedObj</edgelabel>
+          <edgelabel>Count</edgelabel>
+          <edgelabel>FeatureLineWidth</edgelabel>
+          <edgelabel>FeatureLinesAlpha</edgelabel>
+          <edgelabel>FeatureMeshAlpha</edgelabel>
+          <edgelabel>FeaturePointSize</edgelabel>
+          <edgelabel>FeaturePointsAlpha</edgelabel>
+          <edgelabel>FeatureSubLineWidth</edgelabel>
+          <edgelabel>FeatureSubLinesAlpha</edgelabel>
+          <edgelabel>FeatureSubMeshAlpha</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51220" bodyend="51286"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aad05dcee7d1dbf4d6efc45d28e156a15" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aece7a8c90d6e3a0028bdc867bfa601b0" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a7ecd86dd59d60e8b2cbda055e203a7b8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aa89580c8214680080ce86738be4e93db" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ae9b667d07988a5b2450022076acc0dbf" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aade170c031aaf8c7b6f7ce9d543a1c33" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1af737ac8c9e7a5435334716fa8d18347d" prot="private" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aed9c08fa4a79abe4db0ce87e0c4b0fa5" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a6f9be6ef6dcc23df18422eb4a3c47535" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1adfe419caad34b2265c7dac8a2b25e057" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a3192df274299d70119aaae3bdbfb3f19" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a0357cb33f54fef9cfbbd1468d00a4e0f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>AmbientCoefSelectedObj</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a868bd1268b1525cbaad02d0f0d77a405" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a52fcfbbcb8f39301e8f6f1d6df5b6294" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureLinesAlpha</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a3f56d3287221fcc4c032015f51a8fd3a" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ae7745a0c2e0f52f256a2e6d31d5f053c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureMeshAlpha</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ad6fe82810b09da680580d57c0bc60f36" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeaturePointsAlpha</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1add32b84d3d7baa43f5a215d52a4029f5" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1acd03c67433a7c1f273445194f1fc2580" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureSubLinesAlpha</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a3b68b036135757aa965230e5cb1c6c79" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureSubLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a01eaeffda71e36e141094856269e514f" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureSubMeshAlpha</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1a8d8f33d8707fb7c5dee56882cfbc7236" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureSubPointsAlpha</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1aaa45aadfe2c32135a7a868e6255f7c08" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>FeatureSubPointSize</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1ac5d4aca13114a5e4f6fea3f32fd0aa45" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1_1FloatType_1af1deee15a634910aff9ff7d62b04d67c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings::FloatType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

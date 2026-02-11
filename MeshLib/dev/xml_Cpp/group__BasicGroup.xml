@@ -1,0 +1,2013 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__BasicGroup" kind="group">
+    <compoundname>BasicGroup</compoundname>
+    <title>Basic elements overview</title>
+    <innerclass refid="classMR_1_1BitSet" prot="public">MR::BitSet</innerclass>
+    <innerclass refid="classMR_1_1TypedBitSet" prot="public">MR::TypedBitSet</innerclass>
+    <innerclass refid="classMR_1_1SetBitIteratorT" prot="public">MR::SetBitIteratorT</innerclass>
+    <innerclass refid="structMR_1_1IdRange" prot="public">MR::IdRange</innerclass>
+    <innerclass refid="classMR_1_1Buffer" prot="public">MR::Buffer</innerclass>
+    <innerclass refid="classMR_1_1Heap" prot="public">MR::Heap</innerclass>
+    <innerclass refid="classMR_1_1Logger" prot="public">MR::Logger</innerclass>
+    <innerclass refid="classMR_1_1LoggingStreambuf" prot="public">MR::LoggingStreambuf</innerclass>
+    <innerclass refid="classMR_1_1RestoringStreamsSink" prot="public">MR::RestoringStreamsSink</innerclass>
+    <innerclass refid="classMR_1_1Timer" prot="public">MR::Timer</innerclass>
+    <innerclass refid="structMR_1_1SimpleTimeRecord" prot="public">MR::SimpleTimeRecord</innerclass>
+    <innerclass refid="structMR_1_1TimeRecord" prot="public">MR::TimeRecord</innerclass>
+    <innerclass refid="structMR_1_1ThreadRootTimeRecord" prot="public">MR::ThreadRootTimeRecord</innerclass>
+    <innerclass refid="classMR_1_1UnionFind" prot="public">MR::UnionFind</innerclass>
+    <innerclass refid="classMR_1_1Vector" prot="public">MR::Vector</innerclass>
+    <innernamespace refid="namespaceMR_1_1BitSetParallel">MR::BitSetParallel</innernamespace>
+    <innergroup refid="group__IteratorRange">Iterators</innergroup>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__BasicGroup_1gacfd51356fbcb71948b1ef3f058ac75c7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
+        <argsstring>(const BitSet &amp;bs)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::heapBytes</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>returns the amount of memory given <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="298" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="298" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::operator==</definition>
+        <argsstring>(const BitSet &amp;a, const BitSet &amp;b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::operator==</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="304" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" declline="304" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga6eb99174c3e76c7cef9281244bb0352b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::operator==</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;a, const TypedBitSet&lt; I &gt; &amp;b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::operator==</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="306" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="306" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga4369afee04806dc72d3e0bca2ddaa0ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::operator==</definition>
+        <argsstring>(const TypedBitSet&lt; T &gt; &amp;a, const TypedBitSet&lt; U &gt; &amp;b)=delete</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::operator==</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const TypedBitSet&lt; U &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>prohibit comparison of unrelated sets </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="310" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" declline="310" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaca9e6bd2b2457e272996c41e32320995" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>std::function&lt; bool(I)&gt;</type>
+        <definition>std::function&lt; bool(I)&gt; MR::makePredicate</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; *bitset)</argsstring>
+        <name>makePredicate</name>
+        <qualifiedname>MR::makePredicate</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; *</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="313" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="313" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga3057a729a683a6a8a6b4f097a0094d58" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>std::function&lt; bool(I)&gt;</type>
+        <definition>std::function&lt; bool(I)&gt; MR::makePredicate</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;bitset)</argsstring>
+        <name>makePredicate</name>
+        <qualifiedname>MR::makePredicate</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="322" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="322" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga84d3ef89997a21c7e28a95f9888e3a2e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::contains</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; *bitset, I id)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR::contains</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; *</type>
+          <declname>bitset</declname>
+        </param>
+        <param>
+          <type>I</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="326" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga57dc941dcc422cae832eb4e285f9258b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::contains</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;bitset, I id)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR::contains</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>bitset</declname>
+        </param>
+        <param>
+          <type>I</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="332" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE_PY auto</type>
+        <definition>MR_BIND_IGNORE_PY auto MR::begin</definition>
+        <argsstring>(const BitSet &amp;a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR::begin</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="380" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="380" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE_PY auto</type>
+        <definition>MR_BIND_IGNORE_PY auto MR::end</definition>
+        <argsstring>(const BitSet &amp;)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR::end</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="382" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="382" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga38c685d6a63eb8e03a7e70c795f56c69" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>MR_BIND_IGNORE_PY auto</type>
+        <definition>MR_BIND_IGNORE_PY auto MR::begin</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR::begin</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="386" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="386" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga52b6833b699c3c42d4d252bc856d9440" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>MR_BIND_IGNORE_PY auto</type>
+        <definition>MR_BIND_IGNORE_PY auto MR::end</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR::end</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="389" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="389" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga68d5cff879ff5d9d841c1ecebfb71ed1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>Vector&lt; int, I &gt;</type>
+        <definition>Vector&lt; int, I &gt; MR::makeVectorWithSeqNums</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;bs)</argsstring>
+        <name>makeVectorWithSeqNums</name>
+        <qualifiedname>MR::makeVectorWithSeqNums</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>creates a <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="394" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="394" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga2637b6b01910fbe8294a9f26f472f35f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>HashMap&lt; I, int &gt;</type>
+        <definition>HashMap&lt; I, int &gt; MR::makeHashMapWithSeqNums</definition>
+        <argsstring>(const TypedBitSet&lt; I &gt; &amp;bs)</argsstring>
+        <name>makeHashMapWithSeqNums</name>
+        <qualifiedname>MR::makeHashMapWithSeqNums</qualifiedname>
+        <param>
+          <type>const TypedBitSet&lt; I &gt; &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>creates a HashMap where for each set bit of input bitset its sequential number starting from 0 is returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="405" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="405" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga4383c7ccfb257c9434fe3e9e0b59a27b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BitSet</type>
+        <definition>BitSet MR::operator&amp;</definition>
+        <argsstring>(const BitSet &amp;a, const BitSet &amp;b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>MR::operator&amp;</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="439" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="439" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga8e5910c21dd8d185e8c21a9691826314" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BitSet</type>
+        <definition>BitSet MR::operator|</definition>
+        <argsstring>(const BitSet &amp;a, const BitSet &amp;b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>MR::operator|</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="440" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="440" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gace45a71e6bdb315750cbd38f5e648a56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BitSet</type>
+        <definition>BitSet MR::operator^</definition>
+        <argsstring>(const BitSet &amp;a, const BitSet &amp;b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>MR::operator^</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="441" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="441" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga042aeb0c2011b3bc175a13e96a447a5f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BitSet</type>
+        <definition>BitSet MR::operator-</definition>
+        <argsstring>(const BitSet &amp;a, const BitSet &amp;b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::operator-</qualifiedname>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const BitSet &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="442" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="442" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>F</declname>
+            <defname>F</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallelForAllRanged</definition>
+        <argsstring>(const BS &amp;bs, F &amp;&amp;... f)</argsstring>
+        <name>BitSetParallelForAllRanged</name>
+        <qualifiedname>MR::BitSetParallelForAllRanged</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;...</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1BitSetParallel" kindref="compound">BitSetParallel</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f( bit, subBitRange ) for each bit in bitRange in parallel threads, where (subBitRange) are the bits that will be processed by the same thread; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="111" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga82bab0dac0d1604747ecff512e8a091a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename L</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>F</declname>
+            <defname>F</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallelForAllRanged</definition>
+        <argsstring>(const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</argsstring>
+        <name>BitSetParallelForAllRanged</name>
+        <qualifiedname>MR::BitSetParallelForAllRanged</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>tbb::enumerable_thread_specific&lt; L &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;...</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f( bit, subBitRange, tls ) for each bit in <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref> or <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (bs) in parallel threads, where subBitRange are the bits that will be processed by the same thread, tls=e.local() (evaluated once for each subBitRange); it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="123" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallelForAll</definition>
+        <argsstring>(const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>BitSetParallelForAll</name>
+        <qualifiedname>MR::BitSetParallelForAll</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each index in <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref> or <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (bs) in parallel threads; it is guaranteed that every individual block in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="133" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga473b8a238072b360e13c47d4c255d66f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename L</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallelForAll</definition>
+        <argsstring>(const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>BitSetParallelForAll</name>
+        <qualifiedname>MR::BitSetParallelForAll</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>tbb::enumerable_thread_specific&lt; L &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each index in <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref> or <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (bs) in parallel threads passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="144" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallelFor</definition>
+        <argsstring>(const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>BitSetParallelFor</name>
+        <qualifiedname>MR::BitSetParallelFor</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for every <emphasis>set</emphasis> bit in <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref> or <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (bs) in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="154" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaa44fd6dceea20f68975639cc07df31b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename L</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallelFor</definition>
+        <argsstring>(const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>BitSetParallelFor</name>
+        <qualifiedname>MR::BitSetParallelFor</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>tbb::enumerable_thread_specific&lt; L &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for every <emphasis>set</emphasis> bit in bs <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref> or <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (bs) parallel threads, passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="165" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga2442ef2afa7012af6ca21ebcb6604536" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;vec)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::heapBytes</qualifiedname>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>returns the amount of memory given vector occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="16" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="16" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga92b723fb37bb2e5133cba528ecd679e6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
+        <argsstring>(const Vector&lt; T, U &gt; &amp;vec)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::heapBytes</qualifiedname>
+        <param>
+          <type>const Vector&lt; T, U &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="33" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="33" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga6f62a19a1892f63b5d147de8ef2160c0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
+        <argsstring>(const std::unique_ptr&lt; T &gt; &amp;ptr)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::heapBytes</qualifiedname>
+        <param>
+          <type>const std::unique_ptr&lt; T &gt; &amp;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>returns the amount of memory this smart pointer and its pointed object own together on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="51" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gac4cf85680ec3620cb08726ea6668e99a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;ptr)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::heapBytes</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>returns the amount of memory this smart pointer and its pointed object own together on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="60" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::MR_REQUIRES_IF_SUPPORTED</definition>
+        <argsstring>(std::is_function_v&lt; T &gt;) inline size_t heapBytes(const std</argsstring>
+        <name>MR_REQUIRES_IF_SUPPORTED</name>
+        <qualifiedname>MR::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
+        <param>
+          <type>std::is_function_v&lt; T &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Needed for generic code, always returns zero. The constraint is needed to avoid hard errors in C bindings when using MSVC STL when calling <computeroutput>heapBytes&lt;SomeNonfuncType&gt;(...)</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="69" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga95720533ccaf5f5aa42fbabee1ce7067" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
+        <argsstring>(const phmap::flat_hash_map&lt; Ts... &gt; &amp;hashMap)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::heapBytes</qualifiedname>
+        <param>
+          <type>const phmap::flat_hash_map&lt; Ts... &gt; &amp;</type>
+          <declname>hashMap</declname>
+        </param>
+        <briefdescription>
+<para>returns the amount of memory given HashMap occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>from parallel_hashmap/phmap.h: The control state and slot array are stored contiguously in a shared heap allocation. The layout of this allocation is: <computeroutput>capacity()</computeroutput> control bytes, one sentinel control byte, <computeroutput>Group::kWidth - 1</computeroutput> cloned control bytes, &lt;possible padding&gt;, <computeroutput>capacity()</computeroutput> slots</para>
+<para>the usage of phmap::priv::Group::kWidth here will require inclusion of phmap.h</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="77" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="77" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga524978bc8b442f91e2d32e481686ebc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::parallelFor</definition>
+        <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t)&gt; f)</argsstring>
+        <name>parallelFor</name>
+        <qualifiedname>MR::parallelFor</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>FunctionRef&lt; void(size_t)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="17" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" declline="17" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gafbd597dd2d6ae3edeef89aefdd4ed15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::parallelFor</definition>
+        <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx)</argsstring>
+        <name>parallelFor</name>
+        <qualifiedname>MR::parallelFor</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>FunctionRef&lt; void(size_t, void *)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>FunctionRef&lt; void *()&gt;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="19" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" declline="19" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaed81ac05489c909fead54deea0cf7d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::parallelFor</definition>
+        <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, ProgressCallback cb, size_t reportProgressEvery=1024)</argsstring>
+        <name>parallelFor</name>
+        <qualifiedname>MR::parallelFor</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>FunctionRef&lt; void(size_t, void *)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>FunctionRef&lt; void *()&gt;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>reportProgressEvery</declname>
+          <defval>1024</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="21" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" declline="21" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ParallelFor</definition>
+        <argsstring>(I begin, I end, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>ParallelFor</name>
+        <qualifiedname>MR::ParallelFor</qualifiedname>
+        <param>
+          <type>I</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>I</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each span element [begin, end); optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="28" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" bodystart="28" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga0c614e9741ba95e4cce86eb98d9d64b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+          <param>
+            <type>typename L</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ParallelFor</definition>
+        <argsstring>(I begin, I end, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>ParallelFor</name>
+        <qualifiedname>MR::ParallelFor</qualifiedname>
+        <param>
+          <type>I</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>I</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>tbb::enumerable_thread_specific&lt; L &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each span element [begin, end) passing e.local() (evaluated once for each sub-range) as the second argument to f; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="54" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga97e8749c8a61bfc6c81edcebdcebbdd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>F</declname>
+            <defname>F</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ParallelFor</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</argsstring>
+        <name>ParallelFor</name>
+        <qualifiedname>MR::ParallelFor</qualifiedname>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;...</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each vector element in parallel threads; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="69" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga465ce65b82d1fa8749312b1b6de8ede6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename I</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>F</declname>
+            <defname>F</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ParallelFor</definition>
+        <argsstring>(const Vector&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</argsstring>
+        <name>ParallelFor</name>
+        <qualifiedname>MR::ParallelFor</qualifiedname>
+        <param>
+          <type>const Vector&lt; T, I &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;...</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each vector element in parallel threads; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="78" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaa664be0d4a143c7d20d57678d5903669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename I</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>F</declname>
+            <defname>F</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ParallelFor</definition>
+        <argsstring>(const Buffer&lt; T, I &gt; &amp;buf, F &amp;&amp;... f)</argsstring>
+        <name>ParallelFor</name>
+        <qualifiedname>MR::ParallelFor</qualifiedname>
+        <param>
+          <type>const Buffer&lt; T, I &gt; &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;...</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each vector element in parallel threads; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report <simplesect kind="return"><para>false if terminated by callback </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="87" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga4accadafe09c169e3742b72d1e5e5733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::vertMapsComposition</definition>
+        <argsstring>(VertMap &amp;a2b, const VertMap &amp;b2c)</argsstring>
+        <name>vertMapsComposition</name>
+        <qualifiedname>MR::vertMapsComposition</qualifiedname>
+        <param>
+          <type>VertMap &amp;</type>
+          <declname>a2b</declname>
+        </param>
+        <param>
+          <type>const VertMap &amp;</type>
+          <declname>b2c</declname>
+        </param>
+        <briefdescription>
+<para>updates a2b map to a2c map using b2c map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="11" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="11" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gad522c5e76d8252c0c5a3bc55818ce589" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertMap</type>
+        <definition>MRMESH_API VertMap MR::vertMapsComposition</definition>
+        <argsstring>(const VertMap &amp;a2b, const VertMap &amp;b2c)</argsstring>
+        <name>vertMapsComposition</name>
+        <qualifiedname>MR::vertMapsComposition</qualifiedname>
+        <param>
+          <type>const VertMap &amp;</type>
+          <declname>a2b</declname>
+        </param>
+        <param>
+          <type>const VertMap &amp;</type>
+          <declname>b2c</declname>
+        </param>
+        <briefdescription>
+<para>returns map a2c from a2b and b2c maps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="13" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="13" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga6c6986e0b57b1aaf6c155adb000bc9f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::edgeMapsComposition</definition>
+        <argsstring>(EdgeMap &amp;a2b, const EdgeMap &amp;b2c)</argsstring>
+        <name>edgeMapsComposition</name>
+        <qualifiedname>MR::edgeMapsComposition</qualifiedname>
+        <param>
+          <type>EdgeMap &amp;</type>
+          <declname>a2b</declname>
+        </param>
+        <param>
+          <type>const EdgeMap &amp;</type>
+          <declname>b2c</declname>
+        </param>
+        <briefdescription>
+<para>updates a2b map to a2c map using b2c map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="16" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="16" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaa8261f1d45e6d92532c31f3e4ca98614" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMap</type>
+        <definition>MRMESH_API EdgeMap MR::edgeMapsComposition</definition>
+        <argsstring>(const EdgeMap &amp;a2b, const EdgeMap &amp;b2c)</argsstring>
+        <name>edgeMapsComposition</name>
+        <qualifiedname>MR::edgeMapsComposition</qualifiedname>
+        <param>
+          <type>const EdgeMap &amp;</type>
+          <declname>a2b</declname>
+        </param>
+        <param>
+          <type>const EdgeMap &amp;</type>
+          <declname>b2c</declname>
+        </param>
+        <briefdescription>
+<para>returns map a2c from a2b and b2c maps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="18" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="18" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gae15f0e77aea97c2194995913d9b8acfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::faceMapsComposition</definition>
+        <argsstring>(FaceMap &amp;a2b, const FaceMap &amp;b2c)</argsstring>
+        <name>faceMapsComposition</name>
+        <qualifiedname>MR::faceMapsComposition</qualifiedname>
+        <param>
+          <type>FaceMap &amp;</type>
+          <declname>a2b</declname>
+        </param>
+        <param>
+          <type>const FaceMap &amp;</type>
+          <declname>b2c</declname>
+        </param>
+        <briefdescription>
+<para>updates a2b map to a2c map using b2c map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="21" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="21" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gab49400ae6dafb3acc3d4f328d6658e75" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceMap</type>
+        <definition>MRMESH_API FaceMap MR::faceMapsComposition</definition>
+        <argsstring>(const FaceMap &amp;a2b, const FaceMap &amp;b2c)</argsstring>
+        <name>faceMapsComposition</name>
+        <qualifiedname>MR::faceMapsComposition</qualifiedname>
+        <param>
+          <type>const FaceMap &amp;</type>
+          <declname>a2b</declname>
+        </param>
+        <param>
+          <type>const FaceMap &amp;</type>
+          <declname>b2c</declname>
+        </param>
+        <briefdescription>
+<para>returns map a2c from a2b and b2c maps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="23" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga52d34a9bbe60f99085e9aab32040499f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::redirectSTDStreamsToLogger</definition>
+        <argsstring>()</argsstring>
+        <name>redirectSTDStreamsToLogger</name>
+        <qualifiedname>MR::redirectSTDStreamsToLogger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Redirects stdcout stdcerr stdclog to default logger <simplesect kind="note"><para>do not call this function directly if you use <ref refid="namespaceMR_1a1e251c5988273136d8a8cf12655f3f0d" kindref="member">MR::setupLoggerByDefault()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="55" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" declline="55" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga245584b85505ab9157d346bb3d8caf53" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>MRMESH_API size_t MR::findSubstringCaseInsensitive</definition>
+        <argsstring>(const std::string &amp;string, const std::string &amp;substring)</argsstring>
+        <name>findSubstringCaseInsensitive</name>
+        <qualifiedname>MR::findSubstringCaseInsensitive</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the substring in the string. <simplesect kind="return"><para>position, npos if not found </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="14" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="14" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gadb9d497f4e19d60a460324a964581ebb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::calcDamerauLevenshteinDistance</definition>
+        <argsstring>(const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</argsstring>
+        <name>calcDamerauLevenshteinDistance</name>
+        <qualifiedname>MR::calcDamerauLevenshteinDistance</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>stringA</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>stringB</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caseSensitive</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>outLeftRightAddition</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates Damerau-Levenshtein distance between to strings <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outLeftRightAddition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if provided return amount of insertions to the left and to the right </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="21" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="21" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga4a32fd3117efa96b71c220bfc13c359b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
+        <definition>MRMESH_API std::vector&lt; std::string &gt; MR::split</definition>
+        <argsstring>(const std::string &amp;string, const std::string &amp;delimiter)</argsstring>
+        <name>split</name>
+        <qualifiedname>MR::split</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>delimiter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Splits given string by delimiter. <simplesect kind="return"><para>vector of split strings </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="29" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="29" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga9c68f9a0e1405a37f98f03203a234da5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::wstring</type>
+        <definition>MR_BIND_IGNORE MRMESH_API std::wstring MR::utf8ToWide</definition>
+        <argsstring>(const char *utf8)</argsstring>
+        <name>utf8ToWide</name>
+        <qualifiedname>MR::utf8ToWide</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>utf8</declname>
+        </param>
+        <briefdescription>
+<para>converts UTF8-encoded string into UTF16-encoded string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="16" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="16" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga9a6b64a85d116ca32c7ff8b93ca80da1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>MRMESH_API std::string MR::systemToUtf8</definition>
+        <argsstring>(const std::string &amp;system)</argsstring>
+        <name>systemToUtf8</name>
+        <qualifiedname>MR::systemToUtf8</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+<para>converts system encoded string to UTF8-encoded string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="19" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="19" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga01094b293542b9fcf1b2f084dbf799a9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>MRMESH_API std::string MR::utf8ToSystem</definition>
+        <argsstring>(const std::string &amp;utf8)</argsstring>
+        <name>utf8ToSystem</name>
+        <qualifiedname>MR::utf8ToSystem</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>utf8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="23" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="23" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gae9a27addfa702ba60eeaca8d967e2d6e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>MR_BIND_IGNORE MRMESH_API std::string MR::wideToUtf8</definition>
+        <argsstring>(const wchar_t *wide)</argsstring>
+        <name>wideToUtf8</name>
+        <qualifiedname>MR::wideToUtf8</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>wide</declname>
+        </param>
+        <briefdescription>
+<para>converts wide null terminating string to UTF8-encoded string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="26" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="26" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaeaebbb2f1efd81e84ec37217bb4edf4c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE const std::string &amp;</type>
+        <definition>MR_BIND_IGNORE const std::string &amp; MR::asString</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>asString</name>
+        <qualifiedname>MR::asString</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>std::u8string is not defined </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="48" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaa7dfbd8929d54cde238ceb82f7836fcc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE const std::string &amp;</type>
+        <definition>MR_BIND_IGNORE const std::string &amp; MR::asU8String</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>asU8String</name>
+        <qualifiedname>MR::asU8String</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="49" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gabf753ea56f25d4f1e8076ef90286efce" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE std::string</type>
+        <definition>MR_BIND_IGNORE std::string MR::asString</definition>
+        <argsstring>(std::string &amp;&amp;s)</argsstring>
+        <name>asString</name>
+        <qualifiedname>MR::asString</qualifiedname>
+        <param>
+          <type>std::string &amp;&amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="51" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga51004e242a303220acdbb40a49488daf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE std::string</type>
+        <definition>MR_BIND_IGNORE std::string MR::asU8String</definition>
+        <argsstring>(std::string &amp;&amp;s)</argsstring>
+        <name>asU8String</name>
+        <qualifiedname>MR::asU8String</qualifiedname>
+        <param>
+          <type>std::string &amp;&amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="52" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gafb82b59416abea95f150286ba0695dd8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE std::filesystem::path</type>
+        <definition>MR_BIND_IGNORE std::filesystem::path MR::pathFromUtf8</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>pathFromUtf8</name>
+        <qualifiedname>MR::pathFromUtf8</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="54" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga274eb4278759027605fb20465ec0a769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE std::filesystem::path</type>
+        <definition>MR_BIND_IGNORE std::filesystem::path MR::pathFromUtf8</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>pathFromUtf8</name>
+        <qualifiedname>MR::pathFromUtf8</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="55" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga98812dc656fac3fb9c565e7fc0c7922d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::utf8string</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>utf8string</name>
+        <qualifiedname>MR::utf8string</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>returns filename as UTF8-encoded string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="64" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" bodystart="64" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga94712bce613ec3f52b3d976ed63e7910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::utf8string</definition>
+        <argsstring>(const std::string &amp;)=delete</argsstring>
+        <name>utf8string</name>
+        <qualifiedname>MR::utf8string</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+        </param>
+        <briefdescription>
+<para>it is a mistake to call the function with implicit construction of path from string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="69" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="69" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga9d44c29a02f4672e97b9cf002eb4f7ca" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <definition>MRMESH_API std::string MR::utf8substr</definition>
+        <argsstring>(const char *s, size_t pos, size_t count)</argsstring>
+        <name>utf8substr</name>
+        <qualifiedname>MR::utf8substr</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given on input a valid utf8-encoded string, returns its substring starting at <computeroutput>pos</computeroutput> unicode symbol, and containing at most <computeroutput>count</computeroutput> unicode symbols (but res.size() can be more than <computeroutput>count</computeroutput> since a unicode symbol can be represented by more than 1 byte) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="73" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="73" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga52ef6e1208fe1f50e79f683d8f04fd15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::printTimingTreeAtEnd</definition>
+        <argsstring>(bool on, double minTimeSec=0.1)</argsstring>
+        <name>printTimingTreeAtEnd</name>
+        <qualifiedname>MR::printTimingTreeAtEnd</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minTimeSec</declname>
+          <defval>0.1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>enables or disables printing of timing tree when application terminates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minTimeSec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>omit printing records with time spent less than given value in seconds </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="40" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" declline="40" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga92715abafbf0ac9f1aef87f2cff3088a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::printCurrentTimerBranch</definition>
+        <argsstring>()</argsstring>
+        <name>printCurrentTimerBranch</name>
+        <qualifiedname>MR::printCurrentTimerBranch</qualifiedname>
+        <briefdescription>
+<para>prints current timer branch </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="43" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" declline="43" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga125565922a2357da0b9bcc8c1c8bb44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::printTimingTree</definition>
+        <argsstring>(double minTimeSec=0.1)</argsstring>
+        <name>printTimingTree</name>
+        <qualifiedname>MR::printTimingTree</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>minTimeSec</declname>
+          <defval>0.1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prints the current timing tree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minTimeSec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>omit printing records with time spent less than given value in seconds </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="47" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" declline="47" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga73f1c5c9fb6ffeff44c6f14fb15a30ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::registerThreadRootTimeRecord</definition>
+        <argsstring>(ThreadRootTimeRecord &amp;root)</argsstring>
+        <name>registerThreadRootTimeRecord</name>
+        <qualifiedname>MR::registerThreadRootTimeRecord</qualifiedname>
+        <param>
+          <type>ThreadRootTimeRecord &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>installs given record in the current thread (no record must be installed before) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="49" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" declline="49" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gad352239f809241e329ff312b293854bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::unregisterThreadRootTimeRecord</definition>
+        <argsstring>(ThreadRootTimeRecord &amp;root)</argsstring>
+        <name>unregisterThreadRootTimeRecord</name>
+        <qualifiedname>MR::unregisterThreadRootTimeRecord</qualifiedname>
+        <param>
+          <type>ThreadRootTimeRecord &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>un-installs given record in the current thread </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="52" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" declline="52" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gabefbd707048572a74df60a453534dbab" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref></type>
+          </param>
+        </templateparamlist>
+        <type>TypedBitSet&lt; I &gt;</type>
+        <definition>TypedBitSet&lt; I &gt; MR::TypedBitSet&lt; I &gt;::getMapping</definition>
+        <argsstring>(const M &amp;map) const</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR::TypedBitSet::getMapping</qualifiedname>
+        <param>
+          <type>const <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="416" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="416" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga37348afa24bcbc43d3a71e35e02267d6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref></type>
+          </param>
+        </templateparamlist>
+        <type>TypedBitSet&lt; I &gt;</type>
+        <definition>TypedBitSet&lt; I &gt; MR::TypedBitSet&lt; I &gt;::getMapping</definition>
+        <argsstring>(const M &amp;map, size_t resSize) const</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR::TypedBitSet::getMapping</qualifiedname>
+        <param>
+          <type>const <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &amp;</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="427" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="427" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga484758be506c83b8a42bbb37f7761507" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Heap&lt; T, I, P &gt;::Heap</definition>
+        <argsstring>(size_t size, T def={}, P pred={})</argsstring>
+        <name>Heap</name>
+        <qualifiedname>MR::Heap::Heap</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>def</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>P</type>
+          <declname>pred</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>constructs heap for given number of elements, assigning given default value to each element </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="31" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="65" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gad25d3f2e0a2385b7458ee0a7229d6130" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Heap&lt; T, I, P &gt;::Heap</definition>
+        <argsstring>(std::vector&lt; Element &gt; elms, P pred={})</argsstring>
+        <name>Heap</name>
+        <qualifiedname>MR::Heap::Heap</qualifiedname>
+        <param>
+          <type>std::vector&lt; Element &gt;</type>
+          <declname>elms</declname>
+        </param>
+        <param>
+          <type>P</type>
+          <declname>pred</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>constructs heap from given elements (id&apos;s shall not repeat and have spaces, but can be arbitrary shuffled) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="33" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="79" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga1850d4188a12bb75802dc364f7309bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Heap&lt; T, I, P &gt;::resize</definition>
+        <argsstring>(size_t size, T def={})</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR::Heap::resize</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>def</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>increases the size of the heap by adding elements at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="99" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga4dedcc9253b2c45a7d8a9417d1c19362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Heap&lt; T, I, P &gt;::setValue</definition>
+        <argsstring>(I elemId, const T &amp;newVal)</argsstring>
+        <name>setValue</name>
+        <qualifiedname>MR::Heap::setValue</qualifiedname>
+        <param>
+          <type>I</type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+<para>sets new value to given element </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="43" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="114" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga967a46dde0718e3a1b167f25dfc62251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Heap&lt; T, I, P &gt;::setLargerValue</definition>
+        <argsstring>(I elemId, const T &amp;newVal)</argsstring>
+        <name>setLargerValue</name>
+        <qualifiedname>MR::Heap::setLargerValue</qualifiedname>
+        <param>
+          <type>I</type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+<para>sets new value to given element, which shall be larger/smaller than the current value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="45" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="125" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Heap&lt; T, I, P &gt;::lift_</definition>
+        <argsstring>(size_t pos, I elemId)</argsstring>
+        <name>lift_</name>
+        <qualifiedname>MR::Heap::lift_</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>I</type>
+          <declname>elemId</declname>
+        </param>
+        <briefdescription>
+<para>lifts the element in the queue according to its value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="56" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="135" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga8b871063e6c314fad7809432d2f74b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Heap&lt; T, I, P &gt;::setSmallerValue</definition>
+        <argsstring>(I elemId, const T &amp;newVal)</argsstring>
+        <name>setSmallerValue</name>
+        <qualifiedname>MR::Heap::setSmallerValue</qualifiedname>
+        <param>
+          <type>I</type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="152" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga8cc005841a554f35bd3b412da9244b20" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Heap&lt; T, I, P &gt;::less_</definition>
+        <argsstring>(size_t posA, size_t posB) const</argsstring>
+        <name>less_</name>
+        <qualifiedname>MR::Heap::less_</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>posA</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>posB</declname>
+        </param>
+        <briefdescription>
+<para>tests whether heap element at posA is less than posB </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="201" bodyend="210"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This chapter represents documentation about basic elements. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MarchingCubesByParts" kind="class" language="C++" prot="public">
+    <compoundname>MR::MarchingCubesByParts</compoundname>
+    <includes refid="MRMarchingCubes_8h" local="no">MRMarchingCubes.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1MarchingCubesByParts_1a731e24a7648d6e8021c2b5173ecd0277" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; MR::MarchingCubesByParts::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>MR::MarchingCubesByParts::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="116" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a318ff34fd862aa6e9208738bc0e896e0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::MarchingCubesByParts::MarchingCubesByParts</definition>
+        <argsstring>(const Vector3i &amp;dims, const MarchingCubesParams &amp;params, int layersPerBlock=0)</argsstring>
+        <name>MarchingCubesByParts</name>
+        <qualifiedname>MR::MarchingCubesByParts::MarchingCubesByParts</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MarchingCubesParams" kindref="compound">MarchingCubesParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layersPerBlock</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepares convention for given volume dimensions and given parameters <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layersPerBlock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>all z-slices of the volume will be partitioned on blocks of given size to process blocks in parallel (0 means auto-select layersPerBlock) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="96" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a848441e254b88cedf1b9ec6340d013b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::MarchingCubesByParts::~MarchingCubesByParts</definition>
+        <argsstring>()</argsstring>
+        <name>~MarchingCubesByParts</name>
+        <qualifiedname>MR::MarchingCubesByParts::~MarchingCubesByParts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="98" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1ae0071a3f687586a7cd6c99081cc17e38" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::MarchingCubesByParts::MarchingCubesByParts</definition>
+        <argsstring>(MarchingCubesByParts &amp;&amp;s) noexcept</argsstring>
+        <name>MarchingCubesByParts</name>
+        <qualifiedname>MR::MarchingCubesByParts::MarchingCubesByParts</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> &amp;&amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="99" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1ac76ad798c1f7c3352a72b4ce91e3669a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> &amp;</type>
+        <definition>MRVOXELS_API MarchingCubesByParts &amp; MR::MarchingCubesByParts::operator=</definition>
+        <argsstring>(MarchingCubesByParts &amp;&amp;s) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::MarchingCubesByParts::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> &amp;&amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="100" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a2e83c9bbbb8db6891ddcfab4639ca690" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> int</type>
+        <definition>MRVOXELS_API int MR::MarchingCubesByParts::layersPerBlock</definition>
+        <argsstring>() const</argsstring>
+        <name>layersPerBlock</name>
+        <qualifiedname>MR::MarchingCubesByParts::layersPerBlock</qualifiedname>
+        <briefdescription>
+<para>the number of z-slices of the volume in the blocks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="103" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1ad318fe7929b1263c84bdd7ca0fbc44b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> int</type>
+        <definition>MRVOXELS_API int MR::MarchingCubesByParts::nextZ</definition>
+        <argsstring>() const</argsstring>
+        <name>nextZ</name>
+        <qualifiedname>MR::MarchingCubesByParts::nextZ</qualifiedname>
+        <briefdescription>
+<para>the last z-layer of the previous part and the first z-layer of the next part </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="106" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a331ff50d13580eda9d9a7fcfc2dbd00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; void &gt; MR::MarchingCubesByParts::addPart</definition>
+        <argsstring>(const SimpleVolume &amp;part)</argsstring>
+        <name>addPart</name>
+        <qualifiedname>MR::MarchingCubesByParts::addPart</qualifiedname>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+<para>adds one more part of volume into consideration, with first z=<ref refid="classMR_1_1MarchingCubesByParts_1ad318fe7929b1263c84bdd7ca0fbc44b0" kindref="member">nextZ()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="109" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a230e32235ef70e220ab12fbd32524395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref> &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; TriMesh &gt; MR::MarchingCubesByParts::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>MR::MarchingCubesByParts::finalize</qualifiedname>
+        <briefdescription>
+<para>finishes processing and outputs produced trimesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="112" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = <ref refid="structMR_1_1Mesh_1ac504344423bcd4292f8d75e4c7ee6d6d" kindref="member">Mesh::fromTriMesh</ref>( *x.<ref refid="classMR_1_1MarchingCubesByParts_1a230e32235ef70e220ab12fbd32524395" kindref="member">finalize()</ref> ); </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="91" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="92" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MarchingCubesByParts_1a331ff50d13580eda9d9a7fcfc2dbd00a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>addPart</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1a230e32235ef70e220ab12fbd32524395" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>finalize</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1a731e24a7648d6e8021c2b5173ecd0277" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>impl_</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1a2e83c9bbbb8db6891ddcfab4639ca690" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>layersPerBlock</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1a318ff34fd862aa6e9208738bc0e896e0" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1ae0071a3f687586a7cd6c99081cc17e38" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1ad318fe7929b1263c84bdd7ca0fbc44b0" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>nextZ</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1ac76ad798c1f7c3352a72b4ce91e3669a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>operator=</name></member>
+      <member refid="classMR_1_1MarchingCubesByParts_1a848441e254b88cedf1b9ec6340d013b7" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>~MarchingCubesByParts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

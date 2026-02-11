@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OutliersDetector" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OutliersDetector</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1a7519fa174945702dc4899184e4496d49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutliersDetector.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41985" bodyend="41986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1ae67e384efdb7d4639ac6dc84cf98a7e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutliersDetector" kindref="compound">OutliersDetector</ref></type>
+        <definition> OutliersDetector mrmeshpy.OutliersDetector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41989" bodyend="41990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1ae67e384efdb7d4639ac6dc84cf98a7e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutliersDetector" kindref="compound">OutliersDetector</ref></type>
+        <definition> OutliersDetector mrmeshpy.OutliersDetector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41993" bodyend="41994"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1a01f15cf773fefaf9402381a3d71b8a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutliersDetector.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41996" bodyend="41997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1a86bb5ffeed1b8613cbc177155c800895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutliersDetector.__init__</definition>
+        <argsstring>(self, OutliersDetector arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutliersDetector" kindref="compound">OutliersDetector</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41999" bodyend="42002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1af15b9e8fb03dc3f658d8b72fd8693509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.OutliersDetector.find</definition>
+        <argsstring>(self, OutlierTypeMask mask, func_bool_from_float progress=&apos;{}&apos;)</argsstring>
+        <name>find</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.find</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Make an outlier search based on preliminary data
+@param mask mask of the types of outliers you are looking for
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42003" bodyend="42007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1abe5e656e826e5434d2e69c0da4cacfce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
+        <definition> OutlierParams mrmeshpy.OutliersDetector.getParams</definition>
+        <argsstring>(self)</argsstring>
+        <name>getParams</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.getParams</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get search parameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42008" bodyend="42011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1a2f350753a10dfc69b228e9bd06bbed89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+        <definition> std_vector_unsigned_char mrmeshpy.OutliersDetector.getWeaklyConnectedStat</definition>
+        <argsstring>(self)</argsstring>
+        <name>getWeaklyConnectedStat</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.getWeaklyConnectedStat</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get statistics on the number of neighbors for each point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42012" bodyend="42015"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1aec0af56a2d3ba15b2dc5689a08b70fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutliersDetector.prepare</definition>
+        <argsstring>(self, PointCloud pc, float radius, OutlierTypeMask mask, func_bool_from_float progress=&apos;{}&apos;)</argsstring>
+        <name>prepare</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.prepare</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Make a preliminary stage of outlier search. Caches the result
+
+@param pc point cloud
+@param radius radius of the search for neighboring points for analysis
+@param mask mask of the types of outliers that are looking for
+@param progress progress callback function
+@return error text or nothing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42016" bodyend="42025"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutliersDetector_1a907b637969fbdc7e18922212ff5ade02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutliersDetector.setParams</definition>
+        <argsstring>(self, OutlierParams params)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>mrmeshpy.OutliersDetector.setParams</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set search parameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42026" bodyend="42029"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OutliersDetector
+
+A class for searching for outliers of points
+@detail The class caches the prepared search results, which allows to speed up the repeat search (while use same radius)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41976" bodyend="42029"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1a7519fa174945702dc4899184e4496d49" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1a01f15cf773fefaf9402381a3d71b8a7c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1a86bb5ffeed1b8613cbc177155c800895" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1af15b9e8fb03dc3f658d8b72fd8693509" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1abe5e656e826e5434d2e69c0da4cacfce" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>getParams</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1a2f350753a10dfc69b228e9bd06bbed89" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>getWeaklyConnectedStat</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1ae67e384efdb7d4639ac6dc84cf98a7e3" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1ae67e384efdb7d4639ac6dc84cf98a7e3" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1aec0af56a2d3ba15b2dc5689a08b70fc1" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>prepare</name></member>
+      <member refid="classmrmeshpy_1_1OutliersDetector_1a907b637969fbdc7e18922212ff5ade02" prot="public" virt="non-virtual"><scope>mrmeshpy::OutliersDetector</scope><name>setParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

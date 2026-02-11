@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRBezier_8h" kind="file" language="C++">
+    <compoundname>MRBezier.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMesh_2MRVectorTraits_8h" local="yes">MRVectorTraits.h</includes>
+    <includes local="no">array</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRBezier.h</label>
+        <link refid="MRBezier_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1CubicBezierCurve" prot="public">MR::CubicBezierCurve</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMesh_2MRVectorTraits_8h" kindref="compound">MRVectorTraits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1CubicBezierCurve" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CubicBezierCurve" kindref="compound">CubicBezierCurve</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1CubicBezierCurve_1a9a0577357dd243e6ec6075e03d6dcf8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VectorTraits" kindref="compound">VTraits</ref><sp/>=<sp/><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits&lt;V&gt;</ref>;</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VectorTraits_1adbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref>;</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1CubicBezierCurve_1ac89e37ab87d7a669e55d9c9ca0f3eb66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CubicBezierCurve_1ac89e37ab87d7a669e55d9c9ca0f3eb66" kindref="member">elements</ref><sp/>=<sp/><ref refid="structMR_1_1VectorTraits_1a63f31635f31a229471ff3cc2990d95ea" kindref="member">VTraits::size</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1CubicBezierCurve_1a253c4a44671e701720f11bb8c0078f06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/><ref refid="structMR_1_1CubicBezierCurve_1a253c4a44671e701720f11bb8c0078f06" kindref="member">p</ref>[4];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/><ref refid="structMR_1_1CubicBezierCurve_1a808273a91fc951f1b82faa9424e6451e" kindref="member">getPoint</ref>(<sp/><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref><sp/>t<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::array&lt;T,<sp/>4&gt;<sp/><ref refid="structMR_1_1CubicBezierCurve_1a56b8e90a46bbc02fd586b6fc293831a6" kindref="member">getWeights</ref>(<sp/><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref><sp/>t<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="29" refid="structMR_1_1CubicBezierCurve_1a808273a91fc951f1b82faa9424e6451e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>V<sp/><ref refid="structMR_1_1CubicBezierCurve_1a808273a91fc951f1b82faa9424e6451e" kindref="member">CubicBezierCurve&lt;V&gt;::getPoint</ref>(<sp/><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref><sp/>t<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/>q[3];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q[i]<sp/>=<sp/><ref refid="namespaceMR_1abedf6d080f6840c8f336d5bce0c9f87a" kindref="member">lerp</ref>(<sp/>p[i],<sp/>p[i+1],<sp/>t<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/>r[2];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>2;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r[i]<sp/>=<sp/><ref refid="namespaceMR_1abedf6d080f6840c8f336d5bce0c9f87a" kindref="member">lerp</ref>(<sp/>q[i],<sp/>q[i+1],<sp/>t<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1abedf6d080f6840c8f336d5bce0c9f87a" kindref="member">lerp</ref>(<sp/>r[0],<sp/>r[1],<sp/>t<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="44" refid="structMR_1_1CubicBezierCurve_1a56b8e90a46bbc02fd586b6fc293831a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CubicBezierCurve_1a56b8e90a46bbc02fd586b6fc293831a6" kindref="member">CubicBezierCurve&lt;V&gt;::getWeights</ref>(<sp/><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref><sp/>t<sp/>)<sp/>-&gt;<sp/>std::array&lt;T,<sp/>4&gt;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref><sp/>s<sp/>=<sp/>1<sp/>-<sp/>t;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;T,<sp/>4&gt;<sp/>w<sp/>=</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>*<sp/>s<sp/>*<sp/>s,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3<sp/>*<sp/>s<sp/>*<sp/>s<sp/>*<sp/>t,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3<sp/>*<sp/>s<sp/>*<sp/>t<sp/>*<sp/>t</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>w[3]<sp/>=<sp/>1<sp/>-<sp/>w[0]<sp/>-<sp/>w[1]<sp/>-<sp/>w[2];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>w;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h"/>
+  </compounddef>
+</doxygen>

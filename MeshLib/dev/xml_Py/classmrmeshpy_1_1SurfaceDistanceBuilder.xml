@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SurfaceDistanceBuilder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SurfaceDistanceBuilder</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1ac6a98d96e27aca0ee6139974c9096a3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53482" bodyend="53483"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1ae417ef8b41fe1c2574270cbea1646a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.__init__</definition>
+        <argsstring>(self, Mesh mesh, VertBitSet region)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53485" bodyend="53486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1ac77e229ecf2592b3bd0bdc0a30cd91dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.__init__</definition>
+        <argsstring>(self, Mesh mesh, Vector3f target, VertBitSet region)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53488" bodyend="53489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a7908c48c27aaea3d5eacd2f7220a7c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.__init__</definition>
+        <argsstring>(self, SurfaceDistanceBuilder arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SurfaceDistanceBuilder" kindref="compound">SurfaceDistanceBuilder</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53491" bodyend="53494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a899ecce4a68cb83a247d44e4a0920bba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.addStart</definition>
+        <argsstring>(self, MeshTriPoint start)</argsstring>
+        <name>addStart</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.addStart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53495" bodyend="53498"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a706065fc4de0683ac42ed595eca30cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.addStartRegion</definition>
+        <argsstring>(self, VertBitSet region, float startDistance)</argsstring>
+        <name>addStartRegion</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.addStartRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>startDistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53499" bodyend="53502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a91258a202e454588b189efb3aeb48881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.addStartVertices</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_float startVertices)</argsstring>
+        <name>addStartVertices</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.addStartVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float" kindref="compound">phmap_flat_hash_map_Id_VertTag_float</ref></type>
+          <declname>startVertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53503" bodyend="53506"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a4be43df4f4a1263b879a7093232ef735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SurfaceDistanceBuilder.done</definition>
+        <argsstring>(self)</argsstring>
+        <name>done</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.done</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if further growth is impossible
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53507" bodyend="53510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a118fd53e95258820d0c8e6998f32401a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SurfaceDistanceBuilder.doneDistance</definition>
+        <argsstring>(self)</argsstring>
+        <name>doneDistance</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.doneDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns path length till the next candidate vertex or maximum float value if all vertices have been reached
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53511" bodyend="53514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a2bb2a7e3dbffedf2935ab9b42fa502c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.SurfaceDistanceBuilder.growOne</definition>
+        <argsstring>(self)</argsstring>
+        <name>growOne</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.growOne</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>processes one more candidate vertex, which is returned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53515" bodyend="53518"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a9d0b36ce3fa8d4bd286b19fcec392b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SurfaceDistanceBuilder.setMaxVertUpdates</definition>
+        <argsstring>(self, int v)</argsstring>
+        <name>setMaxVertUpdates</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.setMaxVertUpdates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the maximum amount of times vertex distance can be updated in [1,255], 3 by default;
+the more the better obtuse triangles are handled
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53519" bodyend="53523"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a5fb8aac644301a4d71835344c4403590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+        <definition> VertScalars mrmeshpy.SurfaceDistanceBuilder.takeDistanceMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>takeDistanceMap</name>
+        <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.takeDistanceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>takes ownership over constructed distance map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53524" bodyend="53527"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SurfaceDistanceBuilder
+
+this class is responsible for iterative construction of distance map along the surface
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53474" bodyend="53527"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1ac6a98d96e27aca0ee6139974c9096a3c" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1ae417ef8b41fe1c2574270cbea1646a2a" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1ac77e229ecf2592b3bd0bdc0a30cd91dc" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a7908c48c27aaea3d5eacd2f7220a7c87" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a899ecce4a68cb83a247d44e4a0920bba" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStart</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a706065fc4de0683ac42ed595eca30cd0" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a91258a202e454588b189efb3aeb48881" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a4be43df4f4a1263b879a7093232ef735" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>done</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a118fd53e95258820d0c8e6998f32401a" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>doneDistance</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a2bb2a7e3dbffedf2935ab9b42fa502c4" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>growOne</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a9d0b36ce3fa8d4bd286b19fcec392b8b" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>setMaxVertUpdates</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a5fb8aac644301a4d71835344c4403590" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>takeDistanceMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMakeSphereMesh_8h" kind="file" language="C++">
+    <compoundname>MRMakeSphereMesh.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMakeSphereMesh.h</label>
+        <link refid="MRMakeSphereMesh_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMakeSphereMesh_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="11" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" prot="public" static="no">
+        <type>struct <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref></type>
+        <definition>typedef struct MR_SphereParams MR_SphereParams</definition>
+        <argsstring></argsstring>
+        <name>MR_SphereParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::SphereParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a236a83bba321792a7e9aa452e48cab74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SphereParams_Get_radius</definition>
+        <argsstring>(const MR_SphereParams *_this)</argsstring>
+        <name>MR_SphereParams_Get_radius</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SphereParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="21" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="21" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a7803160da2330a898b053fe1a4d12159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SphereParams_Set_radius</definition>
+        <argsstring>(MR_SphereParams *_this, float value)</argsstring>
+        <name>MR_SphereParams_Set_radius</name>
+        <param>
+          <type><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::SphereParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radius</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="26" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="26" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a41e361a055cae24d9eea75204de4d2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SphereParams_GetMutable_radius</definition>
+        <argsstring>(MR_SphereParams *_this)</argsstring>
+        <name>MR_SphereParams_GetMutable_radius</name>
+        <param>
+          <type><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SphereParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="31" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="31" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a6c5f2bf0f96c5af33b70861d07004099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_SphereParams_Get_numMeshVertices</definition>
+        <argsstring>(const MR_SphereParams *_this)</argsstring>
+        <name>MR_SphereParams_Get_numMeshVertices</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SphereParams</computeroutput> named <computeroutput>numMeshVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="36" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="36" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a9affb74910b7c20082b0e6264308beed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SphereParams_Set_numMeshVertices</definition>
+        <argsstring>(MR_SphereParams *_this, int value)</argsstring>
+        <name>MR_SphereParams_Set_numMeshVertices</name>
+        <param>
+          <type><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::SphereParams</computeroutput> named <computeroutput>numMeshVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numMeshVertices</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a54a4a1f9bd2cbeed7c70102c90a9ea1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_SphereParams_GetMutable_numMeshVertices</definition>
+        <argsstring>(MR_SphereParams *_this)</argsstring>
+        <name>MR_SphereParams_GetMutable_numMeshVertices</name>
+        <param>
+          <type><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SphereParams</computeroutput> named <computeroutput>numMeshVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="46" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="46" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1ae8a9ed35e0b24f2e80aa1c972e933fa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API MR_SphereParams * MR_SphereParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SphereParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMakeSphereMesh_8h_1af17cf4f13792bfaaeed687a9e3ad09db" kindref="member">MR_SphereParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="50" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="50" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a4b0141a4fc8e911703dfb2e5ea3b2c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API MR_SphereParams * MR_SphereParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SphereParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMakeSphereMesh_8h_1a1f620daf02772927a53b8ac721b2c16f" kindref="member">MR_SphereParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMakeSphereMesh_8h_1a0aa39007b8f63170410168b1740aeac5" kindref="member">MR_SphereParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMakeSphereMesh_8h_1aef7fef21eced3a7c3005ad6517e0046b" kindref="member">MR_SphereParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="55" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="55" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1ac948a41d14b22e26571d1f27195861ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API MR_SphereParams * MR_SphereParams_ConstructFrom</definition>
+        <argsstring>(float radius, int numMeshVertices)</argsstring>
+        <name>MR_SphereParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numMeshVertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SphereParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMakeSphereMesh_8h_1af17cf4f13792bfaaeed687a9e3ad09db" kindref="member">MR_SphereParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="60" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="60" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1aef7fef21eced3a7c3005ad6517e0046b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API const MR_SphereParams * MR_SphereParams_OffsetPtr</definition>
+        <argsstring>(const MR_SphereParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SphereParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="64" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="64" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a0aa39007b8f63170410168b1740aeac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API MR_SphereParams * MR_SphereParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_SphereParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SphereParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="68" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="68" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1ad861cf303a3e973f28dd48775a0fc3c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API MR_SphereParams * MR_SphereParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_SphereParams *_other)</argsstring>
+        <name>MR_SphereParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SphereParams::SphereParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMakeSphereMesh_8h_1af17cf4f13792bfaaeed687a9e3ad09db" kindref="member">MR_SphereParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="74" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="74" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1af17cf4f13792bfaaeed687a9e3ad09db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SphereParams_Destroy</definition>
+        <argsstring>(const MR_SphereParams *_this)</argsstring>
+        <name>MR_SphereParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SphereParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="77" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a1f620daf02772927a53b8ac721b2c16f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SphereParams_DestroyArray</definition>
+        <argsstring>(const MR_SphereParams *_this)</argsstring>
+        <name>MR_SphereParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SphereParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1ad7f329ed31381daaa13e1b3bcb187320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+        <definition>MRC_API MR_SphereParams * MR_SphereParams_AssignFromAnother</definition>
+        <argsstring>(MR_SphereParams *_this, const MR_SphereParams *_other)</argsstring>
+        <name>MR_SphereParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SphereParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="88" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="88" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a6f0617c3a0813ca86aa99f6725e9081d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_Mesh * MR_makeSphere</definition>
+        <argsstring>(const MR_SphereParams *params)</argsstring>
+        <name>MR_makeSphere</name>
+        <param>
+          <type>const <ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates a mesh of sphere with irregular triangulation Generated from function <computeroutput>MR::makeSphere</computeroutput>. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMesh_8h_1a0fdcb7b4857a7f6b0fa52a17112cace6" kindref="member">MR_Mesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="94" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="94" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMakeSphereMesh_8h_1a13d746bd629f411a1b204ed144e88ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_Mesh * MR_makeUVSphere</definition>
+        <argsstring>(const float *radius, const int *horisontalResolution, const int *verticalResolution)</argsstring>
+        <name>MR_makeUVSphere</name>
+        <param>
+          <type>const float *</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>horisontalResolution</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>verticalResolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates a mesh of sphere with regular triangulation (parallels and meridians) Generated from function <computeroutput>MR::makeUVSphere</computeroutput>. Parameter <computeroutput>radius</computeroutput> has a default argument: <computeroutput>1.0</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>horisontalResolution</computeroutput> has a default argument: <computeroutput>16</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>verticalResolution</computeroutput> has a default argument: <computeroutput>16</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMesh_8h_1a0fdcb7b4857a7f6b0fa52a17112cace6" kindref="member">MR_Mesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" line="102" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h" declline="102" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRMakeSphereMesh_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRMakeSphereMesh_8h_1a236a83bba321792a7e9aa452e48cab74" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMakeSphereMesh_8h_1a236a83bba321792a7e9aa452e48cab74" kindref="member">MR_SphereParams_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRMakeSphereMesh_8h_1a7803160da2330a898b053fe1a4d12159" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1a7803160da2330a898b053fe1a4d12159" kindref="member">MR_SphereParams_Set_radius</ref>(<ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRMakeSphereMesh_8h_1a41e361a055cae24d9eea75204de4d2fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMakeSphereMesh_8h_1a41e361a055cae24d9eea75204de4d2fd" kindref="member">MR_SphereParams_GetMutable_radius</ref>(<ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRMakeSphereMesh_8h_1a6c5f2bf0f96c5af33b70861d07004099" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMakeSphereMesh_8h_1a6c5f2bf0f96c5af33b70861d07004099" kindref="member">MR_SphereParams_Get_numMeshVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRMakeSphereMesh_8h_1a9affb74910b7c20082b0e6264308beed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1a9affb74910b7c20082b0e6264308beed" kindref="member">MR_SphereParams_Set_numMeshVertices</ref>(<ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRMakeSphereMesh_8h_1a54a4a1f9bd2cbeed7c70102c90a9ea1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMakeSphereMesh_8h_1a54a4a1f9bd2cbeed7c70102c90a9ea1a" kindref="member">MR_SphereParams_GetMutable_numMeshVertices</ref>(<ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRMakeSphereMesh_8h_1ae8a9ed35e0b24f2e80aa1c972e933fa4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1ae8a9ed35e0b24f2e80aa1c972e933fa4" kindref="member">MR_SphereParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRMakeSphereMesh_8h_1a4b0141a4fc8e911703dfb2e5ea3b2c21" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1a4b0141a4fc8e911703dfb2e5ea3b2c21" kindref="member">MR_SphereParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRMakeSphereMesh_8h_1ac948a41d14b22e26571d1f27195861ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1ac948a41d14b22e26571d1f27195861ae" kindref="member">MR_SphereParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numMeshVertices);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRMakeSphereMesh_8h_1aef7fef21eced3a7c3005ad6517e0046b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1aef7fef21eced3a7c3005ad6517e0046b" kindref="member">MR_SphereParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRMakeSphereMesh_8h_1a0aa39007b8f63170410168b1740aeac5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1a0aa39007b8f63170410168b1740aeac5" kindref="member">MR_SphereParams_OffsetMutablePtr</ref>(<ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRMakeSphereMesh_8h_1ad861cf303a3e973f28dd48775a0fc3c7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1ad861cf303a3e973f28dd48775a0fc3c7" kindref="member">MR_SphereParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRMakeSphereMesh_8h_1af17cf4f13792bfaaeed687a9e3ad09db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1af17cf4f13792bfaaeed687a9e3ad09db" kindref="member">MR_SphereParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRMakeSphereMesh_8h_1a1f620daf02772927a53b8ac721b2c16f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1a1f620daf02772927a53b8ac721b2c16f" kindref="member">MR_SphereParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRMakeSphereMesh_8h_1ad7f329ed31381daaa13e1b3bcb187320" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1ad7f329ed31381daaa13e1b3bcb187320" kindref="member">MR_SphereParams_AssignFromAnother</ref>(<ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRMakeSphereMesh_8h_1a6f0617c3a0813ca86aa99f6725e9081d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1a6f0617c3a0813ca86aa99f6725e9081d" kindref="member">MR_makeSphere</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMakeSphereMesh_8h_1ae4c4ab8fff3436ec2c767b42bce11ef8" kindref="member">MR_SphereParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRMakeSphereMesh_8h_1a13d746bd629f411a1b204ed144e88ea6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMakeSphereMesh_8h_1a13d746bd629f411a1b204ed144e88ea6" kindref="member">MR_makeUVSphere</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*horisontalResolution,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*verticalResolution);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMakeSphereMesh.h"/>
+  </compounddef>
+</doxygen>

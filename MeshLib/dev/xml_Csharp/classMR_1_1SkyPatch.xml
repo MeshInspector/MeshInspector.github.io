@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SkyPatch" kind="class" language="C#" prot="public">
+    <compoundname>MR::SkyPatch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SkyPatch</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SkyPatch_1a499ab1c674ff3d60617f697abb90733f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.SkyPatch.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR.SkyPatch.dir</qualifiedname>
+        <briefdescription>
+<para>direction toward the center of the patch </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="110" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SkyPatch_1abe998e94e7a14fd0d21bed821c8eb32e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SkyPatch.radiation</definition>
+        <argsstring></argsstring>
+        <name>radiation</name>
+        <qualifiedname>MR.SkyPatch.radiation</qualifiedname>
+        <briefdescription>
+<para>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="113" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SkyPatch_1a749ac3d77a645118ae7452634e6f4d7b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SkyPatch.SkyPatch</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SkyPatch</name>
+        <qualifiedname>MR.SkyPatch.SkyPatch</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="117" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="117" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SkyPatch_1ad65bdaa6a7d9e7eede397834d4ada9b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SkyPatch.SkyPatch</definition>
+        <argsstring>()</argsstring>
+        <name>SkyPatch</name>
+        <qualifiedname>MR.SkyPatch.SkyPatch</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="127" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SkyPatch_1a44c51a4dd12aac23bad4e2966b4be358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SkyPatch.SkyPatch</definition>
+        <argsstring>(MR.Vector3f dir, float radiation)</argsstring>
+        <name>SkyPatch</name>
+        <qualifiedname>MR.SkyPatch.SkyPatch</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiation</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SkyPatch" kindref="compound">MR.SkyPatch</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="138" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="138" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SkyPatch_1acb43d0e50815d98ada274126255a380e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SkyPatch.SkyPatch</definition>
+        <argsstring>(MR.Const_SkyPatch _other)</argsstring>
+        <name>SkyPatch</name>
+        <qualifiedname>MR.SkyPatch.SkyPatch</qualifiedname>
+        <param>
+          <type>MR.Const_SkyPatch</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SkyPatch.SkyPatch</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="149" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SkyPatch_1abd2e4879140ead4af96a6a1dc38c0454" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SkyPatch.SkyPatch</definition>
+        <argsstring>(SkyPatch _other)</argsstring>
+        <name>SkyPatch</name>
+        <qualifiedname>MR.SkyPatch.SkyPatch</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SkyPatch.SkyPatch</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="161" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SkyPatch_1a122b59a68bc4ad79701f873aebedcc25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SkyPatch" kindref="compound">MR.SkyPatch</ref></type>
+        <definition>unsafe MR.SkyPatch MR.SkyPatch.assign</definition>
+        <argsstring>(MR.Const_SkyPatch _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SkyPatch.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SkyPatch</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SkyPatch.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="166" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="166" bodyend="173"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this class represents a portion of the sky, and its radiation Generated from class <computeroutput><ref refid="classMR_1_1SkyPatch" kindref="compound">MR.SkyPatch</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SkyPatch</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SkyPatch</label>
+        <link refid="classMR_1_1SkyPatch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SkyPatch &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SkyPatch</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SkyPatch</label>
+        <link refid="classMR_1_1SkyPatch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SkyPatch &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="108" bodyend="174"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SkyPatch_1a122b59a68bc4ad79701f873aebedcc25" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>assign</name></member>
+      <member refid="classMR_1_1SkyPatch_1a499ab1c674ff3d60617f697abb90733f" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>dir</name></member>
+      <member refid="classMR_1_1SkyPatch_1abe998e94e7a14fd0d21bed821c8eb32e" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>radiation</name></member>
+      <member refid="classMR_1_1SkyPatch_1a749ac3d77a645118ae7452634e6f4d7b" prot="package" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>
+      <member refid="classMR_1_1SkyPatch_1ad65bdaa6a7d9e7eede397834d4ada9b2" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>
+      <member refid="classMR_1_1SkyPatch_1a44c51a4dd12aac23bad4e2966b4be358" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>
+      <member refid="classMR_1_1SkyPatch_1acb43d0e50815d98ada274126255a380e" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>
+      <member refid="classMR_1_1SkyPatch_1abd2e4879140ead4af96a6a1dc38c0454" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

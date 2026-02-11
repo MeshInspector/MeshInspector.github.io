@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UndirectedEdgeBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::UndirectedEdgeBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeBitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1afa8fbf564b358a38ba65ebef43c403f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.UndirectedEdgeBitSet.operator MR.BitSet</definition>
+        <argsstring>(UndirectedEdgeBitSet self)</argsstring>
+        <name>operator MR.BitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.operator MR.BitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3374" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3374" bodyend="3381"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a69fc1dcc79fbc99f01e268b9a0f9340a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3383" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3383" bodyend="3383"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aedab5528715037f8eaa78e1df49bedc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3388" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3388" bodyend="3393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a2b9d2814771ab6b6d30477dd25f6af46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet _other)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3398" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3398" bodyend="3404"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aee87d70a957a8c06178c0d31d378f665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(Const_UndirectedEdgeBitSet _other)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type>Const_UndirectedEdgeBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3409" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3409" bodyend="3409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a57654d71db94fff5f1e5f33c7e16f568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(UndirectedEdgeBitSet _other)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3414" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3414" bodyend="3414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aab63b4bef0e72dd64ba9ec2f24fe72db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3421" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3421" bodyend="3427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a4500c95d65827abaca65d9535719e212" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(MR.Const_BitSet src)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_BitSet</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3433" bodyend="3439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1ab827e68958b7e6bf78c6fe737f6dbd61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.BitSet &gt; src)</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref> &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3445" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3445" bodyend="3451"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a636f4bb88df31ccb7e388d21a6808c19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.assign</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3456" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3456" bodyend="3463"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(MR.UndirectedEdgeId n, ulong len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3468" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3468" bodyend="3473"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aee30e67af2c0533c6ccf097b90ecffcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(MR.UndirectedEdgeId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3478" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3478" bodyend="3483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a1ec4fffe40567b2ce4a0a3894c004e69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(MR.UndirectedEdgeId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3488" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3488" bodyend="3493"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1ad5117987e7d2ac5284ac4c822ae31e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.set</definition>
+        <argsstring>()</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.set</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3498" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3498" bodyend="3503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.reset</definition>
+        <argsstring>(MR.UndirectedEdgeId n, ulong len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3508" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3508" bodyend="3513"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1af6d835a154736aca4567ad3a6f76fbcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.reset</definition>
+        <argsstring>(MR.UndirectedEdgeId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3518" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3518" bodyend="3523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a15e54f09cf88b104a4c7ba03208792ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.reset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3528" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3528" bodyend="3533"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.flip</definition>
+        <argsstring>(MR.UndirectedEdgeId n, ulong len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3538" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3538" bodyend="3543"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a23f37b93418cc1c6677f7b028958d37f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.flip</definition>
+        <argsstring>(MR.UndirectedEdgeId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3548" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3548" bodyend="3553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a8ed44db11642576591c0e27868ba550f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.flip</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3558" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3558" bodyend="3563"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a0f7278f489b5fee16a4b167fd4eb1294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.UndirectedEdgeBitSet.testSet</definition>
+        <argsstring>(MR.UndirectedEdgeId n, bool? val=null)</argsstring>
+        <name>testSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.testSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3569" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3569" bodyend="3575"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a1b7ae46c6d19da7c0409ad7ba9000bca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.bitandAssign</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet b)</argsstring>
+        <name>bitandAssign</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.bitandAssign</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.operator&amp;=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3580" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3580" bodyend="3588"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a82c6cec75f65b0598d6ae8e228e20d13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.bitorAssign</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet b)</argsstring>
+        <name>bitorAssign</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.bitorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.operator|=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3593" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3593" bodyend="3601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a5cbdf29dbdaeb5443003a95750ed74b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.xorAssign</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet b)</argsstring>
+        <name>xorAssign</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.xorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.operator^=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3606" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3606" bodyend="3614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a1c247aede8a91f77f0a735c534e610d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.subAssign</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3619" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3619" bodyend="3627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a9c5f550a106c9642581396d34cf887dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.subtract</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.subtract</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a9c5f550a106c9642581396d34cf887dd" kindref="member">MR.UndirectedEdgeBitSet.subtract</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3633" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3633" bodyend="3638"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.autoResizeSet</definition>
+        <argsstring>(MR.UndirectedEdgeId pos, ulong len, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" kindref="member">MR.UndirectedEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3644" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3644" bodyend="3650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1adba0b4e9a88c3fdaa146b5b91d5edb2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.autoResizeSet</definition>
+        <argsstring>(MR.UndirectedEdgeId pos, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" kindref="member">MR.UndirectedEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3656" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3656" bodyend="3662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a68103e6f1b6ef5bb8fe68f7aac7e16fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.UndirectedEdgeBitSet.autoResizeTestSet</definition>
+        <argsstring>(MR.UndirectedEdgeId pos, bool? val=null)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.autoResizeTestSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a68103e6f1b6ef5bb8fe68f7aac7e16fc" kindref="member">MR.UndirectedEdgeBitSet.autoResizeTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3668" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3668" bodyend="3674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a7ac6a72908e6a7a3eb804db7b2c09dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.reserve</definition>
+        <argsstring>(ulong numBits)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a7ac6a72908e6a7a3eb804db7b2c09dab" kindref="member">MR.UndirectedEdgeBitSet.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3679" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3679" bodyend="3684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a90afaca40c7af908a463c4bdd372eb94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.resize</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a90afaca40c7af908a463c4bdd372eb94" kindref="member">MR.UndirectedEdgeBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3690" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3690" bodyend="3696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a7f44e9155c4067b39297de27c9cf491f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a7f44e9155c4067b39297de27c9cf491f" kindref="member">MR.UndirectedEdgeBitSet.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3701" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3701" bodyend="3706"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a452a27cc18d1c8ba1eb0cb372346c81d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeBitSet.shrink_to_fit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3711" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3711" bodyend="3716"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1abefab6583f1a8124edc34d8a1e6588a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.UndirectedEdgeBitSet.uncheckedTestSet</definition>
+        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <name>uncheckedTestSet</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.uncheckedTestSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1abefab6583f1a8124edc34d8a1e6588a8" kindref="member">MR.UndirectedEdgeBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3722" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3722" bodyend="3728"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a5871f0231b5fe7e995e417a1d2d9efb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.reverse</definition>
+        <argsstring>()</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.reverse</qualifiedname>
+        <briefdescription>
+<para>changes the order of bits on the opposite Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a5871f0231b5fe7e995e417a1d2d9efb7" kindref="member">MR.UndirectedEdgeBitSet.reverse</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3734" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3734" bodyend="3739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a35b163b781a8c9b83fda1a8abffdbe41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.pushBack</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.pushBack</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR.UndirectedEdgeBitSet.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3745" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3745" bodyend="3750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a9622dbbcd5dfdcad3892769c4de0aad9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.popBack</qualifiedname>
+        <briefdescription>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR.UndirectedEdgeBitSet.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3756" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3756" bodyend="3761"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a1a3f887d90ff82e455c811bfa973200c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeBitSet.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.UndirectedEdgeBitSet.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a1a3f887d90ff82e455c811bfa973200c" kindref="member">MR.UndirectedEdgeBitSet.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3767" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3767" bodyend="3772"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UndirectedEdgeBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEnumerable&lt; MR.UndirectedEdgeId &gt;</label>
+      </node>
+      <node id="1">
+        <label>MR.UndirectedEdgeBitSet</label>
+        <link refid="classMR_1_1UndirectedEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UndirectedEdgeBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UndirectedEdgeBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEnumerable&lt; MR.UndirectedEdgeId &gt;</label>
+      </node>
+      <node id="1">
+        <label>MR.UndirectedEdgeBitSet</label>
+        <link refid="classMR_1_1UndirectedEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UndirectedEdgeBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3371" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3372" bodyend="3773"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a636f4bb88df31ccb7e388d21a6808c19" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1adba0b4e9a88c3fdaa146b5b91d5edb2f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a68103e6f1b6ef5bb8fe68f7aac7e16fc" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a1b7ae46c6d19da7c0409ad7ba9000bca" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>bitandAssign</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a82c6cec75f65b0598d6ae8e228e20d13" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a7f44e9155c4067b39297de27c9cf491f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a23f37b93418cc1c6677f7b028958d37f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a8ed44db11642576591c0e27868ba550f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1afa8fbf564b358a38ba65ebef43c403f8" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>operator MR.BitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a9622dbbcd5dfdcad3892769c4de0aad9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>popBack</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a35b163b781a8c9b83fda1a8abffdbe41" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a7ac6a72908e6a7a3eb804db7b2c09dab" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1af6d835a154736aca4567ad3a6f76fbcf" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a15e54f09cf88b104a4c7ba03208792ce" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a90afaca40c7af908a463c4bdd372eb94" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a1a3f887d90ff82e455c811bfa973200c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a5871f0231b5fe7e995e417a1d2d9efb7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reverse</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aee30e67af2c0533c6ccf097b90ecffcd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a1ec4fffe40567b2ce4a0a3894c004e69" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1ad5117987e7d2ac5284ac4c822ae31e1c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a452a27cc18d1c8ba1eb0cb372346c81d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a1c247aede8a91f77f0a735c534e610d9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a9c5f550a106c9642581396d34cf887dd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a0f7278f489b5fee16a4b167fd4eb1294" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>testSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1abefab6583f1a8124edc34d8a1e6588a8" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a69fc1dcc79fbc99f01e268b9a0f9340a" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aedab5528715037f8eaa78e1df49bedc3" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a2b9d2814771ab6b6d30477dd25f6af46" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aee87d70a957a8c06178c0d31d378f665" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a57654d71db94fff5f1e5f33c7e16f568" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aab63b4bef0e72dd64ba9ec2f24fe72db" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a4500c95d65827abaca65d9535719e212" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1ab827e68958b7e6bf78c6fe737f6dbd61" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a5cbdf29dbdaeb5443003a95750ed74b0" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>xorAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

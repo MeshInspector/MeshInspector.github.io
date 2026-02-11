@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SpaceMouse_1_1Device" kind="class" language="C++" prot="public">
+    <compoundname>MR::SpaceMouse::Device</compoundname>
+    <includes refid="MRSpaceMouseDevice_8h" local="no">MRSpaceMouseDevice.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1a88ffe376e289110c52eb67022018b5f0" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref></type>
+        <definition>VendorId MR::SpaceMouse::Device::vId_</definition>
+        <argsstring></argsstring>
+        <name>vId_</name>
+        <qualifiedname>MR::SpaceMouse::Device::vId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="118" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1a2d70a76c895e35dfc33bcdb378958d1c" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" kindref="member">ProductId</ref></type>
+        <definition>ProductId MR::SpaceMouse::Device::pId_</definition>
+        <argsstring></argsstring>
+        <name>pId_</name>
+        <qualifiedname>MR::SpaceMouse::Device::pId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="119" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1a91665dab230e38a228f9e725ad85578f" prot="private" static="no" mutable="no">
+        <type>std::bitset&lt; size_t(<ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325" kindref="member">Buttons::SMB_BUTTON_COUNT</ref>)&gt;</type>
+        <definition>std::bitset&lt;size_t( Buttons::SMB_BUTTON_COUNT )&gt; MR::SpaceMouse::Device::buttonsState_</definition>
+        <argsstring></argsstring>
+        <name>buttonsState_</name>
+        <qualifiedname>MR::SpaceMouse::Device::buttonsState_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="120" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1ad7b1d57dd4b598890f6b623075beb60f" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::vector&lt; <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" kindref="member">Buttons</ref> &gt; &gt; *</type>
+        <definition>const std::vector&lt;std::vector&lt;Buttons&gt; &gt;* MR::SpaceMouse::Device::buttonsMapPtr_</definition>
+        <argsstring></argsstring>
+        <name>buttonsMapPtr_</name>
+        <qualifiedname>MR::SpaceMouse::Device::buttonsMapPtr_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="122" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1a734e6fa55f2c880444e127141190b225" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" kindref="member">Buttons</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;Buttons&gt; &gt; MR::SpaceMouse::Device::buttonMapCompact</definition>
+        <argsstring></argsstring>
+        <name>buttonMapCompact</name>
+        <qualifiedname>MR::SpaceMouse::Device::buttonMapCompact</qualifiedname>
+        <initializer>= {
+        {  }, 
+        { <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" kindref="member">Buttons::SMB_CUSTOM_1</ref>, <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" kindref="member">Buttons::SMB_CUSTOM_2</ref>} 
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>| &lt;<mdash/> packet values ---&gt; #byte | 1 2 ---<mdash/>+-----------------------<mdash/> 0 | - - 1 | custom_1 custom_2 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="130" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1a6070ff1683f7df8a7e1c9f2e93ca3f26" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" kindref="member">Buttons</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;Buttons&gt; &gt; MR::SpaceMouse::Device::buttonMapPro</definition>
+        <argsstring></argsstring>
+        <name>buttonMapPro</name>
+        <qualifiedname>MR::SpaceMouse::Device::buttonMapPro</qualifiedname>
+        <initializer>= {
+        {  }, 
+        
+        { <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad0f4c12aa176d856d48f6b85c69a2b26" kindref="member">Buttons::SMB_MENU</ref>,     <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24" kindref="member">Buttons::SMB_FIT</ref>,      <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353" kindref="member">Buttons::SMB_TOP</ref>,      <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95" kindref="member">Buttons::SMB_RIGHT</ref>,    <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a96d13265aba3c09559b2258288217869" kindref="member">Buttons::SMB_FRONT</ref>,    <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref> },      
+        { <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa6d927c437d1b2e53b99c6d35f4a6aae" kindref="member">Buttons::SMB_ROLL_CW</ref>,  <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" kindref="member">Buttons::SMB_CUSTOM_1</ref>, <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" kindref="member">Buttons::SMB_CUSTOM_2</ref>, <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1" kindref="member">Buttons::SMB_CUSTOM_3</ref>, <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268" kindref="member">Buttons::SMB_CUSTOM_4</ref>}, 
+        { <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7" kindref="member">Buttons::SMB_ESC</ref>,      <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601" kindref="member">Buttons::SMB_ALT</ref>},      
+        { <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff" kindref="member">Buttons::SMB_SHIFT</ref>,    <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9" kindref="member">Buttons::SMB_CTRL</ref>,     <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc" kindref="member">Buttons::SMB_LOCK_ROT</ref>, <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,       <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" kindref="member">Buttons::SMB_NO</ref>,},      
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>| &lt;<mdash/> packet values ---&gt; #byte | 1 2 4 8 16 32 64 126 ---<mdash/>+---------------------------------------------------------------<mdash/> 1 | menu fit T R F 2 | rot 1 2 3 4 3 | esc alt 4 | shift ctrl lock </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="144" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="144" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Device_1ab3df6880eab13193bc35ad5627315163" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" kindref="member">Buttons</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;Buttons&gt; &gt; MR::SpaceMouse::Device::buttonMapEnterprise</definition>
+        <argsstring></argsstring>
+        <name>buttonMapEnterprise</name>
+        <qualifiedname>MR::SpaceMouse::Device::buttonMapEnterprise</qualifiedname>
+        <initializer>= {
+        {  }, 
+        { <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" kindref="member">Buttons::SMB_CUSTOM_1</ref>,     <ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" kindref="member">Buttons::SMB_CUSTOM_2</ref>}
+    }</initializer>
+        <briefdescription>
+<para>@TODO !!! NOT TESTED !!! </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="154" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="154" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Device_1a67852d2b3c384bdba442c7a9823cd3f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::Device::updateDevice</definition>
+        <argsstring>(VendorId vId, ProductId pId)</argsstring>
+        <name>updateDevice</name>
+        <qualifiedname>MR::SpaceMouse::Device::updateDevice</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref></type>
+          <declname>vId</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" kindref="member">ProductId</ref></type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para>Updates internal data by device ids (does nothing if ids is same for current device) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="103" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Device_1a9f36ca52d35888612beb1f08e1e3d2a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::Device::resetDevice</definition>
+        <argsstring>()</argsstring>
+        <name>resetDevice</name>
+        <qualifiedname>MR::SpaceMouse::Device::resetDevice</qualifiedname>
+        <briefdescription>
+<para>Invalidates this device and its state. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="106" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Device_1a5ad7cb30ab2894c06a1bceb21811fc99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Device::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::SpaceMouse::Device::valid</qualifiedname>
+        <briefdescription>
+<para>Check if this device is set and valid. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="109" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Device_1a1e84419b5a55d15608dce2aa9a257691" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::Device::parseRawEvent</definition>
+        <argsstring>(const DataPacketRaw &amp;raw, int numBytes, Action &amp;action) const</argsstring>
+        <name>parseRawEvent</name>
+        <qualifiedname>MR::SpaceMouse::Device::parseRawEvent</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1_1SpaceMouse_1afea9877496a4f6098c6687dbbae1ac62" kindref="member">DataPacketRaw</ref> &amp;</type>
+          <declname>raw</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBytes</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1SpaceMouse_1_1Action" kindref="compound">Action</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>Parses data from raw packet to unified <computeroutput>action</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="112" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Device_1ac63b830535e25136ec10d5382f59088e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::Device::processAction</definition>
+        <argsstring>(const Action &amp;action)</argsstring>
+        <name>processAction</name>
+        <qualifiedname>MR::SpaceMouse::Device::processAction</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1SpaceMouse_1_1Action" kindref="compound">Action</ref> &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Emit unified spacemouse signals in <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> based on new action and current device state updates btn state if needed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="116" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class holds information and state of single <ref refid="namespaceMR_1_1SpaceMouse" kindref="compound">SpaceMouse</ref> device. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="99" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="100" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a734e6fa55f2c880444e127141190b225" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>buttonMapCompact</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1ab3df6880eab13193bc35ad5627315163" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>buttonMapEnterprise</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a6070ff1683f7df8a7e1c9f2e93ca3f26" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>buttonMapPro</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1ad7b1d57dd4b598890f6b623075beb60f" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>buttonsMapPtr_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a91665dab230e38a228f9e725ad85578f" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>buttonsState_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a1e84419b5a55d15608dce2aa9a257691" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>parseRawEvent</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a2d70a76c895e35dfc33bcdb378958d1c" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>pId_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1ac63b830535e25136ec10d5382f59088e" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>processAction</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a9f36ca52d35888612beb1f08e1e3d2a4" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>resetDevice</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a67852d2b3c384bdba442c7a9823cd3f5" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>updateDevice</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a5ad7cb30ab2894c06a1bceb21811fc99" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>valid</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Device_1a88ffe376e289110c52eb67022018b5f0" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Device</scope><name>vId_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::MeasureResult::Status</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a55f9d58ca68ae48469db2e0d4f7885a4" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Status::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18152" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a89fa1244ebe66c7259299e0d965fce22" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Status::badFeaturePair</definition>
+        <argsstring></argsstring>
+        <name>badFeaturePair</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.badFeaturePair</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a2b474ba260354cbebc262e87be0529a8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Status::badRelativeLocation</definition>
+        <argsstring></argsstring>
+        <name>badRelativeLocation</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.badRelativeLocation</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a340b8ed23807706a1fea750ed45e885e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Status::notFinite</definition>
+        <argsstring></argsstring>
+        <name>notFinite</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.notFinite</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1af9ddf2ce2ba0fb337cd43f23a474abc6" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Status::notImplemented</definition>
+        <argsstring></argsstring>
+        <name>notImplemented</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.notImplemented</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1aa028e9f413fec5f6c93ab358aa115fa7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.Status::ok</definition>
+        <argsstring></argsstring>
+        <name>ok</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.ok</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1ad004d8a26c23b9e2d118d84f11b41375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.MeasureResult.Status.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18158" bodyend="18159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1ad61d6cd288bf265999c9727252bc602a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Features.MeasureResult.Status.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18160" bodyend="18161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a3ca356de854115cb75c20e789fdb6103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Features.MeasureResult.Status.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18162" bodyend="18163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a6c2773a110934959e30e02c7e180eda0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Features.MeasureResult.Status.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18164" bodyend="18165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1ab402fc8703408784573076119f65d2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Status.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18166" bodyend="18167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a3fedf912699e0eaad62da08233cab842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Features.MeasureResult.Status.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18168" bodyend="18169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a928372de0573d5650f14da96f215578b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.MeasureResult.Status.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18170" bodyend="18171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a19f142d692aa36bce260deb327cd1bd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.MeasureResult.Status.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18172" bodyend="18173"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a913c0cba607c2359477045e78e515568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.Status.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18174" bodyend="18175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a2576d0bad701d524db4f62e7bbffbc33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.MeasureResult.Status.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18176" bodyend="18177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a280a6d34b720639b2a304994903f56b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.MeasureResult.Status.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18179" bodyend="18180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a1b1cc9c32db97bcabfbe213b4371758c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Features.MeasureResult.Status.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.Status.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18182" bodyend="18184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  ok
+
+  notImplemented : Algorithms set this if this when something isn&apos;t yet implemented.
+
+  badFeaturePair : Algorithms set this when the calculation doesn&apos;t make sense for those object types.
+This result can be based on object parameters, but not on their relative location.
+
+  badRelativeLocation : Can&apos;t be computed because of how the objects are located relative to each other.
+
+  notFinite : The result was not finite. This is set automatically if you return non-finite values, but you can also set this manually.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Features.MeasureResult.Status</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>badFeaturePair</edgelabel>
+          <edgelabel>badRelativeLocation</edgelabel>
+          <edgelabel>notFinite</edgelabel>
+          <edgelabel>notImplemented</edgelabel>
+          <edgelabel>ok</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18137" bodyend="18183"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1ad004d8a26c23b9e2d118d84f11b41375" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1ad61d6cd288bf265999c9727252bc602a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a3ca356de854115cb75c20e789fdb6103" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a6c2773a110934959e30e02c7e180eda0" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1ab402fc8703408784573076119f65d2c2" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a3fedf912699e0eaad62da08233cab842" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a55f9d58ca68ae48469db2e0d4f7885a4" prot="private" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a928372de0573d5650f14da96f215578b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a19f142d692aa36bce260deb327cd1bd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a913c0cba607c2359477045e78e515568" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a2576d0bad701d524db4f62e7bbffbc33" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a89fa1244ebe66c7259299e0d965fce22" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>badFeaturePair</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a2b474ba260354cbebc262e87be0529a8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>badRelativeLocation</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a280a6d34b720639b2a304994903f56b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a340b8ed23807706a1fea750ed45e885e" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>notFinite</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1af9ddf2ce2ba0fb337cd43f23a474abc6" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>notImplemented</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1aa028e9f413fec5f6c93ab358aa115fa7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>ok</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status_1a1b1cc9c32db97bcabfbe213b4371758c" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Status</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a9da04879c065da2fb60d5d7a622f4a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75662" bodyend="75663"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1ae47436ab2c9955cc2df7af8048412f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
+        <definition> FunctionVolume mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__call__</definition>
+        <argsstring>(self, Mesh arg0, WeightedShell.DistanceVolumeCreationParams arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">WeightedShell.DistanceVolumeCreationParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75664" bodyend="75665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a12bd934e61097f4f273bfabe06879c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75667" bodyend="75668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a476ee599718402cd6110a0d0f2f887e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75670" bodyend="75671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1ac9f00cf89ada9d5b18532f04319c4c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self, func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c" kindref="compound">func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75673" bodyend="75674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a24419efae0d01fd8aa60f7386e9d5a51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self, typing.Callable[[Mesh, WeightedShell.DistanceVolumeCreationParams], FunctionVolume] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[Mesh, WeightedShell.DistanceVolumeCreationParams]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75676" bodyend="75677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1ac09af0a372c7bc335b5f742c1622ea03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75678" bodyend="75681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1aa26bb1964760db397e5d134d895ef0e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75682" bodyend="75685"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75661" bodyend="75685"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a9da04879c065da2fb60d5d7a622f4a96" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1ae47436ab2c9955cc2df7af8048412f61" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a12bd934e61097f4f273bfabe06879c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a476ee599718402cd6110a0d0f2f887e6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1ac9f00cf89ada9d5b18532f04319c4c64" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1a24419efae0d01fd8aa60f7386e9d5a51" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1ac09af0a372c7bc335b5f742c1622ea03" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c_1aa26bb1964760db397e5d134d895ef0e2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

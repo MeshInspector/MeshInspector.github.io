@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UndirectedEdgeSetBitIterator" kind="class" language="C#" prot="public">
+    <compoundname>MR::UndirectedEdgeSetBitIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeSetBitIterator</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1af2dd1c4810130741a084ed70abd44c3c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UndirectedEdgeSetBitIterator</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13242" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13242" bodyend="13242"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1a9b1a1aa02b3be65b3af062d8898cbf2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</definition>
+        <argsstring>()</argsstring>
+        <name>UndirectedEdgeSetBitIterator</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13247" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13247" bodyend="13252"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1ac7a3fcf0989bcd598837def1ba22e884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</definition>
+        <argsstring>(MR.Const_UndirectedEdgeSetBitIterator _other)</argsstring>
+        <name>UndirectedEdgeSetBitIterator</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeSetBitIterator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13257" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13257" bodyend="13263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1a16353d773eb3ac7f1f0c8b178f39ed97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</definition>
+        <argsstring>(UndirectedEdgeSetBitIterator _other)</argsstring>
+        <name>UndirectedEdgeSetBitIterator</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeSetBitIterator" kindref="compound">UndirectedEdgeSetBitIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13268" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13268" bodyend="13268"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1a8762fad54da5994d1b9d7af95782ac3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet bitset)</argsstring>
+        <name>UndirectedEdgeSetBitIterator</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13274" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13274" bodyend="13280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1a91b2b513a64a02b3d7532a3c8280592b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeSetBitIterator" kindref="compound">MR.UndirectedEdgeSetBitIterator</ref></type>
+        <definition>unsafe MR.UndirectedEdgeSetBitIterator MR.UndirectedEdgeSetBitIterator.assign</definition>
+        <argsstring>(MR.Const_UndirectedEdgeSetBitIterator _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.assign</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeSetBitIterator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeSetBitIterator.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13291" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13291" bodyend="13298"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1aca5fcfdf42a09a6ad3d8d7b9ff5ff204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeSetBitIterator.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeSetBitIterator.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13303" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13303" bodyend="13308"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1adbcbf6a3a24d0e6d2d78d46e8774915e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.UndirectedEdgeSetBitIterator.operator UndirectedEdgeSetBitIterator</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet bitset)</argsstring>
+        <name>operator UndirectedEdgeSetBitIterator</name>
+        <qualifiedname>MR.UndirectedEdgeSetBitIterator.operator UndirectedEdgeSetBitIterator</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13286" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13286" bodyend="13286"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeSetBitIterator" kindref="compound">MR.UndirectedEdgeSetBitIterator</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UndirectedEdgeSetBitIterator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UndirectedEdgeSetBitIterator</label>
+        <link refid="classMR_1_1UndirectedEdgeSetBitIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UndirectedEdgeSetBitIterator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_UndirectedEdgeSetBitIterator &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UndirectedEdgeSetBitIterator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UndirectedEdgeSetBitIterator</label>
+        <link refid="classMR_1_1UndirectedEdgeSetBitIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UndirectedEdgeSetBitIterator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_UndirectedEdgeSetBitIterator &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13240" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13241" bodyend="13309"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1a91b2b513a64a02b3d7532a3c8280592b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1aca5fcfdf42a09a6ad3d8d7b9ff5ff204" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1adbcbf6a3a24d0e6d2d78d46e8774915e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>operator UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1af2dd1c4810130741a084ed70abd44c3c" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1a9b1a1aa02b3be65b3af062d8898cbf2d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1ac7a3fcf0989bcd598837def1ba22e884" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1a16353d773eb3ac7f1f0c8b178f39ed97" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1a8762fad54da5994d1b9d7af95782ac3e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

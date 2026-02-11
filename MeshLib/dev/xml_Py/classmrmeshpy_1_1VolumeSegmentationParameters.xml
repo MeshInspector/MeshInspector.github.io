@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VolumeSegmentationParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VolumeSegmentationParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a57168c69f0fd60b0c670c172d5c13642" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmentationParameters::_offsetof_buildPathExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_buildPathExponentModifier</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters._offsetof_buildPathExponentModifier</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a1dc8438385c6bd7e871aa437ef8507da" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmentationParameters::_offsetof_segmentationExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_segmentationExponentModifier</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters._offsetof_segmentationExponentModifier</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmentationParameters_1aa8c6c341204e9461271202863798c060" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmentationParameters::_offsetof_voxelsExpansion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelsExpansion</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters._offsetof_voxelsExpansion</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72290" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a312c8eba86c26093a216d1900e5578d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72293" bodyend="72294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a44bfbe598749c04644b24a53a4190b89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeSegmentationParameters" kindref="compound">VolumeSegmentationParameters</ref></type>
+        <definition> VolumeSegmentationParameters mrmeshpy.VolumeSegmentationParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72297" bodyend="72298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a44bfbe598749c04644b24a53a4190b89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeSegmentationParameters" kindref="compound">VolumeSegmentationParameters</ref></type>
+        <definition> VolumeSegmentationParameters mrmeshpy.VolumeSegmentationParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72301" bodyend="72302"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1ad0c992ac5f64df1db0b9102b7dfae426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72304" bodyend="72305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a8f7ef7e53f964695c5890f631252e418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.__init__</definition>
+        <argsstring>(self, VolumeSegmentationParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeSegmentationParameters" kindref="compound">VolumeSegmentationParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72307" bodyend="72310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a45ec05bfa000e66500a2eaa18daaf652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.__init__</definition>
+        <argsstring>(self, float buildPathExponentModifier, float segmentationExponentModifier, int voxelsExpansion)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>buildPathExponentModifier</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>segmentationExponentModifier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voxelsExpansion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72312" bodyend="72315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1ac11c2d74b23c3a22703e57c2a0bc35eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VolumeSegmentationParameters.buildPathExponentModifier</definition>
+        <argsstring>(self)</argsstring>
+        <name>buildPathExponentModifier</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.buildPathExponentModifier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72317" bodyend="72320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1aa565c473529b6e377bacbd541f9503ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.buildPathExponentModifier</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>buildPathExponentModifier</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.buildPathExponentModifier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72322" bodyend="72323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1a420c9a6957a6a148ec365679b7d3a4c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VolumeSegmentationParameters.segmentationExponentModifier</definition>
+        <argsstring>(self)</argsstring>
+        <name>segmentationExponentModifier</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.segmentationExponentModifier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72325" bodyend="72328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1ab64cf82d88db2235f1192dab3f7e7e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.segmentationExponentModifier</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>segmentationExponentModifier</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.segmentationExponentModifier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72330" bodyend="72331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1ad1bda52bdeee496bdbc51dfa340e73c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeSegmentationParameters.voxelsExpansion</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelsExpansion</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.voxelsExpansion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72333" bodyend="72336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmentationParameters_1abe625b4a13f928e7a69f0fa57b8b12b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmentationParameters.voxelsExpansion</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>voxelsExpansion</name>
+        <qualifiedname>mrmeshpy.VolumeSegmentationParameters.voxelsExpansion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72338" bodyend="72339"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VolumeSegmentationParameters
+
+
+ \\brief Parameters for volume segmentation
+ 
+ \\sa \\ref segmentVolume</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VolumeSegmentationParameters</label>
+        <link refid="classmrmeshpy_1_1VolumeSegmentationParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_buildPathExponentModifier</edgelabel>
+          <edgelabel>_offsetof_segmentationExponentModifier</edgelabel>
+          <edgelabel>_offsetof_voxelsExpansion</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72278" bodyend="72339"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a312c8eba86c26093a216d1900e5578d7" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1ad0c992ac5f64df1db0b9102b7dfae426" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a8f7ef7e53f964695c5890f631252e418" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a45ec05bfa000e66500a2eaa18daaf652" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a57168c69f0fd60b0c670c172d5c13642" prot="protected" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>_offsetof_buildPathExponentModifier</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a1dc8438385c6bd7e871aa437ef8507da" prot="protected" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>_offsetof_segmentationExponentModifier</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1aa8c6c341204e9461271202863798c060" prot="protected" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>_offsetof_voxelsExpansion</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1ac11c2d74b23c3a22703e57c2a0bc35eb" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>buildPathExponentModifier</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1aa565c473529b6e377bacbd541f9503ea" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>buildPathExponentModifier</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a44bfbe598749c04644b24a53a4190b89" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a44bfbe598749c04644b24a53a4190b89" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1a420c9a6957a6a148ec365679b7d3a4c6" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>segmentationExponentModifier</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1ab64cf82d88db2235f1192dab3f7e7e24" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>segmentationExponentModifier</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1ad1bda52bdeee496bdbc51dfa340e73c7" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>voxelsExpansion</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmentationParameters_1abe625b4a13f928e7a69f0fa57b8b12b0" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmentationParameters</scope><name>voxelsExpansion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

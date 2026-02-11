@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeSceneAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeSceneAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeSceneAction_8h" local="no">MRChangeSceneAction.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1ChangeSceneAction_1ae23bede5fadd45b799171e142607c1d1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>MR::ChangeSceneAction::Type</qualifiedname>
+        <enumvalue id="classMR_1_1ChangeSceneAction_1ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846" prot="public">
+          <name>AddObject</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1ChangeSceneAction_1ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9" prot="public">
+          <name>RemoveObject</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneAction_1a831c6b72e952e6fe1f5d4f8d348be989" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+        <definition>Object* MR::ChangeSceneAction::parent_</definition>
+        <argsstring></argsstring>
+        <name>parent_</name>
+        <qualifiedname>MR::ChangeSceneAction::parent_</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneAction_1aaa9e487686caa8731f10191d47bb1804" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Object&gt; MR::ChangeSceneAction::nextObj_</definition>
+        <argsstring></argsstring>
+        <name>nextObj_</name>
+        <qualifiedname>MR::ChangeSceneAction::nextObj_</qualifiedname>
+        <briefdescription>
+<para>next child of parent (needed to insert child to correct place of tree) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="34" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneAction_1a08f657cc0c6e307c5c975fdb109f88b4" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Object&gt; MR::ChangeSceneAction::obj_</definition>
+        <argsstring></argsstring>
+        <name>obj_</name>
+        <qualifiedname>MR::ChangeSceneAction::obj_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="35" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneAction_1aa1167bddbf51b467aaf64941ae2010f5" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::ChangeSceneAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::ChangeSceneAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="36" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ChangeSceneAction_1ae6ce83b1c37045ab15b3374229485742" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ChangeSceneAction_1ae23bede5fadd45b799171e142607c1d1" kindref="member">Type</ref></type>
+        <definition>Type MR::ChangeSceneAction::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>MR::ChangeSceneAction::type_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1a1de30bd403835a03cc79234ac5f31280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::ChangeSceneAction::ChangeSceneAction</definition>
+        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj, Type type)</argsstring>
+        <name>ChangeSceneAction</name>
+        <qualifiedname>MR::ChangeSceneAction::ChangeSceneAction</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ChangeSceneAction_1ae23bede5fadd45b799171e142607c1d1" kindref="member">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Constructed before removal or addition. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="21" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1ad1dec660d1132592b4ea2eb4ad53dda0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::ChangeSceneAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ChangeSceneAction::name</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="23" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1abe4134fb5816e6ed341b5b84526fe6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>virtual MRMESH_API void MR::ChangeSceneAction::action</definition>
+        <argsstring>(HistoryAction::Type actionType) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::ChangeSceneAction::action</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="25" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1afc8063a119e30688b93c3e6d04cb77d2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <definition>virtual MRMESH_API size_t MR::ChangeSceneAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ChangeSceneAction::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="27" column="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1a86fb076827d66446d0309de6e8114e90" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ChangeSceneAction::updateParent_</definition>
+        <argsstring>()</argsstring>
+        <name>updateParent_</name>
+        <qualifiedname>MR::ChangeSceneAction::updateParent_</qualifiedname>
+        <briefdescription>
+<para>updates parent and next child if it was not preset before </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="31" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Change scene action </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeSceneAction</label>
+        <link refid="classMR_1_1ChangeSceneAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeSceneAction</label>
+        <link refid="classMR_1_1ChangeSceneAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="13" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeSceneAction_1abe4134fb5816e6ed341b5b84526fe6c0" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1a1de30bd403835a03cc79234ac5f31280" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1afc8063a119e30688b93c3e6d04cb77d2" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1ad1dec660d1132592b4ea2eb4ad53dda0" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>name</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1aa1167bddbf51b467aaf64941ae2010f5" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>name_</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1aaa9e487686caa8731f10191d47bb1804" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>nextObj_</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1a08f657cc0c6e307c5c975fdb109f88b4" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>obj_</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1a831c6b72e952e6fe1f5d4f8d348be989" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>parent_</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1ae23bede5fadd45b799171e142607c1d1" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1ae6ce83b1c37045ab15b3374229485742" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>type_</name></member>
+      <member refid="classMR_1_1ChangeSceneAction_1a86fb076827d66446d0309de6e8114e90" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>updateParent_</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1HoleEdgePoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::HoleEdgePoint</compoundname>
+    <includes refid="MRPickHoleBorderElement_8h" local="no">MRPickHoleBorderElement.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1HoleEdgePoint_1a540414cc7fb82e34d5a10d971449fc9d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::HoleEdgePoint::holeIdx</definition>
+        <argsstring></argsstring>
+        <name>holeIdx</name>
+        <qualifiedname>MR::HoleEdgePoint::holeIdx</qualifiedname>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+<para>hole index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickHoleBorderElement.h" line="12" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickHoleBorderElement.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1HoleEdgePoint_1ae793addf9016abcd83646bb9e2243142" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref></type>
+        <definition>MeshEdgePoint MR::HoleEdgePoint::edgePoint</definition>
+        <argsstring></argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR::HoleEdgePoint::edgePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickHoleBorderElement.h" line="13" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickHoleBorderElement.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::EdgePoint</label>
+        <link refid="structMR_1_1EdgePoint"/>
+      </node>
+      <node id="1">
+        <label>MR::HoleEdgePoint</label>
+        <link refid="structMR_1_1HoleEdgePoint"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>edgePoint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickHoleBorderElement.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickHoleBorderElement.h" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structMR_1_1HoleEdgePoint_1ae793addf9016abcd83646bb9e2243142" prot="public" virt="non-virtual"><scope>MR::HoleEdgePoint</scope><name>edgePoint</name></member>
+      <member refid="structMR_1_1HoleEdgePoint_1a540414cc7fb82e34d5a10d971449fc9d" prot="public" virt="non-virtual"><scope>MR::HoleEdgePoint</scope><name>holeIdx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

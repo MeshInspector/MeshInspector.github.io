@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ContourToDistanceMapParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ContourToDistanceMapParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContourToDistanceMapParams_1ad83857dfafa9a628a8f3d2ea09cf9fcc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContourToDistanceMapParams::_offsetof_orgPoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_orgPoint</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams._offsetof_orgPoint</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContourToDistanceMapParams_1aee59b2bb3a8812e1927531134fe7ad66" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContourToDistanceMapParams::_offsetof_pixelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pixelSize</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams._offsetof_pixelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContourToDistanceMapParams_1aa1853174e8b7b986f3bdd4bc55884a23" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContourToDistanceMapParams::_offsetof_resolution</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_resolution</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams._offsetof_resolution</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a1fa49168dc846a7a2d3afa06f058d8ea" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContourToDistanceMapParams::_offsetof_withSign</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_withSign</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams._offsetof_withSign</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10565" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a6abb8466e288747a8b68ed30a528d12b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10568" bodyend="10569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1adfae701f05cd2113c1d4becad73a6dd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></type>
+        <definition> ContourToDistanceMapParams mrmeshpy.ContourToDistanceMapParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10572" bodyend="10573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1adfae701f05cd2113c1d4becad73a6dd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></type>
+        <definition> ContourToDistanceMapParams mrmeshpy.ContourToDistanceMapParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10576" bodyend="10577"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a8080b2e7744bee46a458da830de33747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Default ctor, make sure to fill all fields manually
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10579" bodyend="10582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a7f610af63ea69247eeae6111c1027f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Vector2i resolution, Vector2f oriPoint, Vector2f areaSize, bool withSign=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>oriPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>areaSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Ctor, calculating pixelSize by areaSize &amp; dmapSize
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10584" bodyend="10587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a468de683ba99059479a95f7708698d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Vector2i resolution, Box2f box, bool withSign=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box2f" kindref="compound">Box2f</ref></type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Ctor, calculating pixelSize &amp; oriPoint by box parameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10589" bodyend="10592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a74a7d159d0694c62e629db656bbfa17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self, Vector2i resolution, std_vector_std_vector_Vector2_float contours, float offset, bool withSign=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector2__float" kindref="compound">std_vector_std_vector_Vector2_float</ref></type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Ctor, calculating pixelSize &amp; oriPoint by contours box + offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10594" bodyend="10597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1ab5e6fbe02c912d581e80162d0d01a9d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self, float pixelSize, std_vector_std_vector_Vector2_float contours, float offset, bool withSign=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector2__float" kindref="compound">std_vector_std_vector_Vector2_float</ref></type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Ctor, calculating resolution &amp; oriPoint by contours box + offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10599" bodyend="10602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1abe0b55b4479f74eb0f0454053905d918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self, DistanceMapToWorld toWorld)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+          <declname>toWorld</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10604" bodyend="10605"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a0507fa004522e8537660a781b4bdf0c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.__init__</definition>
+        <argsstring>(self, ContourToDistanceMapParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10607" bodyend="10610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1aa73edbc921fb1b54c68857cab88855ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.ContourToDistanceMapParams.toWorld</definition>
+        <argsstring>(self, Vector2f point)</argsstring>
+        <name>toWorld</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.toWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get world 2d coordinate (respects origin point and pixel size)
+point - coordinate on distance map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10611" bodyend="10615"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a6988e8e387dedabad4e3b8bf18ba1938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ContourToDistanceMapParams.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10616" bodyend="10617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a676d4aa2eda8c7a75880908298157dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.ContourToDistanceMapParams.orgPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.orgPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>coordinates of origin area corner
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10619" bodyend="10622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1af40d6ccd60ff381dbfafeb9656f2d596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.orgPoint</definition>
+        <argsstring>(self, Vector2f arg1)</argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.orgPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10624" bodyend="10625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a8c0e47f75c8e253904ec14adf88581ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.ContourToDistanceMapParams.pixelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>pixelSize</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.pixelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>pixel size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10627" bodyend="10630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a4e2f5b6c7ba6ba61fae04489d4de45bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.pixelSize</definition>
+        <argsstring>(self, Vector2f arg1)</argsstring>
+        <name>pixelSize</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.pixelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10632" bodyend="10633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a33db3e1c59634be83e63a6efd5795b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.ContourToDistanceMapParams.resolution</definition>
+        <argsstring>(self)</argsstring>
+        <name>resolution</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.resolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>distance map size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10635" bodyend="10638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a1df4bcbb74c0a9c64803be9b9083af18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.resolution</definition>
+        <argsstring>(self, Vector2i arg1)</argsstring>
+        <name>resolution</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.resolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10640" bodyend="10641"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a691352e18fbacabb26434af3cb47f0ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ContourToDistanceMapParams.withSign</definition>
+        <argsstring>(self)</argsstring>
+        <name>withSign</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.withSign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10643" bodyend="10646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContourToDistanceMapParams_1a808df35fb34dd59e4b3d8e3b7669fa09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContourToDistanceMapParams.withSign</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>withSign</name>
+        <qualifiedname>mrmeshpy.ContourToDistanceMapParams.withSign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10648" bodyend="10649"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ContourToDistanceMapParams
+
+Structure with parameters to generate DistanceMap by Contours
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ContourToDistanceMapParams</label>
+        <link refid="classmrmeshpy_1_1ContourToDistanceMapParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_orgPoint</edgelabel>
+          <edgelabel>_offsetof_pixelSize</edgelabel>
+          <edgelabel>_offsetof_resolution</edgelabel>
+          <edgelabel>_offsetof_withSign</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10556" bodyend="10649"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a6abb8466e288747a8b68ed30a528d12b" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a8080b2e7744bee46a458da830de33747" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a7f610af63ea69247eeae6111c1027f06" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a468de683ba99059479a95f7708698d6b" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a74a7d159d0694c62e629db656bbfa17f" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1ab5e6fbe02c912d581e80162d0d01a9d4" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1abe0b55b4479f74eb0f0454053905d918" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a0507fa004522e8537660a781b4bdf0c4" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1ad83857dfafa9a628a8f3d2ea09cf9fcc" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>_offsetof_orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1aee59b2bb3a8812e1927531134fe7ad66" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>_offsetof_pixelSize</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1aa1853174e8b7b986f3bdd4bc55884a23" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>_offsetof_resolution</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a1fa49168dc846a7a2d3afa06f058d8ea" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>_offsetof_withSign</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1adfae701f05cd2113c1d4becad73a6dd7" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1adfae701f05cd2113c1d4becad73a6dd7" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a676d4aa2eda8c7a75880908298157dff" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1af40d6ccd60ff381dbfafeb9656f2d596" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a8c0e47f75c8e253904ec14adf88581ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>pixelSize</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a4e2f5b6c7ba6ba61fae04489d4de45bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>pixelSize</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a33db3e1c59634be83e63a6efd5795b6c" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a1df4bcbb74c0a9c64803be9b9083af18" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1aa73edbc921fb1b54c68857cab88855ca" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>toWorld</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a691352e18fbacabb26434af3cb47f0ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>withSign</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a808df35fb34dd59e4b3d8e3b7669fa09" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>withSign</name></member>
+      <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a6988e8e387dedabad4e3b8bf18ba1938" prot="public" virt="non-virtual"><scope>mrmeshpy::ContourToDistanceMapParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

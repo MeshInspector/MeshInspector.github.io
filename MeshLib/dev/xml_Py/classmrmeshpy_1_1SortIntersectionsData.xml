@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SortIntersectionsData" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SortIntersectionsData</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SortIntersectionsData_1ab0ff8f143b9df402ad1191891a5d034a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SortIntersectionsData::_offsetof_contours</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_contours</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData._offsetof_contours</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52712" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SortIntersectionsData_1a97033fc9cbc8256dbf28387ae4e149b1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SortIntersectionsData::_offsetof_converter</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_converter</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData._offsetof_converter</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SortIntersectionsData_1a832669283400c531bf1a938e77cdc840" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SortIntersectionsData::_offsetof_isOtherA</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isOtherA</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData._offsetof_isOtherA</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52714" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SortIntersectionsData_1a5d145fe14bcea91d5e8954aa9a291897" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SortIntersectionsData::_offsetof_meshAVertsNum</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshAVertsNum</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData._offsetof_meshAVertsNum</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SortIntersectionsData_1aa29d19b71fe901b11c1e0a78f4176bb2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SortIntersectionsData::_offsetof_otherMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherMesh</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData._offsetof_otherMesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SortIntersectionsData_1acbfebb7133a8db4ce9fc208335cad48a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SortIntersectionsData::_offsetof_rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rigidB2A</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData._offsetof_rigidB2A</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52717" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SortIntersectionsData_1abb616672e32d1de56cc90c215af51ad9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SortIntersectionsData.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52724" bodyend="52725"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SortIntersectionsData_1a18437a5ecdc30c01f0f1d4321c57805a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SortIntersectionsData.__init__</definition>
+        <argsstring>(self, SortIntersectionsData arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SortIntersectionsData" kindref="compound">SortIntersectionsData</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52727" bodyend="52730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SortIntersectionsData_1a48a1479e8a919ac300f959a10c3f4d04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SortIntersectionsData.__init__</definition>
+        <argsstring>(self, Mesh otherMesh, std_vector_std_vector_VarEdgeTri contours, func_Vector3_int_from_Vector3_float converter, AffineXf3f rigidB2A, int meshAVertsNum, bool isOtherA)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>otherMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__VarEdgeTri" kindref="compound">std_vector_std_vector_VarEdgeTri</ref></type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float" kindref="compound">func_Vector3_int_from_Vector3_float</ref></type>
+          <declname>converter</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>rigidB2A</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>meshAVertsNum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isOtherA</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52732" bodyend="52735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SortIntersectionsData_1a01148e9d45e304e96079b598d0b97959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__VarEdgeTri" kindref="compound">std_vector_std_vector_VarEdgeTri</ref></type>
+        <definition> std_vector_std_vector_VarEdgeTri mrmeshpy.SortIntersectionsData.contours</definition>
+        <argsstring>(self)</argsstring>
+        <name>contours</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData.contours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52737" bodyend="52738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SortIntersectionsData_1a48c53990c5786ce6f72adee753690fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.SortIntersectionsData.otherMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherMesh</name>
+        <qualifiedname>mrmeshpy.SortIntersectionsData.otherMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52740" bodyend="52741"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SortIntersectionsData
+
+Special data to sort intersections more accurate
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SortIntersectionsData</label>
+        <link refid="classmrmeshpy_1_1SortIntersectionsData"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_contours</edgelabel>
+          <edgelabel>_offsetof_converter</edgelabel>
+          <edgelabel>_offsetof_isOtherA</edgelabel>
+          <edgelabel>_offsetof_meshAVertsNum</edgelabel>
+          <edgelabel>_offsetof_otherMesh</edgelabel>
+          <edgelabel>_offsetof_rigidB2A</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52706" bodyend="52741"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1abb616672e32d1de56cc90c215af51ad9" prot="public" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a18437a5ecdc30c01f0f1d4321c57805a" prot="public" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a48a1479e8a919ac300f959a10c3f4d04" prot="public" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1ab0ff8f143b9df402ad1191891a5d034a" prot="protected" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>_offsetof_contours</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a97033fc9cbc8256dbf28387ae4e149b1" prot="protected" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>_offsetof_converter</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a832669283400c531bf1a938e77cdc840" prot="protected" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>_offsetof_isOtherA</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a5d145fe14bcea91d5e8954aa9a291897" prot="protected" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>_offsetof_meshAVertsNum</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1aa29d19b71fe901b11c1e0a78f4176bb2" prot="protected" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>_offsetof_otherMesh</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1acbfebb7133a8db4ce9fc208335cad48a" prot="protected" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>_offsetof_rigidB2A</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a01148e9d45e304e96079b598d0b97959" prot="public" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>contours</name></member>
+      <member refid="classmrmeshpy_1_1SortIntersectionsData_1a48c53990c5786ce6f72adee753690fbe" prot="public" virt="non-virtual"><scope>mrmeshpy::SortIntersectionsData</scope><name>otherMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

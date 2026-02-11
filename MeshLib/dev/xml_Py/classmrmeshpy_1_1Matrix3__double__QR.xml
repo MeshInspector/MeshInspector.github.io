@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Matrix3__double__QR" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Matrix3_double_QR</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Matrix3__double__QR_1aff8175b8c1966fa991876e18d31b8e93" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Matrix3_double_QR::_offsetof_q</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_q</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR._offsetof_q</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Matrix3__double__QR_1a1427925fd729eab221e8525e06597ee9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Matrix3_double_QR::_offsetof_r</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_r</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR._offsetof_r</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28238" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix3__double__QR_1a84330261112eeb72e31a3ee306133891" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix3_double_QR.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28243" bodyend="28244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix3__double__QR_1ac2b5e84de2a58963940db4fe998738af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3__double__QR" kindref="compound">Matrix3_double_QR</ref></type>
+        <definition> Matrix3_double_QR mrmeshpy.Matrix3_double_QR.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28247" bodyend="28248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix3__double__QR_1ac2b5e84de2a58963940db4fe998738af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3__double__QR" kindref="compound">Matrix3_double_QR</ref></type>
+        <definition> Matrix3_double_QR mrmeshpy.Matrix3_double_QR.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28251" bodyend="28252"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix3__double__QR_1ad890d89fef97f71c957c4e15fb984c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix3_double_QR.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28254" bodyend="28255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix3__double__QR_1a981c21703e3a1fa7b8fdbfb336331acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix3_double_QR.__init__</definition>
+        <argsstring>(self, Matrix3_double_QR arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3__double__QR" kindref="compound">Matrix3_double_QR</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28257" bodyend="28260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix3__double__QR_1ab5a7d3dc54e2a749fb30f8f241950e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix3_double_QR.__init__</definition>
+        <argsstring>(self, Matrix3d q, Matrix3d r)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix3_double_QR.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28262" bodyend="28265"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Matrix3&lt;double&gt;::QR
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Matrix3_double_QR</label>
+        <link refid="classmrmeshpy_1_1Matrix3__double__QR"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_q</edgelabel>
+          <edgelabel>_offsetof_r</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="28233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="28233" bodyend="28265"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1a84330261112eeb72e31a3ee306133891" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1ad890d89fef97f71c957c4e15fb984c3d" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1a981c21703e3a1fa7b8fdbfb336331acf" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1ab5a7d3dc54e2a749fb30f8f241950e05" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1aff8175b8c1966fa991876e18d31b8e93" prot="protected" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>_offsetof_q</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1a1427925fd729eab221e8525e06597ee9" prot="protected" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>_offsetof_r</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1ac2b5e84de2a58963940db4fe998738af" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Matrix3__double__QR_1ac2b5e84de2a58963940db4fe998738af" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix3_double_QR</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

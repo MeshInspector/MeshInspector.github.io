@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriangulationHelpers" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriangulationHelpers</compoundname>
+    <innerclass refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" prot="public">MR::TriangulationHelpers::FanOptimizerQueueElement</innerclass>
+    <innerclass refid="classMR_1_1TriangulationHelpers_1_1Settings" prot="public">MR::TriangulationHelpers::Settings</innerclass>
+    <innerclass refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" prot="public">MR::TriangulationHelpers::TriangulatedFanData</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1a38d9fe9cab08a9c8e0e2311f877e5589" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.TriangulationHelpers.updateNeighborsRadius</definition>
+        <argsstring>(MR.Const_VertCoords points, MR.VertId v, MR.VertId boundaryV, MR.Std.Const_Vector_MRVertId fan, float baseRadius)</argsstring>
+        <name>updateNeighborsRadius</name>
+        <qualifiedname>MR.TriangulationHelpers.updateNeighborsRadius</qualifiedname>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>boundaryV</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVertId</type>
+          <declname>fan</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseRadius</declname>
+        </param>
+        <briefdescription>
+<para>Finds max radius of neighbors search, for possible better local triangulation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>borderV</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first boundary vertex in</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(next <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> in fan is also boundary but first is enough) Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1a38d9fe9cab08a9c8e0e2311f877e5589" kindref="member">MR.TriangulationHelpers.updateNeighborsRadius</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1044" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1044" bodyend="1049"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1af72d4dfd9631e3e8fd9327658a253d0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.TriangulationHelpers.findNeighborsInBall</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, MR.VertId v, float radius, MR.Std.Vector_MRVertId neighbors)</argsstring>
+        <name>findNeighborsInBall</name>
+        <qualifiedname>MR.TriangulationHelpers.findNeighborsInBall</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRVertId</type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+<para>Finds all neighbors of v in given radius (v excluded) Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1af72d4dfd9631e3e8fd9327658a253d0a" kindref="member">MR.TriangulationHelpers.findNeighborsInBall</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1055" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1055" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1a5dd8bba6647d4a34eb9e2448fdb32f65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.TriangulationHelpers.findNumNeighbors</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, MR.VertId v, int numNeis, MR.Std.Vector_MRVertId neighbors, MR.FewSmallest_MRPointsProjectionResult tmp, float? upDistLimitSq=null)</argsstring>
+        <name>findNumNeighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.findNumNeighbors</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numNeis</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRVertId</type>
+          <declname>neighbors</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FewSmallest__MRPointsProjectionResult" kindref="compound">MR.FewSmallest_MRPointsProjectionResult</ref></type>
+          <declname>tmp</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>upDistLimitSq</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Finds at most given number of neighbors of v (v excluded) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tmp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>temporary storage to avoid its allocation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upDistLimitSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>upper limit on the distance in question, points with larger distance than it will not be returned </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>maxDistSq to the furthest returned neighbor (or 0 if no neighbours are returned) Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1a5dd8bba6647d4a34eb9e2448fdb32f65" kindref="member">MR.TriangulationHelpers.findNumNeighbors</ref></computeroutput>. Parameter <computeroutput>upDistLimitSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1070" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1070" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1a2149c3edc1e1b3f10a2ac2a2258d67ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.TriangulationHelpers.filterNeighbors</definition>
+        <argsstring>(MR.Const_VertCoords orientedNormals, MR.Const_VertBitSet? untrustedNormals, MR.VertId v, MR.Std.Vector_MRVertId neighbors)</argsstring>
+        <name>filterNeighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.filterNeighbors</qualifiedname>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>orientedNormals</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>untrustedNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRVertId</type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+<para>Filter neighbors with crossing normals Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1a2149c3edc1e1b3f10a2ac2a2258d67ac" kindref="member">MR.TriangulationHelpers.filterNeighbors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1082" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1082" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1a067db0d0c4f2cd689c1b22c603788030" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.TriangulationHelpers.buildLocalTriangulation</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.VertId v, MR.TriangulationHelpers.Const_Settings settings, MR.TriangulationHelpers.TriangulatedFanData fanData)</argsstring>
+        <name>buildLocalTriangulation</name>
+        <qualifiedname>MR.TriangulationHelpers.buildLocalTriangulation</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">MR.TriangulationHelpers.TriangulatedFanData</ref></type>
+          <declname>fanData</declname>
+        </param>
+        <briefdescription>
+<para>constructs local triangulation around given point Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1a067db0d0c4f2cd689c1b22c603788030" kindref="member">MR.TriangulationHelpers.buildLocalTriangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1093" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1093" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1aea6cc33ba797605d8ecfeca85eed2393" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_StdVectorMRSomeLocalTriangulations</type>
+        <definition>static unsafe MR.Std.Optional_StdVectorMRSomeLocalTriangulations MR.TriangulationHelpers.buildLocalTriangulations</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.TriangulationHelpers.Const_Settings settings, MR.Std.Const_Function_BoolFuncFromFloat? progress=null)</argsstring>
+        <name>buildLocalTriangulations</name>
+        <qualifiedname>MR.TriangulationHelpers.buildLocalTriangulations</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>progress</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes all local triangulations of all points in the cloud, and returns them distributed among a set of <ref refid="classMR_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref> objects Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1aea6cc33ba797605d8ecfeca85eed2393" kindref="member">MR.TriangulationHelpers.buildLocalTriangulations</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1106" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1106" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1a68ea73b86068fdb7b19671ddd3485bbf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRAllLocalTriangulations</type>
+        <definition>static unsafe MR.Std.Optional_MRAllLocalTriangulations MR.TriangulationHelpers.buildUnitedLocalTriangulations</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.TriangulationHelpers.Const_Settings settings, MR.Std.Const_Function_BoolFuncFromFloat? progress=null)</argsstring>
+        <name>buildUnitedLocalTriangulations</name>
+        <qualifiedname>MR.TriangulationHelpers.buildUnitedLocalTriangulations</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>progress</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>/ computes local triangulations of all points in the cloud united in one struct Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1a68ea73b86068fdb7b19671ddd3485bbf" kindref="member">MR.TriangulationHelpers.buildUnitedLocalTriangulations</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1118" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1118" bodyend="1123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1af106aeb5ff99e4e6d0e2b9a7051e9ae8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.TriangulationHelpers.isBoundaryPoint</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.VertId v, MR.TriangulationHelpers.Const_Settings settings, MR.TriangulationHelpers.TriangulatedFanData fanData)</argsstring>
+        <name>isBoundaryPoint</name>
+        <qualifiedname>MR.TriangulationHelpers.isBoundaryPoint</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">MR.TriangulationHelpers.TriangulatedFanData</ref></type>
+          <declname>fanData</declname>
+        </param>
+        <briefdescription>
+<para>Checks if given vertex is on boundary of the point cloud, by constructing local triangulation around it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cloud</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input point cloud </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertex id to check </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>all parameters of the computation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fanData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cache structure for neighbors, not to allocate for multiple calls </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if vertex is boundary, false otherwise Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1af106aeb5ff99e4e6d0e2b9a7051e9ae8" kindref="member">MR.TriangulationHelpers.isBoundaryPoint</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1134" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1134" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1adfd9a5944e27db56c7d31f6adf213cc8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVertBitSet</type>
+        <definition>static unsafe MR.Std.Optional_MRVertBitSet MR.TriangulationHelpers.findBoundaryPoints</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, MR.TriangulationHelpers.Const_Settings settings, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>findBoundaryPoints</name>
+        <qualifiedname>MR.TriangulationHelpers.findBoundaryPoints</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generated from function <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1adfd9a5944e27db56c7d31f6adf213cc8" kindref="member">MR.TriangulationHelpers.findBoundaryPoints</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="1146" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="1146" bodyend="1151"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="4" bodyend="1152"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriangulationHelpers_1a067db0d0c4f2cd689c1b22c603788030" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>buildLocalTriangulation</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1aea6cc33ba797605d8ecfeca85eed2393" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>buildLocalTriangulations</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1a68ea73b86068fdb7b19671ddd3485bbf" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>buildUnitedLocalTriangulations</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1a2149c3edc1e1b3f10a2ac2a2258d67ac" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>filterNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1adfd9a5944e27db56c7d31f6adf213cc8" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>findBoundaryPoints</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1af72d4dfd9631e3e8fd9327658a253d0a" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>findNeighborsInBall</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1a5dd8bba6647d4a34eb9e2448fdb32f65" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>findNumNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1af106aeb5ff99e4e6d0e2b9a7051e9ae8" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>isBoundaryPoint</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1a38d9fe9cab08a9c8e0e2311f877e5589" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers</scope><name>updateNeighborsRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

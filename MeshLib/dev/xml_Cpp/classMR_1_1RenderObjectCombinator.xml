@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderObjectCombinator" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderObjectCombinator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Bases...</basecompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Bases</declname>
+        <defname>Bases</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderObjectCombinator&lt; Bases &gt;::RenderObjectCombinator</definition>
+        <argsstring>(const VisualObject &amp;object)</argsstring>
+        <name>RenderObjectCombinator</name>
+        <qualifiedname>MR::RenderObjectCombinator::RenderObjectCombinator</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="169" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="169" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RenderObjectCombinator&lt; Bases &gt;::render</definition>
+        <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
+        <name>render</name>
+        <qualifiedname>MR::RenderObjectCombinator::render</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Clang 11 chokes on this if I fold from the right instead of from the left. But why?</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="173" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="173" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderObjectCombinator&lt; Bases &gt;::renderPicker</definition>
+        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>MR::RenderObjectCombinator::renderPicker</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="180" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::RenderObjectCombinator&lt; Bases &gt;::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::RenderObjectCombinator::heapBytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="181" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::RenderObjectCombinator&lt; Bases &gt;::glBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>MR::RenderObjectCombinator::glBytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="182" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderObjectCombinator&lt; Bases &gt;::forceBindAll</definition>
+        <argsstring>() override</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>MR::RenderObjectCombinator::forceBindAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="183" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectCombinator_1a1d073623ece21825d80ed8adf822cc56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderObjectCombinator&lt; Bases &gt;::renderUi</definition>
+        <argsstring>(const UiRenderParams &amp;params) override</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR::RenderObjectCombinator::renderUi</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="184" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="184" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <requiresclause>( ( std::derived_from&lt;Bases, <ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref>&gt; &amp;&amp; !std::same_as&lt;Bases, <ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref>&gt; ) &amp;&amp; ... )    </requiresclause>
+    <briefdescription>
+<para>Combines several different <computeroutput><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></computeroutput>s into one in a meaningful way. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderObjectCombinator&lt; Bases &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderObjectCombinator&lt; Bases &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="167" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>RenderObjectCombinator</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderObjectCombinator_1a1d073623ece21825d80ed8adf822cc56" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>renderUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

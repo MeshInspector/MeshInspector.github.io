@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BooleanOperation" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BooleanOperation</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1aa871f6e517af6a681908d9a435db3c49" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1a2b31551b0637c26c561bddebbcf6baa8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::DifferenceAB</definition>
+        <argsstring></argsstring>
+        <name>DifferenceAB</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.DifferenceAB</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1a955253a8b2f0da400fb45b3e874bef74" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::DifferenceBA</definition>
+        <argsstring></argsstring>
+        <name>DifferenceBA</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.DifferenceBA</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1a562d73259916849f95018dde06c3c7a9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::InsideA</definition>
+        <argsstring></argsstring>
+        <name>InsideA</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.InsideA</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1afa0b603c2943df7eaaf8b227ff674b0b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::InsideB</definition>
+        <argsstring></argsstring>
+        <name>InsideB</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.InsideB</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1a97a48d6b8fd41862a12c13dd2406e8c7" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::Intersection</definition>
+        <argsstring></argsstring>
+        <name>Intersection</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.Intersection</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1a2faa4c545f5d0dbf3176d6ed1a08e6d6" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::OutsideA</definition>
+        <argsstring></argsstring>
+        <name>OutsideA</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.OutsideA</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1adba64d5c84139ec71a186f036e106c36" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::OutsideB</definition>
+        <argsstring></argsstring>
+        <name>OutsideB</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.OutsideB</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1a587b9cb5e0491bf85ae97a92142506da" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::Union</definition>
+        <argsstring></argsstring>
+        <name>Union</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.Union</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3466" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanOperation_1af49d63cf553dc3be320adfa8a669b36b" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanOperation::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1BooleanOperation" kindref="compound">BooleanOperation</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3467" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a3a7cd5c11c69f14768ec7fe834811832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BooleanOperation.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3468" bodyend="3469"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1ae2eb631ab456850732e19b0fc6754f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BooleanOperation.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3470" bodyend="3471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a54e44c1f5547ee5a4ee5c4cbe2921124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BooleanOperation.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3472" bodyend="3473"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a5a4359788b6aeec2d5787e2a1a96ca1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BooleanOperation.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3474" bodyend="3475"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a476a621cf15b39b15b51d8fb8a70a6d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanOperation.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3476" bodyend="3477"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1af794df66eaba34c1cb2558e05038dc6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BooleanOperation.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3478" bodyend="3479"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a100b1e4419e8994eefac3602f9ab5aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BooleanOperation.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3480" bodyend="3481"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a71b144dff505ace8d35f8670a2ebdedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BooleanOperation.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3482" bodyend="3483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1ab4f91de91aeeed6957b076bc637d8f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanOperation.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3484" bodyend="3485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1ab8cdd4d1f757e34e43dab30debb9dc7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BooleanOperation.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3486" bodyend="3487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1a0644652b03571b11f91f31030890680d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BooleanOperation.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3489" bodyend="3490"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanOperation_1aea66c42be3c8dfa263e33689406f6875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BooleanOperation.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.BooleanOperation.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3492" bodyend="3493"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  InsideA : Part of mesh `A` that is inside of mesh `B`
+\\image html boolean/inside_a.png &quot;Inside A&quot; width = 300cm
+
+  InsideB : Part of mesh `B` that is inside of mesh `A`
+\\image html boolean/inside_b.png &quot;Inside B&quot; width = 300cm
+
+  OutsideA : Part of mesh `A` that is outside of mesh `B`
+\\image html boolean/outside_a.png &quot;Outside A&quot; width = 300cm
+
+  OutsideB : Part of mesh `B` that is outside of mesh `A`
+\\image html boolean/outside_b.png &quot;Outside B&quot; width = 300cm
+
+  Union : Union surface of two meshes (outside parts)
+\\image html boolean/union.png &quot;Union&quot; width = 300cm
+
+  Intersection : Intersection surface of two meshes (inside parts)
+\\image html boolean/intersection.png &quot;Intersection&quot; width = 300cm
+
+  DifferenceBA : Surface of mesh `B` - surface of mesh `A` (outside `B` - inside `A`)
+\\image html boolean/b-a.png &quot;Difference B-A&quot; width = 300cm
+
+  DifferenceAB : Surface of mesh `A` - surface of mesh `B` (outside `A` - inside `B`)
+\\image html boolean/a-b.png &quot;Difference A-B&quot; width = 300cm
+
+  Count : not a valid operation
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BooleanOperation</label>
+        <link refid="classmrmeshpy_1_1BooleanOperation"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>DifferenceAB</edgelabel>
+          <edgelabel>DifferenceBA</edgelabel>
+          <edgelabel>InsideA</edgelabel>
+          <edgelabel>InsideB</edgelabel>
+          <edgelabel>Intersection</edgelabel>
+          <edgelabel>OutsideA</edgelabel>
+          <edgelabel>OutsideB</edgelabel>
+          <edgelabel>Union</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3428" bodyend="3493"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a3a7cd5c11c69f14768ec7fe834811832" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1ae2eb631ab456850732e19b0fc6754f16" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a54e44c1f5547ee5a4ee5c4cbe2921124" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a5a4359788b6aeec2d5787e2a1a96ca1c" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a476a621cf15b39b15b51d8fb8a70a6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1af794df66eaba34c1cb2558e05038dc6a" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1af49d63cf553dc3be320adfa8a669b36b" prot="private" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a100b1e4419e8994eefac3602f9ab5aa0" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a71b144dff505ace8d35f8670a2ebdedb" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1ab4f91de91aeeed6957b076bc637d8f3d" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1ab8cdd4d1f757e34e43dab30debb9dc7c" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1aa871f6e517af6a681908d9a435db3c49" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a2b31551b0637c26c561bddebbcf6baa8" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>DifferenceAB</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a955253a8b2f0da400fb45b3e874bef74" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>DifferenceBA</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a562d73259916849f95018dde06c3c7a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>InsideA</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1afa0b603c2943df7eaaf8b227ff674b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>InsideB</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a97a48d6b8fd41862a12c13dd2406e8c7" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>Intersection</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a0644652b03571b11f91f31030890680d" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a2faa4c545f5d0dbf3176d6ed1a08e6d6" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>OutsideA</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1adba64d5c84139ec71a186f036e106c36" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>OutsideB</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1a587b9cb5e0491bf85ae97a92142506da" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>Union</name></member>
+      <member refid="classmrmeshpy_1_1BooleanOperation_1aea66c42be3c8dfa263e33689406f6875" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanOperation</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,741 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPartMapping_8h" kind="file" language="C++">
+    <compoundname>MRPartMapping.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPartMapping.h</label>
+        <link refid="MRPartMapping_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPartMapping_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" prot="public" static="no">
+        <type>struct <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref></type>
+        <definition>typedef struct MR_MapOrHashMap_MR_FaceId_MR_FaceId MR_MapOrHashMap_MR_FaceId_MR_FaceId</definition>
+        <argsstring></argsstring>
+        <name>MR_MapOrHashMap_MR_FaceId_MR_FaceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="11" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPartMapping_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" prot="public" static="no">
+        <type>struct <ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref></type>
+        <definition>typedef struct MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</definition>
+        <argsstring></argsstring>
+        <name>MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="12" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPartMapping_8h_1acd6bd095c22453249b40b705a980d74c" prot="public" static="no">
+        <type>struct <ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref></type>
+        <definition>typedef struct MR_MapOrHashMap_MR_VertId_MR_VertId MR_MapOrHashMap_MR_VertId_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_MapOrHashMap_MR_VertId_MR_VertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="13" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPartMapping_8h_1ac262f87c0239d73aafc464289f6eb02e" prot="public" static="no">
+        <type>struct <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref></type>
+        <definition>typedef struct MR_PartMapping MR_PartMapping</definition>
+        <argsstring></argsstring>
+        <name>MR_PartMapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mapping among elements of source mesh, from which a part is taken, and target mesh Generated from class <computeroutput>MR::PartMapping</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="19" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPartMapping_8h_1aa57e54d2e7a1842e060c5bca07a7ecad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *const *</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_FaceId_MR_FaceId *const  * MR_PartMapping_Get_src2tgtFaces</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Get_src2tgtFaces</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="28" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="28" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a103cfcb0f72e5e0dee80506758b21c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Set_src2tgtFaces</definition>
+        <argsstring>(MR_PartMapping *_this, MR_MapOrHashMap_MR_FaceId_MR_FaceId *value)</argsstring>
+        <name>MR_PartMapping_Set_src2tgtFaces</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>src2tgtFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a343350fa2bac893a5381909844408bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> **</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_FaceId_MR_FaceId ** MR_PartMapping_GetMutable_src2tgtFaces</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_GetMutable_src2tgtFaces</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="47" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="47" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a5e74bf56ec526199595b48952db70952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> *const *</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_VertId_MR_VertId *const  * MR_PartMapping_Get_src2tgtVerts</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Get_src2tgtVerts</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="52" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="52" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a9a377c47ca95d7ae6772b4fe234fd157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Set_src2tgtVerts</definition>
+        <argsstring>(MR_PartMapping *_this, MR_MapOrHashMap_MR_VertId_MR_VertId *value)</argsstring>
+        <name>MR_PartMapping_Set_src2tgtVerts</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>src2tgtVerts</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="58" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1ad0ec06efc63ac0563a97405eba9557e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> **</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_VertId_MR_VertId ** MR_PartMapping_GetMutable_src2tgtVerts</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_GetMutable_src2tgtVerts</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="63" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="63" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a9127a6f62ced9320aae0eb4920191cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> *const *</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId *const  * MR_PartMapping_Get_src2tgtEdges</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Get_src2tgtEdges</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="68" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="68" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a3c4757957b7226f56c88e9dfd1911e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Set_src2tgtEdges</definition>
+        <argsstring>(MR_PartMapping *_this, MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId *value)</argsstring>
+        <name>MR_PartMapping_Set_src2tgtEdges</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>src2tgtEdges</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a1921c7fadf79d66dcf012e0dee7f9244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> **</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId ** MR_PartMapping_GetMutable_src2tgtEdges</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_GetMutable_src2tgtEdges</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="79" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="79" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1adced476a1d57ad4f2c62f1e390d4f795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *const *</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_FaceId_MR_FaceId *const  * MR_PartMapping_Get_tgt2srcFaces</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Get_tgt2srcFaces</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="86" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="86" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a3e1fe2d9fc416573f8979f8d6fcdabb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Set_tgt2srcFaces</definition>
+        <argsstring>(MR_PartMapping *_this, MR_MapOrHashMap_MR_FaceId_MR_FaceId *value)</argsstring>
+        <name>MR_PartMapping_Set_tgt2srcFaces</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgt2srcFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a5ab13cd54255274464355a64da7c511c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> **</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_FaceId_MR_FaceId ** MR_PartMapping_GetMutable_tgt2srcFaces</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_GetMutable_tgt2srcFaces</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="101" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="101" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1ad38422fde32c0c32e765b001838c7ff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> *const *</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_VertId_MR_VertId *const  * MR_PartMapping_Get_tgt2srcVerts</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Get_tgt2srcVerts</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="106" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="106" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a942fc90777dca64e8727b4f0b11eb67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Set_tgt2srcVerts</definition>
+        <argsstring>(MR_PartMapping *_this, MR_MapOrHashMap_MR_VertId_MR_VertId *value)</argsstring>
+        <name>MR_PartMapping_Set_tgt2srcVerts</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgt2srcVerts</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a6cefed881d0ae59850bddd1009b271c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> **</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_VertId_MR_VertId ** MR_PartMapping_GetMutable_tgt2srcVerts</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_GetMutable_tgt2srcVerts</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="117" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="117" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a7fbc2ad95a980db568da9fe684c66cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> *const *</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId *const  * MR_PartMapping_Get_tgt2srcEdges</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Get_tgt2srcEdges</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="122" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="122" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1ae279bf75db94e692b0ae8b9213902f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Set_tgt2srcEdges</definition>
+        <argsstring>(MR_PartMapping *_this, MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId *value)</argsstring>
+        <name>MR_PartMapping_Set_tgt2srcEdges</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgt2srcEdges</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="128" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1af59656f3e7e327adc4deb9679cd3cd33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> **</type>
+        <definition>MRC_API MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId ** MR_PartMapping_GetMutable_tgt2srcEdges</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_GetMutable_tgt2srcEdges</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="133" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="133" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a3e550dcf7a42a6ed34d91140deb9f885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_PartMapping_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PartMapping_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" kindref="member">MR_PartMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="137" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="137" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a982896b04965580e54c8da98919a3bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_PartMapping_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PartMapping_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPartMapping_8h_1a8d252d53c4a56eb3bd0a6c9f31745759" kindref="member">MR_PartMapping_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPartMapping_8h_1abd00435dad104d441c3331496136d1d6" kindref="member">MR_PartMapping_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPartMapping_8h_1a9d562e04b7c3350fc4a331806ff4f065" kindref="member">MR_PartMapping_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="142" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="142" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1ac2df721db5c90475502651136362afc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_PartMapping_ConstructFrom</definition>
+        <argsstring>(MR_MapOrHashMap_MR_FaceId_MR_FaceId *src2tgtFaces, MR_MapOrHashMap_MR_VertId_MR_VertId *src2tgtVerts, MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId *src2tgtEdges, MR_MapOrHashMap_MR_FaceId_MR_FaceId *tgt2srcFaces, MR_MapOrHashMap_MR_VertId_MR_VertId *tgt2srcVerts, MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId *tgt2srcEdges)</argsstring>
+        <name>MR_PartMapping_ConstructFrom</name>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>src2tgtFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> *</type>
+          <declname>src2tgtVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> *</type>
+          <declname>src2tgtEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *</type>
+          <declname>tgt2srcFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref> *</type>
+          <declname>tgt2srcVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref> *</type>
+          <declname>tgt2srcEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::PartMapping</computeroutput> elementwise. The reference to the parameter <computeroutput>src2tgtFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>src2tgtVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>src2tgtEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" kindref="member">MR_PartMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="153" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="153" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a9d562e04b7c3350fc4a331806ff4f065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API const MR_PartMapping * MR_PartMapping_OffsetPtr</definition>
+        <argsstring>(const MR_PartMapping *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PartMapping_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="157" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="157" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1abd00435dad104d441c3331496136d1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_PartMapping_OffsetMutablePtr</definition>
+        <argsstring>(MR_PartMapping *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PartMapping_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="161" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="161" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a28f8feb5b3a504711a8f7754aac3d7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_PartMapping_ConstructFromAnother</definition>
+        <argsstring>(const MR_PartMapping *_other)</argsstring>
+        <name>MR_PartMapping_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PartMapping::PartMapping</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" kindref="member">MR_PartMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="167" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="167" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_Destroy</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PartMapping</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="170" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a8d252d53c4a56eb3bd0a6c9f31745759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_DestroyArray</definition>
+        <argsstring>(const MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PartMapping</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="173" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a7cdc739ad8ecd75acc27f2438f169b98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_PartMapping_AssignFromAnother</definition>
+        <argsstring>(MR_PartMapping *_this, const MR_PartMapping *_other)</argsstring>
+        <name>MR_PartMapping_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PartMapping::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="181" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="181" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPartMapping_8h_1a983810b0a363dd13ede3ce5a1a61acfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PartMapping_clear</definition>
+        <argsstring>(MR_PartMapping *_this)</argsstring>
+        <name>MR_PartMapping_clear</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clears all member maps Generated from method <computeroutput>MR::PartMapping::clear</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="186" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" declline="186" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRPartMapping_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRPartMapping_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRPartMapping_8h_1acd6bd095c22453249b40b705a980d74c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRPartMapping_8h_1ac262f87c0239d73aafc464289f6eb02e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>source.id<sp/>-&gt;<sp/>target.id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>map<sp/>here<sp/>can<sp/>be<sp/>either<sp/>dense<sp/>vector<sp/>or<sp/>hash<sp/>map,<sp/>the<sp/>type<sp/>is<sp/>set<sp/>by<sp/>the<sp/>user<sp/>and<sp/>preserved<sp/>by<sp/>mesh<sp/>copying<sp/>functions;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>maps<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>source<sp/>mesh<sp/>is<sp/>packed<sp/>and<sp/>must<sp/>be<sp/>copied<sp/>entirely;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight></codeline>
+<codeline lineno="28" refid="MRPartMapping_8h_1aa57e54d2e7a1842e060c5bca07a7ecad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1aa57e54d2e7a1842e060c5bca07a7ecad" kindref="member">MR_PartMapping_Get_src2tgtFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>source.id<sp/>-&gt;<sp/>target.id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>map<sp/>here<sp/>can<sp/>be<sp/>either<sp/>dense<sp/>vector<sp/>or<sp/>hash<sp/>map,<sp/>the<sp/>type<sp/>is<sp/>set<sp/>by<sp/>the<sp/>user<sp/>and<sp/>preserved<sp/>by<sp/>mesh<sp/>copying<sp/>functions;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>maps<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>source<sp/>mesh<sp/>is<sp/>packed<sp/>and<sp/>must<sp/>be<sp/>copied<sp/>entirely;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight></codeline>
+<codeline lineno="38" refid="MRPartMapping_8h_1a103cfcb0f72e5e0dee80506758b21c92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a103cfcb0f72e5e0dee80506758b21c92" kindref="member">MR_PartMapping_Set_src2tgtFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>source.id<sp/>-&gt;<sp/>target.id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>map<sp/>here<sp/>can<sp/>be<sp/>either<sp/>dense<sp/>vector<sp/>or<sp/>hash<sp/>map,<sp/>the<sp/>type<sp/>is<sp/>set<sp/>by<sp/>the<sp/>user<sp/>and<sp/>preserved<sp/>by<sp/>mesh<sp/>copying<sp/>functions;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>maps<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>source<sp/>mesh<sp/>is<sp/>packed<sp/>and<sp/>must<sp/>be<sp/>copied<sp/>entirely;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight></codeline>
+<codeline lineno="47" refid="MRPartMapping_8h_1a343350fa2bac893a5381909844408bd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>**<ref refid="MRPartMapping_8h_1a343350fa2bac893a5381909844408bd6" kindref="member">MR_PartMapping_GetMutable_src2tgtFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRPartMapping_8h_1a5e74bf56ec526199595b48952db70952" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1a5e74bf56ec526199595b48952db70952" kindref="member">MR_PartMapping_Get_src2tgtVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRPartMapping_8h_1a9a377c47ca95d7ae6772b4fe234fd157" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a9a377c47ca95d7ae6772b4fe234fd157" kindref="member">MR_PartMapping_Set_src2tgtVerts</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRPartMapping_8h_1ad0ec06efc63ac0563a97405eba9557e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>**<ref refid="MRPartMapping_8h_1ad0ec06efc63ac0563a97405eba9557e7" kindref="member">MR_PartMapping_GetMutable_src2tgtVerts</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRPartMapping_8h_1a9127a6f62ced9320aae0eb4920191cdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1a9127a6f62ced9320aae0eb4920191cdb" kindref="member">MR_PartMapping_Get_src2tgtEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRPartMapping_8h_1a3c4757957b7226f56c88e9dfd1911e92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a3c4757957b7226f56c88e9dfd1911e92" kindref="member">MR_PartMapping_Set_src2tgtEdges</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRPartMapping_8h_1a1921c7fadf79d66dcf012e0dee7f9244" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>**<ref refid="MRPartMapping_8h_1a1921c7fadf79d66dcf012e0dee7f9244" kindref="member">MR_PartMapping_GetMutable_src2tgtEdges</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>target.id<sp/>-&gt;<sp/>source.id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight></codeline>
+<codeline lineno="86" refid="MRPartMapping_8h_1adced476a1d57ad4f2c62f1e390d4f795" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1adced476a1d57ad4f2c62f1e390d4f795" kindref="member">MR_PartMapping_Get_tgt2srcFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>target.id<sp/>-&gt;<sp/>source.id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight></codeline>
+<codeline lineno="94" refid="MRPartMapping_8h_1a3e1fe2d9fc416573f8979f8d6fcdabb9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a3e1fe2d9fc416573f8979f8d6fcdabb9" kindref="member">MR_PartMapping_Set_tgt2srcFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>target.id<sp/>-&gt;<sp/>source.id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight></codeline>
+<codeline lineno="101" refid="MRPartMapping_8h_1a5ab13cd54255274464355a64da7c511c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>**<ref refid="MRPartMapping_8h_1a5ab13cd54255274464355a64da7c511c" kindref="member">MR_PartMapping_GetMutable_tgt2srcFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRPartMapping_8h_1ad38422fde32c0c32e765b001838c7ff1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1ad38422fde32c0c32e765b001838c7ff1" kindref="member">MR_PartMapping_Get_tgt2srcVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRPartMapping_8h_1a942fc90777dca64e8727b4f0b11eb67b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a942fc90777dca64e8727b4f0b11eb67b" kindref="member">MR_PartMapping_Set_tgt2srcVerts</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRPartMapping_8h_1a6cefed881d0ae59850bddd1009b271c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>**<ref refid="MRPartMapping_8h_1a6cefed881d0ae59850bddd1009b271c0" kindref="member">MR_PartMapping_GetMutable_tgt2srcVerts</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRPartMapping_8h_1a7fbc2ad95a980db568da9fe684c66cbb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1a7fbc2ad95a980db568da9fe684c66cbb" kindref="member">MR_PartMapping_Get_tgt2srcEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRPartMapping_8h_1ae279bf75db94e692b0ae8b9213902f70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1ae279bf75db94e692b0ae8b9213902f70" kindref="member">MR_PartMapping_Set_tgt2srcEdges</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRPartMapping_8h_1af59656f3e7e327adc4deb9679cd3cd33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>**<ref refid="MRPartMapping_8h_1af59656f3e7e327adc4deb9679cd3cd33" kindref="member">MR_PartMapping_GetMutable_tgt2srcEdges</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRPartMapping_8h_1a3e550dcf7a42a6ed34d91140deb9f885" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1a3e550dcf7a42a6ed34d91140deb9f885" kindref="member">MR_PartMapping_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRPartMapping_8h_1a982896b04965580e54c8da98919a3bdf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1a982896b04965580e54c8da98919a3bdf" kindref="member">MR_PartMapping_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRPartMapping_8h_1ac2df721db5c90475502651136362afc2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1ac2df721db5c90475502651136362afc2" kindref="member">MR_PartMapping_ConstructFrom</ref>(<ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*src2tgtFaces,<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*src2tgtVerts,<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>*src2tgtEdges,<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*tgt2srcFaces,<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*tgt2srcVerts,<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>*tgt2srcEdges);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRPartMapping_8h_1a9d562e04b7c3350fc4a331806ff4f065" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1a9d562e04b7c3350fc4a331806ff4f065" kindref="member">MR_PartMapping_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRPartMapping_8h_1abd00435dad104d441c3331496136d1d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1abd00435dad104d441c3331496136d1d6" kindref="member">MR_PartMapping_OffsetMutablePtr</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRPartMapping_8h_1a28f8feb5b3a504711a8f7754aac3d7d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1a28f8feb5b3a504711a8f7754aac3d7d0" kindref="member">MR_PartMapping_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" kindref="member">MR_PartMapping_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRPartMapping_8h_1a8d252d53c4a56eb3bd0a6c9f31745759" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a8d252d53c4a56eb3bd0a6c9f31745759" kindref="member">MR_PartMapping_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRPartMapping_8h_1a7cdc739ad8ecd75acc27f2438f169b98" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRPartMapping_8h_1a7cdc739ad8ecd75acc27f2438f169b98" kindref="member">MR_PartMapping_AssignFromAnother</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRPartMapping_8h_1a983810b0a363dd13ede3ce5a1a61acfb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a983810b0a363dd13ede3ce5a1a61acfb" kindref="member">MR_PartMapping_clear</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h"/>
+  </compounddef>
+</doxygen>

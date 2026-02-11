@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AABBTreeObjects" kind="class" language="C#" prot="public">
+    <compoundname>MR::AABBTreeObjects</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeObjects</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1acb62742816b075bbb0ef3d654cd3aec2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.AABBTreeObjects.operator MR.AABBTreeBase_MRObjTreeTraits</definition>
+        <argsstring>(AABBTreeObjects self)</argsstring>
+        <name>operator MR.AABBTreeBase_MRObjTreeTraits</name>
+        <qualifiedname>MR.AABBTreeObjects.operator MR.AABBTreeBase_MRObjTreeTraits</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="386" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="386" bodyend="393"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a343b081521a13d4979ba5aa50da752fe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeObjects.AABBTreeObjects</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>AABBTreeObjects</name>
+        <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="395" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="395" bodyend="395"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a07e600be0e012c3f5fe385bd8f0a7177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeObjects.AABBTreeObjects</definition>
+        <argsstring>()</argsstring>
+        <name>AABBTreeObjects</name>
+        <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="400" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="400" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a522d754ad7e31638173e9532daae9c70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeObjects.AABBTreeObjects</definition>
+        <argsstring>(MR._ByValue_AABBTreeObjects _other)</argsstring>
+        <name>AABBTreeObjects</name>
+        <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
+        <param>
+          <type>MR._ByValue_AABBTreeObjects</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="410" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="410" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a55110f702fa6b37250abe462550f48ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.AABBTreeObjects.AABBTreeObjects</definition>
+        <argsstring>(Const_AABBTreeObjects _other)</argsstring>
+        <name>AABBTreeObjects</name>
+        <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
+        <param>
+          <type>Const_AABBTreeObjects</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="421" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="421" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a444fc30a5cc0eed436dfbcd2ce9c2f40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.AABBTreeObjects.AABBTreeObjects</definition>
+        <argsstring>(AABBTreeObjects _other)</argsstring>
+        <name>AABBTreeObjects</name>
+        <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="426" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="426" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a40730c8a19fb0935164ff183590914bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeObjects.AABBTreeObjects</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId objs)</argsstring>
+        <name>AABBTreeObjects</name>
+        <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshOrPointsXf_MRObjId</type>
+          <declname>objs</declname>
+        </param>
+        <briefdescription>
+<para>creates tree for given set of objects each with its own transformation Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="432" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="432" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a841878254302821b9a30e59650f080c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></type>
+        <definition>unsafe MR.AABBTreeObjects MR.AABBTreeObjects.assign</definition>
+        <argsstring>(MR._ByValue_AABBTreeObjects _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.AABBTreeObjects.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_AABBTreeObjects</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AABBTreeObjects.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="443" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="443" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a5d3c677440b4b0fd7c6a03f7e81e4c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AABBTreeObjects.getLeafOrderAndReset</definition>
+        <argsstring>(MR.BMap_MRObjId_MRObjId leafMap)</argsstring>
+        <name>getLeafOrderAndReset</name>
+        <qualifiedname>MR.AABBTreeObjects.getLeafOrderAndReset</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BMap__MRObjId__MRObjId" kindref="compound">MR.BMap_MRObjId_MRObjId</ref></type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a5d3c677440b4b0fd7c6a03f7e81e4c62" kindref="member">MR.AABBTreeObjects.getLeafOrderAndReset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="457" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="457" bodyend="462"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>tree containing world bounding boxes of individual objects having individual local-to-world transformations Generated from class <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AABBTreeBase&lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_AABBTreeObjects</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AABBTreeObjects</label>
+        <link refid="classMR_1_1AABBTreeObjects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_AABBTreeObjects &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_AABBTreeObjects</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AABBTreeObjects</label>
+        <link refid="classMR_1_1AABBTreeObjects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_AABBTreeObjects &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="383" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="384" bodyend="463"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AABBTreeObjects_1a343b081521a13d4979ba5aa50da752fe" prot="package" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a07e600be0e012c3f5fe385bd8f0a7177" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a522d754ad7e31638173e9532daae9c70" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a55110f702fa6b37250abe462550f48ba" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a444fc30a5cc0eed436dfbcd2ce9c2f40" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a40730c8a19fb0935164ff183590914bb" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a841878254302821b9a30e59650f080c3" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>assign</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1a5d3c677440b4b0fd7c6a03f7e81e4c62" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1AABBTreeObjects_1acb62742816b075bbb0ef3d654cd3aec2" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>operator MR.AABBTreeBase_MRObjTreeTraits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

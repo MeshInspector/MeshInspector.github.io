@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</compoundname>
+    <includes refid="MRMesh_2MRVectorTraits_8h" local="no">MRVectorTraits.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a0182044b0d0e90bd265ddd66d56c87be" prot="public" static="no">
+        <type>T</type>
+        <definition>using MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::BaseType =  T</definition>
+        <argsstring></argsstring>
+        <name>BaseType</name>
+        <qualifiedname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::BaseType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="80" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a851975d6696d5dd1f84296e6f1420c48" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; U &gt;</type>
+        <definition>using MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::ChangeBaseType =  Vector4&lt;U&gt;</definition>
+        <argsstring></argsstring>
+        <name>ChangeBaseType</name>
+        <qualifiedname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::ChangeBaseType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="85" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1aaaffc834ba62ace086ab656b966346a1" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::size</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="81" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a9d401ae300d6e4f4c58afca31ebcb5ba" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::supportNoInit</definition>
+        <argsstring></argsstring>
+        <name>supportNoInit</name>
+        <qualifiedname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::supportNoInit</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="82" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a0adc38f8906305a42c923b4a588b32eb" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;&amp;</type>
+        <definition>static auto &amp;&amp; MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::getElem</definition>
+        <argsstring>(int i, U &amp;&amp;value)</argsstring>
+        <name>getElem</name>
+        <qualifiedname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::getElem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>U &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Technically UB, but helps with optimizations on MSVC for some reason, compared to an if-else chain. GCC and Clang optimize both in the same manner.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="88" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a501487ea3ef4e972885a0771ca6b2948" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static constexpr auto MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::diagonal</definition>
+        <argsstring>(T v)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::diagonal</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="95" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="79" bodyend="96"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a0182044b0d0e90bd265ddd66d56c87be" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</scope><name>BaseType</name></member>
+      <member refid="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a851975d6696d5dd1f84296e6f1420c48" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</scope><name>ChangeBaseType</name></member>
+      <member refid="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a501487ea3ef4e972885a0771ca6b2948" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</scope><name>diagonal</name></member>
+      <member refid="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a0adc38f8906305a42c923b4a588b32eb" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</scope><name>getElem</name></member>
+      <member refid="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1aaaffc834ba62ace086ab656b966346a1" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</scope><name>size</name></member>
+      <member refid="structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4_1a9d401ae300d6e4f4c58afca31ebcb5ba" prot="public" virt="non-virtual"><scope>MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;</scope><name>supportNoInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

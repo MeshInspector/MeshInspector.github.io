@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineToVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineToVolumeParams</compoundname>
+    <includes refid="MRPolylineToVoxels_8h" local="no">MRPolylineToVoxels.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineToVolumeParams_1a1daa9529865ff9fa75f4e718e54fbd75" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition>DistanceVolumeParams MR::PolylineToVolumeParams::vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR::PolylineToVolumeParams::vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="32" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineToVolumeParams_1a000c468f653f412dd5e5110354c49d7b" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+        <definition>DistanceToMeshOptions MR::PolylineToVolumeParams::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR::PolylineToVolumeParams::dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="34" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Settings to conversion polyline to volume. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::DistanceToMeshOptions</label>
+        <link refid="structMR_1_1DistanceToMeshOptions"/>
+      </node>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::PolylineToVolumeParams</label>
+        <link refid="structMR_1_1PolylineToVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vol</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineToVolumeParams_1a000c468f653f412dd5e5110354c49d7b" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>dist</name></member>
+      <member refid="structMR_1_1PolylineToVolumeParams_1a1daa9529865ff9fa75f4e718e54fbd75" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

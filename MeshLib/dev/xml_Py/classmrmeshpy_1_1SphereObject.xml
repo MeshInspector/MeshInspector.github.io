@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SphereObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SphereObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a702be0a2ab3463d95c025adb40b8a38b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SphereObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.SphereObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53018" bodyend="53019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a06716ae3375a596e99867c6bcbaa5feb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SphereObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.SphereObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53021" bodyend="53022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a0502099bc6ddfb927fd58124b2fe103a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SphereObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.SphereObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53024" bodyend="53025"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1aaf02f7d1b6182f887248f9444d29a148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SphereObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SphereObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple sphere object with center in zero and radius - 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53027" bodyend="53030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a4633876e20ed9435ac2940716253b3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SphereObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SphereObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best sphere to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53032" bodyend="53035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1ae4b88929ee48382bb07c3d22ce9f397a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SphereObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.SphereObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53036" bodyend="53037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a9c7ddd5d62180a36d6237376aa2836b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SphereObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.SphereObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53038" bodyend="53039"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1adbdf2840f4922ff77b1792811ae1e1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.SphereObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.SphereObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53040" bodyend="53041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a015523fdf63712d91b81ea84400d6cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.SphereObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.SphereObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53042" bodyend="53043"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a68df382e445510b58dbc22a7a1c12845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.SphereObject.getCenter</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>mrmeshpy.SphereObject.getCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates center from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53044" bodyend="53047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a93d6d5c477d01e6fbc5471d66217a709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SphereObject.getRadius</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getRadius</name>
+        <qualifiedname>mrmeshpy.SphereObject.getRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates radius from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53048" bodyend="53051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a667cb23b63e6580ea57890890a6994d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.SphereObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.SphereObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53052" bodyend="53053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1aae97492ca5b99af848788ab831b4ba20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SphereObject.setCenter</definition>
+        <argsstring>(self, Vector3f center, ViewportId id=...)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>mrmeshpy.SphereObject.setCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53054" bodyend="53057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a06c40f0a1fe3697ffdb39aa62348582c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SphereObject.setRadius</definition>
+        <argsstring>(self, float radius, ViewportId id=...)</argsstring>
+        <name>setRadius</name>
+        <qualifiedname>mrmeshpy.SphereObject.setRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given radius
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53058" bodyend="53061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1a174d6d17b7a911b0d5ef16b5b5bd830b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.SphereObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.SphereObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53062" bodyend="53063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SphereObject_1aeae2fa1c3017cf8e8ae4cfcc10ed28cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SphereObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.SphereObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53064" bodyend="53065"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SphereObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Sphere.type
+
+Object to show sphere feature, position and radius are controlled by xf
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SphereObject</label>
+        <link refid="classmrmeshpy_1_1SphereObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SphereObject</label>
+        <link refid="classmrmeshpy_1_1SphereObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53010" bodyend="53065"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SphereObject_1aaf02f7d1b6182f887248f9444d29a148" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a4633876e20ed9435ac2940716253b3f4" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1ae4b88929ee48382bb07c3d22ce9f397a" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a9c7ddd5d62180a36d6237376aa2836b3" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1adbdf2840f4922ff77b1792811ae1e1a8" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a015523fdf63712d91b81ea84400d6cc4" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a68df382e445510b58dbc22a7a1c12845" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a93d6d5c477d01e6fbc5471d66217a709" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>getRadius</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a667cb23b63e6580ea57890890a6994d3" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1aae97492ca5b99af848788ab831b4ba20" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a06c40f0a1fe3697ffdb39aa62348582c" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setRadius</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a174d6d17b7a911b0d5ef16b5b5bd830b" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a702be0a2ab3463d95c025adb40b8a38b" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a06716ae3375a596e99867c6bcbaa5feb" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1a0502099bc6ddfb927fd58124b2fe103a" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1SphereObject_1aeae2fa1c3017cf8e8ae4cfcc10ed28cc" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

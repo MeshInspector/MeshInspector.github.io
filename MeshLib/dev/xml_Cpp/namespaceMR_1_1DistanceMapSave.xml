@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1DistanceMapSave" kind="namespace" language="C++">
+    <compoundname>MR::DistanceMapSave</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;distanceMap, const std::filesystem::path &amp;path, const <ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref> &amp;settings)</type>
+        <definition>using MR::DistanceMapSave::DistanceMapSaver =  Expected&lt;void&gt;( * )( const DistanceMap&amp; distanceMap, const std::filesystem::path&amp; path, const DistanceMapSaveSettings&amp; settings )</definition>
+        <argsstring></argsstring>
+        <name>DistanceMapSaver</name>
+        <qualifiedname>MR::DistanceMapSave::DistanceMapSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="393" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1DistanceMapSave_1ac986153af46b35d0ef74dd4de1b6e874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::DistanceMapSave::toTiff</definition>
+        <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>MR::DistanceMapSave::toTiff</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>saves in .tiff format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" declline="36" declcolumn="25"/>
+      </memberdef>
+      <member refid="group__DistanceMapSaveGroup_1gaa3625e43c93ee428ec0fc08bd7b00caf" kind="function"><name>toRAW</name></member>
+      <member refid="group__DistanceMapSaveGroup_1ga0f15a32dee6cb3b525a2038b95956484" kind="function"><name>toRAW</name></member>
+      <member refid="group__DistanceMapSaveGroup_1ga45ebc8766748a50c7620c3b1364a16df" kind="function"><name>toMrDistanceMap</name></member>
+      <member refid="group__DistanceMapSaveGroup_1ga81fe78ad6dc95f8cfeb80fba8665bcff" kind="function"><name>toMrDistanceMap</name></member>
+      <member refid="group__DistanceMapSaveGroup_1ga1ace9bedd45e8e536a87c8e707e51baf" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__DistanceMapSaveGroup_1ga5c7e3b9ad4a873129a2aa2441a6ebbde" kind="function"><name>toAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1ImageSave" kindref="compound">ImageSave</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>namespace <ref refid="namespaceMR_1_1DistanceMapLoad" kindref="compound">DistanceMapLoad</ref> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" line="32" column="1"/>
+  </compounddef>
+</doxygen>

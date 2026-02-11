@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Laplacian" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Laplacian</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" prot="public">mrmeshpy::Laplacian::RememberShape</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a01c18de522ef5d4337a86a271591e9d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.__init__</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25237" bodyend="25238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1ab24751ee0b489bd8995949094969da0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.__init__</definition>
+        <argsstring>(self, MeshTopology topology, VertCoords points)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25240" bodyend="25241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a74976cdf1db0e786256d485745725a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.apply</definition>
+        <argsstring>(self)</argsstring>
+        <name>apply</name>
+        <qualifiedname>mrmeshpy.Laplacian.apply</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given fixed vertices, computes positions of remaining region vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25242" bodyend="25245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a798fff826171aeae8b689297df7b874f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.applyToScalar</definition>
+        <argsstring>(self, VertScalars scalarField)</argsstring>
+        <name>applyToScalar</name>
+        <qualifiedname>mrmeshpy.Laplacian.applyToScalar</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+          <declname>scalarField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25246" bodyend="25249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a7d9e2d2d3aacf175b748364a640c240a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.Laplacian.firstLayerFixedVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>firstLayerFixedVerts</name>
+        <qualifiedname>mrmeshpy.Laplacian.firstLayerFixedVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return fixed vertices from the first layer around free vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25250" bodyend="25253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a4f8471107ab24c092d9f4433137a7123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.fixVertex</definition>
+        <argsstring>(self, VertId v, bool smooth=True)</argsstring>
+        <name>fixVertex</name>
+        <qualifiedname>mrmeshpy.Laplacian.fixVertex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smooth</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>notify Laplacian that given vertex has changed after init and must be fixed during apply;
+\\param smooth whether to make the surface smooth in this vertex (sharp otherwise)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25255" bodyend="25259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a6d27c2a94043d2a8efae6288902a9e5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.fixVertex</definition>
+        <argsstring>(self, VertId v, Vector3f fixedPos, bool smooth=True)</argsstring>
+        <name>fixVertex</name>
+        <qualifiedname>mrmeshpy.Laplacian.fixVertex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>fixedPos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smooth</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH);
+\\param smooth whether to make the surface smooth in this vertex (sharp otherwise)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25261" bodyend="25265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a3679c8f277694985b452a72ea9a5cd3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.Laplacian.freeVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>freeVerts</name>
+        <qualifiedname>mrmeshpy.Laplacian.freeVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return currently free vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25266" bodyend="25269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1accf5ca986168fc7ef7de3f018937b6dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.init</definition>
+        <argsstring>(self, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;VertexMass::Unit&apos;, Laplacian.RememberShape rem=&apos;Laplacian::RememberShape::Yes&apos;)</argsstring>
+        <name>init</name>
+        <qualifiedname>mrmeshpy.Laplacian.init</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>freeVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
+          <declname>vmass</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" kindref="member">VertexMass::Unit</ref>&apos;</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape" kindref="compound">Laplacian.RememberShape</ref></type>
+          <declname>rem</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1Laplacian_1_1RememberShape_1a2072f8d66bba0d5f0a0dae409955dec8" kindref="member">Laplacian::RememberShape::Yes</ref>&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>initialize Laplacian for the region being deformed, here region properties are remembered and precomputed;
+\\param freeVerts must not include all vertices of a mesh connected component
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25270" bodyend="25274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a397e9c7782643cb024e4dc759bae415a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.Laplacian.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.Laplacian.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return all initially free vertices and the first layer of vertices around them
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25275" bodyend="25278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a2f08ce89d085f4800192cfc97ea15938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.updateSolver</definition>
+        <argsstring>(self)</argsstring>
+        <name>updateSolver</name>
+        <qualifiedname>mrmeshpy.Laplacian.updateSolver</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if you manually call this method after initialization and fixing vertices then next apply call will be much faster
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25279" bodyend="25282"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Laplacian
+
+Laplacian to smoothly deform a region preserving mesh fine details.
+How to use:
+1. Initialize Laplacian for the region being deformed, here region properties are remembered.
+2. Change positions of some vertices within the region and call fixVertex for them.
+3. Optionally call updateSolver()
+4. Call apply() to change the remaining vertices within the region
+Then steps 1-4 or 2-4 can be repeated.
+\\snippet cpp-samples/LaplacianDeformation.cpp 0
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25186" bodyend="25282"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Laplacian_1a01c18de522ef5d4337a86a271591e9d9" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1ab24751ee0b489bd8995949094969da0e" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a74976cdf1db0e786256d485745725a78" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>apply</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a798fff826171aeae8b689297df7b874f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>applyToScalar</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a7d9e2d2d3aacf175b748364a640c240a" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>firstLayerFixedVerts</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a4f8471107ab24c092d9f4433137a7123" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a6d27c2a94043d2a8efae6288902a9e5d" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a3679c8f277694985b452a72ea9a5cd3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>freeVerts</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1accf5ca986168fc7ef7de3f018937b6dc" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a397e9c7782643cb024e4dc759bae415a" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a2f08ce89d085f4800192cfc97ea15938" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>updateSolver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FanRecord" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FanRecord</compoundname>
+    <derivedcompoundref refid="structMR_1_1FanRecordWithCenter" prot="public" virt="non-virtual">MR::FanRecordWithCenter</derivedcompoundref>
+    <includes refid="MRLocalTriangulations_8h" local="no">MRLocalTriangulations.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FanRecord_1ab96acab7dff75b813d869d05ae408ca7" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::FanRecord::border</definition>
+        <argsstring></argsstring>
+        <name>border</name>
+        <qualifiedname>MR::FanRecord::border</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="19" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FanRecord_1ade977d48f2f1f79c9a84ad421a2d5069" prot="public" static="no" mutable="no">
+        <type>std::uint32_t</type>
+        <definition>std::uint32_t MR::FanRecord::firstNei</definition>
+        <argsstring></argsstring>
+        <name>firstNei</name>
+        <qualifiedname>MR::FanRecord::firstNei</qualifiedname>
+        <briefdescription>
+<para>the position of first neigbor in LocalTriangulations::neighbours </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="22" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1FanRecord_1afdf05e8b0d0790c4feea524b2d3cf936" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::FanRecord::FanRecord</definition>
+        <argsstring>(VertId b={}, std::uint32_t fn=0)</argsstring>
+        <name>FanRecord</name>
+        <qualifiedname>MR::FanRecord::FanRecord</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>b</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>fn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1FanRecord_1a27df8546e114728c41355bf45b7f4666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::FanRecord::FanRecord</definition>
+        <argsstring>(NoInit)</argsstring>
+        <name>FanRecord</name>
+        <qualifiedname>MR::FanRecord::FanRecord</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>describes one fan of triangles around a point excluding the point </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FanRecord</label>
+        <link refid="structMR_1_1FanRecord"/>
+      </node>
+      <node id="2">
+        <label>MR::FanRecordWithCenter</label>
+        <link refid="structMR_1_1FanRecordWithCenter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="16" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FanRecord_1ab96acab7dff75b813d869d05ae408ca7" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>border</name></member>
+      <member refid="structMR_1_1FanRecord_1afdf05e8b0d0790c4feea524b2d3cf936" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
+      <member refid="structMR_1_1FanRecord_1a27df8546e114728c41355bf45b7f4666" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
+      <member refid="structMR_1_1FanRecord_1ade977d48f2f1f79c9a84ad421a2d5069" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>firstNei</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

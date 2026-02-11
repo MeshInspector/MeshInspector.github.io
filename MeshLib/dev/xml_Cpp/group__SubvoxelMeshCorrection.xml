@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__SubvoxelMeshCorrection" kind="group">
+    <compoundname>SubvoxelMeshCorrection</compoundname>
+    <title>Subvoxel Mesh Correction</title>
+    <innerclass refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" prot="public">MR::MoveMeshToVoxelMaxDerivSettings</innerclass>
+    <innerclass refid="classMR_1_1MeshOnVoxelsT" prot="public">MR::MeshOnVoxelsT</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__SubvoxelMeshCorrection_1gaaa03e36604e9587df674801bac3a653f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename VolumeType</type>
+            <defval>VdbVolume</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; VertBitSet &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv</definition>
+        <argsstring>(Mesh &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;volume, const AffineXf3f &amp;volumeXf, const MoveMeshToVoxelMaxDerivSettings &amp;settings, ProgressCallback callback={})</argsstring>
+        <name>moveMeshToVoxelMaxDeriv</name>
+        <qualifiedname>MR::moveMeshToVoxelMaxDeriv</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>meshXf</declname>
+        </param>
+        <param>
+          <type>const VolumeType &amp;</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>volumeXf</declname>
+        </param>
+        <param>
+          <type>const MoveMeshToVoxelMaxDerivSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Moves each vertex along its normal to the minimize (with sign, i.e. maximize the absolute value with negative sign) the derivative of voxels.</para>
+<para><simplesect kind="return"><para>Vertices that were moved by the algorithm </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="111" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Precise automatic mesh correction or/and smoothing based on reference voxel (volume) data. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This group provides highlevel interface of the algorithm: <ref refid="group__SubvoxelMeshCorrection_1gaaa03e36604e9587df674801bac3a653f" kindref="member">moveMeshToVoxelMaxDeriv</ref> configurable through <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref> and the low-level structure <ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref> that allows creation of custom correction strategy.</para>
+<sect4 id="group__SubvoxelMeshCorrection_1description">
+<title>Description of the algorithm.</title><para><orderedlist>
+<listitem><para><bold>Input</bold>: <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> and VdbVolume with corresponding transforms. The objects must be aligned.</para>
+</listitem><listitem><para>First step is to apply preparation smoothing with force specified by <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a33ab7a3bb2d0ed46b1856e4ba276357c" kindref="member">MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce</ref>. This step might be needed if the initial surface is very noisy.</para>
+</listitem><listitem><para>Then the algorithm performs correction iteratively for the total number of iterations specified by <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b0d4d2ec2b2868f18da16624979032f" kindref="member">MoveMeshToVoxelMaxDerivSettings::iters</ref>.<orderedlist>
+<listitem><para>Each iteration consist of moving each vertex of the mesh towards its optimal position. More formally, let&apos;s denote, <formula id="2">$ V = \left\{ ( v_i, n_i ) \right\} $</formula> <ndash/> set of vertices and corresponding normals of the mesh, and <formula id="3">$ F: \mathbb{R}^3 \rightarrow \mathbb{R} $</formula> <ndash/> scalar field of volume <ndash/> for each position in the scene, it gives the density of the voxels in this position. For points with non-integer coordinates, the density is interpolated linearly (for details see <ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>).</para>
+<para>The optimal position <formula id="4">$ p_i $</formula> of the vertex <formula id="5">$ v_i $</formula> is given by fitting the polynomial <formula id="6">$ Q_i $</formula> of degree <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1ad4bdf9eb1e55187c89fd477134219680" kindref="member">MoveMeshToVoxelMaxDerivSettings::degree</ref> to the set of points <formula id="7">$ \left\{ F\left( v_i + n_i \cdot k \cdot \text{voxel size} \right) \mid k \in -l \dots l \right\} $</formula> where <formula id="8">$ l = \frac{\text{sample points}}{2} $</formula> (see <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b3c5026793485f6071bb44a681e1461" kindref="member">MoveMeshToVoxelMaxDerivSettings::samplePoints</ref>); and finding the minimum of the derivative of this polynomial.</para>
+<para>Since the <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1ad4bdf9eb1e55187c89fd477134219680" kindref="member">MoveMeshToVoxelMaxDerivSettings::degree</ref> is limited to <formula id="9">$ 6 $</formula>, we know that the degree of <formula id="10">$ \frac{d^2 Q_i}{dx^2} $</formula> is limited to <formula id="11">$ 4 $</formula> and thus the equation <formula id="12">$ \frac{d^2 Q_i}{dx^2} \left( x \right) = 0 $</formula> has analytical solution and it gives us the extrema of the derivative. Comparing the evaluations of the polynomial at extrema and on the border of the interval we obtain the optimal position <formula id="4">$ p_i $</formula>. To sum up:       <formula id="13">\begin{align*}
+            &amp;l = \frac{\text{sample points}}{2} \\
+            &amp;N_i \leftarrow \left\{ v_i + n_i \cdot k \cdot \text{voxel size} \mid k = -l \dots l \right\} \\
+            &amp;\overline{N_i} \leftarrow \left\{ v_i + n_i \cdot x \cdot \text{voxel size} \mid x \in \left[-l; l\right] \right\} \\
+            &amp;Q_i \leftarrow \text{fit polynomial from } \left\{ \left( p, F(p) \right) \mid p \in N_i \right\} \\
+            &amp;p_i \leftarrow \min_{x \in \overline{N_i}} \frac{dQ_i}{dx}
+       \end{align*}</formula> Note that we are finding the minimum of <formula id="14">$ \frac{dQ_i}{dx} $</formula> analytically over the real interval <formula id="15">$ \overline{N_i} $</formula> and not over <formula id="16">$ N_i $</formula>. This is exactly where the subvoxel precision comes from.</para>
+</listitem><listitem><para>However, directly using the optimal position has proven to be error-prone, as both voxels and mesh could contain noise. Therefore, we use the following heuristic: instead of moving the vertex <formula id="5">$ v_i $</formula> to position <formula id="4">$ p_i $</formula>, we construct a field of shifts with domain on the mesh vertices <formula id="17">$ S : v_i \mapsto \text{clamp}\left( p_i - v_i \right) $</formula> and smooth it with the force specified by <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a13090f3a2bfe03345bd7100d2c634d7f" kindref="member">MoveMeshToVoxelMaxDerivSettings::intermediateSmoothForce</ref> for 15 iterations. Then we update the vertices according to the smoothed field:   <formula id="18">\[
+            v_i \leftarrow v_i + S_{smooth}\left( v_i \right)
+       \]</formula> and proceed to the next interation.</para>
+</listitem></orderedlist>
+</para>
+</listitem><listitem><para>The algorithm modifies the mesh inplace and returns the set of vertices that were moved during the correction.</para>
+</listitem></orderedlist>
+</para>
+<para>A nice visualization of <emphasis>why</emphasis> it works could be found in MeshInspector&apos;s plugin &quot;Voxels Inspector&quot;. Just click on any vertex and you will see the values of <formula id="19">$ F, Q_i $</formula> on the interval <formula id="15">$ \overline{N_i} $</formula>, as well as points of <formula id="16">$ N_i $</formula>.</para>
+</sect4>
+<sect4 id="group__SubvoxelMeshCorrection_1usage">
+<title>Usage</title><para>The algorithm can be used in different cases related to the CT-scanning workflows:<itemizedlist>
+<listitem><para>To increase precision of the mesh retrieved by marching cubes meshing from a noisy scan.</para>
+</listitem><listitem><para>To smooth a noisy mesh taking into account extra information from voxels. In this case, even if both mesh and voxels are noisy, the result is expected to be better than after a simple smoothing. For this use-case, you might need to increase the force of both preparation and intermidiate smoothings. </para>
+</listitem></itemizedlist>
+</para>
+</sect4>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

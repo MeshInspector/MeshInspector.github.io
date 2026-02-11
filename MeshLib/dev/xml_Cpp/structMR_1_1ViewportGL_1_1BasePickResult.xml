@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewportGL_1_1BasePickResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ViewportGL::BasePickResult</compoundname>
+    <derivedcompoundref refid="structMR_1_1ViewportGL_1_1PickResult" prot="public" virt="non-virtual">MR::ViewportGL::PickResult</derivedcompoundref>
+    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1BasePickResult_1ab3a28df9902a6bfa722c359efdd91d44" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::ViewportGL::BasePickResult::geomId</definition>
+        <argsstring></argsstring>
+        <name>geomId</name>
+        <qualifiedname>MR::ViewportGL::BasePickResult::geomId</qualifiedname>
+        <initializer>{ unsigned( -1 ) }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="77" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1BasePickResult_1a0dd6e10cd7b368dae3470cbdf00592ca" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::ViewportGL::BasePickResult::primId</definition>
+        <argsstring></argsstring>
+        <name>primId</name>
+        <qualifiedname>MR::ViewportGL::BasePickResult::primId</qualifiedname>
+        <initializer>{ unsigned( -1 ) }</initializer>
+        <briefdescription>
+<para>id of picked object in <ref refid="structMR_1_1ViewportGL_1_1PickParameters_1af8be4f6f84e2199df5ed9bc57686ccb8" kindref="member">PickParameters::renderVector</ref> (-1 means invalid) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="78" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ViewportGL::BasePickResult</label>
+        <link refid="structMR_1_1ViewportGL_1_1BasePickResult"/>
+      </node>
+      <node id="2">
+        <label>MR::ViewportGL::PickResult</label>
+        <link refid="structMR_1_1ViewportGL_1_1PickResult"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="75" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="76" bodyend="80"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ViewportGL_1_1BasePickResult_1ab3a28df9902a6bfa722c359efdd91d44" prot="public" virt="non-virtual"><scope>MR::ViewportGL::BasePickResult</scope><name>geomId</name></member>
+      <member refid="structMR_1_1ViewportGL_1_1BasePickResult_1a0dd6e10cd7b368dae3470cbdf00592ca" prot="public" virt="non-virtual"><scope>MR::ViewportGL::BasePickResult</scope><name>primId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

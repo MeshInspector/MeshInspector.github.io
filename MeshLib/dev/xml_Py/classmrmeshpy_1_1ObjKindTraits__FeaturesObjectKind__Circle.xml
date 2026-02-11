@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a1630bb23d43de6b00e1402d2b8cb4bee" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.name</qualifiedname>
+        <initializer>=  &apos;Circle&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1ae35bf2ee913d799d0886fbaf005c3d39" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1CircleObject" kindref="compound">CircleObject</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38420" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1aefacfbc21bf893f00b48058e00170b5f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38423" bodyend="38424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a91b0dab974699428536b336b35edce3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle" kindref="compound">ObjKindTraits_FeaturesObjectKind_Circle</ref></type>
+        <definition> ObjKindTraits_FeaturesObjectKind_Circle mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38427" bodyend="38428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a91b0dab974699428536b336b35edce3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle" kindref="compound">ObjKindTraits_FeaturesObjectKind_Circle</ref></type>
+        <definition> ObjKindTraits_FeaturesObjectKind_Circle mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38431" bodyend="38432"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a2882fcd668791e1a98ea3eec3e321283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38434" bodyend="38435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a30a4f6395ec4b4f4964e7bdbc06b8580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</definition>
+        <argsstring>(self, ObjKindTraits_FeaturesObjectKind_Circle arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle" kindref="compound">ObjKindTraits_FeaturesObjectKind_Circle</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38437" bodyend="38440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a2882fcd668791e1a98ea3eec3e321283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38442" bodyend="38445"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjKindTraits&lt;MR::FeaturesObjectKind::Circle&gt;
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Circle</label>
+        <link refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38415" bodyend="38445"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1aefacfbc21bf893f00b48058e00170b5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a2882fcd668791e1a98ea3eec3e321283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a30a4f6395ec4b4f4964e7bdbc06b8580" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a2882fcd668791e1a98ea3eec3e321283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a1630bb23d43de6b00e1402d2b8cb4bee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a91b0dab974699428536b336b35edce3c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1a91b0dab974699428536b336b35edce3c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle_1ae35bf2ee913d799d0886fbaf005c3d39" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Circle</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

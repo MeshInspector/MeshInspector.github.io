@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Graph" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Graph</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Graph_1_1EndVertices" prot="public">mrmeshpy::Graph::EndVertices</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1a3effc0a3753553905437d6e9b247d4f1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::EdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>EdgeBitSet</name>
+        <qualifiedname>mrmeshpy.Graph.EdgeBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1abd11cc10962f02a8539e0d40b7087310" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::EdgeId</definition>
+        <argsstring></argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>mrmeshpy.Graph.EdgeId</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21842" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1af55ba2ea0a68ba58a9d357d310f45197" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::EndsPerEdge</definition>
+        <argsstring></argsstring>
+        <name>EndsPerEdge</name>
+        <qualifiedname>mrmeshpy.Graph.EndsPerEdge</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1aa744063fc4c9bd5c4dae9b25a2cff31e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::Neighbours</definition>
+        <argsstring></argsstring>
+        <name>Neighbours</name>
+        <qualifiedname>mrmeshpy.Graph.Neighbours</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1a5b246ec722c42c44f3c05950612cc83b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::NeighboursPerVertex</definition>
+        <argsstring></argsstring>
+        <name>NeighboursPerVertex</name>
+        <qualifiedname>mrmeshpy.Graph.NeighboursPerVertex</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1a2df11399caf6c599232ae05ab8943825" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>VertBitSet</name>
+        <qualifiedname>mrmeshpy.Graph.VertBitSet</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Graph_1aa9475b2ff69b35d06cb53127d1df3f70" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Graph::VertId</definition>
+        <argsstring></argsstring>
+        <name>VertId</name>
+        <qualifiedname>mrmeshpy.Graph.VertId</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21847" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1aecacc566db7dde576095ed96b5d5bd58" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Graph.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Graph.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21850" bodyend="21851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1ac8a2b99cab7d9509805b4d1e933f461d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph" kindref="compound">Graph</ref></type>
+        <definition> Graph mrmeshpy.Graph.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Graph.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21854" bodyend="21855"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1ac8a2b99cab7d9509805b4d1e933f461d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph" kindref="compound">Graph</ref></type>
+        <definition> Graph mrmeshpy.Graph.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Graph.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21858" bodyend="21859"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a3712305aed0ad1e87fa63d612151a211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Graph.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Graph.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21861" bodyend="21862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a92cf845cfa15987573293a70fabd90e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Graph.__init__</definition>
+        <argsstring>(self, Graph arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Graph.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph" kindref="compound">Graph</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21864" bodyend="21867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1adb850399916f589182a5218d4eb1757c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Graph.areNeighbors</definition>
+        <argsstring>(self, GraphVertId a, GraphVertId b)</argsstring>
+        <name>areNeighbors</name>
+        <qualifiedname>mrmeshpy.Graph.areNeighbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the vertices a and b are neighbors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21868" bodyend="21871"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a6f6dce4ccfffbea903b65ba66c7b871e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Graph.checkValidity</definition>
+        <argsstring>(self)</argsstring>
+        <name>checkValidity</name>
+        <qualifiedname>mrmeshpy.Graph.checkValidity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>verifies that all internal data structures are valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21872" bodyend="21875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a62e8dc7f72748f0636e1169d05a889b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Graph.construct</definition>
+        <argsstring>(self, Vector_std_vector_GraphEdgeId_GraphVertId neighboursPerVertex, Vector_Graph_EndVertices_GraphEdgeId endsPerEdge)</argsstring>
+        <name>construct</name>
+        <qualifiedname>mrmeshpy.Graph.construct</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+          <declname>neighboursPerVertex</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+          <declname>endsPerEdge</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs the graph from all valid vertices and edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21876" bodyend="21879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a3cc955f4bcec3c630f6f52d3e07a941c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Graph.edgeSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeSize</name>
+        <qualifiedname>mrmeshpy.Graph.edgeSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of edge records, including invalid ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21880" bodyend="21883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a7b035752f2df85f3d4634e5e961d3e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Graph.ends</definition>
+        <argsstring>(self, GraphEdgeId e)</argsstring>
+        <name>ends</name>
+        <qualifiedname>mrmeshpy.Graph.ends</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the ends of given edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21884" bodyend="21887"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a7a189740779254da7d7e9ccf907bd3ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.Graph.findEdge</definition>
+        <argsstring>(self, GraphVertId a, GraphVertId b)</argsstring>
+        <name>findEdge</name>
+        <qualifiedname>mrmeshpy.Graph.findEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds and returns edge between vertices a and b; returns invalid edge otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21888" bodyend="21891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1abd983603d3664bdf6569212efc00f5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Graph.merge</definition>
+        <argsstring>(self, GraphVertId remnant, GraphVertId dead, func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag onMergeEdges)</argsstring>
+        <name>merge</name>
+        <qualifiedname>mrmeshpy.Graph.merge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>remnant</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>dead</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag" kindref="compound">func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag</ref></type>
+          <declname>onMergeEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unites two vertices into one (deleting the second one),
+which leads to deletion and merge of some edges, for which callback is called
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21892" bodyend="21896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1aa435fd61762d5f5858fd7017e3b0716b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Graph.neighbours</definition>
+        <argsstring>(self, GraphVertId v)</argsstring>
+        <name>neighbours</name>
+        <qualifiedname>mrmeshpy.Graph.neighbours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all edges adjacent to given vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21897" bodyend="21900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1ac7151d61d9f442d00ef51f96f5adb645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Graph.valid</definition>
+        <argsstring>(self, GraphVertId v)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.Graph.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given vertex is valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21902" bodyend="21905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a2421ab5543f0c7d9b9680dcbba62c600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Graph.valid</definition>
+        <argsstring>(self, GraphEdgeId e)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.Graph.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given edge is valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21907" bodyend="21910"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a585342f2deec7205a387347a508a509a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.Graph.validEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>validEdges</name>
+        <qualifiedname>mrmeshpy.Graph.validEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all valid edges in the graph
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21911" bodyend="21914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a6f6450510905f127b02221698d8858f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
+        <definition> GraphVertBitSet mrmeshpy.Graph.validVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>validVerts</name>
+        <qualifiedname>mrmeshpy.Graph.validVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all valid vertices in the graph
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21915" bodyend="21918"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Graph_1a28efb399a559793b53cabee8e42a7930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Graph.vertSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertSize</name>
+        <qualifiedname>mrmeshpy.Graph.vertSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of vertex records, including invalid ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21919" bodyend="21922"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Graph
+
+mathematical graph consisting from vertices and undirected edges
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21783" bodyend="21922"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Graph_1aecacc566db7dde576095ed96b5d5bd58" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a3712305aed0ad1e87fa63d612151a211" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a92cf845cfa15987573293a70fabd90e1" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1adb850399916f589182a5218d4eb1757c" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>areNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a6f6dce4ccfffbea903b65ba66c7b871e" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>checkValidity</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a62e8dc7f72748f0636e1169d05a889b8" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>construct</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a3effc0a3753553905437d6e9b247d4f1" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>EdgeBitSet</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1abd11cc10962f02a8539e0d40b7087310" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>EdgeId</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a3cc955f4bcec3c630f6f52d3e07a941c" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>edgeSize</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a7b035752f2df85f3d4634e5e961d3e10" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>ends</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1af55ba2ea0a68ba58a9d357d310f45197" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>EndsPerEdge</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a7a189740779254da7d7e9ccf907bd3ed" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>findEdge</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1abd983603d3664bdf6569212efc00f5d0" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>merge</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1aa744063fc4c9bd5c4dae9b25a2cff31e" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>Neighbours</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1aa435fd61762d5f5858fd7017e3b0716b" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>neighbours</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a5b246ec722c42c44f3c05950612cc83b" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>NeighboursPerVertex</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1ac8a2b99cab7d9509805b4d1e933f461d" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1ac8a2b99cab7d9509805b4d1e933f461d" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1ac7151d61d9f442d00ef51f96f5adb645" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a2421ab5543f0c7d9b9680dcbba62c600" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a585342f2deec7205a387347a508a509a" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>validEdges</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a6f6450510905f127b02221698d8858f1" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>validVerts</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a2df11399caf6c599232ae05ab8943825" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>VertBitSet</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1aa9475b2ff69b35d06cb53127d1df3f70" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>VertId</name></member>
+      <member refid="classmrmeshpy_1_1Graph_1a28efb399a559793b53cabee8e42a7930" prot="public" virt="non-virtual"><scope>mrmeshpy::Graph</scope><name>vertSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

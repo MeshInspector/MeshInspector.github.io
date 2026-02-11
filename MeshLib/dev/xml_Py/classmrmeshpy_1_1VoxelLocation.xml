@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelLocation" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelLocation</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelLocation_1a79d548e752bd42d0ca639c2e69d6005a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelLocation::_offsetof_id</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_id</name>
+        <qualifiedname>mrmeshpy.VoxelLocation._offsetof_id</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelLocation_1afd8a221f27cd64cfe903d6b72531d614" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelLocation::_offsetof_pos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pos</name>
+        <qualifiedname>mrmeshpy.VoxelLocation._offsetof_pos</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72829" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1ac1d51d3868ae453a68017d588210fac9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelLocation.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72834" bodyend="72835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1ae6940282d2ccadc3f233c0cfee1c10f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+        <definition> VoxelLocation mrmeshpy.VoxelLocation.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72838" bodyend="72839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1ae6940282d2ccadc3f233c0cfee1c10f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+        <definition> VoxelLocation mrmeshpy.VoxelLocation.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72842" bodyend="72843"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1a97261706fb4f75f63fc93c5e99e9ae21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelLocation.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>check for validity
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72844" bodyend="72847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1a91d6e82c6f4602675ee017eff1ba8280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelLocation.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72849" bodyend="72850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1a8e536fda3f16a433f5aee9fe941ca0c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelLocation.__init__</definition>
+        <argsstring>(self, VoxelLocation arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72852" bodyend="72855"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelLocation_1accf60d8f437b0332bc5dfbfc90783ca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelLocation.__init__</definition>
+        <argsstring>(self, VoxelId id, Vector3i pos)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelLocation.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72857" bodyend="72860"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelLocation
+
+contains both linear Id and 3D coordinates of the same voxel
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelLocation</label>
+        <link refid="classmrmeshpy_1_1VoxelLocation"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_id</edgelabel>
+          <edgelabel>_offsetof_pos</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72822" bodyend="72860"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1a97261706fb4f75f63fc93c5e99e9ae21" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1ac1d51d3868ae453a68017d588210fac9" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1a91d6e82c6f4602675ee017eff1ba8280" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1a8e536fda3f16a433f5aee9fe941ca0c1" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1accf60d8f437b0332bc5dfbfc90783ca8" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1a79d548e752bd42d0ca639c2e69d6005a" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>_offsetof_id</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1afd8a221f27cd64cfe903d6b72531d614" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>_offsetof_pos</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1ae6940282d2ccadc3f233c0cfee1c10f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelLocation_1ae6940282d2ccadc3f233c0cfee1c10f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelLocation</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

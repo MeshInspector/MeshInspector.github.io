@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CubicBezierCurve2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::CubicBezierCurve2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CubicBezierCurve2f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1CubicBezierCurve2f_1a2c1be74b83df131585e1e887932eacbc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.ArrayVector2f4</type>
+        <definition>new unsafe ref MR.ArrayVector2f4 MR.CubicBezierCurve2f.p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <qualifiedname>MR.CubicBezierCurve2f.p</qualifiedname>
+        <briefdescription>
+<para>4 control points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="123" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a58a729f4c436942753b06da0be9b658d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CubicBezierCurve2f.CubicBezierCurve2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CubicBezierCurve2f</name>
+        <qualifiedname>MR.CubicBezierCurve2f.CubicBezierCurve2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="127" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="127" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1afab277c86544bb20b032aefa00ed4e80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CubicBezierCurve2f.CubicBezierCurve2f</definition>
+        <argsstring>()</argsstring>
+        <name>CubicBezierCurve2f</name>
+        <qualifiedname>MR.CubicBezierCurve2f.CubicBezierCurve2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="137" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a8951b3d515dde4168ca41b4097c58c43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CubicBezierCurve2f.CubicBezierCurve2f</definition>
+        <argsstring>(MR.Const_CubicBezierCurve2f _other)</argsstring>
+        <name>CubicBezierCurve2f</name>
+        <qualifiedname>MR.CubicBezierCurve2f.CubicBezierCurve2f</qualifiedname>
+        <param>
+          <type>MR.Const_CubicBezierCurve2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CubicBezierCurve2f.CubicBezierCurve2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="148" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="148" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a71314d2d809801edd95e5b24d3badd06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CubicBezierCurve2f.CubicBezierCurve2f</definition>
+        <argsstring>(CubicBezierCurve2f _other)</argsstring>
+        <name>CubicBezierCurve2f</name>
+        <qualifiedname>MR.CubicBezierCurve2f.CubicBezierCurve2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CubicBezierCurve2f" kindref="compound">CubicBezierCurve2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CubicBezierCurve2f.CubicBezierCurve2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="160" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a1124712dddcee80e6d866a6702899362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CubicBezierCurve2f" kindref="compound">MR.CubicBezierCurve2f</ref></type>
+        <definition>unsafe MR.CubicBezierCurve2f MR.CubicBezierCurve2f.assign</definition>
+        <argsstring>(MR.Const_CubicBezierCurve2f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CubicBezierCurve2f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_CubicBezierCurve2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CubicBezierCurve2f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="165" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="165" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Cubic Bezier curve Generated from class <computeroutput><ref refid="classMR_1_1CubicBezierCurve2f" kindref="compound">MR.CubicBezierCurve2f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CubicBezierCurve2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CubicBezierCurve2f</label>
+        <link refid="classMR_1_1CubicBezierCurve2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CubicBezierCurve2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CubicBezierCurve2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CubicBezierCurve2f</label>
+        <link refid="classMR_1_1CubicBezierCurve2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CubicBezierCurve2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="120" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="121" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CubicBezierCurve2f_1a1124712dddcee80e6d866a6702899362" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1CubicBezierCurve2f_1a58a729f4c436942753b06da0be9b658d" prot="package" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>CubicBezierCurve2f</name></member>
+      <member refid="classMR_1_1CubicBezierCurve2f_1afab277c86544bb20b032aefa00ed4e80" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>CubicBezierCurve2f</name></member>
+      <member refid="classMR_1_1CubicBezierCurve2f_1a8951b3d515dde4168ca41b4097c58c43" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>CubicBezierCurve2f</name></member>
+      <member refid="classMR_1_1CubicBezierCurve2f_1a71314d2d809801edd95e5b24d3badd06" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>CubicBezierCurve2f</name></member>
+      <member refid="classMR_1_1CubicBezierCurve2f_1a2c1be74b83df131585e1e887932eacbc" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>p</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

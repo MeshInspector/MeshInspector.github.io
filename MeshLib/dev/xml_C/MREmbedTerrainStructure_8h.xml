@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MREmbedTerrainStructure_8h" kind="file" language="C++">
+    <compoundname>MREmbedTerrainStructure.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MREmbedTerrainStructure.h</label>
+        <link refid="MREmbedTerrainStructure_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MREmbedTerrainStructure_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="11" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREmbedTerrainStructure_8h_1ab809347fd151b45341bc9e7828673eb5" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref></type>
+        <definition>typedef struct MR_FaceMap MR_FaceMap</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="12" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREmbedTerrainStructure_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREmbedTerrainStructure_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_Mesh_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="14" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" prot="public" static="no">
+        <type>struct <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref></type>
+        <definition>typedef struct MR_EmbeddedStructureParameters MR_EmbeddedStructureParameters</definition>
+        <argsstring></argsstring>
+        <name>MR_EmbeddedStructureParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::EmbeddedStructureParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="20" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1aca9e6af9d53759b5855d0e2466eba7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EmbeddedStructureParameters_Get_fillAngle</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_fillAngle</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>fillAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="26" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a8f8797912e74d0b8a0968bf35df5f547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_fillAngle</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, float value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_fillAngle</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>fillAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fillAngle</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="32" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1aa51cd294d1f20548d1e1095e2ff224e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EmbeddedStructureParameters_GetMutable_fillAngle</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_fillAngle</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>fillAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="38" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="38" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a19da3e7055f183adf8454d60381d68c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EmbeddedStructureParameters_Get_cutAngle</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_cutAngle</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>cutAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="44" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="44" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1af2c0791a991a4b8a036ad2e6e231b1c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_cutAngle</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, float value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_cutAngle</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>cutAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cutAngle</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a6eb43c9ea734904a95b6823080be5131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EmbeddedStructureParameters_GetMutable_cutAngle</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_cutAngle</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>cutAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="56" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="56" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ab7d55504482f4d4db556de66d908cbd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_EmbeddedStructureParameters_Get_minAnglePrecision</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_minAnglePrecision</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="62" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="62" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ac6b3c40bb8e5483bcee55d79ded846d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_minAnglePrecision</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, float value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_minAnglePrecision</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAnglePrecision</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a1b0917d80155fcc4602996f59986dea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_EmbeddedStructureParameters_GetMutable_minAnglePrecision</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_minAnglePrecision</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="74" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="74" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1aa3801299cce773bf2e058deaf2ff600d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API MR_FaceBitSet *const  * MR_EmbeddedStructureParameters_Get_outStructFaces</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_outStructFaces</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outStructFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="80" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="80" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a97f5badd23503b127d1eeaf787635246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_outStructFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, MR_FaceBitSet *value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_outStructFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outStructFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outStructFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outStructFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a104f3e3934ea92163f87bf5b8159932c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API MR_FaceBitSet ** MR_EmbeddedStructureParameters_GetMutable_outStructFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_outStructFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outStructFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="93" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="93" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a09f359a7ec94a08aeeced23ba87b4d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API MR_FaceBitSet *const  * MR_EmbeddedStructureParameters_Get_outFillFaces</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_outFillFaces</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outFillFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="99" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="99" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ad62391c0c5a298fb76e510d2c9fb9f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_outFillFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, MR_FaceBitSet *value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_outFillFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outFillFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outFillFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outFillFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="106" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ad9cac567df9ba88d769f373539662cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API MR_FaceBitSet ** MR_EmbeddedStructureParameters_GetMutable_outFillFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_outFillFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outFillFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="112" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="112" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1aa98b881a3f5ab0d78adf60a693d9092d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API MR_FaceBitSet *const  * MR_EmbeddedStructureParameters_Get_outCutFaces</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_outCutFaces</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outCutFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="118" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="118" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1abaa6e8e78f7d31dfe2881bf97e26603a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_outCutFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, MR_FaceBitSet *value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_outCutFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outCutFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a0d12739b807d9df102aa2942c6a26178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API MR_FaceBitSet ** MR_EmbeddedStructureParameters_GetMutable_outCutFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_outCutFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outCutFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="131" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="131" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1af8937bb2f544cc9eaada703ae1f356c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> *const *</type>
+        <definition>MRC_API MR_FaceMap *const  * MR_EmbeddedStructureParameters_Get_new2oldFaces</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Get_new2oldFaces</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>new2oldFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="137" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="137" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1af33d51af4fa35de5aea01a218386d837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Set_new2oldFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, MR_FaceMap *value)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Set_new2oldFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>new2oldFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2oldFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2oldFaces</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="144" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ab2c8e5b77f2511f67a69b594e283f6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> **</type>
+        <definition>MRC_API MR_FaceMap ** MR_EmbeddedStructureParameters_GetMutable_new2oldFaces</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_GetMutable_new2oldFaces</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>new2oldFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="150" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="150" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a64aee877a8c1a34d3ae04a1d7a932fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_EmbeddedStructureParameters_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" kindref="member">MR_EmbeddedStructureParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="154" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="154" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ac4b57369900ca9d9ae70d58ebcb583a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_EmbeddedStructureParameters_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MREmbedTerrainStructure_8h_1ad7a3e3e19e7fae9ab1467641f71c5197" kindref="member">MR_EmbeddedStructureParameters_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MREmbedTerrainStructure_8h_1a4eb10162b1ff52f0043d9305984e32cf" kindref="member">MR_EmbeddedStructureParameters_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MREmbedTerrainStructure_8h_1ac2d4cb3b06b6b7f5327b500ba0889f0e" kindref="member">MR_EmbeddedStructureParameters_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="159" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="159" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a2089cd4f502b51369e49fd97a7f5aadc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_ConstructFrom</definition>
+        <argsstring>(float fillAngle, float cutAngle, float minAnglePrecision, MR_FaceBitSet *outStructFaces, MR_FaceBitSet *outFillFaces, MR_FaceBitSet *outCutFaces, MR_FaceMap *new2oldFaces)</argsstring>
+        <name>MR_EmbeddedStructureParameters_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>fillAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cutAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAnglePrecision</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>outStructFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>outFillFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>outCutFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> *</type>
+          <declname>new2oldFaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::EmbeddedStructureParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>outStructFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outFillFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2oldFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" kindref="member">MR_EmbeddedStructureParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="168" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="168" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ac2d4cb3b06b6b7f5327b500ba0889f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API const MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_OffsetPtr</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_EmbeddedStructureParameters_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="172" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="172" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a4eb10162b1ff52f0043d9305984e32cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_OffsetMutablePtr</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_EmbeddedStructureParameters_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="176" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="176" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ae5abbfc27f2cafc2f79f8ec082f19913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_ConstructFromAnother</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_other)</argsstring>
+        <name>MR_EmbeddedStructureParameters_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::EmbeddedStructureParameters::EmbeddedStructureParameters</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" kindref="member">MR_EmbeddedStructureParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="182" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="182" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_Destroy</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_Destroy</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_EmbeddedStructureParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="185" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1ad7a3e3e19e7fae9ab1467641f71c5197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_EmbeddedStructureParameters_DestroyArray</definition>
+        <argsstring>(const MR_EmbeddedStructureParameters *_this)</argsstring>
+        <name>MR_EmbeddedStructureParameters_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_EmbeddedStructureParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="188" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1a299783a9cec776e5280b680dbfdff05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+        <definition>MRC_API MR_EmbeddedStructureParameters * MR_EmbeddedStructureParameters_AssignFromAnother</definition>
+        <argsstring>(MR_EmbeddedStructureParameters *_this, const MR_EmbeddedStructureParameters *_other)</argsstring>
+        <name>MR_EmbeddedStructureParameters_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::EmbeddedStructureParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="196" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="196" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MREmbedTerrainStructure_8h_1aa52e08ffff1f3709fb7835b2c2cfd929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_embedStructureToTerrain</definition>
+        <argsstring>(const MR_Mesh *terrain, const MR_Mesh *structure, const MR_EmbeddedStructureParameters *params)</argsstring>
+        <name>MR_embedStructureToTerrain</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>structure</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::embedStructureToTerrain</computeroutput>. Parameter <computeroutput>terrain</computeroutput> can not be null. It is a single object. Parameter <computeroutput>structure</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" line="206" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h" declline="206" declcolumn="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MREmbedTerrainStructure_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MREmbedTerrainStructure_8h_1ab809347fd151b45341bc9e7828673eb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MREmbedTerrainStructure_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MREmbedTerrainStructure_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Parameters<sp/>of<sp/>structure<sp/>embedding<sp/>in<sp/>terrain</highlight></codeline>
+<codeline lineno="20" refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>angle<sp/>of<sp/>fill<sp/>cone<sp/>(mound)</highlight></codeline>
+<codeline lineno="26" refid="MREmbedTerrainStructure_8h_1aca9e6af9d53759b5855d0e2466eba7a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1aca9e6af9d53759b5855d0e2466eba7a7" kindref="member">MR_EmbeddedStructureParameters_Get_fillAngle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>angle<sp/>of<sp/>fill<sp/>cone<sp/>(mound)</highlight></codeline>
+<codeline lineno="32" refid="MREmbedTerrainStructure_8h_1a8f8797912e74d0b8a0968bf35df5f547" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a8f8797912e74d0b8a0968bf35df5f547" kindref="member">MR_EmbeddedStructureParameters_Set_fillAngle</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>angle<sp/>of<sp/>fill<sp/>cone<sp/>(mound)</highlight></codeline>
+<codeline lineno="38" refid="MREmbedTerrainStructure_8h_1aa51cd294d1f20548d1e1095e2ff224e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1aa51cd294d1f20548d1e1095e2ff224e2" kindref="member">MR_EmbeddedStructureParameters_GetMutable_fillAngle</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>angle<sp/>of<sp/>cut<sp/>cone<sp/>(pit)</highlight></codeline>
+<codeline lineno="44" refid="MREmbedTerrainStructure_8h_1a19da3e7055f183adf8454d60381d68c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a19da3e7055f183adf8454d60381d68c0" kindref="member">MR_EmbeddedStructureParameters_Get_cutAngle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>angle<sp/>of<sp/>cut<sp/>cone<sp/>(pit)</highlight></codeline>
+<codeline lineno="50" refid="MREmbedTerrainStructure_8h_1af2c0791a991a4b8a036ad2e6e231b1c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1af2c0791a991a4b8a036ad2e6e231b1c9" kindref="member">MR_EmbeddedStructureParameters_Set_cutAngle</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>angle<sp/>of<sp/>cut<sp/>cone<sp/>(pit)</highlight></codeline>
+<codeline lineno="56" refid="MREmbedTerrainStructure_8h_1a6eb43c9ea734904a95b6823080be5131" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a6eb43c9ea734904a95b6823080be5131" kindref="member">MR_EmbeddedStructureParameters_GetMutable_cutAngle</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>20<sp/>deg</highlight></codeline>
+<codeline lineno="62" refid="MREmbedTerrainStructure_8h_1ab7d55504482f4d4db556de66d908cbd1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1ab7d55504482f4d4db556de66d908cbd1" kindref="member">MR_EmbeddedStructureParameters_Get_minAnglePrecision</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>20<sp/>deg</highlight></codeline>
+<codeline lineno="68" refid="MREmbedTerrainStructure_8h_1ac6b3c40bb8e5483bcee55d79ded846d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1ac6b3c40bb8e5483bcee55d79ded846d6" kindref="member">MR_EmbeddedStructureParameters_Set_minAnglePrecision</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>20<sp/>deg</highlight></codeline>
+<codeline lineno="74" refid="MREmbedTerrainStructure_8h_1a1b0917d80155fcc4602996f59986dea3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a1b0917d80155fcc4602996f59986dea3" kindref="member">MR_EmbeddedStructureParameters_GetMutable_minAnglePrecision</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>embedded<sp/>structure<sp/></highlight></codeline>
+<codeline lineno="80" refid="MREmbedTerrainStructure_8h_1aa3801299cce773bf2e058deaf2ff600d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1aa3801299cce773bf2e058deaf2ff600d" kindref="member">MR_EmbeddedStructureParameters_Get_outStructFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>embedded<sp/>structure<sp/></highlight></codeline>
+<codeline lineno="87" refid="MREmbedTerrainStructure_8h_1a97f5badd23503b127d1eeaf787635246" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a97f5badd23503b127d1eeaf787635246" kindref="member">MR_EmbeddedStructureParameters_Set_outStructFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>embedded<sp/>structure<sp/></highlight></codeline>
+<codeline lineno="93" refid="MREmbedTerrainStructure_8h_1a104f3e3934ea92163f87bf5b8159932c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MREmbedTerrainStructure_8h_1a104f3e3934ea92163f87bf5b8159932c" kindref="member">MR_EmbeddedStructureParameters_GetMutable_outStructFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>fill<sp/>part</highlight></codeline>
+<codeline lineno="99" refid="MREmbedTerrainStructure_8h_1a09f359a7ec94a08aeeced23ba87b4d6a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a09f359a7ec94a08aeeced23ba87b4d6a" kindref="member">MR_EmbeddedStructureParameters_Get_outFillFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>fill<sp/>part</highlight></codeline>
+<codeline lineno="106" refid="MREmbedTerrainStructure_8h_1ad62391c0c5a298fb76e510d2c9fb9f28" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1ad62391c0c5a298fb76e510d2c9fb9f28" kindref="member">MR_EmbeddedStructureParameters_Set_outFillFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>fill<sp/>part</highlight></codeline>
+<codeline lineno="112" refid="MREmbedTerrainStructure_8h_1ad9cac567df9ba88d769f373539662cda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MREmbedTerrainStructure_8h_1ad9cac567df9ba88d769f373539662cda" kindref="member">MR_EmbeddedStructureParameters_GetMutable_outFillFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>cut<sp/>part</highlight></codeline>
+<codeline lineno="118" refid="MREmbedTerrainStructure_8h_1aa98b881a3f5ab0d78adf60a693d9092d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1aa98b881a3f5ab0d78adf60a693d9092d" kindref="member">MR_EmbeddedStructureParameters_Get_outCutFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>cut<sp/>part</highlight></codeline>
+<codeline lineno="125" refid="MREmbedTerrainStructure_8h_1abaa6e8e78f7d31dfe2881bf97e26603a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1abaa6e8e78f7d31dfe2881bf97e26603a" kindref="member">MR_EmbeddedStructureParameters_Set_outCutFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>new<sp/>faces<sp/>of<sp/>cut<sp/>part</highlight></codeline>
+<codeline lineno="131" refid="MREmbedTerrainStructure_8h_1a0d12739b807d9df102aa2942c6a26178" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MREmbedTerrainStructure_8h_1a0d12739b807d9df102aa2942c6a26178" kindref="member">MR_EmbeddedStructureParameters_GetMutable_outCutFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>map<sp/>new<sp/>terrain<sp/>faces<sp/>to<sp/>old<sp/>terrain<sp/>faces</highlight></codeline>
+<codeline lineno="137" refid="MREmbedTerrainStructure_8h_1af8937bb2f544cc9eaada703ae1f356c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MREmbedTerrainStructure_8h_1af8937bb2f544cc9eaada703ae1f356c0" kindref="member">MR_EmbeddedStructureParameters_Get_new2oldFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>map<sp/>new<sp/>terrain<sp/>faces<sp/>to<sp/>old<sp/>terrain<sp/>faces</highlight></codeline>
+<codeline lineno="144" refid="MREmbedTerrainStructure_8h_1af33d51af4fa35de5aea01a218386d837" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1af33d51af4fa35de5aea01a218386d837" kindref="member">MR_EmbeddedStructureParameters_Set_new2oldFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>map<sp/>new<sp/>terrain<sp/>faces<sp/>to<sp/>old<sp/>terrain<sp/>faces</highlight></codeline>
+<codeline lineno="150" refid="MREmbedTerrainStructure_8h_1ab2c8e5b77f2511f67a69b594e283f6d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>**<ref refid="MREmbedTerrainStructure_8h_1ab2c8e5b77f2511f67a69b594e283f6d8" kindref="member">MR_EmbeddedStructureParameters_GetMutable_new2oldFaces</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MREmbedTerrainStructure_8h_1a64aee877a8c1a34d3ae04a1d7a932fa8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a64aee877a8c1a34d3ae04a1d7a932fa8" kindref="member">MR_EmbeddedStructureParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MREmbedTerrainStructure_8h_1ac4b57369900ca9d9ae70d58ebcb583a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1ac4b57369900ca9d9ae70d58ebcb583a2" kindref="member">MR_EmbeddedStructureParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MREmbedTerrainStructure_8h_1a2089cd4f502b51369e49fd97a7f5aadc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a2089cd4f502b51369e49fd97a7f5aadc" kindref="member">MR_EmbeddedStructureParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cutAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAnglePrecision,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outStructFaces,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outFillFaces,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outCutFaces,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*new2oldFaces);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MREmbedTerrainStructure_8h_1ac2d4cb3b06b6b7f5327b500ba0889f0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1ac2d4cb3b06b6b7f5327b500ba0889f0e" kindref="member">MR_EmbeddedStructureParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MREmbedTerrainStructure_8h_1a4eb10162b1ff52f0043d9305984e32cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a4eb10162b1ff52f0043d9305984e32cf" kindref="member">MR_EmbeddedStructureParameters_OffsetMutablePtr</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MREmbedTerrainStructure_8h_1ae5abbfc27f2cafc2f79f8ec082f19913" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1ae5abbfc27f2cafc2f79f8ec082f19913" kindref="member">MR_EmbeddedStructureParameters_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" kindref="member">MR_EmbeddedStructureParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MREmbedTerrainStructure_8h_1ad7a3e3e19e7fae9ab1467641f71c5197" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1ad7a3e3e19e7fae9ab1467641f71c5197" kindref="member">MR_EmbeddedStructureParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MREmbedTerrainStructure_8h_1a299783a9cec776e5280b680dbfdff05f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1a299783a9cec776e5280b680dbfdff05f" kindref="member">MR_EmbeddedStructureParameters_AssignFromAnother</ref>(<ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>terrain<sp/>mesh<sp/>with<sp/>structure<sp/>embedded<sp/>to<sp/>it,<sp/>or<sp/>error<sp/>string</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="comment">//<sp/>terrain<sp/>-<sp/>mesh<sp/>with<sp/>+Z<sp/>normal<sp/>(not-closed<sp/>mesh<sp/>is<sp/>expected)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment">//<sp/>structure<sp/>-<sp/>mesh<sp/>with<sp/>one<sp/>open<sp/>contour<sp/>and<sp/>+Z<sp/>normal,<sp/>that<sp/>will<sp/>be<sp/>embedded<sp/>in<sp/>terrain</highlight></codeline>
+<codeline lineno="206" refid="MREmbedTerrainStructure_8h_1aa52e08ffff1f3709fb7835b2c2cfd929" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MREmbedTerrainStructure_8h_1aa52e08ffff1f3709fb7835b2c2cfd929" kindref="member">MR_embedStructureToTerrain</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*terrain,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*structure,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kindref="member">MR_EmbeddedStructureParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREmbedTerrainStructure.h"/>
+  </compounddef>
+</doxygen>

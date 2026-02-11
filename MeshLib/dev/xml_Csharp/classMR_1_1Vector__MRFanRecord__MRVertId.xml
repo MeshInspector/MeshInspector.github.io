@@ -1,0 +1,674 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Vector__MRFanRecord__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Vector_MRFanRecord_MRVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRFanRecord_MRVertId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a3d296f30c8d80e371c79209431b64731" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRFanRecord</type>
+        <definition>new unsafe MR.Std.Vector_MRFanRecord MR.Vector_MRFanRecord_MRVertId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28730" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28730" bodyend="28730"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__MRFanRecord__MRVertId_1ad596271d4e2418f5b060d12d23371220" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new <ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref></type>
+        <definition>unsafe new MR.FanRecord MR.Vector_MRFanRecord_MRVertId.this[MR.VertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VertId i]</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.this[MR.VertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28899" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28900" bodyend="28907"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1ab46ad8b01146a591cababb42148025d2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28749" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28749" bodyend="28753"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a205270a454d143b9e0c19e9d0e782e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28759" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28759" bodyend="28765"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1ad864347df616a9a0f0f26a6a32919883" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(MR._ByValue_Vector_MRFanRecord_MRVertId _other)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRFanRecord_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28770" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28770" bodyend="28777"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1af8ec85f08149efcdf4b54d0943a0687d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(Const_Vector_MRFanRecord_MRVertId _other)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>Const_Vector_MRFanRecord_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28782" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28782" bodyend="28782"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1abbc26264325b063839934df93691c27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(Vector_MRFanRecord_MRVertId _other)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRFanRecord__MRVertId" kindref="compound">Vector_MRFanRecord_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28787" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28787" bodyend="28787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a7f2aa10124afd95442b78695801d2dad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28793" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28793" bodyend="28799"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a08052519a24b74ac818d077edbe322d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(ulong size, MR.Const_FanRecord val)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_FanRecord</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28805" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28805" bodyend="28812"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a7f64c6d2cbdc7354486203b6acd8aff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFanRecord &gt; vec)</argsstring>
+        <name>Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRFanRecord &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28818" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28818" bodyend="28825"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a3c593289733ba5dbb5d56260e3b1b54a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRFanRecord__MRVertId" kindref="compound">MR.Vector_MRFanRecord_MRVertId</ref></type>
+        <definition>unsafe MR.Vector_MRFanRecord_MRVertId MR.Vector_MRFanRecord_MRVertId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_MRFanRecord_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRFanRecord_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28836" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28836" bodyend="28843"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a66e7fdfedc4088775861443a83eb8e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28848" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28848" bodyend="28853"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1afee26f3a0b825c2b48c0dfdad8017f0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28858" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28858" bodyend="28863"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a93cdcf72f85224bc2ff1c5b61f03fb5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.resize</definition>
+        <argsstring>(ulong newSize, MR.Const_FanRecord t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_FanRecord</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28868" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28868" bodyend="28873"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a1c50251c83dee046109711b4933a70c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.resizeNoInit</definition>
+        <argsstring>(ulong targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.resizeNoInit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resizeNoInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28879" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28879" bodyend="28884"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a59f5bba96ec3e2d4e347e2c38552174f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::reserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28889" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28889" bodyend="28894"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a57a05b3b322d05ae51cb94fb9499430f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28913" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28913" bodyend="28918"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1af8285789bf39d2d00a22cf77dd6ef55e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Const_FanRecord value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_FanRecord</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28924" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28924" bodyend="28929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a8ec3f5f0639eac136a5e6e0c930d375b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.autoResizeSet</definition>
+        <argsstring>(MR.VertId pos, ulong len, MR.Const_FanRecord val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Const_FanRecord</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28936" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28936" bodyend="28941"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a0cc0f61c026b26a78d6fffe6227b7f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.autoResizeSet</definition>
+        <argsstring>(MR.VertId i, MR.Const_FanRecord val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Const_FanRecord</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28947" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28947" bodyend="28952"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a7babb3d14546ad1c921560245e5de466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref></type>
+        <definition>unsafe MR.FanRecord MR.Vector_MRFanRecord_MRVertId.autoResizeAt</definition>
+        <argsstring>(MR.VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::autoResizeAt</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28958" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28958" bodyend="28963"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1af5a75b34603cfc049a297c57e1b96278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.pushBack</definition>
+        <argsstring>(MR.Const_FanRecord t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Const_FanRecord</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28968" bodyend="28973"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a4d631b6cfeaa643074a7da86fbf77033" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.FanRecord &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28978" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28978" bodyend="28983"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a5de0cfbe41245387caf79709649514c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28988" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28988" bodyend="28993"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1ac3466cad922436ee2cd3163459bf0819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref></type>
+        <definition>unsafe MR.FanRecord MR.Vector_MRFanRecord_MRVertId.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28998" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28998" bodyend="29003"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1aabd7bc260ada3f8def282a75f1adf082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref></type>
+        <definition>unsafe new MR.FanRecord MR.Vector_MRFanRecord_MRVertId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::front</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="29008" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="29008" bodyend="29013"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a9b94e031123324a473811b58fd016688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref></type>
+        <definition>unsafe new MR.FanRecord MR.Vector_MRFanRecord_MRVertId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="29018" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="29018" bodyend="29023"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a0ba139d30b7fa5a76cd3bfe498b69226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1FanRecord" kindref="compound">FanRecord</ref></type>
+        <definition>unsafe new MR.? FanRecord MR.Vector_MRFanRecord_MRVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::data</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="29028" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="29028" bodyend="29034"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a81241f3977f5c4b06129eaad07ae9a74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_MRFanRecord_MRVertId.swap</definition>
+        <argsstring>(MR.Vector_MRFanRecord_MRVertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRFanRecord__MRVertId" kindref="compound">MR.Vector_MRFanRecord_MRVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::swap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="29039" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="29039" bodyend="29044"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a7d0930d3b930476b97c414ab4456ae5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Vector_MRFanRecord_MRVertId.operator Vector_MRFanRecord_MRVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFanRecord &gt; vec)</argsstring>
+        <name>operator Vector_MRFanRecord_MRVertId</name>
+        <qualifiedname>MR.Vector_MRFanRecord_MRVertId.operator Vector_MRFanRecord_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRFanRecord &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28831" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28831" bodyend="28831"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;<ref refid="classMR_1_1FanRecord" kindref="compound">MR.FanRecord</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Vector_MRFanRecord_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRFanRecord_MRVertId</label>
+        <link refid="classMR_1_1Vector__MRFanRecord__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRFanRecord_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Vector_MRFanRecord_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Vector_MRFanRecord_MRVertId</label>
+        <link refid="classMR_1_1Vector__MRFanRecord__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Vector_MRFanRecord_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28727" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="28728" bodyend="29045"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a3c593289733ba5dbb5d56260e3b1b54a" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a7babb3d14546ad1c921560245e5de466" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a8ec3f5f0639eac136a5e6e0c930d375b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a0cc0f61c026b26a78d6fffe6227b7f2f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a9b94e031123324a473811b58fd016688" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a66e7fdfedc4088775861443a83eb8e97" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a0ba139d30b7fa5a76cd3bfe498b69226" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1ac3466cad922436ee2cd3163459bf0819" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1aabd7bc260ada3f8def282a75f1adf082" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a7d0930d3b930476b97c414ab4456ae5a" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>operator Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a5de0cfbe41245387caf79709649514c1" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1af5a75b34603cfc049a297c57e1b96278" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a4d631b6cfeaa643074a7da86fbf77033" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a59f5bba96ec3e2d4e347e2c38552174f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1afee26f3a0b825c2b48c0dfdad8017f0f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a93cdcf72f85224bc2ff1c5b61f03fb5d" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a1c50251c83dee046109711b4933a70c9" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a57a05b3b322d05ae51cb94fb9499430f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1af8285789bf39d2d00a22cf77dd6ef55e" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a81241f3977f5c4b06129eaad07ae9a74" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1ad596271d4e2418f5b060d12d23371220" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>this[MR.VertId i]</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a3d296f30c8d80e371c79209431b64731" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1ab46ad8b01146a591cababb42148025d2" prot="package" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a205270a454d143b9e0c19e9d0e782e33" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1ad864347df616a9a0f0f26a6a32919883" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1af8ec85f08149efcdf4b54d0943a0687d" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1abbc26264325b063839934df93691c27d" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a7f2aa10124afd95442b78695801d2dad" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a08052519a24b74ac818d077edbe322d5" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a7f64c6d2cbdc7354486203b6acd8aff3" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Vector_MRFanRecord_MRVertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

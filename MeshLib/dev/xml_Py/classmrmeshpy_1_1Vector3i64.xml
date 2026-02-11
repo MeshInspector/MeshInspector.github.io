@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector3i64" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector3i64</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector3i64_1a84a1c02d4decf7fb8a576a6b49674038" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector3i64::_offsetof_x</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_x</name>
+        <qualifiedname>mrmeshpy.Vector3i64._offsetof_x</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector3i64_1a1042fdf013976b54541109b8b0a97584" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector3i64::_offsetof_y</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_y</name>
+        <qualifiedname>mrmeshpy.Vector3i64._offsetof_y</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector3i64_1aeeb74f99e4c6dcddc826b819adf210fc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector3i64::_offsetof_z</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_z</name>
+        <qualifiedname>mrmeshpy.Vector3i64._offsetof_z</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61564" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector3i64_1a6a825c1faf9705bdfc6f0e9029caf2ba" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector3i64::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.Vector3i64.elements</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61565" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a69139f95eccf37d07195236e2fc0aef3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector3i64.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61571" bodyend="61572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a69139f95eccf37d07195236e2fc0aef3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector3i64.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61575" bodyend="61576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a5306f8f0eef9b038dce8c57538bbc1c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.diagonal</definition>
+        <argsstring>(int a)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>mrmeshpy.Vector3i64.diagonal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61578" bodyend="61579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1ace3b4d9d988d4ae753297a2005a18758" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.minusX</definition>
+        <argsstring>()</argsstring>
+        <name>minusX</name>
+        <qualifiedname>mrmeshpy.Vector3i64.minusX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61581" bodyend="61582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a967d1f9044bfc0990d2217f7f04da89f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.minusY</definition>
+        <argsstring>()</argsstring>
+        <name>minusY</name>
+        <qualifiedname>mrmeshpy.Vector3i64.minusY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61584" bodyend="61585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a648bf58853061abb98588c22c8715d26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.minusZ</definition>
+        <argsstring>()</argsstring>
+        <name>minusZ</name>
+        <qualifiedname>mrmeshpy.Vector3i64.minusZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61587" bodyend="61588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aae9d027fb09928083578e1c51b557909" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector3i64.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61591" bodyend="61592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aae9d027fb09928083578e1c51b557909" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector3i64.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61595" bodyend="61596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1ac815c1c43664d3186f149b5130fd742a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.plusX</definition>
+        <argsstring>()</argsstring>
+        <name>plusX</name>
+        <qualifiedname>mrmeshpy.Vector3i64.plusX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61598" bodyend="61599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1ae87013de00466bb2568c8104c1b4f0b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.plusY</definition>
+        <argsstring>()</argsstring>
+        <name>plusY</name>
+        <qualifiedname>mrmeshpy.Vector3i64.plusY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61601" bodyend="61602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1add55fbd113a75e1b590eeb699613b256" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.plusZ</definition>
+        <argsstring>()</argsstring>
+        <name>plusZ</name>
+        <qualifiedname>mrmeshpy.Vector3i64.plusZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61604" bodyend="61605"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a8d2704d6e1e3171e54d40fdd47b4c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__add__</definition>
+        <argsstring>(self, Vector3i64 b)</argsstring>
+        <name>__add__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__add__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61606" bodyend="61607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a9ba4a310e6c3ac94dd34a9c40790bb6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector3i64.__eq__</definition>
+        <argsstring>(self, Vector3i64 b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61608" bodyend="61609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a90ce8a40dbe74d3d7338a5cf8ff7af85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector3i64.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61611" bodyend="61612"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a90ce8a40dbe74d3d7338a5cf8ff7af85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector3i64.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61614" bodyend="61615"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a06a74ca53c8d89dcbf8c40354e81417e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__iadd__</definition>
+        <argsstring>(self, Vector3i64 b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61616" bodyend="61617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aeb1e2bcd29fd8f6d71bd80f2f5c9c6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__imatmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61618" bodyend="61619"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a228f2cd8a1cb3a3275fe51f542ffea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector3i64.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61621" bodyend="61622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aeee41e1922c63d947f466dba3cb3a352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector3i64.__init__</definition>
+        <argsstring>(self, int x, int y, int z)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61624" bodyend="61625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1af9083e5697a3f04d533124af002e6f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector3i64.__init__</definition>
+        <argsstring>(self, Vector3i64 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61627" bodyend="61630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1af8fcfecfe91bd892ed4adf4e6397ddee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__isub__</definition>
+        <argsstring>(self, Vector3i64 b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61631" bodyend="61632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aab232f2720dd552649f82fda00b80d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[int]</type>
+        <definition> typing.Iterator[int] mrmeshpy.Vector3i64.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61633" bodyend="61634"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a697763d7509e93527e07e9e316d8037e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__itruediv__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61635" bodyend="61636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1acf829fe92dd2f1029d9bfaf58d140b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__mul__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61637" bodyend="61638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aa74e9a0b63b5cc304b14994190fc7339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector3i64.__ne__</definition>
+        <argsstring>(self, Vector3i64 b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61639" bodyend="61640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a17308ab6953a8f8a7d9f8c9db0c473e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__neg__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__neg__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__neg__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61641" bodyend="61642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a41624d3d3732e690475d6c098d1a2f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__pos__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__pos__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__pos__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61643" bodyend="61646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a9824429051ee011ea91dc773d2160ee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Vector3i64.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61647" bodyend="61648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1aa5f14e4900a5d2cc1bde37b1d4cbef7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Vector3i64.__rlshift__</definition>
+        <argsstring>(self, typing.Any vec)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61649" bodyend="61650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a847b2f958eaacd0537474966aad159cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__rmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61651" bodyend="61652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a23dd691ab967bf78749627ffa36a0095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Vector3i64.__rrshift__</definition>
+        <argsstring>(self, typing.Any vec)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61653" bodyend="61654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a902fe6ce262d6c9c705f45979904de52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector3i64.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61655" bodyend="61656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a85643a2de3fee06ec7cf834b38d653f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__sub__</definition>
+        <argsstring>(self, Vector3i64 b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__sub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61657" bodyend="61658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a49ea11da6b628bdb386d7ff81d107c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.__truediv__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__truediv__</name>
+        <qualifiedname>mrmeshpy.Vector3i64.__truediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61659" bodyend="61660"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a9ea61ff901179fcd4318056f94e59a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i64" kindref="compound">Vector3i64</ref></type>
+        <definition> Vector3i64 mrmeshpy.Vector3i64.furthestBasisVector</definition>
+        <argsstring>(self)</argsstring>
+        <name>furthestBasisVector</name>
+        <qualifiedname>mrmeshpy.Vector3i64.furthestBasisVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns one of 3 basis unit vector that makes the biggest angle with the direction specified by this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61661" bodyend="61664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a2f8370c844dd30faa908b5d7345e08e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Vector3i64.length</definition>
+        <argsstring>(self)</argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.Vector3i64.length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61665" bodyend="61666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3i64_1a9b2627416186426e93d4b83444c6431d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector3i64.lengthSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>mrmeshpy.Vector3i64.lengthSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61667" bodyend="61668"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector3i64
+Aliases:  Matrix3_long_VectorType
+
+three-dimensional vector
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector3i64</label>
+        <link refid="classmrmeshpy_1_1Vector3i64"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_x</edgelabel>
+          <edgelabel>_offsetof_y</edgelabel>
+          <edgelabel>_offsetof_z</edgelabel>
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61555" bodyend="61668"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a8d2704d6e1e3171e54d40fdd47b4c537" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a9ba4a310e6c3ac94dd34a9c40790bb6c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a90ce8a40dbe74d3d7338a5cf8ff7af85" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a90ce8a40dbe74d3d7338a5cf8ff7af85" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a06a74ca53c8d89dcbf8c40354e81417e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aeb1e2bcd29fd8f6d71bd80f2f5c9c6e9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a69139f95eccf37d07195236e2fc0aef3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a69139f95eccf37d07195236e2fc0aef3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a228f2cd8a1cb3a3275fe51f542ffea9b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aeee41e1922c63d947f466dba3cb3a352" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1af9083e5697a3f04d533124af002e6f87" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1af8fcfecfe91bd892ed4adf4e6397ddee" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aab232f2720dd552649f82fda00b80d91" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a697763d7509e93527e07e9e316d8037e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1acf829fe92dd2f1029d9bfaf58d140b4b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aa74e9a0b63b5cc304b14994190fc7339" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a17308ab6953a8f8a7d9f8c9db0c473e6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__neg__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a41624d3d3732e690475d6c098d1a2f8e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__pos__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a9824429051ee011ea91dc773d2160ee6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aa5f14e4900a5d2cc1bde37b1d4cbef7f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a847b2f958eaacd0537474966aad159cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a23dd691ab967bf78749627ffa36a0095" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a902fe6ce262d6c9c705f45979904de52" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a85643a2de3fee06ec7cf834b38d653f2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a49ea11da6b628bdb386d7ff81d107c1b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>__truediv__</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a84a1c02d4decf7fb8a576a6b49674038" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>_offsetof_x</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a1042fdf013976b54541109b8b0a97584" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>_offsetof_y</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aeeb74f99e4c6dcddc826b819adf210fc" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>_offsetof_z</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a5306f8f0eef9b038dce8c57538bbc1c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>diagonal</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a6a825c1faf9705bdfc6f0e9029caf2ba" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a9ea61ff901179fcd4318056f94e59a2f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>furthestBasisVector</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a2f8370c844dd30faa908b5d7345e08e6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a9b2627416186426e93d4b83444c6431d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>lengthSq</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1ace3b4d9d988d4ae753297a2005a18758" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>minusX</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a967d1f9044bfc0990d2217f7f04da89f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>minusY</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1a648bf58853061abb98588c22c8715d26" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>minusZ</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aae9d027fb09928083578e1c51b557909" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1aae9d027fb09928083578e1c51b557909" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1ac815c1c43664d3186f149b5130fd742a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>plusX</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1ae87013de00466bb2568c8104c1b4f0b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>plusY</name></member>
+      <member refid="classmrmeshpy_1_1Vector3i64_1add55fbd113a75e1b590eeb699613b256" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3i64</scope><name>plusZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

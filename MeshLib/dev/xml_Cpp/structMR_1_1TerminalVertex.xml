@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TerminalVertex" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TerminalVertex</compoundname>
+    <includes refid="MREdgePaths_8h" local="no">MREdgePaths.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TerminalVertex_1ae7c419aebb40aa7937984ceba3489254" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::TerminalVertex::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR::TerminalVertex::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="49" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TerminalVertex_1ab851f9e73d6568c7bda22cae8c669238" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::TerminalVertex::metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>MR::TerminalVertex::metric</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a vertex with associated penalty metric to designate a possible start or end of edge path </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" bodystart="48" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TerminalVertex_1ab851f9e73d6568c7bda22cae8c669238" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>metric</name></member>
+      <member refid="structMR_1_1TerminalVertex_1ae7c419aebb40aa7937984ceba3489254" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

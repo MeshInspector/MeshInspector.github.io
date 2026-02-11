@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshShader_8h" kind="file" language="C++">
+    <compoundname>MRMeshShader.h</compoundname>
+    <includes local="yes">exports.h</includes>
+    <includes refid="MRShaderBlocks_8h" local="yes">MRShaderBlocks.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMeshShader.h</label>
+        <link refid="MRMeshShader_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRShaderBlocks.h</label>
+        <link refid="MRShaderBlocks_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>exports.h</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRShaderBlocks_8h" kindref="compound">MRShaderBlocks.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespaceMR_1a1ef70778faa5587efd51d899e5e425e1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1a1ef70778faa5587efd51d899e5e425e1" kindref="member">getMeshVerticesShader</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespaceMR_1a2b81893b02fa429ab4e07214a0f2f056" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1a2b81893b02fa429ab4e07214a0f2f056" kindref="member">getMeshFragmentShader</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>gl4,<sp/><ref refid="namespaceMR_1a26e449af7b615d9ec3575a5298ac7083" kindref="member">ShaderTransparencyMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>msaaEnabled<sp/>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespaceMR_1adf0c9f368d580d753d6be5949cb9aeb5" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1adf0c9f368d580d753d6be5949cb9aeb5" kindref="member">getMeshFragmentShaderArgumetsBlock</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceMR_1a983223b5a1d14a48822c74d9b77cbd96" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1a983223b5a1d14a48822c74d9b77cbd96" kindref="member">getMeshFragmentShaderColoringBlock</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshShader.h"/>
+  </compounddef>
+</doxygen>

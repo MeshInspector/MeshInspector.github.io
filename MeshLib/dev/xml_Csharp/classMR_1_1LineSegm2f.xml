@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1LineSegm2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::LineSegm2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_LineSegm2f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1LineSegm2f_1ae58593cdb3c6e380bdf27c13f2263ddd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>new unsafe ref MR.Vector2f MR.LineSegm2f.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.LineSegm2f.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="157" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LineSegm2f_1a398ec29be0427c49032eeede518ed1d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>new unsafe ref MR.Vector2f MR.LineSegm2f.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.LineSegm2f.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="159" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1LineSegm2f_1acc90f1e1aa337ff993e66033390aa659" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineSegm2f.LineSegm2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>LineSegm2f</name>
+        <qualifiedname>MR.LineSegm2f.LineSegm2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="163" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="163" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1LineSegm2f_1ab73e31a1b8abffb5c3041a7479e7b8a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineSegm2f.LineSegm2f</definition>
+        <argsstring>()</argsstring>
+        <name>LineSegm2f</name>
+        <qualifiedname>MR.LineSegm2f.LineSegm2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="173" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="173" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineSegm2f_1a371f540a91aca4763910e6af117f5453" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineSegm2f.LineSegm2f</definition>
+        <argsstring>(MR.Const_LineSegm2f _other)</argsstring>
+        <name>LineSegm2f</name>
+        <qualifiedname>MR.LineSegm2f.LineSegm2f</qualifiedname>
+        <param>
+          <type>MR.Const_LineSegm2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.LineSegm2f.LineSegm2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="184" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="184" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineSegm2f_1acb8711a88735a6fa4f36778c0c3c3119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.LineSegm2f.LineSegm2f</definition>
+        <argsstring>(LineSegm2f _other)</argsstring>
+        <name>LineSegm2f</name>
+        <qualifiedname>MR.LineSegm2f.LineSegm2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineSegm2f" kindref="compound">LineSegm2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.LineSegm2f.LineSegm2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="196" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineSegm2f_1a8c2d89e67ef7763dad7efd9cdc630706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineSegm2f.LineSegm2f</definition>
+        <argsstring>(in MR.Vector2f a, in MR.Vector2f b)</argsstring>
+        <name>LineSegm2f</name>
+        <qualifiedname>MR.LineSegm2f.LineSegm2f</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.LineSegm2f.LineSegm2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="201" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineSegm2f_1a6958c0a19d7ccbf5be7deb40eb4e40a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LineSegm2f" kindref="compound">MR.LineSegm2f</ref></type>
+        <definition>unsafe MR.LineSegm2f MR.LineSegm2f.assign</definition>
+        <argsstring>(MR.Const_LineSegm2f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.LineSegm2f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_LineSegm2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.LineSegm2f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="218" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="218" bodyend="225"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1LineSegm2f" kindref="compound">MR.LineSegm2f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_LineSegm2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.LineSegm2f</label>
+        <link refid="classMR_1_1LineSegm2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_LineSegm2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_LineSegm2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.LineSegm2f</label>
+        <link refid="classMR_1_1LineSegm2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_LineSegm2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="155" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="156" bodyend="226"/>
+    <listofallmembers>
+      <member refid="classMR_1_1LineSegm2f_1ae58593cdb3c6e380bdf27c13f2263ddd" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>a</name></member>
+      <member refid="classMR_1_1LineSegm2f_1a6958c0a19d7ccbf5be7deb40eb4e40a9" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1LineSegm2f_1a398ec29be0427c49032eeede518ed1d6" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>b</name></member>
+      <member refid="classMR_1_1LineSegm2f_1acc90f1e1aa337ff993e66033390aa659" prot="package" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>LineSegm2f</name></member>
+      <member refid="classMR_1_1LineSegm2f_1ab73e31a1b8abffb5c3041a7479e7b8a7" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>LineSegm2f</name></member>
+      <member refid="classMR_1_1LineSegm2f_1a371f540a91aca4763910e6af117f5453" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>LineSegm2f</name></member>
+      <member refid="classMR_1_1LineSegm2f_1acb8711a88735a6fa4f36778c0c3c3119" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>LineSegm2f</name></member>
+      <member refid="classMR_1_1LineSegm2f_1a8c2d89e67ef7763dad7efd9cdc630706" prot="public" virt="non-virtual"><scope>MR::LineSegm2f</scope><name>LineSegm2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

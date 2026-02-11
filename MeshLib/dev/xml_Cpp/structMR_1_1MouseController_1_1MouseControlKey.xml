@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MouseController_1_1MouseControlKey" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MouseController::MouseControlKey</compoundname>
+    <includes refid="MRMouseController_8h" local="no">MRMouseController.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MouseController_1_1MouseControlKey_1a13a368ef25048dff50e694ce949484e6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
+        <definition>MouseButton MR::MouseController::MouseControlKey::btn</definition>
+        <argsstring></argsstring>
+        <name>btn</name>
+        <qualifiedname>MR::MouseController::MouseControlKey::btn</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff" kindref="member">MouseButton::Left</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="26" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MouseController_1_1MouseControlKey_1a647bc43b34bf75a34af675e69cd0f10b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MouseController::MouseControlKey::mod</definition>
+        <argsstring></argsstring>
+        <name>mod</name>
+        <qualifiedname>MR::MouseController::MouseControlKey::mod</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="27" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="25" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MouseController_1_1MouseControlKey_1a13a368ef25048dff50e694ce949484e6" prot="public" virt="non-virtual"><scope>MR::MouseController::MouseControlKey</scope><name>btn</name></member>
+      <member refid="structMR_1_1MouseController_1_1MouseControlKey_1a647bc43b34bf75a34af675e69cd0f10b" prot="public" virt="non-virtual"><scope>MR::MouseController::MouseControlKey</scope><name>mod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

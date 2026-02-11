@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MutexOwner" kind="class" language="C#" prot="public">
+    <compoundname>MR::MutexOwner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MutexOwner</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MutexOwner_1a48a2368c14cea8423548a7097fda029f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MutexOwner.MutexOwner</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MutexOwner</name>
+        <qualifiedname>MR.MutexOwner.MutexOwner</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MutexOwner_1ab4918ad50d5e1843964f694113e36674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MutexOwner.MutexOwner</definition>
+        <argsstring>()</argsstring>
+        <name>MutexOwner</name>
+        <qualifiedname>MR.MutexOwner.MutexOwner</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MutexOwner_1af5eccc51e0b2aca9f25558c1a80d38ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MutexOwner.MutexOwner</definition>
+        <argsstring>(MR._ByValue_MutexOwner _other)</argsstring>
+        <name>MutexOwner</name>
+        <qualifiedname>MR.MutexOwner.MutexOwner</qualifiedname>
+        <param>
+          <type>MR._ByValue_MutexOwner</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MutexOwner.MutexOwner</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MutexOwner_1aa1243b2c626e753db83688ec315e4f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MutexOwner.MutexOwner</definition>
+        <argsstring>(Const_MutexOwner _other)</argsstring>
+        <name>MutexOwner</name>
+        <qualifiedname>MR.MutexOwner.MutexOwner</qualifiedname>
+        <param>
+          <type>Const_MutexOwner</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MutexOwner.MutexOwner</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MutexOwner_1a9623b1f70fa3185a92cbc721a42e00d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MutexOwner.MutexOwner</definition>
+        <argsstring>(MutexOwner _other)</argsstring>
+        <name>MutexOwner</name>
+        <qualifiedname>MR.MutexOwner.MutexOwner</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MutexOwner" kindref="compound">MutexOwner</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MutexOwner.MutexOwner</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="100" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MutexOwner_1a460acb4ea2ca5fb31b469aa1e64c76e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MutexOwner" kindref="compound">MR.MutexOwner</ref></type>
+        <definition>unsafe MR.MutexOwner MR.MutexOwner.assign</definition>
+        <argsstring>(MR._ByValue_MutexOwner _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MutexOwner.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MutexOwner</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MutexOwner.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="105" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="105" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class exists to provide copy and move constructors and assignment operations for std.mutex which actually does nothing Generated from class <computeroutput><ref refid="classMR_1_1MutexOwner" kindref="compound">MR.MutexOwner</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MutexOwner</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MutexOwner</label>
+        <link refid="classMR_1_1MutexOwner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MutexOwner &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MutexOwner</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MutexOwner</label>
+        <link refid="classMR_1_1MutexOwner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MutexOwner &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="68" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MutexOwner_1a460acb4ea2ca5fb31b469aa1e64c76e7" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>assign</name></member>
+      <member refid="classMR_1_1MutexOwner_1a48a2368c14cea8423548a7097fda029f" prot="package" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="classMR_1_1MutexOwner_1ab4918ad50d5e1843964f694113e36674" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="classMR_1_1MutexOwner_1af5eccc51e0b2aca9f25558c1a80d38ac" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="classMR_1_1MutexOwner_1aa1243b2c626e753db83688ec315e4f08" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="classMR_1_1MutexOwner_1a9623b1f70fa3185a92cbc721a42e00d9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

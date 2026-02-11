@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRObjectSave_8h" kind="file" language="C++">
+    <compoundname>MRObjectSave.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRObjectSave.h</label>
+        <link refid="MRObjectSave_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRObjectSave_8h_1accce9c9179cadabc541edda0fc7a2571" prot="public" static="no">
+        <type>struct <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></type>
+        <definition>typedef struct MR_Object MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="10" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" prot="public" static="no">
+        <type>struct <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></type>
+        <definition>typedef struct MR_ObjectSave_Settings MR_ObjectSave_Settings</definition>
+        <argsstring></argsstring>
+        <name>MR_ObjectSave_Settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="11" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectSave_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
+        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_void_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="12" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRObjectSave_8h_1a30107ef4120845cdac99e9368f431014" prot="public" static="no">
+        <type>struct <ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref></type>
+        <definition>typedef struct MR_std_function_void_from_const_std_filesystem_path_ref MR_std_function_void_from_const_std_filesystem_path_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_const_std_filesystem_path_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="13" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRObjectSave_8h_1a53c86ed440ceab64586b5f4dd52087a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_ObjectSave_toAnySupportedSceneFormat</definition>
+        <argsstring>(const MR_Object *object, const char *file, const char *file_end, const MR_ObjectSave_Settings *settings)</argsstring>
+        <name>MR_ObjectSave_toAnySupportedSceneFormat</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save an object tree to a given file file format must be scene-capable Generated from function <computeroutput>MR::ObjectSave::toAnySupportedSceneFormat</computeroutput>. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="24" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" declline="24" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSave_8h_1a4ddf6c8024b9db9485d7e2fca6b6c82f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_ObjectSave_toAnySupportedFormat</definition>
+        <argsstring>(const MR_Object *object, const char *file, const char *file_end, const MR_ObjectSave_Settings *settings)</argsstring>
+        <name>MR_ObjectSave_toAnySupportedFormat</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save a scene object to a given file if the file format is scene-capable, saves all the object&apos;s entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <computeroutput>MR::ObjectSave::toAnySupportedFormat</computeroutput>. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="35" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" declline="35" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSave_8h_1a37393ef5dd3482f9eb473ee360197f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_serializeObjectTree_4</definition>
+        <argsstring>(const MR_Object *object, const char *path, const char *path_end, MR_PassBy preCompress_pass_by, MR_std_function_void_from_const_std_filesystem_path_ref *preCompress, const MR_ObjectSave_Settings *settings)</argsstring>
+        <name>MR_serializeObjectTree_4</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>preCompress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref> *</type>
+          <declname>preCompress</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>saves object subtree in given scene file (zip/mru) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</para>
+<para>if preCompress is set, it is called before compression saving is controlled with Object::serializeModel_ and Object::serializeFields_ Generated from function <computeroutput>MR::serializeObjectTree</computeroutput>. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="52" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" declline="52" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSave_8h_1ad62735ddb3494d4da9ee754fa62140c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_serializeObjectTree_3</definition>
+        <argsstring>(const MR_Object *object, const char *path, const char *path_end, const MR_ObjectSave_Settings *settings)</argsstring>
+        <name>MR_serializeObjectTree_3</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::serializeObjectTree</computeroutput>. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="60" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" declline="60" declcolumn="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="MRObjectSave_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectSaveSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRObjectSave_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRObjectSave_8h_1a30107ef4120845cdac99e9368f431014" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRObjectSave_8h_1a53c86ed440ceab64586b5f4dd52087a1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRObjectSave_8h_1a53c86ed440ceab64586b5f4dd52087a1" kindref="member">MR_ObjectSave_toAnySupportedSceneFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRObjectSave_8h_1a4ddf6c8024b9db9485d7e2fca6b6c82f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRObjectSave_8h_1a4ddf6c8024b9db9485d7e2fca6b6c82f" kindref="member">MR_ObjectSave_toAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRObjectSave_8h_1a37393ef5dd3482f9eb473ee360197f81" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRObjectSave_8h_1a37393ef5dd3482f9eb473ee360197f81" kindref="member">MR_serializeObjectTree_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/>MR_PassBy<sp/>preCompress_pass_by,<sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/>*preCompress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRObjectSave_8h_1ad62735ddb3494d4da9ee754fa62140c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRObjectSave_8h_1ad62735ddb3494d4da9ee754fa62140c6" kindref="member">MR_serializeObjectTree_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h"/>
+  </compounddef>
+</doxygen>

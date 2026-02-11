@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeTextureAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeTextureAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeTextureAction_1a5fccf0df2793b8067aa7597f82c92599" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeTextureAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9040" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a9f8d310dcf0ba7f160cd968337052b07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeTextureAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9043" bodyend="9044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1ababfd6d875e1226f9fa2562202caf3b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeTextureAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9046" bodyend="9047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a7ba490b6ef4b70d19023741f18561e3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeTextureAction" kindref="compound">ChangeTextureAction</ref></type>
+        <definition> ChangeTextureAction mrmeshpy.ChangeTextureAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9050" bodyend="9051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a7ba490b6ef4b70d19023741f18561e3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeTextureAction" kindref="compound">ChangeTextureAction</ref></type>
+        <definition> ChangeTextureAction mrmeshpy.ChangeTextureAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9054" bodyend="9055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1ac997a322e2abea095bf6d64c2c4a754b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeTextureAction.setObjectDirty</definition>
+        <argsstring>(ObjectMeshHolder obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9057" bodyend="9058"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a6ff2b3d2f5d88303668a38144a3b15a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeTextureAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMeshHolder obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s textures before making any changes in them
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9060" bodyend="9063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a962fc3716a64c66fb4e76fa68efebc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeTextureAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMeshHolder obj, Vector_MeshTexture_TextureId newTextures)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId" kindref="compound">Vector_MeshTexture_TextureId</ref></type>
+          <declname>newTextures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s textures and immediate set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9065" bodyend="9068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a475de2b38bbfffa9a42e79d23c6161ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeTextureAction.__init__</definition>
+        <argsstring>(self, ChangeTextureAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeTextureAction" kindref="compound">ChangeTextureAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9070" bodyend="9073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1ab6d6cedf675ff7795b9b11cbe66d335f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeTextureAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9074" bodyend="9075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeTextureAction_1a554cfb702b444f69bba8378b39010847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeTextureAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeTextureAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9076" bodyend="9077"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeTextureAction
+
+History action for texture change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeTextureAction</label>
+        <link refid="classmrmeshpy_1_1ChangeTextureAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeTextureAction</label>
+        <link refid="classmrmeshpy_1_1ChangeTextureAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9034" bodyend="9077"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a9f8d310dcf0ba7f160cd968337052b07" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a6ff2b3d2f5d88303668a38144a3b15a4" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a962fc3716a64c66fb4e76fa68efebc16" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a475de2b38bbfffa9a42e79d23c6161ac" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1ababfd6d875e1226f9fa2562202caf3b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1ab6d6cedf675ff7795b9b11cbe66d335f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a554cfb702b444f69bba8378b39010847" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a5fccf0df2793b8067aa7597f82c92599" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a7ba490b6ef4b70d19023741f18561e3e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1a7ba490b6ef4b70d19023741f18561e3e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeTextureAction_1ac997a322e2abea095bf6d64c2c4a754b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeTextureAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

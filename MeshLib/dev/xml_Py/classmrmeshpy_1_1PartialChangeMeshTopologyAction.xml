@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PartialChangeMeshTopologyAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PartialChangeMeshTopologyAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartialChangeMeshTopologyAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor after the object already contains new topology,
+and old topology is passed to remember the difference for future undoing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42440" bodyend="42444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartialChangeMeshTopologyAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to set new object&apos;s topology and remember its difference from existed topology for future undoing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42447" bodyend="42450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartialChangeMeshTopologyAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42453" bodyend="42454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a03611df60e306bfee439e1a599ad5b74" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartialChangeMeshTopologyAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42456" bodyend="42457"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" kindref="compound">PartialChangeMeshTopologyAction</ref></type>
+        <definition> PartialChangeMeshTopologyAction mrmeshpy.PartialChangeMeshTopologyAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42460" bodyend="42461"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" kindref="compound">PartialChangeMeshTopologyAction</ref></type>
+        <definition> PartialChangeMeshTopologyAction mrmeshpy.PartialChangeMeshTopologyAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42464" bodyend="42465"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1ab14274d99aa54ec5157e59deb981209f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartialChangeMeshTopologyAction.__init__</definition>
+        <argsstring>(self, PartialChangeMeshTopologyAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" kindref="compound">PartialChangeMeshTopologyAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42467" bodyend="42470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a5ca8f2dc6b797886452a9cf2aa18efd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PartialChangeMeshTopologyAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42471" bodyend="42472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a3e846d4d4cd0540d260d8c5577dee9ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PartialChangeMeshTopologyAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42473" bodyend="42474"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PartialChangeMeshTopologyAction
+
+Undo action for efficiently storage of partial change in mesh topology (e.g. a modification of small region)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PartialChangeMeshTopologyAction</label>
+        <link refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PartialChangeMeshTopologyAction</label>
+        <link refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42432" bodyend="42474"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1ab14274d99aa54ec5157e59deb981209f" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a03611df60e306bfee439e1a599ad5b74" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a5ca8f2dc6b797886452a9cf2aa18efd7" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a3e846d4d4cd0540d260d8c5577dee9ab" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

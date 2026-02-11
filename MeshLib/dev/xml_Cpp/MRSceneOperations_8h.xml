@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSceneOperations_8h" kind="file" language="C++">
+    <compoundname>MRSceneOperations.h</compoundname>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRSceneOperations.h</label>
+        <link refid="MRSceneOperations_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1FlatTree" prot="public">MR::FlatTree</innerclass>
+    <innerclass refid="structMR_1_1TypedFlatTree" prot="public">MR::TypedFlatTree</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1FlatTree" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FlatTree" kindref="compound">FlatTree</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1FlatTree_1a91ce578b57c3afcd001373ff561404a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="structMR_1_1FlatTree_1a91ce578b57c3afcd001373ff561404a9" kindref="member">root</ref>;</highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1FlatTree_1ac658a0431f66b43b4735d82b4ce30504" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;<sp/><ref refid="structMR_1_1FlatTree_1ac658a0431f66b43b4735d82b4ce30504" kindref="member">subobjects</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1TypedFlatTree" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TypedFlatTree" kindref="compound">TypedFlatTree</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1TypedFlatTree_1aa04d404e0e698980823e763537ad5250" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="structMR_1_1TypedFlatTree_1aa04d404e0e698980823e763537ad5250" kindref="member">root</ref>;</highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1TypedFlatTree_1a3d41bfc0c348f8d528cde43bb62dbcde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt;<sp/><ref refid="structMR_1_1TypedFlatTree_1a3d41bfc0c348f8d528cde43bb62dbcde" kindref="member">objsMesh</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1TypedFlatTree_1a89b95d5039c668eeeb449947b20cbaec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;ObjectLines&gt;&gt;<sp/><ref refid="structMR_1_1TypedFlatTree_1a89b95d5039c668eeeb449947b20cbaec" kindref="member">objsLines</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1TypedFlatTree_1a72ce9a6cb00c38cf9a3993cc95fafcb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;ObjectPoints&gt;&gt;<sp/><ref refid="structMR_1_1TypedFlatTree_1a72ce9a6cb00c38cf9a3993cc95fafcb7" kindref="member">objsPoints</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structMR_1_1TypedFlatTree_1a72a800cc7ca525f730e4a076654b3ee5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TypedFlatTree" kindref="compound">TypedFlatTree</ref><sp/><ref refid="structMR_1_1TypedFlatTree_1a72a800cc7ca525f730e4a076654b3ee5" kindref="member">fromFlatTree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FlatTree" kindref="compound">FlatTree</ref>&amp;<sp/>tree<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="namespaceMR_1a47ea6745bd58e6920f07df18cea29367" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;FlatTree&gt;<sp/><ref refid="namespaceMR_1a47ea6745bd58e6920f07df18cea29367" kindref="member">getFlatSubtrees</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>objs<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="namespaceMR_1a850708cbef07e47bb30e4f35224bdd1e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a850708cbef07e47bb30e4f35224bdd1e" kindref="member">mergeSubtree</ref>(<sp/><ref refid="structMR_1_1TypedFlatTree" kindref="compound">TypedFlatTree</ref><sp/>subtree<sp/>);</highlight></codeline>
+<codeline lineno="36" refid="namespaceMR_1a7d3e4c11dba2ebd6027cd0ba604232d7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a850708cbef07e47bb30e4f35224bdd1e" kindref="member">mergeSubtree</ref>(<sp/>std::shared_ptr&lt;Object&gt;<sp/>rootObj<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneOperations.h"/>
+  </compounddef>
+</doxygen>

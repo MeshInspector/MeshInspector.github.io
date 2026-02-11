@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SpacingSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SpacingSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SpacingSettings_1a7b738ef4de57044a59011e89b8be4bf5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SpacingSettings::_offsetof_dist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dist</name>
+        <qualifiedname>mrmeshpy.SpacingSettings._offsetof_dist</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SpacingSettings_1adffc46034f0c809df82e72a5bf9417d1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SpacingSettings::_offsetof_isInverted</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isInverted</name>
+        <qualifiedname>mrmeshpy.SpacingSettings._offsetof_isInverted</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SpacingSettings_1a41ec772ccbcb3e9f90c271bead5e0ab5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SpacingSettings::_offsetof_maxSumNegW</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxSumNegW</name>
+        <qualifiedname>mrmeshpy.SpacingSettings._offsetof_maxSumNegW</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SpacingSettings_1a6f514e1114c4f987f27d7029963d9a13" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SpacingSettings::_offsetof_numIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_numIters</name>
+        <qualifiedname>mrmeshpy.SpacingSettings._offsetof_numIters</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SpacingSettings_1accf7beb54659c0d4f40b8b7742e55f40" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SpacingSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.SpacingSettings._offsetof_region</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SpacingSettings_1a50ef10b7dbc84815399b6d05aba4a137" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SpacingSettings::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.SpacingSettings._offsetof_stabilizer</qualifiedname>
+        <initializer>=  44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52751" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a6d6aaba521910b27403d851f5dd95804" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52754" bodyend="52755"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a9d83ae4599f393b90e2365a347fe1e69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SpacingSettings" kindref="compound">SpacingSettings</ref></type>
+        <definition> SpacingSettings mrmeshpy.SpacingSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52758" bodyend="52759"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a9d83ae4599f393b90e2365a347fe1e69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SpacingSettings" kindref="compound">SpacingSettings</ref></type>
+        <definition> SpacingSettings mrmeshpy.SpacingSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52762" bodyend="52763"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1aee91994ed5bd26df4b2b3c027e0f6367" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52765" bodyend="52766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a5b8f3278c5dc3b5fe9d56db87c702bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.__init__</definition>
+        <argsstring>(self, SpacingSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SpacingSettings" kindref="compound">SpacingSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52768" bodyend="52771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a1331a6fbb1b0171b7728a9bbc374346d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.__init__</definition>
+        <argsstring>(self, VertBitSet region, func_float_from_Id_UndirectedEdgeTag dist, int numIters, float stabilizer, float maxSumNegW, func_bool_from_Id_FaceTag isInverted)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSumNegW</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__FaceTag" kindref="compound">func_bool_from_Id_FaceTag</ref></type>
+          <declname>isInverted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52773" bodyend="52776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a7f91996b915db47791855472b0b56e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+        <definition> func_float_from_Id_UndirectedEdgeTag mrmeshpy.SpacingSettings.dist</definition>
+        <argsstring>(self)</argsstring>
+        <name>dist</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.dist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>must be defined by the caller
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52778" bodyend="52781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a1ec6eb60499330cc0438a38b42bb6bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.dist</definition>
+        <argsstring>(self, func_float_from_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>dist</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.dist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52783" bodyend="52784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1ae48d07d36cc14b660574ae93b083dd8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__FaceTag" kindref="compound">func_bool_from_Id_FaceTag</ref></type>
+        <definition> func_bool_from_Id_FaceTag mrmeshpy.SpacingSettings.isInverted</definition>
+        <argsstring>(self)</argsstring>
+        <name>isInverted</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.isInverted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52786" bodyend="52789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1ab2ca7af5b9bb132d82d1edbf0c0bdb66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.isInverted</definition>
+        <argsstring>(self, func_bool_from_Id_FaceTag arg1)</argsstring>
+        <name>isInverted</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.isInverted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__FaceTag" kindref="compound">func_bool_from_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52791" bodyend="52792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a8707a82ce3a060419427e4f7c9b8d5b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SpacingSettings.maxSumNegW</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxSumNegW</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.maxSumNegW</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52794" bodyend="52797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1ac71c1719158dae48fe912320375a9912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.maxSumNegW</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxSumNegW</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.maxSumNegW</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52799" bodyend="52800"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a01e8b385d40babc54a739d168d5254d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SpacingSettings.numIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>numIters</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.numIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the algorithm is iterative, the more iterations the closer result to exact solution
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52802" bodyend="52805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1aa1e4cca25dde113c2c71c3f2748f8f9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.numIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>numIters</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.numIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52807" bodyend="52808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a5c7f79dd659f5aca60962d7cd6d86847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.SpacingSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vertices to be moved by the algorithm, nullptr means all valid vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52810" bodyend="52813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a26b2f75bf716a233767585bd638fef05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52815" bodyend="52816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a86a1469b3a2899d786f3264978596da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SpacingSettings.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>too small number here can lead to instability, too large - to slow convergence
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52818" bodyend="52821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SpacingSettings_1a82a83cdb489254e0f9edab47541242e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SpacingSettings.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.SpacingSettings.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52823" bodyend="52824"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SpacingSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SpacingSettings</label>
+        <link refid="classmrmeshpy_1_1SpacingSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dist</edgelabel>
+          <edgelabel>_offsetof_isInverted</edgelabel>
+          <edgelabel>_offsetof_maxSumNegW</edgelabel>
+          <edgelabel>_offsetof_numIters</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_stabilizer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52742" bodyend="52824"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a6d6aaba521910b27403d851f5dd95804" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1aee91994ed5bd26df4b2b3c027e0f6367" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a5b8f3278c5dc3b5fe9d56db87c702bf7" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a1331a6fbb1b0171b7728a9bbc374346d" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a7b738ef4de57044a59011e89b8be4bf5" prot="protected" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>_offsetof_dist</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1adffc46034f0c809df82e72a5bf9417d1" prot="protected" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>_offsetof_isInverted</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a41ec772ccbcb3e9f90c271bead5e0ab5" prot="protected" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>_offsetof_maxSumNegW</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a6f514e1114c4f987f27d7029963d9a13" prot="protected" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>_offsetof_numIters</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1accf7beb54659c0d4f40b8b7742e55f40" prot="protected" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a50ef10b7dbc84815399b6d05aba4a137" prot="protected" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a7f91996b915db47791855472b0b56e1d" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>dist</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a1ec6eb60499330cc0438a38b42bb6bb5" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>dist</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1ae48d07d36cc14b660574ae93b083dd8b" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>isInverted</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1ab2ca7af5b9bb132d82d1edbf0c0bdb66" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>isInverted</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a8707a82ce3a060419427e4f7c9b8d5b0" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>maxSumNegW</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1ac71c1719158dae48fe912320375a9912" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>maxSumNegW</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a01e8b385d40babc54a739d168d5254d1" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>numIters</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1aa1e4cca25dde113c2c71c3f2748f8f9a" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>numIters</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a9d83ae4599f393b90e2365a347fe1e69" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a9d83ae4599f393b90e2365a347fe1e69" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a5c7f79dd659f5aca60962d7cd6d86847" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a26b2f75bf716a233767585bd638fef05" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a86a1469b3a2899d786f3264978596da1" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SpacingSettings_1a82a83cdb489254e0f9edab47541242e7" prot="public" virt="non-virtual"><scope>mrmeshpy::SpacingSettings</scope><name>stabilizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

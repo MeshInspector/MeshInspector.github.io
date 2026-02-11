@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1InplaceStack" kind="class" language="C++" prot="public">
+    <compoundname>MR::InplaceStack</compoundname>
+    <includes refid="MRInplaceStack_8h" local="no">MRInplaceStack.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>size_t</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1InplaceStack_1ae7400984daccb437f80b0f5c38806e5d" prot="private" static="no" mutable="no">
+        <type>std::array&lt; T, N &gt;</type>
+        <definition>std::array&lt;T, N&gt; MR::InplaceStack&lt; T, N &gt;::data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>MR::InplaceStack::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="40" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1InplaceStack_1a22f6b55445bd5c689d8947a208ded96e" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::InplaceStack&lt; T, N &gt;::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>MR::InplaceStack::size_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="41" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1a0f1c75becabe0c8c1e7981d85d1bbe28" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::InplaceStack&lt; T, N &gt;::top</definition>
+        <argsstring>() const</argsstring>
+        <name>top</name>
+        <qualifiedname>MR::InplaceStack::top</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="28" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1af90beb98d99a0824a266b9bd5bba41ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::InplaceStack&lt; T, N &gt;::top</definition>
+        <argsstring>()</argsstring>
+        <name>top</name>
+        <qualifiedname>MR::InplaceStack::top</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="29" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1a565d86f940cdc8e28db187b8937ab40e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::InplaceStack&lt; T, N &gt;::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR::InplaceStack::empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="31" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1a88e08eabbfc027f2e4527ff3ea6a88a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::InplaceStack&lt; T, N &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::InplaceStack::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1abdf7e30f2ab2819a7e7012756916d5c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::InplaceStack&lt; T, N &gt;::push</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>push</name>
+        <qualifiedname>MR::InplaceStack::push</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1ada89237259152f2ae9151f5690c5d342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::InplaceStack&lt; T, N &gt;::push</definition>
+        <argsstring>(T &amp;&amp;value)</argsstring>
+        <name>push</name>
+        <qualifiedname>MR::InplaceStack::push</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InplaceStack_1a50b987ad408da75fc9d329c71927e5f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::InplaceStack&lt; T, N &gt;::pop</definition>
+        <argsstring>()</argsstring>
+        <name>pop</name>
+        <qualifiedname>MR::InplaceStack::pop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Container class implementing in-place static sized stack. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInplaceStack.h" bodystart="26" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classMR_1_1InplaceStack_1ae7400984daccb437f80b0f5c38806e5d" prot="private" virt="non-virtual"><scope>MR::InplaceStack</scope><name>data_</name></member>
+      <member refid="classMR_1_1InplaceStack_1a565d86f940cdc8e28db187b8937ab40e" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>empty</name></member>
+      <member refid="classMR_1_1InplaceStack_1a50b987ad408da75fc9d329c71927e5f2" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>pop</name></member>
+      <member refid="classMR_1_1InplaceStack_1abdf7e30f2ab2819a7e7012756916d5c8" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>push</name></member>
+      <member refid="classMR_1_1InplaceStack_1ada89237259152f2ae9151f5690c5d342" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>push</name></member>
+      <member refid="classMR_1_1InplaceStack_1a88e08eabbfc027f2e4527ff3ea6a88a4" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>size</name></member>
+      <member refid="classMR_1_1InplaceStack_1a22f6b55445bd5c689d8947a208ded96e" prot="private" virt="non-virtual"><scope>MR::InplaceStack</scope><name>size_</name></member>
+      <member refid="classMR_1_1InplaceStack_1a0f1c75becabe0c8c1e7981d85d1bbe28" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>top</name></member>
+      <member refid="classMR_1_1InplaceStack_1af90beb98d99a0824a266b9bd5bba41ab" prot="public" virt="non-virtual"><scope>MR::InplaceStack</scope><name>top</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

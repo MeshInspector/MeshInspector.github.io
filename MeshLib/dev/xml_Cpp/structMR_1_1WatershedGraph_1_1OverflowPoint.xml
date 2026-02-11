@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WatershedGraph_1_1OverflowPoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WatershedGraph::OverflowPoint</compoundname>
+    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1OverflowPoint_1ab33c7f11e2452d1c74c79f635d4f04f5" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::WatershedGraph::OverflowPoint::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR::WatershedGraph::OverflowPoint::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="141" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1OverflowPoint_1a9b58bb17eb503942a4dcd7150690cfe2" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
+        <definition>Graph::VertId MR::WatershedGraph::OverflowPoint::fullBasin</definition>
+        <argsstring></argsstring>
+        <name>fullBasin</name>
+        <qualifiedname>MR::WatershedGraph::OverflowPoint::fullBasin</qualifiedname>
+        <briefdescription>
+<para>mesh vertex on the boundary of full basin and the other where it overflows </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="142" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WatershedGraph_1_1OverflowPoint_1a4058c6bc93b43ba32fc92f1f336b7619" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
+        <definition>Graph::VertId MR::WatershedGraph::OverflowPoint::overflowTo</definition>
+        <argsstring></argsstring>
+        <name>overflowTo</name>
+        <qualifiedname>MR::WatershedGraph::OverflowPoint::overflowTo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="143" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>describes a point where a flow from one basin overflows into another basin </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="139" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="140" bodyend="144"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WatershedGraph_1_1OverflowPoint_1a9b58bb17eb503942a4dcd7150690cfe2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::OverflowPoint</scope><name>fullBasin</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1OverflowPoint_1a4058c6bc93b43ba32fc92f1f336b7619" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::OverflowPoint</scope><name>overflowTo</name></member>
+      <member refid="structMR_1_1WatershedGraph_1_1OverflowPoint_1ab33c7f11e2452d1c74c79f635d4f04f5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::OverflowPoint</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

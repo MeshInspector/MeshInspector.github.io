@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PickPointManager_1_1WidgetHistoryAction" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PickPointManager::WidgetHistoryAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRPickPointManager_8h" local="no">MRPickPointManager.h</includes>
+    <briefdescription>
+<para>A common base class for all history actions of this widget. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::PickPointManager::WidgetHistoryAction</label>
+        <link refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::PickPointManager::WidgetHistoryAction</label>
+        <link refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="95" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="95" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb" prot="public" virt="pure-virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>action</name></member>
+      <member refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de" prot="public" virt="pure-virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce" prot="public" virt="pure-virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>name</name></member>
+      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>Type</name></member>
+      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

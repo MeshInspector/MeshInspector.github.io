@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFreeFormDeformer_8h" kind="file" language="C++">
+    <compoundname>MRFreeFormDeformer.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRFreeFormDeformer.h</label>
+        <link refid="MRFreeFormDeformer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
+        <type>struct MR_AffineXf3f</type>
+        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AffineXf3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a6cf9a7d704c7c9de33ec858bf8a54856" prot="public" static="no">
+        <type>struct MR_Box3d</type>
+        <definition>typedef struct MR_Box3d MR_Box3d</definition>
+        <argsstring></argsstring>
+        <name>MR_Box3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="14" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a387c2b6c194640a4dfac77733cbe3880" prot="public" static="no">
+        <type>struct MR_Box3f</type>
+        <definition>typedef struct MR_Box3f MR_Box3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Box3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="15" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1aa6b35c703a4572c3ccc120ee82723a66" prot="public" static="no">
+        <type>struct MR_Vector3d</type>
+        <definition>typedef struct MR_Vector3d MR_Vector3d</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="20" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" prot="public" static="no">
+        <type>struct <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref></type>
+        <definition>typedef struct MR_FreeFormDeformer MR_FreeFormDeformer</definition>
+        <argsstring></argsstring>
+        <name>MR_FreeFormDeformer</name>
+        <briefdescription>
+<para>Class for deforming mesh using Bernstein interpolation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><programlisting filename="cpp-examples/FreeFormDeformation.dox.cpp"></programlisting> Generated from class <computeroutput>MR::FreeFormDeformer</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="27" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" prot="public" static="no">
+        <type>struct <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref></type>
+        <definition>typedef struct MR_FreeFormBestFit MR_FreeFormBestFit</definition>
+        <argsstring></argsstring>
+        <name>MR_FreeFormBestFit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class to accumulate source and target points for free form alignment Calculates best Free Form transform to fit given source-&gt;target deformation origin ref grid as box corners ( resolution parameter specifies how to divide box ) Generated from class <computeroutput>MR::FreeFormBestFit</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="34" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a40975b9b1263398874ccc800d1daac0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+        <definition>MRC_API MR_FreeFormDeformer * MR_FreeFormDeformer_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_FreeFormDeformer *_other)</argsstring>
+        <name>MR_FreeFormDeformer_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FreeFormDeformer::FreeFormDeformer</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFreeFormDeformer_8h_1a96b615d161c3cf4c9b107da5e8db679e" kindref="member">MR_FreeFormDeformer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="39" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="39" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a32ab0f5424227ba1919f9365e7f9c884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+        <definition>MRC_API const MR_FreeFormDeformer * MR_FreeFormDeformer_OffsetPtr</definition>
+        <argsstring>(const MR_FreeFormDeformer *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FreeFormDeformer_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="43" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="43" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a4c05b030903a06afe0c69520d4df4b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+        <definition>MRC_API MR_FreeFormDeformer * MR_FreeFormDeformer_OffsetMutablePtr</definition>
+        <argsstring>(MR_FreeFormDeformer *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FreeFormDeformer_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="47" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="47" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a0d83f3b94ad42c183266d0949831c7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+        <definition>MRC_API MR_FreeFormDeformer * MR_FreeFormDeformer_Construct_MR_VertCoords</definition>
+        <argsstring>(MR_VertCoords *coords, const MR_VertBitSet *valid)</argsstring>
+        <name>MR_FreeFormDeformer_Construct_MR_VertCoords</name>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>valid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FreeFormDeformer::FreeFormDeformer</computeroutput>. Parameter <computeroutput>coords</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>coords</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>valid</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>valid</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFreeFormDeformer_8h_1a96b615d161c3cf4c9b107da5e8db679e" kindref="member">MR_FreeFormDeformer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="56" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="56" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1aedfbefb4e5950d753a636a728c4149ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+        <definition>MRC_API MR_FreeFormDeformer * MR_FreeFormDeformer_Construct_MR_Mesh</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_VertBitSet *region)</argsstring>
+        <name>MR_FreeFormDeformer_Construct_MR_Mesh</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FreeFormDeformer::FreeFormDeformer</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFreeFormDeformer_8h_1a96b615d161c3cf4c9b107da5e8db679e" kindref="member">MR_FreeFormDeformer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="64" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="64" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a96b615d161c3cf4c9b107da5e8db679e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormDeformer_Destroy</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this)</argsstring>
+        <name>MR_FreeFormDeformer_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_FreeFormDeformer</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a544b62ef86d6f60d0151bf3123bd92e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormDeformer_DestroyArray</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this)</argsstring>
+        <name>MR_FreeFormDeformer_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_FreeFormDeformer</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a2a20dce6e022b0dcc92b4dafa3c9f64a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormDeformer_init</definition>
+        <argsstring>(MR_FreeFormDeformer *_this, const MR_Vector3i *resolution, const MR_Box3f *initialBox)</argsstring>
+        <name>MR_FreeFormDeformer_init</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+          <declname>initialBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::init</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>resolution</computeroutput> is a single object. Parameter <computeroutput>resolution</computeroutput> has a default argument: <computeroutput>Vector3i::diagonal(2)</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>initialBox</computeroutput> is a single object. Parameter <computeroutput>initialBox</computeroutput> has a default argument: <computeroutput>MR::Box3f()</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a386588c351fc75656e7bd387a9071239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormDeformer_setRefGridPointPosition</definition>
+        <argsstring>(MR_FreeFormDeformer *_this, const MR_Vector3i *coordOfPointInGrid, const MR_Vector3f *newPos)</argsstring>
+        <name>MR_FreeFormDeformer_setRefGridPointPosition</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>newPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::setRefGridPointPosition</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>coordOfPointInGrid</computeroutput> can not be null. It is a single object. Parameter <computeroutput>newPos</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1abc0a456cd6fe414991e4279121d1ebc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_FreeFormDeformer_getRefGridPointPosition</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this, const MR_Vector3i *coordOfPointInGrid)</argsstring>
+        <name>MR_FreeFormDeformer_getRefGridPointPosition</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::getRefGridPointPosition</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>coordOfPointInGrid</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="94" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="94" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a4a1fc3d64255a69db4474c9a6e50db30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormDeformer_apply</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this)</argsstring>
+        <name>MR_FreeFormDeformer_apply</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::apply</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="100" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a54aa15c15051fd9429646c07185f2a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_FreeFormDeformer_applySinglePoint</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this, const MR_Vector3f *point)</argsstring>
+        <name>MR_FreeFormDeformer_applySinglePoint</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::applySinglePoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>point</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="106" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="106" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a056b6b6152c732d8c2b1b52eaed0e1d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_FreeFormDeformer_getIndex</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this, const MR_Vector3i *coordOfPointInGrid)</argsstring>
+        <name>MR_FreeFormDeformer_getIndex</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::getIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>coordOfPointInGrid</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="112" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="112" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a7a6eee2289fede7d1a98b6d28649f935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+        <definition>MRC_API MR_Vector3i MR_FreeFormDeformer_getCoord</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this, int index)</argsstring>
+        <name>MR_FreeFormDeformer_getCoord</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::getCoord</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="117" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a154ac39e43c97d3e84e9b14eedfc7790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Vector3f * MR_FreeFormDeformer_getAllRefGridPositions</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this)</argsstring>
+        <name>MR_FreeFormDeformer_getAllRefGridPositions</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::getAllRefGridPositions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="122" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="122" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a509e56c149d1b64c1c55e28c78f7a688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormDeformer_setAllRefGridPositions</definition>
+        <argsstring>(MR_FreeFormDeformer *_this, const MR_std_vector_MR_Vector3f *refPoints)</argsstring>
+        <name>MR_FreeFormDeformer_setAllRefGridPositions</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>refPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::setAllRefGridPositions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>refPoints</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="127" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="127" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1accc289f34f7388b9f8250dc5b679dff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API const MR_Vector3i * MR_FreeFormDeformer_getResolution</definition>
+        <argsstring>(const MR_FreeFormDeformer *_this)</argsstring>
+        <name>MR_FreeFormDeformer_getResolution</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormDeformer::getResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="132" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="132" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a538e89e3b457d5d8c0a2a3ceea58add7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+        <definition>MRC_API MR_FreeFormBestFit * MR_FreeFormBestFit_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_FreeFormBestFit *_other)</argsstring>
+        <name>MR_FreeFormBestFit_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FreeFormBestFit::FreeFormBestFit</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFreeFormDeformer_8h_1a6914372bfa2c457ac31cedfda810968a" kindref="member">MR_FreeFormBestFit_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="137" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="137" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a063531584c45635d19b0538c060bf9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+        <definition>MRC_API const MR_FreeFormBestFit * MR_FreeFormBestFit_OffsetPtr</definition>
+        <argsstring>(const MR_FreeFormBestFit *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FreeFormBestFit_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="141" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="141" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a75a60deb90e27f8ddb5120c2141662fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+        <definition>MRC_API MR_FreeFormBestFit * MR_FreeFormBestFit_OffsetMutablePtr</definition>
+        <argsstring>(MR_FreeFormBestFit *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FreeFormBestFit_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="145" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="145" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1aee0ea69c330d92620c5815324dfe1f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+        <definition>MRC_API MR_FreeFormBestFit * MR_FreeFormBestFit_Construct</definition>
+        <argsstring>(const MR_Box3d *box, const MR_Vector3i *resolution)</argsstring>
+        <name>MR_FreeFormBestFit_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref> *</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialize the class, compute cached values and reserve space for matrices Generated from constructor <computeroutput>MR::FreeFormBestFit::FreeFormBestFit</computeroutput>. Parameter <computeroutput>box</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>resolution</computeroutput> is a single object. Parameter <computeroutput>resolution</computeroutput> has a default argument: <computeroutput>Vector3i::diagonal(2)</computeroutput>, pass a null pointer to use it. The reference to the parameter <computeroutput>resolution</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFreeFormDeformer_8h_1a6914372bfa2c457ac31cedfda810968a" kindref="member">MR_FreeFormBestFit_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="155" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="155" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a6914372bfa2c457ac31cedfda810968a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormBestFit_Destroy</definition>
+        <argsstring>(const MR_FreeFormBestFit *_this)</argsstring>
+        <name>MR_FreeFormBestFit_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_FreeFormBestFit</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1acd6c07c32cf974357446aa37f0e9cb3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormBestFit_DestroyArray</definition>
+        <argsstring>(const MR_FreeFormBestFit *_this)</argsstring>
+        <name>MR_FreeFormBestFit_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_FreeFormBestFit</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="161" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1ab0e109ff42e8bfb545e2d2d54fdaec4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+        <definition>MRC_API MR_FreeFormBestFit * MR_FreeFormBestFit_AssignFromAnother</definition>
+        <argsstring>(MR_FreeFormBestFit *_this, MR_PassBy _other_pass_by, MR_FreeFormBestFit *_other)</argsstring>
+        <name>MR_FreeFormBestFit_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormBestFit::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="168" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="168" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a4d002de271c2c94c6289b302f3da5870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormBestFit_addPair_MR_Vector3d</definition>
+        <argsstring>(MR_FreeFormBestFit *_this, const MR_Vector3d *src, const MR_Vector3d *tgt, const double *w)</argsstring>
+        <name>MR_FreeFormBestFit_addPair_MR_Vector3d</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>tgt</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add pair of source and target point to accumulator Generated from method <computeroutput>MR::FreeFormBestFit::addPair</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>src</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgt</computeroutput> can not be null. It is a single object. Parameter <computeroutput>w</computeroutput> has a default argument: <computeroutput>1.0</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="176" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a03bb679b403f4b9f5a1a0afc7f8effea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormBestFit_addPair_MR_Vector3f</definition>
+        <argsstring>(MR_FreeFormBestFit *_this, const MR_Vector3f *src, const MR_Vector3f *tgt, const float *w)</argsstring>
+        <name>MR_FreeFormBestFit_addPair_MR_Vector3f</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>tgt</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormBestFit::addPair</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>src</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgt</computeroutput> can not be null. It is a single object. Parameter <computeroutput>w</computeroutput> has a default argument: <computeroutput>1.0f</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="183" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1ab3c93a34efa46136dafe293ba790ef72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormBestFit_addOther</definition>
+        <argsstring>(MR_FreeFormBestFit *_this, const MR_FreeFormBestFit *other)</argsstring>
+        <name>MR_FreeFormBestFit_addOther</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds other instance of FreeFormBestFit if it has same ref grid Generated from method <computeroutput>MR::FreeFormBestFit::addOther</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a5c94ac2ff570bc639863c78fccef87e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FreeFormBestFit_setStabilizer</definition>
+        <argsstring>(MR_FreeFormBestFit *_this, double stabilizer)</argsstring>
+        <name>MR_FreeFormBestFit_setStabilizer</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>stabilizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stabilizer adds additional weights to keep result grid closer to origins recommended values (0;1], but it can be higher Generated from method <computeroutput>MR::FreeFormBestFit::setStabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="195" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1a4f0e7ad4cb39b14ec8c982ca7814d39b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double</type>
+        <definition>MRC_API double MR_FreeFormBestFit_getStabilizer</definition>
+        <argsstring>(const MR_FreeFormBestFit *_this)</argsstring>
+        <name>MR_FreeFormBestFit_getStabilizer</name>
+        <param>
+          <type>const <ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FreeFormBestFit::getStabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="199" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="199" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1abf54f4825b9f1e8f6949e331af029b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Vector3f * MR_FreeFormBestFit_findBestDeformationReferenceGrid</definition>
+        <argsstring>(MR_FreeFormBestFit *_this)</argsstring>
+        <name>MR_FreeFormBestFit_findBestDeformationReferenceGrid</name>
+        <param>
+          <type><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds best grid points positions to align source points to target points Generated from method <computeroutput>MR::FreeFormBestFit::findBestDeformationReferenceGrid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="205" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="205" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1adb7d7882e44a09d1878e8442cc584987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Vector3f * MR_makeFreeFormOriginGrid</definition>
+        <argsstring>(const MR_Box3f *box, const MR_Vector3i *resolution)</argsstring>
+        <name>MR_makeFreeFormOriginGrid</name>
+        <param>
+          <type>const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns positions of grid points in given box with given resolution Generated from function <computeroutput>MR::makeFreeFormOriginGrid</computeroutput>. Parameter <computeroutput>box</computeroutput> can not be null. It is a single object. Parameter <computeroutput>resolution</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="212" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="212" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFreeFormDeformer_8h_1ae405dcd2bc3c73c8880d8bee79e07c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Vector3f * MR_findBestFreeformDeformation</definition>
+        <argsstring>(const MR_Box3f *box, const MR_std_vector_MR_Vector3f *source, const MR_std_vector_MR_Vector3f *target, const MR_Vector3i *resolution, const MR_AffineXf3f *samplesToBox)</argsstring>
+        <name>MR_findBestFreeformDeformation</name>
+        <param>
+          <type>const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>samplesToBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::findBestFreeformDeformation</computeroutput>. Parameter <computeroutput>box</computeroutput> can not be null. It is a single object. Parameter <computeroutput>source</computeroutput> can not be null. It is a single object. Parameter <computeroutput>target</computeroutput> can not be null. It is a single object. Parameter <computeroutput>resolution</computeroutput> is a single object. Parameter <computeroutput>resolution</computeroutput> has a default argument: <computeroutput>Vector3i::diagonal(2)</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>samplesToBox</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" line="226" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h" declline="226" declcolumn="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRFreeFormDeformer_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRFreeFormDeformer_8h_1a6cf9a7d704c7c9de33ec858bf8a54856" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRFreeFormDeformer_8h_1a387c2b6c194640a4dfac77733cbe3880" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRFreeFormDeformer_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRFreeFormDeformer_8h_1aa6b35c703a4572c3ccc120ee82723a66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRFreeFormDeformer_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRFreeFormDeformer_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRFreeFormDeformer_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRFreeFormDeformer_8h_1a40975b9b1263398874ccc800d1daac0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a40975b9b1263398874ccc800d1daac0b" kindref="member">MR_FreeFormDeformer_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRFreeFormDeformer_8h_1a32ab0f5424227ba1919f9365e7f9c884" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a32ab0f5424227ba1919f9365e7f9c884" kindref="member">MR_FreeFormDeformer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRFreeFormDeformer_8h_1a4c05b030903a06afe0c69520d4df4b11" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a4c05b030903a06afe0c69520d4df4b11" kindref="member">MR_FreeFormDeformer_OffsetMutablePtr</ref>(<ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Only<sp/>set<sp/>mesh<sp/>ref</highlight></codeline>
+<codeline lineno="56" refid="MRFreeFormDeformer_8h_1a0d83f3b94ad42c183266d0949831c7b6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a0d83f3b94ad42c183266d0949831c7b6" kindref="member">MR_FreeFormDeformer_Construct_MR_VertCoords</ref>(<ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*coords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*valid);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRFreeFormDeformer_8h_1aedfbefb4e5950d753a636a728c4149ab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1aedfbefb4e5950d753a636a728c4149ab" kindref="member">MR_FreeFormDeformer_Construct_MR_Mesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRFreeFormDeformer_8h_1a96b615d161c3cf4c9b107da5e8db679e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a96b615d161c3cf4c9b107da5e8db679e" kindref="member">MR_FreeFormDeformer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRFreeFormDeformer_8h_1a544b62ef86d6f60d0151bf3123bd92e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a544b62ef86d6f60d0151bf3123bd92e2" kindref="member">MR_FreeFormDeformer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Calculates<sp/>all<sp/>points&apos;<sp/>normalized<sp/>positions<sp/>in<sp/>parallel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>ref<sp/>grid<sp/>by<sp/>initialBox,<sp/>if<sp/>initialBox<sp/>is<sp/>invalid<sp/>uses<sp/>mesh<sp/>bounding<sp/>box<sp/>instead</highlight></codeline>
+<codeline lineno="80" refid="MRFreeFormDeformer_8h_1a2a20dce6e022b0dcc92b4dafa3c9f64a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a2a20dce6e022b0dcc92b4dafa3c9f64a" kindref="member">MR_FreeFormDeformer_init</ref>(<ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*resolution,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*initialBox);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Updates<sp/>ref<sp/>grid<sp/>point<sp/>position</highlight></codeline>
+<codeline lineno="87" refid="MRFreeFormDeformer_8h_1a386588c351fc75656e7bd387a9071239" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a386588c351fc75656e7bd387a9071239" kindref="member">MR_FreeFormDeformer_setRefGridPointPosition</ref>(<ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*coordOfPointInGrid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*newPos);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Gets<sp/>ref<sp/>grid<sp/>point<sp/>position</highlight></codeline>
+<codeline lineno="94" refid="MRFreeFormDeformer_8h_1abc0a456cd6fe414991e4279121d1ebc1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1abc0a456cd6fe414991e4279121d1ebc1" kindref="member">MR_FreeFormDeformer_getRefGridPointPosition</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*coordOfPointInGrid);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Apply<sp/>updated<sp/>grid<sp/>to<sp/>all<sp/>mesh<sp/>points<sp/>in<sp/>parallel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ensure<sp/>updating<sp/>render<sp/>object<sp/>after<sp/>using<sp/>it</highlight></codeline>
+<codeline lineno="100" refid="MRFreeFormDeformer_8h_1a4a1fc3d64255a69db4474c9a6e50db30" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a4a1fc3d64255a69db4474c9a6e50db30" kindref="member">MR_FreeFormDeformer_apply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Apply<sp/>updated<sp/>grid<sp/>to<sp/>given<sp/>point</highlight></codeline>
+<codeline lineno="106" refid="MRFreeFormDeformer_8h_1a54aa15c15051fd9429646c07185f2a8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRFreeFormDeformer_8h_1a54aa15c15051fd9429646c07185f2a8b" kindref="member">MR_FreeFormDeformer_applySinglePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*point);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>one<sp/>dimension<sp/>index<sp/>by<sp/>grid<sp/>coord</highlight></codeline>
+<codeline lineno="112" refid="MRFreeFormDeformer_8h_1a056b6b6152c732d8c2b1b52eaed0e1d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a056b6b6152c732d8c2b1b52eaed0e1d1" kindref="member">MR_FreeFormDeformer_getIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*coordOfPointInGrid);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>grid<sp/>coord<sp/>by<sp/>index</highlight></codeline>
+<codeline lineno="117" refid="MRFreeFormDeformer_8h_1a7a6eee2289fede7d1a98b6d28649f935" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRFreeFormDeformer_8h_1a7a6eee2289fede7d1a98b6d28649f935" kindref="member">MR_FreeFormDeformer_getCoord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRFreeFormDeformer_8h_1a154ac39e43c97d3e84e9b14eedfc7790" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a154ac39e43c97d3e84e9b14eedfc7790" kindref="member">MR_FreeFormDeformer_getAllRefGridPositions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="MRFreeFormDeformer_8h_1a509e56c149d1b64c1c55e28c78f7a688" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a509e56c149d1b64c1c55e28c78f7a688" kindref="member">MR_FreeFormDeformer_setAllRefGridPositions</ref>(<ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*refPoints);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRFreeFormDeformer_8h_1accc289f34f7388b9f8250dc5b679dff4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1accc289f34f7388b9f8250dc5b679dff4" kindref="member">MR_FreeFormDeformer_getResolution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a1273be31bdf185e5805957f56e83c49c" kindref="member">MR_FreeFormDeformer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRFreeFormDeformer_8h_1a538e89e3b457d5d8c0a2a3ceea58add7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a538e89e3b457d5d8c0a2a3ceea58add7" kindref="member">MR_FreeFormBestFit_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRFreeFormDeformer_8h_1a063531584c45635d19b0538c060bf9c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a063531584c45635d19b0538c060bf9c1" kindref="member">MR_FreeFormBestFit_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRFreeFormDeformer_8h_1a75a60deb90e27f8ddb5120c2141662fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1a75a60deb90e27f8ddb5120c2141662fe" kindref="member">MR_FreeFormBestFit_OffsetMutablePtr</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRFreeFormDeformer_8h_1aee0ea69c330d92620c5815324dfe1f3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1aee0ea69c330d92620c5815324dfe1f3a" kindref="member">MR_FreeFormBestFit_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/>*box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*resolution);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRFreeFormDeformer_8h_1a6914372bfa2c457ac31cedfda810968a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a6914372bfa2c457ac31cedfda810968a" kindref="member">MR_FreeFormBestFit_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRFreeFormDeformer_8h_1acd6c07c32cf974357446aa37f0e9cb3b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1acd6c07c32cf974357446aa37f0e9cb3b" kindref="member">MR_FreeFormBestFit_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRFreeFormDeformer_8h_1ab0e109ff42e8bfb545e2d2d54fdaec4c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1ab0e109ff42e8bfb545e2d2d54fdaec4c" kindref="member">MR_FreeFormBestFit_AssignFromAnother</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRFreeFormDeformer_8h_1a4d002de271c2c94c6289b302f3da5870" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a4d002de271c2c94c6289b302f3da5870" kindref="member">MR_FreeFormBestFit_addPair_MR_Vector3d</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*tgt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRFreeFormDeformer_8h_1a03bb679b403f4b9f5a1a0afc7f8effea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a03bb679b403f4b9f5a1a0afc7f8effea" kindref="member">MR_FreeFormBestFit_addPair_MR_Vector3f</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*tgt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*w);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRFreeFormDeformer_8h_1ab3c93a34efa46136dafe293ba790ef72" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1ab3c93a34efa46136dafe293ba790ef72" kindref="member">MR_FreeFormBestFit_addOther</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRFreeFormDeformer_8h_1a5c94ac2ff570bc639863c78fccef87e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c94ac2ff570bc639863c78fccef87e9" kindref="member">MR_FreeFormBestFit_setStabilizer</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>stabilizer);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRFreeFormDeformer_8h_1a4f0e7ad4cb39b14ec8c982ca7814d39b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a4f0e7ad4cb39b14ec8c982ca7814d39b" kindref="member">MR_FreeFormBestFit_getStabilizer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRFreeFormDeformer_8h_1abf54f4825b9f1e8f6949e331af029b72" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1abf54f4825b9f1e8f6949e331af029b72" kindref="member">MR_FreeFormBestFit_findBestDeformationReferenceGrid</ref>(<ref refid="MRFreeFormDeformer_8h_1a5c88398ba3d1cfa5f2c61556c5e0316e" kindref="member">MR_FreeFormBestFit</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRFreeFormDeformer_8h_1adb7d7882e44a09d1878e8442cc584987" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1adb7d7882e44a09d1878e8442cc584987" kindref="member">MR_makeFreeFormOriginGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*resolution);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Calculates<sp/>best<sp/>Free<sp/>Form<sp/>transform<sp/>to<sp/>fit<sp/>given<sp/>source-&gt;target<sp/>deformation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/>origin<sp/>ref<sp/>grid<sp/>as<sp/>box<sp/>corners<sp/>(<sp/>resolution<sp/>parameter<sp/>specifies<sp/>how<sp/>to<sp/>divide<sp/>box<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/>samplesToBox<sp/>-<sp/>if<sp/>set<sp/>used<sp/>to<sp/>transform<sp/>source<sp/>and<sp/>target<sp/>points<sp/>to<sp/>box<sp/>space</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>new<sp/>positions<sp/>of<sp/>ref<sp/>grid</highlight></codeline>
+<codeline lineno="226" refid="MRFreeFormDeformer_8h_1ae405dcd2bc3c73c8880d8bee79e07c0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRFreeFormDeformer_8h_1ae405dcd2bc3c73c8880d8bee79e07c0d" kindref="member">MR_findBestFreeformDeformation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*source,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*resolution,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*samplesToBox);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFreeFormDeformer.h"/>
+  </compounddef>
+</doxygen>

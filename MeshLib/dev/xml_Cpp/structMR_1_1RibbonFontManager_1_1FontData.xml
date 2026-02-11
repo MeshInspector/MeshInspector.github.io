@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonFontManager_1_1FontData" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonFontManager::FontData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonFontManager_1_1FontData_1a9f1d5e3b03d4cb2c9b2224c195e527a8" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccb" kindref="member">FontFile</ref></type>
+        <definition>FontFile MR::RibbonFontManager::FontData::fontFile</definition>
+        <argsstring></argsstring>
+        <name>fontFile</name>
+        <qualifiedname>MR::RibbonFontManager::FontData::fontFile</qualifiedname>
+        <initializer>{ <ref refid="classMR_1_1RibbonFontManager_1a467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e" kindref="member">FontFile::RegularSC</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="80" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonFontManager_1_1FontData_1acfc38fa3a885c9eaecf1e1d5161791dc" prot="public" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::RibbonFontManager::FontData::scaledOffset</definition>
+        <argsstring></argsstring>
+        <name>scaledOffset</name>
+        <qualifiedname>MR::RibbonFontManager::FontData::scaledOffset</qualifiedname>
+        <briefdescription>
+<para>what file type to use for this font </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="81" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonFontManager_1_1FontData_1a4e4fa0db8b4e8f094eb0bff476d96d9c" prot="public" static="no" mutable="no">
+        <type>ImFont *</type>
+        <definition>ImFont* MR::RibbonFontManager::FontData::fontPtr</definition>
+        <argsstring></argsstring>
+        <name>fontPtr</name>
+        <qualifiedname>MR::RibbonFontManager::FontData::fontPtr</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>offset that is used for each glyph while creating atlas (updates in <computeroutput>updateFontsScaledOffset_</computeroutput>), should respect font size with scaling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="82" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="78" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="79" bodyend="83"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonFontManager_1_1FontData_1a9f1d5e3b03d4cb2c9b2224c195e527a8" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager::FontData</scope><name>fontFile</name></member>
+      <member refid="structMR_1_1RibbonFontManager_1_1FontData_1a4e4fa0db8b4e8f094eb0bff476d96d9c" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager::FontData</scope><name>fontPtr</name></member>
+      <member refid="structMR_1_1RibbonFontManager_1_1FontData_1acfc38fa3a885c9eaecf1e1d5161791dc" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager::FontData</scope><name>scaledOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

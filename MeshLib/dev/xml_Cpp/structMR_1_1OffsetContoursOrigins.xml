@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OffsetContoursOrigins" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OffsetContoursOrigins</compoundname>
+    <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursOrigins_1ad5f2ee568aa0c645e5784e53f1ae0e72" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition>OffsetContourIndex MR::OffsetContoursOrigins::lOrg</definition>
+        <argsstring></argsstring>
+        <name>lOrg</name>
+        <qualifiedname>MR::OffsetContoursOrigins::lOrg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should be always valid index of lower corresponding origin point on input contour </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="24" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursOrigins_1ab76af177457e5c7d897c84971b38bc83" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition>OffsetContourIndex MR::OffsetContoursOrigins::lDest</definition>
+        <argsstring></argsstring>
+        <name>lDest</name>
+        <qualifiedname>MR::OffsetContoursOrigins::lDest</qualifiedname>
+        <briefdescription>
+<para>index of lower corresponding destination point on input contour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="26" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursOrigins_1a8e421292af478ab293a9e62952548df9" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition>OffsetContourIndex MR::OffsetContoursOrigins::uOrg</definition>
+        <argsstring></argsstring>
+        <name>uOrg</name>
+        <qualifiedname>MR::OffsetContoursOrigins::uOrg</qualifiedname>
+        <briefdescription>
+<para>index of upper corresponding origin point on input contour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="28" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursOrigins_1a4ffc0647f40dc8059aaceaa657ec9511" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+        <definition>OffsetContourIndex MR::OffsetContoursOrigins::uDest</definition>
+        <argsstring></argsstring>
+        <name>uDest</name>
+        <qualifiedname>MR::OffsetContoursOrigins::uDest</qualifiedname>
+        <briefdescription>
+<para>index of upper corresponding destination point on input contour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="30" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursOrigins_1a1633716ab89e852055090daa8b6eb2ab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::OffsetContoursOrigins::lRatio</definition>
+        <argsstring></argsstring>
+        <name>lRatio</name>
+        <qualifiedname>MR::OffsetContoursOrigins::lRatio</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ratio of intersection point on lOrg-&gt;lDest segment 0.0 -&gt; lOrg 1.0 -&gt; lDest </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursOrigins_1abafa00798fb1314aef0b80b10f1db15e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::OffsetContoursOrigins::uRatio</definition>
+        <argsstring></argsstring>
+        <name>uRatio</name>
+        <qualifiedname>MR::OffsetContoursOrigins::uRatio</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ratio of intersection point on uOrg-&gt;uDest segment 0.0 -&gt; uOrg 1.0 -&gt; uDest </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="39" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1OffsetContoursOrigins_1aaf61c67899c9c542304ca52c98efd6aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::OffsetContoursOrigins::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::OffsetContoursOrigins::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="41" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1OffsetContoursOrigins_1ad2a2ed17dca73e3016e3cd9df4d02b02" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::OffsetContoursOrigins::isIntersection</definition>
+        <argsstring>() const</argsstring>
+        <name>isIntersection</name>
+        <qualifiedname>MR::OffsetContoursOrigins::isIntersection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::OffsetContourIndex</label>
+        <link refid="structMR_1_1OffsetContourIndex"/>
+      </node>
+      <node id="1">
+        <label>MR::OffsetContoursOrigins</label>
+        <link refid="structMR_1_1OffsetContoursOrigins"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>lDest</edgelabel>
+          <edgelabel>lOrg</edgelabel>
+          <edgelabel>uDest</edgelabel>
+          <edgelabel>uOrg</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="21" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structMR_1_1OffsetContoursOrigins_1ad2a2ed17dca73e3016e3cd9df4d02b02" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>isIntersection</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1ab76af177457e5c7d897c84971b38bc83" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lDest</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1ad5f2ee568aa0c645e5784e53f1ae0e72" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lOrg</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1a1633716ab89e852055090daa8b6eb2ab" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lRatio</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1a4ffc0647f40dc8059aaceaa657ec9511" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uDest</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1a8e421292af478ab293a9e62952548df9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uOrg</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1abafa00798fb1314aef0b80b10f1db15e" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uRatio</name></member>
+      <member refid="structMR_1_1OffsetContoursOrigins_1aaf61c67899c9c542304ca52c98efd6aa" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

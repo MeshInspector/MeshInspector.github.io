@@ -1,0 +1,1094 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ae4e7018435bc5151d92e8e48007ac94f" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64189" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa7fa9f3594e147a224154f5c36b4d995" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64190" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ac05fde7c41832ba8f43843c262e5505d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1afe9fdb66c6ae84fddd54203122360028" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a521b0793d3f917e286b4176b771b4c57" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64193" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab9aeeb03138760576968734c0ad78558" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64196" bodyend="64197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a88c37a7b122dd4bb29e27d62fc6ac5c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+        <definition> Vector_Graph_EndVertices_GraphEdgeId mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64200" bodyend="64201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a88c37a7b122dd4bb29e27d62fc6ac5c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+        <definition> Vector_Graph_EndVertices_GraphEdgeId mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64204" bodyend="64205"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a0f29a7ba300270afe1aaca79ac5fd55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__eq__</definition>
+        <argsstring>(self, Vector_Graph_EndVertices_GraphEdgeId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64206" bodyend="64207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1acdb367bfb3bbf47c8af5883786f0739c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__getitem__</definition>
+        <argsstring>(self, GraphEdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64209" bodyend="64210"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1acdb367bfb3bbf47c8af5883786f0739c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__getitem__</definition>
+        <argsstring>(self, GraphEdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64212" bodyend="64213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a8a47599d06603d6a35e6f5f06bc7a683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64215" bodyend="64218"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a8307d78a1976abe2c799a5b6201ff7e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64220" bodyend="64223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a84c8d843a9d856176b5e2f2ec8a98904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</definition>
+        <argsstring>(self, int size, Graph.EndVertices val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64225" bodyend="64228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a9efece207227a64ed71f0d71b85d3662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</definition>
+        <argsstring>(self, std_vector_Graph_EndVertices vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Graph__EndVertices" kindref="compound">std_vector_Graph_EndVertices</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64230" bodyend="64233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aeaad270e9ac4f822c6fe224e565443ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</definition>
+        <argsstring>(self, Vector_Graph_EndVertices_GraphEdgeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64235" bodyend="64238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a7f563470987eaddce43785bed3021a8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref>]</type>
+        <definition> typing.Iterator[Graph.EndVertices] mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64239" bodyend="64240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a8409d2ffc9921e8eae69b84572faf468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__ne__</definition>
+        <argsstring>(self, Vector_Graph_EndVertices_GraphEdgeId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64241" bodyend="64242"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a52a4db3b30106501eba5c1e5fe846e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__setitem__</definition>
+        <argsstring>(self, GraphEdgeId arg0, Graph.EndVertices arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64243" bodyend="64244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a29bfb24496fe9616f5c932800e59cfcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.autoResizeAt</definition>
+        <argsstring>(self, GraphEdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64245" bodyend="64248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a169d4ffde3d0e972cb76e6e587b5d763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.autoResizeSet</definition>
+        <argsstring>(self, GraphEdgeId pos, int len, Graph.EndVertices val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64250" bodyend="64254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a680beabf6c16d3cb6e29b85dab0cf1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.autoResizeSet</definition>
+        <argsstring>(self, GraphEdgeId i, Graph.EndVertices val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64256" bodyend="64259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a9cee99dbf4dccc8e7af4745761bd998a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64261" bodyend="64262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a9cee99dbf4dccc8e7af4745761bd998a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64264" bodyend="64265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a4cc58e614f5a3213ae48072209e06931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64266" bodyend="64269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ad2b24263ee12cff23ea023c2f6eb2ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64270" bodyend="64273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a55a81c0634e24c1bd7695fe702fc37c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64274" bodyend="64275"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab5d9c7e1d880c6315aa462fef70d038b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64276" bodyend="64277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5b20a5f67eee66ade725045e348ea260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64279" bodyend="64280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5b20a5f67eee66ade725045e348ea260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64282" bodyend="64283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a138579d16c7a935d4c33cb63be87c374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64284" bodyend="64285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa3c339106e7577884155337537ffac0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64286" bodyend="64287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a0edaae1f08f59d65d4130c300d39e04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64288" bodyend="64291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5343707e68f7b05fcccd7fa3ea13baed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64293" bodyend="64294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5343707e68f7b05fcccd7fa3ea13baed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+        <definition> Graph.EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64296" bodyend="64297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab3afbe1234084c0ccd62e8ffb10d313f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64298" bodyend="64301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab39a1f93a5661d3790bb4f566b174f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64302" bodyend="64303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2177e17c446cdb4481ea269e63804031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.push_back</definition>
+        <argsstring>(self, Graph.EndVertices t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64305" bodyend="64306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2177e17c446cdb4481ea269e63804031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.push_back</definition>
+        <argsstring>(self, Graph.EndVertices t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64308" bodyend="64309"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2d3dda4a6f8c70c7ee4b7f3ae232201c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64310" bodyend="64311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a46e9d024d7ee65b356324fae755abe50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64313" bodyend="64314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ad0f3ac186672c83c136f92b23cb0e64b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resize</definition>
+        <argsstring>(self, int newSize, Graph.EndVertices t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64316" bodyend="64317"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a6afefd9955f03c18d8b361c3d0845204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64319" bodyend="64322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a4c6c1180fe8e88440e7aa611e178f5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, Graph.EndVertices value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Graph_1_1EndVertices" kindref="compound">Graph.EndVertices</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64324" bodyend="64327"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa34bb3990465ae4e1f681664f53a668f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64328" bodyend="64329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2976d205cb678aabb682705574b2b812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.swap</definition>
+        <argsstring>(self, Vector_Graph_EndVertices_GraphEdgeId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId" kindref="compound">Vector_Graph_EndVertices_GraphEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64330" bodyend="64331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a198dba668c6bb3c900af9e18d873ab4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Graph__EndVertices" kindref="compound">std_vector_Graph_EndVertices</ref></type>
+        <definition> std_vector_Graph_EndVertices mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64333" bodyend="64336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1adb4ef46f1c9c022cfab165a77583a331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.vec_</definition>
+        <argsstring>(self, std_vector_Graph_EndVertices arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Graph__EndVertices" kindref="compound">std_vector_Graph_EndVertices</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64338" bodyend="64339"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::Graph::EndVertices, MR::GraphEdgeId&gt;
+Aliases:  Graph.EndsPerEdge
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId</label>
+        <link refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64178" bodyend="64339"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a0f29a7ba300270afe1aaca79ac5fd55e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1acdb367bfb3bbf47c8af5883786f0739c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1acdb367bfb3bbf47c8af5883786f0739c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ae4e7018435bc5151d92e8e48007ac94f" prot="private" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab9aeeb03138760576968734c0ad78558" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a8a47599d06603d6a35e6f5f06bc7a683" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a8307d78a1976abe2c799a5b6201ff7e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a84c8d843a9d856176b5e2f2ec8a98904" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a9efece207227a64ed71f0d71b85d3662" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aeaad270e9ac4f822c6fe224e565443ec" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a7f563470987eaddce43785bed3021a8f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a8409d2ffc9921e8eae69b84572faf468" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a52a4db3b30106501eba5c1e5fe846e3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa7fa9f3594e147a224154f5c36b4d995" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a29bfb24496fe9616f5c932800e59cfcb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a169d4ffde3d0e972cb76e6e587b5d763" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a680beabf6c16d3cb6e29b85dab0cf1f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a9cee99dbf4dccc8e7af4745761bd998a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a9cee99dbf4dccc8e7af4745761bd998a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a4cc58e614f5a3213ae48072209e06931" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ad2b24263ee12cff23ea023c2f6eb2ba9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a55a81c0634e24c1bd7695fe702fc37c9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab5d9c7e1d880c6315aa462fef70d038b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ac05fde7c41832ba8f43843c262e5505d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5b20a5f67eee66ade725045e348ea260" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5b20a5f67eee66ade725045e348ea260" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a138579d16c7a935d4c33cb63be87c374" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa3c339106e7577884155337537ffac0b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a0edaae1f08f59d65d4130c300d39e04d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5343707e68f7b05fcccd7fa3ea13baed" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a5343707e68f7b05fcccd7fa3ea13baed" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab3afbe1234084c0ccd62e8ffb10d313f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a88c37a7b122dd4bb29e27d62fc6ac5c5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a88c37a7b122dd4bb29e27d62fc6ac5c5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ab39a1f93a5661d3790bb4f566b174f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2177e17c446cdb4481ea269e63804031" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2177e17c446cdb4481ea269e63804031" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1afe9fdb66c6ae84fddd54203122360028" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2d3dda4a6f8c70c7ee4b7f3ae232201c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a46e9d024d7ee65b356324fae755abe50" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ad0f3ac186672c83c136f92b23cb0e64b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a6afefd9955f03c18d8b361c3d0845204" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a4c6c1180fe8e88440e7aa611e178f5a6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa34bb3990465ae4e1f681664f53a668f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2976d205cb678aabb682705574b2b812" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a521b0793d3f917e286b4176b771b4c57" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a198dba668c6bb3c900af9e18d873ab4f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1adb4ef46f1c9c022cfab165a77583a331" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Graph_EndVertices_GraphEdgeId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

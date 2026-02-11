@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MR2DContoursTriangulation_8h" kind="file" language="C++">
+    <compoundname>MR2DContoursTriangulation.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MR2DContoursTriangulation.h</label>
+        <link refid="MR2DContoursTriangulation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="16">
+        <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
+    <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
+    <innerclass refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" prot="public">MR::PlanarTriangulation::BaseOutlineParameters</innerclass>
+    <innerclass refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" prot="public">MR::PlanarTriangulation::OutlineParameters</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1PlanarTriangulation">MR::PlanarTriangulation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespaceMR_1_1PlanarTriangulation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PlanarTriangulation</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9" kindref="member">WindingMode</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a" kindref="member">NonZero</ref>,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147" kindref="member">Positive</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">Negative</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespaceMR_1_1PlanarTriangulation_1a4ea76a89e8c8fb95eb68d7497122271b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PlanarTriangulation_1a4ea76a89e8c8fb95eb68d7497122271b" kindref="member">HoleVertIds</ref><sp/>=<sp/>std::vector&lt;VertId&gt;;</highlight></codeline>
+<codeline lineno="21" refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref><sp/>=<sp/>std::vector&lt;HoleVertIds&gt;;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespaceMR_1_1PlanarTriangulation_1a3638a79ba38f8621fd9eb80783cb14be" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a3638a79ba38f8621fd9eb80783cb14be" kindref="member">findHoleVertIdsByHoleEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>tp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;&amp;<sp/>holePaths<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">IntersectionInfo</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1ba150196ca38c47b298c26615eab80e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a2fa82e2dbbf17f35ba932bcd731f08c6" kindref="member">lOrg</ref>,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1ba150196ca38c47b298c26615eab80e" kindref="member">lDest</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a317063d55c098c2ef928c24f84e7d072" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a8b5c188731f0cecbac0ccc0fd4a6bfb7" kindref="member">uOrg</ref>,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a317063d55c098c2ef928c24f84e7d072" kindref="member">uDest</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a71da63d690481e338c26321212fbdb4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a71da63d690481e338c26321212fbdb4b" kindref="member">lRatio</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a486648a6478caadcce4b7e8b5ccfe262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a486648a6478caadcce4b7e8b5ccfe262" kindref="member">uRatio</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a3ed890ec3241e636e8fd100f7ed41f04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a3ed890ec3241e636e8fd100f7ed41f04" kindref="member">isIntersection</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1ba150196ca38c47b298c26615eab80e" kindref="member">lDest</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="namespaceMR_1_1PlanarTriangulation_1a15dafb65753964c596e32bd173142aba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PlanarTriangulation_1a15dafb65753964c596e32bd173142aba" kindref="member">ContourIdMap</ref><sp/>=<sp/>std::vector&lt;IntersectionInfo&gt;;</highlight></codeline>
+<codeline lineno="46" refid="namespaceMR_1_1PlanarTriangulation_1a2861b59a4ea1236fc77b874053b4245a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PlanarTriangulation_1a2861b59a4ea1236fc77b874053b4245a" kindref="member">ContoursIdMap</ref><sp/>=<sp/>std::vector&lt;ContourIdMap&gt;;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52" refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a9e57510cc8b745dcfbbf6e04c6fba846" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a9e57510cc8b745dcfbbf6e04c6fba846" kindref="member">shift</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="54" refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a2c09afe7b89e565c7c7549b9cbabf2f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a15dafb65753964c596e32bd173142aba" kindref="member">ContourIdMap</ref><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a2c09afe7b89e565c7c7549b9cbabf2f0" kindref="member">map</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59" refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a6f9aeb8021200fb928ae34fe6ab4c932" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a6f9aeb8021200fb928ae34fe6ab4c932" kindref="member">allowMerge</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="60" refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a96cc494dbae32854400a1fc481ea09b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9" kindref="member">WindingMode</ref><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a96cc494dbae32854400a1fc481ea09b4" kindref="member">innerType</ref>{<sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">WindingMode::Negative</ref><sp/>};<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="namespaceMR_1_1PlanarTriangulation_1a83cb3ae007112f97a7019d02c16c2201" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a83cb3ae007112f97a7019d02c16c2201" kindref="member">getOutlineMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref>*<sp/>interMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="66" refid="namespaceMR_1_1PlanarTriangulation_1a0793fac040a2dcffcf616e963ebcfe7e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a83cb3ae007112f97a7019d02c16c2201" kindref="member">getOutlineMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref>*<sp/>interMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70" refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters_1ad009c4928ad149dd5ce93232c4d495f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a2861b59a4ea1236fc77b874053b4245a" kindref="member">ContoursIdMap</ref>*<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters_1ad009c4928ad149dd5ce93232c4d495f2" kindref="member">indicesMap</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="71" refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters_1a528577df88b99d1a7703da3953605d11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters_1a528577df88b99d1a7703da3953605d11" kindref="member">baseParams</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="namespaceMR_1_1PlanarTriangulation_1a1e7584c601fc9192683046e5f769c068" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a1e7584c601fc9192683046e5f769c068" kindref="member">getOutline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="76" refid="namespaceMR_1_1PlanarTriangulation_1aaae55b5f79adbd80cfe0f6f147069953" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a1e7584c601fc9192683046e5f769c068" kindref="member">getOutline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="namespaceMR_1_1PlanarTriangulation_1a3a4d8b0d7301b69cd93de010d000bbcc" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a3a4d8b0d7301b69cd93de010d000bbcc" kindref="member">triangulateContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="85" refid="namespaceMR_1_1PlanarTriangulation_1adeb4ce509fc66338b9d870c64aefde19" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a3a4d8b0d7301b69cd93de010d000bbcc" kindref="member">triangulateContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="namespaceMR_1_1PlanarTriangulation_1a31ee3df5527e56120039ae242d069783" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a31ee3df5527e56120039ae242d069783" kindref="member">triangulateDisjointContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>std::vector&lt;EdgePath&gt;*<sp/>outBoundaries<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="95" refid="namespaceMR_1_1PlanarTriangulation_1ad078fde77ddac53c2c051b56888617e1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a31ee3df5527e56120039ae242d069783" kindref="member">triangulateDisjointContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1PlanarTriangulation_1a0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>std::vector&lt;EdgePath&gt;*<sp/>outBoundaries<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h"/>
+  </compounddef>
+</doxygen>

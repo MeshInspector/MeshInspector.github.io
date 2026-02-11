@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSolarRadiation_8h" kind="file" language="C++">
+    <compoundname>MRSolarRadiation.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRSolarRadiation.h</label>
+        <link refid="MRSolarRadiation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a36d7d5a26d258211a2da5d9311a0798c" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref></type>
+        <definition>typedef struct MR_BitSet MR_BitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_BitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="12" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" prot="public" static="no">
+        <type>struct <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref></type>
+        <definition>typedef struct MR_VertScalars MR_VertScalars</definition>
+        <argsstring></argsstring>
+        <name>MR_VertScalars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="16" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" prot="public" static="no">
+        <type>struct <ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref></type>
+        <definition>typedef struct MR_std_vector_MR_MeshIntersectionResult MR_std_vector_MR_MeshIntersectionResult</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_MeshIntersectionResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="17" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" prot="public" static="no">
+        <type>struct <ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref></type>
+        <definition>typedef struct MR_std_vector_MR_SkyPatch MR_std_vector_MR_SkyPatch</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_SkyPatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="18" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="19" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" prot="public" static="no">
+        <type>struct <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref></type>
+        <definition>typedef struct MR_SkyPatch MR_SkyPatch</definition>
+        <argsstring></argsstring>
+        <name>MR_SkyPatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this class represents a portion of the sky, and its radiation Generated from class <computeroutput>MR::SkyPatch</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="25" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a6bd20b8037df7f3a5125e03df3b8d147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Vector3f * MR_sampleHalfSphere</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_sampleHalfSphere</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns quasi-uniform 145 samples on unit half-sphere z&gt;0 Generated from function <computeroutput>MR::sampleHalfSphere</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="30" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="30" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a4e2fb410c02328faaed31925303d4466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_SkyPatch_Get_dir</definition>
+        <argsstring>(const MR_SkyPatch *_this)</argsstring>
+        <name>MR_SkyPatch_Get_dir</name>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>direction toward the center of the patch Returns a pointer to a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="36" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="36" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1aaafa5856b757637df4d2bf1daa3d56b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SkyPatch_Set_dir</definition>
+        <argsstring>(MR_SkyPatch *_this, MR_Vector3f value)</argsstring>
+        <name>MR_SkyPatch_Set_dir</name>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>direction toward the center of the patch Modifies a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a5d79f68f6ada312adfc6eeb1c777709d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_SkyPatch_GetMutable_dir</definition>
+        <argsstring>(MR_SkyPatch *_this)</argsstring>
+        <name>MR_SkyPatch_GetMutable_dir</name>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>direction toward the center of the patch Returns a mutable pointer to a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="49" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="49" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1ac3891fa3876a9093ab9343ed0f5f51f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SkyPatch_Get_radiation</definition>
+        <argsstring>(const MR_SkyPatch *_this)</argsstring>
+        <name>MR_SkyPatch_Get_radiation</name>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc Returns a pointer to a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>radiation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="55" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="55" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1ad1b66f58df9d829567fe411b52b0d091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SkyPatch_Set_radiation</definition>
+        <argsstring>(MR_SkyPatch *_this, float value)</argsstring>
+        <name>MR_SkyPatch_Set_radiation</name>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc Modifies a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>radiation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiation</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="61" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a1c46daf24f82fe0b9a4e94b416c2b180" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SkyPatch_GetMutable_radiation</definition>
+        <argsstring>(MR_SkyPatch *_this)</argsstring>
+        <name>MR_SkyPatch_GetMutable_radiation</name>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc Returns a mutable pointer to a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>radiation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="67" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="67" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a64d8a4e88ee782e736635b57b5b7f93d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API MR_SkyPatch * MR_SkyPatch_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SkyPatch_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" kindref="member">MR_SkyPatch_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="71" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a8734b0df408b6345dc12a9f464548d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API MR_SkyPatch * MR_SkyPatch_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SkyPatch_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSolarRadiation_8h_1a7a3965342009fc9a5a05a1513e2ce36d" kindref="member">MR_SkyPatch_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSolarRadiation_8h_1a0196e32e6f2146982c4aa46c32b2fd24" kindref="member">MR_SkyPatch_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSolarRadiation_8h_1a6a14607383b420ecd03c78e454f2695d" kindref="member">MR_SkyPatch_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="76" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="76" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1ae16f4c918c8d00fcab136599aaaf9042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API MR_SkyPatch * MR_SkyPatch_ConstructFrom</definition>
+        <argsstring>(MR_Vector3f dir, float radiation)</argsstring>
+        <name>MR_SkyPatch_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SkyPatch</computeroutput> elementwise. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" kindref="member">MR_SkyPatch_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="82" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="82" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a6a14607383b420ecd03c78e454f2695d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API const MR_SkyPatch * MR_SkyPatch_OffsetPtr</definition>
+        <argsstring>(const MR_SkyPatch *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SkyPatch_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="86" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="86" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a0196e32e6f2146982c4aa46c32b2fd24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API MR_SkyPatch * MR_SkyPatch_OffsetMutablePtr</definition>
+        <argsstring>(MR_SkyPatch *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SkyPatch_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="90" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1ac58022dfabe16c6c6b3bf0cd7367106a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API MR_SkyPatch * MR_SkyPatch_ConstructFromAnother</definition>
+        <argsstring>(const MR_SkyPatch *_other)</argsstring>
+        <name>MR_SkyPatch_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SkyPatch::SkyPatch</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" kindref="member">MR_SkyPatch_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="96" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="96" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SkyPatch_Destroy</definition>
+        <argsstring>(const MR_SkyPatch *_this)</argsstring>
+        <name>MR_SkyPatch_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SkyPatch</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="99" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a7a3965342009fc9a5a05a1513e2ce36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SkyPatch_DestroyArray</definition>
+        <argsstring>(const MR_SkyPatch *_this)</argsstring>
+        <name>MR_SkyPatch_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SkyPatch</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1adab37cffd7d4c7966952cf56deb11b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+        <definition>MRC_API MR_SkyPatch * MR_SkyPatch_AssignFromAnother</definition>
+        <argsstring>(MR_SkyPatch *_this, const MR_SkyPatch *_other)</argsstring>
+        <name>MR_SkyPatch_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SkyPatch::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="110" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="110" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1a4fc100c0bf7ede6c34c388a18c3554b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+        <definition>MRC_API MR_VertScalars * MR_computeSkyViewFactor</definition>
+        <argsstring>(const MR_Mesh *terrain, const MR_VertCoords *samples, const MR_VertBitSet *validSamples, const MR_std_vector_MR_SkyPatch *skyPatches, MR_BitSet *outSkyRays, MR_std_vector_MR_MeshIntersectionResult *outIntersections)</argsstring>
+        <name>MR_computeSkyViewFactor</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validSamples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref> *</type>
+          <declname>skyPatches</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *</type>
+          <declname>outSkyRays</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref> *</type>
+          <declname>outIntersections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outSkyRays</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don&apos;t hit anything and reach the sky </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outIntersections</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <computeroutput>MR::computeSkyViewFactor</computeroutput>. Parameter <computeroutput>terrain</computeroutput> can not be null. It is a single object. Parameter <computeroutput>samples</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validSamples</computeroutput> can not be null. It is a single object. Parameter <computeroutput>skyPatches</computeroutput> can not be null. It is a single object. Parameter <computeroutput>outSkyRays</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>outIntersections</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a83a57f50db4b03b5b3ab957541afdd1f" kindref="member">MR_VertScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="126" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="126" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSolarRadiation_8h_1acfa6c5e671e19575abb44566f6a989cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *</type>
+        <definition>MRC_API MR_BitSet * MR_findSkyRays</definition>
+        <argsstring>(const MR_Mesh *terrain, const MR_VertCoords *samples, const MR_VertBitSet *validSamples, const MR_std_vector_MR_SkyPatch *skyPatches, MR_std_vector_MR_MeshIntersectionResult *outIntersections)</argsstring>
+        <name>MR_findSkyRays</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validSamples</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref> *</type>
+          <declname>skyPatches</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref> *</type>
+          <declname>outIntersections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In each valid sample point tests the rays from that point in the sky; <simplesect kind="return"><para>bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don&apos;t hit anything and reach the sky </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outIntersections</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <computeroutput>MR::findSkyRays</computeroutput>. Parameter <computeroutput>terrain</computeroutput> can not be null. It is a single object. Parameter <computeroutput>samples</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validSamples</computeroutput> can not be null. It is a single object. Parameter <computeroutput>skyPatches</computeroutput> can not be null. It is a single object. Parameter <computeroutput>outIntersections</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a051229b3987e1901ba57e522e36f92cc" kindref="member">MR_BitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" line="139" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h" declline="139" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRSolarRadiation_8h_1a36d7d5a26d258211a2da5d9311a0798c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRSolarRadiation_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRSolarRadiation_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRSolarRadiation_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSolarRadiation_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref><sp/><ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshIntersectionResult.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref><sp/><ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_SkyPatch.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRSolarRadiation_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRSolarRadiation_8h_1a6bd20b8037df7f3a5125e03df3b8d147" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a6bd20b8037df7f3a5125e03df3b8d147" kindref="member">MR_sampleHalfSphere</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRSolarRadiation_8h_1a4e2fb410c02328faaed31925303d4466" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a4e2fb410c02328faaed31925303d4466" kindref="member">MR_SkyPatch_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRSolarRadiation_8h_1aaafa5856b757637df4d2bf1daa3d56b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aaafa5856b757637df4d2bf1daa3d56b1" kindref="member">MR_SkyPatch_Set_dir</ref>(<ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRSolarRadiation_8h_1a5d79f68f6ada312adfc6eeb1c777709d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a5d79f68f6ada312adfc6eeb1c777709d" kindref="member">MR_SkyPatch_GetMutable_dir</ref>(<ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRSolarRadiation_8h_1ac3891fa3876a9093ab9343ed0f5f51f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSolarRadiation_8h_1ac3891fa3876a9093ab9343ed0f5f51f1" kindref="member">MR_SkyPatch_Get_radiation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRSolarRadiation_8h_1ad1b66f58df9d829567fe411b52b0d091" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1ad1b66f58df9d829567fe411b52b0d091" kindref="member">MR_SkyPatch_Set_radiation</ref>(<ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRSolarRadiation_8h_1a1c46daf24f82fe0b9a4e94b416c2b180" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSolarRadiation_8h_1a1c46daf24f82fe0b9a4e94b416c2b180" kindref="member">MR_SkyPatch_GetMutable_radiation</ref>(<ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRSolarRadiation_8h_1a64d8a4e88ee782e736635b57b5b7f93d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a64d8a4e88ee782e736635b57b5b7f93d" kindref="member">MR_SkyPatch_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRSolarRadiation_8h_1a8734b0df408b6345dc12a9f464548d4c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a8734b0df408b6345dc12a9f464548d4c" kindref="member">MR_SkyPatch_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRSolarRadiation_8h_1ae16f4c918c8d00fcab136599aaaf9042" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1ae16f4c918c8d00fcab136599aaaf9042" kindref="member">MR_SkyPatch_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>dir,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radiation);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRSolarRadiation_8h_1a6a14607383b420ecd03c78e454f2695d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a6a14607383b420ecd03c78e454f2695d" kindref="member">MR_SkyPatch_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRSolarRadiation_8h_1a0196e32e6f2146982c4aa46c32b2fd24" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a0196e32e6f2146982c4aa46c32b2fd24" kindref="member">MR_SkyPatch_OffsetMutablePtr</ref>(<ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRSolarRadiation_8h_1ac58022dfabe16c6c6b3bf0cd7367106a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1ac58022dfabe16c6c6b3bf0cd7367106a" kindref="member">MR_SkyPatch_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" kindref="member">MR_SkyPatch_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRSolarRadiation_8h_1a7a3965342009fc9a5a05a1513e2ce36d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1a7a3965342009fc9a5a05a1513e2ce36d" kindref="member">MR_SkyPatch_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRSolarRadiation_8h_1adab37cffd7d4c7966952cf56deb11b83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*<ref refid="MRSolarRadiation_8h_1adab37cffd7d4c7966952cf56deb11b83" kindref="member">MR_SkyPatch_AssignFromAnother</ref>(<ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1aea5a1c36d53f5c2d9e2e8918ffdc3081" kindref="member">MR_SkyPatch</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRSolarRadiation_8h_1a4fc100c0bf7ede6c34c388a18c3554b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRSolarRadiation_8h_1a4fc100c0bf7ede6c34c388a18c3554b0" kindref="member">MR_computeSkyViewFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*terrain,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref><sp/>*skyPatches,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*outSkyRays,<sp/><ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref><sp/>*outIntersections);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRSolarRadiation_8h_1acfa6c5e671e19575abb44566f6a989cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*<ref refid="MRSolarRadiation_8h_1acfa6c5e671e19575abb44566f6a989cc" kindref="member">MR_findSkyRays</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*terrain,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSolarRadiation_8h_1a871d6f88c45ba11ce55155f87fdbe4c9" kindref="member">MR_std_vector_MR_SkyPatch</ref><sp/>*skyPatches,<sp/><ref refid="MRSolarRadiation_8h_1a036dc80bf10949d81e50517828e6d453" kindref="member">MR_std_vector_MR_MeshIntersectionResult</ref><sp/>*outIntersections);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSolarRadiation.h"/>
+  </compounddef>
+</doxygen>

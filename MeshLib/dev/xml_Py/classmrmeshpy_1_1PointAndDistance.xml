@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointAndDistance" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointAndDistance</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointAndDistance_1a7772e0517fc9e37fb5546777477a2498" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointAndDistance::_offsetof_dist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dist</name>
+        <qualifiedname>mrmeshpy.PointAndDistance._offsetof_dist</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointAndDistance_1aae0f5d91c7fea22da45e4e2d058b6109" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointAndDistance::_offsetof_vId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vId</name>
+        <qualifiedname>mrmeshpy.PointAndDistance._offsetof_vId</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44224" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a5a41722f9e5a2b1f020d21de631ee802" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointAndDistance.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44227" bodyend="44228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a2e224381b956d682097d1712ffa8692c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointAndDistance" kindref="compound">PointAndDistance</ref></type>
+        <definition> PointAndDistance mrmeshpy.PointAndDistance.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44231" bodyend="44232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a2e224381b956d682097d1712ffa8692c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointAndDistance" kindref="compound">PointAndDistance</ref></type>
+        <definition> PointAndDistance mrmeshpy.PointAndDistance.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44235" bodyend="44236"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1ae4f022404f88348654a649b5b3068c9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointAndDistance.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44237" bodyend="44238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1addfba7822541a5ed3f05feefde43f771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointAndDistance.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44240" bodyend="44241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a983b99b06b5994ae4ffcebd06717efee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointAndDistance.__init__</definition>
+        <argsstring>(self, PointAndDistance arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointAndDistance" kindref="compound">PointAndDistance</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44243" bodyend="44246"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1afd529702870bf29b8429fc205b34e769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointAndDistance.__init__</definition>
+        <argsstring>(self, VertId vId, float dist)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>vId</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44248" bodyend="44251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1af9ef79adac874c4838fa7dc8b046c798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointAndDistance.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>check for validity, otherwise there is no point closer than maxBidirDist
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44252" bodyend="44255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1ad94c1bda0787c23d0d71f8f714e5c774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointAndDistance.dist</definition>
+        <argsstring>(self)</argsstring>
+        <name>dist</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.dist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the distance from input location to point vId considering point&apos;s weight
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44257" bodyend="44260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a5fc678de83dcdebc7dbd1a5a874ce8d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointAndDistance.dist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>dist</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.dist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44262" bodyend="44263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a39eb941c5a88e6df1c50bdcdd936d693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PointAndDistance.vId</definition>
+        <argsstring>(self)</argsstring>
+        <name>vId</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.vId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a cloud&apos;s point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44265" bodyend="44268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointAndDistance_1a1a32971c21f86c6172c4f16cd063c4c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointAndDistance.vId</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>vId</name>
+        <qualifiedname>mrmeshpy.PointAndDistance.vId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44270" bodyend="44271"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointAndDistance
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointAndDistance</label>
+        <link refid="classmrmeshpy_1_1PointAndDistance"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dist</edgelabel>
+          <edgelabel>_offsetof_vId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44219" bodyend="44271"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1ae4f022404f88348654a649b5b3068c9e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a5a41722f9e5a2b1f020d21de631ee802" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1addfba7822541a5ed3f05feefde43f771" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a983b99b06b5994ae4ffcebd06717efee" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1afd529702870bf29b8429fc205b34e769" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a7772e0517fc9e37fb5546777477a2498" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>_offsetof_dist</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1aae0f5d91c7fea22da45e4e2d058b6109" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>_offsetof_vId</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1ad94c1bda0787c23d0d71f8f714e5c774" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>dist</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a5fc678de83dcdebc7dbd1a5a874ce8d1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>dist</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a2e224381b956d682097d1712ffa8692c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a2e224381b956d682097d1712ffa8692c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1af9ef79adac874c4838fa7dc8b046c798" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a39eb941c5a88e6df1c50bdcdd936d693" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>vId</name></member>
+      <member refid="classmrmeshpy_1_1PointAndDistance_1a1a32971c21f86c6172c4f16cd063c4c7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointAndDistance</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

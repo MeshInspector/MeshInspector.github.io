@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NumSum" kind="class" language="C#" prot="public">
+    <compoundname>MR::NumSum</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NumSum</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NumSum_1a7809ee0659836c4b28ece0af71b793eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NumSum.num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <qualifiedname>MR.NumSum.num</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1257" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1NumSum_1a2a8f969c81a89b7a90271eda1e5ae188" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.NumSum.sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <qualifiedname>MR.NumSum.sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1259" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1259" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NumSum_1a0357ab6cc3974fab7696d0fa271d68df" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NumSum.NumSum</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NumSum</name>
+        <qualifiedname>MR.NumSum.NumSum</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1263" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1263" bodyend="1267"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NumSum_1a1c7c11d244fd80153b9cccf795efd201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NumSum.NumSum</definition>
+        <argsstring>()</argsstring>
+        <name>NumSum</name>
+        <qualifiedname>MR.NumSum.NumSum</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1273" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1273" bodyend="1279"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NumSum_1a5203d8c61a6cb8480b2cd01b43a87dd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NumSum.NumSum</definition>
+        <argsstring>(int num, double sum)</argsstring>
+        <name>NumSum</name>
+        <qualifiedname>MR.NumSum.NumSum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sum</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1NumSum" kindref="compound">MR.NumSum</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1284" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1284" bodyend="1290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NumSum_1adba797e0e7fd378387d45560db892b5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NumSum.NumSum</definition>
+        <argsstring>(MR.Const_NumSum _other)</argsstring>
+        <name>NumSum</name>
+        <qualifiedname>MR.NumSum.NumSum</qualifiedname>
+        <param>
+          <type>MR.Const_NumSum</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NumSum.NumSum</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1295" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1295" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NumSum_1a93344442769356b9f71e8fae0d92c364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NumSum.NumSum</definition>
+        <argsstring>(NumSum _other)</argsstring>
+        <name>NumSum</name>
+        <qualifiedname>MR.NumSum.NumSum</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NumSum" kindref="compound">NumSum</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NumSum.NumSum</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1307" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1307" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NumSum_1a89a96b8b942f9dfb0cc17bf15df9ad77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NumSum" kindref="compound">MR.NumSum</ref></type>
+        <definition>unsafe MR.NumSum MR.NumSum.assign</definition>
+        <argsstring>(MR.Const_NumSum _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NumSum.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NumSum</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NumSum.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1312" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1312" bodyend="1319"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1NumSum" kindref="compound">MR.NumSum</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NumSum</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NumSum</label>
+        <link refid="classMR_1_1NumSum"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NumSum &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NumSum</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NumSum</label>
+        <link refid="classMR_1_1NumSum"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NumSum &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1255" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1256" bodyend="1320"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NumSum_1a89a96b8b942f9dfb0cc17bf15df9ad77" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>assign</name></member>
+      <member refid="classMR_1_1NumSum_1a7809ee0659836c4b28ece0af71b793eb" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>num</name></member>
+      <member refid="classMR_1_1NumSum_1a0357ab6cc3974fab7696d0fa271d68df" prot="package" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
+      <member refid="classMR_1_1NumSum_1a1c7c11d244fd80153b9cccf795efd201" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
+      <member refid="classMR_1_1NumSum_1a5203d8c61a6cb8480b2cd01b43a87dd6" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
+      <member refid="classMR_1_1NumSum_1adba797e0e7fd378387d45560db892b5b" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
+      <member refid="classMR_1_1NumSum_1a93344442769356b9f71e8fae0d92c364" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
+      <member refid="classMR_1_1NumSum_1a2a8f969c81a89b7a90271eda1e5ae188" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>sum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

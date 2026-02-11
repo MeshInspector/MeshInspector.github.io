@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceMapSaveSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceMapSaveSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a3698ff5e29689e75df18f6dd1457c76d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapSaveSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings._offsetof_progress</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a307271e13be09294e50d672ca699dd1c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapSaveSettings::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings._offsetof_xf</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13666" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a90190ff7dfc4573dab7296c2d730d513" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSaveSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13669" bodyend="13670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1aed345da71bcd7438040c4cd78f4e4306" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+        <definition> DistanceMapSaveSettings mrmeshpy.DistanceMapSaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13673" bodyend="13674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1aed345da71bcd7438040c4cd78f4e4306" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+        <definition> DistanceMapSaveSettings mrmeshpy.DistanceMapSaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13677" bodyend="13678"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a9a75eff73bb47e1c3fb61c0deb66f691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSaveSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13680" bodyend="13681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a68afecad67489eacf975f0c27497e7e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSaveSettings.__init__</definition>
+        <argsstring>(self, DistanceMapSaveSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13683" bodyend="13686"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1acfc53137bf2ee9cc858aff2717fef553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSaveSettings.__init__</definition>
+        <argsstring>(self, AffineXf3f xf, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13688" bodyend="13691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a026f254dfa2184e3e5c17b595ce26794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DistanceMapSaveSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report save progress and cancel saving if user desires
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13693" bodyend="13696"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a6abfec86888701eafa88b51647de19b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSaveSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13698" bodyend="13699"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a9bc91d81c4c67ecd633f98f0eef5f244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.DistanceMapSaveSettings.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional distance map to world transform
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13701" bodyend="13704"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapSaveSettings_1a4cc2e4d95711778f7a083a68e4d9bc52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapSaveSettings.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.DistanceMapSaveSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13706" bodyend="13707"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DistanceMapSaveSettings
+
+determines how to save distance maps
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceMapSaveSettings</label>
+        <link refid="classmrmeshpy_1_1DistanceMapSaveSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13659" bodyend="13707"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a90190ff7dfc4573dab7296c2d730d513" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a9a75eff73bb47e1c3fb61c0deb66f691" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a68afecad67489eacf975f0c27497e7e7" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1acfc53137bf2ee9cc858aff2717fef553" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a3698ff5e29689e75df18f6dd1457c76d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a307271e13be09294e50d672ca699dd1c" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1aed345da71bcd7438040c4cd78f4e4306" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1aed345da71bcd7438040c4cd78f4e4306" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a026f254dfa2184e3e5c17b595ce26794" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a6abfec86888701eafa88b51647de19b5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a9bc91d81c4c67ecd633f98f0eef5f244" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapSaveSettings_1a4cc2e4d95711778f7a083a68e4d9bc52" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapSaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

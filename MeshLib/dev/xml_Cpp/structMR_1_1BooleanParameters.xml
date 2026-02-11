@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BooleanParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BooleanParameters</compoundname>
+    <includes refid="MRMeshBoolean_8h" local="no">MRMeshBoolean.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1aa7d29b950e89579308197da903b43d92" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::BooleanParameters::rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>rigidB2A</name>
+        <qualifiedname>MR::BooleanParameters::rigidB2A</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="79" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1af122b254d2e75cc6cb395664d901d802" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref> *</type>
+        <definition>BooleanResultMapper* MR::BooleanParameters::mapper</definition>
+        <argsstring></argsstring>
+        <name>mapper</name>
+        <qualifiedname>MR::BooleanParameters::mapper</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1af4d200cef62096c6780b126ec5eaf0a7" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref> *</type>
+        <definition>BooleanPreCutResult* MR::BooleanParameters::outPreCutA</definition>
+        <argsstring></argsstring>
+        <name>outPreCutA</name>
+        <qualifiedname>MR::BooleanParameters::outPreCutA</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Optional precut output of meshA, if present - does not perform boolean and just return them. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="85" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a3c9ab9ed36085974e0aedcdba8ee7b0c" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref> *</type>
+        <definition>BooleanPreCutResult* MR::BooleanParameters::outPreCutB</definition>
+        <argsstring></argsstring>
+        <name>outPreCutB</name>
+        <qualifiedname>MR::BooleanParameters::outPreCutB</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Optional precut output of meshB, if present - does not perform boolean and just return them. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="88" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a4e9fd686cd57658f583e243451c94393" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespaceMR_1a099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> &gt; *</type>
+        <definition>std::vector&lt;EdgeLoop&gt;* MR::BooleanParameters::outCutEdges</definition>
+        <argsstring></argsstring>
+        <name>outCutEdges</name>
+        <qualifiedname>MR::BooleanParameters::outCutEdges</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Optional output cut edges of booleaned meshes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="91" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a4617bb49dfbad4a7fda08bd0c7a9fe2e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BooleanParameters::mergeAllNonIntersectingComponents</definition>
+        <argsstring></argsstring>
+        <name>mergeAllNonIntersectingComponents</name>
+        <qualifiedname>MR::BooleanParameters::mergeAllNonIntersectingComponents</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By default produce valid operation on disconnected components if set merge all non-intersecting components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="95" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a4502c74eb11e7d2d08ea54e0fa153ac1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BooleanParameters::forceCut</definition>
+        <argsstring></argsstring>
+        <name>forceCut</name>
+        <qualifiedname>MR::BooleanParameters::forceCut</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="100" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a3e10d01aa0e3e192325518ba6d1ea24c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::BooleanParameters::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::BooleanParameters::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="102" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BooleanParameters</label>
+        <link refid="structMR_1_1BooleanParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mapper</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>outPreCutA</edgelabel>
+          <edgelabel>outPreCutB</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::BooleanPreCutResult</label>
+        <link refid="structMR_1_1BooleanPreCutResult"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::BooleanResultMapper</label>
+        <link refid="structMR_1_1BooleanResultMapper"/>
+      </node>
+      <node id="4">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="77" bodyend="103"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BooleanParameters_1a3e10d01aa0e3e192325518ba6d1ea24c" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>cb</name></member>
+      <member refid="structMR_1_1BooleanParameters_1a4502c74eb11e7d2d08ea54e0fa153ac1" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>forceCut</name></member>
+      <member refid="structMR_1_1BooleanParameters_1af122b254d2e75cc6cb395664d901d802" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>mapper</name></member>
+      <member refid="structMR_1_1BooleanParameters_1a4617bb49dfbad4a7fda08bd0c7a9fe2e" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>mergeAllNonIntersectingComponents</name></member>
+      <member refid="structMR_1_1BooleanParameters_1a4e9fd686cd57658f583e243451c94393" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>outCutEdges</name></member>
+      <member refid="structMR_1_1BooleanParameters_1af4d200cef62096c6780b126ec5eaf0a7" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>outPreCutA</name></member>
+      <member refid="structMR_1_1BooleanParameters_1a3c9ab9ed36085974e0aedcdba8ee7b0c" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>outPreCutB</name></member>
+      <member refid="structMR_1_1BooleanParameters_1aa7d29b950e89579308197da903b43d92" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>rigidB2A</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

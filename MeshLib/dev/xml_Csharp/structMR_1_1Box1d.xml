@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Box1d" kind="struct" language="C#" prot="public">
+    <compoundname>MR::Box1d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Box1d &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Box1d_1a3d842d38df69f088a1afbf95393c9744" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR.Box1d.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.Box1d.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3539" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Box1d_1a71ad126f244163efb56499eb4548de79" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR.Box1d.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.Box1d.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3542" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3542" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="structMR_1_1Box1d_1a81b38d86c0881c5c32cf3156e10f2110" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Box1d.this[int e]</qualifiedname>
+        <briefdescription>
+<para>min/max access by 0/1 index Generated from method <computeroutput>MR.Box1d.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3588" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3589" bodyend="3599"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1Box1d_1a923402ce610f6f1e153a1645eb634d9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.Box1d.operator Box1d</definition>
+        <argsstring>(ConstBox_Box1d other)</argsstring>
+        <name>operator Box1d</name>
+        <qualifiedname>MR.Box1d.operator Box1d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box1d" kindref="compound">ConstBox_Box1d</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3547" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a1fa8a9f44e9fd1dc21be011294a2e182" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>static unsafe MR.Box1d MR.Box1d.fromMinAndSize</definition>
+        <argsstring>(double min, double size)</argsstring>
+        <name>fromMinAndSize</name>
+        <qualifiedname>MR.Box1d.fromMinAndSize</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a1fa8a9f44e9fd1dc21be011294a2e182" kindref="member">MR.Box1d.fromMinAndSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3617" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3617" bodyend="3622"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1ad0c26f54b713118cfd71b89f33f28e48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Box1d.getMinBoxCorner</definition>
+        <argsstring>(double n)</argsstring>
+        <name>getMinBoxCorner</name>
+        <qualifiedname>MR.Box1d.getMinBoxCorner</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1ad0c26f54b713118cfd71b89f33f28e48" kindref="member">MR.Box1d.getMinBoxCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3673" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3673" bodyend="3678"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a29239a80f2401ee22b2b3b377c8bd02b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Box1d.getMaxBoxCorner</definition>
+        <argsstring>(double n)</argsstring>
+        <name>getMaxBoxCorner</name>
+        <qualifiedname>MR.Box1d.getMaxBoxCorner</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a29239a80f2401ee22b2b3b377c8bd02b" kindref="member">MR.Box1d.getMaxBoxCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3685" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3685" bodyend="3690"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1aebced3b103192b452452f782e00cbe3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Box1d.operator==</definition>
+        <argsstring>(MR.Box1d _this, MR.Box1d a)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Box1d.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Box1d.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3939" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3939" bodyend="3944"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1af3f74ea445645c5b4e1727679818f175" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Box1d.operator!=</definition>
+        <argsstring>(MR.Box1d _this, MR.Box1d a)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Box1d.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3946" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3946" bodyend="3949"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Box1d_1a621fde967c09cb94f858d698472dbdfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Box1d.Box1d</definition>
+        <argsstring>(Box1d _other)</argsstring>
+        <name>Box1d</name>
+        <qualifiedname>MR.Box1d.Box1d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">Box1d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3552" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3552" bodyend="3552"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1af66359d47becf2cc2217e4f27f61a4e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box1d.Box1d</definition>
+        <argsstring>()</argsstring>
+        <name>Box1d</name>
+        <qualifiedname>MR.Box1d.Box1d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3557" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3557" bodyend="3562"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a951e8b662600c062eaa7d5b63dde58c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box1d.Box1d</definition>
+        <argsstring>(double min, double max)</argsstring>
+        <name>Box1d</name>
+        <qualifiedname>MR.Box1d.Box1d</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Box1d_1a621fde967c09cb94f858d698472dbdfb" kindref="member">MR.Box1d.Box1d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3567" bodyend="3572"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1aa036046c70fb7100ecc72b1db5b339ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box1d.Box1d</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box1d</name>
+        <qualifiedname>MR.Box1d.Box1d</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Box1d_1a621fde967c09cb94f858d698472dbdfb" kindref="member">MR.Box1d.Box1d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3577" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3577" bodyend="3582"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1ad4dc58aeddefc13a3e7d2deb76397eec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref double</type>
+        <definition>unsafe ref double MR.Box1d.index</definition>
+        <argsstring>(int e)</argsstring>
+        <name>index</name>
+        <qualifiedname>MR.Box1d.index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Box1d.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3604" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3604" bodyend="3612"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a0a3fcd7c5e11ea47554a5f5713d70718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Box1d.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Box1d.valid</qualifiedname>
+        <briefdescription>
+<para>true if the box contains at least one point Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a0a3fcd7c5e11ea47554a5f5713d70718" kindref="member">MR.Box1d.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3628" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3628" bodyend="3636"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1af2d64901a26316e1834a7f71a8be3848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Box1d.center</qualifiedname>
+        <briefdescription>
+<para>computes center of the box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1af2d64901a26316e1834a7f71a8be3848" kindref="member">MR.Box1d.center</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3642" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3642" bodyend="3650"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a70a92f72ac3c18a820e8c6124a98ba81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.corner</definition>
+        <argsstring>(bool c)</argsstring>
+        <name>corner</name>
+        <qualifiedname>MR.Box1d.corner</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a70a92f72ac3c18a820e8c6124a98ba81" kindref="member">MR.Box1d.corner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3658" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3658" bodyend="3666"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1acbf7609f9491c1acc32c0bb33faf097d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Box1d.size</qualifiedname>
+        <briefdescription>
+<para>computes size of the box in all dimensions Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1acbf7609f9491c1acc32c0bb33faf097d" kindref="member">MR.Box1d.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3696" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3696" bodyend="3704"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1ab015496726022125c07d85f1fc5668cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.diagonal</definition>
+        <argsstring>()</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR.Box1d.diagonal</qualifiedname>
+        <briefdescription>
+<para>computes length from min to max Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1ab015496726022125c07d85f1fc5668cf" kindref="member">MR.Box1d.diagonal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3710" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3710" bodyend="3718"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a76c32cf3308fa5976bd4a7c67b2bfc95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.volume</definition>
+        <argsstring>()</argsstring>
+        <name>volume</name>
+        <qualifiedname>MR.Box1d.volume</qualifiedname>
+        <briefdescription>
+<para>computes the volume of this box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a76c32cf3308fa5976bd4a7c67b2bfc95" kindref="member">MR.Box1d.volume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3724" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3724" bodyend="3732"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1affc583d3797286e09d9e391ab78d031d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box1d.include</definition>
+        <argsstring>(double pt)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.Box1d.include</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>minimally increases the box to include given point Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1affc583d3797286e09d9e391ab78d031d" kindref="member">MR.Box1d.include</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3738" bodyend="3746"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a8cc8a6a62453c68f08f9cd07e678fe17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box1d.include</definition>
+        <argsstring>(in MR.Box1d b)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.Box1d.include</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>minimally increases the box to include another box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1affc583d3797286e09d9e391ab78d031d" kindref="member">MR.Box1d.include</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3752" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3752" bodyend="3763"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1afd6cfca2a99198103ba6968d510639c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Box1d.contains</definition>
+        <argsstring>(double pt)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.Box1d.contains</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given point is inside (including the surface) of this box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1afd6cfca2a99198103ba6968d510639c7" kindref="member">MR.Box1d.contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3769" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3769" bodyend="3777"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a86753508659a6a96d79a09a5010bb269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Box1d.contains</definition>
+        <argsstring>(in MR.Box1d otherbox)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.Box1d.contains</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>otherbox</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given box is fully inside (the surfaces may touch) of this box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1afd6cfca2a99198103ba6968d510639c7" kindref="member">MR.Box1d.contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3783" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3783" bodyend="3794"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1abfe4f9c35ca8eea7d6245fea4d1bf706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.getBoxClosestPointTo</definition>
+        <argsstring>(double pt)</argsstring>
+        <name>getBoxClosestPointTo</name>
+        <qualifiedname>MR.Box1d.getBoxClosestPointTo</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns closest point in the box to given point Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1abfe4f9c35ca8eea7d6245fea4d1bf706" kindref="member">MR.Box1d.getBoxClosestPointTo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3800" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3800" bodyend="3808"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a1e369e812cfab330a3caad077fd7e576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Box1d.intersects</definition>
+        <argsstring>(in MR.Box1d b)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR.Box1d.intersects</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>checks whether this box intersects or touches given box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a1e369e812cfab330a3caad077fd7e576" kindref="member">MR.Box1d.intersects</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3814" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3814" bodyend="3825"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a9aeafb4a6bf0329fe46eeab5004afb4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>readonly unsafe MR.Box1d MR.Box1d.intersection</definition>
+        <argsstring>(in MR.Box1d b)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR.Box1d.intersection</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>computes intersection between this and other box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a9aeafb4a6bf0329fe46eeab5004afb4b" kindref="member">MR.Box1d.intersection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3831" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3831" bodyend="3842"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1af606cf759f3d7beedebb74cefca027b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>unsafe ref MR.Box1d MR.Box1d.intersect</definition>
+        <argsstring>(in MR.Box1d b)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>MR.Box1d.intersect</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1af606cf759f3d7beedebb74cefca027b6" kindref="member">MR.Box1d.intersect</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3847" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3847" bodyend="3858"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a34ac0fd90efe69a2aaa257d5a92b576c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.getDistanceSq</definition>
+        <argsstring>(in MR.Box1d b)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR.Box1d.getDistanceSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance between this box and given one; returns zero if the boxes touch or intersect Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a34ac0fd90efe69a2aaa257d5a92b576c" kindref="member">MR.Box1d.getDistanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3865" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3865" bodyend="3876"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a960edf9e37d331592ffb90c0610da892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.getDistanceSq</definition>
+        <argsstring>(double pt)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR.Box1d.getDistanceSq</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance between this box and given point; returns zero if the point is inside or on the boundary of the box Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a34ac0fd90efe69a2aaa257d5a92b576c" kindref="member">MR.Box1d.getDistanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3883" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3883" bodyend="3891"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1ab82460243158ebe7dcb8b16a1b81bd43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe double</type>
+        <definition>readonly unsafe double MR.Box1d.getProjection</definition>
+        <argsstring>(double pt)</argsstring>
+        <name>getProjection</name>
+        <qualifiedname>MR.Box1d.getProjection</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns the closest point on the box to the given point for points outside the box this is equivalent to getBoxClosestPointTo Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1ab82460243158ebe7dcb8b16a1b81bd43" kindref="member">MR.Box1d.getProjection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3898" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3898" bodyend="3906"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1ae1d7e823351095a43de54f765ade63a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>readonly unsafe MR.Box1d MR.Box1d.expanded</definition>
+        <argsstring>(double expansion)</argsstring>
+        <name>expanded</name>
+        <qualifiedname>MR.Box1d.expanded</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>expansion</declname>
+        </param>
+        <briefdescription>
+<para>decreases min and increased max on given value Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1ae1d7e823351095a43de54f765ade63a6" kindref="member">MR.Box1d.expanded</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3912" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3912" bodyend="3920"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1a683bf3c180bd0fac2a39c70f15320961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>readonly unsafe MR.Box1d MR.Box1d.insignificantlyExpanded</definition>
+        <argsstring>()</argsstring>
+        <name>insignificantlyExpanded</name>
+        <qualifiedname>MR.Box1d.insignificantlyExpanded</qualifiedname>
+        <briefdescription>
+<para>decreases min and increases max to their closest representable value Generated from method <computeroutput><ref refid="structMR_1_1Box1d_1a683bf3c180bd0fac2a39c70f15320961" kindref="member">MR.Box1d.insignificantlyExpanded</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3926" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3926" bodyend="3934"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1aa614c1f83c43e58515b1b23292ba41c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Box1d.Equals</definition>
+        <argsstring>(MR.Box1d a)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Box1d.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3953" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3953" bodyend="3956"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box1d_1afadc94cd3a2cbd7cbc4750b9bb8e8dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Box1d.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Box1d.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3958" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3958" bodyend="3965"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Box1d</label>
+        <link refid="structMR_1_1Box1d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.Box1d &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Box1d</label>
+        <link refid="structMR_1_1Box1d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.Box1d &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3536" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3537" bodyend="3966"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Box1d_1a621fde967c09cb94f858d698472dbdfb" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>Box1d</name></member>
+      <member refid="structMR_1_1Box1d_1af66359d47becf2cc2217e4f27f61a4e6" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>Box1d</name></member>
+      <member refid="structMR_1_1Box1d_1a951e8b662600c062eaa7d5b63dde58c4" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>Box1d</name></member>
+      <member refid="structMR_1_1Box1d_1aa036046c70fb7100ecc72b1db5b339ec" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>Box1d</name></member>
+      <member refid="structMR_1_1Box1d_1af2d64901a26316e1834a7f71a8be3848" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>center</name></member>
+      <member refid="structMR_1_1Box1d_1afd6cfca2a99198103ba6968d510639c7" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>contains</name></member>
+      <member refid="structMR_1_1Box1d_1a86753508659a6a96d79a09a5010bb269" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>contains</name></member>
+      <member refid="structMR_1_1Box1d_1a70a92f72ac3c18a820e8c6124a98ba81" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>corner</name></member>
+      <member refid="structMR_1_1Box1d_1ab015496726022125c07d85f1fc5668cf" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>diagonal</name></member>
+      <member refid="structMR_1_1Box1d_1aa614c1f83c43e58515b1b23292ba41c0" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>Equals</name></member>
+      <member refid="structMR_1_1Box1d_1afadc94cd3a2cbd7cbc4750b9bb8e8dc3" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>Equals</name></member>
+      <member refid="structMR_1_1Box1d_1ae1d7e823351095a43de54f765ade63a6" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>expanded</name></member>
+      <member refid="structMR_1_1Box1d_1a1fa8a9f44e9fd1dc21be011294a2e182" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>fromMinAndSize</name></member>
+      <member refid="structMR_1_1Box1d_1abfe4f9c35ca8eea7d6245fea4d1bf706" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="structMR_1_1Box1d_1a34ac0fd90efe69a2aaa257d5a92b576c" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>getDistanceSq</name></member>
+      <member refid="structMR_1_1Box1d_1a960edf9e37d331592ffb90c0610da892" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>getDistanceSq</name></member>
+      <member refid="structMR_1_1Box1d_1a29239a80f2401ee22b2b3b377c8bd02b" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>getMaxBoxCorner</name></member>
+      <member refid="structMR_1_1Box1d_1ad0c26f54b713118cfd71b89f33f28e48" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>getMinBoxCorner</name></member>
+      <member refid="structMR_1_1Box1d_1ab82460243158ebe7dcb8b16a1b81bd43" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>getProjection</name></member>
+      <member refid="structMR_1_1Box1d_1affc583d3797286e09d9e391ab78d031d" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>include</name></member>
+      <member refid="structMR_1_1Box1d_1a8cc8a6a62453c68f08f9cd07e678fe17" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>include</name></member>
+      <member refid="structMR_1_1Box1d_1ad4dc58aeddefc13a3e7d2deb76397eec" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>index</name></member>
+      <member refid="structMR_1_1Box1d_1a683bf3c180bd0fac2a39c70f15320961" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>insignificantlyExpanded</name></member>
+      <member refid="structMR_1_1Box1d_1af606cf759f3d7beedebb74cefca027b6" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>intersect</name></member>
+      <member refid="structMR_1_1Box1d_1a9aeafb4a6bf0329fe46eeab5004afb4b" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>intersection</name></member>
+      <member refid="structMR_1_1Box1d_1a1e369e812cfab330a3caad077fd7e576" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>intersects</name></member>
+      <member refid="structMR_1_1Box1d_1a71ad126f244163efb56499eb4548de79" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>max</name></member>
+      <member refid="structMR_1_1Box1d_1a3d842d38df69f088a1afbf95393c9744" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>min</name></member>
+      <member refid="structMR_1_1Box1d_1a923402ce610f6f1e153a1645eb634d9d" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>operator Box1d</name></member>
+      <member refid="structMR_1_1Box1d_1af3f74ea445645c5b4e1727679818f175" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Box1d_1aebced3b103192b452452f782e00cbe3d" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Box1d_1acbf7609f9491c1acc32c0bb33faf097d" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>size</name></member>
+      <member refid="structMR_1_1Box1d_1a81b38d86c0881c5c32cf3156e10f2110" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>this[int e]</name></member>
+      <member refid="structMR_1_1Box1d_1a0a3fcd7c5e11ea47554a5f5713d70718" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>valid</name></member>
+      <member refid="structMR_1_1Box1d_1a76c32cf3308fa5976bd4a7c67b2bfc95" prot="public" virt="non-virtual"><scope>MR::Box1d</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FloatGridComponents" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FloatGridComponents</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FloatGridComponents_1a319097d77b66f34757f236540caeca00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag" kindref="compound">std_vector_TypedBitSet_Id_VoxelTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_VoxelTag mrmeshpy.FloatGridComponents.getAllComponents</definition>
+        <argsstring>(FloatGrid grid, float isoValue=0.0)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>mrmeshpy.FloatGridComponents.getAllComponents</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>isoValue</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds separated by iso-value components in grid space (0 voxel id is minimum active voxel in grid)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20979" bodyend="20982"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20974" bodyend="20982"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FloatGridComponents_1a319097d77b66f34757f236540caeca00" prot="public" virt="non-virtual"><scope>mrmeshpy::FloatGridComponents</scope><name>getAllComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

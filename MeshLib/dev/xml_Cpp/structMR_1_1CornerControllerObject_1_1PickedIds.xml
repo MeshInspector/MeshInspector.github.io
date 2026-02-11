@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CornerControllerObject_1_1PickedIds" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CornerControllerObject::PickedIds</compoundname>
+    <includes refid="MRViewportCornerController_8h" local="no">MRViewportCornerController.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1CornerControllerObject_1_1PickedIds_1a192c07449fb32e2b964cc6becc915dd4" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition>ViewportId MR::CornerControllerObject::PickedIds::vId</definition>
+        <argsstring></argsstring>
+        <name>vId</name>
+        <qualifiedname>MR::CornerControllerObject::PickedIds::vId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="22" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1CornerControllerObject_1_1PickedIds_1a907f52db81d2492d6da4f0359603a87f" prot="public" static="no" mutable="no">
+        <type>RegionId</type>
+        <definition>RegionId MR::CornerControllerObject::PickedIds::rId</definition>
+        <argsstring></argsstring>
+        <name>rId</name>
+        <qualifiedname>MR::CornerControllerObject::PickedIds::rId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="23" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1CornerControllerObject_1_1PickedIds_1af02af9e13de2b19fe312e071c1213cf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::CornerControllerObject::PickedIds::operator==</definition>
+        <argsstring>(const PickedIds &amp;other) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::CornerControllerObject::PickedIds::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="24" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::CornerControllerObject::PickedIds</label>
+        <link refid="structMR_1_1CornerControllerObject_1_1PickedIds"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="21" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CornerControllerObject_1_1PickedIds_1af02af9e13de2b19fe312e071c1213cf5" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject::PickedIds</scope><name>operator==</name></member>
+      <member refid="structMR_1_1CornerControllerObject_1_1PickedIds_1a907f52db81d2492d6da4f0359603a87f" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject::PickedIds</scope><name>rId</name></member>
+      <member refid="structMR_1_1CornerControllerObject_1_1PickedIds_1a192c07449fb32e2b964cc6becc915dd4" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject::PickedIds</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

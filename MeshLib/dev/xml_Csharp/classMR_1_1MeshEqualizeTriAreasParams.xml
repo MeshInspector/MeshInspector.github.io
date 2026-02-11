@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshEqualizeTriAreasParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshEqualizeTriAreasParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshEqualizeTriAreasParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1af5841b71eb6b9c923a283caeef3aa586" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshEqualizeTriAreasParams.noShrinkage</definition>
+        <argsstring></argsstring>
+        <name>noShrinkage</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.noShrinkage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="555" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1ab7e745f31e1561d212058f1d5f11c9f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshEqualizeTriAreasParams.hardSmoothTetrahedrons</definition>
+        <argsstring></argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.hardSmoothTetrahedrons</qualifiedname>
+        <briefdescription>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="558" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a6f1292ae2f55809386e260ad626cb1f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_VertScalars</type>
+        <definition>new unsafe MR.? Const_VertScalars MR.MeshEqualizeTriAreasParams.weights</definition>
+        <argsstring></argsstring>
+        <name>weights</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.weights</qualifiedname>
+        <briefdescription>
+<para>weight for each vertex. By default, all the vertices have equal weights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="561" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="562" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1ac16cac43b7aee6645062e4bc905743dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.MeshEqualizeTriAreasParams.iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.iterations</qualifiedname>
+        <briefdescription>
+<para>number of iterations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="574" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_VertBitSet</type>
+        <definition>new unsafe MR.? Const_VertBitSet MR.MeshEqualizeTriAreasParams.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.region</qualifiedname>
+        <briefdescription>
+<para>region to relax </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="577" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="578" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1adbcaef58601f7c404b72267c05f07988" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MeshEqualizeTriAreasParams.force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.force</qualifiedname>
+        <briefdescription>
+<para>speed of relaxing, typical values (0.0, 0.5] </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="590" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a5c0ecfb59473911cc9c1063d29626651" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshEqualizeTriAreasParams.limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.limitNearInitial</qualifiedname>
+        <briefdescription>
+<para>if true then maximal displacement of each point during denoising will be limited </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="593" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a8e8bb59424534582e08d97437801e9e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MeshEqualizeTriAreasParams.maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.maxInitialDist</qualifiedname>
+        <briefdescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="596" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="596" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a0d7884a31c110e494ce2b39bb1adcfdc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.MeshEqualizeTriAreasParams.operator MR.RelaxParams</definition>
+        <argsstring>(MeshEqualizeTriAreasParams self)</argsstring>
+        <name>operator MR.RelaxParams</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.operator MR.RelaxParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshEqualizeTriAreasParams" kindref="compound">MeshEqualizeTriAreasParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="536" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="536" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a0032d100d19a62734b15a9fa00ece630" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.MeshEqualizeTriAreasParams.operator MR.MeshRelaxParams</definition>
+        <argsstring>(MeshEqualizeTriAreasParams self)</argsstring>
+        <name>operator MR.MeshRelaxParams</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.operator MR.MeshRelaxParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshEqualizeTriAreasParams" kindref="compound">MeshEqualizeTriAreasParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="544" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="544" bodyend="551"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1abb35d5a5650eb0be4407b0a138fac7bc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshEqualizeTriAreasParams</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="600" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="600" bodyend="604"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a9ee9ea2ec4efd9c0987fa748cedf9e65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</definition>
+        <argsstring>()</argsstring>
+        <name>MeshEqualizeTriAreasParams</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="610" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="610" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1ab2446c493737974b3c6a9a9339db8dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</definition>
+        <argsstring>(MR.Const_MeshEqualizeTriAreasParams _other)</argsstring>
+        <name>MeshEqualizeTriAreasParams</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</qualifiedname>
+        <param>
+          <type>MR.Const_MeshEqualizeTriAreasParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="621" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="621" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a4fb112503135759cf22128f08bb4d23e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</definition>
+        <argsstring>(MeshEqualizeTriAreasParams _other)</argsstring>
+        <name>MeshEqualizeTriAreasParams</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshEqualizeTriAreasParams" kindref="compound">MeshEqualizeTriAreasParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="633" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="633" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a9c5a13d2757c4512b378c0eab99ef4a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshEqualizeTriAreasParams" kindref="compound">MR.MeshEqualizeTriAreasParams</ref></type>
+        <definition>unsafe MR.MeshEqualizeTriAreasParams MR.MeshEqualizeTriAreasParams.assign</definition>
+        <argsstring>(MR.Const_MeshEqualizeTriAreasParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MeshEqualizeTriAreasParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshEqualizeTriAreasParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="638" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="638" bodyend="645"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshEqualizeTriAreasParams" kindref="compound">MR.MeshEqualizeTriAreasParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeshRelaxParams" kindref="compound">MR.MeshRelaxParams</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1RelaxParams" kindref="compound">MR.RelaxParams</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshEqualizeTriAreasParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshEqualizeTriAreasParams</label>
+        <link refid="classMR_1_1MeshEqualizeTriAreasParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshEqualizeTriAreasParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshEqualizeTriAreasParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshEqualizeTriAreasParams</label>
+        <link refid="classMR_1_1MeshEqualizeTriAreasParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshEqualizeTriAreasParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="533" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="534" bodyend="646"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a9c5a13d2757c4512b378c0eab99ef4a1" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1adbcaef58601f7c404b72267c05f07988" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>force</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ab7e745f31e1561d212058f1d5f11c9f2" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ac16cac43b7aee6645062e4bc905743dc" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>iterations</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a5c0ecfb59473911cc9c1063d29626651" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>limitNearInitial</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a8e8bb59424534582e08d97437801e9e9" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>maxInitialDist</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1abb35d5a5650eb0be4407b0a138fac7bc" prot="package" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a9ee9ea2ec4efd9c0987fa748cedf9e65" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ab2446c493737974b3c6a9a9339db8dea" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a4fb112503135759cf22128f08bb4d23e" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1af5841b71eb6b9c923a283caeef3aa586" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>noShrinkage</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0032d100d19a62734b15a9fa00ece630" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.MeshRelaxParams</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0d7884a31c110e494ce2b39bb1adcfdc" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.RelaxParams</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>region</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a6f1292ae2f55809386e260ad626cb1f5" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

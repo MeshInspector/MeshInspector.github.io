@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1PointsToMeshProjector" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cuda::PointsToMeshProjector</compoundname>
+    <basecompoundref refid="classMR_1_1IPointsToMeshProjector" prot="public" virt="non-virtual">MR::IPointsToMeshProjector</basecompoundref>
+    <includes refid="MRCudaPointsToMeshProjector_8h" local="no">MRCudaPointsToMeshProjector.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2a52d4ebf64fb6db0fe6ecb8381c42f9" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; MeshProjectorData &gt;</type>
+        <definition>std::shared_ptr&lt;MeshProjectorData&gt; MR::Cuda::PointsToMeshProjector::meshData_</definition>
+        <argsstring></argsstring>
+        <name>meshData_</name>
+        <qualifiedname>MR::Cuda::PointsToMeshProjector::meshData_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="11" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1PointsToMeshProjector_1a3aeb5a1696989b8910c908bb8df1f215" prot="private" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
+        <definition>const Mesh* MR::Cuda::PointsToMeshProjector::mesh_</definition>
+        <argsstring></argsstring>
+        <name>mesh_</name>
+        <qualifiedname>MR::Cuda::PointsToMeshProjector::mesh_</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="12" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsToMeshProjector_1ac217c2f9f716d994aa1c0ab98369dc95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API</type>
+        <definition>MRCUDA_API MR::Cuda::PointsToMeshProjector::PointsToMeshProjector</definition>
+        <argsstring>()</argsstring>
+        <name>PointsToMeshProjector</name>
+        <qualifiedname>MR::Cuda::PointsToMeshProjector::PointsToMeshProjector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="15" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsToMeshProjector_1acea486c98480ff347d65eaed201897c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API void</type>
+        <definition>MRCUDA_API void MR::Cuda::PointsToMeshProjector::updateMeshData</definition>
+        <argsstring>(const Mesh *mesh) override</argsstring>
+        <name>updateMeshData</name>
+        <qualifiedname>MR::Cuda::PointsToMeshProjector::updateMeshData</qualifiedname>
+        <reimplements refid="classMR_1_1IPointsToMeshProjector_1a8386d444f8e600bb3fe67a31fc2c04f3">updateMeshData</reimplements>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>update all data related to the referencing mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="17" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsToMeshProjector_1a393b65262243753c160a11f48d57c301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API void</type>
+        <definition>MRCUDA_API void MR::Cuda::PointsToMeshProjector::findProjections</definition>
+        <argsstring>(std::vector&lt; MR::MeshProjectionResult &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</argsstring>
+        <name>findProjections</name>
+        <qualifiedname>MR::Cuda::PointsToMeshProjector::findProjections</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MR::MeshProjectionResult</ref> &gt; &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>objXf</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>refObjXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <briefdescription>
+<para>Computes the closest point on mesh to each of given points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector pf projections</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of points to project</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transform applied to points</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refObjXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transform applied to referencing mesh</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upDistLimitSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximal squared distance from point to mesh</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>loDistLimitSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>minimal squared distance from point to mesh</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="27" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsToMeshProjector_1a01151649b364309dda94e8170e3e10f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API size_t</type>
+        <definition>MRCUDA_API size_t MR::Cuda::PointsToMeshProjector::projectionsHeapBytes</definition>
+        <argsstring>(size_t numProjections) const override</argsstring>
+        <name>projectionsHeapBytes</name>
+        <qualifiedname>MR::Cuda::PointsToMeshProjector::projectionsHeapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IPointsToMeshProjector_1a2743e8821707c1810ac41b5918b2613c">projectionsHeapBytes</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+<para>Returns amount of additional memory needed to compute projections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="30" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Computes the closest point on mesh to each of given points on GPU. It caches data that necessary for computing. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::Cuda::PointsToMeshProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsToMeshProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IPointsToMeshProjector</label>
+        <link refid="classMR_1_1IPointsToMeshProjector"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Cuda::PointsToMeshProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsToMeshProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IPointsToMeshProjector</label>
+        <link refid="classMR_1_1IPointsToMeshProjector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" bodystart="10" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a393b65262243753c160a11f48d57c301" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1IPointsToMeshProjector_1affb7ba1779ad577458ada7ad99f578ce" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsToMeshProjector::"><scope>MR::Cuda::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a3aeb5a1696989b8910c908bb8df1f215" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>mesh_</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2a52d4ebf64fb6db0fe6ecb8381c42f9" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>meshData_</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ac217c2f9f716d994aa1c0ab98369dc95" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a01151649b364309dda94e8170e3e10f3" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1acea486c98480ff347d65eaed201897c2" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>updateMeshData</name></member>
+      <member refid="classMR_1_1IPointsToMeshProjector_1ac1a1633695c8776296054f81942a84dc" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>~IPointsToMeshProjector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

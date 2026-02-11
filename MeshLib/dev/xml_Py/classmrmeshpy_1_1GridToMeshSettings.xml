@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GridToMeshSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GridToMeshSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1a139e6b2c559423d389aa50028909bcb5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_adaptivity</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_adaptivity</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_adaptivity</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1a3250f373b82fd433dbf209e58d427d38" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_cb</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1a0f96e300b49918762e155e1aafe99276" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_isoValue</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isoValue</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_isoValue</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1a49efa7062b1e9d57e4717f34484121ac" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_maxFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxFaces</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_maxFaces</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1a7a6ae538083b722bbc64f002bbec2da8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_maxVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxVertices</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_maxVertices</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1a7636401659ee143babe516a964ae5e87" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_relaxDisorientedTriangles</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_relaxDisorientedTriangles</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_relaxDisorientedTriangles</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridToMeshSettings_1affe7a8a86512241e5739ea535ddf96c8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridToMeshSettings::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings._offsetof_voxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22518" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a2f2f583f81b188ea30f91fecb4356ec8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22522" bodyend="22523"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a8267e9af02649a43cc07895f21dc140b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></type>
+        <definition> GridToMeshSettings mrmeshpy.GridToMeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22526" bodyend="22527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a8267e9af02649a43cc07895f21dc140b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></type>
+        <definition> GridToMeshSettings mrmeshpy.GridToMeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22530" bodyend="22531"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a82f55d43ee3ebcc074c4769bb4fad0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22533" bodyend="22534"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a28bc50f0d081b5c066e9343b0bb6b3a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.__init__</definition>
+        <argsstring>(self, GridToMeshSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22536" bodyend="22539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1aaa3c5b98881385ba210cb5fb812fe9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.__init__</definition>
+        <argsstring>(self, Vector3f voxelSize, float isoValue, float adaptivity, int maxFaces, int maxVertices, bool relaxDisorientedTriangles, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>isoValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>adaptivity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxFaces</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxVertices</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>relaxDisorientedTriangles</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22541" bodyend="22544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1af029edffb86bd3baf346c9dcbf5087be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.GridToMeshSettings.adaptivity</definition>
+        <argsstring>(self)</argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.adaptivity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22546" bodyend="22549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a1ec815949c9b4bb602ba53682e2a3cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.adaptivity</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.adaptivity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22551" bodyend="22552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1aff338b058789a81e9e047604d6d91498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.GridToMeshSettings.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to receive progress and request cancellation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22554" bodyend="22557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a78671d4ca42fa198f68daec743891ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22559" bodyend="22560"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1aba0bad833e406ab42af696d38e81be61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.GridToMeshSettings.isoValue</definition>
+        <argsstring>(self)</argsstring>
+        <name>isoValue</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.isoValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22562" bodyend="22565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1af36f3b59b8e6840640da24bdd4279b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.isoValue</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>isoValue</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.isoValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22567" bodyend="22568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a987331deb90884a867427a56ac716b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridToMeshSettings.maxFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxFaces</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.maxFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if the mesh exceeds this number of faces, an error returns
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22570" bodyend="22573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a7b949e1f0eceac05229fdda69c7bdb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.maxFaces</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxFaces</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.maxFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22575" bodyend="22576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a122fa0eccbb01097c71d40b5d07ca869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridToMeshSettings.maxVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxVertices</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.maxVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if the mesh exceeds this number of vertices, an error returns
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22578" bodyend="22581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a43842d38f571c901db2dc7f9688163f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.maxVertices</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxVertices</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.maxVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22583" bodyend="22584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1ab02e091f82cd4421d16e437e5463c761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.GridToMeshSettings.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the size of each voxel in the grid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22586" bodyend="22589"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridToMeshSettings_1a5e0c70169d762bed91060bc3c8abea42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridToMeshSettings.voxelSize</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.GridToMeshSettings.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22591" bodyend="22592"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GridToMeshSettings
+
+parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorithm
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GridToMeshSettings</label>
+        <link refid="classmrmeshpy_1_1GridToMeshSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_adaptivity</edgelabel>
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_isoValue</edgelabel>
+          <edgelabel>_offsetof_maxFaces</edgelabel>
+          <edgelabel>_offsetof_maxVertices</edgelabel>
+          <edgelabel>_offsetof_relaxDisorientedTriangles</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22506" bodyend="22592"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a2f2f583f81b188ea30f91fecb4356ec8" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a82f55d43ee3ebcc074c4769bb4fad0de" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a28bc50f0d081b5c066e9343b0bb6b3a1" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1aaa3c5b98881385ba210cb5fb812fe9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a139e6b2c559423d389aa50028909bcb5" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a3250f373b82fd433dbf209e58d427d38" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a0f96e300b49918762e155e1aafe99276" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_isoValue</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a49efa7062b1e9d57e4717f34484121ac" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_maxFaces</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a7a6ae538083b722bbc64f002bbec2da8" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_maxVertices</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a7636401659ee143babe516a964ae5e87" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_relaxDisorientedTriangles</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1affe7a8a86512241e5739ea535ddf96c8" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1af029edffb86bd3baf346c9dcbf5087be" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a1ec815949c9b4bb602ba53682e2a3cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1aff338b058789a81e9e047604d6d91498" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a78671d4ca42fa198f68daec743891ab0" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1aba0bad833e406ab42af696d38e81be61" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>isoValue</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1af36f3b59b8e6840640da24bdd4279b65" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>isoValue</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a987331deb90884a867427a56ac716b78" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>maxFaces</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a7b949e1f0eceac05229fdda69c7bdb06" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>maxFaces</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a122fa0eccbb01097c71d40b5d07ca869" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>maxVertices</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a43842d38f571c901db2dc7f9688163f3" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>maxVertices</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a8267e9af02649a43cc07895f21dc140b" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a8267e9af02649a43cc07895f21dc140b" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1ab02e091f82cd4421d16e437e5463c761" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1GridToMeshSettings_1a5e0c70169d762bed91060bc3c8abea42" prot="public" virt="non-virtual"><scope>mrmeshpy::GridToMeshSettings</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

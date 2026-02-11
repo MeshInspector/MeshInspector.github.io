@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SimpleTimeRecord" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SimpleTimeRecord</compoundname>
+    <derivedcompoundref refid="structMR_1_1TimeRecord" prot="public" virt="non-virtual">MR::TimeRecord</derivedcompoundref>
+    <includes refid="MRTimeRecord_8h" local="no">MRTimeRecord.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SimpleTimeRecord::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>MR::SimpleTimeRecord::count</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="18" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SimpleTimeRecord_1a783bd5b3455191ffcbf6c59363d9e81e" prot="public" static="no" mutable="no">
+        <type>std::chrono::nanoseconds</type>
+        <definition>std::chrono::nanoseconds MR::SimpleTimeRecord::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <qualifiedname>MR::SimpleTimeRecord::time</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="19" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1SimpleTimeRecord_1a5bc2244721bb50d4a1d54c4d3cedd459" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double MR::SimpleTimeRecord::seconds</definition>
+        <argsstring>() const</argsstring>
+        <name>seconds</name>
+        <qualifiedname>MR::SimpleTimeRecord::seconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="20" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::SimpleTimeRecord</label>
+        <link refid="structMR_1_1SimpleTimeRecord"/>
+      </node>
+      <node id="3">
+        <label>MR::ThreadRootTimeRecord</label>
+        <link refid="structMR_1_1ThreadRootTimeRecord"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::TimeRecord</label>
+        <link refid="structMR_1_1TimeRecord"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="17" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" prot="public" virt="non-virtual"><scope>MR::SimpleTimeRecord</scope><name>count</name></member>
+      <member refid="structMR_1_1SimpleTimeRecord_1a5bc2244721bb50d4a1d54c4d3cedd459" prot="public" virt="non-virtual"><scope>MR::SimpleTimeRecord</scope><name>seconds</name></member>
+      <member refid="structMR_1_1SimpleTimeRecord_1a783bd5b3455191ffcbf6c59363d9e81e" prot="public" virt="non-virtual"><scope>MR::SimpleTimeRecord</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

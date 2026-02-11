@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1FillingSurface_1_1CellularSurface" kind="namespace" language="C++">
+    <compoundname>MR::FillingSurface::CellularSurface</compoundname>
+    <innerclass refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" prot="public">MR::FillingSurface::CellularSurface::Params</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Type</name>
+        <qualifiedname>MR::FillingSurface::CellularSurface::Type</qualifiedname>
+        <enumvalue id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819a2ec2c2961c7ce5a114d969c1f562a563" prot="public">
+          <name>Cylinder</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819a69ad58d91eec91b5c152d21ca117dc81" prot="public">
+          <name>Rect</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Type of cellular surface base element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a7b1f32e2858a7557f0903a6528ee9915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; std::string &gt;</type>
+        <definition>MRVOXELS_API std::vector&lt; std::string &gt; MR::FillingSurface::CellularSurface::getTypeNames</definition>
+        <argsstring>()</argsstring>
+        <name>getTypeNames</name>
+        <qualifiedname>MR::FillingSurface::CellularSurface::getTypeNames</qualifiedname>
+        <briefdescription>
+<para>Returns the names for each type of filling. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="115" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="115" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a9a644fd0f543b423a3e722bf3a17fe14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::FillingSurface::CellularSurface::build</definition>
+        <argsstring>(const Vector3f &amp;size, const Params &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>build</name>
+        <qualifiedname>MR::FillingSurface::CellularSurface::build</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">Params</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Build a cellular surface of size <computeroutput>size</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="119" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="119" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a16718da65c52170f8eed5b7df48873e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::FillingSurface::CellularSurface::fill</definition>
+        <argsstring>(const Mesh &amp;mesh, const Params &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fill</name>
+        <qualifiedname>MR::FillingSurface::CellularSurface::fill</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">Params</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Fill given mesh with a cellular surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="122" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="122" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a128ae4e0cb0b4dacfdb64a3312ff7bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <definition>MRVOXELS_API float MR::FillingSurface::CellularSurface::estimateDensity</definition>
+        <argsstring>(float period, float width, float r)</argsstring>
+        <name>estimateDensity</name>
+        <qualifiedname>MR::FillingSurface::CellularSurface::estimateDensity</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Estimate the density of the cellular surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="125" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="125" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a23995b41b619c174ea95b0c19e9c57d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::optional&lt; float &gt;</type>
+        <definition>MRVOXELS_API std::optional&lt; float &gt; MR::FillingSurface::CellularSurface::estimateWidth</definition>
+        <argsstring>(float period, float r, float targetDensity)</argsstring>
+        <name>estimateWidth</name>
+        <qualifiedname>MR::FillingSurface::CellularSurface::estimateWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetDensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Estimate the width that is needed to attain the <computeroutput>targetDensity</computeroutput>. Inverse of <ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a128ae4e0cb0b4dacfdb64a3312ff7bcb" kindref="member">estimateDensity</ref>. <simplesect kind="note"><para>The width is not unique in general, no guarantees are made about which value among possible will be returned. Due to the simplification of the formula (sphere must either fully contain the intersection of cylinders or be inside it), solution not always exists. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="130" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="130" declcolumn="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1FillingSurface_1_1TPMS" kindref="compound">TPMS</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Surface of cylinders in a grid </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="86" column="1"/>
+  </compounddef>
+</doxygen>

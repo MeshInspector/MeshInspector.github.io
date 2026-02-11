@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GridSettings_1_1TriType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GridSettings::TriType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridSettings_1_1TriType_1ada90e2b08c1c4b32329bec9bd23116ee" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridSettings.TriType::Lower</definition>
+        <argsstring></argsstring>
+        <name>Lower</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.Lower</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1GridSettings_1_1TriType" kindref="compound">GridSettings.TriType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a20ca69001a9822ca5d4f1860784159d8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridSettings.TriType::Upper</definition>
+        <argsstring></argsstring>
+        <name>Upper</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.Upper</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1GridSettings_1_1TriType" kindref="compound">GridSettings.TriType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22443" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridSettings_1_1TriType_1af02c78c7028d42fb04308cf208843293" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridSettings.TriType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1GridSettings_1_1TriType" kindref="compound">GridSettings.TriType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22444" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a6a8da840988be151cfc4d1d35a1e3628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GridSettings.TriType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22445" bodyend="22446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a56e47c15b61915d35a7baefc4111b6f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridSettings.TriType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22447" bodyend="22448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1af098b52228a472a6ccc97832167b2dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridSettings.TriType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22449" bodyend="22450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1af27a5c149bb0614c64172ef7a94c988d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridSettings.TriType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22451" bodyend="22452"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a920703ce54624ea8105ac6ee64b1daae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridSettings.TriType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22453" bodyend="22454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a2097c0e50b3127dc8c2de4d624ac1fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridSettings.TriType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22455" bodyend="22456"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1aa2f4adf61c587a368c76d1dafc76e0c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GridSettings.TriType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22457" bodyend="22458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a5f81714e7de37797a76932111c39d9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GridSettings.TriType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22459" bodyend="22460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1ad6ed38321c4c0fda22d065cf26a03098" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridSettings.TriType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22461" bodyend="22462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1acfeccec8d0495a39c87a8586a9894553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GridSettings.TriType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22463" bodyend="22464"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1a6adc5ff1c9c334c0ba8c0534d158409d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GridSettings.TriType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22466" bodyend="22467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1_1TriType_1ac30eeeb611c55b496fdb5eb4b4091729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GridSettings.TriType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.GridSettings.TriType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22469" bodyend="22471"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Lower : (x,y), (x+1,y), (x+1,y+1) if DiagonalA or (x,y), (x+1,y), (x,y+1) if DiagonalB
+
+  Upper : (x,y), (x+1,y+1), (x,y+1) if DiagonalA or (x+1,y), (x+1,y+1), (x,y+1) if DiagonalB
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GridSettings.TriType</label>
+        <link refid="classmrmeshpy_1_1GridSettings_1_1TriType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Lower</edgelabel>
+          <edgelabel>Upper</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22434" bodyend="22470"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a6a8da840988be151cfc4d1d35a1e3628" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a56e47c15b61915d35a7baefc4111b6f9" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1af098b52228a472a6ccc97832167b2dbb" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1af27a5c149bb0614c64172ef7a94c988d" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a920703ce54624ea8105ac6ee64b1daae" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a2097c0e50b3127dc8c2de4d624ac1fd1" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1af02c78c7028d42fb04308cf208843293" prot="private" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1aa2f4adf61c587a368c76d1dafc76e0c1" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a5f81714e7de37797a76932111c39d9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1ad6ed38321c4c0fda22d065cf26a03098" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1acfeccec8d0495a39c87a8586a9894553" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1ada90e2b08c1c4b32329bec9bd23116ee" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>Lower</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a6adc5ff1c9c334c0ba8c0534d158409d" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1a20ca69001a9822ca5d4f1860784159d8" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>Upper</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1_1TriType_1ac30eeeb611c55b496fdb5eb4b4091729" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::TriType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UnitInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UnitInfo</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UnitInfo_1a3283c81d33d6635ec3f85fc50f30a0d6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UnitInfo::_offsetof_conversionFactor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_conversionFactor</name>
+        <qualifiedname>mrmeshpy.UnitInfo._offsetof_conversionFactor</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60074" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UnitInfo_1a981e8a7689090c604f48eb7b6b4f7073" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UnitInfo::_offsetof_prettyName</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_prettyName</name>
+        <qualifiedname>mrmeshpy.UnitInfo._offsetof_prettyName</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60075" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UnitInfo_1aaab1081ec3e9cadf5531aad729ecd861" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UnitInfo::_offsetof_unitSuffix</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_unitSuffix</name>
+        <qualifiedname>mrmeshpy.UnitInfo._offsetof_unitSuffix</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60076" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a7ad6feb4a7412ebca6fc176d964c8315" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnitInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnitInfo.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60080" bodyend="60081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a2e5739840c8a389328a5ea69190b9857" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnitInfo" kindref="compound">UnitInfo</ref></type>
+        <definition> UnitInfo mrmeshpy.UnitInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnitInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60084" bodyend="60085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a2e5739840c8a389328a5ea69190b9857" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnitInfo" kindref="compound">UnitInfo</ref></type>
+        <definition> UnitInfo mrmeshpy.UnitInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnitInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60088" bodyend="60089"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1ad1b372d89614fe41cd4c991805572ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnitInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnitInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60091" bodyend="60092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a92a8949c4b920b85013ed61abef601c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnitInfo.__init__</definition>
+        <argsstring>(self, UnitInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnitInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UnitInfo" kindref="compound">UnitInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60094" bodyend="60097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a0c2a7af8dc503d84a2c94cc5d96d8b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnitInfo.__init__</definition>
+        <argsstring>(self, float conversionFactor, str prettyName, str unitSuffix)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnitInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>conversionFactor</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prettyName</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>unitSuffix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60099" bodyend="60102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a43359db698447a0d175be3700ea2fa56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.UnitInfo.conversionFactor</definition>
+        <argsstring>(self)</argsstring>
+        <name>conversionFactor</name>
+        <qualifiedname>mrmeshpy.UnitInfo.conversionFactor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is used to convert between units.
+To convert from A to B, multiply by A&apos;s factor and divide by B&apos;s.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60104" bodyend="60108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a6e49c68c16c19d35a8c0b2e0a23edda4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnitInfo.conversionFactor</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>conversionFactor</name>
+        <qualifiedname>mrmeshpy.UnitInfo.conversionFactor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60110" bodyend="60111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1a7ef448396dbf157f9865df9aec2d1406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.UnitInfo.unitSuffix</definition>
+        <argsstring>(self)</argsstring>
+        <name>unitSuffix</name>
+        <qualifiedname>mrmeshpy.UnitInfo.unitSuffix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The short unit name that&apos;s placed after values.
+This may or may not start with a space.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60113" bodyend="60117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnitInfo_1aeb53bf83a55928bfb324450bccdba57e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnitInfo.unitSuffix</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>unitSuffix</name>
+        <qualifiedname>mrmeshpy.UnitInfo.unitSuffix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60119" bodyend="60120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UnitInfo
+
+Information about a single measurement unit.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UnitInfo</label>
+        <link refid="classmrmeshpy_1_1UnitInfo"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_conversionFactor</edgelabel>
+          <edgelabel>_offsetof_prettyName</edgelabel>
+          <edgelabel>_offsetof_unitSuffix</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60068" bodyend="60120"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a7ad6feb4a7412ebca6fc176d964c8315" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1ad1b372d89614fe41cd4c991805572ef3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a92a8949c4b920b85013ed61abef601c3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a0c2a7af8dc503d84a2c94cc5d96d8b3b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a3283c81d33d6635ec3f85fc50f30a0d6" prot="protected" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>_offsetof_conversionFactor</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a981e8a7689090c604f48eb7b6b4f7073" prot="protected" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>_offsetof_prettyName</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1aaab1081ec3e9cadf5531aad729ecd861" prot="protected" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>_offsetof_unitSuffix</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a43359db698447a0d175be3700ea2fa56" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>conversionFactor</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a6e49c68c16c19d35a8c0b2e0a23edda4" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>conversionFactor</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a2e5739840c8a389328a5ea69190b9857" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a2e5739840c8a389328a5ea69190b9857" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1a7ef448396dbf157f9865df9aec2d1406" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>unitSuffix</name></member>
+      <member refid="classmrmeshpy_1_1UnitInfo_1aeb53bf83a55928bfb324450bccdba57e" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>unitSuffix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

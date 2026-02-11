@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1SpaceMouse" kind="namespace" language="C++">
+    <compoundname>MR::SpaceMouse</compoundname>
+    <innerclass refid="structMR_1_1SpaceMouse_1_1Action" prot="public">MR::SpaceMouse::Action</innerclass>
+    <innerclass refid="classMR_1_1SpaceMouse_1_1Controller" prot="public">MR::SpaceMouse::Controller</innerclass>
+    <innerclass refid="classMR_1_1SpaceMouse_1_1Device" prot="public">MR::SpaceMouse::Device</innerclass>
+    <innerclass refid="classMR_1_1SpaceMouse_1_1Handler" prot="public">MR::SpaceMouse::Handler</innerclass>
+    <innerclass refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" prot="public">MR::SpaceMouse::HandlerHidapi</innerclass>
+    <innerclass refid="structMR_1_1SpaceMouse_1_1Parameters" prot="public">MR::SpaceMouse::Parameters</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Buttons</name>
+        <qualifiedname>MR::SpaceMouse::Buttons</qualifiedname>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a9a76d03c22d3839a9f580faf63af73ff" prot="public">
+          <name>SMB_NO</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad0f4c12aa176d856d48f6b85c69a2b26" prot="public">
+          <name>SMB_MENU</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7" prot="public">
+          <name>SMB_ESC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4" prot="public">
+          <name>SMB_ENTER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1" prot="public">
+          <name>SMB_TAB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff" prot="public">
+          <name>SMB_SHIFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9" prot="public">
+          <name>SMB_CTRL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601" prot="public">
+          <name>SMB_ALT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a" prot="public">
+          <name>SMB_SPACE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15" prot="public">
+          <name>SMB_DELETE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351" prot="public">
+          <name>SMB_CUSTOM_1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd" prot="public">
+          <name>SMB_CUSTOM_2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1" prot="public">
+          <name>SMB_CUSTOM_3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268" prot="public">
+          <name>SMB_CUSTOM_4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab" prot="public">
+          <name>SMB_CUSTOM_5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa9418a01d04f49eac3ccadd52febdaa1" prot="public">
+          <name>SMB_CUSTOM_6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142" prot="public">
+          <name>SMB_CUSTOM_7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7" prot="public">
+          <name>SMB_CUSTOM_8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1" prot="public">
+          <name>SMB_CUSTOM_9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e" prot="public">
+          <name>SMB_CUSTOM_10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ac43114d93db55ba1a84197b3b329997f" prot="public">
+          <name>SMB_CUSTOM_11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc" prot="public">
+          <name>SMB_CUSTOM_12</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24" prot="public">
+          <name>SMB_FIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353" prot="public">
+          <name>SMB_TOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95" prot="public">
+          <name>SMB_RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a96d13265aba3c09559b2258288217869" prot="public">
+          <name>SMB_FRONT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191aa6d927c437d1b2e53b99c6d35f4a6aae" prot="public">
+          <name>SMB_ROLL_CW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc" prot="public">
+          <name>SMB_LOCK_ROT</name>
+          <briefdescription>
+<para>roll clockwise </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d" prot="public">
+          <name>SMB_BTN_V1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568" prot="public">
+          <name>SMB_BTN_V2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ad38f785a7287d8ba9959a806cd03047b" prot="public">
+          <name>SMB_BTN_V3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48" prot="public">
+          <name>SMB_ISO1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325" prot="public">
+          <name>SMB_BUTTON_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>enumeration all spacemouse buttons </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="18" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" prot="public" static="no">
+        <type>short unsigned int</type>
+        <definition>using MR::SpaceMouse::VendorId =  short unsigned int</definition>
+        <argsstring></argsstring>
+        <name>VendorId</name>
+        <qualifiedname>MR::SpaceMouse::VendorId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" prot="public" static="no">
+        <type>short unsigned int</type>
+        <definition>using MR::SpaceMouse::ProductId =  short unsigned int</definition>
+        <argsstring></argsstring>
+        <name>ProductId</name>
+        <qualifiedname>MR::SpaceMouse::ProductId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1SpaceMouse_1afea9877496a4f6098c6687dbbae1ac62" prot="public" static="no">
+        <type>std::array&lt; unsigned char, 13 &gt;</type>
+        <definition>using MR::SpaceMouse::DataPacketRaw =  std::array&lt;unsigned char, 13&gt;</definition>
+        <argsstring></argsstring>
+        <name>DataPacketRaw</name>
+        <qualifiedname>MR::SpaceMouse::DataPacketRaw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceMR_1_1SpaceMouse_1af8da66a1778b1276a2273cce6aa25df1" prot="public" static="no" mutable="no">
+        <type>const std::unordered_map&lt; <ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref>, std::vector&lt; <ref refid="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" kindref="member">ProductId</ref> &gt; &gt;</type>
+        <definition>const std::unordered_map&lt;VendorId, std::vector&lt;ProductId&gt; &gt; MR::SpaceMouse::cVendor2Device</definition>
+        <argsstring></argsstring>
+        <name>cVendor2Device</name>
+        <qualifiedname>MR::SpaceMouse::cVendor2Device</qualifiedname>
+        <initializer>= {
+        { <ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref>( 0x046d ), {  
+                    0xc603,    
+                    0xc605,    
+                    0xc606,    
+                    0xc621,    
+                    0xc623,    
+                    0xc625,    
+                    0xc626,    
+                    0xc627,    
+                    0xc628,    
+                    0xc629,    
+                    0xc62b,    
+                    0xc640     
+        }},
+        { <ref refid="namespaceMR_1_1SpaceMouse_1abf82e89e6fb5b9737517cfd1d6f69e18" kindref="member">VendorId</ref>( 0x256f ), {  
+                    0xc62e,    
+                    0xc62f,    
+                    0xc631,    
+                    0xc632,    
+                    0xc633,    
+                    0xc635,    
+                    0xc638,    
+                    0xc63a,    
+                    0xc652,    
+                    0xc658     
+        }}
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>known devices list if you change this value, do not forget to update MeshLib/scripts/70-space-mouse-meshlib.rules </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="61" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="61" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>

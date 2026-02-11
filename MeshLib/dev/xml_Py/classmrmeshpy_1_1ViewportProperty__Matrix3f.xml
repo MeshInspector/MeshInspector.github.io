@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ViewportProperty__Matrix3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ViewportProperty_Matrix3f</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a2c5eebafd4e7fd38b5ed9579a84a81bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71609" bodyend="71610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ac5f9cbe91a2d98a40f2c9add447702b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Matrix3f" kindref="compound">ViewportProperty_Matrix3f</ref></type>
+        <definition> ViewportProperty_Matrix3f mrmeshpy.ViewportProperty_Matrix3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71613" bodyend="71614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ac5f9cbe91a2d98a40f2c9add447702b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Matrix3f" kindref="compound">ViewportProperty_Matrix3f</ref></type>
+        <definition> ViewportProperty_Matrix3f mrmeshpy.ViewportProperty_Matrix3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71617" bodyend="71618"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1aaf5a3694db79da5e4cc28ddf4074f255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.ViewportProperty_Matrix3f.__getitem__</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns direct access to value associated with given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71619" bodyend="71622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a4581ff18487cac41791a69f378179001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71624" bodyend="71625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a2d0fbb66a651611b91568c9ceb030bc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.__init__</definition>
+        <argsstring>(self, Matrix3f def_)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71627" bodyend="71628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1aea596361649a8249f51cbbc81aeca1e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.__init__</definition>
+        <argsstring>(self, ViewportProperty_Matrix3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Matrix3f" kindref="compound">ViewportProperty_Matrix3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71630" bodyend="71633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a4960d664af5eab644ff9566cc0b4767a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.__setitem__</definition>
+        <argsstring>(self, ViewportId arg0, Matrix3f arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71634" bodyend="71635"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a465809c66ac224275e09431d92d79352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.ViewportProperty_Matrix3f.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71637" bodyend="71640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a465809c66ac224275e09431d92d79352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.ViewportProperty_Matrix3f.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71642" bodyend="71643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1aa93fbfa4984e3903e7b99ba17fcf88bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.ViewportProperty_Matrix3f.get</definition>
+        <argsstring>(self, ViewportId id, bool_output isDef=None)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets property value for given viewport: specific if available otherwise default one;
+\\param isDef receives true if this viewport does not have specific value and default one is returned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71645" bodyend="71649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a5f6076c03d65f18b8774ec6c05ee9336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Matrix3f.reset</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for given viewport (or all viewports if !id);
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71651" bodyend="71655"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a7557e73cec35e8069af2fef1138a42e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Matrix3f.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for all viewports;
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71657" bodyend="71661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ad26b674ba5b766b36dbabf176955e947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.set</definition>
+        <argsstring>(self, Matrix3f def_)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71663" bodyend="71666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ac96cd28de6af74e1236ae31657c181ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Matrix3f.set</definition>
+        <argsstring>(self, Matrix3f v, ViewportId id)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Matrix3f.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets specific property value for given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71668" bodyend="71671"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ViewportProperty&lt;MR::Matrix3f&gt;
+
+storage of some viewport-dependent property,
+which has some default value for all viewports and special values for some specific viewports
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71600" bodyend="71671"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1aaf5a3694db79da5e4cc28ddf4074f255" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a2c5eebafd4e7fd38b5ed9579a84a81bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a4581ff18487cac41791a69f378179001" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a2d0fbb66a651611b91568c9ceb030bc6" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1aea596361649a8249f51cbbc81aeca1e5" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a4960d664af5eab644ff9566cc0b4767a" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a465809c66ac224275e09431d92d79352" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a465809c66ac224275e09431d92d79352" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1aa93fbfa4984e3903e7b99ba17fcf88bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ac5f9cbe91a2d98a40f2c9add447702b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ac5f9cbe91a2d98a40f2c9add447702b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a5f6076c03d65f18b8774ec6c05ee9336" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1a7557e73cec35e8069af2fef1138a42e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ad26b674ba5b766b36dbabf176955e947" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Matrix3f_1ac96cd28de6af74e1236ae31657c181ea" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Matrix3f</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

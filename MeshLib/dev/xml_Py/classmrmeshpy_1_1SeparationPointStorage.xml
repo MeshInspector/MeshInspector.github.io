@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SeparationPointStorage" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SeparationPointStorage</compoundname>
+    <innerclass refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block" prot="public">mrmeshpy::SeparationPointStorage::Block</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1ae295590f1846c9170b89715f84d6ff5a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SeparationPointStorage.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51777" bodyend="51778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1a682b131187788c641106add5c7d04a65" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></type>
+        <definition> SeparationPointStorage mrmeshpy.SeparationPointStorage.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51781" bodyend="51782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1a682b131187788c641106add5c7d04a65" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></type>
+        <definition> SeparationPointStorage mrmeshpy.SeparationPointStorage.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51785" bodyend="51786"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1ac7d5c0dc6a6b151fe2bb718b89e2da72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SeparationPointStorage.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51788" bodyend="51789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1aa803ef66f115a61a971c0a585f5d81f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SeparationPointStorage.__init__</definition>
+        <argsstring>(self, SeparationPointStorage arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51791" bodyend="51794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1ab7d7ebcc7d1469d9301e82fe5270ddad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.SeparationPointStorage.findSeparationPointSet</definition>
+        <argsstring>(self, int voxelId)</argsstring>
+        <name>findSeparationPointSet</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.findSeparationPointSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voxelId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the set (locating the block) by voxel id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51795" bodyend="51798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1ababf4879105982497ee78e3e6e981ea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block" kindref="compound">SeparationPointStorage.Block</ref></type>
+        <definition> SeparationPointStorage.Block mrmeshpy.SeparationPointStorage.getBlock</definition>
+        <argsstring>(self, int blockIndex)</argsstring>
+        <name>getBlock</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.getBlock</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blockIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get block for filling in the thread responsible for it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51799" bodyend="51802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1a33eb8da5427e35ce2d98de40a3ad7350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SeparationPointStorage.getPoints</definition>
+        <argsstring>(self, VertCoords points)</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.getPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>obtains coordinates of all stored points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51803" bodyend="51806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1ac5c3dd51914ef06476f869b73ac89401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+        <definition> Triangulation mrmeshpy.SeparationPointStorage.getTriangulation</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId outVoxelPerFaceMap=None)</argsstring>
+        <name>getTriangulation</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.getTriangulation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>outVoxelPerFaceMap</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>combines triangulations from every block into one and returns it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51807" bodyend="51810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1a97c7d1642b280611a403f5490e0a0a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SeparationPointStorage.makeUniqueVids</definition>
+        <argsstring>(self)</argsstring>
+        <name>makeUniqueVids</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.makeUniqueVids</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>shifts vertex ids in each block (after they are filled) to make them unique;
+returns the total number of valid points in the storage
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51811" bodyend="51815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1a5f0d3d5f6a4e74e2f88ab3250c3d4695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SeparationPointStorage.resize</definition>
+        <argsstring>(self, int blockCount, int blockSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.SeparationPointStorage.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blockCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blockSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>prepares storage for given number of blocks, each containing given size of voxels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51816" bodyend="51819"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SeparationPointStorage
+
+storage for points on voxel edges used in Marching Cubes algorithms
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51719" bodyend="51819"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1ae295590f1846c9170b89715f84d6ff5a" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1ac7d5c0dc6a6b151fe2bb718b89e2da72" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1aa803ef66f115a61a971c0a585f5d81f2" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1ab7d7ebcc7d1469d9301e82fe5270ddad" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1ababf4879105982497ee78e3e6e981ea5" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>getBlock</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1a33eb8da5427e35ce2d98de40a3ad7350" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>getPoints</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1ac5c3dd51914ef06476f869b73ac89401" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>getTriangulation</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1a97c7d1642b280611a403f5490e0a0a67" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>makeUniqueVids</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1a682b131187788c641106add5c7d04a65" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1a682b131187788c641106add5c7d04a65" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1a5f0d3d5f6a4e74e2f88ab3250c3d4695" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage</scope><name>resize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

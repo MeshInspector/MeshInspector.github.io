@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFloatGridComponents_8h" kind="file" language="C++">
+    <compoundname>MRFloatGridComponents.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRFloatGridComponents.h</label>
+        <link refid="MRFloatGridComponents_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRFloatGridComponents_8h_1abc899d5a6475d6b9c15b9ccd231431b3" prot="public" static="no">
+        <type>struct <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref></type>
+        <definition>typedef struct MR_FloatGrid MR_FloatGrid</definition>
+        <argsstring></argsstring>
+        <name>MR_FloatGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h" line="9" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" prot="public" static="no">
+        <type>struct <ref refid="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" kindref="member">MR_std_vector_MR_VoxelBitSet</ref></type>
+        <definition>typedef struct MR_std_vector_MR_VoxelBitSet MR_std_vector_MR_VoxelBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_VoxelBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h" line="10" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRFloatGridComponents_8h_1a35a9df703239390106fcc1eef2691a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" kindref="member">MR_std_vector_MR_VoxelBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelBitSet * MR_FloatGridComponents_getAllComponents</definition>
+        <argsstring>(const MR_FloatGrid *grid, const float *isoValue)</argsstring>
+        <name>MR_FloatGridComponents_getAllComponents</name>
+        <param>
+          <type>const <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>isoValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds separated by iso-value components in grid space (0 voxel id is minimum active voxel in grid) Generated from function <computeroutput>MR::FloatGridComponents::getAllComponents</computeroutput>. Parameter <computeroutput>grid</computeroutput> can not be null. It is a single object. Parameter <computeroutput>isoValue</computeroutput> has a default argument: <computeroutput>0.0f</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_VoxelBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h" line="18" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h" declline="18" declcolumn="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="MRFloatGridComponents_8h_1abc899d5a6475d6b9c15b9ccd231431b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" kindref="member">MR_std_vector_MR_VoxelBitSet</ref><sp/><ref refid="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" kindref="member">MR_std_vector_MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VoxelBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRFloatGridComponents_8h_1a35a9df703239390106fcc1eef2691a41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGridComponents_8h_1ab9e419d3fad107fdd71e742f02c19080" kindref="member">MR_std_vector_MR_VoxelBitSet</ref><sp/>*<ref refid="MRFloatGridComponents_8h_1a35a9df703239390106fcc1eef2691a41" kindref="member">MR_FloatGridComponents_getAllComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*isoValue);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGridComponents.h"/>
+  </compounddef>
+</doxygen>

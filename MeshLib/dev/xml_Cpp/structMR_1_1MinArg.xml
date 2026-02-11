@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MinArg" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MinArg</compoundname>
+    <includes refid="MRMinMaxArg_8h" local="no">MRMinMaxArg.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MinArg_1a539cbb55f4a4e7957683ce73c06d5f59" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::MinArg&lt; T, I &gt;::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>MR::MinArg::val</qualifiedname>
+        <initializer>= std::numeric_limits&lt;T&gt;::max()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="14" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MinArg_1a98309147e2dce0ddfc1339a81e3fb55d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <definition>I MR::MinArg&lt; T, I &gt;::arg</definition>
+        <argsstring></argsstring>
+        <name>arg</name>
+        <qualifiedname>MR::MinArg::arg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="15" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MinArg_1a390b27154863521ab2f36edc39b42011" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::MinArg&lt; T, I &gt;::asPair</definition>
+        <argsstring>() const</argsstring>
+        <name>asPair</name>
+        <qualifiedname>MR::MinArg::asPair</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="17" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MinArg_1a90ff34f715406ed3ab55e23094cb6141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MinArg&lt; T, I &gt;::include</definition>
+        <argsstring>(const std::pair&lt; T, I &gt; &amp;p)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR::MinArg::include</qualifiedname>
+        <param>
+          <type>const std::pair&lt; T, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>changes val and arg if given point is smaller </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="20" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MinArg_1ab87329f332e5428c0f493fbd21be1622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MinArg&lt; T, I &gt;::include</definition>
+        <argsstring>(T testVal, I testArg)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR::MinArg::include</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>testVal</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+          <declname>testArg</declname>
+        </param>
+        <briefdescription>
+<para>changes val and arg if given point is smaller </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MinArg_1a731dfaa5ec4094892a6629e4f9c91128" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MinArg&lt; T, I &gt;::include</definition>
+        <argsstring>(const MinArg &amp;s)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR::MinArg::include</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MinArg" kindref="compound">MinArg</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>changes val and arg if given point is smaller </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="36" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>minimum of some elements of type T, and the index of where minimum is reached of type I </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="423" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="13" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MinArg_1a98309147e2dce0ddfc1339a81e3fb55d" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>arg</name></member>
+      <member refid="structMR_1_1MinArg_1a390b27154863521ab2f36edc39b42011" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>asPair</name></member>
+      <member refid="structMR_1_1MinArg_1a90ff34f715406ed3ab55e23094cb6141" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>include</name></member>
+      <member refid="structMR_1_1MinArg_1ab87329f332e5428c0f493fbd21be1622" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>include</name></member>
+      <member refid="structMR_1_1MinArg_1a731dfaa5ec4094892a6629e4f9c91128" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>include</name></member>
+      <member refid="structMR_1_1MinArg_1a539cbb55f4a4e7957683ce73c06d5f59" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

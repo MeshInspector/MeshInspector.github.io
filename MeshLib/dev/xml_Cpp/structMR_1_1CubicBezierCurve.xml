@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CubicBezierCurve" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CubicBezierCurve</compoundname>
+    <includes refid="MRBezier_8h" local="no">MRBezier.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1CubicBezierCurve_1a9a0577357dd243e6ec6075e03d6dcf8b" prot="public" static="no">
+        <type><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; V &gt;</type>
+        <definition>using MR::CubicBezierCurve&lt; V &gt;::VTraits =  VectorTraits&lt;V&gt;</definition>
+        <argsstring></argsstring>
+        <name>VTraits</name>
+        <qualifiedname>MR::CubicBezierCurve::VTraits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" prot="public" static="no">
+        <type>typename <ref refid="structMR_1_1VectorTraits_1adbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref></type>
+        <definition>using MR::CubicBezierCurve&lt; V &gt;::T =  typename VTraits::BaseType</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>MR::CubicBezierCurve::T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1CubicBezierCurve_1ac89e37ab87d7a669e55d9c9ca0f3eb66" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::CubicBezierCurve&lt; V &gt;::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>MR::CubicBezierCurve::elements</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1VectorTraits_1a63f31635f31a229471ff3cc2990d95ea" kindref="member">VTraits::size</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1CubicBezierCurve_1a253c4a44671e701720f11bb8c0078f06" prot="public" static="no" mutable="no">
+        <type>V</type>
+        <definition>V MR::CubicBezierCurve&lt; V &gt;::p[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>p</name>
+        <qualifiedname>MR::CubicBezierCurve::p</qualifiedname>
+        <briefdescription>
+<para>4 control points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="19" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1CubicBezierCurve_1a808273a91fc951f1b82faa9424e6451e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::CubicBezierCurve&lt; V &gt;::getPoint</definition>
+        <argsstring>(T t) const</argsstring>
+        <name>getPoint</name>
+        <qualifiedname>MR::CubicBezierCurve::getPoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes point on the curve from parameter value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>De Casteljau&apos;s algorithm</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="22" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="29" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1CubicBezierCurve_1a56b8e90a46bbc02fd586b6fc293831a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref>, 4 &gt;</type>
+        <definition>auto MR::CubicBezierCurve&lt; V &gt;::getWeights</definition>
+        <argsstring>(T t)</argsstring>
+        <name>getWeights</name>
+        <qualifiedname>MR::CubicBezierCurve::getWeights</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" kindref="member">T</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="25" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="44" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Cubic Bezier curve. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="13" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CubicBezierCurve_1ac89e37ab87d7a669e55d9c9ca0f3eb66" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>elements</name></member>
+      <member refid="structMR_1_1CubicBezierCurve_1a808273a91fc951f1b82faa9424e6451e" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>getPoint</name></member>
+      <member refid="structMR_1_1CubicBezierCurve_1a56b8e90a46bbc02fd586b6fc293831a6" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>getWeights</name></member>
+      <member refid="structMR_1_1CubicBezierCurve_1a253c4a44671e701720f11bb8c0078f06" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>p</name></member>
+      <member refid="structMR_1_1CubicBezierCurve_1a6b83dc1d69f50bd387ec3bf5392c92c2" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>T</name></member>
+      <member refid="structMR_1_1CubicBezierCurve_1a9a0577357dd243e6ec6075e03d6dcf8b" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>VTraits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

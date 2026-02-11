@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Toolbar" kind="class" language="C++" prot="public">
+    <compoundname>MR::Toolbar</compoundname>
+    <includes refid="MRToolbar_8h" local="no">MRToolbar.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a8922dc2087ac25c4fc88489926795b32" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> *</type>
+        <definition>RibbonMenu* MR::Toolbar::ribbonMenu_</definition>
+        <argsstring></argsstring>
+        <name>ribbonMenu_</name>
+        <qualifiedname>MR::Toolbar::ribbonMenu_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="66" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a796163c4756039c1728067f069c21036" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref></type>
+        <definition>MenuItemsList MR::Toolbar::itemsList_</definition>
+        <argsstring></argsstring>
+        <name>itemsList_</name>
+        <qualifiedname>MR::Toolbar::itemsList_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="68" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1aa6fd7d8dfbf51637203e49ab5e650259" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref></type>
+        <definition>MenuItemsList MR::Toolbar::itemsListCustomize_</definition>
+        <argsstring></argsstring>
+        <name>itemsListCustomize_</name>
+        <qualifiedname>MR::Toolbar::itemsListCustomize_</qualifiedname>
+        <briefdescription>
+<para>toolbar items list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="69" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1ad096226eb1fe0ef2ff86ecfd6b693954" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Toolbar::itemsListVersion_</definition>
+        <argsstring></argsstring>
+        <name>itemsListVersion_</name>
+        <qualifiedname>MR::Toolbar::itemsListVersion_</qualifiedname>
+        <initializer>{ 1 }</initializer>
+        <briefdescription>
+<para>toolbar preview items list for <ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> Customize window </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="70" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1aa3774f0acfb21257b25fed17a2337291" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ab7127eaef6bbef972ecd0663dcf8d527" kindref="member">MenuItemsListMigrations</ref></type>
+        <definition>MenuItemsListMigrations MR::Toolbar::itemsListMigrations_</definition>
+        <argsstring></argsstring>
+        <name>itemsListMigrations_</name>
+        <qualifiedname>MR::Toolbar::itemsListMigrations_</qualifiedname>
+        <briefdescription>
+<para>items list version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="71" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a5c1c1d04ebe1a11e93ff0f6533fa62dc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::Toolbar::currentWidth_</definition>
+        <argsstring></argsstring>
+        <name>currentWidth_</name>
+        <qualifiedname>MR::Toolbar::currentWidth_</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>items list&apos;s upgrade rules </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1abaecd9bc810dacfeeb2cf979252ba371" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Toolbar::dragDrop_</definition>
+        <argsstring></argsstring>
+        <name>dragDrop_</name>
+        <qualifiedname>MR::Toolbar::dragDrop_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="74" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a300638127cd81c5d099b8a2ad3d3f100" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Toolbar::openCustomizeFlag_</definition>
+        <argsstring></argsstring>
+        <name>openCustomizeFlag_</name>
+        <qualifiedname>MR::Toolbar::openCustomizeFlag_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>active drag&amp;drop in <ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> Customize window </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="75" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1aac941d198b6a18a82528912830209687" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Toolbar::customizeTabNum_</definition>
+        <argsstring></argsstring>
+        <name>customizeTabNum_</name>
+        <qualifiedname>MR::Toolbar::customizeTabNum_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>flag to open <ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> Customize window </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="76" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a10ab85ab716011a39322cbff5afe73ea" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::Toolbar::searchString_</definition>
+        <argsstring></argsstring>
+        <name>searchString_</name>
+        <qualifiedname>MR::Toolbar::searchString_</qualifiedname>
+        <briefdescription>
+<para>number active tab </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="77" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a8aeb15ed96e1f33eb43cb357dc9010d1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; std::string &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;std::string&gt; &gt; MR::Toolbar::searchResult_</definition>
+        <argsstring></argsstring>
+        <name>searchResult_</name>
+        <qualifiedname>MR::Toolbar::searchResult_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="78" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Toolbar_1a4b7c269c24aa917897153cc785480df0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Toolbar::maxItemCount_</definition>
+        <argsstring></argsstring>
+        <name>maxItemCount_</name>
+        <qualifiedname>MR::Toolbar::maxItemCount_</qualifiedname>
+        <initializer>= 14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="80" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a3c6f2005020ccba3494b2feba5e534b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::setRibbonMenu</definition>
+        <argsstring>(RibbonMenu *ribbonMenu)</argsstring>
+        <name>setRibbonMenu</name>
+        <qualifiedname>MR::Toolbar::setRibbonMenu</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> *</type>
+          <declname>ribbonMenu</declname>
+        </param>
+        <briefdescription>
+<para>set pointer on ribbon menu to access it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="24" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a113ff053c064e03de02b489c9b4a6f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::drawToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>drawToolbar</name>
+        <qualifiedname>MR::Toolbar::drawToolbar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>draw toolbar window</para>
+<para>don&apos;t show if there isn&apos;t any items or not enough space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="28" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1aa2cd5db65529f0df909e6fbaed4df94d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>MRVIEWER_API float MR::Toolbar::getCurrentToolbarWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getCurrentToolbarWidth</name>
+        <qualifiedname>MR::Toolbar::getCurrentToolbarWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return current width of toolbar 0.0 if it is not present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="31" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a3be49d3ddff1a47ec672a3509ded6799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::openCustomize</definition>
+        <argsstring>()</argsstring>
+        <name>openCustomize</name>
+        <qualifiedname>MR::Toolbar::openCustomize</qualifiedname>
+        <briefdescription>
+<para>enable toolbar customize window rendering </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="33" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a6ab437a7e4ad4cc655283f641e12083e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::drawCustomize</definition>
+        <argsstring>()</argsstring>
+        <name>drawCustomize</name>
+        <qualifiedname>MR::Toolbar::drawCustomize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>draw toolbar customize window</para>
+<para>window is modal window </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="36" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a1030649854f67ba154e958d84f15e7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::readItemsList</definition>
+        <argsstring>(const Json::Value &amp;root)</argsstring>
+        <name>readItemsList</name>
+        <qualifiedname>MR::Toolbar::readItemsList</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>read toolbar items from json </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="39" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1ae935dc9511065eddce3faff0eb3fb93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::resetItemsList</definition>
+        <argsstring>()</argsstring>
+        <name>resetItemsList</name>
+        <qualifiedname>MR::Toolbar::resetItemsList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reset items list to default value</para>
+<para>default value is taken from <ref refid="classMR_1_1RibbonSchemaHolder" kindref="compound">RibbonSchemaHolder</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="42" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a5fae6ea02d2bff800289cb23d3a58ac7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API const <ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref> &amp;</type>
+        <definition>MRVIEWER_API const MenuItemsList &amp; MR::Toolbar::getItemsList</definition>
+        <argsstring>() const</argsstring>
+        <name>getItemsList</name>
+        <qualifiedname>MR::Toolbar::getItemsList</qualifiedname>
+        <briefdescription>
+<para>get access to items </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="44" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a0e4e8453ab0e559d6d3e4422019110f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>MRVIEWER_API int MR::Toolbar::getItemsListVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>getItemsListVersion</name>
+        <qualifiedname>MR::Toolbar::getItemsListVersion</qualifiedname>
+        <briefdescription>
+<para>get item list version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="46" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a8cd2e212765ca42ea120fff0d4cd9a31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::setItemsListVersion</definition>
+        <argsstring>(int version)</argsstring>
+        <name>setItemsListVersion</name>
+        <qualifiedname>MR::Toolbar::setItemsListVersion</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+<para>set item list version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="48" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a24ece620051dcd552679361dbf55ceeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::Toolbar::setItemsListMigrations</definition>
+        <argsstring>(const MenuItemsListMigrations &amp;migrations)</argsstring>
+        <name>setItemsListMigrations</name>
+        <qualifiedname>MR::Toolbar::setItemsListMigrations</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1ab7127eaef6bbef972ecd0663dcf8d527" kindref="member">MenuItemsListMigrations</ref> &amp;</type>
+          <declname>migrations</declname>
+        </param>
+        <briefdescription>
+<para>set item list&apos;s upgrade rules </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="50" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a914add34afdb7a807157d39de024b404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Toolbar::setMaxItemCount</definition>
+        <argsstring>(int maxItemCount)</argsstring>
+        <name>setMaxItemCount</name>
+        <qualifiedname>MR::Toolbar::setMaxItemCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxItemCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="52" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a0ab66f347a644c7bf99dd4bd405b5489" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Toolbar::getMaxItemCount</definition>
+        <argsstring>() const</argsstring>
+        <name>getMaxItemCount</name>
+        <qualifiedname>MR::Toolbar::getMaxItemCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="53" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a1da11cfb0cc507e46f5ef38917c44038" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Toolbar::drawCustomizeModal_</definition>
+        <argsstring>()</argsstring>
+        <name>drawCustomizeModal_</name>
+        <qualifiedname>MR::Toolbar::drawCustomizeModal_</qualifiedname>
+        <briefdescription>
+<para>draw toolbar customize modal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a9eba4db823d5113cee38d33e4b8894ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Toolbar::drawCustomizeTabsList_</definition>
+        <argsstring>()</argsstring>
+        <name>drawCustomizeTabsList_</name>
+        <qualifiedname>MR::Toolbar::drawCustomizeTabsList_</qualifiedname>
+        <briefdescription>
+<para>draw tabs list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a715c769de2217935d65b608690a95baa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Toolbar::drawCustomizeItemsList_</definition>
+        <argsstring>()</argsstring>
+        <name>drawCustomizeItemsList_</name>
+        <qualifiedname>MR::Toolbar::drawCustomizeItemsList_</qualifiedname>
+        <briefdescription>
+<para>draw items list, search and reset btn </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a6b0a49ef59cecbacb4704da6d6bb3e3d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Toolbar::dashedLine_</definition>
+        <argsstring>(const Vector2f &amp;org, const Vector2f &amp;dest, float periodLength=10.f, float fillRatio=0.5f, const Color &amp;color=Color::gray(), float periodStart=0.f)</argsstring>
+        <name>dashedLine_</name>
+        <qualifiedname>MR::Toolbar::dashedLine_</qualifiedname>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>org</declname>
+        </param>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>periodLength</declname>
+          <defval>10.f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fillRatio</declname>
+          <defval>0.5f</defval>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+          <defval><ref refid="structMR_1_1Color_1ab2d02b3c25652081a0b2f9c3f4de388f" kindref="member">Color::gray</ref>()</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>periodStart</declname>
+          <defval>0.f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="63" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Toolbar_1a57a672c47cdcafb5bd7a60d92911f32c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Toolbar::dashedRect_</definition>
+        <argsstring>(const Vector2f &amp;leftTop, const Vector2f &amp;rightBottom, float periodLength=10.f, float fillRatio=0.5f, const Color &amp;color=Color::gray())</argsstring>
+        <name>dashedRect_</name>
+        <qualifiedname>MR::Toolbar::dashedRect_</qualifiedname>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>leftTop</declname>
+        </param>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>rightBottom</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>periodLength</declname>
+          <defval>10.f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fillRatio</declname>
+          <defval>0.5f</defval>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+          <defval><ref refid="structMR_1_1Color_1ab2d02b3c25652081a0b2f9c3f4de388f" kindref="member">Color::gray</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="64" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class to draw toolbar and toolbar customize windows </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="21" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Toolbar_1a5c1c1d04ebe1a11e93ff0f6533fa62dc" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>currentWidth_</name></member>
+      <member refid="classMR_1_1Toolbar_1aac941d198b6a18a82528912830209687" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>customizeTabNum_</name></member>
+      <member refid="classMR_1_1Toolbar_1a6b0a49ef59cecbacb4704da6d6bb3e3d" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>dashedLine_</name></member>
+      <member refid="classMR_1_1Toolbar_1a57a672c47cdcafb5bd7a60d92911f32c" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>dashedRect_</name></member>
+      <member refid="classMR_1_1Toolbar_1abaecd9bc810dacfeeb2cf979252ba371" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>dragDrop_</name></member>
+      <member refid="classMR_1_1Toolbar_1a6ab437a7e4ad4cc655283f641e12083e" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomize</name></member>
+      <member refid="classMR_1_1Toolbar_1a715c769de2217935d65b608690a95baa" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomizeItemsList_</name></member>
+      <member refid="classMR_1_1Toolbar_1a1da11cfb0cc507e46f5ef38917c44038" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomizeModal_</name></member>
+      <member refid="classMR_1_1Toolbar_1a9eba4db823d5113cee38d33e4b8894ca" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomizeTabsList_</name></member>
+      <member refid="classMR_1_1Toolbar_1a113ff053c064e03de02b489c9b4a6f51" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawToolbar</name></member>
+      <member refid="classMR_1_1Toolbar_1aa2cd5db65529f0df909e6fbaed4df94d" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getCurrentToolbarWidth</name></member>
+      <member refid="classMR_1_1Toolbar_1a5fae6ea02d2bff800289cb23d3a58ac7" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getItemsList</name></member>
+      <member refid="classMR_1_1Toolbar_1a0e4e8453ab0e559d6d3e4422019110f5" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getItemsListVersion</name></member>
+      <member refid="classMR_1_1Toolbar_1a0ab66f347a644c7bf99dd4bd405b5489" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getMaxItemCount</name></member>
+      <member refid="classMR_1_1Toolbar_1a796163c4756039c1728067f069c21036" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsList_</name></member>
+      <member refid="classMR_1_1Toolbar_1aa6fd7d8dfbf51637203e49ab5e650259" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsListCustomize_</name></member>
+      <member refid="classMR_1_1Toolbar_1aa3774f0acfb21257b25fed17a2337291" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsListMigrations_</name></member>
+      <member refid="classMR_1_1Toolbar_1ad096226eb1fe0ef2ff86ecfd6b693954" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsListVersion_</name></member>
+      <member refid="classMR_1_1Toolbar_1a4b7c269c24aa917897153cc785480df0" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>maxItemCount_</name></member>
+      <member refid="classMR_1_1Toolbar_1a3be49d3ddff1a47ec672a3509ded6799" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>openCustomize</name></member>
+      <member refid="classMR_1_1Toolbar_1a300638127cd81c5d099b8a2ad3d3f100" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>openCustomizeFlag_</name></member>
+      <member refid="classMR_1_1Toolbar_1a1030649854f67ba154e958d84f15e7bf" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>readItemsList</name></member>
+      <member refid="classMR_1_1Toolbar_1ae935dc9511065eddce3faff0eb3fb93a" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>resetItemsList</name></member>
+      <member refid="classMR_1_1Toolbar_1a8922dc2087ac25c4fc88489926795b32" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>ribbonMenu_</name></member>
+      <member refid="classMR_1_1Toolbar_1a8aeb15ed96e1f33eb43cb357dc9010d1" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>searchResult_</name></member>
+      <member refid="classMR_1_1Toolbar_1a10ab85ab716011a39322cbff5afe73ea" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>searchString_</name></member>
+      <member refid="classMR_1_1Toolbar_1a24ece620051dcd552679361dbf55ceeb" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setItemsListMigrations</name></member>
+      <member refid="classMR_1_1Toolbar_1a8cd2e212765ca42ea120fff0d4cd9a31" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setItemsListVersion</name></member>
+      <member refid="classMR_1_1Toolbar_1a914add34afdb7a807157d39de024b404" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setMaxItemCount</name></member>
+      <member refid="classMR_1_1Toolbar_1a3c6f2005020ccba3494b2feba5e534b1" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setRibbonMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

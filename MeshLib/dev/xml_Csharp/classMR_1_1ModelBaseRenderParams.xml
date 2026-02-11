@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ModelBaseRenderParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::ModelBaseRenderParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ModelBaseRenderParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ModelBaseRenderParams_1a017a4097e011211ae7633f54a109a963" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1a1117518b4d89ca3cdb9ee5dbb315312b" kindref="member">MR.DepthFunction</ref></type>
+        <definition>new unsafe ref MR.DepthFunction MR.ModelBaseRenderParams.depthFunction</definition>
+        <argsstring></argsstring>
+        <name>depthFunction</name>
+        <qualifiedname>MR.ModelBaseRenderParams.depthFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="396" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ModelBaseRenderParams_1a5babfc238385ca680ce5961341272525" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+        <definition>new unsafe ref MR.ViewportId MR.ModelBaseRenderParams.viewportId</definition>
+        <argsstring></argsstring>
+        <name>viewportId</name>
+        <qualifiedname>MR.ModelBaseRenderParams.viewportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="399" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ModelBaseRenderParams_1a86ade95261aeea3a7a81791ca0d15daa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>new unsafe ref MR.Vector4i MR.ModelBaseRenderParams.viewport</definition>
+        <argsstring></argsstring>
+        <name>viewport</name>
+        <qualifiedname>MR.ModelBaseRenderParams.viewport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="402" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ModelBaseRenderParams_1ad47cf333a37eeb03dd0a056f7d7a93ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ModelBaseRenderParams.operator MR.BaseRenderParams</definition>
+        <argsstring>(ModelBaseRenderParams self)</argsstring>
+        <name>operator MR.BaseRenderParams</name>
+        <qualifiedname>MR.ModelBaseRenderParams.operator MR.BaseRenderParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="387" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="387" bodyend="394"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ModelBaseRenderParams_1a692ca2040145e9bca32aa1806358f256" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ModelBaseRenderParams.ModelBaseRenderParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ModelBaseRenderParams</name>
+        <qualifiedname>MR.ModelBaseRenderParams.ModelBaseRenderParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="406" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="406" bodyend="410"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ModelBaseRenderParams_1a39257a4811e0ca7d0de12e39f285d0a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ModelBaseRenderParams.ModelBaseRenderParams</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _other)</argsstring>
+        <name>ModelBaseRenderParams</name>
+        <qualifiedname>MR.ModelBaseRenderParams.ModelBaseRenderParams</qualifiedname>
+        <param>
+          <type>MR.Const_ModelBaseRenderParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ModelBaseRenderParams.ModelBaseRenderParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="416" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="416" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ModelBaseRenderParams_1aa8f37c04f3149abbc609f6824786846e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ModelBaseRenderParams.ModelBaseRenderParams</definition>
+        <argsstring>(ModelBaseRenderParams _other)</argsstring>
+        <name>ModelBaseRenderParams</name>
+        <qualifiedname>MR.ModelBaseRenderParams.ModelBaseRenderParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ModelBaseRenderParams.ModelBaseRenderParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="428" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="428" bodyend="428"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Common rendering parameters for meshes (both for primary rendering and for the picker; the picker uses this as is while the primary rendering adds more fields). Generated from class <computeroutput><ref refid="classMR_1_1ModelBaseRenderParams" kindref="compound">MR.ModelBaseRenderParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BaseRenderParams" kindref="compound">MR.BaseRenderParams</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ModelRenderParams" kindref="compound">MR.ModelRenderParams</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ModelBaseRenderParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ModelBaseRenderParams</label>
+        <link refid="classMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ModelBaseRenderParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ModelBaseRenderParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ModelBaseRenderParams</label>
+        <link refid="classMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ModelBaseRenderParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="384" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="385" bodyend="429"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ModelBaseRenderParams_1a017a4097e011211ae7633f54a109a963" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>depthFunction</name></member>
+      <member refid="classMR_1_1ModelBaseRenderParams_1a692ca2040145e9bca32aa1806358f256" prot="package" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>ModelBaseRenderParams</name></member>
+      <member refid="classMR_1_1ModelBaseRenderParams_1a39257a4811e0ca7d0de12e39f285d0a1" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>ModelBaseRenderParams</name></member>
+      <member refid="classMR_1_1ModelBaseRenderParams_1aa8f37c04f3149abbc609f6824786846e" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>ModelBaseRenderParams</name></member>
+      <member refid="classMR_1_1ModelBaseRenderParams_1ad47cf333a37eeb03dd0a056f7d7a93ed" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>operator MR.BaseRenderParams</name></member>
+      <member refid="classMR_1_1ModelBaseRenderParams_1a86ade95261aeea3a7a81791ca0d15daa" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewport</name></member>
+      <member refid="classMR_1_1ModelBaseRenderParams_1a5babfc238385ca680ce5961341272525" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

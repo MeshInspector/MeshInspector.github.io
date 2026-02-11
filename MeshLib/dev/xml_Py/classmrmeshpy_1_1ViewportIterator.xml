@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ViewportIterator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ViewportIterator</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ViewportIterator_1a2648296b08861bd2ca8defedbb76c3f7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ViewportIterator::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71347" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a454a91bd27001c52cfd604d88cc223d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportIterator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71350" bodyend="71351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a5271720605e7c7a14af3ff56f55d66ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+        <definition> ViewportIterator mrmeshpy.ViewportIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71354" bodyend="71355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a5271720605e7c7a14af3ff56f55d66ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+        <definition> ViewportIterator mrmeshpy.ViewportIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71358" bodyend="71359"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a939770af8b01e550ab80af5aa0f2c9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportIterator.__eq__</definition>
+        <argsstring>(self, ViewportIterator b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71360" bodyend="71361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a2dffcc02e6ab99d8c534baaa94d19824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportIterator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs end iterator
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71363" bodyend="71366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a884a9f8b6470a0d17c3a06642c5e6b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportIterator.__init__</definition>
+        <argsstring>(self, ViewportMask mask)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs begin iterator
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71368" bodyend="71371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a66c13adf5437873988a77f53b2a530e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportIterator.__init__</definition>
+        <argsstring>(self, ViewportIterator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71373" bodyend="71376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1a4fe7a4d31e419a510da808515d4b0ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition> ViewportId mrmeshpy.ViewportIterator.__mul__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71377" bodyend="71378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1ade7097572d873b4cf8d8394c384b9eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.ViewportIterator.mask</definition>
+        <argsstring>(self)</argsstring>
+        <name>mask</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.mask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71379" bodyend="71380"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportIterator_1ae2f80c2c8a42d8a024aaf98705bad29d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+        <definition> ViewportIterator mrmeshpy.ViewportIterator.operator</definition>
+        <argsstring>(self)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportIterator.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71382" bodyend="71383"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ViewportIterator
+
+iterates over all ViewportIds in given ViewportMask
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71341" bodyend="71383"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a939770af8b01e550ab80af5aa0f2c9e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a454a91bd27001c52cfd604d88cc223d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a2dffcc02e6ab99d8c534baaa94d19824" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a884a9f8b6470a0d17c3a06642c5e6b78" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a66c13adf5437873988a77f53b2a530e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a4fe7a4d31e419a510da808515d4b0ea2" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1ade7097572d873b4cf8d8394c384b9eda" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>mask</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a5271720605e7c7a14af3ff56f55d66ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a5271720605e7c7a14af3ff56f55d66ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1ae2f80c2c8a42d8a024aaf98705bad29d" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportIterator_1a2648296b08861bd2ca8defedbb76c3f7" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BooleanInternalParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BooleanInternalParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1a805fdcf0bd88b1f170f4ff43ab22ce6b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanInternalParameters::_offsetof_optionalOutCut</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_optionalOutCut</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters._offsetof_optionalOutCut</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1ab1cf412d41d8afbadd7666425e9ffed1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanInternalParameters::_offsetof_originalMeshA</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_originalMeshA</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters._offsetof_originalMeshA</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1ae73a5b5f9889d56a4629eeed17efb820" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanInternalParameters::_offsetof_originalMeshB</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_originalMeshB</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters._offsetof_originalMeshB</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3378" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a6c8e2f48f9b27d6d126b7303f449ca43" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3381" bodyend="3382"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></type>
+        <definition> BooleanInternalParameters mrmeshpy.BooleanInternalParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3385" bodyend="3386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></type>
+        <definition> BooleanInternalParameters mrmeshpy.BooleanInternalParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3389" bodyend="3390"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a9938bb21641dd814c42556f09808370b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3392" bodyend="3393"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1ae32b8ed464532c4f9fbf29f1e0fa57c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.__init__</definition>
+        <argsstring>(self, BooleanInternalParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3395" bodyend="3398"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a0cc30482f5ad11ad53a4b53c6ba26f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.__init__</definition>
+        <argsstring>(self, Mesh originalMeshA, Mesh originalMeshB, std_vector_std_vector_Id_EdgeTag optionalOutCut)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>originalMeshA</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>originalMeshB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+          <declname>optionalOutCut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3400" bodyend="3403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a73a830543c9d1792956a035145ef7c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+        <definition> std_vector_std_vector_Id_EdgeTag mrmeshpy.BooleanInternalParameters.optionalOutCut</definition>
+        <argsstring>(self)</argsstring>
+        <name>optionalOutCut</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.optionalOutCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Optional output cut edges of booleaned meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3405" bodyend="3408"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a81c507f0f0766afbe5acb6caa99cad17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.optionalOutCut</definition>
+        <argsstring>(self, std_vector_std_vector_Id_EdgeTag arg1)</argsstring>
+        <name>optionalOutCut</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.optionalOutCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3410" bodyend="3411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a57b853fb450802122fe92844091a96b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanInternalParameters.originalMeshA</definition>
+        <argsstring>(self)</argsstring>
+        <name>originalMeshA</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.originalMeshA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Instance of original mesh with tree for better speed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3413" bodyend="3416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a5018e5be1eae148d5fdb650e15fffb07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.originalMeshA</definition>
+        <argsstring>(self, Mesh arg1)</argsstring>
+        <name>originalMeshA</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.originalMeshA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3418" bodyend="3419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aec5945ac6973c86728758344fcfacc22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.BooleanInternalParameters.originalMeshB</definition>
+        <argsstring>(self)</argsstring>
+        <name>originalMeshB</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.originalMeshB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Instance of original mesh with tree for better speed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3421" bodyend="3424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a23aeeba898a13aa7fafafdc104af2347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.originalMeshB</definition>
+        <argsstring>(self, Mesh arg1)</argsstring>
+        <name>originalMeshB</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.originalMeshB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3426" bodyend="3427"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BooleanInternalParameters
+
+Parameters will be useful if specified
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BooleanInternalParameters</label>
+        <link refid="classmrmeshpy_1_1BooleanInternalParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_optionalOutCut</edgelabel>
+          <edgelabel>_offsetof_originalMeshA</edgelabel>
+          <edgelabel>_offsetof_originalMeshB</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3370" bodyend="3427"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a6c8e2f48f9b27d6d126b7303f449ca43" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a9938bb21641dd814c42556f09808370b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ae32b8ed464532c4f9fbf29f1e0fa57c3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a0cc30482f5ad11ad53a4b53c6ba26f21" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a805fdcf0bd88b1f170f4ff43ab22ce6b" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_optionalOutCut</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ab1cf412d41d8afbadd7666425e9ffed1" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_originalMeshA</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ae73a5b5f9889d56a4629eeed17efb820" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_originalMeshB</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a73a830543c9d1792956a035145ef7c5b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>optionalOutCut</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a81c507f0f0766afbe5acb6caa99cad17" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>optionalOutCut</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a57b853fb450802122fe92844091a96b2" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>originalMeshA</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a5018e5be1eae148d5fdb650e15fffb07" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>originalMeshA</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1aec5945ac6973c86728758344fcfacc22" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>originalMeshB</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a23aeeba898a13aa7fafafdc104af2347" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>originalMeshB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

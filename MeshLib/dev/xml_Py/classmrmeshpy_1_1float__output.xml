@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1float__output" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::float_output</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1float__output_1a356c1108a56e32d2b2b659bad054aa30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.float_output.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.float_output.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75118" bodyend="75119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1float__output_1a9e912a4e2f5ca80724fc5365868f7d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.float_output.__init__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.float_output.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75121" bodyend="75122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1float__output_1a607762339e39106782a0f39b4f0845d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.float_output.__init__</definition>
+        <argsstring>(self, int arg0, float arg1)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.float_output.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75124" bodyend="75125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1float__output_1a4b66ccaa04f47f7e60f4066fd6163563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.float_output.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.float_output.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75126" bodyend="75127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1float__output_1a613c3d6a2995af97abb37291756c1d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.float_output.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.float_output.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If the list contains exactly one value, returns it. Otherwise throws.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75129" bodyend="75132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1float__output_1abcb64ade533ef465c2e26caec2c600e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.float_output.value</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.float_output.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75134" bodyend="75135"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A helper class containing a list of scalars. This is used for functions with scalar output parameters.
+NOTE: If a function outputs an array, you must manually resize this to the correct size or risk undefined behavior.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75111" bodyend="75135"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1float__output_1a356c1108a56e32d2b2b659bad054aa30" prot="public" virt="non-virtual"><scope>mrmeshpy::float_output</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1float__output_1a9e912a4e2f5ca80724fc5365868f7d0f" prot="public" virt="non-virtual"><scope>mrmeshpy::float_output</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1float__output_1a607762339e39106782a0f39b4f0845d5" prot="public" virt="non-virtual"><scope>mrmeshpy::float_output</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1float__output_1a4b66ccaa04f47f7e60f4066fd6163563" prot="public" virt="non-virtual"><scope>mrmeshpy::float_output</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1float__output_1a613c3d6a2995af97abb37291756c1d65" prot="public" virt="non-virtual"><scope>mrmeshpy::float_output</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1float__output_1abcb64ade533ef465c2e26caec2c600e5" prot="public" virt="non-virtual"><scope>mrmeshpy::float_output</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonSchemaHolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonSchemaHolder</compoundname>
+    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <innerclass refid="structMR_1_1RibbonSchemaHolder_1_1SearchParams" prot="public">MR::RibbonSchemaHolder::SearchParams</innerclass>
+    <innerclass refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult" prot="public">MR::RibbonSchemaHolder::SearchResult</innerclass>
+    <innerclass refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight" prot="public">MR::RibbonSchemaHolder::SearchResultWeight</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaHolder_1a07e8558bf86dd569ca7acedfbce55d9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="structMR_1_1RibbonSchema" kindref="compound">RibbonSchema</ref> &amp;</type>
+        <definition>static MRVIEWER_API RibbonSchema &amp; MR::RibbonSchemaHolder::schema</definition>
+        <argsstring>()</argsstring>
+        <name>schema</name>
+        <qualifiedname>MR::RibbonSchemaHolder::schema</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="83" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaHolder_1a28d7c0a6ed492a3e6678588c499d5a29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>static MRVIEWER_API bool MR::RibbonSchemaHolder::addItem</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</argsstring>
+        <name>addItem</name>
+        <qualifiedname>MR::RibbonSchemaHolder::addItem</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds item to static holder (needed to be independent of construction time) returns false if item with such name is already present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="87" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaHolder_1a091aa7fdc2342488f7e268ef28a578d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>static MRVIEWER_API bool MR::RibbonSchemaHolder::delItem</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</argsstring>
+        <name>delItem</name>
+        <qualifiedname>MR::RibbonSchemaHolder::delItem</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes item from the static holder returns false if item was not present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="91" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaHolder_1aeb256a8a2b16bea518f1937d0683ca1a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::vector&lt; <ref refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult" kindref="compound">SearchResult</ref> &gt;</type>
+        <definition>static MRVIEWER_API std::vector&lt; SearchResult &gt; MR::RibbonSchemaHolder::search</definition>
+        <argsstring>(const std::string &amp;searchStr, const SearchParams &amp;params)</argsstring>
+        <name>search</name>
+        <qualifiedname>MR::RibbonSchemaHolder::search</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>searchStr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonSchemaHolder_1_1SearchParams" kindref="compound">SearchParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>searches for tools with the most appropriate names (captions) or tooltips </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="120" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaHolder_1ab23a7433dd866e4a1f54103011c2e116" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API int</type>
+        <definition>static MRVIEWER_API int MR::RibbonSchemaHolder::findItemTab</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</argsstring>
+        <name>findItemTab</name>
+        <qualifiedname>MR::RibbonSchemaHolder::findItemTab</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>returns item tab index in schema.tabsOrder or -1 if no tab found (e.g. scene fast access panel or header access panel) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="123" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaHolder_1afce5bba1a630e2543e84b80fc8a9132a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RibbonSchemaHolder::RibbonSchemaHolder</definition>
+        <argsstring>()=default</argsstring>
+        <name>RibbonSchemaHolder</name>
+        <qualifiedname>MR::RibbonSchemaHolder::RibbonSchemaHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="126" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class holds static ribbon schema, note that schema becomes valid after loading (<ref refid="classMR_1_1RibbonSchemaLoader" kindref="compound">RibbonSchemaLoader</ref>) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="80" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="81" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonSchemaHolder_1a28d7c0a6ed492a3e6678588c499d5a29" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>addItem</name></member>
+      <member refid="classMR_1_1RibbonSchemaHolder_1a091aa7fdc2342488f7e268ef28a578d7" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>delItem</name></member>
+      <member refid="classMR_1_1RibbonSchemaHolder_1ab23a7433dd866e4a1f54103011c2e116" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>findItemTab</name></member>
+      <member refid="classMR_1_1RibbonSchemaHolder_1afce5bba1a630e2543e84b80fc8a9132a" prot="private" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>RibbonSchemaHolder</name></member>
+      <member refid="classMR_1_1RibbonSchemaHolder_1a07e8558bf86dd569ca7acedfbce55d9a" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>schema</name></member>
+      <member refid="classMR_1_1RibbonSchemaHolder_1aeb256a8a2b16bea518f1937d0683ca1a" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>search</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

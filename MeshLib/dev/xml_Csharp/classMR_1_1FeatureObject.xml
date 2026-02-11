@@ -1,0 +1,1350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FeatureObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::FeatureObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FeatureObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1af08a90ac994f5181a5df71deb1bb57bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.FeatureObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(FeatureObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.FeatureObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1564" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1564" bodyend="1569"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aba28a7d76e8ca542a215110f748006a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.FeatureObject.operator MR.Object</definition>
+        <argsstring>(FeatureObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.FeatureObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1570" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1570" bodyend="1575"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aaa4628f4118af2bcec7ccdbcaad6488b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.FeatureObject.operator MR.VisualObject</definition>
+        <argsstring>(FeatureObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.FeatureObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1576" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1576" bodyend="1581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a42b2536ec3459cf7c5d96fee1c8f74ef" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.FeatureObject.operator FeatureObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator FeatureObject?</name>
+        <qualifiedname>MR.FeatureObject.operator FeatureObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1584" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1584" bodyend="1591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1acffc30879ff6f502a78aff5ba0399c23" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.FeatureObject.operator FeatureObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator FeatureObject?</name>
+        <qualifiedname>MR.FeatureObject.operator FeatureObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1592" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1592" bodyend="1599"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a6d40e3b9cb86ec60980061928a7faf3e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FeatureObject.FeatureObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FeatureObject</name>
+        <qualifiedname>MR.FeatureObject.FeatureObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1601" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1601" bodyend="1601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ac2bc7403deb6dce42ca9e8af8e9b4836" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FeatureObject.FeatureObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>FeatureObject</name>
+        <qualifiedname>MR.FeatureObject.FeatureObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1603" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1603" bodyend="1603"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a8218f796fd473130acb6aca98c7e673b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.FeatureObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a8218f796fd473130acb6aca98c7e673b" kindref="member">MR.FeatureObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1609" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1609" bodyend="1617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a743607bedd4fc3a2fce9e92d59f7bb1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.FeatureObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a743607bedd4fc3a2fce9e92d59f7bb1b" kindref="member">MR.FeatureObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1623" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1623" bodyend="1628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1afc915c97f0ac7bbd3fe2ca63b0ab2789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setDecorationsColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR.FeatureObject.setDecorationsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1afc915c97f0ac7bbd3fe2ca63b0ab2789" kindref="member">MR.FeatureObject.setDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1634" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1634" bodyend="1642"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1abae16c6c33efc254f0ca90b45acb9fbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setDecorationsColorForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.FeatureObject.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1abae16c6c33efc254f0ca90b45acb9fbe" kindref="member">MR.FeatureObject.setDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1647" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1647" bodyend="1652"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a7cb5ee3295e7b5bce96d26e159d418ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.FeatureObject.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a7cb5ee3295e7b5bce96d26e159d418ba" kindref="member">MR.FeatureObject.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1657" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1657" bodyend="1662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a4ff93feccb3e03d5e9f81460dcf22cfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.FeatureObject.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a4ff93feccb3e03d5e9f81460dcf22cfe" kindref="member">MR.FeatureObject.setLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1667" bodyend="1672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aeb4660bb71b4b02fc7ec1b38eb565c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR.FeatureObject.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aeb4660bb71b4b02fc7ec1b38eb565c01" kindref="member">MR.FeatureObject.setSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1677" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1677" bodyend="1682"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a9a43d3fbcee0d9c4b40ab4f61e2dde92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR.FeatureObject.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a9a43d3fbcee0d9c4b40ab4f61e2dde92" kindref="member">MR.FeatureObject.setSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1687" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1687" bodyend="1692"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a6e5a0e81f2669002f31a3c1c36b5a3e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR.FeatureObject.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a6e5a0e81f2669002f31a3c1c36b5a3e5" kindref="member">MR.FeatureObject.setMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1697" bodyend="1702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa2ee81ec1c300300f882ae0e0ccde4ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.FeatureObject.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aa2ee81ec1c300300f882ae0e0ccde4ce" kindref="member">MR.FeatureObject.setSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1707" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1707" bodyend="1712"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ab5d4de94d66f54b67c187890ddbc7cbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR.FeatureObject.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ab5d4de94d66f54b67c187890ddbc7cbb" kindref="member">MR.FeatureObject.setSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1717" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1717" bodyend="1722"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a7f28b81b922fced203490bec96ff219b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.FeatureObject.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a7f28b81b922fced203490bec96ff219b" kindref="member">MR.FeatureObject.setSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1727" bodyend="1732"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ae4c1e8bcb39de90ca44a065126ae47ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.FeatureObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ae4c1e8bcb39de90ca44a065126ae47ba" kindref="member">MR.FeatureObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1738" bodyend="1743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a8553a5411e3c90eca1d2aa592064ace2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.FeatureObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a8553a5411e3c90eca1d2aa592064ace2" kindref="member">MR.FeatureObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1749" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1749" bodyend="1754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a66aa5295788d65f303322a9afab93dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.FeatureObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a66aa5295788d65f303322a9afab93dfd" kindref="member">MR.FeatureObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1760" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1760" bodyend="1765"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ae3354759a7ab18da8ac30ec68dbec917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.FeatureObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ae3354759a7ab18da8ac30ec68dbec917" kindref="member">MR.FeatureObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1771" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1771" bodyend="1776"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a850a9dfd6eb25aac130e9ab5d43a2afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.FeatureObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a850a9dfd6eb25aac130e9ab5d43a2afa" kindref="member">MR.FeatureObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1782" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1782" bodyend="1787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a6ed4bd6252b44285bd35a89b3e9845dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.FeatureObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a6ed4bd6252b44285bd35a89b3e9845dd" kindref="member">MR.FeatureObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1794" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1794" bodyend="1799"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a77aeb99324601c1bb8fde2d437270661" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.FeatureObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a77aeb99324601c1bb8fde2d437270661" kindref="member">MR.FeatureObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1806" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1806" bodyend="1814"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ac66260a161ed940cc4b25aa8a3ee12a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.FeatureObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ac66260a161ed940cc4b25aa8a3ee12a4" kindref="member">MR.FeatureObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1821" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1821" bodyend="1827"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aebdb8a481e0fefbfcd35aed798b45ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.FeatureObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aebdb8a481e0fefbfcd35aed798b45ec8" kindref="member">MR.FeatureObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1833" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1833" bodyend="1838"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aaff07f57d75e744ddf60e3ca9323706d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.FeatureObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aaff07f57d75e744ddf60e3ca9323706d" kindref="member">MR.FeatureObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1845" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1845" bodyend="1853"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1af1ade4e0a2fdd83d71cc6e949b0afc00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.FeatureObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1af1ade4e0a2fdd83d71cc6e949b0afc00" kindref="member">MR.FeatureObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1860" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1860" bodyend="1865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa113f1d11f580fc2266146cfa1e534be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.FeatureObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aa113f1d11f580fc2266146cfa1e534be" kindref="member">MR.FeatureObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1871" bodyend="1876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aebec86164a921b8bb2b16450c54128f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.FeatureObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aebec86164a921b8bb2b16450c54128f9" kindref="member">MR.FeatureObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1885" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1885" bodyend="1891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a83eedbc52598e39ce1caf6f9836699bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.FeatureObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a83eedbc52598e39ce1caf6f9836699bb" kindref="member">MR.FeatureObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1898" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1898" bodyend="1903"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a6f87b31bc3800098e65854ecdb9bf68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.FeatureObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a6f87b31bc3800098e65854ecdb9bf68e" kindref="member">MR.FeatureObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1909" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1909" bodyend="1914"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a45b4c8b59a35f7e65a1474c54966a6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.FeatureObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a45b4c8b59a35f7e65a1474c54966a6ea" kindref="member">MR.FeatureObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1920" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1920" bodyend="1925"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a886f1760d9e4a6ce17ef4d6f05126271" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.FeatureObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a886f1760d9e4a6ce17ef4d6f05126271" kindref="member">MR.FeatureObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1931" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1931" bodyend="1936"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a18268df5128f936c58873a4a4e9da7e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.FeatureObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a18268df5128f936c58873a4a4e9da7e3" kindref="member">MR.FeatureObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1942" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1942" bodyend="1947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ae8a32e78202e88cd6fe5bb5868418905" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.FeatureObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ae8a32e78202e88cd6fe5bb5868418905" kindref="member">MR.FeatureObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1954" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1954" bodyend="1959"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a99e83e27e0ef25482b0e92b8a0a6d24d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.FeatureObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a99e83e27e0ef25482b0e92b8a0a6d24d" kindref="member">MR.FeatureObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1965" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1965" bodyend="1970"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa75d3b4d43e669c688fd5c6e04fa7ffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.FeatureObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aa75d3b4d43e669c688fd5c6e04fa7ffb" kindref="member">MR.FeatureObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1976" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1976" bodyend="1981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a7e63691acd82c4b374d720c3bcec8481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.FeatureObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a7e63691acd82c4b374d720c3bcec8481" kindref="member">MR.FeatureObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1986" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1986" bodyend="1995"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa39aa73f6c240eeb110ad7547920d198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.FeatureObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aa39aa73f6c240eeb110ad7547920d198" kindref="member">MR.FeatureObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2001" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2001" bodyend="2006"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa976acc6997c1b8bddc207596f9f6937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.FeatureObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aa976acc6997c1b8bddc207596f9f6937" kindref="member">MR.FeatureObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2012" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2012" bodyend="2020"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1adc42a5edc37c4cacc9b3b217d7a3dd2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.FeatureObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1adc42a5edc37c4cacc9b3b217d7a3dd2c" kindref="member">MR.FeatureObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2026" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2026" bodyend="2031"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a2e5c1d9fd4a4486a72ee9e0b447993fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.FeatureObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a2e5c1d9fd4a4486a72ee9e0b447993fe" kindref="member">MR.FeatureObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2038" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2038" bodyend="2043"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1acbbe06e30fa2576e4fbbc61d1a1463e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.FeatureObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1acbbe06e30fa2576e4fbbc61d1a1463e5" kindref="member">MR.FeatureObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2048" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2048" bodyend="2053"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a932859db6ad994b018b41087f5c59fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.FeatureObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a932859db6ad994b018b41087f5c59fbb" kindref="member">MR.FeatureObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2058" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2058" bodyend="2063"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ae982784c56a7264c208461c471c40fb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.FeatureObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.FeatureObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ae982784c56a7264c208461c471c40fb8" kindref="member">MR.FeatureObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2070" bodyend="2075"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a01cb373e11583441c2336d4c49564c09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.FeatureObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.FeatureObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a01cb373e11583441c2336d4c49564c09" kindref="member">MR.FeatureObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2085" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2085" bodyend="2091"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ade6ce70e0d7cd5f69cca21ed851856ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.FeatureObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.FeatureObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ade6ce70e0d7cd5f69cca21ed851856ab" kindref="member">MR.FeatureObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2099" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2099" bodyend="2104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a3b4fa4afbe65da6ae45d4f2af4cd8b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.FeatureObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a3b4fa4afbe65da6ae45d4f2af4cd8b28" kindref="member">MR.FeatureObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2110" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2110" bodyend="2115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a93938c20cacd75c74fe91e5b9cddea2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.FeatureObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a93938c20cacd75c74fe91e5b9cddea2f" kindref="member">MR.FeatureObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2121" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2121" bodyend="2126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1abb2715074649c4a954baf33666ad7a3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.FeatureObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.FeatureObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1abb2715074649c4a954baf33666ad7a3e" kindref="member">MR.FeatureObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2132" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2132" bodyend="2137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a393a00db9df3c39ba3f8b8a22c841418" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.FeatureObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a393a00db9df3c39ba3f8b8a22c841418" kindref="member">MR.FeatureObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2144" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2144" bodyend="2149"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ad2744b9b94fd80e67292d9a45c4e3ff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.FeatureObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ad2744b9b94fd80e67292d9a45c4e3ff5" kindref="member">MR.FeatureObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2156" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2156" bodyend="2161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1ad9f1e1940d9b3fb6f9077b01e2b12283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.FeatureObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ad9f1e1940d9b3fb6f9077b01e2b12283" kindref="member">MR.FeatureObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2167" bodyend="2172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aa837a05d89d749e91cef1a8361ec9376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.FeatureObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.FeatureObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aa837a05d89d749e91cef1a8361ec9376" kindref="member">MR.FeatureObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2180" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2180" bodyend="2185"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1a009794c403be9bc64e428957f74b25af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.FeatureObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.FeatureObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a009794c403be9bc64e428957f74b25af" kindref="member">MR.FeatureObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2193" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2193" bodyend="2202"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FeatureObject_1aae5fb85964a6d887d12b3f6e86f351b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.FeatureObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.FeatureObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1aae5fb85964a6d887d12b3f6e86f351b9" kindref="member">MR.FeatureObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="2209" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="2209" bodyend="2218"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>An interface class which allows feature objects to share setters and getters on their main properties, for convenient presentation in the UI Generated from class <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;</computeroutput> <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.length&gt;</computeroutput> <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter&gt;</computeroutput> <computeroutput><ref refid="classMR_1_1LineObject" kindref="compound">MR.LineObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PlaneObject" kindref="compound">MR.PlaneObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointObject" kindref="compound">MR.PointObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ConeObject" kindref="compound">MR.ConeObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CylinderObject" kindref="compound">MR.CylinderObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1SphereObject" kindref="compound">MR.SphereObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FeatureObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_FeatureObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FeatureObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_FeatureObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1561" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1562" bodyend="2219"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FeatureObject_1a01cb373e11583441c2336d4c49564c09" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1FeatureObject_1ade6ce70e0d7cd5f69cca21ed851856ab" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1FeatureObject_1a009794c403be9bc64e428957f74b25af" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1FeatureObject_1adc42a5edc37c4cacc9b3b217d7a3dd2c" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1FeatureObject_1a850a9dfd6eb25aac130e9ab5d43a2afa" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1FeatureObject_1ae982784c56a7264c208461c471c40fb8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1FeatureObject_1a6d40e3b9cb86ec60980061928a7faf3e" prot="package" virt="non-virtual"><scope>MR::FeatureObject</scope><name>FeatureObject</name></member>
+      <member refid="classMR_1_1FeatureObject_1ac2bc7403deb6dce42ca9e8af8e9b4836" prot="package" virt="non-virtual"><scope>MR::FeatureObject</scope><name>FeatureObject</name></member>
+      <member refid="classMR_1_1FeatureObject_1a42b2536ec3459cf7c5d96fee1c8f74ef" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator FeatureObject?</name></member>
+      <member refid="classMR_1_1FeatureObject_1acffc30879ff6f502a78aff5ba0399c23" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator FeatureObject?</name></member>
+      <member refid="classMR_1_1FeatureObject_1aba28a7d76e8ca542a215110f748006a4" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1FeatureObject_1af08a90ac994f5181a5df71deb1bb57bf" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1FeatureObject_1aaa4628f4118af2bcec7ccdbcaad6488b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1FeatureObject_1a3b4fa4afbe65da6ae45d4f2af4cd8b28" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1FeatureObject_1aae5fb85964a6d887d12b3f6e86f351b9" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa75d3b4d43e669c688fd5c6e04fa7ffb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1FeatureObject_1a99e83e27e0ef25482b0e92b8a0a6d24d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1FeatureObject_1a743607bedd4fc3a2fce9e92d59f7bb1b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1FeatureObject_1abb2715074649c4a954baf33666ad7a3e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>select</name></member>
+      <member refid="classMR_1_1FeatureObject_1ae3354759a7ab18da8ac30ec68dbec917" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1FeatureObject_1a18268df5128f936c58873a4a4e9da7e3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1FeatureObject_1a393a00db9df3c39ba3f8b8a22c841418" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1FeatureObject_1aaff07f57d75e744ddf60e3ca9323706d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1FeatureObject_1aebdb8a481e0fefbfcd35aed798b45ec8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1FeatureObject_1a6f87b31bc3800098e65854ecdb9bf68e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1FeatureObject_1afc915c97f0ac7bbd3fe2ca63b0ab2789" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1FeatureObject_1abae16c6c33efc254f0ca90b45acb9fbe" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1FeatureObject_1aebec86164a921b8bb2b16450c54128f9" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1FeatureObject_1a77aeb99324601c1bb8fde2d437270661" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1FeatureObject_1ac66260a161ed940cc4b25aa8a3ee12a4" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1FeatureObject_1af1ade4e0a2fdd83d71cc6e949b0afc00" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa113f1d11f580fc2266146cfa1e534be" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1FeatureObject_1a6ed4bd6252b44285bd35a89b3e9845dd" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1FeatureObject_1a2e5c1d9fd4a4486a72ee9e0b447993fe" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1FeatureObject_1a4ff93feccb3e03d5e9f81460dcf22cfe" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1FeatureObject_1acbbe06e30fa2576e4fbbc61d1a1463e5" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1FeatureObject_1a6e5a0e81f2669002f31a3c1c36b5a3e5" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1FeatureObject_1a7e63691acd82c4b374d720c3bcec8481" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1FeatureObject_1a932859db6ad994b018b41087f5c59fbb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1FeatureObject_1a83eedbc52598e39ce1caf6f9836699bb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1FeatureObject_1a7cb5ee3295e7b5bce96d26e159d418ba" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1FeatureObject_1a45b4c8b59a35f7e65a1474c54966a6ea" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1FeatureObject_1a886f1760d9e4a6ce17ef4d6f05126271" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1FeatureObject_1ab5d4de94d66f54b67c187890ddbc7cbb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1FeatureObject_1a7f28b81b922fced203490bec96ff219b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa2ee81ec1c300300f882ae0e0ccde4ce" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1FeatureObject_1a9a43d3fbcee0d9c4b40ab4f61e2dde92" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1FeatureObject_1aeb4660bb71b4b02fc7ec1b38eb565c01" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1FeatureObject_1ae8a32e78202e88cd6fe5bb5868418905" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1FeatureObject_1ad9f1e1940d9b3fb6f9077b01e2b12283" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1FeatureObject_1ad2744b9b94fd80e67292d9a45c4e3ff5" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1FeatureObject_1ae4c1e8bcb39de90ca44a065126ae47ba" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1FeatureObject_1a8553a5411e3c90eca1d2aa592064ace2" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa976acc6997c1b8bddc207596f9f6937" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1FeatureObject_1a8218f796fd473130acb6aca98c7e673b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa39aa73f6c240eeb110ad7547920d198" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1FeatureObject_1a93938c20cacd75c74fe91e5b9cddea2f" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1FeatureObject_1aa837a05d89d749e91cef1a8361ec9376" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1FeatureObject_1a66aa5295788d65f303322a9afab93dfd" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

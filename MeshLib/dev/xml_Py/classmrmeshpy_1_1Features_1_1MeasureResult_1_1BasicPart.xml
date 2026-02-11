@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::MeasureResult::BasicPart</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" prot="public" virt="non-virtual">mrmeshpy.Features.MeasureResult.Angle</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" prot="public" virt="non-virtual">mrmeshpy.Features.MeasureResult.Distance</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a48e12ebf97595ff5ba74000dc081b0d8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult.BasicPart::_offsetof_status</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_status</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart._offsetof_status</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18061" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a9f67a08a87117463302cf714d9ff0981" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1Features" kindref="compound">Features</ref></type>
+        <definition>Features mrmeshpy.Features.MeasureResult.BasicPart::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.status</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">MeasureResult.Status</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18062" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.BasicPart.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18065" bodyend="18066"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">Features.MeasureResult.BasicPart</ref></type>
+        <definition> Features.MeasureResult.BasicPart mrmeshpy.Features.MeasureResult.BasicPart.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18069" bodyend="18070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">Features.MeasureResult.BasicPart</ref></type>
+        <definition> Features.MeasureResult.BasicPart mrmeshpy.Features.MeasureResult.BasicPart.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18073" bodyend="18074"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4ca12ccf28289ce7db9a791101cf196b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.MeasureResult.BasicPart.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18075" bodyend="18076"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4c26ec8d177bc5361b1b953576fce9dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.BasicPart.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18078" bodyend="18079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ae0263dea450f7789caa2b67a2a0ede36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.BasicPart.__init__</definition>
+        <argsstring>(self, Features.MeasureResult.BasicPart arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">Features.MeasureResult.BasicPart</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18081" bodyend="18084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a1863038b55294a28f23ba5cefd3771d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.BasicPart.__init__</definition>
+        <argsstring>(self, Features.MeasureResult.Status status)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" kindref="compound">Features.MeasureResult.Status</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18086" bodyend="18089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ac3ee1998322bd737c04046d286ba1120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Features.MeasureResult.BasicPart.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__repr__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad757abd712d3b60bbadca720e25f2e71">__repr__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a21180c5aec2130a8a816275f883b7ac6">__repr__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18090" bodyend="18092"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Features::MeasureResult::BasicPart
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Features.MeasureResult.Angle</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Features.MeasureResult.Distance</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_status</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>status</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Features</label>
+        <link refid="classmrmeshpy_1_1Features"/>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18057" bodyend="18091"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4ca12ccf28289ce7db9a791101cf196b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4c26ec8d177bc5361b1b953576fce9dd" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ae0263dea450f7789caa2b67a2a0ede36" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a1863038b55294a28f23ba5cefd3771d9" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ac3ee1998322bd737c04046d286ba1120" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a48e12ebf97595ff5ba74000dc081b0d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>_offsetof_status</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a9f67a08a87117463302cf714d9ff0981" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

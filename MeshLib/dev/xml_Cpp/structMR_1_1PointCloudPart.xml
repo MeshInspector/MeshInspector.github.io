@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointCloudPart" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointCloudPart</compoundname>
+    <includes refid="MRPointCloudPart_8h" local="no">MRPointCloudPart.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointCloudPart_1a85d4aad70140445a8b9ebadbc4382363" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+        <definition>const PointCloud&amp; MR::PointCloudPart::cloud</definition>
+        <argsstring></argsstring>
+        <name>cloud</name>
+        <qualifiedname>MR::PointCloudPart::cloud</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="11" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointCloudPart_1adb49365fb60e376e6302ffa62d2b534a" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::PointCloudPart::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::PointCloudPart::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="12" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PointCloudPart_1ac812c96a021ba648662385f7f041a995" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointCloudPart::PointCloudPart</definition>
+        <argsstring>(const PointCloud &amp;c, const VertBitSet *bs=nullptr) noexcept</argsstring>
+        <name>PointCloudPart</name>
+        <qualifiedname>MR::PointCloudPart::PointCloudPart</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>bs</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>nullptr here means all valid points of point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PointCloudPart_1a8d89b26e35155dd7c45e50042fe70145" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointCloudPart::PointCloudPart</definition>
+        <argsstring>(const PointCloudPart &amp;other) noexcept=default</argsstring>
+        <name>PointCloudPart</name>
+        <qualifiedname>MR::PointCloudPart::PointCloudPart</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="17" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PointCloudPart_1a15a31f379a5e9fe7e7f2c58e7e1b0207" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref> &amp;</type>
+        <definition>PointCloudPart &amp; MR::PointCloudPart::operator=</definition>
+        <argsstring>(const PointCloudPart &amp;other) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::PointCloudPart::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>In modern C++ the result doesn&apos;t need to be <computeroutput>std::launder</computeroutput>ed, right?</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="18" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" bodystart="18" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents full point cloud (if region is nullptr) or some portion of point cloud (if region pointer is valid) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::PointCloud</label>
+        <link refid="structMR_1_1PointCloud"/>
+      </node>
+      <node id="1">
+        <label>MR::PointCloudPart</label>
+        <link refid="structMR_1_1PointCloudPart"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cloud</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PointCloudPart_1a85d4aad70140445a8b9ebadbc4382363" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>cloud</name></member>
+      <member refid="structMR_1_1PointCloudPart_1a15a31f379a5e9fe7e7f2c58e7e1b0207" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>operator=</name></member>
+      <member refid="structMR_1_1PointCloudPart_1ac812c96a021ba648662385f7f041a995" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>PointCloudPart</name></member>
+      <member refid="structMR_1_1PointCloudPart_1a8d89b26e35155dd7c45e50042fe70145" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>PointCloudPart</name></member>
+      <member refid="structMR_1_1PointCloudPart_1adb49365fb60e376e6302ffa62d2b534a" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshComponents::ExpandToComponentsParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a335dd243e1f93cef8aab30a1267eb8ca" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ExpandToComponentsParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams._offsetof_cb</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31691" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1af5a9df6483223d9e3a645794b5beb121" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ExpandToComponentsParams::_offsetof_coverRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_coverRatio</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams._offsetof_coverRatio</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31692" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ae97a78183b56e43530bb8d88c44dae57" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ExpandToComponentsParams::_offsetof_incidence</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_incidence</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams._offsetof_incidence</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ae8dd54aebcc10b4bf9dcad66385f20c3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ExpandToComponentsParams::_offsetof_isCompBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isCompBd</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams._offsetof_isCompBd</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ad51b14ff8d57c4fd1d07175f5341b2fa" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ExpandToComponentsParams::_offsetof_optOutNumComponents</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_optOutNumComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams._offsetof_optOutNumComponents</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31695" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a7ac86f77d6a7eb1a8308834ed4d5175b" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents" kindref="compound">MeshComponents</ref></type>
+        <definition>MeshComponents mrmeshpy.MeshComponents.ExpandToComponentsParams::incidence</definition>
+        <argsstring></argsstring>
+        <name>incidence</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.incidence</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">FaceIncidence</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31697" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a0a32b8d67161ad9ef89cb491a6976183" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31700" bodyend="31701"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a1f87aafddfc3e8452785462b3796badd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams" kindref="compound">MeshComponents.ExpandToComponentsParams</ref></type>
+        <definition> MeshComponents.ExpandToComponentsParams mrmeshpy.MeshComponents.ExpandToComponentsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31704" bodyend="31705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a1f87aafddfc3e8452785462b3796badd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams" kindref="compound">MeshComponents.ExpandToComponentsParams</ref></type>
+        <definition> MeshComponents.ExpandToComponentsParams mrmeshpy.MeshComponents.ExpandToComponentsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31708" bodyend="31709"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ae480b14f609490ef02946fddba0d3f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31711" bodyend="31712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1abdc32f3f2edb9093fe4d46f83bbf2ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</definition>
+        <argsstring>(self, MeshComponents.ExpandToComponentsParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams" kindref="compound">MeshComponents.ExpandToComponentsParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31714" bodyend="31717"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ad93874fd77755e6fc3ced07678cb7d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</definition>
+        <argsstring>(self, float coverRatio, MeshComponents.FaceIncidence incidence, UndirectedEdgeBitSet isCompBd, int_output optOutNumComponents, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coverRatio</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
+          <declname>incidence</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>isCompBd</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>optOutNumComponents</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31719" bodyend="31722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a828b2a9fe34615aa6804a20964430365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshComponents.ExpandToComponentsParams.coverRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>coverRatio</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.coverRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>expands only if seeds cover at least this ratio of the component area
+&lt;=0 - expands all seeds
+&gt; 1 - none
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31724" bodyend="31729"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a7b178f8c2097b557455b26b034c5e3f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.coverRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>coverRatio</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.coverRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31731" bodyend="31732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ac507da2960288b40b453a4b85f40aed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.MeshComponents.ExpandToComponentsParams.isCompBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>isCompBd</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.isCompBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional predicate of boundaries between components
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31734" bodyend="31737"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a4eebb29be4a56752b8eb04257f96e2f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.isCompBd</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>isCompBd</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.isCompBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31739" bodyend="31740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a362a9896de2ec66a5f43d3328956cd21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshComponents.ExpandToComponentsParams.optOutNumComponents</definition>
+        <argsstring>(self)</argsstring>
+        <name>optOutNumComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.optOutNumComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output number of components
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31742" bodyend="31745"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a1b3fa6cb4c834ebf312d17303e1f918d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ExpandToComponentsParams.optOutNumComponents</definition>
+        <argsstring>(self, int_output arg1)</argsstring>
+        <name>optOutNumComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ExpandToComponentsParams.optOutNumComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31747" bodyend="31749"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshComponents::ExpandToComponentsParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshComponents.ExpandToComponentsParams</label>
+        <link refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_coverRatio</edgelabel>
+          <edgelabel>_offsetof_incidence</edgelabel>
+          <edgelabel>_offsetof_isCompBd</edgelabel>
+          <edgelabel>_offsetof_optOutNumComponents</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>incidence</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.MeshComponents</label>
+        <link refid="classmrmeshpy_1_1MeshComponents"/>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31687" bodyend="31748"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a0a32b8d67161ad9ef89cb491a6976183" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ae480b14f609490ef02946fddba0d3f43" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1abdc32f3f2edb9093fe4d46f83bbf2ba6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ad93874fd77755e6fc3ced07678cb7d5f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a335dd243e1f93cef8aab30a1267eb8ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1af5a9df6483223d9e3a645794b5beb121" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>_offsetof_coverRatio</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ae97a78183b56e43530bb8d88c44dae57" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>_offsetof_incidence</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ae8dd54aebcc10b4bf9dcad66385f20c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>_offsetof_isCompBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ad51b14ff8d57c4fd1d07175f5341b2fa" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>_offsetof_optOutNumComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a828b2a9fe34615aa6804a20964430365" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>coverRatio</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a7b178f8c2097b557455b26b034c5e3f9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>coverRatio</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a7ac86f77d6a7eb1a8308834ed4d5175b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>incidence</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1ac507da2960288b40b453a4b85f40aed6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>isCompBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a4eebb29be4a56752b8eb04257f96e2f9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>isCompBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a1f87aafddfc3e8452785462b3796badd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a1f87aafddfc3e8452785462b3796badd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a362a9896de2ec66a5f43d3328956cd21" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>optOutNumComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams_1a1b3fa6cb4c834ebf312d17303e1f918d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ExpandToComponentsParams</scope><name>optOutNumComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

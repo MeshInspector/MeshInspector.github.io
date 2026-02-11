@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1PointsSave" kind="namespace" language="C++">
+    <compoundname>MR::PointsSave</compoundname>
+    <innerclass refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public">MR::PointsSave::CtmSavePointsOptions</innerclass>
+    <innerclass refid="structMR_1_1PointsSave_1_1PointsSaver" prot="public">MR::PointsSave::PointsSaver</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <definition>using MR::PointsSave::PointsFileSaver =  Expected&lt;void&gt;( * )( const PointCloud&amp;, const std::filesystem::path&amp;, const SaveSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>PointsFileSaver</name>
+        <qualifiedname>MR::PointsSave::PointsFileSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" prot="public" static="no">
+        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <definition>using MR::PointsSave::PointsStreamSaver =  Expected&lt;void&gt;( * )( const PointCloud&amp;, std::ostream&amp;, const SaveSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>PointsStreamSaver</name>
+        <qualifiedname>MR::PointsSave::PointsStreamSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1PointsSave_1aa04e7f02c224a36b21fe5634798e0ec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::PointsSave::toCtm</definition>
+        <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const CtmSavePointsOptions &amp;options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR::PointsSave::toCtm</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">CtmSavePointsOptions</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>saves in .ctm file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="76" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="76" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1PointsSave_1a98e902c9b3693ad0e13b4cea99cf4930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::PointsSave::toCtm</definition>
+        <argsstring>(const PointCloud &amp;points, std::ostream &amp;out, const CtmSavePointsOptions &amp;options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR::PointsSave::toCtm</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">CtmSavePointsOptions</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="77" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="77" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1PointsSave_1ae23866fe66a802c4ea607cb75f014d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::PointsSave::toCtm</definition>
+        <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR::PointsSave::toCtm</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="78" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="78" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1PointsSave_1aa0c93c027a52951a40337f323f2860de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::PointsSave::toCtm</definition>
+        <argsstring>(const PointCloud &amp;points, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>MR::PointsSave::toCtm</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="79" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="79" declcolumn="25"/>
+      </memberdef>
+      <member refid="group__PointsSaveGroup_1ga94002b7226a354d4ed16c373abe30200" kind="function"><name>toXyz</name></member>
+      <member refid="group__PointsSaveGroup_1ga1cda44c459bb9985cbe588c06eaf5b32" kind="function"><name>toXyz</name></member>
+      <member refid="group__PointsSaveGroup_1gaef7fbffead1d7db6959ce064667d0644" kind="function"><name>toXyzn</name></member>
+      <member refid="group__PointsSaveGroup_1gac312a015d428306e9cd7f0d7f35598ed" kind="function"><name>toXyzn</name></member>
+      <member refid="group__PointsSaveGroup_1gaac66378aea59c039d4d6f10abc88e0c7" kind="function"><name>toAsc</name></member>
+      <member refid="group__PointsSaveGroup_1ga58b1b79208930b911c4953c1cd70bf48" kind="function"><name>toAsc</name></member>
+      <member refid="group__PointsSaveGroup_1gaf05b1fb23e1b89b10750e721301bd4e8" kind="function"><name>toPly</name></member>
+      <member refid="group__PointsSaveGroup_1ga74463b5ee9c7ec9c927c775ea3d5abe7" kind="function"><name>toPly</name></member>
+      <member refid="group__PointsSaveGroup_1ga3c8f83fa34faa244672c9f70f436659d" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__PointsSaveGroup_1gaf483fe48c6b9e28ef2cd22358d099b82" kind="function"><name>toAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1PointsLoad" kindref="compound">PointsLoad</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="64" column="1"/>
+  </compounddef>
+</doxygen>

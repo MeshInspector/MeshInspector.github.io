@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IRenderObject" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IRenderObject</compoundname>
+    <derivedcompoundref refid="classMR_1_1RenderLabelObject" prot="public" virt="virtual">MR::RenderLabelObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderLinesObject" prot="public" virt="virtual">MR::RenderLinesObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderMeshObject" prot="public" virt="virtual">MR::RenderMeshObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderNameObject" prot="public" virt="virtual">MR::RenderNameObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderPointsObject" prot="public" virt="virtual">MR::RenderPointsObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderResetDirtyComponent" prot="public" virt="virtual">MR::RenderResetDirtyComponent</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderVolumeObject" prot="public" virt="virtual">MR::RenderVolumeObject</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::IRenderObject::~IRenderObject</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IRenderObject</name>
+        <qualifiedname>MR::IRenderObject::~IRenderObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="133" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="pure-virtual">
+        <type>bool</type>
+        <definition>bool MR::IRenderObject::render</definition>
+        <argsstring>(const ModelRenderParams &amp;params)=0</argsstring>
+        <name>render</name>
+        <qualifiedname>MR::IRenderObject::render</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a879e1173ef7bfb15f7742f2bbf9191eb">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLabelObject_1af0dc873eb933a19cda016279a133a693">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLinesObject_1a8412df02cc59f812bae34332eb7da1bf">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderMeshObject_1af98f29118f3e40b2fea47777cc8c1109">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderPointsObject_1ad39fc2c9b30695ac78272431c20efe9e">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderResetDirtyComponent_1ad6945ce12bbde911734e7e6f840a844c">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderVolumeObject_1aaad07ecd619e787b1708ee13b634297b">render</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if something was rendered, or false if nothing to render. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
+<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="141" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="pure-virtual">
+        <type>void</type>
+        <definition>void MR::IRenderObject::renderPicker</definition>
+        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId)=0</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>MR::IRenderObject::renderPicker</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a8a25f7b901d90a80b7e6de43f0c00d53">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLabelObject_1abf815848468cddcca8a409e99aa33102">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLinesObject_1ad30e617ed0e05dd26727e86018cb4366">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderMeshObject_1a3add1fec03d84c184958d143c13ab6ba">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderPointsObject_1a88bbfafb06a1d55fbcc5d082f4239094">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderResetDirtyComponent_1af0236040c67db7f3a0fdacadf85875e9">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderVolumeObject_1acbecb6272b1df8bf0c9339d43bc815d8">renderPicker</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="142" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::IRenderObject::heapBytes</definition>
+        <argsstring>() const =0</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::IRenderObject::heapBytes</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderLabelObject_1abc3ff595096e62f558025d61d5f30506">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLinesObject_1a25db5445ddf1fea48fe51be05daa5605">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderMeshObject_1a8e555c261681a7483119dde9a5b3df25">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderPointsObject_1ac57d8a541df401cff5ddf7566f0b9bb4">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderResetDirtyComponent_1a8ca1ddd65d7766ffffa225d6e58b3ad5">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderVolumeObject_1a16d2a2fd88ac9b6d7a5f884b3e295c3d">heapBytes</reimplementedby>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="144" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::IRenderObject::glBytes</definition>
+        <argsstring>() const =0</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>MR::IRenderObject::glBytes</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderLabelObject_1a83bff8c78051dfccfd12631663bea7d9">glBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLinesObject_1a536334f5c2028c4b2480759621cc6e9a">glBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderMeshObject_1a5853532e2914421ec96d85838152300a">glBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderPointsObject_1ae58d2cc13f9eff9285ade09909b14ec7">glBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderResetDirtyComponent_1ad432bca8e634d4215c150fa02a1c9a5d">glBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderVolumeObject_1aba4f040c3735664826132a2865866347">glBytes</reimplementedby>
+        <briefdescription>
+<para>returns the amount of memory this object allocated in OpenGL </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="146" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::IRenderObject::forceBindAll</definition>
+        <argsstring>()</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>MR::IRenderObject::forceBindAll</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderLabelObject_1a047c9120d6951049a5d669c2b8a10e43">forceBindAll</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderLinesObject_1a84c3a8d6e9caedfefff441da8809dec0">forceBindAll</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderMeshObject_1a04bbec7fedef3e485ba0763e6aea76f2">forceBindAll</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderPointsObject_1a84ee58e0127a952e60ebcae7ee3a712a">forceBindAll</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderVolumeObject_1a9ca39de41790324525077f7b340c0255">forceBindAll</reimplementedby>
+        <briefdescription>
+<para>binds all data for this render object, not to bind ever again (until object becomes dirty) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="148" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::IRenderObject::renderUi</definition>
+        <argsstring>(const UiRenderParams &amp;params)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR::IRenderObject::renderUi</qualifiedname>
+        <reimplementedby refid="classMR_1_1RenderNameObject_1a85d8945ec399906e1fea281443b0f95b">renderUi</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Render the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. This is repeated for each viewport. Here you can either render immediately, or insert a task into <computeroutput>params.tasks</computeroutput>, which get Z-sorted.<itemizedlist>
+<listitem><para><computeroutput>params</computeroutput> will remain alive as long as the tasks are used.</para>
+</listitem><listitem><para>You&apos;ll have at most one living task at a time, so you can write a non-owning pointer to an internal task. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="154" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="154" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; false &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::RenderFeatures::RenderPlaneNormalComponent</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderLabelObject</label>
+        <link refid="classMR_1_1RenderLabelObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderLinesObject</label>
+        <link refid="classMR_1_1RenderLinesObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderMeshObject</label>
+        <link refid="classMR_1_1RenderMeshObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::RenderNameObject</label>
+        <link refid="classMR_1_1RenderNameObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::RenderPointsObject</label>
+        <link refid="classMR_1_1RenderPointsObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::RenderResetDirtyComponent</label>
+        <link refid="classMR_1_1RenderResetDirtyComponent"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::RenderVolumeObject</label>
+        <link refid="classMR_1_1RenderVolumeObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="131" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>render</name></member>
+      <member refid="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>~IRenderObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

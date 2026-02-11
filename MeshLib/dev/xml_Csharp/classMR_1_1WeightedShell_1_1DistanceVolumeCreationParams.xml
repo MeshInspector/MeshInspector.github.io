@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::WeightedShell::DistanceVolumeCreationParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.WeightedShell.Const_DistanceVolumeCreationParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ac2def685bbbe61ccab09b3234b12755d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></type>
+        <definition>new unsafe MR.DistanceVolumeParams MR.WeightedShell.DistanceVolumeCreationParams.vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="114" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ad19111135621bab74fa2b1773f70bf55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">MR.DistanceFromWeightedPointsComputeParams</ref></type>
+        <definition>new unsafe MR.DistanceFromWeightedPointsComputeParams MR.WeightedShell.DistanceVolumeCreationParams.dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="116" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab52e922c4ff2a1a3372b3ac7617a06d8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DistanceVolumeCreationParams</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="142" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="142" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a0c22f38220e879d0bcd2cb86ae4f849d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</definition>
+        <argsstring>()</argsstring>
+        <name>DistanceVolumeCreationParams</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="152" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a820fa531ae1d82d0dc569310c171c957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</definition>
+        <argsstring>(MR._ByValue_DistanceVolumeParams vol, MR._ByValue_DistanceFromWeightedPointsComputeParams dist)</argsstring>
+        <name>DistanceVolumeCreationParams</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_DistanceVolumeParams</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_DistanceFromWeightedPointsComputeParams</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.DistanceVolumeCreationParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="163" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="163" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a3282a5d7767b91c2c2524ec5617845c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</definition>
+        <argsstring>(MR.WeightedShell._ByValue_DistanceVolumeCreationParams _other)</argsstring>
+        <name>DistanceVolumeCreationParams</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
+        <param>
+          <type>MR.WeightedShell._ByValue_DistanceVolumeCreationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="176" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a8025c521700e138e2834c5da41d6cdbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</definition>
+        <argsstring>(Const_DistanceVolumeCreationParams _other)</argsstring>
+        <name>DistanceVolumeCreationParams</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
+        <param>
+          <type>Const_DistanceVolumeCreationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="188" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a2802283c32fa712993fa8288b1958dac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</definition>
+        <argsstring>(DistanceVolumeCreationParams _other)</argsstring>
+        <name>DistanceVolumeCreationParams</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">DistanceVolumeCreationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="193" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ad66f6050e65285128ae7c6b388c12190" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.DistanceVolumeCreationParams</ref></type>
+        <definition>unsafe MR.WeightedShell.DistanceVolumeCreationParams MR.WeightedShell.DistanceVolumeCreationParams.assign</definition>
+        <argsstring>(MR.WeightedShell._ByValue_DistanceVolumeCreationParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.assign</qualifiedname>
+        <param>
+          <type>MR.WeightedShell._ByValue_DistanceVolumeCreationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.WeightedShell.DistanceVolumeCreationParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="198" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="198" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.DistanceVolumeCreationParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DistanceVolumeCreationParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.WeightedShell.DistanceVolumeCreationParams</label>
+        <link refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DistanceVolumeCreationParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DistanceVolumeCreationParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.WeightedShell.DistanceVolumeCreationParams</label>
+        <link refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DistanceVolumeCreationParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="112" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="113" bodyend="206"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ad66f6050e65285128ae7c6b388c12190" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ad19111135621bab74fa2b1773f70bf55" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>dist</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab52e922c4ff2a1a3372b3ac7617a06d8" prot="package" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a0c22f38220e879d0bcd2cb86ae4f849d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a820fa531ae1d82d0dc569310c171c957" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a3282a5d7767b91c2c2524ec5617845c2" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a8025c521700e138e2834c5da41d6cdbc" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a2802283c32fa712993fa8288b1958dac" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ac2def685bbbe61ccab09b3234b12755d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

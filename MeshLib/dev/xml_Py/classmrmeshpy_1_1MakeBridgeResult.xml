@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MakeBridgeResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MakeBridgeResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeBridgeResult_1a306acc59d4d84554faf0167f372bb196" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeBridgeResult::_offsetof_na</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_na</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult._offsetof_na</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26612" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeBridgeResult_1a9b002d9bb7e53a010eca104409c7b7cd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeBridgeResult::_offsetof_nb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_nb</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult._offsetof_nb</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeBridgeResult_1a37b6e75c1521aa5177d80cb79780fa73" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeBridgeResult::_offsetof_newFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_newFaces</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult._offsetof_newFaces</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26614" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a1730d040330708f89a1531ab7bb0effb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26617" bodyend="26618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1af5f0025d3b9dd79c74d63cc99ed54d54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref></type>
+        <definition> MakeBridgeResult mrmeshpy.MakeBridgeResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26621" bodyend="26622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1af5f0025d3b9dd79c74d63cc99ed54d54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref></type>
+        <definition> MakeBridgeResult mrmeshpy.MakeBridgeResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26625" bodyend="26626"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a399642ff857e108850dea4815b49bd3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MakeBridgeResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>bridge construction is successful if at least one new face was created
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26627" bodyend="26630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a4daae35c186a7f1ea680b2a1978e04f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26632" bodyend="26633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1aacec4b8d649d564181441bd1c335a734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.__init__</definition>
+        <argsstring>(self, MakeBridgeResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MakeBridgeResult" kindref="compound">MakeBridgeResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26635" bodyend="26638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1ae93ecbcd55c1e84235806542f636b146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.__init__</definition>
+        <argsstring>(self, int newFaces, EdgeId na, EdgeId nb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26640" bodyend="26643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a5cef1976366ff17ac32a4bbd4a139344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.MakeBridgeResult.na</definition>
+        <argsstring>(self)</argsstring>
+        <name>na</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.na</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the edge na (nb) if valid is a new boundary edge of the created bridge without left face,
+having the same origin as input edge a (b)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26645" bodyend="26649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a585f27ec76dc595e1aae74b6757b0c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.na</definition>
+        <argsstring>(self, EdgeId arg1)</argsstring>
+        <name>na</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.na</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26651" bodyend="26652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a1c332be3e0f704298bb6a370172b7634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.MakeBridgeResult.nb</definition>
+        <argsstring>(self)</argsstring>
+        <name>nb</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.nb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the edge na (nb) if valid is a new boundary edge of the created bridge without left face,
+having the same origin as input edge a (b)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26654" bodyend="26658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1aea1fde106c54ab6f9a587f6dae7ceef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.nb</definition>
+        <argsstring>(self, EdgeId arg1)</argsstring>
+        <name>nb</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.nb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26660" bodyend="26661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a2e987636ffc4d84fcbb3c5e53bfaa238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MakeBridgeResult.newFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>newFaces</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.newFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of faces added to the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26663" bodyend="26666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeBridgeResult_1a3b50efb6134162081ab5bfd8953e1836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeBridgeResult.newFaces</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>newFaces</name>
+        <qualifiedname>mrmeshpy.MakeBridgeResult.newFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26668" bodyend="26669"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MakeBridgeResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MakeBridgeResult</label>
+        <link refid="classmrmeshpy_1_1MakeBridgeResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_na</edgelabel>
+          <edgelabel>_offsetof_nb</edgelabel>
+          <edgelabel>_offsetof_newFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26608" bodyend="26669"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a399642ff857e108850dea4815b49bd3f" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a1730d040330708f89a1531ab7bb0effb" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a4daae35c186a7f1ea680b2a1978e04f4" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1aacec4b8d649d564181441bd1c335a734" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1ae93ecbcd55c1e84235806542f636b146" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a306acc59d4d84554faf0167f372bb196" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>_offsetof_na</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a9b002d9bb7e53a010eca104409c7b7cd" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>_offsetof_nb</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a37b6e75c1521aa5177d80cb79780fa73" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>_offsetof_newFaces</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a5cef1976366ff17ac32a4bbd4a139344" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>na</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a585f27ec76dc595e1aae74b6757b0c35" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>na</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a1c332be3e0f704298bb6a370172b7634" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>nb</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1aea1fde106c54ab6f9a587f6dae7ceef8" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>nb</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a2e987636ffc4d84fcbb3c5e53bfaa238" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>newFaces</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1a3b50efb6134162081ab5bfd8953e1836" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>newFaces</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1af5f0025d3b9dd79c74d63cc99ed54d54" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MakeBridgeResult_1af5f0025d3b9dd79c74d63cc99ed54d54" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeBridgeResult</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

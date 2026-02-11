@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FloatGridComponents" kind="class" language="C#" prot="public">
+    <compoundname>MR::FloatGridComponents</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FloatGridComponents_1a2a0d0c4115add5e4e9f937976adc05a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVoxelBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRVoxelBitSet MR.FloatGridComponents.getAllComponents</definition>
+        <argsstring>(MR.Const_FloatGrid grid, float? isoValue=null)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.FloatGridComponents.getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_FloatGrid</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>isoValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>finds separated by iso-value components in grid space (0 voxel id is minimum active voxel in grid) Generated from function <computeroutput><ref refid="classMR_1_1FloatGridComponents_1a2a0d0c4115add5e4e9f937976adc05a1" kindref="member">MR.FloatGridComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>isoValue</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGridComponents.cs" line="10" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGridComponents.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGridComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGridComponents.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FloatGridComponents_1a2a0d0c4115add5e4e9f937976adc05a1" prot="public" virt="non-virtual"><scope>MR::FloatGridComponents</scope><name>getAllComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

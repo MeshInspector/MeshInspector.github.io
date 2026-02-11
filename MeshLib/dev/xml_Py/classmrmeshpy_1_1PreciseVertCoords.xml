@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PreciseVertCoords" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PreciseVertCoords</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PreciseVertCoords_1adf051ed75970643869b93b862370ff59" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PreciseVertCoords::_offsetof_id</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_id</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords._offsetof_id</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PreciseVertCoords_1a17461536b44a2b6d0f076f7ab36a8937" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PreciseVertCoords::_offsetof_pt</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pt</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords._offsetof_pt</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48144" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a660a480df46c62ac8f6ffdfd55c99b9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PreciseVertCoords.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48147" bodyend="48148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1afbf6a8dca4ba1b0df367dc1f1a23ad80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+        <definition> PreciseVertCoords mrmeshpy.PreciseVertCoords.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48151" bodyend="48152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1afbf6a8dca4ba1b0df367dc1f1a23ad80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+        <definition> PreciseVertCoords mrmeshpy.PreciseVertCoords.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48155" bodyend="48156"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a7916f7a4698289e22f323e91acf0472a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PreciseVertCoords.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48158" bodyend="48159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a570d6c3667c8a2335fbed648131182a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PreciseVertCoords.__init__</definition>
+        <argsstring>(self, PreciseVertCoords arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48161" bodyend="48164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a7f7f273417df64dac291abae9fd9677c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PreciseVertCoords.__init__</definition>
+        <argsstring>(self, VertId id, Vector3i pt)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48166" bodyend="48169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a8ea8bfa11a73c65820dadacb995107e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.PreciseVertCoords.id</definition>
+        <argsstring>(self)</argsstring>
+        <name>id</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.id</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unique id of the vertex (in both meshes)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48171" bodyend="48174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a0f5d8aaced2e1c894634167f0feac69f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PreciseVertCoords.id</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>id</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.id</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48176" bodyend="48177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1a59da99ba5e59d90a6ab3c45436d216e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.PreciseVertCoords.pt</definition>
+        <argsstring>(self)</argsstring>
+        <name>pt</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.pt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>integer coordinates of the vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48179" bodyend="48182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PreciseVertCoords_1aa1dc5702f2c596f24deee87b8d7b0904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PreciseVertCoords.pt</definition>
+        <argsstring>(self, Vector3i arg1)</argsstring>
+        <name>pt</name>
+        <qualifiedname>mrmeshpy.PreciseVertCoords.pt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48184" bodyend="48185"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PreciseVertCoords
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PreciseVertCoords</label>
+        <link refid="classmrmeshpy_1_1PreciseVertCoords"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_id</edgelabel>
+          <edgelabel>_offsetof_pt</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48139" bodyend="48185"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a660a480df46c62ac8f6ffdfd55c99b9a" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a7916f7a4698289e22f323e91acf0472a" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a570d6c3667c8a2335fbed648131182a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a7f7f273417df64dac291abae9fd9677c" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1adf051ed75970643869b93b862370ff59" prot="protected" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>_offsetof_id</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a17461536b44a2b6d0f076f7ab36a8937" prot="protected" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>_offsetof_pt</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a8ea8bfa11a73c65820dadacb995107e7" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>id</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a0f5d8aaced2e1c894634167f0feac69f" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>id</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1afbf6a8dca4ba1b0df367dc1f1a23ad80" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1afbf6a8dca4ba1b0df367dc1f1a23ad80" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1a59da99ba5e59d90a6ab3c45436d216e5" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>pt</name></member>
+      <member refid="classmrmeshpy_1_1PreciseVertCoords_1aa1dc5702f2c596f24deee87b8d7b0904" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords</scope><name>pt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

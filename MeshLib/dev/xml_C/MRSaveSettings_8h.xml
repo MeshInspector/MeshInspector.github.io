@@ -1,0 +1,1865 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSaveSettings_8h" kind="file" language="C++">
+    <compoundname>MRSaveSettings.h</compoundname>
+    <includes refid="MRColor_8h" local="no">MRCMesh/MRColor.h</includes>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="MRUnitInfo_8h" local="no">MRCMesh/MRUnitInfo.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRSaveSettings.h</label>
+        <link refid="MRSaveSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1af1806312cd8f8c6825c10fcb27b69305" prot="public" static="no">
+        <type>struct MR_AffineXf3d</type>
+        <definition>typedef struct MR_AffineXf3d MR_AffineXf3d</definition>
+        <argsstring></argsstring>
+        <name>MR_AffineXf3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" prot="public" static="no">
+        <type>struct MR_Matrix3d</type>
+        <definition>typedef struct MR_Matrix3d MR_Matrix3d</definition>
+        <argsstring></argsstring>
+        <name>MR_Matrix3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1aea4e2600dc2dc28784083571fad7d964" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref></type>
+        <definition>typedef struct MR_MeshSave_CtmSaveOptions MR_MeshSave_CtmSaveOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshSave_CtmSaveOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="19" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1ac5c5abdc9ba8adb6f8e522246978c790" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref></type>
+        <definition>typedef struct MR_MeshTexture MR_MeshTexture</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1ae978f40ff51260a61a48889fa82116d9" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref></type>
+        <definition>typedef struct MR_PointsSave_CtmSavePointsOptions MR_PointsSave_CtmSavePointsOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_PointsSave_CtmSavePointsOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="21" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="22" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
+        <definition>typedef struct MR_VertColors MR_VertColors</definition>
+        <argsstring></argsstring>
+        <name>MR_VertColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="24" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref></type>
+        <definition>typedef struct MR_VertCoords2 MR_VertCoords2</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="26" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1af8e34c593afc89cf4494928ca552201f" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref></type>
+        <definition>typedef struct MR_std_optional_MR_Color MR_std_optional_MR_Color</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="27" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref></type>
+        <definition>typedef struct MR_std_optional_MR_LengthUnit MR_std_optional_MR_LengthUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_LengthUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="28" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="29" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Color MR_std_vector_MR_Color</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="30" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1a66434f88501a5c24a45cf39f9dbcadbb" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref></type>
+        <definition>typedef struct MR_SaveSettings MR_SaveSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_SaveSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>determines how to save points/lines/mesh Generated from class <computeroutput>MR::SaveSettings</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="40" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" prot="public" static="no">
+        <type>struct <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref></type>
+        <definition>typedef struct MR_VertRenumber MR_VertRenumber</definition>
+        <argsstring></argsstring>
+        <name>MR_VertRenumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maps valid points to packed sequential indices Generated from class <computeroutput>MR::VertRenumber</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="45" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSaveSettings_8h_1a5083b8cc85c47483063e2e2b9973e42f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_SaveSettings_Get_onlyValidPoints</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_onlyValidPoints</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="52" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="52" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ad4d438f2380cb8075b13328d2fe87cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_onlyValidPoints</definition>
+        <argsstring>(MR_SaveSettings *_this, bool value)</argsstring>
+        <name>MR_SaveSettings_Set_onlyValidPoints</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>onlyValidPoints</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a5c96e99f43ec84d926ed889b37b23f67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_SaveSettings_GetMutable_onlyValidPoints</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_onlyValidPoints</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a172c15f7e9162aa5654ed92dc0d381b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_SaveSettings_Get_packPrimitives</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_packPrimitives</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="76" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="76" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ab039da1838cab76672f19155b7c4d612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_packPrimitives</definition>
+        <argsstring>(MR_SaveSettings *_this, bool value)</argsstring>
+        <name>MR_SaveSettings_Set_packPrimitives</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>packPrimitives</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="86" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aa9333ca786824e4b9d2588e01c3646dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_SaveSettings_GetMutable_packPrimitives</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_packPrimitives</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="96" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a9ccb1eb273ef9b443c2e08eaf9f006fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <definition>MRC_API const MR_VertColors *const  * MR_SaveSettings_Get_colors</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_colors</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional per-vertex color to save with the geometry Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="102" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="102" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a319dc4fbf88c20fb1e2a2d7c202483ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_colors</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_VertColors *value)</argsstring>
+        <name>MR_SaveSettings_Set_colors</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional per-vertex color to save with the geometry Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="109" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a01653d9977d08f3cb224d8edb563e38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <definition>MRC_API const MR_VertColors ** MR_SaveSettings_GetMutable_colors</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_colors</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional per-vertex color to save with the geometry Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="115" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="115" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ae1f3fb11e322be857c21efd278500462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> *const *</type>
+        <definition>MRC_API const MR_std_vector_MR_Color *const  * MR_SaveSettings_Get_primitiveColors</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_primitiveColors</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="121" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="121" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a2b7da79a3a1ab32533b10c82bac0c357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_primitiveColors</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_std_vector_MR_Color *value)</argsstring>
+        <name>MR_SaveSettings_Set_primitiveColors</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>primitiveColors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="128" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a351b97c585d61a7848f80c20ec1650ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> **</type>
+        <definition>MRC_API const MR_std_vector_MR_Color ** MR_SaveSettings_GetMutable_primitiveColors</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_primitiveColors</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="134" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="134" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ab50ac88332ba178116e74238fd660123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
+        <definition>MRC_API const MR_VertCoords2 *const  * MR_SaveSettings_Get_uvMap</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_uvMap</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional per-vertex uv coordinate to save with the geometry Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="140" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="140" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a4f1bf6364494d4363c2d52215c5408cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_uvMap</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_VertCoords2 *value)</argsstring>
+        <name>MR_SaveSettings_Set_uvMap</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvMap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a2506c6331f76226e7615a45a8972e3a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
+        <definition>MRC_API const MR_VertCoords2 ** MR_SaveSettings_GetMutable_uvMap</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_uvMap</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional per-vertex uv coordinate to save with the geometry Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="153" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="153" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a12a75ed90019d152cc554de578b28170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_SaveSettings_Get_saveTriCornerUVCoords</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_saveTriCornerUVCoords</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="160" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="160" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a9998f4fe6e306ed8d12899023fbd4cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_saveTriCornerUVCoords</definition>
+        <argsstring>(MR_SaveSettings *_this, bool value)</argsstring>
+        <name>MR_SaveSettings_Set_saveTriCornerUVCoords</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>saveTriCornerUVCoords</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ac6c9bdc07cda8a2abebc8110530edb4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_SaveSettings_GetMutable_saveTriCornerUVCoords</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_saveTriCornerUVCoords</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="174" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a358a972675733fc34ff7c65fffb685d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *const *</type>
+        <definition>MRC_API const MR_MeshTexture *const  * MR_SaveSettings_Get_texture</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_texture</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional texture to save with the geometry Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="180" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="180" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a354ea3dd140c747b636b6f75e3900770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_texture</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_MeshTexture *value)</argsstring>
+        <name>MR_SaveSettings_Set_texture</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional texture to save with the geometry Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texture</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="187" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a909a2b6470a0f5a346d53f81de62563e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> **</type>
+        <definition>MRC_API const MR_MeshTexture ** MR_SaveSettings_GetMutable_texture</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_texture</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional texture to save with the geometry Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="193" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="193" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ab67275de20bf907240798f428e6f1e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_SaveSettings_Get_materialName</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_materialName</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="199" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="199" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aca09ccb07ca9b87a9cd607904b164748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_materialName</definition>
+        <argsstring>(MR_SaveSettings *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_SaveSettings_Set_materialName</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>materialName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>materialName</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="208" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ab1272e89419b393a639872d10072d424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_SaveSettings_GetMutable_materialName</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_materialName</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="214" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="214" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a3075b8cfc45d80bcf0b149e675c4289a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3d *const  * MR_SaveSettings_Get_xf</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="220" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="220" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ad0063a497d50dd9b3d703ba25fab87fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_xf</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_AffineXf3d *value)</argsstring>
+        <name>MR_SaveSettings_Set_xf</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="227" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="227" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ab259ac36c15c7f8bf6731e5481b475be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3d ** MR_SaveSettings_GetMutable_xf</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="233" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="233" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aa035db7115c09998ed4bdc1756528448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_LengthUnit * MR_SaveSettings_Get_lengthUnit</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_lengthUnit</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="239" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="239" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a46521e4c1b7f3f089f9f514a2961681a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_lengthUnit</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_LengthUnit *value)</argsstring>
+        <name>MR_SaveSettings_Set_lengthUnit</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aa50c61b8865ec507fbae25fd38168f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_SaveSettings_GetMutable_lengthUnit</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_lengthUnit</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="253" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="253" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a0e7dac6d892d92f5949a43caa41a4010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_Color * MR_SaveSettings_Get_solidColor</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_solidColor</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the color of whole object Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="259" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="259" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1acbc909c10738d77157d1d5276fd96b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_solidColor</definition>
+        <argsstring>(MR_SaveSettings *_this, const MR_Color *value)</argsstring>
+        <name>MR_SaveSettings_Set_solidColor</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the color of whole object Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>solidColor</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>solidColor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="267" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ab87c3f209c5662b3b9695e7b942d9acc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Color * MR_SaveSettings_GetMutable_solidColor</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_solidColor</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the color of whole object Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="273" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="273" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aa2e93a130572de8ea1849d2f6e49e938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_SaveSettings_Get_progress</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Get_progress</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="279" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="279" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ad56722a75b4b2a43b36280d4192d3e21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Set_progress</definition>
+        <argsstring>(MR_SaveSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_SaveSettings_Set_progress</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1af90fbfc5c629bfb342f1ee9b503abf99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_SaveSettings_GetMutable_progress</definition>
+        <argsstring>(MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_GetMutable_progress</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <computeroutput>MR::SaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="292" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="292" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1af16001ecdd75188c01262bdf53566a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API MR_SaveSettings * MR_SaveSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SaveSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSaveSettings_8h_1a5f7d34b2c9ce91a34528daff62e10e7c" kindref="member">MR_SaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="296" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="296" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a885d32f34aa817ecc5a3656d1d29b98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API MR_SaveSettings * MR_SaveSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SaveSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSaveSettings_8h_1a7710b939d56230795907fba354f72134" kindref="member">MR_SaveSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSaveSettings_8h_1a3849b5b19daf665700a0f7a1a8cbfaaf" kindref="member">MR_SaveSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSaveSettings_8h_1a89364ac656ed73d0c398ddf10ca8784f" kindref="member">MR_SaveSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="301" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="301" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1afadececb2003f3702261395afbf0aa30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API MR_SaveSettings * MR_SaveSettings_ConstructFrom</definition>
+        <argsstring>(bool onlyValidPoints, bool packPrimitives, const MR_VertColors *colors, const MR_std_vector_MR_Color *primitiveColors, const MR_VertCoords2 *uvMap, bool saveTriCornerUVCoords, const MR_MeshTexture *texture, const char *materialName, const char *materialName_end, const MR_AffineXf3d *xf, const MR_LengthUnit *lengthUnit, const MR_Color *solidColor, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_SaveSettings_ConstructFrom</name>
+        <param>
+          <type>bool</type>
+          <declname>onlyValidPoints</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packPrimitives</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> *</type>
+          <declname>primitiveColors</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>uvMap</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveTriCornerUVCoords</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>materialName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>materialName_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>lengthUnit</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+          <declname>solidColor</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SaveSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>primitiveColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texture</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>materialName</computeroutput> can not be null. If <computeroutput>materialName_end</computeroutput> is null, then <computeroutput>materialName</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>materialName</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>solidColor</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>solidColor</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSaveSettings_8h_1a5f7d34b2c9ce91a34528daff62e10e7c" kindref="member">MR_SaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="319" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="319" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a89364ac656ed73d0c398ddf10ca8784f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API const MR_SaveSettings * MR_SaveSettings_OffsetPtr</definition>
+        <argsstring>(const MR_SaveSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SaveSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="323" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="323" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a3849b5b19daf665700a0f7a1a8cbfaaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API MR_SaveSettings * MR_SaveSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_SaveSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SaveSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="327" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="327" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a483c422ec6a6baf7c2b8a60ecce5b6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref> *</type>
+        <definition>MRC_API const MR_MeshSave_CtmSaveOptions * MR_SaveSettings_StaticDowncastTo_MR_MeshSave_CtmSaveOptions</definition>
+        <argsstring>(const MR_SaveSettings *object)</argsstring>
+        <name>MR_SaveSettings_StaticDowncastTo_MR_MeshSave_CtmSaveOptions</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="332" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="332" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aea8f15dcbe1a5099fc92be1b880107fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref> *</type>
+        <definition>MRC_API MR_MeshSave_CtmSaveOptions * MR_SaveSettings_MutableStaticDowncastTo_MR_MeshSave_CtmSaveOptions</definition>
+        <argsstring>(MR_SaveSettings *object)</argsstring>
+        <name>MR_SaveSettings_MutableStaticDowncastTo_MR_MeshSave_CtmSaveOptions</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="336" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="336" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a6ea006be9dd5378cf9524a1602f58a2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
+        <definition>MRC_API const MR_PointsSave_CtmSavePointsOptions * MR_SaveSettings_StaticDowncastTo_MR_PointsSave_CtmSavePointsOptions</definition>
+        <argsstring>(const MR_SaveSettings *object)</argsstring>
+        <name>MR_SaveSettings_StaticDowncastTo_MR_PointsSave_CtmSavePointsOptions</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="341" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="341" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a1ca4ec820833ff7c6e9d63d7a8484733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
+        <definition>MRC_API MR_PointsSave_CtmSavePointsOptions * MR_SaveSettings_MutableStaticDowncastTo_MR_PointsSave_CtmSavePointsOptions</definition>
+        <argsstring>(MR_SaveSettings *object)</argsstring>
+        <name>MR_SaveSettings_MutableStaticDowncastTo_MR_PointsSave_CtmSavePointsOptions</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="345" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="345" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a5cd90a86abb76c5fcdcc5ab6c6b1c3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API MR_SaveSettings * MR_SaveSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_SaveSettings *_other)</argsstring>
+        <name>MR_SaveSettings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SaveSettings::SaveSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSaveSettings_8h_1a5f7d34b2c9ce91a34528daff62e10e7c" kindref="member">MR_SaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="350" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="350" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a5f7d34b2c9ce91a34528daff62e10e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_Destroy</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SaveSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="353" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="353" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a7710b939d56230795907fba354f72134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SaveSettings_DestroyArray</definition>
+        <argsstring>(const MR_SaveSettings *_this)</argsstring>
+        <name>MR_SaveSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SaveSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="356" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a80e21b358841329ae51ae652bfcb850b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+        <definition>MRC_API MR_SaveSettings * MR_SaveSettings_AssignFromAnother</definition>
+        <argsstring>(MR_SaveSettings *_this, MR_PassBy _other_pass_by, MR_SaveSettings *_other)</argsstring>
+        <name>MR_SaveSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SaveSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="363" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="363" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a00ca011d602a36747d1a9789b17f73b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_applyFloat_const_MR_AffineXf3d_ptr</definition>
+        <argsstring>(const MR_AffineXf3d *xf, const MR_Vector3f *p)</argsstring>
+        <name>MR_applyFloat_const_MR_AffineXf3d_ptr</name>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the point as is or after application of given transform to it in double precision Generated from function <computeroutput>MR::applyFloat</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="368" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="368" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a8ae33b3b7530a7a31e4a2b5a19b80c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <definition>MRC_API MR_Vector3f MR_applyFloat_const_MR_Matrix3d_ptr</definition>
+        <argsstring>(const MR_Matrix3d *m, const MR_Vector3f *n)</argsstring>
+        <name>MR_applyFloat_const_MR_Matrix3d_ptr</name>
+        <param>
+          <type>const <ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the normal as is or after application of given matrix to it in double precision Generated from function <computeroutput>MR::applyFloat</computeroutput>. Parameter <computeroutput>n</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="373" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="373" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a05263f7a5478c9515112329fda209238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MRC_API MR_Vector3d MR_applyDouble_const_MR_AffineXf3d_ptr</definition>
+        <argsstring>(const MR_AffineXf3d *xf, const MR_Vector3f *p)</argsstring>
+        <name>MR_applyDouble_const_MR_AffineXf3d_ptr</name>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts given point in double precision and applies given transformation to it Generated from function <computeroutput>MR::applyDouble</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="378" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="378" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a6e8528157eab5e9a05dae84f637298e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MRC_API MR_Vector3d MR_applyDouble_const_MR_Matrix3d_ptr</definition>
+        <argsstring>(const MR_Matrix3d *m, const MR_Vector3f *n)</argsstring>
+        <name>MR_applyDouble_const_MR_Matrix3d_ptr</name>
+        <param>
+          <type>const <ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts given normal in double precision and applies given matrix to it Generated from function <computeroutput>MR::applyDouble</computeroutput>. Parameter <computeroutput>n</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="383" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="383" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a65d773faf6973c8bee9ba7b8714162e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+        <definition>MRC_API MR_VertRenumber * MR_VertRenumber_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_VertRenumber *_other)</argsstring>
+        <name>MR_VertRenumber_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::VertRenumber::VertRenumber</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSaveSettings_8h_1a56ca1762b58f4c5e8d40a381892c74b2" kindref="member">MR_VertRenumber_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="388" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="388" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a2f680a44634abc170025a6ec7d890402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+        <definition>MRC_API const MR_VertRenumber * MR_VertRenumber_OffsetPtr</definition>
+        <argsstring>(const MR_VertRenumber *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VertRenumber_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="392" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="392" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1ad8d694071de20307afc6e0bd419ffe4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+        <definition>MRC_API MR_VertRenumber * MR_VertRenumber_OffsetMutablePtr</definition>
+        <argsstring>(MR_VertRenumber *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VertRenumber_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="396" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="396" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1af9cbaba815f6a58b9ae41735bc00a9cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+        <definition>MRC_API MR_VertRenumber * MR_VertRenumber_Construct</definition>
+        <argsstring>(const MR_VertBitSet *validVerts, bool saveValidOnly)</argsstring>
+        <name>MR_VertRenumber_Construct</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveValidOnly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepares the mapping Generated from constructor <computeroutput>MR::VertRenumber::VertRenumber</computeroutput>. Parameter <computeroutput>validVerts</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>validVerts</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSaveSettings_8h_1a56ca1762b58f4c5e8d40a381892c74b2" kindref="member">MR_VertRenumber_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="403" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="403" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a56ca1762b58f4c5e8d40a381892c74b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VertRenumber_Destroy</definition>
+        <argsstring>(const MR_VertRenumber *_this)</argsstring>
+        <name>MR_VertRenumber_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_VertRenumber</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="406" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="406" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aa0f62688681c6f47c84268f6fd335995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VertRenumber_DestroyArray</definition>
+        <argsstring>(const MR_VertRenumber *_this)</argsstring>
+        <name>MR_VertRenumber_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_VertRenumber</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="409" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="409" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a4386e1489bf8468011c18086c18b0f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+        <definition>MRC_API MR_VertRenumber * MR_VertRenumber_AssignFromAnother</definition>
+        <argsstring>(MR_VertRenumber *_this, MR_PassBy _other_pass_by, MR_VertRenumber *_other)</argsstring>
+        <name>MR_VertRenumber_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::VertRenumber::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="416" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="416" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a9994d7d97e0d3eeef52a6b8bb1369a23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_VertRenumber_saveValidOnly</definition>
+        <argsstring>(const MR_VertRenumber *_this)</argsstring>
+        <name>MR_VertRenumber_saveValidOnly</name>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::VertRenumber::saveValidOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="420" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="420" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a75ad10fc1ae09a7fe570a489e19ee229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_VertRenumber_sizeVerts</definition>
+        <argsstring>(const MR_VertRenumber *_this)</argsstring>
+        <name>MR_VertRenumber_sizeVerts</name>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the total number of vertices to be saved Generated from method <computeroutput>MR::VertRenumber::sizeVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="425" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="425" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aaa45e6b4e0b4fab635225dddb18427df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_VertRenumber_call</definition>
+        <argsstring>(const MR_VertRenumber *_this, MR_VertId v)</argsstring>
+        <name>MR_VertRenumber_call</name>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return packed index (if saveValidOnly = true) or same index (if saveValidOnly = false) Generated from method <computeroutput>MR::VertRenumber::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="430" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="430" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1aba019337d4010cdcf79405454ec8c1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <definition>MRC_API const MR_VertCoords * MR_transformPoints</definition>
+        <argsstring>(const MR_VertCoords *verts, const MR_VertBitSet *validVerts, const MR_AffineXf3d *xf, MR_VertCoords *buf, const MR_VertRenumber *vertRenumber)</argsstring>
+        <name>MR_transformPoints</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref> *</type>
+          <declname>vertRenumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if (xf) is null then just returns (verts); otherwise copies transformed points in (buf) and returns it Generated from function <computeroutput>MR::transformPoints</computeroutput>. Parameter <computeroutput>verts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>buf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vertRenumber</computeroutput> defaults to a null pointer in C++. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="440" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="440" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSaveSettings_8h_1a35e393952c9b273026d176331b4d4921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <definition>MRC_API const MR_VertCoords * MR_transformNormals</definition>
+        <argsstring>(const MR_VertCoords *normals, const MR_VertBitSet *validVerts, const MR_Matrix3d *m, MR_VertCoords *buf)</argsstring>
+        <name>MR_transformNormals</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if (m) is null then just returns (normals); otherwise copies transformed normals in (buf) and returns it Generated from function <computeroutput>MR::transformNormals</computeroutput>. Parameter <computeroutput>normals</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>buf</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" line="449" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h" declline="449" declcolumn="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRColor_8h" kindref="compound">MRCMesh/MRColor.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRUnitInfo_8h" kindref="compound">MRCMesh/MRUnitInfo.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRSaveSettings_8h_1af1806312cd8f8c6825c10fcb27b69305" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRSaveSettings_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRSaveSettings_8h_1aea4e2600dc2dc28784083571fad7d964" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCIOExtras/MRCtm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRSaveSettings_8h_1ac5c5abdc9ba8adb6f8e522246978c790" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRSaveSettings_8h_1ae978f40ff51260a61a48889fa82116d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCIOExtras/MRCtm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRSaveSettings_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRSaveSettings_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRSaveSettings_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRSaveSettings_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRSaveSettings_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRSaveSettings_8h_1af8e34c593afc89cf4494928ca552201f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRSaveSettings_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRSaveSettings_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRSaveSettings_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRSaveSettings_8h_1a66434f88501a5c24a45cf39f9dbcadbb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRSaveSettings_8h_1a5083b8cc85c47483063e2e2b9973e42f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a5083b8cc85c47483063e2e2b9973e42f" kindref="member">MR_SaveSettings_Get_onlyValidPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRSaveSettings_8h_1ad4d438f2380cb8075b13328d2fe87cca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ad4d438f2380cb8075b13328d2fe87cca" kindref="member">MR_SaveSettings_Set_onlyValidPoints</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRSaveSettings_8h_1a5c96e99f43ec84d926ed889b37b23f67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a5c96e99f43ec84d926ed889b37b23f67" kindref="member">MR_SaveSettings_GetMutable_onlyValidPoints</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRSaveSettings_8h_1a172c15f7e9162aa5654ed92dc0d381b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a172c15f7e9162aa5654ed92dc0d381b5" kindref="member">MR_SaveSettings_Get_packPrimitives</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRSaveSettings_8h_1ab039da1838cab76672f19155b7c4d612" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ab039da1838cab76672f19155b7c4d612" kindref="member">MR_SaveSettings_Set_packPrimitives</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRSaveSettings_8h_1aa9333ca786824e4b9d2588e01c3646dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1aa9333ca786824e4b9d2588e01c3646dc" kindref="member">MR_SaveSettings_GetMutable_packPrimitives</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRSaveSettings_8h_1a9ccb1eb273ef9b443c2e08eaf9f006fa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a9ccb1eb273ef9b443c2e08eaf9f006fa" kindref="member">MR_SaveSettings_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRSaveSettings_8h_1a319dc4fbf88c20fb1e2a2d7c202483ad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a319dc4fbf88c20fb1e2a2d7c202483ad" kindref="member">MR_SaveSettings_Set_colors</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRSaveSettings_8h_1a01653d9977d08f3cb224d8edb563e38b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRSaveSettings_8h_1a01653d9977d08f3cb224d8edb563e38b" kindref="member">MR_SaveSettings_GetMutable_colors</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRSaveSettings_8h_1ae1f3fb11e322be857c21efd278500462" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1ae1f3fb11e322be857c21efd278500462" kindref="member">MR_SaveSettings_Get_primitiveColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRSaveSettings_8h_1a2b7da79a3a1ab32533b10c82bac0c357" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a2b7da79a3a1ab32533b10c82bac0c357" kindref="member">MR_SaveSettings_Set_primitiveColors</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRSaveSettings_8h_1a351b97c585d61a7848f80c20ec1650ce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>**<ref refid="MRSaveSettings_8h_1a351b97c585d61a7848f80c20ec1650ce" kindref="member">MR_SaveSettings_GetMutable_primitiveColors</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRSaveSettings_8h_1ab50ac88332ba178116e74238fd660123" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1ab50ac88332ba178116e74238fd660123" kindref="member">MR_SaveSettings_Get_uvMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRSaveSettings_8h_1a4f1bf6364494d4363c2d52215c5408cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a4f1bf6364494d4363c2d52215c5408cf" kindref="member">MR_SaveSettings_Set_uvMap</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRSaveSettings_8h_1a2506c6331f76226e7615a45a8972e3a8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRSaveSettings_8h_1a2506c6331f76226e7615a45a8972e3a8" kindref="member">MR_SaveSettings_GetMutable_uvMap</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRSaveSettings_8h_1a12a75ed90019d152cc554de578b28170" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a12a75ed90019d152cc554de578b28170" kindref="member">MR_SaveSettings_Get_saveTriCornerUVCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRSaveSettings_8h_1a9998f4fe6e306ed8d12899023fbd4cbe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a9998f4fe6e306ed8d12899023fbd4cbe" kindref="member">MR_SaveSettings_Set_saveTriCornerUVCoords</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRSaveSettings_8h_1ac6c9bdc07cda8a2abebc8110530edb4f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1ac6c9bdc07cda8a2abebc8110530edb4f" kindref="member">MR_SaveSettings_GetMutable_saveTriCornerUVCoords</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRSaveSettings_8h_1a358a972675733fc34ff7c65fffb685d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a358a972675733fc34ff7c65fffb685d5" kindref="member">MR_SaveSettings_Get_texture</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRSaveSettings_8h_1a354ea3dd140c747b636b6f75e3900770" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a354ea3dd140c747b636b6f75e3900770" kindref="member">MR_SaveSettings_Set_texture</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRSaveSettings_8h_1a909a2b6470a0f5a346d53f81de62563e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>**<ref refid="MRSaveSettings_8h_1a909a2b6470a0f5a346d53f81de62563e" kindref="member">MR_SaveSettings_GetMutable_texture</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRSaveSettings_8h_1ab67275de20bf907240798f428e6f1e3d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSaveSettings_8h_1ab67275de20bf907240798f428e6f1e3d" kindref="member">MR_SaveSettings_Get_materialName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRSaveSettings_8h_1aca09ccb07ca9b87a9cd607904b164748" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1aca09ccb07ca9b87a9cd607904b164748" kindref="member">MR_SaveSettings_Set_materialName</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRSaveSettings_8h_1ab1272e89419b393a639872d10072d424" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSaveSettings_8h_1ab1272e89419b393a639872d10072d424" kindref="member">MR_SaveSettings_GetMutable_materialName</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRSaveSettings_8h_1a3075b8cfc45d80bcf0b149e675c4289a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSaveSettings_8h_1a3075b8cfc45d80bcf0b149e675c4289a" kindref="member">MR_SaveSettings_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRSaveSettings_8h_1ad0063a497d50dd9b3d703ba25fab87fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ad0063a497d50dd9b3d703ba25fab87fe" kindref="member">MR_SaveSettings_Set_xf</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRSaveSettings_8h_1ab259ac36c15c7f8bf6731e5481b475be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>**<ref refid="MRSaveSettings_8h_1ab259ac36c15c7f8bf6731e5481b475be" kindref="member">MR_SaveSettings_GetMutable_xf</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRSaveSettings_8h_1aa035db7115c09998ed4bdc1756528448" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRSaveSettings_8h_1aa035db7115c09998ed4bdc1756528448" kindref="member">MR_SaveSettings_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRSaveSettings_8h_1a46521e4c1b7f3f089f9f514a2961681a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a46521e4c1b7f3f089f9f514a2961681a" kindref="member">MR_SaveSettings_Set_lengthUnit</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRSaveSettings_8h_1aa50c61b8865ec507fbae25fd38168f8e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRSaveSettings_8h_1aa50c61b8865ec507fbae25fd38168f8e" kindref="member">MR_SaveSettings_GetMutable_lengthUnit</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="MRSaveSettings_8h_1a0e7dac6d892d92f5949a43caa41a4010" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRSaveSettings_8h_1a0e7dac6d892d92f5949a43caa41a4010" kindref="member">MR_SaveSettings_Get_solidColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MRSaveSettings_8h_1acbc909c10738d77157d1d5276fd96b33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1acbc909c10738d77157d1d5276fd96b33" kindref="member">MR_SaveSettings_Set_solidColor</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRSaveSettings_8h_1ab87c3f209c5662b3b9695e7b942d9acc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRSaveSettings_8h_1ab87c3f209c5662b3b9695e7b942d9acc" kindref="member">MR_SaveSettings_GetMutable_solidColor</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRSaveSettings_8h_1aa2e93a130572de8ea1849d2f6e49e938" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRSaveSettings_8h_1aa2e93a130572de8ea1849d2f6e49e938" kindref="member">MR_SaveSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="MRSaveSettings_8h_1ad56722a75b4b2a43b36280d4192d3e21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ad56722a75b4b2a43b36280d4192d3e21" kindref="member">MR_SaveSettings_Set_progress</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRSaveSettings_8h_1af90fbfc5c629bfb342f1ee9b503abf99" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRSaveSettings_8h_1af90fbfc5c629bfb342f1ee9b503abf99" kindref="member">MR_SaveSettings_GetMutable_progress</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="MRSaveSettings_8h_1af16001ecdd75188c01262bdf53566a54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1af16001ecdd75188c01262bdf53566a54" kindref="member">MR_SaveSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRSaveSettings_8h_1a885d32f34aa817ecc5a3656d1d29b98d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1a885d32f34aa817ecc5a3656d1d29b98d" kindref="member">MR_SaveSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRSaveSettings_8h_1afadececb2003f3702261395afbf0aa30" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1afadececb2003f3702261395afbf0aa30" kindref="member">MR_SaveSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyValidPoints,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>packPrimitives,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*primitiveColors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvMap,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>saveTriCornerUVCoords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*texture,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*materialName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*materialName_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*lengthUnit,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*solidColor,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="MRSaveSettings_8h_1a89364ac656ed73d0c398ddf10ca8784f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1a89364ac656ed73d0c398ddf10ca8784f" kindref="member">MR_SaveSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MRSaveSettings_8h_1a3849b5b19daf665700a0f7a1a8cbfaaf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1a3849b5b19daf665700a0f7a1a8cbfaaf" kindref="member">MR_SaveSettings_OffsetMutablePtr</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="MRSaveSettings_8h_1a483c422ec6a6baf7c2b8a60ecce5b6fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRSaveSettings_8h_1a483c422ec6a6baf7c2b8a60ecce5b6fb" kindref="member">MR_SaveSettings_StaticDowncastTo_MR_MeshSave_CtmSaveOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="MRSaveSettings_8h_1aea8f15dcbe1a5099fc92be1b880107fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRSaveSettings_8h_1aea8f15dcbe1a5099fc92be1b880107fd" kindref="member">MR_SaveSettings_MutableStaticDowncastTo_MR_MeshSave_CtmSaveOptions</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="MRSaveSettings_8h_1a6ea006be9dd5378cf9524a1602f58a2b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRSaveSettings_8h_1a6ea006be9dd5378cf9524a1602f58a2b" kindref="member">MR_SaveSettings_StaticDowncastTo_MR_PointsSave_CtmSavePointsOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="MRSaveSettings_8h_1a1ca4ec820833ff7c6e9d63d7a8484733" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRSaveSettings_8h_1a1ca4ec820833ff7c6e9d63d7a8484733" kindref="member">MR_SaveSettings_MutableStaticDowncastTo_MR_PointsSave_CtmSavePointsOptions</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRSaveSettings_8h_1a5cd90a86abb76c5fcdcc5ab6c6b1c3b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1a5cd90a86abb76c5fcdcc5ab6c6b1c3b1" kindref="member">MR_SaveSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRSaveSettings_8h_1a5f7d34b2c9ce91a34528daff62e10e7c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a5f7d34b2c9ce91a34528daff62e10e7c" kindref="member">MR_SaveSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="MRSaveSettings_8h_1a7710b939d56230795907fba354f72134" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a7710b939d56230795907fba354f72134" kindref="member">MR_SaveSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="MRSaveSettings_8h_1a80e21b358841329ae51ae652bfcb850b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRSaveSettings_8h_1a80e21b358841329ae51ae652bfcb850b" kindref="member">MR_SaveSettings_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="MRSaveSettings_8h_1a00ca011d602a36747d1a9789b17f73b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRSaveSettings_8h_1a00ca011d602a36747d1a9789b17f73b5" kindref="member">MR_applyFloat_const_MR_AffineXf3d_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="MRSaveSettings_8h_1a8ae33b3b7530a7a31e4a2b5a19b80c03" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRSaveSettings_8h_1a8ae33b3b7530a7a31e4a2b5a19b80c03" kindref="member">MR_applyFloat_const_MR_Matrix3d_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378" refid="MRSaveSettings_8h_1a05263f7a5478c9515112329fda209238" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRSaveSettings_8h_1a05263f7a5478c9515112329fda209238" kindref="member">MR_applyDouble_const_MR_AffineXf3d_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383" refid="MRSaveSettings_8h_1a6e8528157eab5e9a05dae84f637298e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRSaveSettings_8h_1a6e8528157eab5e9a05dae84f637298e9" kindref="member">MR_applyDouble_const_MR_Matrix3d_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="MRSaveSettings_8h_1a65d773faf6973c8bee9ba7b8714162e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*<ref refid="MRSaveSettings_8h_1a65d773faf6973c8bee9ba7b8714162e5" kindref="member">MR_VertRenumber_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392" refid="MRSaveSettings_8h_1a2f680a44634abc170025a6ec7d890402" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*<ref refid="MRSaveSettings_8h_1a2f680a44634abc170025a6ec7d890402" kindref="member">MR_VertRenumber_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396" refid="MRSaveSettings_8h_1ad8d694071de20307afc6e0bd419ffe4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*<ref refid="MRSaveSettings_8h_1ad8d694071de20307afc6e0bd419ffe4d" kindref="member">MR_VertRenumber_OffsetMutablePtr</ref>(<ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="403" refid="MRSaveSettings_8h_1af9cbaba815f6a58b9ae41735bc00a9cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*<ref refid="MRSaveSettings_8h_1af9cbaba815f6a58b9ae41735bc00a9cd" kindref="member">MR_VertRenumber_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validVerts,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>saveValidOnly);</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406" refid="MRSaveSettings_8h_1a56ca1762b58f4c5e8d40a381892c74b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a56ca1762b58f4c5e8d40a381892c74b2" kindref="member">MR_VertRenumber_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409" refid="MRSaveSettings_8h_1aa0f62688681c6f47c84268f6fd335995" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1aa0f62688681c6f47c84268f6fd335995" kindref="member">MR_VertRenumber_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416" refid="MRSaveSettings_8h_1a4386e1489bf8468011c18086c18b0f00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*<ref refid="MRSaveSettings_8h_1a4386e1489bf8468011c18086c18b0f00" kindref="member">MR_VertRenumber_AssignFromAnother</ref>(<ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="420" refid="MRSaveSettings_8h_1a9994d7d97e0d3eeef52a6b8bb1369a23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a9994d7d97e0d3eeef52a6b8bb1369a23" kindref="member">MR_VertRenumber_saveValidOnly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="425" refid="MRSaveSettings_8h_1a75ad10fc1ae09a7fe570a489e19ee229" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1a75ad10fc1ae09a7fe570a489e19ee229" kindref="member">MR_VertRenumber_sizeVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"></highlight></codeline>
+<codeline lineno="430" refid="MRSaveSettings_8h_1aaa45e6b4e0b4fab635225dddb18427df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1aaa45e6b4e0b4fab635225dddb18427df" kindref="member">MR_VertRenumber_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"></highlight></codeline>
+<codeline lineno="440" refid="MRSaveSettings_8h_1aba019337d4010cdcf79405454ec8c1f5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRSaveSettings_8h_1aba019337d4010cdcf79405454ec8c1f5" kindref="member">MR_transformPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*verts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validVerts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*buf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kindref="member">MR_VertRenumber</ref><sp/>*vertRenumber);</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="449" refid="MRSaveSettings_8h_1a35e393952c9b273026d176331b4d4921" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRSaveSettings_8h_1a35e393952c9b273026d176331b4d4921" kindref="member">MR_transformNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validVerts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*m,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*buf);</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="452"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSaveSettings.h"/>
+  </compounddef>
+</doxygen>

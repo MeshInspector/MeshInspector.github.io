@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillHoleNicelySettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillHoleNicelySettings</compoundname>
+    <includes refid="MRFillHoleNicely_8h" local="no">MRFillHoleNicely.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a2ead937ed1df084dc6a43160e17df2c2" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
+        <definition>FillHoleParams MR::FillHoleNicelySettings::triangulateParams</definition>
+        <argsstring></argsstring>
+        <name>triangulateParams</name>
+        <qualifiedname>MR::FillHoleNicelySettings::triangulateParams</qualifiedname>
+        <briefdescription>
+<para>how to triangulate the hole, must be specified by the user </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="13" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a62e34964b014489a6f1d3f2e324759ff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FillHoleNicelySettings::triangulateOnly</definition>
+        <argsstring></argsstring>
+        <name>triangulateOnly</name>
+        <qualifiedname>MR::FillHoleNicelySettings::triangulateOnly</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If false then additional vertices are created inside the patch for best mesh quality. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="16" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a95c1f4256940d339c8ee702d270fff49" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::FillHoleNicelySettings::notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR::FillHoleNicelySettings::notFlippable</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="19" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1adebcc27b0bdbb4fa55baa8eae16a0dfb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FillHoleNicelySettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR::FillHoleNicelySettings::maxEdgeLen</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="22" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a6dab8822d5eac719a15e99f44c4a3407" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::FillHoleNicelySettings::maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR::FillHoleNicelySettings::maxEdgeSplits</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+<para>Maximum number of edge splits allowed during subdivision. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a0e811b431fee7fca37d8a2ea46bf916c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FillHoleNicelySettings::maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR::FillHoleNicelySettings::maxAngleChangeAfterFlip</qualifiedname>
+        <initializer>= 30 * PI_F / 180.0f</initializer>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1aac4ecae12eb97ad05b204ac14de42cb8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FillHoleNicelySettings::smoothCurvature</definition>
+        <argsstring></argsstring>
+        <name>smoothCurvature</name>
+        <qualifiedname>MR::FillHoleNicelySettings::smoothCurvature</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="31" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1aba46fa5a5269e9ffb23176c985a2c2b7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FillHoleNicelySettings::naturalSmooth</definition>
+        <argsstring></argsstring>
+        <name>naturalSmooth</name>
+        <qualifiedname>MR::FillHoleNicelySettings::naturalSmooth</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a6d0f88d49fd92560346c908c5b5a6559" prot="public" static="no" mutable="no">
+        <type>std::function&lt; bool(EdgeId e)&gt;</type>
+        <definition>std::function&lt;bool( EdgeId e )&gt; MR::FillHoleNicelySettings::beforeEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>beforeEdgeSplit</name>
+        <qualifiedname>MR::FillHoleNicelySettings::beforeEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="37" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a29116e24393106e531f26abb886019b2" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
+        <definition>std::function&lt;void( EdgeId e1, EdgeId e )&gt; MR::FillHoleNicelySettings::onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR::FillHoleNicelySettings::onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="40" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a033b24c89dfe82d1d7ebadc8b24f1a79" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref></type>
+        <definition>EdgeWeights MR::FillHoleNicelySettings::edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>MR::FillHoleNicelySettings::edgeWeights</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref></initializer>
+        <briefdescription>
+<para>edge weighting scheme for smoothCurvature mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1aa1d0f57cc8f6d2bb9413ae1e315e3ce6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1ada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref></type>
+        <definition>VertexMass MR::FillHoleNicelySettings::vmass</definition>
+        <argsstring></argsstring>
+        <name>vmass</name>
+        <qualifiedname>MR::FillHoleNicelySettings::vmass</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref></initializer>
+        <briefdescription>
+<para>vertex mass scheme for smoothCurvature mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="46" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a8e1fac34058b267d696714994b158ce2" prot="public" static="no" mutable="no">
+        <type>VertUVCoords *</type>
+        <definition>VertUVCoords* MR::FillHoleNicelySettings::uvCoords</definition>
+        <argsstring></argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>MR::FillHoleNicelySettings::uvCoords</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="49" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1af9530ece1e8bd0354145a59d4d603bf9" prot="public" static="no" mutable="no">
+        <type>VertColors *</type>
+        <definition>VertColors* MR::FillHoleNicelySettings::colorMap</definition>
+        <argsstring></argsstring>
+        <name>colorMap</name>
+        <qualifiedname>MR::FillHoleNicelySettings::colorMap</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="52" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleNicelySettings_1a4e373a3a06bd7f738fc35e108b3fdfa0" prot="public" static="no" mutable="no">
+        <type>FaceColors *</type>
+        <definition>FaceColors* MR::FillHoleNicelySettings::faceColors</definition>
+        <argsstring></argsstring>
+        <name>faceColors</name>
+        <qualifiedname>MR::FillHoleNicelySettings::faceColors</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::FillHoleMetric</label>
+        <link refid="structMR_1_1FillHoleMetric"/>
+      </node>
+      <node id="1">
+        <label>MR::FillHoleNicelySettings</label>
+        <link refid="structMR_1_1FillHoleNicelySettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>triangulateParams</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FillHoleParams</label>
+        <link refid="structMR_1_1FillHoleParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>metric</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="11" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a6d0f88d49fd92560346c908c5b5a6559" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1af9530ece1e8bd0354145a59d4d603bf9" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>colorMap</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a033b24c89dfe82d1d7ebadc8b24f1a79" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>edgeWeights</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a4e373a3a06bd7f738fc35e108b3fdfa0" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>faceColors</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a0e811b431fee7fca37d8a2ea46bf916c" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1adebcc27b0bdbb4fa55baa8eae16a0dfb" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>maxEdgeLen</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a6dab8822d5eac719a15e99f44c4a3407" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1aba46fa5a5269e9ffb23176c985a2c2b7" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>naturalSmooth</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a95c1f4256940d339c8ee702d270fff49" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>notFlippable</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a29116e24393106e531f26abb886019b2" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>onEdgeSplit</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1aac4ecae12eb97ad05b204ac14de42cb8" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a62e34964b014489a6f1d3f2e324759ff" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>triangulateOnly</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a2ead937ed1df084dc6a43160e17df2c2" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>triangulateParams</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1a8e1fac34058b267d696714994b158ce2" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>uvCoords</name></member>
+      <member refid="structMR_1_1FillHoleNicelySettings_1aa1d0f57cc8f6d2bb9413ae1e315e3ce6" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>vmass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

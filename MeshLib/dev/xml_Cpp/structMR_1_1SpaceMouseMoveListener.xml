@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SpaceMouseMoveListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::SpaceMouseMoveListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1SpaceMouseMoveListener_1a2cfdabbd1ab58db19f09528e678f3729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SpaceMouseMoveListener::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(SpaceMouseMoveListener)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::SpaceMouseMoveListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1SpaceMouseMoveListener" kindref="compound">SpaceMouseMoveListener</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="278" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1SpaceMouseMoveListener_1ad6cac85205366b4d1518a8cda5ae50d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::SpaceMouseMoveListener::~SpaceMouseMoveListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SpaceMouseMoveListener</name>
+        <qualifiedname>MR::SpaceMouseMoveListener::~SpaceMouseMoveListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="279" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1SpaceMouseMoveListener_1a66ccc53a5aad7584a46946801cbc430b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::SpaceMouseMoveListener::connect</definition>
+        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::SpaceMouseMoveListener::connect</qualifiedname>
+        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
+          <declname>viewer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>boost::signals2::connect_position</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="280" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structMR_1_1SpaceMouseMoveListener_1a78bde81a3a5d0d78e4ec948565694f96" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::SpaceMouseMoveListener::spaceMouseMove_</definition>
+        <argsstring>(const Vector3f &amp;translate, const Vector3f &amp;rotate)=0</argsstring>
+        <name>spaceMouseMove_</name>
+        <qualifiedname>MR::SpaceMouseMoveListener::spaceMouseMove_</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>translate</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>rotate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="282" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>class to subscribe on SpaceMouseMoveSignal </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::SpaceMouseMoveListener</label>
+        <link refid="structMR_1_1SpaceMouseMoveListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::SpaceMouseMoveListener</label>
+        <link refid="structMR_1_1SpaceMouseMoveListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="277" bodyend="283"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SpaceMouseMoveListener_1a66ccc53a5aad7584a46946801cbc430b" prot="public" virt="virtual"><scope>MR::SpaceMouseMoveListener</scope><name>connect</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouseMoveListener</scope><name>connection_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::SpaceMouseMoveListener</scope><name>disconnect</name></member>
+      <member refid="structMR_1_1SpaceMouseMoveListener_1a2cfdabbd1ab58db19f09528e678f3729" prot="public" virt="non-virtual"><scope>MR::SpaceMouseMoveListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="structMR_1_1SpaceMouseMoveListener_1a78bde81a3a5d0d78e4ec948565694f96" prot="protected" virt="pure-virtual"><scope>MR::SpaceMouseMoveListener</scope><name>spaceMouseMove_</name></member>
+      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::SpaceMouseMoveListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::SpaceMouseMoveListener</scope><name>~IConnectable</name></member>
+      <member refid="structMR_1_1SpaceMouseMoveListener_1ad6cac85205366b4d1518a8cda5ae50d9" prot="public" virt="virtual"><scope>MR::SpaceMouseMoveListener</scope><name>~SpaceMouseMoveListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

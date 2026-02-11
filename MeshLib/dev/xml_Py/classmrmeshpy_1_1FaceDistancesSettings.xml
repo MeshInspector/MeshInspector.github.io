@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FaceDistancesSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FaceDistancesSettings</compoundname>
+    <innerclass refid="classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues" prot="public">mrmeshpy::FaceDistancesSettings::OutputFaceValues</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FaceDistancesSettings_1abf4090356af304ceddd399a70eedb2e0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FaceDistancesSettings::_offsetof_out</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_out</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings._offsetof_out</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FaceDistancesSettings_1a6049764501a6081a9fe721d37841946d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FaceDistancesSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings._offsetof_progress</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16869" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FaceDistancesSettings_1aac877e569242acb56de0ca44d2f4cd19" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1FaceDistancesSettings" kindref="compound">FaceDistancesSettings</ref></type>
+        <definition>FaceDistancesSettings mrmeshpy.FaceDistancesSettings::out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.out</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues" kindref="compound">OutputFaceValues</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16870" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a29b76ef3cc678e722d9d42c4a1fe7a97" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceDistancesSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16873" bodyend="16874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1ab6dce06a14c43fa042c83165ca05884c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceDistancesSettings" kindref="compound">FaceDistancesSettings</ref></type>
+        <definition> FaceDistancesSettings mrmeshpy.FaceDistancesSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16877" bodyend="16878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1ab6dce06a14c43fa042c83165ca05884c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceDistancesSettings" kindref="compound">FaceDistancesSettings</ref></type>
+        <definition> FaceDistancesSettings mrmeshpy.FaceDistancesSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16881" bodyend="16882"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a7dc9c7f95577801957ec009003818ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceDistancesSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16884" bodyend="16885"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a914b265b1c03113e2ed16f524988f1fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceDistancesSettings.__init__</definition>
+        <argsstring>(self, FaceDistancesSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceDistancesSettings" kindref="compound">FaceDistancesSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16887" bodyend="16890"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a10418cb6bcd50034861b767d49601826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceDistancesSettings.__init__</definition>
+        <argsstring>(self, FaceDistancesSettings.OutputFaceValues out, float_output maxDist, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues" kindref="compound">FaceDistancesSettings.OutputFaceValues</ref></type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16892" bodyend="16895"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a63609a4acd5a9a7d00f6409ec3077903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceDistancesSettings.maxDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDist</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.maxDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output of the maximal distance to the most distant face
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16897" bodyend="16900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1afea8336a5e0f0eb00188d6da98b10c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceDistancesSettings.maxDist</definition>
+        <argsstring>(self, float_output arg1)</argsstring>
+        <name>maxDist</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.maxDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16902" bodyend="16903"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a69bed9eec308150946f93af042efc73e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.FaceDistancesSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for progress reporting and cancellation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16905" bodyend="16908"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceDistancesSettings_1a6ae7509df1a389e09f1a923571970478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceDistancesSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.FaceDistancesSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16910" bodyend="16911"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FaceDistancesSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FaceDistancesSettings</label>
+        <link refid="classmrmeshpy_1_1FaceDistancesSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_out</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>out</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FaceDistancesSettings</label>
+        <link refid="classmrmeshpy_1_1FaceDistancesSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_out</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>out</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16826" bodyend="16911"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a29b76ef3cc678e722d9d42c4a1fe7a97" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a7dc9c7f95577801957ec009003818ead" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a914b265b1c03113e2ed16f524988f1fb" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a10418cb6bcd50034861b767d49601826" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1abf4090356af304ceddd399a70eedb2e0" prot="protected" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>_offsetof_out</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a6049764501a6081a9fe721d37841946d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a63609a4acd5a9a7d00f6409ec3077903" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>maxDist</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1afea8336a5e0f0eb00188d6da98b10c71" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>maxDist</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1ab6dce06a14c43fa042c83165ca05884c" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1ab6dce06a14c43fa042c83165ca05884c" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1aac877e569242acb56de0ca44d2f4cd19" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>out</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a69bed9eec308150946f93af042efc73e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1FaceDistancesSettings_1a6ae7509df1a389e09f1a923571970478" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceDistancesSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

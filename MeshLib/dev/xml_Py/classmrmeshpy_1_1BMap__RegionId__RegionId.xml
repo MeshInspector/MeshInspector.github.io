@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BMap__RegionId__RegionId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BMap_RegionId_RegionId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__RegionId__RegionId_1ab253d828a7cea40dded13aa4701850a2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_RegionId_RegionId::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.BMap_RegionId_RegionId._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__RegionId__RegionId_1ad08937bfc08e1de39abb861e1596a552" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_RegionId_RegionId::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.BMap_RegionId_RegionId._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2049" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__RegionId__RegionId_1aaf7aa82d1a8b86cb3e490dba00885ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_RegionId_RegionId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BMap_RegionId_RegionId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2050" bodyend="2051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__RegionId__RegionId_1a04032e8d29861019f28e8281b82b9483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__RegionId__RegionId" kindref="compound">Buffer_RegionId_RegionId</ref></type>
+        <definition> Buffer_RegionId_RegionId mrmeshpy.BMap_RegionId_RegionId.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.BMap_RegionId_RegionId.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2053" bodyend="2054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__RegionId__RegionId_1a5391c5386755023cf2aeeeae956b3188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BMap_RegionId_RegionId.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_RegionId_RegionId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2056" bodyend="2059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__RegionId__RegionId_1af0d98cdaa81df0c2a36e9c8e6d022b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_RegionId_RegionId.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_RegionId_RegionId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2061" bodyend="2062"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BMap&lt;MR::RegionId, MR::RegionId&gt;
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BMap_RegionId_RegionId</label>
+        <link refid="classmrmeshpy_1_1BMap__RegionId__RegionId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2042" bodyend="2062"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BMap__RegionId__RegionId_1aaf7aa82d1a8b86cb3e490dba00885ee1" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_RegionId_RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BMap__RegionId__RegionId_1ab253d828a7cea40dded13aa4701850a2" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_RegionId_RegionId</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__RegionId__RegionId_1ad08937bfc08e1de39abb861e1596a552" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_RegionId_RegionId</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__RegionId__RegionId_1a04032e8d29861019f28e8281b82b9483" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_RegionId_RegionId</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__RegionId__RegionId_1a5391c5386755023cf2aeeeae956b3188" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_RegionId_RegionId</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__RegionId__RegionId_1af0d98cdaa81df0c2a36e9c8e6d022b53" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_RegionId_RegionId</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

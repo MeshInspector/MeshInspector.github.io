@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRScopedValue_8h" kind="file" language="C++">
+    <compoundname>MRScopedValue.h</compoundname>
+    <includes refid="MRFinally_8h" local="yes">MRFinally.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRFinally.h</label>
+        <link refid="MRFinally_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRScopedValue.h</label>
+        <link refid="MRScopedValue_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRScopedValue_8h_1a1351f3ee7d9ca8f0a3eef6e8c5da5fac" prot="public" static="no">
+        <name>MR_SCOPED_VALUE</name>
+        <param><defname>var</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>auto <ref refid="MRMacros_8h_1a4cb6de717e0b06df733796fec2da272a" kindref="member">MR_CONCAT</ref>( _prev_value_, __LINE__ ) = std::move( var ); ( var ) = ( __VA_ARGS__ ); <ref refid="MRFinally_8h_1ad10d1a8c04c5722bf0d42b1ddd493aad" kindref="member">MR_FINALLY</ref> { ( var ) = std::move( <ref refid="MRMacros_8h_1a4cb6de717e0b06df733796fec2da272a" kindref="member">MR_CONCAT</ref>( _prev_value_, __LINE__ ) ); }</initializer>
+        <briefdescription>
+<para>change a variable&apos;s value until the current scope&apos;s end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRScopedValue.h" line="6" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRScopedValue.h" bodystart="6" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFinally_8h" kindref="compound">MRFinally.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="MRScopedValue_8h_1a1351f3ee7d9ca8f0a3eef6e8c5da5fac" refkind="member"><highlight class="preprocessor">#define<sp/>MR_SCOPED_VALUE(<sp/>var,<sp/>...<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor">auto<sp/>MR_CONCAT(<sp/>_prev_value_,<sp/>__LINE__<sp/>)<sp/>=<sp/>std::move(<sp/>var<sp/>);<sp/>(<sp/>var<sp/>)<sp/>=<sp/>(<sp/>__VA_ARGS__<sp/>);<sp/>MR_FINALLY<sp/>{<sp/>(<sp/>var<sp/>)<sp/>=<sp/>std::move(<sp/>MR_CONCAT(<sp/>_prev_value_,<sp/>__LINE__<sp/>)<sp/>);<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRScopedValue.h"/>
+  </compounddef>
+</doxygen>

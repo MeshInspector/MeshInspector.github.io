@@ -1,0 +1,1033 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Matrix4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Matrix4</compoundname>
+    <includes refid="MRMatrix4_8h" local="no">MRMatrix4.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ab8d2624777be58e7e104a7bf446aee82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>decltype(dot(a.x, b.x))</type>
+        <definition>decltype(dot(a.x, b.x)) dot</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>dot</name>
+        <qualifiedname>MR::Matrix4::dot</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>double-dot product: x = a : b </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="180" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1aff9e2bc787d384454aed9377473bfdc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt;</type>
+        <definition>Matrix4&lt; T &gt; outer</definition>
+        <argsstring>(const Vector4&lt; T &gt; &amp;a, const Vector4&lt; T &gt; &amp;b)</argsstring>
+        <name>outer</name>
+        <qualifiedname>MR::Matrix4::outer</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>x = a * b^T </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="193" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="193" bodyend="196"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1Matrix4_1a37b7b5c48f473091b3f1489d1651c4f7" prot="public" static="no">
+        <type>T</type>
+        <definition>using MR::Matrix4&lt; T &gt;::ValueType =  T</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <qualifiedname>MR::Matrix4::ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1Matrix4_1a40a1bbeba85718db9ed906be11c92308" prot="public" static="no">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
+        <definition>using MR::Matrix4&lt; T &gt;::VectorType =  Vector4&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>VectorType</name>
+        <qualifiedname>MR::Matrix4::VectorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
+        <definition>Vector4&lt;T&gt; MR::Matrix4&lt; T &gt;::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR::Matrix4::x</qualifiedname>
+        <initializer>{ 1, 0, 0, 0 }</initializer>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="27" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Matrix4_1a75f9e05ce8b540c5e85bd3f79ba19381" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
+        <definition>Vector4&lt;T&gt; MR::Matrix4&lt; T &gt;::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR::Matrix4::y</qualifiedname>
+        <initializer>{ 0, 1, 0, 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="28" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Matrix4_1a236c71c6a980ce77ee524f2a4b161271" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
+        <definition>Vector4&lt;T&gt; MR::Matrix4&lt; T &gt;::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR::Matrix4::z</qualifiedname>
+        <initializer>{ 0, 0, 1, 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="29" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Matrix4_1a9e0640aaf9b368a204fd42127c9e93e3" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
+        <definition>Vector4&lt;T&gt; MR::Matrix4&lt; T &gt;::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR::Matrix4::w</qualifiedname>
+        <initializer>{ 0, 0, 0, 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="30" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ab8f81a0762c30cf1cc35e58fed5fc882" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Matrix4&lt; T &gt;::Matrix4</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Matrix4</name>
+        <qualifiedname>MR::Matrix4::Matrix4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="32" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1abd46e2cdc867cd289cbc0ec5733fa827" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Matrix4&lt; T &gt;::Matrix4</definition>
+        <argsstring>(const Vector4&lt; T &gt; &amp;x, const Vector4&lt; T &gt; &amp;y, const Vector4&lt; T &gt; &amp;z, const Vector4&lt; T &gt; &amp;w)</argsstring>
+        <name>Matrix4</name>
+        <qualifiedname>MR::Matrix4::Matrix4</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>initializes matrix from 4 row-vectors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="37" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a9a83e20de940378f00e19b33ac4375d7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Matrix4&lt; T &gt;::Matrix4</definition>
+        <argsstring>(const Matrix3&lt; T &gt; &amp;r, const Vector3&lt; T &gt; &amp;t)</argsstring>
+        <name>Matrix4</name>
+        <qualifiedname>MR::Matrix4::Matrix4</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>construct from rotation matrix and translation vector </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="40" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1aa742a4871b2f7f749de9e6c98cc7e59c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" kindref="member">MR_SAME_TYPE_TEMPLATE_PARAM</ref>(T, TT)</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr</type>
+        <definition>MR::Matrix4&lt; T &gt;::Matrix4</definition>
+        <argsstring>(const AffineXf3&lt; TT &gt; &amp;xf) MR_REQUIRES_IF_SUPPORTED(std</argsstring>
+        <name>Matrix4</name>
+        <qualifiedname>MR::Matrix4::Matrix4</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; TT &gt; &amp;</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Currently <computeroutput>AffineXf3&lt;long long&gt;</computeroutput> doesn&apos;t seem to compile, so we disable this constructor for <computeroutput><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt;long long&gt;</computeroutput>, because otherwise mrbind instantiates the entire <computeroutput>AffineXf3&lt;long long&gt;</computeroutput> and chokes on it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="51" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1aa8b96cc44e4f0586f904a712235af01b" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Matrix4&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
+        <argsstring>(!std::is_same_v&lt; T, U &gt;) const expr explicit Matrix4(const Matrix4&lt; U &gt; &amp;m)</argsstring>
+        <name>MR_REQUIRES_IF_SUPPORTED</name>
+        <qualifiedname>MR::Matrix4::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
+        <param>
+          <type>!std::is_same_v&lt; T, U &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Here <computeroutput>T == U</computeroutput> doesn&apos;t seem to cause any issues in the C++ code, but we&apos;re still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="55" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a6c21d25d2c8666791acd9807e6625422" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::Matrix4&lt; T &gt;::operator()</definition>
+        <argsstring>(int row, int col) const noexcept</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Matrix4::operator()</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>element access </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a02514ec882b0d3be5745825463ffff40" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::Matrix4&lt; T &gt;::operator()</definition>
+        <argsstring>(int row, int col) noexcept</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Matrix4::operator()</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="65" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ac8c8b8aa3228dcf88a06287eb8fd8a82" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+        <definition>const Vector4&lt; T &gt; &amp; MR::Matrix4&lt; T &gt;::operator[]</definition>
+        <argsstring>(int row) const noexcept</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::Matrix4::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>row access </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="68" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ac7f03fbfef49ca31946e80ec1051e0bc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector4&lt; T &gt; &amp; MR::Matrix4&lt; T &gt;::operator[]</definition>
+        <argsstring>(int row) noexcept</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::Matrix4::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="69" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ad44d7c3967100d5828818e59d4b57563" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
+        <definition>Vector4&lt; T &gt; MR::Matrix4&lt; T &gt;::col</definition>
+        <argsstring>(int i) const noexcept</argsstring>
+        <name>col</name>
+        <qualifiedname>MR::Matrix4::col</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>column access </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a4107d00647824c81b8988f9c40f24a9d" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Matrix4&lt; T &gt;::trace</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>trace</name>
+        <qualifiedname>MR::Matrix4::trace</qualifiedname>
+        <briefdescription>
+<para>computes trace of the matrix </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="75" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a61d081cbcb96e39fb7279a55c0b57996" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Matrix4&lt; T &gt;::normSq</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>normSq</name>
+        <qualifiedname>MR::Matrix4::normSq</qualifiedname>
+        <briefdescription>
+<para>compute sum of squared matrix elements </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="77" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1aa462857af46ce91cb171db91608a48ab" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::Matrix4&lt; T &gt;::norm</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>norm</name>
+        <qualifiedname>MR::Matrix4::norm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Calling <computeroutput>sqrt</computeroutput> this way to hopefully support boost.multiprecision numbers. Returning <computeroutput>auto</computeroutput> to not break on integral types.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="78" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="78" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a5408e4a71f68a738707aa7706fd9c81b" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt;</type>
+        <definition>Matrix3&lt; T &gt; MR::Matrix4&lt; T &gt;::submatrix3</definition>
+        <argsstring>(int i, int j) const noexcept</argsstring>
+        <name>submatrix3</name>
+        <qualifiedname>MR::Matrix4::submatrix3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>computes submatrix of the matrix with excluded i-th row and j-th column </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="86" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a9cfc9d9ade4367b39f5eec17c75bdd5d" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Matrix4&lt; T &gt;::det</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>det</name>
+        <qualifiedname>MR::Matrix4::det</qualifiedname>
+        <briefdescription>
+<para>computes determinant of the matrix </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="88" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1aa78aad5791ae63a5f0fafc08c742cc69" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; inverse() const noexcept <ref refid="structMR_1_1Matrix4_1aa8b96cc44e4f0586f904a712235af01b" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(!std constexpr <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt;</type>
+        <definition>Matrix4&lt; T &gt; inverse() const noexcept MR_REQUIRES_IF_SUPPORTED(!std constexpr Matrix4&lt; T &gt; MR::Matrix4&lt; T &gt;::transposed</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>transposed</name>
+        <qualifiedname>MR::Matrix4::transposed</qualifiedname>
+        <briefdescription>
+<para>computes inverse matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>computes transposed matrix </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="92" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a94060d7e07f5c48155555c0bac0194d9" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt;</type>
+        <definition>Matrix3&lt; T &gt; MR::Matrix4&lt; T &gt;::getRotation</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>getRotation</name>
+        <qualifiedname>MR::Matrix4::getRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="94" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a8a2bc593ced399beb03969db94ba63af" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Matrix4&lt; T &gt;::setRotation</definition>
+        <argsstring>(const Matrix3&lt; T &gt; &amp;rot) noexcept</argsstring>
+        <name>setRotation</name>
+        <qualifiedname>MR::Matrix4::setRotation</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
+          <declname>rot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="95" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1afdaea6c4914f797f5028508fc4660a71" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; MR::Matrix4&lt; T &gt;::getTranslation</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>getTranslation</name>
+        <qualifiedname>MR::Matrix4::getTranslation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="96" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a46de12be029c280190f995c40660c426" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Matrix4&lt; T &gt;::setTranslation</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;t) noexcept</argsstring>
+        <name>setTranslation</name>
+        <qualifiedname>MR::Matrix4::setTranslation</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="97" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a2968fcaeb275c69d69adefdaec46f32c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * MR::Matrix4&lt; T &gt;::data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR::Matrix4::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="99" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ae14dd0c11d00774b57b26477176eaf75" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T *</type>
+        <definition>const T * MR::Matrix4&lt; T &gt;::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>MR::Matrix4::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a519d159e9aebbd2a58ed6b78ae96cb4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" kindref="member">MR_SAME_TYPE_TEMPLATE_PARAM</ref>(T, TT)</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Matrix4&lt; T &gt;::operator AffineXf3&lt; TT &gt;</definition>
+        <argsstring>() const MR_REQUIRES_IF_SUPPORTED(std</argsstring>
+        <name>operator AffineXf3&lt; TT &gt;</name>
+        <qualifiedname>MR::Matrix4::operator AffineXf3&lt; TT &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="103" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="103" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a58830bef10087e37b89c0e3e53a796ab" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref></type>
+        <definition>static constexpr Matrix4 MR::Matrix4&lt; T &gt;::zero</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>zero</name>
+        <qualifiedname>MR::Matrix4::zero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="58" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1ae767c7c8330c9975a54782e273f28a7e" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref></type>
+        <definition>static constexpr Matrix4 MR::Matrix4&lt; T &gt;::identity</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>identity</name>
+        <qualifiedname>MR::Matrix4::identity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="59" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix4_1a870527bae94eb9eaacde9e338b4e9994" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref></type>
+        <definition>static constexpr Matrix4 MR::Matrix4&lt; T &gt;::scale</definition>
+        <argsstring>(T s) noexcept</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR::Matrix4::scale</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>returns a matrix that scales uniformly </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="61" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a25d9e2ebb1b000582d5943ea7f68732d" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; operator()(const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;b) const <ref refid="structMR_1_1Matrix4_1aa8b96cc44e4f0586f904a712235af01b" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(!std friend constexpr bool</type>
+        <definition>Vector3&lt; T &gt; operator()(const Vector3&lt; T &gt; &amp;b) const MR_REQUIRES_IF_SUPPORTED(!std friend constexpr bool operator==</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Matrix4::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts 3d-vector b in 4d-vector (b,1), multiplies matrix on it, and assuming the result is in homogeneous coordinates returns it as 3d-vector </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a0edef98e052801b43845aaa81aba98b3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR::Matrix4::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="121" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1abc74a392ea4462c9a83060005de3b963" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</type>
+        <definition>Matrix4&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt; operator+</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Matrix4::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>NOTE: We use <computeroutput>std::declval()</computeroutput> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <computeroutput>a.x</computeroutput> and such. TODO fix this when we update libclang. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="125" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1adcd47d5dea1e6755f88d50b344b5c02f" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</type>
+        <definition>Matrix4&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt; operator-</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Matrix4::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="126" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a500057cb8377d8e98af21e4e845e4fff" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</type>
+        <definition>Matrix4&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt; operator*</definition>
+        <argsstring>(T a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Matrix4::operator*</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="127" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a05e89ca30e657c7b98b77ecfe2caa0e1" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</type>
+        <definition>Matrix4&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt; operator*</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;b, T a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Matrix4::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="128" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a9af2e37a79adb3150c1d6ed3bc8f18bf" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt;</type>
+        <definition>Matrix4&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt; operator/</definition>
+        <argsstring>(Matrix4&lt; T &gt; b, T a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR::Matrix4::operator/</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="129" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1acb8f86891afe4249f0265188d68d58f0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+        <definition>Matrix4&lt; T &gt; &amp; operator+=</definition>
+        <argsstring>(Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::Matrix4::operator+=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="137" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1ad779b27033e6ec76b48fdfe5aba7b8ae" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+        <definition>Matrix4&lt; T &gt; &amp; operator-=</definition>
+        <argsstring>(Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::Matrix4::operator-=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="138" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1ad753d6087d9a0227d63d3599bcdcdf31" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+        <definition>Matrix4&lt; T &gt; &amp; operator*=</definition>
+        <argsstring>(Matrix4&lt; T &gt; &amp;a, T b)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>MR::Matrix4::operator*=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="139" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1af7bfff1fe6a58060ba43dda0028e7131" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+        <definition>Matrix4&lt; T &gt; &amp; operator/=</definition>
+        <argsstring>(Matrix4&lt; T &gt; &amp;a, T b)</argsstring>
+        <name>operator/=</name>
+        <qualifiedname>MR::Matrix4::operator/=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="140" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="140" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a34fb31ad2f7afa3c87d7658070e08a5e" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; decltype(<ref refid="structMR_1_1Matrix4_1ab8d2624777be58e7e104a7bf446aee82" kindref="member">dot</ref>(std::declval&lt; <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &gt;(), std::declval&lt; <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &gt;()))&gt;</type>
+        <definition>Vector4&lt; decltype(dot(std::declval&lt; Vector4&lt; T &gt; &gt;(), std::declval&lt; Vector4&lt; T &gt; &gt;()))&gt; operator*</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Vector4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Matrix4::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>x = a * b </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="149" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1a2fd123c699aacfa8e543247f070ae7d8" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; decltype(<ref refid="structMR_1_1Matrix4_1ab8d2624777be58e7e104a7bf446aee82" kindref="member">dot</ref>(std::declval&lt; <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &gt;(), std::declval&lt; <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &gt;()))&gt;</type>
+        <definition>Matrix4&lt; decltype(dot(std::declval&lt; Vector4&lt; T &gt; &gt;(), std::declval&lt; Vector4&lt; T &gt; &gt;()))&gt; operator*</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Matrix4::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>product of two matrices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="155" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="155" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1ae2781b7e0b9f531f6814989f678d83f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;s, const Matrix4 &amp;mat)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>MR::Matrix4::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref> &amp;</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="164" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Matrix4_1af0e937b6beb9a2fe2e623155800c119e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;s, Matrix4 &amp;mat)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>MR::Matrix4::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref> &amp;</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="169" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="169" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>arbitrary 4x4 matrix </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="22" bodyend="173"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Matrix4_1ad44d7c3967100d5828818e59d4b57563" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>col</name></member>
+      <member refid="structMR_1_1Matrix4_1a2968fcaeb275c69d69adefdaec46f32c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>data</name></member>
+      <member refid="structMR_1_1Matrix4_1ae14dd0c11d00774b57b26477176eaf75" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>data</name></member>
+      <member refid="structMR_1_1Matrix4_1a9cfc9d9ade4367b39f5eec17c75bdd5d" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>det</name></member>
+      <member refid="structMR_1_1Matrix4_1ab8d2624777be58e7e104a7bf446aee82" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>dot</name></member>
+      <member refid="structMR_1_1Matrix4_1a94060d7e07f5c48155555c0bac0194d9" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>getRotation</name></member>
+      <member refid="structMR_1_1Matrix4_1afdaea6c4914f797f5028508fc4660a71" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>getTranslation</name></member>
+      <member refid="structMR_1_1Matrix4_1ae767c7c8330c9975a54782e273f28a7e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>identity</name></member>
+      <member refid="structMR_1_1Matrix4_1ab8f81a0762c30cf1cc35e58fed5fc882" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="structMR_1_1Matrix4_1abd46e2cdc867cd289cbc0ec5733fa827" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="structMR_1_1Matrix4_1a9a83e20de940378f00e19b33ac4375d7" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="structMR_1_1Matrix4_1aa742a4871b2f7f749de9e6c98cc7e59c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="structMR_1_1Matrix4_1aa8b96cc44e4f0586f904a712235af01b" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="structMR_1_1Matrix4_1aa462857af46ce91cb171db91608a48ab" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>norm</name></member>
+      <member refid="structMR_1_1Matrix4_1a61d081cbcb96e39fb7279a55c0b57996" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>normSq</name></member>
+      <member refid="structMR_1_1Matrix4_1a519d159e9aebbd2a58ed6b78ae96cb4f" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator AffineXf3&lt; TT &gt;</name></member>
+      <member refid="structMR_1_1Matrix4_1a0edef98e052801b43845aaa81aba98b3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Matrix4_1a6c21d25d2c8666791acd9807e6625422" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator()</name></member>
+      <member refid="structMR_1_1Matrix4_1a02514ec882b0d3be5745825463ffff40" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator()</name></member>
+      <member refid="structMR_1_1Matrix4_1a500057cb8377d8e98af21e4e845e4fff" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Matrix4_1a05e89ca30e657c7b98b77ecfe2caa0e1" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Matrix4_1a34fb31ad2f7afa3c87d7658070e08a5e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Matrix4_1a2fd123c699aacfa8e543247f070ae7d8" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="structMR_1_1Matrix4_1ad753d6087d9a0227d63d3599bcdcdf31" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*=</name></member>
+      <member refid="structMR_1_1Matrix4_1abc74a392ea4462c9a83060005de3b963" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator+</name></member>
+      <member refid="structMR_1_1Matrix4_1acb8f86891afe4249f0265188d68d58f0" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator+=</name></member>
+      <member refid="structMR_1_1Matrix4_1adcd47d5dea1e6755f88d50b344b5c02f" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator-</name></member>
+      <member refid="structMR_1_1Matrix4_1ad779b27033e6ec76b48fdfe5aba7b8ae" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator-=</name></member>
+      <member refid="structMR_1_1Matrix4_1a9af2e37a79adb3150c1d6ed3bc8f18bf" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator/</name></member>
+      <member refid="structMR_1_1Matrix4_1af7bfff1fe6a58060ba43dda0028e7131" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator/=</name></member>
+      <member refid="structMR_1_1Matrix4_1ae2781b7e0b9f531f6814989f678d83f1" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structMR_1_1Matrix4_1a25d9e2ebb1b000582d5943ea7f68732d" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Matrix4_1af0e937b6beb9a2fe2e623155800c119e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator&gt;&gt;</name></member>
+      <member refid="structMR_1_1Matrix4_1ac8c8b8aa3228dcf88a06287eb8fd8a82" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Matrix4_1ac7f03fbfef49ca31946e80ec1051e0bc" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Matrix4_1aff9e2bc787d384454aed9377473bfdc3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>outer</name></member>
+      <member refid="structMR_1_1Matrix4_1a870527bae94eb9eaacde9e338b4e9994" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>scale</name></member>
+      <member refid="structMR_1_1Matrix4_1a8a2bc593ced399beb03969db94ba63af" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>setRotation</name></member>
+      <member refid="structMR_1_1Matrix4_1a46de12be029c280190f995c40660c426" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>setTranslation</name></member>
+      <member refid="structMR_1_1Matrix4_1a5408e4a71f68a738707aa7706fd9c81b" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>submatrix3</name></member>
+      <member refid="structMR_1_1Matrix4_1a4107d00647824c81b8988f9c40f24a9d" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>trace</name></member>
+      <member refid="structMR_1_1Matrix4_1aa78aad5791ae63a5f0fafc08c742cc69" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>transposed</name></member>
+      <member refid="structMR_1_1Matrix4_1a37b7b5c48f473091b3f1489d1651c4f7" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>ValueType</name></member>
+      <member refid="structMR_1_1Matrix4_1a40a1bbeba85718db9ed906be11c92308" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>VectorType</name></member>
+      <member refid="structMR_1_1Matrix4_1a9e0640aaf9b368a204fd42127c9e93e3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>w</name></member>
+      <member refid="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>x</name></member>
+      <member refid="structMR_1_1Matrix4_1a75f9e05ce8b540c5e85bd3f79ba19381" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>y</name></member>
+      <member refid="structMR_1_1Matrix4_1a236c71c6a980ce77ee524f2a4b161271" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>z</name></member>
+      <member refid="structMR_1_1Matrix4_1a58830bef10087e37b89c0e3e53a796ab" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1ButtonIconCustomizationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::ButtonIconCustomizationParams</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonIconCustomizationParams_1ae70b40fe67c4360ea6328d4d514217ea" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1UI_1_1ButtonCustomizationParams" kindref="compound">ButtonCustomizationParams</ref></type>
+        <definition>ButtonCustomizationParams MR::UI::ButtonIconCustomizationParams::baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>MR::UI::ButtonIconCustomizationParams::baseParams</qualifiedname>
+        <briefdescription>
+<para>basic customization parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="96" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonIconCustomizationParams_1aa7755d0cc192563e2f8641d447160b10" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::UI::ButtonIconCustomizationParams::textUnderImage</definition>
+        <argsstring></argsstring>
+        <name>textUnderImage</name>
+        <qualifiedname>MR::UI::ButtonIconCustomizationParams::textUnderImage</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>if false - text is to the right </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="99" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::ImGuiImage</label>
+        <link refid="classMR_1_1ImGuiImage"/>
+      </node>
+      <node id="2">
+        <label>MR::UI::ButtonCustomizationParams</label>
+        <link refid="structMR_1_1UI_1_1ButtonCustomizationParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>customTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::UI::ButtonIconCustomizationParams</label>
+        <link refid="structMR_1_1UI_1_1ButtonIconCustomizationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="94" bodyend="100"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1ButtonIconCustomizationParams_1ae70b40fe67c4360ea6328d4d514217ea" prot="public" virt="non-virtual"><scope>MR::UI::ButtonIconCustomizationParams</scope><name>baseParams</name></member>
+      <member refid="structMR_1_1UI_1_1ButtonIconCustomizationParams_1aa7755d0cc192563e2f8641d447160b10" prot="public" virt="non-virtual"><scope>MR::UI::ButtonIconCustomizationParams</scope><name>textUnderImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

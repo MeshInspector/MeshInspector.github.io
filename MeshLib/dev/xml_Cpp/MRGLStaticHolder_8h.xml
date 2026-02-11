@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRGLStaticHolder_8h" kind="file" language="C++">
+    <compoundname>MRGLStaticHolder.h</compoundname>
+    <includes refid="MRRenderHelpers_8h" local="yes">MRRenderHelpers.h</includes>
+    <includes refid="MRLog_8h" local="yes">MRMesh/MRLog.h</includes>
+    <includes local="no">array</includes>
+    <includedby refid="MRRenderLinesObject_8h" local="yes">MRRenderLinesObject.h</includedby>
+    <includedby refid="MRRenderMeshObject_8h" local="yes">MRRenderMeshObject.h</includedby>
+    <includedby refid="MRRenderPointsObject_8h" local="yes">MRRenderPointsObject.h</includedby>
+    <incdepgraph>
+      <node id="15">
+        <label>MRMesh/MRBuffer.h</label>
+        <link refid="MRBuffer_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRMesh/MRLog.h</label>
+        <link refid="MRLog_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRNoDefInit.h</label>
+        <link refid="MRNoDefInit_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRGLStaticHolder.h</label>
+        <link refid="MRGLStaticHolder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRRenderHelpers.h</label>
+        <link refid="MRRenderHelpers_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="25">
+        <label>algorithm</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="26">
+        <label>cmath</label>
+      </node>
+      <node id="21">
+        <label>concepts</label>
+      </node>
+      <node id="18">
+        <label>cstddef</label>
+      </node>
+      <node id="27">
+        <label>cstring</label>
+      </node>
+      <node id="3">
+        <label>exports.h</label>
+      </node>
+      <node id="30">
+        <label>filesystem</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="28">
+        <label>iosfwd</label>
+      </node>
+      <node id="22">
+        <label>memory</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>type_traits</label>
+      </node>
+      <node id="20">
+        <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRGLStaticHolder.h</label>
+        <link refid="MRGLStaticHolder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="2">
+        <label>MRRenderLinesObject.h</label>
+        <link refid="MRRenderLinesObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRRenderMeshObject.h</label>
+        <link refid="MRRenderMeshObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRRenderPointsObject.h</label>
+        <link refid="MRRenderPointsObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMR_1_1GLStaticHolder" prot="public">MR::GLStaticHolder</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRRenderHelpers_8h" kindref="compound">MRRenderHelpers.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRLog_8h" kindref="compound">MRMesh/MRLog.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="classMR_1_1GLStaticHolder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">GLStaticHolder</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1GLStaticHolder_1a51ef10d476eb1492c1b758ef79a42482" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref>;</highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced" kindref="member">Mesh</ref>,</highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394" kindref="member">Picker</ref>,</highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aa76d8d9ca69ec851888af009542e7a43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aa76d8d9ca69ec851888af009542e7a43" kindref="member">MeshDesktopPicker</ref>,<sp/></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054" kindref="member">AlphaSortMesh</ref>,</highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a1e35ffa9624e0286d760cbbf53161738" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a1e35ffa9624e0286d760cbbf53161738" kindref="member">DepthPeelMesh</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8" kindref="member">Points</ref>,</highlight></codeline>
+<codeline lineno="24" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748adbdfa98b07873648901b2ae59bf64d69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748adbdfa98b07873648901b2ae59bf64d69" kindref="member">AlphaSortPoints</ref>,</highlight></codeline>
+<codeline lineno="25" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a2c4ef45ab8a73e1fafde1de6f40ac3d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a2c4ef45ab8a73e1fafde1de6f40ac3d2" kindref="member">DepthPeelPoints</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748af99dd41644032e9acbae2aa3dd3fefca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748af99dd41644032e9acbae2aa3dd3fefca" kindref="member">Lines</ref>,</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748acf81af947731fc21b0be72289e83a87c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748acf81af947731fc21b0be72289e83a87c" kindref="member">LinesJoint</ref>,</highlight></codeline>
+<codeline lineno="29" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a4f89b3c160e8d6f2e7ec65bafdba19f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a4f89b3c160e8d6f2e7ec65bafdba19f7" kindref="member">LinesPicker</ref>,</highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aec6fddf1d3232b22c4b581a99bb65eec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aec6fddf1d3232b22c4b581a99bb65eec" kindref="member">LinesJointPicker</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748abdc7873f8b180735941f9106a60ee700" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748abdc7873f8b180735941f9106a60ee700" kindref="member">AlphaSortLines</ref>,</highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748abf2aed4198169c421ff15bc1bd5aa64a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748abf2aed4198169c421ff15bc1bd5aa64a" kindref="member">DepthPeelLines</ref>,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a5bdf19b16004802eb4e3e8cd2332f110" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a5bdf19b16004802eb4e3e8cd2332f110" kindref="member">Labels</ref>,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a" kindref="member">AdditionalLines</ref>,</highlight></codeline>
+<codeline lineno="38" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255" kindref="member">AdditionalPoints</ref>,</highlight></codeline>
+<codeline lineno="39" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9" kindref="member">AdditionalPointsNoOffset</ref>,<sp/></highlight></codeline>
+<codeline lineno="40" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8" kindref="member">AdditionalQuad</ref>,</highlight></codeline>
+<codeline lineno="41" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e" kindref="member">ViewportBorder</ref>,</highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff" kindref="member">AlphaSortOverlayQuad</ref>,</highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896" kindref="member">ShadowOverlayQuad</ref>,</highlight></codeline>
+<codeline lineno="44" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b" kindref="member">SimpleOverlayQuad</ref>,</highlight></codeline>
+<codeline lineno="45" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748acb9bb60d153472db37fc3c37b9fc9e5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748acb9bb60d153472db37fc3c37b9fc9e5a" kindref="member">DepthOverlayQuad</ref>,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676" kindref="member">Volume</ref>,</highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce" kindref="member">VolumePicker</ref>,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="50" refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classMR_1_1GLStaticHolder_1aec292ddb5c9a8585fba9bf8b4d89cca9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref><sp/><ref refid="classMR_1_1GLStaticHolder_1aec292ddb5c9a8585fba9bf8b4d89cca9" kindref="member">getShaderId</ref>(<sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="classMR_1_1GLStaticHolder_1a22ecad2e2dfaf820899303c6ce330839" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a22ecad2e2dfaf820899303c6ce330839" kindref="member">freeShader</ref>(<sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classMR_1_1GLStaticHolder_1ada665fd573c08a25baa0a66d6e69a9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1ada665fd573c08a25baa0a66d6e69a9f8" kindref="member">freeAllShaders</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classMR_1_1GLStaticHolder_1a26b1c1199ef9d8f3647524ab6b8099e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectBuffer" kindref="compound">RenderObjectBuffer</ref>&amp;<sp/><ref refid="classMR_1_1GLStaticHolder_1a26b1c1199ef9d8f3647524ab6b8099e6" kindref="member">getStaticGLBuffer</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classMR_1_1GLStaticHolder_1a4e8e7478e107aae5a007b483056dfc9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="classMR_1_1GLStaticHolder_1a4e8e7478e107aae5a007b483056dfc9e" kindref="member">getTransparentPointsShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classMR_1_1GLStaticHolder_1ad5f78ee78fae0710ed36199e5cc5d387" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="classMR_1_1GLStaticHolder_1ad5f78ee78fae0710ed36199e5cc5d387" kindref="member">getTransparentLinesShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classMR_1_1GLStaticHolder_1a1a384521c17e759cfdf6662d29194aa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/><ref refid="classMR_1_1GLStaticHolder_1a1a384521c17e759cfdf6662d29194aa9" kindref="member">getTransparentMeshShader</ref>(<sp/><ref refid="structMR_1_1TransparencyMode" kindref="compound">TransparencyMode</ref><sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">GLStaticHolder</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">~GLStaticHolder</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GLStaticHolder" kindref="compound">GLStaticHolder</ref>&amp;<sp/>instance_();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createShader_(<sp/><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">ShaderType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="classMR_1_1GLStaticHolder_1a51ef10d476eb1492c1b758ef79a42482" kindref="member">GLuint</ref>,<sp/>size_t(<sp/>Count<sp/>)&gt;<sp/>shadersIds_;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;spdlog::logger&gt;<sp/>logger_;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderObjectBuffer" kindref="compound">RenderObjectBuffer</ref><sp/>glBuffer_;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h"/>
+  </compounddef>
+</doxygen>

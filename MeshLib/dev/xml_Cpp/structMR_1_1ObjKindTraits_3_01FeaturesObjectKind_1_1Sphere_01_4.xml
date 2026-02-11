@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;</compoundname>
+    <includes refid="MRFeatureHelpers_8h" local="no">MRFeatureHelpers.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4_1af790be1acb4e05aaea55fd8ac0a82a65" prot="public" static="no">
+        <type><ref refid="classMR_1_1SphereObject" kindref="compound">SphereObject</ref></type>
+        <definition>using MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;::type =  SphereObject</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4_1a654c8022c9c5668e3fcc035778f7aa68" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;::name</qualifiedname>
+        <initializer>= &quot;Sphere&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="57" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="55" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4_1a654c8022c9c5668e3fcc035778f7aa68" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;</scope><name>name</name></member>
+      <member refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4_1af790be1acb4e05aaea55fd8ac0a82a65" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Sphere &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

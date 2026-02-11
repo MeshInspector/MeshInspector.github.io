@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TeethMaskToDirectionVolumeConvertor" kind="class" language="C++" prot="public">
+    <compoundname>MR::TeethMaskToDirectionVolumeConvertor</compoundname>
+    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
+    <innerclass refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" prot="public">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a4aa7048d9cefc5a963d3583190bea7e1" prot="public" static="no">
+        <type>std::array&lt; SimpleVolumeMinMax, 3 &gt;</type>
+        <definition>using MR::TeethMaskToDirectionVolumeConvertor::DirectionVolume =  std::array&lt;SimpleVolumeMinMax, 3&gt;</definition>
+        <argsstring></argsstring>
+        <name>DirectionVolume</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::DirectionVolume</qualifiedname>
+        <briefdescription>
+<para>See <ref refid="namespaceMR_1a7cfd6d2c7fdde75ec5577e2e10511787" kindref="member">meshToDirectionVolume</ref> for details. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="76" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1aacad268e9bf8e8ba39c90b3c5bc3abc8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; int, Box3i &gt;</type>
+        <definition>HashMap&lt;int, Box3i&gt; MR::TeethMaskToDirectionVolumeConvertor::presentObjects_</definition>
+        <argsstring></argsstring>
+        <name>presentObjects_</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::presentObjects_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="92" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a76056b4faced31578233512b4c392ad2" prot="private" static="no" mutable="no">
+        <type>SimpleVolume</type>
+        <definition>SimpleVolume MR::TeethMaskToDirectionVolumeConvertor::mask_</definition>
+        <argsstring></argsstring>
+        <name>mask_</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::mask_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="93" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a89983e40e7eb6539ae2adb1b772a2129" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">TeethMaskToDirectionVolumeConvertor</ref> &gt;</type>
+        <definition>static MRVOXELS_API Expected&lt; TeethMaskToDirectionVolumeConvertor &gt; MR::TeethMaskToDirectionVolumeConvertor::create</definition>
+        <argsstring>(const VdbVolume &amp;volume, const std::vector&lt; int &gt; &amp;additionalIds={})</argsstring>
+        <name>create</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::create</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>additionalIds</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize class <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voxel mask </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>additionalIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of additional ids (besides teeth) to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="70" column="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1ac57c7c628359932902a4d1ae228e64c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> const <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; int, Box3i &gt; &amp;</type>
+        <definition>MRVOXELS_API const HashMap&lt; int, Box3i &gt; &amp; MR::TeethMaskToDirectionVolumeConvertor::getObjectBounds</definition>
+        <argsstring>() const</argsstring>
+        <name>getObjectBounds</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::getObjectBounds</qualifiedname>
+        <briefdescription>
+<para>Returns all the objects present in volume and corresponding bounding boxes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="73" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a71a87f86afb3191c2524b393470a6619" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">ProcessResult</ref> &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; ProcessResult &gt; MR::TeethMaskToDirectionVolumeConvertor::convertObject</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>convertObject</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::convertObject</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Converts single object into direction volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="84" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a73d08553d48acf30d322b43f3de7d4a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">ProcessResult</ref> &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; ProcessResult &gt; MR::TeethMaskToDirectionVolumeConvertor::convertAll</definition>
+        <argsstring>() const</argsstring>
+        <name>convertAll</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::convertAll</qualifiedname>
+        <briefdescription>
+<para>Converts all the objects into direction volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="87" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a6d2961b3158c87646fceee50df62ed31" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::TeethMaskToDirectionVolumeConvertor::TeethMaskToDirectionVolumeConvertor</definition>
+        <argsstring>()</argsstring>
+        <name>TeethMaskToDirectionVolumeConvertor</name>
+        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::TeethMaskToDirectionVolumeConvertor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="90" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is an alternative to directly invoking <ref refid="namespaceMR_1a7cfd6d2c7fdde75ec5577e2e10511787" kindref="member">meshToDirectionVolume</ref> for the mesh retrieved from the teeth mask. It is better because when a single mesh is created from mask, some neighboring teeth might fuse together, creating incorrect mask. This class invokes meshing for each teeth separately, thus eliminating this problem. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="65" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a73d08553d48acf30d322b43f3de7d4a3" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertAll</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a71a87f86afb3191c2524b393470a6619" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertObject</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a89983e40e7eb6539ae2adb1b772a2129" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>create</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a4aa7048d9cefc5a963d3583190bea7e1" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>DirectionVolume</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1ac57c7c628359932902a4d1ae228e64c8" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>getObjectBounds</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a76056b4faced31578233512b4c392ad2" prot="private" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>mask_</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1aacad268e9bf8e8ba39c90b3c5bc3abc8" prot="private" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>presentObjects_</name></member>
+      <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a6d2961b3158c87646fceee50df62ed31" prot="private" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>TeethMaskToDirectionVolumeConvertor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

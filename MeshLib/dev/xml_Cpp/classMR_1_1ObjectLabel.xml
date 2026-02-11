@@ -1,0 +1,1601 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectLabel" kind="class" language="C++" prot="public">
+    <compoundname>MR::ObjectLabel</compoundname>
+    <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
+    <includes refid="MRObjectLabel_8h" local="no">MRObjectLabel.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1ae0172aed4b4967b65006a635afff2d6b" prot="protected" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+        <definition>PositionedText MR::ObjectLabel::label_</definition>
+        <argsstring></argsstring>
+        <name>label_</name>
+        <qualifiedname>MR::ObjectLabel::label_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="144" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1ad15dc682a4c68f588608e3690da71f81" prot="protected" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::ObjectLabel::pathToFont_</definition>
+        <argsstring></argsstring>
+        <name>pathToFont_</name>
+        <qualifiedname>MR::ObjectLabel::pathToFont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="145" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a0378ca9fa08bdab3d867515998f544ea" prot="protected" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ObjectLabel::pivotPoint_</definition>
+        <argsstring></argsstring>
+        <name>pivotPoint_</name>
+        <qualifiedname>MR::ObjectLabel::pivotPoint_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="146" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1aa11557f43ed662feb8a618c2df1db1e7" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::fontHeight_</definition>
+        <argsstring></argsstring>
+        <name>fontHeight_</name>
+        <qualifiedname>MR::ObjectLabel::fontHeight_</qualifiedname>
+        <initializer>{ 25.0f }</initializer>
+        <briefdescription>
+<para>size of label font on screen in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="149" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1adb1592254c066a793a9ca49922d2a10c" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::leaderLineWidth_</definition>
+        <argsstring></argsstring>
+        <name>leaderLineWidth_</name>
+        <qualifiedname>MR::ObjectLabel::leaderLineWidth_</qualifiedname>
+        <initializer>{ 1.0f }</initializer>
+        <briefdescription>
+<para>width of leader line on screen in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="151" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1ae49ac0521404a46a1e170fbd2153014b" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::sourcePointSize_</definition>
+        <argsstring></argsstring>
+        <name>sourcePointSize_</name>
+        <qualifiedname>MR::ObjectLabel::sourcePointSize_</qualifiedname>
+        <initializer>{ 5.f }</initializer>
+        <briefdescription>
+<para>radius of source point on screen in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="153" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a09df9107adde5b00678f15bfa4420411" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::backgroundPadding_</definition>
+        <argsstring></argsstring>
+        <name>backgroundPadding_</name>
+        <qualifiedname>MR::ObjectLabel::backgroundPadding_</qualifiedname>
+        <initializer>{ 8.f }</initializer>
+        <briefdescription>
+<para>padding of background on screen in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="155" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a46b25ed3275d1a41588168f24ae385d9" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLabel::sourcePoint_</definition>
+        <argsstring></argsstring>
+        <name>sourcePoint_</name>
+        <qualifiedname>MR::ObjectLabel::sourcePoint_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="157" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a9e07961f427e19ec5413b339077cd007" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLabel::background_</definition>
+        <argsstring></argsstring>
+        <name>background_</name>
+        <qualifiedname>MR::ObjectLabel::background_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="158" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1aee1743b888226be20aed8d683d65c188" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLabel::contour_</definition>
+        <argsstring></argsstring>
+        <name>contour_</name>
+        <qualifiedname>MR::ObjectLabel::contour_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="159" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1abd7c2162e2eb5b247ce0e92bf831ff17" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::ObjectLabel::leaderLine_</definition>
+        <argsstring></argsstring>
+        <name>leaderLine_</name>
+        <qualifiedname>MR::ObjectLabel::leaderLine_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="160" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a5d2d7ba2d1452d4ea652d46428d7c8d3" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>ViewportProperty&lt;Color&gt; MR::ObjectLabel::sourcePointColor_</definition>
+        <argsstring></argsstring>
+        <name>sourcePointColor_</name>
+        <qualifiedname>MR::ObjectLabel::sourcePointColor_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="162" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a58d69e66ae209022417c745e65963dee" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>ViewportProperty&lt;Color&gt; MR::ObjectLabel::leaderLineColor_</definition>
+        <argsstring></argsstring>
+        <name>leaderLineColor_</name>
+        <qualifiedname>MR::ObjectLabel::leaderLineColor_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="163" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a12d207d71db54cf8592a72d10a999d3a" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+        <definition>ViewportProperty&lt;Color&gt; MR::ObjectLabel::contourColor_</definition>
+        <argsstring></argsstring>
+        <name>contourColor_</name>
+        <qualifiedname>MR::ObjectLabel::contourColor_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="164" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1af472c4b98c301ef3d37ff55ff191d47a" prot="private" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool MR::ObjectLabel::needRebuild_</definition>
+        <argsstring></argsstring>
+        <name>needRebuild_</name>
+        <qualifiedname>MR::ObjectLabel::needRebuild_</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="191" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="191" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a8ec8f174d0cd7cbd62ceeefb4ef80b62" prot="private" static="no" mutable="yes">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ObjectLabel::pivotShift_</definition>
+        <argsstring></argsstring>
+        <name>pivotShift_</name>
+        <qualifiedname>MR::ObjectLabel::pivotShift_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="192" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1aff2541725116733d21e4a8dc286f437b" prot="private" static="no" mutable="yes">
+        <type>std::shared_ptr&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Mesh&gt; MR::ObjectLabel::mesh_</definition>
+        <argsstring></argsstring>
+        <name>mesh_</name>
+        <qualifiedname>MR::ObjectLabel::mesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="193" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ObjectLabel_1a032d6ec577b05041fd30ffefd87f4650" prot="private" static="no" mutable="yes">
+        <type>Box3f</type>
+        <definition>Box3f MR::ObjectLabel::meshBox_</definition>
+        <argsstring></argsstring>
+        <name>meshBox_</name>
+        <qualifiedname>MR::ObjectLabel::meshBox_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="194" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1adac04396da1b83bf5b3cddc3b9f6fac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref></type>
+        <definition>MRSYMBOLMESH_API MR::ObjectLabel::ObjectLabel</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectLabel</name>
+        <qualifiedname>MR::ObjectLabel::ObjectLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="28" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a05d6a6f70fb7cc83673c180c7c23335b" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectLabel::ObjectLabel</definition>
+        <argsstring>(ObjectLabel &amp;&amp;) noexcept=default</argsstring>
+        <name>ObjectLabel</name>
+        <qualifiedname>MR::ObjectLabel::ObjectLabel</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a50aaf3757356ccffb73f014770fa24e4" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &amp;</type>
+        <definition>ObjectLabel &amp; MR::ObjectLabel::operator=</definition>
+        <argsstring>(ObjectLabel &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::ObjectLabel::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="31" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a4c2b4d2f1feca2726294451d193259d9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * MR::ObjectLabel::typeName</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR::ObjectLabel::typeName</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="37" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a8fc4869a46109f5f0c443a8766620452" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::applyScale</definition>
+        <argsstring>(float scaleFactor) override</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR::ObjectLabel::applyScale</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4">applyScale</reimplements>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="42" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ab8661825d2a0395152d6fb6b82d994f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::ObjectLabel::hasVisualRepresentation</definition>
+        <argsstring>() const override</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR::ObjectLabel::hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d">hasVisualRepresentation</reimplements>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="44" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ab79717ed9223b4f94cf8d564d1bc126d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>virtual MRSYMBOLMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectLabel::clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR::ObjectLabel::clone</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clones this object only, without its children, making new object the owner of all copied resources </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="46" column="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a21e09826b77caa1991f22c27088ada44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>virtual MRSYMBOLMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectLabel::shallowClone</definition>
+        <argsstring>() const override</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR::ObjectLabel::shallowClone</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clones this object only, without its children, making new object to share resources with this object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="47" column="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a4057dce997287066f87e0e9383800f4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setFontHeight</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setFontHeight</name>
+        <qualifiedname>MR::ObjectLabel::setFontHeight</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>sets size of label font in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="50" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1abad194094703dd1d925c246090f8acf6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::getFontHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>getFontHeight</name>
+        <qualifiedname>MR::ObjectLabel::getFontHeight</qualifiedname>
+        <briefdescription>
+<para>returns size of label font on screen in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="52" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a35da258e2581326e4a8317dc42f440a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>MRSYMBOLMESH_API void MR::ObjectLabel::setLabel</definition>
+        <argsstring>(const PositionedText &amp;label)</argsstring>
+        <name>setLabel</name>
+        <qualifiedname>MR::ObjectLabel::setLabel</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>sets text and position of label </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="55" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a1d72e7f4d72cb5498d8ef35a334c7d49" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref> &amp;</type>
+        <definition>const PositionedText &amp; MR::ObjectLabel::getLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>getLabel</name>
+        <qualifiedname>MR::ObjectLabel::getLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="56" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a5a6dabaa5139adaf0ea3c78fb52f7f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>MRSYMBOLMESH_API void MR::ObjectLabel::setFontPath</definition>
+        <argsstring>(const std::filesystem::path &amp;pathToFont)</argsstring>
+        <name>setFontPath</name>
+        <qualifiedname>MR::ObjectLabel::setFontPath</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>pathToFont</declname>
+        </param>
+        <briefdescription>
+<para>sets path to font file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="59" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a23afe1ab31ee4d005fddf5ec6c0b8e89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::filesystem::path &amp;</type>
+        <definition>const std::filesystem::path &amp; MR::ObjectLabel::getFontPath</definition>
+        <argsstring>() const</argsstring>
+        <name>getFontPath</name>
+        <qualifiedname>MR::ObjectLabel::getFontPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="60" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a91ceadbcce9ca978ec89699c22b9a368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>MRSYMBOLMESH_API void MR::ObjectLabel::setPivotPoint</definition>
+        <argsstring>(const Vector2f &amp;pivotPoint)</argsstring>
+        <name>setPivotPoint</name>
+        <qualifiedname>MR::ObjectLabel::setPivotPoint</qualifiedname>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>pivotPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set pivot point <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pivotPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- text location parameter of relative to text position point [0, 0] - text position point is left-down corner of text [1, 1] - text position point is right-up corner can be outside range [0, 0] - [1, 1] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="67" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a4749aa36f962e97efaaa445c260e36b8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Vector2f &amp;</type>
+        <definition>const Vector2f &amp; MR::ObjectLabel::getPivotPoint</definition>
+        <argsstring>() const</argsstring>
+        <name>getPivotPoint</name>
+        <qualifiedname>MR::ObjectLabel::getPivotPoint</qualifiedname>
+        <briefdescription>
+<para>get pivot point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="70" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a243d48c407076f946e1366e8cc43231d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Vector2f &amp;</type>
+        <definition>const Vector2f &amp; MR::ObjectLabel::getPivotShift</definition>
+        <argsstring>() const</argsstring>
+        <name>getPivotShift</name>
+        <qualifiedname>MR::ObjectLabel::getPivotShift</qualifiedname>
+        <briefdescription>
+<para>get pivot shift (pivot point * text diagonal) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="73" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a848d5b06819e10e09913e1d33f5aa460" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setLeaderLineWidth</definition>
+        <argsstring>(float width)</argsstring>
+        <name>setLeaderLineWidth</name>
+        <qualifiedname>MR::ObjectLabel::setLeaderLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>sets width of leader line in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="76" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a9c17b4728f4e0f0684f393cde072c498" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::getLeaderLineWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>getLeaderLineWidth</name>
+        <qualifiedname>MR::ObjectLabel::getLeaderLineWidth</qualifiedname>
+        <briefdescription>
+<para>returns width of leader line in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="78" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ae04f81a073170c38074e076f323ea2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setSourcePointSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setSourcePointSize</name>
+        <qualifiedname>MR::ObjectLabel::setSourcePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>sets size of source point in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="80" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a2ef821f8b318ac94b1c38cd17b7fec28" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::getSourcePointSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getSourcePointSize</name>
+        <qualifiedname>MR::ObjectLabel::getSourcePointSize</qualifiedname>
+        <briefdescription>
+<para>returns size of source point in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="82" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a7e0331be3b1a1a1400fb9efd9698858f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setBackgroundPadding</definition>
+        <argsstring>(float padding)</argsstring>
+        <name>setBackgroundPadding</name>
+        <qualifiedname>MR::ObjectLabel::setBackgroundPadding</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+<para>sets background padding in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="84" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a7ace8711326d2a662e01572a80216ece" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ObjectLabel::getBackgroundPadding</definition>
+        <argsstring>() const</argsstring>
+        <name>getBackgroundPadding</name>
+        <qualifiedname>MR::ObjectLabel::getBackgroundPadding</qualifiedname>
+        <briefdescription>
+<para>returns background padding in pixels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a5f3d3a9c1c4f9e894308be7d9d737b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setSourcePointColor</definition>
+        <argsstring>(const Color &amp;color, ViewportId id={})</argsstring>
+        <name>setSourcePointColor</name>
+        <qualifiedname>MR::ObjectLabel::setSourcePointColor</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>sets color of source point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="89" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1afa7cca94bb7c52c65b8e8fad9b7a2f17" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <definition>const Color &amp; MR::ObjectLabel::getSourcePointColor</definition>
+        <argsstring>(ViewportId id={}) const</argsstring>
+        <name>getSourcePointColor</name>
+        <qualifiedname>MR::ObjectLabel::getSourcePointColor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>returns color of source point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="91" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a736b16f9c0f20255184c4a2e57995599" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setLeaderLineColor</definition>
+        <argsstring>(const Color &amp;color, ViewportId id={})</argsstring>
+        <name>setLeaderLineColor</name>
+        <qualifiedname>MR::ObjectLabel::setLeaderLineColor</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>sets color of leader line </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="96" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a490545e03a5ff1d5639ceb3f569bb2bf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <definition>const Color &amp; MR::ObjectLabel::getLeaderLineColor</definition>
+        <argsstring>(ViewportId id={}) const</argsstring>
+        <name>getLeaderLineColor</name>
+        <qualifiedname>MR::ObjectLabel::getLeaderLineColor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>return color of leader line </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="98" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1add43f0fa707ab9a84cca2cac22b4d217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>MRSYMBOLMESH_API void MR::ObjectLabel::setContourColor</definition>
+        <argsstring>(const Color &amp;color, ViewportId id={})</argsstring>
+        <name>setContourColor</name>
+        <qualifiedname>MR::ObjectLabel::setContourColor</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>sets contour color </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="103" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ae77a8bdb570398fdc93c9de8f73015f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <definition>const Color &amp; MR::ObjectLabel::getContourColor</definition>
+        <argsstring>(ViewportId id={}) const</argsstring>
+        <name>getContourColor</name>
+        <qualifiedname>MR::ObjectLabel::getContourColor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>return contour color </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="105" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a1292dd58ffac8db2bc630f5625a08fe2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>MRSYMBOLMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::ObjectLabel::getSourcePointColorsForAllViewports</definition>
+        <argsstring>() const</argsstring>
+        <name>getSourcePointColorsForAllViewports</name>
+        <qualifiedname>MR::ObjectLabel::getSourcePointColorsForAllViewports</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="110" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a0e4aaeb30afddb1a5c10376aec4feec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setSourcePointColorsForAllViewports</definition>
+        <argsstring>(ViewportProperty&lt; Color &gt; val)</argsstring>
+        <name>setSourcePointColorsForAllViewports</name>
+        <qualifiedname>MR::ObjectLabel::setSourcePointColorsForAllViewports</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="111" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a8a87a0a647577a0a1aeea04f055bb087" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>MRSYMBOLMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::ObjectLabel::getLeaderLineColorsForAllViewports</definition>
+        <argsstring>() const</argsstring>
+        <name>getLeaderLineColorsForAllViewports</name>
+        <qualifiedname>MR::ObjectLabel::getLeaderLineColorsForAllViewports</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="113" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a4e801b7a159f17e408ed016b642a0936" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setLeaderLineColorsForAllViewports</definition>
+        <argsstring>(ViewportProperty&lt; Color &gt; val)</argsstring>
+        <name>setLeaderLineColorsForAllViewports</name>
+        <qualifiedname>MR::ObjectLabel::setLeaderLineColorsForAllViewports</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="114" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a1e573ae8cc406f865177a06867d1eb90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <definition>MRSYMBOLMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::ObjectLabel::getContourColorsForAllViewports</definition>
+        <argsstring>() const</argsstring>
+        <name>getContourColorsForAllViewports</name>
+        <qualifiedname>MR::ObjectLabel::getContourColorsForAllViewports</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="116" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a393f0b6c17f435c5a70985d6e25caab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setContourColorsForAllViewports</definition>
+        <argsstring>(ViewportProperty&lt; Color &gt; val)</argsstring>
+        <name>setContourColorsForAllViewports</name>
+        <qualifiedname>MR::ObjectLabel::setContourColorsForAllViewports</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="117" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a21f7e3a3e9705c1cc258cf3af3212696" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectLabel::ObjectLabel</definition>
+        <argsstring>(ProtectedStruct, const ObjectLabel &amp;obj)</argsstring>
+        <name>ObjectLabel</name>
+        <qualifiedname>MR::ObjectLabel::ObjectLabel</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1ObjectLabel_1ab79717ed9223b4f94cf8d564d1bc126d" kindref="member">clone()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="120" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="120" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a1b7dd5988b7afd2f99debb1cfed9225e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> Box3f</type>
+        <definition>virtual MRSYMBOLMESH_API Box3f MR::ObjectLabel::getWorldBox</definition>
+        <argsstring>(ViewportId={}) const override</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR::ObjectLabel::getWorldBox</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314">getWorldBox</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns cached bounding box of this label object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" kindref="member">getBoundingBox()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="125" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a2b5155ef1e07c779cf760515b4653c08" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; Mesh &gt; &amp; MR::ObjectLabel::labelRepresentingMesh</definition>
+        <argsstring>() const</argsstring>
+        <name>labelRepresentingMesh</name>
+        <qualifiedname>MR::ObjectLabel::labelRepresentingMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns mesh that represents current label only used in Render object for binding, cleared after it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="129" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ad0dafa16ac297c6861333ff5d93eb037" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> size_t</type>
+        <definition>virtual MRSYMBOLMESH_API size_t MR::ObjectLabel::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::ObjectLabel::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="132" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a48d67e46ddf2d603bbe15943d84d7e7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
+        <definition>MRSYMBOLMESH_API AllVisualizeProperties MR::ObjectLabel::getAllVisualizeProperties</definition>
+        <argsstring>() const override</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR::ObjectLabel::getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d">getAllVisualizeProperties</reimplements>
+        <briefdescription>
+<para>get all visualize properties masks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="135" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1afc03bf6428dfd9116ff618a39f7a4f20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
+        <definition>MRSYMBOLMESH_API const ViewportMask &amp; MR::ObjectLabel::getVisualizePropertyMask</definition>
+        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR::ObjectLabel::getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee">getVisualizePropertyMask</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="137" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a97ab4effb71dc605e1393cdf812788fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>MRSYMBOLMESH_API void MR::ObjectLabel::buildMeshFromText</definition>
+        <argsstring>() const</argsstring>
+        <name>buildMeshFromText</name>
+        <qualifiedname>MR::ObjectLabel::buildMeshFromText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads font, and converts the symbols of text into mesh; since this operation is time consuming, one can call this method in parallel for several ObjectLabels before rendering </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="141" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a81f9ef2311c3eff8e8f2bc2f94919133" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static constexpr const char * MR::ObjectLabel::StaticTypeName</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>MR::ObjectLabel::StaticTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="33" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="33" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ab256cedc71a3de3ca2c09ae69d35e973" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ObjectLabel::ObjectLabel</definition>
+        <argsstring>(const ObjectLabel &amp;other)=default</argsstring>
+        <name>ObjectLabel</name>
+        <qualifiedname>MR::ObjectLabel::ObjectLabel</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="166" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a3c2f6a903e0a0d8bee8bb94b6385bb82" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::swapBase_</definition>
+        <argsstring>(Object &amp;other) override</argsstring>
+        <name>swapBase_</name>
+        <qualifiedname>MR::ObjectLabel::swapBase_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="169" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a8a2c844b058ff7ae2ae3ccfed86bb62f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> Box3f</type>
+        <definition>virtual MRSYMBOLMESH_API Box3f MR::ObjectLabel::computeBoundingBox_</definition>
+        <argsstring>() const override</argsstring>
+        <name>computeBoundingBox_</name>
+        <qualifiedname>MR::ObjectLabel::computeBoundingBox_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b">computeBoundingBox_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="171" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a4f32870205a547a67ffb38cd5b8f11ff" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::serializeFields_</definition>
+        <argsstring>(Json::Value &amp;root) const override</argsstring>
+        <name>serializeFields_</name>
+        <qualifiedname>MR::ObjectLabel::serializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="173" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a1b4fadc47c45703484507fe084472ccb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::deserializeFields_</definition>
+        <argsstring>(const Json::Value &amp;root) override</argsstring>
+        <name>deserializeFields_</name>
+        <qualifiedname>MR::ObjectLabel::deserializeFields_</qualifiedname>
+        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="175" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a24cbb50f1855d6c25c214a360db2648e" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>virtual MRSYMBOLMESH_API void MR::ObjectLabel::setupRenderObject_</definition>
+        <argsstring>() const override</argsstring>
+        <name>setupRenderObject_</name>
+        <qualifiedname>MR::ObjectLabel::setupRenderObject_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="177" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a76f0c50a2b27ed61e7e6033571be7250" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref> void</type>
+        <definition>MRSYMBOLMESH_API void MR::ObjectLabel::setAllVisualizeProperties_</definition>
+        <argsstring>(const AllVisualizeProperties &amp;properties, std::size_t &amp;pos) override</argsstring>
+        <name>setAllVisualizeProperties_</name>
+        <qualifiedname>MR::ObjectLabel::setAllVisualizeProperties_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1a5ec593dbd42519c53e6ebe322386f9a6">setAllVisualizeProperties_</reimplements>
+        <param>
+          <type>const <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref> &amp;</type>
+          <declname>properties</declname>
+        </param>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="180" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1ab6b15c75b1b92367c2520f55d8b5d34f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ObjectLabel::setDefaultColors_</definition>
+        <argsstring>()</argsstring>
+        <name>setDefaultColors_</name>
+        <qualifiedname>MR::ObjectLabel::setDefaultColors_</qualifiedname>
+        <briefdescription>
+<para>this is private function to set default colors of this type (<ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref>) in constructor only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="184" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1aa7a7115ec458c530a16c8ccdd5ffd744" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ObjectLabel::setDefaultSceneProperties_</definition>
+        <argsstring>()</argsstring>
+        <name>setDefaultSceneProperties_</name>
+        <qualifiedname>MR::ObjectLabel::setDefaultSceneProperties_</qualifiedname>
+        <briefdescription>
+<para>set default scene-related properties </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="187" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectLabel_1a0c3ac5f82272e5cf5184e7e65bb5b175" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ObjectLabel::updatePivotShift_</definition>
+        <argsstring>() const</argsstring>
+        <name>updatePivotShift_</name>
+        <qualifiedname>MR::ObjectLabel::updatePivotShift_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="189" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This object type renders label in scene</para>
+<para>default pivot point = (0, 0) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="1">
+        <label>MR::ObjectLabel</label>
+        <link refid="classMR_1_1ObjectLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectLabel</label>
+        <link refid="classMR_1_1ObjectLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>label_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>background_</edgelabel>
+          <edgelabel>contour_</edgelabel>
+          <edgelabel>leaderLine_</edgelabel>
+          <edgelabel>sourcePoint_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>contourColor_</edgelabel>
+          <edgelabel>leaderLineColor_</edgelabel>
+          <edgelabel>sourcePointColor_</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::PositionedText</label>
+        <link refid="structMR_1_1PositionedText"/>
+      </node>
+      <node id="5">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="7">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="11">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="2">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="10">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="26" bodyend="195"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>addTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ambientStrength_</name></member>
+      <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ancillary_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a8fc4869a46109f5f0c443a8766620452" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>asType</name></member>
+      <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>asType</name></member>
+      <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>backFacesColor_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a9e07961f427e19ec5413b339077cd007" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>background_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a09df9107adde5b00678f15bfa4420411" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>backgroundPadding_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a97ab4effb71dc605e1393cdf812788fc" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>buildMeshFromText</name></member>
+      <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>children</name></member>
+      <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>children</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>children_</name></member>
+      <member refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>className</name></member>
+      <member refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>clipByPlane_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ab79717ed9223b4f94cf8d564d1bc126d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>coloringType_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a8a2c844b058ff7ae2ae3ccfed86bb62f" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1aee1743b888226be20aed8d683d65c188" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>contour_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a12d207d71db54cf8592a72d10a999d3a" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>contourColor_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>depthTest_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a1b4fadc47c45703484507fe084472ccb" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1aa11557f43ed662feb8a618c2df1db1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>fontHeight_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a48d67e46ddf2d603bbe15943d84d7e7b" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a7ace8711326d2a662e01572a80216ece" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackgroundPadding</name></member>
+      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ae77a8bdb570398fdc93c9de8f73015f2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a1e573ae8cc406f865177a06867d1eb90" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1ObjectLabel_1abad194094703dd1d925c246090f8acf6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFontHeight</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a23afe1ab31ee4d005fddf5ec6c0b8e89" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFontPath</name></member>
+      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a1d72e7f4d72cb5498d8ef35a334c7d49" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLabel</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a490545e03a5ff1d5639ceb3f569bb2bf" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a8a87a0a647577a0a1aeea04f055bb087" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a9c17b4728f4e0f0684f393cde072c498" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineWidth</name></member>
+      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a4749aa36f962e97efaaa445c260e36b8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getPivotPoint</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a243d48c407076f946e1366e8cc43231d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getPivotShift</name></member>
+      <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1ObjectLabel_1afa7cca94bb7c52c65b8e8fad9b7a2f17" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a1292dd58ffac8db2bc630f5625a08fe2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a2ef821f8b318ac94b1c38cd17b7fec28" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectLabel_1afc03bf6428dfd9116ff618a39f7a4f20" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a1b7dd5988b7afd2f99debb1cfed9225e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalAlpha_</name></member>
+      <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ab8661825d2a0395152d6fb6b82d994f1" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ad0dafa16ac297c6861333ff5d93eb037" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>invertNormals_</name></member>
+      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ae0172aed4b4967b65006a635afff2d6b" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>label_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a2b5155ef1e07c779cf760515b4653c08" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>labelRepresentingMesh</name></member>
+      <member refid="classMR_1_1ObjectLabel_1abd7c2162e2eb5b247ce0e92bf831ff17" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>leaderLine_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a58d69e66ae209022417c745e65963dee" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>leaderLineColor_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1adb1592254c066a793a9ca49922d2a10c" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>leaderLineWidth_</name></member>
+      <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>locked_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1aff2541725116733d21e4a8dc286f437b" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>mesh_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a032d6ec577b05041fd30ffefd87f4650" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>meshBox_</name></member>
+      <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>name</name></member>
+      <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>name_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1af472c4b98c301ef3d37ff55ff191d47a" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>needRebuild_</name></member>
+      <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>needRedraw_</name></member>
+      <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectLabel_1adac04396da1b83bf5b3cddc3b9f6fac7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a05d6a6f70fb7cc83673c180c7c23335b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a21f7e3a3e9705c1cc258cf3af3212696" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ab256cedc71a3de3ca2c09ae69d35e973" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
+      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a50aaf3757356ccffb73f014770fa24e4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLabel</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parent</name></member>
+      <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parent</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parent_</name></member>
+      <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>parentLocked_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ad15dc682a4c68f588608e3690da71f81" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pathToFont_</name></member>
+      <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pickable_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a0378ca9fa08bdab3d867515998f544ea" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pivotPoint_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a8ec8f174d0cd7cbd62ceeefb4ef80b62" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>pivotShift_</name></member>
+      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>renderObj_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>selected_</name></member>
+      <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>selectedColor_</name></member>
+      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a4f32870205a547a67ffb38cd5b8f11ff" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a76f0c50a2b27ed61e7e6033571be7250" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a7e0331be3b1a1a1400fb9efd9698858f" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setBackgroundPadding</name></member>
+      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1ObjectLabel_1add43f0fa707ab9a84cca2cac22b4d217" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setContourColor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a393f0b6c17f435c5a70985d6e25caab4" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setContourColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ab6b15c75b1b92367c2520f55d8b5d34f" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDefaultColors_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1aa7a7115ec458c530a16c8ccdd5ffd744" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDefaultSceneProperties_</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a4057dce997287066f87e0e9383800f4a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFontHeight</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a5a6dabaa5139adaf0ea3c78fb52f7f3b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setFontPath</name></member>
+      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a35da258e2581326e4a8317dc42f440a0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setLabel</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a736b16f9c0f20255184c4a2e57995599" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineColor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a4e801b7a159f17e408ed016b642a0936" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a848d5b06819e10e09913e1d33f5aa460" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLeaderLineWidth</name></member>
+      <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setName</name></member>
+      <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a91ceadbcce9ca978ec89699c22b9a368" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setPivotPoint</name></member>
+      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a5f3d3a9c1c4f9e894308be7d9d737b5c" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointColor</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a0e4aaeb30afddb1a5c10376aec4feec6" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ae04f81a073170c38074e076f323ea2cd" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSourcePointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a24cbb50f1855d6c25c214a360db2648e" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a21e09826b77caa1991f22c27088ada44" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shininess_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>showName_</name></member>
+      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a46b25ed3275d1a41588168f24ae385d9" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sourcePoint_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a5d2d7ba2d1452d4ea652d46428d7c8d3" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sourcePointColor_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1ae49ac0521404a46a1e170fbd2153014b" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sourcePointSize_</name></member>
+      <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>specularStrength_</name></member>
+      <member refid="classMR_1_1VisualObject_1aada7c90048febb2b7885af4b99e67f0e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>StaticClassName</name></member>
+      <member refid="classMR_1_1VisualObject_1a98cd3516a6d384fb7370afbc397cf704" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a81f9ef2311c3eff8e8f2bc2f94919133" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>StaticTypeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>swap</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a3c2f6a903e0a0d8bee8bb94b6385bb82" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>tags</name></member>
+      <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>tags_</name></member>
+      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a4c2b4d2f1feca2726294451d193259d9" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>typeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>unselectedColor_</name></member>
+      <member refid="classMR_1_1ObjectLabel_1a0c3ac5f82272e5cf5184e7e65bb5b175" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>updatePivotShift_</name></member>
+      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>visibilityMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>worldXfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xf</name></member>
+      <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xf_</name></member>
+      <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>XfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>~Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>~VisualObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

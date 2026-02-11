@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GlBuffer" kind="class" language="C++" prot="public">
+    <compoundname>MR::GlBuffer</compoundname>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1GlBuffer_1aec7a97ee60f73b84689a8f803d37539d" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::GlBuffer::NO_BUF</definition>
+        <argsstring></argsstring>
+        <name>NO_BUF</name>
+        <qualifiedname>MR::GlBuffer::NO_BUF</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="17" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1GlBuffer_1a6afc3f9c8a192b8cda0e7e71a9b75e10" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::GlBuffer::bufferID_</definition>
+        <argsstring></argsstring>
+        <name>bufferID_</name>
+        <qualifiedname>MR::GlBuffer::bufferID_</qualifiedname>
+        <initializer>= NO_BUF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="59" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GlBuffer_1a71ee44591a3859bd6560b297261090a6" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::GlBuffer::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>MR::GlBuffer::size_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="60" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a7f87da97ec22496a5829c5c04c423c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::GlBuffer::GlBuffer</definition>
+        <argsstring>()=default</argsstring>
+        <name>GlBuffer</name>
+        <qualifiedname>MR::GlBuffer::GlBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="19" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1acc5c4fba4c6e482f57acc3a9b7104c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::GlBuffer::GlBuffer</definition>
+        <argsstring>(const GlBuffer &amp;)=delete</argsstring>
+        <name>GlBuffer</name>
+        <qualifiedname>MR::GlBuffer::GlBuffer</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="20" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a6825e5714c87091bed3d83c1ef5a7e23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::GlBuffer::GlBuffer</definition>
+        <argsstring>(GlBuffer &amp;&amp;r)</argsstring>
+        <name>GlBuffer</name>
+        <qualifiedname>MR::GlBuffer::GlBuffer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref> &amp;&amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1ac1de937c8656f67c5899a611015feef2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::GlBuffer::~GlBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>~GlBuffer</name>
+        <qualifiedname>MR::GlBuffer::~GlBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1aa86bea902bbc968c22771410b0e0e5b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref> &amp;</type>
+        <definition>GlBuffer &amp; MR::GlBuffer::operator=</definition>
+        <argsstring>(const GlBuffer &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::GlBuffer::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="24" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1ac1f71cc8ecd3ae4b03b5b162ada7b3fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref> &amp;</type>
+        <definition>GlBuffer &amp; MR::GlBuffer::operator=</definition>
+        <argsstring>(GlBuffer &amp;&amp;r)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::GlBuffer::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref> &amp;&amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a7ae1352fab61b091036e19f28f540e1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::GlBuffer::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <qualifiedname>MR::GlBuffer::getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1afa85942ca56264f08a03ebe4fded3c01" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::GlBuffer::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::GlBuffer::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1af066f608b196b3e48f709f22fc1fd0d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::GlBuffer::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::GlBuffer::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="29" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a1f35ddfc7d404d24361e0b09e32c538d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlBuffer::gen</definition>
+        <argsstring>()</argsstring>
+        <name>gen</name>
+        <qualifiedname>MR::GlBuffer::gen</qualifiedname>
+        <briefdescription>
+<para>generates new buffer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="32" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a213b2b08ce055e61d230e5020a0bac8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlBuffer::del</definition>
+        <argsstring>()</argsstring>
+        <name>del</name>
+        <qualifiedname>MR::GlBuffer::del</qualifiedname>
+        <briefdescription>
+<para>deletes the buffer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="35" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1afa1fac5904dc4a6ef7735c83fc02c28f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlBuffer::bind</definition>
+        <argsstring>(GLenum target)</argsstring>
+        <name>bind</name>
+        <qualifiedname>MR::GlBuffer::bind</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+<para>binds current buffer to OpenGL context </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="38" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a206827c171c7856ea4a9095be1c2297c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlBuffer::loadData</definition>
+        <argsstring>(GLenum target, const char *arr, size_t arrSize)</argsstring>
+        <name>loadData</name>
+        <qualifiedname>MR::GlBuffer::loadData</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>arrSize</declname>
+        </param>
+        <briefdescription>
+<para>creates GL data buffer using given data and binds it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="41" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a33dad630406717f4906415d48468fd4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::GlBuffer::loadData</definition>
+        <argsstring>(GLenum target, const T *arr, size_t arrSize)</argsstring>
+        <name>loadData</name>
+        <qualifiedname>MR::GlBuffer::loadData</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>arrSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="43" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a39877281390de95c6295a7705ebecdf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename C</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::GlBuffer::loadData</definition>
+        <argsstring>(GLenum target, const C &amp;cont)</argsstring>
+        <name>loadData</name>
+        <qualifiedname>MR::GlBuffer::loadData</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const C &amp;</type>
+          <declname>cont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="45" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1af5b5385945cbb49634fc1d8110d92f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlBuffer::loadDataOpt</definition>
+        <argsstring>(GLenum target, bool refresh, const char *arr, size_t arrSize)</argsstring>
+        <name>loadDataOpt</name>
+        <qualifiedname>MR::GlBuffer::loadDataOpt</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>refresh</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>arrSize</declname>
+        </param>
+        <briefdescription>
+<para>binds current buffer to OpenGL context, optionally refreshing its data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="48" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1ad72b367960de673ebe3310bc30a2ec1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::GlBuffer::loadDataOpt</definition>
+        <argsstring>(GLenum target, bool refresh, const T *arr, size_t arrSize)</argsstring>
+        <name>loadDataOpt</name>
+        <qualifiedname>MR::GlBuffer::loadDataOpt</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>refresh</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>arrSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a805d12e83311707f290106a64f5679f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename C</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::GlBuffer::loadDataOpt</definition>
+        <argsstring>(GLenum target, bool refresh, const C &amp;cont)</argsstring>
+        <name>loadDataOpt</name>
+        <qualifiedname>MR::GlBuffer::loadDataOpt</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>refresh</declname>
+        </param>
+        <param>
+          <type>const C &amp;</type>
+          <declname>cont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="52" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1GlBuffer_1a1ed9bbf627421934cd2722e4f751d511" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GlBuffer::detach_</definition>
+        <argsstring>()</argsstring>
+        <name>detach_</name>
+        <qualifiedname>MR::GlBuffer::detach_</qualifiedname>
+        <briefdescription>
+<para>another object takes control over the GL buffer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="56" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents OpenGL buffer owner, and allows uploading data in it remembering buffer size </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="16" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GlBuffer_1afa1fac5904dc4a6ef7735c83fc02c28f" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>bind</name></member>
+      <member refid="classMR_1_1GlBuffer_1a6afc3f9c8a192b8cda0e7e71a9b75e10" prot="private" virt="non-virtual"><scope>MR::GlBuffer</scope><name>bufferID_</name></member>
+      <member refid="classMR_1_1GlBuffer_1a213b2b08ce055e61d230e5020a0bac8a" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>del</name></member>
+      <member refid="classMR_1_1GlBuffer_1a1ed9bbf627421934cd2722e4f751d511" prot="private" virt="non-virtual"><scope>MR::GlBuffer</scope><name>detach_</name></member>
+      <member refid="classMR_1_1GlBuffer_1a1f35ddfc7d404d24361e0b09e32c538d" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>gen</name></member>
+      <member refid="classMR_1_1GlBuffer_1a7ae1352fab61b091036e19f28f540e1c" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>getId</name></member>
+      <member refid="classMR_1_1GlBuffer_1a7f87da97ec22496a5829c5c04c423c1d" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>GlBuffer</name></member>
+      <member refid="classMR_1_1GlBuffer_1acc5c4fba4c6e482f57acc3a9b7104c1d" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>GlBuffer</name></member>
+      <member refid="classMR_1_1GlBuffer_1a6825e5714c87091bed3d83c1ef5a7e23" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>GlBuffer</name></member>
+      <member refid="classMR_1_1GlBuffer_1a206827c171c7856ea4a9095be1c2297c" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlBuffer_1a33dad630406717f4906415d48468fd4c" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlBuffer_1a39877281390de95c6295a7705ebecdf8" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlBuffer_1af5b5385945cbb49634fc1d8110d92f37" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlBuffer_1ad72b367960de673ebe3310bc30a2ec1e" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlBuffer_1a805d12e83311707f290106a64f5679f9" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlBuffer_1aec7a97ee60f73b84689a8f803d37539d" prot="private" virt="non-virtual"><scope>MR::GlBuffer</scope><name>NO_BUF</name></member>
+      <member refid="classMR_1_1GlBuffer_1aa86bea902bbc968c22771410b0e0e5b0" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>operator=</name></member>
+      <member refid="classMR_1_1GlBuffer_1ac1f71cc8ecd3ae4b03b5b162ada7b3fa" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>operator=</name></member>
+      <member refid="classMR_1_1GlBuffer_1af066f608b196b3e48f709f22fc1fd0d4" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>size</name></member>
+      <member refid="classMR_1_1GlBuffer_1a71ee44591a3859bd6560b297261090a6" prot="private" virt="non-virtual"><scope>MR::GlBuffer</scope><name>size_</name></member>
+      <member refid="classMR_1_1GlBuffer_1afa85942ca56264f08a03ebe4fded3c01" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>valid</name></member>
+      <member refid="classMR_1_1GlBuffer_1ac1de937c8656f67c5899a611015feef2" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>~GlBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

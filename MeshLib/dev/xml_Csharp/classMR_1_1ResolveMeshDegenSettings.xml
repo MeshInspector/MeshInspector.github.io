@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ResolveMeshDegenSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::ResolveMeshDegenSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ResolveMeshDegenSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1a67d043bea6eed19b635fe1b54e992945" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ResolveMeshDegenSettings.maxDeviation</definition>
+        <argsstring></argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.maxDeviation</qualifiedname>
+        <briefdescription>
+<para>maximum permitted deviation from the original surface </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1321" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1a9dff08b8940948e2c6227ea774b8269f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ResolveMeshDegenSettings.tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.tinyEdgeLength</qualifiedname>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1324" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1a06bcbcd82ce77eb4819b61e7f008dfa3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ResolveMeshDegenSettings.maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.maxAngleChange</qualifiedname>
+        <briefdescription>
+<para>Permit edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1327" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1a46e311b17df1c61ae8974f0e071a45cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ResolveMeshDegenSettings.criticalAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalAspectRatio</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.criticalAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1331" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1a0294368c24611a2c006efd98b1a85faf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ResolveMeshDegenSettings.stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.stabilizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1335" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1ac8e14d0db4b48dc9f60289f1413d1fde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>new unsafe MR.? FaceBitSet MR.ResolveMeshDegenSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.region</qualifiedname>
+        <briefdescription>
+<para>degenerations will be fixed only in given region, which is updated during the processing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1338" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1339" bodyend="1348"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ResolveMeshDegenSettings_1a1e01d437fbc04381ad2cb32d4ceca652" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ResolveMeshDegenSettings</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1352" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1352" bodyend="1356"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ResolveMeshDegenSettings_1a3abb9fa0adc33a5697376862fb63ac20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</definition>
+        <argsstring>()</argsstring>
+        <name>ResolveMeshDegenSettings</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1362" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1362" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ResolveMeshDegenSettings_1a3022d733faa0739a33ab241c6b2b629c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</definition>
+        <argsstring>(float maxDeviation, float tinyEdgeLength, float maxAngleChange, float criticalAspectRatio, float stabilizer, MR.FaceBitSet? region)</argsstring>
+        <name>ResolveMeshDegenSettings</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxDeviation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ResolveMeshDegenSettings" kindref="compound">MR.ResolveMeshDegenSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1373" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1373" bodyend="1380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ResolveMeshDegenSettings_1a9d64a0caecc0ece7ee27a303b458ad21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</definition>
+        <argsstring>(MR.Const_ResolveMeshDegenSettings _other)</argsstring>
+        <name>ResolveMeshDegenSettings</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</qualifiedname>
+        <param>
+          <type>MR.Const_ResolveMeshDegenSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1385" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1385" bodyend="1392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ResolveMeshDegenSettings_1a62f1c86ea600bcc5e6f248b7f3ff5e26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</definition>
+        <argsstring>(ResolveMeshDegenSettings _other)</argsstring>
+        <name>ResolveMeshDegenSettings</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ResolveMeshDegenSettings" kindref="compound">ResolveMeshDegenSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1397" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1397" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ResolveMeshDegenSettings_1a90c8ddf678c669625c74af810ea67a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ResolveMeshDegenSettings" kindref="compound">MR.ResolveMeshDegenSettings</ref></type>
+        <definition>unsafe MR.ResolveMeshDegenSettings MR.ResolveMeshDegenSettings.assign</definition>
+        <argsstring>(MR.Const_ResolveMeshDegenSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ResolveMeshDegenSettings.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ResolveMeshDegenSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ResolveMeshDegenSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1402" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1402" bodyend="1409"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ResolveMeshDegenSettings" kindref="compound">MR.ResolveMeshDegenSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ResolveMeshDegenSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ResolveMeshDegenSettings</label>
+        <link refid="classMR_1_1ResolveMeshDegenSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ResolveMeshDegenSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ResolveMeshDegenSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ResolveMeshDegenSettings</label>
+        <link refid="classMR_1_1ResolveMeshDegenSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ResolveMeshDegenSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1318" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1319" bodyend="1410"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a90c8ddf678c669625c74af810ea67a01" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a46e311b17df1c61ae8974f0e071a45cc" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>criticalAspectRatio</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a06bcbcd82ce77eb4819b61e7f008dfa3" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a67d043bea6eed19b635fe1b54e992945" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>maxDeviation</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1ac8e14d0db4b48dc9f60289f1413d1fde" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a1e01d437fbc04381ad2cb32d4ceca652" prot="package" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a3abb9fa0adc33a5697376862fb63ac20" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a3022d733faa0739a33ab241c6b2b629c" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a9d64a0caecc0ece7ee27a303b458ad21" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a62f1c86ea600bcc5e6f248b7f3ff5e26" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a0294368c24611a2c006efd98b1a85faf" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>stabilizer</name></member>
+      <member refid="classMR_1_1ResolveMeshDegenSettings_1a9dff08b8940948e2c6227ea774b8269f" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>tinyEdgeLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

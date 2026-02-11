@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</compoundname>
+    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1a7cc2969f192dc2c210907527c55accf7" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR::Color</ref></type>
+        <definition>MR::Color MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryColor</definition>
+        <argsstring></argsstring>
+        <name>ordinaryColor</name>
+        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryColor</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Color_1ab2d02b3c25652081a0b2f9c3f4de388f" kindref="member">MR::Color::gray</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="27" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1a0ed51b795be6b13b452d9ac27d4409bb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryLineWidth</definition>
+        <argsstring></argsstring>
+        <name>ordinaryLineWidth</name>
+        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryLineWidth</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="28" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1a381406ff0c17d87e6508cfcd62e20f05" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR::Color</ref></type>
+        <definition>MR::Color MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor</definition>
+        <argsstring></argsstring>
+        <name>hoveredColor</name>
+        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Color_1a07d25f841350c5a6eeca781f6dcd0fda" kindref="member">MR::Color::green</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="30" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1af1899a0952daad52f5218d45bf7d61a9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredLineWidth</definition>
+        <argsstring></argsstring>
+        <name>hoveredLineWidth</name>
+        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredLineWidth</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="31" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1aa0387cf419695716cd93f6a75a946dcc" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR::Color</ref></type>
+        <definition>MR::Color MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::selectedColor</definition>
+        <argsstring></argsstring>
+        <name>selectedColor</name>
+        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::selectedColor</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Color_1a1c9185e5072e0a0a568d09ca99f99be8" kindref="member">MR::Color::purple</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="33" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1adf4f4e032450939bf9b4428636216ce0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::selectedLineWidth</definition>
+        <argsstring></argsstring>
+        <name>selectedLineWidth</name>
+        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::selectedLineWidth</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="34" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</label>
+        <link refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>hoveredColor</edgelabel>
+          <edgelabel>ordinaryColor</edgelabel>
+          <edgelabel>selectedColor</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="25" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1a381406ff0c17d87e6508cfcd62e20f05" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>hoveredColor</name></member>
+      <member refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1af1899a0952daad52f5218d45bf7d61a9" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>hoveredLineWidth</name></member>
+      <member refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1a7cc2969f192dc2c210907527c55accf7" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>ordinaryColor</name></member>
+      <member refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1a0ed51b795be6b13b452d9ac27d4409bb" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>ordinaryLineWidth</name></member>
+      <member refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1aa0387cf419695716cd93f6a75a946dcc" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>selectedColor</name></member>
+      <member refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams_1adf4f4e032450939bf9b4428636216ce0" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>selectedLineWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

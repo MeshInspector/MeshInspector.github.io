@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoCtor__RegionId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoCtor_RegionId</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NoCtor__RegionId_1a23399556efb6e8360c68e70ce07c867e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.NoCtor_RegionId::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__RegionId" kindref="compound">NoDefInit_RegionId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__RegionId_1a103cf363c149900e46ce34b245891548" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_RegionId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37108" bodyend="37109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__RegionId_1a0d0c0970d2745ebf2f1036b8277f7586" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoCtor__RegionId" kindref="compound">NoCtor_RegionId</ref></type>
+        <definition> NoCtor_RegionId mrmeshpy.NoCtor_RegionId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37112" bodyend="37113"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__RegionId_1a0d0c0970d2745ebf2f1036b8277f7586" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoCtor__RegionId" kindref="compound">NoCtor_RegionId</ref></type>
+        <definition> NoCtor_RegionId mrmeshpy.NoCtor_RegionId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37116" bodyend="37117"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__RegionId_1ab4d8a8f85750b7be43b1185f3177ba0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_RegionId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37119" bodyend="37120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__RegionId_1a410806f045df01bd04e6bc41af756441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_RegionId.__init__</definition>
+        <argsstring>(self, NoCtor_RegionId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoCtor__RegionId" kindref="compound">NoCtor_RegionId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37122" bodyend="37125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__RegionId_1ab4d8a8f85750b7be43b1185f3177ba0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_RegionId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_RegionId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37127" bodyend="37130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoCtor&lt;MR::RegionId&gt;
+
+for our complex types, return wrapped type with default constructor doing nothing
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37099" bodyend="37130"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1a103cf363c149900e46ce34b245891548" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1ab4d8a8f85750b7be43b1185f3177ba0b" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1a410806f045df01bd04e6bc41af756441" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1ab4d8a8f85750b7be43b1185f3177ba0b" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1a0d0c0970d2745ebf2f1036b8277f7586" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1a0d0c0970d2745ebf2f1036b8277f7586" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__RegionId_1a23399556efb6e8360c68e70ce07c867e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_RegionId</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

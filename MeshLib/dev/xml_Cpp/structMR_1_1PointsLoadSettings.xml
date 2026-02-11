@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointsLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointsLoadSettings</compoundname>
+    <includes refid="MRPointsLoadSettings_8h" local="no">MRPointsLoadSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointsLoadSettings_1a3f2fb1f45d3a7811958bf75b4e75ed0c" prot="public" static="no" mutable="no">
+        <type>VertColors *</type>
+        <definition>VertColors* MR::PointsLoadSettings::colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR::PointsLoadSettings::colors</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>points where to load point color map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" line="11" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoadSettings_1a5b5b7847b53c3638190037e6bdcbb97d" prot="public" static="no" mutable="no">
+        <type>AffineXf3f *</type>
+        <definition>AffineXf3f* MR::PointsLoadSettings::outXf</definition>
+        <argsstring></argsstring>
+        <name>outXf</name>
+        <qualifiedname>MR::PointsLoadSettings::outXf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>transform for the loaded point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" line="12" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoadSettings_1a5e37a095f995393cb75628848220a000" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::PointsLoadSettings::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR::PointsLoadSettings::callback</qualifiedname>
+        <briefdescription>
+<para>callback for set progress and stop process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoadSettings_1a1dce73fcc836e6bf67b9078a0dbc0e50" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PointsLoadSettings::telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR::PointsLoadSettings::telemetrySignal</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>permit telemetry signal about loading </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" line="14" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>structure with settings and side output parameters for loading point cloud </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PointsLoadSettings_1a5e37a095f995393cb75628848220a000" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>callback</name></member>
+      <member refid="structMR_1_1PointsLoadSettings_1a3f2fb1f45d3a7811958bf75b4e75ed0c" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>colors</name></member>
+      <member refid="structMR_1_1PointsLoadSettings_1a5b5b7847b53c3638190037e6bdcbb97d" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>outXf</name></member>
+      <member refid="structMR_1_1PointsLoadSettings_1a1dce73fcc836e6bf67b9078a0dbc0e50" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>telemetrySignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

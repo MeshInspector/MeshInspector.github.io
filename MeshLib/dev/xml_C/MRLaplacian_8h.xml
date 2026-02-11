@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRLaplacian_8h" kind="file" language="C++">
+    <compoundname>MRLaplacian.h</compoundname>
+    <includes refid="MREnums_8h" local="no">MRCMesh/MREnums.h</includes>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRLaplacian.h</label>
+        <link refid="MRLaplacian_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_Laplacian_RememberShape</name>
+        <enumvalue id="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785ca18fde6db14d76513928d9cafb09f3edb" prot="public">
+          <name>MR_Laplacian_RememberShape_Yes</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785cacec974f0d692615ddfa13b5023b2999c" prot="public">
+          <name>MR_Laplacian_RememberShape_No</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="24" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="15" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
+        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
+        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshTopology</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
+        <type>struct MR_Vector3f</type>
+        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" prot="public" static="no">
+        <type>struct <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref></type>
+        <definition>typedef struct MR_VertScalars MR_VertScalars</definition>
+        <argsstring></argsstring>
+        <name>MR_VertScalars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a6473b7f7bca2d39712fcfbfd7cd00ba5" prot="public" static="no">
+        <type>enum <ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" kindref="member">MR_Laplacian_RememberShape</ref></type>
+        <definition>typedef enum MR_Laplacian_RememberShape MR_Laplacian_RememberShape</definition>
+        <argsstring></argsstring>
+        <name>MR_Laplacian_RememberShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="29" column="28"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" prot="public" static="no">
+        <type>struct <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref></type>
+        <definition>typedef struct MR_Laplacian MR_Laplacian</definition>
+        <argsstring></argsstring>
+        <name>MR_Laplacian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Laplacian to smoothly deform a region preserving mesh fine details. How to use:<orderedlist>
+<listitem><para>Initialize Laplacian for the region being deformed, here region properties are remembered.</para>
+</listitem><listitem><para>Change positions of some vertices within the region and call fixVertex for them.</para>
+</listitem><listitem><para>Optionally call updateSolver()</para>
+</listitem><listitem><para>Call apply() to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <programlisting filename="cpp-samples/LaplacianDeformation.cpp"></programlisting> Generated from class <computeroutput>MR::Laplacian</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="41" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRLaplacian_8h_1aff188d2c3235faaab819e545354341b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+        <definition>MRC_API MR_Laplacian * MR_Laplacian_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Laplacian *_other)</argsstring>
+        <name>MR_Laplacian_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Laplacian::Laplacian</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLaplacian_8h_1ac6df2d6a7e2a2ea7f31402a4e2bedb59" kindref="member">MR_Laplacian_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="46" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="46" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a0980a090b8d3ee493b4321f94198ca7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+        <definition>MRC_API const MR_Laplacian * MR_Laplacian_OffsetPtr</definition>
+        <argsstring>(const MR_Laplacian *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Laplacian_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="50" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="50" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a84dc142ead9fea95151b197c36ec5e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+        <definition>MRC_API MR_Laplacian * MR_Laplacian_OffsetMutablePtr</definition>
+        <argsstring>(MR_Laplacian *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Laplacian_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="54" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="54" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a84e5d167782ec53349b7040fb657587f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+        <definition>MRC_API MR_Laplacian * MR_Laplacian_Construct_1</definition>
+        <argsstring>(MR_Mesh *mesh)</argsstring>
+        <name>MR_Laplacian_Construct_1</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Laplacian::Laplacian</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLaplacian_8h_1ac6df2d6a7e2a2ea7f31402a4e2bedb59" kindref="member">MR_Laplacian_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="60" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="60" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a32e1c18f0ed834b0659a3c0e8fc76a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+        <definition>MRC_API MR_Laplacian * MR_Laplacian_Construct_2</definition>
+        <argsstring>(const MR_MeshTopology *topology, MR_VertCoords *points)</argsstring>
+        <name>MR_Laplacian_Construct_2</name>
+        <param>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Laplacian::Laplacian</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>topology</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>points</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLaplacian_8h_1ac6df2d6a7e2a2ea7f31402a4e2bedb59" kindref="member">MR_Laplacian_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="68" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="68" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1ac6df2d6a7e2a2ea7f31402a4e2bedb59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_Destroy</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_Destroy</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Laplacian</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1aad9b3cd28251ba7f54e526d5ed11e566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_DestroyArray</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Laplacian</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a120c044537eb88af38dc10d43924a0b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_init</definition>
+        <argsstring>(MR_Laplacian *_this, const MR_VertBitSet *freeVerts, MR_EdgeWeights weights, const MR_VertexMass *vmass, const MR_Laplacian_RememberShape *rem)</argsstring>
+        <name>MR_Laplacian_init</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>freeVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref></type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref> *</type>
+          <declname>vmass</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" kindref="member">MR_Laplacian_RememberShape</ref> *</type>
+          <declname>rem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialize Laplacian for the region being deformed, here region properties are remembered and precomputed; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>freeVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must not include all vertices of a mesh connected component Generated from method <computeroutput>MR::Laplacian::init</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>freeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>rem</computeroutput> has a default argument: <computeroutput>Laplacian::RememberShape::Yes</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a9a8dcfff072f95c65b875b7829625adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_fixVertex_2</definition>
+        <argsstring>(MR_Laplacian *_this, MR_VertId v, const bool *smooth)</argsstring>
+        <name>MR_Laplacian_fixVertex_2</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const bool *</type>
+          <declname>smooth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>notify Laplacian that given vertex has changed after init and must be fixed during apply; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>smooth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to make the surface smooth in this vertex (sharp otherwise) Generated from method <computeroutput>MR::Laplacian::fixVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>smooth</computeroutput> has a default argument: <computeroutput>true</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1ae214e23246bc313c35a071d88706ee7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_fixVertex_3</definition>
+        <argsstring>(MR_Laplacian *_this, MR_VertId v, const MR_Vector3f *fixedPos, const bool *smooth)</argsstring>
+        <name>MR_Laplacian_fixVertex_3</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>fixedPos</declname>
+        </param>
+        <param>
+          <type>const bool *</type>
+          <declname>smooth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH); <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>smooth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to make the surface smooth in this vertex (sharp otherwise) Generated from method <computeroutput>MR::Laplacian::fixVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>fixedPos</computeroutput> can not be null. It is a single object. Parameter <computeroutput>smooth</computeroutput> has a default argument: <computeroutput>true</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a05611f31527f0bab7d71731a2a189aad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_updateSolver</definition>
+        <argsstring>(MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_updateSolver</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if you manually call this method after initialization and fixing vertices then next apply call will be much faster Generated from method <computeroutput>MR::Laplacian::updateSolver</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="103" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1acb412025a702424fa10de3113dfdcfbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_apply</definition>
+        <argsstring>(MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_apply</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given fixed vertices, computes positions of remaining region vertices Generated from method <computeroutput>MR::Laplacian::apply</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="108" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1adccd7b3becf123170bacd2fab2b1e8d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Laplacian_applyToScalar</definition>
+        <argsstring>(MR_Laplacian *_this, MR_VertScalars *scalarField)</argsstring>
+        <name>MR_Laplacian_applyToScalar</name>
+        <param>
+          <type><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+          <declname>scalarField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from method <computeroutput>MR::Laplacian::applyToScalar</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>scalarField</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a349e7bc904db55563e15412c136a3d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_Laplacian_region</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_region</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return all initially free vertices and the first layer of vertices around them Generated from method <computeroutput>MR::Laplacian::region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="120" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="120" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a8b8ef579c5779ad4d2984deda25af9cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_Laplacian_freeVerts</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_freeVerts</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return currently free vertices Generated from method <computeroutput>MR::Laplacian::freeVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="126" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="126" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1a2fbed454afaad11363b03fd045a07589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <definition>MRC_API const MR_VertBitSet * MR_Laplacian_firstLayerFixedVerts</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_firstLayerFixedVerts</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return fixed vertices from the first layer around free vertices Generated from method <computeroutput>MR::Laplacian::firstLayerFixedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="132" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="132" declcolumn="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MREnums_8h" kindref="compound">MRCMesh/MREnums.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRLaplacian_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRLaplacian_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRLaplacian_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRLaplacian_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRLaplacian_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRLaplacian_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" kindref="member">MR_Laplacian_RememberShape</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>true<sp/>Laplacian<sp/>mode<sp/>when<sp/>initial<sp/>mesh<sp/>shape<sp/>is<sp/>remembered<sp/>and<sp/>copied<sp/>in<sp/>apply</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785ca18fde6db14d76513928d9cafb09f3edb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785ca18fde6db14d76513928d9cafb09f3edb" kindref="member">MR_Laplacian_RememberShape_Yes</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ignore<sp/>initial<sp/>mesh<sp/>shape<sp/>in<sp/>the<sp/>region<sp/>and<sp/>just<sp/>position<sp/>vertices<sp/>smoothly<sp/>in<sp/>the<sp/>region</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785cacec974f0d692615ddfa13b5023b2999c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785cacec974f0d692615ddfa13b5023b2999c" kindref="member">MR_Laplacian_RememberShape_No</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="29" refid="MRLaplacian_8h_1a6473b7f7bca2d39712fcfbfd7cd00ba5" refkind="member"><highlight class="normal">}<sp/><ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" kindref="member">MR_Laplacian_RememberShape</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRLaplacian_8h_1aff188d2c3235faaab819e545354341b6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*<ref refid="MRLaplacian_8h_1aff188d2c3235faaab819e545354341b6" kindref="member">MR_Laplacian_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRLaplacian_8h_1a0980a090b8d3ee493b4321f94198ca7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*<ref refid="MRLaplacian_8h_1a0980a090b8d3ee493b4321f94198ca7f" kindref="member">MR_Laplacian_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRLaplacian_8h_1a84dc142ead9fea95151b197c36ec5e15" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*<ref refid="MRLaplacian_8h_1a84dc142ead9fea95151b197c36ec5e15" kindref="member">MR_Laplacian_OffsetMutablePtr</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRLaplacian_8h_1a84e5d167782ec53349b7040fb657587f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*<ref refid="MRLaplacian_8h_1a84e5d167782ec53349b7040fb657587f" kindref="member">MR_Laplacian_Construct_1</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRLaplacian_8h_1a32e1c18f0ed834b0659a3c0e8fc76a41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*<ref refid="MRLaplacian_8h_1a32e1c18f0ed834b0659a3c0e8fc76a41" kindref="member">MR_Laplacian_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRLaplacian_8h_1ac6df2d6a7e2a2ea7f31402a4e2bedb59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1ac6df2d6a7e2a2ea7f31402a4e2bedb59" kindref="member">MR_Laplacian_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRLaplacian_8h_1aad9b3cd28251ba7f54e526d5ed11e566" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1aad9b3cd28251ba7f54e526d5ed11e566" kindref="member">MR_Laplacian_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRLaplacian_8h_1a120c044537eb88af38dc10d43924a0b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a120c044537eb88af38dc10d43924a0b1" kindref="member">MR_Laplacian_init</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*freeVerts,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>weights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*vmass,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a9d1c532a5b4496576859f5ee4baa785c" kindref="member">MR_Laplacian_RememberShape</ref><sp/>*rem);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRLaplacian_8h_1a9a8dcfff072f95c65b875b7829625adf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a9a8dcfff072f95c65b875b7829625adf" kindref="member">MR_Laplacian_fixVertex_2</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*smooth);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRLaplacian_8h_1ae214e23246bc313c35a071d88706ee7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1ae214e23246bc313c35a071d88706ee7f" kindref="member">MR_Laplacian_fixVertex_3</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*fixedPos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*smooth);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRLaplacian_8h_1a05611f31527f0bab7d71731a2a189aad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a05611f31527f0bab7d71731a2a189aad" kindref="member">MR_Laplacian_updateSolver</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRLaplacian_8h_1acb412025a702424fa10de3113dfdcfbb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1acb412025a702424fa10de3113dfdcfbb" kindref="member">MR_Laplacian_apply</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRLaplacian_8h_1adccd7b3becf123170bacd2fab2b1e8d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1adccd7b3becf123170bacd2fab2b1e8d3" kindref="member">MR_Laplacian_applyToScalar</ref>(<ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this,<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*scalarField);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRLaplacian_8h_1a349e7bc904db55563e15412c136a3d9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRLaplacian_8h_1a349e7bc904db55563e15412c136a3d9a" kindref="member">MR_Laplacian_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRLaplacian_8h_1a8b8ef579c5779ad4d2984deda25af9cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRLaplacian_8h_1a8b8ef579c5779ad4d2984deda25af9cd" kindref="member">MR_Laplacian_freeVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRLaplacian_8h_1a2fbed454afaad11363b03fd045a07589" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRLaplacian_8h_1a2fbed454afaad11363b03fd045a07589" kindref="member">MR_Laplacian_firstLayerFixedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h"/>
+  </compounddef>
+</doxygen>

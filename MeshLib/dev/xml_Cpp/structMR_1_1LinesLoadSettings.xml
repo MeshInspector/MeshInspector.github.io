@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LinesLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::LinesLoadSettings</compoundname>
+    <includes refid="MRLinesLoadSettings_8h" local="no">MRLinesLoadSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1LinesLoadSettings_1a4fb70d302e63d42b78b3ae9b090f1118" prot="public" static="no" mutable="no">
+        <type>VertColors *</type>
+        <definition>VertColors* MR::LinesLoadSettings::colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR::LinesLoadSettings::colors</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional load artifact: per-vertex color map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" line="11" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LinesLoadSettings_1a371abd05d6978245a5059c507e1b237e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::LinesLoadSettings::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR::LinesLoadSettings::callback</qualifiedname>
+        <briefdescription>
+<para>callback for set progress and stop process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" line="12" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LinesLoadSettings_1a67164bb7398f34f276583f2711748077" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::LinesLoadSettings::telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR::LinesLoadSettings::telemetrySignal</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>permit telemetry signal about loading </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" line="13" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>setting for polyline loading from external format, and locations of optional output data </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structMR_1_1LinesLoadSettings_1a371abd05d6978245a5059c507e1b237e" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>callback</name></member>
+      <member refid="structMR_1_1LinesLoadSettings_1a4fb70d302e63d42b78b3ae9b090f1118" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>colors</name></member>
+      <member refid="structMR_1_1LinesLoadSettings_1a67164bb7398f34f276583f2711748077" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>telemetrySignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

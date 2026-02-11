@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OffsetContoursRestoreZParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OffsetContoursRestoreZParams</compoundname>
+    <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1OffsetContoursRestoreZParams_1a1b3a2ad8c458d6b108bfb101240d3d2c" prot="public" static="no">
+        <type>std::function&lt; float(const <ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref> &amp;offsetCont, const <ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref> &amp;offsetIndex, const <ref refid="structMR_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref> &amp;origingContourMapoing)&gt;</type>
+        <definition>using MR::OffsetContoursRestoreZParams::OriginZCallback =  std::function&lt;float( const Contours2f&amp; offsetCont, const OffsetContourIndex&amp; offsetIndex, const OffsetContoursOrigins&amp; origingContourMapoing)&gt;</definition>
+        <argsstring></argsstring>
+        <name>OriginZCallback</name>
+        <qualifiedname>MR::OffsetContoursRestoreZParams::OriginZCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if callback is set it is called to restore Z value please note that this callback may be called in parallel </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursRestoreZParams_1a438c80b5404a4c86a8a262af5bf56945" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1OffsetContoursRestoreZParams_1a1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref></type>
+        <definition>OriginZCallback MR::OffsetContoursRestoreZParams::zCallback</definition>
+        <argsstring></argsstring>
+        <name>zCallback</name>
+        <qualifiedname>MR::OffsetContoursRestoreZParams::zCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="95" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1OffsetContoursRestoreZParams_1ad56a82055a6779969941251b8ad56f97" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::OffsetContoursRestoreZParams::relaxIterations</definition>
+        <argsstring></argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>MR::OffsetContoursRestoreZParams::relaxIterations</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>if &gt; 0 z coordinate will be relaxed this many iterations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="97" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of restoring Z coordinate of XY offset 3d contours. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="91" bodyend="98"/>
+    <listofallmembers>
+      <member refid="structMR_1_1OffsetContoursRestoreZParams_1a1b3a2ad8c458d6b108bfb101240d3d2c" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OriginZCallback</name></member>
+      <member refid="structMR_1_1OffsetContoursRestoreZParams_1ad56a82055a6779969941251b8ad56f97" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>relaxIterations</name></member>
+      <member refid="structMR_1_1OffsetContoursRestoreZParams_1a438c80b5404a4c86a8a262af5bf56945" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>zCallback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

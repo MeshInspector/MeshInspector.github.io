@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SearchPathSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SearchPathSettings</compoundname>
+    <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SearchPathSettings_1a73e36cb0460a39c6bf496d2038aced39" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a0d52c069a53aab9d22c0f2c4e3f262a2" kindref="member">GeodesicPathApprox</ref></type>
+        <definition>GeodesicPathApprox MR::SearchPathSettings::geodesicPathApprox</definition>
+        <argsstring></argsstring>
+        <name>geodesicPathApprox</name>
+        <qualifiedname>MR::SearchPathSettings::geodesicPathApprox</qualifiedname>
+        <initializer>{ <ref refid="namespaceMR_1a0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d" kindref="member">GeodesicPathApprox::DijkstraAStar</ref> }</initializer>
+        <briefdescription>
+<para>the algorithm to compute approximately geodesic path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="85" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SearchPathSettings_1aa176e79c6812cb52b0c1dabdaa2e61c3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SearchPathSettings::maxReduceIters</definition>
+        <argsstring></argsstring>
+        <name>maxReduceIters</name>
+        <qualifiedname>MR::SearchPathSettings::maxReduceIters</qualifiedname>
+        <initializer>{ 100 }</initializer>
+        <briefdescription>
+<para>the maximum number of iterations to reduce approximate path length and convert it in geodesic path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="86" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Geo path search settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="83" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="84" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SearchPathSettings_1a73e36cb0460a39c6bf496d2038aced39" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>geodesicPathApprox</name></member>
+      <member refid="structMR_1_1SearchPathSettings_1aa176e79c6812cb52b0c1dabdaa2e61c3" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>maxReduceIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

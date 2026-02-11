@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ImageSave" kind="class" language="C#" prot="public">
+    <compoundname>MR::ImageSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ImageSave_1a7e9dc7c8dd000741110dde6724871ae9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.ImageSave.toJpeg</definition>
+        <argsstring>(MR.Const_Image image, string path)</argsstring>
+        <name>toJpeg</name>
+        <qualifiedname>MR.ImageSave.toJpeg</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>saves in .jpg format Generated from function <computeroutput><ref refid="classMR_1_1ImageSave_1a7e9dc7c8dd000741110dde6724871ae9" kindref="member">MR.ImageSave.toJpeg</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="64" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="64" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageSave_1a475affb084628dbb44fe9362ed0f677e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.ImageSave.toPng</definition>
+        <argsstring>(MR.Const_Image image, string path)</argsstring>
+        <name>toPng</name>
+        <qualifiedname>MR.ImageSave.toPng</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>saves in .png format Generated from function <computeroutput><ref refid="classMR_1_1ImageSave_1a475affb084628dbb44fe9362ed0f677e" kindref="member">MR.ImageSave.toPng</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" line="43" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" bodystart="43" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageSave_1a39deebf84c3e4f1ba2a102fae78a9836" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.ImageSave.toPng</definition>
+        <argsstring>(MR.Const_Image image, MR.Std.Ostream os)</argsstring>
+        <name>toPng</name>
+        <qualifiedname>MR.ImageSave.toPng</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1ImageSave_1a475affb084628dbb44fe9362ed0f677e" kindref="member">MR.ImageSave.toPng</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" line="59" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPng.cs" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageSave_1a03f29fc4294e5803f82d34f63d09d677" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.ImageSave.toTiff</definition>
+        <argsstring>(MR.Const_Image image, string path)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>MR.ImageSave.toTiff</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>saves in .tiff format Generated from function <computeroutput><ref refid="classMR_1_1ImageSave_1a03f29fc4294e5803f82d34f63d09d677" kindref="member">MR.ImageSave.toTiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="30" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageSave_1a2d45abf074e52d5ac241a628737dc8d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.ImageSave.toBmp</definition>
+        <argsstring>(MR.Const_Image image, string path)</argsstring>
+        <name>toBmp</name>
+        <qualifiedname>MR.ImageSave.toBmp</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>saves in .bmp format Generated from function <computeroutput><ref refid="classMR_1_1ImageSave_1a2d45abf074e52d5ac241a628737dc8d0" kindref="member">MR.ImageSave.toBmp</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageSave.cs" line="9" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageSave.cs" bodystart="9" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ImageSave_1a4935909377affb036d74d5ad69594ddf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.ImageSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_Image image, string path)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.ImageSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and save image to it Generated from function <computeroutput><ref refid="classMR_1_1ImageSave_1a4935909377affb036d74d5ad69594ddf" kindref="member">MR.ImageSave.toAnySupportedFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageSave.cs" line="26" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageSave.cs" bodystart="26" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="58" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageSave.cs" bodystart="4" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ImageSave_1a4935909377affb036d74d5ad69594ddf" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1ImageSave_1a2d45abf074e52d5ac241a628737dc8d0" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toBmp</name></member>
+      <member refid="classMR_1_1ImageSave_1a7e9dc7c8dd000741110dde6724871ae9" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toJpeg</name></member>
+      <member refid="classMR_1_1ImageSave_1a475affb084628dbb44fe9362ed0f677e" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toPng</name></member>
+      <member refid="classMR_1_1ImageSave_1a39deebf84c3e4f1ba2a102fae78a9836" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toPng</name></member>
+      <member refid="classMR_1_1ImageSave_1a03f29fc4294e5803f82d34f63d09d677" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

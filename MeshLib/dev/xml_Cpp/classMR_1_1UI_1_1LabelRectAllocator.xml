@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1LabelRectAllocator" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::LabelRectAllocator</compoundname>
+    <basecompoundref refid="classMR_1_1UI_1_1RectAllocator" prot="public" virt="non-virtual">MR::UI::RectAllocator</basecompoundref>
+    <includes refid="MRUIRectAllocator_8h" local="no">MRUIRectAllocator.h</includes>
+    <innerclass refid="structMR_1_1UI_1_1LabelRectAllocator_1_1Entry" prot="private">MR::UI::LabelRectAllocator::Entry</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UI_1_1LabelRectAllocator_1a0b67dc150fcf3a82b5159aa77d11e250" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::UI::LabelRectAllocator::lastFrameCount_</definition>
+        <argsstring></argsstring>
+        <name>lastFrameCount_</name>
+        <qualifiedname>MR::UI::LabelRectAllocator::lastFrameCount_</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="108" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1UI_1_1LabelRectAllocator_1a9a61d055d44fd47112e5651af8446637" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; phmap::flat_hash_map&lt; std::string, Entry &gt; &gt;</type>
+        <definition>std::vector&lt;phmap::flat_hash_map&lt;std::string, Entry&gt; &gt; MR::UI::LabelRectAllocator::entries_</definition>
+        <argsstring></argsstring>
+        <name>entries_</name>
+        <qualifiedname>MR::UI::LabelRectAllocator::entries_</qualifiedname>
+        <briefdescription>
+<para>The vector uses viewport indices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="116" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UI_1_1LabelRectAllocator_1a3b90eb278b5e53756c88dc2464876ed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API ImVec2</type>
+        <definition>MRVIEWER_API ImVec2 MR::UI::LabelRectAllocator::createRect</definition>
+        <argsstring>(ViewportId viewportId, std::string id, ImVec2 pos, ImVec2 size, bool forceExactPosition=false)</argsstring>
+        <name>createRect</name>
+        <qualifiedname>MR::UI::LabelRectAllocator::createRect</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>ImVec2</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ImVec2</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceExactPosition</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call this every frame to maintain a rectangle. Using the same ID more than once per frame triggers an assertion. Returns the free position closest to <computeroutput>pos</computeroutput>. Separate label lists are maintained per viewport. If <computeroutput>forceExactPosition == true</computeroutput>, the input position is returned unchanged, but the rect is still added to the internal list to push away other rects. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="105" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A rect allocator for labels. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::UI::LabelRectAllocator</label>
+        <link refid="classMR_1_1UI_1_1LabelRectAllocator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::UI::RectAllocator</label>
+        <link refid="classMR_1_1UI_1_1RectAllocator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::UI::LabelRectAllocator</label>
+        <link refid="classMR_1_1UI_1_1LabelRectAllocator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::UI::RectAllocator</label>
+        <link refid="classMR_1_1UI_1_1RectAllocator"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="99" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UI_1_1LabelRectAllocator_1a3b90eb278b5e53756c88dc2464876ed0" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>createRect</name></member>
+      <member refid="classMR_1_1UI_1_1LabelRectAllocator_1a9a61d055d44fd47112e5651af8446637" prot="private" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>entries_</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1ae453c167334b49a2d08f4bffa76c0fe2" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>findFreeRect</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1a0c0e4459ae9255dde41c3c2e216999a3" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>FindPotentiallyOverlappingRects</name></member>
+      <member refid="classMR_1_1UI_1_1LabelRectAllocator_1a0b67dc150fcf3a82b5159aa77d11e250" prot="private" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>lastFrameCount_</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1a82d78572d266d3a2f29eadf99dd00f9e" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>RectAllocator</name></member>
+      <member refid="classMR_1_1UI_1_1RectAllocator_1a91ef8171f989554a528459da9f0c603a" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator</scope><name>rectRectOverlap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

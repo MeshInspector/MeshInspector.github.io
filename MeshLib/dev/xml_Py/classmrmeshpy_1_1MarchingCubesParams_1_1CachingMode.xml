@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MarchingCubesParams::CachingMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1aea9d2ab738cc0c2487974fffb3db19be" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams.CachingMode::Automatic</definition>
+        <argsstring></argsstring>
+        <name>Automatic</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.Automatic</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kindref="compound">MarchingCubesParams.CachingMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1ae8dfe5a6d280b8a0d6605ccaf1e997a8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams.CachingMode::None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.None</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kindref="compound">MarchingCubesParams.CachingMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a5a892e758c49fd2644d8d2319793fbc8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams.CachingMode::Normal</definition>
+        <argsstring></argsstring>
+        <name>Normal</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.Normal</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kindref="compound">MarchingCubesParams.CachingMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27254" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a6d69599aeccbe90a7d60c15655def0ae" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarchingCubesParams.CachingMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kindref="compound">MarchingCubesParams.CachingMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a50d686db10a70c577bfd7487f0eec852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MarchingCubesParams.CachingMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27256" bodyend="27257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a9b9a9637d3ada628fd37db7a9229e153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesParams.CachingMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27258" bodyend="27259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1aa297609ad2a8b7c120d086c36d80d423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesParams.CachingMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27260" bodyend="27261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a438d0a61136633270ddd8cec54bb4735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesParams.CachingMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27262" bodyend="27263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1aa3b349036a074746a7de840b054f7f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1ae8dfe5a6d280b8a0d6605ccaf1e997a8" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.MarchingCubesParams.CachingMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27264" bodyend="27265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1ac9fa9d2f63a1685dd8ea1d6e6f210194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesParams.CachingMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27266" bodyend="27267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a4824611ecda9366bd3a386668c3bd5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MarchingCubesParams.CachingMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27268" bodyend="27269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a91ce8e992993b98aa45fffde09653a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MarchingCubesParams.CachingMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27270" bodyend="27271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a0edd5fee29ffe4c4ac01a920b364000b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1ae8dfe5a6d280b8a0d6605ccaf1e997a8" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.MarchingCubesParams.CachingMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27272" bodyend="27273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a0592f6f28d166e8969a28d0c9c6204f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MarchingCubesParams.CachingMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27274" bodyend="27275"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1af1d287640a027f0608348ed9e6d1023b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MarchingCubesParams.CachingMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27277" bodyend="27278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a4fc2efad09cbce8422c9a376eebf6c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesParams.CachingMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MarchingCubesParams.CachingMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27280" bodyend="27282"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Automatic : choose caching mode automatically depending on volume type
+(current defaults: Normal for FunctionVolume and VdbVolume, None for others)
+
+  None : don&apos;t cache any data
+
+  Normal : allocates 2 full slices per parallel thread
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MarchingCubesParams.CachingMode</label>
+        <link refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Automatic</edgelabel>
+          <edgelabel>None</edgelabel>
+          <edgelabel>Normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27241" bodyend="27281"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a50d686db10a70c577bfd7487f0eec852" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a9b9a9637d3ada628fd37db7a9229e153" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1aa297609ad2a8b7c120d086c36d80d423" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a438d0a61136633270ddd8cec54bb4735" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1aa3b349036a074746a7de840b054f7f7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1ac9fa9d2f63a1685dd8ea1d6e6f210194" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a6d69599aeccbe90a7d60c15655def0ae" prot="private" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a4824611ecda9366bd3a386668c3bd5f3" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a91ce8e992993b98aa45fffde09653a3e" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a0edd5fee29ffe4c4ac01a920b364000b" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a0592f6f28d166e8969a28d0c9c6204f4" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1aea9d2ab738cc0c2487974fffb3db19be" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>Automatic</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1af1d287640a027f0608348ed9e6d1023b" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1ae8dfe5a6d280b8a0d6605ccaf1e997a8" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>None</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a5a892e758c49fd2644d8d2319793fbc8" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>Normal</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a4fc2efad09cbce8422c9a376eebf6c6a" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

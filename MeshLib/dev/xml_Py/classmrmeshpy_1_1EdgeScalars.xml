@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgeScalars" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgeScalars</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeScalars_1ad7d27a3e62f9b9ce9404573a95f83dde" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeScalars::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15437" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeScalars_1aaf5acde30a4c0f9761180bdcfe3be814" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeScalars::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.EdgeScalars._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15438" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1af58e7e5506879abe0710966f2ce3a6c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15441" bodyend="15442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ab05c697d039ca2ba15a1fca26e9de61f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeScalars" kindref="compound">EdgeScalars</ref></type>
+        <definition> EdgeScalars mrmeshpy.EdgeScalars.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15445" bodyend="15446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ab05c697d039ca2ba15a1fca26e9de61f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeScalars" kindref="compound">EdgeScalars</ref></type>
+        <definition> EdgeScalars mrmeshpy.EdgeScalars.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15449" bodyend="15450"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a14911aea10433bf0e57a38e0d3166151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeScalars.__eq__</definition>
+        <argsstring>(self, EdgeScalars b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeScalars" kindref="compound">EdgeScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15451" bodyend="15452"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a508d3a17940c4297d79abb7b09274061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.__getitem__</definition>
+        <argsstring>(self, EdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15454" bodyend="15455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a508d3a17940c4297d79abb7b09274061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.__getitem__</definition>
+        <argsstring>(self, EdgeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15457" bodyend="15458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a3621c487541b11258357633c0c7d41bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15460" bodyend="15463"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1aa62a3f79007cf177b8b495b97f03b91e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15465" bodyend="15468"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a0fabbad7b1cc734d5ee19db921f809da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__init__</definition>
+        <argsstring>(self, int size, float val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15470" bodyend="15473"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a76c00797edfe9d388d655f817d373481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__init__</definition>
+        <argsstring>(self, std_vector_float vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15475" bodyend="15478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a13fcb7e3ef346c49933d66d7ff56b6b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__init__</definition>
+        <argsstring>(self, EdgeScalars arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeScalars" kindref="compound">EdgeScalars</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15480" bodyend="15483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a10aedd366735ec6ad2fdc6335aac415d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[float]</type>
+        <definition> typing.Iterator[float] mrmeshpy.EdgeScalars.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15484" bodyend="15485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a73304e18696680e1cbaab8fe63993ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeScalars.__ne__</definition>
+        <argsstring>(self, EdgeScalars b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeScalars" kindref="compound">EdgeScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15486" bodyend="15487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a266a1525ffdca15ff83f7b665c932b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.__setitem__</definition>
+        <argsstring>(self, EdgeId arg0, float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15488" bodyend="15489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a30d7acb529f2d8c5002a88995c97e3ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.autoResizeAt</definition>
+        <argsstring>(self, EdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15490" bodyend="15493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1adae7b826be1dd746068d914ef42d7bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.autoResizeSet</definition>
+        <argsstring>(self, EdgeId pos, int len, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15495" bodyend="15499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ad5aea91d9b032504e7abfae51687dfad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.autoResizeSet</definition>
+        <argsstring>(self, EdgeId i, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15501" bodyend="15504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1aeb86dc3325a9aed239180337a121dab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15506" bodyend="15507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1aeb86dc3325a9aed239180337a121dab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15509" bodyend="15510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ae00ea4350610dadc3f0e138311e4ed6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeScalars.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15511" bodyend="15514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a0819ba380cf4f42f7d4945fd15fb8fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeScalars.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15515" bodyend="15518"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ab79ba17463cd23d3356345b29e269bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeScalars.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15519" bodyend="15520"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a2db12cdf3aeed4843585223ba2d83d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15521" bodyend="15522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a6fbcdc615bc8902f73893b42d6f2bab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15524" bodyend="15525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a6fbcdc615bc8902f73893b42d6f2bab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15527" bodyend="15528"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a9d5bd1632ea0deb06c18b3a02e0bab12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15529" bodyend="15530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ac3ec4feaf610b56864a8ebb2a0b8adff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeScalars.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15531" bodyend="15532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a020e5ecdc2e6fb021688a820a3b3b4af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeScalars.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15533" bodyend="15536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a5c001e61019fb3423b82b726daac8b26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15538" bodyend="15539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a5c001e61019fb3423b82b726daac8b26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeScalars.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15541" bodyend="15542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a9e4a9a091de76a2cb4e24dc238a0d27d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeScalars.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15543" bodyend="15546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a71b57323a16b55d71cef15f3d2e7b07b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15547" bodyend="15548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1add71b72d97c87387a9450aeaf03641de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.push_back</definition>
+        <argsstring>(self, float t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15550" bodyend="15551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1add71b72d97c87387a9450aeaf03641de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.push_back</definition>
+        <argsstring>(self, float t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15553" bodyend="15554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1aab14f6b4b9960c2e7d59c6164ccaf7bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15555" bodyend="15556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a4422828c8373538fc8da21b0331a4c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15558" bodyend="15559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ad62f042c1d062f05027ab8da7013d633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.resize</definition>
+        <argsstring>(self, int newSize, float t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15561" bodyend="15562"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ab2fbd6587eb3d7351faeba6d2cd3ebdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15564" bodyend="15567"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a01e4bcee02dd5559e386cd4e23491c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, float value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15569" bodyend="15572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1afc02e577b3f592073f9a8b0f90153188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeScalars.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15573" bodyend="15574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1ac53431e824c55e76b6ae13fddd2235d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.swap</definition>
+        <argsstring>(self, EdgeScalars b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeScalars" kindref="compound">EdgeScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15575" bodyend="15576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1afbd95f5913bec2b08a41a72f977e7a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+        <definition> std_vector_float mrmeshpy.EdgeScalars.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15578" bodyend="15581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1adb4b841c87ca162d0d0d2583dd05ecf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeScalars.vec_</definition>
+        <argsstring>(self, std_vector_float arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15583" bodyend="15584"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgeScalars
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgeScalars</label>
+        <link refid="classmrmeshpy_1_1EdgeScalars"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15427" bodyend="15584"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a14911aea10433bf0e57a38e0d3166151" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a508d3a17940c4297d79abb7b09274061" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a508d3a17940c4297d79abb7b09274061" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ad7d27a3e62f9b9ce9404573a95f83dde" prot="private" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1af58e7e5506879abe0710966f2ce3a6c7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a3621c487541b11258357633c0c7d41bc" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1aa62a3f79007cf177b8b495b97f03b91e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a0fabbad7b1cc734d5ee19db921f809da" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a76c00797edfe9d388d655f817d373481" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a13fcb7e3ef346c49933d66d7ff56b6b7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a10aedd366735ec6ad2fdc6335aac415d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a73304e18696680e1cbaab8fe63993ae7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a266a1525ffdca15ff83f7b665c932b79" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1aaf5acde30a4c0f9761180bdcfe3be814" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a30d7acb529f2d8c5002a88995c97e3ad" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1adae7b826be1dd746068d914ef42d7bcf" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ad5aea91d9b032504e7abfae51687dfad" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1aeb86dc3325a9aed239180337a121dab6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1aeb86dc3325a9aed239180337a121dab6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ae00ea4350610dadc3f0e138311e4ed6f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a0819ba380cf4f42f7d4945fd15fb8fbc" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ab79ba17463cd23d3356345b29e269bcc" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a2db12cdf3aeed4843585223ba2d83d64" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a6fbcdc615bc8902f73893b42d6f2bab6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a6fbcdc615bc8902f73893b42d6f2bab6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a9d5bd1632ea0deb06c18b3a02e0bab12" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ac3ec4feaf610b56864a8ebb2a0b8adff" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a020e5ecdc2e6fb021688a820a3b3b4af" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a5c001e61019fb3423b82b726daac8b26" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a5c001e61019fb3423b82b726daac8b26" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a9e4a9a091de76a2cb4e24dc238a0d27d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ab05c697d039ca2ba15a1fca26e9de61f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ab05c697d039ca2ba15a1fca26e9de61f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a71b57323a16b55d71cef15f3d2e7b07b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1add71b72d97c87387a9450aeaf03641de" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1add71b72d97c87387a9450aeaf03641de" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1aab14f6b4b9960c2e7d59c6164ccaf7bb" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a4422828c8373538fc8da21b0331a4c6a" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ad62f042c1d062f05027ab8da7013d633" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ab2fbd6587eb3d7351faeba6d2cd3ebdd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a01e4bcee02dd5559e386cd4e23491c62" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1afc02e577b3f592073f9a8b0f90153188" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ac53431e824c55e76b6ae13fddd2235d4" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1afbd95f5913bec2b08a41a72f977e7a4e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1adb4b841c87ca162d0d0d2583dd05ecf2" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

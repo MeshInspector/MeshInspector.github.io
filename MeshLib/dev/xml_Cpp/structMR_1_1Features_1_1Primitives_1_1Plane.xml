@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Features_1_1Primitives_1_1Plane" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Features::Primitives::Plane</compoundname>
+    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1Plane_1a17291dba0d3768973959e35d4105ceea" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::Features::Primitives::Plane::center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>MR::Features::Primitives::Plane::center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="34" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1Plane_1aaef9e3698f1254ac0f28afb12046695d" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::Features::Primitives::Plane::normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <qualifiedname>MR::Features::Primitives::Plane::normal</qualifiedname>
+        <initializer>= Vector3f( 1, 0, 0 )</initializer>
+        <briefdescription>
+<para>This must be normalized. The sign doesn&apos;t matter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="37" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1Plane_1a7e5d4af61b0fcde8d7631027f240b57a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></type>
+        <definition>MRMESH_API ConeSegment MR::Features::Primitives::Plane::intersectWithPlane</definition>
+        <argsstring>(const Plane &amp;other) const</argsstring>
+        <name>intersectWithPlane</name>
+        <qualifiedname>MR::Features::Primitives::Plane::intersectWithPlane</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Returns an infinite line, with the center in a sane location. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="40" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1Plane_1a4fede0e0dd7626dce7467556c551aa40" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1_1Features_1_1Primitives_1a37df2f34cbcd3fec213859b3ca57d3b6" kindref="member">Sphere</ref></type>
+        <definition>MRMESH_API Sphere MR::Features::Primitives::Plane::intersectWithLine</definition>
+        <argsstring>(const ConeSegment &amp;line) const</argsstring>
+        <name>intersectWithLine</name>
+        <qualifiedname>MR::Features::Primitives::Plane::intersectWithLine</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref> &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Intersects the plane with a line, returns a point (zero radius sphere). Only <computeroutput>center</computeroutput> and <computeroutput>dir</computeroutput> are used from <computeroutput>line</computeroutput> (so if <computeroutput>line</computeroutput> is a cone/cylinder, its axis is used, and the line is extended to infinity). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="45" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1Features_1_1Primitives_1_1Plane_1a8ad7586da649f116dbeefd965f5ff897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Plane &amp;, const Plane &amp;)=default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Features::Primitives::Plane::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="47" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="33" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a17291dba0d3768973959e35d4105ceea" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>center</name></member>
+      <member refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a4fede0e0dd7626dce7467556c551aa40" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithLine</name></member>
+      <member refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a7e5d4af61b0fcde8d7631027f240b57a" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithPlane</name></member>
+      <member refid="structMR_1_1Features_1_1Primitives_1_1Plane_1aaef9e3698f1254ac0f28afb12046695d" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>normal</name></member>
+      <member refid="structMR_1_1Features_1_1Primitives_1_1Plane_1a8ad7586da649f116dbeefd965f5ff897" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

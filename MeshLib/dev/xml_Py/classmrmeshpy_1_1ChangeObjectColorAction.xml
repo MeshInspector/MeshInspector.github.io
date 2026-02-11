@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeObjectColorAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeObjectColorAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <innerclass refid="classmrmeshpy_1_1ChangeObjectColorAction_1_1Type" prot="public">mrmeshpy::ChangeObjectColorAction::Type</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeObjectColorAction_1a3a2a4332a169bd59f73c4908c89128c1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeObjectColorAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.Obj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8309" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1ae25a89d64b48d7671e0238fad0d01bd2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectColorAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8312" bodyend="8313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a2e1ea4ba427bc45a06f9c1a57df55ef0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectColorAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8315" bodyend="8316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a0c4e796f571493dc96d378f77cd8874b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeObjectColorAction" kindref="compound">ChangeObjectColorAction</ref></type>
+        <definition> ChangeObjectColorAction mrmeshpy.ChangeObjectColorAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8319" bodyend="8320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a0c4e796f571493dc96d378f77cd8874b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeObjectColorAction" kindref="compound">ChangeObjectColorAction</ref></type>
+        <definition> ChangeObjectColorAction mrmeshpy.ChangeObjectColorAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8323" bodyend="8324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a635458e8dd3fe7aad7a72dfb6e4b85a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectColorAction.setObjectDirty</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8326" bodyend="8327"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1afa9b0ed6cb47fe3c276eb6bace1b262f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectColorAction.__init__</definition>
+        <argsstring>(self, str name, VisualObject obj, ChangeObjectColorAction.Type type)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeObjectColorAction_1_1Type" kindref="compound">ChangeObjectColorAction.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructed from original obj
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8329" bodyend="8332"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a71df0d28691bc57900ece6314ce82b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectColorAction.__init__</definition>
+        <argsstring>(self, ChangeObjectColorAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeObjectColorAction" kindref="compound">ChangeObjectColorAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8334" bodyend="8337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a881605b19f40ff899ef2770244a629a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeObjectColorAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8338" bodyend="8339"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectColorAction_1a81979572f12041adccb0bd671da901a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeObjectColorAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeObjectColorAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8340" bodyend="8341"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeObjectColorAction
+
+History action for object color palette change
+To use with setFrontColorsForAllViewports, setBackColorsForAllViewports, setFrontColor, setBackColor
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeObjectColorAction</label>
+        <link refid="classmrmeshpy_1_1ChangeObjectColorAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeObjectColorAction</label>
+        <link refid="classmrmeshpy_1_1ChangeObjectColorAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8262" bodyend="8341"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1ae25a89d64b48d7671e0238fad0d01bd2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1afa9b0ed6cb47fe3c276eb6bace1b262f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a71df0d28691bc57900ece6314ce82b87" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a2e1ea4ba427bc45a06f9c1a57df55ef0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a881605b19f40ff899ef2770244a629a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a81979572f12041adccb0bd671da901a9" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a3a2a4332a169bd59f73c4908c89128c1" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a0c4e796f571493dc96d378f77cd8874b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a0c4e796f571493dc96d378f77cd8874b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectColorAction_1a635458e8dd3fe7aad7a72dfb6e4b85a4" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectColorAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

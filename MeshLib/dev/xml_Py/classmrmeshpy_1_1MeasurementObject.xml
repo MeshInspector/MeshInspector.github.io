@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeasurementObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeasurementObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1VisualObject" prot="public" virt="non-virtual">mrmeshpy.VisualObject</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1AngleMeasurementObject" prot="public" virt="non-virtual">mrmeshpy.AngleMeasurementObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1DistanceMeasurementObject" prot="public" virt="non-virtual">mrmeshpy.DistanceMeasurementObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointMeasurementObject" prot="public" virt="non-virtual">mrmeshpy.PointMeasurementObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1RadiusMeasurementObject" prot="public" virt="non-virtual">mrmeshpy.RadiusMeasurementObject</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeasurementObject.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeasurementObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30464" bodyend="30465"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeasurementObject_1a5c89f0f1474b346f4fdd0affef837414" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeasurementObject" kindref="compound">MeasurementObject</ref></type>
+        <definition> MeasurementObject mrmeshpy.MeasurementObject.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeasurementObject.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30467" bodyend="30468"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeasurementObject_1a4d0ba97b8361ffac9e4ec2e0d5065d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeasurementObject.__init__</definition>
+        <argsstring>(self, MeasurementObject arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeasurementObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeasurementObject" kindref="compound">MeasurementObject</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30470" bodyend="30473"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeasurementObject
+
+A common base class for measurement objects.
+Can&apos;t be constructed directly.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.AngleMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1AngleMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.DistanceMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1DistanceMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="7">
+        <label>mrmeshpy.PointMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1PointMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>mrmeshpy.RadiusMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1RadiusMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30455" bodyend="30473"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617" prot="public" virt="non-virtual"><scope>mrmeshpy::MeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeasurementObject_1a4d0ba97b8361ffac9e4ec2e0d5065d37" prot="public" virt="non-virtual"><scope>mrmeshpy::MeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeasurementObject_1a5c89f0f1474b346f4fdd0affef837414" prot="public" virt="non-virtual"><scope>mrmeshpy::MeasurementObject</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ImproveSamplingSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ImproveSamplingSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1a2cd011cdb4d95759be0338c01411dafd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_cloudOfSamples</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cloudOfSamples</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_cloudOfSamples</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1ae17211b07277b80310c515e2cf7306db" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_minPointsInSample</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minPointsInSample</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_minPointsInSample</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1ac1072a840b98f5198e45aded3eccfd28" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_numIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_numIters</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_numIters</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1a741aff4cdad7b0e7540c23f7e1f9e7da" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_progress</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1a08c58fceaa53b1c996c47bb871743ba2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_pt2sm</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pt2sm</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_pt2sm</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1a604cee58d2ce6cb9b463989a6679b54d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_ptColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_ptColors</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_ptColors</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1aa3fb0a358f1ffdae766ead063d16091f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_ptsInSm</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_ptsInSm</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_ptsInSm</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ImproveSamplingSettings_1a05d6c9a6232d3d687b454d7bf7f13e33" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ImproveSamplingSettings::_offsetof_smColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_smColors</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings._offsetof_smColors</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23934" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1afaad53a471e6653f5636f34feed5f668" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23937" bodyend="23938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a55372ded79bf3daaeb4595ecdd88c672" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ImproveSamplingSettings" kindref="compound">ImproveSamplingSettings</ref></type>
+        <definition> ImproveSamplingSettings mrmeshpy.ImproveSamplingSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23941" bodyend="23942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a55372ded79bf3daaeb4595ecdd88c672" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ImproveSamplingSettings" kindref="compound">ImproveSamplingSettings</ref></type>
+        <definition> ImproveSamplingSettings mrmeshpy.ImproveSamplingSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23945" bodyend="23946"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1afc8e3a0c5b18a966b060ffeb0b2f8ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23948" bodyend="23949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1ab88d5fb32055f802a4dce423b072dd26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.__init__</definition>
+        <argsstring>(self, ImproveSamplingSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ImproveSamplingSettings" kindref="compound">ImproveSamplingSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23951" bodyend="23954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a71e528676124b23964739633b6d387a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.__init__</definition>
+        <argsstring>(self, int numIters, int minPointsInSample, VertMap pt2sm, PointCloud cloudOfSamples, Vector_int_VertId ptsInSm, VertColors ptColors, VertColors smColors, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minPointsInSample</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>pt2sm</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloudOfSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__int__VertId" kindref="compound">Vector_int_VertId</ref></type>
+          <declname>ptsInSm</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>ptColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>smColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23956" bodyend="23959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a316f86c621f441ca2182f7da2634f24e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.ImproveSamplingSettings.cloudOfSamples</definition>
+        <argsstring>(self)</argsstring>
+        <name>cloudOfSamples</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.cloudOfSamples</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: new cloud containing averaged points and normals for each sample
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23961" bodyend="23964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a8a2058127117d08bcd634aeb240fdecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.cloudOfSamples</definition>
+        <argsstring>(self, PointCloud arg1)</argsstring>
+        <name>cloudOfSamples</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.cloudOfSamples</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23966" bodyend="23967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a239968dbe867eb8175744a7d12af8760" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ImproveSamplingSettings.minPointsInSample</definition>
+        <argsstring>(self)</argsstring>
+        <name>minPointsInSample</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.minPointsInSample</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if a sample represents less than this number of input points then such sample will be discarded;
+it can be used to remove outliers
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23969" bodyend="23973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a10ed5e0bd08326eff894cc28a00ac118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.minPointsInSample</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>minPointsInSample</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.minPointsInSample</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23975" bodyend="23976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a16372c40b83d68ad56f0edb580ff7103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ImproveSamplingSettings.numIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>numIters</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.numIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of algorithm iterations to perform
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23978" bodyend="23981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a4cf91221062c5888f8d154fd47a1ce41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.numIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>numIters</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.numIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23983" bodyend="23984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a471a6e493245c2e394412e61d2859e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.ImproveSamplingSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>output progress status and receive cancel signal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23986" bodyend="23989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a6e12c40bebcafea335a27911279b4fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23991" bodyend="23992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a1d014323ea235080f25d27bccb44221a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.ImproveSamplingSettings.pt2sm</definition>
+        <argsstring>(self)</argsstring>
+        <name>pt2sm</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.pt2sm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: mapping from input point id to sample id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23994" bodyend="23997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a99d9026176300dbac0c73cc19eade0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.pt2sm</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>pt2sm</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.pt2sm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23999" bodyend="24000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a34f8b17be6f5ee82a9516c61befa9c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.ImproveSamplingSettings.ptColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>ptColors</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.ptColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional input: colors of input points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24002" bodyend="24005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a93b5f4710d4b1dfc0fb3e8fa63fb9612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.ptColors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>ptColors</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.ptColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24007" bodyend="24008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1ac0b391eb579b8f557b721b1a4cb96672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__int__VertId" kindref="compound">Vector_int_VertId</ref></type>
+        <definition> Vector_int_VertId mrmeshpy.ImproveSamplingSettings.ptsInSm</definition>
+        <argsstring>(self)</argsstring>
+        <name>ptsInSm</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.ptsInSm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: the number of points in each sample
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24010" bodyend="24013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a0e568445b52b68f25d14b2cffa8a38e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.ptsInSm</definition>
+        <argsstring>(self, Vector_int_VertId arg1)</argsstring>
+        <name>ptsInSm</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.ptsInSm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__int__VertId" kindref="compound">Vector_int_VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24015" bodyend="24016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1ad2cf7bf3d7240fc0a87c4a3e1a1106ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.ImproveSamplingSettings.smColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>smColors</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.smColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: averaged colors of samples
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24018" bodyend="24021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImproveSamplingSettings_1a1650b23a09ee99eec46f1f430ee1020c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImproveSamplingSettings.smColors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>smColors</name>
+        <qualifiedname>mrmeshpy.ImproveSamplingSettings.smColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24023" bodyend="24024"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ImproveSamplingSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ImproveSamplingSettings</label>
+        <link refid="classmrmeshpy_1_1ImproveSamplingSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cloudOfSamples</edgelabel>
+          <edgelabel>_offsetof_minPointsInSample</edgelabel>
+          <edgelabel>_offsetof_numIters</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_pt2sm</edgelabel>
+          <edgelabel>_offsetof_ptColors</edgelabel>
+          <edgelabel>_offsetof_ptsInSm</edgelabel>
+          <edgelabel>_offsetof_smColors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23923" bodyend="24024"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1afaad53a471e6653f5636f34feed5f668" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1afc8e3a0c5b18a966b060ffeb0b2f8ced" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1ab88d5fb32055f802a4dce423b072dd26" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a71e528676124b23964739633b6d387a7" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a2cd011cdb4d95759be0338c01411dafd" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_cloudOfSamples</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1ae17211b07277b80310c515e2cf7306db" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_minPointsInSample</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1ac1072a840b98f5198e45aded3eccfd28" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_numIters</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a741aff4cdad7b0e7540c23f7e1f9e7da" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a08c58fceaa53b1c996c47bb871743ba2" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_pt2sm</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a604cee58d2ce6cb9b463989a6679b54d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_ptColors</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1aa3fb0a358f1ffdae766ead063d16091f" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_ptsInSm</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a05d6c9a6232d3d687b454d7bf7f13e33" prot="protected" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>_offsetof_smColors</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a316f86c621f441ca2182f7da2634f24e" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>cloudOfSamples</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a8a2058127117d08bcd634aeb240fdecc" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>cloudOfSamples</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a239968dbe867eb8175744a7d12af8760" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>minPointsInSample</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a10ed5e0bd08326eff894cc28a00ac118" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>minPointsInSample</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a16372c40b83d68ad56f0edb580ff7103" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>numIters</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a4cf91221062c5888f8d154fd47a1ce41" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>numIters</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a55372ded79bf3daaeb4595ecdd88c672" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a55372ded79bf3daaeb4595ecdd88c672" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a471a6e493245c2e394412e61d2859e5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a6e12c40bebcafea335a27911279b4fc6" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a1d014323ea235080f25d27bccb44221a" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>pt2sm</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a99d9026176300dbac0c73cc19eade0e5" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>pt2sm</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a34f8b17be6f5ee82a9516c61befa9c60" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>ptColors</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a93b5f4710d4b1dfc0fb3e8fa63fb9612" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>ptColors</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1ac0b391eb579b8f557b721b1a4cb96672" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>ptsInSm</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a0e568445b52b68f25d14b2cffa8a38e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>ptsInSm</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1ad2cf7bf3d7240fc0a87c4a3e1a1106ec" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>smColors</name></member>
+      <member refid="classmrmeshpy_1_1ImproveSamplingSettings_1a1650b23a09ee99eec46f1f430ee1020c" prot="public" virt="non-virtual"><scope>mrmeshpy::ImproveSamplingSettings</scope><name>smColors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

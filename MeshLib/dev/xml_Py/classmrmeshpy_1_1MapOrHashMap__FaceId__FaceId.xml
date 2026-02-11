@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MapOrHashMap_FaceId_FaceId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a6a513f8c73184532424a135568c1defd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MapOrHashMap_FaceId_FaceId::_offsetof_var</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_var</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId._offsetof_var</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26898" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1ac29f7113abfe74f67a0aa90e4127acaf" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.MapOrHashMap_FaceId_FaceId::Dense</definition>
+        <argsstring></argsstring>
+        <name>Dense</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.Dense</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a384a959983e9b09ff9e93cb92910ebb8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.MapOrHashMap_FaceId_FaceId::Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.Hash</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26900" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1ae453a6277c3a8ec025b737fa00377817" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26903" bodyend="26904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a2ddd459fa825ff5b5682d7f5125a1c46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+        <definition> MapOrHashMap_FaceId_FaceId mrmeshpy.MapOrHashMap_FaceId_FaceId.createHashMap</definition>
+        <argsstring>(int capacity=0)</argsstring>
+        <name>createHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.createHashMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26906" bodyend="26907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a33ad81d0dcb7a653a496b51ae571203c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+        <definition> MapOrHashMap_FaceId_FaceId mrmeshpy.MapOrHashMap_FaceId_FaceId.createMap</definition>
+        <argsstring>(int size=0)</argsstring>
+        <name>createMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.createMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26909" bodyend="26910"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1aeb29e6ee097614d90561a285f5e59c5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+        <definition> MapOrHashMap_FaceId_FaceId mrmeshpy.MapOrHashMap_FaceId_FaceId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26913" bodyend="26914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1aeb29e6ee097614d90561a285f5e59c5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+        <definition> MapOrHashMap_FaceId_FaceId mrmeshpy.MapOrHashMap_FaceId_FaceId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26917" bodyend="26918"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1af7357225c87d9ec69cf1c385c68af66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26920" bodyend="26921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1acc1fc26d40a2cb847c109eeb2a1c4822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</definition>
+        <argsstring>(self, MapOrHashMap_FaceId_FaceId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26923" bodyend="26926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a88cd3da0476d8f1788fbd7002d6ac96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</definition>
+        <argsstring>(self, std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag var)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26928" bodyend="26931"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a6cfb3114ec32f50b1204862559760df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26932" bodyend="26933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a0c4ac2a63fd7c8ad67c8cd1db7519293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_FaceTag_Id_FaceTag mrmeshpy.MapOrHashMap_FaceId_FaceId.getHashMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.getHashMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26935" bodyend="26936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a0c4ac2a63fd7c8ad67c8cd1db7519293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_FaceTag_Id_FaceTag mrmeshpy.MapOrHashMap_FaceId_FaceId.getHashMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.getHashMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26938" bodyend="26939"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a04ff8b831776bd6baf73d240cf08ea4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition> FaceMap mrmeshpy.MapOrHashMap_FaceId_FaceId.getMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.getMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26941" bodyend="26942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a04ff8b831776bd6baf73d240cf08ea4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition> FaceMap mrmeshpy.MapOrHashMap_FaceId_FaceId.getMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.getMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26944" bodyend="26945"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a3407dcd9b73fa18589923b9eb817cfb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.pushBack</definition>
+        <argsstring>(self, FaceId key, FaceId val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.pushBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends one element in the map,
+in case of dense map, key must be equal to vector.endId()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26946" bodyend="26950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1abfe3e865a1fdd13e50a948eccba911d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.resizeReserve</definition>
+        <argsstring>(self, int denseTotalSize, int hashAdditionalCapacity)</argsstring>
+        <name>resizeReserve</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.resizeReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>denseTotalSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hashAdditionalCapacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if this stores dense map then resizes it to denseTotalSize;
+if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26951" bodyend="26955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a2772417ec9d2d05aeb478277dbb295a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.setHashMap</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag m)</argsstring>
+        <name>setHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.setHashMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26956" bodyend="26957"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a95a0d844dc1524c47b6292d74970cee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.setMap</definition>
+        <argsstring>(self, FaceMap m)</argsstring>
+        <name>setMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.setMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26958" bodyend="26959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a4abbcd0d159ddf44b106739f92eecbe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+        <definition> std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag mrmeshpy.MapOrHashMap_FaceId_FaceId.var</definition>
+        <argsstring>(self)</argsstring>
+        <name>var</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.var</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>default construction will select dense map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26961" bodyend="26964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a3800c60ee3ca714a3b0be11e3c6b2fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_FaceId_FaceId.var</definition>
+        <argsstring>(self, std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag arg1)</argsstring>
+        <name>var</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_FaceId_FaceId.var</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26966" bodyend="26967"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;
+Aliases:  FaceMapOrHashMap
+
+stores a mapping from keys K to values V in one of two forms:
+1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey)
+2) as hash map preferable when valid keys are a small subset of the range
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MapOrHashMap_FaceId_FaceId</label>
+        <link refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_var</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26889" bodyend="26967"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1ae453a6277c3a8ec025b737fa00377817" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1af7357225c87d9ec69cf1c385c68af66d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1acc1fc26d40a2cb847c109eeb2a1c4822" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a88cd3da0476d8f1788fbd7002d6ac96c" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a6a513f8c73184532424a135568c1defd" prot="protected" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>_offsetof_var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a6cfb3114ec32f50b1204862559760df8" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a2ddd459fa825ff5b5682d7f5125a1c46" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>createHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a33ad81d0dcb7a653a496b51ae571203c" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>createMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1ac29f7113abfe74f67a0aa90e4127acaf" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>Dense</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a0c4ac2a63fd7c8ad67c8cd1db7519293" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a0c4ac2a63fd7c8ad67c8cd1db7519293" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a04ff8b831776bd6baf73d240cf08ea4e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>getMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a04ff8b831776bd6baf73d240cf08ea4e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>getMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a384a959983e9b09ff9e93cb92910ebb8" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>Hash</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1aeb29e6ee097614d90561a285f5e59c5e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1aeb29e6ee097614d90561a285f5e59c5e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a3407dcd9b73fa18589923b9eb817cfb4" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>pushBack</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1abfe3e865a1fdd13e50a948eccba911d9" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>resizeReserve</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a2772417ec9d2d05aeb478277dbb295a2" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>setHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a95a0d844dc1524c47b6292d74970cee9" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>setMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a4abbcd0d159ddf44b106739f92eecbe5" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId_1a3800c60ee3ca714a3b0be11e3c6b2fae" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_FaceId_FaceId</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters" prot="public" virt="non-virtual">mrmeshpy.FixUndercuts.ImproveDirectionParameters</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a7f8cbe074e01d5477701ef7c7ee7f73d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters::_offsetof_distanceMapResolution</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distanceMapResolution</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters._offsetof_distanceMapResolution</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20577" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ab9a2eb17921047855c71fdc90ec62c54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters_1aeb572f1da79723883bc7c0473d92634b">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20580" bodyend="20581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1abb7c399e89213824298235fa1502481f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kindref="compound">FixUndercuts.DistMapImproveDirectionParameters</ref></type>
+        <definition> FixUndercuts.DistMapImproveDirectionParameters mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters_1a28d2e546073de430cde66b3edd791969">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20584" bodyend="20585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1abb7c399e89213824298235fa1502481f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kindref="compound">FixUndercuts.DistMapImproveDirectionParameters</ref></type>
+        <definition> FixUndercuts.DistMapImproveDirectionParameters mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters_1a28d2e546073de430cde66b3edd791969">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20588" bodyend="20589"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a577a90d268d3c2c6a2531d6613f79cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters_1aeb572f1da79723883bc7c0473d92634b">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20591" bodyend="20592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a68dece4dbef2667b381c4c03655df128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.__init__</definition>
+        <argsstring>(self, FixUndercuts.DistMapImproveDirectionParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters_1aeb572f1da79723883bc7c0473d92634b">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kindref="compound">FixUndercuts.DistMapImproveDirectionParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20594" bodyend="20597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1abc2f86df88a674304c3f80d8f97dad66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.distanceMapResolution</definition>
+        <argsstring>(self)</argsstring>
+        <name>distanceMapResolution</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.distanceMapResolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Resolution of distance map, lower it is, faster score works
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20599" bodyend="20602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a2b2d5dab9363778e81168768b83cd7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.distanceMapResolution</definition>
+        <argsstring>(self, Vector2i arg1)</argsstring>
+        <name>distanceMapResolution</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters.distanceMapResolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20604" bodyend="20606"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FixUndercuts::DistMapImproveDirectionParameters
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters</label>
+        <link refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FixUndercuts.ImproveDirectionParameters</label>
+        <link refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters</label>
+        <link refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_distanceMapResolution</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FixUndercuts.ImproveDirectionParameters</label>
+        <link refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_baseAngleStep</edgelabel>
+          <edgelabel>_offsetof_hintDirection</edgelabel>
+          <edgelabel>_offsetof_maxBaseAngle</edgelabel>
+          <edgelabel>_offsetof_polarAngleStep</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20573" bodyend="20605"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ab9a2eb17921047855c71fdc90ec62c54" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a577a90d268d3c2c6a2531d6613f79cbe" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a68dece4dbef2667b381c4c03655df128" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a7f8cbe074e01d5477701ef7c7ee7f73d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>_offsetof_distanceMapResolution</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1abc2f86df88a674304c3f80d8f97dad66" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>distanceMapResolution</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a2b2d5dab9363778e81168768b83cd7e3" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>distanceMapResolution</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1abb7c399e89213824298235fa1502481f" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1abb7c399e89213824298235fa1502481f" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::DistMapImproveDirectionParameters</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

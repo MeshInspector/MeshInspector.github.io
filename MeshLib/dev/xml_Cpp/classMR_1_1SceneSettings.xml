@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneSettings" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneSettings</compoundname>
+    <includes refid="MRSceneSettings_8h" local="no">MRSceneSettings.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BoolType</name>
+        <qualifiedname>MR::SceneSettings::BoolType</qualifiedname>
+        <enumvalue id="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a" prot="public">
+          <name>UseDefaultScenePropertiesOnDeserialization</name>
+          <briefdescription>
+<para>on deserialization replace object properties with default values from <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> and <ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref> </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+<para>total count </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>FloatType</name>
+        <qualifiedname>MR::SceneSettings::FloatType</qualifiedname>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261a76f1624926021a8e4a671dd85c3cdc00" prot="public">
+          <name>FeaturePointsAlpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261ae3241ff3a6a1c4e22348c34a6ef69904" prot="public">
+          <name>FeatureLinesAlpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261a9e62e749ce08f2fc8cb6437f1b409778" prot="public">
+          <name>FeatureMeshAlpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261a643f1e82cb1a542f73852553cdb88310" prot="public">
+          <name>FeatureSubPointsAlpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261aad36d169353d55602524d078a697a16b" prot="public">
+          <name>FeatureSubLinesAlpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261afa71df10d1ecadd399ea1c886d42daf3" prot="public">
+          <name>FeatureSubMeshAlpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261a8a3aad920f8a916d4abf44b25a86ef1e" prot="public">
+          <name>FeatureLineWidth</name>
+          <briefdescription>
+<para><ref refid="structMR_1_1Line" kindref="compound">Line</ref> width of line features (line, circle, ...). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9" prot="public">
+          <name>FeatureSubLineWidth</name>
+          <briefdescription>
+<para><ref refid="structMR_1_1Line" kindref="compound">Line</ref> width of line subfeatures (axes, base circles, ...). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce" prot="public">
+          <name>FeaturePointSize</name>
+          <briefdescription>
+<para>Size of the point feature. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261a42e73be4e6a3c410002eb381e9575f5b" prot="public">
+          <name>FeatureSubPointSize</name>
+          <briefdescription>
+<para>Size of point subfeatures (various centers). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a" prot="public">
+          <name>AmbientCoefSelectedObj</name>
+          <briefdescription>
+<para>Ambient multiplication coefficient for ambientStrength for selected objects. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="26" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ShadingMode</name>
+        <qualifiedname>MR::SceneSettings::ShadingMode</qualifiedname>
+        <enumvalue id="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf" prot="public">
+          <name>AutoDetect</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4" prot="public">
+          <name>Smooth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d" prot="public">
+          <name>Flat</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> faces shading mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="53" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="54" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SceneSettings_1a75e3127e8a7c5e0009f6238aeb254941" prot="private" static="no" mutable="no">
+        <type>std::array&lt; bool, size_t(<ref refid="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">BoolType::Count</ref>) &gt;</type>
+        <definition>std::array&lt;bool, size_t( BoolType::Count ) &gt; MR::SceneSettings::boolSettings_</definition>
+        <argsstring></argsstring>
+        <name>boolSettings_</name>
+        <qualifiedname>MR::SceneSettings::boolSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="76" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneSettings_1a61a10cb8195c7d27a991787319abc2d4" prot="private" static="no" mutable="no">
+        <type>std::array&lt; float, size_t(<ref refid="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">FloatType::Count</ref>) &gt;</type>
+        <definition>std::array&lt;float, size_t( FloatType::Count ) &gt; MR::SceneSettings::floatSettings_</definition>
+        <argsstring></argsstring>
+        <name>floatSettings_</name>
+        <qualifiedname>MR::SceneSettings::floatSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="77" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneSettings_1acd4f262ef33f4cc9d0bbee84ddbfcb1c" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290c" kindref="member">ShadingMode</ref></type>
+        <definition>ShadingMode MR::SceneSettings::defaultShadingMode_</definition>
+        <argsstring></argsstring>
+        <name>defaultShadingMode_</name>
+        <qualifiedname>MR::SceneSettings::defaultShadingMode_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf" kindref="member">ShadingMode::AutoDetect</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="79" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SceneSettings_1a61486b22f9af7ded129fa6bcb8b6d30b" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
+        <definition>CNCMachineSettings MR::SceneSettings::cncMachineSettings_</definition>
+        <argsstring></argsstring>
+        <name>cncMachineSettings_</name>
+        <qualifiedname>MR::SceneSettings::cncMachineSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="80" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a99c0597b4736ae61ccee231e3ee128f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>static MRMESH_API void MR::SceneSettings::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::SceneSettings::reset</qualifiedname>
+        <briefdescription>
+<para>Reset all scene settings to default values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="15" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a18c9a1123941b3ec2a871e49db0bd687" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>static MRMESH_API bool MR::SceneSettings::get</definition>
+        <argsstring>(BoolType type)</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::SceneSettings::get</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8" kindref="member">BoolType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="47" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a6d3be44b66c41e166e07856aa4673e4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <definition>static MRMESH_API float MR::SceneSettings::get</definition>
+        <argsstring>(FloatType type)</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::SceneSettings::get</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261" kindref="member">FloatType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="48" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a51aaea6eb63ecc588e48c5dc225d6f37" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>static MRMESH_API void MR::SceneSettings::set</definition>
+        <argsstring>(BoolType type, bool value)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::SceneSettings::set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8" kindref="member">BoolType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="49" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a68b57eea600905333d751706f1d51652" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>static MRMESH_API void MR::SceneSettings::set</definition>
+        <argsstring>(FloatType type, float value)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::SceneSettings::set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261" kindref="member">FloatType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="50" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1ad795c96b5d06b21a8f5f3510c945b568" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290c" kindref="member">ShadingMode</ref></type>
+        <definition>static MRMESH_API ShadingMode MR::SceneSettings::getDefaultShadingMode</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultShadingMode</name>
+        <qualifiedname>MR::SceneSettings::getDefaultShadingMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default shading mode for new mesh objects, or imported form files Tools may consider this setting when creating new meshes <computeroutput>AutoDetect</computeroutput>: choose depending of file format and mesh shape, fallback to smooth </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="63" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1ac1d2767ac82804a0b2c0d7e9204ec4c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>static MRMESH_API void MR::SceneSettings::setDefaultShadingMode</definition>
+        <argsstring>(ShadingMode mode)</argsstring>
+        <name>setDefaultShadingMode</name>
+        <qualifiedname>MR::SceneSettings::setDefaultShadingMode</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290c" kindref="member">ShadingMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="64" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1acc623e68729b68bbf4c1068297ab5122" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
+        <definition>static MRMESH_API const CNCMachineSettings &amp; MR::SceneSettings::getCNCMachineSettings</definition>
+        <argsstring>()</argsstring>
+        <name>getCNCMachineSettings</name>
+        <qualifiedname>MR::SceneSettings::getCNCMachineSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="66" column="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a74e917fd6f8f3e450de96469896b2bf1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>static MRMESH_API void MR::SceneSettings::setCNCMachineSettings</definition>
+        <argsstring>(const CNCMachineSettings &amp;settings)</argsstring>
+        <name>setCNCMachineSettings</name>
+        <qualifiedname>MR::SceneSettings::setCNCMachineSettings</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="67" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a3db2438b6d6dd98c4b6a06775c388370" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::SceneSettings::SceneSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SceneSettings</name>
+        <qualifiedname>MR::SceneSettings::SceneSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="70" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a833e6c4ea6089cdfa4dbddf1706b3016" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SceneSettings::~SceneSettings</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SceneSettings</name>
+        <qualifiedname>MR::SceneSettings::~SceneSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="71" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1aab309373a5f3f1cdf32c93bcc6fc34f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> &amp;</type>
+        <definition>SceneSettings &amp; MR::SceneSettings::operator=</definition>
+        <argsstring>(const SceneSettings &amp;other)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::SceneSettings::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="72" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1SceneSettings_1a287f581fbd80098de7734314b41e28c1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> &amp;</type>
+        <definition>static SceneSettings &amp; MR::SceneSettings::instance_</definition>
+        <argsstring>()</argsstring>
+        <name>instance_</name>
+        <qualifiedname>MR::SceneSettings::instance_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="74" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This singleton struct contains default settings for scene objects </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="12" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneSettings_1a75e3127e8a7c5e0009f6238aeb254941" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>boolSettings_</name></member>
+      <member refid="classMR_1_1SceneSettings_1a01216132f55f2f10947b9f6143f1b9b8" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>BoolType</name></member>
+      <member refid="classMR_1_1SceneSettings_1a61486b22f9af7ded129fa6bcb8b6d30b" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>cncMachineSettings_</name></member>
+      <member refid="classMR_1_1SceneSettings_1acd4f262ef33f4cc9d0bbee84ddbfcb1c" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>defaultShadingMode_</name></member>
+      <member refid="classMR_1_1SceneSettings_1a61a10cb8195c7d27a991787319abc2d4" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>floatSettings_</name></member>
+      <member refid="classMR_1_1SceneSettings_1ad40f8b0bfec68b50393b6e9e021b0261" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>FloatType</name></member>
+      <member refid="classMR_1_1SceneSettings_1a18c9a1123941b3ec2a871e49db0bd687" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>get</name></member>
+      <member refid="classMR_1_1SceneSettings_1a6d3be44b66c41e166e07856aa4673e4f" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>get</name></member>
+      <member refid="classMR_1_1SceneSettings_1acc623e68729b68bbf4c1068297ab5122" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>getCNCMachineSettings</name></member>
+      <member refid="classMR_1_1SceneSettings_1ad795c96b5d06b21a8f5f3510c945b568" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>getDefaultShadingMode</name></member>
+      <member refid="classMR_1_1SceneSettings_1a287f581fbd80098de7734314b41e28c1" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>instance_</name></member>
+      <member refid="classMR_1_1SceneSettings_1aab309373a5f3f1cdf32c93bcc6fc34f9" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>operator=</name></member>
+      <member refid="classMR_1_1SceneSettings_1a99c0597b4736ae61ccee231e3ee128f2" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>reset</name></member>
+      <member refid="classMR_1_1SceneSettings_1a3db2438b6d6dd98c4b6a06775c388370" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>SceneSettings</name></member>
+      <member refid="classMR_1_1SceneSettings_1a51aaea6eb63ecc588e48c5dc225d6f37" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>set</name></member>
+      <member refid="classMR_1_1SceneSettings_1a68b57eea600905333d751706f1d51652" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>set</name></member>
+      <member refid="classMR_1_1SceneSettings_1a74e917fd6f8f3e450de96469896b2bf1" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>setCNCMachineSettings</name></member>
+      <member refid="classMR_1_1SceneSettings_1ac1d2767ac82804a0b2c0d7e9204ec4c4" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>setDefaultShadingMode</name></member>
+      <member refid="classMR_1_1SceneSettings_1a308e72dcfc90ae1a9370ca7c7bc3290c" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>ShadingMode</name></member>
+      <member refid="classMR_1_1SceneSettings_1a833e6c4ea6089cdfa4dbddf1706b3016" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>~SceneSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

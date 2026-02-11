@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__DecimateGroup" kind="group">
+    <compoundname>DecimateGroup</compoundname>
+    <title>Decimate overview</title>
+    <innerclass refid="structMR_1_1DecimateSettings" prot="public">MR::DecimateSettings</innerclass>
+    <innerclass refid="structMR_1_1DecimateResult" prot="public">MR::DecimateResult</innerclass>
+    <innerclass refid="structMR_1_1DecimatePolylineSettings" prot="public">MR::DecimatePolylineSettings</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DecimateResult</type>
+        <definition>MRMESH_API DecimateResult MR::decimateMesh</definition>
+        <argsstring>(Mesh &amp;mesh, const DecimateSettings &amp;settings={})</argsstring>
+        <name>decimateMesh</name>
+        <qualifiedname>MR::decimateMesh</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const DecimateSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Performs mesh simplification in mesh region according to the settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><programlisting filename="cpp-examples/MeshDecimate.dox.cpp"></programlisting></para>
+<para><image type="html" name="decimate_before.png" width="350cm">Before</image>
+ <image type="html" name="decimate_after.png" width="350cm">After</image>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="194" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="194" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1gacb444edaf47dfdb3ecdd1e8e89947640" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> QuadraticForm3f</type>
+        <definition>MRMESH_API QuadraticForm3f MR::computeFormAtVertex</definition>
+        <argsstring>(const MeshPart &amp;mp, VertId v, float stabilizer, bool angleWeigted, const UndirectedEdgeBitSet *creases=nullptr)</argsstring>
+        <name>computeFormAtVertex</name>
+        <qualifiedname>MR::computeFormAtVertex</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>angleWeigted</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>creases</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Computes quadratic form at given vertex of the initial surface before decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="209" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="209" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1gaf5753b646d0c83bd144038b4d90d0918" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector&lt; QuadraticForm3f, VertId &gt;</type>
+        <definition>MRMESH_API Vector&lt; QuadraticForm3f, VertId &gt; MR::computeFormsAtVertices</definition>
+        <argsstring>(const MeshPart &amp;mp, float stabilizer, bool angleWeigted, const UndirectedEdgeBitSet *creases=nullptr)</argsstring>
+        <name>computeFormsAtVertices</name>
+        <qualifiedname>MR::computeFormsAtVertices</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>angleWeigted</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>creases</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Computes quadratic forms at every vertex of mesh part before decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="215" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="215" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1ga68a943035521cac62a80a1f864147c6e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::getSubdividePart</definition>
+        <argsstring>(const FaceBitSet &amp;valids, size_t subdivideParts, size_t myPart)</argsstring>
+        <name>getSubdividePart</name>
+        <qualifiedname>MR::getSubdividePart</qualifiedname>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>valids</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>subdivideParts</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>myPart</declname>
+        </param>
+        <briefdescription>
+<para>returns given subdivision part of all valid faces; parallel threads shall be able to safely modify these bits because they do not share any block with other parts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="222" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="222" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1ga881bb2eecb81e65b51d1cb8a52340637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::resolveMeshDegenerations</definition>
+        <argsstring>(Mesh &amp;mesh, const ResolveMeshDegenSettings &amp;settings={})</argsstring>
+        <name>resolveMeshDegenerations</name>
+        <qualifiedname>MR::resolveMeshDegenerations</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const ResolveMeshDegenSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>consider using <ref refid="group__MeshFixerGroup_1gad11bed424b514b2e835eb9ba644dd4eb" kindref="member">fixMeshDegeneracies</ref> for more complex cases</para>
+<para><simplesect kind="return"><para>true if the mesh has been changed</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" kindref="member">decimateMesh</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="255" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="255" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DecimatePolylineResult</type>
+        <definition>MRMESH_API DecimatePolylineResult MR::decimatePolyline</definition>
+        <argsstring>(Polyline2 &amp;polyline, const DecimatePolylineSettings2 &amp;settings={})</argsstring>
+        <name>decimatePolyline</name>
+        <qualifiedname>MR::decimatePolyline</qualifiedname>
+        <param>
+          <type>Polyline2 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const DecimatePolylineSettings2 &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Collapse edges in the polyline according to the settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="91" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="91" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1gac12c761d9044619a794badf63900a599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DecimatePolylineResult</type>
+        <definition>MRMESH_API DecimatePolylineResult MR::decimateContour</definition>
+        <argsstring>(Contour2f &amp;contour, const DecimatePolylineSettings2 &amp;settings={})</argsstring>
+        <name>decimateContour</name>
+        <qualifiedname>MR::decimateContour</qualifiedname>
+        <param>
+          <type>Contour2f &amp;</type>
+          <declname>contour</declname>
+        </param>
+        <param>
+          <type>const DecimatePolylineSettings2 &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Collapse edges in the contour according to the settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="98" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="98" declcolumn="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This chapter represents documentation about mesh decimation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UiRenderParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UiRenderParams</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.BaseRenderParams</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UiRenderParams_1a4697387b123d0ebdb714f4543081a1b4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UiRenderParams::_offsetof_tasks</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tasks</name>
+        <qualifiedname>mrmeshpy.UiRenderParams._offsetof_tasks</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58549" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UiRenderParams_1a5a51970d52b1c57e79332439e1afd676" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.UiRenderParams::UiTaskList</definition>
+        <argsstring></argsstring>
+        <name>UiTaskList</name>
+        <qualifiedname>mrmeshpy.UiRenderParams.UiTaskList</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask" kindref="compound">std_vector_std_shared_ptr_BasicUiRenderTask</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58550" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UiRenderParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58553" bodyend="58554"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderParams.__init__</definition>
+        <argsstring>(self, UiRenderParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UiRenderParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UiRenderParams" kindref="compound">UiRenderParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58556" bodyend="58559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderParams_1ab3fce8014aa7c024a0b8c85de8b7e430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask" kindref="compound">std_vector_std_shared_ptr_BasicUiRenderTask</ref></type>
+        <definition> std_vector_std_shared_ptr_BasicUiRenderTask mrmeshpy.UiRenderParams.tasks</definition>
+        <argsstring>(self)</argsstring>
+        <name>tasks</name>
+        <qualifiedname>mrmeshpy.UiRenderParams.tasks</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Those are Z-sorted and then executed.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58561" bodyend="58564"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderParams_1ab809c594264d137bcba4abd9f7bd3eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderParams.tasks</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_BasicUiRenderTask arg1)</argsstring>
+        <name>tasks</name>
+        <qualifiedname>mrmeshpy.UiRenderParams.tasks</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask" kindref="compound">std_vector_std_shared_ptr_BasicUiRenderTask</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58566" bodyend="58567"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UiRenderParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.UiRenderParams</label>
+        <link refid="classmrmeshpy_1_1UiRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UiRenderParams</label>
+        <link refid="classmrmeshpy_1_1UiRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_tasks</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_projMatrix</edgelabel>
+          <edgelabel>_offsetof_viewMatrix</edgelabel>
+          <edgelabel>_offsetof_viewport</edgelabel>
+          <edgelabel>_offsetof_viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58545" bodyend="58567"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderParams_1a4697387b123d0ebdb714f4543081a1b4" prot="protected" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>_offsetof_tasks</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderParams_1ab3fce8014aa7c024a0b8c85de8b7e430" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>tasks</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderParams_1ab809c594264d137bcba4abd9f7bd3eb0" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>tasks</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderParams_1a5a51970d52b1c57e79332439e1afd676" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>UiTaskList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

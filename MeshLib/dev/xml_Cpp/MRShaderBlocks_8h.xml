@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRShaderBlocks_8h" kind="file" language="C++">
+    <compoundname>MRShaderBlocks.h</compoundname>
+    <includes local="yes">exports.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="MRLinesShader_8h" local="yes">MRLinesShader.h</includedby>
+    <includedby refid="MRMeshShader_8h" local="yes">MRMeshShader.h</includedby>
+    <includedby refid="MRPointsShader_8h" local="yes">MRPointsShader.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRShaderBlocks.h</label>
+        <link refid="MRShaderBlocks_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>exports.h</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRLinesShader.h</label>
+        <link refid="MRLinesShader_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshShader.h</label>
+        <link refid="MRMeshShader_8h"/>
+      </node>
+      <node id="4">
+        <label>MRPointsShader.h</label>
+        <link refid="MRPointsShader_8h"/>
+      </node>
+      <node id="1">
+        <label>MRShaderBlocks.h</label>
+        <link refid="MRShaderBlocks_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespaceMR_1a26e449af7b615d9ec3575a5298ac7083" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a26e449af7b615d9ec3575a5298ac7083" kindref="member">ShaderTransparencyMode</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c" kindref="member">AlphaSort</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6" kindref="member">DepthPeel</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceMR_1af91e57bae7626f4e18c5bc1726ab2581" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1af91e57bae7626f4e18c5bc1726ab2581" kindref="member">getPickerFragmentShader</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>points,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cornerMode<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespaceMR_1aa526d722563500e7548560bc0a95cde4" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1aa526d722563500e7548560bc0a95cde4" kindref="member">getFragmentShaderClippingBlock</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1aed5e226340fe1e3bfdcbdae04a1ebfca" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1aed5e226340fe1e3bfdcbdae04a1ebfca" kindref="member">getFragmentShaderPointSizeBlock</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespaceMR_1a5404571bb440331ecfd841ff6e8741cc" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1a5404571bb440331ecfd841ff6e8741cc" kindref="member">getFragmentShaderOnlyOddBlock</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sampleMask<sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="namespaceMR_1aee5ff563a655d703fa5d39aa65e1c0f3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1aee5ff563a655d703fa5d39aa65e1c0f3" kindref="member">getFragmentShaderHeaderBlock</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>gl4,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>alphaSort<sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="namespaceMR_1ad89fc9e615cf97d28183d6a676fdd4d1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1ad89fc9e615cf97d28183d6a676fdd4d1" kindref="member">getFragmentShaderEndBlock</ref>(<sp/><ref refid="namespaceMR_1a26e449af7b615d9ec3575a5298ac7083" kindref="member">ShaderTransparencyMode</ref><sp/>transparencyMode<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1afb88682a9d85529f849b971ada153795" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1afb88682a9d85529f849b971ada153795" kindref="member">getShaderMainBeginBlock</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addDepthPeelSamplers<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShaderBlocks.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IPointsToMeshProjector" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IPointsToMeshProjector</compoundname>
+    <derivedcompoundref refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public" virt="non-virtual">MR::Cuda::PointsToMeshProjector</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PointsToMeshProjector" prot="public" virt="non-virtual">MR::PointsToMeshProjector</derivedcompoundref>
+    <includes refid="MRPointsToMeshProjector_8h" local="no">MRPointsToMeshProjector.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IPointsToMeshProjector_1ac1a1633695c8776296054f81942a84dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::IPointsToMeshProjector::~IPointsToMeshProjector</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IPointsToMeshProjector</name>
+        <qualifiedname>MR::IPointsToMeshProjector::~IPointsToMeshProjector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="15" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPointsToMeshProjector_1a8386d444f8e600bb3fe67a31fc2c04f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::IPointsToMeshProjector::updateMeshData</definition>
+        <argsstring>(const Mesh *mesh)=0</argsstring>
+        <name>updateMeshData</name>
+        <qualifiedname>MR::IPointsToMeshProjector::updateMeshData</qualifiedname>
+        <reimplementedby refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1acea486c98480ff347d65eaed201897c2">updateMeshData</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointsToMeshProjector_1afed176c7dbfe208569b144bdc9098406">updateMeshData</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>Updates all data related to the referencing mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="17" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPointsToMeshProjector_1affb7ba1779ad577458ada7ad99f578ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::IPointsToMeshProjector::findProjections</definition>
+        <argsstring>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</argsstring>
+        <name>findProjections</name>
+        <qualifiedname>MR::IPointsToMeshProjector::findProjections</qualifiedname>
+        <reimplementedby refid="classMR_1_1PointsToMeshProjector_1ae194bedca304ad2f71754636df131baa">findProjections</reimplementedby>
+        <param>
+          <type>std::vector&lt; <ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref> &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>worldXf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>worldRefXf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+          <defval>0.0f</defval>
+        </param>
+        <briefdescription>
+<para>Computes the closest point on mesh to each of given points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="19" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPointsToMeshProjector_1a2743e8821707c1810ac41b5918b2613c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::IPointsToMeshProjector::projectionsHeapBytes</definition>
+        <argsstring>(size_t numProjections) const =0</argsstring>
+        <name>projectionsHeapBytes</name>
+        <qualifiedname>MR::IPointsToMeshProjector::projectionsHeapBytes</qualifiedname>
+        <reimplementedby refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a01151649b364309dda94e8170e3e10f3">projectionsHeapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1PointsToMeshProjector_1a3bf37be2e7fcb673d711ca176b94d282">projectionsHeapBytes</reimplementedby>
+        <param>
+          <type>size_t</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+<para>Returns amount of memory needed to compute projections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="24" column="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions must be implemented. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Cuda::PointsToMeshProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsToMeshProjector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::IPointsToMeshProjector</label>
+        <link refid="classMR_1_1IPointsToMeshProjector"/>
+      </node>
+      <node id="3">
+        <label>MR::PointsToMeshProjector</label>
+        <link refid="classMR_1_1PointsToMeshProjector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IPointsToMeshProjector_1affb7ba1779ad577458ada7ad99f578ce" prot="public" virt="pure-virtual"><scope>MR::IPointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1IPointsToMeshProjector_1a2743e8821707c1810ac41b5918b2613c" prot="public" virt="pure-virtual"><scope>MR::IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1IPointsToMeshProjector_1a8386d444f8e600bb3fe67a31fc2c04f3" prot="public" virt="pure-virtual"><scope>MR::IPointsToMeshProjector</scope><name>updateMeshData</name></member>
+      <member refid="classMR_1_1IPointsToMeshProjector_1ac1a1633695c8776296054f81942a84dc" prot="public" virt="virtual"><scope>MR::IPointsToMeshProjector</scope><name>~IPointsToMeshProjector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

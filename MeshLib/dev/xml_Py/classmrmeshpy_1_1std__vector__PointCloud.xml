@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__PointCloud" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_PointCloud</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__PointCloud_1a66a18963f98b780e843ce8e83d9b9ae0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_PointCloud::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.element_type_byte_size</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86279" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a4c757fdbb756f2bfad9c6734a5127a8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointCloud.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86280" bodyend="86283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a2f2c9af3151f98cbe8b693e332b2922c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86285" bodyend="86288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a0a62a98efc74f8f6c4c0f4755bd808da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86290" bodyend="86293"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a2f0424d69a5ca5105577c1292cf4eebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__PointCloud" kindref="compound">std_vector_PointCloud</ref></type>
+        <definition> std_vector_PointCloud mrmeshpy.std_vector_PointCloud.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86295" bodyend="86298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a8d99e7cf503c3394f41def7b071685ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.std_vector_PointCloud.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86300" bodyend="86301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a372b0269ed027c0784ab336c8c00f0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86303" bodyend="86304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1af14d2f541f529dc95a4acea884df5120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86306" bodyend="86307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a38ebf8e5ff7c5dcbb868e94b12027630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__init__</definition>
+        <argsstring>(self, std_vector_PointCloud arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointCloud" kindref="compound">std_vector_PointCloud</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86309" bodyend="86310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1ac0b7fa2c1066b28f204fa6111dc1e2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref>]</type>
+        <definition> typing.Iterator[PointCloud] mrmeshpy.std_vector_PointCloud.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86311" bodyend="86312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a7ee2c869f5ccbd917659f781876f61ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointCloud.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86313" bodyend="86314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a9ff659619b92ad4cad628c2123aa4c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__setitem__</definition>
+        <argsstring>(self, int arg0, PointCloud arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86316" bodyend="86317"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1aff5e701b19701d5fca069af85d215b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_PointCloud arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointCloud" kindref="compound">std_vector_PointCloud</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86319" bodyend="86322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a7a387e54af1d9055f098e8366b148af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.append</definition>
+        <argsstring>(self, PointCloud x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86323" bodyend="86326"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a8e53bbb0ae3db54d65fd42d98393b202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86327" bodyend="86330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1aae34f38bd56b439971a5991d44457d80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointCloud.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86331" bodyend="86334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a159edb4ea5b52f3eca48129827042e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_PointCloud.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86335" bodyend="86336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a86a67d4ae05fc53cbaa70a72d160678c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.extend</definition>
+        <argsstring>(self, std_vector_PointCloud L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__PointCloud" kindref="compound">std_vector_PointCloud</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86338" bodyend="86341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a6b83a4c3146219f58ac4caf63384ceaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86343" bodyend="86346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1a91e83e253b93ffe4817a452570e85681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.insert</definition>
+        <argsstring>(self, int i, PointCloud x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86347" bodyend="86350"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1af15e04cf668194e728f653c7bdfc5787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.std_vector_PointCloud.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86352" bodyend="86355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1ab63ebc23529efef7e27bd9e5dc7ef90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.std_vector_PointCloud.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86357" bodyend="86360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1aa5d799a22d907df3b94502ae0d39e223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86362" bodyend="86363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1ac13f3ff8eb2d668da2c0a11a250375f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_PointCloud.resize</definition>
+        <argsstring>(self, int arg0, PointCloud arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86365" bodyend="86366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__PointCloud_1afd4d6490b8d06bf41ad160eff8f1808d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_PointCloud.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_PointCloud.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86367" bodyend="86368"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_PointCloud</label>
+        <link refid="classmrmeshpy_1_1std__vector__PointCloud"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86278" bodyend="86368"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a4c757fdbb756f2bfad9c6734a5127a8c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a2f2c9af3151f98cbe8b693e332b2922c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a0a62a98efc74f8f6c4c0f4755bd808da" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a2f0424d69a5ca5105577c1292cf4eebf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a8d99e7cf503c3394f41def7b071685ca" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a372b0269ed027c0784ab336c8c00f0db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1af14d2f541f529dc95a4acea884df5120" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a38ebf8e5ff7c5dcbb868e94b12027630" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1ac0b7fa2c1066b28f204fa6111dc1e2db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a7ee2c869f5ccbd917659f781876f61ee" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a9ff659619b92ad4cad628c2123aa4c3d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1aff5e701b19701d5fca069af85d215b2c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a7a387e54af1d9055f098e8366b148af3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a8e53bbb0ae3db54d65fd42d98393b202" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1aae34f38bd56b439971a5991d44457d80" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a66a18963f98b780e843ce8e83d9b9ae0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a159edb4ea5b52f3eca48129827042e8b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a86a67d4ae05fc53cbaa70a72d160678c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a6b83a4c3146219f58ac4caf63384ceaf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1a91e83e253b93ffe4817a452570e85681" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1af15e04cf668194e728f653c7bdfc5787" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1ab63ebc23529efef7e27bd9e5dc7ef90a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1aa5d799a22d907df3b94502ae0d39e223" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1ac13f3ff8eb2d668da2c0a11a250375f1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__PointCloud_1afd4d6490b8d06bf41ad160eff8f1808d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_PointCloud</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

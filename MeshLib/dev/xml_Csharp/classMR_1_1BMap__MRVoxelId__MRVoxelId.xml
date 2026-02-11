@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BMap__MRVoxelId__MRVoxelId" kind="class" language="C#" prot="public">
+    <compoundname>MR::BMap_MRVoxelId_MRVoxelId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRVoxelId_MRVoxelId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a1a62d32a78b88e6ed0b514eb2e84d770" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId" kindref="compound">MR.Buffer_MRVoxelId_MRVoxelId</ref></type>
+        <definition>new unsafe MR.Buffer_MRVoxelId_MRVoxelId MR.BMap_MRVoxelId_MRVoxelId.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.b</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8532" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8532" bodyend="8532"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a508cd495c4bfd5f11f59c2a6e18ddc8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.BMap_MRVoxelId_MRVoxelId.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.tsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8535" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8535" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a9d62ac7a94e67e2bbc0113a43464c9b1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BMap_MRVoxelId_MRVoxelId</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8554" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8554" bodyend="8558"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7532793eb208e60e91e11ba259f598da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</definition>
+        <argsstring>()</argsstring>
+        <name>BMap_MRVoxelId_MRVoxelId</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8564" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8564" bodyend="8570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7a1a086e25203f848feb361a84e3774f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRVoxelId_MRVoxelId b, ulong tsize)</argsstring>
+        <name>BMap_MRVoxelId_MRVoxelId</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRVoxelId_MRVoxelId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8575" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8575" bodyend="8582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a5ea5437f9cd3f720be385696bc12d686" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</definition>
+        <argsstring>(MR._ByValue_BMap_MRVoxelId_MRVoxelId _other)</argsstring>
+        <name>BMap_MRVoxelId_MRVoxelId</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRVoxelId_MRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::BMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8587" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8587" bodyend="8594"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a2babf719a7e3768844873c2ad930aeab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BMap__MRVoxelId__MRVoxelId" kindref="compound">MR.BMap_MRVoxelId_MRVoxelId</ref></type>
+        <definition>unsafe MR.BMap_MRVoxelId_MRVoxelId MR.BMap_MRVoxelId_MRVoxelId.assign</definition>
+        <argsstring>(MR._ByValue_BMap_MRVoxelId_MRVoxelId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRVoxelId_MRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8599" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8599" bodyend="8606"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput>MR.BMap&lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BMap_MRVoxelId_MRVoxelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BMap_MRVoxelId_MRVoxelId</label>
+        <link refid="classMR_1_1BMap__MRVoxelId__MRVoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BMap_MRVoxelId_MRVoxelId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BMap_MRVoxelId_MRVoxelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BMap_MRVoxelId_MRVoxelId</label>
+        <link refid="classMR_1_1BMap__MRVoxelId__MRVoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BMap_MRVoxelId_MRVoxelId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8530" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8531" bodyend="8607"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a2babf719a7e3768844873c2ad930aeab" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a1a62d32a78b88e6ed0b514eb2e84d770" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>b</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a9d62ac7a94e67e2bbc0113a43464c9b1" prot="package" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7532793eb208e60e91e11ba259f598da" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7a1a086e25203f848feb361a84e3774f" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a5ea5437f9cd3f720be385696bc12d686" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a508cd495c4bfd5f11f59c2a6e18ddc8f" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
